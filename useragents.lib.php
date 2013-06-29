@@ -6531,6 +6531,7 @@
 							break;
 						case '18.0.1025':
 						case '25.0.1364':
+						case '27.0.1453':
 							$this->browser->version->details = 1;
 							break;
 						default:	
