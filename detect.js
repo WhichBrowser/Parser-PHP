@@ -347,22 +347,22 @@ var WhichBrowser = (function(){
 					
 					if (this.os.name == 'iOS' && this.browser.name != 'Opera Mini' && this.browser.name != 'UC Browser' && this.os.version) {
 					
-						if (this.os.version.isOlder('4.0') && 'sandbox' in document.createElement('iframe')) {
+						if (this.os.version.is('<', '4.0') && 'sandbox' in document.createElement('iframe')) {
 							this.features.push('foundSandbox');
 							this.camouflage = true;			
 						}
 						
-						if (this.os.version.isOlder('4.2') && 'WebSocket' in window) {
+						if (this.os.version.is('<', '4.2') && 'WebSocket' in window) {
 							this.features.push('foundSockets');
 							this.camouflage = true;			
 						}
 	
-						if (this.os.version.isOlder('5.0') && !!window.Worker) {
+						if (this.os.version.is('<', '5.0') && !!window.Worker) {
 							this.features.push('foundWorker');
 							this.camouflage = true;			
 						}
 
-						if (this.os.version.isNewer('2.1') && !window.applicationCache) {
+						if (this.os.version.is('>', '2.1') && !window.applicationCache) {
 							this.features.push('noAppCache');
 							this.camouflage = true;			
 						}
@@ -370,22 +370,22 @@ var WhichBrowser = (function(){
 					
 					if (this.os.name != 'iOS' && this.browser.name == 'Safari' && this.browser.version) {
 					
-						if (this.browser.version.isOlder('4.0') && !!window.applicationCache) {
+						if (this.browser.version.is('<', '4.0') && !!window.applicationCache) {
 							this.features.push('foundAppCache');
 							this.camouflage = true;			
 						}
 					
-						if (this.browser.version.isOlder('4.1') && !!(window.history && history.pushState)) {
+						if (this.browser.version.is('<', '4.1') && !!(window.history && history.pushState)) {
 							this.features.push('foundHistory');
 							this.camouflage = true;			
 						}
 					
-						if (this.browser.version.isOlder('5.1') && !!document.documentElement.webkitRequestFullScreen) {
+						if (this.browser.version.is('<', '5.1') && !!document.documentElement.webkitRequestFullScreen) {
 							this.features.push('foundFullscreen');
 							this.camouflage = true;			
 						}
 					
-						if (this.browser.version.isOlder('5.2') && 'FileReader' in window) {
+						if (this.browser.version.is('<', '5.2') && 'FileReader' in window) {
 							this.features.push('foundFileReader');
 							this.camouflage = true;			
 						}
