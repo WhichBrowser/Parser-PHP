@@ -58,18 +58,35 @@ var WhichBrowser = (function(){
 		},
 		
 		is: function(v) {
-			var compare = new Version({ value: v });
-			return this.valueOf() == compare.valueOf();
-		},
-		
-		isOlder: function(v) {
-			var compare = new Version({ value: v });
-			return this.valueOf() < compare.valueOf();
-		},
-		
-		isNewer: function(v) {
-			var compare = new Version({ value: v });
-			return this.valueOf() > compare.valueOf();
+			var valid = false;
+			
+			if (arguments.length > 0) {
+				var operator = '=';
+				var compare = null;
+				
+				if (arguments.length == 1) {
+					compare = new Version({ value: arguments[0] });
+				}
+				
+				if (arguments.length >= 2) {
+					operator = arguments[0];
+					compare = new Version({ value: arguments[1] });
+				}
+				
+				if (compare) {
+					switch (operator) {
+						case '<':	valid = this.valueOf() < compare.valueOf(); break;
+						case '<=':	valid = this.valueOf() <= compare.valueOf(); break;
+						case '=':	valid = this.valueOf() == compare.valueOf(); break;
+						case '>':	valid = this.valueOf() > compare.valueOf(); break;
+						case '>=':	valid = this.valueOf() >= compare.valueOf(); break;
+					}
+				}
+				
+				return valid;
+			}
+			
+			return false;
 		},
 		
 		valueOf: function() {
