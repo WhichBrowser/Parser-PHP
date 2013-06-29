@@ -240,6 +240,5 @@ The `version` object is used for the `version` property of the `browser`, `engin
 
 **Functions:**
 
-* `is()`
-* `isOlder()`
-* `isNewer()`
+`is(version)` or `is(comparison, version)`  
+Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`. 
