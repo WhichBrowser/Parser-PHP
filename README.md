@@ -101,10 +101,10 @@ You can also access these properties directly:
     
 Finally you can also query these properies:
 
-    Browsers.browser.version.isNewer(26)
+    Browsers.browser.version.is('>', 26)
     // true
     
-    Browsers.os.version.isOlder('10.7.4')
+    Browsers.os.version.is('<', '10.7.4')
     // false
 
 
