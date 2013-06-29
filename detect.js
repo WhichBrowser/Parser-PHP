@@ -74,6 +74,23 @@ var WhichBrowser = (function(){
 			return parseFloat('' + this.major + '.' + ('0000' + this.minor).slice(-4) + ('0000' + this.revision).slice(-4));
 		},
 		
+		toJSON: function() {
+			var o = {
+				value:		this.toString(),
+				details:	this.details,
+				original:	this.original,
+				major:		this.major,
+				minor:		this.minor,
+				build:		this.build,
+				revision:	this.revision
+			};
+			
+			if (this.type) o.type = this.type;
+			if (this.alias) o.alias = this.alias;
+			
+			return o;
+		},
+		
 		toString: function() {
 			if (this.alias)
 				return this.alias;
@@ -356,6 +373,36 @@ var WhichBrowser = (function(){
 					}
 				}
 			}
+		},
+		
+		toJSON: function() {
+			var o = {
+				browser:	{},
+				os:			{},
+				engine:		{},
+				device:		{
+					type:		this.device.type,
+					identified:	this.device.identified
+				}
+			};
+			
+			if (this.browser.name) o.browser.name = this.browser.name;
+			if (this.browser.version) o.browser.version = this.browser.version.toJSON();
+			if (this.browser.stock) o.browser.stock = this.browser.stock;
+			if (this.browser.channel) o.browser.channel = this.browser.channel;
+			if (this.browser.mode) o.browser.mode = this.browser.mode;
+			if (this.browser.hidden) o.browser.hidden = this.browser.hidden;
+
+			if (this.engine.name) o.engine.name = this.engine.name;
+			if (this.engine.version) o.engine.version = this.engine.version.toJSON();
+
+			if (this.os.name) o.os.name = this.os.name;
+			if (this.os.version) o.os.version = this.os.version.toJSON();
+
+			if (this.device.manufacturer) o.device.manufacturer = this.device.manufacturer;
+			if (this.device.model) o.device.model = this.device.model;
+		
+			return o;
 		},
 		
 		toString: function() {
