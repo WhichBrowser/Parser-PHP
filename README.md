@@ -9,7 +9,7 @@ This is a extremely complicated and almost completely useless browser sniffing l
 Well, there is always an exception to the rule. There is one valid reason to do browser sniffing: to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.
 
 **Why is it extremely complicated?**  
-Because everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browser say they are Netscape 5 and almost all WebKit browser say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.
+Because everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browser say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.
 
 The main part of this library runs on the server and looks at the headers send by browser. The first thing it looks at is the user-agent header, but there are many more headers that contain clues about the identity of the browser. Once the server finds the identity of the browser, it hands over the results to the browser itself. The browser then check some additional characteristics and tries to determine if the headers where perhaps lying. It then gives you the result.
 
@@ -242,3 +242,28 @@ The `version` object is used for the `version` property of the `browser`, `engin
 
 `is(version)` or `is(comparison, version)`  
 Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`. 
+
+
+License
+-------
+
+Copyright (c) 2013 Niels Leenheer
+	 
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+	 
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+	
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
