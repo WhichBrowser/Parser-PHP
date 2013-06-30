@@ -48,7 +48,7 @@
 			<div>
 				<pre><?php 
 				
-					include('../useragents.lib.php');
+					include('../libraries/whichbrowser.php');
 		
 					$headers = array();
 					if (isset($_REQUEST['useragent']) && $_REQUEST['useragent'] != '') $headers['User-Agent'] = $_REQUEST['useragent'];
