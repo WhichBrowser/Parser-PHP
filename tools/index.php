@@ -63,7 +63,7 @@
 						}
 					}
 					
-					$detected = new Detected($headers);
+					$detected = new WhichBrowser($headers);
 										
 					echo "{\n";
 					if (isset($detected->browser)) echo "\tbrowser: " . htmlentities(json_encode($detected->browser)) . "\n"; 

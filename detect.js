@@ -6,7 +6,7 @@
 
 	include('libraries/whichbrowser.php');
 		
-	$detected = new Detected(apache_request_headers());
+	$detected = new WhichBrowser(apache_request_headers());
 
 ?>
 	
