@@ -1,8 +1,9 @@
 <?php
 
 	header("Content-Type: text/javascript");
-	header("Cache-Control: no-cache, must-revalidate"); 
-	header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); 
+	header("Cache-Control: no-cache, no-store, must-revalidate, max-age=0"); 
+	header("Pragma: no-cache");
+	header("Expires: 0"); 
 
 	include('libraries/whichbrowser.php');
 		
