@@ -13,6 +13,24 @@ Because everybody lies. Seriously, there is not a single browser that is complet
 
 The main part of this library runs on the server and looks at the headers send by the browser. The first thing it looks at is the user-agent header, but there are many more headers that contain clues about the identity of the browser. Once the server finds the identity of the browser, it hands over the results to the browser itself. The browser then check some additional characteristics and tries to determine if the headers where perhaps lying. It then gives you the result.
 
+**What kind of information does it give?**
+You get a nice JavaScript object which has information about the browser, rendering engine, os and device. It gives you names and versions and even device manufacturer and model. And WhichBrowser is pretty tenacious. It gives you info that others don't. For example:
+
+    JUC (Linux; U; 2.3.6; zh-cn; GT-I8150; 480*800) UCWEB8.7.4.225/145/800  
+    UC Browser 8.7 on a Samsung Galaxy W running Android 2.3.6
+
+Android is never mentioned
+
+    Mozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.73  
+    Nokia Xpress 3.0.0 on a Nokia Asha 501 running Nokia Asha Platform
+
+Despite the useragent header claiming to be a Series40 device, we know it's actually running the Asha Platform and we also know that OviBrowser has been renamed to Nokia Xpress.
+
+    Opera/9.80 (X11; Linux zvav; U; zh) Presto/2.8.119 Version/11.10  
+    Opera Mini on a Nokia 5230 running Series60 5.0
+
+The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Mini. We can even figure out the real operating system and device model from other headers.
+
 
 How to install it
 -----------------
