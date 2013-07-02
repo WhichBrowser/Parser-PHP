@@ -2256,6 +2256,11 @@
 				$this->browser->version = new Version(array('value' => $match[1]));
 			}
 
+			if (preg_match('/Browser\/IE([0-9.]*)/', $ua, $match)) {
+				$this->browser->name = 'Internet Explorer';
+				$this->browser->version = new Version(array('value' => $match[1]));
+			}
+
 			if (preg_match('/Trident\/[789][^\)]+; rv:([0-9.]*)\)/', $ua, $match)) {
 				$this->browser->name = 'Internet Explorer';
 				$this->browser->version = new Version(array('value' => $match[1]));
