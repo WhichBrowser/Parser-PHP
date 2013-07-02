@@ -3306,6 +3306,7 @@
 				array('name' => 'TaoBrowser', 			'regexp' => '/TaoBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'TaomeeBrowser', 		'regexp' => '/TaomeeBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'TazWeb', 				'regexp' => '/TazWeb/'),
+				array('name' => 'UP.Browser', 			'regexp' => '/UP\.Browser\/([a-z0-9.]*)/', 'details' => 2),
 				array('name' => 'Uzbl', 				'regexp' => '/^Uzbl/'),
 				array('name' => 'Viera', 				'regexp' => '/Viera\/([0-9.]*)/'),
 				array('name' => 'Villanova', 			'regexp' => '/Villanova\/([0-9.]*)/', 'details' => 3),
