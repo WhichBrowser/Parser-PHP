@@ -1378,6 +1378,19 @@
 				$this->device->identified = true;
 			}
 
+			if (preg_match('/PlayStation 4/i', $ua)) {
+				$this->os->name = '';
+
+				if (preg_match('/PlayStation 4 ([0-9.]*)/', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
+				
+				$this->device->manufacturer = 'Sony';
+				$this->device->model = 'Playstation 4';
+				$this->device->type = TYPE_GAMING;
+				$this->device->identified = true;
+			}
+
 			/****************************************************
 			 *		XBox
 			 *
