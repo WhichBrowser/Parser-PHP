@@ -944,6 +944,14 @@
 					}
 				}
 				
+				if (isset($this->device->model)) {
+					$device = DeviceModels::identify('asha', $this->device->model);
+					if ($device->identified) {
+						$this->os->name = 'Nokia Asha Platform';
+						$this->device = $device;
+					}
+				}
+				
 				$this->device->type = TYPE_MOBILE;
 			}
 			
@@ -3581,6 +3589,7 @@
 	
 	class DeviceModels {
 		static $ANDROID_MODELS = array();
+		static $ASHA_MODELS = array();
 		static $BADA_MODELS = array();
 		static $BREW_MODELS = array();
 		static $TIZEN_MODELS = array();
@@ -3598,8 +3607,9 @@
 
 			switch($type) {
 				case 'android':		return DeviceModels::identifyAndroid($model);
-				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
+				case 'asha': 		return DeviceModels::identifyList(DeviceModels::$ASHA_MODELS, $model);
 				case 'bada': 		return DeviceModels::identifyList(DeviceModels::$BADA_MODELS, $model);
+				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
 				case 'brew': 		return DeviceModels::identifyList(DeviceModels::$BREW_MODELS, $model);
 				case 'tizen': 		return DeviceModels::identifyList(DeviceModels::$TIZEN_MODELS, $model);
 				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
