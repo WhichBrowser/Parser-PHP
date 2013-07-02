@@ -2922,6 +2922,15 @@
 					
 					$this->device = DeviceModels::identify('android', $match[2]);
 				}
+
+				if (preg_match('/\(iOS;/', $ua)) {
+					$this->os->name = 'iOS';
+					$this->os->version = new Version(array('value' => '1.0'));
+	
+					if (preg_match('/OS ([0-9_]*);/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+					}
+				}
 			}
 
 			if (preg_match('/ucweb-squid/', $ua)) {
@@ -2962,6 +2971,7 @@
 			}
 
 			if (preg_match('/U2\//', $ua)) {
+				$this->engine->name = 'Gecko';
 				$this->browser->mode = 'proxy';
 			}
 
