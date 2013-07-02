@@ -33,6 +33,7 @@
 	define ('TYPE_GAMING', 'gaming');
 	define ('TYPE_EREADER', 'ereader');
 	define ('TYPE_MEDIA', 'media');
+	define ('TYPE_HEADSET', 'headset');
 	define ('TYPE_EMULATOR', 'emulator');
 	define ('TYPE_TELEVISION', 'television');
 	define ('TYPE_MONITOR', 'monitor');
@@ -44,6 +45,7 @@
 	define ('TYPE_BOT', 'bot');
 
 	define ('FLAG_GOOGLETV', 1);
+	define ('FLAG_GOOGLEGLASS', 2);
 
 	
 
@@ -3500,6 +3502,12 @@
 			if (isset($this->device->flag) && $this->device->flag == FLAG_GOOGLETV) {
 				$this->os->name = 'Google TV';
 
+				unset($this->os->version);	
+				unset($this->device->flag);			
+			}
+
+			if (isset($this->device->flag) && $this->device->flag == FLAG_GOOGLEGLASS) {
+				unset($this->os->name);	
 				unset($this->os->version);	
 				unset($this->device->flag);			
 			}

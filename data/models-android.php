@@ -116,6 +116,9 @@
 			'manta'										=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 			'Nexus 10'									=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 
+			/* Google Glass */
+			'Glass 1'									=> array( 'Google', 'Glass', TYPE_HEADSET, FLAG_GOOGLEGLASS ),
+
 			
 			/* Middleware and emulators */
 			'BlueStacks'								=> array( 'BlueStacks', 'App Player', 'desktop' ),
