@@ -3196,6 +3196,7 @@
 				array('name' => 'Baidu Browser',		'regexp' => '/BdMobile\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/FlyFlow\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Baidu Browser',		'regexp' => '/BIDUBrowser[ \/]([0-9.]*)/'),
+				array('name' => 'Black Wren',			'regexp' => '/BlackWren\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Camino', 				'regexp' => '/Camino\/([0-9.]*)/', 'type' => TYPE_DESKTOP),
 				array('name' => 'Canure', 				'regexp' => '/Canure\/([0-9.]*)/', 'details' => 3),
 				array('name' => 'CometBird', 			'regexp' => '/CometBird\/([0-9.]*)/'),
@@ -3291,6 +3292,7 @@
 				
 				array('name' => '80legs', 				'regexp' => '/008\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Ask Jeeves', 			'regexp' => '/Ask Jeeves\/Teoma/', 'type' => TYPE_BOT),
+				array('name' => 'Baiduspider', 			'regexp' => '/Baiduspider\+\(\+/', 'type' => TYPE_BOT),
 				array('name' => 'Baiduspider', 			'regexp' => '/Baiduspider\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Bloglines', 			'regexp' => '/Bloglines\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Googlebot', 			'regexp' => '/Googlebot\/([0-9.]*)/', 'type' => TYPE_BOT),
