@@ -1686,6 +1686,19 @@
 
 
 			/****************************************************
+			 *		MediStream
+			 */
+
+			if (preg_match('/MediStream/', $ua)) {
+				$this->os->name = '';
+				$this->device->manufacturer = 'Bewatec';
+				$this->device->model = 'MediStream';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified = true;
+			}
+
+
+			/****************************************************
 			 *		Generic
 			 */
 
