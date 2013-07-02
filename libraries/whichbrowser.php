@@ -1651,6 +1651,18 @@
 			}
 
 			/****************************************************
+			 *		DuneHD
+			 */
+
+			if (preg_match('/DuneHD\//', $ua)) {
+				$this->os->name = '';
+				$this->device->manufacturer = 'Dune HD';
+				$this->device->model = '';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified = true;
+			}
+
+			/****************************************************
 			 *		Roku
 			 */
 
