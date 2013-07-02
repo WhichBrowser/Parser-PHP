@@ -1883,6 +1883,13 @@
 							$identified = true;
 						}
 						
+						if (preg_match('/^K-Touch_([^\/]*)/i', $candidates[$i], $match)) {
+							$this->device->manufacturer = 'K-Touch';
+							$this->device->model = DeviceModels::cleanup($match[1]);
+							$this->device->type = TYPE_MOBILE;
+							$identified = true;
+						}
+
 						if (preg_match('/^Lenovo-([^\/]*)/i', $candidates[$i], $match)) {
 							$this->device->manufacturer = 'Lenovo';
 							$this->device->model = DeviceModels::cleanup($match[1]);
@@ -1941,6 +1948,13 @@
 							}
 						}
 
+						if (preg_match('/^OPPO_([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
+							$this->device->manufacturer = 'Oppo';
+							$this->device->model = DeviceModels::cleanup($match[1]);
+							$this->device->type = TYPE_MOBILE;
+							$identified = true;
+						}
+						
 						if (preg_match('/^Pantech([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
 							$this->device->manufacturer = 'Pantech';
 							$this->device->model = DeviceModels::cleanup($match[1]);
