@@ -1,6 +1,7 @@
 <?php
 
 		DeviceModels::$FEATURE_MODELS = array(
+			'EF71'										=> array( 'BenQ-Siemens', 'EF71' ),
 			'CK13i'										=> array( 'Sony Ericsson', 'txt' ),
 			'CK15a'										=> array( 'Sony Ericsson', 'txt Pro' ),
 			'J105i'										=> array( 'Sony Ericsson', 'Naite' ),

@@ -1868,6 +1868,13 @@
 					$identified = false;
 					
 					for ($i = 0; $i < count($candidates); $i++) {
+						if (preg_match('/^BenQ-([^\/]*)/i', $candidates[$i], $match)) {
+							$this->device->manufacturer = 'BenQ';
+							$this->device->model = DeviceModels::cleanup($match[1]);
+							$this->device->type = TYPE_MOBILE;
+							$identified = true;
+						}
+
 						if (preg_match('/^(?:YL-)?COOLPAD([^\s]+)/i', $candidates[$i], $match)) {
 							$this->device->manufacturer = 'Coolpad';
 							$this->device->model = DeviceModels::cleanup($match[1]);
