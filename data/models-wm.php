@@ -3,6 +3,7 @@
 		DeviceModels::$WINDOWS_MOBILE_MODELS = array(
 			'DX900'										=> array( 'Acer', 'Tempo DX900' ),
 			'F900'										=> array( 'Acer', 'Tempo F900' ),
+			'Bird_T900'									=> array( 'Bird', 'T900' ),
 			'Coolpad F800'								=> array( 'Coolpad', 'F800' ),
 			'T5388'										=> array( 'Dopod', 'Touch Diamond 2' ),
 			'garmin-asus-Nuvifone-M10'					=> array( 'Garmin-Asus', 'Nuvifone M10' ),
