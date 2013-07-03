@@ -577,7 +577,7 @@
 				$this->os->name = 'Android';
 				$this->os->version = new Version(); 
 
-				if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_)?(?:\/)?v?([0-9.]+)/', str_replace('-update', ',', $ua), $match)) {
+				if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/', str_replace('-update', ',', $ua), $match)) {
 					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
 				}
 				
