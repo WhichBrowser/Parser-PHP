@@ -2960,12 +2960,12 @@
 					$this->os->name = '';
 				}
 				
-				if (preg_match('/^IUC \(U;\s?iOS ([0-9\.]+);/', $ua, $match)) {
+				if (preg_match('/^IUC ?\(U; ?iOS ([0-9\._]+);/', $ua, $match)) {
 					$this->os->name = 'iOS';
-					$this->os->version = new Version(array('value' => $match[1]));
+					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
 				}
 				
-				if (preg_match('/^JUC \(Linux; U; ([0-9\.]+)[^;]*; [^;]+; ([^;]*[^\s])\s*; [0-9]+\*[0-9]+\)/', $ua, $match)) {
+				if (preg_match('/^JUC ?\(Linux; ?U; ?([0-9\.]+)[^;]*; ?[^;]+; ?([^;]*[^\s])\s*; ?[0-9]+\*[0-9]+\)/', $ua, $match)) {
 					$this->os->name = 'Android';
 					$this->os->version = new Version(array('value' => $match[1]));
 					
