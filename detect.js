@@ -29,39 +29,6 @@ var WhichBrowser = (function(){
 			this.detect(navigator.userAgent);
 		},
 		
-		isX: function() {
-			var valid = true;
-			var x = arguments[0];
-			
-			if (arguments.length >= 2) {
-				valid = valid && this[x].name == arguments[1];
-			}
-			
-			if (arguments.length >= 4 && typeof this[x].version != 'undefined' && valid) {
-				var v1 = 0 + this[x].version;
-				var v2 = 0 + new Version({ value: arguments[3] });
-				switch (arguments[2]) {
-					case '<':	valid = valid && v1 < v2; break;
-					case '<=':	valid = valid && v1 <= v2; break;
-					case '=':	valid = valid && v1 == v2; break;
-					case '>':	valid = valid && v1 > v2; break;
-					case '>=':	valid = valid && v1 >= v2; break;
-				}
-			}
-			
-			return valid;
-		},
-		
-		isBrowser: function() { var a = Array.prototype.slice.call(arguments); a.unshift('browser'); return this.isX.apply(this, a); },
-		isEngine: function() { var a = Array.prototype.slice.call(arguments); a.unshift('engine'); return this.isX.apply(this, a); },
-		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
-				
-		isType: function() {
-			var valid = false;
-			for (var a = 0; a < arguments.length; a++) valid = valid || arguments[a] == this.device.type;
-			return valid;
-		},
-
 		detect: function(ua) {
 			if (ua == 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/') {
 				if (this.browser.name != 'UC Browser') {
@@ -263,24 +230,31 @@ var WhichBrowser = (function(){
 			}
 		},
 		
+		isX: function() {
+			var valid = true;
+			var x = arguments[0];
 			
-			if (this.browser.name) o.browser.name = this.browser.name;
-			if (this.browser.version) o.browser.version = this.browser.version.toJSON();
-			if (this.browser.stock) o.browser.stock = this.browser.stock;
-			if (this.browser.channel) o.browser.channel = this.browser.channel;
-			if (this.browser.mode) o.browser.mode = this.browser.mode;
-			if (this.browser.hidden) o.browser.hidden = this.browser.hidden;
+			if (arguments.length >= 2) {
+				valid = valid && this[x].name == arguments[1];
+			}
+			
+			if (arguments.length >= 4 && typeof this[x].version && valid) {
+				valid = valid && this[x].version.is(arguments[2], arguments[3]);
+			}
 
-			if (this.engine.name) o.engine.name = this.engine.name;
-			if (this.engine.version) o.engine.version = this.engine.version.toJSON();
-
-			if (this.os.name) o.os.name = this.os.name;
-			if (this.os.version) o.os.version = this.os.version.toJSON();
-
-			if (this.device.manufacturer) o.device.manufacturer = this.device.manufacturer;
-			if (this.device.model) o.device.model = this.device.model;
+			return valid;
+		},
 		
-			return o;
+		isBrowser: function() { var a = Array.prototype.slice.call(arguments); a.unshift('browser'); return this.isX.apply(this, a); },
+		isEngine: function() { var a = Array.prototype.slice.call(arguments); a.unshift('engine'); return this.isX.apply(this, a); },
+		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
+				
+		isType: function() {
+			var valid = false;
+			for (var a = 0; a < arguments.length; a++) valid = valid || arguments[a] == this.device.type;
+			return valid;
+		},
+
 		toJSON: function() {
 			return {
 				browser:	this.browser.toJSON(),
