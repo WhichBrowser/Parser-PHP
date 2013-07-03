@@ -292,16 +292,11 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			var prefix = this.camouflage ? 'an unknown browser that imitates ' : '';
-			var browser = os = device = engine = '';
+			var browser = this.browser.toString();
+			var os = this.os.toString();
+			var engine = this.engine.toString();
+			var device = this.device.toString();
 			
-			browser += (this.browser.name ? this.browser.name + (this.browser.channel ? ' ' + this.browser.channel : '') + (this.browser.version ? ' ' + this.browser.version.toString() : '') : '');
-			os += (this.os.name ? this.os.name + (this.os.version ? ' ' + this.os.version.toString() : '') : '');
-			engine += (typeof this.engine.name != 'undefined' && this.engine.name ? this.engine.name : '') ;
-			
-			if (this.device.identified)			
-				device += (typeof this.device.manufacturer != 'undefined' && this.device.manufacturer ? this.device.manufacturer + ' ' : '') + (typeof this.device.model != 'undefined' && this.device.model ? this.device.model : '');
-			else
-				device += (typeof this.device.model != 'undefined' && this.device.model ? 'unrecognized device (' + this.device.model + ')' : '');
 			
 			if (!device && !os && this.device.type == 'television') {
 				device = 'television';
@@ -376,6 +371,10 @@ var WhichBrowser = (function(){
 				mode:		this.mode,
 				hidden:		this.hidden
 			}
+		},
+		
+		toString: function() {
+			return (this.name ? this.name + (this.channel ? ' ' + this.channel : '') + (this.version ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -391,6 +390,10 @@ var WhichBrowser = (function(){
 				name:		this.name,
 				version:	this.version.toJSON()
 			}
+		},
+		
+		toString: function() {
+			return (this.name ? this.name + (this.version ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -406,6 +409,10 @@ var WhichBrowser = (function(){
 				name:		this.name,
 				version:	this.version.toJSON()
 			}
+		},
+		
+		toString: function() {
+			return (this.name ? this.name : '');
 		}
 	}
 
@@ -425,6 +432,13 @@ var WhichBrowser = (function(){
 				manufacturer:	this.manufacturer,
 				model:			this.model
 			};
+		},
+		
+		toString: function() {
+			if (this.identified)			
+				return (this.manufacturer ? this.manufacturer + ' ' : '') + (typeof this.model != 'undefined' && this.model ? this.model : '');
+			else
+				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
 	}
 
