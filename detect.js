@@ -263,16 +263,6 @@ var WhichBrowser = (function(){
 			}
 		},
 		
-		toJSON: function() {
-			var o = {
-				browser:	{},
-				os:			{},
-				engine:		{},
-				device:		{
-					type:		this.device.type,
-					identified:	this.device.identified
-				}
-			};
 			
 			if (this.browser.name) o.browser.name = this.browser.name;
 			if (this.browser.version) o.browser.version = this.browser.version.toJSON();
@@ -291,6 +281,13 @@ var WhichBrowser = (function(){
 			if (this.device.model) o.device.model = this.device.model;
 		
 			return o;
+		toJSON: function() {
+			return {
+				browser:	this.browser.toJSON(),
+				os:			this.os.toJSON(),
+				engine:		this.engine.toJSON(),
+				device:		this.device.toJSON()
+			};
 		},
 		
 		toString: function() {
@@ -368,6 +365,17 @@ var WhichBrowser = (function(){
 			this.channel = v.channel || null;
 			this.mode = v.mode || null;
 			this.hidden = v.hidden || false;
+		},
+		
+		toJSON: function() {
+			return {
+				name:		this.name,
+				version:	this.version.toJSON(),
+				stock:		this.stock,
+				channel:	this.channel,
+				mode:		this.mode,
+				hidden:		this.hidden
+			}
 		}
 	}
 
@@ -376,6 +384,13 @@ var WhichBrowser = (function(){
 		initialize: function(v) {
 			this.name = v.name || null;
 			this.version = v.version || null;
+		},
+		
+		toJSON: function() {
+			return {
+				name:		this.name,
+				version:	this.version.toJSON()
+			}
 		}
 	}
 
@@ -384,6 +399,13 @@ var WhichBrowser = (function(){
 		initialize: function(v) {
 			this.name = v.name || null;
 			this.version = v.version || null;
+		},
+		
+		toJSON: function() {
+			return {
+				name:		this.name,
+				version:	this.version.toJSON()
+			}
 		}
 	}
 
@@ -394,6 +416,15 @@ var WhichBrowser = (function(){
 			this.indentified = v.indentified || false;
 			this.manufacturer = v.manufacturer || null;
 			this.model = v.model || null;
+		},
+		
+		toJSON: function() {
+			return {
+				type:			this.type,
+				indentified:	this.indentified,
+				manufacturer:	this.manufacturer,
+				model:			this.model
+			};
 		}
 	}
 
