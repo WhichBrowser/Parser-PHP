@@ -411,9 +411,9 @@ var WhichBrowser = (function(){
 			this.builds = typeof v.builds != 'undefined' ? v.builds : true;
 
 			this.major = 0;
-			this.minor = 0;
-			this.revision = '';
-			this.build = '';
+			this.minor = null;
+			this.revision = null;
+			this.build = null;
 			this.type = '';
 						
 			var match;
@@ -464,12 +464,32 @@ var WhichBrowser = (function(){
 				}
 				
 				if (compare) {
+					var v1 = v2 = '';
+					
+					if (compare.major && this.major) {
+						v1 += this.major;
+						v2 += compare.major;
+						
+						if (compare.minor && this.minor) {
+							v1 += '.' + ('0000' + this.minor).slice(-4);
+							v2 += '.' + ('0000' + compare.minor).slice(-4);
+						
+							if (compare.revision && this.revision) {
+								v1 += ('0000' + this.revision).slice(-4);
+								v2 += ('0000' + compare.revision).slice(-4);
+							}
+						}
+					}
+				
+					v1 = parseFloat(v1);
+					v2 = parseFloat(v2);
+				
 					switch (operator) {
-						case '<':	valid = this.valueOf() < compare.valueOf(); break;
-						case '<=':	valid = this.valueOf() <= compare.valueOf(); break;
-						case '=':	valid = this.valueOf() == compare.valueOf(); break;
-						case '>':	valid = this.valueOf() > compare.valueOf(); break;
-						case '>=':	valid = this.valueOf() >= compare.valueOf(); break;
+						case '<':	valid = v1 < v2; break;
+						case '<=':	valid = v1 <= v2; break;
+						case '=':	valid = v1 == v2; break;
+						case '>':	valid = v1 > v2; break;
+						case '>=':	valid = v1 >= v2; break;
 					}
 				}
 				
