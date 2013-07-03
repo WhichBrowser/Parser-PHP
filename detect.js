@@ -150,7 +150,7 @@ var WhichBrowser = (function(){
 					if (window.opera) {
 						this.features.push('presto');		
 		
-						if (typeof this.engine.name != 'undefined' && this.engine.name != 'Presto') {
+						if (this.engine.name && this.engine.name != 'Presto') {
 							this.camouflage = true;			
 						}	
 
@@ -163,7 +163,7 @@ var WhichBrowser = (function(){
 					if ('getBoxObjectFor' in document || 'mozInnerScreenX' in window) {
 						this.features.push('gecko');		
 		
-						if (typeof this.engine.name != 'undefined' && this.engine.name != 'Gecko') {
+						if (this.engine.name && this.engine.name != 'Gecko') {
 							this.camouflage = true;			
 						}	
 						
@@ -176,7 +176,7 @@ var WhichBrowser = (function(){
 					if ('WebKitCSSMatrix' in window || 'WebKitPoint' in window || 'webkitStorageInfo' in window || 'webkitURL' in window) {
 						this.features.push('webkit');		
 		
-						if (typeof this.engine.name != 'undefined' && (this.engine.name != 'Blink' && this.engine.name != 'Webkit')) {
+						if (this.engine.name && (this.engine.name != 'Blink' && this.engine.name != 'Webkit')) {
 							this.camouflage = true;			
 						}	
 
@@ -191,7 +191,7 @@ var WhichBrowser = (function(){
 					if (this.engine.name == 'Webkit' && ({}.toString).toString().indexOf("\n") === -1) {
 						this.features.push('v8');		
 
-						if (this.browser != null && this.browser.name == 'Safari') {
+						if (this.browser.name == 'Safari') {
 							this.camouflage = true;	
 						}	
 					}
