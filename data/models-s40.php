@@ -62,6 +62,7 @@
 			'6212c'										=> array( 'Nokia', '6212 classic' ),
 			'6260s!'									=> array( 'Nokia', '6260 slide' ),
 			'6263!'										=> array( 'Nokia', '6263' ),
+			'6300'										=> array( 'Nokia', '6300' ),
 			'6300i'										=> array( 'Nokia', '6300i' ),
 			'6303classic'								=> array( 'Nokia', '6303 classic' ),
 			'6303iclassic'								=> array( 'Nokia', '6303i classic' ),
