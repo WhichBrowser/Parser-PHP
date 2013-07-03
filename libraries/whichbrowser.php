@@ -2987,6 +2987,28 @@
 						$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
 					}
 				}
+
+				if (preg_match('/\(Windows;/', $ua)) {
+					$this->os->name = 'Windows Phone';
+					$this->os->version = null;
+
+					if (preg_match('/wds ([0-9]\.[0-9])/', $ua, $match)) {
+						switch($match[1]) {
+							case '7.0':		$this->os->version = new Version(array('value' => '7.0')); break;
+							case '7.1':		$this->os->version = new Version(array('value' => '7.5')); break;
+							case '8.0':		$this->os->version = new Version(array('value' => '8.0')); break;
+						}
+					}
+	
+					if (preg_match('/; ([^;]+); ([^;]+)\)/', $ua, $match)) {
+						$this->device = DeviceModels::identify('wp', $match[2]);
+						
+						if (!$this->device->identified) {
+							$this->device->manufacturer = $match[1];
+							$this->device->model = $match[2];
+						}
+					}						
+				}
 			}
 
 			if (preg_match('/ucweb-squid/', $ua)) {
