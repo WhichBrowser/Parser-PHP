@@ -53,7 +53,7 @@
 			'org.tint'											=> 'Tint Browser',
 			'com.UCMobile'										=> 'UC Browser',
 			'com.UCMobile.intl'									=> 'UC Browser',
-			'com.uc.browser.hd'									=> 'UC Browser',
+			'com.uc.browser.hd'									=> 'UC Browser HD',
 			'com.uc.browser.en'									=> 'UC Browser Mini',
 			'sui.mRelease'										=> 'xScope Browser Pro',
 			'org.zirco'											=> 'Zirco Browser',

@@ -76,8 +76,11 @@
 			if ($browser) {
 				if (!isset($this->browser->name) || $this->browser->name != $browser) {
 					$this->browser->name = $browser;
-					$this->browser->version = null;
-					$this->browser->stock = false;
+
+					if (substr($this->browser->name, 0, strlen($browser)) != $browser) {
+						$this->browser->version = null;
+						$this->browser->stock = false;
+					}
 				}
 			}
 
