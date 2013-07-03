@@ -358,6 +358,44 @@ var WhichBrowser = (function(){
 		}
 	};
 
+	var Browser = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Browser.prototype = {
+		initialize: function(v) {
+			this.name = v.name || null;
+			this.version = v.version || null;
+			
+			this.stock = v.stock || false;
+			this.channel = v.channel || null;
+			this.mode = v.mode || null;
+			this.hidden = v.hidden || false;
+		}
+	}
+
+	var Engine = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Engine.prototype = {
+		initialize: function(v) {
+			this.name = v.name || null;
+			this.version = v.version || null;
+		}
+	}
+
+	var Os = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Os.prototype = {
+		initialize: function(v) {
+			this.name = v.name || null;
+			this.version = v.version || null;
+		}
+	}
+
+	var Device = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Device.prototype = {
+		initialize: function(v) {
+			this.type = v.type || null;
+			this.indentified = v.indentified || false;
+			this.manufacturer = v.manufacturer || null;
+			this.model = v.model || null;
+		}
+	}
 
  	var Version = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Version.prototype = {

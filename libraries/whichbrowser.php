@@ -3609,27 +3609,27 @@
 		
 		function toJavaScript() {
 			if (isset($this->browser)) {
-				echo "\t\t\tthis.browser = { ";
+				echo "this.browser = new Browser({ ";
 				echo $this->toJavaScriptObject($this->browser);
-				echo " };\n";
+				echo " });\n";
 			}
 			
 			if (isset($this->engine)) {
-				echo "\t\t\tthis.engine = { ";
+				echo "this.engine = new Engine({ ";
 				echo $this->toJavaScriptObject($this->engine);
-				echo " };\n";
+				echo " });\n";
 			}
 			
 			if (isset($this->os)) {
-				echo "\t\t\tthis.os = { ";
+				echo "this.os = new Os({ ";
 				echo $this->toJavaScriptObject($this->os);
-				echo " };\n";
+				echo " });\n";
 			}
 			
 			if (isset($this->device)) {
-				echo "\t\t\tthis.device = { ";
+				echo "this.device = new Device({ ";
 				echo $this->toJavaScriptObject($this->device);
-				echo " };\n";
+				echo " });\n";
 			}	
 		}
 		
