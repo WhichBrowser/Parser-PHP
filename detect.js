@@ -380,7 +380,7 @@ var WhichBrowser = (function(){
 	Device.prototype = {
 		initialize: function(v) {
 			this.type = v.type || null;
-			this.indentified = v.indentified || false;
+			this.identified = v.identified || false;
 			this.manufacturer = v.manufacturer || null;
 			this.model = v.model || null;
 		},
@@ -388,7 +388,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				type:			this.type,
-				indentified:	this.indentified,
+				identified:		this.identified,
 				manufacturer:	this.manufacturer,
 				model:			this.model
 			};
