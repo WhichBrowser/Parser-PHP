@@ -230,6 +230,10 @@ var WhichBrowser = (function(){
 			}
 		},
 		
+		a: function(s) {
+			return (/^[aeiou]/i.test(s) ? 'an ' : 'a ') + s;
+		},
+		
 		isX: function() {
 			var valid = true;
 			var x = arguments[0];
@@ -273,40 +277,18 @@ var WhichBrowser = (function(){
 			
 			if (!device && !os && this.device.type == 'television') device = 'television';
 			if (!device && this.device.type == 'emulator') device = 'emulator';
-
 		
-			if (browser && os && device) {
-				return prefix + browser + ' on a ' + device + ' running ' + os;
-			}
-			else if (browser && !os && device) {
-				return prefix + browser + ' on a ' + device;
-			}
-			else if (browser && os && !device) {
-				return prefix + browser + ' on ' + os;
-			}
-			else if (!browser && os && device) {
-				return prefix + 'a ' + device + ' running ' + os;
-			}
-			else if (browser && !os && !device) {
-				return prefix + browser;
-			}
-			else if (!browser && !os && device) {
-				return prefix + 'a ' + device;
-			}
-			else if (this.device.type == 'desktop' && os && engine != '' && !device) {
-				return 'an unknown browser based on ' + engine + ' running on ' + os;
-			}
-			else if (this.browser.stock && os && !device) {
-				return os;
-			}
-			else if (this.browser.stock && engine != '' && !device) {
-				return 'an unknown browser based on ' + engine;
-			}
-			else {
-				return 'an unknown browser';
-			}
+			if (browser && os && device) return prefix + browser + ' on ' + this.a(device) + ' running ' + os;
+			if (browser && !os && device) return prefix + browser + ' on ' + this.a(device);
+			if (browser && os && !device) return prefix + browser + ' on ' + os;
+			if (!browser && os && device) return prefix + this.a(device) + ' running ' + os;
+			if (browser && !os && !device) return prefix + browser;
+			if (!browser && !os && device) return prefix + this.a(device);
+			if (this.device.type == 'desktop' && os && engine != '' && !device) return 'an unknown browser based on ' + engine + ' running on ' + os;
+			if (this.browser.stock && os && !device) return os;
+			if (this.browser.stock && engine != '' && !device) return 'an unknown browser based on ' + engine;
 			
-			return '';
+			return 'an unknown browser';
 		}
 	};
 
