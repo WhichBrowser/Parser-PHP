@@ -98,6 +98,18 @@ Another possiblity is to query the object:
     
 You can also access these properties directly:
 
+    Browsers.browser
+    // Chrome 27  
+      
+    Browsers.engine
+    // Blink
+      
+    Browsers.os
+    // Mac OS X 10.8.4
+    
+
+Or access parts of these properties directly:
+
     Browsers.browser.name
     // Chrome
     
@@ -117,7 +129,7 @@ You can also access these properties directly:
     // Blink
     
     
-Finally you can also query these properies:
+Finally you can also query versions directly:
 
     Browsers.browser.version.is('>', 26)
     // true
@@ -150,7 +162,7 @@ After a new `WhichBrowser` object is created, it contains a number of properties
 If a single argument is used, the function returns `true` if the argument matches the `type` propery of `device` obejct. It can use multiple arguments in which case the function returns `true` if one of the arguments matches. If none of the arguments matches, it returns `false`
 
 `isBrowser(name [, comparison, version])`  
-Is used to query the `name` and `version` property of the `browser` object. The funcion can contain a single argument to a simple comparison based on `name`, or three arguments to compare both `name` and `version`. The first argument always contains the name of the browser. The second arguments is a string that can container either `<`, `<=`, `=`, `=>` or `>`. The third is an integer, float or string that contains the version. You can use versions like `10`, `10.7` or `'10.7.4'`. 
+Is used to query the `name` and `version` property of the `browser` object. The funcion can contain a single argument to a simple comparison based on `name`, or three arguments to compare both `name` and `version`. The first argument always contains the name of the browser. The second arguments is a string that can container either `<`, `<=`, `=`, `=>` or `>`. The third is an integer, float or string that contains the version. You can use versions like `10`, `10.7` or `'10.7.4'`. For more information about how version comparisons are performed, please see the `is()` function of the `Version` object.
 
 `isEngine(name [, comparison, version])`  
 Is used to query the `name` and `version` property of the `engine` object. This function works in exactly the same way as `isBrowser`.
@@ -161,7 +173,7 @@ Is used to query the `name` and `version` property of the `os` object. This func
 
 ### The browser object
 
-The `browser` object is a child of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be undefined.
+The `Browser` object is used for the `browser` property of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be null.
 
 **Properties:**
 
@@ -181,7 +193,7 @@ The `browser` object is a child of the main `WhichBrowser` object and contains a
 
 ### The engine object
 
-The `engine` object is a child of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be undefined.
+The `Engine` object is used for the `engine` property of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be null.
 
 **Properties:**
 
@@ -193,7 +205,7 @@ The `engine` object is a child of the main `WhichBrowser` object and contains a 
 
 ### The os object
 
-The `os` object is a child of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be undefined.
+The `Os` object is used for the `os` property of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be null.
 
 **Properties:**
 
@@ -205,7 +217,7 @@ The `os` object is a child of the main `WhichBrowser` object and contains a numb
 
 ### The device object
 
-The `device` object is a child of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be undefined.
+The `Device` object is used for the `device` property of the main `WhichBrowser` object and contains a number of properties. If a property is not applicable in this situation it will be null.
 
 **Properties:**
 
@@ -224,6 +236,7 @@ The `type` property can contain any value from the following list:
 * mobile
 * tablet
 * gaming
+* headset
 * ereader
 * media
 * emulator
@@ -239,7 +252,7 @@ The `type` property can contain any value from the following list:
 
 ### The version object
 
-The `version` object is used for the `version` property of the `browser`, `engine` and `os` object and contains a number of properties and functions. If a property is not applicable in this situation it will be undefined.
+The `Version` object is used for the `version` property of the `browser`, `engine` and `os` object and contains a number of properties and functions. If a property is not applicable in this situation it will be null.
 
 **Properties:**
 
@@ -259,7 +272,29 @@ The `version` object is used for the `version` property of the `browser`, `engin
 **Functions:**
 
 `is(version)` or `is(comparison, version)`  
-Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`. 
+Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`, but be aware that `10` is not the same as `10.0`. For example if our OS version is `10.7.4`:
+
+    Browser.os.version.is('10.7.4')  
+    // true
+    
+    Browser.os.version.is('10.7')  
+    // true
+    
+    Browser.os.version.is('10')  
+    // true
+    
+    Browser.os.version.is('10.0')
+    // false
+
+    Browser.os.version.is('>', '10')
+    // false
+
+    Browser.os.version.is('>', '10.7')
+    // false
+
+    Browser.os.version.is('>', '10.7.3')
+    // true
+
 
 
 License
