@@ -34,6 +34,7 @@
 	define ('TYPE_EREADER', 'ereader');
 	define ('TYPE_MEDIA', 'media');
 	define ('TYPE_HEADSET', 'headset');
+	define ('TYPE_WATCH', 'watch');
 	define ('TYPE_EMULATOR', 'emulator');
 	define ('TYPE_TELEVISION', 'television');
 	define ('TYPE_MONITOR', 'monitor');

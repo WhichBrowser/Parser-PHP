@@ -13,6 +13,7 @@
 			'com.baidu.browser.apps'							=> 'Baidu Browser',
 			'com.baidu.browser.inter'							=> 'Baidu Browser',
 			'com.baidu.searchbox'								=> 'Baidu Browser',
+			'com.baidu.searchbox_htc'							=> 'Baidu Browser',
 			'com.boatbrowser.free'								=> 'Boat Browser',
 			'com.boatgo.browser'								=> 'Boat Browser Mini',
 			'com.ericsson.research.mario'						=> 'Bowser',
