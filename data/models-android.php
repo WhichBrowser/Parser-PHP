@@ -116,6 +116,7 @@
 			'manta'										=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 			'Nexus 10'									=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 
+
 			/* Google Glass */
 			'Glass 1'									=> array( 'Google', 'Glass', TYPE_HEADSET, FLAG_GOOGLEGLASS ),
 
@@ -133,12 +134,14 @@
 			'MK808B'									=> array( null, 'MK808B', TYPE_TELEVISION ),
 			'GK802'										=> array( null, 'GK802', TYPE_TELEVISION ),
 			'VEOLO'										=> array( 'A.C. Ryan', 'VEOLO Smart Android Hub', TYPE_TELEVISION ),
+			'EVOKE HDI Box'								=> array( 'Evoke', 'HDI TV Box', TYPE_TELEVISION ),
 			'JT SmartPC02'								=> array( 'Joy-IT', 'Smart PC', TYPE_TELEVISION ),
 			'M3 Enjoy TV Box'							=> array( 'Geniatech', 'Enjoy TV', TYPE_TELEVISION ),
 			'Rikomagic MK802'							=> array( 'Rikomagic', 'MK802', TYPE_TELEVISION ),
 			'Rikomagic MK802 ?II!'						=> array( 'Rikomagic', 'MK802 II', TYPE_TELEVISION ),
 			'Rikomagic MK802III'						=> array( 'Rikomagic', 'MK802 III', TYPE_TELEVISION ),	
 			'Rikomagic MK802IIIS'						=> array( 'Rikomagic', 'MK802 IIIS', TYPE_TELEVISION ),	
+			'RKM MK802IV'								=> array( 'Rikomagic', 'MK802 IV', TYPE_TELEVISION ),	
 			'XW-I8'										=> array( 'Sambao', 'XW-I8', TYPE_TELEVISION ),
 			'TCC8925 HDMI DONGLE'						=> array( 'Telechips', 'TCC8925', TYPE_TELEVISION ),
 			'TCC8930 STB EV'							=> array( 'Telechips', 'TCC8930', TYPE_TELEVISION ),
@@ -224,6 +227,7 @@
 			'Novo7 PALADIN'								=> array( 'Ainovo', 'Novo7 Paladin', TYPE_TABLET ),
 			'Novo7 Venus'								=> array( 'Ainovo', 'Novo7 Venus', TYPE_TABLET ),
 			'Novo8 Advanced'							=> array( 'Ainovo', 'Novo8 Advanced', TYPE_TABLET ),
+			'Novo8 Dream QuadCore'						=> array( 'Ainovo', 'Novo8 Dream', TYPE_TABLET ),
 			'novo9-Spark'								=> array( 'Ainovo', 'Novo9 Spark', TYPE_TABLET ),
 			'Novo10 Hero'								=> array( 'Ainovo', 'Novo10 Hero', TYPE_TABLET ),
 			'Novo 10 Hero QuadCore'						=> array( 'Ainovo', 'Novo10 Hero', TYPE_TABLET ),
@@ -232,6 +236,7 @@
 			'one touch 891!'							=> array( 'Alcatel', 'One Touch 891' ),
 			'one touch 903!'							=> array( 'Alcatel', 'One Touch 903' ),
 			'one touch 906!'							=> array( 'Alcatel', 'One Touch 906' ),
+			'Alcatel one touch 908F'					=> array( 'Alcatel', 'One Touch 908' ),
 			'one touch 908!'							=> array( 'Alcatel', 'One Touch 908' ),
 			'one touch 909!'							=> array( 'Alcatel', 'One Touch 909' ),
 			'one touch 910!'							=> array( 'Alcatel', 'One Touch 910' ),
@@ -460,6 +465,7 @@
 			'ChanghongW6'								=> array( 'ChangHong', 'W6' ),
 			'Candy TV'									=> array( 'Cherry Mobile', 'Candy TV' ),
 			'Titan TV S320'								=> array( 'Cherry Mobile', 'Titan TV S320' ),
+			'Flame2'									=> array( 'Cherry Mobile', 'Flame 2.0' ),
 			'Flare S100'								=> array( 'Cherry Mobile', 'Flare S100' ),
 			'Cherry w500'								=> array( 'Cherry Mobile', 'W500' ),
 			'W900'										=> array( 'Cherry Mobile', 'W900' ),
@@ -779,6 +785,7 @@
 			'GN700T'									=> array( 'Gionee', 'GN700T' ),
 			'GN700W'									=> array( 'Gionee', 'GN700W' ),
 			'GN708W'									=> array( 'Gionee', 'GN708W' ),
+			'GPLUS GN708W'								=> array( 'Gionee', 'GN708W' ),
 			'GN800'										=> array( 'Gionee', 'GN800' ),
 			'GN818T'									=> array( 'Gionee', 'GN818T' ),
 			'GN858'										=> array( 'Gionee', 'GN858' ),
@@ -1267,6 +1274,7 @@
 			'Huawei Y210!'								=> array( 'Huawei', 'Ascend Y210' ),
 			'Huawei Y 220T'								=> array( 'Huawei', 'Ascend Y220T' ),
 			'Huawei Y300!'								=> array( 'Huawei', 'Ascend Y300' ),
+			'Huawei Y301!'								=> array( 'Huawei', 'Ascend Y301' ),
 			'Huawei Y310!'								=> array( 'Huawei', 'Ascend Y310' ),
 			'Huawei Ascend X'							=> array( 'Huawei', 'Ascend X' ),
 			'Huawei EDGE'								=> array( 'Huawei', 'Ascend P6' ),
@@ -1394,6 +1402,7 @@
 			'BT230'										=> array( 'Intel', 'BT230' ),
 			'BT510'										=> array( 'Intel', 'BT510' ),
 			'greenridge'								=> array( 'Intel', 'Green Ridge', TYPE_TABLET ),
+			'AQUA 5.0'									=> array( 'Intex', 'AQUA I-5' ),
 			'INQ Cloud Touch'							=> array( 'INQ', 'Cloud Touch' ),
 			'NS-13T001'									=> array( 'Insignia', 'Flex Tablet', TYPE_TABLET ),
 			'IPRO i5S'									=> array( 'IPRO', 'i5S' ),
@@ -2071,7 +2080,7 @@
 			'XT9(19|20)!'								=> array( 'Motorola', 'Droid RAZR D3' ),
 			'XT9(23|25|26)!'							=> array( 'Motorola', 'Droid RAZR HD' ),
 			'XT928'										=> array( 'Motorola', 'XT928' ),
-			'XT1058'									=> array( 'Motorola', '"X Phone"' ),
+			'XT10(58|60)!'								=> array( 'Motorola', '"X Phone"' ),
 			'201M'										=> array( 'Motorola', 'Droid RAZR M' ),
 			'Atrix 2'									=> array( 'Motorola', 'ATRIX 2' ),
 			'Atrix 4G'									=> array( 'Motorola', 'ATRIX 4G' ),
@@ -2220,6 +2229,7 @@
 			'OPPOR807'									=> array( 'Oppo', 'Real R807' ),
 			'R813T'										=> array( 'Oppo', 'R813' ),	
 			'OPPOR817'									=> array( 'Oppo', 'Real R817' ),
+			'R817T'										=> array( 'Oppo', 'Real R817' ),
 			'OPPOR8111'									=> array( 'Oppo', 'Find Melody R8111' ),
 			'OPPOT29'									=> array( 'Oppo', 'T29' ),
 			'(OPPO-?)?T703!'							=> array( 'Oppo', 'T703' ),
@@ -2865,7 +2875,7 @@
 			'LT29i!'									=> array( 'Sony', 'Xperia TX' ),						// Hayabusa
 			'LT30(at)!'									=> array( 'Sony', 'Xperia TL' ),						// Mint
 			'LT30(a|p)!'								=> array( 'Sony', 'Xperia T' ),							// Mint
-			'M35(c|h|t)!'								=> array( 'Sony', 'Xperia SP' ),						// HuaShan
+			'(SNM\-)?M35(c|h|t)!'						=> array( 'Sony', 'Xperia SP' ),						// HuaShan
 			'MK16(a|i)!'								=> array( 'Sony Ericsson', 'Xperia Pro' ),				// Iyokan
 			'MT11(a|i|iv|i-o)!'							=> array( 'Sony Ericsson', 'Xperia Neo V' ),			// Haida
 			'MT15(a|i|iv|i-o)!'							=> array( 'Sony Ericsson', 'Xperia Neo' ),				// Hallon
@@ -2992,6 +3002,7 @@
 			'eZee\'Tab803'								=> array( 'Storex', 'eZee\'Tab 803', TYPE_TABLET ),
 			'eZee\'Tab1001'								=> array( 'Storex', 'eZee\'Tab 1001', TYPE_TABLET ),
 			'Cyclone Voyager'							=> array( 'Sumvision', 'Cyclone Voyager', TYPE_TABLET ),
+			'Cyclone Voyager 2'							=> array( 'Sumvision', 'Cyclone Voyager 2', TYPE_TABLET ),
 			'M1001'										=> array( 'Superpad', 'M1001', TYPE_TABLET ),
 			'TS1004T'									=> array( 'Surf 3Q', 'TS1004T', TYPE_TABLET ),
 			'Fablet F3'									=> array( 'Swipe', 'Fablet F3' ),
@@ -3015,6 +3026,7 @@
 			'TCL C995'									=> array( 'TCL', 'C995' ),
 			'TCL-D668'									=> array( 'TCL', 'D668' ),
 			'TCL GENESEE E708'							=> array( 'TCL', 'Genesee E708' ),
+			'TCL-J900C'									=> array( 'TCL', 'J900C' ),
 			'TCL P600'									=> array( 'TCL', 'P600' ),
 			'TCL P606!'									=> array( 'TCL', 'P606' ),
 			'TCL S500'									=> array( 'TCL', 'S500' ),
@@ -3076,6 +3088,7 @@
 			'IS04'										=> array( 'Toshiba', 'Regza IS04' ),
 			'IS11T'										=> array( 'Toshiba', 'Regza IS11T' ),
 			'AT1S0'										=> array( 'Toshiba', 'Regza AT1S0' ),
+			'AT10PE-A'									=> array( 'Toshiba', 'Excite AT10PE-A', TYPE_TABLET ),
 			'Tostab03'									=> array( 'Toshiba', 'Regza AT100', TYPE_TABLET ),
 			'AT100'										=> array( 'Toshiba', 'Regza AT100', TYPE_TABLET ),
 			'AT200'										=> array( 'Toshiba', 'Regza AT200', TYPE_TABLET ),
@@ -3092,6 +3105,7 @@
 			'folio100'									=> array( 'Toshiba', 'Folio 100', TYPE_TABLET ),
 			'THRiVE'									=> array( 'Toshiba', 'THRiVE', TYPE_TABLET ),
 			'TRACER OXYGEN GS1'							=> array( 'Tracer', 'Oxygen GS1' ),
+			'ST80208-2'									=> array( 'Trekstor', 'Surftab Ventos 8.0', TYPE_TABLET ),
 			'TREQ A10C'									=> array( 'Treq', 'A10C', TYPE_TABLET ),
 			'Fantastic T3'								=> array( 'TWM', 'Fantastic T3' ),
 			'TB100'										=> array( 'Unitech', 'TB100', TYPE_TABLET ),
@@ -3454,6 +3468,8 @@
 			'TURKCELL MaxiPRO5'							=> array( 'Turkcell', 'Maxi Pro 5' ),
 			'Turkcell T10'								=> array( 'Turkcell', 'T10' ),
 			'Turkcell T20'								=> array( 'Turkcell', 'T20' ),
+			
+			'Movistar Motion'							=> array( 'Movistar', 'Motion' ),
 		
 			'MTC 916'									=> array( 'MTC', '916' ),
 			'MTC 950'									=> array( 'MTC', '950' ),
@@ -3461,6 +3477,7 @@
 			'MTC 960'									=> array( 'MTC', '960' ),
 			'MTC-962'									=> array( 'MTC', '962' ),
 			'MTC Evo'									=> array( 'MTC', 'Evo' ),
+			'MTC Fit'									=> array( 'MTC', 'Fit' ),
 			'MTC Neo'									=> array( 'MTC', 'Neo' ),
 			'MTC Viva'									=> array( 'MTC', 'Viva' ),
 			
@@ -3480,7 +3497,7 @@
 			'Vodafone 875'								=> array( 'Vodafone', '875' ),
 			'Vodafone 945'								=> array( 'Vodafone', '945' ),								/* ZTE Joe */
 			'Vodafone 958'								=> array( 'Vodafone', '958' ),
-			'Vodafone 975N'								=> array( 'Vodafone', '975' ),
+			'Vodafone 975!'								=> array( 'Vodafone', '975' ),
 			'Vodafone 980'								=> array( 'Vodafone', '980' ),
 			'Vodafone Smart ll'							=> array( 'Vodafone', 'Smart II' ),
 			'Vodafone Smart II'							=> array( 'Vodafone', 'Smart II' ),
