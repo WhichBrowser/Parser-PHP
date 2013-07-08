@@ -85,9 +85,10 @@
 			'702T'										=> array( 'Nokia', '702T' ),
 			'808!'										=> array( 'Nokia', '808 PureView' ),
 			'5228'										=> array( 'Nokia', '5228' ),
-			'5233!'										=> array( 'Nokia', '5228' ),
+			'5233!'										=> array( 'Nokia', '5228' ),						// The 5233 is known as 5228
 			'5230!'										=> array( 'Nokia', '5230' ),
 			'5235'										=> array( 'Nokia', '5235 Ovi Music Unlimited' ),
+			'5236'										=> array( 'Nokia', '5236' ),
 			'5250'										=> array( 'Nokia', '5250' ),
 			'5320!'										=> array( 'Nokia', '5320 XpressMusic' ),
 			'5500d!'									=> array( 'Nokia', '5500 Sport' ),
@@ -103,15 +104,18 @@
 			'6210Navigator'								=> array( 'Nokia', '6210 Navigator' ),
 			'6220c!'									=> array( 'Nokia', '6220 classic' ),
 			'6290!'										=> array( 'Nokia', '6290' ),
+			'6600'										=> array( 'Nokia', '6600' ),
 			'6650d!'									=> array( 'Nokia', '6650 fold' ),
+			'6680'										=> array( 'Nokia', '6680' ),
 			'6700s'										=> array( 'Nokia', '6700 slide' ),
 			'6710s'										=> array( 'Nokia', '6710 Navigator' ),
 			'6720c'										=> array( 'Nokia', '6720 classic' ),
-			'6730c'										=> array( 'Nokia', '6730 classic' ),
+			'6730c!'									=> array( 'Nokia', '6730 classic' ),
 			'6760s!'									=> array( 'Nokia', '6760 slide' ),
 			'6788'										=> array( 'Nokia', '6788' ),
 			'6788i'										=> array( 'Nokia', '6788i' ),
 			'6790s-1b!'									=> array( 'Nokia', '6790 Surge' ),
 			'6790s-1c!'									=> array( 'Nokia', '6790 slide' ),
-			'7610'										=> array( 'Nokia', '7610' )
+			'7610'										=> array( 'Nokia', '7610' ),
+			'7660'										=> array( 'Nokia', '7660' )
 		);
