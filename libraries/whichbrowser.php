@@ -1056,7 +1056,7 @@
 			 *		Brew
 			 */
 		
-			if (preg_match('/BREW/i', $ua) || preg_match('/BMP; U/', $ua)) {
+			if (preg_match('/BREW/i', $ua) || preg_match('/BMP( [0-9.]*)?; U/', $ua)) {
 				$this->os->name = 'Brew';
 
 				if (preg_match('/BREW; U; ([0-9.]*)/i', $ua, $match)) {
@@ -1066,6 +1066,11 @@
 				else if (preg_match('/;BREW\/([0-9.]*)/i', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
+
+				else if (preg_match('/BMP( [0-9.]*)?; U/i', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
+
 
 				$this->device->type = TYPE_MOBILE;
 
