@@ -2956,7 +2956,7 @@
 			 *		Obigo
 			 */
 		
-			if (preg_match('/Obigo/i', $ua)) {
+			if (preg_match('/(?:Obigo|Teleca)/i', $ua)) {
 				$this->browser->name = 'Obigo';
 
 				if (preg_match('/Obigo\/([0-9.]*)/i', $ua, $match)) {
@@ -2973,7 +2973,7 @@
 					$this->browser->version = new Version(array('value' => $match[2]));
 				}
 
-				if (preg_match('/Browser\/Obigo-([A-Z])([0-9.]*)/i', $ua, $match)) {
+				if (preg_match('/Browser\/(?:Obigo|Teleca)-(?:Browser\/)?([A-Z])([0-9.]*)/i', $ua, $match)) {
 					$this->browser->name = 'Obigo ' . $match[1];
 					$this->browser->version = new Version(array('value' => $match[2]));
 				}
