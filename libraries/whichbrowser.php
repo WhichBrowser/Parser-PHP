@@ -2022,6 +2022,10 @@
 								$this->device->type = TYPE_MOBILE;
 								$this->device->identified = false;
 								$identified = true;
+								
+								if (preg_match('/^[a-z][0-9]+/', $this->device->model)) {
+									$this->device->model[0] = strtoupper($this->device->model[0]);
+								}
 	
 								if (isset($this->os->name) && $this->os->name == 'Series60') {
 									$device = DeviceModels::identify('s60', $this->device->model);
