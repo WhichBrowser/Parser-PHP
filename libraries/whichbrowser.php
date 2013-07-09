@@ -3089,11 +3089,21 @@
 				}
 			}
 
+			/* U2 is the Proxy service used by UC Browser on low-end phones */
 			if (preg_match('/U2\//', $ua)) {
 				$this->engine->name = 'Gecko';
 				$this->browser->mode = 'proxy';
+				
+				/* UC Browser running on Windows 8 is identifing itself as U2, but instead its a Trident Webview */
+				if ($this->os->name && $this->os->version) {
+					if ($this->os->name == 'Windows Phone' && $this->os->version->toFloat() >= 8) {
+						$this->engine->name = 'Trident';
+						$this->browser->mode = '';
+					}
+				}
 			}
 
+			/* U3 is the Webkit based Webview used on Android phones */
 			if (preg_match('/U3\//', $ua)) {
 				$this->engine->name = 'Webkit';
 			}
@@ -3595,7 +3605,7 @@
 						unset($this->os->version);
 					}
 				
-					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS')) {
+					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS')) {
 						$this->engine->name = 'Gecko';
 						unset($this->engine->version);
 						$this->browser->mode = 'proxy';
