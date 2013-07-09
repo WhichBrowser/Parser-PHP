@@ -1,9 +1,11 @@
 <?php
 
 		DeviceModels::$S60_MODELS = array(
+			'M600i'										=> array( 'Sony Ericsson', 'M600i' ),
 			'U1i'										=> array( 'Sony Ericsson', 'Satio' ),
 			'U5i'										=> array( 'Sony Ericsson', 'Vivaz' ),
 			'U8i'										=> array( 'Sony Ericsson', 'Vivaz Pro' ),
+			'W100i'										=> array( 'Sony Ericsson', 'Spiro' ),
 			'I7710'										=> array( 'Samsung', 'GT-I7710' ),
 			'I8510'										=> array( 'Samsung', 'INNOV8' ),
 			'I8910'										=> array( 'Samsung', 'Omnia HD' ),
