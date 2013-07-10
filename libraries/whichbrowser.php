@@ -603,7 +603,7 @@
 					$this->device->model = $match[1];
 				}
 				
-				else if (preg_match('/; ([^;]*[^;\s])\s+Build/', $ua, $match)) {
+				else if (preg_match('/; ?([^;]*[^;\s])\s+Build/', $ua, $match)) {
 					$this->device->model = $match[1];
 				}		
 				
