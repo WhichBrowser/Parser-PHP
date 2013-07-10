@@ -3638,17 +3638,6 @@
 			}
 			
 			
-			/* If we have a Mozilla browser and not engine or other browser name, it could be the original */
-			if (preg_match('/Mozilla/', $ua) && !isset($this->browser->name) && !isset($this->engine->name)) {
-				$this->browser->name = 'Netscape';
-
-				if (preg_match('/Mozilla\/([0-9.]*)/i', $ua, $match)) {
-					$this->browser->version = new Version(array('value' => $match[1]));
-				}
-			}
-			
-			
-			
 			if (isset($this->os->name) && $this->os->name == 'Android') {
 				if (!isset($this->os->version) || $this->os->version == null || $this->os->version->value == null) {
 					if (preg_match('/Build\/([^\);]+)/', $ua, $match)) {
