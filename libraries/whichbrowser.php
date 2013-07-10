@@ -3281,6 +3281,7 @@
 				array('name' => 'QtEmbedded',			'regexp' => '/QtEmbedded.*Qt\/([0-9.]*)/'),
 				array('name' => 'RhoSimulator',			'regexp' => '/RhoSimulator/'),
 				array('name' => 'UWebKit',				'regexp' => '/UWebKit\/([0-9.]*)/'),
+				array('name' => 'Node-WebKit',			'regexp' => '/nw-tests\/([0-9.]*)/'),
 				
 				array('name' => 'PhantomJS',			'regexp' => '/PhantomJS\/([0-9.]*)/'),
 				
