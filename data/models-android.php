@@ -819,6 +819,7 @@
 			'GN818T'									=> array( 'Gionee', 'GN818T' ),
 			'GN858'										=> array( 'Gionee', 'GN858' ),
 			'GN868'										=> array( 'Gionee', 'GN86N7078' ),
+			'GL-900'									=> array( 'GlobusGPS', 'GL-900', TYPE_GPS ),
 			'GOCLEVER'									=> array( 'Goclever', 'TAB', TYPE_TABLET ),
 			'GOCLEVER TAB A73'							=> array( 'Goclever', 'TAB A73', TYPE_TABLET ),
 			'GOCLEVER TAB A93'							=> array( 'Goclever', 'TAB A93', TYPE_TABLET ),

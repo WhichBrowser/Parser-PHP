@@ -41,6 +41,7 @@
 	define ('TYPE_CAMERA', 'camera');
 	define ('TYPE_SIGNAGE', 'signage');
 	define ('TYPE_WHITEBOARD', 'whiteboard');
+	define ('TYPE_GPS', 'gps');
 	define ('TYPE_CAR', 'car');
 	define ('TYPE_POS', 'pos');
 	define ('TYPE_BOT', 'bot');
