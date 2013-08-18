@@ -65,7 +65,8 @@
 			$this->analyseUserAgent($this->headers['User-Agent']);
 			
 			if (isset($this->headers['X-OperaMini-Phone-UA'])) $this->analyseAlternativeUserAgent($this->headers['X-OperaMini-Phone-UA']);
-			if (isset($this->headers['X-UCBrowser-Phone-UA'])) $this->analyseUCUserAgent($this->headers['X-UCBrowser-Phone-UA']);
+			if (isset($this->headers['X-UCBrowser-Phone-UA'])) $this->analyseOldUCUserAgent($this->headers['X-UCBrowser-Phone-UA']);
+			if (isset($this->headers['X-UCBrowser-UA'])) $this->analyseNewUCUserAgent($this->headers['X-UCBrowser-UA']);
 			if (isset($this->headers['X-Puffin-UA'])) $this->analysePuffinUserAgent($this->headers['X-Puffin-UA']);
 			if (isset($this->headers['X-Original-User-Agent'])) $this->analyseAlternativeUserAgent($this->headers['X-Original-User-Agent']);
 			if (isset($this->headers['X-Device-User-Agent'])) $this->analyseAlternativeUserAgent($this->headers['X-Device-User-Agent']);
@@ -114,7 +115,7 @@
 			}
 		}
 
-		function analyseUCUserAgent($ua) {
+		function analyseOldUCUserAgent($ua) {
 			if ($this->device->type == TYPE_DESKTOP) {
 				$this->device->type = TYPE_MOBILE;
 
@@ -130,6 +131,18 @@
 			if ($extra->device->type != TYPE_DESKTOP) {
 				if (isset($extra->os->version)) $this->os = $extra->os;
 				if ($extra->device->identified) $this->device = $extra->device;
+			}
+		}
+
+		function analyseNewUCUserAgent($ua) {
+			if (isset($this->os->name) && $this->os->name == 'Android') {
+				if (preg_match('/dv\((.*)\s+Build/', $ua, $match)) {
+					$device = DeviceModels::identify('android', $match[1]);
+					
+					if ($device) {
+						$this->device = $device;
+					}
+				}		
 			}
 		}
 				
