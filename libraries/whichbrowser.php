@@ -3252,7 +3252,7 @@
 			 *		Maxthon
 			 */
 		
-			if (preg_match('/Maxthon[\/\' ]([0-9.]*)/', $ua, $match)) {
+			if (preg_match('/Maxthon[\/\' ]\(?([0-9.]*)\)?/', $ua, $match)) {
 				$this->browser->name = 'Maxthon';
 				$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
 				$this->browser->channel = '';
