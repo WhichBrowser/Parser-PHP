@@ -797,11 +797,11 @@
 				$this->device->model = $match[2];
 				
 				if ($this->device->model == 'Kbd') {
-					$this->device->model = 'Q10';
+					$this->device->model = 'Q series';
 				} 
 				
 				if ($this->device->model == 'Touch') {
-					$this->device->model = 'Z10 or Dev Alpha';
+					$this->device->model = 'A or Z series';
 				} 
 				
 				$this->device->type = preg_match('/Mobile/', $ua) ? TYPE_MOBILE : TYPE_TABLET;
