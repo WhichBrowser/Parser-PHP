@@ -3881,7 +3881,7 @@
 			$s = preg_replace('/^Lenovo-/', 'Lenovo', $s);
 			$s = preg_replace('/^ZTE-/', 'ZTE ', $s);
 			$s = preg_replace('/^(LG)[ _\/]/', '$1-', $s);
-			$s = preg_replace('/^(HTC.*)\s(?:v|V)?[0-9.]+$/', '$1', $s);
+			$s = preg_replace('/^(HTC.+)\s(?:v|V)?[0-9.]+$/', '$1', $s);
 			$s = preg_replace('/^(HTC)[-\/]/', '$1', $s);
 			$s = preg_replace('/^(HTC)([A-Z][0-9][0-9][0-9])/', '$1 $2', $s);
 			$s = preg_replace('/^(Motorola[\s|-])/', '', $s);
