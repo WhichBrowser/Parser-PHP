@@ -2586,6 +2586,10 @@
 				$this->browser->name = 'Opera';
 				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
 
+				if (preg_match('/Edition Developer/', $ua)) {
+					$this->browser->channel = 'Developer';
+				}
+
 				if (preg_match('/Edition Next/', $ua)) {
 					$this->browser->channel = 'Next';
 				}
