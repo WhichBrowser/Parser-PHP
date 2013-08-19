@@ -3880,6 +3880,7 @@
 			$s = preg_replace('/^Generic Android on /', '', $s);
 			$s = preg_replace('/^Full JellyBean( on )?/', '', $s);			
 			$s = preg_replace('/^Full (AOSP on |Android on |Cappuccino on |MIPS Android on |Android)/', '', $s);
+			$s = preg_replace('/^AOSP on /', '', $s);			
 
 			$s = preg_replace('/^Acer( |-)?/i', '', $s);
 			$s = preg_replace('/^Iconia( Tab)? /', '', $s);
