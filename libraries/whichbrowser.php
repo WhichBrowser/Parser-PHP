@@ -2512,6 +2512,7 @@
 						case '18.0.1025':
 						case '25.0.1364':
 						case '27.0.1453':
+						case '29.0.1547':
 							$this->browser->version->details = 1;
 							break;
 						default:	
@@ -2557,6 +2558,7 @@
 						case '26.0.1410':
 						case '27.0.1453':
 						case '28.0.1500':
+						case '29.0.1547':
 							$this->browser->version->details = 1;
 							break;
 						default:	
