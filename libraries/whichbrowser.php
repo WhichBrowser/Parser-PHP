@@ -72,6 +72,38 @@
 			if (isset($this->headers['X-Device-User-Agent'])) $this->analyseAlternativeUserAgent($this->headers['X-Device-User-Agent']);
 			if (isset($this->headers['Device-Stock-UA'])) $this->analyseAlternativeUserAgent($this->headers['Device-Stock-UA']);
 			if (isset($this->headers['X-Requested-With'])) $this->analyseBrowserId($this->headers['X-Requested-With']);
+
+			if (isset($this->headers['x-wap-profile'])) $this->analyseWapProfile($this->headers['x-wap-profile']);
+			if (isset($this->headers['X-Wap-Profile'])) $this->analyseWapProfile($this->headers['X-Wap-Profile']);
+			if (isset($this->headers['X-WAP-PROFILE'])) $this->analyseWapProfile($this->headers['X-WAP-PROFILE']);
+		}
+		
+		
+		function analyseWapProfile($url) {
+			$url = trim($url);
+			$url = trim($url, '"');
+			
+			$result = DeviceProfiles::identify($url);
+			
+			if ($result) {			
+				if ($result[0] && $result[1]) {
+					$this->device->manufacturer = $result[0];
+					$this->device->model = $result[1];
+					$this->device->identified = true;
+				}
+				
+				if ($result[2] && (!isset($this->os->name) || $this->os->name != $result[2])) {
+					$this->os->name = $result[2];
+					$this->os->version = null;
+					
+					$this->engine->name = null;
+					$this->engine->version = null;
+				}
+				
+				if ($result[3]) {
+					$this->device->type = $result[3];
+				}
+			}
 		}
 		
 		function analyseBrowserId($id) {
@@ -3916,6 +3948,21 @@
 			return $s;
 		}
 	}
+	
+	class DeviceProfiles {
+		static $PROFILES = array();
+
+		function identify($url) {
+			require_once(_BASEPATH_ . '../data/profiles.php'); 
+
+			if (isset(DeviceProfiles::$PROFILES[$url])) {
+				return DeviceProfiles::$PROFILES[$url];
+			}
+			
+			return false;
+		}
+	}
+	
 
 	class Version {
 		var $value = null;
