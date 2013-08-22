@@ -76,6 +76,7 @@
 			'5310!'										=> array( 'Nokia', '5310 XpressMusic' ),
 			'5330'										=> array( 'Nokia', '5330 Mobile TV Edition' ),
 			'5610d!'									=> array( 'Nokia', '5610 XpressMusic' ),
+			'6070!'										=> array( 'Nokia', '6070' ),
 			'6208c'										=> array( 'Nokia', '6208 classic' ),
 			'6212c'										=> array( 'Nokia', '6212 classic' ),
 			'6260s!'									=> array( 'Nokia', '6260 slide' ),
