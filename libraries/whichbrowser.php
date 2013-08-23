@@ -3100,7 +3100,7 @@
 				$this->browser->mode = 'proxy';
 				
 				/* UC Browser running on Windows 8 is identifing itself as U2, but instead its a Trident Webview */
-				if ($this->os->name && $this->os->version) {
+				if (isset($this->os->name) && isset($this->os->version)) {
 					if ($this->os->name == 'Windows Phone' && $this->os->version->toFloat() >= 8) {
 						$this->engine->name = 'Trident';
 						$this->browser->mode = '';
