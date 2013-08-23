@@ -214,23 +214,11 @@
 					$this->os->version = null;
 				}
 				
-				if (preg_match('/iPod( touch)?/', $parts[1])) {
-					$this->device->type = TYPE_MEDIA;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPod touch';
-				} 
-				else if (preg_match('/(?:Unknown )?iPhone( 3G| 3GS| 4| 4S| 5)?/', $parts[1], $match)) {
-					$this->device->type = TYPE_MOBILE;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPhone' . (isset($match[1]) ? $match[1] : '');
-				} 
-				else if (preg_match('/iPad/', $parts[1])) {
-					$this->device->type = TYPE_TABLET;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPad';
-				}
+				$device = DeviceModels::identify('ios', $match[1]);
 				
-				$this->device->identified = true;
+				if ($device) {
+					$this->device = $device;
+				}
 			}
 		}
 		
@@ -401,7 +389,7 @@
 			 *		iOS
 			 */
 		
-			if (preg_match('/iPhone( Simulator| 3G| 3GS| 4| 4S| 5)?;/', $ua) || preg_match('/iPad;/', $ua) || preg_match('/iPod( touch)?;/', $ua)) {
+			if (preg_match('/iPhone/', $ua) || preg_match('/iPad/', $ua) || preg_match('/iPod/', $ua)) {
 				$this->os->name = 'iOS';
 				$this->os->version = new Version(array('value' => '1.0'));
 
@@ -412,65 +400,22 @@
 				if (preg_match('/iPhone Simulator;/', $ua)) {
 					$this->device->type = TYPE_EMULATOR;
 				} 
-				else if (preg_match('/iPod( touch)?;/', $ua)) {
-					$this->device->type = TYPE_MEDIA;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPod touch';
-				} 
-				else if (preg_match('/iPhone( 3G| 3GS| 4| 4S| 5)?;/', $ua, $match)) {
-					$this->device->type = TYPE_MOBILE;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPhone' . (isset($match[1]) ? $match[1] : '');
-				} 
+				
 				else {
-					$this->device->type = TYPE_TABLET;
-					$this->device->manufacturer = 'Apple';
-					$this->device->model = 'iPad';
-				}
-				
-				$this->device->identified = true;
-				
-				if (preg_match('/((iPad|iPhone|iPod)[0-9],[0-9])/', $ua, $match)) {
-					$this->device->manufacturer = 'Apple';
-
-					switch($match[2]) {
-						case 'iPad': 		$this->device->type = TYPE_TABLET; break;	
-						case 'iPhone': 		$this->device->type = TYPE_MOBILE; break;	
-						case 'iPod': 		$this->device->type = TYPE_MEDIA; break;	
+					if (preg_match('/(iPad|iPhone( 3GS| 3G| 4S| 4| 5)?|iPod( touch)?)/', $ua, $match)) {
+						$device = DeviceModels::identify('ios', $match[0]);
+						
+						if ($device) {
+							$this->device = $device;
+						}
 					}
-					
-					switch($match[1]) {
-						case 'iPad1,1':
-						case 'iPad1,2':		$this->device->model = 'iPad'; break;
-						case 'iPad2,1':	
-						case 'iPad2,2':	
-						case 'iPad2,3':	
-						case 'iPad2,4':		$this->device->model = 'iPad 2'; break;
-						case 'iPad2,5':	
-						case 'iPad2,6':	
-						case 'iPad2,7':		$this->device->model = 'iPad mini'; break;
-						case 'iPad3,1':	
-						case 'iPad3,2':	
-						case 'iPad3,3':		$this->device->model = 'iPad (3rd gen)'; break;
-						case 'iPad3,4':	
-						case 'iPad3,5':	
-						case 'iPad3,6':		$this->device->model = 'iPad (4th gen)'; break;
+
+					if (preg_match('/(iPad|iPhone|iPod)[0-9],[0-9]/', $ua, $match)) {
+						$device = DeviceModels::identify('ios', $match[0]);
 						
-						case 'iPhone1,1':	$this->device->model = 'iPhone'; break;
-						case 'iPhone1,2':	$this->device->model = 'iPhone 3G'; break;
-						case 'iPhone2,1':	$this->device->model = 'iPhone 3GS'; break;
-						case 'iPhone3,1':
-						case 'iPhone3,2':
-						case 'iPhone3,3':	$this->device->model = 'iPhone 4'; break;
-						case 'iPhone4,1':	$this->device->model = 'iPhone 4S'; break;
-						case 'iPhone5,1':
-						case 'iPhone5,2':	$this->device->model = 'iPhone 5'; break;
-						
-						case 'iPod1,1':		$this->device->model = 'iPod touch'; break;
-						case 'iPod2,1':		$this->device->model = 'iPod touch (2nd gen)'; break;
-						case 'iPod3,1':		$this->device->model = 'iPod touch (3rd gen)'; break;
-						case 'iPod4,1':		$this->device->model = 'iPod touch (4th gen)'; break;
-						case 'iPod5,1':		$this->device->model = 'iPod touch (5th gen)'; break;
+						if ($device) {
+							$this->device = $device;
+						}
 					}
 				}
 			}
@@ -3824,6 +3769,7 @@
 		static $S60_MODELS = array();	
 		static $FEATURE_MODELS = array();
 		static $BLACKBERRY_MODELS = array();
+		static $IOS_MODELS = array();
 		
 
 		function identify($type, $model) {
@@ -3835,6 +3781,7 @@
 				case 'bada': 		return DeviceModels::identifyList(DeviceModels::$BADA_MODELS, $model);
 				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
 				case 'brew': 		return DeviceModels::identifyList(DeviceModels::$BREW_MODELS, $model);
+				case 'ios':			return DeviceModels::identifyIOS($model);
 				case 'tizen': 		return DeviceModels::identifyList(DeviceModels::$TIZEN_MODELS, $model);
 				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
 				case 'wm': 			return DeviceModels::identifyList(DeviceModels::$WINDOWS_MOBILE_MODELS, $model);
@@ -3845,6 +3792,14 @@
 			}
 
 			return (object) array('type' => '', 'model' => $model, 'identified' => false);
+		}
+		
+		function identifyIOS($model) {
+			$model = str_replace('Unknown ', '', $model);
+			$model = preg_replace("/iPh([0-9],[0-9])/", 'iPhone\\1', $model);
+			$model = preg_replace("/iPd([0-9],[0-9])/", 'iPod\\1', $model);
+		
+			return DeviceModels::identifyList(DeviceModels::$IOS_MODELS, $model);
 		}
 		
 		function identifyAndroid($model) {
