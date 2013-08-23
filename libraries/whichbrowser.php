@@ -64,20 +64,27 @@
 		
 			$this->analyseUserAgent($this->headers['User-Agent']);
 			
-			if (isset($this->headers['X-OperaMini-Phone-UA'])) $this->analyseAlternativeUserAgent($this->headers['X-OperaMini-Phone-UA']);
-			if (isset($this->headers['X-UCBrowser-Phone-UA'])) $this->analyseOldUCUserAgent($this->headers['X-UCBrowser-Phone-UA']);
-			if (isset($this->headers['X-UCBrowser-UA'])) $this->analyseNewUCUserAgent($this->headers['X-UCBrowser-UA']);
-			if (isset($this->headers['X-Puffin-UA'])) $this->analysePuffinUserAgent($this->headers['X-Puffin-UA']);
-			if (isset($this->headers['X-Original-User-Agent'])) $this->analyseAlternativeUserAgent($this->headers['X-Original-User-Agent']);
-			if (isset($this->headers['X-Device-User-Agent'])) $this->analyseAlternativeUserAgent($this->headers['X-Device-User-Agent']);
-			if (isset($this->headers['Device-Stock-UA'])) $this->analyseAlternativeUserAgent($this->headers['Device-Stock-UA']);
-			if (isset($this->headers['X-Requested-With'])) $this->analyseBrowserId($this->headers['X-Requested-With']);
-
-			if (isset($this->headers['x-wap-profile'])) $this->analyseWapProfile($this->headers['x-wap-profile']);
-			if (isset($this->headers['X-Wap-Profile'])) $this->analyseWapProfile($this->headers['X-Wap-Profile']);
-			if (isset($this->headers['X-WAP-PROFILE'])) $this->analyseWapProfile($this->headers['X-WAP-PROFILE']);
+			if ($this->hasHeader('X-Original-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Original-User-Agent'));
+			if ($this->hasHeader('X-Device-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Device-User-Agent'));
+			if ($this->hasHeader('Device-Stock-UA')) $this->analyseAlternativeUserAgent($this->getHeader('Device-Stock-UA'));
+			if ($this->hasHeader('X-OperaMini-Phone-UA')) $this->analyseAlternativeUserAgent($this->getHeader('X-OperaMini-Phone-UA'));
+			if ($this->hasHeader('X-UCBrowser-Device-UA')) $this->analyseAlternativeUserAgent($this->getHeader('X-UCBrowser-Device-UA'));
+			if ($this->hasHeader('X-UCBrowser-Phone-UA')) $this->analyseOldUCUserAgent($this->getHeader('X-UCBrowser-Phone-UA'));
+			if ($this->hasHeader('X-UCBrowser-UA')) $this->analyseNewUCUserAgent($this->getHeader('X-UCBrowser-UA'));
+			if ($this->hasHeader('X-Puffin-UA')) $this->analysePuffinUserAgent($this->getHeader('X-Puffin-UA'));
+			if ($this->hasHeader('X-Requested-With')) $this->analyseBrowserId($this->getHeader('X-Requested-With'));
+			if ($this->hasHeader('X-Wap-Profile')) $this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
 		}
 		
+		function hasHeader($h) {
+			return isset($this->headers[$h]) || isset($this->headers[strtolower($h)]) || isset($this->headers[strtoupper($h)]);
+		}
+		
+		function getHeader($h) {
+			if (isset($this->headers[$h])) return $this->headers[$h];
+			if (isset($this->headers[strtolower($h)])) return $this->headers[strtolower($h)];
+			if (isset($this->headers[strtoupper($h)])) return $this->headers[strtoupper($h)];
+		}
 		
 		function analyseWapProfile($url) {
 			$url = trim($url);
