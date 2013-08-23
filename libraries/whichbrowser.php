@@ -62,7 +62,7 @@
 			$this->os = (object) array();
 			$this->device = (object) array('type' => '', 'identified' => false);
 		
-			$this->analyseUserAgent($this->headers['User-Agent']);
+			$this->analyseUserAgent(isset($this->headers['User-Agent']) ? $this->headers['User-Agent'] : '');
 			
 			if ($this->hasHeader('X-Original-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Original-User-Agent'));
 			if ($this->hasHeader('X-Device-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Device-User-Agent'));
