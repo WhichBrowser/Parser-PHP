@@ -2337,7 +2337,7 @@
 			'XT532'										=> array( 'Motorola', 'MOTO XT532' ),	
 			'XT535'										=> array( 'Motorola', 'DEFY' ),	
 			'XT536'										=> array( 'Motorola', 'DEFY Diana' ),	
-			'XT550'										=> array( 'Motorola', 'MOTOSMART MIX' ),	
+			'XT5(50|53)!'								=> array( 'Motorola', 'MOTOSMART MIX' ),	
 			'XT5(55|56|57)!'							=> array( 'Motorola', 'DEFY XT' ),	
 			'XT560'										=> array( 'Motorola', 'DEFY Pro' ),	
 			'XT603'										=> array( 'Motorola', 'ADMIRAL' ),
