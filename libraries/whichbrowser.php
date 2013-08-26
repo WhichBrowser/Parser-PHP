@@ -72,6 +72,7 @@
 			if ($this->hasHeader('X-UCBrowser-Phone-UA')) $this->analyseOldUCUserAgent($this->getHeader('X-UCBrowser-Phone-UA'));
 			if ($this->hasHeader('X-UCBrowser-UA')) $this->analyseNewUCUserAgent($this->getHeader('X-UCBrowser-UA'));
 			if ($this->hasHeader('X-Puffin-UA')) $this->analysePuffinUserAgent($this->getHeader('X-Puffin-UA'));
+			if ($this->hasHeader('Baidu-FlyFlow')) $this->analyseBaiduHeader($this->getHeader('Baidu-FlyFlow'));
 			if ($this->hasHeader('X-Requested-With')) $this->analyseBrowserId($this->getHeader('X-Requested-With'));
 			if ($this->hasHeader('X-Wap-Profile')) $this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
 		}
@@ -151,6 +152,14 @@
 			if ($extra->device->type != TYPE_DESKTOP) {
 				if (isset($extra->os->name)) $this->os = $extra->os;
 				if ($extra->device->identified) $this->device = $extra->device;
+			}
+		}
+
+		function analyseBaiduHeader($ua) {
+			if ($this->browser->name != 'Baidu Browser') {
+				$this->browser->name = 'Baidu Browser';
+				$this->browser->version = null;
+				$this->browser->stock = false;
 			}
 		}
 
