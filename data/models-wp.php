@@ -36,6 +36,7 @@
 			'C625(a|b)!'								=> array( 'HTC', '8X' ),
 			'8X by HTC'									=> array( 'HTC', '8X' ),
 			'Windows Phone 8X by HTC'					=> array( 'HTC', '8X' ),
+			'8S by HTC'									=> array( 'HTC', '8S' ),
 			'Windows Phone 8S by HTC'					=> array( 'HTC', '8S' ),
 			'HUAWEI Ascend W1!'							=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEI W1-U00'								=> array( 'Huawei', 'Ascend W1' ),
