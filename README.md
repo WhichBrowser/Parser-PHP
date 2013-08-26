@@ -35,9 +35,9 @@ The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Min
 How to install it
 -----------------
 
-Place the files in a directory on your server. The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to also use PHP to parse the `detect.js` file. This is required and if your server does not support `.htaccess` files you need to find a way to make your browser do the same.
+Place the files in a directory on your server. The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to also use PHP to parse the `detect.js` file. This is required and if your server does not support `.htaccess` files you need to find a way to make your server do the same.
 
-Then load the `detect.js` file on your webpage.
+Then load the `detect.js` file using a normal `script` tag on on your webpage.
 
 
 How to use it
