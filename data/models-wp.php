@@ -63,6 +63,7 @@
 			'(Lumia ?|Nokia ?)?928!'					=> array( 'Nokia', 'Lumia 928' ),
 			'RM-9(13|14)!'								=> array( 'Nokia', 'Lumia 520' ),
 			'RM-846!'									=> array( 'Nokia', 'Lumia 620' ),
+			'RM-885!'									=> array( 'Nokia', 'Lumia 720' ),
 			'RM-8(24|25|26)!'							=> array( 'Nokia', 'Lumia 820' ),
 			'RM-845!'									=> array( 'Nokia', 'Lumia 822' ),
 			'RM-8(20|21|22)!'							=> array( 'Nokia', 'Lumia 920' ),
