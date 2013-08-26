@@ -966,6 +966,25 @@
 				$this->os->name = 'webOS';
 				$this->device->type = 'television';
 			}
+
+
+			/****************************************************
+			 *		S80
+			 */
+
+			if (preg_match('/Series80\/([0-9.]*)/', $ua, $match)) {
+				$this->os->name = 'Series80';
+				$this->os->version = new Version(array('value' => $match[1]));
+
+				if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/', $ua, $match)) {
+					if ($match[1] != 'Browser') {
+						$this->device->manufacturer = 'Nokia';
+						$this->device->model = DeviceModels::cleanup($match[1]);
+						$this->device->identified = true;
+					}
+				}
+			}
+
 				
 			/****************************************************
 			 *		S60
@@ -3655,6 +3674,11 @@
 			if (isset($this->os->name) && isset($this->browser->name)) {
 				if ($this->os->name == 'iOS' && $this->browser->name == 'Opera Mini') {
 					$this->os->version = null;
+				}
+
+				if ($this->os->name == 'Series80' && $this->browser->name == 'Internet Explorer') {
+					$this->browser->name = null;
+					$this->browser->version = null;
 				}
 			}
 			
