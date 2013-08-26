@@ -89,7 +89,11 @@
 		
 		function analyseWapProfile($url) {
 			$url = trim($url);
-			$url = trim($url, '"');
+
+			if ($url[0] == '"') {
+				$url = explode(",", $url);
+				$url = trim($url[0], '"');
+			}
 			
 			$result = DeviceProfiles::identify($url);
 			
