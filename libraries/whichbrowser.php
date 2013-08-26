@@ -948,6 +948,11 @@
 
 				$this->device->identified = true;
 			}
+
+			if (preg_match('/WebOS; Linux\/SmartTV/', $ua, $match)) {
+				$this->os->name = 'webOS';
+				$this->device->type = 'television';
+			}
 				
 			/****************************************************
 			 *		S60
@@ -3415,6 +3420,7 @@
 				array('name' => 'InternetSurfboard', 	'regexp' => '/InternetSurfboard\/([0-9.]*)/'),
 				array('name' => 'Iron', 				'regexp' => '/Iron\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Isis', 				'regexp' => '/BrowserServer/'),
+				array('name' => 'Isis', 				'regexp' => '/ISIS\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Jumanji', 				'regexp' => '/jumanji/'),
 				array('name' => 'Kazehakase', 			'regexp' => '/Kazehakase\/([0-9.]*)/'),
 				array('name' => 'KChrome', 				'regexp' => '/KChrome\/([0-9.]*)/', 'details' => 3),
