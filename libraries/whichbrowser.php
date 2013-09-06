@@ -3295,12 +3295,14 @@
 				$this->browser->name = 'NetFront NX';
 				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
 
-				if (preg_match('/DTV/i', $ua)) {
-					$this->device->type = TYPE_TELEVISION;
-				} else if (preg_match('/mobile/i', $ua)) {
-					$this->device->type = TYPE_MOBILE;
-				} else {
-					$this->device->type = TYPE_DESKTOP;
+				if (!isset($this->device->type) || !$this->device->type) {
+					if (preg_match('/DTV/i', $ua)) {
+						$this->device->type = TYPE_TELEVISION;
+					} else if (preg_match('/mobile/i', $ua)) {
+						$this->device->type = TYPE_MOBILE;
+					} else {
+						$this->device->type = TYPE_DESKTOP;
+					}
 				}
 				
 				$this->os->name = '';
