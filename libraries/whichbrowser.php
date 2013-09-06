@@ -1291,6 +1291,15 @@
 			}
 
 			/****************************************************
+			 *		SpreadTrum
+			 */
+		
+			if (preg_match('/\(SpreadTrum;/', $ua)) {
+				$this->os->name = 'SpreadTrum';
+				$this->device->type = TYPE_MOBILE;
+			}
+
+			/****************************************************
 			 *		CrOS
 			 */
 		
