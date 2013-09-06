@@ -677,11 +677,19 @@
 						}
 					}						
 
-					if ($this->device->manufacturer == 'Microsoft' && $this->device->model == 'XDeviceEmulator') {
-						$this->device->manufacturer = null;
-						$this->device->model = null;
-						$this->device->type = TYPE_EMULATOR;
-						$this->device->identified = true;
+					if (isset($this->device->manufacturer) && isset($this->device->model)) {
+						if ($this->device->manufacturer == 'ARM' && $this->device->model == 'Touch') {
+							$this->device->manufacturer = null;
+							$this->device->model = null;
+							$this->device->identified = ID_NONE;
+						}
+	
+						if ($this->device->manufacturer == 'Microsoft' && $this->device->model == 'XDeviceEmulator') {
+							$this->device->manufacturer = null;
+							$this->device->model = null;
+							$this->device->type = TYPE_EMULATOR;
+							$this->device->identified |= ID_MATCH_UA;
+						}
 					}
 				}
 			}
