@@ -665,7 +665,7 @@
 						}						
 					}
 					
-					if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?([^;]+); ([^;]+)[;|\)]/', $ua, $match)) {
+					if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?\s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/', $ua, $match)) {
 						$this->device->manufacturer = $match[1];
 						$this->device->model = $match[2];
 						$this->device->identified |= ID_PATTERN;
