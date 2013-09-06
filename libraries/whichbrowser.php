@@ -454,6 +454,15 @@
 					$this->device->type = TYPE_DESKTOP;
 				}
 
+				if (preg_match('/Mandriva/', $ua)) {
+					$this->os->name = 'Mandriva';
+					if (preg_match('/Mandriva\/[0-9\.\-]+mdv([0-9]+)/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => $match[1]));
+					}
+
+					$this->device->type = TYPE_DESKTOP;
+				}
+
 				if (preg_match('/Red Hat/', $ua)) {
 					$this->os->name = 'Red Hat';
 					if (preg_match('/Red Hat[^\/]*\/[0-9\.\-]+el([0-9_]+)/', $ua, $match)) {
