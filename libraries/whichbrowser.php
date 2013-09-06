@@ -1905,6 +1905,19 @@
 
 
 			/****************************************************
+			 *		MediStream
+			 */
+
+			if (preg_match('/BrightSign\/[0-9\.]+ \(([^\)]+)/', $ua, $match)) {
+				$this->os->name = '';
+				$this->device->manufacturer = 'BrightSign';
+				$this->device->model = $match[1];
+				$this->device->type = TYPE_SIGNAGE;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
+
+			/****************************************************
 			 *		Generic
 			 */
 
