@@ -1957,10 +1957,10 @@
 						$this->device->identified |= ID_PATTERN;
 
 						switch($modelName) {
-							case 'GLOBAL_PLAT3':	$this->device->model = 'NetCast TV'; break;
-							case 'GLOBAL_PLAT4':	$this->device->model = 'NetCast TV'; break;
-							case 'SmartTV2012':		$this->device->model = 'Smart TV 2012'; break;
-							case 'videoweb':		$this->device->model = 'Videoweb'; break;
+							case 'GLOBAL_PLAT3':	$this->device->model = 'NetCast TV'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'GLOBAL_PLAT4':	$this->device->model = 'NetCast TV'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'SmartTV2012':		$this->device->model = 'Smart TV 2012'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'videoweb':		$this->device->model = 'Videoweb'; $this->device->identified |= ID_MATCH_UA; break;
 							default:				$this->device->model = $modelName;
 						}
 						
