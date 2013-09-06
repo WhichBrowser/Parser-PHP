@@ -2646,6 +2646,20 @@
 				if (preg_match('/MSIE ([0-9.]*)/', $ua, $match)) {
 					$this->browser->version = new Version(array('value' => $match[1]));
 				}
+				
+				if (preg_match('/Mac_/', $ua)) {
+					$this->os->name = 'Mac OS';
+					$this->engine->name = 'Tasman';
+					$this->device->type = TYPE_DESKTOP;
+					
+					if ($this->browser->version->toFloat() >= 5.11 && $this->browser->version->toFloat() <= 5.13) {
+						$this->os->name = 'Mac OS X';
+					}
+
+					if ($this->browser->version->toFloat() >= 5.2) {
+						$this->os->name = 'Mac OS X';
+					}
+				}
 			}
 
 			if (preg_match('/\(IE ([0-9.]*)/', $ua, $match)) {
