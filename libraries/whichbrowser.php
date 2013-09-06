@@ -770,11 +770,11 @@
 			 *		Aliyun OS
 			 */
 		
-			if (preg_match('/Aliyun/', $ua)) {
+			if (preg_match('/Aliyun/', $ua) || preg_match('/YunOs/i', $ua)) {
 				$this->os->name = 'Aliyun OS';
 				$this->os->version = new Version(); 
 
-				if (preg_match('/YunOs ([0-9.]+)/', $ua, $match)) {
+				if (preg_match('/YunOs[ \/]([0-9.]+)/i', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
 				}
 
