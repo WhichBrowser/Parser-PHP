@@ -152,6 +152,14 @@ var WhichBrowser = (function(){
 						}
 					}
 					
+					if (window.chrome) {
+						this.features.push('chrome');
+
+						if (this.engine.name && (this.engine.name != 'Blink' && this.engine.name != 'Webkit')) {
+							this.camouflage = true;			
+						}	
+					}
+				
 					
 					
 					/* If it claims to be Safari and uses V8, it is probably an Android device running camouflage mode */
