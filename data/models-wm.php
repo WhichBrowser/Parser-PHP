@@ -3,11 +3,13 @@
 		DeviceModels::$WINDOWS_MOBILE_MODELS = array(
 			'DX900'										=> array( 'Acer', 'Tempo DX900' ),
 			'F900'										=> array( 'Acer', 'Tempo F900' ),
+			'S200'										=> array( 'Acer', 'neoTouch S200' ),
 			'Bird_T900'									=> array( 'Bird', 'T900' ),
 			'Coolpad F800'								=> array( 'Coolpad', 'F800' ),
 			'T5388'										=> array( 'Dopod', 'Touch Diamond 2' ),
 			'garmin-asus-Nuvifone-M10'					=> array( 'Garmin-Asus', 'Nuvifone M10' ),
 			'HP iPAQ 510'								=> array( 'HP', 'iPAQ 510' ),
+			'HTC P3400!'								=> array( 'HTC', 'P3400' ),
 			'((HTC )?HD mini|.*T5555)!'					=> array( 'HTC', 'HD mini' ),
 			'((HTC )?HD2|.*T8585)!'						=> array( 'HTC', 'HD2' ),
 			'T-Mobile LEO'								=> array( 'HTC', 'HD2' ),
@@ -34,5 +36,6 @@
 			'SCH-M715'									=> array( 'Samsung', 'M715 T*OMNIA II' ),
 			'SGH-i900'									=> array( 'Samsung', 'i900 Omnia' ),
 			'WS007SH'									=> array( 'Sharp', 'W-ZERO3' ),
-			'M1i' 										=> array( 'Sony Ericsson', 'M1i Aspen' )
+			'M1i' 										=> array( 'Sony Ericsson', 'M1i Aspen' ),
+			'X2'										=> array( 'Sony Ericsson', 'Xperia X2' ),
 		);
