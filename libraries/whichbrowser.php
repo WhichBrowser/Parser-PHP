@@ -1947,7 +1947,7 @@
 			 *		Generic
 			 */
 
-			if (preg_match('/HbbTV\/1.1.1 \([^;]*;\s*([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
+			if (preg_match('/HbbTV\/[0-9\.]+ \([^;]*;\s*([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
 				$vendorName = trim($match[1]);
 				$modelName = trim($match[2]);
 
