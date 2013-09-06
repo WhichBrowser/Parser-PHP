@@ -1599,6 +1599,22 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+				
+			/****************************************************
+			 *		Zune HD
+			 *
+			 *		Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12; Microsoft ZuneHD 4.5)
+			 */
+		
+			if (preg_match('/Microsoft ZuneHD/', $ua)) {
+				$this->os->name = '';
+				$this->os->version = null;
+
+				$this->device->manufacturer = 'Microsoft';
+				$this->device->model = 'Zune HD';
+				$this->device->type = TYPE_MEDIA;
+				$this->device->identified |= ID_MATCH_UA;
+			}
 
 			/****************************************************
 			 *		Panasonic Smart Viera
