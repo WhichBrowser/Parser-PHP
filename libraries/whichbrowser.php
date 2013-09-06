@@ -2046,6 +2046,10 @@
 					array_push($candidates, $match[1]);
 				}
 
+				if (preg_match('/^(DoCoMo[^(]+)/', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
 				if (preg_match('/\ ([^\s]+)$/', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
@@ -2109,6 +2113,20 @@
 					
 					for ($i = 0; $i < count($candidates); $i++) {
 						if (!$this->device->identified) {
+							if (preg_match('/^acer_([^\/]*)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Acer';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+
+							if (preg_match('/^ALCATEL_([^\/]*)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Alcatel';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+
 							if (preg_match('/^BenQ-([^\/]*)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'BenQ';
 								$this->device->model = DeviceModels::cleanup($match[1]);
@@ -2116,8 +2134,22 @@
 								$identified = true;
 							}
 	
+							if (preg_match('/^Bird_([^\/]*)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Bird';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+	
 							if (preg_match('/^(?:YL-)?COOLPAD([^\s]+)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Coolpad';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+							
+							if (preg_match('/^DoCoMo\/[0-9\.]+ ([^\s]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'DoCoMo';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
 								$identified = true;
@@ -2268,6 +2300,13 @@
 								}
 							}
 	
+							if (preg_match('/^T-smart_([^\/]*)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'T-smart';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+							
 							if (preg_match('/^TCL[-_ ]([^\/]*)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'TCL';
 								$this->device->model = DeviceModels::cleanup($match[1]);
@@ -2354,6 +2393,13 @@
 								}
 							}
 	
+							if (preg_match('/^Xiaomi[_]?([^\s]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Xiaomi';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$identified = true;
+							}
+
 							if (preg_match('/^ZTE[-_]?([^\s]+)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'ZTE';
 								$this->device->model = DeviceModels::cleanup($match[1]);
