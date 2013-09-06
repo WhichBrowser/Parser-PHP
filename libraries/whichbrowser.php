@@ -2272,6 +2272,19 @@
 										}
 									}
 								}
+
+								if (!$this->device->identified) {
+									$device = DeviceModels::identify('asha', $this->device->model);
+									if ($device->identified) {
+										$device->identified |= $this->device->identified;
+										$this->device = $device;
+										
+										if (!isset($this->os->name) || $this->os->name != 'Nokia Asha Platform') {
+											$this->os->name = 'Nokia Asha Platform';
+											$this->os->version = null;
+										}
+									}
+								}
 							}
 	
 							if (preg_match('/^OPPO_([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
