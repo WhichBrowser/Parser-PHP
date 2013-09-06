@@ -1191,6 +1191,15 @@
 			}
 			
 			/****************************************************
+			 *		Jolla Sailfish
+			 */
+		
+			if (preg_match('/Jolla; Sailfish;/', $ua)) {
+				$this->os->name = 'Sailfish';
+				$this->device->type = TYPE_MOBILE;
+			}
+			
+			/****************************************************
 			 *		Bada
 			 */
 		
