@@ -422,6 +422,15 @@
 					$this->device->type = TYPE_DESKTOP;
 				}
 				
+				if (preg_match('/gNewSense/', $ua)) {
+					$this->os->name = 'gNewSense';
+					if (preg_match('/gNewSense\/[^\(]+\(([0-9\.]+)/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => $match[1]));
+					}
+
+					$this->device->type = TYPE_DESKTOP;
+				}
+				
 				if (preg_match('/Kubuntu/', $ua)) {
 					$this->os->name = 'Kubuntu';
 					$this->device->type = TYPE_DESKTOP;
