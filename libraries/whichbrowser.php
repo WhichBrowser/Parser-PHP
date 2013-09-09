@@ -4266,6 +4266,7 @@
 			$s = preg_replace('/^ICS AOSP on /', '', $s);
 			$s = preg_replace('/^Baidu Yi on /', '', $s);
 			$s = preg_replace('/^Buildroid for /', '', $s);
+			$s = preg_replace('/^Gingerbread on /', '', $s);			
 			$s = preg_replace('/^Android (on |for )/', '', $s);
 			$s = preg_replace('/^Generic Android on /', '', $s);
 			$s = preg_replace('/^Full JellyBean( on )?/', '', $s);			
