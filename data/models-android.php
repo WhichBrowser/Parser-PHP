@@ -179,6 +179,7 @@
 			'BC9710A'									=> array( '3Q', 'Qoo! Q-Pad BC9710A', TYPE_TABLET ),
 			'BC9710AM'									=> array( '3Q', 'Qoo! Q-Pad BC9710A', TYPE_TABLET ),
 			'RC0710B'									=> array( '3Q', 'Qoo! Q-Pad RC0710B', TYPE_TABLET ),
+			'RC0718C'									=> array( '3Q', 'Qoo! Q-Pad RC0718C', TYPE_TABLET ),
 			'RC9724C'									=> array( '3Q', 'Qoo! Q-Pad RC9724C', TYPE_TABLET ),
 			'RC9731C'									=> array( '3Q', 'Qoo! Q-Pad RC9731C', TYPE_TABLET ),
 			'QS9718C'									=> array( '3Q', 'Qoo! Q-Pad QS9718C', TYPE_TABLET ),
@@ -305,6 +306,7 @@
 			'one touch 40(05|10|11)!'					=> array( 'Alcatel', 'One Touch T\'Pop' ),
 			'one touch 4007!'							=> array( 'Alcatel', 'One Touch Pixi' ),
 			'one touch 4030!'							=> array( 'Alcatel', 'One Touch S\'Pop' ),
+			'one touch 4033!'							=> array( 'Alcatel', 'One Touch Pop C3' ),
 			'one touch 5020!'							=> array( 'Alcatel', 'One Touch M\'Pop' ),
 			'one touch 5021!'							=> array( 'Alcatel', 'One Touch Soleil' ),
 			'one touch 5035!'							=> array( 'Alcatel', 'One Touch X\'Pop' ),
@@ -319,6 +321,7 @@
 			'one touch 7024!'							=> array( 'Alcatel', 'One Touch "7024"' ),
 			'one touch 70(25|30)!'						=> array( 'Alcatel', 'One Touch Snap' ),
 			'Alcatel 7030L'								=> array( 'Alcatel', 'One Touch Snap' ),
+			'one touch 7040!'							=> array( 'Alcatel', 'One Touch "7040"' ),
 			'one touch 8000!'							=> array( 'Alcatel', 'One Touch Scribe Easy' ),
 			'one touch 8008!'							=> array( 'Alcatel', 'One Touch Scribe HD' ),
 			'one touch 8020!'							=> array( 'Alcatel', 'One Touch "8020"' ),							// One Touch Hero
@@ -347,9 +350,10 @@
 			'Softwinerf900'								=> array( 'AllWinner', 'F900', TYPE_TABLET ),
 			'AT108F'									=> array( 'Aluratek', 'Cinepad AT108F', TYPE_TABLET ),
 			'(Amazon )?Kindle Fire!'					=> array( 'Amazon', 'Kindle Fire', TYPE_TABLET ),					// 1st generation or unknown variant using unofficial firmware
-			'KFOTE?!'									=> array( 'Amazon', 'Kindle Fire', TYPE_TABLET ),					// 2nd generation 7" (1024 x 600)
+			'KFOTE?!'									=> array( 'Amazon', 'Kindle Fire', TYPE_TABLET ),					// "Otter"	1st or 2nd generation 7" (1024 x 600)
 			'KFTT'										=> array( 'Amazon', 'Kindle Fire HD 7"', TYPE_TABLET ),				// "Tate" 	2nd generation 7" HD (1280 x 800)
 			'KFJW(I|A)!'								=> array( 'Amazon', 'Kindle Fire HD 8.9"', TYPE_TABLET ),			// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
+			'KFJMWI'									=> array( 'Amazon', 'Kindle Fire (3rd gen)', TYPE_TABLET ),			//          3rd generation (1280 x 800)
 			'KFSOWI'									=> array( 'Amazon', 'Kindle Fire (3rd gen)', TYPE_TABLET ),			// "Soho" 	3rd generation 7" HD (1280 x 800)
 			'KFTHWI'									=> array( 'Amazon', 'Kindle Fire (3rd gen)', TYPE_TABLET ),			// "Thor" 	3rd generation 8.9" HD or perhaps an enhanced 7" HD version (1920 x 1200)
 			'KFAPW(I|A)!'								=> array( 'Amazon', 'Kindle Fire (3rd gen)', TYPE_TABLET ),			// "Apollo" 3rd generation 10.1" HD or perhaps an enhanced 8.9" HD version (2560 x 1600) 
@@ -398,6 +402,7 @@
 			'AN10BG3'									=> array( 'Archos', 'Arnova 10b G3', TYPE_TABLET ),
 			'AN10CG3'									=> array( 'Archos', 'Arnova 10c G3', TYPE_TABLET ),
 			'AN10DG3'									=> array( 'Archos', 'Arnova 10d G3', TYPE_TABLET ),
+			'ARNOVA 90G3'								=> array( 'Archos', 'Arnova 90 G3', TYPE_TABLET ),
 			'A32'										=> array( 'Archos', '32', 'media' ),
 			'A35DE'										=> array( 'Archos', '35 Smart Home Phone' ),
 			'A43'										=> array( 'Archos', '43', 'media' ),
@@ -443,6 +448,7 @@
 			'ME302KL'									=> array( 'Asus', 'MemoPad FHD 10', TYPE_TABLET ),
 			'ME371MG'									=> array( 'Asus', 'Fonepad', TYPE_TABLET ),
 			'ME372CG'									=> array( 'Asus', 'Fonepad 7', TYPE_TABLET ),
+			'ME560CG'									=> array( 'Asus', 'Fonepad Note 6', TYPE_TABLET ),
 			'Slider SL101'								=> array( 'Asus', 'Eee Pad Slider', TYPE_TABLET ),
 			'EPAD'										=> array( 'Asus', 'Eee Pad Transformer', TYPE_TABLET ),
 			'TF101'										=> array( 'Asus', 'Eee Pad Transformer', TYPE_TABLET ),
@@ -606,9 +612,11 @@
 			'Cloudfone Excite320e'						=> array( 'Cloudfone', 'Excite 320e' ),
 			'Cloudfone Thrill 430g'						=> array( 'Cloudfone', 'Thrill 430g' ),
 			'Thrill 430x'								=> array( 'Cloudfone', 'Thrill 430x' ),
+			'CloudPad 700d'								=> array( 'Cloudfone', 'CloudPad 700d' ),
 			'CloudPad 700w'								=> array( 'Cloudfone', 'CloudPad 700w' ),
 			'CW-V88-QUAD'								=> array( 'Chuwi', 'V88' ),
-			'AQUILA 080-1008'							=> array( 'CMX', 'Aquila MID 080-1008', TYPE_TABLET ),
+			'AQUILA 080-1008'							=> array( 'CMX', 'Aquila 080-1008', TYPE_TABLET ),
+			'Clanga 097-2016'							=> array( 'CMX', 'Clanga 097-2016', TYPE_TABLET ),
 			'CnM TouchPad 7'							=> array( 'CnM', 'TouchPad 7', TYPE_TABLET ),
 			'CnM TouchPad 7DC'							=> array( 'CnM', 'TouchPad 7 DC', TYPE_TABLET ),
 			'Cnm TOUCHPAD 9.7'							=> array( 'CnM', 'TouchPad 9.7', TYPE_TABLET ),
@@ -722,6 +730,8 @@
 			'Coolpad 8810'								=> array( 'Coolpad', '8810' ),
 			'8810'										=> array( 'Coolpad', '8810' ),
 			'Coolpad 8811'								=> array( 'Coolpad', '8811' ),
+			'Coolpad 8860!'								=> array( 'Coolpad', '8860' ),		
+			'Coolpad 8870!'								=> array( 'Coolpad', '8870' ),		
 			'Coolpad 9070'								=> array( 'Coolpad', '9070' ),
 			'Coolpad 9080W'								=> array( 'Coolpad', '9080' ),
 			'Coolpad 9120'								=> array( 'Coolpad', '9120' ),
@@ -811,6 +821,7 @@
 			'TAC-70041'									=> array( 'Denver', 'TAC-70041', TYPE_TABLET ),
 			'deovo V5'									=> array( 'deovo', 'V5' ),
 			'DIT1010'									=> array( 'Difrnce', 'DIT1010', TYPE_TABLET ),
+			'DIT102201'									=> array( 'Difrnce', 'DIT102201', TYPE_TABLET ),
 			'Digma iDj7!'								=> array( 'Digma', 'iDj7', TYPE_TABLET ),
 			'iDj7n'										=> array( 'Digma', 'iDj7n', TYPE_TABLET ),
 			'DIGMA iDs10!'								=> array( 'Digma', 'iDs10', TYPE_TABLET ),
@@ -909,6 +920,7 @@
 			'F-07D'										=> array( 'Fujitsu', 'Arrows μ' ),
 			'F-08E'										=> array( 'Fujitsu', 'F-08E' ),
 			'F-09D'										=> array( 'Fujitsu', 'ANTEPRIMA' ),
+			'F-09E'										=> array( 'Fujitsu', 'F-09E' ),
 			'F-10D'										=> array( 'Fujitsu', 'Arrows X F-10D' ),
 			'F-11D'										=> array( 'Fujitsu', 'Arrows Me' ),
 			'F-12C'										=> array( 'Fujitsu', 'Globetrotter' ),
@@ -1336,6 +1348,7 @@
 			'One S'										=> array( 'HTC', 'One S' ),
 			'One X'										=> array( 'HTC', 'One X' ),
 			'One V'										=> array( 'HTC', 'One V' ),
+			'One'										=> array( 'HTC', 'One' ),
 			'Rezound'									=> array( 'HTC', 'Rezound' ),
 			'MIUI.us Sensation 4G'						=> array( 'HTC', 'Sensation 4G' ),
 			'SensationXE!'								=> array( 'HTC', 'Sensation XE' ),
@@ -1403,6 +1416,7 @@
 			'Huawei MediaPad'							=> array( 'Huawei', 'MediaPad', TYPE_TABLET ),
 			'Huawei OsiMood MediaPad'					=> array( 'Huawei', 'MediaPad', TYPE_TABLET ),
 			'Huawei S7-312u'							=> array( 'Huawei', 'MediaPad', TYPE_TABLET ),
+			'MediaPad 7 FHD'							=> array( 'Huawei', 'MediaPad 7', TYPE_TABLET ),
 			'MediaPad 7 Lite'							=> array( 'Huawei', 'MediaPad 7 Lite', TYPE_TABLET ),
 			'MediaPad 7 Lite II'						=> array( 'Huawei', 'MediaPad 7 Lite II', TYPE_TABLET ),
 			'MediaPad 7 Vivid'							=> array( 'Huawei', 'MediaPad 7 Vivid', TYPE_TABLET ),
@@ -1603,6 +1617,7 @@
 			'Andi 3.5i'									=> array( 'iBall', 'Andi 3.5i' ),
 			'iBALL Andi4.5h'							=> array( 'iBall', 'Andi 4.5h' ),
 			'iBall Andi4.5q'							=> array( 'iBall', 'Andi 4.5q' ),
+			'iBall Andi5L'								=> array( 'iBall', 'Andi 5L' ),
 			'Andi5Li'									=> array( 'iBall', 'Andi 5Li' ),
 			'Andi107'									=> array( 'iBall', 'Andi 107' ),
 			'iBall i6012'								=> array( 'iBall', 'Slide i6012', TYPE_TABLET ),
@@ -1776,6 +1791,7 @@
 			'K-Touch U8'								=> array( 'K-Touch', 'U8' ),
 			'K-Touch U10'								=> array( 'K-Touch', 'U10' ),
 			'K-Touch U86'								=> array( 'K-Touch', 'U86' ),
+			'K-Touch U90'								=> array( 'K-Touch', 'U90' ),
 			'K-Touch V8'								=> array( 'K-Touch', 'V8' ),
 			'K-Touch V9'								=> array( 'K-Touch', 'V9' ),
 			'K-Touch W68'								=> array( 'K-Touch', 'W68' ),
@@ -1806,6 +1822,7 @@
 			'Lanix Ilium S400'							=> array( 'Lanix', 'Ilium S400' ),
 			'ilium Pad E8'								=> array( 'Lanix', 'Ilium Pad E8', TYPE_TABLET ),
 			'IRIS 455'									=> array( 'Lava', 'Iris 455' ),
+			'iris458Q'									=> array( 'Lava', 'Iris 458Q' ),
 			'iris504Q'									=> array( 'Lava', 'Iris 504Q' ),
 			'LAVA S12'									=> array( 'Lava', 'S12' ),
 			'A500s'										=> array( 'Lava', 'XOLO A500S' ),
@@ -1987,7 +2004,7 @@
 			'LG-D685'									=> array( 'LG', 'D685' ),
 			'LG-D700'									=> array( 'LG', 'Optimus L9' ),
 			'LG-D8(00|01|02|03|05|06)!'					=> array( 'LG', 'G2' ),
-			'LG-D820'									=> array( 'LG', 'Nexus 5' ),						// Probably...
+			'LG-D8(20|21)!'								=> array( 'LG', 'Nexus 5' ),						// Probably...
 			'LG-DS1203'									=> array( 'LG', 'G2' ),
 			'LG-E400!'									=> array( 'LG', 'Optimus L3' ),
 			'LG-E405!'									=> array( 'LG', 'Optimus L3 Dual' ),
@@ -2135,6 +2152,7 @@
 			'KU9500'									=> array( 'LG', 'Optimus Z' ),
 			'LGC660!'									=> array( 'LG', 'Optimus Pro' ),
 			'LGL21'										=> array( 'LG', 'Optimus G' ),
+			'LGL22'										=> array( 'LG', 'G2' ),
 			'LGL35G'									=> array( 'LG', 'L35G' ),
 			'LGL39C'									=> array( 'LG', 'L39C' ),
 			'LGL45C'									=> array( 'LG', 'Optimus Net' ),
@@ -2271,6 +2289,7 @@
 			'Micromax A26'								=> array( 'Micromax', 'A26 Bolt' ),
 			'Micromax A27'								=> array( 'Micromax', 'A27 Bolt' ),
 			'Micromax A30'								=> array( 'Micromax', 'A30 Smarty' ),
+			'Micromax A34'								=> array( 'Micromax', 'A34' ),
 			'Micromax A35'								=> array( 'Micromax', 'A35 Bolt' ),
 			'Micromax A44'								=> array( 'Micromax', 'A44 Punk' ),
 			'A45'										=> array( 'Micromax', 'A45 Punk' ),
@@ -2435,6 +2454,7 @@
 			'XT611'										=> array( 'Motorola', 'MOTOSMART Flip' ),
 			'XT615'										=> array( 'Motorola', 'MOTO XT615' ),
 			'XT621'										=> array( 'Motorola', 'Primus XT621' ),
+			'XT623'										=> array( 'Motorola', 'Kairos XT623' ),
 			'XT626'										=> array( 'Motorola', 'MOTO XT626' ),
 			'XT681'										=> array( 'Motorola', 'MOTO XT681' ),
 			'XT682'										=> array( 'Motorola', 'Droid 3' ),
@@ -2616,6 +2636,7 @@
 			'O+ 9.76'									=> array( 'O+', '9.76' ),
 			'EFM710A'									=> array( 'Oblio', 'Mint 7x', TYPE_TABLET ),
 			'Loox'										=> array( 'Odys', 'Loox', TYPE_TABLET ),
+			'Odys-Loox'									=> array( 'Odys', 'Loox', TYPE_TABLET ),
 			'XELIO'										=> array( 'Odys', 'Xelio', TYPE_TABLET ),
 			'ODYS-Xpress'								=> array( 'Odys', 'Xpress', TYPE_TABLET ),
 			'Olivetti Olipad 100'						=> array( 'Olivetti', 'Olipad 100', TYPE_TABLET ),
@@ -2664,6 +2685,7 @@
 			'(OPPO-?)?T703!'							=> array( 'Oppo', 'T703' ),
 			'OPPOU701'									=> array( 'Oppo', 'Ulike U701' ),
 			'U705T'										=> array( 'Oppo', 'Ulike 2 U705T' ),
+			'U707T'										=> array( 'Oppo', 'U2S U707T' ),
 			'OPPOU7011'									=> array( 'Oppo', 'Find Gemini U7011' ),
 			'U7015'										=> array( 'Oppo', 'Find Way U7015' ),
 			'OP0118-12'									=> array( 'Oregon Scientific', 'Meep!', TYPE_TABLET ),
@@ -2706,6 +2728,7 @@
 			'IM-A860!'									=> array( 'Pantech', 'Vega N˚ 6' ),
 			'IM-A870!'									=> array( 'Pantech', 'Vega Iron' ),
 			'IM-A880!'									=> array( 'Pantech', 'Vega LTE-A' ),
+			'IM-A890!'									=> array( 'Pantech', 'Vega Iron 2' ),
 			'IM-T100K'									=> array( 'Pantech', 'Vega N˚ 5', TYPE_TABLET ),
 			'IS06'										=> array( 'Pantech', 'SIRIUS α' ),
 			'ADR8995!'									=> array( 'Pantech', 'Breakout' ),
@@ -2765,6 +2788,7 @@
 			'MOMO9'										=> array( 'Ployer', 'MOMO9', TYPE_TABLET ),
 			'MOMO9 STAR'								=> array( 'Ployer', 'MOMO9 Star', TYPE_TABLET ),
 			'MOMO9 plus III'							=> array( 'Ployer', 'MOMO9 Plus III', TYPE_TABLET ),
+			'MOMO9-3S'									=> array( 'Ployer', 'MOMO9 III', TYPE_TABLET ),
 			'MOMO11 bird'								=> array( 'Ployer', 'MOMO11 Bird', TYPE_TABLET ),
 			'MOMO11Speed'								=> array( 'Ployer', 'MOMO11 Speed', TYPE_TABLET ),
 			'MOMO15'									=> array( 'Ployer', 'MOMO15', TYPE_TABLET ),
@@ -2778,12 +2802,12 @@
 			'POV-Mobii-7'								=> array( 'Point Of View', 'Mobii 7', TYPE_TABLET ),
 			'POV Mobii 7'								=> array( 'Point Of View', 'Mobii 7', TYPE_TABLET ),
 			'PlayTabPro'								=> array( 'Point Of View', 'PlayTabPro', TYPE_TABLET ),
-			'(POV )?TAB-PLAYTABPRO'						=> array( 'Point Of View', 'PlayTabPro', TYPE_TABLET ),
+			'(POV )?TAB-PLAYTABPRO!'					=> array( 'Point Of View', 'PlayTabPro', TYPE_TABLET ),
 			'(POV )?TAB-PROTAB25!'						=> array( 'Point Of View', 'ProTab 25', TYPE_TABLET ),
 			'(POV )?TAB-PROTAB26!'						=> array( 'Point Of View', 'ProTab 26', TYPE_TABLET ),
 			'(POV )?TAB-PROTAB30!'						=> array( 'Point Of View', 'ProTab 30', TYPE_TABLET ),
-			'(POV )?TAB-PROTAB2XXL(4)'					=> array( 'Point Of View', 'ProTab2 XXL', TYPE_TABLET ),
-			'(POV )?TAB NAVI7 3G M'						=> array( 'Point Of View', 'Onyx 507', TYPE_TABLET ),
+			'(POV )?TAB-PROTAB2XXL(4)!'					=> array( 'Point Of View', 'ProTab2 XXL', TYPE_TABLET ),
+			'(POV )?TAB NAVI7 3G M!'					=> array( 'Point Of View', 'Onyx 507', TYPE_TABLET ),
 			'POV TV-HDMI-200BT'							=> array( 'Point Of View', 'Smart TV', TYPE_TELEVISION ),
 			'POV TV-HDMI-KB-01'							=> array( 'Point Of View', 'Smart TV', TYPE_TELEVISION ),
 			'MIDC409'									=> array( 'Polaroid', 'Diamond III', TYPE_TABLET ),
@@ -3063,6 +3087,7 @@
 			'SCH-R820!'									=> array( 'Samsung', 'Admire' ),
 			'SCH-R830!'									=> array( 'Samsung', 'Axiom' ),
 			'SCH-R880!'									=> array( 'Samsung', 'Acclaim' ),
+			'SCH-R890!'									=> array( 'Samsung', 'SCH-R890' ),	
 			'SCH-R910!'									=> array( 'Samsung', 'Galaxy Indulge 4G' ),
 			'SCH-R915!'									=> array( 'Samsung', 'Galaxy Indulge' ),
 			'SCH-R920!'									=> array( 'Samsung', 'Galaxy Attain 4G' ),
@@ -3184,9 +3209,9 @@
 			'SM-G3815'									=> array( 'Samsung', 'SM-G3815' ),								// Unknown
 			'SM-G7102'									=> array( 'Samsung', 'SM-G7102' ),								// Unknown
 			'SM-G9105'									=> array( 'Samsung', 'SM-G9105' ),								// Unknown
-			'SM-N90(02|05)!'							=> array( 'Samsung', 'Galaxy Note 3' ),
+			'SM-N90(00|02|05|06|08|09)!'				=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SM-N900!'									=> array( 'Samsung', 'Galaxy Note 3' ),
-			'SM-P6(00|05)!'								=> array( 'Samsung', 'Galaxy Note 10.1 (2014)', TYPE_TABLET ),
+			'SM-P6(00|01|05)!'							=> array( 'Samsung', 'Galaxy Note 10.1 (2014)', TYPE_TABLET ),
 			'SM-P9(00|01|05)!'							=> array( 'Samsung', 'Galaxy Note 12.2', TYPE_TABLET ),	
 			'SM-T2105'									=> array( 'Samsung', 'Galaxy Tab 3 Kids', TYPE_TABLET ),
 			'SM-T2(10|11|17)!'							=> array( 'Samsung', 'Galaxy Tab 3 (7.0)', TYPE_TABLET ),
@@ -3250,6 +3275,7 @@
 			'SC-01C'									=> array( 'Samsung', 'Galaxy Tab', TYPE_TABLET ),
 			'SC-01D'									=> array( 'Samsung', 'Galaxy Tab 10.1 LTE', TYPE_TABLET ),
 			'SC-01E'									=> array( 'Samsung', 'Galaxy Tab 7.7 Plus', TYPE_TABLET ),
+			'SC-01F'									=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SC-02B'									=> array( 'Samsung', 'Galaxy S' ),
 			'SC-02C'									=> array( 'Samsung', 'Galaxy S II' ),
 			'SC-02D'									=> array( 'Samsung', 'Galaxy Tab 7.0 Plus', TYPE_TABLET ),
@@ -3261,6 +3287,7 @@
 			'SC-05D'									=> array( 'Samsung', 'Galaxy Note LTE' ),
 			'SC-06D'									=> array( 'Samsung', 'Galaxy S III' ),
 			'SCL21'										=> array( 'Samsung', 'Galaxy S III Progre' ),
+			'SCL22'										=> array( 'Samsung', 'Galaxy Note 3' ),
 			'ISW11SC'									=> array( 'Samsung', 'Galaxy S II WiMAX' ),
 			'ELEMENT7V2'								=> array( 'Sencor', 'Element 7 V2', TYPE_TABLET ),
 			'S1005KTAB'									=> array( 'Serioux', 'GoTab S1005KTAB', TYPE_TABLET ),
@@ -3370,7 +3397,7 @@
 			'E16i!'										=> array( 'Sony Ericsson', 'W8 Walkman' ),				// Shakira Walkman
 			'L35h'										=> array( 'Sony', 'Xperia ZL' ),						// Odin
 			'L36h'										=> array( 'Sony', 'Xperia Z' ),							// Yuga
-			'L39h'										=> array( 'Sony', 'Xperia "i1"' ),						// Honami
+			'L39h'										=> array( 'Sony', 'Xperia Z1' ),						// Honami
 			'LT11i!'									=> array( 'Sony Ericsson', 'Xperia Neo V' ),			// Haida
 			'LT15(a|i|iv|i-o)?$!'						=> array( 'Sony Ericsson', 'Xperia Arc' ),				// Anzu
 			'LT15i Speed Edition'						=> array( 'Sony Ericsson', 'Xperia Arc' ),				// Anzu
@@ -3421,7 +3448,7 @@
 			'SO-01C'									=> array( 'Sony Ericsson', 'Xperia Arc' ),				// Anzu
 			'SO-01D'									=> array( 'Sony Ericsson', 'Xperia Play' ),				// Zeus
 			'SO-01E'									=> array( 'Sony', 'Xperia AX' ),						// Tsubasa
-			'SO-01F'									=> array( 'Sony', 'Xperia "i1"' ),						// Honami
+			'SO-01F'									=> array( 'Sony', 'Xperia Z1' ),						// Honami
 			'SO-02C'									=> array( 'Sony Ericsson', 'Xperia Acro' ),				// Azusa
 			'SO-02D'									=> array( 'Sony Ericsson', 'Xperia NX' ),				// Nozomi
 			'SO-02E'									=> array( 'Sony', 'Xperia Z' ),							// Yuga
@@ -3471,11 +3498,8 @@
 			'pepper'									=> array( 'Sony', 'Xperia Sola' ),						// Pepper
 			'Tablet P'									=> array( 'Sony', 'Tablet P', TYPE_TABLET ),
 			'Tablet S'									=> array( 'Sony', 'Tablet S', TYPE_TABLET ),
-			'SGPT12'									=> array( 'Sony', 'Xperia Tablet S', TYPE_TABLET ),
-			'SGPT13'									=> array( 'Sony', 'Xperia Tablet S', TYPE_TABLET ),
-			'SGP311'									=> array( 'Sony', 'Xperia Tablet Z', TYPE_TABLET ),
-			'SGP312'									=> array( 'Sony', 'Xperia Tablet Z', TYPE_TABLET ),
-			'SGP321'									=> array( 'Sony', 'Xperia Tablet Z', TYPE_TABLET ),
+			'SGPT(12|13)!'								=> array( 'Sony', 'Xperia Tablet S', TYPE_TABLET ),
+			'SGP3(11|12|21|41|51)!'						=> array( 'Sony', 'Xperia Tablet Z', TYPE_TABLET ),
 			'NWZ?-Z1000Series!'							=> array( 'Sony', 'Walkman Z', TYPE_MEDIA ),
 			'NSZ-GP9'									=> array( 'Sony', 'NSZ-GP9', TYPE_TELEVISION, FLAG_GOOGLETV ),
 			'NSZ-GS7'									=> array( 'Sony', 'NSZ-GS7', TYPE_TELEVISION, FLAG_GOOGLETV ),
@@ -3603,6 +3627,7 @@
 			'TM-7025'									=> array( 'teXet', 'TM-7025', TYPE_TABLET ),
 			'TM-7037W'									=> array( 'teXet', 'TM-7037W', TYPE_TABLET ),
 			'TM-8041HD'									=> array( 'teXet', 'TM-8041HD', TYPE_TABLET ),
+			'TM-9747'									=> array( 'teXet', 'TM-9747', TYPE_TABLET ),
 			'X-basic'									=> array( 'teXet', 'X-basic' ),
 			'MoFing'									=> array( 'Thomson', 'MoFing', TYPE_TABLET ),
 			'Ultimate10'								=> array( 'Tomtec', 'Ultimate10', TYPE_TABLET ),
@@ -3673,6 +3698,7 @@
 			'UMI X2'									=> array( 'UMI', 'X2' ),
 			'U1203'										=> array( 'Uniscope', 'U1203' ),
 			'UOOGOU X6'									=> array( 'Uoogou', 'X6' ),
+			'USmart CL600'								=> array( 'USmart', 'CL600' ),
 			'PS47'										=> array( 'Velocity Micro', 'Cruz PS47', TYPE_TABLET ),
 			'T301'										=> array( 'Velocity Micro', 'Cruz T301', TYPE_TABLET ),
 			'VS TOUCHTAB 7DC'							=> array( 'Versus', 'Touchtab 7 Dual Core', TYPE_TABLET ),
@@ -3727,8 +3753,9 @@
 			'WALTON Primo C1'							=> array( 'Walton', 'Primo C1' ),
 			'WALTON Primo-D1'							=> array( 'Walton', 'Primo D1' ),
 			'Primo H2'									=> array( 'Walton', 'Primo H2' ),
-			'(WALTON )?Primo-X1!'						=> array( 'Walton', 'Primo X1' ),
+			'WALTON Primo-N1'							=> array( 'Walton', 'Primo N1' ),
 			'Primo NX'									=> array( 'Walton', 'Primo NX' ),
+			'(WALTON )?Primo-X1!'						=> array( 'Walton', 'Primo X1' ),
 			'xPAD-70'									=> array( 'WayteQ', 'xPAD-70', TYPE_TABLET ),
 			'xTAB-70!'									=> array( 'WayteQ', 'xTAB-70', TYPE_TABLET ),
 			'WellcoM-A99'								=> array( 'WellcoM', 'A99' ),
