@@ -3150,23 +3150,6 @@
 			
 
 			/****************************************************
-			 *		NetFront
-			 */
-		
-			if (preg_match('/Net[fF]ront/', $ua)) {
-				$this->browser->name = 'NetFront';
-				$this->device->type = TYPE_MOBILE;
-
-				if (preg_match('/NetFront\/?([0-9.]*)/i', $ua, $match)) {
-					$this->browser->version = new Version(array('value' => $match[1]));
-				}
-
-				if (preg_match('/InettvBrowser/', $ua)) {
-					$this->device->type = TYPE_TELEVISION;
-				}
-			}
-			
-			/****************************************************
 			 *		Silk
 			 */
 		
@@ -3301,6 +3284,29 @@
 				$this->device->type = TYPE_TELEVISION;
 			}
 			
+			/****************************************************
+			 *		NetFront
+			 */
+		
+			if (preg_match('/Net[fF]ront/', $ua)) {
+				$this->browser->name = 'NetFront';
+				$this->device->type = TYPE_MOBILE;
+
+				if (preg_match('/NetFront\/?([0-9.]*)/i', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1]));
+				}
+
+				if (preg_match('/InettvBrowser/', $ua)) {
+					$this->device->type = TYPE_TELEVISION;
+				}
+			}
+			
+			if (preg_match('/Browser\/NF([0-9.]*)/i', $ua, $match)) {
+				$this->browser->name = 'NetFront';
+				$this->browser->version = new Version(array('value' => $match[1]));
+				$this->device->type = TYPE_MOBILE;
+			}
+
 			/****************************************************
 			 *		NetFront NX
 			 */
