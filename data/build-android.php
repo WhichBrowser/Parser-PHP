@@ -73,6 +73,8 @@
 			'JRO03R'		=> '4.1.1',
 			'JRO03S'		=> '4.1.1',
 			'JZO54K'		=> '4.1.2',
+			'JZO54M'		=> '4.1.2',
+			'JVP15S'		=> '4.2',			// Interim build used by the Nexus 7
 			'JOP40C'		=> '4.2',
 			'JOP40D'		=> '4.2.1',
 			'JOP40F'		=> '4.2.1',
@@ -82,7 +84,16 @@
 			'JDQ39E'		=> '4.2.2',
 			'JWR66L'		=> '4.3',
 			'JWR66N'		=> '4.3',
+			'JWR66N.S005'	=> '4.3',			// Google Play Edition - Samsung Galaxy S4
 			'JWR66V'		=> '4.3',
+			'JWR66V.H10'	=> '4.3',			// Google Play Edition - HTC One
+			'JWR66V.S014'	=> '4.3',			// Google Play Edition - Samsung Galaxy S4
+			'JWR66Y'		=> '4.3',
+			'JWR66Y.S003'	=> '4.3',			// Google Play Edition - Samsung Galaxy S4
 			'JSR78D'		=> '4.3',
 			'JSS15J'		=> '4.3',
+			'JSS15Q'		=> '4.3',
 		);
+
+		// Source: http://source.android.com/source/build-numbers.html
+
