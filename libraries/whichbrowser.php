@@ -4051,14 +4051,16 @@
 			
 			
 			if (isset($this->os->name) && $this->os->name == 'Android') {
-				if (!isset($this->os->version) || $this->os->version == null || $this->os->version->value == null) {
-					if (preg_match('/Build\/([^\);]+)/', $ua, $match)) {
-						$version = BuildIds::identify('android', $match[1]);
-						
-						if ($version) {
+				if (preg_match('/Build\/([^\);]+)/', $ua, $match)) {
+					$version = BuildIds::identify('android', $match[1]);
+					
+					if ($version) {
+						if (!isset($this->os->version) || $this->os->version == null || $this->os->version->value == null || $version->toFloat() < $this->os->version->toFloat()) {		
 							$this->os->version = $version;
 						}
 					}
+					
+					$this->os->build = $match[1];
 				}
 			}
 			
