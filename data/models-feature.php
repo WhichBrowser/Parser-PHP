@@ -36,6 +36,7 @@
 			'GT-E2222'									=> array( 'Samsung', 'Ch@t 222' ),
 			'GT-E2202'									=> array( 'Samsung', 'Metro' ),
 			'GT-E2250'									=> array( 'Samsung', 'Utica' ),
+			'GT-E2252'									=> array( 'Samsung', 'Metro 2252' ),
 			'GT-S33(50|53)!'							=> array( 'Samsung', 'Ch@t 335' ),
 			'GT-S35(70|72)!'							=> array( 'Samsung', 'Ch@t 357' ),
 			'GT-S5229'									=> array( 'Samsung', 'Tocco Lite 2' ),

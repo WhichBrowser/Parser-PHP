@@ -15,6 +15,7 @@
 			'GT-M5650'									=> array( 'Samsung', 'Lindy' ),
 			'GT-S3370C'									=> array( 'Samsung', 'Corby 3G' ),
 			'GT-S36(50|53)!'							=> array( 'Samsung', 'Corby' ),
+			'GT-S3770K'									=> array( 'Samsung', 'Champ 3G' ),
 			'GT-S3802'									=> array( 'Samsung', 'Rex 70' ),
 			'GT-S3850'									=> array( 'Samsung', 'Corby II' ),
 			'GT-S5220'									=> array( 'Samsung', 'Star 3' ),
