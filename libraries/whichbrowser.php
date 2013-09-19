@@ -2138,10 +2138,15 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^ALCATEL_([^\/]*)/i', $candidates[$i], $match)) {
+							if (preg_match('/^ALCATEL[_-]([^\/]*)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Alcatel';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
+
+								if (preg_match('/^OT\s*([^\s]*)/i', $this->device->model, $match)) {
+									$this->device->model = 'One Touch ' . $match[1];
+								}
+
 								$identified = true;
 							}
 
