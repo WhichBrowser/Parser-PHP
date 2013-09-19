@@ -1306,6 +1306,15 @@
 				$this->os->name = 'SpreadTrum';
 				$this->device->type = TYPE_MOBILE;
 			}
+			
+			/****************************************************
+			 *		ThreadX
+			 */
+		
+			if (preg_match('/ThreadX_OS\/([0-9.]*)/i', $ua, $match)) {
+				$this->os->name = 'ThreadX';
+				$this->os->version = new Version(array('value' => $match[1]));
+			}
 
 			/****************************************************
 			 *		CrOS
