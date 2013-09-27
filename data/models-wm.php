@@ -9,6 +9,7 @@
 			'T5388'										=> array( 'Dopod', 'Touch Diamond 2' ),
 			'garmin-asus-Nuvifone-M10'					=> array( 'Garmin-Asus', 'Nuvifone M10' ),
 			'HP iPAQ 510'								=> array( 'HP', 'iPAQ 510' ),
+			'HTC love'									=> array( 'HTC', 'P3350' ),
 			'HTC P3400!'								=> array( 'HTC', 'P3400' ),
 			'((HTC )?HD mini|.*T5555)!'					=> array( 'HTC', 'HD mini' ),
 			'((HTC )?HD2|.*T8585)!'						=> array( 'HTC', 'HD2' ),
