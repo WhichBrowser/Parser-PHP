@@ -108,11 +108,11 @@ var WhichBrowser = (function(){
 					if (window.ActiveXObject) {
 						this.features.push('trident');		
 		
-						if (typeof this.engine.name != 'undefined' && this.engine.name != 'Trident') {
+						if (typeof this.engine.name != 'undefined' && this.engine.name != null && this.engine.name != 'Trident') {
 							this.camouflage = typeof this.browser.name == 'undefined' || (this.browser.name != 'Maxthon' && this.browser.name != 'Motorola WebKit');			
 						}	
 					}
-				
+					
 					/* If it claims not to be Opera, but it is probably Opera running camouflage mode */
 					if (window.opera) {
 						this.features.push('presto');		
