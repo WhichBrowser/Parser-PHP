@@ -829,7 +829,7 @@
 				}
 			}
 			
-			
+						
 			
 			/****************************************************
 			 *		Baidu Yi
@@ -1508,7 +1508,14 @@
 			 *		Opera/9.50 (Nintendo DSi; Opera/507; U; en-US)
 			 *		Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7455.US
 			 *		Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7455.EU
+			 *
 			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.8.8 Version/1.0.0.6760.JP
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/1.2.0.USA
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/1.2.13993.USA
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/1.3.0.USA
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.10.9 NintendoBrowser/1.5.0.8047.EU
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.11.12 NintendoBrowser/2.0.0.9098.JP
+			 *		Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.6 NintendoBrowser/2.0.0.9362.EU
 			 */
 		
 			if (preg_match('/Nintendo Wii/', $ua)) {
