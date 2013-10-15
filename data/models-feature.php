@@ -28,6 +28,7 @@
 			'GT500!'									=> array( 'LG', 'GT500 Puccini' ),
 			'GT550'										=> array( 'LG', 'GT550 Encore' ),
 			'GT-B2710'									=> array( 'Samsung', 'Xcover 271' ),
+			'GT-B3210'									=> array( 'Samsung', 'Corby TXT' ),
 			'GT-B3313'									=> array( 'Samsung', 'Corby Mate' ),
 			'GT-C3322'									=> array( 'Samsung', 'GT-C3322 Duos' ),
 			'GT-E1282!'									=> array( 'Samsung', 'Guru' ),

@@ -43,12 +43,14 @@
 //			'HTCPO881'
 			'HUAWEI Ascend W1!'							=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEI W1-U00'								=> array( 'Huawei', 'Ascend W1' ),
+			'HUAWEI W1-C00'								=> array( 'Huawei', 'Ascend W1' ),
 			'W1-U00'									=> array( 'Huawei', 'Ascend W1' ),
 			'W1-C00'									=> array( 'Huawei', 'Ascend W1' ),
 			'GW910'										=> array( 'LG', 'Optimus 7' ),
 			'LG-E-?900!'								=> array( 'LG', 'Optimus 7 E900' ),
 			'LG-E906'									=> array( 'LG', 'Jil Sander' ),
 			'LG-C900!'									=> array( 'LG', 'Optimus 7Q' ),
+			'TC70'										=> array( 'Motorola', 'TC70' ),			// Motorola Solutions
 			'(Lumia ?|Nokia ?)?505!'					=> array( 'Nokia', 'Lumia 505' ),
 			'(Lumia ?|Nokia ?)?510!'					=> array( 'Nokia', 'Lumia 510' ),
 			'(Lumia ?|Nokia ?)?520!'					=> array( 'Nokia', 'Lumia 520' ),
@@ -85,7 +87,7 @@
 			'GT-I8350!'									=> array( 'Samsung', 'Omnia W' ),
 			'GT-i8700'									=> array( 'Samsung', 'Omnia 7' ),
 			'GT-I8750'									=> array( 'Samsung', 'Ativ S' ),
-			'GT-S7530'									=> array( 'Samsung', 'Omnia M' ),
+			'GT-S7530!'									=> array( 'Samsung', 'Omnia M' ),
 			'SGH-i667'									=> array( 'Samsung', 'Focus 2' ),
 			'SGH-i677'									=> array( 'Samsung', 'Focus Flash' ),
 			'SGH-i707'									=> array( 'Samsung', 'Taylor' ),

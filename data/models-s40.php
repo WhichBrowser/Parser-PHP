@@ -32,6 +32,7 @@
 			'205.3'										=> array( 'Nokia', 'Asha 205' ),
 			'206'										=> array( 'Nokia', 'Asha 206' ),
 			'206.1'										=> array( 'Nokia', 'Asha 206' ),
+			'208.1'										=> array( 'Nokia', '208' ),
 			'210'										=> array( 'Nokia', 'Asha 210' ),
 			'210.2'										=> array( 'Nokia', 'Asha 210' ),
 			'210.5'										=> array( 'Nokia', 'Asha 210' ),
