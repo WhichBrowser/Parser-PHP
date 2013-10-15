@@ -2849,7 +2849,7 @@
 							$this->browser->version->details = 1;
 							break;
 						default:	
-							$this->browser->channel = 'Nightly';
+							$this->browser->channel = 'Dev';
 							break;
 					}
 				}
@@ -2895,7 +2895,7 @@
 							$this->browser->version->details = 1;
 							break;
 						default:	
-							$this->browser->channel = 'Nightly';
+							$this->browser->channel = 'Dev';
 							break;
 					}
 				}
