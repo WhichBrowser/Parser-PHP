@@ -693,7 +693,7 @@
 					}
 				}
 			}
-
+			
 
 
 			/****************************************************
@@ -1461,13 +1461,19 @@
 			 *		Sony Reader
 			 */
 		
-			if (preg_match('/EBRD1101/', $ua)) {
+			if (preg_match('/EBRD([0-9]+)/', $ua, $match)) {
 				$this->os->name = '';
 				
+
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Reader';
 				$this->device->type = TYPE_EREADER;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				switch($match[1]) {
+					case '1101':	$this->device->model = 'Reader PRS-T1'; break;
+					case '1201':	$this->device->model = 'Reader PRS-T2'; break;
+				}
 			}
 
 			/****************************************************
