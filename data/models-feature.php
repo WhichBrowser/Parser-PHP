@@ -30,7 +30,9 @@
 			'GT-B2710'									=> array( 'Samsung', 'Xcover 271' ),
 			'GT-B3210'									=> array( 'Samsung', 'Corby TXT' ),
 			'GT-B3313'									=> array( 'Samsung', 'Corby Mate' ),
+			'GT-C3222'									=> array( 'Samsung', 'Ch@t 322' ),
 			'GT-C3322'									=> array( 'Samsung', 'GT-C3322 Duos' ),
+			'GT-C3500'									=> array( 'Samsung', 'Ch@t 350' ),
 			'GT-E1282!'									=> array( 'Samsung', 'Guru' ),
 			'GT-E2152'									=> array( 'Samsung', 'GT-E2152 Duos' ),
 			'GT-E2220'									=> array( 'Samsung', 'Ch@t 220' ),
@@ -45,5 +47,6 @@
 			'GT-S5610!'									=> array( 'Samsung', 'Primo' ),
 			'SGH-A667'									=> array( 'Samsung', 'A667 Evergreen' ),
 			'SGH-A877'									=> array( 'Samsung', 'A877 Impression' ),
+			'SGH-A997'									=> array( 'Samsung', 'Rugby III' ),
 			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' )
 		);

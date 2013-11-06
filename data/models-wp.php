@@ -71,6 +71,7 @@
 			'(Lumia ?|Nokia ?)?928!'					=> array( 'Nokia', 'Lumia 928' ),
 			'(Lumia ?|Nokia ?)?909!'					=> array( 'Nokia', 'Lumia 1020' ),		// 909 was the original name of the 1020
 			'(Lumia ?|Nokia ?)?1020!'					=> array( 'Nokia', 'Lumia 1020' ),
+			'(Lumia ?|Nokia ?)?1520!'					=> array( 'Nokia', 'Lumia 1520' ),
 			'RM-9(13|14)!'								=> array( 'Nokia', 'Lumia 520' ),
 			'RM-846!'									=> array( 'Nokia', 'Lumia 620' ),
 			'RM-943!'									=> array( 'Nokia', 'Lumia 625' ),
@@ -82,7 +83,7 @@
 			'RM-8(92|93)!'								=> array( 'Nokia', 'Lumia 925' ),
 			'RM-910!'									=> array( 'Nokia', 'Lumia 925' ),
 			'RM-860!'									=> array( 'Nokia', 'Lumia 928' ),
-			'RM-876!'									=> array( 'Nokia', 'Lumia 1020' ),
+			'RM-8(76|77)!'								=> array( 'Nokia', 'Lumia 1020' ),
 			'SeaRay'									=> array( 'Nokia', 'Lumia 800' ),
 			'GT-I8350!'									=> array( 'Samsung', 'Omnia W' ),
 			'GT-i8700'									=> array( 'Samsung', 'Omnia 7' ),

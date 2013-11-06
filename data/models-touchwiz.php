@@ -13,7 +13,7 @@
 			'GT-E2652!'									=> array( 'Samsung', 'Champ Duos' ),
 			'GT-M3710'									=> array( 'Samsung', 'Corby Beat' ),
 			'GT-M5650'									=> array( 'Samsung', 'Lindy' ),
-			'GT-S3370C'									=> array( 'Samsung', 'Corby 3G' ),
+			'GT-S3370!'									=> array( 'Samsung', 'Corby 3G' ),
 			'GT-S36(50|53)!'							=> array( 'Samsung', 'Corby' ),
 			'GT-S3770K'									=> array( 'Samsung', 'Champ 3G' ),
 			'GT-S3802'									=> array( 'Samsung', 'Rex 70' ),

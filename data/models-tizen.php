@@ -8,6 +8,7 @@
 			'SGH-N099'									=> array( 'Samsung', 'SGH-N099 prototype' ),		// NTT docomo variant?
 			'(ARMV7 )?SM-Z9005!'						=> array( 'Samsung', 'SM-Z9005 prototype' ),
 			'SEC SC-001'								=> array( 'Samsung', 'SC-001 prototype' ),
+			'SEC SC-03F'								=> array( 'Samsung', 'SC-03F prototype' ),
 			
 			'sdk'										=> array( null, null, TYPE_EMULATOR ),
 		);
