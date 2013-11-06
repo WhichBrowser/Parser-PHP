@@ -1647,7 +1647,30 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+			/****************************************************
+			 *		Kin
+			 *
+			 *		Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12; en-US; KIN.One 1.0)
+			 *		Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12; en-US; KIN.Two 1.0)
+			 */
+
+			if (preg_match('/KIN\.(One|Two) ([0-9.]*)/i', $ua, $match)) {
+				$this->os->name = 'Kin OS';
+				$this->os->version = new Version(array('value' => $match[2], 'details' => 2));
 				
+				switch($match[1]) {
+					case 'One':		$this->device->manufacturer = 'Microsoft';
+									$this->device->model = 'Kin ONE';
+									$this->device->identified |= ID_MATCH_UA;
+									break;
+									
+					case 'Two':		$this->device->manufacturer = 'Microsoft';
+									$this->device->model = 'Kin TWO';
+									$this->device->identified |= ID_MATCH_UA;
+									break;
+				}
+			}
+
 			/****************************************************
 			 *		Zune HD
 			 *
