@@ -2889,6 +2889,14 @@
 							$this->browser->channel = 'Dev';
 							break;
 					}
+					
+					/* Webview for Android 4.4 and higher */
+					if (implode('.', array_splice(explode('.', $match[1]), 1, 2)) == '0.0' && preg_match('/Version\//', $ua)) {
+						$this->browser->stock = true;
+						$this->browser->name = null;
+						$this->browser->version = null;					
+						$this->browser->channel = null;
+					}
 				}
 								
 				else {
