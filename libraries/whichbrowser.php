@@ -2897,6 +2897,26 @@
 						$this->browser->version = null;					
 						$this->browser->channel = null;
 					}
+
+					/* Samsung Chromium based browsers */
+					if (isset($device->manufacturer) && $device->manufacturer == 'Samsung') {
+					
+						/* Version 1.0 */
+						if ($match[1] == '18.0.1025.308' && preg_match('/Version\/1.0/', $ua)) {
+							$this->browser->stock = true;
+							$this->browser->name = null;
+							$this->browser->version = null;					
+							$this->browser->channel = null;
+						}
+
+						/* Version 1.5 */
+						if ($match[1] == '28.0.1500.94' && preg_match('/Version\/1.5/', $ua)) {
+							$this->browser->stock = true;
+							$this->browser->name = null;
+							$this->browser->version = null;					
+							$this->browser->channel = null;
+						}
+					}
 				}
 								
 				else {
