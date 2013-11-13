@@ -861,6 +861,20 @@
 				*/
 
 				$this->device->type = TYPE_TELEVISION;
+
+				if (preg_match('/GoogleTV [0-9\.]+; ?([^;]*[^;\s])\s+Build/', $ua, $match)) {
+					$this->device->model = $match[1];
+				}
+
+				if (isset($this->device->model) && $this->device->model) {
+					$this->device->identified |= ID_PATTERN;
+					
+					$device = DeviceModels::identify('android', $this->device->model);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;						
+					}
+				}
 			}
 
 
