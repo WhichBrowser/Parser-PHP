@@ -3,6 +3,7 @@
 		BrowserIds::$ANDROID_BROWSERS = array(
 			
 			/* Stock browser */
+			// me.android.browser
 			// com.android.browser
 			// com.google.android.browser
 
@@ -48,14 +49,17 @@
 			'acr.browser.lightning'								=> 'Lightning Browser+',
 			'com.mx.browser'									=> 'Maxthon',
 			'com.mx.browser.tablet'								=> 'Maxthon',
+			'com.mx.browser.appendix'							=> 'Maxthon',
 			'com.fevdev.nakedbrowser'							=> 'Naked Browser',
 			'com.nhn.android.search'							=> 'Naver',
 			'com.access_company.android.nflifebrowser.lite'		=> 'NetFront LifeBrowser',
+			'com.ilegendsoft.mercury'							=> 'Mercury',
 			'com.jiubang.browser'								=> 'Next Browser',
 			'com.ninesky.browser'								=> 'Ninesky',
 			'com.compal.android.browser'						=> 'Ocean Browser',
 			'com.tencent.ibibo.mtt'								=> 'One Browser',
 			'info.guardianproject.browser'						=> 'Orweb',	
+			'com.oupeng.browser'								=> 'Oupeng Browser',
 			'com.appsverse.photon'								=> 'Photon Browser',
 			'com.tencent.mtt'									=> 'QQ Browser',
 			'com.tencent.international.mtt'						=> 'QQ Browser',
@@ -72,6 +76,7 @@
 			'com.UCMobile.intl'									=> 'UC Browser',
 			'com.uc.browser.hd'									=> 'UC Browser HD',
 			'com.uc.browser.en'									=> 'UC Browser Mini',
+			'com.uppower.browser'								=> 'Uppower Browser',
 			'sui.mRelease'										=> 'xScope Browser Pro',
 			'org.zirco'											=> 'Zirco Browser',
 			
