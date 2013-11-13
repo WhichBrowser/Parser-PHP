@@ -3139,10 +3139,11 @@
 			 *		Sailfish Browser
 			 */
 		
-			if (preg_match('/Sailfish Browser/', $ua)) {
+			if (preg_match('/Sailfish ?Browser/', $ua)) {
 				$this->browser->name = 'Sailfish Browser';
+				$this->browser->stock = true;
 
-				if (preg_match('/Sailfish Browser\/([0-9.]*)/', $ua, $match)) {
+				if (preg_match('/Sailfish ?Browser\/([0-9.]*)/', $ua, $match)) {
 					$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
 				}
 			}	
