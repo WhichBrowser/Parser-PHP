@@ -54,18 +54,37 @@
 	define ('ID_PATTERN', 2);
 	define ('ID_MATCH_UA', 4);
 	define ('ID_MATCH_PROF', 8);
+
+	define ('ENGINE_TRIDENT', 1);
+	define ('ENGINE_PRESTO', 2);
+	define ('ENGINE_CHROMIUM', 4);
+	define ('ENGINE_GECKO', 8);
+	define ('ENGINE_WEBKIT', 16);
+	define ('ENGINE_V8', 32);
+
+	define ('FEATURE_SANDBOX', 1);
+	define ('FEATURE_WEBSOCKET', 2);
+	define ('FEATURE_WORKER', 4);
+	define ('FEATURE_APPCACHE', 8);
+	define ('FEATURE_HISTORY', 16);
+	define ('FEATURE_FULLSCREEN', 32);
+	define ('FEATURE_FILEREADER', 64);
 	
 
 
 	class WhichBrowser {
 		
-		function __construct($headers) {
-			$this->headers = $headers;
+		function __construct($options) {
+			$this->options = (object) $options;
+			$this->headers = $this->options->headers;
 			
 			$this->browser = (object) array('stock' => true, 'hidden' => false, 'channel' => '', 'mode' => '');
 			$this->engine = (object) array();
 			$this->os = (object) array();
 			$this->device = (object) array('type' => '', 'identified' => ID_NONE);
+		
+			$this->camouflage = false;
+			$this->features = array();
 		
 			$this->analyseUserAgent(isset($this->headers['User-Agent']) ? $this->headers['User-Agent'] : '');
 			
@@ -80,6 +99,8 @@
 			if ($this->hasHeader('Baidu-FlyFlow')) $this->analyseBaiduHeader($this->getHeader('Baidu-FlyFlow'));
 			if ($this->hasHeader('X-Requested-With')) $this->analyseBrowserId($this->getHeader('X-Requested-With'));
 			if ($this->hasHeader('X-Wap-Profile')) $this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
+		
+			$this->detectCamouflage();
 		}
 		
 		function hasHeader($h) {
@@ -90,6 +111,230 @@
 			if (isset($this->headers[$h])) return $this->headers[$h];
 			if (isset($this->headers[strtolower($h)])) return $this->headers[strtolower($h)];
 			if (isset($this->headers[strtoupper($h)])) return $this->headers[strtoupper($h)];
+		}
+		
+
+
+		function detectCamouflage() {
+			if (isset($this->options->useragent)) {
+				if ($this->options->useragent == 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/') {
+					
+					if ($this->browser->name != 'UC Browser') {
+						$this->browser->name = 'UC Browser';
+						$this->browser->version = null;
+						$this->browser->stock = false;
+					}
+
+					if ($this->os->name == 'Windows') {
+						$this->os->name = '';
+						$this->os->version = null;
+					}
+	
+					$this->engine->name = 'Gecko';
+					$this->engine->version = null;
+
+					$this->device->type = 'mobile';
+				}
+
+
+				if (preg_match('/Mac OS X 10_6_3; ([^;]+); [a-z]{2}-(?:[a-z]{2})?\)/', $this->options->useragent, $match)) {
+					$this->browser->name = '';
+					$this->browser->version = null;
+					$this->browser->mode = 'desktop';
+					
+					$this->os->name = 'Android';
+					$this->os->version = null;
+				
+					$this->engine->name = 'Webkit';
+					$this->engine->version = null;
+	
+					$this->features[] = 'foundDevice';
+				}
+
+				if (preg_match('/Linux Ventana; [a-z]{2}-[a-z]{2}; (.+) Build/', $this->options->useragent, $match)) {
+					$this->browser->name = '';
+					$this->browser->version = null;
+					$this->browser->mode = 'desktop';
+					
+					$this->os->name = 'Android';
+					$this->os->version = null;
+				
+					$this->engine->name = 'Webkit';
+					$this->engine->version = null;
+	
+					$this->features[] = 'foundDevice';
+				}
+
+				if ($this->browser->name == 'Safari') {
+					preg_match('/AppleWebKit\/([0-9]+.[0-9]+)/i', $this->options->useragent, $webkitMatch);
+					preg_match('/Safari\/([0-9]+.[0-9]+)/i', $this->options->useragent, $safariMatch);
+				
+					if ($this->os->name != 'iOS' && $webkitMatch[1] != $safariMatch[1]) {
+						$this->features[] = 'safariMismatch';
+						$this->camouflage = true;			
+					}
+	
+					if ($this->os->name == 'iOS' && !preg_match('/^Mozilla/', $this->options->useragent)) {
+						$this->features[] = 'noMozillaPrefix';
+						$this->camouflage = true;			
+					}
+
+					if (!preg_match('/Version\/[0-9\.]+/', $this->options->useragent)) {
+						$this->features[] = 'noVersion';
+						$this->camouflage = true;			
+					}
+				}
+				
+				if ($this->browser->name == 'Chrome') {
+					if (!preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9]{1,2}\.[0-9]\.[0-9]{3,4}\.[0-9]+)/', $this->options->useragent)) {
+						$this->features[] = 'wrongVersion';
+						$this->camouflage = true;			
+					}
+				}
+			}
+			
+			if (isset($this->options->engine)) {
+				if (isset($this->engine->name) && $this->browser->mode != 'proxy') {
+					
+					
+					/* If it claims not to be Trident, but it is probably Trident running camouflage mode */
+					if ($this->options->engine & ENGINE_TRIDENT) {
+						$this->features[] = 'trident';		
+		
+						if ($this->engine->name && $this->engine->name != 'Trident') {
+							$this->camouflage = !isset($this->browser->name) || ($this->browser->name != 'Maxthon' && $this->browser->name != 'Motorola WebKit');
+						}	
+					}
+
+					/* If it claims not to be Opera, but it is probably Opera running camouflage mode */
+					if ($this->options->engine & ENGINE_PRESTO) {
+						$this->features[] = 'presto';		
+		
+						if ($this->engine->name && $this->engine->name != 'Presto') {
+							$this->camouflage = true;			
+						}	
+
+						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
+							$this->camouflage = true;			
+						}
+					}
+					
+					/* If it claims not to be Gecko, but it is probably Gecko running camouflage mode */
+					if ($this->options->engine & ENGINE_GECKO) {
+						$this->features[] = 'gecko';		
+		
+						if ($this->engine->name && $this->engine->name != 'Gecko') {
+							$this->camouflage = true;			
+						}	
+
+						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
+							$this->camouflage = true;			
+						}
+					}
+
+					/* If it claims not to be Webkit, but it is probably Webkit running camouflage mode */
+					if ($this->options->engine & ENGINE_WEBKIT) {
+						$this->features[] = 'webkit';		
+		
+						if ($this->engine->name && ($this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
+							$this->camouflage = true;			
+						}	
+
+						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
+							$this->camouflage = true;			
+						}
+					}
+
+					if ($this->options->engine & ENGINE_CHROMIUM) {
+						$this->features[] = 'chrome';		
+
+						if ($this->engine->name && ($this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
+							$this->camouflage = true;			
+						}	
+					}
+
+					/* If it claims to be Safari and uses V8, it is probably an Android device running camouflage mode */
+					if ($this->engine->name == 'Webkit' && $this->options->engine & ENGINE_V8) {
+						$this->features[] = 'v8';		
+
+						if (isset($this->browser->name) && $this->browser->name == 'Safari') {
+							$this->camouflage = true;	
+						}	
+					}
+
+				}
+			}
+
+			if (isset($this->options->width) && isset($this->options->height)) {
+				if (isset($this->device->model)) {
+					/* If we have an iPad that is not 768 x 1024, we have an imposter */
+					if ($this->device->model == 'iPad') {
+						if (($this->options->width != 0 && $this->options->height != 0) && ($this->options->width != 768 && $this->options->height != 1024) && ($this->options->width != 1024 && $this->options->height != 768)) {
+							$this->features[] = 'sizeMismatch';		
+							$this->camouflage = true;	
+						}				
+					}
+					
+					/* If we have an iPhone or iPod that is not 320 x 480, we have an imposter */
+					if ($this->device->model == 'iPhone' || $this->device->model == 'iPod') {
+						if (($this->options->width != 0 && $this->options->height != 0) && ($this->options->width != 320 && $this->options->height != 480) && ($this->options->width != 480 && $this->options->height != 320)) {
+							$this->features[] = 'sizeMismatch';		
+							$this->camouflage = true;	
+						}				
+					}
+				}
+			}
+
+			if (isset($this->options->features)) {
+				if (isset($this->browser->name) && isset($this->os->name)) {
+
+					if ($this->os->name == 'iOS' && $this->browser->name != 'Opera Mini' && $this->browser->name != 'UC Browser' && isset($this->os->version)) {
+
+						if ($this->os->version->toFloat() < 4.0 && $this->options->features & FEATURE_SANDBOX) {
+							$this->features[] = 'foundSandbox';
+							$this->camouflage = true;	
+						}
+						
+						if ($this->os->version->toFloat() < 4.2 && $this->options->features & FEATURE_WEBSOCKET) {
+							$this->features[] = 'foundSockets';
+							$this->camouflage = true;	
+						}
+	
+						if ($this->os->version->toFloat() < 5.0 && $this->options->features & FEATURE_WORKER) {
+							$this->features[] = 'foundWorker';
+							$this->camouflage = true;	
+						}
+
+						if ($this->os->version->toFloat() > 2.1 && !$this->options->features & FEATURE_APPCACHE) {
+							$this->features[] = 'noAppCache';
+							$this->camouflage = true;	
+						}
+					}
+
+					if ($this->os->name != 'iOS' && $this->browser->name == 'Safari' && isset($this->browser->version)) {
+					
+						if ($this->browser->version->toFloat() < 4.0 && $this->options->features & FEATURE_APPCACHE) {
+							$this->features[] = 'foundAppCache';
+							$this->camouflage = true;	
+						}
+					
+						if ($this->browser->version->toFloat() < 4.1 && $this->options->features & FEATURE_HISTORY) {
+							$this->features[] = 'foundHistory';
+							$this->camouflage = true;	
+						}
+					
+						if ($this->browser->version->toFloat() < 5.1 && $this->options->features & FEATURE_FULLSCREEN) {
+							$this->features[] = 'foundFullscreen';
+							$this->camouflage = true;	
+						}
+					
+						if ($this->browser->version->toFloat() < 5.2 && $this->options->features & FEATURE_FILEREADER) {
+							$this->features[] = 'foundFileReader';
+							$this->camouflage = true;	
+						}
+					}
+				}
+			}
 		}
 		
 		function analyseWapProfile($url) {
@@ -4177,6 +4422,9 @@
 				echo $this->toJavaScriptObject($this->device);
 				echo " });\n";
 			}	
+			
+			echo "this.camouflage = " . ($this->camouflage ? 'true' : 'false') . ";\n";
+			echo "this.features = " . json_encode($this->features) . ";\n";
 		}
 		
 		function toJavaScriptObject($object) {
