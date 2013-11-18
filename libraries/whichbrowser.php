@@ -970,6 +970,10 @@
 					$this->os->version = new Version(array('value' => '2.0', 'details' => 3));
 				}
 				
+				if (preg_match('/Android KeyLimePie/', $ua)) {
+					$this->os->version = new Version(array('value' => '4.4', 'details' => 3));
+				}
+				
 				$this->device->type = TYPE_MOBILE;
 				if ($this->os->version->toFloat() >= 3) $this->device->type = TYPE_TABLET;
 				if ($this->os->version->toFloat() >= 4 && preg_match('/Mobile/', $ua)) $this->device->type = TYPE_MOBILE;
