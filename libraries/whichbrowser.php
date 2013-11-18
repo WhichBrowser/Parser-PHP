@@ -742,6 +742,15 @@
 				}
 			}
 			
+			else if (preg_match('/\(Ubuntu; (Mobile|Tablet)/', $ua)) {
+				$this->os->name = 'Ubuntu Touch';
+
+				if (preg_match('/\(Ubuntu; Mobile/', $ua)) $this->device->type = TYPE_MOBILE;
+				if (preg_match('/\(Ubuntu; Tablet/', $ua)) $this->device->type = TYPE_TABLET;
+			}
+
+
+
 			
 			/****************************************************
 			 *		iOS
