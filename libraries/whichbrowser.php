@@ -1739,6 +1739,20 @@
 			}
 
 			/****************************************************
+			 *		Kobo Reader
+			 */
+		
+			if (preg_match('/Kobo Touch/', $ua, $match)) {
+				$this->os->name = '';
+				$this->os->version = null;
+				
+				$this->device->manufacturer = 'Kobo';
+				$this->device->model = 'eReader';
+				$this->device->type = TYPE_EREADER;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
+			/****************************************************
 			 *		Sony Reader
 			 */
 		
