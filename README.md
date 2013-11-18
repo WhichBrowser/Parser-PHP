@@ -11,7 +11,7 @@ Well, there is always an exception to the rule. There is one valid reason to do 
 **Why is it extremely complicated?**  
 Because everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browsers say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.
 
-The main part of this library runs on the server and looks at the headers send by the browser. The first thing it looks at is the user-agent header, but there are many more headers that contain clues about the identity of the browser. Once the server finds the identity of the browser, it hands over the results to the browser itself. The browser then check some additional characteristics and tries to determine if the headers where perhaps lying. It then gives you the result.
+The main part of this library runs on the server and looks at the headers send by the browser, but it also collects various data from the browser itself. The first thing it looks at is the user-agent header, but there are many more headers that contain clues about the identity of the browser. Once the server finds the identity of the browser, it then looks at the data from the browser itself and check some additional characteristics and tries to determine if the headers where perhaps lying. It then gives you the result.
 
 **What kind of information does it give?**
 You get a nice JavaScript object which has information about the browser, rendering engine, os and device. It gives you names and versions and even device manufacturer and model. And WhichBrowser is pretty tenacious. It gives you info that others don't. For example:
@@ -37,7 +37,18 @@ How to install it
 
 Place the files in a directory on your server. The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to also use PHP to parse the `detect.js` file. This is required and if your server does not support `.htaccess` files you need to find a way to make your server do the same.
 
-Then load the `detect.js` file using a normal `script` tag on on your webpage.
+Then place the following snippet on your webpage. 
+
+    <script>
+        (function(){var p=[],w=window,d=document,e=f=0;p.push('ua='+encodeURIComponent(navigator.userAgent));e|=w.ActiveXObject?1:0;e|=w.opera?2:0;e|=w.chrome?4:0;
+        e|='getBoxObjectFor' in d || 'mozInnerScreenX' in w?8:0;e|=('WebKitCSSMatrix' in w||'WebKitPoint' in w||'webkitStorageInfo' in w||'webkitURL' in w)?16:0;
+        e|=(e&16&&({}.toString).toString().indexOf("\n")===-1)?32:0;p.push('e='+e);f|='sandbox' in d.createElement('iframe')?1:0;f|='WebSocket' in w?2:0;
+        f|=w.Worker?4:0;f|=w.applicationCache?8:0;f|=w.history && history.pushState?16:0;f|=d.documentElement.webkitRequestFullScreen?32:0;f|='FileReader' in w?64:0;
+        p.push('f='+f);p.push('r='+Math.random().toString(36).substring(7));p.push('w='+screen.width);p.push('h='+screen.height);var s=d.createElement('script');
+        s.src='http://yourserver/whichbrowser/detect.js?' + p.join('&');d.getElementsByTagName('head')[0].appendChild(s);})();
+    </script>
+
+Please make sure you change the URL of the detect.js file to point it to your own server.
 
 
 How to use it
@@ -45,16 +56,9 @@ How to use it
 
 The first step is to create a new `WhichBrowser` object. This object will contain all the information the library could find about your browser.
 
-    new WhichBrowser({ [options] });
-  
-The options you can use are:
-
-* `detectCamouflage` - should be try to find out if the browser lies about it's identity?
-* `useFeatures` - if so, should be use feature detection to do so? 
-
 For example:
 
-    Browsers = new WhichBrowser({ detectCamouflage: true, useFeatures: true });
+    Browsers = new WhichBrowser();
 
 
 The variable `Browsers` now contains an object which you can query for information. There are various ways to access the information.
