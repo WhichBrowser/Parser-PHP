@@ -1900,6 +1900,10 @@
 				$this->device->model = 'Playstation Vita';
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/VTE\//', $ua, $match)) {
+					$this->device->model = 'Playstation Vita TV';
+				}	
 			}
 
 			if (preg_match('/PlayStation 3/i', $ua)) {
