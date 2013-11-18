@@ -1280,6 +1280,10 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+			if (preg_match('/elite\/fzz/', $ua, $match)) {
+				$this->os->name = 'webOS';
+			}
+
 			if (preg_match('/WebOS; Linux\/SmartTV/', $ua, $match)) {
 				$this->os->name = 'webOS';
 				$this->device->type = 'television';
