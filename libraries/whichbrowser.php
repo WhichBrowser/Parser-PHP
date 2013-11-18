@@ -1767,7 +1767,9 @@
 				
 				switch($match[1]) {
 					case '1101':	$this->device->model = 'Reader PRS-T1'; break;
+					case '1102':	$this->device->model = 'Reader PRS-T1'; break;
 					case '1201':	$this->device->model = 'Reader PRS-T2'; break;
+					case '1301':	$this->device->model = 'Reader PRS-T3'; break;
 				}
 			}
 
