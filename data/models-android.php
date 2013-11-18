@@ -481,6 +481,7 @@
 			'PadFone Infinity'							=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
 			'PadFone Infinity A86'						=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
 			'PadFone T004'								=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
+			'PadFone T00C'								=> array( 'Asus', 'Padfone "T00C"', TYPE_TABLET ),							// Unknown
 			'ETBW11AA'									=> array( 'Asus', 'Tough' ),
 			'K00C'										=> array( 'Asus', 'Transformer Pad Infinity', TYPE_TABLET ),				// Unconfirmed
 			'K00E'										=> array( 'Asus', 'Fonepad 7', TYPE_TABLET ),
@@ -1154,6 +1155,7 @@
 			'HTC ?ChaCha!'								=> array( 'HTC', 'ChaCha' ),
 			'HTC A810e'									=> array( 'HTC', 'ChaCha' ),
 			'HTC A9188!'								=> array( 'HTC', 'Cullinan' ),
+			'HTC Desire 200'							=> array( 'HTC', 'Desire 200' ),
 			'HTC Desire 300'							=> array( 'HTC', 'Desire 300' ),
 			'HTC Desire 500'							=> array( 'HTC', 'Desire 500' ),
 			'HTC Desire 500 dual sim'					=> array( 'HTC', 'Desire 500' ),
@@ -1244,6 +1246,7 @@
 			'HTC Butterfly s'							=> array( 'HTC', 'Butterfly S' ),
 			'HTC PO68'									=> array( 'HTC', 'Butterfly S' ),
 			'HTC 9060'									=> array( 'HTC', 'Butterfly S' ),
+			'HTC 9088'									=> array( 'HTC', 'Butterfly S' ),
 			'HTC 909d'									=> array( 'HTC', 'Butterfly S' ),
 			'HTC P715a'									=> array( 'HTC', 'Jetstream', TYPE_TABLET ),
 			'HTC PG09410'								=> array( 'HTC', 'Jetstream', TYPE_TABLET ),
@@ -2094,6 +2097,7 @@
 			'LG-C800G'									=> array( 'LG', 'Eclypse' ),
 			'LG-CX670'									=> array( 'LG', 'Optimus 3G' ),
 			'LG-D175f'									=> array( 'LG', 'D175' ),
+			'LG-D320n'									=> array( 'LG', 'D320' ),							// Unknown
 			'LG-D325f'									=> array( 'LG', 'D325' ),							// Unknown
 			'LG-D410'									=> array( 'LG', 'D410' ),							// Unknown
 			'LG-D415'									=> array( 'LG', 'D415' ),							// Unknown
@@ -2163,6 +2167,7 @@
 			'LG-LS696'									=> array( 'LG', 'Elite' ),
 			'LG-LS720'									=> array( 'LG', 'Optimus F3' ),
 			'LG-LS740'									=> array( 'LG', 'LS740' ),							// Unknown
+			'LS740'										=> array( 'LG', 'LS740' ),							// Unknown
 			'LG-LS840'									=> array( 'LG', 'Viper' ),
 			'LG-LS855'									=> array( 'LG', 'Marquee' ),
 			'LG-LS860'									=> array( 'LG', 'Mach' ),
@@ -2324,6 +2329,7 @@
 			'LDK-ICK v1.4'								=> array( 'LG', 'Esteem' ),
 			'Prada 3.0'									=> array( 'LG', 'PRADA 3.0' ),
 			'LG-Google TV'								=> array( 'LG', 'G2 series', TYPE_TELEVISION, FLAG_GOOGLETV ),
+			'LG-Google TV TV'							=> array( 'LG', 'G2 series', TYPE_TELEVISION, FLAG_GOOGLETV ),
 			'LG-Google TV G3'							=> array( 'LG', 'G3 series', TYPE_TELEVISION, FLAG_GOOGLETV ),
 			'LG-ANDROID MINI BOX'						=> array( 'LG', 'Android Mini-Box', TYPE_TELEVISION ),
 			'aTab9.7 IPS'								=> array( 'M-Tech', 'aTab 9.7', TYPE_TABLET ),
