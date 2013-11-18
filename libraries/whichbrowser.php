@@ -1589,6 +1589,15 @@
 			}
 
 			/****************************************************
+			 *		COS
+			 */
+		
+			if (preg_match('/COSBrowser\/([0-9.]*)/i', $ua, $match)) {
+				$this->os->name = 'COS';
+				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
+			}
+
+			/****************************************************
 			 *		CrOS
 			 */
 		
