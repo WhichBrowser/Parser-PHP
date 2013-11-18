@@ -56,8 +56,6 @@ How to use it
 
 The first step is to create a new `WhichBrowser` object. This object will contain all the information the library could find about your browser.
 
-    new WhichBrowser();
-  
 For example:
 
     Browsers = new WhichBrowser();
