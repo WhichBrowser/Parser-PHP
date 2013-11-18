@@ -4131,6 +4131,7 @@
 				array('name' => 'iLunascape', 			'regexp' => '/iLunascape\/([0-9.]*)/', 'details' => 3),
 				array('name' => 'Intermec Browser', 	'regexp' => '/Intermec\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'MaCross Mobile', 		'regexp' => '/MaCross\/([0-9.]*)/'),
+				array('name' => 'Mammoth', 				'regexp' => '/Mammoth\/([0-9.]*)/'),										// ref: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
 				array('name' => 'Mercury Browser', 		'regexp' => '/Mercury\/([0-9.]*)/'),
 				array('name' => 'MixShark', 			'regexp' => '/MixShark\/([0-9.]*)/'),
 				array('name' => 'mlbrowser',			'regexp' => '/mlbrowser/'),
