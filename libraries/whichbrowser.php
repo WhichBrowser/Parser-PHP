@@ -4200,7 +4200,7 @@
 				array('name' => 'Bing', 				'regexp' => '/msnbot\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Bing Preview', 		'regexp' => '/BingPreview\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Bloglines', 			'regexp' => '/Bloglines\/([0-9.]*)/', 'type' => TYPE_BOT),
-				array('name' => 'Googlebot', 			'regexp' => '/Googlebot\/([0-9.]*)/', 'type' => TYPE_BOT),
+				array('name' => 'Googlebot', 			'regexp' => '/Google[Bb]ot\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Google App Engine', 	'regexp' => '/AppEngine-Google/', 'type' => TYPE_BOT),
 				array('name' => 'Google Web Preview',	'regexp' => '/Google Web Preview/', 'type' => TYPE_BOT),
 				array('name' => 'Google Feed Fetcher',	'regexp' => '/FeedFetcher-Google/', 'type' => TYPE_BOT),
