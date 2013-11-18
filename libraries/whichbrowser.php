@@ -553,7 +553,7 @@
 					$this->os->version = null;
 				}
 				
-				$device = DeviceModels::identify('ios', $match[1]);
+				$device = DeviceModels::identify('ios', $parts[1]);
 				
 				if ($device->identified) {
 					$device->identified |= $this->device->identified;
