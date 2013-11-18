@@ -2287,6 +2287,19 @@
 				$this->device->type = TYPE_SIGNAGE;
 				$this->device->identified |= ID_MATCH_UA;
 			}
+			
+			
+			/****************************************************
+			 *		Iadea
+			 */
+
+			if (preg_match('/ADAPI/', $ua) && preg_match('/\(MODEL:([^\)]+)\)/', $ua, $match)) {
+				$this->os->name = '';
+				$this->device->manufacturer = 'Iadea';
+				$this->device->model = $match[1];
+				$this->device->type = TYPE_SIGNAGE;
+				$this->device->identified |= ID_MATCH_UA;
+			}
 
 
 			/****************************************************
