@@ -4064,6 +4064,7 @@
 				array('name' => 'Microsoft FrontPage',	'regexp' => '/MS FrontPage ([0-9.]*)/', 'details' => 2, 'type' => TYPE_DESKTOP),
 				array('name' => 'Microsoft Outlook',	'regexp' => '/Microsoft Outlook IMO, Build ([0-9.]*)/', 'details' => 2, 'type' => TYPE_DESKTOP),
 				
+				array('name' => '1Browser',				'regexp' => '/1Password\/([0-9.]*)/'),
 				array('name' => '360 Extreme Explorer',	'regexp' => '/QIHU 360EE/', 'type' => TYPE_DESKTOP),
 				array('name' => '360 Safe Explorer',	'regexp' => '/QIHU 360SE/', 'type' => TYPE_DESKTOP),
 				array('name' => '360 Phone Browser',	'regexp' => '/360 Android Phone Browser \(V([0-9.]*)\)/'),
@@ -4073,7 +4074,8 @@
 				array('name' => 'AltiBrowser',			'regexp' => '/AltiBrowser\/([0-9.]*)/i'),
 				array('name' => 'AOL Desktop',			'regexp' => '/AOL ([0-9.]*); AOLBuild/i'),
 				array('name' => 'Arachne',				'regexp' => '/Arachne\/([0-9.]*)/', 'type' => TYPE_DESKTOP),
-				array('name' => 'arora',				'regexp' => '/[Aa]rora\/([0-9.]*)/'),
+				array('name' => 'Arora',				'regexp' => '/[Aa]rora\/([0-9.]*)/'),							// see: www.arora-browser.org
+				array('name' => 'Avant Browser',		'regexp' => '/Avant Browser/'),
 				array('name' => 'Avant Browser',		'regexp' => '/Avant TriCore/'),
 				array('name' => 'Baidu Browser',		'regexp' => '/M?BaiduBrowser\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/BdMobile\/([0-9.]*)/i'),
@@ -4158,6 +4160,7 @@
 				array('name' => 'RockMelt', 			'regexp' => '/RockMelt\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'SaaYaa Explorer', 		'regexp' => '/SaaYaa/', 'type' => TYPE_DESKTOP),
 				array('name' => 'Sleipnir', 			'regexp' => '/Sleipnir\/([0-9.]*)/', 'details' => 3),
+				array('name' => 'SlimBoat', 			'regexp' => '/SlimBoat\/([0-9.]*)/'),
 				array('name' => 'SMBrowser', 			'regexp' => '/SMBrowser/'),
 				array('name' => 'Sogou Explorer', 		'regexp' => '/SE 2.X MetaSr/', 'type' => TYPE_DESKTOP),
 				array('name' => 'Sogou Mobile',			'regexp' => '/SogouMobileBrowser\/([0-9.]*)/', 'details' => 2),
@@ -4166,6 +4169,7 @@
 				array('name' => 'Stainless', 			'regexp' => '/Stainless\/([0-9.]*)/'),
 				array('name' => 'SunChrome', 			'regexp' => '/SunChrome\/([0-9.]*)/'),
 				array('name' => 'Surf', 				'regexp' => '/Surf\/([0-9.]*)/'),
+				array('name' => 'The World', 			'regexp' => '/TheWorld ([0-9.]*)/'),
 				array('name' => 'TaoBrowser', 			'regexp' => '/TaoBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'TaomeeBrowser', 		'regexp' => '/TaomeeBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'TazWeb', 				'regexp' => '/TazWeb/'),
@@ -4182,10 +4186,13 @@
 				array('name' => 'Webster', 				'regexp' => '/Webster ([0-9.]*)/'),
 				array('name' => 'Wyzo', 				'regexp' => '/Wyzo\/([0-9.]*)/', 'details' => 3),
 				array('name' => 'Yandex Browser', 		'regexp' => '/YaBrowser\/([0-9.]*)/', 'details' => 2),
+				array('name' => 'Yelang', 				'regexp' => '/Yelang\/([0-9.]*)/', 'details' => 3),							// see: wellgo.org
 				array('name' => 'YRC Weblink', 			'regexp' => '/YRCWeblink\/([0-9.]*)/'),
 				array('name' => 'Zetakey', 				'regexp' => '/Zetakey Webkit\/([0-9.]*)/'),
 				array('name' => 'Zetakey', 				'regexp' => '/Zetakey\/([0-9.]*)/'),
 				
+				array('name' => 'Nimbus', 				'regexp' => '/Nimbus\/([0-9.]*)/'),
+
 				array('name' => 'McAfee Web Gateway', 	'regexp' => '/Webwasher\/([0-9.]*)/'),
 				
 				array('name' => 'Open Sankoré', 		'regexp' => '/Open-Sankore\/([0-9.]*)/', 'type' => TYPE_WHITEBOARD),
