@@ -116,7 +116,7 @@
 
 
 		function detectCamouflage() {
-			if (isset($this->options->useragent)) {
+			if (isset($this->options->useragent) && $this->options->useragent != '') {
 				if ($this->options->useragent == 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/') {
 					
 					if ($this->browser->name != 'UC Browser') {
