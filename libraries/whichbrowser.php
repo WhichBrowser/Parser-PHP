@@ -1737,8 +1737,6 @@
 				$this->device->model = 'Cybook';
 				$this->device->type = TYPE_EREADER;
 				
-				if (preg_match('/Orizon/', $ua)) $this->device->model = 'Cybook Orizon';
-
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
