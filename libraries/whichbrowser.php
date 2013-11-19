@@ -3990,11 +3990,6 @@
 				$this->browser->name = 'Midori';
 				$this->browser->version = new Version(array('value' => $match[1]));
 
-				if ($this->os->name != 'Linux') {
-					$this->os->name = 'Linux';
-					$this->os->version = null;
-				}
-
 				$this->device->manufacturer = null;
 				$this->device->model = null;
 				$this->device->type = TYPE_DESKTOP;
