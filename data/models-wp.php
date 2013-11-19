@@ -3,6 +3,7 @@
 		DeviceModels::$WINDOWS_PHONE_MODELS = array(
 			'Allegro'									=> array( 'Acer', 'Allegro' ),
 			'M310'										=> array( 'Acer', 'Allegro' ),
+			'ONE TOUCH 5040X'							=> array( 'Alcatel', 'One Touch View' ),
 			'Galaxy6'									=> array( 'Asus', 'Galaxy 6' ),
 			'Venue Pro'									=> array( 'Dell', 'Venue Pro' ),
 			'IS12T'										=> array( 'Fujitsu Toshiba', 'IS12T' ),
