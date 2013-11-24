@@ -4460,6 +4460,15 @@
 				unset($this->device->flag);			
 			}
 
+						
+			if ($this->device->type == TYPE_BOT) {
+				$this->device->identified = false;
+				unset($this->os->name);	
+				unset($this->os->version);	
+				unset($this->device->manufacturer);	
+				unset($this->device->model);	
+			}
+
 			if (!$this->device->identified && isset($this->device->model)) {
 				if (preg_match('/^[a-z][a-z]-[a-z][a-z]$/', $this->device->model)) {
 					$this->device->model = null;
