@@ -86,7 +86,7 @@
 			$this->camouflage = false;
 			$this->features = array();
 		
-			$this->analyseUserAgent(isset($this->headers['User-Agent']) ? $this->headers['User-Agent'] : '');
+			$this->analyseUserAgent($this->hasHeader('User-Agent') ? $this->getHeader('User-Agent') : '');
 			
 			if ($this->hasHeader('X-Original-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Original-User-Agent'));
 			if ($this->hasHeader('X-Device-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Device-User-Agent'));
