@@ -6,4 +6,5 @@
 			'501s'										=> array( 'Nokia', 'Asha 501' ),
 			'502'										=> array( 'Nokia', 'Asha 502' ),
 			'503'										=> array( 'Nokia', 'Asha 503' ),
+			'503s'										=> array( 'Nokia', 'Asha 503' ),
 		);

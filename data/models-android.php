@@ -313,6 +313,7 @@
 			'one touch D920'							=> array( 'Alcatel', 'One Touch D920' ),
 			'one touch 40(05|10|11)!'					=> array( 'Alcatel', 'One Touch T\'Pop' ),
 			'one touch 4007!'							=> array( 'Alcatel', 'One Touch Pixi' ),
+			'one touch 4015!'							=> array( 'Alcatel', 'One Touch "4015"' ),
 			'one touch 4030!'							=> array( 'Alcatel', 'One Touch S\'Pop' ),
 			'one touch 4033!'							=> array( 'Alcatel', 'One Touch Pop C3' ),
 			'one touch 5020!'							=> array( 'Alcatel', 'One Touch M\'Pop' ),
@@ -482,7 +483,7 @@
 			'PadFone Infinity'							=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
 			'PadFone Infinity A86'						=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
 			'PadFone T004'								=> array( 'Asus', 'Padfone Infinity', TYPE_TABLET ),
-			'PadFone T00C'								=> array( 'Asus', 'Padfone "T00C"', TYPE_TABLET ),							// Unknown
+			'PadFone T00C'								=> array( 'Asus', 'Padfone Mini', TYPE_TABLET ),							// Unconfirmed
 			'ETBW11AA'									=> array( 'Asus', 'Tough' ),
 			'K00C'										=> array( 'Asus', 'Transformer Pad Infinity', TYPE_TABLET ),				// Unconfirmed
 			'K00E'										=> array( 'Asus', 'Fonepad 7', TYPE_TABLET ),
@@ -523,9 +524,10 @@
 			'BEE 9500'									=> array( 'Bee Mobile', 'Bee 9500' ),
 			'CA907AAC0G'								=> array( 'Besta', 'CA907AAC0G' ),
 			'T9108'										=> array( 'Bird', 'T9108' ),
-			'BB Q10'									=> array( 'BlackBerry', 'Q10' ),
-			'BB Z10'									=> array( 'BlackBerry', 'Z10' ),
-			'BB Z30'									=> array( 'BlackBerry', 'Z30' ),
+			'(BB )?Q5!'									=> array( 'BlackBerry', 'Q5' ),
+			'(BB )?Q10!'								=> array( 'BlackBerry', 'Q10' ),
+			'(BB )?Z10!'								=> array( 'BlackBerry', 'Z10' ),
+			'(BB )?Z30!'								=> array( 'BlackBerry', 'Z30' ),
 			'(BLU )?DASH 3.2!'							=> array( 'BLU', 'Dash 3.2' ),
 			'BLU DASH 3.5!'								=> array( 'BLU', 'Dash 3.5' ),
 			'BMOBILE DASH 3.5'							=> array( 'BLU', 'Dash 3.5' ),
@@ -1081,6 +1083,7 @@
 			'MID Ser(ai|ia)ls!'							=> array( 'Herotab', 'C8', TYPE_TABLET ),
 			'Cosmo'										=> array( 'Highscreen', 'Cosmo', TYPE_TABLET ),
 			'COSMO DUO'									=> array( 'Highscreen', 'Cosmo Duo', TYPE_TABLET ),
+			'Explosion'									=> array( 'Highscreen', 'Explosion' ),
 			'HIGHSCREEN Jet Duo'						=> array( 'Highscreen', 'Jet Duo', TYPE_TABLET ),
 			'HLV-T704'									=> array( 'Hi-Level', 'HLV-T704', TYPE_TABLET ),
 			'HILIVE H7'									=> array( 'Hilive', 'H7' ),
@@ -2107,6 +2110,7 @@
 			'LG-D175f'									=> array( 'LG', 'D175' ),
 			'LG-D320n'									=> array( 'LG', 'D320' ),							// Unknown
 			'LG-D325f'									=> array( 'LG', 'D325' ),							// Unknown
+			'LG-D405'									=> array( 'LG', 'D405' ),							// Unknown
 			'LG-D410'									=> array( 'LG', 'D410' ),							// Unknown
 			'LG-D415'									=> array( 'LG', 'D415' ),							// Unknown
 			'LG-D5(00|05)!'								=> array( 'LG', 'Optimus F6' ),
@@ -2117,6 +2121,7 @@
 			'LG-D700'									=> array( 'LG', 'Optimus L9' ),
 			'LG-D8(00|01|02|03|05|06)!'					=> array( 'LG', 'G2' ),
 			'LG-D8(20|21)!'								=> array( 'LG', 'Nexus 5' ),						
+			'LG-D830'									=> array( 'LG', 'D830' ),
 			'LG-D9(50|55|58|59)!'						=> array( 'LG', 'G Flex' ),
 			'LG-DS1203'									=> array( 'LG', 'G2' ),
 			'LG-E400!'									=> array( 'LG', 'Optimus L3' ),
@@ -2140,8 +2145,8 @@
 			'LG-E730!'									=> array( 'LG', 'Optimus Sol' ),
 			'LG-E940'									=> array( 'LG', 'Optimus G Pro' ),
 			'LG-E960'									=> array( 'LG', 'Nexus 4' ),
-			'LG-E9(70|71|73|75|76|77|78)!'				=> array( 'LG', 'Optimus G' ),
-			'LG-E9(80|85|86|87|88|89)!'					=> array( 'LG', 'Optimus G Pro' ),
+			'LG-E9(70|71|73|75|76|77|78|87)!'			=> array( 'LG', 'Optimus G' ),
+			'LG-E9(80|85|86|88|89)!'					=> array( 'LG', 'Optimus G Pro' ),
 			'LG-F100!'									=> array( 'LG', 'Optimus Vu' ),
 			'LG-F120!'									=> array( 'LG', 'Optimus LTE Tag' ),
 			'LG-F160!'									=> array( 'LG', 'Optimus LTE II' ),
@@ -4229,6 +4234,7 @@
 			'ZTE N9120'									=> array( 'ZTE', 'N9120 Avid' ),
 			'N9500'										=> array( 'ZTE', 'N9500 Flash' ),
 			'ZTE N9511'									=> array( 'ZTE', 'N9511 Fury' ),
+			'N9520'										=> array( 'ZTE', 'N9520 Stormer' ),
 			'N9810'										=> array( 'ZTE', 'N9810 Vital' ),
 			'ZTE N5'									=> array( 'ZTE', 'N5 Grand Memo' ),
 			'ZTE N5S'									=> array( 'ZTE', 'N5S' ),
