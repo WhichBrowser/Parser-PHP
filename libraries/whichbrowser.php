@@ -1938,6 +1938,7 @@
 			 *		XBox
 			 *
 			 *		Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)
+			 *		Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)
 			 */
 		
 			if (preg_match('/Xbox\)$/', $ua, $match)) {
@@ -1946,6 +1947,16 @@
 		
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox 360';
+				$this->device->type = TYPE_GAMING;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
+			if (preg_match('/Xbox One\)$/', $ua, $match)) {
+				$this->os->name = '';
+				$this->os->version = null;
+		
+				$this->device->manufacturer = 'Microsoft';
+				$this->device->model = 'Xbox One';
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 			}
