@@ -4245,6 +4245,7 @@
 				if (preg_match($browsers[$b]['regexp'], $ua, $match)) {
 					$this->browser->name = $browsers[$b]['name'];
 					$this->browser->channel = '';
+					$this->browser->hidden = false;
 					$this->browser->stock = false;
 
 					if (isset($match[1]) && $match[1]) {
