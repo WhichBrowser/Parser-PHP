@@ -4231,6 +4231,7 @@
 				array('name' => 'Googlebot', 			'regexp' => '/Google[Bb]ot\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Google App Engine', 	'regexp' => '/AppEngine-Google/', 'type' => TYPE_BOT),
 				array('name' => 'Google Web Preview',	'regexp' => '/Google Web Preview/', 'type' => TYPE_BOT),
+				array('name' => 'Google Page Speed',	'regexp' => '/Google Page Speed Insights/', 'type' => TYPE_BOT),
 				array('name' => 'Google Feed Fetcher',	'regexp' => '/FeedFetcher-Google/', 'type' => TYPE_BOT),
 				array('name' => 'Google Font Analysis', 'regexp' => '/Google-FontAnalysis\/([0-9.]*)/', 'type' => TYPE_BOT),
 				array('name' => 'Grub', 				'regexp' => '/grub-client-([0-9.]*)/', 'type' => TYPE_BOT),
