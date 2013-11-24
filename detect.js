@@ -24,7 +24,7 @@ var WhichBrowser = (function(){
 		initialize: function(options) {
 			this.options = {
 			}
-
+			
 <?php $detected->toJavaScript(); ?>
 		},
 		
@@ -51,6 +51,10 @@ var WhichBrowser = (function(){
 		isEngine: function() { var a = Array.prototype.slice.call(arguments); a.unshift('engine'); return this.isX.apply(this, a); },
 		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
 				
+		isDevice: function(d) {
+			return typeof this.device.model != 'undefined' && this.device.model == d;
+		},
+
 		isType: function() {
 			var valid = false;
 			for (var a = 0; a < arguments.length; a++) valid = valid || arguments[a] == this.device.type;
