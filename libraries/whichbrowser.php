@@ -4095,6 +4095,7 @@
 				array('name' => 'Abrowser',				'regexp' => '/Abrowser\/([0-9.]*)/'),
 				array('name' => 'AltiBrowser',			'regexp' => '/AltiBrowser\/([0-9.]*)/i'),
 				array('name' => 'AOL Desktop',			'regexp' => '/AOL ([0-9.]*); AOLBuild/i'),
+				array('name' => 'AOL Browser',			'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i'),
 				array('name' => 'Arachne',				'regexp' => '/Arachne\/([0-9.]*)/', 'type' => TYPE_DESKTOP),
 				array('name' => 'Arora',				'regexp' => '/[Aa]rora\/([0-9.]*)/'),							// see: www.arora-browser.org
 				array('name' => 'Avant Browser',		'regexp' => '/Avant Browser/'),
