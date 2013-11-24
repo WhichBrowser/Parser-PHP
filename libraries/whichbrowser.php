@@ -4256,7 +4256,7 @@
 						$this->browser->version = null;
 					}
 					
-					if (isset($browsers[$b]['type']) && $this->device->type == '') {
+					if (isset($browsers[$b]['type'])) {
 						$this->device->type = $browsers[$b]['type'];
 					}
 				}
