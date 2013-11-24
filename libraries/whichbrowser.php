@@ -1949,6 +1949,9 @@
 				$this->device->model = 'Xbox 360';
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				if ($this->browser->name == 'Mobile Internet Explorer')
+					$this->browser->name = 'Internet Explorer';
 			}
 
 			if (preg_match('/Xbox One\)$/', $ua, $match)) {
@@ -1959,6 +1962,9 @@
 				$this->device->model = 'Xbox One';
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
+
+				if ($this->browser->name == 'Mobile Internet Explorer')
+					$this->browser->name = 'Internet Explorer';
 			}
 
 			/****************************************************
