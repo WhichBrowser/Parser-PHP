@@ -168,7 +168,7 @@
 				if ($this->browser->name == 'Safari') {
 					preg_match('/AppleWebKit\/([0-9]+.[0-9]+)/i', $this->options->useragent, $webkitMatch);
 					preg_match('/Safari\/([0-9]+.[0-9]+)/i', $this->options->useragent, $safariMatch);
-				
+					
 					if ($this->os->name != 'iOS' && $webkitMatch[1] != $safariMatch[1]) {
 						$this->features[] = 'safariMismatch';
 						$this->camouflage = true;			
@@ -4010,6 +4010,11 @@
 				$this->device->manufacturer = null;
 				$this->device->model = null;
 				$this->device->type = TYPE_DESKTOP;
+				
+				if ($this->os->name == 'Mac OS X' || $this->os->name == 'OS X') {
+					$this->os->name = null;
+					$this->os->version = null;
+				}
 			}	
 
 			if (preg_match('/midori$/', $ua)) {
