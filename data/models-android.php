@@ -322,10 +322,10 @@
 			'one touch 6010!'							=> array( 'Alcatel', 'One Touch Star' ),
 			'one touch 6012!'							=> array( 'Alcatel', 'One Touch Idol Mini' ),
 			'one touch 6030!'							=> array( 'Alcatel', 'One Touch Idol' ),
-			'one touch 6032!'							=> array( 'Alcatel', 'One Touch "6032"' ),							// One Touch Idol Alpha?
+			'one touch 6032!'							=> array( 'Alcatel', 'One Touch Idol α' ),
 			'one touch 6033!'							=> array( 'Alcatel', 'One Touch Idol Ultra' ),
 			'one touch 60(34|35)!'						=> array( 'Alcatel', 'One Touch Idol S' ),
-			'one touch 6036!'							=> array( 'Alcatel', 'One Touch "6036"' ),							// One Touch Idol Alpha?
+			'one touch 6036!'							=> array( 'Alcatel', 'One Touch "6036"' ),							// Unknown
 			'one touch 6040!'							=> array( 'Alcatel', 'One Touch Idol X' ),
 			'one touch 7024!'							=> array( 'Alcatel', 'One Touch Fierce' ),
 			'one touch fierce!'							=> array( 'Alcatel', 'One Touch Fierce' ),
@@ -1174,6 +1174,7 @@
 			'HTC 606w'									=> array( 'HTC', 'Desire 606w' ),
 			'HTC 608t'									=> array( 'HTC', 'Desire 608t' ),
 			'HTC 609d'									=> array( 'HTC', 'Desire 609d' ),
+			'HTC 619d'									=> array( 'HTC', 'Desire 619d' ),
 			'HTC 709d'									=> array( 'HTC', 'Desire 709d' ),
 			'HTC Desire C'								=> array( 'HTC', 'Desire C' ),
 			'HTC H1000C'								=> array( 'HTC', 'Desire C' ),
@@ -2263,7 +2264,7 @@
 			'LG-VS700'									=> array( 'LG', 'Enlighten' ),
 			'LG-VS740'									=> array( 'LG', 'Ally' ),
 			'LG-VS840'									=> array( 'LG', 'Lucid' ),
-			'LG-VS870'									=> array( 'LG', 'Escape' ),
+			'LG-VS870'									=> array( 'LG', 'Lucid 2' ),
 			'LG-VS890'									=> array( 'LG', 'Enact' ),
 			'LG-VS910'									=> array( 'LG', 'Revolution' ),
 			'LG-VS930'									=> array( 'LG', 'Spectrum II' ),
@@ -2600,6 +2601,7 @@
 			'XT621'										=> array( 'Motorola', 'Primus XT621' ),
 			'XT623'										=> array( 'Motorola', 'Kairos XT623' ),
 			'XT626'										=> array( 'Motorola', 'MOTO XT626' ),
+			'XT627'										=> array( 'Motorola', 'Kairos XT627' ),
 			'XT681'										=> array( 'Motorola', 'MOTO XT681' ),
 			'XT682'										=> array( 'Motorola', 'Droid 3' ),
 			'XT685'										=> array( 'Motorola', 'MOTO XT685' ),
@@ -3136,8 +3138,9 @@
 			'GT-I9295!'									=> array( 'Samsung', 'Galaxy S4 Active' ),
 			'GT-I93(00|03|05|08)!'						=> array( 'Samsung', 'Galaxy S III' ),
 			'GT-I9505G'									=> array( 'Samsung', 'Galaxy S4 (Google Edition)' ),
-			'GT-I95(00|05|06|07)!'						=> array( 'Samsung', 'Galaxy S4' ),
+			'GT-I95(00|05|07)!'							=> array( 'Samsung', 'Galaxy S4' ),
 			'GT-I95(02|08)!'							=> array( 'Samsung', 'Galaxy S4 Duos' ),
+			'GT-I95(06)!'								=> array( 'Samsung', 'Galaxy S4 Advance' ),
 			'GT-I9800!'									=> array( 'Samsung', 'GT-I9800' ),								// Unknown
 			'GT-N51(00|05|10|20)!'						=> array( 'Samsung', 'Galaxy Note 8.0', TYPE_TABLET ),
 			'GT-N70(00|05)!'							=> array( 'Samsung', 'Galaxy Note' ),
@@ -3230,6 +3233,7 @@
 			'SCH-I545!'									=> array( 'Samsung', 'Galaxy S4' ),
 			'SCH-I605'									=> array( 'Samsung', 'Galaxy Note II' ),
 			'SCH-I619'									=> array( 'Samsung', 'Galaxy Ace A+' ),
+			'SCH-I629'									=> array( 'Samsung', 'SCH-I629' ),								
 			'SCH-I659'									=> array( 'Samsung', 'Galaxy Ace Plus' ),
 			'SCH-I665'									=> array( 'Samsung', 'SCH-I665' ),								// Unknown
 			'SCH-I699!'									=> array( 'Samsung', 'Galaxy Trend' ),
@@ -3384,14 +3388,13 @@
 			'SMT-i9100'									=> array( 'Samsung', 'SMT-I9100', TYPE_TABLET ),
 			'SM-C1(01|05)!'								=> array( 'Samsung', 'Galaxy S4 Zoom' ),
 			'SM-G3502!'									=> array( 'Samsung', 'Galaxy Trend 3' ),
-			'SM-G350!'									=> array( 'Samsung', 'SM-G350' ),								// Unknown
+			'SM-G350!'									=> array( 'Samsung', 'Galaxy Core Plus' ),
 			'SM-G3812'									=> array( 'Samsung', 'SM-G3812' ),								// Unknown, sucessor to GT-I8552 (Galaxy Win)
 			'SM-G3815'									=> array( 'Samsung', 'SM-G3815' ),								// Unknown
 			'SM-G3819!'									=> array( 'Samsung', 'SM-G3819' ),								// Unknown
-			'SM-G7102'									=> array( 'Samsung', 'SM-G7102' ),								// Unknown
-			'SM-G7105'									=> array( 'Samsung', 'SM-G7105' ),								// Unknown
+			'SM-G710!'									=> array( 'Samsung', 'Galaxy Grand II' ),	
 			'SM-G730!'									=> array( 'Samsung', 'Galaxy S III Mini' ),
-			'SM-G910S'									=> array( 'Samsung', 'Galaxy Round' ),
+			'SM-G910!'									=> array( 'Samsung', 'Galaxy Round' ),
 			'SM-N90(00|02|05|06|08|09)!'				=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SM-N900!'									=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SM-P6(00|01|05)!'							=> array( 'Samsung', 'Galaxy Note 10.1 (2014)', TYPE_TABLET ),
