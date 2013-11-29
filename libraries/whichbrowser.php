@@ -1136,6 +1136,17 @@
 			}
 
 
+			/****************************************************
+			 *		Chromecast
+			 */
+		
+			if (preg_match('/CrKey/', $ua)) {
+				$this->device->manufacturer = 'Google';
+				$this->device->model = 'Chromecast';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
 
 			/****************************************************
 			 *		WoPhone
@@ -3206,7 +3217,7 @@
 				$this->browser->name = 'Chrome';
 				$this->browser->version = new Version(array('value' => $match[1]));
 
-				if ($this->os->name == 'Android') {
+				if (isset($this->os->name) && $this->os->name == 'Android') {
 					switch (implode('.', array_splice(explode('.', $match[1]), 0, 3))) {
 						case '16.0.912':
 							$this->browser->channel = 'Beta';
