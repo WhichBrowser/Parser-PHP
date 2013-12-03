@@ -40,7 +40,7 @@ var WhichBrowser = (function(){
 				valid = valid && this[x].name == arguments[1];
 			}
 			
-			if (arguments.length >= 4 && typeof this[x].version && valid) {
+			if (arguments.length >= 4 && this[x].version != null && valid) {
 				valid = valid && this[x].version.is(arguments[2], arguments[3]);
 			}
 
@@ -52,7 +52,7 @@ var WhichBrowser = (function(){
 		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
 				
 		isDevice: function(d) {
-			return typeof this.device.model != 'undefined' && this.device.model == d;
+			return this.device.model != null && this.device.model == d;
 		},
 
 		isType: function() {
@@ -180,7 +180,7 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			if (this.identified)			
-				return (this.manufacturer ? this.manufacturer + ' ' : '') + (typeof this.model != 'undefined' && this.model ? this.model : '');
+				return (this.manufacturer ? this.manufacturer + ' ' : '') + (this.model != null && this.model ? this.model : '');
 			else
 				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
@@ -192,7 +192,7 @@ var WhichBrowser = (function(){
 			this.original = v.value || null;
 			this.alias = v.alias || null;
 			this.details = v.details || null;
-			this.builds = typeof v.builds != 'undefined' ? v.builds : true;
+			this.builds = v.builds != null ? v.builds : true;
 
 			this.major = 0;
 			this.minor = null;
@@ -202,29 +202,29 @@ var WhichBrowser = (function(){
 						
 			var match;
 			if (match = /([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?(?:\.([0-9]+))?(?:([ab])([0-9]+))?/.exec(this.original)) {
-				if (typeof match[1] != 'undefined') {
+				if (match[1] != null) {
 					this.major = match[1];
 				}
 
-				if (typeof match[2] != 'undefined') {
+				if ( match[2] != null) {
 					this.minor = match[2];
 				}
 
-				if (typeof match[3] != 'undefined') {
+				if ( match[3] != null) {
 					this.revision = match[3];
 				}
 
-				if (typeof match[4] != 'undefined') {
+				if ( match[4] != null) {
 					this.build = match[4];
 				}
 
-				if (typeof match[5] != 'undefined') {
+				if ( match[5] != null) {
 					switch(match[5]) {
 						case 'a':	this.type = 'alpha'; break;
 						case 'b':	this.type = 'beta'; break;
 					}
 
-					if (typeof match[6] != 'undefined') {
+					if ( match[6] != null) {
 						this.build = match[6];
 					}
 				}
