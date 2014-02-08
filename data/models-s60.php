@@ -9,6 +9,7 @@
 			'I7710'										=> array( 'Samsung', 'GT-I7710' ),
 			'I8510'										=> array( 'Samsung', 'INNOV8' ),
 			'I8910'										=> array( 'Samsung', 'Omnia HD' ),
+			'SGH-i450'									=> array( 'Samsung', 'i450' ),
 			'SGH-G810'									=> array( 'Samsung', 'G810' ),
 			'C5-00!'									=> array( 'Nokia', 'C5-00' ),
 			'C5-01'										=> array( 'Nokia', 'C5-01' ),

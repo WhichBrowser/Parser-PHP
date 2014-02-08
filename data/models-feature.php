@@ -40,13 +40,18 @@
 			'GT-E2202'									=> array( 'Samsung', 'Metro' ),
 			'GT-E2250'									=> array( 'Samsung', 'Utica' ),
 			'GT-E2252'									=> array( 'Samsung', 'Metro 2252' ),
+			'GT-S3332'									=> array( 'Samsung', 'Ch@t 333' ),
 			'GT-S33(50|53)!'							=> array( 'Samsung', 'Ch@t 335' ),
 			'GT-S35(70|72)!'							=> array( 'Samsung', 'Ch@t 357' ),
 			'GT-S5229'									=> array( 'Samsung', 'Tocco Lite 2' ),
 			'GT-S5270!'									=> array( 'Samsung', 'Ch@t 527' ),
 			'GT-S5610!'									=> array( 'Samsung', 'Primo' ),
+			'SCH-W169'									=> array( 'Samsung', 'W169 Duos' ),
 			'SGH-A667'									=> array( 'Samsung', 'A667 Evergreen' ),
 			'SGH-A877'									=> array( 'Samsung', 'A877 Impression' ),
+			'SGH-A927'									=> array( 'Samsung', 'A927 Flight II' ),
 			'SGH-A997'									=> array( 'Samsung', 'Rugby III' ),
+			'SGH-D880'									=> array( 'Samsung', 'D880 Duos' ),
+			'SGH-G600'									=> array( 'Samsung', 'G600' ),
 			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' )
 		);
