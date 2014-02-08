@@ -3538,10 +3538,21 @@
 					$this->device->model = $match[1];
 					$this->device->identified |= ID_PATTERN;
 	
-					$device = DeviceModels::identify('s40', $this->device->model);
-					if ($device->identified) {
-						$device->identified |= $this->device->identified;
-						$this->device = $device;
+					if (isset($this->device->model)) {
+						$device = DeviceModels::identify('s40', $this->device->model);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;
+						}
+					}
+
+					if (isset($this->device->model)) {
+						$device = DeviceModels::identify('asha', $this->device->model);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->os->name = 'Nokia Asha Platform';
+							$this->device = $device;
+						}
 					}
 				}
 				
