@@ -76,8 +76,9 @@
 		
 		function __construct($options) {
 			$this->options = (object) $options;
-			$this->headers = $this->options->headers;
-			
+			$this->headers = array();
+			if (isset($this->options->headers)) $this->headers = $this->options->headers;
+
 			$this->browser = (object) array('stock' => true, 'hidden' => false, 'channel' => '', 'mode' => '');
 			$this->engine = (object) array();
 			$this->os = (object) array();
@@ -401,7 +402,7 @@
 		}
 		
 		function analyseAlternativeUserAgent($ua) {
-			$extra = new WhichBrowser(array("User-Agent" => $ua));
+			$extra = new WhichBrowser(array('headers' => array("User-Agent" => $ua)));
 			
 			if ($extra->device->type != TYPE_DESKTOP) {
 				if (isset($extra->os->name)) $this->os = $extra->os;
@@ -429,7 +430,7 @@
 				$this->browser->version = null;
 			}
 
-			$extra = new WhichBrowser(array("User-Agent" => $ua));
+			$extra = new WhichBrowser(array('headers' => array("User-Agent" => $ua)));
 			if ($extra->device->type != TYPE_DESKTOP) {
 				if (isset($extra->os->version)) $this->os = $extra->os;
 				if ($extra->device->identified) $this->device = $extra->device;
