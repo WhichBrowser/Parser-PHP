@@ -106,6 +106,7 @@
 			'SCH-I930'									=> array( 'Samsung', 'Ativ Odyssey' ),
 			'SGH-i937!'									=> array( 'Samsung', 'Focus S' ),
 			'SGH-T899M'									=> array( 'Samsung', 'Ativ S' ),
+//			'SM-W750V'									=> array( 'Samsung', 'SM-W750V' ),		// Unannounced, codename Huron				
 			'OM(NI|IN)A ?7!'							=> array( 'Samsung', 'Omnia 7' ),
 			'Omnia W'									=> array( 'Samsung', 'Omnia W' ),
 			'Taylor'									=> array( 'Samsung', 'Taylor' ),
