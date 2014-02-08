@@ -1300,7 +1300,7 @@
 				$this->os->name = 'webOS';
 			}
 
-			if (preg_match('/WebOS; Linux\/SmartTV/', $ua, $match)) {
+			if (preg_match('/Web[0O]S/', $ua) && preg_match('/Large Screen/', $ua)) {
 				$this->os->name = 'webOS';
 				$this->device->type = 'television';
 			}
