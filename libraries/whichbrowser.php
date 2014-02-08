@@ -3232,6 +3232,7 @@
 						case '29.0.1547':
 						case '30.0.1599':
 						case '31.0.1650':
+						case '32.0.1700':
 							$this->browser->version->details = 1;
 							break;
 						default:	
@@ -3308,6 +3309,7 @@
 						case '29.0.1547':
 						case '30.0.1599':
 						case '31.0.1650':
+						case '32.0.1700':
 							$this->browser->version->details = 1;
 							break;
 						default:	
