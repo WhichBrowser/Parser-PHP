@@ -1457,7 +1457,7 @@
 				$this->device->type = TYPE_MOBILE;
 
 				if (preg_match('/\(([^;]+); ([^\/]+)\//', $ua, $match)) {
-					if ($match[1] != 'Linux') {
+					if ($match[1] != 'Linux' && $match[1] != 'Tizen') {
 						$this->device->manufacturer = $match[1];
 						$this->device->model = $match[2];
 						$this->device->identified = ID_PATTERN;
@@ -1471,12 +1471,12 @@
 					}						
 				}
 
-				if (preg_match('/;\s+([^;\)]+)\)/', $ua, $match)) {
-					if (substr($match[1], 0, 5) != 'Tizen') {
-						$this->device->model = $match[1];
+				if (preg_match('/\s*([^;]+);\s+([^;\)]+)\)/', $ua, $match)) {
+					if ($match[1] != 'U' && substr($match[2], 0, 5) != 'Tizen') {
+						$this->device->model = $match[2];
 						$this->device->identified = ID_PATTERN;
 						
-						$device = DeviceModels::identify('tizen', $match[1]);
+						$device = DeviceModels::identify('tizen', $match[2]);
 
 						if ($device->identified) {
 							$device->identified |= $this->device->identified;
