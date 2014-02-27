@@ -8,4 +8,5 @@
 			'SCH-U380'									=> array( 'Samsung', 'Brightside' ),
 			'SCH-W709!'									=> array( 'Samsung', 'SCH-W709' ),
 			'HS-E316!'									=> array( 'Hisense', 'E316' ),
+			'VX9200!'									=> array( 'LG', 'Env3' ),
 		);

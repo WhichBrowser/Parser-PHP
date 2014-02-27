@@ -30,6 +30,7 @@
 			'GT-B2710'									=> array( 'Samsung', 'Xcover 271' ),
 			'GT-B3210'									=> array( 'Samsung', 'Corby TXT' ),
 			'GT-B3313'									=> array( 'Samsung', 'Corby Mate' ),
+			'GT-C3200'									=> array( 'Samsung', 'Monte Bar' ),
 			'GT-C3222'									=> array( 'Samsung', 'Ch@t 322' ),
 			'GT-C3322'									=> array( 'Samsung', 'GT-C3322 Duos' ),
 			'GT-C3500'									=> array( 'Samsung', 'Ch@t 350' ),
