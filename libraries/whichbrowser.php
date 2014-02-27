@@ -1077,7 +1077,7 @@
 					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
 				}
 
-				if (preg_match('/Android (2.[0-9].[0-9]+)-R-20[0-9]+/', $ua, $match)) {
+				if (preg_match('/Android ([12].[0-9].[0-9]+)-R-20[0-9]+/', $ua, $match)) {
 					$this->os->name = 'Aliyun OS';
 					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
 				}
