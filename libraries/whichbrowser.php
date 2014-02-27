@@ -2661,46 +2661,49 @@
 	
 							if (preg_match('/^Nokia-?([^\/]+)(?:\/|$)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Nokia';
-								$this->device->model = DeviceModels::cleanup($match[1]);
-								$this->device->type = TYPE_MOBILE;
-								$this->device->identified = false;
-								$identified = true;
+
+								if ($match[1] != 'Browser') {
+									$this->device->model = DeviceModels::cleanup($match[1]);
+									$this->device->type = TYPE_MOBILE;
+									$this->device->identified = false;
+									$identified = true;
 								
-								if (!$this->device->identified) {
-									$device = DeviceModels::identify('s60', $this->device->model);
-									if ($device->identified) {
-										$device->identified |= $this->device->identified;
-										$this->device = $device;
-
-										if (!isset($this->os->name) || $this->os->name != 'Series60') {
-											$this->os->name = 'Series60';
-											$this->os->version = null;
-										}
-									}
-								}
+									if (!$this->device->identified) {
+										$device = DeviceModels::identify('s60', $this->device->model);
+										if ($device->identified) {
+											$device->identified |= $this->device->identified;
+											$this->device = $device;
 	
-								if (!$this->device->identified) {
-									$device = DeviceModels::identify('s40', $this->device->model);
-									if ($device->identified) {
-										$device->identified |= $this->device->identified;
-										$this->device = $device;
-										
-										if (!isset($this->os->name) || $this->os->name != 'Series40') {
-											$this->os->name = 'Series40';
-											$this->os->version = null;
+											if (!isset($this->os->name) || $this->os->name != 'Series60') {
+												$this->os->name = 'Series60';
+												$this->os->version = null;
+											}
 										}
 									}
-								}
-
-								if (!$this->device->identified) {
-									$device = DeviceModels::identify('asha', $this->device->model);
-									if ($device->identified) {
-										$device->identified |= $this->device->identified;
-										$this->device = $device;
-										
-										if (!isset($this->os->name) || $this->os->name != 'Nokia Asha Platform') {
-											$this->os->name = 'Nokia Asha Platform';
-											$this->os->version = null;
+		
+									if (!$this->device->identified) {
+										$device = DeviceModels::identify('s40', $this->device->model);
+										if ($device->identified) {
+											$device->identified |= $this->device->identified;
+											$this->device = $device;
+											
+											if (!isset($this->os->name) || $this->os->name != 'Series40') {
+												$this->os->name = 'Series40';
+												$this->os->version = null;
+											}
+										}
+									}
+	
+									if (!$this->device->identified) {
+										$device = DeviceModels::identify('asha', $this->device->model);
+										if ($device->identified) {
+											$device->identified |= $this->device->identified;
+											$this->device = $device;
+											
+											if (!isset($this->os->name) || $this->os->name != 'Nokia Asha Platform') {
+												$this->os->name = 'Nokia Asha Platform';
+												$this->os->version = null;
+											}
 										}
 									}
 								}
