@@ -1,19 +1,50 @@
 <?php
 
-	header("Content-Type: text/javascript");
-	header("Cache-Control: no-cache, no-store, must-revalidate, max-age=0"); 
-	header("Pragma: no-cache");
-	header("Expires: 0"); 
+if(!function_exists('apache_request_headers'))
+{
+    function apache_request_headers()
+    {
+        $arh = array();
+        $rx_http = '/\AHTTP_/';
 
-	include('libraries/whichbrowser.php');
+        foreach($_SERVER as $key => $val)
+        {
+            if(preg_match($rx_http, $key))
+            {
+                $arh_key = preg_replace($rx_http, '', $key);
+                $rx_matches = array();
+
+                $rx_matches = explode('_', $arh_key);
+
+                if(count($rx_matches) > 0 && strlen($arh_key) > 2)
+                {
+                    foreach($rx_matches as $ak_key => $ak_val) $rx_matches[$ak_key] = ucfirst($ak_val);
+                    $arh_key = implode('-', $rx_matches);
+                }
+
+                $arh[$arh_key] = $val;
+            }
+        }
+
+        return $arh;
+    }
+}
+
+
+header("Content-Type: text/javascript");
+header("Cache-Control: no-cache, no-store, must-revalidate, max-age=0"); 
+header("Pragma: no-cache");
+header("Expires: 0"); 
+
+include('libraries/whichbrowser.php');
 		
-	$options = array('headers' => apache_request_headers());
-	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
-	if (isset($_REQUEST['e'])) $options['engine'] = intval($_REQUEST['e']);
-	if (isset($_REQUEST['f'])) $options['features'] = intval($_REQUEST['f']);
-	if (isset($_REQUEST['w'])) $options['width'] = intval($_REQUEST['w']);
-	if (isset($_REQUEST['h'])) $options['height'] = intval($_REQUEST['h']);
-	$detected = new WhichBrowser($options);
+$options = array('headers' => apache_request_headers());
+if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
+if (isset($_REQUEST['e'])) $options['engine'] = intval($_REQUEST['e']);
+if (isset($_REQUEST['f'])) $options['features'] = intval($_REQUEST['f']);
+if (isset($_REQUEST['w'])) $options['width'] = intval($_REQUEST['w']);
+if (isset($_REQUEST['h'])) $options['height'] = intval($_REQUEST['h']);
+$detected = new WhichBrowser($options);
 
 ?>
 	
