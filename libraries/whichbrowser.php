@@ -3538,6 +3538,7 @@
 		
 			if (preg_match('/NokiaBrowser/', $ua)) {
 				$this->browser->name = 'Nokia Browser';
+				$this->browser->channel = null;
 
 				if (preg_match('/NokiaBrowser\/([0-9.]*)/', $ua, $match)) {
 					$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
