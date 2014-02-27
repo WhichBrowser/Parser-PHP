@@ -4165,6 +4165,7 @@
 				array('name' => 'Baidu Browser',		'regexp' => '/FlyFlow\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Baidu Browser',		'regexp' => '/BIDUBrowser[ \/]([0-9.]*)/'),
 				array('name' => 'Baidu Browser',		'regexp' => '/BaiduHD\/([0-9.]*)/', 'details' => 2),
+				array('name' => 'Baidu Spark',			'regexp' => '/BDSpark\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Black Wren',			'regexp' => '/BlackWren\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'BrightSign', 			'regexp' => '/BrightSign\/([0-9.]*)/', 'type' => TYPE_SIGNAGE),
 				array('name' => 'Byffox', 				'regexp' => '/Byffox\/([0-9.]*)/', 'type' => TYPE_DESKTOP),
@@ -4228,6 +4229,7 @@
 				array('name' => 'Openwave',				'regexp' => '/Openwave\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Orca', 				'regexp' => '/Orca\/([0-9.]*)/'),
 				array('name' => 'Origyn', 				'regexp' => '/Origyn Web Browser/'),
+				array('name' => 'Otter', 				'regexp' => '/Otter Browser\/([0-9.]*)/'),
 				array('name' => 'Palemoon', 			'regexp' => '/Pale[mM]oon\/([0-9.]*)/'),
 				array('name' => 'Phantom', 				'regexp' => '/Phantom\/V([0-9.]*)/'),
 				array('name' => 'Polaris', 				'regexp' => '/Polaris\/v?([0-9.]*)/i', 'details' => 2),
@@ -4269,6 +4271,7 @@
 				array('name' => 'WebRender', 			'regexp' => '/WebRender/'),
 				array('name' => 'Webster', 				'regexp' => '/Webster ([0-9.]*)/'),
 				array('name' => 'Wyzo', 				'regexp' => '/Wyzo\/([0-9.]*)/', 'details' => 3),
+				array('name' => 'Miui Browser', 		'regexp' => '/XiaoMi\/MiuiBrowser\/([0-9.]*)/'),
 				array('name' => 'Yandex Browser', 		'regexp' => '/YaBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Yelang', 				'regexp' => '/Yelang\/([0-9.]*)/', 'details' => 3),							// see: wellgo.org
 				array('name' => 'YRC Weblink', 			'regexp' => '/YRCWeblink\/([0-9.]*)/'),
