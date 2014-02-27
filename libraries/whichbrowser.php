@@ -2899,6 +2899,15 @@
 						}
 						
 						if (!$this->device->identified) {
+							$device = DeviceModels::identify('brew', $this->device->model);
+							if ($device->identified) {
+								$device->identified |= $this->device->identified;
+								$this->device = $device;
+								$this->os->name = 'Brew';
+							}
+						}
+
+						if (!$this->device->identified) {
 							$device = DeviceModels::identify('feature', $this->device->model);
 							if ($device->identified) {
 								$device->identified |= $this->device->identified;
