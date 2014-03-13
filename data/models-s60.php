@@ -2,6 +2,7 @@
 
 		DeviceModels::$S60_MODELS = array(
 			'M600i'										=> array( 'Sony Ericsson', 'M600i' ),
+			'U 1'										=> array( 'Sony Ericsson', 'Satio' ),
 			'U1i'										=> array( 'Sony Ericsson', 'Satio' ),
 			'U5(i|iv)!'									=> array( 'Sony Ericsson', 'Vivaz' ),
 			'U8i'										=> array( 'Sony Ericsson', 'Vivaz Pro' ),
@@ -86,6 +87,7 @@
 			'700'										=> array( 'Nokia', '700' ),
 			'701'										=> array( 'Nokia', '701' ),
 			'702T'										=> array( 'Nokia', '702T' ),
+			'801T'										=> array( 'Nokia', '801T' ),
 			'808!'										=> array( 'Nokia', '808 PureView' ),
 			'5228'										=> array( 'Nokia', '5228' ),
 			'5233!'										=> array( 'Nokia', '5228' ),						// The 5233 is known as 5228
@@ -103,6 +105,7 @@
 			'6110Navigator'								=> array( 'Nokia', '6110 Navigator' ),
 			'6120c!'									=> array( 'Nokia', '6120 classic' ),
 			'6121c!'									=> array( 'Nokia', '6121 classic' ),
+			'6122c!'									=> array( 'Nokia', '6124 classic' ),				// The 6122 is known as 6124
 			'6124c'										=> array( 'Nokia', '6124 classic' ),
 			'6210Navigator'								=> array( 'Nokia', '6210 Navigator' ),
 			'6220c!'									=> array( 'Nokia', '6220 classic' ),

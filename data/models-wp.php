@@ -96,6 +96,8 @@
 			'RM-955!'									=> array( 'Nokia', 'Lumia 925T' ),
 			'RM-860!'									=> array( 'Nokia', 'Lumia 928' ),
 			'RM-8(76|77)!'								=> array( 'Nokia', 'Lumia 1020' ),
+			'RM-939!'									=> array( 'Nokia', 'Lumia 1520' ),
+			'RM-997!'									=> array( 'Nokia', '"Glee"' ),
 			'SeaRay'									=> array( 'Nokia', 'Lumia 800' ),
 			'GT-I8350!'									=> array( 'Samsung', 'Omnia W' ),
 			'GT-i8700'									=> array( 'Samsung', 'Omnia 7' ),

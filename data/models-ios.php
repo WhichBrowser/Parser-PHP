@@ -49,4 +49,9 @@
 			'iPad3,4'									=> array( 'Apple', 'iPad (4th gen)', TYPE_TABLET ),
 			'iPad3,5'									=> array( 'Apple', 'iPad (4th gen)', TYPE_TABLET ),
 			'iPad3,6'									=> array( 'Apple', 'iPad (4th gen)', TYPE_TABLET ),
+			'iPad4,1'									=> array( 'Apple', 'iPad Air', TYPE_TABLET ),
+			'iPad4,2'									=> array( 'Apple', 'iPad Air', TYPE_TABLET ),
+			'iPad4,3'									=> array( 'Apple', 'iPad Air', TYPE_TABLET ),
+			'iPad4,4'									=> array( 'Apple', 'iPad mini (2nd gen)', TYPE_TABLET ),
+			'iPad4,5'									=> array( 'Apple', 'iPad mini (2nd gen)', TYPE_TABLET ),
 		);
