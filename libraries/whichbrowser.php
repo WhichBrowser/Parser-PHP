@@ -932,6 +932,18 @@
 						}
 					}						
 
+					if (preg_match('/WPDesktop; \s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/', $ua, $match)) {
+						$this->device->manufacturer = $match[1];
+						$this->device->model = $match[2];
+						$this->device->identified |= ID_PATTERN;
+
+						$device = DeviceModels::identify('wp', $match[2]);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;
+						}
+					}						
+
 					if (isset($this->device->manufacturer) && isset($this->device->model)) {
 						if ($this->device->manufacturer == 'ARM' && $this->device->model == 'Touch') {
 							$this->device->manufacturer = null;
