@@ -7,6 +7,7 @@
 			'SCH-M519!'									=> array( 'Samsung', 'Metro TV' ),
 			'SCH-U380'									=> array( 'Samsung', 'Brightside' ),
 			'SCH-W709!'									=> array( 'Samsung', 'SCH-W709' ),
+			'SCP6780'									=> array( 'Sanyo', 'Innuendo' ),
 			'HS-E316!'									=> array( 'Hisense', 'E316' ),
 			'VX9200!'									=> array( 'LG', 'Env3' ),
 		);
