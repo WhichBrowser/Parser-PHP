@@ -4695,7 +4695,7 @@
 		static $IOS_MODELS = array();
 		
 
-		function identify($type, $model) {
+		static function identify($type, $model) {
 			require_once(_BASEPATH_ . '../data/models-' . $type . '.php'); 
 
 			switch($type) {
@@ -4717,7 +4717,7 @@
 			return (object) array('type' => '', 'model' => $model, 'identified' => ID_NONE);
 		}
 		
-		function identifyIOS($model) {
+		static function identifyIOS($model) {
 			$model = str_replace('Unknown ', '', $model);
 			$model = preg_replace("/iPh([0-9],[0-9])/", 'iPhone\\1', $model);
 			$model = preg_replace("/iPd([0-9],[0-9])/", 'iPod\\1', $model);
@@ -4725,7 +4725,7 @@
 			return DeviceModels::identifyList(DeviceModels::$IOS_MODELS, $model);
 		}
 		
-		function identifyAndroid($model) {
+		static function identifyAndroid($model) {
 			$result = DeviceModels::identifyList(DeviceModels::$ANDROID_MODELS, $model);
 
 			if (!$result->identified) {
@@ -4743,7 +4743,7 @@
 			return $result;
 		}
 		
-		function identifyBlackBerry($model) {
+		static function identifyBlackBerry($model) {
 			$device = (object) array(
 				'type'			=> TYPE_MOBILE,
 				'identified'	=> ID_PATTERN,
@@ -4759,7 +4759,7 @@
 			return $device;
 		}
 		
-		function identifyList($list, $model) {
+		static function identifyList($list, $model) {
 			$model = DeviceModels::cleanup($model);
 			
 			$device = (object) array(
@@ -4794,7 +4794,7 @@
 			return $device;
 		}
 		
-		function cleanup($s = '') {
+		static function cleanup($s = '') {
 			$s = preg_replace('/\/[^\/]+$/', '', $s);
 			$s = preg_replace('/\/[^\/]+ Android\/.*/', '', $s);
 			
@@ -4854,7 +4854,7 @@
 	class DeviceProfiles {
 		static $PROFILES = array();
 
-		function identify($url) {
+		static function identify($url) {
 			require_once(_BASEPATH_ . '../data/profiles.php'); 
 
 			if (isset(DeviceProfiles::$PROFILES[$url])) {
@@ -4885,4 +4885,3 @@
 			return intval($this->value);
 		}
 	}
-
