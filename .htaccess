@@ -1,1 +1,2 @@
-AddType application/x-httpd-php .js
+RewriteEngine on
+RewriteRule ^detect.js$		detect.php
