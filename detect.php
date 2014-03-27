@@ -5,9 +5,10 @@
 	header("Pragma: no-cache");
 	header("Expires: 0"); 
 
-	include('libraries/whichbrowser.php');
+	include_once('libraries/utilities.php');
+	include_once('libraries/whichbrowser.php');
 		
-	$options = array('headers' => apache_request_headers());
+	$options = array('headers' => getallheaders());
 	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
 	if (isset($_REQUEST['e'])) $options['engine'] = intval($_REQUEST['e']);
 	if (isset($_REQUEST['f'])) $options['features'] = intval($_REQUEST['f']);
