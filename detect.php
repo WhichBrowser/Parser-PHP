@@ -41,7 +41,7 @@ var WhichBrowser = (function(){
 				valid = valid && this[x].name == arguments[1];
 			}
 			
-			if (arguments.length >= 4 && typeof this[x].version && valid) {
+			if (arguments.length >= 4 && this[x].version && valid) {
 				valid = valid && this[x].version.is(arguments[2], arguments[3]);
 			}
 
@@ -53,7 +53,7 @@ var WhichBrowser = (function(){
 		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
 				
 		isDevice: function(d) {
-			return typeof this.device.model != 'undefined' && this.device.model == d;
+			return this.device.model == d;
 		},
 
 		isType: function() {
@@ -181,7 +181,7 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			if (this.identified)			
-				return (this.manufacturer ? this.manufacturer + ' ' : '') + (typeof this.model != 'undefined' && this.model ? this.model : '');
+				return (this.manufacturer || '') + ' ' + (this.model || '');
 			else
 				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
