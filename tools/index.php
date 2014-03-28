@@ -111,8 +111,9 @@
 					}
 					
 					if (count($headers)) {
-						$detected = new WhichBrowser($headers);
-										
+						$options = array('headers' => $headers);
+						$detected = new WhichBrowser($options);
+																
 						echo "{\n";
 						if (isset($detected->browser)) echo "\tbrowser: " . htmlentities(json_encode($detected->browser)) . "\n"; 
 						if (isset($detected->engine)) echo "\tengine: " . htmlentities(json_encode($detected->engine)) . "\n"; 
