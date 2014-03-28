@@ -4638,7 +4638,7 @@
 	class BrowserIds {
 		static $ANDROID_BROWSERS = array();
 
-		function identify($type, $model) {
+		static function identify($type, $model) {
 			require_once(_BASEPATH_ . '../data/id-' . $type . '.php'); 
 
 			switch($type) {
@@ -4648,7 +4648,7 @@
 			return false;
 		}
 		
-		function identifyList($list, $id) {
+		static function identifyList($list, $id) {
 			if (isset($list[$id])) {
 				return $list[$id];
 			}
@@ -4660,7 +4660,7 @@
 	class BuildIds {
 		static $ANDROID_BUILDS = array();
 
-		function identify($type, $id) {
+		static function identify($type, $id) {
 			require_once(_BASEPATH_ . '../data/build-' . $type . '.php'); 
 
 			switch($type) {
@@ -4670,7 +4670,7 @@
 			return false;
 		}
 		
-		function identifyList($list, $id) {
+		static function identifyList($list, $id) {
 			if (isset($list[$id])) {
 				return new Version(array('value' => $list[$id])); 
 			}
