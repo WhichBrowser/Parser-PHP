@@ -3274,7 +3274,7 @@
 				$this->browser->version = new Version(array('value' => $match[1]));
 
 				if (isset($this->os->name) && $this->os->name == 'Android') {
-					switch (implode('.', array_splice(explode('.', $match[1]), 0, 3))) {
+					switch (implode('.', array_splice((explode('.', $match[1])), 0, 3))) {
 						case '16.0.912':
 							$this->browser->channel = 'Beta';
 							break;
@@ -3294,7 +3294,7 @@
 					}
 					
 					/* Webview for Android 4.4 and higher */
-					if (implode('.', array_splice(explode('.', $match[1]), 1, 2)) == '0.0' && preg_match('/Version\//', $ua)) {
+					if (implode('.', array_splice((explode('.', $match[1])), 1, 2)) == '0.0' && preg_match('/Version\//', $ua)) {
 						$this->browser->stock = true;
 						$this->browser->name = null;
 						$this->browser->version = null;					
@@ -3323,7 +3323,7 @@
 				}
 								
 				else {
-					switch (implode('.', array_splice(explode('.', $match[1]), 0, 3))) {
+					switch (implode('.', array_splice((explode('.', $match[1])), 0, 3))) {
 						case '0.2.149':
 						case '0.3.154':
 						case '0.4.154':
