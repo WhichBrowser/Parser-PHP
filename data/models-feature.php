@@ -49,10 +49,12 @@
 			'GT-S5610!'									=> array( 'Samsung', 'Primo' ),
 			'SCH-W169'									=> array( 'Samsung', 'W169 Duos' ),
 			'SGH-A667'									=> array( 'Samsung', 'A667 Evergreen' ),
+			'SGH-A697'									=> array( 'Samsung', 'A697 Sunburst' ),
 			'SGH-A877'									=> array( 'Samsung', 'A877 Impression' ),
 			'SGH-A927'									=> array( 'Samsung', 'A927 Flight II' ),
 			'SGH-A997'									=> array( 'Samsung', 'Rugby III' ),
 			'SGH-D880'									=> array( 'Samsung', 'D880 Duos' ),
 			'SGH-G600'									=> array( 'Samsung', 'G600' ),
-			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' )
+			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' ),
+			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' )
 		);

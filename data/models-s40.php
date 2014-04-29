@@ -53,6 +53,7 @@
 			'310'										=> array( 'Nokia', 'Asha 310' ),
 			'311'										=> array( 'Nokia', 'Asha 311' ),
 			'515'										=> array( 'Nokia', '515' ),
+			'515.2'										=> array( 'Nokia', '515' ),
 			'1682c'										=> array( 'Nokia', '1682 classic' ),
 			'2055'										=> array( 'Nokia', 'Asha 2055' ),
 			'2060'										=> array( 'Nokia', '2060' ),					// Same as Asha 206

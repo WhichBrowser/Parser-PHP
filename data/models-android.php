@@ -234,17 +234,18 @@
 			'E320'										=> array( 'Acer', 'Liquid Express' ),
 			'E330'										=> array( 'Acer', 'Liquid Glow' ),
 			'E350'										=> array( 'Acer', 'Liquid Gallant' ),
+			'E380'										=> array( 'Acer', 'Liquid E3' ),
 			'E400'										=> array( 'Acer', 'beTouch E400' ),
 			'S100'										=> array( 'Acer', 'Liquid' ),
 			'S110'										=> array( 'Acer', 'Stream' ),
 			'S120'										=> array( 'Acer', 'Liquid mt' ),
 			'S300'										=> array( 'Acer', 'Iconia Smart' ),
 			'S500'										=> array( 'Acer', 'CloudMobile' ),
-			'S510'										=> array( 'Acer', 'Liquid S ' ),
-			'S520'										=> array( 'Acer', 'Liquid S2 ' ),
-			'V360'										=> array( 'Acer', 'Liquid E1 ' ),
-			'V370'										=> array( 'Acer', 'Liquid E2 ' ),
-			'V380'										=> array( 'Acer', 'Liquid E3 ' ),
+			'S510'										=> array( 'Acer', 'Liquid S' ),
+			'S520'										=> array( 'Acer', 'Liquid S2' ),
+			'V360'										=> array( 'Acer', 'Liquid E1' ),
+			'V370'										=> array( 'Acer', 'Liquid E2' ),
+			'V380'										=> array( 'Acer', 'Liquid E3' ),
 			'Z110'										=> array( 'Acer', 'Liquid Z' ),
 			'Z120'										=> array( 'Acer', 'Liquid Z2' ),
 			'Z130'										=> array( 'Acer', 'Liquid Z3' ),
@@ -373,6 +374,7 @@
 			'ONE TOUCH TAB 7HD'							=> array( 'Alcatel', 'One Touch Tab 7HD', TYPE_TABLET ),
 			'ONE TOUCH EVO7HD'							=> array( 'Alcatel', 'One Touch Evo 7 HD', TYPE_TABLET ),
 			'ONE TOUCH EVO8HD'							=> array( 'Alcatel', 'One Touch Evo 8 HD', TYPE_TABLET ),
+			'ONE TOUCH P310(A|X)!'						=> array( 'Alcatel', 'One Touch POP7', TYPE_TABLET ),
 			'ONE TOUCH P320X'							=> array( 'Alcatel', 'One Touch POP8', TYPE_TABLET ),
 			'ADR3010'									=> array( 'Alcatel', 'Authority' ),
 			'Venture'									=> array( 'Alcatel', 'Venture' ),
@@ -542,6 +544,7 @@
 			'T00D'										=> array( 'Asus', 'Padfone X', TYPE_TABLET ),								
 			'T00N'										=> array( 'Asus', 'Padfone X', TYPE_TABLET ),								
 			'T00F'										=> array( 'Asus', 'ZenFone 5' ),
+			'T00I'										=> array( 'Asus', 'ZenFone 4' ),
 			'T00J'										=> array( 'Asus', 'ZenFone 5' ),
 			'T00G'										=> array( 'Asus', 'ZenFone 6' ),
 			'TX201LA'									=> array( 'Asus', 'Transformer Book Trio', TYPE_TABLET ),
@@ -590,6 +593,7 @@
 			'BLU ADVANCE 3.5'							=> array( 'BLU', 'Advance 3.5' ),
 			'BLU DASH'									=> array( 'BLU', 'Dash' ),
 			'BLU DASH JR'								=> array( 'BLU', 'Dash Jr' ),
+			'DASH JR. 4.0'								=> array( 'BLU', 'Dash Jr 4.0' ),
 			'(BLU )?DASH 3.2!'							=> array( 'BLU', 'Dash 3.2' ),
 			'BLU DASH 3.5!'								=> array( 'BLU', 'Dash 3.5' ),
 			'BMOBILE DASH 3.5'							=> array( 'BLU', 'Dash 3.5' ),
@@ -597,6 +601,7 @@
 			'BLU DASH 4.5'								=> array( 'BLU', 'Dash 4.5' ),
 			'BLU DASH 5.0'								=> array( 'BLU', 'Dash 5.0' ),
 			'BLU Life One'								=> array( 'BLU', 'Life One' ),
+			'BLU LIFE ONE X'							=> array( 'BLU', 'Life One X' ),
 			'LIFE PLAY'									=> array( 'BLU', 'Life Play' ),
 			'LIFE PURE'									=> array( 'BLU', 'Life Pure' ),
 			'BLU Life View'								=> array( 'BLU', 'Life View' ),
@@ -608,6 +613,7 @@
 			'BLU STUDIO 5.0 II'							=> array( 'BLU', 'Studio 5.0 II' ),
 			'BLU Studio 5.3'							=> array( 'BLU', 'Studio 5.3' ),
 			'BLU STUDIO 5.3 II'							=> array( 'BLU', 'Studio 5.3 II' ),
+			'STUDIO 5.5'								=> array( 'BLU', 'Studio 5.5' ),
 			'BLU Tank4.5'								=> array( 'BLU', 'Tank 4.5' ),
 			'BLU Tigo'									=> array( 'BLU', 'Tigo' ),
 			'BLU P100i'									=> array( 'BLU', 'Touch Book 7.0 Plus', TYPE_TABLET ),
@@ -850,6 +856,7 @@
 			'Coolpad 8297'								=> array( 'Coolpad', '8297' ),
 			'8720'										=> array( 'Coolpad', '8720' ),
 			'8720L'										=> array( 'Coolpad', '8720' ),
+			'Coolpad 8720L'								=> array( 'Coolpad', '8720' ),
 			'Coolpad8720Q'								=> array( 'Coolpad', '8720' ),
 			'Coolpad8750'								=> array( 'Coolpad', '8750' ),
 			'Coolpad 8809'								=> array( 'Coolpad', '8809' ),
@@ -861,6 +868,7 @@
 			'Coolpad 9070'								=> array( 'Coolpad', '9070' ),
 			'Coolpad 9080W'								=> array( 'Coolpad', '9080' ),
 			'Coolpad 9120'								=> array( 'Coolpad', '9120' ),
+			'Coolpad 9150W'								=> array( 'Coolpad', '9150' ),
 			'Coolpad 9900'								=> array( 'Coolpad', '9900' ),
 			'Coolpad 9960'								=> array( 'Coolpad', '9960' ),
 			'Coolpad 9970'								=> array( 'Coolpad', '9970' ),
@@ -976,6 +984,7 @@
 			'iDx7 Type2 4'								=> array( 'Digma', 'iDx7', TYPE_TABLET ),
 			'iDx10!'									=> array( 'Digma', 'iDx10', TYPE_TABLET ),
 			'DIGMA iDsD8!'								=> array( 'Digma', 'iDsD8', TYPE_TABLET ),		
+			'DIGMA iDsD10!'								=> array( 'Digma', 'iDsD10', TYPE_TABLET ),		
 			'iDxD4'										=> array( 'Digma', 'iDxD4' ),
 			'iDxD7 3G'									=> array( 'Digma', 'iDxD7', TYPE_TABLET ),
 			'DISTAB9000R'								=> array( 'Disgo', 'Distab 9000R', TYPE_TABLET ),
@@ -1043,6 +1052,7 @@
 			'(Fly )?IQ280!'								=> array( 'Fly', 'IQ280 Tech' ),
 			'(Fly )?IQ285!'								=> array( 'Fly', 'IQ285 Turbo' ),
 			'(Fly )?IQ430!'								=> array( 'Fly', 'IQ430 Evoke' ),
+			'(Fly )?IQ431!'								=> array( 'Fly', 'IQ431 Glory' ),
 			'(Fly )?IQ440!'								=> array( 'Fly', 'IQ440 Energie' ),
 			'(Fly )?IQ441!'								=> array( 'Fly', 'IQ441 Radiance' ),
 			'(Fly )?IQ442!'								=> array( 'Fly', 'IQ442 Miracle' ),
@@ -1120,6 +1130,7 @@
 			'GSmart Sierra S1'							=> array( 'Gigabyte', 'GSmart Sierra S1' ),
 			'Gigabyte TB100'							=> array( 'Gigabyte', 'TB100', TYPE_TABLET ),
 			'Gigaset QV830'								=> array( 'Gigaset', 'QV830' ),
+			'Gigaset QV1030'							=> array( 'Gigaset', 'QV1030' ),
 			'GIO-GiONEE C500'							=> array( 'Gionee', 'C500' ),
 			'GIO-GiONEE C600'							=> array( 'Gionee', 'C600' ),
 			'GiONEE-E6!'								=> array( 'Gionee', 'E6' ),
@@ -1305,8 +1316,11 @@
 			'HTC Desire 200'							=> array( 'HTC', 'Desire 200' ),
 			'HTC Desire 300'							=> array( 'HTC', 'Desire 300' ),
 			'HTC D310w'									=> array( 'HTC', 'Desire 310' ),
+			'HTC Desire 310'							=> array( 'HTC', 'Desire 310' ),
+			'HTC Desire 310 dual sim'					=> array( 'HTC', 'Desire 310' ),
 			'HTC Desire 500'							=> array( 'HTC', 'Desire 500' ),
 			'HTC Desire 500 dual sim'					=> array( 'HTC', 'Desire 500' ),
+			'HTC D516(d|t|w)!'							=> array( 'HTC', 'Desire 516' ),
 			'HTC Desire 600'							=> array( 'HTC', 'Desire 600' ),
 			'HTC Desire 600c dual sim'					=> array( 'HTC', 'Desire 600c' ),
 			'HTC Desire 601'							=> array( 'HTC', 'Desire 601' ),
@@ -1326,6 +1340,7 @@
 			'HTC Desire ?HD!'							=> array( 'HTC', 'Desire HD' ),
 			'HTC A91(91|92)!'							=> array( 'HTC', 'Desire HD' ),
 			'HTC PM6014'								=> array( 'HTC', 'Desire L' ),
+			'HTC Desire P'								=> array( 'HTC', 'Desire P' ),
 			'HTC ?Desire ?S( |$)!'						=> array( 'HTC', 'Desire S' ),
 			'HTC S510(b|e)!'							=> array( 'HTC', 'Desire S' ),
 			'HTC Desire Saga'							=> array( 'HTC', 'Desire S' ),
@@ -1474,8 +1489,11 @@
 			'HTC 0P6B!'									=> array( 'HTC', 'One (M8)' ),
 			'HTC One M8'								=> array( 'HTC', 'One (M8)' ),
 			'HTC M8St'									=> array( 'HTC', 'One (M8)' ),
+			'HTC M8t'									=> array( 'HTC', 'One (M8)' ),
+			'HTC M8x'									=> array( 'HTC', 'One (M8)' ),
 			'HTC6525LVW'								=> array( 'HTC', 'One (M8)' ),
-			'HTC 0P8B!'									=> array( 'HTC', 'One Mini, 2014' ),
+			'831C'										=> array( 'HTC', 'One (M8)' ),
+			'HTC 0P8B!'									=> array( 'HTC', 'One Mini (M8)' ),
 			'HTC Raider!'								=> array( 'HTC', 'Raider 4G' ),
 			'HTC Holiday'								=> array( 'HTC', 'Raider 4G' ),
 			'HTC X710(a|e|s)!'							=> array( 'HTC', 'Raider 4G' ),
@@ -1707,6 +1725,7 @@
 			'Huawei MT1-U06'							=> array( 'Huawei', 'Ascend Mate' ),
 			'Huawei MT1-T00'							=> array( 'Huawei', 'Ascend Mate' ),
 			'HUAWEI MT2-C00'							=> array( 'Huawei', 'Ascend Mate 2' ),
+			'HUAWEI MT2-L05'							=> array( 'Huawei', 'Ascend Mate 2' ),
 			'MT2L03'									=> array( 'Huawei', 'Ascend Mate 2' ),
 			'Huawei S8520'								=> array( 'Huawei', 'S8520' ),
 			'Huawei S8600'								=> array( 'Huawei', 'S8600' ),
@@ -1751,8 +1770,11 @@
 			'Huawei U9510!'								=> array( 'Huawei', 'Ascend D quad' ),
 			'Huawei D2-0082'							=> array( 'Huawei', 'Ascend D2' ),
 			'Huawei D2-2010'							=> array( 'Huawei', 'Ascend D2' ),
+			'HUAWEI G6-U00'								=> array( 'Huawei', 'Ascend G6' ),
+			'HUAWEI G6-U10'								=> array( 'Huawei', 'Ascend G6' ),
 			'Huawei P2-6011'							=> array( 'Huawei', 'Ascend P2' ),
 			'Huawei P2-6070'							=> array( 'Huawei', 'Ascend P2' ),
+			'Huawei P6-C00'								=> array( 'Huawei', 'Ascend P6' ),
 			'Huawei P6-U06'								=> array( 'Huawei', 'Ascend P6' ),
 			'HUAWEI P6S-U06'							=> array( 'Huawei', 'Ascend P6' ),
 			'HUAWEI P6 S-U06'							=> array( 'Huawei', 'Ascend P6' ),
@@ -1760,6 +1782,8 @@
 			'P6-U06'									=> array( 'Huawei', 'Ascend P6' ),
 			'P6-T00'									=> array( 'Huawei', 'Ascend P6' ),
 			'Huawei P6-T00!'							=> array( 'Huawei', 'Ascend P6' ),
+			'Huawei EDGE'								=> array( 'Huawei', 'Ascend P6' ),
+			'HUAWEI Sophia-L07'							=> array( 'Huawei', 'Ascend P7' ),
 			'Huawei IDEOS U8500'						=> array( 'Huawei', 'IDEOS X2' ),
 			'Huawei IDEOS U8650'						=> array( 'Huawei', 'Sonic' ),
 			'Huawei IDEOS X3'							=> array( 'Huawei', 'IDEOS X3' ),
@@ -1781,9 +1805,10 @@
 			'Huawei G718!'								=> array( 'Huawei', 'Ascend G718' ),
 			'Huawei G730!'								=> array( 'Huawei', 'Ascend G730' ),
 			'Huawei Y210!'								=> array( 'Huawei', 'Ascend Y210' ),
-			'Huawei Y ?220T!'							=> array( 'Huawei', 'Ascend Y220T' ),
-			'Huawei Y-220T'								=> array( 'Huawei', 'Ascend Y220T' ),
-			'HUAWEI Y220-T10'							=> array( 'Huawei', 'Ascend Y220T' ),
+			'Y220-U10'									=> array( 'Huawei', 'Ascend Y220' ),
+			'Huawei Y ?220T!'							=> array( 'Huawei', 'Ascend Y220' ),
+			'Huawei Y-220T'								=> array( 'Huawei', 'Ascend Y220' ),
+			'HUAWEI Y220-T10'							=> array( 'Huawei', 'Ascend Y220' ),
 			'Huawei Y300!'								=> array( 'Huawei', 'Ascend Y300' ),
 			'Ascend Y300'								=> array( 'Huawei', 'Ascend Y300' ),
 			'Huawei Y301!'								=> array( 'Huawei', 'Ascend Y301' ),
@@ -1796,10 +1821,6 @@
 			'HUAWEI Y518!'								=> array( 'Huawei', 'Ascend Y518' ),
 			'Huawei Y530!'								=> array( 'Huawei', 'Ascend Y530' ),
 			'Huawei Ascend X'							=> array( 'Huawei', 'Ascend X' ),
-			'Huawei EDGE'								=> array( 'Huawei', 'Ascend P6' ),
-			'Huawei P6-C00'								=> array( 'Huawei', 'Ascend P6' ),
-			'HUAWEI G6-U00'								=> array( 'Huawei', 'Ascend G6' ),
-			'HUAWEI Sophia-L07'							=> array( 'Huawei', 'Ascend P7' ),
 			'Huawei H30-T00'							=> array( 'Huawei', 'Honor 3C' ),		
 			'H30-T00'									=> array( 'Huawei', 'Honor 3C' ),	
 			'H30-U10'									=> array( 'Huawei', 'Honor 3C' ),
@@ -2151,6 +2172,7 @@
 			'IRIS 455'									=> array( 'Lava', 'Iris 455' ),
 			'iris458Q'									=> array( 'Lava', 'Iris 458Q' ),
 			'iris504Q'									=> array( 'Lava', 'Iris 504Q' ),
+			'iris506Q'									=> array( 'Lava', 'Iris 506Q' ),
 			'LAVA S12'									=> array( 'Lava', 'S12' ),
 			'A500L'										=> array( 'Lava', 'XOLO A500L' ),
 			'A500s'										=> array( 'Lava', 'XOLO A500S' ),
@@ -2276,6 +2298,7 @@
 			'Lenovo A698t'								=> array( 'Lenovo', 'A698' ),
 			'Lenovo A700e'								=> array( 'Lenovo', 'A700' ),
 			'Lenovo A706!'								=> array( 'Lenovo', 'A706' ),
+			'Lenovo A708t'								=> array( 'Lenovo', 'A708' ),
 			'Lenovo A710e'								=> array( 'Lenovo', 'A710' ),
 			'Lenovo A720e'								=> array( 'Lenovo', 'A720' ),
 			'Lenovo A750!'								=> array( 'Lenovo', 'A750' ),
@@ -2289,6 +2312,7 @@
 			'Lenovo A790e'								=> array( 'Lenovo', 'A790' ),
 			'Lenovo A798t'								=> array( 'Lenovo', 'A798' ),
 			'Lenovo A800'								=> array( 'Lenovo', 'A800' ),
+			'Lenovo A806'								=> array( 'Lenovo', 'A806' ),
 			'Lenovo A820!'								=> array( 'Lenovo', 'A820' ),
 			'Lenovo A828!'								=> array( 'Lenovo', 'A828' ),
 			'Lenovo A830'								=> array( 'Lenovo', 'A830' ),
@@ -2310,6 +2334,7 @@
 			'Lenovo P780!'								=> array( 'Lenovo', 'P780' ),
 			'Lenovo S560'								=> array( 'Lenovo', 'S560' ),
 			'Lenovo S650'								=> array( 'Lenovo', 'S650' ),
+			'Lenovo S658t'								=> array( 'Lenovo', 'S658' ),
 			'S658t'										=> array( 'Lenovo', 'S658' ),
 			'Lenovo S660'								=> array( 'Lenovo', 'S660' ),
 			'Lenovo S668t'								=> array( 'Lenovo', 'S668' ),
@@ -2321,7 +2346,7 @@
 			'Lenovo S750'								=> array( 'Lenovo', 'S750' ),
 			'Lenovo S760'								=> array( 'Lenovo', 'S760' ),
 			'Lenovo S820!'								=> array( 'Lenovo', 'S820' ),
-			'Lenovo S850e'								=> array( 'Lenovo', 'S850' ),
+			'Lenovo S850!'								=> array( 'Lenovo', 'S850' ),
 			'Lenovo S860'								=> array( 'Lenovo', 'S860' ),
 			'Lenovo S868t'								=> array( 'Lenovo', 'S868' ),
 			'Lenovo S870e'								=> array( 'Lenovo', 'S870' ),
@@ -2332,6 +2357,7 @@
 			'Lenovo ?S899!'								=> array( 'Lenovo', 'S899' ),
 			'Lenovo S920!'								=> array( 'Lenovo', 'S920' ),
 			'Lenovo S930'								=> array( 'Lenovo', 'S930' ),
+			'Lenovo S939'								=> array( 'Lenovo', 'S939' ),
 			'Lenovo S950'								=> array( 'Lenovo', 'S950' ),
 			'Lenovo S960'								=> array( 'Lenovo', 'S960' ),
 			'Lenovo W100'								=> array( 'Lenovo', 'W100' ),
@@ -2363,6 +2389,7 @@
 			'LG-C800G'									=> array( 'LG', 'Eclypse' ),
 			'LG-CX670'									=> array( 'LG', 'Optimus 3G' ),
 			'LG-D123'									=> array( 'LG', 'D123' ),							// Unknown
+			'LG-D150'									=> array( 'LG', 'D150' ),							// Unknown
 			'LG-D125!'									=> array( 'LG', 'L30' ),
 			'LG-D1(60|65|75|80)!'						=> array( 'LG', 'L40' ),
 			'LG-D227'									=> array( 'LG', 'L50' ),
@@ -2376,14 +2403,15 @@
 			'LG-D520'									=> array( 'LG', 'Optimus F3Q' ),
 			'LG-D605'									=> array( 'LG', 'Optimus L9 II' ),
 			'LG-D6(10|18|20|25)!'						=> array( 'LG', 'G2 mini' ),
+			'LG-D6(31)!'								=> array( 'LG', 'G Pro 2 Lite' ),					// Probably
 			'LG-D6(80|82|83|84)!'						=> array( 'LG', 'G Pro Lite' ),
 			'LG-D6(85|86)!'								=> array( 'LG', 'G Pro Lite Dual' ),
 			'LG-D700'									=> array( 'LG', 'Optimus L9' ),
-			'LG-D725'									=> array( 'LG', 'D725' ),							// Unknown
+			'LG-D7(23|25|28)!'							=> array( 'LG', 'G3 mini' ),						// Probably
 			'LG-D8(00|01|02|03|05|06)!'					=> array( 'LG', 'G2' ),
 			'LG-D8(20|21)!'								=> array( 'LG', 'Nexus 5' ),						
 			'LG-D8(30|37|38)!'							=> array( 'LG', 'G Pro 2' ),
-			'LG-D8(50|51|55)!'							=> array( 'LG', 'G3' ),								// Probably
+			'LG-D8(50|51|55|58)!'						=> array( 'LG', 'G3' ),								// Probably
 			'LG-D9(50|55|56|58|59)!'					=> array( 'LG', 'G Flex' ),
 			'LG-DS1203'									=> array( 'LG', 'G2' ),
 			'LG-E400!'									=> array( 'LG', 'Optimus L3' ),
@@ -2424,6 +2452,8 @@
 			'LG-F350!'									=> array( 'LG', 'G Pro 2' ),
 			'LG-F370!'									=> array( 'LG', 'F70' ),
 			'LG-F390!'									=> array( 'LG', 'G2 mini' ),
+			'LG-F400!'									=> array( 'LG', 'F400' ),							// Unknown
+			'LG-F470!'									=> array( 'LG', 'F470' ),							// Unknown
 			'LG-GT540!'									=> array( 'LG', 'Optimus' ),
 			'LG-GW620'									=> array( 'LG', 'GW620 Eve' ),
 			'LG-KH5200'									=> array( 'LG', 'Andro-1' ),
@@ -2445,7 +2475,7 @@
 			'LG-LG730'									=> array( 'LG', 'Venice' ),
 			'LG-LG855'									=> array( 'LG', 'Marquee' ),
 			'LG-LG870'									=> array( 'LG', 'Optimus F7' ),
-			'LG-LS620'									=> array( 'LG', 'LS620' ),							// Unknown
+			'LG-LS620'									=> array( 'LG', 'L70' ),
 			'LG-LS670'									=> array( 'LG', 'Optimus S' ),
 			'LG-LS696'									=> array( 'LG', 'Elite' ),
 			'LG-LS720'									=> array( 'LG', 'Optimus F3' ),
@@ -2454,8 +2484,10 @@
 			'LG-LS840'									=> array( 'LG', 'Viper' ),
 			'LG-LS855'									=> array( 'LG', 'Marquee' ),
 			'LG-LS860'									=> array( 'LG', 'Mach' ),
+			'LG-LS885'									=> array( 'LG', 'G Pro 2 Lite' ),					// Probably
 			'LG-LS970'									=> array( 'LG', 'Optimus G' ),
 			'LG-LS980'									=> array( 'LG', 'G2' ),
+			'LG-LS990'									=> array( 'LG', 'G3' ),								// Probably
 			'LG-LS995'									=> array( 'LG', 'G Flex' ),
 			'LG-LU3000'									=> array( 'LG', 'Optimus Mach' ),
 			'LG-LU3100'									=> array( 'LG', 'Optimus Chic' ),
@@ -2525,25 +2557,30 @@
 			'LG-V510'									=> array( 'LG', 'G Pad 8.3 (Google Edition)', TYPE_TABLET ),
 			'LG-V9(00|01)!'								=> array( 'LG', 'Optimus Pad', TYPE_TABLET ),
 			'LG-V9(05|09)!'								=> array( 'LG', 'Optimus G-Slate', TYPE_TABLET ),
+			'LG-VK810'									=> array( 'LG', 'G Pad 8.3', TYPE_TABLET ),
+			'LG-VN170'									=> array( 'LG', 'VN-170' ),								// Unknown
+			'LG-VN280'									=> array( 'LG', 'Extravert 2' ),
 			'LG-VN360'									=> array( 'LG', 'Exalt' ),
 			'LG-VM670'									=> array( 'LG', 'Optimus V' ),
 			'LG-VM696'									=> array( 'LG', 'Optimus Elite' ),
 			'LG-VM701'									=> array( 'LG', 'Optimus Slider' ),
 			'LG-VM720'									=> array( 'LG', 'Optimus F5' ),
 			'LG-VS410!'									=> array( 'LG', 'Optimus Zone' ),
-			'LG-VS415!'									=> array( 'LG', 'L40' ),
-			'LG-VS450!'									=> array( 'LG', 'L70' ),
+			'LG-VS415!'									=> array( 'LG', 'Optimus Zone 2' ),						// aka L40
+			'LG-VS450!'									=> array( 'LG', 'Optimus Exceed 2' ),					// aka L70
 			'LG-VS660'									=> array( 'LG', 'Vortex' ),
 			'LG-VS700'									=> array( 'LG', 'Enlighten' ),
 			'LG-VS740'									=> array( 'LG', 'Ally' ),
 			'LG-VS840'									=> array( 'LG', 'Lucid' ),
 			'LG-VS870'									=> array( 'LG', 'Lucid 2' ),
 			'LG-VS876'									=> array( 'LG', 'Lucid 3' ),							// aka F90
+			'LG-VS880'									=> array( 'LG', 'G Pro 2 Lite' ),						// Maybe
 			'LG-VS890'									=> array( 'LG', 'Enact' ),
 			'LG-VS910'									=> array( 'LG', 'Revolution' ),
 			'LG-VS930'									=> array( 'LG', 'Spectrum II' ),
 			'LG-VS950'									=> array( 'LG', 'Intuition' ),
 			'LG-VS980'									=> array( 'LG', 'G2' ),
+			'LG-VS985'									=> array( 'LG', 'G3' ),									// Probably
 			'lge-F160!'									=> array( 'LG', 'Optimus LTE II' ),
 			'lgp-970'									=> array( 'LG', 'Optimus Black' ),
 			'AS740'										=> array( 'LG', 'Axis' ),
@@ -2556,10 +2593,12 @@
 			'LGL21'										=> array( 'LG', 'Optimus G' ),
 			'LGL22'										=> array( 'LG', 'G2' ),
 			'LGL23'										=> array( 'LG', 'G Flex' ),
+			'LGL24'										=> array( 'LG', 'isai FL' ),
 			'LGL31L!'									=> array( 'LG', 'F70' ),
 			'LGL34C!'									=> array( 'LG', 'L40' ),
 			'LGL35G!'									=> array( 'LG', 'Optimus Logic' ),
 			'LGL39C!'									=> array( 'LG', 'Optimus Dynamic II' ),
+			'LGL41C!'									=> array( 'LG', 'L70' ),
 			'LGL45C!'									=> array( 'LG', 'Optimus Net' ),
 			'LGL55C!'									=> array( 'LG', 'Optimus Q' ),
 			'LGL75C!'									=> array( 'LG', 'Optimus Zip' ),
@@ -2760,6 +2799,7 @@
 			'Micromax A116i'							=> array( 'Micromax', 'A116i Canvas HD' ),
 			'Micromax A117'								=> array( 'Micromax', 'A117 Canvas Magnus' ),
 			'Micromax A118R'							=> array( 'Micromax', 'A118 Canvas Tube' ),
+			'Micromax A177'								=> array( 'Micromax', 'A177 Canvas Juice' ),
 			'Micromax A210'								=> array( 'Micromax', 'A210 Canvas 4' ),
 			'Micromax A240'								=> array( 'Micromax', 'A240 Canvas Doodle 2' ),
 			'Micromax A250'								=> array( 'Micromax', 'A250 Canvas Turbo' ),
@@ -2933,7 +2973,7 @@
 			'XT9(23|25|26)!'							=> array( 'Motorola', 'Droid RAZR HD' ),
 			'XT928'										=> array( 'Motorola', 'XT928' ),
 			'XT1030!'									=> array( 'Motorola', 'Droid Mini' ),			
-			'XT10(28|31|32|33|34|35|45)!'				=> array( 'Motorola', 'Moto G' ),
+			'XT10(08|28|31|32|33|34|35|45)!'			=> array( 'Motorola', 'Moto G' ),
 			'XT10(49|50|52|53|55|56|58|60)!'			=> array( 'Motorola', 'Moto X' ),
 			'XT1080!'									=> array( 'Motorola', 'Droid Ultra' ),
 			'201M'										=> array( 'Motorola', 'Droid RAZR M' ),
@@ -3095,6 +3135,7 @@
 			'O+8.1Android'								=> array( 'O+', '8.1' ),
 			'O+ 8.12 Android'							=> array( 'O+', '8.12' ),
 			'O+ 8.15 Android'							=> array( 'O+', '8.15' ),
+			'O+ 8.37 Android'							=> array( 'O+', '8.37' ),
 			'O+ 8.52 Android'							=> array( 'O+', '8.52' ),
 			'O+ 8.6 Android'							=> array( 'O+', '8.6' ),
 			'O+ 8.9 Android'							=> array( 'O+', '8.9' ),
@@ -3214,7 +3255,8 @@
 			'IM-A870!'									=> array( 'Pantech', 'Vega Iron' ),
 			'IM-A880!'									=> array( 'Pantech', 'Vega LTE-A' ),
 			'IM-A890!'									=> array( 'Pantech', 'Vega Secret Note' ),
-			'IM-A900!'									=> array( 'Pantech', 'Vega Iron 2' ),
+			'IM-A900!'									=> array( 'Pantech', 'Vega Secret Up' ),
+			'IM-A910!'									=> array( 'Pantech', 'Vega Iron 2' ),
 			'IM-T100K'									=> array( 'Pantech', 'Vega N˚ 5', TYPE_TABLET ),
 			'IS06'										=> array( 'Pantech', 'SIRIUS α' ),
 			'ADR8995!'									=> array( 'Pantech', 'Breakout' ),
@@ -3496,7 +3538,7 @@
 			'GT-I9250!'									=> array( 'Samsung', 'Galaxy Nexus' ),
 			'GT-I92(60|68)!'							=> array( 'Samsung', 'Galaxy Premier' ),
 			'GT-I9295!'									=> array( 'Samsung', 'Galaxy S4 Active' ),
-			'GT-I93(00|03|05|08)!'						=> array( 'Samsung', 'Galaxy S III' ),
+			'GT-I93(00|01|03|05|08)!'					=> array( 'Samsung', 'Galaxy S III' ),
 			'GT-I9400'									=> array( 'Samsung', 'GT-I9400' ),								// Unknown
 			'GT-I9405'									=> array( 'Samsung', 'GT-I9405' ),								// Unknown
 			'GT-I95(00|05|07)!'							=> array( 'Samsung', 'Galaxy S4' ),
@@ -3564,7 +3606,7 @@
 			'GT-S75(62|68)!'							=> array( 'Samsung', 'Galaxy S Duos' ),
 			'GT-S7570!'									=> array( 'Samsung', 'Galaxy Trend II' ),
 			'GT-S7572!'									=> array( 'Samsung', 'Galaxy Trend II Duos' ),
-			'GT-S7580'									=> array( 'Samsung', 'Galaxy Trend Plus' ),
+			'GT-S7580!'									=> array( 'Samsung', 'Galaxy Trend Plus' ),
 			'GT-S75(82|83)!'							=> array( 'Samsung', 'Galaxy S Duos 2' ),
 			'GT-S7710!'									=> array( 'Samsung', 'Galaxy Xcover 2' ),
 			'GT-S7898'									=> array( 'Samsung', 'Galaxy Trend 2' ),
@@ -3736,6 +3778,7 @@
 			'SHV-E330!'									=> array( 'Samsung', 'Galaxy S4' ),
 			'SHV-E370!'									=> array( 'Samsung', 'Galaxy S4 Mini' ),
 			'SHV-E400!'									=> array( 'Samsung', 'Galaxy Folder' ),
+			'SHV-E470!'									=> array( 'Samsung', 'Galaxy S4 Active' ),
 			'SHV-E500!'									=> array( 'Samsung', 'SHV-E500' ),
 			'SHV-E510!'									=> array( 'Samsung', 'SHV-E510' ),
 			'SHW-M100!'									=> array( 'Samsung', 'Galaxy A' ),
@@ -3756,13 +3799,13 @@
 			'SHW-M440!'									=> array( 'Samsung', 'Galaxy S III' ),
 			'SHW-M4(80|85)!'							=> array( 'Samsung', 'Galaxy Note 10.1', TYPE_TABLET ),
 			'SHW-M500!'									=> array( 'Samsung', 'Galaxy Note 8.0', TYPE_TABLET ),
-			'SHW-M550!'									=> array( 'Samsung', 'SHW-M550' )			,					// Unknown
+			'SHW-M550!'									=> array( 'Samsung', 'SHW-M550' ),								// Unknown
 			'SHW-M570!'									=> array( 'Samsung', 'Galaxy Core Advance' ),
 			'SMT-E5015'									=> array( 'Samsung', 'SMT-E5015', TYPE_TELEVISION ),
 			'SMT-i9100'									=> array( 'Samsung', 'SMT-I9100', TYPE_TABLET ),
 			'SM-C1(01|05)!'								=> array( 'Samsung', 'Galaxy S4 Zoom' ),
-			'SM-C115'									=> array( 'Samsung', 'Galaxy S5 Zoom' ),						// Maybe
-			'SM-G310!'									=> array( 'Samsung', 'SM-G310' ),								// Unknown
+			'SM-C115'									=> array( 'Samsung', 'Galaxy K Zoom' ),
+			'SM-G310!'									=> array( 'Samsung', 'Galaxy Ace Style' ),
 			'SM-G35(02|08|09)!'							=> array( 'Samsung', 'Galaxy Trend 3' ),
 			'SM-G350!'									=> array( 'Samsung', 'Galaxy Core Plus' ),
 			'SM-G3812B!'								=> array( 'Samsung', 'Galaxy S III Slim' ),
@@ -3772,18 +3815,21 @@
 			'SM-G386!'									=> array( 'Samsung', 'Galaxy Core' ),							// LTE variant
 			'SM-G710!'									=> array( 'Samsung', 'Galaxy Grand 2' ),	
 			'SM-G730!'									=> array( 'Samsung', 'Galaxy S III Mini' ),
+			'SM-G750!'									=> array( 'Samsung', 'Galaxy S5 Neo' ),							// Maybe
+			'SM-G800!'									=> array( 'Samsung', 'Galaxy S5 Mini' ),						// Maybe
 			'SM-G870!'									=> array( 'Samsung', 'Galaxy S5 Active' ),
 			'SM-G900!'									=> array( 'Samsung', 'Galaxy S5' ),
-			'SM-G9098!'									=> array( 'Samsung', 'SM-9098' ),
+			'SM-G906!!'									=> array( 'Samsung', 'Galaxy S5 Prime' ),						// Maybe
+			'SM-G9098!'									=> array( 'Samsung', 'SM-9098' ),								// Unknown
 			'SM-G910!'									=> array( 'Samsung', 'Galaxy Round' ),
-			'SM-N75(02|05|07)!'							=> array( 'Samsung', 'Galaxy Note 3 Neo' ),
+			'SM-N75(02|05|07|08)!'						=> array( 'Samsung', 'Galaxy Note 3 Neo' ),
 			'SM-N750'									=> array( 'Samsung', 'Galaxy Note 3 Neo' ),
 			'SM-N90(00|02|05|06|07|08|09)!'				=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SM-N900!'									=> array( 'Samsung', 'Galaxy Note 3' ),
 			'SM-P6(00|01|02|05)!'						=> array( 'Samsung', 'Galaxy Note 10.1 (2014)', TYPE_TABLET ),
 			'SM-P9(00|01|05)!'							=> array( 'Samsung', 'Galaxy Note Pro', TYPE_TABLET ),	
-			'SM-S780L'									=> array( 'Samsung', 'SM-S780' ),
-			'SM-S890L'									=> array( 'Samsung', 'SM-S890' ),
+			'SM-S780L'									=> array( 'Samsung', 'SM-S780' ),								// Unknown
+			'SM-S890L'									=> array( 'Samsung', 'SM-S890' ),								// Unknown
 			'SM-T1(10|11)!'								=> array( 'Samsung', 'Galaxy Tab 3 Lite', TYPE_TABLET ),
 			'SM-T2105'									=> array( 'Samsung', 'Galaxy Tab 3 Kids', TYPE_TABLET ),
 			'SM-T2(10|11|15|17)!'						=> array( 'Samsung', 'Galaxy Tab 3 (7.0)', TYPE_TABLET ),
@@ -3793,7 +3839,8 @@
 			'SM-T3(30|31|35|37)!'						=> array( 'Samsung', 'Galaxy Tab 4 (8.0)', TYPE_TABLET ),
 			'SM-T5(20|25)!'								=> array( 'Samsung', 'Galaxy Tab Pro 10.1', TYPE_TABLET ),
 			'SM-T5(30|31|35)!'							=> array( 'Samsung', 'Galaxy Tab 4 (10.1)', TYPE_TABLET ),
-			'SM-T8(00|01|05)!'							=> array( 'Samsung', 'SM-T800', TYPE_TABLET ),
+			'SM-T7(00)!'								=> array( 'Samsung', 'SM-T700', TYPE_TABLET ),					// Unknown, 8.4" Amoled Tab Pro?
+			'SM-T8(00|01|05)!'							=> array( 'Samsung', 'SM-T800', TYPE_TABLET ),					// Unknown, 10.5" Amoled Tab Pro?
 			'SM-T9(00|05)!'								=> array( 'Samsung', 'Galaxy Tab Pro 12.2', TYPE_TABLET ),
 			'SM-W2014'									=> array( 'Samsung', 'SM-W2014' ),								
 			'SPH-D600'									=> array( 'Samsung', 'Conquer 4G' ),
@@ -3931,6 +3978,7 @@
 			'SH530U'									=> array( 'Sharp', 'SH530U' ),
 			'SH-631M'									=> array( 'Sharp', 'SH631M' ),
 			'SH631W'									=> array( 'Sharp', 'SH631W' ),
+			'SH837M'									=> array( 'Sharp', 'SH837M' ),
 			'SH837W'									=> array( 'Sharp', 'SH837W' ),
 			'SH930W'									=> array( 'Sharp', 'SH930W' ),
 			'SH931W'									=> array( 'Sharp', 'SH931W' ),
@@ -3990,7 +4038,7 @@
 			'D21(04|05|14)!'							=> array( 'Sony', 'Xperia E1' ),						// ...
 			'D23(02|03|05|06)!'							=> array( 'Sony', 'Xperia M2' ),						// ...
 			'D51(03)!'									=> array( 'Sony', 'Xperia G' ),							// ...
-			'D53(03|06)!'								=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
+			'D53(03|06|22)!'							=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
 			'D55(03)!'									=> array( 'Sony', 'Xperia Z1 Compact' ),				// Amami
 			'D65(02|03|43)!'							=> array( 'Sony', 'Xperia Z2' ),						// ...
 			'E10(a|i|iv)!'								=> array( 'Sony Ericsson', 'Xperia X10 Mini' ),			// Robyn
@@ -3999,6 +4047,7 @@
 			'L35h'										=> array( 'Sony', 'Xperia ZL' ),						// Odin
 			'L36h'										=> array( 'Sony', 'Xperia Z' ),							// Yuga
 			'L39(h|t|u)!'								=> array( 'Sony', 'Xperia Z1' ),						// Honami
+			'L50(w|t)!'									=> array( 'Sony', 'Xperia Z2' ),						// ...
 			'LT11i!'									=> array( 'Sony Ericsson', 'Xperia Neo V' ),			// Haida
 			'LT15(a|i|iv|i-o)?$!'						=> array( 'Sony Ericsson', 'Xperia Arc' ),				// Anzu
 			'LT15i Speed Edition'						=> array( 'Sony Ericsson', 'Xperia Arc' ),				// Anzu
@@ -4062,6 +4111,7 @@
 			'SO-03F'									=> array( 'Sony', 'Xperia Z2' ),						// ...
 			'SO-04D'									=> array( 'Sony', 'Xperia GX' ),						// Hayabusa
 			'SO-04E'									=> array( 'Sony', 'Xperia A' ),							// Dogo
+			'SO-04F'									=> array( 'Sony', 'Xperia A2' ),						// Altair
 			'SO-05D'									=> array( 'Sony', 'Xperia SX' ),						// Komachi
 			'SOL21'										=> array( 'Sony', 'Xperia VL' ),						// Surf
 			'SOL22'										=> array( 'Sony', 'Xperia UL' ),						// Gaga
@@ -4426,6 +4476,7 @@
 			'Primo F1'									=> array( 'Walton', 'Primo F1' ),
 			'Primo F2'									=> array( 'Walton', 'Primo F2' ),
 			'Primo-F2'									=> array( 'Walton', 'Primo F2' ),
+			'Primo F3'									=> array( 'Walton', 'Primo F3' ),
 			'Primo F3i'									=> array( 'Walton', 'Primo F3i' ),
 			'WALTON Primo-G1'							=> array( 'Walton', 'Primo G1' ),
 			'Primo H2'									=> array( 'Walton', 'Primo H2' ),
@@ -4826,6 +4877,7 @@
 			'MTC 972'									=> array( 'MTC', '972' ),
 			'MTC975'									=> array( 'MTC', '975' ),
 			'MTC980'									=> array( 'MTC', '980' ),
+			'MTC 982O'									=> array( 'MTC', '982O' ),
 			'MTC Evo'									=> array( 'MTC', 'Evo' ),
 			'MTC Fit'									=> array( 'MTC', 'Fit' ),
 			'MTC Neo'									=> array( 'MTC', 'Neo' ),
@@ -4871,6 +4923,7 @@
 			'QMobile A300'								=> array( 'Q-Mobile', 'Noir A300' ),
 			'Qmobile A900'								=> array( 'Q-Mobile', 'Noir A900' ),
 			'Z4 mini'									=> array( 'Q-Mobile', 'Noir Quatro Z4 mini' ),
+			'Q-Smart S1'								=> array( 'Q-Mobile', 'Q-Smart S1' ),
 			'Q-Smart model S6'							=> array( 'Q-Mobile', 'Q-Smart S6' ),
 			'Qmobile-S11'								=> array( 'Q-Mobile', 'S11' ),
 			'Qmobile S13'								=> array( 'Q-Mobile', 'S13' ),
@@ -4945,6 +4998,7 @@
 			'SmartTabII7'								=> array( 'Vodafone', 'Smart Tab II 7', TYPE_TABLET ),		/* Lenovo */
 			'Vodafone Smart Tab III 7'					=> array( 'Vodafone', 'Smart Tab III 7', TYPE_TABLET ),
 			'Vodafone Smart Tab III 10'					=> array( 'Vodafone', 'Smart Tab III 10', TYPE_TABLET ),
+			'Vodafone Smart Tab 4'						=> array( 'Vodafone', 'Smart Tab 4', TYPE_TABLET ),
 			'SmartTab10'								=> array( 'Vodafone', 'Smart Tab 10', TYPE_TABLET )			/* ZTE Web Tab 10 */
 		);
 		

@@ -25,7 +25,7 @@
 			'GT-S5260'									=> array( 'Samsung', 'Star II' ),
 			'GT-S5292R'									=> array( 'Samsung', 'Rex 90' ),
 			'GT-S5292'									=> array( 'Samsung', 'Star Deluxe Duos' ),
-			'GT-S5560'									=> array( 'Samsung', 'Marvel' ),
+			'GT-S5560!'									=> array( 'Samsung', 'Marvel' ),
 			'GT-S5600'									=> array( 'Samsung', 'Preston' ),
 			'GT-S5620!'									=> array( 'Samsung', 'Monte' ),
 			'GT-S5680'									=> array( 'Samsung', 'GT-S5680' ),
