@@ -4269,7 +4269,7 @@
 				array('name' => 'Otter', 				'regexp' => '/Otter Browser\/([0-9.]*)/'),
 				array('name' => 'Palemoon', 			'regexp' => '/Pale[mM]oon\/([0-9.]*)/'),
 				array('name' => 'Phantom', 				'regexp' => '/Phantom\/V([0-9.]*)/'),
-				array('name' => 'Polaris', 				'regexp' => '/Polaris\/v?([0-9.]*)/i', 'details' => 2),
+				array('name' => 'Polaris', 				'regexp' => '/Polaris[\/ ]v?([0-9.]*)/i', 'details' => 2),
 				array('name' => 'Qihoo 360', 			'regexp' => '/QIHU THEWORLD/'),
 				array('name' => 'QtCreator', 			'regexp' => '/QtCreator\/([0-9.]*)/'),
 				array('name' => 'QtQmlViewer', 			'regexp' => '/QtQmlViewer/'),
