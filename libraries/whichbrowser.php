@@ -3151,12 +3151,26 @@
 					$this->device->type = TYPE_MOBILE;
 				}
 				
-				if (preg_match('/Mobile; rv/', $ua)) {
+				if (preg_match('/Mobile;(?: ([^;]+);)? rv/', $ua, $match)) {
 					$this->device->type = TYPE_MOBILE;
+
+					$device = DeviceModels::identify('firefoxos', $match[1]);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->os->name = 'Firefox OS';
+						$this->device = $device;
+					}
 				}
 
-				if (preg_match('/Tablet; rv/', $ua)) {
+				if (preg_match('/Tablet;(?: ([^;]+);)? rv/', $ua, $match)) {
 					$this->device->type = TYPE_TABLET;
+
+					$device = DeviceModels::identify('firefoxos', $match[1]);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->os->name = 'Firefox OS';
+						$this->device = $device;
+					}
 				}
 				
 				if ($this->device->type == TYPE_MOBILE || $this->device->type == TYPE_TABLET) {
@@ -4684,6 +4698,7 @@
 		static $ASHA_MODELS = array();
 		static $BADA_MODELS = array();
 		static $BREW_MODELS = array();
+		static $FIREFOXOS_MODELS = array();
 		static $TIZEN_MODELS = array();
 		static $TOUCHWIZ_MODELS = array();
 		static $WINDOWS_MOBILE_MODELS = array();
@@ -4704,6 +4719,7 @@
 				case 'bada': 		return DeviceModels::identifyList(DeviceModels::$BADA_MODELS, $model);
 				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
 				case 'brew': 		return DeviceModels::identifyList(DeviceModels::$BREW_MODELS, $model);
+				case 'firefoxos': 	return DeviceModels::identifyList(DeviceModels::$FIREFOXOS_MODELS, $model);
 				case 'ios':			return DeviceModels::identifyIOS($model);
 				case 'tizen': 		return DeviceModels::identifyList(DeviceModels::$TIZEN_MODELS, $model);
 				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
