@@ -2451,6 +2451,10 @@
 				if (preg_match('/^((?:SAMSUNG|TCL|ZTE) [^\s]+)/', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
+				
+				if (preg_match('/(Samsung (?:GT|SCH|SGH|SHV|SHW|SPH)-[A-Z-0-9]+)/i', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
 
 				if (preg_match('/[0-9]+x[0-9]+; ([^;]+)/', $ua, $match)) {
 					array_push($candidates, $match[1]);
