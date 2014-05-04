@@ -872,6 +872,7 @@
 			'Coolpad 8811'								=> array( 'Coolpad', '8811' ),
 			'Coolpad 8860!'								=> array( 'Coolpad', '8860' ),		
 			'Coolpad 8870!'								=> array( 'Coolpad', '8870' ),		
+			'Coolpad8920'								=> array( 'Coolpad', '8920' ),		
 			'Coolpad 9070'								=> array( 'Coolpad', '9070' ),
 			'Coolpad 9080W'								=> array( 'Coolpad', '9080' ),
 			'Coolpad 9120'								=> array( 'Coolpad', '9120' ),
@@ -980,9 +981,11 @@
 			'Venue 8 3830'								=> array( 'Dell', 'Venue 8', TYPE_TABLET ),
 			'Dell XCD35'								=> array( 'Dell', 'XCD35' ),
 			'XCD35'										=> array( 'Dell', 'XCD35' ),
+			'DEM752HCF'									=> array( 'Denver', 'TAC-7018', TYPE_TABLET ),
 			'TAC-70041'									=> array( 'Denver', 'TAC-70041', TYPE_TABLET ),
 			'deovo V5'									=> array( 'deovo', 'V5' ),
 			'DIT1010'									=> array( 'Difrnce', 'DIT1010', TYPE_TABLET ),
+			'DIT101201'									=> array( 'Difrnce', 'DIT101201', TYPE_TABLET ),
 			'DIT102201'									=> array( 'Difrnce', 'DIT102201', TYPE_TABLET ),
 			'Digma iDj7!'								=> array( 'Digma', 'iDj7', TYPE_TABLET ),
 			'iDj7n'										=> array( 'Digma', 'iDj7n', TYPE_TABLET ),
@@ -1013,6 +1016,7 @@
 			'Tablet-P27'								=> array( 'DracoTek', 'P27 Tablet', TYPE_TABLET ),
 			'ACM3066-8'									=> array( 'MY|eebo', 'Color Tablet', TYPE_TABLET ),
 			'SUPREME IPS Dual Core X200'				=> array( 'E-Boda', 'Supreme IPS Dual Core X200', TYPE_TABLET ),
+			'Revo R80'									=> array( 'E-Boda', 'Revo R80' ),
 			'Storm V100'								=> array( 'E-Boda', 'Storm V100' ),
 			'EBEN T7'									=> array( 'EBEN', 'T7', TYPE_TABLET ),
 			'EBEST T5'									=> array( 'EBEST', 'T5' ),
@@ -1136,8 +1140,8 @@
 			'GIGABYTE GSmart Rio R1'					=> array( 'Gigabyte', 'GSmart Rio R1' ),
 			'GSmart Sierra S1'							=> array( 'Gigabyte', 'GSmart Sierra S1' ),
 			'Gigabyte TB100'							=> array( 'Gigabyte', 'TB100', TYPE_TABLET ),
-			'Gigaset QV830'								=> array( 'Gigaset', 'QV830' ),
-			'Gigaset QV1030'							=> array( 'Gigaset', 'QV1030' ),
+			'Gigaset QV830'								=> array( 'Gigaset', 'QV830', TYPE_DECT ),
+			'Gigaset QV1030'							=> array( 'Gigaset', 'QV1030', TYPE_DECT ),
 			'GIO-GiONEE C500'							=> array( 'Gionee', 'C500' ),
 			'GIO-GiONEE C600'							=> array( 'Gionee', 'C600' ),
 			'GiONEE-E6!'								=> array( 'Gionee', 'E6' ),
@@ -1283,6 +1287,7 @@
 			'HS-ET919'									=> array( 'Hisense', 'ET919' ),
 			'EG968B'									=> array( 'Hisense', 'EG968B' ),
 			'E170BS'									=> array( 'Hisense', 'E170BS', TYPE_TABLET ),
+			'E270BSA'									=> array( 'Hisense', 'Sero 7 Lite', TYPE_TABLET ),
 			'M470BSA'									=> array( 'Hisense', 'Sero 7 Pro', TYPE_TABLET ),
 			'M470BSE'									=> array( 'Hisense', 'Sero 7 Pro', TYPE_TABLET ),
 			'xt880b'									=> array( 'Hisense', 'XT880', TYPE_TELEVISION ),
@@ -1830,7 +1835,8 @@
 			'HUAWEI Y518!'								=> array( 'Huawei', 'Ascend Y518' ),
 			'Huawei Y530!'								=> array( 'Huawei', 'Ascend Y530' ),
 			'Huawei Ascend X'							=> array( 'Huawei', 'Ascend X' ),
-			'Huawei H30-T00'							=> array( 'Huawei', 'Honor 3C' ),		
+			'Huawei H30-T00!'							=> array( 'Huawei', 'Honor 3C' ),		
+			'HUAWEI H30-C00!'							=> array( 'Huawei', 'Honor 3C' ),
 			'H30-T00'									=> array( 'Huawei', 'Honor 3C' ),	
 			'H30-U10'									=> array( 'Huawei', 'Honor 3C' ),
 			'FUSIONideos'								=> array( 'Huawei', 'IDEOS' ),
@@ -1948,6 +1954,7 @@
 			'AUXUS CoreX4 3G'							=> array( 'iBerry', 'Auxus CoreX4', TYPE_TABLET ),
 			'AUXUS Nuclea N1'							=> array( 'iBerry', 'Auxus Nuclea N1' ),
 			'NetTab iconBIT'							=> array( 'IconBit', 'NetTab', TYPE_TABLET ),
+			'NT-3702M'									=> array( 'IconBit', 'NetTab Matrix 3G Duo', TYPE_TABLET ),
 			'NetTAB Pocket'								=> array( 'IconBit', 'NetTab Pocket', TYPE_TABLET ),
 			'NetTAB RUNE'								=> array( 'IconBit', 'NetTab Rune', TYPE_TABLET ),
 			'NT-0801C'									=> array( 'IconBit', 'NetTab Skat RX', TYPE_TABLET ),
@@ -2024,6 +2031,7 @@
 			'G2S'										=> array( 'Jiayu', 'G2 Plus' ),
 			'JY-G3'										=> array( 'Jiayu', 'G3' ),
 			'Jiayu G3'									=> array( 'Jiayu', 'G3' ),
+			'JY-G3C'									=> array( 'Jiayu', 'G3C' ),
 			'JY-G4'										=> array( 'Jiayu', 'G4' ),
 			'JT-Smart PC01'								=> array( 'Joy-IT', 'JT-Smart PC-01' ),
 			'JJ5S+'										=> array( 'Jugate', 'JJ5S+' ),
@@ -2180,6 +2188,7 @@
 			'IRIS355'									=> array( 'Lava', 'Iris 355' ),
 			'iris356'									=> array( 'Lava', 'Iris 356' ),
 			'IRIS402'									=> array( 'Lava', 'Iris 402' ),
+			'iris 406Q'									=> array( 'Lava', 'Iris 406Q' ),
 			'IRIS 455'									=> array( 'Lava', 'Iris 455' ),
 			'iris458Q'									=> array( 'Lava', 'Iris 458Q' ),
 			'iris504Q'									=> array( 'Lava', 'Iris 504Q' ),
@@ -2276,6 +2285,7 @@
 			'Lenovo A316i'								=> array( 'Lenovo', 'A316' ),
 			'Lenovo A318t'								=> array( 'Lenovo', 'A318' ),
 			'Lenovo A326'								=> array( 'Lenovo', 'A326' ),
+			'Lenovo A338t'								=> array( 'Lenovo', 'A338' ),
 			'Lenovo A356'								=> array( 'Lenovo', 'A356' ),
 			'Lenovo A360'								=> array( 'Lenovo', 'A360' ),
 			'Lenovo A365e'								=> array( 'Lenovo', 'A365' ),
@@ -2302,10 +2312,11 @@
 			'Lenovo A656'								=> array( 'Lenovo', 'A656' ),
 			'Lenovo A658t'								=> array( 'Lenovo', 'A658' ),
 			'Lenovo A660'								=> array( 'Lenovo', 'A660' ),
+			'Lenovo A668t'								=> array( 'Lenovo', 'A668' ),
 			'Lenovo A670t'								=> array( 'Lenovo', 'A670' ),
 			'Lenovo A678t'								=> array( 'Lenovo', 'A678' ),
+			'Lenovo A680'								=> array( 'Lenovo', 'A680' ),
 			'Lenovo A690'								=> array( 'Lenovo', 'A690' ),
-			'Lenovo A668t'								=> array( 'Lenovo', 'A668' ),
 			'Lenovo A698t'								=> array( 'Lenovo', 'A698' ),
 			'Lenovo A700e'								=> array( 'Lenovo', 'A700' ),
 			'Lenovo A706!'								=> array( 'Lenovo', 'A706' ),
@@ -2330,6 +2341,7 @@
 			'Lenovo A850!'								=> array( 'Lenovo', 'A850' ),
 			'Lenovo A859!'								=> array( 'Lenovo', 'A859' ),
 			'Lenovo A860!'								=> array( 'Lenovo', 'A860' ),
+			'Lenovo A880!'								=> array( 'Lenovo', 'A880' ),
 			'Lenovo K2'									=> array( 'Lenovo', 'K2' ),
 			'Lenovo K6'									=> array( 'Lenovo', 'K6' ),
 			'Lenovo K800'								=> array( 'Lenovo', 'K800' ),
@@ -2786,6 +2798,7 @@
 			'Micromax A73'								=> array( 'Micromax', 'A73 Buzz' ),
 			'Micromax A74'								=> array( 'Micromax', 'A74 Canvas Fun' ),
 			'Micromax A75'								=> array( 'Micromax', 'A75 Lite' ),
+			'Micromax A075'								=> array( 'Micromax', 'A75 Lite' ),
 			'Micromax A76'								=> array( 'Micromax', 'A76 Canvas Fun' ),
 			'Micromax A77'								=> array( 'Micromax', 'A77 Canvas Juice' ),
 			'Micromax A78'								=> array( 'Micromax', 'A78 Gossip' ),
@@ -3119,6 +3132,7 @@
 			'Next10P12'									=> array( 'Nextbook', 'Premium 10', TYPE_EREADER ),
 			'NXM703U'									=> array( 'Nextbook', 'Next 2', TYPE_EREADER ),
 			'NXM901'									=> array( 'Nextbook', 'Next 3', TYPE_EREADER),
+			'NX785QC8G'									=> array( 'Nextbook', '8', TYPE_TABLET),
 			'NGM Dynamic Star'							=> array( 'NGM', 'Dynamic Star' ),
 			'Stylo'										=> array( 'NGM', 'Dynamic Stylo' ),
 			'Forward Racing 3'							=> array( 'NGM', 'Forward Racing 3' ),
@@ -3240,7 +3254,8 @@
 			'Panasonic P11'								=> array( 'Panasonic', 'P11' ),
 			'Panasonic P51'								=> array( 'Panasonic', 'P51' ),
 			'Panasonic T31'								=> array( 'Panasonic', 'T31' ),
-			'Panasonic KX-PRXA15'						=> array( 'Panasonic', 'KX-PRXA15' ),						// Dect home phone
+			'Panasonic KX-PRXA10'						=> array( 'Panasonic', 'KX-PRXA10', TYPE_DECT ),
+			'Panasonic KX-PRXA15'						=> array( 'Panasonic', 'KX-PRXA15', TYPE_DECT ),
 			'JT-H580VT'									=> array( 'Panasonic', 'BizPad 7', TYPE_TABLET ),
 			'JT-H581VT'									=> array( 'Panasonic', 'BizPad 10', TYPE_TABLET ),
 			'FZ-A1(A|B)!'								=> array( 'Panasonic', 'Toughpad', TYPE_TABLET ),
@@ -3418,6 +3433,7 @@
 			'PMP7280C3G'								=> array( 'Prestigio', 'Multipad 2 Ultra Duo 8.0 3G', TYPE_TABLET ),
 			'PMP7280C3G DUO'							=> array( 'Prestigio', 'Multipad 2 Ultra Duo 8.0 3G', TYPE_TABLET ),
 			'PMP7280C3G QUAD'							=> array( 'Prestigio', 'Multipad 4 Ultra Quad 8.0 3G', TYPE_TABLET ),
+			'PMP7380D3G'								=> array( 'Prestigio', 'Multipad 2 Pro Duo 8.0 3G', TYPE_TABLET ),
 			'PMT5777 3G'								=> array( 'Prestigio', 'PMT5777' ),
 			'PAP3350DUO'								=> array( 'Prestigio', 'Multiphone 3350 Duo' ),
 			'PAP3400DUO'								=> array( 'Prestigio', 'Multiphone 3400 Duo' ),
@@ -3517,6 +3533,7 @@
 			'GT-I8150!'									=> array( 'Samsung', 'Galaxy W' ),
 			'GT-I8160!'									=> array( 'Samsung', 'Galaxy Ace 2' ),
 			'GT-I81(90|91)!'							=> array( 'Samsung', 'Galaxy S III Mini' ),
+			'GT-I8200!'									=> array( 'Samsung', 'Galaxy S III Mini Value Edition' ),
 			'GT-I8240!'									=> array( 'Samsung', 'GT-I8240' ),	
 			'GT-I8245!'									=> array( 'Samsung', 'GT-I8245' ),			
 			'GT-I8250!'									=> array( 'Samsung', 'GT-I8250' ),
@@ -3818,9 +3835,12 @@
 			'SMT-i9100'									=> array( 'Samsung', 'SMT-I9100', TYPE_TABLET ),
 			'SM-C1(01|05)!'								=> array( 'Samsung', 'Galaxy S4 Zoom' ),
 			'SM-C115'									=> array( 'Samsung', 'Galaxy K Zoom' ),
+			'SM-G110!'									=> array( 'Samsung', 'SM-G110' ),								// Unknown
 			'SM-G310!'									=> array( 'Samsung', 'Galaxy Ace Style' ),
+			'SM-G313!'									=> array( 'Samsung', 'SM-G313' ),								// Unknown
 			'SM-G35(02|08|09)!'							=> array( 'Samsung', 'Galaxy Trend 3' ),
 			'SM-G350!'									=> array( 'Samsung', 'Galaxy Core Plus' ),
+			'SM-G3556!'									=> array( 'Samsung', 'SM-G3556' ),								// Unknown
 			'SM-G3812B!'								=> array( 'Samsung', 'Galaxy S III Slim' ),
 			'SM-G3812'									=> array( 'Samsung', 'Galaxy Win Pro' ),
 			'SM-G3815'									=> array( 'Samsung', 'Galaxy Express 2' ),
@@ -4019,10 +4039,11 @@
 			'Skyworth PE90'								=> array( 'Skyworth', 'PE90' ),
 			'WF7C'										=> array( 'Smartbitt', 'WF7C', TYPE_TABLET ),
 			'Andromax-c'								=> array( 'Smartfren', 'Andromax C' ),
-			'New Andromax-i'							=> array( 'Smartfren', 'Andromax I' ),
-			'Andromax U'								=> array( 'Smartfren', 'Andromax U' ),
-			'Andromax AD683J'							=> array( 'Smartfren', 'Andromax i2' ),
 			'Andromax AD687G'							=> array( 'Smartfren', 'Andromax G' ),
+			'New Andromax-i'							=> array( 'Smartfren', 'Andromax I' ),
+			'Andromax AD683J'							=> array( 'Smartfren', 'Andromax I2' ),
+			'Smartfren Andromax AD689G'					=> array( 'Smartfren', 'Andromax I3' ),
+			'Andromax U'								=> array( 'Smartfren', 'Andromax U' ),
 			'Smartfren Tab 7'							=> array( 'Smartfren', 'Tab 7' ),
 			'SmartQ G7'									=> array( 'SmartQ', 'G7', TYPE_TABLET ),
 			'SmartQT7'									=> array( 'SmartQ', 'T7', TYPE_TABLET ),
@@ -4049,7 +4070,8 @@
 			'C68(02|06|33|43)!'							=> array( 'Sony', 'Xperia Z Ultra' ),					// Togari
 			'C69(02|03|06|43)!'							=> array( 'Sony', 'Xperia Z1' ),						// Honami
 			'C6916'										=> array( 'Sony', 'Xperia Z1s' ),						// ...
-			'D21(04|05|14)!'							=> array( 'Sony', 'Xperia E1' ),						// ...
+			'D20(04|05)!'								=> array( 'Sony', 'Xperia E1' ),						// Falcon
+			'D21(04|05|14)!'							=> array( 'Sony', 'Xperia E1 dual' ),					// ...
 			'D23(02|03|05|06)!'							=> array( 'Sony', 'Xperia M2' ),						// ...
 			'D51(03)!'									=> array( 'Sony', 'Xperia G' ),							// ...
 			'D53(03|06|22)!'							=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
@@ -4106,6 +4128,7 @@
 			'X10 ?(Mini Pro)$!'							=> array( 'Sony Ericsson', 'Xperia X10 Mini Pro' ),		// Mimmi
 			'X10 ?(Mini)$!'								=> array( 'Sony Ericsson', 'Xperia X10 Mini' ),			// Robyn
 			'XL39h'										=> array( 'Sony', 'Xperia Z Ultra' ),					// Togari
+			'XM50h'										=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
 			'Z1i'										=> array( 'Sony Ericsson', 'Xperia Play' ),				// Zeus
 			'S51SE'										=> array( 'Sony Ericsson', 'Xperia Mini' ),				// Smultron
 			'IS11S'										=> array( 'Sony Ericsson', 'Xperia Acro' ),				// Akane
@@ -4269,6 +4292,7 @@
 			'TCL S520'									=> array( 'TCL', 'S520' ),
 			'(TCL )?S600!'								=> array( 'TCL', 'S600' ),
 			'TCL S700T'									=> array( 'TCL', 'S700' ),
+			'TCL S720T'									=> array( 'TCL', 'S720' ),
 			'TCL S800'									=> array( 'TCL', 'S800' ),
 			'TCL S810'									=> array( 'TCL', 'S810' ),
 			'TCL S820'									=> array( 'TCL', 'S820' ),
@@ -4643,6 +4667,7 @@
 			'X500'										=> array( 'ZTE', 'X500 Score' ),
 			'ZTE X500'									=> array( 'ZTE', 'X500 Score' ),
 			'ZTE C X500'								=> array( 'ZTE', 'X500 Score' ),
+			'ZTE Q501U'									=> array( 'ZTE', 'Q501' ),
 			'ZTE C N600!'								=> array( 'ZTE', 'N600' ),
 			'ZTE C N606'								=> array( 'ZTE', 'N606' ),
 			'Z665C'										=> array( 'ZTE', 'Z665 Valet' ),
