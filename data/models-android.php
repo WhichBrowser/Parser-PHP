@@ -3873,8 +3873,8 @@
 			'SM-T3(30|31|35|37)!'						=> array( 'Samsung', 'Galaxy Tab 4 (8.0)', TYPE_TABLET ),
 			'SM-T5(20|25)!'								=> array( 'Samsung', 'Galaxy Tab Pro 10.1', TYPE_TABLET ),
 			'SM-T5(30|31|35)!'							=> array( 'Samsung', 'Galaxy Tab 4 (10.1)', TYPE_TABLET ),
-			'SM-T7(00)!'								=> array( 'Samsung', 'SM-T700', TYPE_TABLET ),					// Unknown, 8.4" Amoled Tab Pro?
-			'SM-T8(00|01|05|07)!'						=> array( 'Samsung', 'SM-T800', TYPE_TABLET ),					// Unknown, 10.5" Amoled Tab Pro?
+			'SM-T7(00)!'								=> array( 'Samsung', 'Galaxy Tab S 8.4', TYPE_TABLET ),			// Probably
+			'SM-T8(00|01|05|07)!'						=> array( 'Samsung', 'Galaxy Tab S 10.5', TYPE_TABLET ),		// Probably
 			'SM-T9(00|05)!'								=> array( 'Samsung', 'Galaxy Tab Pro 12.2', TYPE_TABLET ),
 			'SM-W2014'									=> array( 'Samsung', 'SM-W2014' ),								
 			'SPH-D600'									=> array( 'Samsung', 'Conquer 4G' ),
