@@ -4825,7 +4825,7 @@
 			'N9810'										=> array( 'ZTE', 'N9810 Vital' ),
 			'NX40X'										=> array( 'ZTE', 'Nubia Z5 mini' ),
 			'NX402'										=> array( 'ZTE', 'Nubia Z5 mini' ),
-			'NX403A'									=> array( 'ZTE', 'Nubia Z5s' ),
+			'NX403A'									=> array( 'ZTE', 'Nubia Z5 mini' ),
 			'NX501'										=> array( 'ZTE', 'Nubia Z5' ),
 			'NX503A'									=> array( 'ZTE', 'Nubia Z5s' ),
 			'ZTE N5'									=> array( 'ZTE', 'N5 Grand Memo' ),
