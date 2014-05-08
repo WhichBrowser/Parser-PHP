@@ -359,6 +359,7 @@
 			'one touch 60(34|35)!'						=> array( 'Alcatel', 'One Touch Idol S' ),
 			'one touch 6036!'							=> array( 'Alcatel', 'One Touch Idol 2 Mini S' ),
 			'6036X'										=> array( 'Alcatel', 'One Touch Idol 2 Mini S' ),
+			'ONETOUCH 6036Y'							=> array( 'Alcatel', 'One Touch Idol 2 Mini S' ),
 			'one touch 6040!'							=> array( 'Alcatel', 'One Touch Idol X' ),
 			'one touch 6043!'							=> array( 'Alcatel', 'One Touch Idol X+' ),
 			'6043D'										=> array( 'Alcatel', 'One Touch Idol X+' ),
@@ -1011,6 +1012,7 @@
 			'AirTab P83'								=> array( 'DNS', 'AirTab P83', TYPE_TABLET ),
 			'DPS Dream 9'								=> array( 'DPS', 'Dream 9', TYPE_TABLET ),
 			'domod G20'									=> array( 'Domod', 'G20' ),
+			'Doro Liberto 820'							=> array( 'Doro', 'Liberto 820' ),
 			'M975'										=> array( 'Double Power', 'M975', TYPE_TABLET ),
 			'TD-1010'									=> array( 'Double Power', 'TD-1010', TYPE_TABLET ),
 			'Tablet-P27'								=> array( 'DracoTek', 'P27 Tablet', TYPE_TABLET ),
@@ -1798,6 +1800,7 @@
 			'Huawei P6-T00!'							=> array( 'Huawei', 'Ascend P6' ),
 			'Huawei EDGE'								=> array( 'Huawei', 'Ascend P6' ),
 			'HUAWEI Sophia-L07'							=> array( 'Huawei', 'Ascend P7' ),
+			'HUAWEI P7-L09!'							=> array( 'Huawei', 'Ascend P7' ),
 			'Huawei IDEOS U8500'						=> array( 'Huawei', 'IDEOS X2' ),
 			'Huawei IDEOS U8650'						=> array( 'Huawei', 'Sonic' ),
 			'Huawei IDEOS X3'							=> array( 'Huawei', 'IDEOS X3' ),
@@ -2182,6 +2185,7 @@
 			'Ilium S200'								=> array( 'Lanix', 'Ilium S200' ),
 			'Lanix Ilium S210'							=> array( 'Lanix', 'Ilium S210' ),
 			'Lanix Ilium S400'							=> array( 'Lanix', 'Ilium S400' ),
+			'Lanix ILIUM S410'							=> array( 'Lanix', 'Ilium S410' ),
 			'Lanix Ilium S500'							=> array( 'Lanix', 'Ilium S500' ),
 			'LANIX ILIUM S700'							=> array( 'Lanix', 'Ilium S700' ),
 			'ilium Pad E8'								=> array( 'Lanix', 'Ilium Pad E8', TYPE_TABLET ),
@@ -3849,7 +3853,7 @@
 			'SM-G710!'									=> array( 'Samsung', 'Galaxy Grand 2' ),	
 			'SM-G730!'									=> array( 'Samsung', 'Galaxy S III Mini' ),
 			'SM-G750!'									=> array( 'Samsung', 'Galaxy S5 Neo' ),							// Maybe
-			'SM-G800!'									=> array( 'Samsung', 'Galaxy S5 Mini' ),						// Maybe
+			'SM-G800!'									=> array( 'Samsung', 'Galaxy S5 Dx' ),							// Maybe
 			'SM-G860!'									=> array( 'Samsung', 'SM-G860' ),								// Unknown
 			'SM-G870!'									=> array( 'Samsung', 'Galaxy S5 Active' ),
 			'SM-G900!'									=> array( 'Samsung', 'Galaxy S5' ),
@@ -3873,7 +3877,7 @@
 			'SM-T3(30|31|35|37)!'						=> array( 'Samsung', 'Galaxy Tab 4 (8.0)', TYPE_TABLET ),
 			'SM-T5(20|25)!'								=> array( 'Samsung', 'Galaxy Tab Pro 10.1', TYPE_TABLET ),
 			'SM-T5(30|31|35)!'							=> array( 'Samsung', 'Galaxy Tab 4 (10.1)', TYPE_TABLET ),
-			'SM-T7(00)!'								=> array( 'Samsung', 'Galaxy Tab S 8.4', TYPE_TABLET ),			// Probably
+			'SM-T7(00|05)!'								=> array( 'Samsung', 'Galaxy Tab S 8.4', TYPE_TABLET ),			// Probably
 			'SM-T8(00|01|05|07)!'						=> array( 'Samsung', 'Galaxy Tab S 10.5', TYPE_TABLET ),		// Probably
 			'SM-T9(00|05)!'								=> array( 'Samsung', 'Galaxy Tab Pro 12.2', TYPE_TABLET ),
 			'SM-W2014'									=> array( 'Samsung', 'SM-W2014' ),								
@@ -4109,6 +4113,7 @@
 			'R800(a|at|i|iv|x)!'						=> array( 'Sony Ericsson', 'Xperia Play' ),				// Zeus
 			'S36h'										=> array( 'Sony', 'Xperia L' ),							// TaoShan
 			'S39h'										=> array( 'Sony', 'Xperia C' ),							// CN3
+			'S50h'										=> array( 'Sony', 'Xperia M2' ),						// ...
 			'SK17(a|i|iv|i-o)!'							=> array( 'Sony Ericsson', 'Xperia Mini Pro' ),			// Mango
 			'ST15(a|i)!'								=> array( 'Sony Ericsson', 'Xperia Mini' ),				// Smultron
 			'ST17(a|i)!'								=> array( 'Sony Ericsson', 'Xperia Active' ),			// Satsuma
@@ -4129,6 +4134,7 @@
 			'X10 ?(Mini)$!'								=> array( 'Sony Ericsson', 'Xperia X10 Mini' ),			// Robyn
 			'XL39h'										=> array( 'Sony', 'Xperia Z Ultra' ),					// Togari
 			'XM50h'										=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
+			'XM50t'										=> array( 'Sony', 'Xperia T2 Ultra' ),					// Tianchi
 			'Z1i'										=> array( 'Sony Ericsson', 'Xperia Play' ),				// Zeus
 			'S51SE'										=> array( 'Sony Ericsson', 'Xperia Mini' ),				// Smultron
 			'IS11S'										=> array( 'Sony Ericsson', 'Xperia Acro' ),				// Akane
@@ -4154,6 +4160,7 @@
 			'SOL22'										=> array( 'Sony', 'Xperia UL' ),						// Gaga
 			'SOL23'										=> array( 'Sony', 'Xperia Z1' ),						// Honami
 			'SOL24'										=> array( 'Sony', 'Xperia Z Ultra' ),					// Togari
+			'SOL25'										=> array( 'Sony', 'Xperia ZL2' ),						// ...
 			'Xperia X1'									=> array( 'Sony Ericsson', 'Xperia X1' ),
 			'Xperia X8'									=> array( 'Sony Ericsson', 'Xperia X8' ),				// Shakira
 			'Xperia X10'								=> array( 'Sony Ericsson', 'Xperia X10' ),				// Rachael
