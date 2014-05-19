@@ -1,6 +1,7 @@
 <?php
 
 		DeviceModels::$ASHA_MODELS = array(
+			'Asha230SingleSIM'							=> array( 'Nokia', 'Asha 230' ),
 			'Asha230DualSIM'							=> array( 'Nokia', 'Asha 230' ),
 			'500'										=> array( 'Nokia', 'Asha 500' ),
 			'Asha500DualSIM'							=> array( 'Nokia', 'Asha 500' ),
