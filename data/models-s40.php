@@ -112,6 +112,7 @@
 			'6500s!'									=> array( 'Nokia', '6500 slide' ),
 			'6600f!'									=> array( 'Nokia', '6600 fold' ),
 			'6600s!'									=> array( 'Nokia', '6600 slide' ),
+			'6600i!'									=> array( 'Nokia', '6600i slide' ),			
 			'6700c!'									=> array( 'Nokia', '6700 classic' ),
 			'6750c'										=> array( 'Nokia', '6750 Mural' ),
 			'7070!'										=> array( 'Nokia', '7070 Prism' ),

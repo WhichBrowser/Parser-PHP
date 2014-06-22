@@ -56,5 +56,6 @@
 			'SGH-D880'									=> array( 'Samsung', 'D880 Duos' ),
 			'SGH-G600'									=> array( 'Samsung', 'G600' ),
 			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' ),
+			'SGH-T189N'									=> array( 'Samsung', 'Freeform M'),
 			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' )
 		);
