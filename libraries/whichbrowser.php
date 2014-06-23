@@ -1426,6 +1426,30 @@
 			}
 			
 			/****************************************************
+			 *		S30
+			 */
+		
+			if (preg_match('/Series30/', $ua)) {
+				$this->os->name = 'Series30';
+
+				if (preg_match('/Nokia([^\/]+)\//', $ua, $match)) {
+					$this->device->manufacturer = 'Nokia';
+					$this->device->model = DeviceModels::cleanup($match[1]);
+					$this->device->identified |= ID_PATTERN;
+				}
+
+				if (isset($this->device->model)) {
+					$device = DeviceModels::identify('s30', $this->device->model);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+	
+				$this->device->type = TYPE_MOBILE;
+			}
+
+			/****************************************************
 			 *		MeeGo
 			 */
 		
@@ -4709,6 +4733,7 @@
 		static $TOUCHWIZ_MODELS = array();
 		static $WINDOWS_MOBILE_MODELS = array();
 		static $WINDOWS_PHONE_MODELS = array();
+		static $S30_MODELS = array();
 		static $S40_MODELS = array();
 		static $S60_MODELS = array();	
 		static $FEATURE_MODELS = array();
@@ -4731,6 +4756,7 @@
 				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
 				case 'wm': 			return DeviceModels::identifyList(DeviceModels::$WINDOWS_MOBILE_MODELS, $model);
 				case 'wp': 			return DeviceModels::identifyList(DeviceModels::$WINDOWS_PHONE_MODELS, $model);
+				case 's30': 		return DeviceModels::identifyList(DeviceModels::$S30_MODELS, $model);
 				case 's40': 		return DeviceModels::identifyList(DeviceModels::$S40_MODELS, $model);
 				case 's60': 		return DeviceModels::identifyList(DeviceModels::$S60_MODELS, $model);
 				case 'feature': 	return DeviceModels::identifyList(DeviceModels::$FEATURE_MODELS, $model);
