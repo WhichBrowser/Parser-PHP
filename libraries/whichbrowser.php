@@ -1521,6 +1521,13 @@
 						}
 					}
 				}
+
+				if (preg_match('/\(SMART[ -]TV;/i', $ua, $match)) {
+					$this->device->type = TYPE_TELEVISION;
+					$this->device->manufacturer = 'Samsung';
+					$this->device->model = 'Smart TV';
+					$this->device->identified = ID_PATTERN;
+				}
 			}
 			
 			/****************************************************
@@ -2124,7 +2131,6 @@
 			 */
 
 			if (preg_match('/SMART-TV/', $ua)) {
-				$this->os->name = '';
 				$this->device->manufacturer = 'Samsung';
 				$this->device->model = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2132,6 +2138,10 @@
 
 				if (preg_match('/Maple([0-9]*)/', $ua, $match)) {
 					$this->device->model .= ' ' . $match[1];
+				}
+
+				if (!preg_match('/Tizen/', $ua)) {
+					$this->os->name = '';
 				}
 			}
 
