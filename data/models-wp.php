@@ -41,7 +41,7 @@
 			'Windows Phone 8X by HTC'					=> array( 'HTC', '8X' ),
 			'WindowsPhone8Xby'							=> array( 'HTC', '8X' ),
 			'PM23300'									=> array( 'HTC', '8X' ),
-			'A620(d|e|t)!'								=> array( 'HTC', '8S' ),
+			'A620(d|e|m|t)!'							=> array( 'HTC', '8S' ),
 			'8S by HTC'									=> array( 'HTC', '8S' ),
 			'Windows Phone 8S by HTC'					=> array( 'HTC', '8S' ),
 //			'HTCPO881'
@@ -50,6 +50,7 @@
 			'HUAWEI W1-C00'								=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEIW1-C00'								=> array( 'Huawei', 'Ascend W1' ),
 			'W1-U00'									=> array( 'Huawei', 'Ascend W1' ),
+			'W1-U34'									=> array( 'Huawei', 'Ascend W1' ),
 			'W1-C00'									=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEIW2-T01'								=> array( 'Huawei', 'Ascend W2' ),
 			'W2-T01'									=> array( 'Huawei', 'Ascend W2' ),

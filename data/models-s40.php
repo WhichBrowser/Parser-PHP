@@ -14,6 +14,7 @@
 			'X2-00!'									=> array( 'Nokia', 'X2-00' ),
 			'X2-01!'									=> array( 'Nokia', 'X2-01' ),
 			'X2-02!'									=> array( 'Nokia', 'X2-02' ),
+			'X2-03!'									=> array( 'Nokia', 'X2-03' ),
 			'X2-05!'									=> array( 'Nokia', 'X2-05' ),
 			'X3-00!'									=> array( 'Nokia', 'X3-00' ),
 			'X3-02!'									=> array( 'Nokia', 'X3-02' ),
