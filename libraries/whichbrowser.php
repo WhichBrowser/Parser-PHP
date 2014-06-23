@@ -29,6 +29,7 @@
 		
 	define ('TYPE_DESKTOP', 'desktop');
 	define ('TYPE_MOBILE', 'mobile');
+	define ('TYPE_DECT', 'dect');
 	define ('TYPE_TABLET', 'tablet');
 	define ('TYPE_GAMING', 'gaming');
 	define ('TYPE_EREADER', 'ereader');
