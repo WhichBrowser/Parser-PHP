@@ -2302,7 +2302,7 @@
 			 *		TechniSat
 			 */
 
-			if (preg_match('/\TechniSat ([^;]+);/', $ua, $match)) {
+			if (preg_match('/TechniSat ([^;]+);/', $ua, $match)) {
 				$this->os->name = '';
 				$this->device->manufacturer = 'TechniSat';
 				$this->device->model = $match[1];
@@ -2314,7 +2314,7 @@
 			 *		Technicolor
 			 */
 
-			if (preg_match('/\Technicolor_([^;]+);/', $ua)) {
+			if (preg_match('/Technicolor_([^;]+);/', $ua)) {
 				$this->os->name = '';
 				$this->device->manufacturer = 'Technicolor';
 				$this->device->model = $match[1];
