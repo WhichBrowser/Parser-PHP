@@ -1487,7 +1487,7 @@
 			if (preg_match('/Tizen/', $ua)) {
 				$this->os->name = 'Tizen';
 
-				if (preg_match('/Tizen[\/ ]([0-9.]*)/', $ua, $match)) {
+				if (preg_match('/Tizen[\/ ]([0-9.]*[0-9])/', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
 
