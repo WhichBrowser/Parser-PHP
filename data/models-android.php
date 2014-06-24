@@ -3237,6 +3237,7 @@
 			'Nokia X Dual SIM'							=> array( 'Nokia', 'X' ),
 			'Nokia Xplus'								=> array( 'Nokia', 'X+' ),
 			'Nokia XL'									=> array( 'Nokia', 'XL' ),
+			'Nokia X2'									=> array( 'Nokia', 'X2' ),
 			'Lumia800'									=> array( 'Nokia', 'Lumia 800' ),
 			'Lumia 900'									=> array( 'Nokia', 'Lumia 900' ),
 			'Notion Ink ADAM'							=> array( 'Notion Ink', 'ADAM', TYPE_TABLET ),
