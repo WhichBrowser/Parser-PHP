@@ -54,6 +54,7 @@
 			'W1-C00'									=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEIW2-T01'								=> array( 'Huawei', 'Ascend W2' ),
 			'W2-T01'									=> array( 'Huawei', 'Ascend W2' ),
+			'W2-U00'									=> array( 'Huawei', 'Ascend W2' ),
 			'GW910'										=> array( 'LG', 'Optimus 7' ),
 			'LG-E-?900!'								=> array( 'LG', 'Optimus 7 E900' ),
 			'LG-E906'									=> array( 'LG', 'Jil Sander' ),

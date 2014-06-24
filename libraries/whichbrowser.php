@@ -4863,6 +4863,7 @@
 
 			$s = preg_replace('/_TD$/', '', $s);
 			$s = preg_replace('/_CMCC$/', '', $s);
+			$s = preg_replace('/_CUCC$/', '', $s);
 			
 			$s = preg_replace('/_/', ' ', $s);
 			$s = preg_replace('/^\s+|\s+$/', '', $s);
@@ -4887,6 +4888,8 @@
 			$s = preg_replace('/^ALCATEL /', '', $s);
 			$s = preg_replace('/^Alcatel OT-(.*)/', 'one touch $1', $s);
 			$s = preg_replace('/^YL-/', '', $s);
+			$s = preg_replace('/^TY-K[_\- ]Touch/i', 'K-Touch', $s);
+			$s = preg_replace('/^K-Touch[_\-]/', 'K-Touch ', $s);
 			$s = preg_replace('/^Novo7 ?/i', 'Novo7 ', $s);
 			$s = preg_replace('/^G[iI]ONEE[ -]/', '', $s);
 			$s = preg_replace('/^HW-/', '', $s);
