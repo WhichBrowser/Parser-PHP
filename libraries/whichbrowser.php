@@ -3166,6 +3166,12 @@
 				$this->browser->version = new Version(array('value' => $match[1]));
 			}
 
+			if (preg_match('/Trident\/[789][^\)]+; Touch; rv:([0-9.]*);\s+IEMobile\//', $ua, $match)) {
+				$this->browser->name = 'Mobile Internet Explorer';
+				$this->browser->version = new Version(array('value' => $match[1]));
+			}
+
+
 			/****************************************************
 			 *		Firefox
 			 */
@@ -4498,7 +4504,7 @@
 					}
 				}
 
-				if ($this->os->name == 'Windows Phone') {
+				if ($this->os->name == 'Windows Phone' && $this->browser->name == 'Mobile Internet Explorer') {
 					if ($this->engine->version->toNumber() == 6 && $this->browser->version->toFloat() < 8) {
 						$this->os->version = new Version(array('value' => '8.0'));
 					}
