@@ -101,6 +101,8 @@
 			'KTU84L'		=> '4.4.3',
 			'KTU84M'		=> '4.4.3',
 			'KTU84P'		=> '4.4.4',
+			
+			'LPV79'			=> array('value' => '5.0', 'alias' => 'L'),
 		);
 
 		// Source: http://source.android.com/source/build-numbers.html

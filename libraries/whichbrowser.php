@@ -4630,6 +4630,11 @@
 						if (!isset($this->os->version) || $this->os->version == null || $this->os->version->value == null || $version->toFloat() < $this->os->version->toFloat()) {		
 							$this->os->version = $version;
 						}
+						
+						/* Special case for Android L */
+						if ($version->toFloat() == 5) {
+							$this->os->version = $version;
+						}
 					}
 					
 					$this->os->build = $match[1];
@@ -4729,7 +4734,10 @@
 		
 		static function identifyList($list, $id) {
 			if (isset($list[$id])) {
-				return new Version(array('value' => $list[$id])); 
+				if (is_array($list[$id]))
+					return new Version($list[$id]); 
+				else
+					return new Version(array('value' => $list[$id])); 
 			}
 			
 			return false;
