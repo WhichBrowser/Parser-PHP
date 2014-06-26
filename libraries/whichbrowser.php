@@ -4282,6 +4282,7 @@
 				array('name' => 'CoolNovo', 			'regexp' => '/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/', 'details' => 3, 'type' => TYPE_DESKTOP),
 				array('name' => 'ChromePlus', 			'regexp' => '/ChromePlus(?:\/([0-9.]*))?$/', 'details' => 3, 'type' => TYPE_DESKTOP),
 				array('name' => 'Cunaguaro', 			'regexp' => '/Cunaguaro\/([0-9.]*)/', 'details' => 3, 'type' => TYPE_DESKTOP),
+				array('name' => 'CuteBrowser', 			'regexp' => '/CuteBrowser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'Daedalus', 			'regexp' => '/Daedalus ([0-9.]*)/', 'details' => 2),
 				array('name' => 'Demobrowser', 			'regexp' => '/demobrowser\/([0-9.]*)/'),
 				array('name' => 'Doga Rhodonit', 		'regexp' => '/DogaRhodonit/'),
