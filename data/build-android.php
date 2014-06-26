@@ -93,9 +93,14 @@
 			'JSR78D'		=> '4.3',
 			'JSS15J'		=> '4.3',
 			'JSS15Q'		=> '4.3',
-			
+			'KRT16S'		=> '4.4',
 			'KRT16M'		=> '4.4',
-			'KRT16O'		=> '4.4',
+			'KOT49E'		=> '4.4.1',
+			'KOT49H'		=> '4.4.2',
+			'KVT49L'		=> '4.4.2',
+			'KTU84L'		=> '4.4.3',
+			'KTU84M'		=> '4.4.3',
+			'KTU84P'		=> '4.4.4',
 		);
 
 		// Source: http://source.android.com/source/build-numbers.html
