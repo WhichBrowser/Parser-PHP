@@ -4949,7 +4949,8 @@
 			$s = preg_replace('/^(HTC)[-\/]/', '$1', $s);
 			$s = preg_replace('/^(HTC)([A-Z][0-9][0-9][0-9])/', '$1 $2', $s);
 			$s = preg_replace('/^(Motorola[\s|-])/', '', $s);
-			$s = preg_replace('/^(Moto|MOT-)/', '', $s);
+			$s = preg_replace('/^(MOT-)/', '', $s);
+			$s = preg_replace('/^Moto([^\s])/', '$1', $s);
 
 			$s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust)$/i', '', $s);
 			$s = preg_replace('/http:\/\/.+$/i', '', $s);
