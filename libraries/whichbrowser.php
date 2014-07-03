@@ -3500,7 +3500,7 @@
 				}
 			}
 			
-			if (preg_match('/Opera/i', $ua)) {
+			if (preg_match('/Opera[\/\-\s]/i', $ua)) {
 				$this->browser->stock = false;
 				$this->browser->name = 'Opera';
 
