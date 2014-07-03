@@ -120,8 +120,9 @@
 			'7100s!'									=> array( 'Nokia', '7100 Supernova' ),
 			'7210s!'									=> array( 'Nokia', '7210 Supernova' ),
 			'7210Supernova!'							=> array( 'Nokia', '7210 Supernova' ),					
-			'7230'										=> array( 'Nokia', '7230' ),
+			'7230!'										=> array( 'Nokia', '7230' ),
 			'7310c!'									=> array( 'Nokia', '7310 Supernova' ),
+			'7500'										=> array( 'Nokia', '7500 Prism' ),
 			'7510Supernova!'							=> array( 'Nokia', '7510 Supernova' ),
 			'7610Supernova!'							=> array( 'Nokia', '7610 Supernova' ),
 			'8800!'										=> array( 'Nokia', '8800 Arte' )
