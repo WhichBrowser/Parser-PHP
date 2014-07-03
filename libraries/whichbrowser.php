@@ -1684,17 +1684,17 @@
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
 
-			if (preg_match('/\(Chinese Operating System ([0-9.]*);/i', $ua, $match)) {
+			if (preg_match('/(?:\(|; )Chinese Operating System ([0-9.]*);/i', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
 
-			if (preg_match('/\(COS ([0-9.]*);/i', $ua, $match)) {
+			if (preg_match('/(?:\(|; )COS ([0-9.]*);/i', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
 
-			if (preg_match('/\(COS;/i', $ua, $match)) {
+			if (preg_match('/(?:\(|; )COS;/i', $ua, $match)) {
 				$this->os->name = 'COS';
 			}
 
