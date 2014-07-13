@@ -167,7 +167,7 @@
 					$this->features[] = 'foundDevice';
 				}
 
-				if ($this->browser->name == 'Safari') {
+				if (isset($this->browser->name) && $this->browser->name == 'Safari') {
 					preg_match('/AppleWebKit\/([0-9]+.[0-9]+)/i', $this->options->useragent, $webkitMatch);
 					preg_match('/Safari\/([0-9]+.[0-9]+)/i', $this->options->useragent, $safariMatch);
 					
@@ -187,7 +187,7 @@
 					}
 				}
 				
-				if ($this->browser->name == 'Chrome') {
+				if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
 					if (!preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9]{1,2}\.[0-9]\.[0-9]{3,4}\.[0-9]+)/', $this->options->useragent)) {
 						$this->features[] = 'wrongVersion';
 						$this->camouflage = true;			
