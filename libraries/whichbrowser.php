@@ -3398,6 +3398,14 @@
 							$this->browser->version = null;					
 							$this->browser->channel = null;
 						}
+
+						/* Version 1.6 */
+						if ($match[1] == '28.0.1500.94' && preg_match('/Version\/1.6/', $ua)) {
+							$this->browser->stock = true;
+							$this->browser->name = null;
+							$this->browser->version = null;					
+							$this->browser->channel = null;
+						}
 					}
 				}
 								
