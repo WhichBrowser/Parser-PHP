@@ -856,8 +856,9 @@
 
 				if (preg_match('/WPDesktop/', $ua)) {
 					$this->os->name = 'Windows Phone';
-					$this->os->version = new Version(array('value' => '8', 'details' => 1)); 
+					$this->os->version = new Version(array('value' => '8.0', 'details' => 1)); 
 					$this->device->type = TYPE_MOBILE;
+					$this->browser->mode = 'desktop';
 				}
 				
 				if (preg_match('/WP7/', $ua)) {
