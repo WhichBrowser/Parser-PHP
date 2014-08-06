@@ -909,7 +909,7 @@
 					$this->device->type = TYPE_MOBILE;
 				}
 
-				if (preg_match('/Windows Phone/', $ua)) {
+				if (preg_match('/Windows Phone/', $ua) || preg_match('/WPDesktop/', $ua)) {
 					$this->os->name = 'Windows Phone';
 					$this->device->type = TYPE_MOBILE;
 					
@@ -947,12 +947,40 @@
 						}
 					}						
 
-					if (preg_match('/WPDesktop; \s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/', $ua, $match)) {
-						$this->device->manufacturer = $match[1];
-						$this->device->model = $match[2];
+					/* Desktop mode of WP 8.1 */
+					if (preg_match('/WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\) like Gecko/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => '8.1', 'details' => 2));
+
+						if (preg_match("/^[A-Z]+$/", $match[1])) {
+							$this->device->manufacturer = $match[1];
+							$this->device->model = $match[2];
+						} else {
+							$this->device->model = $match[1];
+						}
+
 						$this->device->identified |= ID_PATTERN;
 
-						$device = DeviceModels::identify('wp', $match[2]);
+						$device = DeviceModels::identify('wp', $this->device->model);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;
+						}
+					}						
+
+					/* Desktop mode of WP 8.1 Update (buggy version) */
+					if (preg_match('/Touch; WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\)/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => '8.1', 'details' => 2));
+						
+						if (preg_match("/^[A-Z]+$/", $match[1])) {
+							$this->device->manufacturer = $match[1];
+							$this->device->model = $match[2];
+						} else {
+							$this->device->model = $match[1];
+						}
+
+						$this->device->identified |= ID_PATTERN;
+
+						$device = DeviceModels::identify('wp', $this->device->model);
 						if ($device->identified) {
 							$device->identified |= $this->device->identified;
 							$this->device = $device;
