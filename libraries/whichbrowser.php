@@ -4608,6 +4608,17 @@
 				$this->os->name = 'Firefox OS';
 			}
 				
+
+			if ($this->os->name == 'Windows Phone' && $this->browser->name == 'Mobile Internet Explorer') {
+				if ($this->os->version->toFloat() == 8.0 && $this->browser->version->toNumber() < 10) {
+					$this->browser->version = new Version(array('value' => '11'));
+				}
+
+				if ($this->os->version->toFloat() == 8.1 && $this->browser->version->toNumber() < 11) {
+					$this->browser->version = new Version(array('value' => '11'));
+				}
+			}
+			
 			
 			if (isset($this->browser->name) && $this->browser->name == 'Opera' && $this->device->type == TYPE_TELEVISION) {
 				$this->browser->name = 'Opera Devices';
