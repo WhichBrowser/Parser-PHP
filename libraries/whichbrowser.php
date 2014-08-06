@@ -3189,6 +3189,12 @@
 				$this->browser->version = new Version(array('value' => $match[1]));
 			}
 
+			if (preg_match('/Trident\/[789][^\)]+; Touch; rv:([0-9.]*); WPDesktop/', $ua, $match)) {
+				$this->browser->mode = 'desktop';
+				$this->browser->name = 'Mobile Internet Explorer';
+				$this->browser->version = new Version(array('value' => $match[1]));
+			}
+
 
 			/****************************************************
 			 *		Firefox
