@@ -983,79 +983,87 @@
 			 */
 		
 			if (preg_match('/Android/', $ua)) {
-				$this->os->name = 'Android';
-				$this->os->version = new Version(); 
+				$falsepositive = false;
+				
+				/* Prevent the Mobile IE 11 Franken-UA from matching Android */
+				if (preg_match('/IEMobile\/1/', $ua)) $falsepositive = true;
 
-				if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/', str_replace('-update', ',', $ua), $match)) {
-					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
-				}
 				
-				if (preg_match('/Android [0-9][0-9].[0-9][0-9].[0-9][0-9]\(([^)]+)\);/', str_replace('-update', ',', $ua), $match)) {
-					$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
-				}
-				
-				if (preg_match('/Android Eclair/', $ua)) {
-					$this->os->version = new Version(array('value' => '2.0', 'details' => 3));
-				}
-				
-				if (preg_match('/Android KeyLimePie/', $ua)) {
-					$this->os->version = new Version(array('value' => '4.4', 'details' => 3));
-				}
-				
-				$this->device->type = TYPE_MOBILE;
-				if ($this->os->version->toFloat() >= 3) $this->device->type = TYPE_TABLET;
-				if ($this->os->version->toFloat() >= 4 && preg_match('/Mobile/', $ua)) $this->device->type = TYPE_MOBILE;
-
-
-				if (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//', $ua, $match)) {
-					$this->device->model = $match[1];
-				}
-				
-				else if (preg_match('/; ?([^;]*[^;\s])\s+Build/', $ua, $match)) {
-					$this->device->model = $match[1];
-				}		
-				
-				else if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s]);\s+Build/', $ua, $match)) {
-					$this->device->model = $match[1];
-				}		
-				
-				else if (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/', $ua, $match)) {
-					$this->device->model = $match[1];
-				}		
-				
-				else if (preg_match('/;\s?([^;]+);\s?[0-9]+\*[0-9]+;\s?CTC\/2.0/', $ua, $match)) {
-					$this->device->model = $match[1];
-				}		
-				
-				else if (preg_match('/Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^)]+)\)/', $ua, $match)) {
-					if (!preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?/', $ua)) {
+				if (!$falsepositive) {
+					$this->os->name = 'Android';
+					$this->os->version = new Version(); 
+	
+					if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/', str_replace('-update', ',', $ua), $match)) {
+						$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
+					}
+					
+					if (preg_match('/Android [0-9][0-9].[0-9][0-9].[0-9][0-9]\(([^)]+)\);/', str_replace('-update', ',', $ua), $match)) {
+						$this->os->version = new Version(array('value' => $match[1], 'details' => 3));
+					}
+					
+					if (preg_match('/Android Eclair/', $ua)) {
+						$this->os->version = new Version(array('value' => '2.0', 'details' => 3));
+					}
+					
+					if (preg_match('/Android KeyLimePie/', $ua)) {
+						$this->os->version = new Version(array('value' => '4.4', 'details' => 3));
+					}
+					
+					$this->device->type = TYPE_MOBILE;
+					if ($this->os->version->toFloat() >= 3) $this->device->type = TYPE_TABLET;
+					if ($this->os->version->toFloat() >= 4 && preg_match('/Mobile/', $ua)) $this->device->type = TYPE_MOBILE;
+	
+	
+					if (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//', $ua, $match)) {
 						$this->device->model = $match[1];
 					}
-				}	
-				
-				/* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
-				if (isset($this->device->model) && substr($this->device->model, 0, 7) == 'Android') {
-					$this->device->model = null;
-				}
-				
-				if (isset($this->device->model) && $this->device->model) {
-					$this->device->identified |= ID_PATTERN;
 					
-					$device = DeviceModels::identify('android', $this->device->model);
-					if ($device->identified) {
-						$device->identified |= $this->device->identified;
-						$this->device = $device;						
+					else if (preg_match('/; ?([^;]*[^;\s])\s+Build/', $ua, $match)) {
+						$this->device->model = $match[1];
+					}		
+					
+					else if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s]);\s+Build/', $ua, $match)) {
+						$this->device->model = $match[1];
+					}		
+					
+					else if (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/', $ua, $match)) {
+						$this->device->model = $match[1];
+					}		
+					
+					else if (preg_match('/;\s?([^;]+);\s?[0-9]+\*[0-9]+;\s?CTC\/2.0/', $ua, $match)) {
+						$this->device->model = $match[1];
+					}		
+					
+					else if (preg_match('/Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^)]+)\)/', $ua, $match)) {
+						if (!preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?/', $ua)) {
+							$this->device->model = $match[1];
+						}
+					}	
+					
+					/* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
+					if (isset($this->device->model) && substr($this->device->model, 0, 7) == 'Android') {
+						$this->device->model = null;
 					}
+					
+					if (isset($this->device->model) && $this->device->model) {
+						$this->device->identified |= ID_PATTERN;
+						
+						$device = DeviceModels::identify('android', $this->device->model);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;						
+						}
+					}
+					
+					if (preg_match('/HP eStation/', $ua)) 	{ $this->device->manufacturer = 'HP'; $this->device->model = 'eStation'; $this->device->type = TYPE_TABLET; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pre\/1.0/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pre\/1.1/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre Plus'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pre\/1.2/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre 2'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pre\/3.0/', $ua)) 		{ $this->device->manufacturer = 'HP'; $this->device->model = 'Pre 3'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pixi\/1.0/', $ua)) 	{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pixi'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/Pixi\/1.1/', $ua)) 	{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pixi Plus'; $this->device->identified |= ID_MATCH_UA; }
+					if (preg_match('/P160UN?A?\/1.0/', $ua)) { $this->device->manufacturer = 'HP'; $this->device->model = 'Veer'; $this->device->identified |= ID_MATCH_UA; }
 				}
-				
-				if (preg_match('/HP eStation/', $ua)) 	{ $this->device->manufacturer = 'HP'; $this->device->model = 'eStation'; $this->device->type = TYPE_TABLET; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pre\/1.0/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pre\/1.1/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre Plus'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pre\/1.2/', $ua)) 		{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pre 2'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pre\/3.0/', $ua)) 		{ $this->device->manufacturer = 'HP'; $this->device->model = 'Pre 3'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pixi\/1.0/', $ua)) 	{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pixi'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/Pixi\/1.1/', $ua)) 	{ $this->device->manufacturer = 'Palm'; $this->device->model = 'Pixi Plus'; $this->device->identified |= ID_MATCH_UA; }
-				if (preg_match('/P160UN?A?\/1.0/', $ua)) { $this->device->manufacturer = 'HP'; $this->device->model = 'Veer'; $this->device->identified |= ID_MATCH_UA; }
 			}
 
 
