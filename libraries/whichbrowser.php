@@ -3381,6 +3381,16 @@
 						$this->browser->channel = null;
 					}
 
+					/* LG Chromium based browsers */
+					if (isset($device->manufacturer) && $device->manufacturer == 'LG') {
+						if ($match[1] == '30.0.1599.103' && preg_match('/Version\/4.0/', $ua)) {
+							$this->browser->stock = true;
+							$this->browser->name = null;
+							$this->browser->version = null;					
+							$this->browser->channel = null;
+						}
+					}
+					
 					/* Samsung Chromium based browsers */
 					if (isset($device->manufacturer) && $device->manufacturer == 'Samsung') {
 					
