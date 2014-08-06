@@ -4550,11 +4550,11 @@
 				}
 
 				if ($this->os->name == 'Windows Phone' && $this->browser->name == 'Mobile Internet Explorer') {
-					if ($this->engine->version->toNumber() == 6 && $this->browser->version->toFloat() < 8) {
+					if ($this->engine->version->toNumber() == 6 && $this->os->version->toFloat() < 8) {
 						$this->os->version = new Version(array('value' => '8.0'));
 					}
 
-					if ($this->engine->version->toNumber() == 5 && $this->browser->version->toFloat() < 7.5) {
+					if ($this->engine->version->toNumber() == 5 && $this->os->version->toFloat() < 7.5) {
 						$this->os->version = new Version(array('value' => '7.5'));
 					}
 				}
