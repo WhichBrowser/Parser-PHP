@@ -244,6 +244,14 @@
 
 						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
 							$this->camouflage = true;			
+						}						
+
+						/* IE 11 on mobile now supports Webkit APIs */
+						if (isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer' &&
+							isset($this->browser->version) && $this->browser->version->toFloat() >= 11 &&
+							isset($this->os->name) && $this->os->name == 'Windows Phone') 
+						{
+							$this->camouflage = false;			
 						}
 					}
 
