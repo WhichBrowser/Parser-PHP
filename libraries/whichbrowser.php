@@ -49,6 +49,8 @@
 
 	define ('FLAG_GOOGLETV', 1);
 	define ('FLAG_GOOGLEGLASS', 2);
+	define ('FLAG_ANDROIDWEAR', 4);
+	define ('FLAG_ANDROIDTV', 8);
 
 	define ('ID_NONE', 0);
 	define ('ID_INFER', 1);
@@ -4719,6 +4721,17 @@
 				$this->os->name = 'Google TV';
 
 				unset($this->os->version);	
+				unset($this->device->flag);			
+			}
+
+			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDWEAR) {
+				$this->os->name = 'Android Wear';
+				unset($this->os->version);	
+
+				$this->browser->stock = true;
+				$this->browser->hidden = true;
+				unset($this->browser->channel);	
+
 				unset($this->device->flag);			
 			}
 
