@@ -2463,11 +2463,68 @@
 			 *		Generic
 			 */
 
-			if (preg_match('/HbbTV\/[0-9\.]+ \([^;]*;\s*([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
+
+			if (preg_match('/InettvBrowser\/[0-9\.]+[A-Z]? \(([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
 				$vendorName = trim($match[1]);
 				$modelName = trim($match[2]);
 
 				if ((!isset($this->device->manufacturer) || $this->device->generic) && $vendorName != '') {
+					switch($vendorName) {
+						case '000087':			$this->device->manufacturer = 'Hitachi'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+												break;
+
+						case '00E091':			$this->device->manufacturer = 'LG'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+												break;
+												
+						case '38E08E':			$this->device->manufacturer = 'Mitsubishi'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+												break;
+
+						case '008045':			$this->device->manufacturer = 'Panasonic'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart Viera'; 
+												break;
+												
+						case '00E064':			$this->device->manufacturer = 'Samsung'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+												break;
+
+						case '08001F':			$this->device->manufacturer = 'Sharp'; 
+												if (!isset($this->device->model)) $this->device->model = 'Aquos TV'; 
+												break;
+												
+						case '00014A':			$this->device->manufacturer = 'Sony'; 
+												if (!isset($this->device->model)) $this->device->model = 'Internet TV'; 
+												break;
+												
+						case '000039':			$this->device->manufacturer = 'Toshiba'; 
+												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+												break;
+					}
+					
+					if ((!isset($this->device->model) || $this->device->generic) && $modelName != '') {
+						$this->device->identified |= ID_PATTERN;
+
+						switch($modelName) {
+							case 'LGE2D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'LGE3D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+						}
+						
+						unset($this->os->name);
+						unset($this->os->version);
+					}
+				}
+
+				$this->device->type = TYPE_TELEVISION;
+			}
+			
+			
+			if (preg_match('/HbbTV\/[0-9\.]+ \([^;]*;\s*([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
+				$vendorName = preg_replace('/^CUS\:/', '', trim($match[1]));
+				$modelName = trim($match[2]);
+
+				if ((!isset($this->device->manufacturer) || $this->device->generic) && $vendorName != '' && $vendorName != 'vendorName') {
 					switch($vendorName) {
 						case 'LG Electronics':	$this->device->manufacturer = 'LG'; break;
 						case 'LGE':				$this->device->manufacturer = 'LG'; break;
@@ -2508,7 +2565,6 @@
 			 *		Detect type based on common identifiers
 			 */
 
-			if (preg_match('/InettvBrowser/', $ua)) {
 				$this->device->type = TYPE_TELEVISION;
 			}
 
