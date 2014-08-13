@@ -4106,7 +4106,7 @@
 				if (preg_match('/;L7200/', $ua)) {
 					$this->device->manufacturer = 'Toshiba';
 					$this->device->model = 'L7200 Smart TV';
-					$this->device->identified |= ID_UA_MATCH;
+					$this->device->identified |= ID_MATCH_UA;
 					$this->device->generic = false; 
 				}
 			}
