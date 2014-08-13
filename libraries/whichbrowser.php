@@ -2526,11 +2526,16 @@
 
 				if ((!isset($this->device->manufacturer) || $this->device->generic) && $vendorName != '' && $vendorName != 'vendorName') {
 					switch($vendorName) {
+						case 'BANGOLUFSEN':		$this->device->manufacturer = 'Bang & Olufsen'; break;
 						case 'LG Electronics':	$this->device->manufacturer = 'LG'; break;
 						case 'LGE':				$this->device->manufacturer = 'LG'; break;
 						case 'TOSHIBA':			$this->device->manufacturer = 'Toshiba'; break;
+						case 'SERAPHIC':		$this->device->manufacturer = 'Seraphic'; break;
 						case 'smart':			$this->device->manufacturer = 'Smart'; break;
+						case 'Sky_worth':		$this->device->manufacturer = 'Skyworth'; break;
+						case 'TELEFUNKEN':		$this->device->manufacturer = 'Telefunken'; break;
 						case 'tv2n':			$this->device->manufacturer = 'TV2N'; break;
+						case 'VESTEL':			$this->device->manufacturer = 'Vestel'; break;
 						default:				$this->device->manufacturer = $vendorName;
 					}
 					
@@ -2538,21 +2543,73 @@
 						$this->device->identified |= ID_PATTERN;
 
 						switch($modelName) {
-							case 'GLOBAL_PLAT3':	$this->device->model = 'NetCast 3.0'; $this->device->identified |= ID_MATCH_UA; break;
-							case 'GLOBAL_PLAT4':	$this->device->model = 'NetCast 4.0'; $this->device->identified |= ID_MATCH_UA; break;
-							case 'NetCast 4.0':		$this->device->model = 'NetCast 4.0'; $this->device->identified |= ID_MATCH_UA; break;
+
+							/* LG */
+							case 'GLOBAL_PLAT3':	$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'GLOBAL_PLAT4':	$this->device->model = 'NetCast 2013'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'NetCast 2.0':		$this->device->model = 'NetCast 2011'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'NetCast 3.0':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'NetCast 4.0':		$this->device->model = 'NetCast 2013'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'NetCast 4.5':		$this->device->model = 'NetCast 2014'; $this->device->identified |= ID_MATCH_UA; break;
+							
+							/* Samsung */
 							case 'SmartTV2012':		$this->device->model = 'Smart TV 2012'; $this->device->identified |= ID_MATCH_UA; break;
-							case 'videoweb':		$this->device->model = 'Videoweb'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'SmartTV2013':		$this->device->model = 'Smart TV 2013'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'SmartTV2014':		$this->device->model = 'Smart TV 2014'; $this->device->identified |= ID_MATCH_UA; break;
+							
+							/* Panasonic */
+							case 'VIERA 2011':		$this->device->model = 'Smart Viera'; $this->device->identified |= ID_MATCH_UA; break;
+							case 'VIERA 2012':		$this->device->model = 'Smart Viera'; $this->device->identified |= ID_MATCH_UA; break;
 							case 'VIERA 2013':		$this->device->model = 'Smart Viera'; $this->device->identified |= ID_MATCH_UA; break;
 							case 'VIERA 2014':		$this->device->model = 'Smart Viera'; $this->device->identified |= ID_MATCH_UA; break;
-							case 'hms1000sph2':		$this->device->manufacturer = 'Humax'; $this->device->model = 'HMS-1000S'; $this->device->identified |= ID_MATCH_UA; break;
+
+							/* Humax */
+							case 'hdr1000s':		$this->device->manufacturer = 'Humax'; 
+													$this->device->model = 'HDR-1000S'; $this->device->identified |= ID_MATCH_UA; 
+													$this->device->generic = false; 
+													break;
+							
+							case 'hms1000s':		
+							case 'hms1000sph2':		$this->device->manufacturer = 'Humax'; 
+													$this->device->model = 'HMS-1000S'; $this->device->identified |= ID_MATCH_UA; 
+													$this->device->generic = false; 
+													break;
+							/* Other */							
+							case 'videoweb':		$this->device->model = 'Videoweb'; $this->device->identified |= ID_MATCH_UA; break;
+							
+							
 							default:				$this->device->model = $modelName;
+													$this->device->generic = false; 
 						}
 						
-						if ($vendorName == 'Humax') {
+						if ($this->device->manufacturer == 'Humax') {
 							$this->device->model = strtoupper($this->device->model);
 						}
+
+						if ($this->device->manufacturer == 'HyperPanel') {
+							$this->device->model = strtok(strtoupper($this->device->model), ' ');
+						}
 						
+						if ($this->device->manufacturer == 'Toshiba') {
+							if (preg_match('/DTV_(.*)/', $this->device->model, $match)) {
+								$this->device->model = $match[1] . ' Smart TV';
+								$this->device->generic = false; 
+							}
+
+							if (preg_match('/([0-9][0-9][A-Z][A-Z][0-9][0-9][0-9])/', $this->device->model, $match)) {
+								$this->device->model = $match[1] . ' Smart TV';
+								$this->device->generic = false; 
+							}
+						}
+						
+						if ($this->device->manufacturer == 'Sony') {
+							if (preg_match('/KDL[0-9]+([A-Z]+[0-9]+)/', $this->device->model, $match)) {
+								$this->device->model = 'Bravia ' . $match[1];
+								$this->device->generic = false; 
+							}
+						}
+
+
 						unset($this->os->name);
 						unset($this->os->version);
 					}
@@ -2560,7 +2617,9 @@
 
 				$this->device->type = TYPE_TELEVISION;
 			}
-			
+
+
+						
 			/****************************************************
 			 *		Detect type based on common identifiers
 			 */
