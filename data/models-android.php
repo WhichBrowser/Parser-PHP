@@ -159,6 +159,12 @@
 			/* Google Glass */
 			'Glass 1'									=> array( 'Google', 'Glass', TYPE_HEADSET, FLAG_GOOGLEGLASS ),
 
+
+			/* Android Wear */
+			'G Watch'									=> array( 'LG', 'G Watch', TYPE_WATCH, FLAG_ANDROIDWEAR ),
+			'Gear Live'									=> array( 'Samsung', 'Gear Live', TYPE_WATCH, FLAG_ANDROIDWEAR ),
+
+
 			
 			/* Middleware and emulators */
 			'BlueStacks'								=> array( 'BlueStacks', 'App Player', 'desktop' ),
