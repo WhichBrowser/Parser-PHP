@@ -2250,7 +2250,7 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 			
-			if (preg_match('/Web0S/', $ua) && preg_match('/Large Screen/', $ua)) {
+			if (preg_match('/Web[O0]S/', $ua) && preg_match('/Large Screen/', $ua)) {
 				unset($this->os->name);
 				unset($this->os->version);
 

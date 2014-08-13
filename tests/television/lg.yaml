@@ -643,8 +643,10 @@
     engine:
       name: Webkit
       version: "537.41"
-    os:
-      name: Linux
+    device:
+      type: television
+      manufacturer: LG
+      model: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (WebOS; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen ISIS/0.2.1-53-r8 Safari/537.41
   result:
@@ -654,6 +656,8 @@
     engine:
       name: Webkit
       version: "537.41"
-    os:
-      name: Linux
+    device:
+      type: television
+      manufacturer: LG
+      model: webOS TV
 ...
