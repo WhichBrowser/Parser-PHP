@@ -393,7 +393,7 @@
 				}
 			}
 
-			if ($this->os->name != 'Android' && $this->os->name != 'Aliyun OS') {
+			if (!isset($this->os->name) || ($this->os->name != 'Android' && $this->os->name != 'Aliyun OS')) {
 				$this->os->name = 'Android';
 				$this->os->version = null;
 				
@@ -406,7 +406,7 @@
 				}
 			}
 			
-			if ($this->engine->name != 'Webkit') {
+			if (!isset($this->engine->name) || $this->engine->name != 'Webkit') {
 				$this->engine->name = 'Webkit';
 				$this->engine->version = null;
 			}
@@ -422,7 +422,7 @@
 		}
 
 		function analyseBaiduHeader($ua) {
-			if ($this->browser->name != 'Baidu Browser') {
+			if (!isset($this->browser->name) || $this->browser->name != 'Baidu Browser') {
 				$this->browser->name = 'Baidu Browser';
 				$this->browser->version = null;
 				$this->browser->stock = false;
@@ -436,7 +436,7 @@
 				unset($this->os->name);
 				unset($this->os->version);
 			}
-			if ($this->browser->name != 'UC Browser') {
+			if (!isset($this->browser->name) || $this->browser->name != 'UC Browser') {
 				$this->browser->name = 'UC Browser';
 				$this->browser->version = null;
 			}
@@ -2095,7 +2095,7 @@
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 				
-				if ($this->browser->name == 'Mobile Internet Explorer')
+				if (isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer')
 					$this->browser->name = 'Internet Explorer';
 			}
 
@@ -2108,7 +2108,7 @@
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 
-				if ($this->browser->name == 'Mobile Internet Explorer')
+				if (isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer')
 					$this->browser->name = 'Internet Explorer';
 			}
 
@@ -3270,22 +3270,26 @@
 				if (preg_match('/Mobile;(?: ([^;]+);)? rv/', $ua, $match)) {
 					$this->device->type = TYPE_MOBILE;
 
-					$device = DeviceModels::identify('firefoxos', $match[1]);
-					if ($device->identified) {
-						$device->identified |= $this->device->identified;
-						$this->os->name = 'Firefox OS';
-						$this->device = $device;
+					if (isset($match[1])) {
+						$device = DeviceModels::identify('firefoxos', $match[1]);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->os->name = 'Firefox OS';
+							$this->device = $device;
+						}
 					}
 				}
 
 				if (preg_match('/Tablet;(?: ([^;]+);)? rv/', $ua, $match)) {
 					$this->device->type = TYPE_TABLET;
 
-					$device = DeviceModels::identify('firefoxos', $match[1]);
-					if ($device->identified) {
-						$device->identified |= $this->device->identified;
-						$this->os->name = 'Firefox OS';
-						$this->device = $device;
+					if (isset($match[1])) {
+						$device = DeviceModels::identify('firefoxos', $match[1]);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->os->name = 'Firefox OS';
+							$this->device = $device;
+						}
 					}
 				}
 				
@@ -4580,7 +4584,7 @@
 				$this->engine->version = new Version(array('value' => $match[1]));
 
 				
-				if ($this->browser->name == 'Internet Explorer') {
+				if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
 					if ($this->engine->version->toNumber() == 7 && $this->browser->version->toFloat() < 11) {
 						$this->browser->version = new Version(array('value' => '11.0'));
 						$this->browser->mode = 'compat';
@@ -4602,7 +4606,7 @@
 					}
 				}
 
-				if ($this->os->name == 'Windows Phone' && $this->browser->name == 'Mobile Internet Explorer') {
+				if (isset($this->os->name) && $this->os->name == 'Windows Phone' && isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer') {
 					if ($this->engine->version->toNumber() == 7 && $this->os->version->toFloat() < 8.1) {
 						$this->os->version = new Version(array('value' => '8.1'));
 					}
@@ -4656,7 +4660,7 @@
 			}
 				
 
-			if ($this->os->name == 'Windows Phone' && $this->browser->name == 'Mobile Internet Explorer') {
+			if (isset($this->os->name) && $this->os->name == 'Windows Phone' && isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer') {
 				if ($this->os->version->toFloat() == 8.0 && $this->browser->version->toNumber() < 10) {
 					$this->browser->version = new Version(array('value' => '11'));
 				}
