@@ -1,6 +1,7 @@
 <?php
 
 		DeviceModels::$FIREFOXOS_MODELS = array(
+			'ALCATEL ONE TOUCH FIRE'					=> array( 'Alcatel', 'One Touch Fire' ),
 			'ALCATEL ONE TOUCH 4012A'					=> array( 'Alcatel', 'One Touch Fire' ),
 			'ALCATELOneTouch4012A'						=> array( 'Alcatel', 'One Touch Fire' ),
 			'ALCATELOneTouch4012X'						=> array( 'Alcatel', 'One Touch Fire' ),

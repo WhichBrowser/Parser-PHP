@@ -86,9 +86,11 @@
 			'RM-9(13|14|15)!'							=> array( 'Nokia', 'Lumia 520' ),
 			'RM-917!'									=> array( 'Nokia', 'Lumia 521' ),
 			'RM-998!'									=> array( 'Nokia', 'Lumia 525' ),
+			'RM-1020!'									=> array( 'Nokia', 'Lumia 530' ),
 			'RM-846!'									=> array( 'Nokia', 'Lumia 620' ),
 			'RM-9(41|43)!'								=> array( 'Nokia', 'Lumia 625' ),
 			'RM-9(76|78)!'								=> array( 'Nokia', 'Lumia 630' ),
+			'RM-1010!'									=> array( 'Nokia', 'Lumia 638' ),
 			'RM-8(85|87)!'								=> array( 'Nokia', 'Lumia 720' ),
 			'RM-878!'									=> array( 'Nokia', 'Lumia 810' ),
 			'RM-8(24|25|26)!'							=> array( 'Nokia', 'Lumia 820' ),
@@ -104,8 +106,6 @@
 			'RM-9(94|96)!'								=> array( 'Nokia', 'Lumia 1320' ),
 			'RM-9(37|38|39)!'							=> array( 'Nokia', 'Lumia 1520' ),
 			'RM-997!'									=> array( 'Nokia', '"Glee"' ),
-//			'RM-1010!'									
-//			'RM-1020!'									
 //			'RM-1027!'									
 			'SeaRay'									=> array( 'Nokia', 'Lumia 800' ),
 			'GT-I8350!'									=> array( 'Samsung', 'Omnia W' ),
