@@ -1,0 +1,41 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)
+  result:
+    browser:
+      name: Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    device:
+      type: gaming
+      manufacturer: Microsoft
+      model: Xbox One
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)
+  result:
+    browser:
+      name: Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    device:
+      type: gaming
+      manufacturer: Microsoft
+      model: Xbox 360
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Xbox)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    device:
+      type: gaming
+      manufacturer: Microsoft
+      model: Xbox 360
+...

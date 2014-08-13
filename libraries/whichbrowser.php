@@ -5035,6 +5035,42 @@
 			
 			return implode($lines, ", ");
 		}
+		
+		function toArray() {
+			$result = array();
+			
+			if (isset($this->browser)) {
+				$result['browser'] = array();	
+				if (isset($this->browser->name) && $this->browser->name) $result['browser']['name'] = $this->browser->name;
+				if (isset($this->browser->version) && $this->browser->version) $result['browser']['version'] = $this->browser->version->toArray();
+			}
+			
+			if (isset($this->engine)) {
+				$result['engine'] = array();	
+				if (isset($this->engine->name) && $this->engine->name) $result['engine']['name'] = $this->engine->name;
+				if (isset($this->engine->version) && $this->engine->version) $result['engine']['version'] = $this->engine->version->toArray();
+			}
+			
+			if (isset($this->os)) {
+				$result['os'] = array();	
+				if (isset($this->os->name) && $this->os->name) $result['os']['name'] = $this->os->name;
+				if (isset($this->os->version) && $this->os->version) $result['os']['version'] = $this->os->version->toArray();
+			}
+			
+			if (isset($this->device)) {
+				$result['device'] = array();	
+				if (isset($this->device->type) && $this->device->type) $result['device']['type'] = $this->device->type;
+				if (isset($this->device->manufacturer) && $this->device->manufacturer) $result['device']['manufacturer'] = $this->device->manufacturer;
+				if (isset($this->device->model) && $this->device->model) $result['device']['model'] = $this->device->model;
+			}	
+			
+			if (!count($result['browser'])) unset($result['browser']);
+			if (!count($result['engine'])) unset($result['engine']);
+			if (!count($result['os'])) unset($result['os']);
+			if (!count($result['device'])) unset($result['device']);
+			
+			return $result;
+		}
 	}
 	
 	class BrowserIds {
@@ -5299,5 +5335,31 @@
 
 		function toNumber() {
 			return intval($this->value);
+		}
+		
+		function toArray() {
+			$result = array();
+			
+			if (isset($this->value)) {
+				if (isset($this->details)) {
+					$parts = explode('.', $this->value);
+					$result['value'] = join('.', array_slice($parts, 0, $this->details));
+				} else {
+					$result['value'] = $this->value;
+				}
+			}
+			
+			if (isset($this->alias)) {
+				$result['alias'] = $this->alias;
+				return $result;
+			}
+			
+			else {
+				if (isset($result['value'])) {
+					return $result['value'];
+				}
+			}
+			
+			return $result;
 		}
 	}

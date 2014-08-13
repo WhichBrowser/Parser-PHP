@@ -1,0 +1,427 @@
+---
+- headers: |
+    User-Agent: Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
+  result:
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Portable
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.10) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.10"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.11) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.11"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.31) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.31"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.41) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.41"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.50) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.50"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.53) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.53"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.55) AppleWebKit/531.22.8 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "4.55"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3; 1.00)
+  result:
+    os:
+      version: "1.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3; 2.00)
+  result:
+    os:
+      version: "2.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PLAYSTATION 3; 3.55)
+  result:
+    os:
+      version: "3.55"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 3) SonyComputerEntertainmentEurope/531.3 (NCell) NuantiMeta/2.0
+  result:
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 3
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.000"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.51) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.51"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.52"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.60) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.60"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.61) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.61"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.62) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.62"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 1.70) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "1.70"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "537.73"
+    os:
+      version: "2.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation 4
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.00) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.50) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.50"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.51) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.51"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.52) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.52"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.60) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.60"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.61) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.61"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 1.80) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: 531.22.8
+    os:
+      version: "1.80"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 2.60) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "2.60"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 2.61) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "2.61"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.00) AppleWebKit/536.26 (KHTML, like Gecko)
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.00) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.00"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.01) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.01"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.01) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2 VTE/2.50
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.01"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita TV
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.10) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.10"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.10) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2 VTE/2.50
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.10"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita TV
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.12) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "536.26"
+    os:
+      version: "3.12"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+- headers: |
+    User-Agent: Mozilla/5.0 (PlayStation Vita 3.20) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2
+  result:
+    engine:
+      name: Webkit
+      version: "537.73"
+    os:
+      version: "3.20"
+    device:
+      type: gaming
+      manufacturer: Sony
+      model: Playstation Vita
+...
