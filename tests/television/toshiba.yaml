@@ -60,16 +60,6 @@
       manufacturer: Toshiba
       model: Smart TV
 - headers: |
-    User-Agent: Mozilla/5.0 (DTV; TVwithVideoPlayer) NetFront/4.1 AQUOSBrowser/1.0 InettvBrowser/2.2 (08001F;DTV06VSFC;0009;0001)
-  result:
-    browser:
-      name: NetFront
-      version: "4.1"
-    device:
-      type: television
-      manufacturer: Sharp
-      model: Aquos TV
-- headers: |
     User-Agent: Mozilla/5.0 (Linux mipsel; U; HbbTV/1.1.1 (; TOSHIBA; 40PX200; 0.7.3.0.; t12; ) ; Toshiba_TP/1.3.0 (+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4+VIDEO_X_MS_ASF+OFFLINEAPP) ; en) AppleWebKit/534.1 (KHTML, like Gecko)
   result:
     engine:
