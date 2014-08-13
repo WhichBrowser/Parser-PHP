@@ -2490,6 +2490,14 @@
 
 						case '00E091':			$this->device->manufacturer = 'LG'; 
 												if (!isset($this->device->model)) $this->device->model = 'Smart TV'; 
+
+												if ($this->device->generic && $modelName != '') {
+													switch($modelName) {
+														case 'LGE2D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+														case 'LGE3D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
+													}
+												}
+												
 												break;
 												
 						case '38E08E':			$this->device->manufacturer = 'Mitsubishi'; 
@@ -2517,17 +2525,8 @@
 												break;
 					}
 					
-					if ((!isset($this->device->model) || $this->device->generic) && $modelName != '') {
-						$this->device->identified |= ID_PATTERN;
-
-						switch($modelName) {
-							case 'LGE2D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
-							case 'LGE3D2012M':		$this->device->model = 'NetCast 2012'; $this->device->identified |= ID_MATCH_UA; break;
-						}
-						
-						unset($this->os->name);
-						unset($this->os->version);
-					}
+					unset($this->os->name);
+					unset($this->os->version);
 				}
 
 				$this->device->type = TYPE_TELEVISION;
