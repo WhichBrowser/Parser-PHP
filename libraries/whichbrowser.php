@@ -2066,8 +2066,8 @@
 			 */
 		
 			if (preg_match('/Xbox\)$/', $ua, $match)) {
-				$this->os->name = '';
-				$this->os->version = null;
+				unset($this->os->name);
+				unset($this->os->version);
 		
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox 360';
@@ -2079,8 +2079,8 @@
 			}
 
 			if (preg_match('/Xbox One\)$/', $ua, $match)) {
-				$this->os->name = '';
-				$this->os->version = null;
+				unset($this->os->name);
+				unset($this->os->version);
 		
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox One';
@@ -2122,8 +2122,8 @@
 			 */
 		
 			if (preg_match('/Microsoft ZuneHD/', $ua)) {
-				$this->os->name = '';
-				$this->os->version = null;
+				unset($this->os->name);
+				unset($this->os->version);
 
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Zune HD';
@@ -2137,7 +2137,9 @@
 			 */
 		
 			if (preg_match('/Viera/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Panasonic';
 				$this->device->model = 'Smart Viera';
 				$this->device->type = TYPE_TELEVISION;
@@ -2150,7 +2152,9 @@
 			 */
 		
 			if (preg_match('/AQUOSBrowser/', $ua) || preg_match('/AQUOS-AS/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Sharp';
 				$this->device->model = 'Aquos TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2173,7 +2177,8 @@
 				}
 
 				if (!preg_match('/Tizen/', $ua)) {
-					$this->os->name = '';
+					unset($this->os->name);
+					unset($this->os->version);
 				}
 			}
 
@@ -2183,7 +2188,9 @@
 			 */
 
 			if (preg_match('/SonyDTV|SonyBDP|SonyCEBrowser/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Internet TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2195,7 +2202,9 @@
 			 */
 
 			if (preg_match('/NETTV\//', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Philips';
 				$this->device->model = 'Net TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2207,7 +2216,9 @@
 			 */
 
 			if (preg_match('/LG NetCast\.(?:TV|Media)-([0-9]*)/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'LG';
 				$this->device->model = 'NetCast TV ' . $match[1];
 				$this->device->type = TYPE_TELEVISION;
@@ -2215,7 +2226,9 @@
 			}
 
 			if (preg_match('/LGSmartTV/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'LG';
 				$this->device->model = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2227,9 +2240,10 @@
 			 */
 
 			if (preg_match('/Toshiba_?TP\//', $ua) || preg_match('/TSBNetTV\//', $ua)) {
-				$this->os->name = '';
 				$this->device->manufacturer = 'Toshiba';
 				$this->device->model = 'Smart TV';
+				unset($this->os->name);
+				unset($this->os->version);
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -2237,10 +2251,10 @@
 			/****************************************************
 			 *		NetRange MMH 
 			 */
+				unset($this->os->name);
+				unset($this->os->version);
 
 			if (preg_match('/NETRANGEMMH/', $ua)) {
-				$this->os->name = '';
-				$this->os->version = null;
 				$this->browser->name = '';
 				$this->browser->version = null;
 				$this->device->model = 'NetRange MMH';
@@ -2253,11 +2267,12 @@
 			 */
 
 			if (preg_match('/mbxtWebKit\/([0-9.]*)/', $ua, $match)) {
-				$this->os->name = '';
 				$this->browser->name = 'MachBlue XT';
 				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
 				$this->device->type = TYPE_TELEVISION;
 			}
+				unset($this->os->name);
+				unset($this->os->version);
 
 			if ($ua == 'MachBlue') {
 				$this->os->name = '';
@@ -2271,7 +2286,9 @@
 			 */
 
 			if (preg_match('/Motorola KreaTV STB/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Motorola';
 				$this->device->model = 'KreaTV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2284,7 +2301,9 @@
 			 */
 
 			if (preg_match('/\(ADB; ([^\)]+)\)/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'ADB';
 				$this->device->model = ($match[1] != 'Unknown' ? str_replace('ADB', '', $match[1]) . ' ' : '') . 'IPTV receiver';
 				$this->device->type = TYPE_TELEVISION;
@@ -2297,7 +2316,9 @@
 			 */
 
 			if (preg_match('/Mstar;OWB/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'MStar';
 				$this->device->model = 'PVR';
 				$this->device->type = TYPE_TELEVISION;
@@ -2311,7 +2332,9 @@
 			 */
 
 			if (preg_match('/TechniSat ([^;]+);/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'TechniSat';
 				$this->device->model = $match[1];
 				$this->device->type = TYPE_TELEVISION;
@@ -2324,7 +2347,9 @@
 			 */
 
 			if (preg_match('/Technicolor_([^;]+);/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Technicolor';
 				$this->device->model = $match[1];
 				$this->device->type = TYPE_TELEVISION;
@@ -2337,7 +2362,9 @@
 			 */
 
 			if (preg_match('/Winbox Evo2/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Winbox';
 				$this->device->model = 'Evo2';
 				$this->device->type = TYPE_TELEVISION;
@@ -2350,7 +2377,9 @@
 			 */
 
 			if (preg_match('/DuneHD\//', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Dune HD';
 				$this->device->model = '';
 				$this->device->type = TYPE_TELEVISION;
@@ -2362,7 +2391,9 @@
 			 */
 
 			if (preg_match('/^Roku\/DVP-([0-9]+)/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Roku';
 				$this->device->type = TYPE_TELEVISION;
 
@@ -2385,7 +2416,9 @@
 			 */
 
 			if (preg_match('/MediStream/', $ua)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Bewatec';
 				$this->device->model = 'MediStream';
 				$this->device->type = TYPE_TELEVISION;
@@ -2399,7 +2432,9 @@
 			 */
 
 			if (preg_match('/BrightSign\/[0-9\.]+ \(([^\)]+)/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'BrightSign';
 				$this->device->model = $match[1];
 				$this->device->type = TYPE_SIGNAGE;
@@ -2413,7 +2448,9 @@
 			 */
 
 			if (preg_match('/ADAPI/', $ua) && preg_match('/\(MODEL:([^\)]+)\)/', $ua, $match)) {
-				$this->os->name = '';
+				unset($this->os->name);
+				unset($this->os->version);
+
 				$this->device->manufacturer = 'Iadea';
 				$this->device->model = $match[1];
 				$this->device->type = TYPE_SIGNAGE;
@@ -2459,7 +2496,8 @@
 							$this->device->model = strtoupper($this->device->model);
 						}
 						
-						$this->os->name = '';
+						unset($this->os->name);
+						unset($this->os->version);
 					}
 				}
 
