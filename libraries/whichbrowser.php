@@ -2478,7 +2478,7 @@
 			 */
 
 
-			if (preg_match('/InettvBrowser\/[0-9\.]+[A-Z]? \(([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
+			if (preg_match('/(?:DTVNetBrowser|InettvBrowser)\/[0-9\.]+[A-Z]? \(([^;]*)\s*;\s*([^;]*)\s*;/', $ua, $match)) {
 				$vendorName = trim($match[1]);
 				$modelName = trim($match[2]);
 
