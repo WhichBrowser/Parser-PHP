@@ -2224,6 +2224,16 @@
 				$this->device->model = 'Net TV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/AquosTV/', $ua)) {
+					$this->device->manufacturer = 'Sharp';
+					$this->device->model = 'Aquos TV';
+				}
+				
+				if (preg_match('/BANGOLUFSEN/', $ua)) {
+					$this->device->manufacturer = 'Bang & Olufsen';
+					$this->device->model = 'Smart TV';
+				}
 			}
 			
 			/****************************************************

@@ -441,8 +441,8 @@
       version: 2.10.287
     device:
       type: television
-      manufacturer: Philips
-      model: Net TV
+      manufacturer: Sharp
+      model: Aquos TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB90/3.3.8.e (SHARP, Si2156LG32, wired) HbbTV/1.1.1 (; CUS:SHARP; MB90; 3.3.8.e; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3
   result:
