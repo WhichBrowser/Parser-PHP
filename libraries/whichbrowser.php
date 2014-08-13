@@ -2554,6 +2554,7 @@
 						case 'LGE':				$this->device->manufacturer = 'LG'; break;
 						case 'TOSHIBA':			$this->device->manufacturer = 'Toshiba'; break;
 						case 'SERAPHIC':		$this->device->manufacturer = 'Seraphic'; break;
+						case 'SHARP':			$this->device->manufacturer = 'Sharp'; break;
 						case 'smart':			$this->device->manufacturer = 'Smart'; break;
 						case 'Sky_worth':		$this->device->manufacturer = 'Skyworth'; break;
 						case 'TELEFUNKEN':		$this->device->manufacturer = 'Telefunken'; break;

@@ -454,6 +454,6 @@
       version: 2.12.407
     device:
       type: television
-      manufacturer: SHARP
+      manufacturer: Sharp
       model: MB90
 ...
