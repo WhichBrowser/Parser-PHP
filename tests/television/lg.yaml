@@ -405,9 +405,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 LGSmartTV/5.0
   result:
-    browser:
-      name: Chrome
-      version: "26"
     engine:
       name: Webkit
       version: "537.31"

@@ -259,9 +259,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (+DRM+TRICKMODE; SERAPHIC; TV101; sw-v1.0; hw-v1.0) CE-HTML/1.0 FXM-U2FsdGVkX1+tH+IvjK4AyJIfuJUAyORg8ptl86EQiyLy7LytAiEgU3mKjwgF90uz-END
   result:
-    browser:
-      name: Chrome
-      version: "30"
     engine:
       name: Blink
       version: "537.36"
@@ -272,9 +269,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (CHANGHONG; TV55; sw-v1.0;) CE-HTML/1.0 NETRANGEMMH
   result:
-    browser:
-      name: Chrome
-      version: "30"
     engine:
       name: Blink
       version: "537.36"

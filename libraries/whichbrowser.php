@@ -5129,7 +5129,24 @@
 					$this->os->build = $match[1];
 				}
 			}
-			
+
+			if ($this->device->type == TYPE_TELEVISION) {
+				if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
+					unset($this->browser->name);
+					unset($this->browser->version);
+				}
+					
+				if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
+					$valid = false;
+					if (isset($this->os->name) && in_array($this->os->name, array('Google TV', 'Android'))) $valid = true;
+					if (isset($this->device->model) && in_array($this->device->model, array('Chromecast'))) $valid = true;
+					
+					if (!$valid) {
+						unset($this->browser->name);
+						unset($this->browser->version);
+					}
+				}
+			}
 		}
 		
 		function toJavaScript() {
