@@ -5,35 +5,35 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2011
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 2000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2012
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2013;3.720;4101-0003 0002-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2013
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2013;3.720;6101-0003 4000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2013
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2014;0.001;ba01-0003 4000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2014
 - headers: |
     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0 compatible; Device Mosaic 5.2.1;OpenTV) InettvBrowser/2.3 (008045;V750;1.01;10000) TvpsExtInfo/A05001 (7A050002020100004D1B;23;FP)
   result:
@@ -131,7 +131,7 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2014
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.10.3 Chrome/23.0.1271.97 Safari/537.11
   result:
@@ -323,7 +323,7 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2011
 - headers: |
     User-Agent: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.tv.2012)
   result:
@@ -333,5 +333,5 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Smart Viera 2012
 ...

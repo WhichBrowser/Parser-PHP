@@ -2247,10 +2247,10 @@
 					case 'Panasonic':		$this->device->manufacturer = 'Panasonic'; 
 					
 											switch($modelName) {
-												case 'VIERA 2011':		$this->device->series = 'Smart Viera'; break;
-												case 'VIERA 2012':		$this->device->series = 'Smart Viera'; break;
-												case 'VIERA 2013':		$this->device->series = 'Smart Viera'; break;
-												case 'VIERA 2014':		$this->device->series = 'Smart Viera'; break;
+												case 'VIERA 2011':		$this->device->series = 'Smart Viera 2011'; break;
+												case 'VIERA 2012':		$this->device->series = 'Smart Viera 2012'; break;
+												case 'VIERA 2013':		$this->device->series = 'Smart Viera 2013'; break;
+												case 'VIERA 2014':		$this->device->series = 'Smart Viera 2014'; break;
 												default:				$this->device->model = $modelName; break;
 											}
 											
@@ -2301,6 +2301,14 @@
 				$this->device->series = 'Smart Viera';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
+			
+				if (preg_match('/Panasonic\.tv\.([0-9]+)/', $ua, $match)) {
+					$this->device->series = 'Smart Viera ' . $match[1];
+				}
+
+				if (preg_match('/\(Panasonic, ([0-9]+),/', $ua, $match)) {
+					$this->device->series = 'Smart Viera ' . $match[1];
+				}
 			}
 
 
