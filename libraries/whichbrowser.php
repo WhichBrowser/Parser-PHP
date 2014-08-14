@@ -2141,7 +2141,7 @@
 			 *		Generic television detection
 			 */
 		
-			if (preg_match('/\(([^,\(]+),\s*([^,\(]+),\s*(?:wired|wireless)\)/', $ua, $match)) {
+			if (preg_match('/\(([^,\(]+),\s*([^,\(]+),\s*(?:[Ww]ired|[Ww]ireless)\)/', $ua, $match)) {
 				$vendorName = Manufacturers::identify(TYPE_TELEVISION, $match[1]);
 				$modelName = trim($match[2]);
 				

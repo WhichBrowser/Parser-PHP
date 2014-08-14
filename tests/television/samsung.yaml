@@ -187,6 +187,7 @@
     device:
       type: television
       manufacturer: Samsung
+      model: UN40H6400
       series: Smart TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2014; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+
