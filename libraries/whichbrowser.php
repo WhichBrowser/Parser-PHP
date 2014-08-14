@@ -5072,6 +5072,7 @@
 				if (isset($this->device->type) && $this->device->type) $result['device']['type'] = $this->device->type;
 				if (isset($this->device->manufacturer) && $this->device->manufacturer) $result['device']['manufacturer'] = $this->device->manufacturer;
 				if (isset($this->device->model) && $this->device->model) $result['device']['model'] = $this->device->model;
+				if (isset($this->device->series) && $this->device->series) $result['device']['series'] = $this->device->series;
 			}	
 			
 			if (!count($result['browser'])) unset($result['browser']);

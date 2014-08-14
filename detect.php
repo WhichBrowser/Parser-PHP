@@ -15,7 +15,7 @@
 	if (isset($_REQUEST['w'])) $options['width'] = intval($_REQUEST['w']);
 	if (isset($_REQUEST['h'])) $options['height'] = intval($_REQUEST['h']);
 	$detected = new WhichBrowser($options);
-
+	
 ?>
 	
 var WhichBrowser = (function(){
@@ -168,6 +168,7 @@ var WhichBrowser = (function(){
 			this.identified = v.identified || false;
 			this.manufacturer = v.manufacturer || null;
 			this.model = v.model || null;
+			this.series = v.series || null;
 		},
 		
 		toJSON: function() {
@@ -175,13 +176,14 @@ var WhichBrowser = (function(){
 				type:			this.type,
 				identified:		this.identified,
 				manufacturer:	this.manufacturer,
-				model:			this.model
+				model:			this.model,
+				series:			this.series
 			};
 		},
 		
 		toString: function() {
 			if (this.identified)			
-				return (this.manufacturer || '') + ' ' + (this.model || '');
+				return ((this.manufacturer || '') + ' ' + (this.model || '') + ' ' + (this.series || '')).replace(/^\s+|\s+$/g,'');
 			else
 				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
