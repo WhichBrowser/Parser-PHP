@@ -1028,6 +1028,9 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: Sony
+      model: BDP-S1200
+      series: Blu-ray Player
 - headers: |
     User-Agent: Roku/DVP-5.4 (045.04E03198A)
   result:

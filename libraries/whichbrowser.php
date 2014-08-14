@@ -2381,6 +2381,17 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 			
+			if (preg_match('/SmartBD/', $ua) && preg_match('/(BDP-[A-Z][0-9]+)/', $ua, $match)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->manufacturer = 'Sony';
+				$this->device->model = $match[1];
+				$this->device->series = 'Blu-ray Player';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
 			if (preg_match('/\s+([0-9]+)BRAVIA/', $ua, $match)) {
 				unset($this->os->name);
 				unset($this->os->version);
