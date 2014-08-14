@@ -2177,11 +2177,11 @@
 				$this->device->identified |= ID_PATTERN;
 				if (!isset($this->device->series)) $this->device->series = 'Smart TV';
 
-				switch($vendorName) {
-					case '000087':			$this->device->manufacturer = 'Hitachi'; 
+				switch($vendorName . '#') {
+					case '000087#':			$this->device->manufacturer = 'Hitachi'; 
 											break;
 
-					case '00E091':			$this->device->manufacturer = 'LG'; 
+					case '00E091#':			$this->device->manufacturer = 'LG'; 
 
 											switch($modelName) {
 												case 'LGE2D2012M':		$this->device->series = 'NetCast TV 2012'; break;
@@ -2190,22 +2190,22 @@
 											
 											break;
 											
-					case '38E08E':			$this->device->manufacturer = 'Mitsubishi'; 
+					case '38E08E#':			$this->device->manufacturer = 'Mitsubishi'; 
 											break;
 
-					case '008045':			$this->device->manufacturer = 'Panasonic'; 
+					case '008045#':			$this->device->manufacturer = 'Panasonic'; 
 											break;
 											
-					case '00E064':			$this->device->manufacturer = 'Samsung'; 
+					case '00E064#':			$this->device->manufacturer = 'Samsung'; 
 											break;
 
-					case '08001F':			$this->device->manufacturer = 'Sharp'; 
+					case '08001F#':			$this->device->manufacturer = 'Sharp'; 
 											break;
 											
-					case '00014A':			$this->device->manufacturer = 'Sony'; 
+					case '00014A#':			$this->device->manufacturer = 'Sony'; 
 											break;
 											
-					case '000039':			$this->device->manufacturer = 'Toshiba'; 
+					case '000039#':			$this->device->manufacturer = 'Toshiba'; 
 											break;
 				}
 			}
