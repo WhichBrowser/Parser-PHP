@@ -288,4 +288,7 @@
       version: 2.10.250
     device:
       type: television
+      manufacturer: Samsung
+      model: BD-F5500
+      series: Blu-ray Player
 ...

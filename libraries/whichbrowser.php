@@ -2363,6 +2363,17 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+			if (preg_match('/Model\/Samsung-(BD-[A-Z][0-9]+)/', $ua, $match)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->manufacturer = 'Samsung';
+				$this->device->model = $match[1];
+				$this->device->series = 'Blu-ray Player';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
 
 			/****************************************************
 			 *		Sony Internet TV
