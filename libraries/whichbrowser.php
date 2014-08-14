@@ -2483,7 +2483,19 @@
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
+			
+			if (preg_match('/TOSHIBA;[^;]+;([A-Z]+[0-9]+[A-Z]+);/', $ua, $match)) {
+				unset($this->os->name);
+				unset($this->os->version);
 
+				$this->device->manufacturer = 'Toshiba';
+				$this->device->model = $match[1];
+				$this->device->series = 'Smart TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+			
+			
 			/****************************************************
 			 *		Motorola KreaTV
 			 */
@@ -2688,12 +2700,18 @@
 					
 					if ($this->device->manufacturer == 'Toshiba') {
 						if (preg_match('/DTV_(.*)/', $this->device->model, $match)) {
-							$this->device->model = $match[1];
+							$this->device->model = 'Regza ' . $match[1];
 							$this->device->generic = false; 
 						}
 	
-						if (preg_match('/([0-9][0-9][A-Z][A-Z][0-9][0-9][0-9])/', $this->device->model, $match)) {
+						if (preg_match('/[0-9][0-9]([A-Z][A-Z][0-9][0-9][0-9])/', $this->device->model, $match)) {
+							$this->device->model = 'Regza ' . $match[1];
+							$this->device->generic = false; 
+						}
+
+						if (preg_match('/(BDX[0-9]+)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
+							$this->device->series = "Blu-ray Player";
 							$this->device->generic = false; 
 						}
 					}
@@ -4189,7 +4207,8 @@
 				
 				if (preg_match('/;L7200/', $ua)) {
 					$this->device->manufacturer = 'Toshiba';
-					$this->device->model = 'L7200 Smart TV';
+					$this->device->model = 'Regza L7200';
+					$this->device->series = 'Smart TV';
 					$this->device->identified |= ID_MATCH_UA;
 					$this->device->generic = false; 
 				}
