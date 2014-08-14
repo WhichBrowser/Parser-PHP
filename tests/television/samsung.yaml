@@ -4,6 +4,8 @@
   result:
     device:
       type: television
+      manufacturer: Samsung
+      series: Smart TV 2011
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2012;;;) WebKit
   result:

@@ -2355,6 +2355,13 @@
 					unset($this->os->version);
 				}
 			}
+			
+			if (preg_match('/Maple_([0-9][0-9][0-9][0-9])/', $ua, $match)) {
+				$this->device->manufacturer = 'Samsung';
+				$this->device->series = 'Smart TV ' . $match[1];
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
 
 
 			/****************************************************
