@@ -2361,12 +2361,22 @@
 			 *		Sony Internet TV
 			 */
 
-			if (preg_match('/SonyDTV|SonyBDP|SonyCEBrowser/', $ua)) {
+			if (preg_match('/SonyDTV|SonyCEBrowser/', $ua)) {
 				unset($this->os->name);
 				unset($this->os->version);
 
 				$this->device->manufacturer = 'Sony';
 				$this->device->series = 'Internet TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+			
+			if (preg_match('/Sony-?BDP/', $ua)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->manufacturer = 'Sony';
+				$this->device->series = "Blu-ray Player";
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}

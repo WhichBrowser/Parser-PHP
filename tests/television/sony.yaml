@@ -31,7 +31,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4207; U; (SonyBDP/BDV11); en) Presto/2.9.167 Version/11.50
   result:
@@ -44,7 +44,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; (SonyBDP/BDV12); xx) Presto/2.10.250 Version/11.60
   result:
@@ -57,7 +57,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; xx) Presto/2.10.250 Version/11.60 Model/Sony-BDP7G_B SonyCEBrowser/1.0 (BDP7G_B; BDP/M12.R.0497; XXX; )
   result:
@@ -70,7 +70,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5572) Presto/2.12.362 Version/12.11 Model/Sony-BDP8G_AX SonyCEBrowser/1.0 (BDP8G_AX; M14.D.0152; USA; )
   result:
@@ -83,7 +83,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11 Model/Sony-BDP9G_AXD SonyCEBrowser/1.0 (BDP9G_AXD; BDP/M20.D.0043; XAE; )
   result:
@@ -96,7 +96,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (BDP8G_BX; BDP/M15.D.0163; USA; )
   result:
@@ -133,7 +133,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5599; (SonyBDP/BDV13)) Presto/2.12.362 Version/12.11
   result:
@@ -146,7 +146,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5606; (SonyBDP/BDV14)) Presto/2.12.362 Version/12.11
   result:
@@ -159,7 +159,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; (SonyBDP/BDV11); en) Presto/2.8.115 Version/11.10
   result:
@@ -172,7 +172,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; (SonyBDP/BDV11); xx) Presto/2.8.115 Version/11.10
   result:
@@ -185,7 +185,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (DTV14/KDL-32W653A; CTV/PKG0.020EUA; GBR; xx;)
   result:
@@ -653,7 +653,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/5581; (SonyBDP/BDV13)) Presto/2.12.362 Version/12.11
   result:
@@ -666,7 +666,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/5599; (SonyBDP/BDV14)) Presto/2.12.362 Version/12.11
   result:
@@ -679,7 +679,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W600A; CC/CHN; xx) Presto/2.10.287 Version/12.00
   result:
