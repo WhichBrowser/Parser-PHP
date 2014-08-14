@@ -2439,17 +2439,10 @@
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
-			
-			if (preg_match('/LG NetCast\.(TV|Media)-([0-9]*)/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
 
-				$this->device->manufacturer = 'LG';
-				$this->device->series = 'NetCast ' . $match[1] . ' ' . $match[2];
-				$this->device->type = TYPE_TELEVISION;
-				$this->device->identified |= ID_MATCH_UA;
-			}
 
+			/* NetCast */
+						
 			if (preg_match('/NetCast/', $ua) && preg_match('/SmartTV\//', $ua)) {
 				unset($this->os->name);
 				unset($this->os->version);
@@ -2459,6 +2452,25 @@
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
+
+			if (preg_match('/LG NetCast\.(TV|Media)-([0-9]*)/', $ua, $match)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->manufacturer = 'LG';
+				$this->device->series = 'NetCast ' . $match[1] . ' ' . $match[2];
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/LG Browser\/[0-9.]+\([^;]+; LGE; ([^;]+);/', $ua, $match)) {
+					if (substr($match[1], 0, 6) != 'GLOBAL') {
+						$this->device->model = $match[1];
+					}
+				}
+			}
+
+
+			/* WebOS */
 
 			if (preg_match('/Web[O0]S/', $ua) && preg_match('/Large Screen/', $ua)) {
 				unset($this->os->name);
@@ -2478,6 +2490,12 @@
 				$this->device->series = 'webOS TV ' . $match[1];
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
+
+				if (preg_match('/LG Browser\/[0-9.]+\(LGE; ([^;]+);/', $ua, $match)) {
+					if (strtoupper(substr($match[1], 0, 5)) != 'WEBOS') {
+						$this->device->model = $match[1];
+					}
+				}
 			}
 
 
@@ -2709,6 +2727,23 @@
 						$this->device->model = strtok(strtoupper($this->device->model), ' ');
 					}
 					
+					if ($this->device->manufacturer == 'LG') {
+						if (preg_match('/(?:ATSC|DVB)-(.*)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+	
+						if (preg_match('/[0-9][0-9]([A-Z][A-Z][0-9][0-9][0-9][0-9A-Z])/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+
+						if (preg_match('/Media\/(.*)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+					}
+
 					if ($this->device->manufacturer == 'Toshiba') {
 						if (preg_match('/DTV_(.*)/', $this->device->model, $match)) {
 							$this->device->model = 'Regza ' . $match[1];
