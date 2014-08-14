@@ -24,6 +24,7 @@
       version: "4.1"
     device:
       type: mobile
+      model: MB70
 - headers: |
     User-Agent: HbbTV/1.1.1 (; Vestel; MB70; 1.0; 1.0;) NetFront/4.1
   result:
@@ -438,8 +439,8 @@
       version: "534.1"
     device:
       type: television
-      manufacturer: Mstar
-      model: OWB
+      manufacturer: MStar
+      model: PVR
 - headers: |
     User-Agent: Opera/10.60 (Linux i686 ; U; HbbTV/1.1.1 (;;;;;); CE-HTML; TechniSat MultyVision ISIO; de) Presto/2.6.33 Version/10.60
   result:
@@ -640,6 +641,7 @@
       type: television
       manufacturer: Bang & Olufsen
       model: A3
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR+DRM; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.5.32855 (BANGOLUFSEN, A3, wired)
   result:
@@ -653,6 +655,7 @@
       type: television
       manufacturer: Bang & Olufsen
       model: A3
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.5.33043 (BANGOLUFSEN, A3, wired)
   result:
@@ -666,6 +669,7 @@
       type: television
       manufacturer: Bang & Olufsen
       model: A3
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.5.33981 (BANGOLUFSEN, A3, wired)
   result:
@@ -679,6 +683,7 @@
       type: television
       manufacturer: Bang & Olufsen
       model: A3
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 HbbTV/1.1.1 (; Vestel; S7720; 1.0; 1.0;)
   result:
@@ -705,6 +710,7 @@
       type: television
       manufacturer: MEDION
       model: MB90
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; hdr1000s; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50
   result:

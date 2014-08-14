@@ -10,28 +10,28 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2012
+      series: Smart TV 2012
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2013;T-FXPDEUC-1116.1;;) WebKit
   result:
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2013
+      series: Smart TV 2013
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2013;T-MST12DEUC-1118.2;;) WebKit
   result:
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2013
+      series: Smart TV 2013
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2014;T-MST14DEUC-1106.1;;) WebKit
   result:
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2014
+      series: Smart TV 2014
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; GT-B9150 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.55 Mobile Safari/537.36
   result:
@@ -75,7 +75,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; Linux; Tizen 2.2) AppleWebKit/538.1 (KHTML, like Gecko)Version/2.2 Mobile Safari/538.1
   result:
@@ -88,7 +88,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; Tizen 2.2) AppleWebKit/538.1 (KHTML, like Gecko)Version/2.2 Mobile Safari/538.1
   result:
@@ -101,7 +101,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit/537.42 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.42
   result:
@@ -114,7 +114,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux i686) AppleWebKit/534.7 (KHTML, like Gecko) Version/5.0 Safari/534.7
   result:
@@ -124,7 +124,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux i686) AppleWebKit/535.20+ (KHTML, like Gecko) Version/5.0 Safari/535.20+
   result:
@@ -134,7 +134,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (Smart-Tv; Linux; Tizen 2.2.x) AppleWebkit/538.1 (KHTML, like Gecko) Safari/538.1
   result:
@@ -147,7 +147,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV) AppleWebKit/531.2+ (KHTML, like Gecko) WebBrowser/1.0
   result:
@@ -157,7 +157,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV) AppleWebKit/531.2+ (KHTML, like Gecko) WebBrowser/1.0 SmartTV Safari/531.2+
   result:
@@ -167,7 +167,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2013; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+
   result:
@@ -177,7 +177,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2013
+      series: Smart TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2013; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ SamsungTV/T-MST14AKUC-0407.0 (Samsung, UN40H6400, Wired)
   result:
@@ -187,7 +187,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2013
+      series: Smart TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2014; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+
   result:
@@ -197,14 +197,14 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2014
+      series: Smart TV 2014
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012)
   result:
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2012
+      series: Smart TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7
   result:
@@ -214,7 +214,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV 2012
+      series: Smart TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx;) AppleWebKit/534(KHTML, like Gecko) NX/2.0 (DTV; HTML; R1.0;)  InettvBrowser/2.2 (00E064;UA46FS7000;0001;0001) TvpsExtInfo/A31002 (6A31AA40155FBC8EDC1468E7309DB736;22;T)
   result:
@@ -227,7 +227,7 @@
     device:
       type: television
       manufacturer: LG
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 5.1.00277 Navi
   result:
@@ -263,7 +263,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (X11; SMART-TV; Linux) AppleWebkit/538.1 (KHTML, like Gecko) like Chrome ; Safari/538.1
   result:
@@ -273,7 +273,7 @@
     device:
       type: television
       manufacturer: Samsung
-      model: Smart TV
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5580;) Presto/2.10.250 Version/11.60 Model/Samsung-BD-F5500
   result:

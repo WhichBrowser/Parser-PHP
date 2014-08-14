@@ -11,5 +11,5 @@
     device:
       type: television
       manufacturer: Mitsubishi
-      model: Smart TV
+      series: Smart TV
 ...

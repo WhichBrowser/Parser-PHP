@@ -8,5 +8,5 @@
     device:
       type: television
       manufacturer: Hitachi
-      model: Smart TV
+      series: Smart TV
 ...

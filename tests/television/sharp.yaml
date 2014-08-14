@@ -8,7 +8,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 AQUOSBrowser/1.0 (CH00DTV;V;0001;0001)
   result:
@@ -21,7 +21,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 AQUOSBrowser/1.0 (JP00DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV10VSFC3;0001;0001)
   result:
@@ -34,7 +34,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 AQUOSBrowser/1.0 (US00DTV;V;0001;0001)
   result:
@@ -47,7 +47,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.5 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001) AQUOS-AS/2.0 LC-46LX840H
   result:
@@ -60,7 +60,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 46LX840H Aquos TV
+      model: 46LX840H
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.1 AQUOSBrowser/1.1 (US01DTV;V;0001;0001)
   result:
@@ -73,7 +74,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.10 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -86,7 +87,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.10 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -99,7 +100,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.11 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -112,7 +113,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-60LX959H
   result:
@@ -125,7 +126,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 60LX959H Aquos TV
+      model: 60LX959H
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-60UQ10E
   result:
@@ -138,7 +140,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 60UQ10E Aquos TV
+      model: 60UQ10E
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-70UQ10E
   result:
@@ -151,7 +154,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 70UQ10E Aquos TV
+      model: 70UQ10E
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -164,7 +168,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -177,7 +181,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.13 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -190,7 +194,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.13 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -203,7 +207,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.14 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -216,7 +220,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.14 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -229,7 +233,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.15 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-60UQ10E
   result:
@@ -242,7 +246,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 60UQ10E Aquos TV
+      model: 60UQ10E
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.15 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -255,7 +260,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.15 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -268,7 +273,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.16 AQUOSBrowser/2.0 (JP12DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV12VSFC3;0001;0001)
   result:
@@ -281,7 +286,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.16 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -294,7 +299,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.17 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -307,7 +312,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.18 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
@@ -320,7 +325,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.3 AQUOSBrowser/1.0 (JP00DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV10VSFC3;0001;0001)
   result:
@@ -333,7 +338,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.4 AQUOSBrowser/2.0 (JP10DTV;B;0001;0001) InettvBrowser/2.2 (08001F;DTV11VSFC3;0001;0001)
   result:
@@ -346,7 +351,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.5 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-60LE950X
   result:
@@ -359,7 +364,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 60LE950X Aquos TV
+      model: 60LE950X
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.6 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-60LX850H
   result:
@@ -372,7 +378,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 60LX850H Aquos TV
+      model: 60LX850H
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.9 Hybridcast/1.0 (;08001F;DTV12VSFC3;0001;0001;)
   result:
@@ -396,7 +403,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV; TVwithVideoPlayer) NetFront/4.1 AQUOSBrowser/1.0 InettvBrowser/2.2 (08001F;DTV06VSFC;0009;0001)
   result:
@@ -406,7 +413,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV; TVwithVideoPlayer) NetFront/4.1 InettvBrowser/2.2 (08001F;DTV04VSFC3;0001;0001)
   result:
@@ -416,7 +423,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; en) Presto/2.8.115 Version/11.10 AQUOS-AS/1.0 LC-40LE835X
   result:
@@ -429,7 +436,8 @@
     device:
       type: television
       manufacturer: Sharp
-      model: 40LE835X Aquos TV
+      model: 40LE835X
+      series: Aquos TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; HbbTV/1.1.1 (; ; ; ; ; ) CE-HTML/1.0 NETTV/3.2.3 AquosTV/1.1.1; xx) Presto/2.10.287 Version/12.00
   result:
@@ -442,7 +450,7 @@
     device:
       type: television
       manufacturer: Sharp
-      model: Aquos TV
+      series: Aquos TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB90/3.3.8.e (SHARP, Si2156LG32, wired) HbbTV/1.1.1 (; CUS:SHARP; MB90; 3.3.8.e; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3
   result:
@@ -456,4 +464,5 @@
       type: television
       manufacturer: Sharp
       model: MB90
+      series: Smart TV
 ...

@@ -5,7 +5,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia 2010
+      series: Bravia 2010
 - headers: |
     User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.4.56.ALSAN3.7 SonyCEBrowser/1.0 (BDPlayer; BDP10G_AX; BDP2015/M24.D.0104; XAE;)
   result:
@@ -18,7 +18,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l ; U; (SonyBDP/BDV11); en) Presto/2.6.33 Version/10.60
   result:
@@ -31,7 +31,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4207; U; (SonyBDP/BDV11); en) Presto/2.9.167 Version/11.50
   result:
@@ -44,7 +44,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; (SonyBDP/BDV12); xx) Presto/2.10.250 Version/11.60
   result:
@@ -57,7 +57,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; xx) Presto/2.10.250 Version/11.60 Model/Sony-BDP7G_B SonyCEBrowser/1.0 (BDP7G_B; BDP/M12.R.0497; XXX; )
   result:
@@ -70,7 +70,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5572) Presto/2.12.362 Version/12.11 Model/Sony-BDP8G_AX SonyCEBrowser/1.0 (BDP8G_AX; M14.D.0152; USA; )
   result:
@@ -83,7 +83,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11 Model/Sony-BDP9G_AXD SonyCEBrowser/1.0 (BDP9G_AXD; BDP/M20.D.0043; XAE; )
   result:
@@ -96,7 +96,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (BDP8G_BX; BDP/M15.D.0163; USA; )
   result:
@@ -109,7 +109,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581; (DTV; DTV12/1.0; like Gecko;Opera/10.30)(avdn/sony.tv.2012;avui/tv;avvp/ssl;avst/on;avkb/mc,B:27)) Presto/2.12.362 Version/12.11
   result:
@@ -133,7 +133,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5599; (SonyBDP/BDV13)) Presto/2.12.362 Version/12.11
   result:
@@ -146,7 +146,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5606; (SonyBDP/BDV14)) Presto/2.12.362 Version/12.11
   result:
@@ -159,7 +159,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; (SonyBDP/BDV11); en) Presto/2.8.115 Version/11.10
   result:
@@ -172,7 +172,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; (SonyBDP/BDV11); xx) Presto/2.8.115 Version/11.10
   result:
@@ -185,7 +185,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (DTV14/KDL-32W653A; CTV/PKG0.020EUA; GBR; xx;)
   result:
@@ -198,7 +198,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (KDL-55W905A; CTV/PKG4.201EUA; EST)
   result:
@@ -211,7 +211,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (KDL-RB1; CTV/PKG0.001JPA; JPN;)
   result:
@@ -224,7 +224,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.407 Version/12.50 Model/Sony-KDL-RB2 SonyCEBrowser/1.0 (KDL-RB2; ; JPN; xx)
   result:
@@ -237,7 +237,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.407 Version/12.50 SonyCEBrowser/1.0 (DTV13/KDL-RB2; CTV/PKG1.000AAA; USA; xx;)
   result:
@@ -250,7 +250,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.407 Version/12.50 SonyCEBrowser/1.0 (KD-55X8505B; CTV/PKG2.193EUA; NLD)
   result:
@@ -263,7 +263,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l) Presto/2.12.407 Version/12.50 SonyCEBrowser/1.0 (KDL-RB2; CTV/PKG0.001JPA; JPN;)
   result:
@@ -276,7 +276,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KDL32W670A; PKG0.002GAA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -289,7 +289,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W670
+      model: W670
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KDL42W650A; PKG3.504EUA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -302,7 +302,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W650
+      model: W650
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.2.1 (; Sony; KDL32W650A; PKG4.410EUA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -315,7 +315,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W650
+      model: W650
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.2.1 (; Sony; KDL32W705B; PKG2.112EUA; 2014;); ) Presto/2.12.407 Version/12.50
   result:
@@ -328,7 +328,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W705
+      model: W705
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.2.1 (; Sony; KDL47W807A; PKG4.401EUA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -341,7 +341,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W807
+      model: W807
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.2.1 (; Sony; KDL47W807A; PKG4.410EUA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -354,7 +354,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia W807
+      model: W807
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l;  HbbTV/1.2.1 (; Sony; KDLRB1; PKG0.004EUA; 2013;); ) Presto/2.12.362 Version/12.11
   result:
@@ -393,7 +393,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) ; CC/XAE) Presto/2.12.407 Version/12.50
   result:
@@ -406,7 +406,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KD55X9005A; CC/DEU) Presto/2.12.362 Version/12.11
   result:
@@ -419,7 +419,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W600A; CC/JPN) Presto/2.12.362 Version/12.11
   result:
@@ -432,7 +432,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W605A; CC/BRA) Presto/2.12.362 Version/12.11
   result:
@@ -445,7 +445,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W670A; CC/IND) Presto/2.12.362 Version/12.11
   result:
@@ -458,7 +458,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W670A; CC/SAU) Presto/2.12.362 Version/12.11
   result:
@@ -471,7 +471,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W700B; CC/IND) Presto/2.12.407 Version/12.50
   result:
@@ -484,7 +484,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W706B; CC/HRV) Presto/2.12.407 Version/12.50
   result:
@@ -497,7 +497,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL42W705B; CC/HUN) Presto/2.12.407 Version/12.50
   result:
@@ -510,7 +510,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100)) Presto/2.12.407 Version/12.50
   result:
@@ -523,7 +523,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) ; CC/JPN) Presto/2.12.407 Version/12.50
   result:
@@ -536,7 +536,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) KDL32W705B; CC/XAE) Presto/2.12.407 Version/12.50
   result:
@@ -549,7 +549,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) KDL50W800B; CC/USA) Presto/2.12.407 Version/12.50
   result:
@@ -562,7 +562,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) KDLRB2; CC/CHN) Presto/2.12.407 Version/12.50
   result:
@@ -575,7 +575,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) KDLRB2T; CC/USA) Presto/2.12.407 Version/12.50
   result:
@@ -588,7 +588,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV140;0001;0001) XBR55X900B; CC/USA) Presto/2.12.407 Version/12.50
   result:
@@ -601,7 +601,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-50R550A; CC/USA) Presto/2.12.362 Version/12.11
   result:
@@ -614,7 +614,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-60R520A; CC/AUS) Presto/2.12.362 Version/12.11
   result:
@@ -627,7 +627,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-60R550A; CC/THA) Presto/2.12.362 Version/12.11
   result:
@@ -640,7 +640,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/4563; U; (SonyBDP/BDV12); xx) Presto/2.10.250 Version/11.60
   result:
@@ -653,7 +653,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/5581; (SonyBDP/BDV13)) Presto/2.12.362 Version/12.11
   result:
@@ -666,7 +666,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/5599; (SonyBDP/BDV14)) Presto/2.12.362 Version/12.11
   result:
@@ -679,7 +679,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32W600A; CC/CHN; xx) Presto/2.10.287 Version/12.00
   result:
@@ -692,7 +692,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-40EX640; CC/USA; en) Presto/2.10.250 Version/11.60
   result:
@@ -705,7 +705,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-46EX640; CC/USA; en) Presto/2.8.115 Version/11.10
   result:
@@ -718,7 +718,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-46EX645; CC/USA; xx) Presto/2.10.250 Version/11.60
   result:
@@ -731,7 +731,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-55EX640; CC/USA; xx) Presto/2.8.115 Version/11.10
   result:
@@ -744,7 +744,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KLV-55EX630; CC/ZAF; xx) Presto/2.10.250 Version/11.60
   result:
@@ -757,7 +757,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) N/A; CC/USA; en) Presto/2.8.115 Version/11.10
   result:
@@ -770,7 +770,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; xx) Presto/2.10.287 Version/12.00 SonyCEBrowser/1.0 (KDL-42W805A; CTV/PKG3.009EUA; GBR)
   result:
@@ -783,7 +783,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; xx) Presto/2.10.287 Version/12.00 SonyCEBrowser/1.0 (KDL-47W802A; CTV/PKG3.208AAA; USA)
   result:
@@ -796,7 +796,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL22EX320; PKG4.022EUA; 2011;);; xx) Presto/2.7.61 Version/11.00
   result:
@@ -809,7 +809,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia EX320
+      model: EX320
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL40HX751; PKG1.920EUA; 2012;);; xx) Presto/2.10.250 Version/11.60
   result:
@@ -822,7 +822,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Bravia HX751
+      model: HX751
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) ; CC/JPN; en) Presto/2.9.167 Version/11.50
   result:
@@ -835,7 +835,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) AZ2CVT2; CC/CAN; en) Presto/2.7.61 Version/11.00
   result:
@@ -848,7 +848,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL22EX540; CC/JPN; xx) Presto/2.10.250 Version/11.60
   result:
@@ -861,7 +861,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL40NX655; CC/BRA; xx) Presto/2.10.250 Version/11.60
   result:
@@ -874,7 +874,7 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL46EX720; CC/POL; xx) Presto/2.7.61 Version/11.00
   result:
@@ -887,5 +887,5 @@
     device:
       type: television
       manufacturer: Sony
-      model: Internet TV
+      series: Internet TV
 ...

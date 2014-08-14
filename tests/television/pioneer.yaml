@@ -10,4 +10,7 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: Pioneer
+      model: BDP-160
+      series: Smart TV
 ...
