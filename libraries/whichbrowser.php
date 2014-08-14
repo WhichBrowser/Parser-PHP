@@ -2704,6 +2704,14 @@
 							$this->device->generic = false; 
 						}
 					}
+					
+					if ($this->device->manufacturer == 'Pioneer') {
+						if (preg_match('/(BDP-[0-9]+)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->series = "Blu-ray Player";
+							$this->device->generic = false; 
+						}
+					}
 				}
 			}
 			
