@@ -2155,9 +2155,9 @@
 											switch($modelName) {
 												case 'webOS.TV':		$this->device->series = 'webOS TV'; break;
 												case 'WEBOS1':			$this->device->series = 'webOS TV'; break;
-												case 'GLOBAL-PLAT3':	$this->device->series = 'NetCast 2012'; break;
-												case 'GLOBAL-PLAT4':	$this->device->series = 'NetCast 2013'; break;
-												case 'GLOBAL-PLAT5':	$this->device->series = 'NetCast 2014'; break;
+												case 'GLOBAL-PLAT3':	$this->device->series = 'NetCast TV 2012'; break;
+												case 'GLOBAL-PLAT4':	$this->device->series = 'NetCast TV 2013'; break;
+												case 'GLOBAL-PLAT5':	$this->device->series = 'NetCast TV 2014'; break;
 												default:				$this->device->model = $modelName; break;
 											}
 											
@@ -2184,8 +2184,8 @@
 					case '00E091':			$this->device->manufacturer = 'LG'; 
 
 											switch($modelName) {
-												case 'LGE2D2012M':		$this->device->series = 'NetCast 2012'; break;
-												case 'LGE3D2012M':		$this->device->series = 'NetCast 2012'; break;
+												case 'LGE2D2012M':		$this->device->series = 'NetCast TV 2012'; break;
+												case 'LGE3D2012M':		$this->device->series = 'NetCast TV 2012'; break;
 											}
 											
 											break;
@@ -2221,13 +2221,13 @@
 					case 'LG':				$this->device->manufacturer = 'LG'; 
 					
 											switch($modelName) {
-												case 'GLOBAL_PLAT3':	$this->device->series = 'NetCast 2012'; break;
-												case 'GLOBAL_PLAT4':	$this->device->series = 'NetCast 2013'; break;
-												case 'GLOBAL_PLAT5':	$this->device->series = 'NetCast 2014'; break;
-												case 'NetCast 2.0':		$this->device->series = 'NetCast 2011'; break;
-												case 'NetCast 3.0':		$this->device->series = 'NetCast 2012'; break;
-												case 'NetCast 4.0':		$this->device->series = 'NetCast 2013'; break;
-												case 'NetCast 4.5':		$this->device->series = 'NetCast 2014'; break;
+												case 'GLOBAL_PLAT3':	$this->device->series = 'NetCast TV 2012'; break;
+												case 'GLOBAL_PLAT4':	$this->device->series = 'NetCast TV 2013'; break;
+												case 'GLOBAL_PLAT5':	$this->device->series = 'NetCast TV 2014'; break;
+												case 'NetCast 2.0':		$this->device->series = 'NetCast TV 2011'; break;
+												case 'NetCast 3.0':		$this->device->series = 'NetCast TV 2012'; break;
+												case 'NetCast 4.0':		$this->device->series = 'NetCast TV 2013'; break;
+												case 'NetCast 4.5':		$this->device->series = 'NetCast TV 2014'; break;
 												default:				$this->device->model = $modelName; break;
 											}
 
@@ -2440,12 +2440,12 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 			
-			if (preg_match('/LG NetCast\.(?:TV|Media)-([0-9]*)/', $ua, $match)) {
+			if (preg_match('/LG NetCast\.(TV|Media)-([0-9]*)/', $ua, $match)) {
 				unset($this->os->name);
 				unset($this->os->version);
 
 				$this->device->manufacturer = 'LG';
-				$this->device->series = 'NetCast ' . $match[1];
+				$this->device->series = 'NetCast ' . $match[1] . ' ' . $match[2];
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -2455,7 +2455,7 @@
 				unset($this->os->version);
 
 				$this->device->manufacturer = 'LG';
-				$this->device->series = 'NetCast';
+				$this->device->series = 'NetCast TV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}

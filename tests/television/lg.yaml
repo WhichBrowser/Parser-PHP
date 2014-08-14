@@ -21,7 +21,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: LG Browser/7.00.00, webOS.TV-2014/00.00.00 (LG, WEBOS1, wired)
   result:
@@ -51,7 +51,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+SCREEN+TUNER; LGE; GLOBAL-PLAT4; 01.00.00; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -64,7 +64,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LM640S-ZA; 04.10.37; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -77,7 +77,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LM9600-NA; 06.00.00; 0x00000001;); LG NetCast.TV-2012 0
   result:
@@ -90,7 +90,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 55LM860V-ZB; 04.10.26; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -103,7 +103,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; GLOBAL-PLAT4; 03.09.22; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -116,7 +116,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; GLOBAL-PLAT4; 09.00.00; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -129,7 +129,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 42LP860H-ZA; 03.03.02; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -142,7 +142,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; GLOBAL-PLAT4; 03.40.00; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -155,7 +155,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+3D; LGE; Media/BP740; 5037; abc;); LG NetCast.Media-2013 /5037 (LG, Media/BP740, wired)
   result:
@@ -169,7 +169,7 @@
       type: television
       manufacturer: LG
       model: Media/BP740
-      series: NetCast 2013
+      series: NetCast Media 2013
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(; LGE; Media/BP740; 5037; abc;); LG NetCast.Media-2013 /5037 (LG, Media/BP740, wired)
   result:
@@ -183,7 +183,7 @@
       type: television
       manufacturer: LG
       model: Media/BP740
-      series: NetCast 2013
+      series: NetCast Media 2013
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux i686) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+ TV set capa; (+ TV set capa; sw version, model name ; sw version; hw version); LG NetCast.TV-2013
   result:
@@ -196,7 +196,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux i686) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+PORTAL_KEY+SCREEN+TUNER; LGE; 47LM9600-NC; 09.00.00; 0x00000001;); LG NetCast.TV-2012
   result:
@@ -209,7 +209,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux; ko-KR) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+
   result:
@@ -227,7 +227,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.2(+mouse+SCREEN+TUNER; LGE; GLOBAL-PLAT3; 10.01.03; 0x00000081;); LG NetCast.TV-2011
   result:
@@ -240,7 +240,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+mouse+3D+PORTAL_KEY+SCREEN+TUNER; LGE; 47LW579S-ZD; 06.01.04; 0x00000001;); LG NetCast.TV-2011
   result:
@@ -253,7 +253,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+mouse+PORTAL_KEY+SCREEN+TUNER; LGE; 42LV470S-ZC; 06.01.04; 0x00000001;); LG NetCast.TV-2011
   result:
@@ -266,7 +266,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( 3D BDP NO_NUM; LGE; Media/ST600; LG NetCast.Media-2011
   result:
@@ -279,7 +279,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast Media 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+3D+BDP; LGE; Media/BD670; BD.8.97.413.E; 0x00000001;); LG NetCast.Media-2011
   result:
@@ -292,7 +292,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast Media 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 7631; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( NO_NUM; LGE; Media/SP520; ST.3.97.409.F; 0x00000001;); LG NetCast.Media-2011
   result:
@@ -305,7 +305,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast Media 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( BDP; LGE; Media/BD660; 6970; abc;); LG NetCast.Media-2011
   result:
@@ -318,7 +318,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast Media 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; Media/BH6520; 7574; abc;); LG NetCast.Media-2011
   result:
@@ -331,7 +331,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast Media 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux i686; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+; CNS_UA; LG Browser/4.05; AD_LOGON=4C47452E4E4554; HbbTV/1.1.1 (; LGE; GLOBAL_PLAT3; 1.0; 1.0;)
   result:
@@ -344,7 +344,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2012
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; LGE; 42LE7500-ZA; 03.05.04; 0x00000001;); LG NetCast.TV-2011
   result:
@@ -357,7 +357,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; xx) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; LGE;42LE7500-ZA; 03.05.04; 0x00000001;); LG NetCast.TV-2011
   result:
@@ -370,7 +370,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2011
+      series: NetCast TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (Linux armv7l), Safari/537.1+, LG NetCast.TV-2013/01.15.01 (LG, 47LM760T-ZB, wired)
   result:
@@ -378,7 +378,7 @@
       type: television
       manufacturer: LG
       model: 47LM760T-ZB
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 SmartTV/5.0
   result:
@@ -388,7 +388,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast
+      series: NetCast TV
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 LGSmartTV/5.0
   result:
@@ -411,7 +411,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42LA660V-ZA; 04.22.07; 0x00000001;); LG NetCast.TV-2013 /04.22.07 (LG, 42LA660V-ZA, wired)
   result:
@@ -425,7 +425,7 @@
       type: television
       manufacturer: LG
       model: 42LA660V-ZA
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LA6900-NA; 04.00.33; 0x00000001;); LG NetCast.TV-2013 /04.00.33 (LG, 47LA6900-NA, wired)
   result:
@@ -439,7 +439,7 @@
       type: television
       manufacturer: LG
       model: 47LA6900-NA
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; GLOBAL-PLAT5; 03.07.01; 0x00000001;); LG NetCast.TV-2013/03.17.01 (LG, GLOBAL-PLAT4, wired)
   result:
@@ -452,7 +452,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 47LA790W-ZA; 01.04.00; 0x00000001;); LG NetCast.TV-2013 /01.04.00 (LG, , wired)
   result:
@@ -465,7 +465,7 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast 2013
+      series: NetCast TV 2013
 - headers: |
     User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/537.41 (KHTML, like Gecko) Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 257; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wired)
   result:
