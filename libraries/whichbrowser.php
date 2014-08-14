@@ -2424,6 +2424,10 @@
 					$this->device->manufacturer = 'Bang & Olufsen';
 					$this->device->series = 'Smart TV';
 				}
+
+				if (preg_match('/PHILIPS-AVM/', $ua)) {
+					$this->device->series = 'Blu-ray Player';
+				}
 			}
 			
 			/****************************************************
@@ -2740,6 +2744,25 @@
 
 						if (preg_match('/Media\/(.*)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+					}
+
+					if ($this->device->manufacturer == 'Philips') {
+						if (preg_match('/[0-9][0-9]([A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9])/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+
+						if (preg_match('/(MT[0-9]+)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->series = "Digital Receiver";
+							$this->device->generic = false; 
+						}
+
+						if (preg_match('/(BDP[0-9]+)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->series = "Blu-ray Player";
 							$this->device->generic = false; 
 						}
 					}

@@ -9,6 +9,7 @@
       type: television
       manufacturer: Philips
       model: MT5580
+      series: Digital Receiver
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Philips;MT5580;PhilipsTV, 4.1.1;;) ANTGalio/3.4.0.27.00.devel
   result:
@@ -19,6 +20,7 @@
       type: television
       manufacturer: Philips
       model: MT5580
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.70 (Linux armv6l ; U; CE-HTML/1.0 NETTV/2.0.2; en) Presto/2.2.1
   result:
@@ -226,7 +228,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 28HFL5009D12
+      model: HFL5009
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 28HFL5009D12; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/004.001.163.001 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
@@ -240,7 +242,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 28HFL5009D12
+      model: HFL5009
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 32PFG550978
@@ -264,7 +266,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 40PFS671912
+      model: PFS6719
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 42PFK710912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/012.002.016.128 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
@@ -278,7 +280,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 42PFK710912
+      model: PFK7109
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 42PFK750912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/012.003.002.128 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
@@ -292,7 +294,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 42PFK750912
+      model: PFK7509
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 47PFS710912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/012.002.016.128 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
@@ -306,7 +308,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 47PFS710912
+      model: PFS7109
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 55PFS710912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/012.002.016.128 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
@@ -320,7 +322,7 @@
     device:
       type: television
       manufacturer: Philips
-      model: 55PFS710912
+      model: PFS7109
       series: Net TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/5.0.0 PHILIPSTV/1.1.1150.14.20 (PhilipsTV, 1.1.1,) en) Presto/2.12.407 Version/12.50
@@ -425,7 +427,7 @@
     device:
       type: television
       manufacturer: Philips
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.3.0; PHILIPS-AVM-2012; xx) Presto/2.9.167 Version/11.50
   result:
@@ -438,7 +440,7 @@
     device:
       type: television
       manufacturer: Philips
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux i686; HbbTV/1.2.1 (NETTV/4.2.0 PHILIPSTV/1.1.1; ; ; ; ; ) CE-HTML/1.0) Presto/2.12.407 Version/12.50
   result:
@@ -529,7 +531,7 @@
     device:
       type: television
       manufacturer: Philips
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.0.2; xx) Presto/2.10.250 Version/11.60
   result:
@@ -568,7 +570,7 @@
     device:
       type: television
       manufacturer: Philips
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: WebKit/3.7.6, (CE-HTML/1.0 NETTV/3.3.0 NewB) PHILIPS-AVM-2013/2.19 (Philips, BDP5600, wired)
   result:
@@ -579,7 +581,7 @@
       type: television
       manufacturer: Philips
       model: BDP5600
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: WebKit/3.7.6, (CE-HTML/1.0 NETTV/3.3.0 NewB) PHILIPS-AVM-2013/2.19 (Philips, BDP5600, wireless)
   result:
@@ -590,7 +592,7 @@
       type: television
       manufacturer: Philips
       model: BDP5600
-      series: Net TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: WebKit/3.8.2, (CE-HTML/1.0 NETTV/3.3.0 NewB) PHILIPS-AVM-2013/4.19 (Philips, BDP9700, wired)
   result:
@@ -601,5 +603,5 @@
       type: television
       manufacturer: Philips
       model: BDP9700
-      series: Net TV
+      series: Blu-ray Player
 ...
