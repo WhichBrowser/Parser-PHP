@@ -1848,11 +1848,15 @@
 				$this->os->name = '';
 
 				$this->device->manufacturer = 'Amazon';
-				$this->device->model = 'Kindle';
+				$this->device->series = 'Kindle';
 				$this->device->type = TYPE_EREADER;
 
+				if (preg_match('/Kindle\/1.0/', $ua)) $this->device->model = 'Kindle 1';
 				if (preg_match('/Kindle\/2.0/', $ua)) $this->device->model = 'Kindle 2';
-				if (preg_match('/Kindle\/3.0/', $ua)) $this->device->model = 'Kindle 3 or later';
+				if (preg_match('/Kindle\/2.5/', $ua)) $this->device->model = 'Kindle 2';
+				if (preg_match('/Kindle\/3.0/', $ua)) $this->device->model = 'Kindle 3';
+				if (preg_match('/Kindle\/3.0\+/', $ua)) $this->device->model = 'Kindle 3 or later';
+				if (preg_match('/Kindle SkipStone/', $ua)) $this->device->model = 'Kindle Touch or later';
 
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -1865,7 +1869,7 @@
 				$this->os->name = 'Android';
 				
 				$this->device->manufacturer = 'Barnes & Noble';
-				$this->device->model = 'NOOK';
+				$this->device->series = 'NOOK';
 				$this->device->type = TYPE_EREADER;
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -1878,7 +1882,7 @@
 				$this->os->name = '';
 
 				$this->device->manufacturer = 'Bookeen';
-				$this->device->model = 'Cybook';
+				$this->device->series = 'Cybook';
 				$this->device->type = TYPE_EREADER;
 				
 				$this->device->identified |= ID_MATCH_UA;
@@ -1893,7 +1897,7 @@
 				$this->os->version = null;
 				
 				$this->device->manufacturer = 'Kobo';
-				$this->device->model = 'eReader';
+				$this->device->series = 'eReader';
 				$this->device->type = TYPE_EREADER;
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -1907,15 +1911,15 @@
 				
 
 				$this->device->manufacturer = 'Sony';
-				$this->device->model = 'Reader';
+				$this->device->series = 'Reader';
 				$this->device->type = TYPE_EREADER;
 				$this->device->identified |= ID_MATCH_UA;
 				
 				switch($match[1]) {
-					case '1101':	$this->device->model = 'Reader PRS-T1'; $this->device->generic = false; break;
-					case '1102':	$this->device->model = 'Reader PRS-T1'; $this->device->generic = false; break;
-					case '1201':	$this->device->model = 'Reader PRS-T2'; $this->device->generic = false; break;
-					case '1301':	$this->device->model = 'Reader PRS-T3'; $this->device->generic = false; break;
+					case '1101':	$this->device->model = 'PRS-T1'; $this->device->generic = false; break;
+					case '1102':	$this->device->model = 'PRS-T1'; $this->device->generic = false; break;
+					case '1201':	$this->device->model = 'PRS-T2'; $this->device->generic = false; break;
+					case '1301':	$this->device->model = 'PRS-T3'; $this->device->generic = false; break;
 				}
 			}
 
@@ -1927,7 +1931,7 @@
 				$this->os->name = '';
 		
 				$this->device->manufacturer = 'iRiver';
-				$this->device->model = 'Story';
+				$this->device->series = 'Story';
 				$this->device->type = TYPE_EREADER;
 				
 				if (preg_match('/EB07/', $ua)) {
