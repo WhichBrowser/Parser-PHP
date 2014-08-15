@@ -772,6 +772,8 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: JVC
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/JVC;SW-Version/V8-MT51F07-LF1V309;Cnt/DNK;Lan/dan) Presto/2.12.362 Version/12.11
   result:
@@ -783,6 +785,8 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: JVC
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOMSON;SW-Version/V8-MT51F01-LF1V419;Cnt/GBR;Lan/eng) Presto/2.12.362 Version/12.11
   result:
@@ -794,6 +798,8 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: Thomson
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOMSON;SW-Version/V8-MT51F01-LF1V419;Cnt/GBR;Lan/eng) Presto/2.12.362 Version/12.11
   result:
@@ -805,6 +811,8 @@
       version: 2.12.362
     device:
       type: television
+      manufacturer: Thomson
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR+DRM; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.3.30552 (BANGOLUFSEN, A3, wired)
   result:

@@ -2294,6 +2294,11 @@
 				if (!isset($this->device->series)) $this->device->series = 'Smart TV';
 			}
 			
+			if (preg_match('/HbbTV\/[0-9.]+;CE-HTML\/[0-9.]+;Vendor\/([^\s;]+);/', $ua, $match)) {
+				$this->device->manufacturer = Manufacturers::identify(TYPE_TELEVISION, $match[1]);
+				if (!isset($this->device->series)) $this->device->series = 'Smart TV';
+			}
+			
 			
 			
 			/****************************************************
