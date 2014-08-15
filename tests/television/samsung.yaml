@@ -240,7 +240,7 @@
   result:
     engine:
       name: Gecko
-      version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0
+      version: 1.8.1
     device:
       type: television
       manufacturer: Samsung
@@ -250,7 +250,7 @@
   result:
     engine:
       name: Gecko
-      version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0
+      version: 1.8.1
     device:
       type: television
       manufacturer: Samsung

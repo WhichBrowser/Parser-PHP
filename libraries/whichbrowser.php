@@ -5022,8 +5022,8 @@
 			if (preg_match('/Gecko/', $ua) && !preg_match('/like Gecko/', $ua)) {
 				$this->engine->name = 'Gecko';
 
-				if (preg_match('/; rv:([^\)]+)\)/', $ua, $match)) {
-					$this->engine->version = new Version(array('value' => $match[1]));
+				if (preg_match('/; rv:([^\);]+)[\);]/', $ua, $match)) {
+					$this->engine->version = new Version(array('value' => $match[1], 'details' => 3));
 				}
 			}
 
