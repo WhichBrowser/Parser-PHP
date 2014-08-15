@@ -5239,7 +5239,7 @@
 					}
 				}
 					
-				if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
+				if (isset($this->browser->name) && ($this->browser->name == 'Chrome' || $this->browser->name == 'Chromium')) {
 					$valid = false;
 					if (isset($this->os->name) && in_array($this->os->name, array('Google TV', 'Android'))) $valid = true;
 					if (isset($this->device->model) && in_array($this->device->model, array('Chromecast'))) $valid = true;

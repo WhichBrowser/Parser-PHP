@@ -114,9 +114,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit/537.42 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.42
   result:
-    browser:
-      name: Chromium
-      version: 25.0.1349.2
     engine:
       name: Webkit
       version: "537.42"
