@@ -3,9 +3,9 @@
     User-Agent: DLNADOC/1.50 SHARP-AQUOS-DMP/2.0W
   result:
     device:
-      type: mobile
+      type: television
       manufacturer: Sharp
-      model: AQUOS-DMP
+      series: Aquos TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2  (KHTML, like Gecko) AQUOSBrowser/1.0 (US00DTV;V;0001;0001)
   result:

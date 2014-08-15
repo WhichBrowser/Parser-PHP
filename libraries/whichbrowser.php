@@ -2320,7 +2320,7 @@
 			 *		Sharp AQUOS TV
 			 */
 		
-			if (preg_match('/AQUOSBrowser/', $ua) || preg_match('/AQUOS-AS/', $ua)) {
+			if (preg_match('/AQUOSBrowser/', $ua) || preg_match('/AQUOS-(AS|DMP)/', $ua)) {
 				$this->device->manufacturer = 'Sharp';
 				$this->device->series = 'Aquos TV';
 				$this->device->type = TYPE_TELEVISION;
