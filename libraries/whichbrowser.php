@@ -2653,6 +2653,10 @@
 				$this->device->model = '';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/DuneHD\/[0-9.]+ \(([^;]+);/', $ua, $match)) {
+					$this->device->model = $match[1];
+				}
 			}
 
 			/****************************************************
@@ -2783,6 +2787,16 @@
 				
 				/* Format model numbers */
 				if (isset($this->device->model) && isset($this->device->manufacturer)) {
+					
+					if ($this->device->manufacturer == 'Dune HD') {
+						if (preg_match('/tv([0-9]+[a-z]?)/', $this->device->model, $match)) {
+							$this->device->model = 'TV-' . strtoupper($match[1]);
+						}
+						
+						if ($this->device->model == 'connect') {
+							$this->device->model = 'Connect';
+						}
+					}
 					
 					if ($this->device->manufacturer == 'Humax') {
 						$this->device->series = "Digital Receiver";

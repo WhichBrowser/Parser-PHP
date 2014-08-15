@@ -1125,6 +1125,7 @@
     device:
       type: television
       manufacturer: Dune HD
+      model: Connect
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (polskytv__tv102; 130527_1328_b5) CE-HTML/1.0 NETRANGEMMH
   result:
@@ -1137,6 +1138,7 @@
     device:
       type: television
       manufacturer: Dune HD
+      model: TV-102
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (tv102; 130515_2104_b6) CE-HTML/1.0 NETRANGEMMH
   result:
@@ -1149,6 +1151,7 @@
     device:
       type: television
       manufacturer: Dune HD
+      model: TV-102
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (tv303d; 130515_2104_b6) CE-HTML/1.0 NETRANGEMMH
   result:
@@ -1161,6 +1164,7 @@
     device:
       type: television
       manufacturer: Dune HD
+      model: TV-303D
 - headers: |
     User-Agent: Opera/9.80 (Linux mn10300; U; HbbTV/1.1.1 (+PVR; Panasonic; DIGA M9031; 3.030; ; ); en) Presto/2.9.167 Version/11.50
   result:
