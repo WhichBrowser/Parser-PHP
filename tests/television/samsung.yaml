@@ -14,6 +14,13 @@
       manufacturer: Samsung
       series: Smart TV 2012
 - headers: |
+    User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2013;BPH-F8509EUB-1003.2;;) WebKit
+  result:
+    device:
+      type: television
+      manufacturer: Samsung
+      series: Smart TV 2013
+- headers: |
     User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2013;T-FXPDEUC-1116.1;;) WebKit
   result:
     device:

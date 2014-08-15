@@ -292,6 +292,34 @@
       model: Regza SL863
       series: Smart TV
 - headers: |
+    User-Agent: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 55WL863; 19.5.61.15; 3; ) ; ToshibaTP/1.3.0 (+VIDEO_X_MS_ASF+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4+DRM+3D) ; de) Presto/2.6.33 Version/10.60
+  result:
+    browser:
+      name: Opera Devices
+      version: "2.8"
+    engine:
+      name: Presto
+      version: 2.6.33
+    device:
+      type: television
+      manufacturer: Toshiba
+      model: Regza WL863
+      series: Smart TV
+- headers: |
+    User-Agent: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 55ZL1; 19.7.61.14; 3; ) ; ToshibaTP/1.3.0 (+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4) ; de) Presto/2.6.33 Version/10.60
+  result:
+    browser:
+      name: Opera Devices
+      version: "2.8"
+    engine:
+      name: Presto
+      version: 2.6.33
+    device:
+      type: television
+      manufacturer: Toshiba
+      model: 55ZL1
+      series: Smart TV
+- headers: |
     User-Agent: mwb-db-client Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 32SL863; 19.2.39.208; 3; ) ; ToshibaTP/1.1.1 () ; xx) Presto/2.6.33 Version/10.60
   result:
     browser:

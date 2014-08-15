@@ -358,6 +358,20 @@
       manufacturer: LG
       series: NetCast TV 2012
 - headers: |
+    User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.0.10(+SCREEN+TUNER; LGE; 42LE5500-SA; 04.02.02; 0x00000001;); LG NetCast.TV-2010
+  result:
+    browser:
+      name: LG Browser
+      version: "4.0"
+    engine:
+      name: Webkit
+      version: "531.2"
+    device:
+      type: television
+      manufacturer: LG
+      model: LE5500
+      series: NetCast TV 2010
+- headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; LGE; 42LE7500-ZA; 03.05.04; 0x00000001;); LG NetCast.TV-2011
   result:
     browser:

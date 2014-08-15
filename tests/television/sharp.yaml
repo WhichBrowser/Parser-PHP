@@ -1,5 +1,12 @@
 ---
 - headers: |
+    User-Agent: DLNADOC/1.50 SHARP-AQUOS-DMP/2.0W
+  result:
+    device:
+      type: mobile
+      manufacturer: Sharp
+      model: AQUOS-DMP
+- headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2  (KHTML, like Gecko) AQUOSBrowser/1.0 (US00DTV;V;0001;0001)
   result:
     engine:
@@ -465,4 +472,30 @@
       manufacturer: Sharp
       model: MB90
       series: Smart TV
+- headers: |
+    User-Agent: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 ( ; Sharp; LE737; 690.1; 1.32;); en) Presto/2.9.167 Version/11.50
+  result:
+    browser:
+      name: Opera Devices
+      version: "3.1"
+    engine:
+      name: Presto
+      version: 2.9.167
+    device:
+      type: television
+      manufacturer: Sharp
+      model: LE737
+- headers: |
+    User-Agent: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (;Sharp;LE652;v0.1.43.5;;) CE-HTML/1.0 Config(L:deu,CC:DEU) NETRANGEMMH) Presto/2.12.362 Version/12.10
+  result:
+    browser:
+      name: Opera Devices
+      version: "3.4"
+    engine:
+      name: Presto
+      version: 2.12.362
+    device:
+      type: television
+      manufacturer: Sharp
+      model: LE652
 ...
