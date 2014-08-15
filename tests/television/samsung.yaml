@@ -238,9 +238,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 5.1.00277 Navi
   result:
-    browser:
-      name: Firefox
-      version: 2.5.0
     engine:
       name: Gecko
       version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0
@@ -251,9 +248,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00067 Navi
   result:
-    browser:
-      name: Firefox
-      version: 2.5.0
     engine:
       name: Gecko
       version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0

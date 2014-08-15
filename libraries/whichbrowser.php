@@ -5242,6 +5242,11 @@
 			}
 
 			if ($this->device->type == TYPE_TELEVISION) {
+				if (isset($this->browser->name) && $this->browser->name == 'Firefox') {
+					unset($this->browser->name);
+					unset($this->browser->version);
+				}
+				
 				if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
 					$valid = false;
 					if (isset($this->device->model) && in_array($this->device->model, array('WebTV'))) $valid = true;
