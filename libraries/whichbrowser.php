@@ -2666,6 +2666,21 @@
 
 
 			/****************************************************
+			 *		WebTV
+			 */
+
+			if (preg_match('/WebTV\/[0-9.]/', $ua)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->model = 'WebTV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				$this->device->generic = false; 
+			}
+
+
+			/****************************************************
 			 *		MediStream
 			 */
 
@@ -5186,8 +5201,13 @@
 
 			if ($this->device->type == TYPE_TELEVISION) {
 				if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
-					unset($this->browser->name);
-					unset($this->browser->version);
+					$valid = false;
+					if (isset($this->device->model) && in_array($this->device->model, array('WebTV'))) $valid = true;
+					
+					if (!$valid) {
+						unset($this->browser->name);
+						unset($this->browser->version);
+					}
 				}
 					
 				if (isset($this->browser->name) && $this->browser->name == 'Chrome') {

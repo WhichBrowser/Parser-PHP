@@ -190,6 +190,9 @@
     browser:
       name: Internet Explorer
       version: "2.0"
+    device:
+      type: television
+      model: WebTV
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL 6654N Volksbox Web Edition +; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0
   result:
