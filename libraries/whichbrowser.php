@@ -2883,7 +2883,11 @@
 							$this->device->generic = false; 
 						}
 					}
-	
+					
+					if ($this->device->manufacturer == 'Selevision') {
+						$this->device->model = str_replace('Selevision ', '', $this->device->model);
+					}
+					
 					if ($this->device->manufacturer == 'Sharp') {
 						if (preg_match('/[0-9][0-9]([A-Z]+[0-9]+[A-Z]+)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];

@@ -224,8 +224,8 @@
       version: "534.6"
     device:
       type: television
-      manufacturer: selevision
-      model: Selevision EMC1000i
+      manufacturer: Selevision
+      model: EMC1000i
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; CX10; 1.0; 1.0;)  CE-HTML/1.0
   result:
@@ -294,8 +294,8 @@
       version: "538.8"
     device:
       type: television
-      manufacturer: selevision
-      model: Selevision EMC1000i
+      manufacturer: Selevision
+      model: EMC1000i
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux sh4) AppleWebKit/537.6+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/537.6+HbbTV/1.1.1 (;iWedia;Teatro;3.0;;)
   result:
@@ -465,8 +465,8 @@
       version: "538.8"
     device:
       type: television
-      manufacturer: selevision
-      model: Selevision EMC1000i
+      manufacturer: Selevision
+      model: EMC1000i
 - headers: |
     User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Boxee/1.0.1 bxapi/7.1
   result:
