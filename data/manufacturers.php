@@ -2,6 +2,7 @@
 
 		Manufacturers::$TELEVISION = array(
 			'BANGOLUFSEN'								=> 'Bang & Olufsen',
+			'inverto'									=> 'Inverto',
 			'LG Electronics'							=> 'LG',
 			'LGE'										=> 'LG',
 			'TOSHIBA'									=> 'Toshiba',

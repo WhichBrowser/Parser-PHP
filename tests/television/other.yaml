@@ -204,7 +204,7 @@
       version: "534.6"
     device:
       type: television
-      manufacturer: inverto
+      manufacturer: Inverto
       model: IDL 6654N Volksbox Web Edition +
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6651N Volksbox Web Edition; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0
@@ -214,8 +214,8 @@
       version: "534.6"
     device:
       type: television
-      manufacturer: inverto
-      model: IDL-6651N Volksbox Web Edition
+      manufacturer: Inverto
+      model: IDL 6651N Volksbox Web Edition
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; selevision; Selevision EMC1000i; 1.0; 1.0;)  CE-HTML/1.0
   result:
@@ -254,8 +254,8 @@
       version: "538.6"
     device:
       type: television
-      manufacturer: inverto
-      model: QUANTUM - IDL9000
+      manufacturer: Inverto
+      model: IDL 9000
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/538.8 HbbTV/1.1.1 (+DL+PVR; Inverto; Volksbox; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH)
   result:
@@ -274,8 +274,8 @@
       version: "538.8"
     device:
       type: television
-      manufacturer: inverto
-      model: IDL-6651N Volksbox Web Edition
+      manufacturer: Inverto
+      model: IDL 6651N Volksbox Web Edition
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/538.8 HbbTV/1.1.1 (+DL+PVR; inverto; QUANTUM - IDL9000; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH;)
   result:
@@ -284,8 +284,8 @@
       version: "538.8"
     device:
       type: television
-      manufacturer: inverto
-      model: QUANTUM - IDL9000
+      manufacturer: Inverto
+      model: IDL 9000
 - headers: |
     User-Agent: Mozilla/5.0 (;;;) AppleWebKit/538.8 HbbTV/1.1.1 (+DL+PVR; selevision; Selevision EMC1000i; 1.0; 1.0;) CE-HTML/1.0
   result:
@@ -425,8 +425,8 @@
       version: "538.11"
     device:
       type: television
-      manufacturer: inverto
-      model: AIRSCREEN-MBN108
+      manufacturer: Inverto
+      model: MBN 108
 - headers: |
     User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/538.11  HbbTV/1.1.1 (+DL+PVR; inverto; QUANTUM-MBN106; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH;)
   result:
@@ -435,8 +435,8 @@
       version: "538.11"
     device:
       type: television
-      manufacturer: inverto
-      model: QUANTUM-MBN106
+      manufacturer: Inverto
+      model: MBN 106
 - headers: |
     User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/538.8  HbbTV/1.1.1 (+DL+PVR; Inverto; Volksbox; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH)
   result:
@@ -455,8 +455,8 @@
       version: "538.8"
     device:
       type: television
-      manufacturer: inverto
-      model: QUANTUM - IDL9000
+      manufacturer: Inverto
+      model: IDL 9000
 - headers: |
     User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/538.8  HbbTV/1.1.1 (+DL+PVR; selevision; Selevision EMC1000i; 1.0; 1.0;) CE-HTML/1.0
   result:

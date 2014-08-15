@@ -2802,6 +2802,16 @@
 						$this->device->series = "Digital Receiver";
 					}
 	
+					if ($this->device->manufacturer == 'Inverto') {
+						if (preg_match('/IDL[ -]?([0-9]+.*)/', $this->device->model, $match)) {
+							$this->device->model = 'IDL ' . $match[1];
+						}
+
+						if (preg_match('/MBN([0-9]+)/', $this->device->model, $match)) {
+							$this->device->model = 'MBN ' . $match[1];
+						}
+					}
+	
 					if ($this->device->manufacturer == 'HyperPanel') {
 						$this->device->model = strtok(strtoupper($this->device->model), ' ');
 					}
