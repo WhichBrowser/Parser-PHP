@@ -85,6 +85,11 @@
 						$success++;
 					}
 				} else {
+					fwrite($fp, "\n{$file}\n--------------\n\n");
+					fwrite($fp, $rule['headers'] . "\n");
+					fwrite($fp, "New result:\n");
+					fwrite($fp, yaml_emit($detected->toArray()) . "\n");
+
 					$rebase = true;
 				}
 				
