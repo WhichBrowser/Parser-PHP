@@ -244,10 +244,10 @@
     engine:
       name: Gecko
       version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0
-    os:
-      name: Windows
     device:
-      type: desktop
+      type: television
+      manufacturer: Samsung
+      series: Smart TV 2010
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00067 Navi
   result:
@@ -257,10 +257,10 @@
     engine:
       name: Gecko
       version: 1.8.1.11; Gecko/20071129; Firefox/2.5.0
-    os:
-      name: Windows
     device:
-      type: desktop
+      type: television
+      manufacturer: Samsung
+      series: Smart TV 2011
 - headers: |
     User-Agent: Mozilla/5.0 (X11; SMART-TV; Linux) AppleWebkit/538.1 (KHTML, like Gecko) Safari/538.1
   result:

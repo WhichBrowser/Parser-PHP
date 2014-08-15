@@ -2359,6 +2359,19 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+			if (preg_match('/Maple ([0-9]+\.[0-9]+)\.[0-9]+/', $ua, $match)) {
+				$this->device->manufacturer = 'Samsung';
+				$this->device->series = 'Smart TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				
+				switch ($match[1]) {
+					case '5.0':		$this->device->series = 'Smart TV 2009'; break;
+					case '5.1':		$this->device->series = 'Smart TV 2010'; break;
+					case '6.0':		$this->device->series = 'Smart TV 2011'; break;
+				}
+			}
+
 			if (preg_match('/Model\/Samsung-(BD-[A-Z][0-9]+)/', $ua, $match)) {
 				$this->device->manufacturer = 'Samsung';
 				$this->device->model = $match[1];
