@@ -2803,6 +2803,13 @@
 						}
 					}
 	
+					if ($this->device->manufacturer == 'Sharp') {
+						if (preg_match('/[0-9][0-9]([A-Z]+[0-9]+[A-Z]+)/', $this->device->model, $match)) {
+							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+					}
+					
 					if ($this->device->manufacturer == 'Sony') {
 						if (preg_match('/KDL[0-9]+([A-Z]+[0-9]+)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
