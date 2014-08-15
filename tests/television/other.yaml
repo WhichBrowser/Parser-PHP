@@ -659,6 +659,7 @@
     device:
       type: television
       manufacturer: IKEA
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;PEAQ LF1V350; en) Presto/2.8.115 Version/11.10
   result:
@@ -671,6 +672,7 @@
     device:
       type: television
       manufacturer: PEAQ
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;TCL LF1V349; en) Presto/2.8.115 Version/11.10
   result:
@@ -683,6 +685,7 @@
     device:
       type: television
       manufacturer: TCL
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOM LF1V375; en) Presto/2.10.250 Version/11.60
   result:
@@ -695,6 +698,7 @@
     device:
       type: television
       manufacturer: Thomson
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V017; en) Presto/2.10.250 Version/11.60
   result:
@@ -707,6 +711,7 @@
     device:
       type: television
       manufacturer: Thomson
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; LOEWE; SL32x; LOH/0.3.5.0;;) CE-HTML/1.0 Config(L:ger,CC:DE) NETRANGEMMH) Presto/2.12.407 Version/12.50
   result:
@@ -1091,6 +1096,7 @@
     device:
       type: television
       manufacturer: TCL
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (connect; 140223_0132_b6) CE-HTML/1.0 NETRANGEMMH
   result:
