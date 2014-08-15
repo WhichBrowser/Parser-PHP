@@ -2651,6 +2651,21 @@
 
 
 			/****************************************************
+			 *		AppleTV
+			 */
+
+			if (preg_match('/AppleTV[0-9],[0-9]/', $ua)) {
+				unset($this->os->name);
+				unset($this->os->version);
+
+				$this->device->model = 'AppleTV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				$this->device->generic = false; 
+			}
+
+
+			/****************************************************
 			 *		MediStream
 			 */
 
@@ -4362,6 +4377,15 @@
 				$this->os->version = null;
 			}
 			
+			/****************************************************
+			 *		XBMC
+			 */
+
+			if (preg_match('/^XBMC\/(?:PRE-)?([0-9.]+)/', $ua, $match)) {
+				$this->browser->name = 'XBMC';
+				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
+			}
+
 			/****************************************************
 			 *		Obigo
 			 */
