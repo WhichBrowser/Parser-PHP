@@ -1027,6 +1027,8 @@
 				/* Prevent the Mobile IE 11 Franken-UA from matching Android */
 				if (preg_match('/IEMobile\/1/', $ua)) $falsepositive = true;
 
+				/* Prevent from OSes that claim to be 'like' Android from matching */
+				if (preg_match('/like Android/', $ua)) $falsepositive = true;
 				
 				if (!$falsepositive) {
 					$this->os->name = 'Android';

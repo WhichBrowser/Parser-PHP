@@ -60,8 +60,6 @@
     engine:
       name: Webkit
       version: "531.2"
-    os:
-      version: []
     device:
       type: ereader
       manufacturer: Amazon
