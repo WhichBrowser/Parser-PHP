@@ -2808,6 +2808,11 @@
 							$this->device->generic = false; 
 						}
 
+						if (preg_match('/[0-9][0-9](ZL[0-9])/', $this->device->model, $match)) {
+							$this->device->model = $match[1] . ' Cevo';
+							$this->device->generic = false; 
+						}
+
 						if (preg_match('/(BDX[0-9]+)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
 							$this->device->series = "Blu-ray Player";

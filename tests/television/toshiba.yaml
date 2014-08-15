@@ -317,7 +317,7 @@
     device:
       type: television
       manufacturer: Toshiba
-      model: 55ZL1
+      model: ZL1 Cevo
       series: Smart TV
 - headers: |
     User-Agent: mwb-db-client Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 32SL863; 19.2.39.208; 3; ) ; ToshibaTP/1.1.1 () ; xx) Presto/2.6.33 Version/10.60
