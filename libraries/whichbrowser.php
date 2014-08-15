@@ -2294,9 +2294,6 @@
 			 */
 		
 			if (preg_match('/Viera/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Panasonic';
 				$this->device->series = 'Smart Viera';
 				$this->device->type = TYPE_TELEVISION;
@@ -2317,9 +2314,6 @@
 			 */
 		
 			if (preg_match('/AQUOSBrowser/', $ua) || preg_match('/AQUOS-AS/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Sharp';
 				$this->device->series = 'Aquos TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2349,11 +2343,6 @@
 				elseif (preg_match('/Maple([0-9]*)/', $ua, $match)) {
 					$this->device->series = 'Smart TV ' . $match[1];
 				}
-
-				if (!preg_match('/Tizen/', $ua)) {
-					unset($this->os->name);
-					unset($this->os->version);
-				}
 			}
 			
 			if (preg_match('/Maple_([0-9][0-9][0-9][0-9])/', $ua, $match)) {
@@ -2364,9 +2353,6 @@
 			}
 
 			if (preg_match('/Model\/Samsung-(BD-[A-Z][0-9]+)/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Samsung';
 				$this->device->model = $match[1];
 				$this->device->series = 'Blu-ray Player';
@@ -2380,9 +2366,6 @@
 			 */
 
 			if (preg_match('/SonyDTV|SonyCEBrowser/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Sony';
 				$this->device->series = 'Internet TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2390,9 +2373,6 @@
 			}
 			
 			if (preg_match('/Sony-?BDP/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Sony';
 				$this->device->series = "Blu-ray Player";
 				$this->device->type = TYPE_TELEVISION;
@@ -2400,9 +2380,6 @@
 			}
 			
 			if (preg_match('/SmartBD/', $ua) && preg_match('/(BDP-[A-Z][0-9]+)/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = $match[1];
 				$this->device->series = 'Blu-ray Player';
@@ -2411,9 +2388,6 @@
 			}
 
 			if (preg_match('/\s+([0-9]+)BRAVIA/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-				
 				$this->device->manufacturer = 'Sony';
 				$this->device->series = 'Bravia ' . $match[1];
 				$this->device->type = TYPE_TELEVISION;
@@ -2425,9 +2399,6 @@
 			 */
 
 			if (preg_match('/NETTV\//', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Philips';
 				$this->device->series = 'Net TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2453,9 +2424,6 @@
 			 */
 
 			if (preg_match('/LGSmartTV/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2466,9 +2434,6 @@
 			/* NetCast */
 						
 			if (preg_match('/NetCast/', $ua) && preg_match('/SmartTV\//', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'NetCast TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2476,9 +2441,6 @@
 			}
 
 			if (preg_match('/LG NetCast\.(TV|Media)-([0-9]*)/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'NetCast ' . $match[1] . ' ' . $match[2];
 				$this->device->type = TYPE_TELEVISION;
@@ -2495,9 +2457,6 @@
 			/* WebOS */
 
 			if (preg_match('/Web[O0]S/', $ua) && preg_match('/Large Screen/', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'webOS TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2505,9 +2464,6 @@
 			}
 
 			if (preg_match('/webOS\.TV-([0-9]+)/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'webOS TV ' . $match[1];
 				$this->device->type = TYPE_TELEVISION;
@@ -2526,9 +2482,6 @@
 			 */
 
 			if (preg_match('/Toshiba_?TP\//', $ua) || preg_match('/TSBNetTV\//', $ua)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Toshiba';
 				$this->device->series = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
@@ -2536,9 +2489,6 @@
 			}
 			
 			if (preg_match('/TOSHIBA;[^;]+;([A-Z]+[0-9]+[A-Z]+);/', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
 				$this->device->manufacturer = 'Toshiba';
 				$this->device->model = $match[1];
 				$this->device->series = 'Smart TV';

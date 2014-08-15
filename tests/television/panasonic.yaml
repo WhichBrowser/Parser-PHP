@@ -80,6 +80,9 @@
     engine:
       name: Webkit
       version: "534.30"
+    os:
+      name: Android
+      version: 4.0.2
     device:
       type: television
       manufacturer: Panasonic
