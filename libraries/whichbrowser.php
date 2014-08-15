@@ -2785,7 +2785,7 @@
 				if (isset($this->device->model) && isset($this->device->manufacturer)) {
 					
 					if ($this->device->manufacturer == 'Humax') {
-						$this->device->model = strtoupper($this->device->model);
+						$this->device->series = "Digital Receiver";
 					}
 	
 					if ($this->device->manufacturer == 'HyperPanel') {

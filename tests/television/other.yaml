@@ -16,6 +16,7 @@
       type: television
       manufacturer: Humax
       model: HD FOX+
+      series: Digital Receiver
 - headers: |
     User-Agent: HbbTV/1.1.1 (+PVR;Humax;iCord Cable;1.01.09;1.0)CE-HTML/1.0 ANTGalio/3.1.1.23.04.09
   result:
@@ -25,7 +26,8 @@
     device:
       type: television
       manufacturer: Humax
-      model: ICORD CABLE
+      model: iCord Cable
+      series: Digital Receiver
 - headers: |
     User-Agent: HbbTV/1.1.1 (+PVR;Humax;iCord HD+;1.01.17;1.0)CE-HTML/1.0 ANTGalio/3.1.1.23.04
   result:
@@ -35,7 +37,8 @@
     device:
       type: television
       manufacturer: Humax
-      model: ICORD HD+
+      model: iCord HD+
+      series: Digital Receiver
 - headers: |
     User-Agent: HbbTV/1.1.1 (+PVR;Sky_worth;HC7620;2.07.12;1.0;)CE-HTML/1.0 Skykid/5.1.6.2.04
   result:
@@ -569,6 +572,7 @@
       type: television
       manufacturer: Humax
       model: HD NANO
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7325b0; U; HbbTV/1.1.1 (; Humax; IR2000HD; 1.01.06; 1.0; ); ce-html/1.0; xx) Presto/2.9.167 Version/11.50
   result:
@@ -582,6 +586,7 @@
       type: television
       manufacturer: Humax
       model: IR2000HD
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7325b0; U; HbbTV/1.1.1 (; Humax; IRHD-5100S; 1.01.26; 1.0; ); ce-html/1.0; en) Presto/2.9.167 Version/11.50
   result:
@@ -595,6 +600,7 @@
       type: television
       manufacturer: Humax
       model: IRHD-5100S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7335b0-smp; U; HbbTV/1.1.1 (; Humax; iCord MINI; 0.90.02; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60
   result:
@@ -607,7 +613,8 @@
     device:
       type: television
       manufacturer: Humax
-      model: ICORD MINI
+      model: iCord MINI
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7335b0-smp; U; HbbTV/1.1.1 (; Humax; iCord MINI; 1.00.33; 1.0;  hdplusSmartTV/1.0 (NETRANGEMMH; )); ce-html/1.0; xx) Presto/2.10.250 Version/11.60
   result:
@@ -620,7 +627,8 @@
     device:
       type: television
       manufacturer: Humax
-      model: ICORD MINI
+      model: iCord MINI
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; Humax; HD 7000i; 1.00.36; 1.0; ); ce-html/1.0; xx) Presto/2.9.167 Version/11.50
   result:
@@ -633,7 +641,8 @@
     device:
       type: television
       manufacturer: Humax
-      model: HD 7000I
+      model: HD 7000i
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; Humax; HD-FOX-C/DELTA; 1.00.01; 1.0; ); ce-html/1.0; xx) Presto/2.10.250 Version/11.60
   result:
@@ -647,6 +656,7 @@
       type: television
       manufacturer: Humax
       model: HD-FOX-C/DELTA
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;IKEA LF1V358; en) Presto/2.10.250 Version/11.60
   result:
@@ -891,6 +901,7 @@
       type: television
       manufacturer: Humax
       model: HDR-1000S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; HbbTV/1.2.1 (PVR; jcom; WA-7000; 1.0.0; 1.0.0; ); ce-html/1.0) Presto/2.12.407 Version/12.50
   result:
@@ -928,6 +939,7 @@
       type: television
       manufacturer: Humax
       model: HMS-1000S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; Opera TV Store/5896; HbbTV/1.2.1 (PVR; freesat/1.0; hms1000sph2; 1.0.0; 1.0.0; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50 Model/Humax-TestingDevice
   result:
@@ -941,6 +953,7 @@
       type: television
       manufacturer: Humax
       model: HMS-1000S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; Opera TV Store/5921; HbbTV/1.2.1 (PVR; Humax; hms1000sph2; DESFAB 1.01.01; 1.0.0; wired; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50 Model/Humax-TestingDevice
   result:
@@ -954,6 +967,7 @@
       type: television
       manufacturer: Humax
       model: HMS-1000S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; Opera TV Store/6162; HbbTV/1.2.1 (; Altech UEC; PVR9600; ; ; )) Presto/2.12.407 Version/12.51 Model/AltechMultimedia-TestingDevice
   result:
@@ -1071,6 +1085,7 @@
       type: television
       manufacturer: Humax
       model: HM-9504HD
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Humax; hdr1000s; 1.0.0; 1.0.0; ); ce-html/1.0; xx) Presto/2.10.250 Version/11.60
   result:
@@ -1084,6 +1099,7 @@
       type: television
       manufacturer: Humax
       model: HDR-1000S
+      series: Digital Receiver
 - headers: |
     User-Agent: Opera/9.80 (Linux mips; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;TCL LF1V042; en) Presto/2.10.287 Version/12.00
   result:
