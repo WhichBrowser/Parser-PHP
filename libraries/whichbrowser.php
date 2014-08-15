@@ -2498,6 +2498,22 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 			
+
+			/****************************************************
+			 *		Loewe
+			 */
+		
+			if (preg_match('/LOEWE\/TV/', $ua)) {
+				$this->device->manufacturer = 'Loewe';
+				$this->device->series = 'Smart TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/((?:SL|ID)[0-9]+)/', $ua, $match)) {
+					$this->device->model = $match[1];	
+				}
+			}
+
 			
 			/****************************************************
 			 *		Motorola KreaTV
@@ -2714,6 +2730,15 @@
 
 						if (preg_match('/Media\/(.*)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
+							$this->device->generic = false; 
+						}
+					}
+					
+					if ($this->device->manufacturer == 'Loewe') {
+						$this->device->series = 'Smart TV';
+						
+						if (preg_match('/((?:ID|SL)[0-9]+)/', $ua, $match)) {
+							$this->device->model = 'Connect '.  $match[1];	
 							$this->device->generic = false; 
 						}
 					}

@@ -162,17 +162,28 @@
       model: PVR9600
 - headers: |
     User-Agent: LOEWE/TV HBBTV/1.0 CE-HTML/1.0 SL150/14.16.0
-  result: []
+  result:
+    device:
+      type: television
+      manufacturer: Loewe
+      model: Connect SL150
+      series: Smart TV
 - headers: |
     User-Agent: LOEWE/TV HbbTV/1.1.1 (+PVR; Loewe; SL121; LOH;;) CE-HTML/1.0 SL121/16.16.0
   result:
     device:
       type: television
       manufacturer: Loewe
-      model: SL121
+      model: Connect SL121
+      series: Smart TV
 - headers: |
     User-Agent: LOEWE/TV HbbTV/1.1.1 CE-HTML/1.0 SL121/16.16.0
-  result: []
+  result:
+    device:
+      type: television
+      manufacturer: Loewe
+      model: Connect SL121
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/3.0 WebTV/1.2 (compatible; MSIE 2.0)
   result:
@@ -516,7 +527,8 @@
     device:
       type: television
       manufacturer: Loewe
-      model: SL121
+      model: Connect SL121
+      series: Smart TV
 - headers: |
     User-Agent: Opera/10.60 (Linux sh4 ; U; HbbTV/1.1.1 (+PVR; Loewe; SL150; LOH/3.10;;) CE-HTML/1.0 Config(L:deu,CC:DEU); en) Presto/2.6.33 Version/10.60
   result:
@@ -529,7 +541,8 @@
     device:
       type: television
       manufacturer: Loewe
-      model: SL150
+      model: Connect SL150
+      series: Smart TV
 - headers: |
     User-Agent: Opera/10.60 (Linux sh4 ; U; HbbTV/1.1.1 (;;;;;); CE-HTML; TechniSat DIGIT ISIO S; en) Presto/2.6.33 Version/10.60
   result:
@@ -1145,7 +1158,8 @@
     device:
       type: television
       manufacturer: Loewe
-      model: SL150
+      model: Connect SL150
+      series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux sh4; U; HbbTV/1.1.1 (; INTEK; VT-100 HD+;;;) hdplusSmartTV/1.0 (NETRANGEMMH;) Bee/3.2 CE-HTML/1.0; en) Presto/2.10.250 Version/11.60
   result:
