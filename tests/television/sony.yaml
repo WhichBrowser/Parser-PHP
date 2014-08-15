@@ -18,7 +18,7 @@
     device:
       type: television
       manufacturer: Sony
-      series: Internet TV
+      series: Blu-ray Player
 - headers: |
     User-Agent: Opera/9.80 (Linux armv6l ; U; (SonyBDP/BDV11); en) Presto/2.6.33 Version/10.60
   result:

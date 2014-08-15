@@ -2377,6 +2377,10 @@
 				$this->device->series = 'Internet TV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/BDPlayer/', $ua)) {
+					$this->device->series = "Blu-ray Player";
+				}
 			}
 			
 			if (preg_match('/Sony-?BDP/', $ua)) {
