@@ -2289,6 +2289,10 @@
 				}
 			}
 			
+			if (preg_match('/HbbTV\/[0-9.]+;CE-HTML\/[0-9.]+;([^\s;]+)\s[^\s;]+;/', $ua, $match)) {
+				$this->device->manufacturer = Manufacturers::identify(TYPE_TELEVISION, $match[1]);
+			}
+			
 			
 			
 			/****************************************************
