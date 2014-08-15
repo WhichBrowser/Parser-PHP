@@ -2711,6 +2711,16 @@
 
 
 			/****************************************************
+			 *		OpenTV
+			 */
+
+			if (preg_match('/OpenTV/', $ua)) {
+				$this->device->series = 'OpenTV';
+				$this->device->type = TYPE_TELEVISION;
+			}
+
+
+			/****************************************************
 			 *		MediStream
 			 */
 
