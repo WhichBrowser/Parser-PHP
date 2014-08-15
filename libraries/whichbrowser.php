@@ -2372,18 +2372,30 @@
 			 *		Sony Internet TV
 			 */
 
-			if (preg_match('/SonyDTV|SonyCEBrowser/', $ua)) {
+			if (preg_match('/SonyCEBrowser/', $ua)) {
 				$this->device->manufacturer = 'Sony';
-				$this->device->series = 'Internet TV';
+				$this->device->series = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
-				
-				if (preg_match('/BDPlayer/', $ua)) {
-					$this->device->series = "Blu-ray Player";
+
+				if (preg_match('/SonyCEBrowser\/[0-9.]+ \((?:BDPlayer; |DTV[0-9]+\/)?([^;_]+)/', $ua, $match)) {
+					$this->device->model = $match[1];
 				}
 			}
 			
-			if (preg_match('/Sony-?BDP/', $ua)) {
+			if (preg_match('/SonyDTV/', $ua)) {
+				$this->device->manufacturer = 'Sony';
+				$this->device->series = 'Smart TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+				
+				if (preg_match('/(KDL[0-9]+[A-Z]+[0-9]+)/', $ua, $match)) {
+					$this->device->model = $match[1];	
+					$this->device->generic = false; 
+				}
+			}
+			
+			if (preg_match('/SonyBDP/', $ua)) {
 				$this->device->manufacturer = 'Sony';
 				$this->device->series = "Blu-ray Player";
 				$this->device->type = TYPE_TELEVISION;
@@ -2400,7 +2412,8 @@
 
 			if (preg_match('/\s+([0-9]+)BRAVIA/', $ua, $match)) {
 				$this->device->manufacturer = 'Sony';
-				$this->device->series = 'Bravia ' . $match[1];
+				$this->device->model = 'Bravia';
+				$this->device->series = 'Smart TV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 			}
@@ -2832,8 +2845,15 @@
 					}
 					
 					if ($this->device->manufacturer == 'Sony') {
-						if (preg_match('/KDL[0-9]+([A-Z]+[0-9]+)/', $this->device->model, $match)) {
+						if (preg_match('/(BDP[0-9]+G)/', $this->device->model, $match)) {
 							$this->device->model = $match[1];
+							$this->device->series = "Blu-ray Player";
+							$this->device->generic = false; 
+						}
+
+						if (preg_match('/KDL?-?[0-9]*([A-Z]+[0-9]+)[A-Z]*/', $this->device->model, $match)) {
+							$this->device->model = 'Bravia ' . $match[1];
+							$this->device->series = 'Smart TV';
 							$this->device->generic = false; 
 						}
 					}
