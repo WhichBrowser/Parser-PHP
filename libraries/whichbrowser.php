@@ -1270,7 +1270,7 @@
 						$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 					}
 
-					if ($this->os->version->toFloat() >= 10) {
+					if (isset($this->os->version) && $this->os->version->toFloat() >= 10) {
 						$this->os->name = 'BlackBerry';
 					}
 
