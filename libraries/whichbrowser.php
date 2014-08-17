@@ -4630,6 +4630,12 @@
 				}
 			}
 
+			if (preg_match('/Ucweb\/([0-9]*[.][0-9]*)/', $ua, $match)) {
+				$this->browser->stock = false;
+				$this->browser->name = 'UC Browser';
+				$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
+			}
+
 			if (preg_match('/ucweb-squid/', $ua)) {
 				$this->browser->stock = false;
 				$this->browser->name = 'UC Browser';

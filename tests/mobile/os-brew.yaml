@@ -95,6 +95,11 @@
 - headers: |
     User-Agent: Mozilla/5.0 (HS-E316/E464.6.01.03.00;U;REX/3.0;BREW/3.1.5;240*320;CTC/2.0) Ucweb/7.6
   result:
+    browser:
+      name: UC Browser
+      version: "7.6"
+    engine:
+      name: Gecko
     os:
       name: Brew
       version: 3.1.5
@@ -131,6 +136,11 @@
 - headers: |
     User-Agent: Mozilla/5.0 (SCH-B309I/B309IGC14;U;REX/3.0;BREW/3.1.5;128*128) Ucweb/6.3
   result:
+    browser:
+      name: UC Browser
+      version: "6.3"
+    engine:
+      name: Gecko
     os:
       name: Brew
       version: 3.1.5
