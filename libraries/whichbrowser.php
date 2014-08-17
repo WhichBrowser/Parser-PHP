@@ -3420,6 +3420,14 @@
 								}
 							}
 	
+							if (preg_match('/^Spice\s([^\s]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Spice';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false; 
+								$identified = true;
+							}
+
 							if (preg_match('/^Xiaomi[_]?([^\s]+)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Xiaomi';
 								$this->device->model = DeviceModels::cleanup($match[1]);

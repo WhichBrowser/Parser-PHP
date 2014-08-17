@@ -27,6 +27,8 @@
       name: MTK
     device:
       type: mobile
+      manufacturer: Spice
+      model: M6800
 - headers: |
     User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; Pt-BR; maui e800) U2/1.0.0 UCBrowser/9.2.0.311 U2/1.0.0 Mobile UNTRUSTED/1.0
     X-UCBrowser-Device: maui e800
