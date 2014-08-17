@@ -1672,7 +1672,7 @@
 					}
 				}
 
-				if (preg_match('/\(([^;]+);U;REX\/[^;]+;BREW\/[^;]+;(?:.*;)?[0-9]+\*[0-9]+;CTC\/2.0\)/', $ua, $match)) {
+				if (preg_match('/\(([^;]+);U;REX\/[^;]+;BREW\/[^;]+;(?:.*;)?[0-9]+\*[0-9]+(?:;CTC\/2.0)?\)/', $ua, $match)) {
 					$this->device->model = $match[1];
 					$this->device->identified = ID_PATTERN;
 					
