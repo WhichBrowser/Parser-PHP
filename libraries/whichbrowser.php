@@ -4899,6 +4899,7 @@
 				array('name' => 'Daedalus', 			'regexp' => '/Daedalus ([0-9.]*)/', 'details' => 2),
 				array('name' => 'Demobrowser', 			'regexp' => '/demobrowser\/([0-9.]*)/'),
 				array('name' => 'Doga Rhodonit', 		'regexp' => '/DogaRhodonit/'),
+				array('name' => 'Dorado', 				'regexp' => '/Browser\/Dorado([0-9.]*)/'),
 				array('name' => 'Dooble', 				'regexp' => '/Dooble(?:\/([0-9.]*))?/'),
 				array('name' => 'Dorothy', 				'regexp' => '/Dorothy$/'),
 				array('name' => 'DWB', 					'regexp' => '/dwb(?:-hg)?(?:\/([0-9.]*))?/'),

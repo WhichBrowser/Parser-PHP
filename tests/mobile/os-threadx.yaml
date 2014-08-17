@@ -13,6 +13,19 @@
       manufacturer: Huawei
       model: T1201
 - headers: |
+    User-Agent: PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0
+  result:
+    browser:
+      name: Dorado
+      version: "1.0"
+    os:
+      name: ThreadX
+      version: "4.0"
+    device:
+      type: mobile
+      manufacturer: Philips
+      model: X2300
+- headers: |
     User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.33867/35.3088; U; xx) Presto/2.8.119 Version/11.10
     X-OperaMini-Phone: ? # ?
     X-OperaMini-Phone-UA: PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0
