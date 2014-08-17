@@ -1644,7 +1644,7 @@
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
 
-				else if (preg_match('/;BREW[\/ ]([0-9.]*)/i', $ua, $match)) {
+				else if (preg_match('/[\(;]BREW[\/ ]([0-9.]*)/i', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
 
