@@ -1354,6 +1354,8 @@
       name: Windows Mobile
     device:
       type: mobile
+      manufacturer: Motorola
+      model: A1000
 - headers: |
     User-Agent: Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/34.1606; U; xx) Presto/2.8.119 Version/11.10
     Device-Stock-UA: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)

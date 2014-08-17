@@ -199,6 +199,8 @@
       name: Brew
     device:
       type: mobile
+      manufacturer: KDDI
+      model: FJ31
 - headers: |
     User-Agent: Mozilla/5.0_(Smartfren-E781A/E2_SQID_V0.1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/Q7
   result:
@@ -365,6 +367,8 @@
       name: Brew
     device:
       type: mobile
+      manufacturer: ZTE
+      model: F-450
 - headers: |
     User-Agent: Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 400X240 LG VN271
     X-OperaMini-Features: advanced, download
@@ -399,6 +403,8 @@
       name: Brew
     device:
       type: mobile
+      manufacturer: ZTE
+      model: F-450
 - headers: |
     User-Agent: Opera/9.80 (BREW; Opera Mini/6.0.0/27.2354; U; xx) Presto/2.8.119 240X320 Casio C781
     X-OperaMini-Features: advanced, download, file_system, folding
@@ -415,6 +421,8 @@
       name: Brew
     device:
       type: mobile
+      manufacturer: Casio
+      model: C781
 - headers: |
     User-Agent: Opera/9.80 (BREW; Opera Mini/6.0.3/27.2338; U; xx) Presto/2.8.119 240X320 Samsung SCH-U380
     X-OperaMini-Features: advanced, download, file_system, touch, folding

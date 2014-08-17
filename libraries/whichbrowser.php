@@ -96,6 +96,7 @@
 			if ($this->hasHeader('X-Device-User-Agent')) $this->analyseAlternativeUserAgent($this->getHeader('X-Device-User-Agent'));
 			if ($this->hasHeader('Device-Stock-UA')) $this->analyseAlternativeUserAgent($this->getHeader('Device-Stock-UA'));
 			if ($this->hasHeader('X-OperaMini-Phone-UA')) $this->analyseAlternativeUserAgent($this->getHeader('X-OperaMini-Phone-UA'));
+			if ($this->hasHeader('X-OperaMini-Phone')) $this->analyseOperaMiniPhone($this->getHeader('X-OperaMini-Phone'));
 			if ($this->hasHeader('X-UCBrowser-Device-UA')) $this->analyseAlternativeUserAgent($this->getHeader('X-UCBrowser-Device-UA'));
 			if ($this->hasHeader('X-UCBrowser-Phone-UA')) $this->analyseOldUCUserAgent($this->getHeader('X-UCBrowser-Phone-UA'));
 			if ($this->hasHeader('X-UCBrowser-UA')) $this->analyseNewUCUserAgent($this->getHeader('X-UCBrowser-UA'));
@@ -570,6 +571,42 @@
 				if ($device->identified) {
 					$device->identified |= $this->device->identified;
 					$this->device = $device;
+				}
+			}
+		}
+		
+		function analyseOperaMiniPhone($ua) {
+			@list($manufacturer, $model) = explode(' # ', $ua);
+			
+			if ($manufacturer != '?' && $model != '?') {
+				if (!$this->device->identified && $this->os->name == 'Bada') {
+					$device = DeviceModels::identify('bada', $model);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+				
+				if (!$this->device->identified && $this->os->name == 'Blackberry') {
+					$device = DeviceModels::identify('blackberry', $model);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+
+				if (!$this->device->identified && $this->os->name == 'Windows Mobile') {
+					$device = DeviceModels::identify('wm', $model);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+				
+				if (!$this->device->identified) {
+					$this->device->manufacturer = $manufacturer;
+					$this->device->model = $model;
+					$this->device->identified = true;
 				}
 			}
 		}
