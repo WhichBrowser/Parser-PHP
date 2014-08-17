@@ -226,7 +226,7 @@
       version: "4.2"
     os:
       name: Brew
-      version: ' 1.0.4'
+      version: 1.0.4
     device:
       type: mobile
 - headers: |
@@ -237,7 +237,7 @@
       version: "4.2"
     os:
       name: Brew
-      version: ' 1.0.4'
+      version: 1.0.4
     device:
       type: mobile
       model: LN272
