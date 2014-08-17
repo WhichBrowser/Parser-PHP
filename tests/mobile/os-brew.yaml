@@ -36,7 +36,7 @@
     device:
       type: mobile
       manufacturer: Sanyo
-      model: SCP6780
+      model: Innuendo
 - headers: |
     User-Agent: Mozilla/4.0 (Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151-PLB
   result:

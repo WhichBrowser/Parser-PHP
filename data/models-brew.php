@@ -3,6 +3,7 @@
 		DeviceModels::$BREW_MODELS = array(
 			'Coolpad D508'								=> array( 'Coolpad', 'D508' ),
 			'Coolpad E600'								=> array( 'Coolpad', 'E600' ),
+			'E4255'										=> array( 'Kyocera', 'DuraMax E4255' ),
 			'SCH-F839'									=> array( 'Samsung', 'SCH-F839' ),
 			'SCH-M519!'									=> array( 'Samsung', 'Metro TV' ),
 			'SCH-U380'									=> array( 'Samsung', 'Brightside' ),

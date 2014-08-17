@@ -1664,7 +1664,7 @@
 					$this->device->model = $match[2];
 					$this->device->identified = ID_PATTERN;
 
-					$device = DeviceModels::identify('brew', $match[1]);
+					$device = DeviceModels::identify('brew', $match[2]);
 
 					if ($device->identified) {
 						$device->identified |= $this->device->identified;
