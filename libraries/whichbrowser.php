@@ -1659,6 +1659,19 @@
 
 				$this->device->type = TYPE_MOBILE;
 
+				if (preg_match('/(?:Brew MP|BREW|BMP) [^;]+; U; [^;]+; ([^;]+); NetFront[^\)]+\) [^\s]+ ([^\s]+)/', $ua, $match)) {
+					$this->device->manufacturer = trim($match[1]);
+					$this->device->model = $match[2];
+					$this->device->identified = ID_PATTERN;
+
+					$device = DeviceModels::identify('brew', $match[1]);
+
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+
 				if (preg_match('/\(([^;]+);U;REX\/[^;]+;BREW\/[^;]+;(?:.*;)?[0-9]+\*[0-9]+;CTC\/2.0\)/', $ua, $match)) {
 					$this->device->model = $match[1];
 					$this->device->identified = ID_PATTERN;

@@ -22,6 +22,7 @@
       version: 1.0.2
     device:
       type: mobile
+      manufacturer: Kyocera
       model: E4255
 - headers: |
     User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Sanyo; NetFront/3.5.1/AMB) Boost SCP6780
@@ -34,6 +35,8 @@
       version: 1.0.2
     device:
       type: mobile
+      manufacturer: Sanyo
+      model: SCP6780
 - headers: |
     User-Agent: Mozilla/4.0 (Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151-PLB
   result:
@@ -45,6 +48,7 @@
       version: 1.0.4
     device:
       type: mobile
+      manufacturer: Kyocera
       model: S2151-PLB
 - headers: |
     User-Agent: Mozilla/4.0 (MobilePhone; Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151
@@ -57,6 +61,7 @@
       version: 1.0.4
     device:
       type: mobile
+      manufacturer: Kyocera
       model: S2151
 - headers: |
     User-Agent: Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;xx)/400x240 Samsung SCH-U820
@@ -197,6 +202,7 @@
       version: 5.0.1.2
     device:
       type: mobile
+      manufacturer: LG
       model: LN510
 - headers: |
     User-Agent: NetFront/3.5.1(BREW 3.1.5; U; xx; SAMSUNG; NetFront/3.1.5/AMB) Sprint M550 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
@@ -209,6 +215,7 @@
       version: 3.1.5
     device:
       type: mobile
+      manufacturer: SAMSUNG
       model: M550
 - headers: |
     User-Agent: NetFront/3.5.1(BREW 5.0.2.1; U; xx; SAMSUNG; NetFront/3.5.1/WAP) PayLo M390-PLB
@@ -221,6 +228,8 @@
       version: 5.0.2.1
     device:
       type: mobile
+      manufacturer: SAMSUNG
+      model: M390-PLB
 - headers: |
     User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Boost LG272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
   result:
@@ -232,6 +241,8 @@
       version: 1.0.4
     device:
       type: mobile
+      manufacturer: LG
+      model: LG272
 - headers: |
     User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Sprint LN272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
   result:
@@ -243,6 +254,7 @@
       version: 1.0.4
     device:
       type: mobile
+      manufacturer: LG
       model: LN272
 - headers: |
     User-Agent: PantechP6030/JZUS09022013 BMP/1.0.4 DeviceId/141030 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1
@@ -281,6 +293,8 @@
       version: 3.1.5
     device:
       type: mobile
+      manufacturer: Sanyo
+      model: SCP6760
 - headers: |
     User-Agent: Opera/9.80 (BREW; Opera Mini/5.0/27.2354; U; xx) Presto/2.8.119 320X240 Samsung SCH-U380
     X-OperaMini-Features: advanced, download, file_system, folding
@@ -633,6 +647,8 @@
       version: 5.0.2.1
     device:
       type: mobile
+      manufacturer: Samsung
+      model: M260
 - headers: |
     User-Agent: Opera/9.80 (BREW; Opera Mini/4.2.99/34.1244; U; xx) Presto/2.8.119 Version/11.10
     Device-Stock-UA: NativeOperaMini(Haier;Native Opera Mini/4.2.99;id;BREW 3.1.5)
@@ -687,6 +703,7 @@
       version: 1.0.2
     device:
       type: mobile
+      manufacturer: Kyocera
       model: E4255
 - headers: |
     User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1853; U; xx) Presto/2.8.119 Version/11.10
@@ -706,5 +723,6 @@
       version: 3.1.5
     device:
       type: mobile
+      manufacturer: Sanyo
       model: SCP-6760
 ...
