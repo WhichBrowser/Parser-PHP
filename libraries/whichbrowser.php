@@ -3576,15 +3576,6 @@
 				}
 			}
 			
-
-			if (preg_match('/Sprint ([^\s]+)/', $ua, $match)) {
-				$this->device->manufacturer = 'Sprint';
-				$this->device->model = DeviceModels::cleanup($match[1]);
-				$this->device->type = TYPE_MOBILE;
-				$this->device->identified |= ID_PATTERN;
-				$this->device->generic = false; 
-			}
-
 			if (preg_match('/SoftBank\/[^\/]+\/([^\/]+)\//', $ua, $match)) {
 				$this->device->manufacturer = 'Softbank';
 				$this->device->model = DeviceModels::cleanup($match[1]);

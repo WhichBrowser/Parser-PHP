@@ -1321,8 +1321,8 @@
       version: "6.5"
     device:
       type: mobile
-      manufacturer: Sprint
-      model: T7380
+      manufacturer: HTC
+      model: Touch Pro 2
 - headers: |
     User-Agent: Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/32.1214; U; xx) Presto/2.8.119 Version/11.10
     Device-Stock-UA: Motorola
