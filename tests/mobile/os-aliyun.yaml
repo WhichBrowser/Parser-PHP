@@ -58,7 +58,8 @@
       version: 2.1.0
     device:
       type: mobile
-      model: C2
+      manufacturer: Zopo
+      model: ZP960 C2
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Android 4.2.1; VOTO V5 Build/JOP40D YunOS/2.1.0-E20130710.1324) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36
   result:
@@ -86,6 +87,7 @@
       version: "1.1"
     device:
       type: mobile
+      manufacturer: Amoi
       model: A862W
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 1.1; Android 4.0 Compatible; xx; V1 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
@@ -195,7 +197,8 @@
       version: 1.6.1
     device:
       type: mobile
-      model: TCL_TK8263_T
+      manufacturer: TCL
+      model: TK8263
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U; Android 1.7.0.0-T-20121001.042346; xx; HW-W718 Build/IML74K) UC AppleWebKit/534.31 (KHTML, like Gecko) Mobile Safari/534.31
   result:
@@ -623,7 +626,8 @@
       version: "2.0"
     device:
       type: mobile
-      model: C2
+      manufacturer: Zopo
+      model: ZP960 C2
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 2.0; Android 4.0 Compatible; xx; G9 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
     X-Requested-With: com.aliyun.mobile.browser
