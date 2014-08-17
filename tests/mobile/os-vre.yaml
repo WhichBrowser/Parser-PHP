@@ -1,0 +1,19 @@
+---
+- headers: |
+    User-Agent: Opera/9.80 (VRE; Opera Mini/4.2/32.1312; U; xx) Presto/2.8.119 Version/11.10
+    X-OperaMini-Phone-UA: ReksioVRE(196683)
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Features: httpping, advanced, folding, file_system, download
+    Device-Stock-UA: ReksioVRE(196683)
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.2"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: VRE
+    device:
+      type: mobile
+...

@@ -1,0 +1,87 @@
+---
+- headers: |
+    User-Agent: Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31223/31.1448; U; xx) Presto/2.8.119 Version/11.10
+    Device-Stock-UA: OperaMini(MAUI_MRE;Opera Mini/4.4.31223;en)
+    X-OperaMini-Phone-UA: OperaMini(MAUI_MRE;Opera Mini/4.4.31223;en)
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Features: advanced, routing, download, file_system, folding
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: MAUI Runtime
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31223/34.1606; U; xx) Presto/2.8.119 Version/11.10
+    X-OperaMini-Phone-UA: OperaMini(Fucus/Unknown;Opera Mini/4.4.31223;en)
+    X-OperaMini-Features: advanced, httpping, routing, file_system, folding, download
+    X-OperaMini-Phone: ? # ?
+    Device-Stock-UA: OperaMini(Fucus/Unknown;Opera Mini/4.4.31223;en)
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: MAUI Runtime
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31762/35.3312; U; xx) Presto/2.8.119 Version/11.10
+    X-OperaMini-Phone-UA: OperaMini(Lava-Discover135;Opera Mini/4.4.31762;en)
+    X-OperaMini-Phone: ? # ?
+    Device-Stock-UA: OperaMini(Lava-Discover135;Opera Mini/4.4.31762;en)
+    X-OperaMini-Features: httpping, advanced, routing, file_system, download, folding
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: MAUI Runtime
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31989/30.3793; U; xx) Presto/2.8.119 Version/11.10
+    X-OperaMini-Phone-UA: OperaMini(Gionee_1305;Opera Mini/4.4.31989;en)
+    X-OperaMini-Features: advanced, download, file_system, folding, routing
+    Device-Stock-UA: OperaMini(Gionee_1305;Opera Mini/4.4.31989;en)
+    X-OperaMini-Phone: ? # ?
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: MAUI Runtime
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Opera/9.80 (MAUI Runtime; Opera Mini/6.1.27412/35.3781; U; xx) Presto/2.8.119 Version/11.10
+    Device-Stock-UA: NativeOperaMini(MRE_VER_3000;240X320;MT6256;V/;Opera Mini/6.1.27412;en)
+    X-OperaMini-Phone-UA: NativeOperaMini(MRE_VER_3000;240X320;MT6256;V/;Opera Mini/6.1.27412;en)
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Features: advanced, httpping, routing, download, file_system, folding
+  result:
+    browser:
+      name: Opera Mini
+      version: "6.1"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: MAUI Runtime
+    device:
+      type: mobile
+...

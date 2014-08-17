@@ -1,0 +1,36 @@
+---
+- headers: |
+    User-Agent: Opera/9.80 (SpreadTrum; Opera Mini/4.4.29625/34.1970; U; xx) Presto/2.8.119 Version/11.10
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Phone-UA: NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.29625;pt)
+    X-OperaMini-Features: httpping, advanced, routing, folding, file_system, download
+    Device-Stock-UA: NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.29625;pt)
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: SpreadTrum
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Opera/9.80 (SpreadTrum; Opera Mini/4.4.31227/34.1088; U; xx) Presto/2.8.119 Version/11.10
+    Device-Stock-UA: NativeOperaMini(Spreadtrum/HW Version:        SC6531_OPENPHONE;Native Opera Mini/4.4.31227;en)
+    X-OperaMini-Phone-UA: NativeOperaMini(Spreadtrum/HW Version:        SC6531_OPENPHONE;Native Opera Mini/4.4.31227;en)
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Features: advanced, httpping, routing, file_system, download, folding
+  result:
+    browser:
+      name: Opera Mini
+      version: "4.4"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: SpreadTrum
+    device:
+      type: mobile
+...
