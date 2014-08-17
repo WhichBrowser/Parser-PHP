@@ -1815,6 +1815,7 @@
 			'801a'										=> array( 'HTC', 'One' ),
 			'HTC One'									=> array( 'HTC', 'One' ),
 			'HTCONE'									=> array( 'HTC', 'One' ),
+			'M7CDTU'									=> array( 'HTC', 'One' ),
 			'HTC6515LVW'								=> array( 'HTC', 'One Remix' ),
 			'HTC 601e'									=> array( 'HTC', 'One Mini' ),
 			'HTC PO581'									=> array( 'HTC', 'One Mini' ),
