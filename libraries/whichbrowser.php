@@ -4753,6 +4753,12 @@
 				}
 			}	
 
+			if (preg_match('/MQQBrowser\/Mini([0-9.]*)/', $ua, $match)) {
+				$this->browser->name = 'QQ Browser Mini';
+				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
+				$this->browser->channel = '';
+			}	
+
 			/****************************************************
 			 *		iBrowser
 			 */

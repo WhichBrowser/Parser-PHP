@@ -3,8 +3,8 @@
     User-Agent: MQQBrowser/Mini3.1 (ZTE-R516-BREW-B01)
   result:
     browser:
-      name: QQ Browser
-      version: ""
+      name: QQ Browser Mini
+      version: "3.1"
     os:
       name: Brew
     device:
