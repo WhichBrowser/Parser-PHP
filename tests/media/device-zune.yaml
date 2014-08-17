@@ -1,0 +1,13 @@
+---
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12; Microsoft ZuneHD 4.5)
+    UA-OS: Windows CE (Pocket PC) - Version 6
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "6.0"
+    device:
+      type: media
+      manufacturer: Microsoft
+      model: Zune HD
+...
