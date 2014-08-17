@@ -3033,6 +3033,11 @@
 				if (preg_match('/ \(([^\)]+)\)/', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
+
+				if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//i', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+				
 				
 				if (isset($this->os->name)) {
 					for ($i = 0; $i < count($candidates); $i++) {

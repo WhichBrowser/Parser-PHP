@@ -11,6 +11,7 @@
     device:
       type: mobile
       manufacturer: Huawei
+      model: T1201
 - headers: |
     User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.33867/35.3088; U; xx) Presto/2.8.119 Version/11.10
     X-OperaMini-Phone: ? # ?
