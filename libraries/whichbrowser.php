@@ -1029,6 +1029,7 @@
 
 				/* Prevent from OSes that claim to be 'like' Android from matching */
 				if (preg_match('/like Android/', $ua)) $falsepositive = true;
+				if (preg_match('/COS like Android/', $ua)) $falsepositive = false;
 				
 				if (!$falsepositive) {
 					$this->os->name = 'Android';
