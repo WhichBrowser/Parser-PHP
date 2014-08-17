@@ -1723,6 +1723,7 @@
 			if (preg_match('/COS like Android/i', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = null;
+				$this->device->type = TYPE_MOBILE;
 			}
 
 			if (preg_match('/COSBrowser\/([0-9.]*)/i', $ua, $match)) {
