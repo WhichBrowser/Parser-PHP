@@ -4458,6 +4458,12 @@
 				$this->device->type = TYPE_MOBILE;
 			}
 
+			if (preg_match('/Browser\/NetFont-([0-9.]*)/i', $ua, $match)) {
+				$this->browser->name = 'NetFront';
+				$this->browser->version = new Version(array('value' => $match[1]));
+				$this->device->type = TYPE_MOBILE;
+			}
+
 			/****************************************************
 			 *		NetFront NX
 			 */
