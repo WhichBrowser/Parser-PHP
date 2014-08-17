@@ -12,6 +12,8 @@
       name: MTK
     device:
       type: mobile
+      manufacturer: Philips
+      model: X331
 - headers: |
     User-Agent: Spice M6800  Opera/9.80 (MTK; Nucleus; U; xx) Presto/2.4.18 Version/10.00
   result:

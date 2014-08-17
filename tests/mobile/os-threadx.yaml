@@ -30,4 +30,6 @@
       version: "4.0"
     device:
       type: mobile
+      manufacturer: Philips
+      model: X2300
 ...
