@@ -3022,6 +3022,10 @@
 					array_push($candidates, $match[1]);
 				}
 				
+				if (preg_match('/^([^\s]+\s[^\s]+)\s+Opera/', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+				
 				if (preg_match('/^([a-z0-9\.\_\+\/ ]+) Linux/i', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
