@@ -10,7 +10,7 @@
     device:
       type: mobile
       manufacturer: ZTE
-      model: R516-BREW-B01
+      model: R516
 - headers: |
     User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Kyocera; NetFront/4.1/AMB) Sprint E4255
   result:

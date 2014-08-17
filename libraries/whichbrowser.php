@@ -5632,6 +5632,7 @@
 			$s = preg_replace('/_TD$/', '', $s);
 			$s = preg_replace('/_CMCC$/', '', $s);
 			$s = preg_replace('/_CUCC$/', '', $s);
+			$s = preg_replace('/-BREW.+$/', '', $s);
 			
 			$s = preg_replace('/_/', ' ', $s);
 			$s = preg_replace('/^\s+|\s+$/', '', $s);
