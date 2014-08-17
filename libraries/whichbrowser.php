@@ -1131,7 +1131,7 @@
 					$this->device->model = $match[1];
 				}
 				
-				if ($this->device->model) {
+				if (isset($this->device->model)) {
 					$this->device->identified |= ID_PATTERN;
 					
 					$device = DeviceModels::identify('android', $this->device->model);
