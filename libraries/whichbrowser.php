@@ -3170,6 +3170,14 @@
 								$identified = true;
 							}
 							
+							if (preg_match('/^HIKe_([^\s]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'HIKe';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false; 
+								$identified = true;
+							}
+							
 							if (preg_match('/^HTC[_-]?([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'HTC';
 								$this->device->model = DeviceModels::cleanup($match[1]);
