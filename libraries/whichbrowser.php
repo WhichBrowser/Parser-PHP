@@ -2989,6 +2989,10 @@
 					array_push($candidates, $match[1]);
 				}
 
+				if (preg_match('/[0-9]+x[0-9]+; [^;]+; ([^;]+)/', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
 				if (preg_match('/\s*([^;]*[^\s])\s*; [0-9]+\*[0-9]+\)/', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
@@ -3049,6 +3053,10 @@
 					array_push($candidates, $match[1]);
 				}
 				
+				if (preg_match('/Mozilla\/[0-9.]+ ([a-z0-9\.\-\_\+\/ ]+) Browser/i', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+				
 				if (preg_match('/ \(([^\)]+)\)/', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
@@ -3056,7 +3064,6 @@
 				if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//i', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
-				
 				
 				if (isset($this->os->name)) {
 					for ($i = 0; $i < count($candidates); $i++) {
@@ -3194,6 +3201,14 @@
 								$identified = true;
 							}
 	
+							if (preg_match('/^KDDI-([^\s;]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'KDDI';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false; 
+								$identified = true;
+							}
+							
 							if (preg_match('/^KONKA[-_]?([^\s]+)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Konka';
 								$this->device->model = DeviceModels::cleanup($match[1]);
@@ -3325,7 +3340,7 @@
 								$identified = true;
 							}
 							
-							if (preg_match('/^SonyEricsson([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
+							if (preg_match('/^(?:SonyEricsson|SE)([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Sony Ericsson';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
@@ -3356,6 +3371,14 @@
 							
 							if (preg_match('/^TCL[-_ ]([^\/]*)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'TCL';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false; 
+								$identified = true;
+							}
+							
+							if (preg_match('/^Toshiba\/([^\/]*)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Toshiba';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
 								$this->device->generic = false; 
@@ -3445,6 +3468,14 @@
 	
 							if (preg_match('/^Spice\s([^\s]+)/i', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Spice';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false; 
+								$identified = true;
+							}
+
+							if (preg_match('/^UTStar-([^\s]+)/i', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'UTStar';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
 								$this->device->generic = false; 
@@ -3603,6 +3634,20 @@
 				$this->device->type = TYPE_MOBILE;
 				$this->device->identified |= ID_PATTERN;
 				$this->device->generic = false; 
+			}
+
+			if (preg_match('/HP(iPAQ[0-9]+)\//', $ua, $match)) {
+				$this->device->manufacturer = 'HP';
+				$this->device->model = DeviceModels::cleanup($match[1]);
+				$this->device->type = TYPE_MOBILE;
+				$this->device->identified |= ID_PATTERN;
+				$this->device->generic = false; 
+
+				$device = DeviceModels::identify('wm', $this->device->model);
+				if ($device->identified) {
+					$device->identified |= $this->device->identified;
+					$this->device = $device;
+				}
 			}
 
 			if (preg_match('/\((?:LG[-|\/])(.*) (?:Browser\/)?AppleWebkit/', $ua, $match)) {
