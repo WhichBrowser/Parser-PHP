@@ -1,0 +1,4185 @@
+---
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "7"
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Mozart; Orange)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Trophy)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7 T9292)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; T8788)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Surround
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; GW910)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-C900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7Q
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-E900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7 E900
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 710)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 710
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; GT-I8350)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia W
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; OMNIA7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia 7
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; SGH-i667)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus 2
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; SGH-i917)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus
+- headers: |
+    User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; SGH-i917R)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "7.0"
+    engine:
+      name: Trident
+      version: "3.1"
+    os:
+      name: Windows Phone
+      version: "7.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus
+- headers: |
+    User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 720) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; Vodafone) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SPH-I800; Chameleon) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S Neo
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 928) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 928
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 930) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 930
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Nokia 1520) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Nokia 520T; CMCC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; WebView/2.0; rv:11.0; IEMobile/11.0; NOKIA; Lumia 520) like Gecko
+  result:
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; WebView/2.0; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+  result:
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 630
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; A620b) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; A620d; ChinaTelecom) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; A620e) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; A620m) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; C620d; ChinaTelecom) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; C620e) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; C620t; CMCC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; C625a) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; C625b) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; HTC6990LVW) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; HTCPO881; SPRINT) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8XT
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; PM23300) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; Windows Phone 8S by HTC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; Windows Phone 8X by HTC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HUAWEI; W1-C00) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HUAWEI; W1-U00) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HUAWEI; W2-U00) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W2
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Motorola Solutions; TC70) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Motorola
+      model: TC70
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NGM; Harley_Davidson) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: NGM
+      model: Harley_Davidson
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; 1520.1) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; 909) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1020
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 1320) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1320
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 1520) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 520) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 521) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 521
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 525) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 525
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530 Dual SIM) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: NOKIA
+      model: Lumia 530 Dual SIM
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: NOKIA
+      model: Lumia 530
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 620) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 620
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 625) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 625H) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630; Vodafone) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 630
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 635
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 720) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 810) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 810
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 820) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 820
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 928) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 928
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 929) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 929 Icon
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 930
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 1320) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1320
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 520) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 520T; CMCC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 525) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 525
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 526; CMCC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 526
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 620) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 620
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 625H) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 720) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 720T; CMCC) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 820) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 820
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 909) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1020
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 920) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 920T) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 925) like 00977
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 925T) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; GT-I8750) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SCH-I930) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ Odyssey
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SCH-R860U) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ Odyssey
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SGH-T899M) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SM-W750V) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ SE
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; SAMSUNG; SPH-I800; SPRINT) like Gecko
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "11.0"
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S Neo
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+  result:
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 630
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; NOKIA; Lumia 925) like Gecko
+  result:
+    engine:
+      name: Trident
+      version: "7.0"
+    os:
+      name: Windows Phone
+      version: "8.1"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620d) UCBrowser/3.6.1.456 Mobile
+  result:
+    browser:
+      name: UC Browser
+      version: "3.6"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620d; ChinaTelecom)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620e)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620m)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620t)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620d)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620d; ChinaTelecom) baiduboxapp/042_0.0.5.4_enohpw_0821_027/CTH_0.8_0.72301.0.8_d026C/1399g/D58CA7621E5BC6760336104602BEB69B0A175AFC/1
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620e)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620t)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C625a)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C625b)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; HTC6990LVW)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; HTCPO881; Chameleon)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8XT
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; PM23300)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; Windows Phone 8S by HTC)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; Windows Phone 8X by HTC)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-C00)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W2-T01)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W2
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W2-U00)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W2
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; Motorola Solutions; TC70)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Motorola
+      model: TC70
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; 1520.1)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; 909)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1020
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 1320)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1320
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 1520)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 521)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 521
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 525)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 525
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 620)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 620
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 625)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 625H)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 630)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 630
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 635)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 635
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 720)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 810)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 810
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 820)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 820
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 822)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 822
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 925)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 928)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 928
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 929)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 929 Icon
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 930)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 930
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 1320)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1320
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 1520)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 520)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 520T)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 525)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 525
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 526)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 526
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 620)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 620
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 625H)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 625
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 720)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 720T)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 720
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 820)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 820
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 909)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1020
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 920)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 920T)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 920
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 925)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 925T)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; GT-I8750)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SCH-I930)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ Odyssey
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SCH-R860U)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ Odyssey
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SGH-T899M)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SM-W750V)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ SE
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SPH-I800)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "10.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S Neo
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; ALCATEL; ONE TOUCH 5040X)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Alcatel
+      model: One Touch View
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Acer; Allegro)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Acer
+      model: Allegro
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; DELL; Venue Pro)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Dell
+      model: Venue Pro
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; FujitsuToshibaMobileCommun; IS12T; KDDI)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Fujitsu Toshiba
+      model: IS12T
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mondrian T8788)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Surround
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart; Orange)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Pro T7576)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Pro
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Schubert T9292)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Trophy T8686)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Trophy)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD2)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD2
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HTC Trophy)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HTC Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; MWP6885)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: MWP6885
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Mazaa)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Mazaa
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Mondrian)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Mondrian
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Mozart)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Omega)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Omega
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PC40100)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PD67100)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PI39100)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Titan
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PI86100)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Titan II
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar 4G)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Radar
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar C110e)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Radar
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar; Orange)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Radar
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Schubert)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Spark)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Spark
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Surround T8788)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Surround
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Surround)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Surround
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T7575)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Pro
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T8697)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 7 Mozart
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T8788)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Surround
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T9296)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: HD7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Titan
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Titan)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Titan
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Trophy T8686)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Trophy)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; USCCHTC-PC93100; USC-US)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Arrive
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Ultimate)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Ultimate
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; X310e)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Titan
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; htc mpw6958)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Trophy
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HUAWEI; W1-C00)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HUAWEI; W1-U00)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Huawei
+      model: Ascend W1
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-C900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7Q
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-C900B)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7Q
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-C900k)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7Q
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-E900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7 E900
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-E900h)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Optimus 7 E900
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-E906)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: LG
+      model: Jil Sander
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; MAL; MSM7x27A; China Telecom)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: MAL
+      model: MSM7x27A
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; MAL; N880e WP7.8 V2 8835; China Telecom)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: ZTE
+      model: N880e
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; MAL; N880e WP7.8 V5.0 8862; China Telecom)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: ZTE
+      model: N880e
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; 909)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 1020
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 510)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 510
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610 NFC)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 610
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 610
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 710
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 800
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800C)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 800
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 900
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 510)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 510
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 610)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 610
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 610C)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 610
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 710)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 710
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 800)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 800
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 800C)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 800
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Nokia 900)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 900
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Nokia; 800C)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 800
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8350)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia W
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8350T)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia W
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8750)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-S7530)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia M
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-S7530E)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia M
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-S7530L)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia M
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-i8700)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia 7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; OMNIA7)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia 7
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; Omnia W; Orange)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Omnia W
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SCH-R860U)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ Odyssey
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-I937)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-T899M)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Ativ S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i667)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus 2
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i677)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus Flash
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917R)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Focus
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; i917)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Cetus
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; ZTE; Tania)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: ZTE
+      model: V965W Tania
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; ZTE; V965W)
+  result:
+    browser:
+      name: Mobile Internet Explorer
+      version: "9.0"
+    engine:
+      name: Trident
+      version: "5.0"
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: ZTE
+      model: V965W Tania
+- headers: |
+    User-Agent: MQQBrowser/1.0/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; NOKIA; RM-910apacprc200)
+    Q-UA: WPQB10_GA/100001&SMTT_3/020100&WP8&0014&RM-910apacprc200&0&9218&V3
+  result:
+    browser:
+      name: QQ Browser
+      version: "1.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: MQQBrowser/3.6/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; NOKIA; RM-892apachongko)
+    Q-UA: WPQB36_GA/360926&SMTT_3/020100&WP8&305014&RM-892apachongko&71100&9288&V3
+  result:
+    browser:
+      name: QQ Browser
+      version: "3.6"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 925
+- headers: |
+    User-Agent: MQQBrowser/3.7/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; HTC; HTC6990LVW)
+    Q-UA: WPQB37_GA/370995&SMTT_3/020100&WP8&305014&HTC6990LVW&71100&9337&V3
+  result:
+    browser:
+      name: QQ Browser
+      version: "3.7"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx; rv:1.9.0.5) Gecko/200900101 Firefox/3.0.5
+    X-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA RM-914_im_mea3_380);pr(UCBrowser/3.4.1.407);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);up(U2/1.0.0);pm(1);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.4"
+    engine:
+      name: Gecko
+      version: 1.9.0
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop) UCBrowser/3.1.1.343
+    X-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(HTC  8S by HTC);pr(UCBrowser/3.1.1.343);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);pm(0);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.1"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10512)
+    Baidu-FlyFlow: Microsoft Windows NT 8.0.10512.0;4.0.50829.0;NOKIA;RM-822_apac_prc_204;ca23bc5b9a1777612837b43014640b3cce62fc50;2.5.0.12
+  result:
+    browser:
+      name: Baidu Browser
+      version: 2.5.0.12
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8"
+    device:
+      type: mobile
+      manufacturer: WPDesktop) baidubrowser/2.5.0.12 (Baidu
+      model: P3 8.0.10512
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10521)
+    Baidu-FlyFlow: Microsoft Windows NT 8.0.10521.0;4.0.50829.0;NOKIA;RM-821_apac_hong_kong_234;03988de8b2eab0b1cadee6ec115612692262e40d;2.5.0.12
+  result:
+    browser:
+      name: Baidu Browser
+      version: 2.5.0.12
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8"
+    device:
+      type: mobile
+      manufacturer: WPDesktop) baidubrowser/2.5.0.12 (Baidu
+      model: P3 8.0.10521
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620e)
+    X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(HTC A620e);pr(UCBrowser/3.4.1.407);ov(wds 8.10);pi(480*800);ss(480*800);er(U);bt(UC);nm(0);im(0);sr(2);nt(2);pm(0);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.4"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620e) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10327)
+    Baidu-FlyFlow: Microsoft Windows NT 8.0.10327.0;4.0.50829.0;HTC;A620e;cadbcd6ff7d136b26075066cd7e9b382f0f6e896;2.5.0.12
+  result:
+    browser:
+      name: Baidu Browser
+      version: 2.5.0.12
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8S
+- headers: |
+    User-Agent: UCWEB/2.0 (Windows; U; wds 7.10; xx; HTC; Radar C110e) U2/1.0.0 UCBrowser/3.1.1.343 U2/1.0.0 Mobile
+    x-ucbrowser-ua: pf(Windows);la(en-US);re(U2/1.0.0);dv(HTC Radar C110e);pr(UCBrowser/3.1.1.343);ov(wds 7.10);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);up(U2/1.0.0);pm(1);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.1"
+    engine:
+      name: Gecko
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: Radar
+- headers: |
+    User-Agent: UCWEB/2.0 (Windows; U; wds 7.10; xx; NOKIA; Lumia 510) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile
+    X-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA Lumia 510);pr(UCBrowser/3.2.0.340);ov(wds 7.10);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(2);up(U2/1.0.0);pm(1);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.2"
+    engine:
+      name: Gecko
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 510
+- headers: |
+    User-Agent: UCWEB/2.0 (Windows; U; wds 8.0; xx; HTC; C620e) U2/1.0.0 UCBrowser/3.1.1.343 U2/1.0.0 Mobile
+    X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(HTC C620e);pr(UCBrowser/3.1.1.343);ov(wds 8.0);pi(720*1280);ss(480*853);er(U);bt(UC);nm(0);im(0);sr(1);nt(2);up(U2/1.0.0);pm(1);
+  result:
+    browser:
+      name: UC Browser
+      version: "3.1"
+    engine:
+      name: Trident
+    os:
+      name: Windows Phone
+      version: "8.0"
+    device:
+      type: mobile
+      manufacturer: HTC
+      model: 8X
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop) UCBrowser/3.0.1.302
+    X-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA RM-914_eu_turkey_355);pr(UCBrowser/3.0.1.302);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);pm(0);
+    UA-CPU: ARM
+  result:
+    browser:
+      name: UC Browser
+      version: "3.0"
+    engine:
+      name: Trident
+      version: "6.0"
+    os:
+      name: Windows Phone
+      version: "8"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 520
+- headers: |
+    User-Agent: Mozilla/5.0 (Series40; NOKIALumia900; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.8.0.50.5
+    X-Nokia-Device-Type: 0
+    x-Mobile-Gateway: Novarra-Vision/8.1 (Default)
+    X-NB-CONTENT: xhtml
+  result:
+    browser:
+      name: Nokia Xpress
+      version: 1.8.0
+    engine:
+      name: Gecko
+    os:
+      name: Windows Phone
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 900
+- headers: |
+    User-Agent: Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/35.2989; U; xx) Presto/2.8.119 Version/11.10
+    Device-Stock-UA: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)
+    X-OperaMini-Phone: ? # ?
+    X-OperaMini-Phone-UA: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)
+    X-OperaMini-Features: httpping, advanced, routing, download, file_system
+  result:
+    browser:
+      name: Opera Mini
+      version: "5.1"
+    engine:
+      name: Presto
+      version: 2.8.119
+    os:
+      name: Windows Phone
+      version: "7.5"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Lumia 710
+...
