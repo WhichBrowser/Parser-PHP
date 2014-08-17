@@ -6,7 +6,7 @@
       name: Internet Explorer
       version: "6"
     os:
-      name: Android
+      name: Windows Mobile
       version: "6.5"
     device:
       type: mobile

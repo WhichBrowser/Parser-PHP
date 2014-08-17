@@ -20,7 +20,7 @@
       name: Webkit
       version: "537.17"
     os:
-      name: Android
+      name: COS
       version: "1.0"
     device:
       type: mobile
@@ -69,7 +69,7 @@
       name: Webkit
       version: "534.30"
     os:
-      name: Android
+      name: COS
       version: "2.1"
     device:
       type: mobile
@@ -100,7 +100,7 @@
       name: Webkit
       version: "537.17"
     os:
-      name: Android
+      name: COS
       version: "2.2"
     device:
       type: mobile

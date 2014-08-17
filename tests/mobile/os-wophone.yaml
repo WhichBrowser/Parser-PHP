@@ -6,7 +6,7 @@
       name: Webkit
       version: "532.9"
     os:
-      name: Android
+      name: WoPhone
       version: "1.0"
     device:
       type: mobile

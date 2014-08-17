@@ -3527,7 +3527,10 @@
 							if ($device->identified) {
 								$device->identified |= $this->device->identified;
 								$this->device = $device;
-								$this->os->name = 'Android';
+								
+								if (!isset($this->os->name)) {
+									$this->os->name = 'Android';
+								}
 							}
 						}
 						
