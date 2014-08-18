@@ -5634,7 +5634,7 @@
 				case 'bada': 		return DeviceModels::identifyList(DeviceModels::$BADA_MODELS, $model);
 				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
 				case 'brew': 		return DeviceModels::identifyList(DeviceModels::$BREW_MODELS, $model);
-				case 'firefoxos': 	return DeviceModels::identifyList(DeviceModels::$FIREFOXOS_MODELS, $model);
+				case 'firefoxos': 	return DeviceModels::identifyList(DeviceModels::$FIREFOXOS_MODELS, $model, false);
 				case 'ios':			return DeviceModels::identifyIOS($model);
 				case 'tizen': 		return DeviceModels::identifyList(DeviceModels::$TIZEN_MODELS, $model);
 				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
@@ -5693,8 +5693,8 @@
 			return $device;
 		}
 		
-		static function identifyList($list, $model) {
-			$model = DeviceModels::cleanup($model);
+		static function identifyList($list, $model, $cleanup = true) {
+			if ($cleanup) $model = DeviceModels::cleanup($model);
 			
 			$device = (object) array(
 				'type'			=> TYPE_MOBILE,

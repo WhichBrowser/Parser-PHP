@@ -12,6 +12,8 @@
       name: Firefox OS
     device:
       type: mobile
+      manufacturer: Alcatel
+      model: One Touch Fire
 - headers: |
     User-Agent: Mozilla/5.0 (Mobile; ALCATELOneTouch4012A; rv:18.1) Gecko/18.1 Firefox/18.1
   result:
@@ -70,6 +72,8 @@
       name: Firefox OS
     device:
       type: mobile
+      manufacturer: Alcatel
+      model: One Touch Fire C
 - headers: |
     User-Agent: Mozilla/5.0 (Mobile; ALCATELOneTouch4019X SVN:02005G MMS:1.1; rv:28.0) Gecko/28.0 Firefox/28.0
   result:
@@ -83,6 +87,8 @@
       name: Firefox OS
     device:
       type: mobile
+      manufacturer: Alcatel
+      model: One Touch Fire C
 - headers: |
     User-Agent: Mozilla/5.0 (Mobile; ALCATELOneTouch4019X/SVN 02003G; rv:28.0) Gecko/28.0 Firefox/28.0
   result:
@@ -156,6 +162,8 @@
       name: Firefox OS
     device:
       type: mobile
+      manufacturer: ZTE
+      model: Open C
 - headers: |
     User-Agent: Mozilla/5.0 (Mobile; OpenC; rv:28.0) Gecko/28.0 Firefox/28.0
   result:
