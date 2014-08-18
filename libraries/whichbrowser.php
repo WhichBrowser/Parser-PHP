@@ -4974,6 +4974,20 @@
 			}	
 
 			/****************************************************
+			 *		WebPositive
+			 */
+		
+			if (preg_match('/WebPositive/', $ua, $match)) {
+				$this->browser->name = 'WebPositive';
+				$this->browser->channel = '';
+				$this->browser->version = null;
+
+				if (preg_match('/WebPositive\/([0-9]\.[0-9.]+)/', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
+				}	
+			}
+			
+			/****************************************************
 			 *		Others
 			 */
 
@@ -5134,7 +5148,6 @@
 				array('name' => 'Waterfox', 			'regexp' => '/Waterfox\/([0-9.]*)/', 'details' => 2, 'type' => TYPE_DESKTOP),
 				array('name' => 'Wavelink Velocity',	'regexp' => '/Wavelink Velocity Browser\/([0-9.]*)/', 'details' => 2),
 				array('name' => 'WebLite', 				'regexp' => '/WebLite\/([0-9.]*)/', 'type' => TYPE_MOBILE),
-				array('name' => 'WebPositive', 			'regexp' => '/WebPositive/'),
 				array('name' => 'WebRender', 			'regexp' => '/WebRender/'),
 				array('name' => 'Webster', 				'regexp' => '/Webster ([0-9.]*)/'),
 				array('name' => 'Wyzo', 				'regexp' => '/Wyzo\/([0-9.]*)/', 'details' => 3),
