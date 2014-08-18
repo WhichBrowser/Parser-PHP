@@ -1517,7 +1517,12 @@
 					if ($device->identified) {
 						$device->identified |= $this->device->identified;
 						$this->os->name = 'Nokia Asha Platform';
+						$this->os->version = new Version(array('value' => '1.0'));
 						$this->device = $device;
+					}
+					
+					if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+);/', $ua, $match)) {
+						$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
 					}
 				}
 				
@@ -3343,10 +3348,14 @@
 										if ($device->identified) {
 											$device->identified |= $this->device->identified;
 											$this->device = $device;
-											
+
 											if (!isset($this->os->name) || $this->os->name != 'Nokia Asha Platform') {
 												$this->os->name = 'Nokia Asha Platform';
-												$this->os->version = null;
+												$this->os->version = new Version(array('value' => '1.0'));
+
+												if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+);/', $ua, $match)) {
+													$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+												}
 											}
 										}
 									}
@@ -4342,7 +4351,13 @@
 						if ($device->identified) {
 							$device->identified |= $this->device->identified;
 							$this->os->name = 'Nokia Asha Platform';
+							$this->os->version = new Version(array('value' => '1.0'));
 							$this->device = $device;
+
+
+							if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+);/', $ua, $match)) {
+								$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+							}
 						}
 					}
 				}

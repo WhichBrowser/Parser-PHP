@@ -9,6 +9,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -23,6 +24,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -37,6 +39,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -51,6 +54,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -65,6 +69,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -79,6 +84,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -93,6 +99,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -107,6 +114,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -121,6 +129,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -135,6 +144,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -149,6 +159,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -163,6 +174,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -177,6 +189,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -191,6 +204,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -205,6 +219,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -219,6 +234,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -233,6 +249,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -247,6 +264,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -261,6 +279,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -275,6 +294,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.1"
     device:
       type: mobile
       manufacturer: Nokia
@@ -289,6 +309,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -303,6 +324,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -317,6 +339,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -331,6 +354,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -345,6 +369,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -359,6 +384,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -373,6 +399,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -387,6 +414,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.2"
     device:
       type: mobile
       manufacturer: Nokia
@@ -396,21 +424,7 @@
   result:
     os:
       name: Nokia Asha Platform
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: Asha 501
-- headers: |
-    User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377
-    X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501s);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
-    X-UCBrowser-Device: nokia#501s
-    X-UCBrowser-Device-UA: Nokia501s/2.0 (10.0.12) Profile/MIDP-2.1 Configuration/CLDC-1.1
-  result:
-    browser:
-      name: UC Browser
-      version: "9.4"
-    os:
-      name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -426,6 +440,23 @@
       version: "9.4"
     os:
       name: Nokia Asha Platform
+      version: "1.0"
+    device:
+      type: mobile
+      manufacturer: Nokia
+      model: Asha 501
+- headers: |
+    User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377
+    X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501s);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
+    X-UCBrowser-Device: nokia#501s
+    X-UCBrowser-Device-UA: Nokia501s/2.0 (10.0.12) Profile/MIDP-2.1 Configuration/CLDC-1.1
+  result:
+    browser:
+      name: UC Browser
+      version: "9.4"
+    os:
+      name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -443,6 +474,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -460,6 +492,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -477,6 +510,7 @@
       name: Gecko
     os:
       name: Nokia Asha Platform
+      version: "1.0"
     device:
       type: mobile
       manufacturer: Nokia
@@ -496,6 +530,7 @@
       version: 2.8.119
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
@@ -515,6 +550,7 @@
       version: 2.8.119
     os:
       name: Nokia Asha Platform
+      version: 1.1.1
     device:
       type: mobile
       manufacturer: Nokia
