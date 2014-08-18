@@ -3918,6 +3918,17 @@
 				$this->browser->channel = 'Minefield';
 			}
 			
+			if (preg_match('/BonEcho/', $ua)) {
+				$this->browser->stock = false;
+				$this->browser->name = 'Firefox';
+
+				if (preg_match('/BonEcho\/([0-9ab.]*)/', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1]));
+				}
+
+				$this->browser->channel = 'BonEcho';
+			}
+			
 			if (preg_match('/Firebird/', $ua)) {
 				$this->browser->stock = false;
 				$this->browser->name = 'Firebird';
