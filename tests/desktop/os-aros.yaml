@@ -1,0 +1,6 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; Odyssey Web Browser; AROS; rv:1.16) AppleWebKit/535.14 (KHTML, like Gecko) OWB/1.16 Safari/535.14
+- headers: |
+    User-Agent: Mozilla/5.0 (i386; AROS 0.0; Odyssey Web Browser; rv:1.23) AppleWebKit/538.1 (KHTML, like Gecko) OWB/1.23 Safari/538.1
+...

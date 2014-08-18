@@ -1,0 +1,14 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.3) Gecko/20030616
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.8.1.6) Gecko/20070731 Firefox/2.0.0.6
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.11) Gecko/20100101 Firefox/10.0.11
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:17.0) Gecko/20100101 Firefox/17.0
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+- headers: |
+    User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20140428 Firefox/24.0
+...

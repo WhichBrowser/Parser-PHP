@@ -1,0 +1,10 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; ABrowse 0.7; Syllable) AppleWebKit/420+ (KHTML, like Gecko)
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; Webster 0.1; Syllable) AppleWebKit/420+ (KHTML, like Gecko)
+...

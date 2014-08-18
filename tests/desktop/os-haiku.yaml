@@ -1,0 +1,24 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (BeOS; U; Haiku BePC; xx; rv:1.8.1.10pre) Gecko/20080112
+- headers: |
+    User-Agent: Mozilla/5.0 (BeOS; U; Haiku BePC; xx; rv:1.8.1.18) Gecko/20081114 BonEcho/2.0.0.18
+- headers: |
+    User-Agent: Mozilla/5.0 (BeOS; U; Haiku BePC; xx; rv:1.8.1.25pre) Gecko/20120921 BonEcho/2.0.0.22pre
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; Haiku R1 x86; xx) AppleWebKit/536.10 (KHTML, like Gecko) WebPositive/1.1 Safari/536.10
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; Haiku R1 x86; xx) AppleWebKit/538.18 (KHTML, like Gecko) WebPositive/1.2 Safari/538.18
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; Haiku x86; xx) AppleWebKit/536.10 (KHTML, like Gecko) Haiku/R1 WebPositive/1.1 Safari/536.10
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; InfiNet 0.1; Haiku) AppleWebKit/528+ (KHTML, like Gecko) WebPositive/528+ Safari/528+
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; U; WebPositive/533.4; Haiku) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.55 Safari/533.4
+- headers: |
+    User-Agent: Mozilla/5.0 (compatible; x86 Haiku R1; xx) AppleWebKit/537.1 (KHTML, like Gecko) WebPositive/1.2 Safari/537.1
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.7.0 Safari/538.1
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/538.26 (KHTML, like Gecko) WebPositive/1.2 Safari/538.26
+...

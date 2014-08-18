@@ -1,0 +1,8 @@
+---
+- headers: |
+    User-Agent: Mozilla/3.0 (compatible; NetPositive/2.2.1; BeOS)
+- headers: |
+    User-Agent: Mozilla/5.0 (BeOS; U; BeOS BePC; xx; rv:1.8.1) Gecko/20061108 BonEcho/2.0
+- headers: |
+    User-Agent: Mozilla/5.0 (BeOS; U; BeOS BePC; xx; rv:1.8.1.17) Gecko/20080831 BonEcho/2.0.0.17
+...

@@ -1,0 +1,18 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 2.7; Odyssey Web Browser; rv:1.17) AppleWebKit/535.14 (KHTML, like Gecko) OWB/1.17 Safari/535.14
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.1; Odyssey Web Browser; rv:1.24) AppleWebKit/538.10 (KHTML, like Gecko) OWB/1.24 Safari/538.10
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.2; Odyssey Web Browser; rv:1.21) AppleWebKit/537.33 (KHTML, like Gecko) OWB/1.21 Safari/537.33
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.3; Odyssey Web Browser; rv:1.21) AppleWebKit/538.1 (KHTML, like Gecko) OWB/1.21 Safari/538.1
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.4; Odyssey Web Browser; rv:1.23) AppleWebKit/538.1 (KHTML, like Gecko) OWB/1.23 Safari/538.1
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.5; Odyssey Web Browser; rv:1.24) AppleWebKit/538.10 (KHTML, like Gecko) OWB/1.24 Safari/538.10
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.6; Odyssey Web Browser; rv:1.24) AppleWebKit/538.1 (KHTML, like Gecko) OWB/1.24 Safari/538.1
+- headers: |
+    User-Agent: Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.7; Odyssey Web Browser; rv:1.23) AppleWebKit/538.1 (KHTML, like Gecko) OWB/1.23 Safari/538.1
+...
