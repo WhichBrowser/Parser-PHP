@@ -12,6 +12,7 @@
       name: Sailfish
     device:
       type: mobile
+      model: Jolla
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U; Jolla; Sailfish; Mobile; rv:20.0) Gecko/20.0 Firefox/20.0 Sailfish Browser/1.0 like Safari/535.19
   result:
@@ -25,6 +26,7 @@
       name: Sailfish
     device:
       type: mobile
+      model: Jolla
 - headers: |
     User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser/1.0 like Safari/538.1
   result:
@@ -38,6 +40,7 @@
       name: Sailfish
     device:
       type: mobile
+      model: Jolla
 - headers: |
     User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:29.0) Gecko/29.0 Firefox/29.0 SailfishBrowser/1.0
   result:
@@ -51,6 +54,7 @@
       name: Sailfish
     device:
       type: mobile
+      model: Jolla
 - headers: |
     User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:31.0) Gecko/31.0 Firefox/31.0 SailfishBrowser/1.0
   result:
@@ -64,4 +68,5 @@
       name: Sailfish
     device:
       type: mobile
+      model: Jolla
 ...
