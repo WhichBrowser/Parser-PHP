@@ -45,6 +45,7 @@
 			'8S by HTC'									=> array( 'HTC', '8S' ),
 			'Windows Phone 8S by HTC'					=> array( 'HTC', '8S' ),
 			'HTCPO881'									=> array( 'HTC', '8XT' ),
+			'HTC6995LVW'								=> array( 'HTC', 'One (M8) for Windows' ),
 			'HUAWEI Ascend W1!'							=> array( 'Huawei', 'Ascend W1' ),
 			'HUAWEI ?W1-(C00|U00|U34)!'					=> array( 'Huawei', 'Ascend W1' ),
 			'W1-(C00|U00|U34)!'							=> array( 'Huawei', 'Ascend W1' ),
