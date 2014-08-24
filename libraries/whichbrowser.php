@@ -3388,22 +3388,24 @@
 							}
 							
 							if (preg_match('/^(?:SonyEricsson|SE)([^\/_]+)(?:\/|_|$)/i', $candidates[$i], $match)) {
-								$this->device->manufacturer = 'Sony Ericsson';
-								$this->device->model = DeviceModels::cleanup($match[1]);
-								$this->device->type = TYPE_MOBILE;
-								$this->device->identified = false;
-								$this->device->generic = false; 
-								$identified = true;
-								
-								if (preg_match('/^[a-z][0-9]+/', $this->device->model)) {
-									$this->device->model[0] = strtoupper($this->device->model[0]);
-								}
-	
-								if (isset($this->os->name) && $this->os->name == 'Series60') {
-									$device = DeviceModels::identify('s60', $this->device->model);
-									if ($device->identified) {
-										$device->identified |= $this->device->identified;
-										$this->device = $device;
+								if ($match[1] != 'aMonkey') {
+									$this->device->manufacturer = 'Sony Ericsson';
+									$this->device->model = DeviceModels::cleanup($match[1]);
+									$this->device->type = TYPE_MOBILE;
+									$this->device->identified = false;
+									$this->device->generic = false; 
+									$identified = true;
+									
+									if (preg_match('/^[a-z][0-9]+/', $this->device->model)) {
+										$this->device->model[0] = strtoupper($this->device->model[0]);
+									}
+		
+									if (isset($this->os->name) && $this->os->name == 'Series60') {
+										$device = DeviceModels::identify('s60', $this->device->model);
+										if ($device->identified) {
+											$device->identified |= $this->device->identified;
+											$this->device = $device;
+										}
 									}
 								}
 							}
