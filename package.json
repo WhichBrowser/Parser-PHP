@@ -1,6 +1,6 @@
 {
   "name": "WhichBrowser",
-  "version": "1.0.1003",
+  "version": "1.0.1004",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-build-control": "^0.1.3",
