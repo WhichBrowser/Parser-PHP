@@ -5040,6 +5040,7 @@
 			'http://wap.samsungmobile.com/uaprof/SM-T800.xml'                                                     => array( 'Samsung', 'Galaxy Tab S 10.5', 'Android', TYPE_TABLET ),
 			'http://wap.samsungmobile.com/uaprof/SM-T805.xml'                                                     => array( 'Samsung', 'Galaxy Tab S 10.5', 'Android', TYPE_TABLET ),
 			'http://wap.samsungmobile.com/uaprof/SM-T805W.xml'                                                    => array( 'Samsung', 'Galaxy Tab S 10.5', 'Android', TYPE_TABLET ),
+			'http://wap.samsungmobile.com/uaprof/SM-T805Y.xml'                                                    => array( 'Samsung', 'Galaxy Tab S 10.5', 'Android', TYPE_TABLET ),
 			'http://wap.samsungmobile.com/uaprof/SM-T807A.xml'                                                    => array( 'Samsung', 'Galaxy Tab S 10.5', 'Android', TYPE_TABLET ),
 			'http://wap.samsungmobile.com/uaprof/SM-T700.xml'                                                     => array( 'Samsung', 'Galaxy Tab S 8.4', 'Android', TYPE_TABLET ),
 			'http://wap.samsungmobile.com/uaprof/SM-T705.xml'                                                     => array( 'Samsung', 'Galaxy Tab S 8.4', 'Android', TYPE_TABLET ),
