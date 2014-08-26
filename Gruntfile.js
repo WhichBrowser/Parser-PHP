@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     copy: {
     	dist: {
 			  files: [
-				  { expand: true, cwd: 'src', src: ['detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/' },
+				  { expand: true, cwd: 'src', src: ['.htaccess', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/' },
 			  ]
       }
     },
