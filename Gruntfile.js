@@ -15,14 +15,19 @@ module.exports = function(grunt) {
       }
     },
 
-    git_deploy: {
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
       release: {
         options: {
-          url:      'git@github.com:WhichBrowser/Test.git',
-          branch:   'master',
-          message:  'Autocommit from development'
-        },
-        src: 'dist'
+          remote: 'git@github.com:WhichBrowser/Test.git',
+          branch: 'master',
+          tag:    "<%= pkg.version %>"
+        }
       },
     },
 
@@ -51,16 +56,16 @@ module.exports = function(grunt) {
   });
 
 
+  grunt.loadNpmTasks('grunt-build-control');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-git-deploy');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-php');
 
 
 
   grunt.registerTask('default', ['exec:compare', 'clean', 'copy']);
-  grunt.registerTask('release', ['exec:compare', 'clean', 'copy', 'git_deploy']);
+  grunt.registerTask('release', ['exec:compare', 'clean', 'copy', 'buildcontrol']);
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
