@@ -8,10 +8,26 @@ module.exports = function(grunt) {
     },
 
     copy: {
-    	dist: {
+    	release: {
 			  files: [
 				  { expand: true, cwd: 'src', src: ['.htaccess', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/' },
 			  ]
+      },
+      deploy: {
+        files: [
+          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/' },
+        ]
+      }
+    },
+
+    wget: {
+      options: {
+        overwrite: true
+      },
+      generate: {
+        files: {
+          'src/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php'
+        }
       }
     },
 
@@ -30,6 +46,21 @@ module.exports = function(grunt) {
           tag:    "v<%= pkg.version %>"
         }
       },
+    },
+
+    rsync: {
+  		options: {
+  			exclude: [".DS_Store"],
+  			recursive: true
+  		},
+
+      deploy: {
+  			options: {
+  				src: 'dist/',
+  				dest: '/home/niels/sites/api.whichbrowser.net/public_html/test',
+  				host: 'niels@html5test.com',
+  			}
+    	}
     },
 
     bump: {
@@ -75,10 +106,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-php');
+  grunt.loadNpmTasks('grunt-wget');
+  grunt.loadNpmTasks('grunt-rsync');
 
 
-  grunt.registerTask('default', ['exec:compare', 'clean', 'copy']);
-  grunt.registerTask('release', ['exec:compare', 'clean', 'bump', 'copy', 'buildcontrol']);
+  grunt.registerTask('default', ['exec:compare', 'clean', 'copy:release']);
+  grunt.registerTask('generate', ['wget']);
+  grunt.registerTask('release', ['exec:compare', 'clean', 'bump', 'copy:release', 'buildcontrol']);
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
@@ -91,4 +125,7 @@ module.exports = function(grunt) {
     }
   });
 
+
+  /* This is a private task for deploying to api.whichbrowser.net */
+  grunt.registerTask('deploy', ['exec:compare', 'clean', 'bump', 'copy:release', 'copy:deploy', 'rsync']);
 };
