@@ -1,0 +1,17 @@
+{
+    "name": "WhichBrowser/WhichBrowser",
+    "description": "User agent sniffing gone too far",
+    "keywords": ["useragent","browser"],
+    "homepage": "http://whichbrowser.net",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Niels Leenheer",
+            "email": "niels@leenheer.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
