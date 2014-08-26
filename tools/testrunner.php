@@ -8,7 +8,7 @@
 
 	array_shift($argv);
 	if (count($argv)) {
-		if (in_array($argv[0], array('compare', 'rebase', 'list'))) {
+		if (in_array($argv[0], array('compare', 'check', 'rebase', 'list'))) {
 			$command = array_shift($argv);
 		}
 
@@ -34,7 +34,7 @@
 				Runner::search($files);
 				break;
 
-		case 'compare':
+		case 'check':
 				$result = Runner::compare($files);
 
 				if (!$result) {
@@ -42,6 +42,10 @@
 					exit(1);
 				}
 
+				break;
+
+		case 'compare':
+				Runner::compare($files);
 				break;
 
 		case 'rebase':

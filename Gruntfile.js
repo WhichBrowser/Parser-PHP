@@ -92,6 +92,11 @@ module.exports = function(grunt) {
     },
 
     exec: {
+      check: {
+        cwd: 'tests',
+        cmd: 'php -f ../tools/testrunner.php check'
+      },
+
       compare: {
         cwd: 'tests',
         cmd: 'php -f ../tools/testrunner.php compare'
@@ -115,9 +120,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-rsync');
 
 
-  grunt.registerTask('default', ['exec:compare', 'clean', 'copy:dist']);
+  grunt.registerTask('default', ['exec:check', 'clean', 'copy:dist']);
   grunt.registerTask('generate', ['wget']);
-  grunt.registerTask('release', ['exec:compare', 'clean', 'bump', 'copy:dist', 'copy:release', 'buildcontrol']);
+  grunt.registerTask('release', ['exec:check', 'clean', 'bump', 'copy:dist', 'copy:release', 'buildcontrol']);
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
@@ -132,5 +137,5 @@ module.exports = function(grunt) {
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['exec:compare', 'clean', 'copy:dist', 'copy:deploy', 'rsync']);
+  grunt.registerTask('deploy', ['exec:check', 'clean', 'copy:dist', 'copy:deploy', 'rsync']);
 };
