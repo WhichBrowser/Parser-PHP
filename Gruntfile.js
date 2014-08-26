@@ -132,5 +132,5 @@ module.exports = function(grunt) {
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['exec:compare', 'clean', 'bump', 'copy:dist', 'copy:deploy', 'rsync']);
+  grunt.registerTask('deploy', ['exec:compare', 'clean', 'copy:dist', 'copy:deploy', 'rsync']);
 };
