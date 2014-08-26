@@ -32,10 +32,25 @@ Despite the useragent header claiming to be a Series40 device, we know it's actu
 The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Mini. We can even figure out the real operating system and device model from other headers.
 
 
+Requirements
+-----------------
+
+The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to use `detect.js` as an alias for `detect.php`. This is not required, but if your server does not support `.htaccess` files you may want to find a way to make your server do the same. Alternatively you could use the `detect.php` directly.
+
 How to install it
 -----------------
 
-Place the files in a directory on your server. The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to also use PHP to parse the `detect.js` file. This is required and if your server does not support `.htaccess` files you need to find a way to make your server do the same.
+Place the files in a directory on your server. You can either download the files as a <a href="https://github.com/WhichBrowser/WhichBrowser/archive/master.zip">zip archive</a> from Github or use the terminal to log into the server and use `git` directly.
+
+Create an empty directory on the server, `cd` into it and create a clone of the repository:
+
+    git clone https://github.com/WhichBrowser/WhichBrowser.git .
+
+If you want to update WhichBrowser to the latest version you can simply run the following command from the same directory:
+
+    git pull
+
+Given that WhichBrowser is updated regularly, you should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
 Then place the following snippet on your webpage.
 
