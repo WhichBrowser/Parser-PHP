@@ -41,7 +41,7 @@ module.exports = function(grunt) {
       },
       release: {
         options: {
-          remote: 'git@github.com:WhichBrowser/Test.git',
+          remote: 'git@github.com:WhichBrowser/WhichBrowser.git',
           branch: 'master',
           tag:    "v<%= pkg.version %>"
         }
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       deploy: {
   			options: {
   				src: 'dist/',
-  				dest: '/home/niels/sites/api.whichbrowser.net/public_html/test',
+  				dest: '/home/niels/sites/api.whichbrowser.net/public_html/rel',
   				host: 'niels@html5test.com',
   			}
     	}
