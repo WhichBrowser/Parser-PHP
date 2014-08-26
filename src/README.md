@@ -37,7 +37,7 @@ How to install it
 
 Place the files in a directory on your server. The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to also use PHP to parse the `detect.js` file. This is required and if your server does not support `.htaccess` files you need to find a way to make your server do the same.
 
-Then place the following snippet on your webpage. 
+Then place the following snippet on your webpage.
 
     <script>
         (function(){var p=[],w=window,d=document,e=f=0;p.push('ua='+encodeURIComponent(navigator.userAgent));e|=w.ActiveXObject?1:0;e|=w.opera?2:0;e|=w.chrome?4:0;
@@ -68,76 +68,76 @@ First of all, you can treat the object as a string to get a human readable ident
 
     "You are using " + Browsers
     // You are using Chrome 27 on Mac OS X 10.8.4
-    
+
 If you need to, you can also explicitly typecast the object to a string
 
     String(Browsers)
     ('' + Browsers)
     Browsers.toString()
-    
-    
+
+
 Or you can turn the object into JSON:
 
     JSON.stringify(Browsers)
     // { "browser": {"name":"Chrome","version":{"value":"27"...
-    
-    
+
+
 Another possiblity is to query the object:
 
     Browsers.isType('desktop')
     // true
-    
+
     Browsers.isType('mobile', 'tablet', 'media')  
     // false
-    
+
     Browsers.isBrowser('Maxthon', '<', '4.0.5')  
     // false
-    
-    Browsers.isOs('iOS', '>=', '5')  		
+
+    Browsers.isOs('iOS', '>=', '5')
     // false
-    
-    Browsers.isEngine('Blink')  		
+
+    Browsers.isEngine('Blink')
     // true
-    
-    
+
+
 You can also access these properties directly:
 
     Browsers.browser
     // Chrome 27  
-      
+
     Browsers.engine
     // Blink
-      
+
     Browsers.os
     // Mac OS X 10.8.4
-    
+
 
 Or access parts of these properties directly:
 
     Browsers.browser.name
     // Chrome
-    
-    Browsers.browser.name + ' ' + Browsers.browser.version 
+
+    Browsers.browser.name + ' ' + Browsers.browser.version
     // Chrome 27
-    
+
     Browsers.browser.version.major
     // 27
-    
+
     Browsers.browser.version.minor
     // 0
-    
+
     Browsers.browser.version.original
     // 27.0.1453.110
-    
+
     Browsers.engine.name
     // Blink
-    
-    
+
+
 Finally you can also query versions directly:
 
     Browsers.browser.version.is('>', 26)
     // true
-    
+
     Browsers.os.version.is('<', '10.7.4')
     // false
 
@@ -173,7 +173,7 @@ Is used to query the `name` and `version` property of the `engine` object. This 
 
 `isOs(name [, comparison, version])`  
 Is used to query the `name` and `version` property of the `os` object. This function works in exactly the same way as `isBrowser`.
- 
+
 
 ### The browser object
 
@@ -280,13 +280,13 @@ Using this function it is easy to compare a version to another version. If you s
 
     Browser.os.version.is('10.7.4')  
     // true
-    
+
     Browser.os.version.is('10.7')  
     // true
-    
+
     Browser.os.version.is('10')  
     // true
-    
+
     Browser.os.version.is('10.0')
     // false
 
@@ -304,8 +304,8 @@ Using this function it is easy to compare a version to another version. If you s
 License
 -------
 
-Copyright (c) 2013 Niels Leenheer
-	 
+Copyright (c) 2014 Niels Leenheer
+
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
 "Software"), to deal in the Software without restriction, including
@@ -313,10 +313,10 @@ without limitation the rights to use, copy, modify, merge, publish,
 distribute, sublicense, and/or sell copies of the Software, and to
 permit persons to whom the Software is furnished to do so, subject to
 the following conditions:
-	 
+
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
-	
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
