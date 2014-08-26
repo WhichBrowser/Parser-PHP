@@ -26,9 +26,22 @@ module.exports = function(grunt) {
         options: {
           remote: 'git@github.com:WhichBrowser/Test.git',
           branch: 'master',
-          tag:    "<%= pkg.version %>"
+          tag:    "v<%= pkg.version %>"
         }
       },
+    },
+
+    bump: {
+      options: {
+        files: ['package.json'],
+        updateConfigs: [],
+        commit: true,
+        commitMessage: 'Release v%VERSION%',
+        commitFiles: ['package.json'],
+        createTag: false,
+        push: true,
+        pushTo: 'dev',
+      }
     },
 
     php: {
@@ -57,15 +70,15 @@ module.exports = function(grunt) {
 
 
   grunt.loadNpmTasks('grunt-build-control');
+  grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-php');
 
 
-
   grunt.registerTask('default', ['exec:compare', 'clean', 'copy']);
-  grunt.registerTask('release', ['exec:compare', 'clean', 'copy', 'buildcontrol']);
+  grunt.registerTask('release', ['exec:compare', 'clean', 'bump', 'copy', 'buildcontrol']);
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
