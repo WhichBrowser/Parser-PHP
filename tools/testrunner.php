@@ -1,18 +1,17 @@
-#!/usr/bin/php
 <?php
 
-	include_once('../libraries/utilities.php');
-	include_once('../libraries/whichbrowser.php');
-	
+	include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
+	include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
+
 	$command = 'compare';
 	$files = array();
-	
+
 	array_shift($argv);
 	if (count($argv)) {
 		if (in_array($argv[0], array('compare', 'rebase', 'list'))) {
 			$command = array_shift($argv);
 		}
-		
+
 		if (count($argv)) {
 			foreach($argv as $file) {
 				if (fnmatch("*.yaml", $file)) {
@@ -20,7 +19,7 @@
 				}
 			}
 		}
-		
+
 		else {
 			$files = glob("*/*.yaml");
 		}
@@ -30,42 +29,51 @@
 	}
 
 	switch($command) {
-		
+
 		case 'list':
 				Runner::search($files);
 				break;
-		
+
 		case 'compare':
-				Runner::compare($files);
+				$result = Runner::compare($files);
+
+				if (!$result) {
+					echo "\033[0;31mTest runner failed, please fix or rebase before building or deploying!\033[0m\n\n";
+					exit(1);
+				}
+
 				break;
-		
+
 		case 'rebase':
 				Runner::rebase($files);
 				break;
 	}
-	
-	
+
 
 
 	class Runner {
 
 		function compare($files) {
 			@unlink('runner.log');
-			
+
+			$result = true;
+
 			foreach($files as $file) {
-				Runner::_compareFile($file);
+				$result = Runner::_compareFile($file) && $result;
 			}
+
+			return $result;
 		}
-		
+
 		function _compareFile($file) {
 			$fp = fopen('runner.log', 'a+');
-			
+
 			$success = 0;
 			$failed = 0;
 			$total = 0;
 			$rebase = false;
 
-			$rules = yaml_parse_file ($file);	
+			$rules = yaml_parse_file ($file);
 
 			foreach($rules as $rule) {
 				$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));
@@ -78,7 +86,7 @@
 						fwrite($fp, yaml_emit($rule['result']) . "\n");
 						fwrite($fp, "Calculated:\n");
 						fwrite($fp, yaml_emit($detected->toArray()) . "\n");
-	
+
 						$failed++;
 					}
 					else {
@@ -92,14 +100,14 @@
 
 					$rebase = true;
 				}
-				
+
 				$total++;
 			}
-			
+
 			fclose($fp);
-			
+
 			$counter = "[{$success}/{$total}]";
-			
+
 			echo $success == $total ? "\033[0;32m" : "\033[0;31m";
 			echo $counter;
 			echo "\033[0m";
@@ -107,6 +115,8 @@
 			echo $file;
 			echo ($rebase ? "\t\t\033[0;31m => rebase required!\033[0m" : "");
 			echo "\n";
+
+			return $success == $total && !$rebase;
 		}
 
 		function search($files, $query = '') {
@@ -114,9 +124,9 @@
 				Runner::_searchFile($file, $query);
 			}
 		}
-		
+
 		function _searchFile($file, $query) {
-			$rules = Runner::_sortRules(yaml_parse_file ($file));	
+			$rules = Runner::_sortRules(yaml_parse_file ($file));
 
 			foreach($rules as $rule) {
 				$headers = http_parse_headers($rule['headers']);
@@ -129,25 +139,25 @@
 				Runner::_rebaseFile($file);
 			}
 		}
-		
+
 		function _rebaseFile($file) {
 			$result = array();
 			$rules = @yaml_parse_file ($file);
 
 			if (is_array($rules)) {
 				echo "Rebasing {$file}\n";
-				
-				$rules = Runner::_sortRules($rules);	
-	
+
+				$rules = Runner::_sortRules($rules);
+
 				foreach($rules as $rule) {
 					$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));
-	
+
 					$result[] = array(
 						'headers' 	=> $rule['headers'],
 						'result'	=> $detected->toArray()
 					);
 				}
-	
+
 				if (count($result)) {
 					if (count($result) == count($rules)) {
 						if (yaml_emit_file($file . '.tmp', $result)) {
@@ -166,7 +176,7 @@
 				echo "Rebasing {$file}\t\t\033[0;31m => error reading file\033[0m\n";
 			}
 		}
-		
+
 		function _sortRules($rules) {
 			usort($rules, function($a, $b) {
 				$ah = http_parse_headers($a['headers']);
@@ -174,7 +184,7 @@
 
 				$as = '';
 				$bs = '';
-				
+
 				if (isset($ah['User-Agent'])) $as = $ah['User-Agent'];
 				if (isset($bh['User-Agent'])) $bs = $bh['User-Agent'];
 
@@ -183,7 +193,7 @@
 				}
 		        return ($ah > $bh) ? +1 : -1;
 			});
-			
+
 			return $rules;
 		}
 	}
