@@ -4118,6 +4118,7 @@
 						case '34.0.1847':
 						case '35.0.1916':
 						case '36.0.1985':
+						case '37.0.2062':
 							$this->browser->version->details = 1;
 							break;
 						default:
