@@ -32,27 +32,62 @@ Despite the useragent header claiming to be a Series40 device, we know it's actu
 The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Mini. We can even figure out the real operating system and device model from other headers.
 
 
+
 Requirements
 -----------------
 
 The server should be able to handle PHP and included is a `.htaccess` file that instructs the server to use `detect.js` as an alias for `detect.php`. This is not required, but if your server does not support `.htaccess` files you may want to find a way to make your server do the same. Alternatively you could use the `detect.php` directly.
 
+
+
 How to install it
 -----------------
 
-Place the files in a directory on your server. You can either download the files as a <a href="https://github.com/WhichBrowser/WhichBrowser/archive/master.zip">zip archive</a> from Github or use the terminal to log into the server and use `git` directly.
+Place the files in a directory on your server. The easiest way to install is to download the files as a <a href="https://github.com/WhichBrowser/WhichBrowser/archive/master.zip">zip archive</a> from Github and place
+them in a directory called `whichbrowser` on your server. However, this is not ideal for keeping WhichBrowser up-to-date.
 
-Create an empty directory on the server, `cd` into it and create a clone of the repository:
 
-    git clone https://github.com/WhichBrowser/WhichBrowser.git .
+###Using Git
 
-If you want to update WhichBrowser to the latest version you can simply run the following command from the same directory:
+It is recommended to use `git` directly on the server to make sure you get the latest changes and to make it easier to keep WhichBrowser updated.
+
+Go to the root directory of your site and run the following command:
+
+    git clone https://github.com/WhichBrowser/WhichBrowser.git whichbrowser
+
+This will create a new directory called `whichbrowser` and install the latest version of WhichBrowser. If you want to update WhichBrowser to the latest version you can simply run the following command from the `whichbrowser` directory:
 
     git pull
 
-Given that WhichBrowser is updated regularly, you should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
+Given that WhichBrowser is updated regularly - sometimes even multiple times a day - you should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
-Then place the following snippet on your webpage.
+
+###Using Composer
+
+As an alternative we also offer a Composer package called `whichbrowser/whichbrowser`.
+
+    php composer.phar require whichbrowser/whichbrowser dev-master
+
+And just like the Git method, you can easily update WhichBrowser by running a simple command.
+
+    php composer.phar update
+
+You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
+
+After installing with Composer you may need to create a symlink to the vendor directory in which WhichBrowser was installed:
+
+    ln -s vendor/whichbrowser/whichbrowser whichbrowser
+
+Or create a `.htaccess` file in the root of your site and add an `Alias` command:
+
+    Alias /whichbrowser vendor/whichbrowser/whichbrowser
+
+
+
+How to use it
+-------------
+
+The first step is to place a snippet of code on you webpage.
 
     <script>
         (function(){var p=[],w=window,d=document,e=f=0;p.push('ua='+encodeURIComponent(navigator.userAgent));e|=w.ActiveXObject?1:0;e|=w.opera?2:0;e|=w.chrome?4:0;
@@ -65,11 +100,9 @@ Then place the following snippet on your webpage.
 
 Please make sure you change the URL of the detect.js file to point it to your own server.
 
+To get the exact snippet you need to include visit the directory in which you installed WhichBrowser in your browser.
 
-How to use it
--------------
-
-The first step is to create a new `WhichBrowser` object. This object will contain all the information the library could find about your browser.
+The second step is to create a new `WhichBrowser` object. This object will contain all the information the library could find about your browser.
 
 For example:
 
@@ -87,7 +120,6 @@ First of all, you can treat the object as a string to get a human readable ident
 If you need to, you can also explicitly typecast the object to a string
 
     String(Browsers)
-    ('' + Browsers)
     Browsers.toString()
 
 
@@ -132,7 +164,7 @@ Or access parts of these properties directly:
     Browsers.browser.name
     // Chrome
 
-    Browsers.browser.name + ' ' + Browsers.browser.version
+    Browsers.browser.name + ' ' + String(Browsers.browser.version)
     // Chrome 27
 
     Browsers.browser.version.major

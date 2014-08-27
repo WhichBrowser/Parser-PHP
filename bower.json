@@ -1,5 +1,5 @@
 {
-    "name": "whichbrowser/whichbrowser",
+    "name": "WhichBrowser",
     "description": "User agent sniffing gone too far",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
@@ -11,7 +11,8 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/WhichBrowser/WhichBrowser.git"
     }
 }
