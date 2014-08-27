@@ -83,6 +83,28 @@ Or create a `.htaccess` file in the root of your site and add an `Alias` command
     Alias /whichbrowser vendor/whichbrowser/whichbrowser
 
 
+###Using Bower
+
+Finally we also offer a Bower package called `whichbrowser`.
+
+    bower install whichbrowser
+
+And just like the Git and Composer method, you can easily update WhichBrowser by running a simple command.
+
+    bower update
+
+You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
+
+After installing with Bower you may need to create a symlink to the component directory in which WhichBrowser was installed:
+
+    ln -s bower_components/whichbrowser whichbrowser
+
+Or create a `.htaccess` file in the root of your site and add an `Alias` command:
+
+    Alias /whichbrowser bower_components/whichbrowser
+
+
+
 
 How to use it
 -------------
