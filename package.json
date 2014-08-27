@@ -1,5 +1,16 @@
 {
   "name": "WhichBrowser",
+  "description": "User agent sniffing gone too far",
+  "keywords": ["useragent","browser"],
+  "homepage": "http://whichbrowser.net",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Niels Leenheer",
+          "email": "niels@leenheer.nl",
+          "role": "Developer"
+      }
+  ],
   "version": "1.0.1004",
   "devDependencies": {
     "grunt": "^0.4.5",

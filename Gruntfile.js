@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       },
     	release: {
 			  files: [
-				  { expand: true, cwd: 'src', src: ['composer.json'], dest: 'dist/' },
+				  { expand: true, cwd: 'src', src: ['bower.json', 'composer.json'], dest: 'dist/' },
 			  ]
       },
       deploy: {
