@@ -3,10 +3,19 @@
 	include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
 	include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
 
+	$all = false;
 	$command = 'compare';
 	$files = array();
 
 	array_shift($argv);
+
+	if (count($argv)) {
+		if ($argv[0] == '--all') {
+			$all = true;
+			array_shift($argv);
+		}
+	}
+
 	if (count($argv)) {
 		if (in_array($argv[0], array('compare', 'check', 'rebase', 'list'))) {
 			$command = array_shift($argv);
@@ -26,6 +35,16 @@
 	}
 	else {
 		$files = glob("*/*.yaml");
+	}
+
+	if (!$all) {
+		for ($f = 0; $f < count($files); $f++) {
+			if (fnmatch("all/*.yaml", $files[$f])) {
+				unset($files[$f]);
+			}
+		}
+
+		$files = array_values($files);
 	}
 
 	switch($command) {
@@ -49,7 +68,7 @@
 				break;
 
 		case 'rebase':
-				Runner::rebase($files);
+				Runner::rebase($files, !$all);
 				break;
 	}
 
@@ -138,20 +157,22 @@
 			}
 		}
 
-		function rebase($files) {
+		function rebase($files, $sort) {
 			foreach($files as $file) {
-				Runner::_rebaseFile($file);
+				Runner::_rebaseFile($file, $sort);
 			}
 		}
 
-		function _rebaseFile($file) {
+		function _rebaseFile($file, $sort) {
 			$result = array();
 			$rules = @yaml_parse_file ($file);
 
 			if (is_array($rules)) {
 				echo "Rebasing {$file}\n";
 
-				$rules = Runner::_sortRules($rules);
+				if ($sort) {
+					$rules = Runner::_sortRules($rules);
+				}
 
 				foreach($rules as $rule) {
 					$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));

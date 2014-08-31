@@ -102,9 +102,19 @@ module.exports = function(grunt) {
         cmd: 'php -f ../tools/testrunner.php compare'
       },
 
+      compare_all: {
+        cwd: 'tests',
+        cmd: 'php -f ../tools/testrunner.php -- --all compare'
+      },
+
       rebase: {
         cwd: 'tests',
         cmd: 'php -f ../tools/testrunner.php rebase'
+      },
+
+      rebase_all: {
+        cwd: 'tests',
+        cmd: 'php -f ../tools/testrunner.php -- --all rebase'
       }
     }
   });
@@ -126,12 +136,13 @@ module.exports = function(grunt) {
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
+    var all = grunt.option('all');
     var rebase = grunt.option('rebase');
 
     if (rebase) {
-      grunt.task.run('exec:rebase');
+      grunt.task.run('exec:rebase' + (all ? '_all' : ''));
     } else {
-      grunt.task.run('exec:compare');
+      grunt.task.run('exec:compare' + (all ? '_all' : ''));
     }
   });
 
