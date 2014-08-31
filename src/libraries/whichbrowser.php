@@ -1019,7 +1019,7 @@
 					if (preg_match('/Touch; WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\)/', $ua, $match)) {
 						$this->os->version = new Version(array('value' => '8.1', 'details' => 2));
 
-						if (preg_match("/^[A-Z]+$/", $match[1])) {
+						if (preg_match("/^[A-Z]+$/", $match[1]) && isset($match[2])) {
 							$this->device->manufacturer = $match[1];
 							$this->device->model = $match[2];
 						} else {
@@ -4189,11 +4189,11 @@
 						$this->browser->version = null;
 				}
 
-				if (!is_null($this->browser->version) && preg_match('/Edition Labs/', $ua)) {
+				if (isset($this->browser->version) && preg_match('/Edition Labs/', $ua)) {
 					$this->browser->channel = 'Labs';
 				}
 
-				if (!is_null($this->browser->version) && preg_match('/Edition Next/', $ua)) {
+				if (isset($this->browser->version) && preg_match('/Edition Next/', $ua)) {
 					$this->browser->channel = 'Next';
 				}
 
@@ -4878,7 +4878,7 @@
 				$this->browser->version = new Version(array('value' => $version, 'details' => 2));
 				$this->browser->channel = '';
 
-				if (!$this->os->name && $match[1] == 'QQBrowser') {
+				if (!isset($this->os->name) && $match[1] == 'QQBrowser') {
 					$this->os->name = 'Windows';
 				}
 			}
@@ -4939,7 +4939,7 @@
 				$this->device->model = null;
 				$this->device->type = TYPE_DESKTOP;
 
-				if ($this->os->name == 'Mac OS X' || $this->os->name == 'OS X') {
+				if (isset($this->os->name) && ($this->os->name == 'Mac OS X' || $this->os->name == 'OS X')) {
 					$this->os->name = null;
 					$this->os->version = null;
 				}
@@ -4971,7 +4971,7 @@
 				$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
 				$this->browser->channel = '';
 
-				if ($this->os->name == 'Windows' && $this->browser->version->toFloat() < 4) {
+				if (isset($this->os->name) && $this->os->name == 'Windows' && $this->browser->version->toFloat() < 4) {
 					$this->browser->version->details = 1;
 				}
 			}
