@@ -76,7 +76,7 @@
 
 	class Runner {
 
-		function compare($files) {
+		static function compare($files) {
 			@unlink('runner.log');
 
 			$result = true;
@@ -88,7 +88,7 @@
 			return $result;
 		}
 
-		function _compareFile($file) {
+		static function _compareFile($file) {
 			$fp = fopen('runner.log', 'a+');
 
 			$success = 0;
@@ -142,13 +142,13 @@
 			return $success == $total && !$rebase;
 		}
 
-		function search($files, $query = '') {
+		static function search($files, $query = '') {
 			foreach($files as $file) {
 				Runner::_searchFile($file, $query);
 			}
 		}
 
-		function _searchFile($file, $query) {
+		static function _searchFile($file, $query) {
 			$rules = Runner::_sortRules(yaml_parse_file ($file));
 
 			foreach($rules as $rule) {
@@ -157,13 +157,13 @@
 			}
 		}
 
-		function rebase($files, $sort) {
+		static function rebase($files, $sort) {
 			foreach($files as $file) {
 				Runner::_rebaseFile($file, $sort);
 			}
 		}
 
-		function _rebaseFile($file, $sort) {
+		static function _rebaseFile($file, $sort) {
 			$result = array();
 			$rules = @yaml_parse_file ($file);
 
@@ -202,7 +202,7 @@
 			}
 		}
 
-		function _sortRules($rules) {
+		static function _sortRules($rules) {
 			usort($rules, function($a, $b) {
 				$ah = http_parse_headers($a['headers']);
 				$bh = http_parse_headers($b['headers']);
