@@ -134,7 +134,7 @@
 			echo $success == $total ? "\033[0;32m" : "\033[0;31m";
 			echo $counter;
 			echo "\033[0m";
-			echo str_repeat(' ', 12 - strlen($counter));
+			echo str_repeat(' ', 16 - strlen($counter));
 			echo $file;
 			echo ($rebase ? "\t\t\033[0;31m => rebase required!\033[0m" : "");
 			echo "\n";
