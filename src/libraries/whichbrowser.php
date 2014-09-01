@@ -3187,7 +3187,15 @@
 								$this->device->type = TYPE_MOBILE;
 								$this->device->generic = false;
 
-								if (preg_match('/^OT\s*([^\s]*)/ui', $this->device->model, $match)) {
+								if (preg_match('/^TRIBE ([^\s]+)/ui', $this->device->model, $match)) {
+									$this->device->model = 'One Touch Tribe ' . $match[1];
+								}
+
+								elseif (preg_match('/^ONE TOUCH ([^\s]*)/ui', $this->device->model, $match)) {
+									$this->device->model = 'One Touch ' . $match[1];
+								}
+
+								elseif (preg_match('/^OT[-\s]*([^\s]*)/ui', $this->device->model, $match)) {
 									$this->device->model = 'One Touch ' . $match[1];
 								}
 
@@ -5828,7 +5836,7 @@
 			$s = preg_replace('/^Ainol /u', '', $s);
 			$s = preg_replace('/^Coolpad ?/iu', 'Coolpad ', $s);
 			$s = preg_replace('/^ALCATEL /u', '', $s);
-			$s = preg_replace('/^Alcatel OT-(.*)/u', 'one touch $1', $s);
+			$s = preg_replace('/^Alcatel OT-(.*)/iu', 'One Touch $1', $s);
 			$s = preg_replace('/^YL-/u', '', $s);
 			$s = preg_replace('/^TY-K[_\- ]Touch/iu', 'K-Touch', $s);
 			$s = preg_replace('/^K-Touch[_\-]/u', 'K-Touch ', $s);
