@@ -2821,7 +2821,7 @@
 			 *		BrightSign
 			 */
 
-			if (preg_match('/BrightSign\/[0-9\.]+ \(([^\)]+)/u', $ua, $match)) {
+			if (preg_match('/BrightSign\/[0-9\.]+(?:-[a-z0-9\-]+)? \(([^\)]+)/u', $ua, $match)) {
 				unset($this->os->name);
 				unset($this->os->version);
 
