@@ -5087,12 +5087,16 @@
 			 *		Maxthon
 			 */
 
-			if (preg_match('/Maxthon[\/\' ]\(?([0-9.]*)\)?/u', $ua, $match)) {
+			if (preg_match('/Maxthon/iu', $ua, $match)) {
 				$this->browser->name = 'Maxthon';
-				$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
 				$this->browser->channel = '';
+				$this->browser->version = null;
+				
+				if (preg_match('/Maxthon[\/\' ]\(?([0-9.]*)\)?/iu', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
+				}
 
-				if (isset($this->os->name) && $this->os->name == 'Windows' && $this->browser->version->toFloat() < 4) {
+				if (isset($this->os->name) && $this->browser->version && $this->os->name == 'Windows' && $this->browser->version->toFloat() < 4) {
 					$this->browser->version->details = 1;
 				}
 			}
