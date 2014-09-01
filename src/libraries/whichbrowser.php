@@ -3489,7 +3489,7 @@
 							}
 
 							if (preg_match('/^(?:SonyEricsson|SE)([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-								if ($match[1] != 'aMonkey') {
+								if (!preg_match('/SeaMonkey/ui', $candidates[$i]) && !preg_match('/MetaSr/ui', $candidates[$i])) {
 									$this->device->manufacturer = 'Sony Ericsson';
 									$this->device->model = DeviceModels::cleanup($match[1]);
 									$this->device->type = TYPE_MOBILE;
