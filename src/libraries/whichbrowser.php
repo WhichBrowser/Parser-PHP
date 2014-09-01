@@ -1881,20 +1881,26 @@
 			 *		AmigaOS
 			 */
 
-			if (preg_match('/AmigaOS ([0-9.]*)/iu', $ua, $match)) {
+			if (preg_match('/AmigaOS/iu', $ua, $match)) {
 				$this->os->name = 'AmigaOS';
-				$this->os->version = new Version(array('value' => $match[1]));
 				$this->device->type = TYPE_DESKTOP;
+
+				if (preg_match('/AmigaOS ([0-9.]*)/iu', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
 			}
 
 			/****************************************************
 			 *		MorphOS
 			 */
 
-			if (preg_match('/MorphOS ([0-9.]*)/iu', $ua, $match)) {
+			if (preg_match('/MorphOS/iu', $ua, $match)) {
 				$this->os->name = 'MorphOS';
-				$this->os->version = new Version(array('value' => $match[1]));
 				$this->device->type = TYPE_DESKTOP;
+
+				if (preg_match('/MorphOS ([0-9.]*)/iu', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
 			}
 
 			/****************************************************
