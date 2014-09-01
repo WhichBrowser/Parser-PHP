@@ -5116,6 +5116,21 @@
 			}
 
 			/****************************************************
+			 *		WorldWideweb
+			 */
+
+			if (preg_match('/WorldWideweb \(NEXT\)/u', $ua, $match)) {
+				$this->browser->name = 'WorldWideWeb';
+				$this->browser->channel = '';
+				$this->browser->version = null;
+
+				$this->os->name = 'NextStep';
+			}
+
+
+
+
+			/****************************************************
 			 *		Others
 			 */
 
