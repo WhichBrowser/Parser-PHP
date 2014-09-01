@@ -3102,11 +3102,19 @@
 					array_push($candidates, $match[1]);
 				}
 
-				if (preg_match('/^([a-z0-9\.\_\+\/ ]+) Linux/iu', $ua, $match)) {
+				if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Linux/iu', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 
-				if (preg_match('/\(([a-z0-9\.\_\+\/ ]+) Browser/iu', $ua, $match)) {
+				if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Android/iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/\(([a-z0-9\.\_\-\+\/ ]+) Browser/iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Release/iu', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 
