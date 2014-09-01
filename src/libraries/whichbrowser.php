@@ -3210,7 +3210,7 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^Bird_([^\/]*)/ui', $candidates[$i], $match)) {
+							if (preg_match('/^Bird[ _]([^\/]*)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Bird';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
@@ -3220,6 +3220,30 @@
 
 							if (preg_match('/^(?:YL-)?COOLPAD([^\s]+)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Coolpad';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^Coship ([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Coship';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^DESAY[ _]([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'DESAY';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^Diamond_([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Diamond';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
 								$this->device->generic = false;
@@ -3258,6 +3282,22 @@
 								$identified = true;
 							}
 
+							if (preg_match('/^Hisense[ -](?:HS-)?([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Hisense';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^HS-([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Hisense';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
 							if (preg_match('/^HTC[_-]?([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'HTC';
 								$this->device->model = DeviceModels::cleanup($match[1]);
@@ -3266,7 +3306,7 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^HUAWEI[_-]?([^\/]*)/ui', $candidates[$i], $match)) {
+							if (preg_match('/^HUAWEI[\s_-]?([^\/]*)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Huawei';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
@@ -3409,7 +3449,7 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^Philips([^\/_]+)/ui', $candidates[$i], $match)) {
+							if (preg_match('/^Philips([^\/_\s]+)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Philips';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
