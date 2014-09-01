@@ -5332,7 +5332,7 @@
 				}
 			}
 
-			if (preg_match('/Browser\/AppleWebKit([0-9.]*)/iu', $ua, $match)) {
+			if (preg_match('/Browser\/AppleWebKit\/?([0-9.]*)/iu', $ua, $match)) {
 				$this->engine->name = 'Webkit';
 				$this->engine->version = new Version(array('value' => $match[1]));
 			}
