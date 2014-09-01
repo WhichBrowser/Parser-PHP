@@ -1101,6 +1101,10 @@
 						$this->device->model = $match[1];
 					}
 
+					else if (preg_match('/Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
+						$this->device->model = $match[1];
+					}
+
 					else if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s]);\s+Build/u', $ua, $match)) {
 						$this->device->model = $match[1];
 					}
@@ -5033,6 +5037,8 @@
 				array('name' => 'Microsoft Outlook',	'regexp' => '/Microsoft Outlook IMO, Build ([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
 
 				array('name' => '1Browser',				'regexp' => '/1Password\/([0-9.]*)/u'),
+				array('name' => '3G Explorer',			'regexp' => '/3G Explorer\/([0-9.]*)/u', 'details' => 3),
+				array('name' => '4G Explorer',			'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3),
 				array('name' => '360 Extreme Explorer',	'regexp' => '/QIHU 360EE/u', 'type' => TYPE_DESKTOP),
 				array('name' => '360 Safe Explorer',	'regexp' => '/QIHU 360SE/u', 'type' => TYPE_DESKTOP),
 				array('name' => '360 Phone Browser',	'regexp' => '/360 Android Phone Browser \(V([0-9.]*)\)/u'),
