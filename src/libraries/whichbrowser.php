@@ -394,7 +394,7 @@
 				}
 			}
 
-			if (!isset($this->os->name) || ($this->os->name != 'Android' && $this->os->name != 'Aliyun OS')) {
+			if (!isset($this->os->name) || ($this->os->name != 'Android' && $this->os->name != 'Aliyun OS' && $this->os->name != 'COS')) {
 				$this->os->name = 'Android';
 				$this->os->version = null;
 
@@ -1783,7 +1783,11 @@
 				$this->device->type = TYPE_MOBILE;
 			}
 
-			if (preg_match('/COSBrowser\/([0-9.]*)/ui', $ua, $match)) {
+			if (preg_match('/COSBrowser\//ui', $ua, $match)) {
+				$this->os->name = 'COS';
+			}
+
+			if (preg_match('/COS\/([0-9.]*)/ui', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
@@ -5398,7 +5402,7 @@
 						unset($this->os->version);
 					}
 
-					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS')) {
+					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS' && $this->os->name != 'COS')) {
 						$this->engine->name = 'Gecko';
 						unset($this->engine->version);
 						$this->browser->mode = 'proxy';

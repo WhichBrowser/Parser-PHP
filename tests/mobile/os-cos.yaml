@@ -34,7 +34,6 @@
       version: "534.30"
     os:
       name: COS
-      version: "2.1"
     device:
       type: mobile
       manufacturer: HTC
@@ -47,7 +46,6 @@
       version: "537.17"
     os:
       name: COS
-      version: "1.0"
     device:
       type: mobile
       manufacturer: HTC
@@ -60,7 +58,6 @@
       version: "537.17"
     os:
       name: COS
-      version: "2.1"
     device:
       type: mobile
       manufacturer: HTC
@@ -73,7 +70,6 @@
       version: "534.30"
     os:
       name: COS
-      version: "1.0"
     device:
       type: mobile
       manufacturer: HTC
@@ -86,7 +82,6 @@
       version: "534.30"
     os:
       name: COS
-      version: "2.1"
     device:
       type: mobile
       manufacturer: HTC
@@ -99,7 +94,6 @@
       version: "537.17"
     os:
       name: COS
-      version: "2.1"
     device:
       type: mobile
       manufacturer: HTC
@@ -112,7 +106,6 @@
       version: "537.17"
     os:
       name: COS
-      version: "1.0"
     device:
       type: mobile
       manufacturer: HTC
@@ -125,7 +118,7 @@
       version: "537.17"
     os:
       name: COS
-      version: "2.2"
+      version: "1.0"
     device:
       type: mobile
       manufacturer: HTC
