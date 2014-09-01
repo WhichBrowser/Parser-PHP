@@ -2568,6 +2568,13 @@
 				$this->device->identified |= ID_MATCH_UA;
 			}
 
+			if (preg_match('/UPLUSTVBROWSER/u', $ua)) {
+				$this->device->manufacturer = 'LG';
+				$this->device->series = 'U+ tv';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
 
 			/* NetCast */
 
