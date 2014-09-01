@@ -4963,6 +4963,23 @@
 			}
 
 			/****************************************************
+			*		360 Phone Browser
+			*/
+
+			if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)\)/u', $ua, $match)) {
+				$this->browser->name = '360 Phone Browser';
+				$this->browser->channel = '';
+				$this->browser->version = null;
+				$this->browser->version = new Version(array('value' => $match[1]));
+
+				if (preg_match('/360\(android/u', $ua) && (!isset($this->os->name) || !in_array($this->os->name, array('Android', 'Aliyun OS', 'COS')))) {
+					$this->os->name = 'Android';
+					$this->os->version = null;
+					$this->device->type = TYPE_MOBILE;
+				}
+			}
+
+			/****************************************************
 			 *		iBrowser
 			 */
 
@@ -5106,8 +5123,6 @@
 				array('name' => '4G Explorer',			'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3),
 				array('name' => '360 Extreme Explorer',	'regexp' => '/QIHU 360EE/u', 'type' => TYPE_DESKTOP),
 				array('name' => '360 Safe Explorer',	'regexp' => '/QIHU 360SE/u', 'type' => TYPE_DESKTOP),
-				array('name' => '360 Phone Browser',	'regexp' => '/360 Android Phone Browser \(V([0-9.]*)\)/u'),
-				array('name' => '360 Phone Browser',	'regexp' => '/360 Aphone Browser \(Version ([0-9.]*)\)/u'),
 				array('name' => 'ABrowse',				'regexp' => '/A[Bb]rowse ([0-9.]*)/u'),
 				array('name' => 'Abrowser',				'regexp' => '/Abrowser\/([0-9.]*)/u'),
 				array('name' => 'AltiBrowser',			'regexp' => '/AltiBrowser\/([0-9.]*)/i'),
