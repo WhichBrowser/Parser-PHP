@@ -1868,6 +1868,30 @@
 			}
 
 			/****************************************************
+			 *		Palm OS
+			 */
+
+			if (preg_match('/PalmSource/u', $ua, $match)) {
+				$this->os->name = 'Palm OS';
+				$this->os->version = null;
+				$this->device->type = TYPE_MOBILE;
+
+				if (preg_match('/PalmSource\/([^;]+);/u', $ua, $match)) {
+					$this->device->model = $match[1];
+					$this->device->identified = ID_PATTERN;
+				}
+
+				if ($this->device->model) {
+					$device = DeviceModels::identify('palmos', $this->device->model);
+
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
+			}
+
+			/****************************************************
 			 *		Grid OS
 			 */
 
@@ -5767,6 +5791,7 @@
 		static $TOUCHWIZ_MODELS = array();
 		static $WINDOWS_MOBILE_MODELS = array();
 		static $WINDOWS_PHONE_MODELS = array();
+		static $PALMOS_MODELS = array();
 		static $S30_MODELS = array();
 		static $S40_MODELS = array();
 		static $S60_MODELS = array();
@@ -5793,6 +5818,7 @@
 				case 's30': 		return DeviceModels::identifyList(DeviceModels::$S30_MODELS, $model);
 				case 's40': 		return DeviceModels::identifyList(DeviceModels::$S40_MODELS, $model);
 				case 's60': 		return DeviceModels::identifyList(DeviceModels::$S60_MODELS, $model);
+				case 'palmos': 		return DeviceModels::identifyList(DeviceModels::$PALMOS_MODELS, $model);
 				case 'feature': 	return DeviceModels::identifyList(DeviceModels::$FEATURE_MODELS, $model);
 			}
 
