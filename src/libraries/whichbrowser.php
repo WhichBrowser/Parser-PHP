@@ -3661,7 +3661,10 @@
 							if ($device->identified) {
 								$device->identified |= $this->device->identified;
 								$this->device = $device;
-								$this->os->name = 'Android';
+
+								if (!isset($this->os->name) || !in_array($this->os->name, array('Android', 'Aliyun OS', 'COS'))) {
+									$this->os->name = 'Android';
+								}
 							}
 						}
 
