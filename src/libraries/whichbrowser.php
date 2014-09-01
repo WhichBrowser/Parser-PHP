@@ -5886,9 +5886,11 @@
 			$s = preg_replace('/UCBrowser$/u', '', $s);
 
 			$s = preg_replace('/_TD$/u', '', $s);
+			$s = preg_replace('/_LTE$/u', '', $s);
 			$s = preg_replace('/_CMCC$/u', '', $s);
 			$s = preg_replace('/_CUCC$/u', '', $s);
 			$s = preg_replace('/-BREW.+$/u', '', $s);
+			$s = preg_replace('/ MIDP.+$/u', '', $s);
 
 			$s = preg_replace('/_/u', ' ', $s);
 			$s = preg_replace('/^\s+|\s+$/u', '', $s);
