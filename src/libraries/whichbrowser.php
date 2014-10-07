@@ -1134,6 +1134,16 @@
 						$this->device->model = null;
 					}
 
+					/* Sometimes we get version and API numbers and display size too */
+					if (isset($this->device->model) && preg_match('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', $this->device->model, $matches)) {
+						$this->device->model = $matches[1];
+					}
+
+					/* Sometimes we get a model that is actually an old style useragent */
+					if (isset($this->device->model) && preg_match('/([^\/]+?)(?:\/[0-9\.]+)? (?:Android|Release)\//', $this->device->model, $matches)) {
+						$this->device->model = $matches[1];
+					}
+
 					if (isset($this->device->model) && $this->device->model) {
 						$this->device->identified |= ID_PATTERN;
 
