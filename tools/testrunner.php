@@ -3,6 +3,19 @@
 	include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
 	include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
 
+
+
+function handleError($errno, $errstr, $errfile, $errline, array $errcontext) {
+    // error was suppressed with the @-operator
+    if (0 === error_reporting()) {
+        return false;
+    }
+
+    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+}
+set_error_handler("handleError");
+
+
 	$all = false;
 	$command = 'compare';
 	$files = array();
@@ -119,8 +132,13 @@
 					fwrite($fp, "\n{$file}\n--------------\n\n");
 					fwrite($fp, $rule['headers'] . "\n");
 					fwrite($fp, "New result:\n");
-					fwrite($fp, yaml_emit($detected->toArray()) . "\n");
 
+					try {
+						fwrite($fp, yaml_emit($detected->toArray()) . "\n");
+					} catch(Exception $e) {
+						echo $rule['headers'] . "\n";
+						var_dump($detected);
+					}
 					$rebase = true;
 				}
 
