@@ -1788,7 +1788,7 @@
 			 *		ThreadX
 			 */
 
-			if (preg_match('/ThreadX_OS\/([0-9.]*)/ui', $ua, $match)) {
+			if (preg_match('/ThreadX(?:_OS)?\/([0-9.]*)/ui', $ua, $match)) {
 				$this->os->name = 'ThreadX';
 				$this->os->version = new Version(array('value' => $match[1]));
 			}
