@@ -11,7 +11,7 @@
           "role": "Developer"
       }
   ],
-  "version": "1.0.1007",
+  "version": "1.0.1008",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-build-control": "^0.1.3",
