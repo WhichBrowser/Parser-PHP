@@ -5242,7 +5242,7 @@
 				array('name' => 'Iceape', 				'regexp' => '/Iceape\/([0-9.]*)/u'),
 				array('name' => 'IceCat', 				'regexp' => '/IceCat[ \/]([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'Comodo IceDragon', 	'regexp' => '/IceDragon\/([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
-				array('name' => 'Iceweasel', 			'regexp' => '/Iceweasel\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
+				array('name' => 'Iceweasel', 			'regexp' => '/Iceweasel\/([0-9.]*)/iu', 'type' => TYPE_DESKTOP),
 				array('name' => 'InternetSurfboard', 	'regexp' => '/InternetSurfboard\/([0-9.]*)/u'),
 				array('name' => 'Iron', 				'regexp' => '/Iron\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Isis', 				'regexp' => '/BrowserServer/u'),
