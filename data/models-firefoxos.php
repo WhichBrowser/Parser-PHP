@@ -12,4 +12,5 @@
 			'ZTEOPEN'									=> array( 'ZTE', 'Open' ),
 			'OpenC'										=> array( 'ZTE', 'Open C' ),
 			'Open C'									=> array( 'ZTE', 'Open C' ),
+			'OPEN2'										=> array( 'ZTE', 'Open II' ),
 		);

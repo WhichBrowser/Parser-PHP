@@ -41,6 +41,7 @@
 			'GT-E2202'									=> array( 'Samsung', 'Metro' ),
 			'GT-E2250'									=> array( 'Samsung', 'Utica' ),
 			'GT-E2252'									=> array( 'Samsung', 'Metro 2252' ),
+			'GT-E3213'									=> array( 'Samsung', 'E3213 Hero' ),
 			'GT-S3332'									=> array( 'Samsung', 'Ch@t 333' ),
 			'GT-S33(50|53)!'							=> array( 'Samsung', 'Ch@t 335' ),
 			'GT-S35(70|72)!'							=> array( 'Samsung', 'Ch@t 357' ),
@@ -57,5 +58,6 @@
 			'SGH-G600'									=> array( 'Samsung', 'G600' ),
 			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' ),
 			'SGH-T189N'									=> array( 'Samsung', 'Freeform M'),
+			'SM-B780A'									=> array( 'Samsung', 'Rugby 4' ),
 			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' )
 		);
