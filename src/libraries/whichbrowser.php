@@ -3265,7 +3265,7 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^(?:YL-)?COOLPAD([^\s]+)/ui', $candidates[$i], $match)) {
+							if (preg_match('/^(?:YL-|YuLong-)?COOLPAD([^\s]+)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Coolpad';
 								$this->device->model = DeviceModels::cleanup($match[1]);
 								$this->device->type = TYPE_MOBILE;
