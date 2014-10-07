@@ -864,6 +864,12 @@
 					$this->os->version = new Version(array('value' => $match[1]));
 
 					switch($match[1]) {
+						case '6.4':		if (preg_match('/; ARM;/u', $ua))
+											$this->os->version = new Version(array('value' => $match[1], 'alias' => 'RT 10'));
+										else
+											$this->os->version = new Version(array('value' => $match[1], 'alias' => '10'));
+										break;
+
 						case '6.3':		if (preg_match('/; ARM;/u', $ua))
 											$this->os->version = new Version(array('value' => $match[1], 'alias' => 'RT 8.1'));
 										else
