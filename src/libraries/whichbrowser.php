@@ -5981,22 +5981,21 @@
 			$s = preg_replace('/^Android (on |for )/u', '', $s);
 			$s = preg_replace('/^Generic Android on /u', '', $s);
 			$s = preg_replace('/^Full JellyBean( on )?/u', '', $s);
-			$s = preg_replace('/^Full (AOSP on |Android on |Cappuccino on |MIPS Android on |Android)/u', '', $s);
-			$s = preg_replace('/^AOSP on /u', '', $s);
+			$s = preg_replace('/^Full (AOSP on |Android on |Base for |Cappuccino on |MIPS Android on |Webdroid on |JellyBean on |Android)/u', '', $s);
+			$s = preg_replace('/^AOSPA? on /u', '', $s);
 
 			$s = preg_replace('/^Acer( |-)?/iu', '', $s);
 			$s = preg_replace('/^Iconia( Tab)? /u', '', $s);
 			$s = preg_replace('/^ASUS ?/u', '', $s);
 			$s = preg_replace('/^Ainol /u', '', $s);
 			$s = preg_replace('/^Coolpad ?/iu', 'Coolpad ', $s);
+			$s = preg_replace('/^Alcatel[_ ]OT[_-](.*)/iu', 'One Touch $1', $s);
 			$s = preg_replace('/^ALCATEL /u', '', $s);
-			$s = preg_replace('/^Alcatel OT-(.*)/iu', 'One Touch $1', $s);
 			$s = preg_replace('/^YL-/u', '', $s);
 			$s = preg_replace('/^TY-K[_\- ]Touch/iu', 'K-Touch', $s);
 			$s = preg_replace('/^K-Touch[_\-]/u', 'K-Touch ', $s);
 			$s = preg_replace('/^Novo7 ?/iu', 'Novo7 ', $s);
-			$s = preg_replace('/^G[iI]ONEE[ -]/u', '', $s);
-			$s = preg_replace('/^HW-/u', '', $s);
+			$s = preg_replace('/^HW-HUAWEI/u', 'HUAWEI', $s);
 			$s = preg_replace('/^Huawei[ -]/iu', 'Huawei ', $s);
 			$s = preg_replace('/^SAMSUNG[ -]/iu', '', $s);
 			$s = preg_replace('/^SAMSUNG SAMSUNG-/iu', '', $s);
@@ -6012,7 +6011,7 @@
 			$s = preg_replace('/^(MOT-)/u', '', $s);
 			$s = preg_replace('/^Moto([^\s])/u', '$1', $s);
 
-			$s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust)$/iu', '', $s);
+			$s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust|ls)$/iu', '', $s);
 			$s = preg_replace('/http:\/\/.+$/iu', '', $s);
 			$s = preg_replace('/^\s+|\s+$/u', '', $s);
 
