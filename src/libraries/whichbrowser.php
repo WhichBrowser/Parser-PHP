@@ -5918,6 +5918,8 @@
 		}
 
 		static function identifyList($list, $model, $cleanup = true) {
+			$original = $model;
+
 			if ($cleanup) $model = DeviceModels::cleanup($model);
 
 			$device = (object) array(
@@ -5925,6 +5927,7 @@
 				'identified'	=> ID_NONE,
 				'manufacturer'	=> null,
 				'model'			=> $model,
+				'identifier'	=> $original,
 				'generic'		=> false
 			);
 
