@@ -131,11 +131,11 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.2.2
+      name: Google TV
     device:
-      type: tablet
-      model: LG Google TV G3 TV
+      type: television
+      manufacturer: LG
+      model: G3 series
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; LG Google TV TV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.80 Safari/537.36
   result:
