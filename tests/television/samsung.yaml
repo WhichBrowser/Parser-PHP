@@ -46,7 +46,7 @@
   result:
     browser:
       name: Chrome
-      version: 37.0.2062.55
+      version: "37"
     engine:
       name: Blink
       version: "537.36"
