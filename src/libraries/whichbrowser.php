@@ -289,12 +289,17 @@
 					}
 
 					/* If we have an iPhone or iPod that is not 320 x 480, we have an imposter */
+					/*
 					if ($this->device->model == 'iPhone' || $this->device->model == 'iPod') {
-						if (($this->options->width != 0 && $this->options->height != 0) && ($this->options->width != 320 && $this->options->height != 480) && ($this->options->width != 480 && $this->options->height != 320)) {
+						if (($this->options->width != 0 && $this->options->height != 0) && 
+							($this->options->width != 320 && $this->options->height != 480) && 
+							($this->options->width != 480 && $this->options->height != 320)
+						) {
 							$this->features[] = 'sizeMismatch';
 							$this->camouflage = true;
 						}
 					}
+					*/
 				}
 			}
 
