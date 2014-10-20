@@ -198,7 +198,7 @@
 										"Browsers.browser.version.original\n<span>// " + Browsers.browser.version.original + "</span>" +
 									  	"<hr>" +
 									  	"Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)\n<span>// " + (Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)) + "</span>\n" +
-										"Browsers.os.name == 'Mac OS X' && Browsers.os.version.is('>', '10.7.4')\n<span>// " + (Browsers.os.name == 'Mac OS X' && Browsers.os.version.is('>', '10.7.4')) + "</span>" +
+										"Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')\n<span>// " + (Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')) + "</span>" +
 										"</pre>";
 					} catch (e) {
 					}

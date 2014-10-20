@@ -851,10 +851,16 @@
 			 */
 
 			else if (preg_match('/Mac OS X/u', $ua)) {
-				$this->os->name = 'Mac OS X';
+				$this->os->name = 'OS X';
 
 				if (preg_match('/Mac OS X (10[0-9\._]*)/u', $ua, $match)) {
 					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+
+					if ($this->os->version->is('<', '10.7')) $this->os->alias = 'Mac OS X';
+					if ($this->os->version->is('10.7')) $this->os->version->nickname = 'Lion';
+					if ($this->os->version->is('10.8')) $this->os->version->nickname = 'Mountain Lion';
+					if ($this->os->version->is('10.9')) $this->os->version->nickname = 'Mavericks';
+					if ($this->os->version->is('10.10')) $this->os->version->nickname = 'Yosemite';
 				}
 
 				$this->device->type = TYPE_DESKTOP;
@@ -6055,6 +6061,60 @@
 				if (isset($options['alias'])) $this->alias = $options['alias'];
 				if (isset($options['details'])) $this->details = $options['details'];
 			}
+		}
+
+		function is() {
+			$valid = false;
+
+			$arguments = func_get_args();
+			if (count($arguments)) {
+				$operator = '=';
+				$compare = null;
+
+				if (count($arguments) == 1) {
+					$compare = $arguments[0];
+				}
+				
+				if (count($arguments) >= 2) {
+					$operator = $arguments[0];
+					$compare = $arguments[1];
+				}				
+
+				if (!is_null($compare)) {
+					$min = min(substr_count($this->value, '.'), substr_count($compare, '.')) + 1;
+
+					$v1 = $this->toValue($this->value, $min);
+					$v2 = $this->toValue($compare, $min);
+
+					switch ($operator) {
+						case '<':	$valid = $v1 < $v2; break;
+						case '<=':	$valid = $v1 <= $v2; break;
+						case '=':	$valid = $v1 == $v2; break;
+						case '>':	$valid = $v1 > $v2; break;
+						case '>=':	$valid = $v1 >= $v2; break;
+					}
+				}
+			}
+
+			return $valid;
+		}
+
+		function toValue($value = null, $count = null) {
+			if (is_null($value)) $value = $this->value;
+			$parts = explode('.', $value);
+			if (!is_null($count)) $parts = array_slice($parts, 0, $count);
+
+			$result = $parts[0];
+
+			if (count($parts) > 1) {
+				$result .= '.';
+
+				for ($p = 1; $p < count($parts); $p++) {
+					$result .= substr('0000' . $parts[$p], -4);
+				}
+			}
+
+			return floatval($result);
 		}
 
 		function toFloat() {
