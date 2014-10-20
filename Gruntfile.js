@@ -83,6 +83,14 @@ module.exports = function(grunt) {
     php: {
         start: {
             options: {
+                base: 'src',
+                port: 8080,
+                keepalive: true,
+                open: true
+            }
+        },
+        tools: {
+            options: {
                 base: 'tools',
                 port: 8080,
                 keepalive: true,
@@ -133,6 +141,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['exec:check', 'clean', 'copy:dist']);
   grunt.registerTask('generate', ['wget']);
   grunt.registerTask('release', ['exec:check', 'clean', 'bump', 'copy:dist', 'copy:release', 'buildcontrol']);
+  grunt.registerTask('tools', ['php']);
   grunt.registerTask('start', ['php']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
