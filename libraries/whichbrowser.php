@@ -855,7 +855,7 @@
 				$this->os->name = 'OS X';
 
 				if (preg_match('/Mac OS X (10[0-9\._]*)/u', $ua, $match)) {
-					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1]), 'details' => 2));
 
 					if ($this->os->version->is('<', '10.7')) $this->os->alias = 'Mac OS X';
 					if ($this->os->version->is('10.7')) $this->os->version->nickname = 'Lion';
@@ -3890,11 +3890,15 @@
 					$this->browser->hidden = true;
 					$this->browser->name = 'Safari';
 					$this->browser->version = null;
+
+					if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
+						$this->browser->version = new Version(array('value' => $match[1], 'hidden' => true));
+					}
 				}
 
-				if (isset($this->os->name) && ($this->os->name == 'Mac OS X' || $this->os->name == 'Windows')) {
+				if (isset($this->os->name) && ($this->os->name == 'OS X' || $this->os->name == 'Windows')) {
 					$this->browser->name = 'Safari';
-					$this->browser->stock = $this->os->name == 'Mac OS X';
+					$this->browser->stock = $this->os->name == 'OS X';
 
 					if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
 						$this->browser->version = new Version(array('value' => $match[1]));
@@ -3928,11 +3932,11 @@
 					$this->device->type = TYPE_DESKTOP;
 
 					if ($this->browser->version->toFloat() >= 5.11 && $this->browser->version->toFloat() <= 5.13) {
-						$this->os->name = 'Mac OS X';
+						$this->os->name = 'OS X';
 					}
 
 					if ($this->browser->version->toFloat() >= 5.2) {
-						$this->os->name = 'Mac OS X';
+						$this->os->name = 'OS X';
 					}
 				}
 			}
@@ -5095,7 +5099,7 @@
 				$this->device->model = null;
 				$this->device->type = TYPE_DESKTOP;
 
-				if (isset($this->os->name) && ($this->os->name == 'Mac OS X' || $this->os->name == 'OS X')) {
+				if (isset($this->os->name) && $this->os->name == 'OS X') {
 					$this->os->name = null;
 					$this->os->version = null;
 				}
@@ -5586,7 +5590,7 @@
 
 			if (isset($this->browser->name)) {
 				if ($this->browser->name == 'UC Browser') {
-					if ($this->device->type == 'desktop' || (isset($this->os->name) && ($this->os->name == 'Windows' || $this->os->name == 'Mac OS X'))) {
+					if ($this->device->type == 'desktop' || (isset($this->os->name) && ($this->os->name == 'Windows' || $this->os->name == 'OS X'))) {
 						$this->device->type = TYPE_MOBILE;
 
 						$this->browser->mode = 'desktop';
@@ -6061,7 +6065,9 @@
 			if (is_array($options)) {
 				if (isset($options['value'])) $this->value = $options['value'];
 				if (isset($options['alias'])) $this->alias = $options['alias'];
+				if (isset($options['nickname'])) $this->nickname = $options['nickname'];
 				if (isset($options['details'])) $this->details = $options['details'];
+				if (isset($options['hidden'])) $this->hidden = $options['hidden'];
 			}
 		}
 

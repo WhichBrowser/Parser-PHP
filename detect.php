@@ -121,7 +121,7 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
-			return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version ? ' ' + this.version.toString() : '') : '');
+			return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -163,7 +163,7 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
-			return (name ? name + (this.version ? ' ' + this.version.toString() : '') : '');
+			return (name ? name + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -202,6 +202,7 @@ var WhichBrowser = (function(){
 			this.alias = v.alias || null;
 			this.nickname = v.nickname || null;
 			this.details = v.details || null;
+			this.hidden = v.hidden || null;
 			this.builds = typeof v.builds != 'undefined' ? v.builds : true;
 
 			this.major = 0;
@@ -301,6 +302,7 @@ var WhichBrowser = (function(){
 			var o = {
 				value:		this.toString(),
 				details:	this.details,
+				hidden:		this.hidden,
 				original:	this.original,
 				major:		this.major,
 				minor:		this.minor,
