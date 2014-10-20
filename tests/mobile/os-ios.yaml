@@ -340,6 +340,7 @@
   result:
     browser:
       name: Safari
+      version: "5.1"
     engine:
       name: Webkit
       version: "534.46"
@@ -355,6 +356,7 @@
   result:
     browser:
       name: Safari
+      version: "5.1"
     engine:
       name: Webkit
       version: "534.46"
@@ -370,6 +372,7 @@
   result:
     browser:
       name: Safari
+      version: "5.1"
     engine:
       name: Webkit
       version: "534.46"
@@ -417,6 +420,7 @@
   result:
     browser:
       name: Safari
+      version: "5.1"
     engine:
       name: Webkit
       version: "534.46"
@@ -448,6 +452,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -479,6 +484,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -509,6 +515,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -524,6 +531,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -539,6 +547,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -586,6 +595,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -617,6 +627,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -632,6 +643,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -647,6 +659,7 @@
   result:
     browser:
       name: Safari
+      version: "6.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -678,6 +691,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: "536.26"
@@ -709,6 +723,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -756,6 +771,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -819,6 +835,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -866,6 +883,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -881,6 +899,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -896,6 +915,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -911,6 +931,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.1
@@ -990,6 +1011,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.2
@@ -1005,6 +1027,7 @@
   result:
     browser:
       name: Safari
+      version: "7.0"
     engine:
       name: Webkit
       version: 537.51.2
@@ -1020,6 +1043,7 @@
   result:
     browser:
       name: Safari
+      version: "8.0"
     engine:
       name: Webkit
       version: 600.1.4
@@ -1035,6 +1059,7 @@
   result:
     browser:
       name: Safari
+      version: 3.1.1
     engine:
       name: Webkit
       version: 525.18.1
@@ -1050,6 +1075,7 @@
   result:
     browser:
       name: Safari
+      version: 3.1.1
     engine:
       name: Webkit
       version: 525.18.1
@@ -1065,6 +1091,7 @@
   result:
     browser:
       name: Safari
+      version: 3.1.1
     engine:
       name: Webkit
       version: 525.18.1
@@ -1080,6 +1107,7 @@
   result:
     browser:
       name: Safari
+      version: 3.1.1
     engine:
       name: Webkit
       version: 525.18.1
@@ -1095,6 +1123,7 @@
   result:
     browser:
       name: Safari
+      version: "4.0"
     engine:
       name: Webkit
       version: "528.18"
@@ -1110,6 +1139,7 @@
   result:
     browser:
       name: Safari
+      version: "4.0"
     engine:
       name: Webkit
       version: "528.18"
@@ -1125,6 +1155,7 @@
   result:
     browser:
       name: Safari
+      version: "4.0"
     engine:
       name: Webkit
       version: "528.18"
@@ -1140,6 +1171,7 @@
   result:
     browser:
       name: Safari
+      version: "4.0"
     engine:
       name: Webkit
       version: "528.18"
@@ -1155,6 +1187,7 @@
   result:
     browser:
       name: Safari
+      version: "4.0"
     engine:
       name: Webkit
       version: "528.18"
@@ -1170,6 +1203,7 @@
   result:
     browser:
       name: Safari
+      version: 4.0.5
     engine:
       name: Webkit
       version: "532.9"
@@ -1185,6 +1219,7 @@
   result:
     browser:
       name: Safari
+      version: 4.0.5
     engine:
       name: Webkit
       version: "532.9"
@@ -1200,6 +1235,7 @@
   result:
     browser:
       name: Safari
+      version: 4.0.5
     engine:
       name: Webkit
       version: "532.9"
@@ -1215,6 +1251,7 @@
   result:
     browser:
       name: Safari
+      version: 4.0.5
     engine:
       name: Webkit
       version: "532.9"
@@ -1230,6 +1267,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1245,6 +1283,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1260,6 +1299,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1275,6 +1315,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1290,6 +1331,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1305,6 +1347,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1320,6 +1363,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1335,6 +1379,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1350,6 +1395,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1381,6 +1427,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1396,6 +1443,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1411,6 +1459,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
@@ -1458,6 +1507,7 @@
   result:
     browser:
       name: Safari
+      version: "3.0"
     engine:
       name: Webkit
       version: "420"
@@ -1473,6 +1523,7 @@
   result:
     browser:
       name: Safari
+      version: 5.0.2
     engine:
       name: Webkit
       version: 533.17.9
