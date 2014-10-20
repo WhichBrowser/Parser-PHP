@@ -109,13 +109,17 @@
 		}
 
 		function hasHeader($h) {
-			return isset($this->headers[$h]) || isset($this->headers[strtolower($h)]) || isset($this->headers[strtoupper($h)]);
+			foreach ($this->headers as $k => $v) {
+				if (strtolower($h) == strtolower($k)) return true;
+			}
+
+			return false;
 		}
 
 		function getHeader($h) {
-			if (isset($this->headers[$h])) return $this->headers[$h];
-			if (isset($this->headers[strtolower($h)])) return $this->headers[strtolower($h)];
-			if (isset($this->headers[strtoupper($h)])) return $this->headers[strtoupper($h)];
+			foreach ($this->headers as $k => $v) {
+				if (strtolower($h) == strtolower($k)) return $v;
+			}
 		}
 
 
