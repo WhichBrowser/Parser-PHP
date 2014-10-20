@@ -3890,6 +3890,10 @@
 					$this->browser->hidden = true;
 					$this->browser->name = 'Safari';
 					$this->browser->version = null;
+
+					if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
+						$this->browser->version = new Version(array('value' => $match[1], 'hidden' => true));
+					}
 				}
 
 				if (isset($this->os->name) && ($this->os->name == 'Mac OS X' || $this->os->name == 'Windows')) {
@@ -6062,6 +6066,7 @@
 				if (isset($options['value'])) $this->value = $options['value'];
 				if (isset($options['alias'])) $this->alias = $options['alias'];
 				if (isset($options['details'])) $this->details = $options['details'];
+				if (isset($options['hidden'])) $this->hidden = $options['hidden'];
 			}
 		}
 
