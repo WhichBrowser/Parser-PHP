@@ -820,6 +820,7 @@
 
 				if (preg_match('/OS (.*) like Mac OS X/u', $ua, $match)) {
 					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+					if ($this->os->version->is('<', '4')) $this->os->alias = 'iPhone OS';
 				}
 
 				if (preg_match('/iPhone Simulator;/u', $ua)) {
