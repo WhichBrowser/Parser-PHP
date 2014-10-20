@@ -855,7 +855,7 @@
 				$this->os->name = 'OS X';
 
 				if (preg_match('/Mac OS X (10[0-9\._]*)/u', $ua, $match)) {
-					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
+					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1]), 'details' => 2));
 
 					if ($this->os->version->is('<', '10.7')) $this->os->alias = 'Mac OS X';
 					if ($this->os->version->is('10.7')) $this->os->version->nickname = 'Lion';
