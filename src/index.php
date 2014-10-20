@@ -178,7 +178,7 @@
 						var o = document.getElementById('example');
 						o.innerHTML = 	"<pre>Browsers = new WhichBrowser();" +
 										"<hr>" +
-									  	"\"You are using \" + Browsers\n<span>// " + Browsers + "</span>" +
+									  	"\"You are using \" + Browsers\n<span>// You are using " + Browsers + "</span>" +
 									  	"<hr>" +
 									  	"JSON.stringify(Browsers)\n<span>// " + JSON.stringify(Browsers) + "</span>" +
 									  	"<hr>" +
