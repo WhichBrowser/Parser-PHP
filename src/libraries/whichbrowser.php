@@ -5338,6 +5338,7 @@
 				array('name' => 'WebLite', 				'regexp' => '/WebLite\/([0-9.]*)/u', 'type' => TYPE_MOBILE),
 				array('name' => 'WebRender', 			'regexp' => '/WebRender/u'),
 				array('name' => 'Webster', 				'regexp' => '/Webster ([0-9.]*)/u'),
+				array('name' => 'Wear Internet Browser','regexp' => '/WIB\/([0-9.]*)/u'),
 				array('name' => 'Wyzo', 				'regexp' => '/Wyzo\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Miui Browser', 		'regexp' => '/XiaoMi\/MiuiBrowser\/([0-9.]*)/u'),
 				array('name' => 'Yandex Browser', 		'regexp' => '/YaBrowser\/([0-9.]*)/u', 'details' => 2),
