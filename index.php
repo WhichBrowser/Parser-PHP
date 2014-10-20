@@ -112,15 +112,22 @@
 		<?php
 			
 			$working = false;
+			$local = false;
 			$redirect = false;
-			$base = preg_replace('/index.php.*/', '', $_SERVER['REQUEST_URI']); 
 			
-			$result = file_get_contents(($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $base . 'detect.php');
-			if ($result) $working = preg_match('/var WhichBrowser/', $result);
-			
-			$result = file_get_contents(($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $base . 'detect.js');
-			if ($result) $redirect = preg_match('/var WhichBrowser/', $result);
-			
+			if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8080') {
+				$working = true;
+				$local = true;
+			} 
+			else {
+				$base = preg_replace('/index.php.*/', '', $_SERVER['REQUEST_URI']); 
+
+				$result = file_get_contents(($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $base . 'detect.php');
+				if ($result) $working = preg_match('/var WhichBrowser/', $result);
+
+				$result = file_get_contents(($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $base . 'detect.js');
+				if ($result) $redirect = preg_match('/var WhichBrowser/', $result);
+			}
 		?>
 		
 		<header>
@@ -137,7 +144,7 @@
     e|=(e&16&&({}.toString).toString().indexOf("\n")===-1)?32:0;p.push('e='+e);f|='sandbox' in d.createElement('iframe')?1:0;f|='WebSocket' in w?2:0;
     f|=w.Worker?4:0;f|=w.applicationCache?8:0;f|=w.history && history.pushState?16:0;f|=d.documentElement.webkitRequestFullScreen?32:0;f|='FileReader' in w?64:0;
     p.push('f='+f);p.push('r='+Math.random().toString(36).substring(7));p.push('w='+screen.width);p.push('h='+screen.height);var s=d.createElement('script');
-    s.src='//<?php echo $_SERVER['HTTP_HOST'];?>/whichbrowser/detect.<?php echo $redirect ? 'js' : 'php'; ?>?' + p.join('&');d.getElementsByTagName('head')[0].appendChild(s);})();
+    s.src='//<?php echo $_SERVER['HTTP_HOST'];?><?php echo $local ? '' : '/whichbrowser'; ?>/detect.<?php echo $redirect ? 'js' : 'php'; ?>?' + p.join('&');d.getElementsByTagName('head')[0].appendChild(s);})();
 &lt;/script&gt;</pre>
 			
 			<p>
@@ -171,7 +178,7 @@
 						var o = document.getElementById('example');
 						o.innerHTML = 	"<pre>Browsers = new WhichBrowser();" +
 										"<hr>" +
-									  	"\"You are using \" + Browsers\n<span>// " + Browsers + "</span>" +
+									  	"\"You are using \" + Browsers\n<span>// You are using " + Browsers + "</span>" +
 									  	"<hr>" +
 									  	"JSON.stringify(Browsers)\n<span>// " + JSON.stringify(Browsers) + "</span>" +
 									  	"<hr>" +
@@ -191,7 +198,7 @@
 										"Browsers.browser.version.original\n<span>// " + Browsers.browser.version.original + "</span>" +
 									  	"<hr>" +
 									  	"Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)\n<span>// " + (Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)) + "</span>\n" +
-										"Browsers.os.name == 'Mac OS X' && Browsers.os.version.is('>', '10.7.4')\n<span>// " + (Browsers.os.name == 'Mac OS X' && Browsers.os.version.is('>', '10.7.4')) + "</span>" +
+										"Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')\n<span>// " + (Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')) + "</span>" +
 										"</pre>";
 					} catch (e) {
 					}

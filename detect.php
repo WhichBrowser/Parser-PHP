@@ -99,6 +99,7 @@ var WhichBrowser = (function(){
 	Browser.prototype = {
 		initialize: function(v) {
 			this.name = v.name || null;
+			this.alias = v.alias || null;
 			this.version = v.version || null;
 			
 			this.stock = v.stock || false;
@@ -119,7 +120,8 @@ var WhichBrowser = (function(){
 		},
 		
 		toString: function() {
-			return (this.name ? this.name + (this.channel ? ' ' + this.channel : '') + (this.version ? ' ' + this.version.toString() : '') : '');
+			var name = this.alias ? this.alias : (this.name ? this.name : '');
+			return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -127,6 +129,7 @@ var WhichBrowser = (function(){
 	Engine.prototype = {
 		initialize: function(v) {
 			this.name = v.name || null;
+			this.alias = v.alias || null;
 			this.version = v.version || null;
 		},
 		
@@ -138,7 +141,8 @@ var WhichBrowser = (function(){
 		},
 		
 		toString: function() {
-			return (this.name ? this.name : '');
+			var name = this.alias ? this.alias : (this.name ? this.name : '');
+			return name;
 		}
 	}
 
@@ -146,6 +150,7 @@ var WhichBrowser = (function(){
 	Os.prototype = {
 		initialize: function(v) {
 			this.name = v.name || null;
+			this.alias = v.alias || null;
 			this.version = v.version || null;
 		},
 		
@@ -157,7 +162,8 @@ var WhichBrowser = (function(){
 		},
 		
 		toString: function() {
-			return (this.name ? this.name + (this.version ? ' ' + this.version.toString() : '') : '');
+			var name = this.alias ? this.alias : (this.name ? this.name : '');
+			return (name ? name + (this.version ? ' ' + this.version.toString() : '') : '');
 		}
 	}
 
@@ -194,6 +200,7 @@ var WhichBrowser = (function(){
 		initialize: function(v) {
 			this.original = v.value || null;
 			this.alias = v.alias || null;
+			this.nickname = v.nickname || null;
 			this.details = v.details || null;
 			this.builds = typeof v.builds != 'undefined' ? v.builds : true;
 
@@ -303,6 +310,7 @@ var WhichBrowser = (function(){
 			
 			if (this.type) o.type = this.type;
 			if (this.alias) o.alias = this.alias;
+			if (this.nickname) o.nickname = this.nickname;
 			
 			return o;
 		},
@@ -312,6 +320,10 @@ var WhichBrowser = (function(){
 				return this.alias;
 
 			var version = '';
+
+			if (this.nickname) {
+				version += this.nickname + ' ';
+			}
 
 			if (this.major || this.minor) {
 				var v = [];
@@ -331,7 +343,7 @@ var WhichBrowser = (function(){
 					}
 				}
 				
-				version = v.join('.');
+				version += v.join('.');
 			
 				if (this.type != '') version += this.type[0] + (this.build ? this.build : '');
 			}
