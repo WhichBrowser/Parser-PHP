@@ -11,6 +11,7 @@
 			'GT-C3330'									=> array( 'Samsung', 'Champ 2' ),
 			'GT-C6712'									=> array( 'Samsung', 'Star II Duos' ),
 			'GT-E2652!'									=> array( 'Samsung', 'Champ Duos' ),
+			'GT-I6230!'									=> array( 'Samsung', 'Star TV' ),
 			'GT-M3710'									=> array( 'Samsung', 'Corby Beat' ),
 			'GT-M5650'									=> array( 'Samsung', 'Lindy' ),
 			'GT-S3370!'									=> array( 'Samsung', 'Corby 3G' ),

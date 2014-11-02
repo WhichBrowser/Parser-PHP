@@ -2224,7 +2224,7 @@
 			'HTC Desire 816'							=> array( 'HTC', 'Desire 816' ),
 			'HTC Desire 816 dual sim'					=> array( 'HTC', 'Desire 816' ),
 			'htc a5ul'									=> array( 'HTC', 'Desire 816' ),
-			'HTC D820x'									=> array( 'HTC', 'Desire 820' ),
+			'HTC D820(u|x)!'							=> array( 'HTC', 'Desire 820' ),
 			'HTC 5088'									=> array( 'HTC', 'Desire 5088' ),
 			'HTC 6160'									=> array( 'HTC', 'Desire 6160' ),
 			'HTC 7060'									=> array( 'HTC', 'Desire 7060' ),
@@ -3692,7 +3692,7 @@
 			'LG-C729'									=> array( 'LG', 'DoublePlay' ),
 			'LG-C800G'									=> array( 'LG', 'Eclypse' ),
 			'LG-CX670'									=> array( 'LG', 'Optimus 3G' ),
-			'LG-D100!'									=> array( 'LG', 'L20' ),
+			'LG-D1(00|07)!'								=> array( 'LG', 'L20' ),
 			'LG-D1(23|25|27)!'							=> array( 'LG', 'L30' ),
 			'LG-D150!'									=> array( 'LG', 'L35' ),
 			'LG-D1(60|65|70|75|80)!'					=> array( 'LG', 'L40' ),
@@ -3770,11 +3770,11 @@
 			'LG-F390!'									=> array( 'LG', 'G2 mini' ),
 			'LG-F400!'									=> array( 'LG', 'G3' ),
 			'LG-F410!'									=> array( 'LG', 'G3 A' ),
-			'LG-F430!'									=> array( 'LG', 'F430' ),							// Unknown
+			'LG-F430!'									=> array( 'LG', 'Gx2' ),
 			'LG-F460!'									=> array( 'LG', 'G3 Prime' ),
 			'LG-F470!'									=> array( 'LG', 'G3 Beat' ),
 			'LG-F480!'									=> array( 'LG', 'Wine Smart' ),
-			'LG-F490!'									=> array( 'LG', 'F490' ),							// Unknown
+			'LG-F490!'									=> array( 'LG', 'G3 Screen' ),
 			'LG-F520!'									=> array( 'LG', 'F520' ),							// Unknown
 			'LG-GT540!'									=> array( 'LG', 'Optimus' ),
 			'LG-GW620'									=> array( 'LG', 'GW620 Eve' ),
@@ -3799,6 +3799,7 @@
 			'LG-LG870'									=> array( 'LG', 'Optimus F7' ),
 			'LG-LS620'									=> array( 'LG', 'Realm' ),
 			'LGLS620'									=> array( 'LG', 'Realm' ),
+			'LG-LS660'									=> array( 'LG', 'Tribute' ),
 			'LG-LS670'									=> array( 'LG', 'Optimus S' ),
 			'LG-LS696'									=> array( 'LG', 'Elite' ),
 			'LG-LS720'									=> array( 'LG', 'Optimus F3' ),
@@ -3884,6 +3885,7 @@
 			'LG-V9(00|01)!'								=> array( 'LG', 'Optimus Pad', TYPE_TABLET ),
 			'LG-V9(05|09)!'								=> array( 'LG', 'Optimus G-Slate', TYPE_TABLET ),
 			'LG-VK410'									=> array( 'LG', 'G Pad 7.0', TYPE_TABLET ),
+			'LG-VK700'									=> array( 'LG', 'G Pad 10.1', TYPE_TABLET ),
 			'LG-VK810'									=> array( 'LG', 'G Pad 8.3', TYPE_TABLET ),
 			'LG-VN170'									=> array( 'LG', 'VN-170' ),								// Unknown
 			'LG-VN280'									=> array( 'LG', 'Extravert 2' ),
@@ -5684,8 +5686,7 @@
 			'SM-G3568!'									=> array( 'Samsung', 'Galaxy Core Mini' ),
 			'SM-G357!'									=> array( 'Samsung', 'SM-G357' ),								// Unknown
 			'SM-G358[689]!'								=> array( 'Samsung', 'Galaxy Core Lite' ),
-			'SM-G3608!'									=> array( 'Samsung', 'SM-G3608' ),								// Unknown
-			'SM-G3609!'									=> array( 'Samsung', 'Galaxy Core Prime' ),
+			'SM-G360[G89]!'								=> array( 'Samsung', 'Galaxy Core Prime' ),
 			'SM-G3812B!'								=> array( 'Samsung', 'Galaxy S III Slim' ),
 			'SM-G3812'									=> array( 'Samsung', 'Galaxy Win Pro' ),
 			'SM-G3815'									=> array( 'Samsung', 'Galaxy Express 2' ),
@@ -7495,6 +7496,7 @@
 			'Orange Monte Carlo'						=> array( 'Orange', 'Monte Carlo' ),						/* ZTE Skate */
 			'6034R ORANGE Niva'							=> array( 'Orange', 'Nivo' ),
 			'Orange Niva'								=> array( 'Orange', 'Nivo' ),
+			'Orange Nura'								=> array( 'Orange', 'Nura' ),
 			'Orange Reyo'								=> array( 'Orange', 'Reyo' ),
 			'Orange Rono'								=> array( 'Orange', 'Rono' ),
 			'Orange Roya'								=> array( 'Orange', 'Roya' ),

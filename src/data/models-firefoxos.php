@@ -7,6 +7,7 @@
 			'ALCATELOneTouch4012X!'						=> array( 'Alcatel', 'One Touch Fire' ),
 			'ALCATELOneTouch4019A!'						=> array( 'Alcatel', 'One Touch Fire C' ),
 			'ALCATELOneTouch4019X!'						=> array( 'Alcatel', 'One Touch Fire C' ),
+			'ALCATELOneTouch4020D!'						=> array( 'Alcatel', 'One Touch Fire C' ),
 			'ALCATELOneTouch6015X!'						=> array( 'Alcatel', 'One Touch Fire E' ),
 			'LG-D300'									=> array( 'LG', 'Fireweb' ),
 			'ZTEOPEN'									=> array( 'ZTE', 'Open' ),
