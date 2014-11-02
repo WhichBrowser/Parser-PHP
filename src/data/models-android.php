@@ -814,6 +814,7 @@
 			'K00Y'										=> array( 'Asus', 'Fonepad 7', TYPE_TABLET ),
 			'K00Z'										=> array( 'Asus', 'Fonepad 7', TYPE_TABLET ),
 			'K00R'										=> array( 'Asus', 'MemoPad 7', TYPE_TABLET ),
+			'K007'										=> array( 'Asus', 'MemoPad 7', TYPE_TABLET ),
 			'K013'										=> array( 'Asus', 'MemoPad 7', TYPE_TABLET ),
 			'K00S'										=> array( 'Asus', 'MemoPad HD 7', TYPE_TABLET ),
 			'K00U'										=> array( 'Asus', 'MemoPad HD 7', TYPE_TABLET ),
@@ -2677,7 +2678,7 @@
 			'Huawei MT1-(T00|U06)!'						=> array( 'Huawei', 'Ascend Mate' ),
 			'Huawei MT2-(C00|L01|L02|L05)!'				=> array( 'Huawei', 'Ascend Mate 2' ),
 			'MT2L03'									=> array( 'Huawei', 'Ascend Mate 2' ),
-			'HUAWEI MT7-(L09|CL00|TL00)!'				=> array( 'Huawei', 'Ascend Mate 7' ),
+			'HUAWEI MT7-(L09|CL00|TL00|UL00)!'			=> array( 'Huawei', 'Ascend Mate 7' ),
 			'Huawei S8520'								=> array( 'Huawei', 'S8520' ),
 			'Huawei S8600'								=> array( 'Huawei', 'S8600' ),
 			'Huawei T8100'								=> array( 'Huawei', 'T8100' ),
@@ -2773,6 +2774,7 @@
 			'G621-TL00'									=> array( 'Huawei', 'Ascend G621' ),
 			'Huawei G630!'								=> array( 'Huawei', 'Ascend G630' ),
 			'G630-(U00|U10|U20|U251)!'					=> array( 'Huawei', 'Ascend G630' ),
+			'HUAWEI G660!'								=> array( 'Huawei', 'Ascend G660' ),
 			'Huawei G700!'								=> array( 'Huawei', 'Ascend G700' ),
 			'Huawei G701!'								=> array( 'Huawei', 'Ascend G701' ),
 			'Huawei ?G716!'								=> array( 'Huawei', 'Ascend G716' ),
@@ -3777,7 +3779,8 @@
 			'LG-F490!'									=> array( 'LG', 'G3 Screen' ),
 			'LG-F520!'									=> array( 'LG', 'F520' ),							// Unknown
 			'LG-GT540!'									=> array( 'LG', 'Optimus' ),
-			'LG-GW620'									=> array( 'LG', 'GW620 Eve' ),
+			'LG-GW620'		 							=> array( 'LG', 'GW620 Eve' ),
+			'LG-H440!'									=> array( 'LG', 'H440' ),							// Unknown
 			'LG-KH5200'									=> array( 'LG', 'Andro-1' ),
 			'LG-KS1024'									=> array( 'LG', 'KS1024' ),
 			'LG-KU3700'									=> array( 'LG', 'Optimus One' ),
@@ -4662,12 +4665,14 @@
 			'Dynamic Wide'								=> array( 'NGM', 'Dynamic Wide' ),
 			'Forward Active'							=> array( 'NGM', 'Forward Active' ),
 			'Forward Escape'							=> array( 'NGM', 'Forward Escape' ),
+			'Forward Endurance'							=> array( 'NGM', 'Forward Endurance' ),
 			'Forward Infinity'							=> array( 'NGM', 'Forward Infinity' ),
 			'NGM Forward Infinity'						=> array( 'NGM', 'Forward Infinity' ),
 			'Forward Next'								=> array( 'NGM', 'Forward Next' ),
 			'Forward Prime'								=> array( 'NGM', 'Forward Prime' ),
 			'Forward Racing 3'							=> array( 'NGM', 'Forward Racing 3' ),
 			'NGM Forward Racing HD'						=> array( 'NGM', 'Forward Racing HD' ),
+			'Forward Ruby'								=> array( 'NGM', 'Forward Ruby' ),
 			'Forward Young'								=> array( 'NGM', 'Forward Young' ),
 			'Forward 5 5'								=> array( 'NGM', 'Forward 5.5' ),
 			'Forward 5.5'								=> array( 'NGM', 'Forward 5.5' ),
@@ -5666,9 +5671,9 @@
 			'SHW-M585!'									=> array( 'Samsung', 'Galaxy Core' ),
 			'SMT-E5015'									=> array( 'Samsung', 'SMT-E5015', TYPE_TELEVISION ),
 			'SMT-i9100'									=> array( 'Samsung', 'SMT-I9100', TYPE_TABLET ),
-			'SM-A300!'									=> array( 'Samsung', 'Galaxy A3' ),								// Probably
-			'SM-A500!'									=> array( 'Samsung', 'Galaxy A5' ),								// Probably
-			'SM-A700!'									=> array( 'Samsung', 'Galaxy A7' ),								// Probably
+			'SM-A300!'									=> array( 'Samsung', 'Galaxy A3' ),
+			'SM-A500!'									=> array( 'Samsung', 'Galaxy A5' ),
+			'SM-A700!'									=> array( 'Samsung', 'Galaxy A7' ),
 			'SM-C10[15]!'								=> array( 'Samsung', 'Galaxy S4 Zoom' ),
 			'SM-C11[15]!'								=> array( 'Samsung', 'Galaxy K Zoom' ),
 			'SM-G110!'									=> array( 'Samsung', 'Galaxy Pocket 2' ),
@@ -5684,7 +5689,7 @@
 			'SM-G3518!'									=> array( 'Samsung', 'Galaxy Core' ),
 			'SM-G355!'									=> array( 'Samsung', 'Galaxy Core 2' ),
 			'SM-G3568!'									=> array( 'Samsung', 'Galaxy Core Mini' ),
-			'SM-G357!'									=> array( 'Samsung', 'SM-G357' ),								// Unknown
+			'SM-G357!'									=> array( 'Samsung', 'Galaxy Ace Style' ),
 			'SM-G358[689]!'								=> array( 'Samsung', 'Galaxy Core Lite' ),
 			'SM-G360[G89]!'								=> array( 'Samsung', 'Galaxy Core Prime' ),
 			'SM-G3812B!'								=> array( 'Samsung', 'Galaxy S III Slim' ),
@@ -5729,7 +5734,7 @@
 			'SM-T31[0125]!'								=> array( 'Samsung', 'Galaxy Tab 3 (8.0)', TYPE_TABLET ),
 			'SM-T32[015]!'								=> array( 'Samsung', 'Galaxy Tab Pro 8.4', TYPE_TABLET ),
 			'SM-T33[0157]!'								=> array( 'Samsung', 'Galaxy Tab 4 (8.0)', TYPE_TABLET ),
-			'SM-T36[5]!'								=> array( 'Samsung', 'SM-T365', TYPE_TABLET ),					// Unknown
+			'SM-T36[5]!'								=> array( 'Samsung', 'Galaxy Tab Active (8.0)', TYPE_TABLET ),
 			'SM-T52[05]!'								=> array( 'Samsung', 'Galaxy Tab Pro 10.1', TYPE_TABLET ),
 			'SM-T53[0157]!'								=> array( 'Samsung', 'Galaxy Tab 4 (10.1)', TYPE_TABLET ),
 			'SM-T70[057]!'								=> array( 'Samsung', 'Galaxy Tab S 8.4', TYPE_TABLET ),
@@ -6350,6 +6355,7 @@
 			'TCL S700T'									=> array( 'TCL', 'S700' ),
 			'TCL S720'									=> array( 'TCL', 'S720' ),
 			'TCL S720T'									=> array( 'TCL', 'S720' ),
+			'TCL S725T'									=> array( 'TCL', 'S725' ),
 			'TCL S800'									=> array( 'TCL', 'S800' ),
 			'TCL S810'									=> array( 'TCL', 'S810' ),
 			'TCL S820'									=> array( 'TCL', 'S820' ),
@@ -7367,6 +7373,7 @@
 			'Bs541'										=> array( 'Bouygues', 'Bs 541' ),
 			'Ultym 5'									=> array( 'Bouygues', 'Ultym 5' ),
 			'Ultym 5L'									=> array( 'Bouygues', 'Ultym 5L' ),
+			'Ultym 5.2'									=> array( 'Bouygues', 'Ultym 5.2' ),
 
 			'dtab01'									=> array( 'Docomo', 'dtab', TYPE_TABLET ),
 
@@ -7614,6 +7621,7 @@
 			'Viettel V8502'								=> array( 'Viettel', 'V8502' ),
 			'V8502'										=> array( 'Viettel', 'V8502' ),
 			'V8503'										=> array( 'Viettel', 'V8503' ),
+			'VIETTEL V8506'								=> array( 'Viettel', 'V8506' ),
 			'V8507'										=> array( 'Viettel', 'V8507' ),
 
 			'Vodafone 785'								=> array( 'Vodafone', 'Smart 4 Mini' ),
