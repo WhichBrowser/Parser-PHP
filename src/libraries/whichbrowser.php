@@ -2052,6 +2052,32 @@
 			}
 
 			/****************************************************
+			 *		PocketBook
+			 */
+
+			if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
+				$this->os->name = '';
+
+				$this->device->manufacturer = 'PocketBook';
+				$this->device->type = TYPE_EREADER;
+				$this->device->identified |= ID_MATCH_UA;
+
+				switch($match[1]) {
+					case '515':	$this->device->model = 'Mini'; $this->device->generic = false; break;
+					case '614':	$this->device->model = 'Basic 2'; $this->device->generic = false; break;
+					case '622':	$this->device->model = 'Touch'; $this->device->generic = false; break;
+					case '623':	$this->device->model = 'Touch Lux'; $this->device->generic = false; break;
+					case '624':	$this->device->model = 'Basic Touch'; $this->device->generic = false; break;
+					case '626':	$this->device->model = 'Touch Lux 2'; $this->device->generic = false; break;
+					case '630':	$this->device->model = 'Sense'; $this->device->generic = false; break;
+					case '640':	$this->device->model = 'Auqa'; $this->device->generic = false; break;
+					case '650':	$this->device->model = 'Ultra'; $this->device->generic = false; break;
+					case '801':	$this->device->model = 'Color Lux'; $this->device->generic = false; break;
+					case '840':	$this->device->model = 'InkPad'; $this->device->generic = false; break;
+				}
+			}
+
+			/****************************************************
 			 *		iRiver
 			 */
 
