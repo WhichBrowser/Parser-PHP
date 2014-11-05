@@ -90,7 +90,7 @@ var WhichBrowser = (function(){
 			if (this.device.type == 'desktop' && os && engine != '' && !device) return 'an unknown browser based on ' + engine + ' running on ' + os;
 			if (this.browser.stock && os && !device) return os;
 			if (this.browser.stock && engine != '' && !device) return 'an unknown browser based on ' + engine;
-			
+
 			return 'an unknown browser';
 		}
 	};
