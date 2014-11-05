@@ -111,7 +111,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON(),
+				version:	(this.version) ? this.version.toJSON() : null,
 				stock:		this.stock,
 				channel:	this.channel,
 				mode:		this.mode,
@@ -136,7 +136,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON()
+				version:	(this.version) ? this.version.toJSON() : null
 			}
 		},
 		
@@ -157,7 +157,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON()
+				version:	(this.version) ? this.version.toJSON() : null
 			}
 		},
 		
