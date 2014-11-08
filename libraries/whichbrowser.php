@@ -5300,7 +5300,7 @@
 				array('name' => 'Orca', 				'regexp' => '/Orca\/([0-9.]*)/u'),
 				array('name' => 'Origyn', 				'regexp' => '/Origyn Web Browser/u'),
 				array('name' => 'Otter', 				'regexp' => '/Otter Browser\/([0-9.]*)/u'),
-				array('name' => 'Palemoon', 			'regexp' => '/Pale[mM]oon\/([0-9.]*)/u'),
+				array('name' => 'Pale Moon', 			'regexp' => '/Pale[mM]oon\/([0-9.]*)/u'),
 				array('name' => 'Phantom', 				'regexp' => '/Phantom\/V([0-9.]*)/u'),
 				array('name' => 'Polaris', 				'regexp' => '/Polaris[\/ ]v?([0-9.]*)/iu', 'details' => 2),
 				array('name' => 'Polaris', 				'regexp' => '/POLARIS([0-9.]+)/u', 'details' => 2),
