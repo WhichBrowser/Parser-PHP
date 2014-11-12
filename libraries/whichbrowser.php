@@ -260,6 +260,14 @@
 						{
 							$this->camouflage = false;
 						}
+
+						/* IE 11 Developer Preview now supports  Webkit APIs */
+						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer' &&
+							isset($this->browser->version) && $this->browser->version->toFloat() >= 11 &&
+							isset($this->os->name) && $this->os->name == 'Windows')
+						{
+							$this->camouflage = false;
+						}
 					}
 
 					if ($this->options->engine & ENGINE_CHROMIUM) {
@@ -2048,6 +2056,32 @@
 					case '1102':	$this->device->model = 'PRS-T1'; $this->device->generic = false; break;
 					case '1201':	$this->device->model = 'PRS-T2'; $this->device->generic = false; break;
 					case '1301':	$this->device->model = 'PRS-T3'; $this->device->generic = false; break;
+				}
+			}
+
+			/****************************************************
+			 *		PocketBook
+			 */
+
+			if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
+				$this->os->name = '';
+
+				$this->device->manufacturer = 'PocketBook';
+				$this->device->type = TYPE_EREADER;
+				$this->device->identified |= ID_MATCH_UA;
+
+				switch($match[1]) {
+					case '515':	$this->device->model = 'Mini'; $this->device->generic = false; break;
+					case '614':	$this->device->model = 'Basic 2'; $this->device->generic = false; break;
+					case '622':	$this->device->model = 'Touch'; $this->device->generic = false; break;
+					case '623':	$this->device->model = 'Touch Lux'; $this->device->generic = false; break;
+					case '624':	$this->device->model = 'Basic Touch'; $this->device->generic = false; break;
+					case '626':	$this->device->model = 'Touch Lux 2'; $this->device->generic = false; break;
+					case '630':	$this->device->model = 'Sense'; $this->device->generic = false; break;
+					case '640':	$this->device->model = 'Auqa'; $this->device->generic = false; break;
+					case '650':	$this->device->model = 'Ultra'; $this->device->generic = false; break;
+					case '801':	$this->device->model = 'Color Lux'; $this->device->generic = false; break;
+					case '840':	$this->device->model = 'InkPad'; $this->device->generic = false; break;
 				}
 			}
 
@@ -5561,6 +5595,18 @@
 				if ($this->os->version->toFloat() == 8.1 && $this->browser->version->toNumber() < 11) {
 					$this->browser->version = new Version(array('value' => '11'));
 				}
+			}
+
+			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
+				$this->browser->name = 'Internet Explorer';
+				$this->browser->version = new Version(array('value' => $match[1]));
+				
+				switch($match[1]) {
+					case '12.0': $this->browser->version = new Version(array('value' => '11.0')); break;
+				}
+
+				$this->engine->name = 'Trident';
+				$this->engine->version = null;
 			}
 
 
