@@ -55,7 +55,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7 T9292)
   result:
@@ -103,7 +103,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Surround
+      model: 7 Surround
 - headers: |
     User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; GW910)
   result:
@@ -151,7 +151,7 @@
     device:
       type: mobile
       manufacturer: LG
-      model: Optimus 7 E900
+      model: Optimus 7
 - headers: |
     User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 710)
   result:
@@ -705,7 +705,7 @@
     device:
       type: mobile
       manufacturer: NGM
-      model: Harley_Davidson
+      model: Harley Davidson
 - headers: |
     User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; 1520.1) like Gecko
   result:
@@ -2565,7 +2565,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Surround
+      model: 7 Surround
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
   result:
@@ -2661,7 +2661,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Trophy)
   result:
@@ -2677,7 +2677,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD2)
   result:
@@ -2757,7 +2757,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: MWP6885
+      model: 7 Pro
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Mazaa)
   result:
@@ -2789,7 +2789,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Mondrian
+      model: HD7
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Mozart)
   result:
@@ -2821,7 +2821,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Omega
+      model: Radar
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PC40100)
   result:
@@ -2837,7 +2837,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; PD67100)
   result:
@@ -2965,7 +2965,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Spark
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Surround T8788)
   result:
@@ -2981,7 +2981,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Surround
+      model: 7 Surround
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Surround)
   result:
@@ -2997,7 +2997,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Surround
+      model: 7 Surround
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T7575)
   result:
@@ -3045,7 +3045,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Surround
+      model: 7 Surround
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; T9296)
   result:
@@ -3109,7 +3109,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Trophy)
   result:
@@ -3125,7 +3125,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; USCCHTC-PC93100; USC-US)
   result:
@@ -3141,7 +3141,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Arrive
+      model: 7 Pro
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Ultimate)
   result:
@@ -3157,7 +3157,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Ultimate
+      model: Titan
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; X310e)
   result:
@@ -3189,7 +3189,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HUAWEI; W1-C00)
   result:
@@ -3285,7 +3285,7 @@
     device:
       type: mobile
       manufacturer: LG
-      model: Optimus 7 E900
+      model: Optimus 7
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-E900h)
   result:
@@ -3301,7 +3301,7 @@
     device:
       type: mobile
       manufacturer: LG
-      model: Optimus 7 E900
+      model: Optimus 7
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; LG; LG-E906)
   result:
@@ -3893,7 +3893,7 @@
     device:
       type: mobile
       manufacturer: Samsung
-      model: Cetus
+      model: Focus
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; ZTE; Tania)
   result:
