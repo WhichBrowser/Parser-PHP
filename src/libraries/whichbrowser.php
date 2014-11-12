@@ -260,6 +260,14 @@
 						{
 							$this->camouflage = false;
 						}
+
+						/* IE 11 Developer Preview now supports  Webkit APIs */
+						if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer' &&
+							isset($this->browser->version) && $this->browser->version->toFloat() >= 11 &&
+							isset($this->os->name) && $this->os->name == 'Windows')
+						{
+							$this->camouflage = false;
+						}
 					}
 
 					if ($this->options->engine & ENGINE_CHROMIUM) {
@@ -5587,6 +5595,18 @@
 				if ($this->os->version->toFloat() == 8.1 && $this->browser->version->toNumber() < 11) {
 					$this->browser->version = new Version(array('value' => '11'));
 				}
+			}
+
+			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
+				$this->browser->name = 'Internet Explorer';
+				$this->browser->version = new Version(array('value' => $match[1]));
+				
+				switch($match[1]) {
+					case '12.0': $this->browser->version = new Version(array('value' => '11.0')); break;
+				}
+
+				$this->engine->name = 'Trident';
+				$this->engine->version = null;
 			}
 
 
