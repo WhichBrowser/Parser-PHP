@@ -1921,7 +1921,7 @@
 					$this->device->identified = ID_PATTERN;
 				}
 
-				if ($this->device->model) {
+				if (!empty($this->device->model)) {
 					$device = DeviceModels::identify('palmos', $this->device->model);
 
 					if ($device->identified) {
