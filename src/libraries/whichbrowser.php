@@ -4213,6 +4213,7 @@
 						case '36.0.1985':
 						case '37.0.2062':
 						case '38.0.2125':
+						case '39.0.2171':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -4314,6 +4315,7 @@
 						case '36.0.1985':
 						case '37.0.2062':
 						case '38.0.2125':
+						case '39.0.2171':
 							$this->browser->version->details = 1;
 							break;
 						default:
