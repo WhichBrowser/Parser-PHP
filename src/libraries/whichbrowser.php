@@ -806,6 +806,12 @@
 
 					$this->device->type = TYPE_DESKTOP;
 				}
+
+
+				if (preg_match('/Linux\/X2\/R1/u', $ua)) {
+					$this->os->name = 'LiMo';
+					$this->device->type = TYPE_MOBILE;
+				}
 			}
 
 			else if (preg_match('/\(Ubuntu; (Mobile|Tablet)/u', $ua)) {
