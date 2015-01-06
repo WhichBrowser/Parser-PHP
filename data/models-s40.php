@@ -3,6 +3,7 @@
 		DeviceModels::$S40_MODELS = array(
 			'C1-01!'									=> array( 'Nokia', 'C1-01' ),
 			'C1-02!'									=> array( 'Nokia', 'C1-02' ),
+			'C1-03!'									=> array( 'Nokia', 'C1-03' ),
 			'C2-00!'									=> array( 'Nokia', 'C2-00' ),
 			'C2-01!'									=> array( 'Nokia', 'C2-01' ),
 			'C2-02!'									=> array( 'Nokia', 'C2-02' ),
@@ -74,6 +75,7 @@
 			'2720a!'									=> array( 'Nokia', '2720 fold' ),
 			'2730c!'									=> array( 'Nokia', '2730 classic' ),
 			'3020'										=> array( 'Nokia', '3020' ),
+			'3109c'										=> array( 'Nokia', '3109 classic' ),
 			'3110c'										=> array( 'Nokia', '3110 Evolve' ),
 			'3120c'										=> array( 'Nokia', '3120 classic' ),
 			'3120classic'								=> array( 'Nokia', '3120 classic' ),
