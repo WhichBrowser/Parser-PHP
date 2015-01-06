@@ -2800,7 +2800,7 @@
 			 *		Technicolor
 			 */
 
-			if (preg_match('/Technicolor_([^;]+);/u', $ua)) {
+			if (preg_match('/Technicolor_([^;]+);/u', $ua, $match)) {
 				unset($this->os->name);
 				unset($this->os->version);
 
