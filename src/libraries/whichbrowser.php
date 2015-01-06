@@ -3565,25 +3565,32 @@
 								$identified = true;
 							}
 
-							if (preg_match('/^(?:SonyEricsson|SE)([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-								if (!preg_match('/SeaMonkey/ui', $candidates[$i]) && !preg_match('/MetaSr/ui', $candidates[$i])) {
-									$this->device->manufacturer = 'Sony Ericsson';
-									$this->device->model = DeviceModels::cleanup($match[1]);
-									$this->device->type = TYPE_MOBILE;
-									$this->device->identified = false;
-									$this->device->generic = false;
-									$identified = true;
+							if (preg_match('/^SE([A-Z][0-9]+[a-z])$/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Sony Ericsson';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->identified = false;
+								$this->device->generic = false;
+								$identified = true;
+							}
 
-									if (preg_match('/^[a-z][0-9]+/u', $this->device->model)) {
-										$this->device->model[0] = strtoupper($this->device->model[0]);
-									}
+							if (preg_match('/^SonyEricsson([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Sony Ericsson';
+								$this->device->model = DeviceModels::cleanup($match[1]);
+								$this->device->type = TYPE_MOBILE;
+								$this->device->identified = false;
+								$this->device->generic = false;
+								$identified = true;
 
-									if (isset($this->os->name) && $this->os->name == 'Series60') {
-										$device = DeviceModels::identify('s60', $this->device->model);
-										if ($device->identified) {
-											$device->identified |= $this->device->identified;
-											$this->device = $device;
-										}
+								if (preg_match('/^[a-z][0-9]+/u', $this->device->model)) {
+									$this->device->model[0] = strtoupper($this->device->model[0]);
+								}
+
+								if (isset($this->os->name) && $this->os->name == 'Series60') {
+									$device = DeviceModels::identify('s60', $this->device->model);
+									if ($device->identified) {
+										$device->identified |= $this->device->identified;
+										$this->device = $device;
 									}
 								}
 							}
