@@ -141,8 +141,8 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['exec:check', 'clean', 'copy:dist']);
   grunt.registerTask('generate', ['wget']);
   grunt.registerTask('release', ['exec:check', 'clean', 'bump', 'copy:dist', 'copy:release', 'buildcontrol']);
-  grunt.registerTask('tools', ['php']);
-  grunt.registerTask('start', ['php']);
+  grunt.registerTask('tools', ['php:tools']);
+  grunt.registerTask('start', ['php:start']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
     var all = grunt.option('all');
