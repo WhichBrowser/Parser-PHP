@@ -2569,7 +2569,12 @@
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 
-				if (preg_match('/(KDL[0-9]+[A-Z]+[0-9]+)/u', $ua, $match)) {
+				if (preg_match('/(KDL-?[0-9]+[A-Z]+[0-9]+)/u', $ua, $match)) {
+					$this->device->model = $match[1];
+					$this->device->generic = false;
+				}
+
+				if (preg_match('/(XBR-?[0-9]+[A-Z]+[0-9]+)/u', $ua, $match)) {
 					$this->device->model = $match[1];
 					$this->device->generic = false;
 				}

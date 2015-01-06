@@ -630,6 +630,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: XBR55X900
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-50R550A; CC/USA) Presto/2.12.362 Version/12.11
@@ -643,6 +644,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia R550
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-60R520A; CC/AUS) Presto/2.12.362 Version/12.11
@@ -656,6 +658,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia R520
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-60R550A; CC/THA) Presto/2.12.362 Version/12.11
@@ -669,6 +672,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia R550
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; Opera TV Store/4563; U; (SonyBDP/BDV12); xx) Presto/2.10.250 Version/11.60
@@ -735,6 +739,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia EX640
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-46EX640; CC/USA; en) Presto/2.8.115 Version/11.10
@@ -748,6 +753,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia EX640
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-46EX645; CC/USA; xx) Presto/2.10.250 Version/11.60
@@ -761,6 +767,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia EX645
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-55EX640; CC/USA; xx) Presto/2.8.115 Version/11.10
@@ -774,6 +781,7 @@
     device:
       type: television
       manufacturer: Sony
+      model: Bravia EX640
       series: Smart TV
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; U; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KLV-55EX630; CC/ZAF; xx) Presto/2.10.250 Version/11.60
