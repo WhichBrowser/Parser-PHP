@@ -9,7 +9,9 @@
       name: Tizen
       version: "2.0"
     device:
-      model: SAMSUNG SM-HIGGS
+      type: mobile
+      manufacturer: Samsung
+      model: '"Higgs"'
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.0; SAMSUNG SM-Z9005) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.0 Mobile Safari/537.3
   result:
@@ -233,7 +235,9 @@
       name: Tizen
       version: "2.2"
     device:
-      model: SAMSUNG KIRAN
+      type: mobile
+      manufacturer: Samsung
+      model: Z1
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SGH-N099) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3
   result:
@@ -257,7 +261,9 @@
       name: Tizen
       version: "2.2"
     device:
-      model: SAMSUNG SM-HIGGS
+      type: mobile
+      manufacturer: Samsung
+      model: '"Higgs"'
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z130E) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3
   result:
@@ -270,7 +276,7 @@
     device:
       type: mobile
       manufacturer: Samsung
-      model: SM-Z130
+      model: Z1
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z130H) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3
   result:
@@ -283,7 +289,7 @@
     device:
       type: mobile
       manufacturer: Samsung
-      model: SM-Z130
+      model: Z1
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z9005) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3
   result:

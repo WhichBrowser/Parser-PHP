@@ -58,6 +58,7 @@
 			'SGH-G600'									=> array( 'Samsung', 'G600' ),
 			'SGH-S390G'									=> array( 'Samsung', 'S390 TracFone' ),
 			'SGH-T189N'									=> array( 'Samsung', 'Freeform M'),
-			'SM-B780A'									=> array( 'Samsung', 'Rugby 4' ),
-			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' )
+			'SM-B780(A|W)!'								=> array( 'Samsung', 'Rugby 4' ),
+			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' ),
+			'GT-I6410'									=> array( 'Vodafone', '360 M1' ),
 		);

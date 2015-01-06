@@ -569,7 +569,7 @@
     device:
       type: mobile
       manufacturer: Xiaomi
-      model: MI-2S
+      model: Mi 2S
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.5; xx; MI 2SC Build/YunOS) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.1 Mobile Safari/537.36
   result:
@@ -585,7 +585,7 @@
     device:
       type: mobile
       manufacturer: Xiaomi
-      model: MI-2S
+      model: Mi 2S
 - headers: |
     User-Agent: Opera/9.80 (Android 1.5.2.0-RT-20120926.155001; Linux; Opera Mobi/ADR-1201041826; U; xx) Presto/2.9.201 Version/11.50
   result:
@@ -688,5 +688,5 @@
     device:
       type: mobile
       manufacturer: Xiaomi
-      model: MI-2S
+      model: Mi 2S
 ...

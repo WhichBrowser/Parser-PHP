@@ -431,9 +431,9 @@
       model: Asha 501
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377
-    x-ucbrowser-ua: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
-    X-UCBrowser-Device: nokia#501
-    X-UCBrowser-Device-UA: Nokia501/2.0 (14.0.4) Profile/MIDP-2.1 Configuration/CLDC-1.1
+    X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501s);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
+    X-UCBrowser-Device: nokia#501s
+    X-UCBrowser-Device-UA: Nokia501s/2.0 (10.0.12) Profile/MIDP-2.1 Configuration/CLDC-1.1
   result:
     browser:
       name: UC Browser
@@ -447,9 +447,9 @@
       model: Asha 501
 - headers: |
     User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377
-    X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501s);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
-    X-UCBrowser-Device: nokia#501s
-    X-UCBrowser-Device-UA: Nokia501s/2.0 (10.0.12) Profile/MIDP-2.1 Configuration/CLDC-1.1
+    x-ucbrowser-ua: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);
+    X-UCBrowser-Device: nokia#501
+    X-UCBrowser-Device-UA: Nokia501/2.0 (14.0.4) Profile/MIDP-2.1 Configuration/CLDC-1.1
   result:
     browser:
       name: UC Browser
