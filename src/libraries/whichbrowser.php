@@ -1741,7 +1741,7 @@
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
 
-				else if (preg_match('/BMP(?: ([0-9.]*))?; U/iu', $ua, $match)) {
+				else if (preg_match('/BMP ([0-9.]*); U/iu', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
 
