@@ -5055,7 +5055,7 @@
 
 				$this->device->type = TYPE_MOBILE;
 
-				if ($this->os->name != 'Android') {
+				if (!isset($this->os) || (isset($this->os->name) && $this->os->name != 'Android')) {
 					$this->os->name = 'Android';
 					$this->os->version = null;
 				}
@@ -5535,7 +5535,7 @@
 				$this->engine->version = new Version(array('value' => $match[1]));
 
 
-				if (isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
+				if (isset($this->browser->version) && isset($this->browser->name) && $this->browser->name == 'Internet Explorer') {
 					if ($this->engine->version->toNumber() == 7 && $this->browser->version->toFloat() < 11) {
 						$this->browser->version = new Version(array('value' => '11.0'));
 						$this->browser->mode = 'compat';
@@ -5557,7 +5557,7 @@
 					}
 				}
 
-				if (isset($this->os->name) && $this->os->name == 'Windows Phone' && isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer') {
+				if (isset($this->os->version) && isset($this->os->name) && $this->os->name == 'Windows Phone' && isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer') {
 					if ($this->engine->version->toNumber() == 7 && $this->os->version->toFloat() < 8.1) {
 						$this->os->version = new Version(array('value' => '8.1'));
 					}
