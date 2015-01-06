@@ -4366,6 +4366,10 @@
 					$this->browser->channel = 'Next';
 				}
 
+				if (preg_match('/Edition beta/u', $ua)) {
+					$this->browser->channel = 'Beta';
+				}
+
 				if ($this->device->type == TYPE_MOBILE) {
 					$this->browser->name = 'Opera Mobile';
 				}
