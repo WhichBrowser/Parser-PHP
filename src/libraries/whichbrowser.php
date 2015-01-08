@@ -5348,7 +5348,7 @@
 				array('name' => 'MixShark', 			'regexp' => '/MixShark\/([0-9.]*)/u'),
 				array('name' => 'mlbrowser',			'regexp' => '/mlbrowser/u'),
 				array('name' => 'Motorola WebKit', 		'regexp' => '/MotorolaWebKit(?:\/([0-9.]*))?/u', 'details' => 3),
-				array('name' => 'NetFront LifeBrowser', 'regexp' => '/NetFrontLifeBrowser\/([0-9.]*)/u'),
+				array('name' => 'NetFront Life Browser', 'regexp' => '/NetFrontLifeBrowser\/([0-9.]*)/u'),
 				array('name' => 'NetPositive', 			'regexp' => '/NetPositive\/([0-9.]*)/u'),
 				array('name' => 'Netscape Navigator', 	'regexp' => '/Navigator\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Odyssey', 				'regexp' => '/OWB\/([0-9.]*)/u'),
