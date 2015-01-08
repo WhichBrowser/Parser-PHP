@@ -31,7 +31,8 @@ module.exports = function(grunt) {
       },
       generate: {
         files: {
-          'src/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php'
+            'src/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php',
+            'src/data/id-android.php': 'http://api.whichbrowser.net/resources/id-android.php'
         }
       }
     },
