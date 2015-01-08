@@ -60,13 +60,21 @@ module.exports = function(grunt) {
   			recursive: true
   		},
 
-      deploy: {
+      api: {
   			options: {
   				src: 'dist/',
   				dest: '/home/niels/sites/api.whichbrowser.net/public_html/rel',
   				host: 'niels@html5test.com',
   			}
-    	}
+    	},
+
+      www: {
+        options: {
+          src: 'dist/',
+          dest: '/home/niels/sites/www.whichbrowser.net/public_html/lib',
+          host: 'niels@html5test.com',
+        }
+      }
     },
 
     bump: {
@@ -158,5 +166,5 @@ module.exports = function(grunt) {
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['exec:check', 'clean', 'copy:dist', 'copy:deploy', 'rsync']);
+  grunt.registerTask('deploy', ['exec:check', 'clean', 'copy:dist', 'copy:deploy', 'rsync:api', 'rsync:www']);
 };
