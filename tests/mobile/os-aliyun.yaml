@@ -618,6 +618,8 @@
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 2.0; Android 4.0 Compatible; xx; C2 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
     X-Requested-With: com.aliyun.mobile.browser
   result:
+    browser:
+      name: Aliyun Browser
     engine:
       name: Webkit
       version: "534.30"
@@ -632,6 +634,8 @@
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 2.0; Android 4.0 Compatible; xx; G9 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
     X-Requested-With: com.aliyun.mobile.browser
   result:
+    browser:
+      name: Aliyun Browser
     engine:
       name: Webkit
       version: "534.30"
@@ -645,6 +649,8 @@
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 2.0; Android 4.0 Compatible; xx; GO N1-Y Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
     X-Requested-With: com.aliyun.mobile.browser
   result:
+    browser:
+      name: Aliyun Browser
     engine:
       name: Webkit
       version: "534.30"
@@ -659,6 +665,8 @@
     User-Agent: Mozilla/5.0 (Linux; U; AliyunOS 2.0; Android 4.0 Compatible; xx; R819T Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
     X-Requested-With: com.aliyun.mobile.browser
   result:
+    browser:
+      name: Aliyun Browser
     engine:
       name: Webkit
       version: "534.30"
