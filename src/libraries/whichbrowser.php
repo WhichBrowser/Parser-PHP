@@ -5061,20 +5061,10 @@
 			 *		Dolphin HD
 			 */
 
-			if (preg_match('/DolphinHDCN\/([0-9.]*)/u', $ua, $match)) {
+			if (preg_match('/Dolphin(?:HDCN)?\/(?:INT|CN)?-?([0-9.]*)/u', $ua, $match)) {
 				$this->browser->name = 'Dolphin';
 				$this->browser->version = new Version(array('value' => $match[1]));
 
-				$this->device->type = TYPE_MOBILE;
-
-				if (!isset($this->os) || (isset($this->os->name) && $this->os->name != 'Android')) {
-					$this->os->name = 'Android';
-					$this->os->version = null;
-				}
-			}
-
-			if (preg_match('/Dolphin\/(?:INT|CN)/u', $ua, $match)) {
-				$this->browser->name = 'Dolphin';
 				$this->device->type = TYPE_MOBILE;
 			}
 
