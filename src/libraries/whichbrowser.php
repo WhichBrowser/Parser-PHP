@@ -5006,6 +5006,18 @@
 						$this->browser->mode = '';
 					}
 				}
+
+				if (!$this->device->identified && preg_match('/; ([^;]*)\) U2\//u', $ua, $match)) {
+					$device = DeviceModels::identify('android', $match[1]);
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+
+						if (!isset($this->os->name) || !in_array($this->os->name, array('Android', 'Aliyun OS', 'COS'))) {
+							$this->os->name = 'Android';
+						}
+					}
+				}
 			}
 
 			/* U3 is the Webkit based Webview used on Android phones */
