@@ -115,6 +115,7 @@
 			'(Lumia ?|Nokia ?)?1020!'					=> array( 'Nokia', 'Lumia 1020' ),
 			'(Lumia ?|Nokia ?)?1320!'					=> array( 'Nokia', 'Lumia 1320' ),
 			'(Lumia ?|Nokia ?)?1520!'					=> array( 'Nokia', 'Lumia 1520' ),
+			'RM-1068!'									=> array( 'Microsoft', 'Lumia 435' ),
 			'RM-9(13|14|15)!'							=> array( 'Nokia', 'Lumia 520' ),
 			'RM-917!'									=> array( 'Nokia', 'Lumia 521' ),
 			'RM-998!'									=> array( 'Nokia', 'Lumia 525' ),
