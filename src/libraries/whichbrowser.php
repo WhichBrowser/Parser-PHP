@@ -403,12 +403,17 @@
 		function analyseBrowserId($id) {
 			$browser = BrowserIds::identify('android', $id);
 			if ($browser) {
-				if (!isset($this->browser->name) || $this->browser->name != $browser) {
+				if (!isset($this->browser->name)) {
 					$this->browser->name = $browser;
-
+				}
+				else {
 					if (substr($this->browser->name, 0, strlen($browser)) != $browser) {
+						$this->browser->name = $browser;
 						$this->browser->version = null;
 						$this->browser->stock = false;
+					}
+					else {
+						$this->browser->name = $browser;
 					}
 				}
 			}
