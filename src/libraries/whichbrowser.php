@@ -2668,13 +2668,6 @@
 
 			/* NetCast */
 
-			if (preg_match('/NetCast/u', $ua) && preg_match('/SmartTV\//u', $ua)) {
-				$this->device->manufacturer = 'LG';
-				$this->device->series = 'NetCast TV';
-				$this->device->type = TYPE_TELEVISION;
-				$this->device->identified |= ID_MATCH_UA;
-			}
-
 			if (preg_match('/LG NetCast\.(TV|Media)-([0-9]*)/u', $ua, $match)) {
 				$this->device->manufacturer = 'LG';
 				$this->device->series = 'NetCast ' . $match[1] . ' ' . $match[2];
@@ -2688,6 +2681,20 @@
 				}
 			}
 
+			/* NetCast or WebOS */
+
+			if (preg_match('/NetCast/u', $ua) && preg_match('/SmartTV\/([0-9])/u', $ua, $match)) {
+				$this->device->manufacturer = 'LG';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+
+				if (intval($match[1]) < 5) {
+					$this->device->series = 'NetCast TV';
+				} 
+				else {
+					$this->device->series = 'webOS TV';
+				}
+			}
 
 			/* WebOS */
 
@@ -2700,7 +2707,7 @@
 
 			if (preg_match('/webOS\.TV-([0-9]+)/u', $ua, $match)) {
 				$this->device->manufacturer = 'LG';
-				$this->device->series = 'webOS TV ' . $match[1];
+				$this->device->series = 'webOS TV'; // . $match[1];
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 
