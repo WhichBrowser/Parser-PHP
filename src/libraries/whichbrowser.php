@@ -5128,7 +5128,7 @@
 			*		360 Phone Browser
 			*/
 
-			if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)\)/u', $ua, $match)) {
+			if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)(?:beta)?\)/u', $ua, $match)) {
 				$this->browser->name = '360 Phone Browser';
 				$this->browser->channel = '';
 				$this->browser->version = null;
