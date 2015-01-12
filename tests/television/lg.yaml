@@ -31,7 +31,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: LG Browser/7.00.00, webOS.TV-2014/02.00.14 (LG, WEBOS1, wired)
   result:
@@ -41,7 +41,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( ;LGE ;NetCast 3.0 ;1.0 ;1.0M ;)
   result:
@@ -415,7 +415,17 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast TV
+      series: webOS TV
+- headers: |
+    User-Agent: Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.31 SmartTV/6.0
+  result:
+    engine:
+      name: Blink
+      version: "537.31"
+    device:
+      type: television
+      manufacturer: LG
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 LGSmartTV/5.0
   result:
@@ -503,7 +513,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux i686) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen ISIS/0.2.1-64-r13 Safari/537.41
   result:
@@ -530,7 +540,7 @@
       type: television
       manufacturer: LG
       model: LG115X
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux i686) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; webOS.TV; 00.00.01; 0x00000001); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, webOS.TV, wired)
   result:
@@ -543,7 +553,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux i686) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41
   result:
@@ -580,7 +590,7 @@
       type: television
       manufacturer: LG
       model: LG115X
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 00.00.00; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wired)
   result:
@@ -593,7 +603,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 03.00.00; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wired)
   result:
@@ -606,7 +616,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 257; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wired)
   result:
@@ -619,7 +629,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; webOS.TV; 00.00.01; 0x00000001); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, webOS.TV, wired)
   result:
@@ -632,7 +642,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41
   result:
@@ -655,7 +665,7 @@
     device:
       type: television
       manufacturer: LG
-      series: webOS TV 2014
+      series: webOS TV
 - headers: |
     User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen WebAppManager Safari/538.2
   result:
