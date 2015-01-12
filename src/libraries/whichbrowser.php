@@ -5066,12 +5066,16 @@
 				$this->browser->name = 'NineSky';
 				$this->browser->version = new Version(array('value' => $match[1]));
 
-				if ($this->os->name != 'Android') {
+				if (isset($this->device->manufacturer) && $this->device->manufacturer == 'Apple') {
+					unset($this->device->manufacturer);
+					unset($this->device->model);
+					unset($this->device->identifier);
+					$this->device->identified = ID_NONE;
+				}
+
+				if (isset($this->os->name) && $this->os->name != 'Android') {
 					$this->os->name = 'Android';
 					$this->os->version = null;
-
-					$this->device->manufacturer = null;
-					$this->device->model = null;
 				}
 			}
 
