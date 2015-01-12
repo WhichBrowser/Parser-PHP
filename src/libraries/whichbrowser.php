@@ -1513,7 +1513,7 @@
 					}
 				}
 
-				if (preg_match('/Symbian; U; (?:Nokia)?([^;]+); [a-z][a-z]\-[a-z][a-z]/u', $ua, $match)) {
+				if (preg_match('/Symbian; U; (?:Nokia)?([^;]+); [a-z][a-z](?:\-[a-z][a-z])?/u', $ua, $match)) {
 					$this->device->manufacturer = 'Nokia';
 					$this->device->model = DeviceModels::cleanup($match[1]);
 					$this->device->identified |= ID_PATTERN;
