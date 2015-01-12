@@ -891,10 +891,11 @@
 				$this->os->name = 'Windows';
 				$this->device->type = TYPE_DESKTOP;
 
-				if (preg_match('/Windows NT ([0-9]\.[0-9])/u', $ua, $match)) {
+				if (preg_match('/Windows NT ([0-9][0-9]?\.[0-9])/u', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 
 					switch($match[1]) {
+						case '10.0':
 						case '6.4':		if (preg_match('/; ARM;/u', $ua))
 											$this->os->version = new Version(array('value' => $match[1], 'alias' => 'RT 10'));
 										else
