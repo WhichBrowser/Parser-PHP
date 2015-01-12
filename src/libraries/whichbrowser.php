@@ -5018,6 +5018,14 @@
 				}
 			}
 
+			if (preg_match('/UBrowser\/?([0-9.]*)/u', $ua, $match)) {
+				$this->browser->stock = false;
+				$this->browser->name = 'UC Browser';
+				$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
+
+				unset($this->browser->channel);
+			}
+
 			/* U2 is the Proxy service used by UC Browser on low-end phones */
 			if (preg_match('/U2\//u', $ua)) {
 				$this->engine->name = 'Gecko';
@@ -5686,7 +5694,7 @@
 
 			if (isset($this->browser->name)) {
 				if ($this->browser->name == 'UC Browser') {
-					if ($this->device->type == 'desktop' || (isset($this->os->name) && ($this->os->name == 'Windows' || $this->os->name == 'OS X'))) {
+					if (!preg_match("/UBrowser\//", $ua) && ($this->device->type == 'desktop' || (isset($this->os->name) && ($this->os->name == 'Windows' || $this->os->name == 'OS X')))) {
 						$this->device->type = TYPE_MOBILE;
 
 						$this->browser->mode = 'desktop';
@@ -5697,7 +5705,7 @@
 						unset($this->os->version);
 					}
 
-					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS' && $this->os->name != 'COS')) {
+					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Windows' && $this->os->name != 'Android' && $this->os->name != 'Aliyun OS' && $this->os->name != 'COS')) {
 						$this->engine->name = 'Gecko';
 						unset($this->engine->version);
 						$this->browser->mode = 'proxy';
