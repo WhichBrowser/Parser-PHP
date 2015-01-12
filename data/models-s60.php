@@ -88,7 +88,9 @@
 			'701'										=> array( 'Nokia', '701' ),
 			'702T'										=> array( 'Nokia', '702T' ),
 			'801T'										=> array( 'Nokia', '801T' ),
-			'808!'										=> array( 'Nokia', '808 PureView' ),
+			'808'										=> array( 'Nokia', '808 PureView' ),
+			'808PureView'								=> array( 'Nokia', '808 PureView' ),
+			'808 PureView'								=> array( 'Nokia', '808 PureView' ),
 			'5228'										=> array( 'Nokia', '5228' ),
 			'5233!'										=> array( 'Nokia', '5228' ),						// The 5233 is known as 5228
 			'5230!'										=> array( 'Nokia', '5230' ),

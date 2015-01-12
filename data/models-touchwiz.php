@@ -35,5 +35,6 @@
 			'S80(00|03)!'								=> array( 'Samsung', 'Jet' ),
 			'GT-S8003'									=> array( 'Samsung', 'Jet' ),
 			'SGH-F480'									=> array( 'Samsung', 'Tocco' ),
+			'SGH-F480I'									=> array( 'Samsung', 'Tocco' ),
 			'SGH-T528g'									=> array( 'Samsung', 'Straight Talk' )		
 		);

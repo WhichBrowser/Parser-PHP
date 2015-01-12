@@ -53,7 +53,7 @@ var WhichBrowser = (function(){
 		isOs: function() { var a = Array.prototype.slice.call(arguments); a.unshift('os'); return this.isX.apply(this, a); },
 				
 		isDevice: function(d) {
-			return this.device.model == d;
+			return this.device.series == d || this.device.model == d;
 		},
 
 		isType: function() {

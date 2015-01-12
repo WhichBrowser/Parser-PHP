@@ -10,6 +10,8 @@
 			'ALCATELOneTouch4019A!'						=> array( 'Alcatel', 'One Touch Fire C' ),
 			'ALCATELOneTouch4019X!'						=> array( 'Alcatel', 'One Touch Fire C' ),
 			'ALCATELOneTouch4020D!'						=> array( 'Alcatel', 'One Touch Fire C' ),
+			'ALCATELOneTouch4022!'						=> array( 'Alcatel', 'One Touch Pixi 3 (3.5)' ),
+			'ALCATELOneTouch4023!'						=> array( 'Alcatel', 'One Touch Pixi 3 (3.5)' ),
 			'ALCATELOneTouch6015X!'						=> array( 'Alcatel', 'One Touch Fire E' ),
 			'HUAWEI Ascend Y300-F1'						=> array( 'Huawei', 'Ascend Y300 F1' ),
 			'HUAWEIY300-F1'								=> array( 'Huawei', 'Ascend Y300 F1' ),
