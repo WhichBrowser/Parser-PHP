@@ -6172,8 +6172,8 @@
 			$s = preg_replace('/^Novo7 ?/iu', 'Novo7 ', $s);
 			$s = preg_replace('/^HW-HUAWEI/u', 'HUAWEI', $s);
 			$s = preg_replace('/^Huawei[ -]/iu', 'Huawei ', $s);
-			$s = preg_replace('/^SAMSUNG[ -]/iu', '', $s);
 			$s = preg_replace('/^SAMSUNG SAMSUNG-/iu', '', $s);
+			$s = preg_replace('/^SAMSUNG[ -]/iu', '', $s);
 			$s = preg_replace('/^(Sony ?Ericsson|Sony)/u', '', $s);
 			$s = preg_replace('/^(Lenovo Lenovo|LNV-Lenovo|LENOVO-Lenovo)/u', 'Lenovo', $s);
 			$s = preg_replace('/^Lenovo-/u', 'Lenovo', $s);
