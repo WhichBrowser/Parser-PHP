@@ -2489,6 +2489,18 @@
 				}
 			}
 
+			/****************************************************
+			 *		Panasonic Diga
+			 */
+
+			if (preg_match('/; Diga;/u', $ua)) {
+				$this->device->manufacturer = 'Panasonic';
+				$this->device->series = 'Diga';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
+
 
 			/****************************************************
 			 *		Sharp AQUOS TV

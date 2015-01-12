@@ -306,6 +306,16 @@
       manufacturer: Panasonic
       series: Smart Viera
 - headers: |
+    User-Agent: Mozilla/5.0 (X11; Linux; U; Diga; de-DE) AppleWebKit/537.11 (KHTML, like Gecko) Diga/3.7.0 Chrome/23.0.1271.97 Safari/537.11
+  result:
+    engine:
+      name: Webkit
+      version: "537.11"
+    device:
+      type: television
+      manufacturer: Panasonic
+      series: Diga
+- headers: |
     User-Agent: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.tv.2011;avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avst/on)
   result:
     engine:
