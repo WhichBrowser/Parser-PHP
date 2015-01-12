@@ -1274,16 +1274,6 @@
 			if (preg_match('/GoogleTV/u', $ua)) {
 				$this->os->name = 'Google TV';
 
-				/*
-				if (preg_match('/Chrome\/5./u', $ua)) {
-					$this->os->version = new Version(array('value' => '1'));
-				}
-
-				if (preg_match('/Chrome\/11./u', $ua)) {
-					$this->os->version = new Version(array('value' => '2'));
-				}
-				*/
-
 				$this->device->type = TYPE_TELEVISION;
 
 				if (preg_match('/GoogleTV [0-9\.]+; ?([^;]*[^;\s])\s+Build/u', $ua, $match)) {
