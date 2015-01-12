@@ -153,6 +153,7 @@
 					$this->browser->mode = 'desktop';
 
 					$this->os->name = 'Android';
+					$this->os->alias = null;
 					$this->os->version = null;
 
 					$this->engine->name = 'Webkit';
@@ -414,6 +415,7 @@
 
 			if (!isset($this->os->name) || ($this->os->name != 'Android' && $this->os->name != 'Aliyun OS' && $this->os->name != 'COS')) {
 				$this->os->name = 'Android';
+				$this->os->alias = null;
 				$this->os->version = null;
 
 				$this->device->manufacturer = null;
