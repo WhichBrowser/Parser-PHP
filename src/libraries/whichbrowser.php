@@ -51,6 +51,7 @@
 	define ('FLAG_GOOGLEGLASS', 2);
 	define ('FLAG_ANDROIDWEAR', 4);
 	define ('FLAG_ANDROIDTV', 8);
+	define ('FLAG_NOKIAX', 16);
 
 	define ('ID_NONE', 0);
 	define ('ID_INFER', 1);
@@ -5684,6 +5685,13 @@
 						unset($this->engine->version);
 					}
 				}
+			}
+
+			if (isset($this->device->flag) && $this->device->flag == FLAG_NOKIAX) {
+				$this->os->name = 'Nokia X Platform';
+
+				unset($this->os->version);
+				unset($this->device->flag);
 			}
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_GOOGLETV) {

@@ -9,8 +9,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -25,8 +24,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -41,8 +39,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -57,8 +54,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -73,8 +69,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -89,8 +84,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -105,8 +99,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -121,8 +114,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -137,8 +129,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -153,8 +144,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -169,8 +159,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -185,8 +174,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -201,8 +189,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -217,8 +204,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -233,8 +219,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -249,8 +234,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: 4.1.2
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -265,8 +249,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: "4.3"
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
@@ -281,8 +264,7 @@
       name: Blink
       version: "537.36"
     os:
-      name: Android
-      version: "4.3"
+      name: Nokia X Platform
     device:
       type: mobile
       manufacturer: Nokia
