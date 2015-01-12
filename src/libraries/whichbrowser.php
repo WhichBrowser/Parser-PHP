@@ -5258,6 +5258,28 @@
 				$this->os->name = 'NextStep';
 			}
 
+			/****************************************************
+			 *		Sogou Mobile
+			 */
+
+			if (preg_match('/SogouAndroidBrowser\/([0-9.]*)/u', $ua, $match)) {
+				$this->browser->name = 'Sogou Mobile';
+				$this->browser->version = new Version(array('value' => $match[1]));
+
+				if (isset($this->device->manufacturer) && $this->device->manufacturer == 'Apple') {
+					unset($this->device->manufacturer);
+					unset($this->device->model);
+					unset($this->device->identifier);
+					$this->device->identified = ID_NONE;
+				}
+
+				if (isset($this->os->name) && $this->os->name != 'Android') {
+					$this->os->name = 'Android';
+					$this->os->version = null;
+				}
+			}
+
+
 
 
 
