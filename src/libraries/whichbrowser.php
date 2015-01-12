@@ -5232,6 +5232,16 @@
 				}
 			}
 
+			if (preg_match('/MxNitro/iu', $ua, $match)) {
+				$this->browser->name = 'Maxthon Nitro';
+				$this->browser->channel = '';
+				$this->browser->version = null;
+				
+				if (preg_match('/MxNitro\/([0-9.]*)/iu', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1], 'details' => 3));
+				}
+			}
+
 			/****************************************************
 			 *		WebPositive
 			 */
