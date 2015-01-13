@@ -4651,8 +4651,9 @@
 			 */
 
 			if (preg_match('/Silk/u', $ua)) {
-				if (preg_match('/Silk-Accelerated/u', $ua)) {
+				if (preg_match('/Silk-Accelerated/u', $ua) || !preg_match('/PlayStation/u', $ua)) {
 					$this->browser->name = 'Silk';
+					$this->browser->channel = null;
 
 					if (preg_match('/Silk\/([0-9.]*)/u', $ua, $match)) {
 						$this->browser->version = new Version(array('value' => $match[1], 'details' => 2));
@@ -4669,7 +4670,7 @@
 						$this->device->identified |= ID_INFER;
 					}
 
-					if ($this->os->name != 'Android') {
+					if (isset($this->os->name) && $this->os->name != 'Android') {
 						$this->os->name = 'Android';
 						$this->os->version = null;
 					}

@@ -1,0 +1,18 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36
+  result:
+    browser:
+      name: Silk
+      version: "3.41"
+    engine:
+      name: Blink
+      version: "537.36"
+    os:
+      name: Android
+      version: 4.0.3
+    device:
+      type: tablet
+      manufacturer: Amazon
+      model: Kindle Fire HD
+...
