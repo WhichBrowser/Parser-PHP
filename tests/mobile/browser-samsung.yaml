@@ -1,0 +1,17 @@
+---
+- headers: |
+    User-Agent: Mozilla/5.0 (Linux; Android 4.3; nl-nl; SAMSUNG GT-I9505 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+  result:
+    browser:
+      name: Samsung Browser
+    engine:
+      name: Blink
+      version: "537.36"
+    os:
+      name: Android
+      version: "4.3"
+    device:
+      type: mobile
+      manufacturer: Samsung
+      model: Galaxy S4
+...
