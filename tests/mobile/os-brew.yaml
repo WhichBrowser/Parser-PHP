@@ -205,7 +205,8 @@
     User-Agent: Mozilla/5.0_(Smartfren-E781A/E2_SQID_V0.1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/Q7
   result:
     browser:
-      name: Obigo
+      name: Obigo Q
+      version: "7"
     os:
       name: Brew
       version: 3.1.5.189

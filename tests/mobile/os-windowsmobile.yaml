@@ -792,8 +792,8 @@
     UA-OS: Windows CE (Smartphone) - Version 5.2
   result:
     browser:
-      name: Obigo W
-      version: ""
+      name: Obigo WAP
+      version: "2.0"
     os:
       name: Windows Mobile
       version: "6.5"
