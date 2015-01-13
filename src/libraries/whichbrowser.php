@@ -838,7 +838,9 @@
 			 *		iOS
 			 */
 
-			if (preg_match('/iPhone/u', $ua) || preg_match('/iPad/u', $ua) || preg_match('/iPod/u', $ua)) {
+			if ((preg_match('/iPhone/u', $ua) && !preg_match('/like iPhone/u', $ua)) || 
+				preg_match('/iPad/u', $ua) || preg_match('/iPod/u', $ua)) 
+			{
 				$this->os->name = 'iOS';
 				$this->os->version = new Version(array('value' => '1.0'));
 
@@ -2167,6 +2169,20 @@
 
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = '3DS';
+				$this->device->type = TYPE_GAMING;
+				$this->device->identified |= ID_MATCH_UA;
+				$this->device->generic = false;
+			}
+
+			if (preg_match('/New Nintendo 3DS/u', $ua)) {
+				$this->os->name = '';
+
+				if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
+
+				$this->device->manufacturer = 'Nintendo';
+				$this->device->model = 'New 3DS';
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 				$this->device->generic = false;

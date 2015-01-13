@@ -1,5 +1,18 @@
 ---
 - headers: |
+    User-Agent: Mozilla/5.0 (New Nintendo 3DS like iPhone) AppleWebKit/536.30 (KHTML, like Gecko) NX/3.0.0.5.10 Mobile NintendoBrowser/1.1.9996.EU
+  result:
+    browser:
+      name: NetFront NX
+      version: "3.0"
+    engine:
+      name: Webkit
+      version: "536.30"
+    device:
+      type: gaming
+      manufacturer: Nintendo
+      model: New 3DS
+- headers: |
     User-Agent: Mozilla/5.0 (Nintendo 3DS like iPhone) Version/1.7412.JP
   result:
     os:
