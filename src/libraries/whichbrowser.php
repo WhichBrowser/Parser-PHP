@@ -1692,8 +1692,19 @@
 
 			if (preg_match('/Jolla; Sailfish;/u', $ua)) {
 				$this->os->name = 'Sailfish';
-				$this->device->model = 'Jolla';
-				$this->device->type = TYPE_MOBILE;
+				$this->device->manufacturer = 'Jolla';
+
+				if (preg_match('/Mobile/u', $ua)) { 
+					$this->device->model = 'Phone';
+					$this->device->type = TYPE_MOBILE;
+					$this->device->identified = ID_PATTERN;
+				}
+
+				if (preg_match('/Tablet/u', $ua)) { 
+					$this->device->model = 'Tablet';
+					$this->device->type = TYPE_TABLET;
+					$this->device->identified = ID_PATTERN;
+				}
 			}
 
 			/****************************************************
