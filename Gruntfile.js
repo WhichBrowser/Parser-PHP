@@ -63,16 +63,16 @@ module.exports = function(grunt) {
       api: {
   			options: {
   				src: 'dist/',
-  				dest: '/home/niels/sites/api.whichbrowser.net/public_html/rel',
-  				host: 'niels@html5test.com',
+  				dest: '/var/www/api.whichbrowser.net/web/rel',
+  				host: 'admin@server.html5test.com',
   			}
     	},
 
       www: {
         options: {
           src: 'dist/',
-          dest: '/home/niels/sites/www.whichbrowser.net/public_html/lib',
-          host: 'niels@html5test.com',
+          dest: '/var/www/whichbrowser.net/web/lib',
+          host: 'admin@server.html5test.com',
         }
       }
     },
