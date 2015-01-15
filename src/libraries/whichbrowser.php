@@ -5368,6 +5368,7 @@
 				array('name' => 'iTunes',				'regexp' => '/iTunes\/([0-9.]*)/u'),
 
 				array('name' => '1Browser',				'regexp' => '/1Password\/([0-9.]*)/u'),
+				array('name' => '2345 Browser',			'regexp' => '/Mb2345Browser\/([0-9.]*)/u'),
 				array('name' => '3G Explorer',			'regexp' => '/3G Explorer\/([0-9.]*)/u', 'details' => 3),
 				array('name' => '4G Explorer',			'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3),
 				array('name' => '360 Extreme Explorer',	'regexp' => '/QIHU 360EE/u', 'type' => TYPE_DESKTOP),
