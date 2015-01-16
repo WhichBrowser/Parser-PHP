@@ -52,6 +52,7 @@
 	define ('FLAG_ANDROIDWEAR', 4);
 	define ('FLAG_ANDROIDTV', 8);
 	define ('FLAG_NOKIAX', 16);
+	define ('FLAG_FIREOS', 32);
 
 	define ('ID_NONE', 0);
 	define ('ID_INFER', 1);
@@ -5800,6 +5801,23 @@
 				$this->os->name = 'Nokia X Platform';
 
 				unset($this->os->version);
+				unset($this->device->flag);
+			}
+
+			if (isset($this->device->flag) && $this->device->flag == FLAG_FIREOS) {
+				$this->os->name = 'FireOS';
+
+				if (isset($this->os->version) && isset($this->os->version->value)) {
+					switch($this->os->version->value) {
+						case '2.3.3':	$this->os->version = new Version(array('value' => '1')); break;
+						case '4.0.3':	$this->os->version = new Version(array('value' => '2')); break;
+						case '4.2.2':	$this->os->version = new Version(array('value' => '3')); break;
+						case '4.4.2':	$this->os->version = new Version(array('value' => '4')); break;
+						case '4.4.3':	$this->os->version = new Version(array('value' => '4.5')); break;
+						default:		unset($this->os->version); break;
+					}
+				}
+
 				unset($this->device->flag);
 			}
 
