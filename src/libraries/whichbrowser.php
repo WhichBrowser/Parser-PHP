@@ -4317,6 +4317,15 @@
 							$this->browser->channel = null;
 						}
 					}
+
+					/* Samsung Chromium based browsers */
+					if (preg_match('/SamsungBrowser\/([0-9.]*)/u', $ua, $match)) {
+						$this->browser->name = "Samsung Browser";
+						$this->browser->channel = null;
+						$this->browser->stock = true;
+						$this->browser->version = new Version(array('value' => $match[1]));
+						$this->browser->channel = null;
+					}
 				}
 
 				else {
