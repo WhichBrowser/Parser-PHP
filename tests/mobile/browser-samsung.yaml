@@ -4,6 +4,7 @@
   result:
     browser:
       name: Samsung Browser
+      version: "1.5"
     engine:
       name: Blink
       version: "537.36"

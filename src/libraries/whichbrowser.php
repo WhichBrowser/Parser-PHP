@@ -4295,7 +4295,7 @@
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
-							$this->browser->version = null;
+							$this->browser->version = new Version(array('value' => '1.0'));
 							$this->browser->channel = null;
 						}
 
@@ -4304,7 +4304,7 @@
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
-							$this->browser->version = null;
+							$this->browser->version = new Version(array('value' => '1.5'));
 							$this->browser->channel = null;
 						}
 
@@ -4313,7 +4313,7 @@
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
-							$this->browser->version = null;
+							$this->browser->version = new Version(array('value' => '1.6'));
 							$this->browser->channel = null;
 						}
 					}
