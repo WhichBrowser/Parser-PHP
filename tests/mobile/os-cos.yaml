@@ -10,7 +10,6 @@
       version: "535.19"
     os:
       name: COS
-      version: "998"
     device:
       type: desktop
 - headers: |

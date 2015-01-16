@@ -1857,18 +1857,18 @@
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
 
-			if (preg_match('/(?:\(|; )Chinese Operating System ([0-9.]*);/ui', $ua, $match)) {
+			if (preg_match('/(?:\(|; )COS/ui', $ua, $match)) {
+				$this->os->name = 'COS';
+			}
+
+			if (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
 			}
 
-			if (preg_match('/(?:\(|; )COS ([0-9.]*);/ui', $ua, $match)) {
+			if (preg_match('/(?:\(|; )COS ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
 				$this->os->name = 'COS';
 				$this->os->version = new Version(array('value' => $match[1], 'details' => 2));
-			}
-
-			if (preg_match('/(?:\(|; )COS;/ui', $ua, $match)) {
-				$this->os->name = 'COS';
 			}
 
 
