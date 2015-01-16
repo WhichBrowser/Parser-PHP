@@ -7,6 +7,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -23,6 +24,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.2.3
     device:
       type: mobile
@@ -39,6 +41,7 @@
       version: "537.36"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -55,6 +58,7 @@
       version: "537.36"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -71,6 +75,7 @@
       version: "537.36"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -84,6 +89,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "1.1"
     device:
       type: mobile
@@ -97,6 +103,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "1.1"
     device:
       type: mobile
@@ -112,6 +119,7 @@
       version: "537.36"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.3.0
     device:
       type: mobile
@@ -125,6 +133,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.5.0
     device:
       type: mobile
@@ -140,6 +149,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.5.1
     device:
       type: mobile
@@ -156,6 +166,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.5.2
     device:
       type: mobile
@@ -169,6 +180,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.5.2
     device:
       type: mobile
@@ -182,6 +194,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.6.0
     device:
       type: mobile
@@ -194,6 +207,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.6.1
     device:
       type: mobile
@@ -209,6 +223,7 @@
       version: "534.31"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.7.0
     device:
       type: mobile
@@ -222,6 +237,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 1.0.0
     device:
       type: mobile
@@ -235,6 +251,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: []
     device:
       type: mobile
@@ -246,6 +263,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -257,6 +275,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -268,6 +287,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -279,6 +299,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -290,6 +311,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -301,6 +323,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -312,6 +335,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.3.0
     device:
       type: mobile
@@ -323,6 +347,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.5.0
     device:
       type: mobile
@@ -334,6 +359,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.7.0
     device:
       type: mobile
@@ -345,6 +371,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.7.1
     device:
       type: mobile
@@ -356,6 +383,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.7.1
     device:
       type: mobile
@@ -367,6 +395,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.7.2
     device:
       type: mobile
@@ -378,6 +407,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 3.0.0
     device:
       type: mobile
@@ -389,6 +419,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 3.0.0
     device:
       type: mobile
@@ -400,6 +431,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 3.0.0
     device:
       type: mobile
@@ -411,6 +443,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 4.2.1
     device:
       type: mobile
@@ -422,6 +455,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: 4.2.2
     device:
       type: mobile
@@ -433,6 +467,7 @@
       version: "536.28"
     os:
       name: Aliyun OS
+      family: Android
       version: "4.4"
     device:
       type: mobile
@@ -444,6 +479,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -455,6 +491,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -466,6 +503,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -477,6 +515,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -488,6 +527,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -499,6 +539,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.1.0
     device:
       type: mobile
@@ -510,6 +551,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.3.0
     device:
       type: mobile
@@ -521,6 +563,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -532,6 +575,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.0.1
     device:
       type: mobile
@@ -543,6 +587,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.3.0
     device:
       type: mobile
@@ -554,6 +599,7 @@
       version: "533.1"
     os:
       name: Aliyun OS
+      family: Android
       version: 2.3.0
     device:
       type: mobile
@@ -565,6 +611,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: []
     device:
       type: mobile
@@ -581,6 +628,7 @@
       version: "537.36"
     os:
       name: Aliyun OS
+      family: Android
       version: []
     device:
       type: mobile
@@ -597,6 +645,7 @@
       version: 2.9.201
     os:
       name: Aliyun OS
+      family: Android
       version: 1.5.2
     device:
       type: mobile
@@ -611,6 +660,7 @@
       version: 2.9.201
     os:
       name: Aliyun OS
+      family: Android
       version: 1.6.1
     device:
       type: mobile
@@ -625,6 +675,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "2.0"
     device:
       type: mobile
@@ -641,6 +692,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "2.0"
     device:
       type: mobile
@@ -656,6 +708,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "2.0"
     device:
       type: mobile
@@ -672,6 +725,7 @@
       version: "534.30"
     os:
       name: Aliyun OS
+      family: Android
       version: "2.0"
     device:
       type: mobile
@@ -692,6 +746,7 @@
       version: 2.8.119
     os:
       name: Aliyun OS
+      family: Android
       version: []
     device:
       type: mobile

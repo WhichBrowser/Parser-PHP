@@ -117,6 +117,7 @@
       version: "537.36"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Hisense
@@ -132,6 +133,7 @@
       version: "537.36"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: LG
@@ -147,6 +149,7 @@
       version: "537.36"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: LG
@@ -162,6 +165,7 @@
       version: "537.36"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: TCL
@@ -177,6 +181,7 @@
       version: "537.36"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: LG
@@ -192,6 +197,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: NETGEAR
@@ -207,6 +213,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: LG
@@ -222,6 +229,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Sony
@@ -237,6 +245,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: LG
@@ -252,6 +261,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Vizio
@@ -267,6 +277,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Asus
@@ -282,6 +293,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Hisense
@@ -297,6 +309,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -307,6 +320,7 @@
       version: "534.13"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: NETGEAR
@@ -319,6 +333,7 @@
       version: "534.13"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Sony
@@ -331,6 +346,7 @@
       version: "534.13"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
       manufacturer: Vizio
@@ -346,6 +362,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -359,6 +376,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -372,6 +390,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -385,6 +404,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -398,6 +418,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -411,6 +432,7 @@
       version: "534.24"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -424,6 +446,7 @@
       version: "533.4"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -437,6 +460,7 @@
       version: "533.4"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -450,6 +474,7 @@
       version: "533.4"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 - headers: |
@@ -463,6 +488,7 @@
       version: "533.4"
     os:
       name: Google TV
+      family: Android
     device:
       type: television
 ...

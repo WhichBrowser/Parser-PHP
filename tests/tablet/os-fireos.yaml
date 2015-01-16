@@ -10,6 +10,7 @@
       version: "537.36"
     os:
       name: FireOS
+      family: Android
       version: "2"
     device:
       type: tablet

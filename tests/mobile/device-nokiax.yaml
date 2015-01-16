@@ -10,6 +10,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -25,6 +26,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -40,6 +42,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -55,6 +58,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -70,6 +74,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -85,6 +90,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -100,6 +106,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -115,6 +122,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -130,6 +138,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -145,6 +154,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -160,6 +170,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -175,6 +186,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -190,6 +202,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -205,6 +218,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -220,6 +234,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -235,6 +250,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -250,6 +266,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
@@ -265,6 +282,7 @@
       version: "537.36"
     os:
       name: Nokia X Platform
+      family: Android
     device:
       type: mobile
       manufacturer: Nokia
