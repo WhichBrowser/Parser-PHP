@@ -653,7 +653,7 @@
 			'6036[AYX]!'								=> array( 'Alcatel', 'One Touch Idol 2 Mini S' ),
 			'one ?touch 6037!'							=> array( 'Alcatel', 'One Touch Idol 2 Dual' ),
 			'6037[BIKY]!'								=> array( 'Alcatel', 'One Touch Idol 2 Dual' ),
-//			'6039[K]!'			
+//			'6039[KY]!'			
 			'one ?touch 6040!'							=> array( 'Alcatel', 'One Touch Idol X' ),
 			'one ?touch 6043!'							=> array( 'Alcatel', 'One Touch Idol X+' ),
 			'6043[AD]!'									=> array( 'Alcatel', 'One Touch Idol X+' ),
@@ -2219,6 +2219,7 @@
 			'Fly F350'									=> array( 'Fly', 'F350' ),
 			'Fly Phoenix 2'								=> array( 'Fly', 'IQ4410i Phoenix 2' ),
 			'(Fly )?IQ4413!'							=> array( 'Fly', 'IQ4413 Evo Chic 3' ),
+			'(Fly )?IQ4516!'							=> array( 'Fly', 'IQ4516 Tornado Slim' ),
 			'(Fly )?IQ230!'								=> array( 'Fly', 'IQ230 Compact' ),
 			'(Fly )?IQ235!'								=> array( 'Fly', 'IQ235 Uno' ),
 			'(Fly )?IQ237!'								=> array( 'Fly', 'IQ237 Dynamic' ),
@@ -4634,6 +4635,7 @@
 			'Lenovo K80M'								=> array( 'Lenovo', 'K80M' ),
 			'Lenovo K2'									=> array( 'Lenovo', 'K2' ),
 			'Lenovo K6'									=> array( 'Lenovo', 'K6' ),
+			'Lenovo K50-T5'								=> array( 'Lenovo', 'K50' ),
 			'Lenovo N300'								=> array( 'Lenovo', 'N300', TYPE_DESKTOP ),
 			'Lenovo N308'								=> array( 'Lenovo', 'N308', TYPE_DESKTOP ),
 			'Lenovo N908'								=> array( 'Lenovo', 'N908' ),
@@ -8568,6 +8570,7 @@
 			'MI 4C'										=> array( 'Xiaomi', 'Mi 4' ),
 			'MI 4W'										=> array( 'Xiaomi', 'Mi 4' ),
 			'Xiaomi M5'									=> array( 'Xiaomi', 'Mi 5' ),
+			'MI NOTE LTE'								=> array( 'Xiaomi', 'Mi Note' ),
 			'Redmi'										=> array( 'Xiaomi', 'Redmi 1' ),
 			'HM 1'										=> array( 'Xiaomi', 'Redmi 1' ),
 			'HM 1A'										=> array( 'Xiaomi', 'Redmi 1A' ),
