@@ -4979,7 +4979,7 @@
 					$this->os->version = new Version(array('value' => str_replace('_', '.', $match[1])));
 				}
 
-				if (preg_match('/^JUC ?\(Linux; ?U; ?([0-9\.]+)[^;]*; ?[^;]+; ?([^;]*[^\s])\s*; ?[0-9]+\*[0-9]+\)/u', $ua, $match)) {
+				if (preg_match('/^JUC ?\(Linux; ?U; ?(?:Android)? ?([0-9\.]+)[^;]*; ?[^;]+; ?([^;]*[^\s])\s*; ?[0-9]+\*[0-9]+;?\)/u', $ua, $match)) {
 					$this->os->name = 'Android';
 					$this->os->version = new Version(array('value' => $match[1]));
 
