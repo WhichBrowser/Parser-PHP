@@ -2655,7 +2655,9 @@
 				$this->device->identified |= ID_MATCH_UA;
 
 				if (preg_match('/SonyCEBrowser\/[0-9.]+ \((?:BDPlayer; |DTV[0-9]+\/)?([^;_]+)/u', $ua, $match)) {
-					$this->device->model = $match[1];
+					if ($match[1] != 'ModelName') {
+						$this->device->model = $match[1];
+					}
 				}
 			}
 
