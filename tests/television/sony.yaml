@@ -12,7 +12,7 @@
   result:
     browser:
       name: Opera Devices
-      version: "19.0"
+      version: "4.1"
     engine:
       name: Blink
       version: "537.36"

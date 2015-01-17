@@ -5822,6 +5822,19 @@
 					}
 				}
 
+				else if (preg_match('/OMI\/([0-9]+\.[0-9]+)/u', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1]));
+				}
+
+				else if (preg_match('/OPR\/([0-9]+)/u', $ua, $match)) {
+					switch($match[1]) {
+						case '17':			$this->browser->version = new Version(array('value' => '4.0')); break;
+						case '19':			$this->browser->version = new Version(array('value' => '4.1')); break;
+						case '22':			$this->browser->version = new Version(array('value' => '4.2')); break;
+						default:			unset($this->browser->version);
+					}
+				}
+
 				unset($this->os->name);
 				unset($this->os->version);
 			}
