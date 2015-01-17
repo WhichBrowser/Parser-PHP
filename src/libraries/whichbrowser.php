@@ -2796,19 +2796,23 @@
 
 
 			/****************************************************
-			 *		Motorola KreaTV
+			 *		KreaTV
 			 */
 
-			if (preg_match('/Motorola KreaTV STB/u', $ua)) {
+			if (preg_match('/KreaTV/u', $ua)) {
 				unset($this->os->name);
 				unset($this->os->version);
 
-				$this->device->manufacturer = 'Motorola';
-				$this->device->model = 'KreaTV';
+				$this->device->series = 'KreaTV';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 				$this->device->generic = false;
+
+				if (preg_match('/Motorola/u', $ua)) {
+					$this->device->manufacturer = 'Motorola';
+				}
 			}
+
 
 			/****************************************************
 			 *		ADB

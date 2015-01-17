@@ -357,19 +357,6 @@
       manufacturer: DMM
       model: Dreambox
 - headers: |
-    User-Agent: Mozilla/5.0 (Linux) AppleWebKit/534.51 (KHTML, like Gecko) Ekioh/2.2.4.7-moto-mob Safari/534.51:534 Motorola KreaTV STB VIP1003
-  result:
-    browser:
-      name: Ekioh
-      version: 2.2.4.7
-    engine:
-      name: Webkit
-      version: "534.51"
-    device:
-      type: television
-      manufacturer: Motorola
-      model: KreaTV
-- headers: |
     User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; L28YTNRA)
   result:
     browser:
