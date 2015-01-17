@@ -838,6 +838,19 @@
       model: Bravia W802
       series: Smart TV
 - headers: |
+    User-Agent: Opera/9.80 (Linux armv7l; U; xx) Presto/2.10.287 Version/12.00 SonyCEBrowser/1.0 (ModelName; CTV/PKG0.002EUA; DEU)
+  result:
+    browser:
+      name: Opera Devices
+      version: "3.2"
+    engine:
+      name: Presto
+      version: 2.10.287
+    device:
+      type: television
+      manufacturer: Sony
+      series: Smart TV
+- headers: |
     User-Agent: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL22EX320; PKG4.022EUA; 2011;);; xx) Presto/2.7.61 Version/11.00
   result:
     browser:

@@ -289,4 +289,11 @@
       manufacturer: Samsung
       model: BD-F5500
       series: Blu-ray Player
+- headers: |
+    User-Agent: SmartTV/1.0.0 (SAMSUNG;OTV-SMT-E5015;0x01;BAC.2012.05.12)
+  result:
+    device:
+      type: television
+      manufacturer: Samsung
+      model: Olleh SkyLife Smart Settopbox
 ...

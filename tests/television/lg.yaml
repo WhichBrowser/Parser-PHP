@@ -23,6 +23,16 @@
       manufacturer: LG
       series: NetCast TV 2012
 - headers: |
+    User-Agent: LG Browser/7.00.00(LGE; WEBOS1; 00.00.00) webOS.TV-2015)
+  result:
+    browser:
+      name: LG Browser
+      version: "7.00"
+    device:
+      type: television
+      manufacturer: LG
+      series: webOS TV
+- headers: |
     User-Agent: LG Browser/7.00.00, webOS.TV-2014/00.00.00 (LG, WEBOS1, wired)
   result:
     browser:
