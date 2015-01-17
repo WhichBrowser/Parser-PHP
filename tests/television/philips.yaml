@@ -248,12 +248,10 @@
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 32PFG550978
   result:
     browser:
-      name: Opera
+      name: Opera Devices
       version: "9.80"
-    os:
-      name: Linux
     device:
-      type: desktop
+      type: television
 - headers: |
     User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 40PFS671912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/012.002.016.128 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50
   result:

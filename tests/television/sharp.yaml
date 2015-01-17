@@ -398,6 +398,8 @@
       version: "531.2"
     device:
       type: television
+      manufacturer: Sharp
+      series: Smart TV
 - headers: |
     User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.2.0 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)
   result:
