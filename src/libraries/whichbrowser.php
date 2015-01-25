@@ -5742,6 +5742,11 @@
 				}
 			}
 
+			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
+				$this->engine->name = 'Edge';
+				$this->engine->version = null;
+			}
+
 
 			/****************************************************
 			 *		Corrections
@@ -5798,9 +5803,6 @@
 				switch($match[1]) {
 					case '12.0': $this->browser->version = new Version(array('value' => '11.0')); break;
 				}
-
-				$this->engine->name = 'Trident';
-				$this->engine->version = null;
 			}
 
 
