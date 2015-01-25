@@ -276,7 +276,7 @@
 					if ($this->options->engine & ENGINE_CHROMIUM) {
 						$this->features[] = 'chrome';
 
-						if ($this->engine->name && ($this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
+						if ($this->engine->name && ($this->engine->name != 'Edge' && $this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
 							$this->camouflage = true;
 						}
 					}
