@@ -5564,6 +5564,7 @@
 				array('name' => 'Viera', 				'regexp' => '/Viera\/([0-9.]*)/u'),
 				array('name' => 'Villanova', 			'regexp' => '/Villanova\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Vimb', 				'regexp' => '/vimb\/([0-9.]*)/u'),
+				array('name' => 'Vivaldi', 				'regexp' => '/Vivaldi\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Voyager',				'regexp' => '/AmigaVoyager\/([0-9.]*)/u'),
 				array('name' => 'Waterfox', 			'regexp' => '/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
 				array('name' => 'Wavelink Velocity',	'regexp' => '/Wavelink Velocity Browser\/([0-9.]*)/u', 'details' => 2),
