@@ -276,7 +276,7 @@
 					if ($this->options->engine & ENGINE_CHROMIUM) {
 						$this->features[] = 'chrome';
 
-						if ($this->engine->name && ($this->engine->name != 'Edge' && $this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
+						if ($this->engine->name && ($this->engine->name != 'EdgeHTML' && $this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
 							$this->camouflage = true;
 						}
 					}
@@ -5743,7 +5743,7 @@
 			}
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->engine->name = 'Edge';
+				$this->engine->name = 'EdgeHTML';
 				$this->engine->version = null;
 			}
 
