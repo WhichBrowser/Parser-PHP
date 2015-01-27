@@ -276,7 +276,7 @@
 					if ($this->options->engine & ENGINE_CHROMIUM) {
 						$this->features[] = 'chrome';
 
-						if ($this->engine->name && ($this->engine->name != 'Edge' && $this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
+						if ($this->engine->name && ($this->engine->name != 'EdgeHTML' && $this->engine->name != 'Blink' && $this->engine->name != 'Webkit')) {
 							$this->camouflage = true;
 						}
 					}
@@ -5564,6 +5564,7 @@
 				array('name' => 'Viera', 				'regexp' => '/Viera\/([0-9.]*)/u'),
 				array('name' => 'Villanova', 			'regexp' => '/Villanova\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Vimb', 				'regexp' => '/vimb\/([0-9.]*)/u'),
+				array('name' => 'Vivaldi', 				'regexp' => '/Vivaldi\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Voyager',				'regexp' => '/AmigaVoyager\/([0-9.]*)/u'),
 				array('name' => 'Waterfox', 			'regexp' => '/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
 				array('name' => 'Wavelink Velocity',	'regexp' => '/Wavelink Velocity Browser\/([0-9.]*)/u', 'details' => 2),
@@ -5743,7 +5744,7 @@
 			}
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->engine->name = 'Edge';
+				$this->engine->name = 'EdgeHTML';
 				$this->engine->version = null;
 			}
 
