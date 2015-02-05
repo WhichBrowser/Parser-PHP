@@ -4373,6 +4373,24 @@
 							$this->browser->version = new Version(array('value' => '1.6'));
 							$this->browser->channel = null;
 						}
+
+						/* Version 2.0 */
+						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.0/u', $ua)) {
+							$this->browser->name = "Samsung Browser";
+							$this->browser->channel = null;
+							$this->browser->stock = true;
+							$this->browser->version = new Version(array('value' => '2.0'));
+							$this->browser->channel = null;
+						}
+
+						/* Version 2.1 */
+						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.1/u', $ua)) {
+							$this->browser->name = "Samsung Browser";
+							$this->browser->channel = null;
+							$this->browser->stock = true;
+							$this->browser->version = new Version(array('value' => '2.1'));
+							$this->browser->channel = null;
+						}
 					}
 
 					/* Samsung Chromium based browsers */
