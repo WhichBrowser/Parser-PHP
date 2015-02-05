@@ -4335,7 +4335,7 @@
 
 					/* LG Chromium based browsers */
 					if (isset($device->manufacturer) && $device->manufacturer == 'LG') {
-						if ($match[1] == '30.0.1599.103' && preg_match('/Version\/4.0/u', $ua)) {
+						if (in_array($match[1], array('30.0.1599.103', '34.0.1847.118', '38.0.2125.102')) && preg_match('/Version\/4/u', $ua)) {
 							$this->browser->name = "LG Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4371,6 +4371,24 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version(array('value' => '1.6'));
+							$this->browser->channel = null;
+						}
+
+						/* Version 2.0 */
+						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.0/u', $ua)) {
+							$this->browser->name = "Samsung Browser";
+							$this->browser->channel = null;
+							$this->browser->stock = true;
+							$this->browser->version = new Version(array('value' => '2.0'));
+							$this->browser->channel = null;
+						}
+
+						/* Version 2.1 */
+						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.1/u', $ua)) {
+							$this->browser->name = "Samsung Browser";
+							$this->browser->channel = null;
+							$this->browser->stock = true;
+							$this->browser->version = new Version(array('value' => '2.1'));
 							$this->browser->channel = null;
 						}
 					}
