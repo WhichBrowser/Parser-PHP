@@ -271,6 +271,11 @@
 						{
 							$this->camouflage = false;
 						}
+
+						/* IE / Spartan EdgeHTML rendering engine also appears to be WebKit */
+						if (isset($this->engine->name) && $this->engine->name == 'EdgeHTML') {
+							$this->camouflage = false;
+						}
 					}
 
 					if ($this->options->engine & ENGINE_CHROMIUM) {
