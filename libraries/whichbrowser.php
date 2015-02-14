@@ -271,6 +271,11 @@
 						{
 							$this->camouflage = false;
 						}
+
+						/* IE / Spartan EdgeHTML rendering engine also appears to be WebKit */
+						if (isset($this->engine->name) && $this->engine->name == 'EdgeHTML') {
+							$this->camouflage = false;
+						}
 					}
 
 					if ($this->options->engine & ENGINE_CHROMIUM) {
@@ -1032,6 +1037,19 @@
 						}
 					}
 
+					/* Windows Phone 10 */
+					if (preg_match('/Windows Phone 1[0-9]\.[0-9]; Android [0-9\.]+; ([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
+						$this->device->manufacturer = $match[1];
+						$this->device->model = $match[2];
+						$this->device->identified |= ID_PATTERN;
+
+						$device = DeviceModels::identify('wp', $match[2]);
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;
+						}
+					}
+
 					/* Third party browsers */
 					if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?\s*(?:[^\/]+\/[^\/]+);\s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
 						$this->device->manufacturer = $match[1];
@@ -1113,6 +1131,7 @@
 
 				/* Prevent the Mobile IE 11 Franken-UA from matching Android */
 				if (preg_match('/IEMobile\/1/u', $ua)) $falsepositive = true;
+				if (preg_match('/Windows Phone 10/u', $ua)) $falsepositive = true;
 
 				/* Prevent from OSes that claim to be 'like' Android from matching */
 				if (preg_match('/like Android/u', $ua)) $falsepositive = true;
