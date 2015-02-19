@@ -424,6 +424,15 @@
 				}
 			}
 
+			/* The X-Requested-With header is send by the WebView, so our browser name is Chrome it is probably the Chromium WebView which is sometimes misidentified. */
+			if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
+				$this->browser->stock = true;
+				$this->browser->name = null;
+				$this->browser->version = null;
+				$this->browser->channel = null;
+			}
+
+			/* The X-Requested-With header is only send from Android devices */
 			if (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family != 'Android'))) {
 				$this->os->name = 'Android';
 				$this->os->alias = null;
@@ -438,7 +447,8 @@
 				}
 			}
 
-			if (!isset($this->engine->name) || $this->engine->name != 'Webkit') {
+			/* The X-Requested-With header is send by the WebKit or Chromium Webview */
+			if (!isset($this->engine->name) || ($this->engine->name != 'Webkit' && $this->engine->name != 'Blink')) {
 				$this->engine->name = 'Webkit';
 				$this->engine->version = null;
 			}
