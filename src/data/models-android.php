@@ -4852,7 +4852,7 @@
 			'LG-GT540!'									=> array( 'LG', 'Optimus' ),
 			'LG-GW620'		 							=> array( 'LG', 'GW620 Eve' ),
 			'LG-H220!'									=> array( 'LG', 'H220' ),							// Unknown
-			'LG-H340!'									=> array( 'LG', 'H340' ),							// Unknown
+			'LG-H340!'									=> array( 'LG', 'C50' ),							// Maybe
 			'LG-H4(40|41|43|45)!'						=> array( 'LG', 'H440' ),							// Unknown
 			'LG-H522!'									=> array( 'LG', 'H520' ),							// Unknown
 			'LG-H955!'									=> array( 'LG', 'G Flex 2' ),
@@ -7125,8 +7125,9 @@
 			'SM-G3812'									=> array( 'Samsung', 'Galaxy Win Pro' ),
 			'SM-G3815'									=> array( 'Samsung', 'Galaxy Express 2' ),
 			'SM-G381[89]!'								=> array( 'Samsung', 'Galaxy Win Pro' ),
-			'SM-G386!'									=> array( 'Samsung', 'Galaxy Core' ),							// LTE variant
 			'SM-G3858!'									=> array( 'Samsung', 'Galaxy Beam 2' ),
+			'SM-G386!'									=> array( 'Samsung', 'Galaxy Core' ),							// LTE variant
+			'SM-G388!'									=> array( 'Samsung', 'Galaxy Xcover 3' ),
 			'SM-G430!'									=> array( 'Samsung', 'SM-G430' ),								// Unknown
 			'SM-G510!'									=> array( 'Samsung', 'Galaxy Core Max' ),
 			'SM-G530!'									=> array( 'Samsung', 'Galaxy Grand Prime' ),
@@ -7144,7 +7145,7 @@
 			'SM-G909D'									=> array( 'Samsung', 'Galaxy S5' ),								// Chinese dual sim variant
 			'SM-G910!'									=> array( 'Samsung', 'Galaxy Round' ),
 			'SM-G920!'									=> array( 'Samsung', 'Galaxy S6' ),
-			'SM-G925!'									=> array( 'Samsung', 'Galaxy S6 Edge' ),
+			'SM-G925!'									=> array( 'Samsung', 'Galaxy S Edge' ),
 			'SM-J100!'									=> array( 'Samsung', 'Galaxy J1' ),
 			'SM-N750[025789][QV]?!'						=> array( 'Samsung', 'Galaxy Note 3 Neo' ),
 			'SM-N750[LS]?!'								=> array( 'Samsung', 'Galaxy Note 3 Neo' ),
@@ -7169,6 +7170,7 @@
 			'SM-T31[0125]!'								=> array( 'Samsung', 'Galaxy Tab 3 (8.0)', TYPE_TABLET ),
 			'SM-T32[015]!'								=> array( 'Samsung', 'Galaxy Tab Pro 8.4', TYPE_TABLET ),
 			'SM-T33[01257]!'							=> array( 'Samsung', 'Galaxy Tab 4 (8.0)', TYPE_TABLET ),
+			'SM-T35[5]!'								=> array( 'Samsung', 'Galaxy Tab AS', TYPE_TABLET ),
 			'SM-T36[5]!'								=> array( 'Samsung', 'Galaxy Tab Active (8.0)', TYPE_TABLET ),
 			'SM-T52[05]!'								=> array( 'Samsung', 'Galaxy Tab Pro 10.1', TYPE_TABLET ),
 			'SM-T53[01257]!'							=> array( 'Samsung', 'Galaxy Tab 4 (10.1)', TYPE_TABLET ),
