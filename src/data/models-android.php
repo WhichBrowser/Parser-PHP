@@ -6821,7 +6821,8 @@
 			'GT-I9230!'									=> array( 'Samsung', 'Galaxy Golden' ),
 			'GT-I92(60|68)!'							=> array( 'Samsung', 'Galaxy Premier' ),
 			'GT-I9295!'									=> array( 'Samsung', 'Galaxy S4 Active' ),
-			'GT-I93(00|01|03|05|08)!'					=> array( 'Samsung', 'Galaxy S III' ),
+			'GT-I93(00|03|05|08)!'						=> array( 'Samsung', 'Galaxy S III' ),
+			'GT-I93(01)!'								=> array( 'Samsung', 'Galaxy S3 Neo' ),
 			'GT-I9400'									=> array( 'Samsung', 'GT-I9400' ),								// Unknown
 			'GT-I9405!'									=> array( 'Samsung', 'GT-I9405' ),								// Unknown
 			'GT-I9406!'									=> array( 'Samsung', 'GT-I9406' ),								// Unknown
