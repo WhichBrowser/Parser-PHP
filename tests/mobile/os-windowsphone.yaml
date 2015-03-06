@@ -2756,7 +2756,7 @@
     device:
       type: mobile
       manufacturer: HTC
-      model: HTC Trophy
+      model: 7 Trophy
 - headers: |
     User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; MWP6885)
   result:
