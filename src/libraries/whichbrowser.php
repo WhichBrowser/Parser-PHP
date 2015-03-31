@@ -5847,12 +5847,8 @@
 			}
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->browser->name = 'Internet Explorer';
-				$this->browser->version = new Version(array('value' => $match[1]));
-				
-				switch($match[1]) {
-					case '12.0': $this->browser->version = new Version(array('value' => '11.0')); break;
-				}
+				$this->browser->name = 'Project Spartan';
+				$this->browser->version = null;
 			}
 
 
