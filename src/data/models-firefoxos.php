@@ -18,6 +18,7 @@
 			'LG-D300'									=> array( 'LG', 'Fireweb' ),
 			'LGL25'										=> array( 'LG', 'Fx0' ),
 			'madai'										=> array( 'LG', 'Fx0' ),
+			'OPEN'										=> array( 'ZTE', 'Open' ),
 			'ZTEOPEN'									=> array( 'ZTE', 'Open' ),
 			'OpenC'										=> array( 'ZTE', 'Open C' ),
 			'Open C'									=> array( 'ZTE', 'Open C' ),
