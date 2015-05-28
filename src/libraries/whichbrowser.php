@@ -272,7 +272,7 @@
 							$this->camouflage = false;
 						}
 
-						/* IE / Spartan EdgeHTML rendering engine also appears to be WebKit */
+						/* EdgeHTML rendering engine also appears to be WebKit */
 						if (isset($this->engine->name) && $this->engine->name == 'EdgeHTML') {
 							$this->camouflage = false;
 						}
@@ -5850,7 +5850,7 @@
 			}
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->browser->name = 'Project Spartan';
+				$this->browser->name = 'Edge';
 				$this->browser->version = null;
 			}
 
