@@ -4543,6 +4543,10 @@
 				if ($this->device->type == TYPE_MOBILE) {
 					$this->browser->name = 'Opera Mobile';
 				}
+
+				if (preg_match('/OMI\//u', $ua)) {
+					$this->device->type = TYPE_TELEVISION;
+				}
 			}
 
 			if (preg_match('/Opera[\/\-\s]/iu', $ua)) {
