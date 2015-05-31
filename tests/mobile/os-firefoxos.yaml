@@ -192,6 +192,22 @@
       manufacturer: ZTE
       model: Open C
 - headers: |
+    User-Agent: Mozilla/5.0 (Mobile; Orange KLIFD; rv:32.0) Gecko/32.0 Firefox/32.0
+  result:
+    browser:
+      name: Firefox Mobile
+      version: "32.0"
+    engine:
+      name: Gecko
+      version: "32.0"
+    os:
+      name: Firefox OS
+      version: "2.0"
+    device:
+      type: mobile
+      manufacturer: Orange
+      model: Kilf
+- headers: |
     User-Agent: Mozilla/5.0 (Mobile; ZTEOPEN; rv:18.1) Gecko/18.1 Firefox/18.1
   result:
     browser:
