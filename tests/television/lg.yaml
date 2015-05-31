@@ -712,4 +712,14 @@
       type: television
       manufacturer: LG
       series: webOS TV
+- headers: |
+    User-Agent: Mozilla/5.0 (X11; Linux; ko-KR) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+
+  result:
+    engine:
+      name: Webkit
+      version: "534.26"
+    device:
+      type: television
+      manufacturer: LG
+      series: NetCast TV
 ...

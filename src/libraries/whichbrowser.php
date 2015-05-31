@@ -2804,6 +2804,16 @@
 				}
 			}
 
+			/* NetCast */
+
+			if ($ua == "Mozilla/5.0 (X11; Linux; ko-KR) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+") {
+				$this->device->manufacturer = 'LG';
+				$this->device->series = 'NetCast TV';
+				$this->device->type = TYPE_TELEVISION;
+				$this->device->identified |= ID_MATCH_UA;
+			}
+
+
 			/* NetCast or WebOS */
 
 			if (preg_match('/NetCast/u', $ua) && preg_match('/SmartTV\/([0-9])/u', $ua, $match)) {
