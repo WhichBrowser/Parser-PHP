@@ -4273,6 +4273,21 @@
 				}
 			}
 
+			if (isset($this->os->name) && $this->os->name == 'Firefox OS') {
+				if (preg_match('/rv:([0-9.]*)/u', $ua, $match)) {
+					switch($match[1]) {
+						case '18.0': $this->os->version = new Version(array('value' => '1.0.1')); break;
+						case '18.1': $this->os->version = new Version(array('value' => '1.1')); break;
+						case '26.0': $this->os->version = new Version(array('value' => '1.2')); break;
+						case '28.0': $this->os->version = new Version(array('value' => '1.3')); break;
+						case '30.0': $this->os->version = new Version(array('value' => '1.4')); break;
+						case '32.0': $this->os->version = new Version(array('value' => '2.0')); break;
+						case '34.0': $this->os->version = new Version(array('value' => '2.1')); break;
+					}
+				}
+			}
+
+
 			/****************************************************
 			 *		SeaMonkey
 			 */

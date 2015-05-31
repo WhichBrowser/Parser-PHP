@@ -276,6 +276,7 @@
       version: "34.0"
     os:
       name: Firefox OS
+      version: "2.1"
     device:
       type: television
       manufacturer: Panasonic
