@@ -2524,10 +2524,10 @@
 						case 'Panasonic':		$this->device->manufacturer = 'Panasonic';
 
 												switch($modelName) {
-													case 'VIERA 2011':		$this->device->series = 'Smart Viera 2011'; break;
-													case 'VIERA 2012':		$this->device->series = 'Smart Viera 2012'; break;
-													case 'VIERA 2013':		$this->device->series = 'Smart Viera 2013'; break;
-													case 'VIERA 2014':		$this->device->series = 'Smart Viera 2014'; break;
+													case 'VIERA 2011':		$this->device->series = 'Viera 2011'; break;
+													case 'VIERA 2012':		$this->device->series = 'Viera 2012'; break;
+													case 'VIERA 2013':		$this->device->series = 'Viera 2013'; break;
+													case 'VIERA 2014':		$this->device->series = 'Viera 2014'; break;
 													default:				$this->device->model = $modelName; break;
 												}
 
@@ -2582,16 +2582,20 @@
 
 			if (preg_match('/Viera/u', $ua)) {
 				$this->device->manufacturer = 'Panasonic';
-				$this->device->series = 'Smart Viera';
+				$this->device->series = 'Viera';
 				$this->device->type = TYPE_TELEVISION;
 				$this->device->identified |= ID_MATCH_UA;
 
 				if (preg_match('/Panasonic\.tv\.([0-9]+)/u', $ua, $match)) {
-					$this->device->series = 'Smart Viera ' . $match[1];
+					$this->device->series = 'Viera ' . $match[1];
 				}
 
 				if (preg_match('/\(Panasonic, ([0-9]+),/u', $ua, $match)) {
-					$this->device->series = 'Smart Viera ' . $match[1];
+					$this->device->series = 'Viera ' . $match[1];
+				}
+
+				if (preg_match('/Viera\; rv\:34/u', $ua, $match)) {
+					$this->device->series = 'Viera 2015';
 				}
 			}
 
@@ -3096,7 +3100,7 @@
 			if ($this->device->type == TYPE_TELEVISION) {
 
 				/* Drop OS */
-				if (isset($this->os->name) && !in_array($this->os->name, array('Tizen', 'Android', 'Google TV'))) {
+				if (isset($this->os->name) && !in_array($this->os->name, array('Tizen', 'Android', 'Google TV', 'Firefox OS'))) {
 					unset($this->os->name);
 					unset($this->os->version);
 				}
@@ -4200,6 +4204,11 @@
 							$this->device = $device;
 						}
 					}
+				}
+
+				if (preg_match('/Viera;(?: ([^;]+);)? rv/u', $ua, $match)) {
+					$this->device->type = TYPE_TELEVISION;
+					$this->os->name = 'Firefox OS';
 				}
 
 				if ($this->device->type == TYPE_MOBILE || $this->device->type == TYPE_TABLET) {
@@ -5617,7 +5626,7 @@
 				array('name' => 'Tencent Traveler', 	'regexp' => '/TencentTraveler ([0-9.]*)/u', 'details' => 2),
 				array('name' => 'UP.Browser', 			'regexp' => '/UP\.Browser\/([a-z0-9.]*)/u', 'details' => 2),
 				array('name' => 'Uzbl', 				'regexp' => '/^Uzbl/u'),
-				array('name' => 'Viera', 				'regexp' => '/Viera\/([0-9.]*)/u'),
+				array('name' => 'Viera Browser', 		'regexp' => '/Viera\/([0-9.]*)/u'),
 				array('name' => 'Villanova', 			'regexp' => '/Villanova\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Vimb', 				'regexp' => '/vimb\/([0-9.]*)/u'),
 				array('name' => 'Vivaldi', 				'regexp' => '/Vivaldi\/([0-9.]*)/u', 'details' => 2),

@@ -3,7 +3,7 @@
     User-Agent: Freetime/1.0 (freetime); (Panasonic, 2014, idtv, medium, wired); (PRO4, 16306); Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.7.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.7.0
     engine:
       name: Webkit
@@ -11,63 +11,63 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2014
+      series: Viera 2014
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Panasonic;VIERA 2011;f.533;0071-0802 2000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2011
+      series: Viera 2011
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3103 0400-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2012
+      series: Viera 2012
 - headers: |
     User-Agent: HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 2000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2012
+      series: Viera 2012
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2013;3.720;4101-0003 0002-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2013
+      series: Viera 2013
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2013;3.720;4101-0003 0002-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2013
+      series: Viera 2013
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2013;3.720;6101-0003 4000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2013
+      series: Viera 2013
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2014;0.001;ba01-0003 4000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2014
+      series: Viera 2014
 - headers: |
     User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2014;0.001;ba01-0003 4000-0000;)
   result:
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2014
+      series: Viera 2014
 - headers: |
     User-Agent: Hybridcast/1.0 (;008045;PANATV1308;2;2;)
   result:
@@ -98,12 +98,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; ja-JP) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.2.4 Chrome/14.0.835.202 Safari/535.1
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 1.2.4
     engine:
       name: Webkit
@@ -111,12 +111,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; like Android 4.0.2; xx; ja-jp) AppleWebKit/534.30 (KHTML, like Gecko) Viera/2.0.0 DIGAPlus/1.0.0 Mobile/534.30
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 2.0.0
     engine:
       name: Webkit
@@ -124,12 +124,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.2 Chrome/14.0.835.202 Safari/535.1/CE-HTML
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 1.5.2
     engine:
       name: Webkit
@@ -137,12 +137,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.1.8 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.1.8
     engine:
       name: Webkit
@@ -150,12 +150,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.10.0 Chrome/23.0.1271.97 Safari/537.11; Freetime/1.0 (freetime); (Panasonic, 2014, idtv, low, wired); (sLD8A, 15430);
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.10.0
     engine:
       name: Webkit
@@ -163,12 +163,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2014
+      series: Viera 2014
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.10.3 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.10.3
     engine:
       name: Webkit
@@ -176,12 +176,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.11.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.11.0
     engine:
       name: Webkit
@@ -189,12 +189,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.2.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.2.0
     engine:
       name: Webkit
@@ -202,12 +202,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.3.2 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.3.2
     engine:
       name: Webkit
@@ -215,12 +215,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.5.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.5.0
     engine:
       name: Webkit
@@ -228,12 +228,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.5.1 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.5.1
     engine:
       name: Webkit
@@ -241,12 +241,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.5.2 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.5.2
     engine:
       name: Webkit
@@ -254,12 +254,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.7.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.7.0
     engine:
       name: Webkit
@@ -267,12 +267,24 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
+- headers: |
+    User-Agent: Mozilla/5.0 (FreeBSD; Viera; rv:34.0) Gecko/20100101 Firefox/34.0
+  result:
+    engine:
+      name: Gecko
+      version: "34.0"
+    os:
+      name: Firefox OS
+    device:
+      type: television
+      manufacturer: Panasonic
+      series: Viera 2015
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 1.5.1
     engine:
       name: Webkit
@@ -280,12 +292,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.1.8 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.1.8
     engine:
       name: Webkit
@@ -293,12 +305,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.10.0 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.10.0
     engine:
       name: Webkit
@@ -306,12 +318,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.10.9 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.10.9
     engine:
       name: Webkit
@@ -319,12 +331,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.3.2 Chrome/23.0.1271.97 Safari/537.11
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 3.3.2
     engine:
       name: Webkit
@@ -332,12 +344,12 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx; ja-jp) AppleWebKit/534.30 (KHTML, like Gecko) Viera/2.0.0 DIGAPlus/1.0.0 Safari/534.30
   result:
     browser:
-      name: Viera
+      name: Viera Browser
       version: 2.0.0
     engine:
       name: Webkit
@@ -345,7 +357,7 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera
+      series: Viera
 - headers: |
     User-Agent: Mozilla/5.0 (X11; Linux; U; Diga; de-DE) AppleWebKit/537.11 (KHTML, like Gecko) Diga/3.7.0 Chrome/23.0.1271.97 Safari/537.11
   result:
@@ -365,7 +377,7 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2011
+      series: Viera 2011
 - headers: |
     User-Agent: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.tv.2012)
   result:
@@ -375,5 +387,5 @@
     device:
       type: television
       manufacturer: Panasonic
-      series: Smart Viera 2012
+      series: Viera 2012
 ...
