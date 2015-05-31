@@ -83,9 +83,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.0; SC-03F) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.2 Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Mobile Safari/537.36
   result:
-    browser:
-      name: Chrome
-      version: "34"
     engine:
       name: Blink
       version: "537.36"
@@ -99,9 +96,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.0; SC-03F) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.2 Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Safari/537.36
   result:
-    browser:
-      name: Chrome
-      version: "34"
     engine:
       name: Blink
       version: "537.36"
@@ -115,9 +109,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.0; SM-Z9005) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.2 Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Mobile Safari/537.36
   result:
-    browser:
-      name: Chrome
-      version: "34"
     engine:
       name: Blink
       version: "537.36"
@@ -131,9 +122,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.0; SM-Z9005) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.2 Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Safari/537.36
   result:
-    browser:
-      name: Chrome
-      version: "34"
     engine:
       name: Blink
       version: "537.36"
@@ -147,9 +135,6 @@
 - headers: |
     User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.1; SM-Z9005) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.2 Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Mobile Safari/537.36
   result:
-    browser:
-      name: Chrome
-      version: "34"
     engine:
       name: Blink
       version: "537.36"

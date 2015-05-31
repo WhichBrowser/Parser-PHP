@@ -5852,6 +5852,11 @@
 					$this->browser->name = null;
 					$this->browser->version = null;
 				}
+
+				if ($this->os->name == 'Tizen' && $this->browser->name == 'Chrome') {
+					$this->browser->name = null;
+					$this->browser->version = null;
+				}
 			}
 
 			if (isset($this->browser->name) && isset($this->engine->name)) {
