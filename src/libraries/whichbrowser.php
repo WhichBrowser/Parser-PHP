@@ -1722,6 +1722,17 @@
 				}
 			}
 
+			if (preg_match('/Linux\; U\; Android [0-9.]+\; ko\-kr\; SAMSUNG\; (NX[0-9]+[^\)]]*)/u', $ua, $match)) {
+				$this->os->name = 'Tizen';
+				$this->os->version = null;
+
+				$this->device->type = TYPE_CAMERA;
+				$this->device->manufacturer = 'Samsung';
+				$this->device->model = $match[1];
+				$this->device->identified = ID_PATTERN;
+			}
+
+
 			/****************************************************
 			 *		Jolla Sailfish
 			 */

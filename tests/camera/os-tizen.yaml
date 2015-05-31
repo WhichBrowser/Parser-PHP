@@ -1,0 +1,14 @@
+---
+- headers: "User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; ko-kr; SAMSUNG; NX30)
+    AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile  \n"
+  result:
+    engine:
+      name: Webkit
+      version: "535.19"
+    os:
+      name: Tizen
+    device:
+      type: camera
+      manufacturer: Samsung
+      model: NX30
+...
