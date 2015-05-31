@@ -90,7 +90,7 @@ var WhichBrowser = (function(){
 			if (this.device.type == 'desktop' && os && engine != '' && !device) return 'an unknown browser based on ' + engine + ' running on ' + os;
 			if (this.browser.stock && os && !device) return os;
 			if (this.browser.stock && engine != '' && !device) return 'an unknown browser based on ' + engine;
-			
+
 			return 'an unknown browser';
 		}
 	};
@@ -111,7 +111,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON(),
+				version:	(this.version) ? this.version.toJSON() : null,
 				stock:		this.stock,
 				channel:	this.channel,
 				mode:		this.mode,
@@ -136,7 +136,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON()
+				version:	(this.version) ? this.version.toJSON() : null
 			}
 		},
 		
@@ -157,7 +157,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
-				version:	this.version.toJSON()
+				version:	(this.version) ? this.version.toJSON() : null
 			}
 		},
 		
