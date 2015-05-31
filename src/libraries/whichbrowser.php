@@ -1994,7 +1994,7 @@
 					$this->device->identified = ID_PATTERN;
 				}
 
-				if ($this->device->model) {
+				if (isset($this->device->model) && $this->device->model) {
 					$device = DeviceModels::identify('palmos', $this->device->model);
 
 					if ($device->identified) {
