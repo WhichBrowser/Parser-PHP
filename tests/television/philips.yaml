@@ -22,6 +22,38 @@
       model: MT5580
       series: Digital Receiver
 - headers: |
+    User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; AND1E Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36
+  result:
+    browser:
+      name: Chrome
+      version: "37"
+    engine:
+      name: Blink
+      version: "537.36"
+    os:
+      name: Android
+      version: 4.2.2
+    device:
+      type: television
+      manufacturer: Philips
+      model: Android TV (2014)
+- headers: "User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; AND1E TV Build/JDQ39) AppleWebKit/537.36
+    (KHTML, like Gecko) Chrome/29.0.1547.80 Safari/537.36      \n"
+  result:
+    browser:
+      name: Chrome
+      version: "29"
+    engine:
+      name: Blink
+      version: "537.36"
+    os:
+      name: Android
+      version: 4.2.2
+    device:
+      type: television
+      manufacturer: Philips
+      model: Android TV (2014)
+- headers: |
     User-Agent: Opera/9.70 (Linux armv6l ; U; CE-HTML/1.0 NETTV/2.0.2; en) Presto/2.2.1
   result:
     browser:
