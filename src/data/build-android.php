@@ -103,6 +103,31 @@
 			'KTU84P'		=> '4.4.4',
 			
 			'LPV79'			=> array('value' => '5.0', 'alias' => 'L'),
+			'LPV81C'		=> array('value' => '5.0', 'alias' => 'L'),
+			'LPX13D'		=> array('value' => '5.0', 'alias' => 'L'),
+			
+			'LRX21L'		=> '5.0',
+			'LRX21M'		=> '5.0',
+			'LRX21O'		=> '5.0',
+			'LRX21P'		=> '5.0',
+			'LRX21Q'		=> '5.0',
+			'LRX21R'		=> '5.0',
+			'LRX21T'		=> '5.0',
+			'LRX21V'		=> '5.0',
+			'LRX22C'		=> '5.0.1',
+			'LRX22G'		=> '5.0.2',
+			'LRX22L'		=> '5.0.2',
+			'LMY47D'		=> '5.1',
+			'LMY47E'		=> '5.1',
+			'LMY47I'		=> '5.1',
+			'LMY47M'		=> '5.1',
+			'LMY47O'		=> '5.1',
+			'LMY47V'		=> '5.1.1',
+			'LMY47X'		=> '5.1.1',
+			'LMY47Z'		=> '5.1.1',
+			'LMY48B'		=> '5.1.1',
+
+			'MPZ44Q'		=> array('value' => '5.2', 'alias' => 'M'),
 		);
 
 		// Source: http://source.android.com/source/build-numbers.html
