@@ -6570,6 +6570,8 @@
 			'Philips-W8500'								=> array( 'Philips', 'W8500' ),
 			'Philips W8510'								=> array( 'Philips', 'W8510' ),
 			'Philips W8555'								=> array( 'Philips', 'W8555' ),
+			'AND1E'										=> array( 'Philips', 'Android TV (2014)', TYPE_TELEVISION ),
+			'AND1E TV'									=> array( 'Philips', 'Android TV (2014)', TYPE_TELEVISION ),
 			'BIP-6000'									=> array( 'Pidion', 'BIP-6000' ),
 			'Pioneer E80w'								=> array( 'Pioneer', 'E80w' ),
 			'Pioneer E81c'								=> array( 'Pioneer', 'E81c' ),
