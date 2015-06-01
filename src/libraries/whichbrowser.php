@@ -6006,6 +6006,13 @@
 				unset($this->device->flag);
 			}
 
+			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDTV) {
+				$this->os->name = 'Android TV';
+				$this->os->family = 'Android';
+
+				unset($this->device->flag);
+			}
+
 			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDWEAR) {
 				$this->os->name = 'Android Wear';
 				$this->os->family = 'Android';

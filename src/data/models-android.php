@@ -229,7 +229,6 @@
 			'manta'										=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 			'(Google )?Nexus ?10!'						=> array( 'Samsung', 'Nexus 10', TYPE_TABLET ),
 
-			'Nexus Player'								=> array( 'Asus', 'Nexus Player', TYPE_TELEVISION, FLAG_ANDROIDTV),
 
 			'HTC One'									=> array( 'HTC', 'One (Google Edition)' ),
 			'Moto E'									=> array( 'Motorola', 'Moto E (Google Edition)' ),
@@ -254,6 +253,11 @@
 			'G Watch R'									=> array( 'LG', 'G Watch R', TYPE_WATCH, FLAG_ANDROIDWEAR ),
 			'Moto 360'									=> array( 'Motorola', 'Moto 360', TYPE_WATCH, FLAG_ANDROIDWEAR ),
 			'Gear Live'									=> array( 'Samsung', 'Gear Live', TYPE_WATCH, FLAG_ANDROIDWEAR ),
+
+
+			/* Android TV */
+			'Nexus Player'								=> array( 'Asus', 'Nexus Player', TYPE_TELEVISION, FLAG_ANDROIDTV),
+			'BRAVIA 2015'								=> array( 'Sony', 'Bravia', TYPE_TELEVISION, FLAG_ANDROIDTV),
 
 
 
