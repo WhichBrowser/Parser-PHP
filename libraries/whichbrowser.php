@@ -1994,7 +1994,7 @@
 					$this->device->identified = ID_PATTERN;
 				}
 
-				if ($this->device->model) {
+				if (isset($this->device->model) && $this->device->model) {
 					$device = DeviceModels::identify('palmos', $this->device->model);
 
 					if ($device->identified) {
@@ -2539,6 +2539,7 @@
 													case 'VIERA 2012':		$this->device->series = 'Viera 2012'; break;
 													case 'VIERA 2013':		$this->device->series = 'Viera 2013'; break;
 													case 'VIERA 2014':		$this->device->series = 'Viera 2014'; break;
+													case 'VIERA 2015':		$this->device->series = 'Viera 2015'; break;
 													default:				$this->device->model = $modelName; break;
 												}
 
@@ -4409,6 +4410,14 @@
 						$this->browser->channel = null;
 					}
 
+					/* Webview for Android 5 */
+					if (preg_match('/; wv\)/u', $ua)) {
+						$this->browser->stock = true;
+						$this->browser->name = null;
+						$this->browser->version = null;
+						$this->browser->channel = null;
+					}
+
 					/* LG Chromium based browsers */
 					if (isset($device->manufacturer) && $device->manufacturer == 'LG') {
 						if (in_array($match[1], array('30.0.1599.103', '34.0.1847.118', '38.0.2125.102')) && preg_match('/Version\/4/u', $ua)) {
@@ -6003,6 +6012,13 @@
 				$this->os->family = 'Android';
 
 				unset($this->os->version);
+				unset($this->device->flag);
+			}
+
+			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDTV) {
+				$this->os->name = 'Android TV';
+				$this->os->family = 'Android';
+
 				unset($this->device->flag);
 			}
 
