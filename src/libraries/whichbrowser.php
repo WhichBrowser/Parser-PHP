@@ -2539,6 +2539,7 @@
 													case 'VIERA 2012':		$this->device->series = 'Viera 2012'; break;
 													case 'VIERA 2013':		$this->device->series = 'Viera 2013'; break;
 													case 'VIERA 2014':		$this->device->series = 'Viera 2014'; break;
+													case 'VIERA 2015':		$this->device->series = 'Viera 2015'; break;
 													default:				$this->device->model = $modelName; break;
 												}
 
