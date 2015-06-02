@@ -2277,7 +2277,7 @@
 				$this->device->generic = false;
 
 				if (preg_match('/VTE\//u', $ua, $match)) {
-					$this->device->model = 'Playstation Vita TV';
+					$this->device->model = 'Playstation TV';
 				}
 			}
 

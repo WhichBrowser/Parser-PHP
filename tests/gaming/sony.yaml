@@ -375,7 +375,7 @@
     device:
       type: gaming
       manufacturer: Sony
-      model: Playstation Vita TV
+      model: Playstation TV
 - headers: |
     User-Agent: Mozilla/5.0 (PlayStation Vita 3.10) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
   result:
@@ -399,7 +399,7 @@
     device:
       type: gaming
       manufacturer: Sony
-      model: Playstation Vita TV
+      model: Playstation TV
 - headers: |
     User-Agent: Mozilla/5.0 (PlayStation Vita 3.12) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2
   result:
