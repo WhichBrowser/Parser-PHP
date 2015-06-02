@@ -6027,10 +6027,16 @@
 				$this->os->family = 'Android';
 				unset($this->os->version);
 
-				$this->browser->stock = true;
-				$this->browser->hidden = true;
-				unset($this->browser->channel);
+				if (preg_match('/Chrome\/19\.77\.34\.5/u', $ua)) {
+					$this->browser->name = "Wear Internet Browser";
+					$this->browser->version = null;
+				}
+				else {
+					$this->browser->stock = true;
+					$this->browser->hidden = true;
+				}
 
+				unset($this->browser->channel);
 				unset($this->device->flag);
 			}
 
