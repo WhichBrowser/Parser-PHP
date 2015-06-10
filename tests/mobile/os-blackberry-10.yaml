@@ -11,7 +11,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.1.0.2009 Mobile Safari/537.10+
   result:
@@ -24,7 +24,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.1.0.4846 Mobile Safari/537.10+
   result:
@@ -37,7 +37,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.1.0.809 Mobile Safari/537.10+
   result:
@@ -50,7 +50,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.0.1157 Mobile Safari/537.35+
   result:
@@ -63,7 +63,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.0.1809 Mobile Safari/537.35+
   result:
@@ -76,7 +76,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.1.1055 Mobile Safari/537.35+
   result:
@@ -89,7 +89,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.1.1925 Mobile Safari/537.35+
   result:
@@ -102,7 +102,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.1.3247 Mobile Safari/537.35+
   result:
@@ -115,7 +115,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.1.641 Mobile Safari/537.35+
   result:
@@ -128,7 +128,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.0.1034 Mobile Safari/537.35+
   result:
@@ -141,7 +141,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.0.1337 Mobile Safari/537.35+
   result:
@@ -154,7 +154,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.0.242 Mobile Safari/537.35+
   result:
@@ -167,7 +167,7 @@
     device:
       type: mobile
       manufacturer: BlackBerry
-      model: Q series
+      model: Q series or Passport
 - headers: |
     User-Agent: Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.0.1337 Mobile Safari/537.10+
   result:

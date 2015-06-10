@@ -1420,7 +1420,7 @@
 				$this->device->model = $match[2];
 
 				if ($this->device->model == 'Kbd') {
-					$this->device->model = 'Q series';
+					$this->device->model = 'Q series or Passport';
 				}
 
 				if ($this->device->model == 'Touch') {
