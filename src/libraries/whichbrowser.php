@@ -5529,6 +5529,7 @@
 				array('name' => 'OpenWebKitSharp',		'regexp' => '/OpenWebKitSharp/u'),
 				array('name' => 'Prism',				'regexp' => '/Prism\/([0-9.]*)/u'),
 				array('name' => 'Qt',					'regexp' => '/Qt\/([0-9.]*)/u'),
+				array('name' => 'Qt',					'regexp' => '/QtWebEngine\/([0-9.]*)/u'),
 				array('name' => 'QtEmbedded',			'regexp' => '/QtEmbedded/u'),
 				array('name' => 'QtEmbedded',			'regexp' => '/QtEmbedded.*Qt\/([0-9.]*)/u'),
 				array('name' => 'ReqwirelessWeb',		'regexp' => '/ReqwirelessWeb\/([0-9.]*)/u'),
