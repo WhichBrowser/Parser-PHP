@@ -537,7 +537,8 @@
 
 			/* Find device */
 			if (isset($this->os->name) && $this->os->name == 'Android') {
-				if (preg_match('/dv\((.*)\s+Build/u', $ua, $match)) {
+				if (preg_match('/dv\((.*)\)/uU', $ua, $match)) {
+					$match[1] = preg_replace("/\s+Build/u", '', $match[1]);
 					$device = DeviceModels::identify('android', $match[1]);
 
 					if ($device) {
