@@ -231,8 +231,10 @@
     engine:
       name: Webkit
       version: "534.26"
-    os:
-      name: Linux
+    device:
+      type: television
+      manufacturer: LG
+      series: NetCast TV 2012
 - headers: |
     User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ HbbTV/1.1.1 ( ;LGE ;GLOBAL_PLAT3 ;1.0 ;1.0 ;)
   result:
@@ -721,5 +723,5 @@
     device:
       type: television
       manufacturer: LG
-      series: NetCast TV
+      series: NetCast TV 2012
 ...
