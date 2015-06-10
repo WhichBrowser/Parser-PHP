@@ -904,6 +904,7 @@
 					if ($this->os->version->is('10.8')) $this->os->version->nickname = 'Mountain Lion';
 					if ($this->os->version->is('10.9')) $this->os->version->nickname = 'Mavericks';
 					if ($this->os->version->is('10.10')) $this->os->version->nickname = 'Yosemite';
+					if ($this->os->version->is('10.11')) $this->os->version->nickname = 'El Capitan';
 				}
 
 				$this->device->type = TYPE_DESKTOP;
