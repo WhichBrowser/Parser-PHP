@@ -5715,6 +5715,7 @@
 				array('name' => 'Bing', 				'regexp' => '/msnbot\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Bing Preview', 		'regexp' => '/BingPreview\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Bloglines', 			'regexp' => '/Bloglines\/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'CiteSeerX',			'regexp' => '/heritrix\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Facebook External Hit','regexp' => '/facebookexternalhit\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Facebook Scraper', 	'regexp' => '/facebookscraper\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Facebook Security', 	'regexp' => '/FacebookSecurity\/([0-9.]*)/u', 'type' => TYPE_BOT),
@@ -5732,10 +5733,12 @@
 				array('name' => 'Google Wireless Transcoder', 'regexp' => '/Google Wireless Transcoder/u', 'type' => TYPE_BOT),
 				array('name' => 'Grub', 				'regexp' => '/grub-client-([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'HeartRails Capture', 	'regexp' => '/HeartRails_Capture\/([0-9.]*)/u', 'type' => TYPE_BOT),
-				array('name' => 'CiteSeerX',			'regexp' => '/heritrix\/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'iAsk Spider', 			'regexp' => '/iaskspider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'PowerMapper',			'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Sogou Web Spider',		'regexp' => '/sogou spider/u', 'type' => TYPE_BOT),
 				array('name' => 'Sogou Web Spider',		'regexp' => '/Sogou web spider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp China/u', 'type' => TYPE_BOT),
 				array('name' => 'Wget', 				'regexp' => '/Wget\/([0-9.]*)/u', 'type' => TYPE_BOT)
 			);
 
