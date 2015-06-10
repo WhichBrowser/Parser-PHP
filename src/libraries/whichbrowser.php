@@ -498,7 +498,7 @@
 			}
 
 			/* Find os */
-			if (preg_match('/pf\(Linux\)/u', $ua) && preg_match('/ov\(Android ([0-9\.]+)/u', $ua, $match)) {
+			if (preg_match('/ov\(Android ([0-9\.]+)/u', $ua, $match)) {
 				$this->os->name = 'Android';
 				$this->os->version = new Version(array('value' => $match[1]));
 			}
