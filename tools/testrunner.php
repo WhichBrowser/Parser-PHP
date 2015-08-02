@@ -1,7 +1,11 @@
 <?php
 
+
+	include_once(dirname(__FILE__) . '/../vendor/autoload.php');
 	include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
 	include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
+
+	use Symfony\Component\Yaml\Yaml;
 
 
 
@@ -109,7 +113,7 @@ set_error_handler("handleError");
 			$total = 0;
 			$rebase = false;
 
-			$rules = yaml_parse_file ($file);
+			$rules = Yaml::parse(file_get_contents($file));
 
 			foreach($rules as $rule) {
 				$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));
@@ -119,9 +123,9 @@ set_error_handler("handleError");
 						fwrite($fp, "\n{$file}\n--------------\n\n");
 						fwrite($fp, $rule['headers'] . "\n");
 						fwrite($fp, "Base:\n");
-						fwrite($fp, yaml_emit($rule['result']) . "\n");
+						fwrite($fp, Yaml::dump($rule['result']) . "\n");
 						fwrite($fp, "Calculated:\n");
-						fwrite($fp, yaml_emit($detected->toArray()) . "\n");
+						fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
 
 						$failed++;
 					}
@@ -134,7 +138,7 @@ set_error_handler("handleError");
 					fwrite($fp, "New result:\n");
 
 					try {
-						fwrite($fp, yaml_emit($detected->toArray()) . "\n");
+						fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
 					} catch(Exception $e) {
 						echo $rule['headers'] . "\n";
 						var_dump($detected);
@@ -167,7 +171,7 @@ set_error_handler("handleError");
 		}
 
 		static function _searchFile($file, $query) {
-			$rules = Runner::_sortRules(yaml_parse_file ($file));
+			$rules = Runner::_sortRules(Yaml::parse(file_get_contents($file)));
 
 			foreach($rules as $rule) {
 				$headers = http_parse_headers($rule['headers']);
@@ -183,7 +187,8 @@ set_error_handler("handleError");
 
 		static function _rebaseFile($file, $sort) {
 			$result = array();
-			$rules = @yaml_parse_file ($file);
+
+			$rules = Yaml::parse(file_get_contents($file));
 
 			if (is_array($rules)) {
 				echo "Rebasing {$file}\n";
@@ -203,7 +208,9 @@ set_error_handler("handleError");
 
 				if (count($result)) {
 					if (count($result) == count($rules)) {
-						if (yaml_emit_file($file . '.tmp', $result)) {
+						if ($string = Yaml::dump($result)) {
+							file_put_contents($file . '.tmp', $result);
+
 							rename($file, $file . '.old');
 							rename($file . '.tmp', $file);
 							unlink($file . '.old');
