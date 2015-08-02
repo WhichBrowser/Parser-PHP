@@ -1,1624 +1,303 @@
----
-- headers: |
-    User-Agent: MQQBrowser/31 Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "3.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: MQQBrowser/35 Mozilla/5.0 (iPhone 3GS; U; CPU iPhone OS 4_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Mobile/8B117 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "3.5"
-    engine:
-      name: Webkit
-      version: "532.9"
-    os:
-      name: iOS
-      version: "4.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 3GS
-- headers: |
-    User-Agent: MQQBrowser/40 Mozilla/5.0 (iPhone 4; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4
-- headers: |
-    User-Agent: MQQBrowser/40 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B142 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "6.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4S
-- headers: |
-    User-Agent: MQQBrowser/43 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.3"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4S
-- headers: |
-    User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 4Verizon; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.4"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4
-- headers: |
-    User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 5; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.4"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 5ATT; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "4.4"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: "7.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5CGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "451"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "451"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5SGSM; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Safari/7534.48.3
-  result:
-    browser:
-      name: QQ Browser
-      version: "451"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 3GS; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B146 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 3GS
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 4; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.2 Mobile/9B208 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B142 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "6.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4S
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 4Verizon; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B329 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.5 Mobile/10B350 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5ATT; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.1.1 Mobile/11B651 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.1"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5CGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.1 Mobile/11B554a Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5CGSM; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.2.1 Mobile/11D201 Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.2"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0 Mobile/11B554a Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone 5SGSM; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/11B554a Safari/8536.25
-  result:
-    browser:
-      name: QQ Browser
-      version: "5.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 5
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-  result:
-    browser:
-      name: Safari
-      version: "5.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: "5.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-  result:
-    browser:
-      name: Safari
-      version: "5.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3
-  result:
-    browser:
-      name: Safari
-      version: "5.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: "5.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/9B206 Safari/7534.48.3
-  result:
-    browser:
-      name: Chrome
-      version: "25"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mercury/7.4 Mobile/9B206 Safari/7534.48.3
-  result:
-    browser:
-      name: Mercury Browser
-      version: "7.4"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3
-  result:
-    browser:
-      name: Safari
-      version: "5.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/10A403 Safari/8536.25
-  result:
-    browser:
-      name: Chrome
-      version: "30"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "6.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A405 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "6.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/33.0.1750.14 Mobile/10A525 Safari/8536.25
-  result:
-    browser:
-      name: Chrome
-      version: "33"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/10A551 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B143 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "6.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B146 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 Safari/6531.22.7 iLunascape/3212
-  result:
-    browser:
-      name: iLunascape
-      version: "3212"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 Safari/7534.48.3 Sleipnir/2.4.5m
-  result:
-    browser:
-      name: Sleipnir
-      version: 2.4.5
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 SogouMobileBrowser/2.1.1
-  result:
-    browser:
-      name: Sogou Mobile
-      version: "2.1"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B350 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_5 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.5
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "6.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko, M5WebKit/1.0.2, M5HybridSDK/1.0.0) Version/5.1.1 Mobile/6.1.6 Mammoth/5.1.1
-  result:
-    browser:
-      name: Mammoth
-      version: 5.1.1
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: 6.1.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/7.0 Mobile/10A405 Safari/8536.25
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: "536.26"
-    os:
-      name: iOS
-      version: "7.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.4.1 Mobile/11A465 Safari/9537.53
-  result:
-    browser:
-      name: Mercury Browser
-      version: 8.4.1
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: "7.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B475 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Safari/7534.48.3 Sleipnir/3.1.3m
-  result:
-    browser:
-      name: Sleipnir
-      version: 3.1.3
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/8.0.0.78865 Mobile/11A501 Safari/9537.53
-  result:
-    browser:
-      name: Opera Mini
-      version: "8.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Safari/9537.51
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 Safari/6531.22.7 iLunascape/3212
-  result:
-    browser:
-      name: iLunascape
-      version: "3212"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 SogouMobileBrowser/2.3.0
-  result:
-    browser:
-      name: Sogou Mobile
-      version: "2.3"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/5.1 YaBrowser/13.11.1500.0 Mobile/11B511 Safari/9537.53
-  result:
-    browser:
-      name: Yandex Browser
-      version: "13.11"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B507 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/11B554a Safari/7534.48.3
-  result:
-    browser:
-      name: Coast by Opera
-      version: 3.0.0
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.1.80767 Mobile/11B554a Safari/7534.48.3
-  result:
-    browser:
-      name: Coast by Opera
-      version: 3.1.1
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_5 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B601 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.5
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11D124 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: "7.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) YaBrowser/14.2.1700.0 Mobile/11D167 Safari/9537.53
-  result:
-    browser:
-      name: Yandex Browser
-      version: "14.2"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: "7.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.1 Mobile/11D169 Safari/9537.53 baidubrowser/2.0.1.0 (Baidu; P2 7.1)
-  result:
-    browser:
-      name: Baidu Browser
-      version: 2.0.1.0
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: "7.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 SogouMobileBrowser/3.0.0
-  result:
-    browser:
-      name: Sogou Mobile
-      version: "3.0"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.2.80660 Mobile/11D201 Safari/9537.53
-  result:
-    browser:
-      name: Opera Mini
-      version: "8.0"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53
-  result:
-    browser:
-      name: Safari
-      version: "7.0"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A347 Safari/600.1.4
-  result:
-    browser:
-      name: Safari
-      version: "8.0"
-    engine:
-      name: Webkit
-      version: 600.1.4
-    os:
-      name: iOS
-      version: "8.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.200
-  result:
-    browser:
-      name: Safari
-      version: 3.1.1
-    engine:
-      name: Webkit
-      version: 525.18.1
-    os:
-      name: iOS
-      version: "2.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20
-  result:
-    browser:
-      name: Safari
-      version: 3.1.1
-    engine:
-      name: Webkit
-      version: 525.18.1
-    os:
-      name: iOS
-      version: 2.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20
-  result:
-    browser:
-      name: Safari
-      version: 3.1.1
-    engine:
-      name: Webkit
-      version: 525.18.1
-    os:
-      name: iOS
-      version: "2.2"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20
-  result:
-    browser:
-      name: Safari
-      version: 3.1.1
-    engine:
-      name: Webkit
-      version: 525.18.1
-    os:
-      name: iOS
-      version: 2.2.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16
-  result:
-    browser:
-      name: Safari
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "528.18"
-    os:
-      name: iOS
-      version: "3.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0_1 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A400 Safari/528.16
-  result:
-    browser:
-      name: Safari
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "528.18"
-    os:
-      name: iOS
-      version: 3.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C97d Safari/528.16
-  result:
-    browser:
-      name: Safari
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "528.18"
-    os:
-      name: iOS
-      version: "3.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16
-  result:
-    browser:
-      name: Safari
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "528.18"
-    os:
-      name: iOS
-      version: 3.1.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_3 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E18 Safari/528.16
-  result:
-    browser:
-      name: Safari
-      version: "4.0"
-    engine:
-      name: Webkit
-      version: "528.18"
-    os:
-      name: iOS
-      version: 3.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7
-  result:
-    browser:
-      name: Safari
-      version: 4.0.5
-    engine:
-      name: Webkit
-      version: "532.9"
-    os:
-      name: iOS
-      version: "4.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A306 Safari/6531.22.7
-  result:
-    browser:
-      name: Safari
-      version: 4.0.5
-    engine:
-      name: Webkit
-      version: "532.9"
-    os:
-      name: iOS
-      version: 4.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0_2 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A400 Safari/6531.22.7
-  result:
-    browser:
-      name: Safari
-      version: 4.0.5
-    engine:
-      name: Webkit
-      version: "532.9"
-    os:
-      name: iOS
-      version: 4.0.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7
-  result:
-    browser:
-      name: Safari
-      version: 4.0.5
-    engine:
-      name: Webkit
-      version: "532.9"
-    os:
-      name: iOS
-      version: "4.1"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C134 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: "4.2"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_10 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E600 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.10
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_5 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E128 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.5
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_6 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E200 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_8 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E401 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.8
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_9 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E501 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.2.9
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: "4.3"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_1 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) FlyFlow/2.5 Version/5.0.2 Mobile/8H7 Safari/6533.18.5 baidubrowser/042_3.9.5.2_diordna_008_084/ESNESIH_51_3.0.4_69T-SH/1000256c/847AAB49ED14109F7BACD70DAED48491%7C696799010655468/1
-  result:
-    browser:
-      name: Baidu Browser
-      version: "2.5"
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.2
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_4 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8K2 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.4
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1_3 like Mac OS X; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IP Mobile
-  result:
-    browser:
-      name: Puffin
-      version: "3.10977"
-    engine:
-      name: Webkit
-      version: "534.35"
-    os:
-      name: iOS
-      version: 6.1.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_0_6 like Mac OS X; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IP Mobile
-  result:
-    browser:
-      name: Puffin
-      version: "3.11558"
-    engine:
-      name: Webkit
-      version: "534.35"
-    os:
-      name: iOS
-      version: 7.0.6
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; xx) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3
-  result:
-    browser:
-      name: Safari
-      version: "3.0"
-    engine:
-      name: Webkit
-      version: "420"
-    os:
-      name: iOS
-      version: "1.0"
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (iphone; U; CPU iPhone OS 4_3_5 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-  result:
-    browser:
-      name: Safari
-      version: 5.0.2
-    engine:
-      name: Webkit
-      version: 533.17.9
-    os:
-      name: iOS
-      version: 4.3.5
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961
-    X-Puffin-UA: iPhone OS/iPhone 3GS/320x480
-  result:
-    browser:
-      name: Puffin
-      version: "2.0"
-    engine:
-      name: Webkit
-      version: "534.35"
-    os:
-      name: iOS
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 3GS
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X; xx) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A405 UCBrowser/9.1.0.287 Mobile
-    X-UCBrowser-UA: pf(42);la(zh-CN);dv(iPh3,1);pr(UCBrowser);ov(5_0_1);pi(640x960);ss(320x416);er(U);bt(UM);up();re(AppleWebKit/534.46 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(1);
-  result:
-    browser:
-      name: UC Browser
-      version: "9.1"
-    engine:
-      name: Webkit
-      version: "534.46"
-    os:
-      name: iOS
-      version: 5.0.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone 4
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X; xx) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 UCBrowser/9.3.2.356 Mobile
-    X-UCBrowser-UA: pf(44);la(zh-CN);dv(iPd5,1);pr(UCBrowser);ov(7_0_2);pi(640x1136);ss(320x416);er(U);bt(UM);up();re(AppleWebKit/537.51.1 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(2);
-  result:
-    browser:
-      name: UC Browser
-      version: "9.3"
-    engine:
-      name: Webkit
-      version: 537.51.1
-    os:
-      name: iOS
-      version: 7.0.2
-    device:
-      type: media
-      manufacturer: Apple
-      model: iPod touch (5th gen)
-- headers: |
-    User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 MobileIron/1.3.0 Version/7.1.1 Safari/537.51.2
-    X-MobileIron-SecureBrowser-Managed-By: MobileIron
-  result:
-    browser:
-      name: Iron
-      version: "1.3"
-    engine:
-      name: Webkit
-      version: 537.51.2
-    os:
-      name: iOS
-      version: 7.1.1
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-- headers: |
-    User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.14912/34.818; U; xx) Presto/2.8.119 Version/11.10
-    X-OperaMini-Phone: Apple # iPhone
-    X-OperaMini-Features: advanced, file_system, folding
-    X-OperaMini-Phone-UA: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-    Device-Stock-UA: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-  result:
-    browser:
-      name: Opera Mini
-      version: "4.2"
-    engine:
-      name: Presto
-      version: 2.8.119
-    os:
-      name: iOS
-      version: 4.3.3
-    device:
-      type: mobile
-      manufacturer: Apple
-      model: iPhone
-...
+-
+    headers: 'User-Agent: MQQBrowser/31 Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '3.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: MQQBrowser/35 Mozilla/5.0 (iPhone 3GS; U; CPU iPhone OS 4_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Mobile/8B117 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '3.5' }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.1' }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 3GS' } }
+-
+    headers: 'User-Agent: MQQBrowser/40 Mozilla/5.0 (iPhone 4; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4' } }
+-
+    headers: 'User-Agent: MQQBrowser/40 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B142 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: 'User-Agent: MQQBrowser/43 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.3' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: 'User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 4Verizon; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.4' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4' } }
+-
+    headers: 'User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 5; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.4' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: MQQBrowser/44 Mozilla/5.0 (iPhone 5ATT; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '4.4' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5CGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '451' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '451' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5SGSM; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Safari/7534.48.3'
+    result: { browser: { name: 'QQ Browser', version: '451' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 3GS; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B146 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 3GS' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 4; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.2 Mobile/9B208 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B142 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 4Verizon; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B329 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.5 Mobile/10B350 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5ATT; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.1.1 Mobile/11B651 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.1' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.6 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5CGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.1 Mobile/11B554a Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5CGSM; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.2.1 Mobile/11D201 Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.2' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0 Mobile/11B554a Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone 5SGSM; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/11B554a Safari/8536.25'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3'
+    result: { browser: { name: Safari, version: '5.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3'
+    result: { browser: { name: Safari, version: '5.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3'
+    result: { browser: { name: Safari, version: '5.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/9B206 Safari/7534.48.3'
+    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mercury/7.4 Mobile/9B206 Safari/7534.48.3'
+    result: { browser: { name: 'Mercury Browser', version: '7.4' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3'
+    result: { browser: { name: Safari, version: '5.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/10A403 Safari/8536.25'
+    result: { browser: { name: Chrome, version: '30' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A405 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/33.0.1750.14 Mobile/10A525 Safari/8536.25'
+    result: { browser: { name: Chrome, version: '33' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/10A551 Safari/8536.25'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B143 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B146 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 Safari/6531.22.7 iLunascape/3212'
+    result: { browser: { name: iLunascape, version: '3212' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 Safari/7534.48.3 Sleipnir/2.4.5m'
+    result: { browser: { name: Sleipnir, version: 2.4.5 }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 SogouMobileBrowser/2.1.1'
+    result: { browser: { name: 'Sogou Mobile', version: '2.1' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B350 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_5 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.5 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25'
+    result: { browser: { name: Safari, version: '6.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.6 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko, M5WebKit/1.0.2, M5HybridSDK/1.0.0) Version/5.1.1 Mobile/6.1.6 Mammoth/5.1.1'
+    result: { browser: { name: Mammoth, version: 5.1.1 }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.6 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/7.0 Mobile/10A405 Safari/8536.25'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '7.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.4.1 Mobile/11A465 Safari/9537.53'
+    result: { browser: { name: 'Mercury Browser', version: 8.4.1 }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B475 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Safari/7534.48.3 Sleipnir/3.1.3m'
+    result: { browser: { name: Sleipnir, version: 3.1.3 }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/8.0.0.78865 Mobile/11A501 Safari/9537.53'
+    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Safari/9537.51'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 Safari/6531.22.7 iLunascape/3212'
+    result: { browser: { name: iLunascape, version: '3212' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 SogouMobileBrowser/2.3.0'
+    result: { browser: { name: 'Sogou Mobile', version: '2.3' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/5.1 YaBrowser/13.11.1500.0 Mobile/11B511 Safari/9537.53'
+    result: { browser: { name: 'Yandex Browser', version: '13.11' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B507 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/11B554a Safari/7534.48.3'
+    result: { browser: { name: 'Coast by Opera', version: 3.0.0 }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.1.80767 Mobile/11B554a Safari/7534.48.3'
+    result: { browser: { name: 'Coast by Opera', version: 3.1.1 }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_5 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B601 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.5 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.6 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11D124 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) YaBrowser/14.2.1700.0 Mobile/11D167 Safari/9537.53'
+    result: { browser: { name: 'Yandex Browser', version: '14.2' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.1 Mobile/11D169 Safari/9537.53 baidubrowser/2.0.1.0 (Baidu; P2 7.1)'
+    result: { browser: { name: 'Baidu Browser', version: 2.0.1.0 }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: '7.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 SogouMobileBrowser/3.0.0'
+    result: { browser: { name: 'Sogou Mobile', version: '3.0' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.2.80660 Mobile/11D201 Safari/9537.53'
+    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53'
+    result: { browser: { name: Safari, version: '7.0' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A347 Safari/600.1.4'
+    result: { browser: { name: Safari, version: '8.0' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.200'
+    result: { browser: { name: Safari, version: 3.1.1 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: '2.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20'
+    result: { browser: { name: Safari, version: 3.1.1 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: 2.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20'
+    result: { browser: { name: Safari, version: 3.1.1 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: '2.2' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20'
+    result: { browser: { name: Safari, version: 3.1.1 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: 2.2.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16'
+    result: { browser: { name: Safari, version: '4.0' }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, version: '3.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0_1 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A400 Safari/528.16'
+    result: { browser: { name: Safari, version: '4.0' }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, version: 3.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C97d Safari/528.16'
+    result: { browser: { name: Safari, version: '4.0' }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, version: '3.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16'
+    result: { browser: { name: Safari, version: '4.0' }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, version: 3.1.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_3 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E18 Safari/528.16'
+    result: { browser: { name: Safari, version: '4.0' }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, version: 3.1.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7'
+    result: { browser: { name: Safari, version: 4.0.5 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A306 Safari/6531.22.7'
+    result: { browser: { name: Safari, version: 4.0.5 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: 4.0.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0_2 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A400 Safari/6531.22.7'
+    result: { browser: { name: Safari, version: 4.0.5 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: 4.0.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7'
+    result: { browser: { name: Safari, version: 4.0.5 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.1' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C134 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: '4.2' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_10 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E600 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.10 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_5 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E128 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.5 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_6 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E200 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.6 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_8 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E401 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.8 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_9 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8E501 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.2.9 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: '4.3' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_1 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) FlyFlow/2.5 Version/5.0.2 Mobile/8H7 Safari/6533.18.5 baidubrowser/042_3.9.5.2_diordna_008_084/ESNESIH_51_3.0.4_69T-SH/1000256c/847AAB49ED14109F7BACD70DAED48491%7C696799010655468/1'
+    result: { browser: { name: 'Baidu Browser', version: '2.5' }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.2 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_4 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8K2 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.4 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1_3 like Mac OS X; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IP Mobile'
+    result: { browser: { name: Puffin, version: '3.10977' }, engine: { name: Webkit, version: '534.35' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_0_6 like Mac OS X; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IP Mobile'
+    result: { browser: { name: Puffin, version: '3.11558' }, engine: { name: Webkit, version: '534.35' }, os: { name: iOS, version: 7.0.6 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; xx) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3'
+    result: { browser: { name: Safari, version: '3.0' }, engine: { name: Webkit, version: '420' }, os: { name: iOS, version: '1.0' }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iphone; U; CPU iPhone OS 4_3_5 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5'
+    result: { browser: { name: Safari, version: 5.0.2 }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.5 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: "User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961\nX-Puffin-UA: iPhone OS/iPhone 3GS/320x480"
+    result: { browser: { name: Puffin, version: '2.0' }, engine: { name: Webkit, version: '534.35' }, os: { name: iOS }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 3GS' } }
+-
+    headers: "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X; xx) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A405 UCBrowser/9.1.0.287 Mobile\nX-UCBrowser-UA: pf(42);la(zh-CN);dv(iPh3,1);pr(UCBrowser);ov(5_0_1);pi(640x960);ss(320x416);er(U);bt(UM);up();re(AppleWebKit/534.46 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(1);"
+    result: { browser: { name: 'UC Browser', version: '9.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, manufacturer: Apple, model: 'iPhone 4' } }
+-
+    headers: "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X; xx) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 UCBrowser/9.3.2.356 Mobile\nX-UCBrowser-UA: pf(44);la(zh-CN);dv(iPd5,1);pr(UCBrowser);ov(7_0_2);pi(640x1136);ss(320x416);er(U);bt(UM);up();re(AppleWebKit/537.51.1 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(2);"
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: media, manufacturer: Apple, model: 'iPod touch (5th gen)' } }
+-
+    headers: "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 MobileIron/1.3.0 Version/7.1.1 Safari/537.51.2\nX-MobileIron-SecureBrowser-Managed-By: MobileIron"
+    result: { browser: { name: Iron, version: '1.3' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }
+-
+    headers: "User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.14912/34.818; U; xx) Presto/2.8.119 Version/11.10\nX-OperaMini-Phone: Apple # iPhone\nX-OperaMini-Features: advanced, file_system, folding\nX-OperaMini-Phone-UA: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5\nDevice-Stock-UA: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5"
+    result: { browser: { name: 'Opera Mini', version: '4.2' }, engine: { name: Presto, version: 2.8.119 }, os: { name: iOS, version: 4.3.3 }, device: { type: mobile, manufacturer: Apple, model: iPhone } }

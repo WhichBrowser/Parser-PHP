@@ -1,12 +1,3 @@
----
-- headers: |
-    User-Agent: Mozilla/5.0 (mobile; CPU ARM Linux 2.6.21;en-us) AppleWebKit/525.1 (bookeen/cybook) Orizon/1.0 (screen 600x800)
-  result:
-    engine:
-      name: Webkit
-      version: "525.1"
-    device:
-      type: ereader
-      manufacturer: Bookeen
-      series: Cybook
-...
+-
+    headers: 'User-Agent: Mozilla/5.0 (mobile; CPU ARM Linux 2.6.21;en-us) AppleWebKit/525.1 (bookeen/cybook) Orizon/1.0 (screen 600x800)'
+    result: { engine: { name: Webkit, version: '525.1' }, device: { type: ereader, manufacturer: Bookeen, series: Cybook } }

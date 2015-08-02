@@ -1,100 +1,21 @@
----
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; Nokia110/03.04; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.3.0.0.49
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 2.3.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: "110"
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; Nokia110/03.04; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.5.0.0.27
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 5.5.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: "110"
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; Nokia112/03.32; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.2.0.0.6
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 3.2.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: "112"
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; Nokia303/14.87; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 5.0.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: Asha 303
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; Nokia3110c/06.02; Profile/MIDP-2.0 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.0.2.68.14
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 2.0.2
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: 3110 Evolve
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; NokiaC2-02/07.57; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.0.0.62
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 3.1.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: C2-02
-- headers: |
-    User-Agent: Mozilla/5.0 (Series40; NokiaX2-05/08.60; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.3.0.0.48
-  result:
-    browser:
-      name: Nokia Xpress
-      version: 2.3.0
-    engine:
-      name: Gecko
-    os:
-      name: Series40
-    device:
-      type: mobile
-      manufacturer: Nokia
-      model: X2-05
-...
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia110/03.04; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.3.0.0.49'
+    result: { browser: { name: 'Nokia Xpress', version: 2.3.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '110' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia110/03.04; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.5.0.0.27'
+    result: { browser: { name: 'Nokia Xpress', version: 5.5.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '110' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia112/03.32; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.2.0.0.6'
+    result: { browser: { name: 'Nokia Xpress', version: 3.2.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '112' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia303/14.87; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31'
+    result: { browser: { name: 'Nokia Xpress', version: 5.0.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 303' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia3110c/06.02; Profile/MIDP-2.0 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.0.2.68.14'
+    result: { browser: { name: 'Nokia Xpress', version: 2.0.2 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3110 Evolve' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; NokiaC2-02/07.57; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.0.0.62'
+    result: { browser: { name: 'Nokia Xpress', version: 3.1.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C2-02 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Series40; NokiaX2-05/08.60; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.3.0.0.48'
+    result: { browser: { name: 'Nokia Xpress', version: 2.3.0 }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X2-05 } }

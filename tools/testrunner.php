@@ -201,7 +201,7 @@ set_error_handler("handleError");
 					$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));
 
 					$result[] = array(
-						'headers' 	=> $rule['headers'],
+						'headers' 	=> trim($rule['headers']),
 						'result'	=> $detected->toArray()
 					);
 				}
@@ -209,7 +209,7 @@ set_error_handler("handleError");
 				if (count($result)) {
 					if (count($result) == count($rules)) {
 						if ($string = Yaml::dump($result)) {
-							file_put_contents($file . '.tmp', $result);
+							file_put_contents($file . '.tmp', $string);
 
 							rename($file, $file . '.old');
 							rename($file . '.tmp', $file);

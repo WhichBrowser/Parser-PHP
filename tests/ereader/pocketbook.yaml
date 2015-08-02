@@ -1,72 +1,21 @@
----
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/515 (screen 600x800; FW W515.4.4.540) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Mini
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/623 (screen 758x1024; FW T623.4.4.616) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Touch Lux
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/624 (screen 600x800; FW W624.4.4.468) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Basic Touch
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/626 (screen 758x1024; FW W626.4.4.496) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Touch Lux 2
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/640 (screen 600x800; FW W640.4.4.530) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Auqa
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/650 (screen 758x1024; FW E650.5.0.329) Mobile
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Ultra
-- headers: |
-    User-Agent: Mozilla/5.0 (Linux; en_US) AppleWebKit/534.34 PocketBook/801 (screen 600x800; FW W801.4.1.886)
-  result:
-    engine:
-      name: Webkit
-      version: "534.34"
-    device:
-      type: ereader
-      manufacturer: PocketBook
-      model: Color Lux
-...
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/515 (screen 600x800; FW W515.4.4.540) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: Mini } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/623 (screen 758x1024; FW T623.4.4.616) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Touch Lux' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/624 (screen 600x800; FW W624.4.4.468) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Basic Touch' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/626 (screen 758x1024; FW W626.4.4.496) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Touch Lux 2' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/640 (screen 600x800; FW W640.4.4.530) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: Auqa } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/650 (screen 758x1024; FW E650.5.0.329) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: Ultra } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; en_US) AppleWebKit/534.34 PocketBook/801 (screen 600x800; FW W801.4.1.886)'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Color Lux' } }
