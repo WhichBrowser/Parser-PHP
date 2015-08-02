@@ -12,6 +12,7 @@
 			'GT-C6712'									=> array( 'Samsung', 'Star II Duos' ),
 			'GT-E2652!'									=> array( 'Samsung', 'Champ Duos' ),
 			'GT-I6230!'									=> array( 'Samsung', 'Star TV' ),
+			'GT-I6712!'									=> array( 'Samsung', 'Duos TV' ),
 			'GT-M3710'									=> array( 'Samsung', 'Corby Beat' ),
 			'GT-M5650'									=> array( 'Samsung', 'Lindy' ),
 			'GT-S3370!'									=> array( 'Samsung', 'Corby 3G' ),
@@ -34,6 +35,7 @@
 			'GT-S7550'									=> array( 'Samsung', 'Blue Earth' ),
 			'S80(00|03)!'								=> array( 'Samsung', 'Jet' ),
 			'GT-S8003'									=> array( 'Samsung', 'Jet' ),
+			'SGH-A597'									=> array( 'Samsung', 'Eternity II' ),
 			'SGH-F480'									=> array( 'Samsung', 'Tocco' ),
 			'SGH-F480I'									=> array( 'Samsung', 'Tocco' ),
 			'SGH-T528g'									=> array( 'Samsung', 'Straight Talk' )		
