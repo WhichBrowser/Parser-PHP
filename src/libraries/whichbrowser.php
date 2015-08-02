@@ -834,7 +834,6 @@
 					$this->device->type = TYPE_DESKTOP;
 				}
 
-
 				if (preg_match('/Linux\/X2\/R1/u', $ua)) {
 					$this->os->name = 'LiMo';
 					$this->device->type = TYPE_MOBILE;
@@ -848,6 +847,11 @@
 				if (preg_match('/\(Ubuntu; Tablet/u', $ua)) $this->device->type = TYPE_TABLET;
 			}
 
+			else if (preg_match('/\(Ubuntu ([0-9.]+) like Android/u', $ua, $match)) {
+				$this->os->name = 'Ubuntu Touch';
+				$this->os->version = new Version(array('value' => $match[1]));
+				$this->device->type = TYPE_MOBILE;
+			}
 
 
 
@@ -5896,6 +5900,11 @@
 				}
 
 				if ($this->os->name == 'Tizen' && $this->browser->name == 'Chrome') {
+					$this->browser->name = null;
+					$this->browser->version = null;
+				}
+
+				if ($this->os->name == 'Ubuntu Touch' && $this->browser->name == 'Chromium') {
 					$this->browser->name = null;
 					$this->browser->version = null;
 				}
