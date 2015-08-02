@@ -38,6 +38,7 @@
 			'iPod3,1'									=> array( 'Apple', 'iPod touch (3rd gen)', TYPE_MEDIA ),
 			'iPod4,1'									=> array( 'Apple', 'iPod touch (4th gen)', TYPE_MEDIA ),
 			'iPod5,1'									=> array( 'Apple', 'iPod touch (5th gen)', TYPE_MEDIA ),
+			'iPod7,1'									=> array( 'Apple', 'iPod touch (6th gen)', TYPE_MEDIA ),
 			'iPad1,1'									=> array( 'Apple', 'iPad', TYPE_TABLET ),
 			'iPad1,2'									=> array( 'Apple', 'iPad 2', TYPE_TABLET ),
 			'iPad2,1'									=> array( 'Apple', 'iPad 2', TYPE_TABLET ),
