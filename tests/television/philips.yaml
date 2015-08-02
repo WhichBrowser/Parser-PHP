@@ -37,8 +37,8 @@
       type: television
       manufacturer: Philips
       model: Android TV (2014)
-- headers: "User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; AND1E TV Build/JDQ39) AppleWebKit/537.36
-    (KHTML, like Gecko) Chrome/29.0.1547.80 Safari/537.36      \n"
+- headers: |
+    User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; AND1E TV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.80 Safari/537.36
   result:
     browser:
       name: Chrome

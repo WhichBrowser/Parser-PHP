@@ -223,8 +223,8 @@
       type: television
       manufacturer: TiVo
       series: DVR
-- headers: "User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.6.X
-    (TOSHIBA, Si2156LG32, wired) \n"
+- headers: |
+    User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.6.X (TOSHIBA, Si2156LG32, wired)
   result:
     browser:
       name: Opera Devices
