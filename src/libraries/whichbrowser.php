@@ -6097,7 +6097,7 @@
 			}
 
 
-			if (isset($this->os->name) && $this->os->name == 'Android') {
+			if ((isset($this->os->name) && $this->os->name == 'Android') || isset($this->os->name) && $this->os->name == 'Android TV') {
 				if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
 					$version = BuildIds::identify('android', $match[1]);
 

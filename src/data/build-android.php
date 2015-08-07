@@ -117,6 +117,9 @@
 			'LRX22C'		=> '5.0.1',
 			'LRX22G'		=> '5.0.2',
 			'LRX22L'		=> '5.0.2',
+			'LGZ23.S15'		=> '5.0.2',			// Sony Bravia Android TV
+			'LGZ23.S37'		=> '5.0.2',			// Sony Bravia Android TV
+			'LGZ23.S49'		=> '5.0.2',			// Sony Bravia Android TV
 			'LMY47D'		=> '5.1',
 			'LMY47E'		=> '5.1',
 			'LMY47I'		=> '5.1',
