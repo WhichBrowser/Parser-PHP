@@ -1248,6 +1248,16 @@
 				}
 			}
 
+			if (preg_match('/\(Linux; ([^;]+) Build/u', $ua, $match)) {
+				$device = DeviceModels::identify('android', $match[1]);
+				if ($device->identified) {
+					$device->identified |= ID_PATTERN;
+					$device->identified |= $this->device->identified;
+
+					$this->os->name = 'Android';
+					$this->device = $device;
+				}
+			}
 
 
 			/****************************************************

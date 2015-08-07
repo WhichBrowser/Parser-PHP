@@ -262,7 +262,8 @@
 
 			/* Android TV */
 			'Nexus Player'								=> array( 'Asus', 'Nexus Player', TYPE_TELEVISION, FLAG_ANDROIDTV),
-			'BRAVIA 2015'								=> array( 'Sony', 'Bravia', TYPE_TELEVISION, FLAG_ANDROIDTV),
+			'BRAVIA 2015'								=> array( 'Sony', 'Bravia Android TV (2015)', TYPE_TELEVISION, FLAG_ANDROIDTV),
+			'QM152E'									=> array( 'Philips', 'Android TV (2015)', TYPE_TELEVISION, FLAG_ANDROIDTV),
 
 
 
