@@ -7278,7 +7278,7 @@
 			'GT-I9063!'									=> array( 'Samsung', 'Galaxy Grand Neo Duos' ),
 			'GT-I9070!'									=> array( 'Samsung', 'Galaxy S Advance' ),
 			'GT-I9080!'									=> array( 'Samsung', 'Galaxy Grand' ),
-			'GT-I9082!'									=> array( 'Samsung', 'Galaxy Grand Neo+' ),
+			'GT-I9082!'									=> array( 'Samsung', 'Galaxy Grand Duos' ),
 			'GT-I91(00|08)!'							=> array( 'Samsung', 'Galaxy S II' ),
 			'GT-I9103!'									=> array( 'Samsung', 'Galaxy R' ),
 			'GT-I9105!'									=> array( 'Samsung', 'Galaxy S II Plus' ),
