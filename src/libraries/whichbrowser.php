@@ -1757,9 +1757,13 @@
 			 *		Jolla Sailfish
 			 */
 
-			if (preg_match('/Jolla; Sailfish;/u', $ua)) {
+			if (preg_match('/Sailfish;/u', $ua)) {
 				$this->os->name = 'Sailfish';
-				$this->device->manufacturer = 'Jolla';
+				$this->os->version = null;
+
+				if (preg_match('/Jolla;/u', $ua)) {
+					$this->device->manufacturer = 'Jolla';
+				}
 
 				if (preg_match('/Mobile/u', $ua)) { 
 					$this->device->model = 'Phone';
