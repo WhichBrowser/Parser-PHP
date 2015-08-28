@@ -46,6 +46,7 @@
 	define ('TYPE_CAR', 'car');
 	define ('TYPE_POS', 'pos');
 	define ('TYPE_BOT', 'bot');
+	define ('TYPE_SBC', 'sbc');
 
 	define ('FLAG_GOOGLETV', 1);
 	define ('FLAG_GOOGLEGLASS', 2);
@@ -2391,6 +2392,26 @@
 				$this->device->generic = false;
 			}
 
+			/****************************************************
+			 *		Raspberry Pi
+			 */
+
+			if (preg_match('/ARM.*rpi[0-9]+/u', $ua)) {
+				$this->os->name = 'Linux';
+				unset($this->os->version);
+
+				$this->device->type = TYPE_SBC;
+				$this->device->manufacturer = 'Raspberry Pi';
+				$this->device->identified |= ID_MATCH_UA;
+				$this->device->generic = false;
+
+				if (preg_match('/Debian/u', $ua)) {
+					$this->os->name = 'Debian';
+					if (preg_match('/Debian\/([0-9.]+)/u', $ua, $match)) {
+						$this->os->version = new Version(array('value' => $match[1]));
+					}
+				}
+			}
 
 
 
@@ -5602,7 +5623,7 @@
 				array('name' => 'Dooble', 				'regexp' => '/Dooble(?:\/([0-9.]*))?/u'),
 				array('name' => 'Dorothy', 				'regexp' => '/Dorothy$/u'),
 				array('name' => 'DWB', 					'regexp' => '/dwb(?:-hg)?(?:\/([0-9.]*))?/u'),
-				array('name' => 'GNOME Web', 			'regexp' => '/Epiphany\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
+				array('name' => 'GNOME Web', 			'regexp' => '/Epiphany\/([0-9.]*)/u'),
 				array('name' => 'ELinks', 				'regexp' => '/ELinks\/([0-9.]*[0-9])/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'EVM Browser', 			'regexp' => '/EVMBrowser\/([0-9.]*)/u'),
 				array('name' => 'FireWeb', 				'regexp' => '/FireWeb\/([0-9.]*)/u'),
