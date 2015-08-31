@@ -2395,7 +2395,7 @@
 			 *		Raspberry Pi
 			 */
 
-			if (preg_match('/rpi/u', $ua)) {
+			if (preg_match('/ARM.*rpi[0-9]+/u', $ua)) {
 				$this->os->name = 'Linux';
 				unset($this->os->version);
 
