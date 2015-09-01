@@ -24,7 +24,7 @@ var WhichBrowser = (function(){
 	WhichBrowser.prototype = {
 		initialize: function(options) {
 			this.options = {
-			}
+			};
 			
 <?php $detected->toJavaScript(); ?>
 		},
@@ -72,7 +72,7 @@ var WhichBrowser = (function(){
 		},
 		
 		toString: function() {
-			var prefix = this.camouflage ? 'an unknown browser that imitates ' : '';
+			var prefix = typeof this.camouflage != 'undefined' && this.camouflage ? 'an unknown browser that imitates ' : '';
 			var browser = this.browser.toString();
 			var os = this.os.toString();
 			var engine = this.engine.toString();
@@ -116,14 +116,14 @@ var WhichBrowser = (function(){
 				channel:	this.channel,
 				mode:		this.mode,
 				hidden:		this.hidden
-			}
+			};
 		},
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
 			return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
 		}
-	}
+	};
 
 	var Engine = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Engine.prototype = {
@@ -137,14 +137,14 @@ var WhichBrowser = (function(){
 			return {
 				name:		this.name,
 				version:	(this.version) ? this.version.toJSON() : null
-			}
+			};
 		},
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
 			return name;
 		}
-	}
+	};
 
 	var Os = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Os.prototype = {
@@ -158,14 +158,14 @@ var WhichBrowser = (function(){
 			return {
 				name:		this.name,
 				version:	(this.version) ? this.version.toJSON() : null
-			}
+			};
 		},
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
 			return (name ? name + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
 		}
-	}
+	};
 
 	var Device = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Device.prototype = {
@@ -193,7 +193,7 @@ var WhichBrowser = (function(){
 			else
 				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
-	}
+	};
 
  	var Version = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Version.prototype = {
