@@ -46,6 +46,7 @@
 	define ('TYPE_CAR', 'car');
 	define ('TYPE_POS', 'pos');
 	define ('TYPE_BOT', 'bot');
+	define ('TYPE_SBC', 'sbc');
 
 	define ('FLAG_GOOGLETV', 1);
 	define ('FLAG_GOOGLEGLASS', 2);
@@ -2399,7 +2400,7 @@
 				$this->os->name = 'Linux';
 				unset($this->os->version);
 
-				$this->device->type = TYPE_WHITEBOARD;
+				$this->device->type = TYPE_SBC;
 				$this->device->manufacturer = 'Raspberry Pi';
 				$this->device->identified |= ID_MATCH_UA;
 				$this->device->generic = false;
