@@ -5539,6 +5539,7 @@
 				array('name' => 'Bsalsa Embedded',		'regexp' => '/Embedded Web Browser/u'),
 				array('name' => 'Canvace',				'regexp' => '/Canvace Standalone\/([0-9.]*)/u'),
 				array('name' => 'Ekioh',				'regexp' => '/Ekioh\/([0-9.]*)/u'),
+				array('name' => 'Java',					'regexp' => '/Java\/([0-9.]*)/u'),
 				array('name' => 'JavaFX',				'regexp' => '/JavaFX\/([0-9.]*)/u'),
 				array('name' => 'GFXe',					'regexp' => '/GFXe\/([0-9.]*)/u'),
 				array('name' => 'LuaKit',				'regexp' => '/luakit/u'),
@@ -5754,8 +5755,10 @@
 				array('name' => 'HeartRails Capture', 	'regexp' => '/HeartRails_Capture\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'iAsk Spider', 			'regexp' => '/iaskspider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'PowerMapper',			'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Scrapy',				'regexp' => '/Scrapy\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Sogou Web Spider',		'regexp' => '/sogou spider/u', 'type' => TYPE_BOT),
 				array('name' => 'Sogou Web Spider',		'regexp' => '/Sogou web spider\/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Soso Web Spider',		'regexp' => '/Sosospider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp China/u', 'type' => TYPE_BOT),
 				array('name' => 'Wget', 				'regexp' => '/Wget\/([0-9.]*)/u', 'type' => TYPE_BOT)
