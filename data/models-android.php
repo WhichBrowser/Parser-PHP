@@ -262,7 +262,8 @@
 
 			/* Android TV */
 			'Nexus Player'								=> array( 'Asus', 'Nexus Player', TYPE_TELEVISION, FLAG_ANDROIDTV),
-			'BRAVIA 2015'								=> array( 'Sony', 'Bravia', TYPE_TELEVISION, FLAG_ANDROIDTV),
+			'BRAVIA 2015'								=> array( 'Sony', 'Bravia Android TV (2015)', TYPE_TELEVISION, FLAG_ANDROIDTV),
+			'QM152E'									=> array( 'Philips', 'Android TV (2015)', TYPE_TELEVISION, FLAG_ANDROIDTV),
 
 
 
@@ -3703,6 +3704,7 @@
 			'MT2L03'									=> array( 'Huawei', 'Ascend Mate 2' ),
 			'HUAWEI MT7-(L09|CL00|TL00|TL10|UL00)!'		=> array( 'Huawei', 'Ascend Mate 7' ),
 			'Z100-(L09|TL00)!'							=> array( 'Huawei', 'Ascend Mate 7' ),
+			'M200-(UL00)!'								=> array( 'Huawei', 'Mate 8' ),
 			'Huawei S8520'								=> array( 'Huawei', 'S8520' ),
 			'Huawei S8600'								=> array( 'Huawei', 'S8600' ),
 			'Huawei T8100'								=> array( 'Huawei', 'T8100' ),
@@ -5193,7 +5195,7 @@
 			'LG-F510!'									=> array( 'LG', 'G Flex 2' ),
 			'LG-F520!'									=> array( 'LG', 'AKA' ),
 			'LG-F540!'									=> array( 'LG', 'Volt' ),
-			'LG-F580!'									=> array( 'LG', 'F580' ),							// Unknown
+			'LG-F580!'									=> array( 'LG', 'Gentle' ),
 			'LG-GT540!'									=> array( 'LG', 'Optimus' ),
 			'LG-GW620'		 							=> array( 'LG', 'GW620 Eve' ),
 			'LG-H2(20|22)!'								=> array( 'LG', 'Joy' ),
@@ -7276,7 +7278,7 @@
 			'GT-I9063!'									=> array( 'Samsung', 'Galaxy Grand Neo Duos' ),
 			'GT-I9070!'									=> array( 'Samsung', 'Galaxy S Advance' ),
 			'GT-I9080!'									=> array( 'Samsung', 'Galaxy Grand' ),
-			'GT-I9082!'									=> array( 'Samsung', 'Galaxy Grand Neo+' ),
+			'GT-I9082!'									=> array( 'Samsung', 'Galaxy Grand Duos' ),
 			'GT-I91(00|08)!'							=> array( 'Samsung', 'Galaxy S II' ),
 			'GT-I9103!'									=> array( 'Samsung', 'Galaxy R' ),
 			'GT-I9105!'									=> array( 'Samsung', 'Galaxy S II Plus' ),
@@ -8049,6 +8051,8 @@
 			'E23(12|33|63)!'							=> array( 'Sony', 'Xperia M4 Aqua dual' ),				// ...
 			'E53(03|06|53)!'							=> array( 'Sony', 'Xperia C4' ),						// ...
 			'E53(33|43|63)!'							=> array( 'Sony', 'Xperia C4 dual' ),					// ...
+			'E55(06|53)!'								=> array( 'Sony', 'Xperia C5 Ultra' ),					// ...
+			'E55(33|63)!'								=> array( 'Sony', 'Xperia C5 Ultra dual' ),				// ...
 			'E58(03)!'									=> array( 'Sony', 'E580x' ),							// ...
 			'E63(33)!'									=> array( 'Sony', 'Xperia Z3+ dual' ),					// ...
 			'E65(08)!'									=> array( 'Sony', 'Xperia Z4v' ),						// ...

@@ -1248,6 +1248,16 @@
 				}
 			}
 
+			if (preg_match('/\(Linux; ([^;]+) Build/u', $ua, $match)) {
+				$device = DeviceModels::identify('android', $match[1]);
+				if ($device->identified) {
+					$device->identified |= ID_PATTERN;
+					$device->identified |= $this->device->identified;
+
+					$this->os->name = 'Android';
+					$this->device = $device;
+				}
+			}
 
 
 			/****************************************************
@@ -1747,9 +1757,13 @@
 			 *		Jolla Sailfish
 			 */
 
-			if (preg_match('/Jolla; Sailfish;/u', $ua)) {
+			if (preg_match('/Sailfish;/u', $ua)) {
 				$this->os->name = 'Sailfish';
-				$this->device->manufacturer = 'Jolla';
+				$this->os->version = null;
+
+				if (preg_match('/Jolla;/u', $ua)) {
+					$this->device->manufacturer = 'Jolla';
+				}
 
 				if (preg_match('/Mobile/u', $ua)) { 
 					$this->device->model = 'Phone';
@@ -4407,6 +4421,9 @@
 						case '40.0.2214':
 						case '41.0.2272':
 						case '42.0.2311':
+						case '43.0.2357':
+						case '44.0.2403':
+						case '45.0.2454':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -4552,6 +4569,8 @@
 						case '41.0.2272':
 						case '42.0.2311':
 						case '43.0.2357':
+						case '44.0.2403':
+						case '45.0.2454':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -5741,8 +5760,10 @@
 				array('name' => 'HeartRails Capture', 	'regexp' => '/HeartRails_Capture\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'iAsk Spider', 			'regexp' => '/iaskspider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'PowerMapper',			'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Scrapy',				'regexp' => '/Scrapy\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Sogou Web Spider',		'regexp' => '/sogou spider/u', 'type' => TYPE_BOT),
 				array('name' => 'Sogou Web Spider',		'regexp' => '/Sogou web spider\/([0-9.]*)/u', 'type' => TYPE_BOT),
+				array('name' => 'Soso Web Spider',		'regexp' => '/Sosospider\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u', 'type' => TYPE_BOT),
 				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp China/u', 'type' => TYPE_BOT),
 				array('name' => 'Wget', 				'regexp' => '/Wget\/([0-9.]*)/u', 'type' => TYPE_BOT)
@@ -5871,7 +5892,7 @@
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
 				$this->engine->name = 'EdgeHTML';
-				$this->engine->version = null;
+				$this->engine->version = new Version(array('value' => $match[1], 'details' => 1));
 			}
 
 
@@ -6084,7 +6105,7 @@
 			}
 
 
-			if (isset($this->os->name) && $this->os->name == 'Android') {
+			if ((isset($this->os->name) && $this->os->name == 'Android') || isset($this->os->name) && $this->os->name == 'Android TV') {
 				if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
 					$version = BuildIds::identify('android', $match[1]);
 
