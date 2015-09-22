@@ -5545,7 +5545,6 @@
 				array('name' => 'Bsalsa Embedded',		'regexp' => '/Embedded Web Browser/u'),
 				array('name' => 'Canvace',				'regexp' => '/Canvace Standalone\/([0-9.]*)/u'),
 				array('name' => 'Ekioh',				'regexp' => '/Ekioh\/([0-9.]*)/u'),
-				array('name' => 'Java',					'regexp' => '/Java\/([0-9.]*)/u'),
 				array('name' => 'JavaFX',				'regexp' => '/JavaFX\/([0-9.]*)/u'),
 				array('name' => 'GFXe',					'regexp' => '/GFXe\/([0-9.]*)/u'),
 				array('name' => 'LuaKit',				'regexp' => '/luakit/u'),
