@@ -4423,6 +4423,7 @@
 						case '42.0.2311':
 						case '43.0.2357':
 						case '44.0.2403':
+						case '45.0.2454':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -4569,6 +4570,7 @@
 						case '42.0.2311':
 						case '43.0.2357':
 						case '44.0.2403':
+						case '45.0.2454':
 							$this->browser->version->details = 1;
 							break;
 						default:
