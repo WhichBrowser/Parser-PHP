@@ -150,6 +150,7 @@ var WhichBrowser = (function(){
 	Os.prototype = {
 		initialize: function(v) {
 			this.name = v.name || null;
+			this.family = v.family || null;
 			this.alias = v.alias || null;
 			this.version = v.version || null;
 		},
@@ -157,6 +158,8 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
+				family:		this.family,
+				alias:		this.alias,
 				version:	(this.version) ? this.version.toJSON() : null
 			}
 		},
