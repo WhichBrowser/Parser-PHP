@@ -5888,7 +5888,7 @@
 
 			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
 				$this->engine->name = 'EdgeHTML';
-				$this->engine->version = null;
+				$this->engine->version = new Version(array('value' => $match[1], 'details' => 1));
 			}
 
 
