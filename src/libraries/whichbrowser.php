@@ -4602,6 +4602,17 @@
 				}
 			}
 
+			/****************************************************
+			 *		Edge
+			 */
+
+
+			if (preg_match('/Edge\/([0-9]+)/u', $ua, $match)) {
+				$this->browser->name = 'Edge';
+				$this->browser->alias = 'Edge ' . $match[1];
+				$this->browser->channel = '';
+				$this->browser->version = null;
+			}
 
 			/****************************************************
 			 *		Opera
@@ -5952,11 +5963,6 @@
 				if ($this->os->version->toFloat() == 8.1 && $this->browser->version->toNumber() < 11) {
 					$this->browser->version = new Version(array('value' => '11'));
 				}
-			}
-
-			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->browser->name = 'Edge';
-				$this->browser->version = null;
 			}
 
 
