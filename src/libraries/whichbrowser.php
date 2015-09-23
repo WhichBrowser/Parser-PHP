@@ -6224,6 +6224,7 @@
 			if (isset($this->os)) {
 				$result['os'] = array();
 				if (isset($this->os->name) && $this->os->name) $result['os']['name'] = $this->os->name;
+				if (isset($this->os->alias) && $this->os->alias) $result['os']['alias'] = $this->os->alias;
 				if (isset($this->os->family) && $this->os->family) $result['os']['family'] = $this->os->family;
 				if (isset($this->os->version) && $this->os->version) $result['os']['version'] = $this->os->version->toArray();
 			}
