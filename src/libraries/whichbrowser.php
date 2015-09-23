@@ -6212,6 +6212,7 @@
 			if (isset($this->browser)) {
 				$result['browser'] = array();
 				if (isset($this->browser->name) && $this->browser->name) $result['browser']['name'] = $this->browser->name;
+				if (isset($this->browser->alias) && $this->browser->alias) $result['browser']['alias'] = $this->browser->alias;
 				if (isset($this->browser->version) && $this->browser->version) $result['browser']['version'] = $this->browser->version->toArray();
 			}
 

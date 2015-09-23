@@ -111,6 +111,7 @@ var WhichBrowser = (function(){
 		toJSON: function() {
 			return {
 				name:		this.name,
+				alias:		this.alias,
 				version:	(this.version) ? this.version.toJSON() : null,
 				stock:		this.stock,
 				channel:	this.channel,
