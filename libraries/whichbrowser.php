@@ -4602,6 +4602,17 @@
 				}
 			}
 
+			/****************************************************
+			 *		Edge
+			 */
+
+
+			if (preg_match('/Edge\/([0-9]+)/u', $ua, $match)) {
+				$this->browser->name = 'Edge';
+				$this->browser->alias = 'Edge ' . $match[1];
+				$this->browser->channel = '';
+				$this->browser->version = null;
+			}
 
 			/****************************************************
 			 *		Opera
@@ -5954,11 +5965,6 @@
 				}
 			}
 
-			if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
-				$this->browser->name = 'Edge';
-				$this->browser->version = null;
-			}
-
 
 			if (isset($this->browser->name) && $this->browser->name == 'Opera' && $this->device->type == TYPE_TELEVISION) {
 				$this->browser->name = 'Opera Devices';
@@ -6212,6 +6218,7 @@
 			if (isset($this->browser)) {
 				$result['browser'] = array();
 				if (isset($this->browser->name) && $this->browser->name) $result['browser']['name'] = $this->browser->name;
+				if (isset($this->browser->alias) && $this->browser->alias) $result['browser']['alias'] = $this->browser->alias;
 				if (isset($this->browser->version) && $this->browser->version) $result['browser']['version'] = $this->browser->version->toArray();
 			}
 
@@ -6224,6 +6231,7 @@
 			if (isset($this->os)) {
 				$result['os'] = array();
 				if (isset($this->os->name) && $this->os->name) $result['os']['name'] = $this->os->name;
+				if (isset($this->os->alias) && $this->os->alias) $result['os']['alias'] = $this->os->alias;
 				if (isset($this->os->family) && $this->os->family) $result['os']['family'] = $this->os->family;
 				if (isset($this->os->version) && $this->os->version) $result['os']['version'] = $this->os->version->toArray();
 			}
