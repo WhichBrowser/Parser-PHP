@@ -30,6 +30,7 @@
 			'GT-S5292'									=> array( 'Samsung', 'Star Deluxe Duos' ),
 			'GT-S5560!'									=> array( 'Samsung', 'Marvel' ),
 			'GT-S5600'									=> array( 'Samsung', 'Preston' ),
+			'GT-S5603'									=> array( 'Samsung', 'Star 3G' ),
 			'GT-S5620!'									=> array( 'Samsung', 'Monte' ),
 			'GT-S5680'									=> array( 'Samsung', 'GT-S5680' ),
 			'GT-S7550'									=> array( 'Samsung', 'Blue Earth' ),
@@ -38,5 +39,5 @@
 			'SGH-A597'									=> array( 'Samsung', 'Eternity II' ),
 			'SGH-F480'									=> array( 'Samsung', 'Tocco' ),
 			'SGH-F480I'									=> array( 'Samsung', 'Tocco' ),
-			'SGH-T528g'									=> array( 'Samsung', 'Straight Talk' )		
+			'SGH-T528g'									=> array( 'Samsung', 'Straight Talk' )
 		);
