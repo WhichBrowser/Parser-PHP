@@ -2356,9 +2356,6 @@
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 				$this->device->generic = false;
-
-				if (isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer')
-					$this->browser->name = 'Internet Explorer';
 			}
 
 			if (preg_match('/Xbox One\)$/u', $ua, $match)) {
@@ -2370,9 +2367,6 @@
 				$this->device->type = TYPE_GAMING;
 				$this->device->identified |= ID_MATCH_UA;
 				$this->device->generic = false;
-
-				if (isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer')
-					$this->browser->name = 'Internet Explorer';
 			}
 
 			/****************************************************
@@ -4166,6 +4160,10 @@
 
 				if (preg_match('/IEMobile/u', $ua) || preg_match('/Windows CE/u', $ua) || preg_match('/Windows Phone/u', $ua) || preg_match('/WP7/u', $ua) || preg_match('/WPDesktop/u', $ua)) {
 					$this->browser->name = 'Mobile Internet Explorer';
+
+					if (isset($this->device->model) && ($this->device->model == 'Xbox 360' || $this->device->model == 'Xbox One')) {
+						$this->browser->name = 'Internet Explorer';
+					}
 				}
 
 				if (preg_match('/MSIE ([0-9.]*)/u', $ua, $match)) {
