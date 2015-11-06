@@ -2238,6 +2238,16 @@
 				$this->device->generic = false;
 			}
 
+			if (preg_match('/Nintendo DS/u', $ua)) {
+				$this->os->name = '';
+
+				$this->device->manufacturer = 'Nintendo';
+				$this->device->model = 'DS';
+				$this->device->type = TYPE_GAMING;
+				$this->device->identified |= ID_MATCH_UA;
+				$this->device->generic = false;
+			}
+
 			if (preg_match('/Nintendo DSi/u', $ua)) {
 				$this->os->name = '';
 
