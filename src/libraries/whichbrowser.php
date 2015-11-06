@@ -6607,13 +6607,14 @@
 
 			if (isset($this->alias)) {
 				$result['alias'] = $this->alias;
-				return $result;
 			}
 
-			else {
-				if (isset($result['value'])) {
-					return $result['value'];
-				}
+			if (isset($this->nickname)) {
+				$result['nickname'] = $this->nickname;
+			}
+
+			if (isset($result['value']) && !isset($result['alias']) && !isset($result['nickname'])) {
+				return $result['value'];
 			}
 
 			return $result;
