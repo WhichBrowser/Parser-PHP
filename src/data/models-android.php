@@ -8377,6 +8377,7 @@
 			'eZee\'Tab7D14-S'							=> array( 'Storex', 'eZee\'Tab 7d14s', TYPE_TABLET ),
 			'eZee\'Tab785D12-S'							=> array( 'Storex', 'eZee\'Tab 785d12s', TYPE_TABLET ),
 			'eZee\'Tab13Q10-M'							=> array( 'Storex', 'eZee\'Tab 13q10m', TYPE_TABLET ),
+			'STOREX LinkBox'							=> array( 'Storex', 'LinkBox', TYPE_TELEVISION ),
 			'SRT AN4'									=> array( 'Strong', 'SRT AN4', TYPE_TELEVISION ),
 			'SRT AN4M'									=> array( 'Strong', 'SRT AN4M', TYPE_TELEVISION ),
 			'Cyclone Explorer'							=> array( 'Sumvision', 'Cyclone Explorer', TYPE_TABLET ),
