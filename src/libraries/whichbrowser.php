@@ -2516,9 +2516,15 @@
 
 				$found = false;
 
-				if (preg_match('/HbbTV\/[0-9\.]+ \([^;]*;\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
-					$vendorName = Manufacturers::identify(TYPE_TELEVISION, $match[1]);
-					$modelName = trim($match[2]);
+				if (preg_match('/HbbTV\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
+					if (trim($match[1]) == "" || trim($match[1]) == "PVR" || strpos($match[1], '+') !== false) {
+						$vendorName = Manufacturers::identify(TYPE_TELEVISION, $match[2]);
+						$modelName = trim($match[3]);
+					} else {
+						$vendorName = Manufacturers::identify(TYPE_TELEVISION, $match[1]);
+						$modelName = trim($match[2]);
+					}
+
 					$found = true;
 				}
 
