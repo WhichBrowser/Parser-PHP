@@ -80,6 +80,9 @@
     headers: 'User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (tv102; 130515_2104_b6) CE-HTML/1.0 NETRANGEMMH'
     result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: 'Dune HD', model: TV-102 } }
 -
+    headers: 'User-Agent: Opera/9.80 (Linux sh4 ; U; HBBTV/1.0 (; LOH/1.00; -----;;;) CE-HTML/1.0 Config(L:de,CC:AT); en) Presto/2.5.21 Version/10.30'
+    result: { browser: { name: 'Opera Devices' }, engine: { name: Presto, version: 2.5.21 }, device: { type: television } }
+-
     headers: 'User-Agent: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; Loewe; SL210; LOH/10.2.3.25;;) CE-HTML/1.0 Config(L:spa,CC:ESP) NETRANGEMMH) Presto/2.12.362 Version/12.10'
     result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Loewe, model: 'Connect SL210', series: 'Smart TV' } }
 -

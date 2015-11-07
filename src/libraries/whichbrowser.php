@@ -2511,7 +2511,7 @@
 				}
 			}
 
-			if (preg_match('/(?:HbbTV|SmartTV)\/[0-9\.]+ \(/u', $ua, $match)) {
+			if (preg_match('/(?:HbbTV|SmartTV)\/[0-9\.]+ \(/iu', $ua, $match)) {
 				$this->device->type = TYPE_TELEVISION;
 
 				$found = false;
