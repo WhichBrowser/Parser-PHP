@@ -6330,6 +6330,7 @@
 			'NGM P0laris'								=> array( 'NGM', 'WeMove Polaris' ),
 			'NGM Wilco'									=> array( 'NGM', 'WeMove Wilco' ),
 			'NGM WINN'									=> array( 'NGM', 'Winn' ),
+			'COOLPIX S800c'								=> array( 'Nikon', 'Coolpix S800c', TYPE_CAMERA ),
 			'i5300'										=> array( 'Ninetology', 'Palette' ),
 			'i5350'										=> array( 'Ninetology', 'Pearl Mini' ),
 			'i8400'										=> array( 'Ninetology', 'U9 P1' ),
