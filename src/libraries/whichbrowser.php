@@ -5091,6 +5091,10 @@
 				if (preg_match('/InettvBrowser/u', $ua)) {
 					$this->device->type = TYPE_TELEVISION;
 				}
+
+				if (preg_match('/Kindle/u', $ua)) {
+					$this->device->type = TYPE_EREADER;
+				}
 			}
 
 			if (preg_match('/Browser\/NF([0-9.]*)/ui', $ua, $match)) {
