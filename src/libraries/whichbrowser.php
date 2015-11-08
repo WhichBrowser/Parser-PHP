@@ -1871,7 +1871,7 @@
 			 *		MTK
 			 */
 
-			if (preg_match('/\(MTK;/u', $ua)) {
+			if (preg_match('/\(MTK;/u', $ua) || preg_match('/\/MTK /u', $ua)) {
 				$this->os->name = 'MTK';
 				$this->device->type = TYPE_MOBILE;
 			}
