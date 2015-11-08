@@ -5681,13 +5681,26 @@
 				array('name' => 'SecondLife',			'regexp' => '/SecondLife\/([0-9.]*)/u'),
 				array('name' => 'Valve Steam',			'regexp' => '/Valve Steam/u'),
 
+				array('name' => 'iTunes',				'regexp' => '/iTunes\/([0-9.]*)/u'),
 				array('name' => 'Bluefish',				'regexp' => '/bluefish ([0-9.]*)/u'),
 				array('name' => 'Songbird',				'regexp' => '/Songbird\/([0-9.]*)/u'),
+
+				array('name' => 'Lightning', 			'regexp' => '/Lightning\/([0-9.]*)/u'),
 				array('name' => 'Thunderbird',			'regexp' => '/Thunderbird[\/ ]([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'Microsoft FrontPage',	'regexp' => '/MS FrontPage ([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
 				array('name' => 'Microsoft Outlook',	'regexp' => '/Microsoft Outlook IMO, Build ([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
+				array('name' => 'Microsoft Outlook',	'regexp' => '/Microsoft Outlook ([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
+				array('name' => 'Microsoft Outlook Express',	'regexp' => '/Outlook-Express\/([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
+				array('name' => 'Lotus Notes',			'regexp' => '/Lotus-Notes\/([0-9.]*)/u', 'details' => 2, 'type' => TYPE_DESKTOP),
+				array('name' => 'Postbox',				'regexp' => '/Postbox[\/ ]([0-9.]*)/u', 'details' => 2),
+
 				array('name' => 'FeedDemon',			'regexp' => '/FeedDemon\/([0-9.]*)/u'),
-				array('name' => 'iTunes',				'regexp' => '/iTunes\/([0-9.]*)/u'),
+
+				array('name' => 'Facebook',				'regexp' => '/FBAN\/FBIOS/u'),
+				array('name' => 'Google+',				'regexp' => '/com.google.GooglePlus/u' ),
+				array('name' => 'WeChat',				'regexp' => '/MicroMessenger\/([0-9.]*)/u'),
+				array('name' => 'Sina Weibo',			'regexp' => '/weibo__([0-9.]*)/u'),
+
 
 				array('name' => '1Browser',				'regexp' => '/1Password\/([0-9.]*)/u'),
 				array('name' => '2345 Browser',			'regexp' => '/Mb2345Browser\/([0-9.]*)/u'),
@@ -5759,7 +5772,6 @@
 				array('name' => 'K-Meleon', 			'regexp' => '/K-Meleon\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'Lbbrowser',			'regexp' => '/LBBROWSER/u'),
 				array('name' => 'Leechcraft', 			'regexp' => '/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2),
-				array('name' => 'Lightning', 			'regexp' => '/Lightning\/([0-9.]*)/u'),
 				array('name' => 'Lobo', 				'regexp' => '/Lobo\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'Lotus Expeditor', 		'regexp' => '/Gecko Expeditor ([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Lunascape', 			'regexp' => '/Lunascape[\/| ]([0-9.]*)/u', 'details' => 3),
@@ -5799,6 +5811,7 @@
 				array('name' => 'rekonq', 				'regexp' => '/rekonq(?:\/([0-9.]*))?/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'RockMelt', 			'regexp' => '/RockMelt\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'SaaYaa Explorer', 		'regexp' => '/SaaYaa/u', 'type' => TYPE_DESKTOP),
+				array('name' => 'SEMC Browser', 		'regexp' => '/SEMC-Browser\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'Sleipnir', 			'regexp' => '/Sleipnir\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'SlimBoat', 			'regexp' => '/SlimBoat\/([0-9.]*)/u'),
 				array('name' => 'SMBrowser', 			'regexp' => '/SMBrowser/u'),
