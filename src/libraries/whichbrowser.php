@@ -2012,6 +2012,17 @@
 			 *		Palm OS
 			 */
 
+			if (preg_match('/PalmOS/iu', $ua, $match)) {
+				$this->os->name = 'Palm OS';
+				$this->device->type = TYPE_MOBILE;
+			}
+
+			if (preg_match('/Palm OS ([0-9.]*)/iu', $ua, $match)) {
+				$this->os->name = 'Palm OS';
+				$this->os->version = new Version(array('value' => $match[1]));
+				$this->device->type = TYPE_MOBILE;
+			}
+
 			if (preg_match('/PalmSource/u', $ua, $match)) {
 				$this->os->name = 'Palm OS';
 				$this->os->version = null;
