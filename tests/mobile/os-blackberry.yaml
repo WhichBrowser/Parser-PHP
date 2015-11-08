@@ -3,13 +3,13 @@
     result: { os: { name: 'BlackBerry OS', version: '4.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry 7100' } }
 -
     headers: 'User-Agent: BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
-    result: { browser: { name: UP.Browser, version: '5.0' }, os: { name: 'BlackBerry OS', version: '4.0' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry 7520' } }
+    result: { browser: { name: Openwave, version: '5.0' }, os: { name: 'BlackBerry OS', version: '4.0' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry 7520' } }
 -
     headers: 'User-Agent: BlackBerry8220/4.6.0.293 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107'
     result: { os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Pearl 8220' } }
 -
     headers: 'User-Agent: BlackBerry8300/4.5.0.108 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/136 UP.Browser/5.0.3.3'
-    result: { browser: { name: UP.Browser, version: '5.0' }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 8300' } }
+    result: { browser: { name: Openwave, version: '5.0' }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 8300' } }
 -
     headers: 'User-Agent: BlackBerry8310/4.5.0.37 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102'
     result: { os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 8310' } }
