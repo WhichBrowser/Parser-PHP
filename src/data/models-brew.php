@@ -19,6 +19,7 @@
 			'SCH-U485'									=> array( 'Samsung', 'Intensity III' ),
 			'SCH-U820'									=> array( 'Samsung', 'Reality' ),
 			'SCH-W709!'									=> array( 'Samsung', 'SCH-W709' ),
+			'sam-r631'									=> array( 'Samsung', 'Messenger Touch R631' ),
 			'SCP6760'									=> array( 'Sanyo', 'Incognito' ),
 			'SCP-6760'									=> array( 'Sanyo', 'Incognito' ),
 			'SCP6780'									=> array( 'Sanyo', 'Innuendo' ),

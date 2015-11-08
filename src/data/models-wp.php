@@ -110,6 +110,7 @@
 			'(Lumia ?|Nokia ?)?630!'					=> array( 'Nokia', 'Lumia 630' ),
 			'(Lumia ?|Nokia ?)?635!'					=> array( 'Nokia', 'Lumia 635' ),
 			'(Lumia ?|Nokia ?)?636!'					=> array( 'Nokia', 'Lumia 636' ),
+			'(Lumia ?|Nokia ?)?640 XL!'					=> array( 'Microsoft', 'Lumia 640 XL' ),
 			'(Lumia ?|Nokia ?)?640!'					=> array( 'Microsoft', 'Lumia 640' ),
 			'(Lumia ?|Nokia ?)?710!'					=> array( 'Nokia', 'Lumia 710' ),
 			'(Lumia ?|Nokia ?)?719!'					=> array( 'Nokia', 'Lumia 719' ),
