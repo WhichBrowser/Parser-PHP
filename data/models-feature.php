@@ -27,6 +27,9 @@
 			'GS500'										=> array( 'LG', 'GS500 Cookie Plus' ),
 			'GT500!'									=> array( 'LG', 'GT500 Puccini' ),
 			'GT550'										=> array( 'LG', 'GT550 Encore' ),
+			'COCOON'									=> array( 'O2', 'Cocoon' ),
+			'P7000'										=> array( 'Pantech', 'Impact' ),
+			'P9020'										=> array( 'Pantech', 'Pursuit' ),
 			'GT-B2710'									=> array( 'Samsung', 'Xcover 271' ),
 			'GT-B3210'									=> array( 'Samsung', 'Corby TXT' ),
 			'GT-B3313'									=> array( 'Samsung', 'Corby Mate' ),
@@ -66,6 +69,8 @@
 			'SM-B350E'									=> array( 'Samsung', 'Metro 350' ),
 			'SM-B780(A|W)!'								=> array( 'Samsung', 'Rugby 4' ),
 			'S7350'										=> array( 'Samsung', 'S7350 Ultra S' ),
+			'sam-r560'									=> array( 'Samsung', 'Messenger II R560' ),
+			'tecnot36'									=> array( 'Tecno', 'T36' ),
 			'Vodafone 575'								=> array( 'Vodafone', '575' ),
 			'GT-I6410'									=> array( 'Vodafone', '360 M1' ),
 		);

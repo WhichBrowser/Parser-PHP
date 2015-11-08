@@ -6,5 +6,6 @@
 			'Palm-D061'								=> array( 'Palm', 'Centro' ),
 			'Palm-D062'								=> array( 'Palm', 'Centro' ),
 			'Palm-TunX'								=> array( 'Palm', 'LifeDrive' ),
-			'hspr-H102'								=> array( 'Palm', 'Treo 650' )
+			'hspr-H102'								=> array( 'Palm', 'Treo 650' ),
+			'Palm-Zir4'								=> array( 'Palm', 'Tungsten E2' ),
 		);
