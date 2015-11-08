@@ -45,7 +45,7 @@
     result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, manufacturer: Samsung, model: SCH-S579 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; xx) 320X240 LGE VX9200'
-    result: { browser: { name: 'Obigo Q', version: '7' }, os: { name: Brew }, device: { type: mobile, manufacturer: LG, model: Env3 } }
+    result: { browser: { name: 'Obigo Q', version: '7' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, manufacturer: LG, model: Env3 } }
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.80 (KDDI-FJ31; BREW; Opera Mobi; U; xx) Presto/2.4.18 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.18 }, os: { name: Brew }, device: { type: mobile, manufacturer: KDDI, model: FJ31 } }

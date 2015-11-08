@@ -1814,6 +1814,10 @@
 			if (preg_match('/BREW/ui', $ua) || preg_match('/BMP( [0-9.]*)?; U/u', $ua) || preg_match('/BMP\/([0-9.]*)/u', $ua)) {
 				$this->os->name = 'Brew';
 
+				if (preg_match('/; Brew ([0-9.]*);/iu', $ua, $match)) {
+					$this->os->version = new Version(array('value' => $match[1]));
+				}
+
 				if (preg_match('/BREW; U; ([0-9.]*)/iu', $ua, $match)) {
 					$this->os->version = new Version(array('value' => $match[1]));
 				}
