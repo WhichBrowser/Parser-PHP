@@ -1041,7 +1041,7 @@
 					}
 
 					/* Windows Phone OS 7 and 8 */
-					if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?\s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
+					if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?(?: WpsLondonTest; )?\s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
 						$this->device->manufacturer = $match[1];
 						$this->device->model = $match[2];
 						$this->device->identified |= ID_PATTERN;
@@ -1186,7 +1186,7 @@
 						$this->device->model = $match[1];
 					}
 
-					else if (preg_match('/; ?([^;]*[^;\s])\s+Build/u', $ua, $match)) {
+					else if (preg_match('/; ?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
 						$this->device->model = $match[1];
 					}
 
@@ -1194,7 +1194,7 @@
 						$this->device->model = $match[1];
 					}
 
-					else if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s]);\s+Build/u', $ua, $match)) {
+					else if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
 						$this->device->model = $match[1];
 					}
 
@@ -3391,11 +3391,19 @@
 					array_push($candidates, $match[1]);
 				}
 
+				if (preg_match('/MSIEMobile [0-9.]+\) ([^\s]+)/u', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
 				if (preg_match('/Series60\/[0-9\.]+ ([^\s]+) Profile/u', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 
 				if (preg_match('/Vodafone\/1.0\/([^\/]+)/u', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/Huawei\/1.0\/([^\s]+)/u', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 
@@ -3443,7 +3451,19 @@
 					array_push($candidates, $match[1]);
 				}
 
+				if (preg_match('/([a-z][a-z0-9\_]+)\/[a-z]/iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
 				if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/^$([a-z0-9\.\_\+ ]+)\//iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/^([a-z]+\s[a-z0-9\-\_\.]+)/iu', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 

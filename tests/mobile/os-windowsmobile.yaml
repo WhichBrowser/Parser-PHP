@@ -186,7 +186,7 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: HTC, model: 'Touch Pro 2' } }
 -
     headers: "User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) LG-GW550 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1\nUA-OS: Windows CE (Smartphone) - Version 5.2"
-    result: { browser: { name: 'Obigo WAP', version: '2.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile } }
+    result: { browser: { name: 'Obigo WAP', version: '2.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: LG, model: GW550 } }
 -
     headers: "User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) PPC; 240x320; HTC_Mega-T3333-Orange; OpVer 113.128.10.702\nUA-OS: Windows CE (Pocket PC) - Version 5.2"
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: HTC, model: 'Touch 2' } }
@@ -243,7 +243,7 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: Motorola, model: 'MC65 Wireless Rugged Mobile Computer' } }
 -
     headers: "User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SonyEricssonX2/R3AA; Profile/MIDP-2.1; Configuration/CLDC-1.1; Windows Phone 6.5.3.5)\nUA-OS: Windows CE (Pocket PC) - Version 5.2"
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: 'Sony Ericsson', model: 'Xperia X2' } }
 -
     headers: "User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; T-Mobile_LEO; Windows Phone 6.5)\nUA-OS: Windows CE (Pocket PC) - Version 5.2"
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, manufacturer: HTC, model: HD2 } }
