@@ -920,7 +920,7 @@
 			 *		Windows
 			 */
 
-			if (preg_match('/Windows/u', $ua)) {
+			if (preg_match('/Windows/u', $ua) || preg_match('/Win[9MX]/u', $ua)) {
 				$this->os->name = 'Windows';
 				$this->device->type = TYPE_DESKTOP;
 
