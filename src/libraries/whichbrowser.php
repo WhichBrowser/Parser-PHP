@@ -6543,6 +6543,7 @@
 		}
 
 		static function cleanup($s = '') {
+			$s = preg_replace('/^phone\//', '', $s);
 			$s = preg_replace('/\/[^\/]+$/u', '', $s);
 			$s = preg_replace('/\/[^\/]+ Android\/.*/u', '', $s);
 
