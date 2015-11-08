@@ -4949,7 +4949,7 @@
 			 *		Iris
 			 */
 
-			if (preg_match('/Iris/u', $ua)) {
+			if (preg_match('/Iris[ \/]/u', $ua)) {
 				$this->browser->name = 'Iris';
 
 				$this->device->type = TYPE_MOBILE;

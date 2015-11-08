@@ -126,7 +126,7 @@
     result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0 Safari/534.16+ IrisBrowser/4.0.17.1 HbbTV/1.2.1 (;Digisoft.tv;Iris;4.0.17.1;;)'
-    result: { browser: { name: Iris }, engine: { name: Webkit, version: '534.16' }, os: { name: 'Windows Mobile' }, device: { type: mobile } }
+    result: { engine: { name: Webkit, version: '534.16' }, device: { type: television, manufacturer: Digisoft.tv, model: Iris } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/538.11  HbbTV/1.1.1 (+DL+PVR; inverto; AIRSCREEN-MBN108; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH;)'
     result: { engine: { name: Webkit, version: '538.11' }, device: { type: television, manufacturer: Inverto, model: 'MBN 108' } }
