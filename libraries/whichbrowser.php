@@ -5550,8 +5550,13 @@
 				}
 			}
 
-			if (preg_match('/midori$/u', $ua)) {
+			if (preg_match('/midori(?:\/[0-9.]*)?$/u', $ua)) {
 				$this->browser->name = 'Midori';
+				$this->device->type = TYPE_DESKTOP;
+	
+				if (preg_match('/midori\/([0-9.]*)$/u', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1]));
+				}
 			}
 
 
@@ -5755,7 +5760,7 @@
 				array('name' => 'Galeon', 				'regexp' => '/Galeon\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Helium', 				'regexp' => '/HeliumMobileBrowser\/([0-9.]*)/u'),
 				array('name' => 'Hive Explorer', 		'regexp' => '/HiveE/u'),
-				array('name' => 'IBrowse', 				'regexp' => '/IBrowse\/([0-9.]*)/u', 'type' => TYPE_DESKTOP),
+				array('name' => 'IBrowse', 				'regexp' => '/IBrowse[\/ ]([0-9.]*)/u', 'type' => TYPE_DESKTOP),
 				array('name' => 'iCab', 				'regexp' => '/iCab\/([0-9.]*)/u'),
 				array('name' => 'Iceape', 				'regexp' => '/Iceape\/([0-9.]*)/u'),
 				array('name' => 'IceCat', 				'regexp' => '/IceCat[ \/]([0-9.]*)/u', 'type' => TYPE_DESKTOP),
