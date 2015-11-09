@@ -1,23 +1,28 @@
 <?php
 
+	if (file_exists(dirname(__FILE__) . '/../../vendor/autoload.php')) {
+	 	include_once(dirname(__FILE__) . '/../../vendor/autoload.php');
+		include_once(dirname(__FILE__) . '/../whichbrowser/libraries/utilities.php');
+		include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
+	}
 
-	include_once(dirname(__FILE__) . '/../vendor/autoload.php');
-	include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
-	include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
+	if (file_exists(dirname(__FILE__) . '/../vendor/autoload.php')) {
+		include_once(dirname(__FILE__) . '/../vendor/autoload.php');
+		include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
+		include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
+	}
 
 	use Symfony\Component\Yaml\Yaml;
 
+	function handleError($errno, $errstr, $errfile, $errline, array $errcontext) {
+	    // error was suppressed with the @-operator
+	    if (0 === error_reporting()) {
+	        return false;
+	    }
 
-
-function handleError($errno, $errstr, $errfile, $errline, array $errcontext) {
-    // error was suppressed with the @-operator
-    if (0 === error_reporting()) {
-        return false;
-    }
-
-    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
-}
-set_error_handler("handleError");
+	    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+	}
+	set_error_handler("handleError");
 
 
 	$all = false;
@@ -27,13 +32,6 @@ set_error_handler("handleError");
 	array_shift($argv);
 
 	if (count($argv)) {
-		if ($argv[0] == '--all') {
-			$all = true;
-			array_shift($argv);
-		}
-	}
-
-	if (count($argv)) {
 		if (in_array($argv[0], array('compare', 'check', 'rebase', 'list'))) {
 			$command = array_shift($argv);
 		}
@@ -41,28 +39,23 @@ set_error_handler("handleError");
 		if (count($argv)) {
 			foreach($argv as $file) {
 				if (fnmatch("*.yaml", $file)) {
+					echo "MATCH!";
 					$files[] = $file;
+				}
+				else {
+					$files = array_merge($files, glob("data/{$file}/*.yaml"));
 				}
 			}
 		}
 
 		else {
-			$files = glob("*/*.yaml");
+			$files = glob("data/*/*.yaml");
 		}
 	}
 	else {
-		$files = glob("*/*.yaml");
+		$files = glob("data/*/*.yaml");
 	}
 
-	if (!$all) {
-		for ($f = 0; $f < count($files); $f++) {
-			if (fnmatch("all/*.yaml", $files[$f])) {
-				unset($files[$f]);
-			}
-		}
-
-		$files = array_values($files);
-	}
 
 	switch($command) {
 
@@ -74,14 +67,20 @@ set_error_handler("handleError");
 				$result = Runner::compare($files);
 
 				if (!$result) {
-					echo "\033[0;31mTest runner failed, please fix or rebase before building or deploying!\033[0m\n\n";
+					echo "\033[0;31mTestrunner failed, please fix or rebase before building or deploying!\033[0m\n\n";
 					exit(1);
 				}
 
 				break;
 
 		case 'compare':
-				Runner::compare($files);
+				$result = Runner::compare($files);
+
+				if (!$result) {
+					echo "\033[0;31mTestrunner failed, please look at runner.log for the details!\033[0m\n\n";
+					exit(1);
+				}
+
 				break;
 
 		case 'rebase':
