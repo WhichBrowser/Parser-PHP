@@ -6,19 +6,19 @@
 	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "tests" . DIRECTORY_SEPARATOR) !== false) $location = 'local';
 
 	switch($location) {
-		case 'installed': 	include_once('../../autoload.php');
-							include_once('../whichbrowser/libraries/utilities.php');
-							include_once('../whichbrowser/libraries/whichbrowser.php');
+		case 'installed': 	include_once(dirname(__FILE__) . '/../../autoload.php');
+							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/utilities.php');
+							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
 							break;
 
-		case 'dist': 		include_once('../../vendor/autoload.php');
-							include_once('../whichbrowser/libraries/utilities.php');
-							include_once('../whichbrowser/libraries/whichbrowser.php');
+		case 'dist': 		include_once(dirname(__FILE__) . '/../../vendor/autoload.php');
+							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/utilities.php');
+							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
 							break;
 
-		case 'local': 		include_once('../vendor/autoload.php');
-							include_once('../src/libraries/utilities.php');
-							include_once('../src/libraries/whichbrowser.php');
+		case 'local': 		include_once(dirname(__FILE__) . '/../vendor/autoload.php');
+							include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
+							include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
 							break;
 
 		default:			echo "\033[0;31mCannot determine what kind of enviroment we are running in. Aborted!\033[0m\n\n";
@@ -56,17 +56,17 @@
 					$files[] = $file;
 				}
 				else {
-					$files = array_merge($files, glob("data/{$file}/*.yaml"));
+					$files = array_merge($files, glob(dirname(__FILE__) . "/data/{$file}/*.yaml"));
 				}
 			}
 		}
 
 		else {
-			$files = glob("data/*/*.yaml");
+			$files = glob(dirname(__FILE__) . "/data/*/*.yaml");
 		}
 	}
 	else {
-		$files = glob("data/*/*.yaml");
+		$files = glob(dirname(__FILE__) . "/data/*/*.yaml");
 	}
 
 
@@ -120,6 +120,8 @@
 		static function _compareFile($file) {
 			$fp = fopen('runner.log', 'a+');
 
+			$name = basename(dirname($file)) . DIRECTORY_SEPARATOR . basename($file);
+
 			$success = 0;
 			$failed = 0;
 			$total = 0;
@@ -132,7 +134,7 @@
 
 				if (isset($rule['result'])) {
 					if ($detected->toArray() != $rule['result']) {
-						fwrite($fp, "\n{$file}\n--------------\n\n");
+						fwrite($fp, "\n{$name}\n--------------\n\n");
 						fwrite($fp, $rule['headers'] . "\n");
 						fwrite($fp, "Base:\n");
 						fwrite($fp, Yaml::dump($rule['result']) . "\n");
@@ -145,7 +147,7 @@
 						$success++;
 					}
 				} else {
-					fwrite($fp, "\n{$file}\n--------------\n\n");
+					fwrite($fp, "\n{$name}\n--------------\n\n");
 					fwrite($fp, $rule['headers'] . "\n");
 					fwrite($fp, "New result:\n");
 
@@ -169,7 +171,7 @@
 			echo $counter;
 			echo "\033[0m";
 			echo str_repeat(' ', 16 - strlen($counter));
-			echo $file;
+			echo $name;
 			echo ($rebase ? "\t\t\033[0;31m => rebase required!\033[0m" : "");
 			echo "\n";
 
