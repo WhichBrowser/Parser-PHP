@@ -5550,8 +5550,13 @@
 				}
 			}
 
-			if (preg_match('/midori$/u', $ua)) {
+			if (preg_match('/midori(?:\/[0-9.]*)?$/u', $ua)) {
 				$this->browser->name = 'Midori';
+				$this->device->type = TYPE_DESKTOP;
+	
+				if (preg_match('/midori\/([0-9.]*)$/u', $ua, $match)) {
+					$this->browser->version = new Version(array('value' => $match[1]));
+				}
 			}
 
 
