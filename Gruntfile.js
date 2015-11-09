@@ -122,18 +122,18 @@ module.exports = function(grunt) {
 
     exec: {
       check: {
-        cwd: 'tests',
-        cmd: 'php -f ../dist/testrunner/runner.php check'
+        cwd: 'dist',
+        cmd: 'php -f testrunner/runner.php check'
       },
 
       compare: {
         cwd: 'tests',
-        cmd: 'php -f ../dist/testrunner/runner.php compare'
+        cmd: 'php -f runner.php compare'
       },
 
       rebase: {
         cwd: 'tests',
-        cmd: 'php -f ../dist/testrunner/runner.php rebase'
+        cmd: 'php -f runner.php rebase'
       }
     }
   });
