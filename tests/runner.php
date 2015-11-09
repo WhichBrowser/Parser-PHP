@@ -1,15 +1,28 @@
 <?php
 
-	if (file_exists(dirname(__FILE__) . '/../../vendor/autoload.php')) {
-	 	include_once(dirname(__FILE__) . '/../../vendor/autoload.php');
-		include_once(dirname(__FILE__) . '/../whichbrowser/libraries/utilities.php');
-		include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
-	}
+	$location = '';
+	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR) !== false) $location = 'installed';
+	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "dist" . DIRECTORY_SEPARATOR . "testrunner") !== false) $location = 'dist';
+	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "tests" . DIRECTORY_SEPARATOR) !== false) $location = 'local';
 
-	if (file_exists(dirname(__FILE__) . '/../vendor/autoload.php')) {
-		include_once(dirname(__FILE__) . '/../vendor/autoload.php');
-		include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
-		include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
+	switch($location) {
+		case 'installed': 	include_once('../../autoload.php');
+							include_once('../whichbrowser/libraries/utilities.php');
+							include_once('../whichbrowser/libraries/whichbrowser.php');
+							break;
+
+		case 'dist': 		include_once('../../vendor/autoload.php');
+							include_once('../whichbrowser/libraries/utilities.php');
+							include_once('../whichbrowser/libraries/whichbrowser.php');
+							break;
+
+		case 'local': 		include_once('../vendor/autoload.php');
+							include_once('../src/libraries/utilities.php');
+							include_once('../src/libraries/whichbrowser.php');
+							break;
+
+		default:			echo "\033[0;31mCannot determine what kind of enviroment we are running in. Aborted!\033[0m\n\n";
+							exit(1);
 	}
 
 	use Symfony\Component\Yaml\Yaml;
