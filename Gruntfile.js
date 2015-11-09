@@ -4,23 +4,26 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-    	dist: [ 'dist' ],
+    	dist: [ 'dist/whichbrowser', 'dist/testrunner' ],
     },
 
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/' },
+          { expand: true, cwd: 'src', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'tests/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
+          { expand: true, cwd: 'tests', src: ['runner.php'], dest: 'dist/testrunner/' },
         ]
       },
     	release: {
 			  files: [
-				  { expand: true, cwd: 'src', src: ['bower.json', 'composer.json'], dest: 'dist/' },
+				  { expand: true, cwd: 'src', src: ['bower.json', 'composer.json'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'tests', src: ['composer.json'], dest: 'dist/testrunner/' },
 			  ]
       },
       deploy: {
         files: [
-          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/' },
+          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/whichbrowser/' },
         ]
       }
     },
@@ -39,17 +42,26 @@ module.exports = function(grunt) {
 
     buildcontrol: {
       options: {
-        dir: 'dist',
         commit: true,
         push: true,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%',
         connectCommits: false
       },
-      release: {
+      library: {
         options: {
+          dir: 'dist/whichbrowser',
           remote: 'git@github.com:WhichBrowser/WhichBrowser.git',
           branch: 'master',
-          tag:    "v<%= pkg.version %>"
+          tag:    "v<%= pkg.version %>",
+          message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
+        }
+      },
+      testrunner: {
+        options: {
+          dir: 'dist/testrunner',
+          remote: 'git@github.com:WhichBrowser/Testrunner.git',
+          branch: 'master',
+          tag:    "v<%= pkg.version %>",
+          message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
         }
       },
     },
@@ -62,7 +74,7 @@ module.exports = function(grunt) {
 
       api: {
   			options: {
-  				src: 'dist/',
+  				src: 'dist/whichbrowser/',
   				dest: '/var/www/api.whichbrowser.net/web/rel',
   				host: 'admin@server.html5test.com',
   			}
@@ -70,7 +82,7 @@ module.exports = function(grunt) {
 
       www: {
         options: {
-          src: 'dist/',
+          src: 'dist/whichbrowser/',
           dest: '/var/www/whichbrowser.net/web/lib',
           host: 'admin@server.html5test.com',
         }
@@ -111,27 +123,17 @@ module.exports = function(grunt) {
     exec: {
       check: {
         cwd: 'tests',
-        cmd: 'php -f ../tools/testrunner.php check'
+        cmd: 'php -f ../dist/testrunner/runner.php check'
       },
 
       compare: {
         cwd: 'tests',
-        cmd: 'php -f ../tools/testrunner.php compare'
-      },
-
-      compare_all: {
-        cwd: 'tests',
-        cmd: 'php -f ../tools/testrunner.php -- --all compare'
+        cmd: 'php -f ../dist/testrunner/runner.php compare'
       },
 
       rebase: {
         cwd: 'tests',
-        cmd: 'php -f ../tools/testrunner.php rebase'
-      },
-
-      rebase_all: {
-        cwd: 'tests',
-        cmd: 'php -f ../tools/testrunner.php -- --all rebase'
+        cmd: 'php -f ../dist/testrunner/runner.php rebase'
       }
     }
   });
@@ -147,24 +149,23 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-rsync');
 
 
-  grunt.registerTask('default', ['exec:check', 'clean', 'copy:dist']);
+  grunt.registerTask('default', ['clean', 'copy:dist', 'exec:check']);
   grunt.registerTask('generate', ['wget']);
-  grunt.registerTask('release', ['exec:check', 'clean', 'bump', 'copy:dist', 'copy:release', 'buildcontrol']);
+  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:library', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
   grunt.registerTask('start', ['php:start']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
-    var all = grunt.option('all');
     var rebase = grunt.option('rebase');
 
     if (rebase) {
-      grunt.task.run('exec:rebase' + (all ? '_all' : ''));
+      grunt.task.run('exec:rebase');
     } else {
-      grunt.task.run('exec:compare' + (all ? '_all' : ''));
+      grunt.task.run('exec:compare');
     }
   });
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['exec:check', 'clean', 'copy:dist', 'copy:deploy', 'rsync:api', 'rsync:www']);
+  grunt.registerTask('deploy', ['clean', 'copy:dist', 'copy:deploy', 'exec:check', 'rsync:api', 'rsync:www']);
 };
