@@ -1,11 +1,11 @@
 <?php
 
-		DeviceModels::$PALMOS_MODELS = array(
-			'Palm-D050'								=> array( 'Palm', 'TX' ),
-			'Palm-D053'								=> array( 'Palm', 'Treo 680' ),
-			'Palm-D061'								=> array( 'Palm', 'Centro' ),
-			'Palm-D062'								=> array( 'Palm', 'Centro' ),
-			'Palm-TunX'								=> array( 'Palm', 'LifeDrive' ),
-			'hspr-H102'								=> array( 'Palm', 'Treo 650' ),
-			'Palm-Zir4'								=> array( 'Palm', 'Tungsten E2' ),
-		);
+		DeviceModels::$PALMOS_MODELS = [
+			'Palm-D050'								=> [ 'Palm', 'TX' ],
+			'Palm-D053'								=> [ 'Palm', 'Treo 680' ],
+			'Palm-D061'								=> [ 'Palm', 'Centro' ],
+			'Palm-D062'								=> [ 'Palm', 'Centro' ],
+			'Palm-TunX'								=> [ 'Palm', 'LifeDrive' ],
+			'hspr-H102'								=> [ 'Palm', 'Treo 650' ],
+			'Palm-Zir4'								=> [ 'Palm', 'Tungsten E2' ],
+		];
