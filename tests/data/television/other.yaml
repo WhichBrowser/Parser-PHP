@@ -114,7 +114,7 @@
     result: { engine: { name: Webkit, version: '535.19' }, device: { type: television, manufacturer: DMM, model: Dreambox } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; fr-fr; STOREX LinkBox Build/20120103) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: television, manufacturer: Storex, model: LinkBox } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: television, manufacturer: Storex, model: LinkBox } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; L28YTNRA)'
     result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'L28YTNRA IPTV receiver' } }

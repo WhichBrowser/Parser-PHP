@@ -63,13 +63,13 @@
     result: { browser: { name: Chrome, version: '11' }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 3.2; xx; GTV100 Build/MASTER) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
-    result: { engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: NETGEAR, model: 'NeoTV Prime' } }
+    result: { browser: { name: Chrome }, engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: NETGEAR, model: 'NeoTV Prime' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 3.2; xx; NSZ-GS7/GX70 Build/MASTER) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
-    result: { engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Sony, model: NSZ-GS7 } }
+    result: { browser: { name: Chrome }, engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Sony, model: NSZ-GS7 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 3.2; xx; VAP430 Build/MASTER) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
-    result: { engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Vizio, model: Co-Star } }
+    result: { browser: { name: Chrome }, engine: { name: Webkit, version: '534.13' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Vizio, model: Co-Star } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.77 Large Screen Safari/534.24 GoogleTV/000000'
     result: { browser: { name: Chrome, version: '11' }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television } }

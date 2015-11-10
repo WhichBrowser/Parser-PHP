@@ -6033,16 +6033,6 @@
 			 *		Corrections
 			 */
 
-			if (isset($this->os->name)) {
-				if ($this->os->name == 'Android' && $this->browser->stock) {
-					$this->browser->hidden = true;
-				}
-
-				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
-					$this->browser->hidden = true;
-				}
-			}
-
 			if (isset($this->os->name) && isset($this->browser->name)) {
 				if ($this->os->name == 'iOS' && ($this->browser->name == 'Opera Mini' && $this->browser->version->toFloat() < 8)) {
 					$this->os->version = null;
@@ -6216,6 +6206,22 @@
 				unset($this->os->version);
 				unset($this->device->flag);
 			}
+
+
+			if (isset($this->os->name)) {
+				if ($this->os->name == 'Android' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'Android Browser';
+				}
+
+				if ($this->os->name == 'Google TV' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'Chrome';
+				}
+
+				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
+					$this->browser->hidden = true;
+				}
+			}
+
 
 
 			if ($this->device->type == TYPE_BOT) {
