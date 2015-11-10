@@ -1,23 +1,23 @@
 <?php
 
-		DeviceModels::$TIZEN_MODELS = array(
-			'Baltic'									=> array( 'Samsung', '"Baltic"' ),
-			'SM-HIGGS'									=> array( 'Samsung', '"Higgs"' ),
-			'KIRAN'										=> array( 'Samsung', 'Z1' ),
-			'GT-I8800!'									=> array( 'Samsung', '"Melius"' ),
-			'GT-I8805!'									=> array( 'Samsung', '"Redwood"' ),
-			'GT-I9500!'									=> array( 'Samsung', 'GT-I9500 prototype' ),
-			'SGH-N099'									=> array( 'Samsung', 'SGH-N099 prototype' ),
-			'(ARMV7 )?SM-Z9005!'						=> array( 'Samsung', 'SM-Z9005 prototype' ),
-			'SM-Z130!'									=> array( 'Samsung', 'Z1' ),
-			'SM-Z300!'									=> array( 'Samsung', 'Z3' ),
-			'SM-Z500!'									=> array( 'Samsung', 'SM-Z500' ),
-			'SM-Z700!'									=> array( 'Samsung', 'SM-Z700' ),
-			'SM-Z900!'									=> array( 'Samsung', 'Z' ),	
-			'SM-Z910!'									=> array( 'Samsung', 'SM-Z910 prototype' ),
-			'SEC SC-001'								=> array( 'Samsung', 'SC-001 prototype' ),
-			'SEC SC-03F'								=> array( 'Samsung', 'ZeQ' ),						// Unreleased version for DoCoMo
-			'SC-03F'									=> array( 'Samsung', 'ZeQ' ),						// Unreleased version for DoCoMo
+		DeviceModels::$TIZEN_MODELS = [
+			'Baltic'									=> [ 'Samsung', '"Baltic"' ],
+			'SM-HIGGS'									=> [ 'Samsung', '"Higgs"' ],
+			'KIRAN'										=> [ 'Samsung', 'Z1' ],
+			'GT-I8800!'									=> [ 'Samsung', '"Melius"' ],
+			'GT-I8805!'									=> [ 'Samsung', '"Redwood"' ],
+			'GT-I9500!'									=> [ 'Samsung', 'GT-I9500 prototype' ],
+			'SGH-N099'									=> [ 'Samsung', 'SGH-N099 prototype' ],
+			'(ARMV7 )?SM-Z9005!'						=> [ 'Samsung', 'SM-Z9005 prototype' ],
+			'SM-Z130!'									=> [ 'Samsung', 'Z1' ],
+			'SM-Z300!'									=> [ 'Samsung', 'Z3' ],
+			'SM-Z500!'									=> [ 'Samsung', 'SM-Z500' ],
+			'SM-Z700!'									=> [ 'Samsung', 'SM-Z700' ],
+			'SM-Z900!'									=> [ 'Samsung', 'Z' ],	
+			'SM-Z910!'									=> [ 'Samsung', 'SM-Z910 prototype' ],
+			'SEC SC-001'								=> [ 'Samsung', 'SC-001 prototype' ],
+			'SEC SC-03F'								=> [ 'Samsung', 'ZeQ' ],						// Unreleased version for DoCoMo
+			'SC-03F'									=> [ 'Samsung', 'ZeQ' ],						// Unreleased version for DoCoMo
 
-			'SM-R750!'									=> array( 'Samsung', 'Gear S', TYPE_WATCH)
-		);
+			'SM-R750!'									=> [ 'Samsung', 'Gear S', TYPE_WATCH ]
+		];

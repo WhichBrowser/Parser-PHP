@@ -4522,6 +4522,7 @@
 						case '43.0.2357':
 						case '44.0.2403':
 						case '45.0.2454':
+						case '46.0.2490':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -4669,6 +4670,7 @@
 						case '43.0.2357':
 						case '44.0.2403':
 						case '45.0.2454':
+						case '46.0.2490':
 							$this->browser->version->details = 1;
 							break;
 						default:
@@ -6031,16 +6033,6 @@
 			 *		Corrections
 			 */
 
-			if (isset($this->os->name)) {
-				if ($this->os->name == 'Android' && $this->browser->stock) {
-					$this->browser->hidden = true;
-				}
-
-				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
-					$this->browser->hidden = true;
-				}
-			}
-
 			if (isset($this->os->name) && isset($this->browser->name)) {
 				if ($this->os->name == 'iOS' && ($this->browser->name == 'Opera Mini' && $this->browser->version->toFloat() < 8)) {
 					$this->os->version = null;
@@ -6091,30 +6083,30 @@
 
 				if (preg_match('/Presto\/([0-9]+\.[0-9]+)/u', $ua, $match)) {
 					switch($match[1]) {
-						case '2.12':		$this->browser->version = new Version(array('value' => '3.4')); break;
-						case '2.11':		$this->browser->version = new Version(array('value' => '3.3')); break;
-						case '2.10':		$this->browser->version = new Version(array('value' => '3.2')); break;
-						case '2.9':			$this->browser->version = new Version(array('value' => '3.1')); break;
-						case '2.8':			$this->browser->version = new Version(array('value' => '3.0')); break;
-						case '2.7':			$this->browser->version = new Version(array('value' => '2.9')); break;
-						case '2.6':			$this->browser->version = new Version(array('value' => '2.8')); break;
-						case '2.4':			$this->browser->version = new Version(array('value' => '10.3')); break;
-						case '2.3':			$this->browser->version = new Version(array('value' => '10')); break;
-						case '2.2':			$this->browser->version = new Version(array('value' => '9.7')); break;
-						case '2.1':			$this->browser->version = new Version(array('value' => '9.6')); break;
+						case '2.12':		$this->browser->version = new Version([ 'value' => '3.4' ]); break;
+						case '2.11':		$this->browser->version = new Version([ 'value' => '3.3' ]); break;
+						case '2.10':		$this->browser->version = new Version([ 'value' => '3.2' ]); break;
+						case '2.9':			$this->browser->version = new Version([ 'value' => '3.1' ]); break;
+						case '2.8':			$this->browser->version = new Version([ 'value' => '3.0' ]); break;
+						case '2.7':			$this->browser->version = new Version([ 'value' => '2.9' ]); break;
+						case '2.6':			$this->browser->version = new Version([ 'value' => '2.8' ]); break;
+						case '2.4':			$this->browser->version = new Version([ 'value' => '10.3' ]); break;
+						case '2.3':			$this->browser->version = new Version([ 'value' => '10' ]); break;
+						case '2.2':			$this->browser->version = new Version([ 'value' => '9.7' ]); break;
+						case '2.1':			$this->browser->version = new Version([ 'value' => '9.6' ]); break;
 						default:			unset($this->browser->version);
 					}
 				}
 
 				else if (preg_match('/OMI\/([0-9]+\.[0-9]+)/u', $ua, $match)) {
-					$this->browser->version = new Version(array('value' => $match[1]));
+					$this->browser->version = new Version([ 'value' => $match[1] ]);
 				}
 
 				else if (preg_match('/OPR\/([0-9]+)/u', $ua, $match)) {
 					switch($match[1]) {
-						case '17':			$this->browser->version = new Version(array('value' => '4.0')); break;
-						case '19':			$this->browser->version = new Version(array('value' => '4.1')); break;
-						case '22':			$this->browser->version = new Version(array('value' => '4.2')); break;
+						case '17':			$this->browser->version = new Version([ 'value' => '4.0' ]); break;
+						case '19':			$this->browser->version = new Version([ 'value' => '4.1' ]); break;
+						case '22':			$this->browser->version = new Version([ 'value' => '4.2' ]); break;
 						default:			unset($this->browser->version);
 					}
 				}
@@ -6214,6 +6206,22 @@
 				unset($this->os->version);
 				unset($this->device->flag);
 			}
+
+
+			if (isset($this->os->name)) {
+				if ($this->os->name == 'Android' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'Android Browser';
+				}
+
+				if ($this->os->name == 'Google TV' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'Chrome';
+				}
+
+				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
+					$this->browser->hidden = true;
+				}
+			}
+
 
 
 			if ($this->device->type == TYPE_BOT) {
@@ -6536,17 +6544,27 @@
 			);
 
 			foreach ($list as $m => $v) {
-				$match = false;
-				if (substr($m, -1) == "!")
-					$match = preg_match('/^' . substr($m, 0, -1) . '/iu', $model);
-				else
-					$match = strtolower($m) == strtolower($model);
+				$match = null;
+
+				if (DeviceModels::hasMatch($m, $model)) {
+					if (substr($m, -2) == "!!") {
+						foreach ($v as $m2 => $v2) {
+							if (DeviceModels::hasMatch($m2, $model)) {
+								$match = $v2;
+								continue;
+							}
+						}
+					}
+					else {
+						$match = $v;
+					}
+				}
 
 				if ($match) {
- 					$device->manufacturer = $v[0];
-					$device->model = $v[1];
-					if (isset($v[2])) $device->type = $v[2];
-					if (isset($v[3])) $device->flag = $v[3];
+ 					$device->manufacturer = $match[0];
+					$device->model = $match[1];
+					if (isset($match[2])) $device->type = $match[2];
+					if (isset($match[3])) $device->flag = $match[3];
 					$device->identified = ID_MATCH_UA;
 
 					if ($device->manufacturer == null && $device->model == null) {
@@ -6558,6 +6576,15 @@
 			}
 
 			return $device;
+		}
+
+		static function hasMatch($pattern, $model) {
+			if (substr($pattern, -2) == "!!")
+				return !! preg_match('/^' . substr($pattern, 0, -2) . '/iu', $model);
+			else if (substr($pattern, -1) == "!")
+				return !! preg_match('/^' . substr($pattern, 0, -1) . '/iu', $model);
+			else
+				return strtolower($pattern) == strtolower($model);
 		}
 
 		static function cleanup($s = '') {

@@ -1,6 +1,6 @@
 <?php
 
-		Manufacturers::$TELEVISION = array(
+		Manufacturers::$TELEVISION = [
 			'BANGOLUFSEN'								=> 'Bang & Olufsen',
 			'CHANGHONG'									=> 'Changhong',
 			'inverto'									=> 'Inverto',
@@ -17,4 +17,4 @@
 			'THOMSON'									=> 'Thomson',
 			'tv2n'										=> 'TV2N',
 			'VESTEL'									=> 'Vestel'
-		);
+		];
