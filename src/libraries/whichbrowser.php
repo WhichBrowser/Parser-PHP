@@ -6083,30 +6083,30 @@
 
 				if (preg_match('/Presto\/([0-9]+\.[0-9]+)/u', $ua, $match)) {
 					switch($match[1]) {
-						case '2.12':		$this->browser->version = new Version(array('value' => '3.4')); break;
-						case '2.11':		$this->browser->version = new Version(array('value' => '3.3')); break;
-						case '2.10':		$this->browser->version = new Version(array('value' => '3.2')); break;
-						case '2.9':			$this->browser->version = new Version(array('value' => '3.1')); break;
-						case '2.8':			$this->browser->version = new Version(array('value' => '3.0')); break;
-						case '2.7':			$this->browser->version = new Version(array('value' => '2.9')); break;
-						case '2.6':			$this->browser->version = new Version(array('value' => '2.8')); break;
-						case '2.4':			$this->browser->version = new Version(array('value' => '10.3')); break;
-						case '2.3':			$this->browser->version = new Version(array('value' => '10')); break;
-						case '2.2':			$this->browser->version = new Version(array('value' => '9.7')); break;
-						case '2.1':			$this->browser->version = new Version(array('value' => '9.6')); break;
+						case '2.12':		$this->browser->version = new Version([ 'value' => '3.4' ]); break;
+						case '2.11':		$this->browser->version = new Version([ 'value' => '3.3' ]); break;
+						case '2.10':		$this->browser->version = new Version([ 'value' => '3.2' ]); break;
+						case '2.9':			$this->browser->version = new Version([ 'value' => '3.1' ]); break;
+						case '2.8':			$this->browser->version = new Version([ 'value' => '3.0' ]); break;
+						case '2.7':			$this->browser->version = new Version([ 'value' => '2.9' ]); break;
+						case '2.6':			$this->browser->version = new Version([ 'value' => '2.8' ]); break;
+						case '2.4':			$this->browser->version = new Version([ 'value' => '10.3' ]); break;
+						case '2.3':			$this->browser->version = new Version([ 'value' => '10' ]); break;
+						case '2.2':			$this->browser->version = new Version([ 'value' => '9.7' ]); break;
+						case '2.1':			$this->browser->version = new Version([ 'value' => '9.6' ]); break;
 						default:			unset($this->browser->version);
 					}
 				}
 
 				else if (preg_match('/OMI\/([0-9]+\.[0-9]+)/u', $ua, $match)) {
-					$this->browser->version = new Version(array('value' => $match[1]));
+					$this->browser->version = new Version([ 'value' => $match[1] ]);
 				}
 
 				else if (preg_match('/OPR\/([0-9]+)/u', $ua, $match)) {
 					switch($match[1]) {
-						case '17':			$this->browser->version = new Version(array('value' => '4.0')); break;
-						case '19':			$this->browser->version = new Version(array('value' => '4.1')); break;
-						case '22':			$this->browser->version = new Version(array('value' => '4.2')); break;
+						case '17':			$this->browser->version = new Version([ 'value' => '4.0' ]); break;
+						case '19':			$this->browser->version = new Version([ 'value' => '4.1' ]); break;
+						case '22':			$this->browser->version = new Version([ 'value' => '4.2' ]); break;
 						default:			unset($this->browser->version);
 					}
 				}
