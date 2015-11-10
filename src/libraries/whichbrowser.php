@@ -6544,17 +6544,27 @@
 			);
 
 			foreach ($list as $m => $v) {
-				$match = false;
-				if (substr($m, -1) == "!")
-					$match = preg_match('/^' . substr($m, 0, -1) . '/iu', $model);
-				else
-					$match = strtolower($m) == strtolower($model);
+				$match = null;
+
+				if (DeviceModels::hasMatch($m, $model)) {
+					if (substr($m, -2) == "!!") {
+						foreach ($v as $m2 => $v2) {
+							if (DeviceModels::hasMatch($m2, $model)) {
+								$match = $v2;
+								continue;
+							}
+						}
+					}
+					else {
+						$match = $v;
+					}
+				}
 
 				if ($match) {
- 					$device->manufacturer = $v[0];
-					$device->model = $v[1];
-					if (isset($v[2])) $device->type = $v[2];
-					if (isset($v[3])) $device->flag = $v[3];
+ 					$device->manufacturer = $match[0];
+					$device->model = $match[1];
+					if (isset($match[2])) $device->type = $match[2];
+					if (isset($match[3])) $device->flag = $match[3];
 					$device->identified = ID_MATCH_UA;
 
 					if ($device->manufacturer == null && $device->model == null) {
@@ -6566,6 +6576,15 @@
 			}
 
 			return $device;
+		}
+
+		static function hasMatch($pattern, $model) {
+			if (substr($pattern, -2) == "!!")
+				return !! preg_match('/^' . substr($pattern, 0, -2) . '/iu', $model);
+			else if (substr($pattern, -1) == "!")
+				return !! preg_match('/^' . substr($pattern, 0, -1) . '/iu', $model);
+			else
+				return strtolower($pattern) == strtolower($model);
 		}
 
 		static function cleanup($s = '') {
