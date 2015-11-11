@@ -3,7 +3,7 @@
 	$location = '';
 	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR) !== false) $location = 'installed';
 	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "dist" . DIRECTORY_SEPARATOR . "testrunner") !== false) $location = 'dist';
-	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "tests" . DIRECTORY_SEPARATOR) !== false) $location = 'local';
+	if (strpos(__FILE__, DIRECTORY_SEPARATOR . "src" . DIRECTORY_SEPARATOR . "testrunner") !== false) $location = 'local';
 
 	switch($location) {
 		case 'installed': 	include_once(dirname(__FILE__) . '/../../autoload.php');
