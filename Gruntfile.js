@@ -10,15 +10,15 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/whichbrowser/' },
-          { expand: true, cwd: 'tests/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
-          { expand: true, cwd: 'tests', src: ['runner.php'], dest: 'dist/testrunner/' },
+          { expand: true, cwd: 'src/whichbrowser', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'src/testrunner/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
+          { expand: true, cwd: 'src/testrunner', src: ['runner.php'], dest: 'dist/testrunner/' },
         ]
       },
     	release: {
 			  files: [
-				  { expand: true, cwd: 'src', src: ['bower.json', 'composer.json'], dest: 'dist/whichbrowser/' },
-          { expand: true, cwd: 'tests', src: ['composer.json'], dest: 'dist/testrunner/' },
+				  { expand: true, cwd: 'src/whichbrowser', src: ['bower.json', 'composer.json'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'src/testrunner', src: ['composer.json'], dest: 'dist/testrunner/' },
 			  ]
       },
       deploy: {
@@ -34,8 +34,8 @@ module.exports = function(grunt) {
       },
       generate: {
         files: {
-            'src/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php',
-            'src/data/id-android.php': 'http://api.whichbrowser.net/resources/id-android.php'
+            'src/whichbrowser/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php',
+            'src/whichbrowser/data/id-android.php': 'http://api.whichbrowser.net/resources/id-android.php'
         }
       }
     },
@@ -104,7 +104,7 @@ module.exports = function(grunt) {
     php: {
         start: {
             options: {
-                base: 'src',
+                base: 'src/whichbrowser',
                 port: 8080,
                 keepalive: true,
                 open: true
@@ -127,12 +127,12 @@ module.exports = function(grunt) {
       },
 
       compare: {
-        cwd: 'tests',
+        cwd: 'src/testrunner',
         cmd: 'php -f runner.php compare'
       },
 
       rebase: {
-        cwd: 'tests',
+        cwd: 'src/testrunner',
         cmd: 'php -f runner.php rebase'
       }
     }

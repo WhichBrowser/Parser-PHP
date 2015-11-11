@@ -11,14 +11,10 @@
 							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
 							break;
 
+		case 'local':
 		case 'dist': 		include_once(dirname(__FILE__) . '/../../vendor/autoload.php');
 							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/utilities.php');
 							include_once(dirname(__FILE__) . '/../whichbrowser/libraries/whichbrowser.php');
-							break;
-
-		case 'local': 		include_once(dirname(__FILE__) . '/../vendor/autoload.php');
-							include_once(dirname(__FILE__) . '/../src/libraries/utilities.php');
-							include_once(dirname(__FILE__) . '/../src/libraries/whichbrowser.php');
 							break;
 
 		default:			echo "\033[0;31mCannot determine what kind of enviroment we are running in. Aborted!\033[0m\n\n";
