@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		BuildIds::$ANDROID_BUILDS = [
 			'CUPCAKE'		=> '1.5',

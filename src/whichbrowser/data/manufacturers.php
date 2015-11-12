@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		Manufacturers::$TELEVISION = [
 			'BANGOLUFSEN'								=> 'Bang & Olufsen',

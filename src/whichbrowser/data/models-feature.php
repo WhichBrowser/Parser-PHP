@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$FEATURE_MODELS = [
 			'EF71'										=> [ 'BenQ-Siemens', 'EF71' ],

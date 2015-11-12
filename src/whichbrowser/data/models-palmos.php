@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$PALMOS_MODELS = [
 			'Palm-D050'								=> [ 'Palm', 'TX' ],

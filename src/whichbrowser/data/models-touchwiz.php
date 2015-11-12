@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$TOUCHWIZ_MODELS = [
 			'GT-B5310!'									=> [ 'Samsung', 'Corby Pro' ],

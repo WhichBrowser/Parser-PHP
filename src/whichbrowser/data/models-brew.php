@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$BREW_MODELS = [
 			'Coolpad D508'								=> [ 'Coolpad', 'D508' ],

@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$BLACKBERRY_MODELS = [
 			'9000'		=> 'Bold',

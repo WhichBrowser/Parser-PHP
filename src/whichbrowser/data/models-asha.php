@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$ASHA_MODELS = [
 			'Asha230SingleSIM'							=> [ 'Nokia', 'Asha 230' ],

@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$FIREFOXOS_MODELS = [
 			'ALCATEL ONE TOUCH FIRE'					=> [ 'Alcatel', 'One Touch Fire' ],

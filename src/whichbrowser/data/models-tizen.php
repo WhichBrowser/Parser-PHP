@@ -1,6 +1,6 @@
 <?php
 
-		namespace WhichBrowser;
+		namespace WhichBrowser\Data;
 
 		DeviceModels::$TIZEN_MODELS = [
 			'Baltic'									=> [ 'Samsung', '"Baltic"' ],
