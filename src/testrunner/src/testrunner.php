@@ -114,7 +114,7 @@
 				}
 
 				foreach($rules as $rule) {
-					$detected = new WhichBrowser(array('headers' => http_parse_headers($rule['headers'])));
+					$detected = new Parser(array('headers' => http_parse_headers($rule['headers'])));
 
 					$result[] = array(
 						'headers' 	=> trim($rule['headers']),
