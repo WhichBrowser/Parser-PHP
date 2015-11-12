@@ -10,9 +10,9 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src/whichbrowser', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'src/whichbrowser', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**', 'src/**'], dest: 'dist/whichbrowser/' },
           { expand: true, cwd: 'src/testrunner/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
-          { expand: true, cwd: 'src/testrunner', src: ['runner.php'], dest: 'dist/testrunner/' },
+          { expand: true, cwd: 'src/testrunner', src: ['runner.php', 'src/**'], dest: 'dist/testrunner/' },
         ]
       },
     	release: {
