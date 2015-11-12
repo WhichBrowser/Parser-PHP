@@ -2,18 +2,45 @@
 
 	namespace WhichBrowser;
 
-	class Version {
-		var $value = null;
 
-		public function __construct($options = null) {
-			if (is_array($options)) {
-				if (isset($options['value'])) $this->value = $options['value'];
-				if (isset($options['alias'])) $this->alias = $options['alias'];
-				if (isset($options['nickname'])) $this->nickname = $options['nickname'];
-				if (isset($options['details'])) $this->details = $options['details'];
-				if (isset($options['hidden'])) $this->hidden = $options['hidden'];
+	class Primitive {
+		public function __construct($defaults = null) {
+			if (is_array($defaults)) {
+				foreach ($defaults as $k => $v) {
+					$this->{$k} = $v;
+				}
 			}
 		}
+	}
+
+
+	class Browser extends Primitive {
+		var $stock = true;
+		var $hidden = false;
+		var $channel = '';
+		var $mode = '';
+	}
+
+
+	class Engine extends Primitive {
+
+	}
+
+
+	class Os extends Primitive {
+
+	}
+
+
+	class Device extends Primitive {
+		var $type = '';
+		var $identified = ID_NONE;
+		var $generic = true;
+	}
+
+
+	class Version extends Primitive {
+		var $value = null;
 
 		public function is() {
 			$valid = false;

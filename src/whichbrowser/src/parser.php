@@ -14,10 +14,10 @@
 			$this->headers = [];
 			if (isset($this->options->headers)) $this->headers = $this->options->headers;
 
-			$this->browser = (object) [ 'stock' => true, 'hidden' => false, 'channel' => '', 'mode' => '' ];
-			$this->engine = (object) [];
-			$this->os = (object) [];
-			$this->device = (object) [ 'type' => '', 'identified' => ID_NONE, 'generic' => true ];
+			$this->browser = new Browser();
+			$this->engine = new Engine();
+			$this->os = new Os();
+			$this->device = new Device();
 
 			$this->camouflage = false;
 			$this->features = [];

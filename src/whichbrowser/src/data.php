@@ -2,7 +2,8 @@
 
 	namespace WhichBrowser\Data;
 	
-	use WhichBrowser\Version as Version;
+	use WhichBrowser\Version;
+	use WhichBrowser\Device;
 	
 
 	class BrowserIds {
@@ -123,13 +124,13 @@
 			if (!$result->identified) {
 				$model = self::cleanup($model);
 				if (preg_match('/AndroVM/iu', $model)  || $model == 'Emulator' || $model == 'x86 Emulator' || $model == 'x86 VirtualBox' || $model == 'vm') {
-					return (object) [
+					return new Device([
 						'type'			=> TYPE_EMULATOR,
 						'identified'	=> ID_PATTERN,
 						'manufacturer'	=> null,
 						'model'			=> null,
 						'generic'		=> false
-					];
+					]);
 				}
 			}
 
@@ -137,13 +138,13 @@
 		}
 
 		static function identifyBlackBerry($model) {
-			$device = (object) [
+			$device = new Device ([
 				'type'			=> TYPE_MOBILE,
 				'identified'	=> ID_PATTERN,
 				'manufacturer'	=> 'RIM',
 				'model'			=> 'BlackBerry ' . $model,
 				'generic'		=> false
-			];
+			]);
 
 			if (isset(self::$BLACKBERRY_MODELS[$model])) {
 				$device->model = 'BlackBerry ' . self::$BLACKBERRY_MODELS[$model] . ' ' . $model;
@@ -158,14 +159,14 @@
 
 			if ($cleanup) $model = self::cleanup($model);
 
-			$device = (object) [
+			$device = new Device ([
 				'type'			=> TYPE_MOBILE,
 				'identified'	=> ID_NONE,
 				'manufacturer'	=> null,
 				'model'			=> $model,
 				'identifier'	=> $original,
 				'generic'		=> false
-			];
+			]);
 
 			foreach ($list as $m => $v) {
 				$match = null;
