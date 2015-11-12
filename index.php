@@ -151,7 +151,7 @@
 				After the script has been loaded, you need to create a new WhichBrowser object, which you can query for details about the browser that is currently being used:
 			</p>
 			
-			<div id='example'></pre>
+			<div id='example'></div>
 
 			<script>
 	
