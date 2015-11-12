@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$ANDROID_MODELS = [
 
 			/* Generic identifiers */

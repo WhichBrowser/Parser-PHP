@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$WINDOWS_MOBILE_MODELS = [
 			'DX900'										=> [ 'Acer', 'Tempo DX900' ],
 			'F900'										=> [ 'Acer', 'Tempo F900' ],

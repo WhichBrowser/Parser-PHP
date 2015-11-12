@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$IOS_MODELS = [
 		
 			/* Generic names */

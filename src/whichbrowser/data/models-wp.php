@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$WINDOWS_PHONE_MODELS = [
 			'Allegro'									=> [ 'Acer', 'Allegro' ],
 			'M310'										=> [ 'Acer', 'Allegro' ],

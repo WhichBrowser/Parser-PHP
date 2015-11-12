@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		BuildIds::$ANDROID_BUILDS = [
 			'CUPCAKE'		=> '1.5',
 			'DONUT'			=> '1.6',

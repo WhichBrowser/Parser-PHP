@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$S60_MODELS = [
 			'M600i'										=> [ 'Sony Ericsson', 'M600i' ],
 			'U 1'										=> [ 'Sony Ericsson', 'Satio' ],

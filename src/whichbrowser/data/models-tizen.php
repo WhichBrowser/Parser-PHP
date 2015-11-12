@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$TIZEN_MODELS = [
 			'Baltic'									=> [ 'Samsung', '"Baltic"' ],
 			'SM-HIGGS'									=> [ 'Samsung', '"Higgs"' ],

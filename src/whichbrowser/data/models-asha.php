@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$ASHA_MODELS = [
 			'Asha230SingleSIM'							=> [ 'Nokia', 'Asha 230' ],
 			'Asha230DualSIM'							=> [ 'Nokia', 'Asha 230' ],

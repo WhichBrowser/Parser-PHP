@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		Manufacturers::$TELEVISION = [
 			'BANGOLUFSEN'								=> 'Bang & Olufsen',
 			'CHANGHONG'									=> 'Changhong',

@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$FEATURE_MODELS = [
 			'EF71'										=> [ 'BenQ-Siemens', 'EF71' ],
 			'CK13[ai]?!'								=> [ 'Sony Ericsson', 'txt' ],

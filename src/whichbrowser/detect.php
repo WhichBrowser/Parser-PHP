@@ -5,8 +5,8 @@
 	header("Pragma: no-cache");
 	header("Expires: 0"); 
 
-	include_once('libraries/utilities.php');
-	include_once('libraries/whichbrowser.php');
+	include_once('src/polyfills.php');
+	include_once('src/parser.php');
 		
 	$options = array('headers' => getallheaders());
 	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
@@ -14,7 +14,7 @@
 	if (isset($_REQUEST['f'])) $options['features'] = intval($_REQUEST['f']);
 	if (isset($_REQUEST['w'])) $options['width'] = intval($_REQUEST['w']);
 	if (isset($_REQUEST['h'])) $options['height'] = intval($_REQUEST['h']);
-	$detected = new WhichBrowser($options);
+	$detected = new WhichBrowser\Parser($options);
 	
 ?>
 	

@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$S40_MODELS = [
 			'C1-01!'									=> [ 'Nokia', 'C1-01' ],
 			'C1-02!'									=> [ 'Nokia', 'C1-02' ],

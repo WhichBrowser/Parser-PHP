@@ -1,5 +1,7 @@
 <?php
 
+		namespace WhichBrowser;
+
 		DeviceModels::$BADA_MODELS = [
 			'GT- ?S52(50|53)!'							=> [ 'Samsung', 'Wave 525' ],
 			'GT-S53(30|33)!'							=> [ 'Samsung', 'Wave 533' ],
