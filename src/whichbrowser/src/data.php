@@ -12,7 +12,7 @@
 			require_once __DIR__ . '/../data/id-' . $type . '.php';
 
 			switch($type) {
-				case 'android':		return BrowserIds::identifyList(BrowserIds::$ANDROID_BROWSERS, $model);
+				case 'android':		return self::identifyList(BrowserIds::$ANDROID_BROWSERS, $model);
 			}
 
 			return false;
@@ -34,7 +34,7 @@
 			require_once __DIR__ . '/../data/build-' . $type . '.php';
 
 			switch($type) {
-				case 'android':		return BuildIds::identifyList(BuildIds::$ANDROID_BUILDS, $id);
+				case 'android':		return self::identifyList(BuildIds::$ANDROID_BUILDS, $id);
 			}
 
 			return false;
@@ -60,7 +60,7 @@
 
 			require_once __DIR__ . '/../data/manufacturers.php';
 
-			if (isset(Manufacturers::$TELEVISION[$name])) return Manufacturers::$TELEVISION[$name];
+			if (isset(Manufacturers::$TELEVISION[$name])) return self::$TELEVISION[$name];
 			return $name;
 		}
 	}
@@ -88,22 +88,22 @@
 			require_once __DIR__ . '/../data/models-' . $type . '.php';
 
 			switch($type) {
-				case 'android':		return DeviceModels::identifyAndroid($model);
-				case 'asha': 		return DeviceModels::identifyList(DeviceModels::$ASHA_MODELS, $model);
-				case 'bada': 		return DeviceModels::identifyList(DeviceModels::$BADA_MODELS, $model);
-				case 'blackberry':	return DeviceModels::identifyBlackBerry($model);
-				case 'brew': 		return DeviceModels::identifyList(DeviceModels::$BREW_MODELS, $model);
-				case 'firefoxos': 	return DeviceModels::identifyList(DeviceModels::$FIREFOXOS_MODELS, $model, false);
-				case 'ios':			return DeviceModels::identifyIOS($model);
-				case 'tizen': 		return DeviceModels::identifyList(DeviceModels::$TIZEN_MODELS, $model);
-				case 'touchwiz': 	return DeviceModels::identifyList(DeviceModels::$TOUCHWIZ_MODELS, $model);
-				case 'wm': 			return DeviceModels::identifyList(DeviceModels::$WINDOWS_MOBILE_MODELS, $model);
-				case 'wp': 			return DeviceModels::identifyList(DeviceModels::$WINDOWS_PHONE_MODELS, $model);
-				case 's30': 		return DeviceModels::identifyList(DeviceModels::$S30_MODELS, $model);
-				case 's40': 		return DeviceModels::identifyList(DeviceModels::$S40_MODELS, $model);
-				case 's60': 		return DeviceModels::identifyList(DeviceModels::$S60_MODELS, $model);
-				case 'palmos': 		return DeviceModels::identifyList(DeviceModels::$PALMOS_MODELS, $model);
-				case 'feature': 	return DeviceModels::identifyList(DeviceModels::$FEATURE_MODELS, $model);
+				case 'android':		return self::identifyAndroid($model);
+				case 'asha': 		return self::identifyList(self::$ASHA_MODELS, $model);
+				case 'bada': 		return self::identifyList(self::$BADA_MODELS, $model);
+				case 'blackberry':	return self::identifyBlackBerry($model);
+				case 'brew': 		return self::identifyList(self::$BREW_MODELS, $model);
+				case 'firefoxos': 	return self::identifyList(self::$FIREFOXOS_MODELS, $model, false);
+				case 'ios':			return self::identifyIOS($model);
+				case 'tizen': 		return self::identifyList(self::$TIZEN_MODELS, $model);
+				case 'touchwiz': 	return self::identifyList(self::$TOUCHWIZ_MODELS, $model);
+				case 'wm': 			return self::identifyList(self::$WINDOWS_MOBILE_MODELS, $model);
+				case 'wp': 			return self::identifyList(self::$WINDOWS_PHONE_MODELS, $model);
+				case 's30': 		return self::identifyList(self::$S30_MODELS, $model);
+				case 's40': 		return self::identifyList(self::$S40_MODELS, $model);
+				case 's60': 		return self::identifyList(self::$S60_MODELS, $model);
+				case 'palmos': 		return self::identifyList(self::$PALMOS_MODELS, $model);
+				case 'feature': 	return self::identifyList(self::$FEATURE_MODELS, $model);
 			}
 
 			return (object) [ 'type' => '', 'model' => $model, 'identified' => ID_NONE ];
@@ -114,14 +114,14 @@
 			$model = preg_replace("/iPh([0-9],[0-9])/", 'iPhone\\1', $model);
 			$model = preg_replace("/iPd([0-9],[0-9])/", 'iPod\\1', $model);
 
-			return DeviceModels::identifyList(DeviceModels::$IOS_MODELS, $model);
+			return self::identifyList(self::$IOS_MODELS, $model);
 		}
 
 		static function identifyAndroid($model) {
-			$result = DeviceModels::identifyList(DeviceModels::$ANDROID_MODELS, $model);
+			$result = self::identifyList(self::$ANDROID_MODELS, $model);
 
 			if (!$result->identified) {
-				$model = DeviceModels::cleanup($model);
+				$model = self::cleanup($model);
 				if (preg_match('/AndroVM/iu', $model)  || $model == 'Emulator' || $model == 'x86 Emulator' || $model == 'x86 VirtualBox' || $model == 'vm') {
 					return (object) [
 						'type'			=> TYPE_EMULATOR,
@@ -145,8 +145,8 @@
 				'generic'		=> false
 			];
 
-			if (isset(DeviceModels::$BLACKBERRY_MODELS[$model])) {
-				$device->model = 'BlackBerry ' . DeviceModels::$BLACKBERRY_MODELS[$model] . ' ' . $model;
+			if (isset(self::$BLACKBERRY_MODELS[$model])) {
+				$device->model = 'BlackBerry ' . self::$BLACKBERRY_MODELS[$model] . ' ' . $model;
 				$device->identified |= ID_MATCH_UA;
 			}
 
@@ -156,7 +156,7 @@
 		static function identifyList($list, $model, $cleanup = true) {
 			$original = $model;
 
-			if ($cleanup) $model = DeviceModels::cleanup($model);
+			if ($cleanup) $model = self::cleanup($model);
 
 			$device = (object) [
 				'type'			=> TYPE_MOBILE,
@@ -170,10 +170,10 @@
 			foreach ($list as $m => $v) {
 				$match = null;
 
-				if (DeviceModels::hasMatch($m, $model)) {
+				if (self::hasMatch($m, $model)) {
 					if (substr($m, -2) == "!!") {
 						foreach ($v as $m2 => $v2) {
-							if (DeviceModels::hasMatch($m2, $model)) {
+							if (self::hasMatch($m2, $model)) {
 								$match = $v2;
 								continue;
 							}
@@ -282,8 +282,8 @@
 		static function identify($url) {
 			require_once __DIR__ . '/../data/profiles.php';
 
-			if (isset(DeviceProfiles::$PROFILES[$url])) {
-				return DeviceProfiles::$PROFILES[$url];
+			if (isset(self::$PROFILES[$url])) {
+				return self::$PROFILES[$url];
 			}
 
 			return false;
