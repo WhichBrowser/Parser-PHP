@@ -6,7 +6,7 @@
 	
 
 	class BrowserIds {
-		static $ANDROID_BROWSERS = array();
+		static $ANDROID_BROWSERS = [];
 
 		static function identify($type, $model) {
 			require_once __DIR__ . '/../data/id-' . $type . '.php';
@@ -28,7 +28,7 @@
 	}
 
 	class BuildIds {
-		static $ANDROID_BUILDS = array();
+		static $ANDROID_BUILDS = [];
 
 		static function identify($type, $id) {
 			require_once __DIR__ . '/../data/build-' . $type . '.php';
@@ -45,7 +45,7 @@
 				if (is_array($list[$id]))
 					return new Version($list[$id]);
 				else
-					return new Version(array('value' => $list[$id]));
+					return new Version([ 'value' => $list[$id] ]);
 			}
 
 			return false;
@@ -53,7 +53,7 @@
 	}
 
 	class Manufacturers {
-		static $TELEVISION = array();
+		static $TELEVISION = [];
 
 		static function identify($type, $name) {
 			$name = preg_replace('/^CUS\:/u', '', trim($name));
@@ -66,22 +66,22 @@
 	}
 
 	class DeviceModels {
-		static $ANDROID_MODELS = array();
-		static $ASHA_MODELS = array();
-		static $BADA_MODELS = array();
-		static $BREW_MODELS = array();
-		static $FIREFOXOS_MODELS = array();
-		static $TIZEN_MODELS = array();
-		static $TOUCHWIZ_MODELS = array();
-		static $WINDOWS_MOBILE_MODELS = array();
-		static $WINDOWS_PHONE_MODELS = array();
-		static $PALMOS_MODELS = array();
-		static $S30_MODELS = array();
-		static $S40_MODELS = array();
-		static $S60_MODELS = array();
-		static $FEATURE_MODELS = array();
-		static $BLACKBERRY_MODELS = array();
-		static $IOS_MODELS = array();
+		static $ANDROID_MODELS = [];
+		static $ASHA_MODELS = [];
+		static $BADA_MODELS = [];
+		static $BREW_MODELS = [];
+		static $FIREFOXOS_MODELS = [];
+		static $TIZEN_MODELS = [];
+		static $TOUCHWIZ_MODELS = [];
+		static $WINDOWS_MOBILE_MODELS = [];
+		static $WINDOWS_PHONE_MODELS = [];
+		static $PALMOS_MODELS = [];
+		static $S30_MODELS = [];
+		static $S40_MODELS = [];
+		static $S60_MODELS = [];
+		static $FEATURE_MODELS = [];
+		static $BLACKBERRY_MODELS = [];
+		static $IOS_MODELS = [];
 
 
 		static function identify($type, $model) {
@@ -106,7 +106,7 @@
 				case 'feature': 	return DeviceModels::identifyList(DeviceModels::$FEATURE_MODELS, $model);
 			}
 
-			return (object) array('type' => '', 'model' => $model, 'identified' => ID_NONE);
+			return (object) [ 'type' => '', 'model' => $model, 'identified' => ID_NONE ];
 		}
 
 		static function identifyIOS($model) {
@@ -123,13 +123,13 @@
 			if (!$result->identified) {
 				$model = DeviceModels::cleanup($model);
 				if (preg_match('/AndroVM/iu', $model)  || $model == 'Emulator' || $model == 'x86 Emulator' || $model == 'x86 VirtualBox' || $model == 'vm') {
-					return (object) array(
+					return (object) [
 						'type'			=> TYPE_EMULATOR,
 						'identified'	=> ID_PATTERN,
 						'manufacturer'	=> null,
 						'model'			=> null,
 						'generic'		=> false
-					);
+					];
 				}
 			}
 
@@ -137,13 +137,13 @@
 		}
 
 		static function identifyBlackBerry($model) {
-			$device = (object) array(
+			$device = (object) [
 				'type'			=> TYPE_MOBILE,
 				'identified'	=> ID_PATTERN,
 				'manufacturer'	=> 'RIM',
 				'model'			=> 'BlackBerry ' . $model,
 				'generic'		=> false
-			);
+			];
 
 			if (isset(DeviceModels::$BLACKBERRY_MODELS[$model])) {
 				$device->model = 'BlackBerry ' . DeviceModels::$BLACKBERRY_MODELS[$model] . ' ' . $model;
@@ -158,14 +158,14 @@
 
 			if ($cleanup) $model = DeviceModels::cleanup($model);
 
-			$device = (object) array(
+			$device = (object) [
 				'type'			=> TYPE_MOBILE,
 				'identified'	=> ID_NONE,
 				'manufacturer'	=> null,
 				'model'			=> $model,
 				'identifier'	=> $original,
 				'generic'		=> false
-			);
+			];
 
 			foreach ($list as $m => $v) {
 				$match = null;
@@ -277,7 +277,7 @@
 
 
 	class DeviceProfiles {
-		static $PROFILES = array();
+		static $PROFILES = [];
 
 		static function identify($url) {
 			require_once __DIR__ . '/../data/profiles.php';
