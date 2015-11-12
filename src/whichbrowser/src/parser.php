@@ -8,6 +8,7 @@
 	include_once 'data.php';
 
 	class Parser extends ParserEngine {
+		
 		public function __construct($options) {
 			$this->browser = new Browser();
 			$this->engine = new Engine();
@@ -17,6 +18,30 @@
 			$this->features = [];
 
 			parent::__construct($options);
+		}
+
+		public function isBrowser() {
+
+		}
+
+		public function isEngine() {
+
+		}
+
+		public function isOs() {
+
+		}
+
+		public function isDevice() {
+
+		}
+
+		public function isType() {
+
+		}
+
+		public function toString() {
+
 		}
 
 		public function toJavaScript() {

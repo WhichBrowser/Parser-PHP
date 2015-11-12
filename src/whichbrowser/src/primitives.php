@@ -43,6 +43,11 @@
 		var $hidden = false;
 		var $channel = '';
 		var $mode = '';
+
+		public function toString() {
+			
+		}
+
 		public function toArray() {
 			$result = [];
 
@@ -56,6 +61,10 @@
 
 
 	class Engine extends Primitive {
+		public function toString() {
+			
+		}
+
 		public function toArray() {
 			$result = [];
 
@@ -68,6 +77,10 @@
 
 
 	class Os extends Primitive {
+		public function toString() {
+			
+		}
+
 		public function toArray() {
 			$result = [];
 
@@ -85,6 +98,11 @@
 		var $type = '';
 		var $identified = ID_NONE;
 		var $generic = true;
+
+		public function toString() {
+			
+		}
+
 		public function toArray() {
 			$result = [];
 
@@ -161,6 +179,10 @@
 
 		public function toNumber() {
 			return intval($this->value);
+		}
+
+		public function toString() {
+			
 		}
 
 		public function toArray() {
