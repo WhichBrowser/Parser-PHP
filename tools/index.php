@@ -95,7 +95,7 @@
 					error_reporting(E_ALL);
 					ini_set('display_errors', true);
 
-					include('../src/whichbrowser/libraries/whichbrowser.php');
+					include('../src/whichbrowser/src/parser.php');
 
 					$headers = array();
 					if (isset($_REQUEST['useragent']) && $_REQUEST['useragent'] != '') $headers['User-Agent'] = $_REQUEST['useragent'];
@@ -112,7 +112,7 @@
 
 					if (count($headers)) {
 						$options = array('headers' => $headers);
-						$detected = new WhichBrowser($options);
+						$detected = new WhichBrowser\Parser($options);
 
 						echo "{\n";
 						if (isset($detected->browser)) echo "\tbrowser: " . htmlentities(json_encode($detected->browser)) . "\n";
