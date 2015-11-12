@@ -9,7 +9,7 @@
 		static $ANDROID_BROWSERS = array();
 
 		static function identify($type, $model) {
-			require_once(__DIR__ . '/../data/id-' . $type . '.php');
+			require_once __DIR__ . '/../data/id-' . $type . '.php';
 
 			switch($type) {
 				case 'android':		return BrowserIds::identifyList(BrowserIds::$ANDROID_BROWSERS, $model);
@@ -31,7 +31,7 @@
 		static $ANDROID_BUILDS = array();
 
 		static function identify($type, $id) {
-			require_once(__DIR__ . '/../data/build-' . $type . '.php');
+			require_once __DIR__ . '/../data/build-' . $type . '.php';
 
 			switch($type) {
 				case 'android':		return BuildIds::identifyList(BuildIds::$ANDROID_BUILDS, $id);
@@ -58,7 +58,7 @@
 		static function identify($type, $name) {
 			$name = preg_replace('/^CUS\:/u', '', trim($name));
 
-			require_once(__DIR__ . '/../data/manufacturers.php');
+			require_once __DIR__ . '/../data/manufacturers.php';
 
 			if (isset(Manufacturers::$TELEVISION[$name])) return Manufacturers::$TELEVISION[$name];
 			return $name;
@@ -85,7 +85,7 @@
 
 
 		static function identify($type, $model) {
-			require_once(__DIR__ . '/../data/models-' . $type . '.php');
+			require_once __DIR__ . '/../data/models-' . $type . '.php';
 
 			switch($type) {
 				case 'android':		return DeviceModels::identifyAndroid($model);
@@ -280,7 +280,7 @@
 		static $PROFILES = array();
 
 		static function identify($url) {
-			require_once(__DIR__ . '/../data/profiles.php');
+			require_once __DIR__ . '/../data/profiles.php';
 
 			if (isset(DeviceProfiles::$PROFILES[$url])) {
 				return DeviceProfiles::$PROFILES[$url];
