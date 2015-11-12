@@ -6218,56 +6218,13 @@
 		}
 
 		public function toJavaScript() {
-			if (isset($this->browser)) {
-				echo "this.browser = new Browser({ ";
-				echo $this->toJavaScriptObject($this->browser);
-				echo " });\n";
-			}
-
-			if (isset($this->engine)) {
-				echo "this.engine = new Engine({ ";
-				echo $this->toJavaScriptObject($this->engine);
-				echo " });\n";
-			}
-
-			if (isset($this->os)) {
-				echo "this.os = new Os({ ";
-				echo $this->toJavaScriptObject($this->os);
-				echo " });\n";
-			}
-
-			if (isset($this->device)) {
-				echo "this.device = new Device({ ";
-				echo $this->toJavaScriptObject($this->device);
-				echo " });\n";
-			}
-
+			echo "this.browser = new Browser({ " . $this->browser->toJavaScript() . " });\n";
+			echo "this.engine = new Engine({ " . $this->engine->toJavaScript() . " });\n";
+			echo "this.engine = new Engine({ " . $this->engine->toJavaScript() . " });\n";
+			echo "this.os = new Os({ " . $this->os->toJavaScript() . " });\n";
+			echo "this.device = new Device({ " . $this->device->toJavaScript() . " });\n";
 			echo "this.camouflage = " . ($this->camouflage ? 'true' : 'false') . ";\n";
 			echo "this.features = " . json_encode($this->features) . ";\n";
-		}
-
-		private function toJavaScriptObject($object) {
-			$lines = [];
-
-			foreach ((array)$object as $key => $value) {
-				if (!is_null($value)) {
-					$line = $key . ": ";
-
-					if ($key == 'version') {
-						$line .= 'new Version({ ' . $this->toJavaScriptObject($value) . ' })';
-					} else {
-						switch(gettype($value)) {
-							case 'boolean':		$line .= $value ? 'true' : 'false'; break;
-							case 'string':		$line .= '"' . addslashes($value) . '"'; break;
-							case 'integer':		$line .= $value; break;
-						}
-					}
-
-					$lines[] = $line;
-				}
-			}
-
-			return implode($lines, ", ");
 		}
 
 		public function toArray() {
