@@ -19,16 +19,41 @@
 		var $hidden = false;
 		var $channel = '';
 		var $mode = '';
+		public function toArray() {
+			$result = [];
+
+			if (isset($this->name) && $this->name) $result['name'] = $this->name;
+			if (isset($this->alias) && $this->alias) $result['alias'] = $this->alias;
+			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+
+			return $result;
+		}
 	}
 
 
 	class Engine extends Primitive {
+		public function toArray() {
+			$result = [];
 
+			if (isset($this->name) && $this->name) $result['name'] = $this->name;
+			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+
+			return $result;
+		}
 	}
 
 
 	class Os extends Primitive {
+		public function toArray() {
+			$result = [];
 
+			if (isset($this->name) && $this->name) $result['name'] = $this->name;
+			if (isset($this->family) && $this->family) $result['family'] = $this->family;
+			if (isset($this->alias) && $this->alias) $result['alias'] = $this->alias;
+			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+
+			return $result;
+		}
 	}
 
 
@@ -36,6 +61,16 @@
 		var $type = '';
 		var $identified = ID_NONE;
 		var $generic = true;
+		public function toArray() {
+			$result = [];
+
+			if (isset($this->type) && $this->type) $result['type'] = $this->type;
+			if (isset($this->manufacturer) && $this->manufacturer) $result['manufacturer'] = $this->manufacturer;
+			if (isset($this->model) && $this->model) $result['model'] = $this->model;
+			if (isset($this->series) && $this->series) $result['series'] = $this->series;
+
+			return $result;
+		}
 	}
 
 

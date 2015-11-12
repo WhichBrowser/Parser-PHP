@@ -6271,36 +6271,12 @@
 		}
 
 		public function toArray() {
-			$result = [];
-
-			if (isset($this->browser)) {
-				$result['browser'] = [];
-				if (isset($this->browser->name) && $this->browser->name) $result['browser']['name'] = $this->browser->name;
-				if (isset($this->browser->alias) && $this->browser->alias) $result['browser']['alias'] = $this->browser->alias;
-				if (isset($this->browser->version) && $this->browser->version) $result['browser']['version'] = $this->browser->version->toArray();
-			}
-
-			if (isset($this->engine)) {
-				$result['engine'] = [];
-				if (isset($this->engine->name) && $this->engine->name) $result['engine']['name'] = $this->engine->name;
-				if (isset($this->engine->version) && $this->engine->version) $result['engine']['version'] = $this->engine->version->toArray();
-			}
-
-			if (isset($this->os)) {
-				$result['os'] = [];
-				if (isset($this->os->name) && $this->os->name) $result['os']['name'] = $this->os->name;
-				if (isset($this->os->alias) && $this->os->alias) $result['os']['alias'] = $this->os->alias;
-				if (isset($this->os->family) && $this->os->family) $result['os']['family'] = $this->os->family;
-				if (isset($this->os->version) && $this->os->version) $result['os']['version'] = $this->os->version->toArray();
-			}
-
-			if (isset($this->device)) {
-				$result['device'] = [];
-				if (isset($this->device->type) && $this->device->type) $result['device']['type'] = $this->device->type;
-				if (isset($this->device->manufacturer) && $this->device->manufacturer) $result['device']['manufacturer'] = $this->device->manufacturer;
-				if (isset($this->device->model) && $this->device->model) $result['device']['model'] = $this->device->model;
-				if (isset($this->device->series) && $this->device->series) $result['device']['series'] = $this->device->series;
-			}
+			$result = [
+				'browser'	=> $this->browser->toArray(),
+				'engine' 	=> $this->engine->toArray(),
+				'os' 		=> $this->os->toArray(),
+				'device' 	=> $this->device->toArray()
+			];
 
 			if (!count($result['browser'])) unset($result['browser']);
 			if (!count($result['engine'])) unset($result['engine']);
