@@ -9,7 +9,7 @@
 
 	class Parser {
 
-		function __construct($options) {
+		public function __construct($options) {
 			$this->options = (object) $options;
 			$this->headers = [];
 			if (isset($this->options->headers)) $this->headers = $this->options->headers;
@@ -40,7 +40,7 @@
 			$this->detectCamouflage();
 		}
 
-		function hasHeader($h) {
+		private function hasHeader($h) {
 			foreach ($this->headers as $k => $v) {
 				if (strtolower($h) == strtolower($k)) return true;
 			}
@@ -48,7 +48,7 @@
 			return false;
 		}
 
-		function getHeader($h) {
+		private function getHeader($h) {
 			foreach ($this->headers as $k => $v) {
 				if (strtolower($h) == strtolower($k)) return $v;
 			}
@@ -56,7 +56,7 @@
 
 
 
-		function detectCamouflage() {
+		private function detectCamouflage() {
 			if (isset($this->options->useragent) && $this->options->useragent != '') {
 				if ($this->options->useragent == 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/') {
 
@@ -305,7 +305,7 @@
 			}
 		}
 
-		function analyseWapProfile($url) {
+		private function analyseWapProfile($url) {
 			$url = trim($url);
 
 			if ($url[0] == '"') {
@@ -336,7 +336,7 @@
 			}
 		}
 
-		function analyseBrowserId($id) {
+		private function analyseBrowserId($id) {
 			$browser = Data\BrowserIds::identify('android', $id);
 			if ($browser) {
 				if (!isset($this->browser->name)) {
@@ -384,7 +384,7 @@
 			}
 		}
 
-		function analyseAlternativeUserAgent($ua) {
+		private function analyseAlternativeUserAgent($ua) {
 			$extra = new Parser([ 'headers' => [ 'User-Agent' => $ua ]]);
 
 			if ($extra->device->type != TYPE_DESKTOP) {
@@ -393,7 +393,7 @@
 			}
 		}
 
-		function analyseBaiduHeader($ua) {
+		private function analyseBaiduHeader($ua) {
 			if (!isset($this->browser->name) || $this->browser->name != 'Baidu Browser') {
 				$this->browser->name = 'Baidu Browser';
 				$this->browser->version = null;
@@ -401,7 +401,7 @@
 			}
 		}
 
-		function analyseOldUCUserAgent($ua) {
+		private function analyseOldUCUserAgent($ua) {
 			if ($this->device->type == TYPE_DESKTOP) {
 				$this->device->type = TYPE_MOBILE;
 
@@ -420,7 +420,7 @@
 			}
 		}
 
-		function analyseNewUCUserAgent($ua) {
+		private function analyseNewUCUserAgent($ua) {
 			if (preg_match('/pr\(UCBrowser\/([0-9\.]+)/u', $ua, $match)) {
 				$this->browser->name = 'UC Browser';
 				$this->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
@@ -508,7 +508,7 @@
 			}
 		}
 
-		function analysePuffinUserAgent($ua) {
+		private function analysePuffinUserAgent($ua) {
 			$parts = explode('/', $ua);
 
 			if ($this->browser->name != 'Puffin') {
@@ -547,7 +547,7 @@
 			}
 		}
 
-		function analyseOperaMiniPhone($ua) {
+		private function analyseOperaMiniPhone($ua) {
 			@list($manufacturer, $model) = explode(' # ', $ua);
 
 			if ($manufacturer != '?' && $model != '?') {
@@ -583,7 +583,7 @@
 			}
 		}
 
-		function analyseUserAgent($ua) {
+		private function analyseUserAgent($ua) {
 			$ua = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $ua);
 
 
@@ -6217,7 +6217,7 @@
 			}
 		}
 
-		function toJavaScript() {
+		public function toJavaScript() {
 			if (isset($this->browser)) {
 				echo "this.browser = new Browser({ ";
 				echo $this->toJavaScriptObject($this->browser);
@@ -6246,7 +6246,7 @@
 			echo "this.features = " . json_encode($this->features) . ";\n";
 		}
 
-		function toJavaScriptObject($object) {
+		private function toJavaScriptObject($object) {
 			$lines = [];
 
 			foreach ((array)$object as $key => $value) {
@@ -6270,7 +6270,7 @@
 			return implode($lines, ", ");
 		}
 
-		function toArray() {
+		public function toArray() {
 			$result = [];
 
 			if (isset($this->browser)) {
