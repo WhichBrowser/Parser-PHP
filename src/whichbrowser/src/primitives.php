@@ -45,7 +45,8 @@
 		var $mode = '';
 
 		public function toString() {
-			
+			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
+			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->version->toString() : '') : '';
 		}
 
 		public function toArray() {
@@ -62,7 +63,8 @@
 
 	class Engine extends Primitive {
 		public function toString() {
-			
+			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
+			return $name;
 		}
 
 		public function toArray() {
@@ -78,7 +80,8 @@
 
 	class Os extends Primitive {
 		public function toString() {
-			
+			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
+			return $name ? $name . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->version->toString() : '') : '';
 		}
 
 		public function toArray() {
@@ -100,7 +103,12 @@
 		var $generic = true;
 
 		public function toString() {
-			
+			if ($this->identified)			
+				return (!empty($this->manufacturer) ? $this->manufacturer . ' ' : '') . 
+					   (!empty($this->model) ? $this->model . ' ' : '') . 
+					   (!empty($this->series) ? $this->series : '');
+			else
+				return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
 		}
 
 		public function toArray() {
@@ -118,6 +126,7 @@
 
 	class Version extends Primitive {
 		var $value = null;
+		var $hidden = false;
 
 		public function is() {
 			$valid = false;
@@ -182,7 +191,42 @@
 		}
 
 		public function toString() {
-			
+			if (!empty($this->alias))
+				return $this->alias;
+
+			$version = '';
+
+			if (!empty($this->nickname)) {
+				$version .= $this->nickname . ' ';
+			}
+
+			if (!empty($this->value)) {
+				if (preg_match("/([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?(?:\.([0-9]+))?(?:([ab])([0-9]+))?/", $this->value, $match)) {
+					$v = [ $match[1] ];
+					if (!empty($match[2])) $v[] = $match[2];
+					if (!empty($match[3])) $v[] = $match[3];
+					if (!empty($match[4])) $v[] = $match[4];
+
+					if (!empty($this->details)) {
+						if ($this->details < 0) array_splice($v, $this->details, 0 - $this->details);
+						if ($this->details > 0) array_splice($v, $this->details, count($v) - $this->details);
+					}
+
+					if (isset($this->builds) && !$this->builds) {
+						for ($i = 0; $i < count($v); $i++) {
+							if ($v[$i] > 999) {
+								array_splice($v, $i, 1);
+							}					
+						}
+					}
+
+					$version .= implode($v, '.');
+
+					if (!empty($match[5])) $version .= $match[5] . (!empty($match[6]) ? $match[6] : '');
+				}
+			}
+
+			return $version;		
 		}
 
 		public function toArray() {

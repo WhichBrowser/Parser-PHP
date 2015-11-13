@@ -8,7 +8,7 @@
 	include_once 'data.php';
 
 	class Parser extends ParserEngine {
-		
+
 		public function __construct($options) {
 			$this->browser = new Browser();
 			$this->engine = new Engine();
@@ -40,8 +40,31 @@
 
 		}
 
-		public function toString() {
+		private function a($s) {
+			return (preg_match("/^[aeiou]/i", $s) ? 'an ' : 'a ') . $s;
+		}
 
+		public function toString() {
+			$prefix = $this->camouflage ? 'an unknown browser that imitates ' : '';
+			$browser = $this->browser->toString();
+			$os = $this->os->toString();
+			$engine = $this->engine->toString();
+			$device = $this->device->toString();
+			
+			if (empty($device) && empty($os) && $this->device->type == 'television') $device = 'television';
+			if (empty($device) && $this->device->type == 'emulator') $device = 'emulator';
+		
+			if (!empty($browser) && !empty($os) && !empty($device)) return $prefix . $browser . ' on ' . $this->a($device) . ' running ' . $os;
+			if (!empty($browser) && empty($os) && !empty($device)) return $prefix . $browser . ' on ' . $this->a($device);
+			if (!empty($browser) && !empty($os) && empty($device)) return $prefix . $browser . ' on ' . $os;
+			if (empty($browser) && !empty($os) && !empty($device)) return $prefix . $this->a($device) . ' running ' . $os;
+			if (!empty($browser) && empty($os) && empty($device)) return $prefix . $browser;
+			if (empty($browser) && empty($os) && !empty($device)) return $prefix . $this->a($device);
+			if ($this->device->type == 'desktop' && !empty($os) && !empty($engine) && empty($device)) return 'an unknown browser based on ' . $engine + ' running on ' + $os;
+			if ($this->browser->stock && !empty($os) && empty($device)) return $os;
+			if ($this->browser->stock && !empty($engine) && empty($device)) return 'an unknown browser based on ' . $engine;
+			
+			return 'an unknown browser';
 		}
 
 		public function toJavaScript() {
