@@ -6141,9 +6141,11 @@
 			if ($this->device->type == TYPE_BOT) {
 				$this->device->identified = false;
 				unset($this->os->name);
+				unset($this->os->alias);
 				unset($this->os->version);
 				unset($this->device->manufacturer);
 				unset($this->device->model);
+				unset($this->device->identifier);
 			}
 
 			if (!$this->device->identified && isset($this->device->model)) {
