@@ -25,24 +25,50 @@
 			parent::__construct($options);
 		}
 
-		public function isBrowser() {
+		private function isX() {
+			$arguments = func_get_args();
+			$x = $arguments[0];
+			$valid = true;
+			
+			if (count($arguments) >= 2) {
+				$valid = $valid && $this->$x->name == $arguments[1];
+			}
+			
+			if (count($arguments) >= 4 && !empty($this->$x->version) && $valid) {
+				$valid = $valid && $this->$x->version->is($arguments[2], $arguments[3]);
+			}
 
+			return $valid;
+		}
+
+		public function isBrowser() {
+			$arguments = func_get_args();
+			array_unshift($arguments, 'browser');
+			return call_user_func_array([ $this, 'isX' ], $arguments);
 		}
 
 		public function isEngine() {
-
+			$arguments = func_get_args();
+			array_unshift($arguments, 'engine');
+			return call_user_func_array([ $this, 'isX' ], $arguments);
 		}
 
 		public function isOs() {
-
+			$arguments = func_get_args();
+			array_unshift($arguments, 'os');
+			return call_user_func_array([ $this, 'isX' ], $arguments);
 		}
 
-		public function isDevice() {
-
+		public function isDevice($d) {
+			return (!empty($this->device->series) && $this->device->series == $d) || (!empty($this->device->model) && $this->device->model == $d);
 		}
 
 		public function isType() {
+			$arguments = func_get_args();
 
+			$valid = false;
+			for ($a = 0; $a < count($arguments); $a++) $valid = $valid || $arguments[$a] == $this->device->type;
+			return $valid;
 		}
 
 		private function a($s) {
