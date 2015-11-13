@@ -48,7 +48,7 @@
     result: { engine: { name: Webkit, version: '533.1' }, os: { name: 'Aliyun OS', family: Android, version: 1.0.0 }, device: { type: mobile, manufacturer: K-Touch, model: W619 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.1; xx; YunOS/) AppleWebKit/536.28 (KHTML, like Gecko) Version/4.0 Mobile Safari/536.28 Tanggula/0.1.0'
-    result: { engine: { name: Webkit, version: '536.28' }, os: { name: 'Aliyun OS', family: Android, version: {  } }, device: { type: mobile } }
+    result: { engine: { name: Webkit, version: '536.28' }, os: { name: 'Aliyun OS', family: Android }, device: { type: mobile } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.1; xx; YunOS/2.0.1-R-20131023.1847) AppleWebKit/536.28 (KHTML, like Gecko) Version/4.0 Mobile Safari/536.28 Tanggula/0.1.0'
     result: { engine: { name: Webkit, version: '536.28' }, os: { name: 'Aliyun OS', family: Android, version: 2.0.1 }, device: { type: mobile } }
@@ -138,10 +138,10 @@
     result: { engine: { name: Webkit, version: '533.1' }, os: { name: 'Aliyun OS', family: Android, version: 2.3.0 }, device: { type: mobile } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.5; xx; MI 2SC Build/YunOS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    result: { engine: { name: Webkit, version: '534.30' }, os: { name: 'Aliyun OS', family: Android, version: {  } }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }
+    result: { engine: { name: Webkit, version: '534.30' }, os: { name: 'Aliyun OS', family: Android }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.5; xx; MI 2SC Build/YunOS) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.1 Mobile Safari/537.36'
-    result: { browser: { name: 'QQ Browser', version: '5.1' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Aliyun OS', family: Android, version: {  } }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }
+    result: { browser: { name: 'QQ Browser', version: '5.1' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Aliyun OS', family: Android }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 1.5.2.0-RT-20120926.155001; Linux; Opera Mobi/ADR-1201041826; U; xx) Presto/2.9.201 Version/11.50'
     result: { browser: { name: 'Opera Mobile', version: '11.50' }, engine: { name: Presto, version: 2.9.201 }, os: { name: 'Aliyun OS', family: Android, version: 1.5.2 }, device: { type: mobile } }
@@ -162,4 +162,4 @@
     result: { browser: { name: 'Aliyun Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: 'Aliyun OS', family: Android, version: '2.0' }, device: { type: mobile, manufacturer: Oppo, model: 'Real R819T' } }
 -
     headers: "User-Agent: Opera/9.80 (Android; Opera Mini/7.8.35214/34.1571; U; xx) Presto/2.8.119 Version/11.10\nDevice-Stock-UA: Mozilla/5.0 (Linux; U; Android 4.2.5; zh-cn; MI 2SC Build/YunOS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\nX-OperaMini-Phone: Android #\nX-OperaMini-Phone-UA: Mozilla/5.0 (Linux; U; Android 4.2.5; zh-cn; MI 2SC Build/YunOS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\nX-OperaMini-Features: advanced, httpping, routing, camera, viewport, file_system, folding, touch, download"
-    result: { browser: { name: 'Opera Mini', version: '7.8' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Aliyun OS', family: Android, version: {  } }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }
+    result: { browser: { name: 'Opera Mini', version: '7.8' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Aliyun OS', family: Android }, device: { type: mobile, manufacturer: Xiaomi, model: 'Mi 2S' } }

@@ -234,10 +234,10 @@
     result: { engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Porsche P 9981' } }
 -
     headers: "User-Agent: MQQBrowser/for Blackberry2.0.0 (BlackBerry9310/7.1.0.768)\nQ-UA: BBQBM20_GA/200016&BBMMTT_3/200016&BB&201518&BlackBerry93107.1.0.&0&6347&V3"
-    result: { browser: { name: 'QQ Browser', version: '' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 9310' } }
+    result: { browser: { name: 'QQ Browser' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 9310' } }
 -
     headers: "User-Agent: MQQBrowser/for Blackberry2.0.0 (BlackBerry9380/7.1.0.714)\nQ-UA: BBQBM20_GA/200016&BBMMTT_3/200016&BB&223021&BlackBerry93807.1.0.&0&6347&V3"
-    result: { browser: { name: 'QQ Browser', version: '' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 9380' } }
+    result: { browser: { name: 'QQ Browser' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 9380' } }
 -
     headers: "User-Agent: OneBrowser/for Blackberry3.0.0 (BlackBerry9320/7.1.0.398)\nQ-UA: BBQBM30_ibibo/300001&BBMMTT_3/300001&BB&201518&BlackBerry93207.1.0.&6001&8976&V3"
     result: { browser: { name: OneBrowser }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, manufacturer: RIM, model: 'BlackBerry Curve 9320' } }

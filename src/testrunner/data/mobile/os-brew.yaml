@@ -24,7 +24,7 @@
     result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, manufacturer: Samsung, model: Reality } }
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; BREW 3.1.5; xx) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000'
-    result: { browser: { name: Polaris, version: '7.0' }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew, version: '' }, device: { type: mobile, manufacturer: LG, model: 'Env Touch' } }
+    result: { browser: { name: Polaris, version: '7.0' }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew }, device: { type: mobile, manufacturer: LG, model: 'Env Touch' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (HS-E316/E464.6.01.03.00;U;REX/3.0;BREW/3.1.5;240*320;CTC/2.0) Ucweb/7.6'
     result: { browser: { name: 'UC Browser', version: '7.6' }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, manufacturer: Hisense, model: E316 } }

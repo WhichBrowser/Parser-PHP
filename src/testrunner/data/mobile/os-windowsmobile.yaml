@@ -105,7 +105,7 @@
     result: { browser: { name: 'UC Browser', version: '8.2' }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, manufacturer: Samsung, model: 'B7350 OmniaPRO 4' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; xx) Opera 9.5'
-    result: { browser: { name: 'Opera Mobile', version: '' }, os: { name: 'Windows Mobile' }, device: { type: mobile, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Opera Mobile' }, os: { name: 'Windows Mobile' }, device: { type: mobile, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8' }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, manufacturer: Samsung, model: 'I8000 Omnia II' } }

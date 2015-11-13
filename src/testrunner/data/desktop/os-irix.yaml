@@ -12,4 +12,4 @@
     result: { os: { name: IRIX, version: '6.5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; IRIX IP32; xx; rv:1.9.0.19) Gecko/2013020113 Firefox/3.0.19'
-    result: { browser: { name: Firefox, version: 3.0.19 }, engine: { name: Gecko, version: 1.9.0 }, os: { name: IRIX, version: '' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 3.0.19 }, engine: { name: Gecko, version: 1.9.0 }, os: { name: IRIX }, device: { type: desktop } }
