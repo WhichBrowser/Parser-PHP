@@ -26,7 +26,7 @@ var WhichBrowser = (function(){
 			this.options = {
 			};
 			
-<?php $detected->toJavaScript(); ?>
+<?php echo $detected->toJavaScript(); ?>
 		},
 		
 		a: function(s) {

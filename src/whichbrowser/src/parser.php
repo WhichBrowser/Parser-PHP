@@ -99,13 +99,12 @@
 		}
 
 		public function toJavaScript() {
-			echo "this.browser = new Browser({ " . $this->browser->toJavaScript() . " });\n";
-			echo "this.engine = new Engine({ " . $this->engine->toJavaScript() . " });\n";
-			echo "this.engine = new Engine({ " . $this->engine->toJavaScript() . " });\n";
-			echo "this.os = new Os({ " . $this->os->toJavaScript() . " });\n";
-			echo "this.device = new Device({ " . $this->device->toJavaScript() . " });\n";
-			echo "this.camouflage = " . ($this->camouflage ? 'true' : 'false') . ";\n";
-			echo "this.features = " . json_encode($this->features) . ";\n";
+			return "this.browser = new Browser({ " . $this->browser->toJavaScript() . " });\n" .
+				   "this.engine = new Engine({ " . $this->engine->toJavaScript() . " });\n" .
+				   "this.os = new Os({ " . $this->os->toJavaScript() . " });\n" .
+				   "this.device = new Device({ " . $this->device->toJavaScript() . " });\n" .
+				   "this.camouflage = " . ($this->camouflage ? 'true' : 'false') . ";\n" .
+				   "this.features = " . json_encode($this->features) . ";\n";
 		}
 
 		public function toArray() {

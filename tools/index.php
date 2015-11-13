@@ -119,6 +119,7 @@
 						$detected = new WhichBrowser\Parser($headers);
 
 						echo "<h2>" . $detected->toString() ."</h2>\n\n";
+						echo "<pre>" . htmlentities($detected->toJavaScript()) . "</pre>";
 
 						echo "<pre>{\n";
 						if (isset($detected->browser)) echo "\tbrowser: " . htmlentities(json_encode($detected->browser)) . "\n";
