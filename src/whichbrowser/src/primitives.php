@@ -38,19 +38,14 @@
 	}
 
 
-	class Browser extends Primitive {
+	class NameVersionPrimitive extends Primitive {
 		public $name;
 		public $alias;
-		public $channel;
 		public $version;
 
-		public $stock = true;
-		public $hidden = false;
-		public $mode = '';
 
 		public function getName() {
-			$name = !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
-			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') : '';
+			return !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
 		}
 
 		public function getVersion() {
@@ -59,6 +54,20 @@
 
 		public function toString() {
 			return trim($this->getName() . ' ' . $this->getVersion());
+		}
+	}
+
+
+	class Browser extends NameVersionPrimitive {
+		public $channel;
+
+		public $stock = true;
+		public $hidden = false;
+		public $mode = '';
+
+		public function getName() {
+			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
+			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') : '';
 		}
 
 		public function toArray() {
@@ -75,23 +84,7 @@
 	}
 
 
-	class Engine extends Primitive {
-		public $name;
-		public $alias;
-		public $version;
-
-		public function getName() {
-			return !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
-		}
-
-		public function getVersion() {
-			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
-		}
-
-		public function toString() {
-			return trim($this->getName() . ' ' . $this->getVersion());
-		}
-
+	class Engine extends NameVersionPrimitive {
 		public function toArray() {
 			$result = [];
 
@@ -105,23 +98,8 @@
 	}
 
 
-	class Os extends Primitive {
-		public $name;
+	class Os extends NameVersionPrimitive {
 		public $family;
-		public $alias;
-		public $version;
-
-		public function getName() {
-			return !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
-		}
-
-		public function getVersion() {
-			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
-		}
-
-		public function toString() {
-			return trim($this->getName() . ' ' . $this->getVersion());
-		}
 
 		public function toArray() {
 			$result = [];
@@ -142,6 +120,7 @@
 		public $manufacturer;
 		public $model;
 		public $series;
+		public $identifier;
 
 		public $type = '';
 		public $identified = ID_NONE;
