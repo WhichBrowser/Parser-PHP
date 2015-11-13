@@ -4830,7 +4830,7 @@
 			'i3000'										=> [ 'iNew', 'i3000' ],
 			'i6000'										=> [ 'iNew', 'i6000' ],
 
-			'Infinix' => [
+			'Infinix!!' => [
 				'Infinix BUZZ'								=> [ 'Infinix', 'Buzz X260' ],
 				'Infinix X351'								=> [ 'Infinix', 'Surf Smart X351' ],
 				'Infinix X352'								=> [ 'Infinix', 'Surf Smart 2 X352' ],
