@@ -52,9 +52,9 @@
 		public function toArray() {
 			$result = [];
 
-			if (isset($this->name) && $this->name) $result['name'] = $this->name;
-			if (isset($this->alias) && $this->alias) $result['alias'] = $this->alias;
-			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+			if (!empty($this->name)) $result['name'] = $this->name;
+			if (!empty($this->alias)) $result['alias'] = $this->alias;
+			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			return $result;
 		}
@@ -70,8 +70,8 @@
 		public function toArray() {
 			$result = [];
 
-			if (isset($this->name) && $this->name) $result['name'] = $this->name;
-			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+			if (!empty($this->name)) $result['name'] = $this->name;
+			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			return $result;
 		}
@@ -87,10 +87,10 @@
 		public function toArray() {
 			$result = [];
 
-			if (isset($this->name) && $this->name) $result['name'] = $this->name;
-			if (isset($this->family) && $this->family) $result['family'] = $this->family;
-			if (isset($this->alias) && $this->alias) $result['alias'] = $this->alias;
-			if (isset($this->version) && $this->version) $result['version'] = $this->version->toArray();
+			if (!empty($this->name)) $result['name'] = $this->name;
+			if (!empty($this->family)) $result['family'] = $this->family;
+			if (!empty($this->alias)) $result['alias'] = $this->alias;
+			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			return $result;
 		}
@@ -114,10 +114,10 @@
 		public function toArray() {
 			$result = [];
 
-			if (isset($this->type) && $this->type) $result['type'] = $this->type;
-			if (isset($this->manufacturer) && $this->manufacturer) $result['manufacturer'] = $this->manufacturer;
-			if (isset($this->model) && $this->model) $result['model'] = $this->model;
-			if (isset($this->series) && $this->series) $result['series'] = $this->series;
+			if (!empty($this->type)) $result['type'] = $this->type;
+			if (!empty($this->manufacturer)) $result['manufacturer'] = $this->manufacturer;
+			if (!empty($this->model)) $result['model'] = $this->model;
+			if (!empty($this->series)) $result['series'] = $this->series;
 
 			return $result;
 		}
@@ -232,8 +232,8 @@
 		public function toArray() {
 			$result = [];
 
-			if (isset($this->value)) {
-				if (isset($this->details)) {
+			if (!empty($this->value)) {
+				if (!empty($this->details)) {
 					$parts = explode('.', $this->value);
 					$result['value'] = join('.', array_slice($parts, 0, $this->details));
 				} else {
@@ -241,11 +241,11 @@
 				}
 			}
 
-			if (isset($this->alias)) {
+			if (!empty($this->alias)) {
 				$result['alias'] = $this->alias;
 			}
 
-			if (isset($this->nickname)) {
+			if (!empty($this->nickname)) {
 				$result['nickname'] = $this->nickname;
 			}
 
