@@ -39,10 +39,14 @@
 
 
 	class Browser extends Primitive {
-		var $stock = true;
-		var $hidden = false;
-		var $channel = '';
-		var $mode = '';
+		public $name;
+		public $alias;
+		public $channel;
+		public $version;
+
+		public $stock = true;
+		public $hidden = false;
+		public $mode = '';
 
 		public function toString() {
 			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
@@ -64,6 +68,9 @@
 
 
 	class Engine extends Primitive {
+		public $name;
+		public $alias;
+		public $version;
 		public function toString() {
 			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
 			return $name;
@@ -83,6 +90,10 @@
 
 
 	class Os extends Primitive {
+		public $name;
+		public $family;
+		public $alias;
+		public $version;
 		public function toString() {
 			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
 			return $name ? $name . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->version->toString() : '') : '';
@@ -104,9 +115,13 @@
 
 
 	class Device extends Primitive {
-		var $type = '';
-		var $identified = ID_NONE;
-		var $generic = true;
+		public $manufacturer;
+		public $model;
+		public $series;
+
+		public $type = '';
+		public $identified = ID_NONE;
+		public $generic = true;
 
 		public function toString() {
 			if ($this->identified)			

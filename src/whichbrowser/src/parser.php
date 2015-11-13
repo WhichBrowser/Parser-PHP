@@ -8,14 +8,19 @@
 	include_once 'data.php';
 
 	class Parser extends ParserEngine {
+		public $browser;
+		public $engine;
+		public $os;
+		public $device;
+
+		public $camouflage = false;
+		public $features = [];
 
 		public function __construct($options) {
 			$this->browser = new Browser();
 			$this->engine = new Engine();
 			$this->os = new Os();
 			$this->device = new Device();
-			$this->camouflage = false;
-			$this->features = [];
 
 			parent::__construct($options);
 		}
