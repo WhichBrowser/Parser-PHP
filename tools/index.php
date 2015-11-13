@@ -65,6 +65,11 @@
 				margin: 40px 0;
 			}
 
+			h2 {
+				font-size: 2.2em;
+				font-weight: normal;
+			}
+
 			pre {
 				text-align: left;
 			}
@@ -90,7 +95,7 @@
 			<?php if($_SERVER['REQUEST_METHOD'] == 'POST'): ?>
 			<hr>
 			<div>
-				<pre><?php
+				<?php
 
 					error_reporting(E_ALL);
 					ini_set('display_errors', true);
@@ -114,15 +119,17 @@
 						$options = array('headers' => $headers);
 						$detected = new WhichBrowser\Parser($options);
 
-						echo "{\n";
+						echo "<h2>" . $detected->toString() ."</h2>\n\n";
+
+						echo "<pre>{\n";
 						if (isset($detected->browser)) echo "\tbrowser: " . htmlentities(json_encode($detected->browser)) . "\n";
 						if (isset($detected->engine)) echo "\tengine: " . htmlentities(json_encode($detected->engine)) . "\n";
 						if (isset($detected->os)) echo "\tos: " . htmlentities(json_encode($detected->os)) . "\n";
 						if (isset($detected->device)) echo "\tdevice: " . htmlentities(json_encode($detected->device)) . "\n";
-						echo "}";
+						echo "}\n\n</pre>";
 					}
 
-				?></pre>
+				?>
 			</div>
 			<?php endif; ?>
 		</header>
