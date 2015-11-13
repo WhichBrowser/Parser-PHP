@@ -48,9 +48,17 @@
 		public $hidden = false;
 		public $mode = '';
 
+		public function getName() {
+			$name = !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
+			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') : '';
+		}
+
+		public function getVersion() {
+			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
+		}
+
 		public function toString() {
-			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
-			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->version->toString() : '') : '';
+			return trim($this->getName() . ' ' . $this->getVersion());
 		}
 
 		public function toArray() {
@@ -71,9 +79,17 @@
 		public $name;
 		public $alias;
 		public $version;
+
+		public function getName() {
+			return !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
+		}
+
+		public function getVersion() {
+			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
+		}
+
 		public function toString() {
-			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
-			return $name;
+			return trim($this->getName() . ' ' . $this->getVersion());
 		}
 
 		public function toArray() {
@@ -94,9 +110,17 @@
 		public $family;
 		public $alias;
 		public $version;
+
+		public function getName() {
+			return !empty($this->alias) ? $this->alias : !empty($this->name) ? $this->name : '';
+		}
+
+		public function getVersion() {
+			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
+		}
+
 		public function toString() {
-			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
-			return $name ? $name . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->version->toString() : '') : '';
+			return trim($this->getName() . ' ' . $this->getVersion());
 		}
 
 		public function toArray() {
@@ -123,13 +147,18 @@
 		public $identified = ID_NONE;
 		public $generic = true;
 
+		public function getManufacturer() {
+			return $this->identified && !empty($this->manufacturer) ? $this->manufacturer : '';
+		}
+
+		public function getModel() {
+			if ($this->identified) return trim((!empty($this->model) ? $this->model . ' ' : '') . (!empty($this->series) ? $this->series : ''));
+			return !empty($this->model) ? $this->model : '';
+		}
+
 		public function toString() {
-			if ($this->identified)			
-				return (!empty($this->manufacturer) ? $this->manufacturer . ' ' : '') . 
-					   (!empty($this->model) ? $this->model . ' ' : '') . 
-					   (!empty($this->series) ? $this->series : '');
-			else
-				return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
+			if ($this->identified) return trim((!empty($this->manufacturer) ? $this->manufacturer . ' ' : '') . (!empty($this->model) ? $this->model . ' ' : '') . (!empty($this->series) ? $this->series : ''));
+			return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
 		}
 
 		public function toArray() {
