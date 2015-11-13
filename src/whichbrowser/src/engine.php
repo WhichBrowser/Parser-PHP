@@ -4,7 +4,11 @@
 
 	class ParserEngine {
 		public function __construct($options) {
-			$this->options = (object) $options;
+			if (is_string($options)) 
+				$this->options = (object) [ 'headers' => [ 'User-Agent' => $options ] ];
+			else
+				$this->options = (object) (isset($options['headers']) ? $options : [ 'headers' => $options ]);
+
 			$this->headers = [];
 			if (isset($this->options->headers)) $this->headers = $this->options->headers;
 

@@ -116,8 +116,7 @@
 					}
 
 					if (count($headers)) {
-						$options = array('headers' => $headers);
-						$detected = new WhichBrowser\Parser($options);
+						$detected = new WhichBrowser\Parser($headers);
 
 						echo "<h2>" . $detected->toString() ."</h2>\n\n";
 
