@@ -156,7 +156,6 @@
 	class Version extends Primitive {
 		var $value = null;
 		var $hidden = false;
-		var $details = 3;
 
 		public function is() {
 			$valid = false;
