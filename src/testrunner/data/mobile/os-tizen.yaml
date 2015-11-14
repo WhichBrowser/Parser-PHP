@@ -12,7 +12,7 @@
     result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.1' }, device: { type: mobile, manufacturer: Samsung, model: 'SC-001 prototype' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.1; sdk) AppleWebKit/537.3  (KHTML, like Gecko) Version/2.1 Mobile Safari/537.3'
-    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.1' }, device: { model: sdk } }
+    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.1' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
     result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' } }
@@ -84,10 +84,10 @@
     result: { browser: { name: 'Samsung Browser', version: '1.0' }, engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: Z } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z910F) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
-    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: 'SM-Z910 prototype' } }
+    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: Z } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z910F) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Safari/537.3'
-    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: 'SM-Z910 prototype' } }
+    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: Z } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; SEC_SC-001) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
     result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: 'SC-001 prototype' } }
@@ -96,13 +96,13 @@
     result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, manufacturer: Samsung, model: ZeQ } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2; sdk) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 like Android 4.1; Mobile Safari/537.3'
-    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { model: sdk } }
+    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.3; sdk) AppleWebKit/538.1 (KHTML, like Gecko)Version/2.3 Mobile Safari/538.1'
-    result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.3' }, device: { model: sdk } }
+    result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.3' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 3.0 IVI; sdk) AppleWebKit/537.3 (KHTML, like Gecko) Version/3.0 Safari/537.3'
-    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '3.0' }, device: { model: sdk } }
+    result: { engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '3.0' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Tizen 1.0; xx) AppleWebKit/534.46 (KHTML, like Gecko) Mobile Tizen Browser/1.0'
     result: { engine: { name: Webkit, version: '534.46' }, os: { name: Tizen, version: '1.0' }, device: { model: xx } }
