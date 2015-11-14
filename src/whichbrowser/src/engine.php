@@ -4240,6 +4240,11 @@
 					}
 				}
 
+				if (preg_match('/Aurora\/([0-9ab.]*)/u', $ua, $match)) {
+					$this->browser->channel = 'Aurora';
+					$this->browser->version = new Version([ 'value' => $match[1] ]);
+				}
+
 				if (preg_match('/Fennec/u', $ua)) {
 					$this->device->type = TYPE_MOBILE;
 				}
