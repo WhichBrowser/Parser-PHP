@@ -35,6 +35,8 @@
 			'iPhone6,2'									=> [ 'Apple', 'iPhone 5s', TYPE_MOBILE ],
 			'iPhone7,1'									=> [ 'Apple', 'iPhone 6 Plus', TYPE_MOBILE ],
 			'iPhone7,2'									=> [ 'Apple', 'iPhone 6', TYPE_MOBILE ],
+			'iPhone8,1'									=> [ 'Apple', 'iPhone 6s', TYPE_MOBILE ],
+			'iPhone8,2'									=> [ 'Apple', 'iPhone 6s Plus', TYPE_MOBILE ],
 			'iPod1,1'									=> [ 'Apple', 'iPod touch', TYPE_MEDIA ],
 			'iPod2,1'									=> [ 'Apple', 'iPod touch (2nd gen)', TYPE_MEDIA ],
 			'iPod3,1'									=> [ 'Apple', 'iPod touch (3rd gen)', TYPE_MEDIA ],
@@ -64,6 +66,9 @@
 			'iPad4,6'									=> [ 'Apple', 'iPad mini 2', TYPE_TABLET ],
 			'iPad4,7'									=> [ 'Apple', 'iPad mini 3', TYPE_TABLET ],
 			'iPad4,8'									=> [ 'Apple', 'iPad mini 3', TYPE_TABLET ],
+			'iPad5,1'									=> [ 'Apple', 'iPad mini 4', TYPE_TABLET ],
+			'iPad5,2'									=> [ 'Apple', 'iPad mini 4', TYPE_TABLET ],
 			'iPad5,3'									=> [ 'Apple', 'iPad Air 2', TYPE_TABLET ],
 			'iPad5,4'									=> [ 'Apple', 'iPad Air 2', TYPE_TABLET ],
+			'iPad6,8'									=> [ 'Apple', 'iPad Pro', TYPE_TABLET ],
 		];
