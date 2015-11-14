@@ -156,6 +156,7 @@
 	class Version extends Primitive {
 		var $value = null;
 		var $hidden = false;
+		var $details = 3;
 
 		public function is() {
 			$valid = false;
@@ -232,9 +233,9 @@
 			if (!empty($this->value)) {
 				if (preg_match("/([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?(?:\.([0-9]+))?(?:([ab])([0-9]+))?/", $this->value, $match)) {
 					$v = [ $match[1] ];
-					if (!empty($match[2])) $v[] = $match[2];
-					if (!empty($match[3])) $v[] = $match[3];
-					if (!empty($match[4])) $v[] = $match[4];
+					if (array_key_exists(2, $match) && strlen($match[2])) $v[] = $match[2];
+					if (array_key_exists(3, $match) && strlen($match[3])) $v[] = $match[3];
+					if (array_key_exists(4, $match) && strlen($match[4])) $v[] = $match[4];
 
 					if (!empty($this->details)) {
 						if ($this->details < 0) array_splice($v, $this->details, 0 - $this->details);
@@ -251,7 +252,7 @@
 
 					$version .= implode($v, '.');
 
-					if (!empty($match[5])) $version .= $match[5] . (!empty($match[6]) ? $match[6] : '');
+					if (array_key_exists(5, $match) && strlen($match[5])) $version .= $match[5] . (!empty($match[6]) ? $match[6] : '');
 				}
 			}
 
