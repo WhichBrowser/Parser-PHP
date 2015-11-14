@@ -1658,6 +1658,15 @@
 					$this->device->series = 'Smart TV';
 					$this->device->identified = ID_PATTERN;
 				}
+
+
+				if (preg_match('/SamsungBrowser\/([0-9.]*)/u', $ua, $match)) {
+					$this->browser->name = "Samsung Browser";
+					$this->browser->channel = null;
+					$this->browser->stock = true;
+					$this->browser->version = new Version([ 'value' => $match[1] ]);
+					$this->browser->channel = null;
+				}
 			}
 
 			if (preg_match('/Linux\; U\; Android [0-9.]+\; ko\-kr\; SAMSUNG\; (NX[0-9]+[^\)]]*)/u', $ua, $match)) {
