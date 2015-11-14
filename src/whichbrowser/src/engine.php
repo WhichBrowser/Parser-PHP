@@ -2291,9 +2291,16 @@
 				$this->device->generic = false;
 			}
 
-			if (preg_match('/Xbox One\)$/u', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
+			if (preg_match('/Xbox One\)/u', $ua, $match)) {
+				if ($this->isOs('Windows Phone', '=', '10')) {
+					$this->os->name = 'Windows';
+					$this->os->version->alias = '10';
+				}
+
+				if (!$this->isOs('Windows', '=', '10')) {
+					unset($this->os->name);
+					unset($this->os->version);
+				}
 
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox One';
