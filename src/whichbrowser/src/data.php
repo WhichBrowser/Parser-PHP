@@ -170,27 +170,32 @@
 
 			foreach ($list as $m => $v) {
 				$match = null;
+				$pattern = null;
 
 				if (self::hasMatch($m, $model)) {
 					if (substr($m, -2) == "!!") {
 						foreach ($v as $m2 => $v2) {
 							if (self::hasMatch($m2, $model)) {
 								$match = $v2;
+								$pattern = $m2;
 								continue;
 							}
 						}
 					}
 					else {
 						$match = $v;
+						$pattern = $m;
 					}
 				}
 
 				if ($match) {
  					$device->manufacturer = $match[0];
-					$device->model = $match[1];
+					$device->model = self::applyMatches($match[1], $model, $pattern);
 					if (isset($match[2])) $device->type = $match[2];
 					if (isset($match[3])) $device->flag = $match[3];
 					$device->identified = ID_MATCH_UA;
+
+
 
 					if ($device->manufacturer == null && $device->model == null) {
 						$device->identified = ID_PATTERN;
@@ -201,6 +206,18 @@
 			}
 
 			return $device;
+		}
+
+		static function applyMatches($model, $original, $pattern) {
+			if (strpos($model, '$') !== false && substr($pattern, -1) == "!") {
+				if (preg_match('/^' . substr($pattern, 0, -1) . '/iu', $original, $matches)) {
+					foreach($matches as $k => $v) {
+						$model = str_replace('$' . $k, $v, $model);
+					}
+				}
+			}
+
+			return $model;
 		}
 
 		static function hasMatch($pattern, $model) {
