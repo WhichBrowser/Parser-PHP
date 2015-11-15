@@ -293,9 +293,6 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620d)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, manufacturer: HTC, model: 8X } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620d; ChinaTelecom) baiduboxapp/042_0.0.5.4_enohpw_0821_027/CTH_0.8_0.72301.0.8_d026C/1399g/D58CA7621E5BC6760336104602BEB69B0A175AFC/1'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, manufacturer: HTC, model: 8X } }
--
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; C620e)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, manufacturer: HTC, model: 8X } }
 -
