@@ -32,7 +32,6 @@
 		if (count($argv)) {
 			foreach($argv as $file) {
 				if (fnmatch("*.yaml", $file)) {
-					echo "MATCH!";
 					$files[] = $file;
 				}
 				else {
