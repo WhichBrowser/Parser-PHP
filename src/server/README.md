@@ -1,35 +1,7 @@
-WhichBrowser
-============
+WhichBrowser/Server
+===================
 
-> **Everybody lies**  — House M.D.
-
-This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
-
-**But why *almost completely useless* and not completely useless?**  
-Well, there is always an exception to the rule. There is one valid reason to do browser sniffing: to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.
-
-**Why is it extremely complicated?**  
-Because everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browsers say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.
-
-The main part of this library runs on the server and looks at the headers send by the browser, but it also collects various data from the browser itself. The first thing it looks at is the user-agent header, but there are many more headers that contain clues about the identity of the browser. Once the server finds the identity of the browser, it then looks at the data from the browser itself and check some additional characteristics and tries to determine if the headers where perhaps lying. It then gives you the result.
-
-**What kind of information does it give?**
-You get a nice JavaScript object which has information about the browser, rendering engine, os and device. It gives you names and versions and even device manufacturer and model. And WhichBrowser is pretty tenacious. It gives you info that others don't. For example:
-
-    JUC (Linux; U; 2.3.6; zh-cn; GT-I8150; 480*800) UCWEB8.7.4.225/145/800  
-    UC Browser 8.7 on a Samsung Galaxy W running Android 2.3.6
-
-Android is never mentioned
-
-    Mozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.73  
-    Nokia Xpress 3.0.0 on a Nokia Asha 501 running Nokia Asha Platform
-
-Despite the useragent header claiming to be a Series40 device, we know it's actually running the Asha Platform and we also know that OviBrowser has been renamed to Nokia Xpress.
-
-    Opera/9.80 (X11; Linux zvav; U; zh) Presto/2.8.119 Version/11.10  
-    Opera Mini on a Nokia 5230 running Series60 5.0
-
-The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Mini. We can even figure out the real operating system and device model from other headers.
+A server for the WhichBrowser/Parser library that exposes an API for use in the browser. 
 
 
 
@@ -43,11 +15,11 @@ The server should be able to handle PHP and included is a `.htaccess` file that 
 How to install it
 -----------------
 
-You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/whichbrowser`.
+You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/server`. This sets up all dependancies like the PHP parser library.
 
-    composer require whichbrowser/whichbrowser
+    composer require whichbrowser/server
 
-And just like the Git method, you can easily update WhichBrowser by running a simple command.
+You can easily update WhichBrowser by running a simple command. 
 
     composer update
 
@@ -55,11 +27,11 @@ You should run this command as often as possible. You might even want to conside
 
 After installing with Composer you may need to create a symlink to the vendor directory in which WhichBrowser was installed:
 
-    ln -s vendor/whichbrowser/whichbrowser whichbrowser
+    ln -s vendor/whichbrowser/server whichbrowser
 
 Or create a `.htaccess` file in the root of your site and add an `Alias` command:
 
-    Alias /whichbrowser vendor/whichbrowser/whichbrowser
+    Alias /whichbrowser vendor/whichbrowser/server
 
 
 
@@ -330,7 +302,7 @@ Using this function it is easy to compare a version to another version. If you s
 License
 -------
 
-Copyright (c) 2014 Niels Leenheer
+Copyright (c) 2015 Niels Leenheer
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
