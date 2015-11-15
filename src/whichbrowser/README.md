@@ -43,34 +43,13 @@ The server should be able to handle PHP and included is a `.htaccess` file that 
 How to install it
 -----------------
 
-Place the files in a directory on your server. The easiest way to install is to download the files as a <a href="https://github.com/WhichBrowser/WhichBrowser/archive/master.zip">zip archive</a> from Github and place
-them in a directory called `whichbrowser` on your server. However, this is not ideal for keeping WhichBrowser up-to-date.
+You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/whichbrowser`.
 
-
-###Using Git
-
-It is recommended to use `git` directly on the server to make sure you get the latest changes and to make it easier to keep WhichBrowser updated.
-
-Go to the root directory of your site and run the following command:
-
-    git clone https://github.com/WhichBrowser/WhichBrowser.git whichbrowser
-
-This will create a new directory called `whichbrowser` and install the latest version of WhichBrowser. If you want to update WhichBrowser to the latest version you can simply run the following command from the `whichbrowser` directory:
-
-    git pull
-
-Given that WhichBrowser is updated regularly - sometimes even multiple times a day - you should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
-
-
-###Using Composer
-
-As an alternative we also offer a Composer package called `whichbrowser/whichbrowser`.
-
-    php composer.phar require whichbrowser/whichbrowser dev-master
+    composer require whichbrowser/whichbrowser
 
 And just like the Git method, you can easily update WhichBrowser by running a simple command.
 
-    php composer.phar update
+    composer update
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
@@ -81,28 +60,6 @@ After installing with Composer you may need to create a symlink to the vendor di
 Or create a `.htaccess` file in the root of your site and add an `Alias` command:
 
     Alias /whichbrowser vendor/whichbrowser/whichbrowser
-
-
-###Using Bower
-
-Finally we also offer a Bower package called `whichbrowser`.
-
-    bower install whichbrowser
-
-And just like the Git and Composer method, you can easily update WhichBrowser by running a simple command.
-
-    bower update
-
-You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
-
-After installing with Bower you may need to create a symlink to the component directory in which WhichBrowser was installed:
-
-    ln -s bower_components/whichbrowser whichbrowser
-
-Or create a `.htaccess` file in the root of your site and add an `Alias` command:
-
-    Alias /whichbrowser bower_components/whichbrowser
-
 
 
 

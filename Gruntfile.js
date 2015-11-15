@@ -17,7 +17,7 @@ module.exports = function(grunt) {
       },
     	release: {
 			  files: [
-				  { expand: true, cwd: 'src/whichbrowser', src: ['bower.json', 'composer.json'], dest: 'dist/whichbrowser/' },
+				  { expand: true, cwd: 'src/whichbrowser', src: ['composer.json'], dest: 'dist/whichbrowser/' },
           { expand: true, cwd: 'src/testrunner', src: ['composer.json'], dest: 'dist/testrunner/' },
 			  ]
       },
