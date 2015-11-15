@@ -71,6 +71,10 @@
 			return $valid;
 		}
 
+		public function isDetected() {
+			return $this->browser->isDetected() || $this->os->isDetected() || $this->engine->isDetected() || $this->device->isDetected();
+		}
+
 		private function a($s) {
 			return (preg_match("/^[aeiou]/i", $s) ? 'an ' : 'a ') . $s;
 		}
