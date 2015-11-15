@@ -28,52 +28,58 @@
 			$failed = 0;
 			$total = 0;
 			$rebase = false;
+			$found = false;
 
-			$rules = Yaml::parse(file_get_contents($file));
+			if (file_exists($file)) {
+				$found = true;
 
-			foreach($rules as $rule) {
-				$detected = new Parser(array('headers' => http_parse_headers($rule['headers'])));
+				$rules = Yaml::parse(file_get_contents($file));
 
-				if (isset($rule['result'])) {
-					if ($detected->toArray() != $rule['result']) {
+				foreach($rules as $rule) {
+					$detected = new Parser(array('headers' => http_parse_headers($rule['headers'])));
+
+					if (isset($rule['result'])) {
+						if ($detected->toArray() != $rule['result']) {
+							fwrite($fp, "\n{$name}\n--------------\n\n");
+							fwrite($fp, $rule['headers'] . "\n");
+							fwrite($fp, "Base:\n");
+							fwrite($fp, Yaml::dump($rule['result']) . "\n");
+							fwrite($fp, "Calculated:\n");
+							fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
+
+							$failed++;
+						}
+						else {
+							$success++;
+						}
+					} else {
 						fwrite($fp, "\n{$name}\n--------------\n\n");
 						fwrite($fp, $rule['headers'] . "\n");
-						fwrite($fp, "Base:\n");
-						fwrite($fp, Yaml::dump($rule['result']) . "\n");
-						fwrite($fp, "Calculated:\n");
-						fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
+						fwrite($fp, "New result:\n");
 
-						$failed++;
+						try {
+							fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
+						} catch(Exception $e) {
+							echo $rule['headers'] . "\n";
+							var_dump($detected);
+						}
+						$rebase = true;
 					}
-					else {
-						$success++;
-					}
-				} else {
-					fwrite($fp, "\n{$name}\n--------------\n\n");
-					fwrite($fp, $rule['headers'] . "\n");
-					fwrite($fp, "New result:\n");
 
-					try {
-						fwrite($fp, Yaml::dump($detected->toArray()) . "\n");
-					} catch(Exception $e) {
-						echo $rule['headers'] . "\n";
-						var_dump($detected);
-					}
-					$rebase = true;
+					$total++;
 				}
-
-				$total++;
 			}
 
 			fclose($fp);
 
 			$counter = "[{$success}/{$total}]";
 
-			echo $success == $total ? "\033[0;32m" : "\033[0;31m";
+			echo $success == $total && $found ? "\033[0;32m" : "\033[0;31m";
 			echo $counter;
 			echo "\033[0m";
 			echo str_repeat(' ', 16 - strlen($counter));
 			echo $name;
+			echo (!$found ? "\t\t\033[0;31m => file not found!\033[0m" : "");
 			echo ($rebase ? "\t\t\033[0;31m => rebase required!\033[0m" : "");
 			echo "\n";
 
@@ -104,42 +110,46 @@
 		static function _rebaseFile($file, $sort) {
 			$result = array();
 
-			$rules = Yaml::parse(file_get_contents($file));
+			if (file_exists($file)) {
+				$rules = Yaml::parse(file_get_contents($file));
 
-			if (is_array($rules)) {
-				echo "Rebasing {$file}\n";
+				if (is_array($rules)) {
+					echo "Rebasing {$file}\n";
 
-				if ($sort) {
-					$rules = Testrunner::_sortRules($rules);
-				}
-
-				foreach($rules as $rule) {
-					$detected = new Parser(array('headers' => http_parse_headers($rule['headers'])));
-
-					$result[] = array(
-						'headers' 	=> trim($rule['headers']),
-						'result'	=> $detected->toArray()
-					);
-				}
-
-				if (count($result)) {
-					if (count($result) == count($rules)) {
-						if ($string = Yaml::dump($result)) {
-							file_put_contents($file . '.tmp', $string);
-
-							rename($file, $file . '.old');
-							rename($file . '.tmp', $file);
-							unlink($file . '.old');
-						}
+					if ($sort) {
+						$rules = Testrunner::_sortRules($rules);
 					}
-					else {
-						echo "Rebasing {$file}\t\t\033[0;31m => output does not match input\033[0m\n";
+
+					foreach($rules as $rule) {
+						$detected = new Parser(array('headers' => http_parse_headers($rule['headers'])));
+
+						$result[] = array(
+							'headers' 	=> trim($rule['headers']),
+							'result'	=> $detected->toArray()
+						);
+					}
+
+					if (count($result)) {
+						if (count($result) == count($rules)) {
+							if ($string = Yaml::dump($result)) {
+								file_put_contents($file . '.tmp', $string);
+
+								rename($file, $file . '.old');
+								rename($file . '.tmp', $file);
+								unlink($file . '.old');
+							}
+						}
+						else {
+							echo "Rebasing {$file}\t\t\033[0;31m => output does not match input\033[0m\n";
+						}
+					} else {
+						echo "Rebasing {$file}\t\t\033[0;31m => no results found\033[0m\n";
 					}
 				} else {
-					echo "Rebasing {$file}\t\t\033[0;31m => no results found\033[0m\n";
+					echo "Rebasing {$file}\t\t\033[0;31m => error reading file\033[0m\n";
 				}
 			} else {
-				echo "Rebasing {$file}\t\t\033[0;31m => error reading file\033[0m\n";
+				echo "Rebasing {$file}\t\t\033[0;31m => file not found\033[0m\n";
 			}
 		}
 
