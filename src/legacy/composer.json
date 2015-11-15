@@ -1,6 +1,6 @@
 {
     "name": "whichbrowser/whichbrowser",
-    "description": "User agent sniffing gone too far",
+    "description": "Project containing the legacy version of WhichBrowser",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",

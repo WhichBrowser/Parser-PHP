@@ -11,22 +11,29 @@ Well, there is always an exception to the rule. There is one valid reason to do 
 **Why is it extremely complicated?**  
 Because everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browsers say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.
 
+WhichBrowser consists of two parts: a PHP library that tries to detect which browser is used based on headers and the useragent string. And a server that exposes an API that can be used directly from JavaScript in the browser.
 
-PHP API
------------
 
-WhichBrowser consists of a PHP library: WhichBrowser/Parser. You can install it by using Composer. It is available as the `whichbrowser/parser` package using Composer.
+
+WhichBrowser library for PHP
+----------------------------
+
+WhichBrowser consists of a PHP library: [WhichBrowser/Parser](https://github.com/WhichBrowser/Parser). You can install it by using Composer. It is available as the `whichbrowser/parser` package using Composer.
 
     composer require whichbrowser/parser
 
+For more information about the API and how to install, please see the [WhichBrowser/Parser](https://github.com/WhichBrowser/Parser) project.
 
-Javascript API using a server
------------
 
-There is also a server component that can called from your webpage and queried from Javascript: WhichBrowser/Server. You can install it by using Composer. It is available as the `whichbrowser/server` package using Composer.
+
+WhichBrowser server for Javascript
+----------------------------------
+
+There is also a server component that can called from your webpage and queried from Javascript: [WhichBrowser/Server](https://github.com/WhichBrowser/Server). You can install it by using Composer. It is available as the `whichbrowser/server` package using Composer.
 
     composer require whichbrowser/server
 
+For more information about the API and how to install, please see the [WhichBrowser/Server](https://github.com/WhichBrowser/Server) project.
 
 
 

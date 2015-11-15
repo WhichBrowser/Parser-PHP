@@ -1,6 +1,6 @@
 {
     "name": "whichbrowser/parser",
-    "description": "User agent sniffing gone too far",
+    "description": "Useragent sniffing library for PHP",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",

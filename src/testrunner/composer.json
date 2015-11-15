@@ -1,6 +1,6 @@
 {
     "name": "whichbrowser/testrunner",
-    "description": "Data for testing the WhichBrowser library",
+    "description": "Data for running tests on WhichBrowser",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",

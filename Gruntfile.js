@@ -10,13 +10,13 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/parser/' },
+          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**', 'README.md'], dest: 'dist/parser/' },
           { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/server/' },
           { expand: true, cwd: 'src/testrunner/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
           { expand: true, cwd: 'src/testrunner', src: ['runner.php', 'src/**'], dest: 'dist/testrunner/' },
-          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/compatibility/' },
-          { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/compatibility/' },
-          { expand: true, cwd: 'src/compatibility', src: ['libraries/**'], dest: 'dist/compatibility/' },
+          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/legacy/' },
+          { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/legacy/' },
+          { expand: true, cwd: 'src/legacy', src: ['libraries/**', 'README.md'], dest: 'dist/legacy/' },
         ]
       },
     	release: {
@@ -24,12 +24,12 @@ module.exports = function(grunt) {
           { expand: true, cwd: 'src/parser', src: ['composer.json'], dest: 'dist/parser/' },
           { expand: true, cwd: 'src/server', src: ['composer.json'], dest: 'dist/server/' },
           { expand: true, cwd: 'src/testrunner', src: ['composer.json'], dest: 'dist/testrunner/' },
-          { expand: true, cwd: 'src/compatibility', src: ['composer.json'], dest: 'dist/compatibility/' },
+          { expand: true, cwd: 'src/legacy', src: ['composer.json'], dest: 'dist/legacy/' },
 			  ]
       },
       deploy: {
         files: [
-          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/compatibility/' },
+          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/legacy/' },
         ]
       }
     },
@@ -54,8 +54,8 @@ module.exports = function(grunt) {
       },
       compatibility: {
         options: {
-          dir: 'dist/compatibility',
-          remote: 'git@github.com:WhichBrowser/WhichBrowser.git',
+          dir: 'dist/legacy',
+          remote: 'git@github.com:WhichBrowser/Legacy.git',
           branch: 'master',
           tag:    "v<%= pkg.version %>",
           message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
@@ -98,7 +98,7 @@ module.exports = function(grunt) {
 
       api: {
   			options: {
-  				src: 'dist/compatibility/',
+  				src: 'dist/legacy/',
   				dest: '/var/www/api.whichbrowser.net/web/rel',
   				host: 'admin@server.html5test.com',
   			}
@@ -106,7 +106,7 @@ module.exports = function(grunt) {
 
       www: {
         options: {
-          src: 'dist/compatibility/',
+          src: 'dist/legacy/',
           dest: '/var/www/whichbrowser.net/web/lib',
           host: 'admin@server.html5test.com',
         }
@@ -175,7 +175,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['clean', 'copy:dist', 'exec:check']);
   grunt.registerTask('generate', ['wget']);
-  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:compatibility', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
+  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
   grunt.registerTask('server', ['php:server']);
 

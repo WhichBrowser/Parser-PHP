@@ -1,6 +1,6 @@
 {
     "name": "whichbrowser/server",
-    "description": "User agent sniffing gone too far",
+    "description": "Useragent sniffing server for Javascript",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",
