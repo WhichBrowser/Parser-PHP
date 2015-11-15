@@ -170,35 +170,35 @@
 	
 				waitForWhichBrowser(function() {
 					try {
-						Browsers = new WhichBrowser({
+						result = new WhichBrowser({
 							useFeatures:		true,
 							detectCamouflage:	true
 						});
 					
 						var o = document.getElementById('example');
-						o.innerHTML = 	"<pre>Browsers = new WhichBrowser();" +
+						o.innerHTML = 	"<pre>result = new WhichBrowser();" +
 										"<hr>" +
-									  	"\"You are using \" + Browsers\n<span>// You are using " + Browsers + "</span>" +
+									  	"\"You are using \" + result\n<span>// You are using " + result + "</span>" +
 									  	"<hr>" +
-									  	"JSON.stringify(Browsers)\n<span>// " + JSON.stringify(Browsers) + "</span>" +
+									  	"JSON.stringify(result)\n<span>// " + JSON.stringify(result) + "</span>" +
 									  	"<hr>" +
-									  	"Browsers.isType('desktop')\n<span>// " + Browsers.isType('desktop') + "</span>\n" +
-										"Browsers.isType('mobile', 'tablet', 'media')\n<span>// " + Browsers.isType('mobile', 'tablet', 'media') + "</span>\n" +
-										"Browsers.isBrowser('Chrome', '>', '28')\n<span>// " + Browsers.isBrowser('Chrome', '>', '28') + "</span>\n" +
-										"Browsers.isEngine('Gecko')\n<span>// " + Browsers.isEngine('Gecko') + "</span>" +
+									  	"result.isType('desktop')\n<span>// " + result.isType('desktop') + "</span>\n" +
+										"result.isType('mobile', 'tablet', 'media')\n<span>// " + result.isType('mobile', 'tablet', 'media') + "</span>\n" +
+										"result.isBrowser('Chrome', '>', '28')\n<span>// " + result.isBrowser('Chrome', '>', '28') + "</span>\n" +
+										"result.isEngine('Gecko')\n<span>// " + result.isEngine('Gecko') + "</span>" +
 									  	"<hr>" +
-									  	"Browsers.browser\n<span>// " + Browsers.browser + "</span>\n" +
-										"Browsers.engine\n<span>// " + Browsers.engine + "</span>\n" +
-										"Browsers.os\n<span>// " + Browsers.os + "</span>" +
+									  	"result.browser\n<span>// " + result.browser + "</span>\n" +
+										"result.engine\n<span>// " + result.engine + "</span>\n" +
+										"result.os\n<span>// " + result.os + "</span>" +
 									  	"<hr>" +
-									  	"Browsers.browser.name\n<span>// " + Browsers.browser.name + "</span>\n" +
-										"Browsers.browser.name + ' ' + String(Browsers.browser.version)\n<span>// " + (Browsers.browser.name + ' ' + String(Browsers.browser.version)) + "</span>\n" +
-										"Browsers.browser.version.major\n<span>// " + Browsers.browser.version.major + "</span>\n" +
-										"Browsers.browser.version.minor\n<span>// " + Browsers.browser.version.minor + "</span>\n" +
-										"Browsers.browser.version.original\n<span>// " + Browsers.browser.version.original + "</span>" +
+									  	"result.browser.name\n<span>// " + result.browser.name + "</span>\n" +
+										"result.browser.name + ' ' + String(result.browser.version)\n<span>// " + (result.browser.name + ' ' + String(result.browser.version)) + "</span>\n" +
+										"result.browser.version.major\n<span>// " + result.browser.version.major + "</span>\n" +
+										"result.browser.version.minor\n<span>// " + result.browser.version.minor + "</span>\n" +
+										"result.browser.version.original\n<span>// " + result.browser.version.original + "</span>" +
 									  	"<hr>" +
-									  	"Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)\n<span>// " + (Browsers.browser.name == 'Chrome' && Browsers.browser.version.is('>', 28)) + "</span>\n" +
-										"Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')\n<span>// " + (Browsers.os.name == 'OS X' && Browsers.os.version.is('>', '10.7.4')) + "</span>" +
+									  	"result.browser.name == 'Chrome' && result.browser.version.is('>', 28)\n<span>// " + (result.browser.name == 'Chrome' && result.browser.version.is('>', 28)) + "</span>\n" +
+										"result.os.name == 'OS X' && result.os.version.is('>', '10.7.4')\n<span>// " + (result.os.name == 'OS X' && result.os.version.is('>', '10.7.4')) + "</span>" +
 										"</pre>";
 					} catch (e) {
 					}

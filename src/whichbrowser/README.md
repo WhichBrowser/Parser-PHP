@@ -85,86 +85,86 @@ The second step is to create a new `WhichBrowser` object. This object will conta
 
 For example:
 
-    Browsers = new WhichBrowser();
+    result = new WhichBrowser();
 
 
-The variable `Browsers` now contains an object which you can query for information. There are various ways to access the information.
+The variable `result` now contains an object which you can query for information. There are various ways to access the information.
 
 
 First of all, you can treat the object as a string to get a human readable identification:
 
-    "You are using " + Browsers
+    "You are using " + result
     // You are using Chrome 27 on Mac OS X 10.8.4
 
 If you need to, you can also explicitly typecast the object to a string
 
-    String(Browsers)
-    Browsers.toString()
+    String(result)
+    result.toString()
 
 
 Or you can turn the object into JSON:
 
-    JSON.stringify(Browsers)
+    JSON.stringify(result)
     // { "browser": {"name":"Chrome","version":{"value":"27"...
 
 
 Another possiblity is to query the object:
 
-    Browsers.isType('desktop')
+    result.isType('desktop')
     // true
 
-    Browsers.isType('mobile', 'tablet', 'media')  
+    result.isType('mobile', 'tablet', 'media')  
     // false
 
-    Browsers.isBrowser('Maxthon', '<', '4.0.5')  
+    result.isBrowser('Maxthon', '<', '4.0.5')  
     // false
 
-    Browsers.isOs('iOS', '>=', '5')
+    result.isOs('iOS', '>=', '5')
     // false
 
-    Browsers.isEngine('Blink')
+    result.isEngine('Blink')
     // true
 
 
 You can also access these properties directly:
 
-    Browsers.browser
+    result.browser
     // Chrome 27  
 
-    Browsers.engine
+    result.engine
     // Blink
 
-    Browsers.os
+    result.os
     // Mac OS X 10.8.4
 
 
 Or access parts of these properties directly:
 
-    Browsers.browser.name
+    result.browser.name
     // Chrome
 
-    Browsers.browser.name + ' ' + String(Browsers.browser.version)
+    result.browser.name + ' ' + String(result.browser.version)
     // Chrome 27
 
-    Browsers.browser.version.major
+    result.browser.version.major
     // 27
 
-    Browsers.browser.version.minor
+    result.browser.version.minor
     // 0
 
-    Browsers.browser.version.original
+    result.browser.version.original
     // 27.0.1453.110
 
-    Browsers.engine.name
+    result.engine.name
     // Blink
 
 
 Finally you can also query versions directly:
 
-    Browsers.browser.version.is('>', 26)
+    result.browser.version.is('>', 26)
     // true
 
-    Browsers.os.version.is('<', '10.7.4')
+    result.os.version.is('<', '10.7.4')
     // false
 
 
@@ -304,25 +304,25 @@ The `Version` object is used for the `version` property of the `browser`, `engin
 `is(version)` or `is(comparison, version)`  
 Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`, but be aware that `10` is not the same as `10.0`. For example if our OS version is `10.7.4`:
 
-    Browser.os.version.is('10.7.4')  
+    result.os.version.is('10.7.4')  
     // true
 
-    Browser.os.version.is('10.7')  
+    result.os.version.is('10.7')  
     // true
 
-    Browser.os.version.is('10')  
+    result.os.version.is('10')  
     // true
 
-    Browser.os.version.is('10.0')
+    result.os.version.is('10.0')
     // false
 
-    Browser.os.version.is('>', '10')
+    result.os.version.is('>', '10')
     // false
 
-    Browser.os.version.is('>', '10.7')
+    result.os.version.is('>', '10.7')
     // false
 
-    Browser.os.version.is('>', '10.7.3')
+    result.os.version.is('>', '10.7.3')
     // true
 
 
