@@ -13,5 +13,5 @@
 	// Development environment
 	else {
 		include_once __DIR__ . '/../../../vendor/autoload.php';
-		include_once __DIR__ . '/../../whichbrowser/src/parser.php';
+		include_once __DIR__ . '/../../parser/src/parser.php';
 	}

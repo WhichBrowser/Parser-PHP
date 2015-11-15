@@ -7,13 +7,14 @@
 
 	class Testrunner {
 
-		static function compare($files) {
+		static function compare($files, $skipManufacturers = false) {
 			@unlink('runner.log');
 
 			$result = true;
 
 			foreach($files as $file) {
-				$result = Testrunner::_compareFile($file) && $result;
+				if ($skipManufacturers && substr(basename($file), 0, 13) == 'manufacturer-') continue;
+				$result = Testrunner::_compareFile($file, $skipManufacturers) && $result;
 			}
 
 			return $result;

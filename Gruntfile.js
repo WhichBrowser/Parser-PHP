@@ -4,26 +4,32 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-    	dist: [ 'dist/whichbrowser', 'dist/testrunner' ],
+    	dist: [ 'dist' ],
     },
 
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src/whichbrowser', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'data/**', 'libraries/**', 'src/**'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/parser/' },
+          { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/server/' },
           { expand: true, cwd: 'src/testrunner/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
           { expand: true, cwd: 'src/testrunner', src: ['runner.php', 'src/**'], dest: 'dist/testrunner/' },
+          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/compatibility/' },
+          { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/compatibility/' },
+          { expand: true, cwd: 'src/compatibility', src: ['libraries/**'], dest: 'dist/compatibility/' },
         ]
       },
     	release: {
 			  files: [
-				  { expand: true, cwd: 'src/whichbrowser', src: ['composer.json'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'src/parser', src: ['composer.json'], dest: 'dist/parser/' },
+          { expand: true, cwd: 'src/server', src: ['composer.json'], dest: 'dist/server/' },
           { expand: true, cwd: 'src/testrunner', src: ['composer.json'], dest: 'dist/testrunner/' },
+          { expand: true, cwd: 'src/compatibility', src: ['composer.json'], dest: 'dist/compatibility/' },
 			  ]
       },
       deploy: {
         files: [
-          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/whichbrowser/' },
+          { expand: true, cwd: 'private', src: ['.htaccess', 'log.php'], dest: 'dist/compatibility/' },
         ]
       }
     },
@@ -34,8 +40,8 @@ module.exports = function(grunt) {
       },
       generate: {
         files: {
-            'src/whichbrowser/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php',
-            'src/whichbrowser/data/id-android.php': 'http://api.whichbrowser.net/resources/id-android.php'
+            'src/parser/data/profiles.php': 'http://api.whichbrowser.net/resources/profiles.php',
+            'src/parser/data/id-android.php': 'http://api.whichbrowser.net/resources/id-android.php'
         }
       }
     },
@@ -46,10 +52,28 @@ module.exports = function(grunt) {
         push: true,
         connectCommits: false
       },
-      library: {
+      compatibility: {
         options: {
-          dir: 'dist/whichbrowser',
-          remote: 'git@github.com:WhichBrowser/WhichBrowser.git',
+          dir: 'dist/compatibility',
+          remote: 'git@github.com:WhichBrowser/Compatibility.git',
+          branch: 'master',
+          tag:    "v<%= pkg.version %>",
+          message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
+        }
+      },
+      server: {
+        options: {
+          dir: 'dist/server',
+          remote: 'git@github.com:WhichBrowser/Server.git',
+          branch: 'master',
+          tag:    "v<%= pkg.version %>",
+          message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
+        }
+      },
+      parser: {
+        options: {
+          dir: 'dist/parser',
+          remote: 'git@github.com:WhichBrowser/Parser.git',
           branch: 'master',
           tag:    "v<%= pkg.version %>",
           message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
@@ -74,7 +98,7 @@ module.exports = function(grunt) {
 
       api: {
   			options: {
-  				src: 'dist/whichbrowser/',
+  				src: 'dist/compatibility/',
   				dest: '/var/www/api.whichbrowser.net/web/rel',
   				host: 'admin@server.html5test.com',
   			}
@@ -82,7 +106,7 @@ module.exports = function(grunt) {
 
       www: {
         options: {
-          src: 'dist/whichbrowser/',
+          src: 'dist/compatibility/',
           dest: '/var/www/whichbrowser.net/web/lib',
           host: 'admin@server.html5test.com',
         }
@@ -102,9 +126,9 @@ module.exports = function(grunt) {
     },
 
     php: {
-        start: {
+        server: {
             options: {
-                base: 'src/whichbrowser',
+                base: 'src/server',
                 port: 8080,
                 keepalive: true,
                 open: true
@@ -151,9 +175,9 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['clean', 'copy:dist', 'exec:check']);
   grunt.registerTask('generate', ['wget']);
-  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:library', 'buildcontrol:testrunner']);
+  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:compatibility', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
-  grunt.registerTask('start', ['php:start']);
+  grunt.registerTask('server', ['php:server']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
     var rebase = grunt.option('rebase');

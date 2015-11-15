@@ -66,7 +66,7 @@
 				break;
 
 		case 'compare':
-				$result = Testrunner::compare($files);
+				$result = Testrunner::compare($files, true);
 
 				if (!$result) {
 					echo "\033[0;31mTestrunner failed, please look at runner.log for the details!\033[0m\n\n";

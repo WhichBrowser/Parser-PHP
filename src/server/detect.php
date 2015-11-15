@@ -6,8 +6,13 @@
 	header("Expires: 0"); 
 
 	include_once('src/polyfills.php');
-	include_once('src/parser.php');
+
+	if (basename(__DIR__) == 'server')
+		include_once('../parser/src/parser.php');
+	else
+		include_once('src/parser.php');
 		
+
 	$options = array('headers' => getallheaders());
 	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
 	if (isset($_REQUEST['e'])) $options['engine'] = intval($_REQUEST['e']);

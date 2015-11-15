@@ -1,6 +1,6 @@
 {
-    "name": "whichbrowser/testrunner",
-    "description": "Data for testing the WhichBrowser library",
+    "name": "whichbrowser/parser",
+    "description": "User agent sniffing gone too far",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",
@@ -11,8 +11,14 @@
             "role": "Developer"
         }
     ],
+    
     "require": {
-        "symfony/yaml": "^2.7",
-        "whichbrowser/parser": "1.*"
+        "php": ">=5.4.0"
+    },
+    
+    "autoload": {
+        "classmap": [
+            "src/parser.php"
+        ]
     }
 }
