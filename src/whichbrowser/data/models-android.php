@@ -925,20 +925,22 @@
 			'KFJW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HD 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
 			'Amazon Jem'								=> [ 'Amazon', 'Kindle Fire HD 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
 			'KFJMWI'									=> [ 'Amazon', 'Kindle Fire', TYPE_TABLET, FLAG_FIREOS ],					//          3rd generation (1280 x 800)
-			'KFSOWI'									=> [ 'Amazon', 'Kindle Fire HD (2013)', TYPE_TABLET, FLAG_FIREOS ],		// "Soho" 	3rd generation 7" HD (1280 x 800)
-			'soho'										=> [ 'Amazon', 'Kindle Fire HD (2013)', TYPE_TABLET, FLAG_FIREOS ],		// "Soho" 	3rd generation 7" HD (1280 x 800)
-			'KFTHW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX', TYPE_TABLET, FLAG_FIREOS ],				// "Thor" 	3rd generation 7" HD version (1920 x 1200)
-			'thor'										=> [ 'Amazon', 'Kindle Fire HDX', TYPE_TABLET, FLAG_FIREOS ],				// "Thor" 	3rd generation 7" HD version (1920 x 1200)
-			'KFAPW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Apollo" 3rd generation 8.9" HD version (2560 x 1600)
-			'apollo'									=> [ 'Amazon', 'Kindle Fire HDX 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Apollo" 3rd generation 8.9" HD version (2560 x 1600)
-			'KFARWI'									=> [ 'Amazon', 'Fire HD 6', TYPE_TABLET, FLAG_FIREOS ],				// 4th generation 6" HD version (1280 x 800)
-			'KFASWI'									=> [ 'Amazon', 'Fire HD 7', TYPE_TABLET, FLAG_FIREOS ],				// 4th generation 7" HD version (1280 x 800)
-			'KFSAW(I|A)!'								=> [ 'Amazon', 'Fire HDX 8.9" (2014)', TYPE_TABLET, FLAG_FIREOS ],	// 4th generation 8.9" HD version (2560 x 1600)
-//			'KFMEWI'
-//			'KFTBWI'
+			'KFSOWI'									=> [ 'Amazon', 'Kindle Fire HD (2013)', TYPE_TABLET, FLAG_FIREOS ],			// "Soho" 	3rd generation 7" HD (1280 x 800)
+			'soho'										=> [ 'Amazon', 'Kindle Fire HD (2013)', TYPE_TABLET, FLAG_FIREOS ],			// "Soho" 	3rd generation 7" HD (1280 x 800)
+			'KFTHW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX', TYPE_TABLET, FLAG_FIREOS ],				// "Thor" 	3rd generation 7" HDX (1920 x 1200)
+			'thor'										=> [ 'Amazon', 'Kindle Fire HDX', TYPE_TABLET, FLAG_FIREOS ],				// "Thor" 	3rd generation 7" HDX (1920 x 1200)
+			'KFAPW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Apollo" 3rd generation 8.9" HDX (2560 x 1600)
+			'apollo'									=> [ 'Amazon', 'Kindle Fire HDX 8.9"', TYPE_TABLET, FLAG_FIREOS ],			// "Apollo" 3rd generation 8.9" HDX (2560 x 1600)
+			'KFARWI'									=> [ 'Amazon', 'Fire HD 6', TYPE_TABLET, FLAG_FIREOS ],						// 4th generation 6" HD (1280 x 800)
+			'KFASWI'									=> [ 'Amazon', 'Fire HD 7', TYPE_TABLET, FLAG_FIREOS ],						// 4th generation 7" HD (1280 x 800)
+			'KFSAW(I|A)!'								=> [ 'Amazon', 'Fire HDX 8.9" (2014)', TYPE_TABLET, FLAG_FIREOS ],			// 4th generation 8.9" HDX (2560 x 1600)
+			'KFFOWI'									=> [ 'Amazon', 'Fire', TYPE_TABLET, FLAG_FIREOS ],							// 5th generation 7" (1024 x 600)
+			'KFMEWI'									=> [ 'Amazon', 'Fire HD 8', TYPE_TABLET, FLAG_FIREOS ],						// 5th generation 8" HD (1280 x 800)
+			'KFTBWI'									=> [ 'Amazon', 'Fire HD 10', TYPE_TABLET, FLAG_FIREOS ],					// 5th generation 10" HD (1280 x 800)
 			'SD4930UR'									=> [ 'Amazon', 'Fire Phone', TYPE_MOBILE, FLAG_FIREOS ],
-			'AFTB'										=> [ 'Amazon', 'FireTV', TYPE_TELEVISION, FLAG_FIREOS ],
-			'AFTM'										=> [ 'Amazon', 'FireTV stick', TYPE_TELEVISION, FLAG_FIREOS ],
+			'AFTB'										=> [ 'Amazon', 'Fire TV', TYPE_TELEVISION, FLAG_FIREOS ],
+			'AFTS'										=> [ 'Amazon', 'Fire TV (2015)', TYPE_TELEVISION, FLAG_FIREOS ],
+			'AFTM'										=> [ 'Amazon', 'Fire TV stick', TYPE_TELEVISION, FLAG_FIREOS ],
 			'AMI-TT2'									=> [ 'Amicroe', 'TouchTab II', TYPE_TABLET ],
 			'AMI-TT2C'									=> [ 'Amicroe', 'TouchTab IIC', TYPE_TABLET ],
 			'AMI-TT4'									=> [ 'Amicroe', 'TouchTab IV', TYPE_TABLET ],

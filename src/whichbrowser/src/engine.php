@@ -6099,6 +6099,7 @@
 						case '4.2.2':	$this->os->version = new Version([ 'value' => '3' ]); break;
 						case '4.4.2':	$this->os->version = new Version([ 'value' => '4' ]); break;
 						case '4.4.3':	$this->os->version = new Version([ 'value' => '4.5' ]); break;
+						case '5.1.1':	$this->os->version = new Version([ 'value' => '5' ]); break;
 						default:		unset($this->os->version); break;
 					}
 				}
