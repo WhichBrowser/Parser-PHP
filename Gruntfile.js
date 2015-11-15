@@ -52,7 +52,7 @@ module.exports = function(grunt) {
         push: true,
         connectCommits: false
       },
-      compatibility: {
+      legacy: {
         options: {
           dir: 'dist/legacy',
           remote: 'git@github.com:WhichBrowser/Legacy.git',
