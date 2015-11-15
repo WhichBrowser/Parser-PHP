@@ -55,7 +55,7 @@ module.exports = function(grunt) {
       compatibility: {
         options: {
           dir: 'dist/compatibility',
-          remote: 'git@github.com:WhichBrowser/Compatibility.git',
+          remote: 'git@github.com:WhichBrowser/WhichBrowser.git',
           branch: 'master',
           tag:    "v<%= pkg.version %>",
           message: 'Built %sourceName% from commit %sourceCommit% on WhichBrowser/WhichBrowser on branch %sourceBranch%'
