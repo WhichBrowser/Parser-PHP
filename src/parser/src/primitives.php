@@ -52,6 +52,10 @@
 			return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
 		}
 
+		public function isDetected() {
+			return !empty($this->name);
+		}
+
 		public function toString() {
 			return trim($this->getName() . ' ' . $this->getVersion());
 		}
@@ -138,6 +142,10 @@
 		public function toString() {
 			if ($this->identified) return trim((!empty($this->manufacturer) ? $this->manufacturer . ' ' : '') . (!empty($this->model) ? $this->model . ' ' : '') . (!empty($this->series) ? $this->series : ''));
 			return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
+		}
+
+		public function isDetected() {
+			return !empty($this->model);
 		}
 
 		public function toArray() {
