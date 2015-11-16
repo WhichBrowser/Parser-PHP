@@ -100,12 +100,32 @@ var WhichBrowser = (function(){
 		}
 	};
 
+	var Using = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Using.prototype = {
+		initialize: function(v) {
+			this.name = v.name || null;
+			this.version = v.version || null;
+		},
+		
+		toJSON: function() {
+			return {
+				name:		this.name,
+				version:	(this.version) ? this.version.toJSON() : null,
+			};
+		},
+		
+		toString: function() {
+			return (this.name ? this.name + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
+		}
+	};
+	
 	var Browser = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Browser.prototype = {
 		initialize: function(v) {
 			this.name = v.name || null;
 			this.alias = v.alias || null;
 			this.version = v.version || null;
+			this.using = v.using || null;
 			
 			this.stock = v.stock || false;
 			this.channel = v.channel || null;
@@ -127,7 +147,9 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			var name = this.alias ? this.alias : (this.name ? this.name : '');
-			return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
+			if (name != '') return (name ? name + (this.channel ? ' ' + this.channel : '') + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
+			if (this.using) return this.using.toString();
+			return '';
 		}
 	};
 

@@ -21,6 +21,8 @@
 
 					if ($key == 'version') {
 						$line .= 'new Version({ ' . $value->toJavaScript() . ' })';
+					} else if ($key == 'using') {
+						$line .= 'new Using({ ' . $value->toJavaScript() . ' })';
 					} else {
 						switch(gettype($value)) {
 							case 'boolean':		$line .= $value ? 'true' : 'false'; break;
@@ -61,9 +63,9 @@
 		}
 	}
 
-
 	class Browser extends NameVersionPrimitive {
 		public $channel;
+		public $using;
 
 		public $stock = true;
 		public $hidden = false;
@@ -74,11 +76,30 @@
 			return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') : '';
 		}
 
+		public function isUsing($s) {
+			if (isset($this->using)) {
+				if ($this->using->getName() == $s) return true;
+			}
+
+			return false;
+		}
+
+		public function toString() {
+			$result = trim($this->getName() . ' ' . $this->getVersion());
+
+			if (empty($result) && isset($this->using)) {
+				return $this->using->toString();
+			}
+
+			return $result;
+		}
+
 		public function toArray() {
 			$result = [];
 
 			if (!empty($this->name)) $result['name'] = $this->name;
 			if (!empty($this->alias)) $result['alias'] = $this->alias;
+			if (!empty($this->using)) $result['using'] = $this->using->toArray();
 			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			if (isset($result['version']) && !count($result['version'])) unset($result['version']);
@@ -119,6 +140,17 @@
 		}
 	}
 
+	class Using extends NameVersionPrimitive {
+		public function toArray() {
+			$result = [];
+
+			if (!empty($this->name) && empty($this->version)) return $this->name;
+			if (!empty($this->name)) $result['name'] = $this->name;
+			if (!empty($this->version)) $result['version'] = $this->version->toArray();
+
+			return $result;
+		}
+	}
 
 	class Device extends Primitive {
 		public $manufacturer;

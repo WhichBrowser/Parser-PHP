@@ -4471,6 +4471,7 @@
 
 					/* Webview for Android 4.4 and higher */
 					if (implode('.', array_slice(explode('.', $match[1]), 1, 2)) == '0.0' && preg_match('/Version\//u', $ua)) {
+						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $match[1])[0] ]) ]);
 						$this->browser->stock = true;
 						$this->browser->name = null;
 						$this->browser->version = null;
@@ -4479,6 +4480,7 @@
 
 					/* Webview for Android 5 */
 					if (preg_match('/; wv\)/u', $ua)) {
+						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $match[1])[0] ]) ]);
 						$this->browser->stock = true;
 						$this->browser->name = null;
 						$this->browser->version = null;
@@ -4639,6 +4641,33 @@
 				if ($this->device->type == '') {
 					$this->device->type = TYPE_DESKTOP;
 				}
+			}
+
+
+			/****************************************************
+			 *		Chromium WebView by Amazon
+			 */
+
+			if (preg_match('/AmazonWebAppPlatform\//u', $ua)) {
+				$this->browser->using = new Using([ 'name' => 'Amazon WebView' ]); 
+
+				$this->browser->stock = false;
+				$this->browser->name = null;
+				$this->browser->version = null;
+				$this->browser->channel = null;
+			}
+
+			/****************************************************
+			 *		Chromium WebView by Crosswalk
+			 */
+
+			if (preg_match('/Crosswalk\/([0-9.]*)/u', $ua, $match)) {
+				$this->browser->using = new Using([ 'name' => 'Crosswalk WebView', 'version' => new Version([ 'value' => $match[1], 'details' => 1 ]) ]); 
+
+				$this->browser->stock = false;
+				$this->browser->name = null;
+				$this->browser->version = null;
+				$this->browser->channel = null;
 			}
 
 			/****************************************************
@@ -5603,7 +5632,6 @@
 				array('name' => 'Bsalsa Embedded',		'regexp' => '/bsalsa\.com/u'),
 				array('name' => 'Bsalsa Embedded',		'regexp' => '/Embedded Web Browser/u'),
 				array('name' => 'Canvace',				'regexp' => '/Canvace Standalone\/([0-9.]*)/u'),
-				array('name' => 'Crosswalk',			'regexp' => '/Crosswalk\/([0-9.]*)/u', 'details' => 1),
 				array('name' => 'Ekioh',				'regexp' => '/Ekioh\/([0-9.]*)/u'),
 				array('name' => 'JavaFX',				'regexp' => '/JavaFX\/([0-9.]*)/u'),
 				array('name' => 'GFXe',					'regexp' => '/GFXe\/([0-9.]*)/u'),
@@ -6114,6 +6142,19 @@
 						case '5.1.1':	$this->os->version = new Version([ 'value' => '5' ]); break;
 						default:		unset($this->os->version); break;
 					}
+				}
+
+				if ($this->isBrowser('Chrome')) {
+					$this->browser->using = new Using([ 'name' => 'Amazon WebView' ]); 
+
+					$this->browser->stock = false;
+					$this->browser->name = null;
+					$this->browser->version = null;
+					$this->browser->channel = null;
+				}
+
+				if ($this->browser->isUsing('Chromium WebView')) {
+					$this->browser->using = new Using([ 'name' => 'Amazon WebView' ]); 
 				}
 
 				unset($this->device->flag);

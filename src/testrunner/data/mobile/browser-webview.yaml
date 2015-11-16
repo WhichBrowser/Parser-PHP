@@ -1,0 +1,21 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; SD4930UR Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Webkit, version: '537.22' }, os: { name: FireOS, family: Android, version: '3' }, device: { type: mobile, manufacturer: Amazon, model: 'Fire Phone' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; ZTE 975 Build/JDQ39) AppleWebKit/537.36  (KHTML, like Gecko) Chrome/32.0.1700.14 Mobile Crosswalk/3.32.53.0  Mobile Safari/537.36'
+    result: { browser: { using: { name: 'Crosswalk WebView', version: '3' } }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, model: 'ZTE 975' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFARWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3;0'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: mobile, manufacturer: Amazon, model: 'Fire Phone' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/_BuildID_) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    result: { browser: { name: 'Android Browser', using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.4' }, device: { type: mobile, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; KFTBWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.51020.2250.0238 Safari/537.36'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 10' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36'
+    result: { browser: { name: 'Android Browser', using: { name: 'Chromium WebView', version: '43' } }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, manufacturer: LG, model: 'Nexus 5' } }
