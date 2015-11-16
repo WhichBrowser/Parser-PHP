@@ -351,7 +351,7 @@
 			}
 
 			/* The X-Requested-With header is only send from Android devices */
-			if (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family != 'Android'))) {
+			if (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family->getName() != 'Android'))) {
 				$this->os->name = 'Android';
 				$this->os->alias = null;
 				$this->os->version = null;
@@ -1184,7 +1184,7 @@
 
 			if (preg_match('/Aliyun/u', $ua) || preg_match('/YunOs/ui', $ua)) {
 				$this->os->name = 'Aliyun OS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				$this->os->version = new Version();
 
 				if (preg_match('/YunOs[ \/]([0-9.]+)/iu', $ua, $match)) {
@@ -1215,25 +1215,25 @@
 			if (preg_match('/Android/u', $ua)) {
 				if (preg_match('/Android v(1.[0-9][0-9])_[0-9][0-9].[0-9][0-9]-/u', $ua, $match)) {
 					$this->os->name = 'Aliyun OS';
-					$this->os->family = 'Android';
+					$this->os->family = new Family([ 'name' => 'Android' ]);
 					$this->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
 				}
 
 				if (preg_match('/Android (1.[0-9].[0-9].[0-9]+)-R?T/u', $ua, $match)) {
 					$this->os->name = 'Aliyun OS';
-					$this->os->family = 'Android';
+					$this->os->family = new Family([ 'name' => 'Android' ]);
 					$this->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
 				}
 
 				if (preg_match('/Android ([12].[0-9].[0-9]+)-R-20[0-9]+/u', $ua, $match)) {
 					$this->os->name = 'Aliyun OS';
-					$this->os->family = 'Android';
+					$this->os->family = new Family([ 'name' => 'Android' ]);
 					$this->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
 				}
 
 				if (preg_match('/Android 20[0-9]+/u', $ua, $match)) {
 					$this->os->name = 'Aliyun OS';
-					$this->os->family = 'Android';
+					$this->os->family = new Family([ 'name' => 'Android' ]);
 					$this->os->version = null;
 				}
 			}
@@ -1258,7 +1258,7 @@
 
 			if (preg_match('/GoogleTV/u', $ua)) {
 				$this->os->name = 'Google TV';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 
 				$this->device->type = TYPE_TELEVISION;
 
@@ -1845,36 +1845,36 @@
 
 			if (preg_match('/COS like Android/ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				$this->os->version = null;
 				$this->device->type = TYPE_MOBILE;
 			}
 
 			if (preg_match('/COSBrowser\//ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 			}
 
 			if (preg_match('/COS\/([0-9.]*)/ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 			}
 
 			if (preg_match('/(?:\(|; )COS/ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 			}
 
 			if (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 			}
 
 			if (preg_match('/(?:\(|; )COS ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
 				$this->os->name = 'COS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 			}
 
@@ -5364,7 +5364,7 @@
 						$device->identified |= $this->device->identified;
 						$this->device = $device;
 
-						if (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family != 'Android'))) {
+						if (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family->getName() != 'Android'))) {
 							$this->os->name = 'Android';
 						}
 					}
@@ -5457,7 +5457,7 @@
 				$this->browser->version = null;
 				$this->browser->version = new Version([ 'value' => $match[1] ]);
 				
-				if (preg_match('/360\(android/u', $ua) && (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family != 'Android')))) {
+				if (preg_match('/360\(android/u', $ua) && (!isset($this->os->name) || ($this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family->getName() != 'Android')))) {
 					$this->os->name = 'Android';
 					$this->os->version = null;
 					$this->device->type = TYPE_MOBILE;
@@ -6107,7 +6107,7 @@
 						unset($this->os->version);
 					}
 
-					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Windows' && $this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family != 'Android'))) {
+					else if (!isset($this->os->name) || ($this->os->name != 'iOS' && $this->os->name != 'Windows Phone' && $this->os->name != 'Windows' && $this->os->name != 'Android' && (!isset($this->os->family) || $this->os->family->getName() != 'Android'))) {
 						$this->engine->name = 'Gecko';
 						unset($this->engine->version);
 						$this->browser->mode = 'proxy';
@@ -6122,7 +6122,7 @@
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_NOKIAX) {
 				$this->os->name = 'Nokia X Platform';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 
 				unset($this->os->version);
 				unset($this->device->flag);
@@ -6130,7 +6130,7 @@
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_FIREOS) {
 				$this->os->name = 'FireOS';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 
 				if (isset($this->os->version) && isset($this->os->version->value)) {
 					switch($this->os->version->value) {
@@ -6162,7 +6162,7 @@
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_GOOGLETV) {
 				$this->os->name = 'Google TV';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 
 				unset($this->os->version);
 				unset($this->device->flag);
@@ -6170,14 +6170,14 @@
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDTV) {
 				$this->os->name = 'Android TV';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 
 				unset($this->device->flag);
 			}
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_ANDROIDWEAR) {
 				$this->os->name = 'Android Wear';
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				unset($this->os->version);
 
 				if (preg_match('/Chrome\/19\.77\.34\.5/u', $ua)) {
@@ -6194,7 +6194,7 @@
 			}
 
 			if (isset($this->device->flag) && $this->device->flag == FLAG_GOOGLEGLASS) {
-				$this->os->family = 'Android';
+				$this->os->family = new Family([ 'name' => 'Android' ]);
 				unset($this->os->name);
 				unset($this->os->version);
 				unset($this->device->flag);

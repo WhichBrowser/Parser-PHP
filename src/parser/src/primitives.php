@@ -21,6 +21,8 @@
 
 					if ($key == 'version') {
 						$line .= 'new Version({ ' . $value->toJavaScript() . ' })';
+					} else if ($key == 'family') {
+						$line .= 'new Family({ ' . $value->toJavaScript() . ' })';
 					} else if ($key == 'using') {
 						$line .= 'new Using({ ' . $value->toJavaScript() . ' })';
 					} else {
@@ -66,6 +68,7 @@
 	class Browser extends NameVersionPrimitive {
 		public $channel;
 		public $using;
+		public $family;
 
 		public $stock = true;
 		public $hidden = false;
@@ -100,6 +103,7 @@
 			if (!empty($this->name)) $result['name'] = $this->name;
 			if (!empty($this->alias)) $result['alias'] = $this->alias;
 			if (!empty($this->using)) $result['using'] = $this->using->toArray();
+			if (!empty($this->family)) $result['family'] = $this->family->toArray();
 			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			if (isset($result['version']) && !count($result['version'])) unset($result['version']);
@@ -130,11 +134,23 @@
 			$result = [];
 
 			if (!empty($this->name)) $result['name'] = $this->name;
-			if (!empty($this->family)) $result['family'] = $this->family;
+			if (!empty($this->family)) $result['family'] = $this->family->toArray();
 			if (!empty($this->alias)) $result['alias'] = $this->alias;
 			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			if (isset($result['version']) && !count($result['version'])) unset($result['version']);
+
+			return $result;
+		}
+	}
+
+	class Family extends NameVersionPrimitive {
+		public function toArray() {
+			$result = [];
+
+			if (!empty($this->name) && empty($this->version)) return $this->name;
+			if (!empty($this->name)) $result['name'] = $this->name;
+			if (!empty($this->version)) $result['version'] = $this->version->toArray();
 
 			return $result;
 		}

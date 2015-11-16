@@ -119,6 +119,25 @@ var WhichBrowser = (function(){
 		}
 	};
 	
+	var Family = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
+	Family.prototype = {
+		initialize: function(v) {
+			this.name = v.name || null;
+			this.version = v.version || null;
+		},
+		
+		toJSON: function() {
+			return {
+				name:		this.name,
+				version:	(this.version) ? this.version.toJSON() : null,
+			};
+		},
+		
+		toString: function() {
+			return (this.name ? this.name + (this.version && !this.version.hidden ? ' ' + this.version.toString() : '') : '');
+		}
+	};
+	
 	var Browser = function() { this.initialize.apply(this, Array.prototype.slice.call(arguments)) };
 	Browser.prototype = {
 		initialize: function(v) {
@@ -126,6 +145,7 @@ var WhichBrowser = (function(){
 			this.alias = v.alias || null;
 			this.version = v.version || null;
 			this.using = v.using || null;
+			this.family = v.family || null;
 			
 			this.stock = v.stock || false;
 			this.channel = v.channel || null;
