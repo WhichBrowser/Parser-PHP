@@ -15,31 +15,31 @@
     result: { device: { type: television, manufacturer: Skyworth, model: HC7620 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (; CUS:; MB70; 1.0; 1.0;) LOH; Opera; CE-HTML/1.0 NetFront/4.1 NETRANGEMMH'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: mobile, model: MB70 } }
+    result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, model: MB70 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (; Vestel; MB70; 1.0; 1.0;) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: mobile, manufacturer: Vestel, model: MB70 } }
+    result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, manufacturer: Vestel, model: MB70 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;EN2000 ;9.wk.92;4.4.2; ) LOH; Opera; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: EN2000 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: EN2000 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dsi1076 02-AA-55-AA-56-26;9.wr.28;4.4.7;;) LOH; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DSI1076 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: DSI1076 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dsi1076 02-AA-55-AA-56-26;9.wr.28;4.4.7;;) LOH; Opera; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DSI1076 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: DSI1076 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr7105 00-00-00-00-00-00;9.26.01;2502-B234A;) LOH; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DTR7105 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: DTR7105 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr7105 02-AA-55-AA-58-3B;9.23.04;4.4.6;;) NetFront/4.1 CE-HTML Opera'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DTR7105 } }
+    result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, manufacturer: HyperPanel, model: DTR7105 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr7105 02-AA-55-AA-58-3B;9.wr.33;4.5.2;) LOH; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DTR7105 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: DTR7105 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr77 00-00-00-00-00-00;9.wr.28;2502-B234A;;) LOH; Opera; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: mobile, manufacturer: HyperPanel, model: DTR77 } }
+    result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: DTR77 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;IP4TV;DXD5505;1.0;1.0;)'
     result: { device: { type: television, manufacturer: IP4TV, model: DXD5505 } }

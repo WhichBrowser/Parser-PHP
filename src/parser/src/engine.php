@@ -5083,7 +5083,7 @@
 					$this->browser->version = new Version([ 'value' => $match[1] ]);
 				}
 
-				if (preg_match('/InettvBrowser/u', $ua)) {
+				if (preg_match('/(InettvBrowser|HbbTV)/u', $ua)) {
 					$this->device->type = TYPE_TELEVISION;
 				}
 
@@ -5113,7 +5113,7 @@
 				$this->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 
 				if (!isset($this->device->type) || !$this->device->type) {
-					if (preg_match('/DTV/iu', $ua)) {
+					if (preg_match('/(DTV|HbbTV)/iu', $ua)) {
 						$this->device->type = TYPE_TELEVISION;
 					} else if (preg_match('/mobile/iu', $ua)) {
 						$this->device->type = TYPE_MOBILE;
