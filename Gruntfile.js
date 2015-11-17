@@ -158,7 +158,16 @@ module.exports = function(grunt) {
       rebase: {
         cwd: 'src/testrunner',
         cmd: 'php -f runner.php rebase'
+      },
+
+      updatechrome: {
+        cwd: 'tools',
+        cmd: 'php -f update-chrome.php'
       }
+    },
+
+    gitcheck: {
+      branches: [ 'dev' ]
     }
   });
 
@@ -171,11 +180,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-php');
   grunt.loadNpmTasks('grunt-wget');
   grunt.loadNpmTasks('grunt-rsync');
+  grunt.loadNpmTasks('grunt-gitcheck');
 
 
-  grunt.registerTask('default', ['clean', 'copy:dist', 'exec:check']);
-  grunt.registerTask('generate', ['wget']);
-  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
+  grunt.registerTask('default', ['generate', 'clean', 'copy:dist', 'exec:check']);
+  grunt.registerTask('generate', ['wget'], ['exec:updatechrome']);
+  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
   grunt.registerTask('server', ['php:server']);
 
@@ -191,5 +201,5 @@ module.exports = function(grunt) {
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['clean', 'copy:dist', 'copy:deploy', 'exec:check', 'rsync:api', 'rsync:www']);
+  grunt.registerTask('deploy', ['clean', 'copy:dist', 'copy:deploy', 'exec:check', 'gitcheck', 'rsync:api', 'rsync:www']);
 };
