@@ -4437,37 +4437,22 @@
 				$this->browser->version = new Version([ 'value' => $match[1] ]);
 
 				if (isset($this->os->name) && $this->os->name == 'Android') {
-					switch (implode('.', array_slice(explode('.', $match[1]), 0, 3))) {
-						case '16.0.912':
-							$this->browser->channel = 'Beta';
-							break;
-						case '18.0.1025':
-						case '25.0.1364':
-						case '27.0.1453':
-						case '29.0.1547':
-						case '30.0.1599':
-						case '31.0.1650':
-						case '32.0.1700':
-						case '33.0.1750':
-						case '34.0.1847':
-						case '35.0.1916':
-						case '36.0.1985':
-						case '37.0.2062':
-						case '38.0.2125':
-						case '39.0.2171':
-						case '40.0.2214':
-						case '41.0.2272':
-						case '42.0.2311':
-						case '43.0.2357':
-						case '44.0.2403':
-						case '45.0.2454':
-						case '46.0.2490':
+					$channel = Data\Chrome::getChannel('mobile', $match[1]);
+
+					if ($channel == 'stable') {
+						if (explode('.', $match[1])[1] == '0') {
 							$this->browser->version->details = 1;
-							break;
-						default:
-							$this->browser->channel = 'Dev';
-							break;
+						} else {
+							$this->browser->version->details = 2;
+						}
 					}
+					else if ($channel == 'beta') {
+						$this->browser->channel = 'Beta';
+					}
+					else {
+						$this->browser->channel = 'Dev';
+					}
+
 
 					/* Webview for Android 4.4 and higher */
 					if (implode('.', array_slice(explode('.', $match[1]), 1, 2)) == '0.0' && preg_match('/Version\//u', $ua)) {
@@ -4558,65 +4543,20 @@
 				}
 
 				else {
-					switch (implode('.', array_slice(explode('.', $match[1]), 0, 3))) {
-						case '0.2.149':
-						case '0.3.154':
-						case '0.4.154':
-						case '4.1.249':
-							$this->browser->version->details = 2;
-							break;
+					$channel = Data\Chrome::getChannel('desktop', $match[1]);
 
-						case '1.0.154':
-						case '2.0.172':
-						case '3.0.195':
-						case '4.0.249':
-						case '5.0.375':
-						case '6.0.472':
-						case '7.0.517':
-						case '8.0.552':
-						case '9.0.597':
-						case '10.0.648':
-						case '11.0.696':
-						case '12.0.742':
-						case '13.0.782':
-						case '14.0.835':
-						case '15.0.874':
-						case '16.0.912':
-						case '17.0.963':
-						case '18.0.1025':
-						case '19.0.1084':
-						case '20.0.1132':
-						case '21.0.1180':
-						case '22.0.1229':
-						case '23.0.1271':
-						case '24.0.1312':
-						case '25.0.1364':
-						case '26.0.1410':
-						case '27.0.1453':
-						case '28.0.1500':
-						case '29.0.1547':
-						case '30.0.1599':
-						case '31.0.1650':
-						case '32.0.1700':
-						case '33.0.1750':
-						case '34.0.1847':
-						case '35.0.1916':
-						case '36.0.1985':
-						case '37.0.2062':
-						case '38.0.2125':
-						case '39.0.2171':
-						case '40.0.2214':
-						case '41.0.2272':
-						case '42.0.2311':
-						case '43.0.2357':
-						case '44.0.2403':
-						case '45.0.2454':
-						case '46.0.2490':
+					if ($channel == 'stable') {
+						if (explode('.', $match[1])[1] == '0') {
 							$this->browser->version->details = 1;
-							break;
-						default:
-							$this->browser->channel = 'Dev';
-							break;
+						} else {
+							$this->browser->version->details = 2;
+						}
+					}
+					else if ($channel == 'beta') {
+						$this->browser->channel = 'Beta';
+					}
+					else {
+						$this->browser->channel = 'Dev';
 					}
 				}
 
