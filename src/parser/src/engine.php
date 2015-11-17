@@ -4474,7 +4474,7 @@
 
 					/* LG Chromium based browsers */
 					if (isset($device->manufacturer) && $device->manufacturer == 'LG') {
-						if (in_array($match[1], [ '30.0.1599.103', '34.0.1847.118', '38.0.2125.102' ]) && preg_match('/Version\/4/u', $ua)) {
+						if (in_array($match[1], [ '30.0.1599.103', '34.0.1847.118', '38.0.2125.0', '38.0.2125.102' ]) && preg_match('/Version\/4/u', $ua) && !preg_match('/; wv\)/u', $ua)) {
 							$this->browser->name = "LG Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
