@@ -5,6 +5,7 @@
 		DeviceModels::$WINDOWS_PHONE_MODELS = [
 			'Allegro'									=> [ 'Acer', 'Allegro' ],
 			'M310'										=> [ 'Acer', 'Allegro' ],
+			'M220'										=> [ 'Acer', 'Liquid' ],
 			'ONE TOUCH 5040X'							=> [ 'Alcatel', 'One Touch View' ],
 			'Impera I'									=> [ 'Allview', 'Impera i' ],
 			'Impera M'									=> [ 'Allview', 'Impera M' ],
@@ -36,6 +37,7 @@
 			'DolphinCT50'								=> [ 'Honeywell', 'Dolphin CT50' ],
 			'HELSINKI'									=> [ 'Honeywell', '"Helsinki"' ],
 			'HD2'										=> [ 'HTC', 'HD2' ],
+			';HD2'										=> [ 'HTC', 'HD2' ],
 			'LEO'										=> [ 'HTC', 'HD2' ],
 			'HD2(Leo'									=> [ 'HTC', 'HD2' ],
 			'HD2 LEO'									=> [ 'HTC', 'HD2' ],
@@ -47,7 +49,9 @@
 			'Touch-IT HD7'								=> [ 'HTC', 'HD7' ],
 			'((7 )?Mozart|.*T86(97|98))!'				=> [ 'HTC', '7 Mozart' ],
 			'PD67100'									=> [ 'HTC', '7 Mozart' ], 
+			';PD67100'									=> [ 'HTC', '7 Mozart' ], 
 			'HTC Mozart'								=> [ 'HTC', '7 Mozart' ], 
+			'PC93100'									=> [ 'HTC', '7 Pro' ],
 			'MWP6885'									=> [ 'HTC', '7 Pro' ],
 			'(7 Pro|.*T75(75|76))!'						=> [ 'HTC', '7 Pro' ],
 			'USCCHTC-PC93100'							=> [ 'HTC', '7 Pro' ],
@@ -65,6 +69,7 @@
 			'(Radar|.*C110e)!'							=> [ 'HTC', 'Radar' ],
 			'Omega'										=> [ 'HTC', 'Radar' ], 
 			'Mazaa'										=> [ 'HTC', 'Mazaa' ], 				// Never released
+			'Titan'										=> [ 'HTC', 'Titan' ],
 			'.*X310e!'									=> [ 'HTC', 'Titan' ],
 			'PI39100'									=> [ 'HTC', 'Titan' ],
 			'Eternity'									=> [ 'HTC', 'Titan' ],
@@ -99,6 +104,7 @@
 			'4Afrika'									=> [ 'Huawei', '4Afrika' ],
 			'Andi4L'									=> [ 'iBall', 'Andi 4L Pulse' ],
 			'Titanium Wind W4'							=> [ 'Karbonn', 'Titanium Wind W4' ],
+			'Thunder 450W'								=> [ 'KAZAM', 'Thunder 450W' ],
 			'iris Win 1'								=> [ 'Lava', 'Iris Win 1' ],			// Unannounced
 			'Win1'										=> [ 'Lava', 'Iris Win 1' ],			// Unannounced
 			'- Lazer SMART WIND'						=> [ 'Lazer', 'Smart Wind' ],			// By Archos
@@ -107,10 +113,13 @@
 			'LG-E906'									=> [ 'LG', 'Jil Sander' ],
 			'LG-C900!'									=> [ 'LG', 'Optimus 7Q' ],
 			'VW820'										=> [ 'LG', 'Lancet' ],
+			'Quantum'									=> [ 'LG', 'Quantum' ],
 			'Harley Davidson'							=> [ 'NGM', 'Harley Davidson' ],
+			'Harley-Davidson'							=> [ 'NGM', 'Harley Davidson' ],
 			'MegaFon SP-W1'								=> [ 'Мегафон', 'SP-W1' ],
-			'MWP-47'									=> [ 'Miia', 'Windows Phone 4.7" iimotion' ],
+			'MWP-47!'									=> [ 'Miia', 'Windows Phone 4.7" iimotion' ],
 			'W121'										=> [ 'Micromax', 'Canvas Win W121' ],
+			'M5w'										=> [ 'Mint', 'M5 Windows' ],
 			'TC70'										=> [ 'Motorola', 'TC70' ],				// Motorola Solutions
 			'MouseComputer MADOSMA Q501'				=> [ 'MouseComputer', 'MADOSMA Q501' ],
 
@@ -127,6 +136,7 @@
 				'Lumia 532!'								=> [ 'Microsoft', 'Lumia 532' ],
 				'Lumia 535!'								=> [ 'Microsoft', 'Lumia 535' ],
 				'Lumia 540!'								=> [ 'Microsoft', 'Lumia 540' ],
+				'Lumia 550!'								=> [ 'Microsoft', 'Lumia 550' ],
 				'(Lumia ?|Nokia ?)?610!'					=> [ 'Nokia', 'Lumia 610' ],
 				'(Lumia ?|Nokia ?)?620!'					=> [ 'Nokia', 'Lumia 620' ],
 				'(Lumia ?|Nokia ?)?625!'					=> [ 'Nokia', 'Lumia 625' ],
@@ -146,12 +156,15 @@
 				'(Lumia ?|Nokia ?)?820!'					=> [ 'Nokia', 'Lumia 820' ],
 				'(Lumia ?|Nokia ?)?822!'					=> [ 'Nokia', 'Lumia 822' ],
 				'(Lumia ?|Nokia ?)?830!'					=> [ 'Nokia', 'Lumia 830' ],
+				'Lumia 850!'								=> [ 'Microsoft', 'Lumia 850' ],
 				'(Lumia ?|Nokia ?)?900!'					=> [ 'Nokia', 'Lumia 900' ],
 				'(Lumia ?|Nokia ?)?920!'					=> [ 'Nokia', 'Lumia 920' ],
 				'(Lumia ?|Nokia ?)?925!'					=> [ 'Nokia', 'Lumia 925' ],
 				'(Lumia ?|Nokia ?)?928!'					=> [ 'Nokia', 'Lumia 928' ],
 				'(Lumia ?|Nokia ?)?929!'					=> [ 'Nokia', 'Lumia 929 Icon' ],
 				'(Lumia ?|Nokia ?)?930!'					=> [ 'Nokia', 'Lumia 930' ],
+				'Lumia 950 XL!'								=> [ 'Microsoft', 'Lumia 950 XL' ],
+				'Lumia 950!'								=> [ 'Microsoft', 'Lumia 950' ],
 				'(Lumia ?|Nokia ?)?909!'					=> [ 'Nokia', 'Lumia 1020' ],			// 909 was the original name of the 1020
 				'(Lumia ?|Nokia ?)?1020!'					=> [ 'Nokia', 'Lumia 1020' ],
 				'(Lumia ?|Nokia ?)?1320!'					=> [ 'Nokia', 'Lumia 1320' ],
@@ -179,7 +192,7 @@
 				'RM-1027!'									=> [ 'Nokia', 'Lumia 636' ],
 				'RM-1010!'									=> [ 'Nokia', 'Lumia 638' ],
 				'RM-10(72|74|75|77)!'						=> [ 'Microsoft', 'Lumia 640' ],
-				'RM-1113!'									=> [ 'Microsoft', 'Lumia 640' ],
+				'RM-11(09|13)!'								=> [ 'Microsoft', 'Lumia 640' ],
 				'RM-10(64|65|67|73|96)!'					=> [ 'Microsoft', 'Lumia 640 XL' ],
 				'RM-8(85|87)!'								=> [ 'Nokia', 'Lumia 720' ],
 				'RM-1040!'									=> [ 'Nokia', 'Lumia 730' ],
@@ -252,5 +265,15 @@
 			'47'										=> [ 'Yezz', 'Monaco 47' ],
 			'N880e!'									=> [ 'ZTE', 'N880e' ],
 			'V965W'										=> [ 'ZTE', 'V965W Tania' ],
-			'Tania'										=> [ 'ZTE', 'V965W Tania' ]
+			'Tania'										=> [ 'ZTE', 'V965W Tania' ],
+
+
+			'Microsoft!'								=> [ null, null ],
+			'Windows!'									=> [ null, null ],
+			'Virtual!'									=> [ null, null ],
+			'Android!'									=> [ null, null ],
+			'Linux!'									=> [ null, null ],
+			'<model>!'									=> [ null, null ],
+			'XXX!'										=> [ null, null ],
+			'InfoPath!'									=> [ null, null ],
 		];

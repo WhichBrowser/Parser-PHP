@@ -32,10 +32,12 @@
 			
 			if (count($arguments) >= 2) {
 				$valid = $valid && $this->$x->name == $arguments[1];
-			}
 			
-			if (count($arguments) >= 4 && !empty($this->$x->version) && $valid) {
-				$valid = $valid && $this->$x->version->is($arguments[2], $arguments[3]);
+				if (count($arguments) >= 4 && !empty($this->$x->version) && $valid) {
+					$valid = $valid && $this->$x->version->is($arguments[2], $arguments[3]);
+				}
+
+				if ($valid) return true;
 			}
 
 			return $valid;
