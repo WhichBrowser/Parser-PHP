@@ -183,9 +183,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gitcheck');
 
 
-  grunt.registerTask('default', ['generate', 'clean', 'copy:dist', 'exec:check']);
-  grunt.registerTask('generate', ['wget'], ['exec:updatechrome']);
-  grunt.registerTask('release', ['clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
+  grunt.registerTask('default', ['generate', 'clean', 'copy:dist', 'exec:check', 'gitcheck']);
+  grunt.registerTask('generate', ['wget', 'exec:updatechrome']);
+  grunt.registerTask('release', ['generate', 'clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
   grunt.registerTask('server', ['php:server']);
 
@@ -201,5 +201,5 @@ module.exports = function(grunt) {
 
 
   /* This is a private task for deploying to api.whichbrowser.net */
-  grunt.registerTask('deploy', ['clean', 'copy:dist', 'copy:deploy', 'exec:check', 'gitcheck', 'rsync:api', 'rsync:www']);
+  grunt.registerTask('deploy', ['generate', 'clean', 'copy:dist', 'copy:deploy', 'exec:check', 'gitcheck', 'rsync:api', 'rsync:www']);
 };
