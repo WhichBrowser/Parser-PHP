@@ -6142,7 +6142,7 @@
 
 
 			if (isset($this->os->name)) {
-				if ($this->os->name == 'Android' && !isset($this->browser->name) && $this->browser->stock) {
+				if ($this->os->name == 'Android' && !isset($this->browser->using) && !isset($this->browser->name) && $this->browser->stock) {
 					$this->browser->name = 'Android Browser';
 				}
 
