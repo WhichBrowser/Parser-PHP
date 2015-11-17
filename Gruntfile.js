@@ -185,7 +185,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['generate', 'clean', 'copy:dist', 'exec:check', 'gitcheck']);
   grunt.registerTask('generate', ['wget', 'exec:updatechrome']);
-  grunt.registerTask('release', ['generate', 'clean', 'bump', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
+  grunt.registerTask('release', ['generate', 'clean', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'bump', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
   grunt.registerTask('tools', ['php:tools']);
   grunt.registerTask('server', ['php:server']);
 
