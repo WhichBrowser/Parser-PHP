@@ -4372,6 +4372,11 @@
 				}
 			}
 
+			if (preg_match('/FxiOS\/([0-9.]*)/u', $ua, $match)) {
+				$this->browser->name = 'Firefox';
+				$this->browser->version = new Version([ 'value' => $match[1] ]);
+			}
+
 
 			/****************************************************
 			 *		SeaMonkey
