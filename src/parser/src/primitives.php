@@ -2,6 +2,7 @@
 
 	namespace WhichBrowser;
 
+	use WhichBrowser\Constants;
 
 	class Primitive {
 		public function __construct($defaults = null) {
@@ -178,7 +179,7 @@
 		public $identifier;
 
 		public $type = '';
-		public $identified = ID_NONE;
+		public $identified = Constants\Id::NONE;
 		public $generic = true;
 
 		public function getManufacturer() {
