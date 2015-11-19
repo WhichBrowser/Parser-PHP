@@ -1,10 +1,11 @@
 <?php
 
-	namespace WhichBrowser;
+	namespace WhichBrowser\Analyser;
 
 	use WhichBrowser\Constants;
+	use WhichBrowser\Data;
 
-	trait AnalyserWap {
+	trait Wap {
 		
 		private function analyseWapProfile($url) {
 			$url = trim($url);

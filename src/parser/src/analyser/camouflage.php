@@ -1,10 +1,10 @@
 <?php
 
-	namespace WhichBrowser;
+	namespace WhichBrowser\Analyser;
 
 	use WhichBrowser\Constants;
 
-	trait AnalyserCamouflage {
+	trait Camouflage {
 
 		private function detectCamouflage() {
 			if (isset($this->options->useragent) && $this->options->useragent != '') {

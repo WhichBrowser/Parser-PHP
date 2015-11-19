@@ -1,10 +1,11 @@
 <?php
 
-	namespace WhichBrowser;
+	namespace WhichBrowser\Analyser;
 
 	use WhichBrowser\Constants;
+	use WhichBrowser\Data;
 
-	trait AnalyserPuffin {
+	trait Puffin {
 
 		private function analysePuffinUserAgent($ua) {
 			$parts = explode('/', $ua);

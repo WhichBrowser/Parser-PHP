@@ -1,10 +1,10 @@
 <?php
 
-	namespace WhichBrowser;
+	namespace WhichBrowser\Analyser;
 
 	use WhichBrowser\Constants;
 
-	trait AnalyserBaidu {
+	trait Baidu {
 
 		private function analyseBaiduHeader($ua) {
 			if (!isset($this->browser->name) || $this->browser->name != 'Baidu Browser') {
