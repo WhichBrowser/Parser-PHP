@@ -4,10 +4,10 @@
 
 	include_once 'constants.php';
 	include_once 'primitives.php';
-	include_once 'engine.php';
+	include_once 'analyser.php';
 	include_once 'data.php';
 
-	class Parser extends ParserEngine {
+	class Parser extends Analyser {
 		public $browser;
 		public $engine;
 		public $os;
