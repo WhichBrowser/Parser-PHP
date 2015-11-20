@@ -5232,45 +5232,7 @@
 				array('name' => 'Coship MMCP', 			'regexp' => '/Coship_MMCP_([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE),
 
 				/* Bots */
-				array('name' => '80legs', 				'regexp' => '/(?:^|\s)008\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'ArchiveBot', 			'regexp' => '/ArchiveTeam ArchiveBot/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Ask Jeeves', 			'regexp' => '/Ask Jeeves\/Teoma/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Ad Muncher', 			'regexp' => '/Ad Muncher v([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Baiduboxapp', 			'regexp' => '/baiduboxapp\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Baiduspider', 			'regexp' => '/Baiduspider[\+ ]\([\+ ]/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Baiduspider', 			'regexp' => '/Baiduspider\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Baiduspider', 			'regexp' => '/Baiduspider/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Bing', 				'regexp' => '/bingbot\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Bing', 				'regexp' => '/msnbot\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Bing Preview', 		'regexp' => '/BingPreview\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Bloglines', 			'regexp' => '/Bloglines\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'CiteSeerX',			'regexp' => '/heritrix\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Facebook External Hit','regexp' => '/facebookexternalhit\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Facebook Scraper', 	'regexp' => '/facebookscraper\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Facebook Security', 	'regexp' => '/FacebookSecurity\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'FAST Enterprise Crawler', 	'regexp' => '/FAST Enterprise Crawler\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'FAST Web Crawler', 	'regexp' => '/FAST-WebCrawler\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Googlebot', 			'regexp' => '/Google[Bb]ot\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Ads Bot', 		'regexp' => '/AdsBot-Google/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google App Engine', 	'regexp' => '/AppEngine-Google/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Web Preview',	'regexp' => '/Google Web Preview/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Page Speed',	'regexp' => '/Google Page Speed Insights/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Feed Fetcher',	'regexp' => '/FeedFetcher-Google/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Font Analysis', 'regexp' => '/Google-FontAnalysis\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Sitemaps', 		'regexp' => '/Google-Sitemaps\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google News', 			'regexp' => '/Googlebot-News/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Google Wireless Transcoder', 'regexp' => '/Google Wireless Transcoder/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Grub', 				'regexp' => '/grub-client-([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'HeartRails Capture', 	'regexp' => '/HeartRails_Capture\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'iAsk Spider', 			'regexp' => '/iaskspider\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'PowerMapper',			'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Scrapy',				'regexp' => '/Scrapy\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Sogou Web Spider',		'regexp' => '/sogou spider/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Sogou Web Spider',		'regexp' => '/Sogou web spider\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Soso Web Spider',		'regexp' => '/Sosospider\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Yahoo Slurp', 			'regexp' => '/Yahoo\! Slurp China/u', 'type' => Constants\DeviceType::BOT),
-				array('name' => 'Wget', 				'regexp' => '/Wget\/([0-9.]*)/u', 'type' => Constants\DeviceType::BOT)
+
 			];
 
 			for ($b = 0; $b < count($browsers); $b++) {
@@ -5609,11 +5571,20 @@
 
 
 
-			if ($this->device->type == Constants\DeviceType::BOT) {
+			if ($bot = Data\Bots::identify($ua)) {
+				$this->browser = $bot;
+
 				$this->device->identified = false;
+				$this->device->type = Constants\DeviceType::BOT;
+
 				unset($this->os->name);
 				unset($this->os->alias);
 				unset($this->os->version);
+
+				unset($this->engine->name);
+				unset($this->engine->alias);
+				unset($this->engine->version);
+
 				unset($this->device->manufacturer);
 				unset($this->device->model);
 				unset($this->device->identifier);
