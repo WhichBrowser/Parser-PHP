@@ -5,8 +5,23 @@
     headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0) Maxthon/4.4.5.3000 Firefox/38'
     result: { browser: { name: 'Facebook External Hit', version: '1.1' }, device: { type: bot } }
 -
+    headers: 'User-Agent: 360spider-image'
+    result: { browser: { name: 360spider }, device: { type: bot } }
+-
+    headers: 'User-Agent: 5acd734a-1ed3-4a17-ad9d-0b09ae7bc2d2/Nutch-1.7'
+    result: { browser: { name: 'Apache Nutch', version: '1.7' }, device: { type: bot } }
+-
+    headers: 'User-Agent: ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com'
+    result: { browser: { name: ADmantX }, device: { type: bot } }
+-
+    headers: 'User-Agent: Aboundex/0.3 (http://www.aboundex.com/crawler/)'
+    result: { browser: { name: Aboundex, version: '0.3' }, device: { type: bot } }
+-
     headers: 'User-Agent: Ad Muncher v4.93.33707/4957'
     result: { browser: { name: 'Ad Muncher', version: 4.93.33707 }, device: { type: bot } }
+-
+    headers: 'User-Agent: AddThis.com robot tech.support@clearspring.com'
+    result: { browser: { name: AddThis.com }, device: { type: bot } }
 -
     headers: 'User-Agent: AdsBot-Google ( http://www.google.com/adsbot.html)'
     result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
@@ -20,11 +35,23 @@
     headers: 'User-Agent: AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36'
     result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
 -
+    headers: 'User-Agent: AhrefsBot.Feeds v0.1; http://ahrefs.com/'
+    result: { browser: { name: AhrefsBot, version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AmorankSpider/0.1; +http://amorank.com/webcrawler.html'
+    result: { browser: { name: 'Amorank Spider', version: '0.1' }, device: { type: bot } }
+-
     headers: 'User-Agent: AppEngine-Google; (+http://code.google.com/appengine; appid: xbmacx)'
     result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
 -
     headers: 'User-Agent: ArchiveTeam ArchiveBot/20140807.01 (wpull 0.37a1) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36'
     result: { browser: { name: ArchiveBot }, device: { type: bot } }
+-
+    headers: 'User-Agent: Backlink-Ceck.de (+http://www.backlink-check.de/bot.html)'
+    result: { browser: { name: Backlink-Check }, device: { type: bot } }
+-
+    headers: 'User-Agent: BacklinkCrawler (http://www.backlinktest.com/crawler.html)'
+    result: { browser: { name: BacklinkCrawler }, device: { type: bot } }
 -
     headers: 'User-Agent: Baiduspider ( http://www.baidu.com/search/spider.htm)'
     result: { browser: { name: Baiduspider }, device: { type: bot } }
@@ -32,8 +59,44 @@
     headers: 'User-Agent: Baiduspider+(+http://www.baidu.com/search/spider_jp.html)'
     result: { browser: { name: Baiduspider }, device: { type: bot } }
 -
+    headers: 'User-Agent: Bloglovin/1.0 (http://www.bloglovin.com; 1 subscribers)'
+    result: { browser: { name: Bloglovin, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: BlogramCrawler/1.0.1(+http://blogram.jp/)'
+    result: { browser: { name: Blogram, version: 1.0.1 }, device: { type: bot } }
+-
+    headers: 'User-Agent: Browsershots'
+    result: { browser: { name: Browsershots }, device: { type: bot } }
+-
+    headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
+    result: { browser: { name: CommonCrawl, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)'
+    result: { browser: { name: Cliqzbot, version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: CommaFeed/1.0 (http://www.commafeed.com)'
+    result: { browser: { name: CommaFeed, version: '1.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: CrawlerProcess (http://www.PowerMapper.com) /5.5.678.0'
     result: { browser: { name: PowerMapper, version: 5.5.678.0 }, device: { type: bot } }
+-
+    headers: 'User-Agent: Curious George - www.analyticsseo.com/crawler'
+    result: { browser: { name: 'Analytics SEO' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Data-Hotel-Watchdog/1.1'
+    result: { browser: { name: 'Data Hotel Watchdog', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: 'Googlebot Mobile', version: '2.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://help.goo.ne.jp/help/article/1142/)'
+    result: { browser: { name: Goo }, device: { type: bot } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 SH905i(c100;TB;W24H16) (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: 'Google Mediapartners', version: '2.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: ExactSeek Crawler (nutch 1.4)/Nutch-1.4 (ExactSeek Crawler; http://www.exactseek.com)'
+    result: { browser: { name: ExactSeek }, device: { type: bot } }
 -
     headers: 'User-Agent: FAST Enterprise Crawler/5.3.4 (crawler@fast.no)'
     result: { browser: { name: 'FAST Enterprise Crawler', version: 5.3.4 }, device: { type: bot } }
@@ -41,17 +104,62 @@
     headers: 'User-Agent: FAST-WebCrawler/3.8 (atw-crawler at fast dot no; http://fast.no/support/crawler.asp)'
     result: { browser: { name: 'FAST Web Crawler', version: '3.8' }, device: { type: bot } }
 -
+    headers: 'User-Agent: FTRF: Friendly robot/1.3'
+    result: { browser: { name: 'FTRF: Friendly Robot', version: '1.3' }, device: { type: bot } }
+-
     headers: 'User-Agent: FacebookSecurity/2.1 ([www.FacebookSecurity.com])'
     result: { browser: { name: 'Facebook Security', version: '2.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Fastladder FeedFetcher/0.01 (http://fastladder.com/; 27 subscribers)'
+    result: { browser: { name: Fastladder, version: '0.01' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Feed Wrangler/1.0 (3 subscribers; feed-id=248559; http://feedwrangler.net; Allow like Gecko)'
+    result: { browser: { name: FeedWrangler, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: FeedBurner/1.0 (http://www.FeedBurner.com)'
+    result: { browser: { name: 'Google FeedBurner', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: FeedFetcher-Google; ( http://www.google.com/feedfetcher.html)'
     result: { browser: { name: 'Google Feedfetcher' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Feedbin - 9 subscribers'
+    result: { browser: { name: Feedbin }, device: { type: bot } }
+-
+    headers: 'User-Agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 19 subscribers; feed-id=13965549748850348809)'
+    result: { browser: { name: 'Google Feedfetcher' }, device: { type: bot } }
+-
+    headers: 'User-Agent: FeedlyApp/1.0 (http://www.feedly.com)'
+    result: { browser: { name: Feedly, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: FeedlyBot/1.0 (http://feedly.com)'
+    result: { browser: { name: Feedly, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Feedspot http://www.feedspot.com'
+    result: { browser: { name: Feedspot }, device: { type: bot } }
+-
+    headers: 'User-Agent: Fever/1.38 (Feed Parser; http://feedafever.com; Allow like Gecko)'
+    result: { browser: { name: Fever, version: '1.38' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)'
+    result: { browser: { name: 'Flamingo Search' }, device: { type: bot } }
+-
     headers: 'User-Agent: Google-Sitemaps/1.0'
     result: { browser: { name: 'Google Sitemaps', version: '1.0' }, device: { type: bot } }
 -
+    headers: 'User-Agent: GoogleProducer; (+http://goo.gl/7y4SX)'
+    result: { browser: { name: 'Google Play Newsstand' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Googlebot (gocrawl v0.4)'
+    result: { browser: { name: Gocrawl, version: '0.4' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Googlebot-Image/1.0'
+    result: { browser: { name: 'Googlebot Image', version: '1.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Googlebot-News'
     result: { browser: { name: 'Google News' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Googlebot-Video/1.0'
+    result: { browser: { name: 'Googlebot Video', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Googlebot/2.1 ( http://www.googlebot.com/bot.html)'
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
@@ -61,6 +169,12 @@
 -
     headers: 'User-Agent: Googlebot/2.1(+http://www.googlebot.com/bot.html)'
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediapartners-Google'
+    result: { browser: { name: 'Google Mediapartners' }, device: { type: bot } }
+-
+    headers: 'User-Agent: MetaFeedly/1.0 (http://www.feedly.com)'
+    result: { browser: { name: Feedly, version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)'
     result: { browser: { name: 'Ask Jeeves' }, device: { type: bot } }
@@ -76,6 +190,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.11067 BingPreview/1.0b'
     result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1; 360Spider'
+    result: { browser: { name: 360spider }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1626.1 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~hex-plus)'
     result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
@@ -118,6 +235,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) CrawlerProcess (http://www.PowerMapper.com) /5.10.736.0'
     result: { browser: { name: PowerMapper, version: 5.10.736.0 }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider'
+    result: { browser: { name: 360spider }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)'
     result: { browser: { name: 'Yahoo Slurp' }, device: { type: bot } }
@@ -196,6 +316,12 @@
 -
     headers: 'User-Agent: grub-client-1.5.3; (grub-client-1.5.3; Crawl your own stuff with http://grub.org)'
     result: { browser: { name: Grub, version: 1.5.3 }, device: { type: bot } }
+-
+    headers: 'User-Agent: mapion-news-bot/1.0 (http://www.mapion.co.jp/news/)'
+    result: { browser: { name: 'Mapian News Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: msnbot-NewsBlogs/2.0b (+http://search.msn.com/msnbot.htm)'
+    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: msnbot/1.1 ( http://search.msn.com/msnbot.htm)'
     result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
