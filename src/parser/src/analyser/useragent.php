@@ -5087,6 +5087,7 @@
 				array('name' => 'Avant Browser',		'regexp' => '/Avant Browser/u'),
 				array('name' => 'Avant Browser',		'regexp' => '/Avant TriCore/u'),
 				array('name' => 'Aviator',				'regexp' => '/Aviator\/([0-9.]*)/u', 'details' => 1),
+				array('name' => 'Awakening',			'regexp' => '/Awakening Browser\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'AWeb',					'regexp' => '/Amiga-AWeb\/([0-9.]*)/u'),
 				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i'),
