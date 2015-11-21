@@ -5297,7 +5297,7 @@
 			 *		Gecko
 			 */
 
-			if (preg_match('/Gecko/u', $ua) && !preg_match('/like Gecko/u', $ua)) {
+			if (preg_match('/Gecko/u', $ua) && !preg_match('/like Gecko/iu', $ua)) {
 				$this->engine->name = 'Gecko';
 
 				if (preg_match('/; rv:([^\);]+)[\);]/u', $ua, $match)) {
