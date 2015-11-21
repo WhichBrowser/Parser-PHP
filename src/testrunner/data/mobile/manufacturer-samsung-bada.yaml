@@ -1,0 +1,27 @@
+-
+    headers: 'User-Agent: Mozilla/13.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XXLA1; U; Bada/2.0; xx) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '3.0' }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave II' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT- S5250/ S5250VJKC1; U; Bada/1.0; pt- br) AppleWebKit/ 533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/ MIDP-2.1 configuration/ CLDC-1.1 OPN- B'
+    result: { browser: { name: Dolfin, version: '2.0' }, engine: { name: Webkit }, os: { name: Bada, version: '1.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave 525' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT- S8600/1.0; U; Bada/2.0; xx) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile WVGA SMM- MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '3.0' }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave 3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5330/1.0; U; Bada/1.0; xx) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave 533' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380-BOUYGUES/S5380AGKK5; U; Bada/2.0; xx) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile HVGA SMM-MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '3.0' }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave Y' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5750E-BOUYGUES/S5750EAGKD1; U; Bada/1.0; xx) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave 575' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S7230B/1.0; U; Bada/1.0; xx) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave 723' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S7250-BOUYGUES/S7250AGLA3; U; Bada/2.0; xx) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile HVGA SMM-MMS/1.2.0 OPN-B'
+    result: { browser: { name: Dolfin, version: '3.0' }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, manufacturer: Samsung, model: 'Wave M' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500-BOUYGUES/S8500AGKG2; U; Bada/1.0; xx) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.0' }, device: { type: mobile, manufacturer: Samsung, model: Wave } }
