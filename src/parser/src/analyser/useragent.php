@@ -4690,7 +4690,7 @@
 				unset($this->browser->channel);
 			}
 
-			if (preg_match('/\) UC /u', $ua)) {
+			if (preg_match('/\) ?UC /u', $ua)) {
 				$this->browser->stock = false;
 				$this->browser->name = 'UC Browser';
 
