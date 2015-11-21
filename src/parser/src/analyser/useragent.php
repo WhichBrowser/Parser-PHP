@@ -5064,6 +5064,7 @@
 				array('name' => 'WeChat',				'regexp' => '/MicroMessenger\/([0-9.]*)/u'),
 				array('name' => 'Sina Weibo',			'regexp' => '/weibo__([0-9.]*)/u'),
 				array('name' => 'Twitter',				'regexp' => '/TwitterAndroid/u'),
+				array('name' => 'Kik',					'regexp' => '/Kik\/([0-9.]*)/u'),
 
 				/* Search */
 				array('name' => 'NAVER',				'regexp' => '/NAVER\(inapp; search; [0-9]+; ([0-9.]*)\)/u'),
@@ -5088,6 +5089,7 @@
 				array('name' => 'Aviator',				'regexp' => '/Aviator\/([0-9.]*)/u', 'details' => 1),
 				array('name' => 'AWeb',					'regexp' => '/Amiga-AWeb\/([0-9.]*)/u'),
 				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser\/([0-9.]*)/i'),
+				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/M?BaiduBrowser\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/BdMobile\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/FlyFlow\/([0-9.]*)/u', 'details' => 2),
@@ -5223,6 +5225,7 @@
 				array('name' => 'YRC Weblink', 			'regexp' => '/YRCWeblink\/([0-9.]*)/u'),
 				array('name' => 'Zetakey', 				'regexp' => '/Zetakey Webkit\/([0-9.]*)/u'),
 				array('name' => 'Zetakey', 				'regexp' => '/Zetakey\/([0-9.]*)/u'),
+				array('name' => '冲浪浏览器', 			'regexp' => '/CMSurfClient-Android/u'),
 
 				array('name' => 'Nimbus', 				'regexp' => '/Nimbus\/([0-9.]*)/u'),
 
