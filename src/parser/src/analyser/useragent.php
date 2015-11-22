@@ -22,6 +22,20 @@
 			}
 
 			/****************************************************
+			 *		Digital Unix
+			 */
+
+			if (preg_match('/OSF1 /u', $ua)) {
+				$this->os->name = 'Digital Unix';
+
+				if (preg_match('/OSF1 V([0-9.]*)/u', $ua, $match)) {
+					$this->os->version = new Version([ 'value' => $match[1] ]);
+				}
+
+				$this->device->type = Constants\DeviceType::DESKTOP;
+			}
+
+			/****************************************************
 			 *		FreeBSD
 			 */
 
