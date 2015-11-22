@@ -1263,7 +1263,7 @@
 			 *		MAUI Runtime
 			 */
 
-			if (preg_match('/\(MAUI Runtime;/u', $ua)) {
+			if (preg_match('/\(MAUI Runtime;/u', $ua) || preg_match('/MAUI[_-][bB]rowser/u', $ua) || preg_match('/Browser\/MAUI/u', $ua)) {
 				$this->os->name = 'MAUI Runtime';
 				$this->device->type = Constants\DeviceType::MOBILE;
 			}
