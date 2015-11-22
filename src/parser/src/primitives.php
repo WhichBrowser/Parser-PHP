@@ -89,7 +89,7 @@
 		}
 
 		public function toString() {
-			$result = trim($this->getName() . ' ' . $this->getVersion());
+			$result = trim(($this->hidden == false ? $this->getName() . ' ' : '') . $this->getVersion());
 
 			if (empty($result) && isset($this->using)) {
 				return $this->using->toString();
