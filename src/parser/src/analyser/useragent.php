@@ -4683,6 +4683,16 @@
 
 
 			/****************************************************
+			 *		Kodi
+			 */
+
+			if (preg_match('/^Kodi\/([0-9.]+)/u', $ua, $match)) {
+				$this->browser->name = 'Kodi';
+				$this->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+			}
+
+
+			/****************************************************
 			 *		ANT
 			 */
 
@@ -5186,8 +5196,9 @@
 
 				/* Feed readers */
 				array('name' => 'FeedDemon',			'regexp' => '/FeedDemon\/([0-9.]*)/u'),
+				array('name' => 'Liferea',				'regexp' => '/Liferea\/([0-9.]*)/u'),
 				array('name' => 'Rss Bandit',			'regexp' => '/RssBandit\/([0-9.]*)/u'),
-				array('name' => 'Rss Owl',			'regexp' => '/RSSOwl\/([0-9.]*)/u'),
+				array('name' => 'Rss Owl',				'regexp' => '/RSSOwl\/([0-9.]*)/u'),
 				array('name' => 'Reeder',				'regexp' => '/Reeder\/([0-9.]*)/u'),
 
 				/* Social apps */
@@ -5312,6 +5323,7 @@
 				array('name' => 'Openwave',				'regexp' => '/Openwave\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Openwave', 			'regexp' => '/UP\.Browser\/([a-z0-9.]*)/u', 'details' => 2),
 				array('name' => 'Opera Oupeng', 		'regexp' => '/Oupeng\/([0-9.]*)/u', 'details' => 2),
+				array('name' => 'Oregano', 				'regexp' => '/Oregano ([0-9.]*)/u'),
 				array('name' => 'Orca', 				'regexp' => '/Orca\/([0-9.]*)/u'),
 				array('name' => 'Origyn', 				'regexp' => '/Origyn Web Browser/u'),
 				array('name' => 'Otter', 				'regexp' => '/Otter Browser\/([0-9.]*)/u'),
