@@ -19,6 +19,7 @@
 		const CAMERA = 'camera';
 		const SIGNAGE = 'signage';
 		const WHITEBOARD = 'whiteboard';
+		const DEVBOARD = 'devboard';
 		const GPS = 'gps';
 		const CAR = 'car';
 		const POS = 'pos';
