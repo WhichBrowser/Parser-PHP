@@ -4842,8 +4842,11 @@
 
 			/* U2 is the Proxy service used by UC Browser on low-end phones */
 			if (preg_match('/U2\//u', $ua)) {
-				$this->engine->name = 'Gecko';
+				$this->browser->stock = false;
+				$this->browser->name = 'UC Browser';
 				$this->browser->mode = 'proxy';
+
+				$this->engine->name = 'Gecko';
 
 				/* UC Browser running on Windows 8 is identifing itself as U2, but instead its a Trident Webview */
 				if (isset($this->os->name) && isset($this->os->version)) {
