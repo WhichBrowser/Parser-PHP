@@ -1,4 +1,7 @@
 -
+    headers: 'User-Agent: AIRNESS-AIR99/REV 2.2.1/Teleca Q03B1'
+    result: { browser: { name: 'Obigo Q', version: '3' }, device: { type: mobile, manufacturer: Airness, model: AIR99 } }
+-
     headers: 'User-Agent: ALCATEL-OT871A/985 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
     result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, manufacturer: Alcatel, model: 'One Touch 871A' } }
 -
