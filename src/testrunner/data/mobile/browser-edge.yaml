@@ -1,18 +1,18 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 920) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 920' } }
+    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 920) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10536'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 920' } }
+    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 925) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 925' } }
+    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Nokia 920T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10536'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 920' } }
+    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Nokia 925T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 925' } }
+    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Nokia; Lumia 520) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10130'
-    result: { browser: { name: Edge, alias: 'Edge 13' }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 520' } }
+    result: { browser: { name: Edge, alias: 'Edge 13' }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }

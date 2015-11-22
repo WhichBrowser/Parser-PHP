@@ -1,21 +1,21 @@
 -
     headers: 'User-Agent: PantechP6020/JXUS04022012 BMP/1.0.4 DeviceId/141026 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, manufacturer: Pantech, model: P6020 } }
+    result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P6020 } }
 -
     headers: 'User-Agent: SAMSUNG-GT-S3350/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, manufacturer: Samsung, model: 'Ch@t 335' } }
+    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 335' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-S5222R/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, os: { name: Touchwiz }, device: { type: mobile, manufacturer: Samsung, model: 'Rex 80' } }
+    result: { browser: { name: NetFront, version: '4.2' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rex 80' } }
 -
     headers: 'User-Agent: SAMSUNG-SM-B780A/B780AUSNF5 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, manufacturer: Samsung, model: 'Rugby 4' } }
+    result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
 -
     headers: 'User-Agent: SEC-SGHD840/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile } }
+    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: SonyEricssonW200i/R4JA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, manufacturer: 'Sony Ericsson', model: W200i } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W200i } }
 -
     headers: 'User-Agent: SonyEricssonZ770i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, manufacturer: 'Sony Ericsson', model: Z770i } }
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }

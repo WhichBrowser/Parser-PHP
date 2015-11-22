@@ -179,6 +179,7 @@
 		public $identifier;
 
 		public $type = '';
+		public $subtype = '';
 		public $identified = Constants\Id::NONE;
 		public $generic = true;
 
@@ -204,6 +205,7 @@
 			$result = [];
 
 			if (!empty($this->type)) $result['type'] = $this->type;
+			if (!empty($this->subtype)) $result['subtype'] = $this->subtype;
 			if (!empty($this->manufacturer)) $result['manufacturer'] = $this->manufacturer;
 			if (!empty($this->model)) $result['model'] = $this->model;
 			if (!empty($this->series)) $result['series'] = $this->series;

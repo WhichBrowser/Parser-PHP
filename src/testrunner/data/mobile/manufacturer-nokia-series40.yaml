@@ -1,180 +1,180 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Nokia6600s/2.0 (p) Profile/ MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, Like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6600 slide' } }
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6600 slide' } }
 -
     headers: 'User-Agent: Nokia110/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '110' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '110' } }
 -
     headers: 'User-Agent: Nokia114/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '114' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '114' } }
 -
     headers: 'User-Agent: Nokia200/11.95'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 200' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 200' } }
 -
     headers: 'User-Agent: Nokia202/2.0 (20.37) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 202' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 202' } }
 -
     headers: 'User-Agent: Nokia205.1/2.0 (04.51) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 205' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 205' } }
 -
     headers: 'User-Agent: Nokia206/04.52'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 206' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 206' } }
 -
     headers: 'User-Agent: Nokia208.1/2.0 (04.06) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '208' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '208' } }
 -
     headers: 'User-Agent: Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 210' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 210' } }
 -
     headers: 'User-Agent: Nokia2322c/08.20'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2322 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2322 classic' } }
 -
     headers: 'User-Agent: Nokia2330c/09.55'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2330 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2330 classic' } }
 -
     headers: 'User-Agent: Nokia2600c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2600 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2600 classic' } }
 -
     headers: 'User-Agent: Nokia2680s-2/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2680 slide' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2680 slide' } }
 -
     headers: 'User-Agent: Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2690' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2690' } }
 -
     headers: 'User-Agent: Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2692' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2692' } }
 -
     headers: 'User-Agent: Nokia2700c-2/2.0 (09.98) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2700 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2700 classic' } }
 -
     headers: 'User-Agent: Nokia2730c-1/2.0 (09.41) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '2730 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2730 classic' } }
 -
     headers: 'User-Agent: Nokia300/5.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 300' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 300' } }
 -
     headers: 'User-Agent: Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 302' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 302' } }
 -
     headers: 'User-Agent: Nokia3020/5.0 (14.53) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3020' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3020' } }
 -
     headers: 'User-Agent: Nokia303/5.0 (13.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 303' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 303' } }
 -
     headers: 'User-Agent: Nokia305/2.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 305' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 305' } }
 -
     headers: 'User-Agent: Nokia306/2.0 (03.63) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 306' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 306' } }
 -
     headers: 'User-Agent: Nokia308/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 308' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 308' } }
 -
     headers: 'User-Agent: Nokia309/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 309' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 309' } }
 -
     headers: 'User-Agent: Nokia310/2.0 (07.35) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 310' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 310' } }
 -
     headers: 'User-Agent: Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 311' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 311' } }
 -
     headers: 'User-Agent: Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3110 Evolve' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3110 Evolve' } }
 -
     headers: 'User-Agent: Nokia3120classic/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3120 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3120 classic' } }
 -
     headers: 'User-Agent: Nokia3208c/10.50'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3208 classic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3208 classic' } }
 -
     headers: 'User-Agent: Nokia3710fold/5.0 (04.30) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3710 fold' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3710 fold' } }
 -
     headers: 'User-Agent: Nokia3720c/2.0 (09.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '3720 classic' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3720 classic' } }
 -
     headers: 'User-Agent: Nokia5130/07.95'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '5130 XpressMusic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5130 XpressMusic' } }
 -
     headers: 'User-Agent: Nokia5220XpressMusic/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '5220 XpressMusic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5220 XpressMusic' } }
 -
     headers: 'User-Agent: Nokia5300/2.0 (05.51) Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '5300 XpressMusic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
 -
     headers: 'User-Agent: Nokia5310XpressMusic/2.0 (09.42) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '5310 XpressMusic' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5310 XpressMusic' } }
 -
     headers: 'User-Agent: Nokia6233/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6233' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6233' } }
 -
     headers: 'User-Agent: Nokia6234/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6234' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6234' } }
 -
     headers: 'User-Agent: Nokia6260s-1/2.0 (04.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6260 slide' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6260 slide' } }
 -
     headers: 'User-Agent: Nokia6300/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6300' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6300' } }
 -
     headers: 'User-Agent: Nokia6301/2.0 (09.44) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6301' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6301' } }
 -
     headers: 'User-Agent: Nokia6303c/2.0 (10.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6303 classic' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6303 classic' } }
 -
     headers: 'User-Agent: Nokia6303iclassic/5.0 (06.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6303i classic' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6303i classic' } }
 -
     headers: 'User-Agent: Nokia6350/2.0(ATT.12.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 Nokia6350/12.40; Mozilla/5.0 (Profi'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6350' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6350' } }
 -
     headers: 'User-Agent: Nokia6500s/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6500 slide' } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6500 slide' } }
 -
     headers: 'User-Agent: Nokia6700c-1/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '6700 classic' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6700 classic' } }
 -
     headers: 'User-Agent: Nokia7230-1c/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: '7230' } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '7230' } }
 -
     headers: 'User-Agent: NokiaC1-01.1/2.0 (06.07) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C1-01 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C1-01 } }
 -
     headers: 'User-Agent: NokiaC1-02/2.0 (06.15) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C1-02 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C1-02 } }
 -
     headers: 'User-Agent: NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C2-00 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-00 } }
 -
     headers: 'User-Agent: NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C2-01 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-01 } }
 -
     headers: 'User-Agent: NokiaC2-03/2.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C2-03 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-03 } }
 -
     headers: 'User-Agent: NokiaC3-01.5/5.0 (06.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C3-01 } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C3-01 } }
 -
     headers: 'User-Agent: NokiaX2-00/5.0 (04.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X2-00 } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X2-00 } }
 -
     headers: 'User-Agent: NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X2-01 } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X2-01 } }
 -
     headers: 'User-Agent: NokiaX2-02/2.0 (11.79) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X2-02 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X2-02 } }
 -
     headers: 'User-Agent: NokiaX2-03/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X2-03 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X2-03 } }
 -
     headers: 'User-Agent: NokiaX3-00/5.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X3-00 } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X3-00 } }
 -
     headers: 'User-Agent: NokiaX3-02.5/5.0 (06.73) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: X3-02 } }
+    result: { engine: { name: Webkit, version: '420' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X3-02 } }
 -
     headers: 'User-Agent: nokiac3-00'
-    result: { os: { name: Series40 }, device: { type: mobile, manufacturer: Nokia, model: C3-00 } }
+    result: { os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C3-00 } }

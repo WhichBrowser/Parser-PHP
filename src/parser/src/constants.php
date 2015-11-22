@@ -26,6 +26,13 @@
 		const BOT = 'bot';
 	}
 
+	class DeviceSubType {
+		const FEATURE = 'feature';
+		const SMART = 'smart';
+		const CONSOLE = 'console';
+		const PORTABLE = 'portable';
+	}
+
 	class Flag {
 		const GOOGLETV = 1;
 		const GOOGLEGLASS = 2;

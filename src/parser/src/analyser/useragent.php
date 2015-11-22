@@ -1635,6 +1635,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = 'Wii';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1645,6 +1646,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = 'Wii U';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1655,6 +1657,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = 'DS';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1665,6 +1668,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = 'DSi';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1679,6 +1683,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = '3DS';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1693,6 +1698,7 @@
 				$this->device->manufacturer = 'Nintendo';
 				$this->device->model = 'New 3DS';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1707,6 +1713,7 @@
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Playstation Portable';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1718,6 +1725,7 @@
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Playstation Vita';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::PORTABLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 
@@ -1736,6 +1744,7 @@
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Playstation 3';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1750,6 +1759,7 @@
 				$this->device->manufacturer = 'Sony';
 				$this->device->model = 'Playstation 4';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1765,6 +1775,7 @@
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox 360';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}
@@ -1783,6 +1794,7 @@
 				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'Xbox One';
 				$this->device->type = Constants\DeviceType::GAMING;
+				$this->device->subtype = Constants\DeviceSubType::CONSOLE;
 				$this->device->identified |= Constants\Id::MATCH_UA;
 				$this->device->generic = false;
 			}

@@ -3,28 +3,28 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: COS, family: Android }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS 1.0; COS like Android 4.1.2; zh_CN; HTC 802t Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/2.2.4 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, manufacturer: HTC, model: One } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.0.3; EndeavorU Build/IML74K) AppleWebKit/534.30 (KHTML like Gecko) COSBrowser/2.1.12Version/4.0 Mobile Safari/534.30'
-    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: 'One X' } }
+    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; en_US; 9088 Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/1.0.0 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: '9088' } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: '9088' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; en_US; 909d Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/2.1.14 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: 909d } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 909d } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; zh_CN; DLXU Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) COSBrowser/1.0.0 Version/4.0 Mobile Safari/534.30'
-    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: Butterfly } }
+    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Butterfly } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; zh_CN; HTC 802t Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) COSBrowser/2.1 Version/4.0 Mobile Safari/534.30'
-    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: One } }
+    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; zh_CN; M7CDTU Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/2.1.14 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: One } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS like Android 4.1.2; zh_TW; 909d Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/1.0.0 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, manufacturer: HTC, model: 909d } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 909d } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS/1.0; COS like Android 4.1.2; zh_CN; HTC 802t Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) COSBrowser/2.2.4 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, manufacturer: HTC, model: One } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }

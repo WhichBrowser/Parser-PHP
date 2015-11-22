@@ -1,99 +1,99 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/3.1; XBLWP7; ZuneWP7; Nokia 1320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 1320' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1320' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/3.1; XBLWP7; ZuneWP7; Nokia 820)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 820' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 820' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/3.1; XBLWP7; ZuneWP7; Nokia 920)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 920' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; 909)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 1020' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1020' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 1520)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 1520' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1520' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 520)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 520' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 525)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 525' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 525' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 530 Dual SIM)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 530' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 530' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 610)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 610' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 610' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 620)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 620' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 625)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 625' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 625' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 630 Dual SIM)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 630' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 635)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 635' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 635' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 710)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 710' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 710' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 720)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 720' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 720' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 730 Dual SIM)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 730' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 730' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 735)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 735' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 735' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 800)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 800' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 800' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 830)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 830' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 900)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 900' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 900' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 925)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 925' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 928)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 928' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 928' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 929)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 929 Icon' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 929 Icon' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 930)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 930' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 930' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; RM-1010)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 638' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 638' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 521)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 521' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 521' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 636)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 636' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 636' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 810)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 810' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 810' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 822)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 822' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 822' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Nokia 526)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 526' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 526' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 505)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 505' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 505' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 510)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 510' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 510' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 719)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, manufacturer: Nokia, model: 'Lumia 719' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 719' } }

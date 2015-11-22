@@ -1,15 +1,15 @@
 -
     headers: 'User-Agent:  Mozilla/5.0 (Series40; Nokia501.1/14.0.4/java_runtime_version=Nokia_Asha_1_2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.45'
-    result: { browser: { name: 'Nokia Xpress', version: 4.0.0 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.2' }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 501' } }
+    result: { browser: { name: 'Nokia Xpress', version: 4.0.0 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.2' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
 -
     headers: 'User-Agent:  Mozilla/5.0 (Series40; Nokia502/11.1.1/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27'
-    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 502' } }
+    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 502' } }
 -
     headers: 'User-Agent:  Mozilla/5.0 (Series40; Nokia503/0.1402.11/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.17'
-    result: { browser: { name: 'Nokia Xpress', version: 4.0.0 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 503' } }
+    result: { browser: { name: 'Nokia Xpress', version: 4.0.0 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 503' } }
 -
     headers: 'User-Agent:  Mozilla/5.0 (Series40; NokiaAsha230DualSIM/13.5.2/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27'
-    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 230' } }
+    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 230' } }
 -
     headers: 'User-Agent:  Mozilla/5.0 (Series40; NokiaAsha500DualSIM/13.0.6/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27'
-    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, manufacturer: Nokia, model: 'Asha 500' } }
+    result: { browser: { name: 'Nokia Xpress', version: 3.1.1 }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 500' } }
