@@ -5821,15 +5821,17 @@
 
 			/* And finally try to detect Netscape */
 			if ($this->device->type == Constants\DeviceType::DESKTOP && $this->browser->getName() == '') {
-				if (preg_match('/Mozilla\/([123].[0-9]+)/u', $ua, $match)) {
-					$this->browser->name = 'Netscape Navigator';
-					$this->browser->version = new Version([ 'value' => preg_replace("/([0-9])([0-9])/", '$1.$2', $match[1]) ]);
-				}				
+				if (!preg_match('/compatible;/u', $ua)) {
+					if (preg_match('/Mozilla\/([123].[0-9]+)/u', $ua, $match)) {
+						$this->browser->name = 'Netscape Navigator';
+						$this->browser->version = new Version([ 'value' => preg_replace("/([0-9])([0-9])/", '$1.$2', $match[1]) ]);
+					}				
 
-				if (preg_match('/Mozilla\/(4.[0-9]+)/u', $ua, $match)) {
-					$this->browser->name = 'Netscape Communicator';
-					$this->browser->version = new Version([ 'value' => preg_replace("/([0-9])([0-9])/", '$1.$2', $match[1]) ]);
-				}				
+					if (preg_match('/Mozilla\/(4.[0-9]+)/u', $ua, $match)) {
+						$this->browser->name = 'Netscape Communicator';
+						$this->browser->version = new Version([ 'value' => preg_replace("/([0-9])([0-9])/", '$1.$2', $match[1]) ]);
+					}				
+				}
 			}
 		}	
 	}
