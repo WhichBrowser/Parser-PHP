@@ -5744,6 +5744,26 @@
 			}
 
 
+			if (preg_match('/Bot[\/;]/iu', $ua) || preg_match('/Robot[\/;]/iu', $ua) || preg_match('/Spider[\/;]/iu', $ua) || preg_match('/Crawler[\/;]/iu', $ua)) {
+				$this->device->identified = false;
+				$this->device->type = Constants\DeviceType::BOT;
+
+				unset($this->browser->name);
+				unset($this->browser->alias);
+				unset($this->browser->version);
+
+				unset($this->os->name);
+				unset($this->os->alias);
+				unset($this->os->version);
+
+				unset($this->engine->name);
+				unset($this->engine->alias);
+				unset($this->engine->version);
+
+				unset($this->device->manufacturer);
+				unset($this->device->model);
+				unset($this->device->identifier);
+			}
 
 			if ($bot = Data\Bots::identify($ua)) {
 				$this->browser = $bot;
