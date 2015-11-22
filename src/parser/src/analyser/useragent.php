@@ -5711,6 +5711,21 @@
 					$this->browser->name = 'Chrome';
 				}
 
+				if ($this->os->name == 'BlackBerry' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'BlackBerry Browser';
+					$this->browser->hidden = true;
+				}
+
+				if ($this->os->name == 'BlackBerry OS' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'BlackBerry Browser';
+					$this->browser->hidden = true;
+				}
+
+				if ($this->os->name == 'BlackBerry Tablet OS' && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'BlackBerry Browser';
+					$this->browser->hidden = true;
+				}
+
 				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
 					$this->browser->hidden = true;
 				}
