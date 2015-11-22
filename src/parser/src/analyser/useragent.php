@@ -1453,7 +1453,7 @@
 			 *		AmigaOS
 			 */
 
-			if (preg_match('/AmigaOS/iu', $ua, $match)) {
+			if (preg_match('/Amiga/iu', $ua, $match)) {
 				$this->os->name = 'AmigaOS';
 				$this->device->type = Constants\DeviceType::DESKTOP;
 
