@@ -1,51 +1,70 @@
 <?php
 
-	namespace WhichBrowser;
 
-	define ('TYPE_DESKTOP', 'desktop');
-	define ('TYPE_MOBILE', 'mobile');
-	define ('TYPE_DECT', 'dect');
-	define ('TYPE_TABLET', 'tablet');
-	define ('TYPE_GAMING', 'gaming');
-	define ('TYPE_EREADER', 'ereader');
-	define ('TYPE_MEDIA', 'media');
-	define ('TYPE_HEADSET', 'headset');
-	define ('TYPE_WATCH', 'watch');
-	define ('TYPE_EMULATOR', 'emulator');
-	define ('TYPE_TELEVISION', 'television');
-	define ('TYPE_MONITOR', 'monitor');
-	define ('TYPE_CAMERA', 'camera');
-	define ('TYPE_SIGNAGE', 'signage');
-	define ('TYPE_WHITEBOARD', 'whiteboard');
-	define ('TYPE_GPS', 'gps');
-	define ('TYPE_CAR', 'car');
-	define ('TYPE_POS', 'pos');
-	define ('TYPE_BOT', 'bot');
+	namespace WhichBrowser\Constants;
 
-	define ('FLAG_GOOGLETV', 1);
-	define ('FLAG_GOOGLEGLASS', 2);
-	define ('FLAG_ANDROIDWEAR', 4);
-	define ('FLAG_ANDROIDTV', 8);
-	define ('FLAG_NOKIAX', 16);
-	define ('FLAG_FIREOS', 32);
+	class DeviceType {
+		const DESKTOP = 'desktop';
+		const MOBILE = 'mobile';
+		const DECT = 'dect';
+		const TABLET = 'tablet';
+		const GAMING = 'gaming';
+		const EREADER = 'ereader';
+		const MEDIA = 'media';
+		const HEADSET = 'headset';
+		const WATCH = 'watch';
+		const EMULATOR = 'emulator';
+		const TELEVISION = 'television';
+		const MONITOR = 'monitor';
+		const CAMERA = 'camera';
+		const SIGNAGE = 'signage';
+		const WHITEBOARD = 'whiteboard';
+		const DEVBOARD = 'devboard';
+		const GPS = 'gps';
+		const CAR = 'car';
+		const POS = 'pos';
+		const BOT = 'bot';
+	}
 
-	define ('ID_NONE', 0);
-	define ('ID_INFER', 1);
-	define ('ID_PATTERN', 2);
-	define ('ID_MATCH_UA', 4);
-	define ('ID_MATCH_PROF', 8);
+	class DeviceSubType {
+		const FEATURE = 'feature';
+		const SMART = 'smart';
+		const CONSOLE = 'console';
+		const PORTABLE = 'portable';
+	}
 
-	define ('ENGINE_TRIDENT', 1);
-	define ('ENGINE_PRESTO', 2);
-	define ('ENGINE_CHROMIUM', 4);
-	define ('ENGINE_GECKO', 8);
-	define ('ENGINE_WEBKIT', 16);
-	define ('ENGINE_V8', 32);
+	class Flag {
+		const GOOGLETV = 1;
+		const GOOGLEGLASS = 2;
+		const ANDROIDWEAR = 4;
+		const ANDROIDTV = 8;
+		const NOKIAX = 16;
+		const FIREOS = 32;
+	}
 
-	define ('FEATURE_SANDBOX', 1);
-	define ('FEATURE_WEBSOCKET', 2);
-	define ('FEATURE_WORKER', 4);
-	define ('FEATURE_APPCACHE', 8);
-	define ('FEATURE_HISTORY', 16);
-	define ('FEATURE_FULLSCREEN', 32);
-	define ('FEATURE_FILEREADER', 64);
+	class Id {
+		const NONE = 0;
+		const INFER = 1;
+		const PATTERN = 2;
+		const MATCH_UA = 4;
+		const MATCH_PROF = 8;
+	}
+
+	class EngineType {
+		const TRIDENT = 1;
+		const PRESTO = 2;
+		const CHROMIUM = 3;
+		const GECKO = 8;
+		const WEBKIT = 16;
+		const V8 = 32;
+	}
+
+	class Feature {
+		const SANDBOX = 1;
+		const WEBSOCKET = 2;
+		const WORKER = 4;
+		const APPCACHE = 8;
+		const HISTORY = 16;
+		const FULLSCREEN = 32;
+		const FILEREADER = 64;
+	}

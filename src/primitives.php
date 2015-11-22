@@ -2,6 +2,7 @@
 
 	namespace WhichBrowser;
 
+	use WhichBrowser\Constants;
 
 	class Primitive {
 		public function __construct($defaults = null) {
@@ -88,7 +89,7 @@
 		}
 
 		public function toString() {
-			$result = trim($this->getName() . ' ' . $this->getVersion());
+			$result = trim(($this->hidden == false ? $this->getName() . ' ' : '') . $this->getVersion());
 
 			if (empty($result) && isset($this->using)) {
 				return $this->using->toString();
@@ -178,7 +179,8 @@
 		public $identifier;
 
 		public $type = '';
-		public $identified = ID_NONE;
+		public $subtype = '';
+		public $identified = Constants\Id::NONE;
 		public $generic = true;
 
 		public function getManufacturer() {
@@ -196,13 +198,14 @@
 		}
 
 		public function isDetected() {
-			return !empty($this->model);
+			return !empty($this->model) || !empty($this->manufacturer);
 		}
 
 		public function toArray() {
 			$result = [];
 
 			if (!empty($this->type)) $result['type'] = $this->type;
+			if (!empty($this->subtype)) $result['subtype'] = $this->subtype;
 			if (!empty($this->manufacturer)) $result['manufacturer'] = $this->manufacturer;
 			if (!empty($this->model)) $result['model'] = $this->model;
 			if (!empty($this->series)) $result['series'] = $this->series;

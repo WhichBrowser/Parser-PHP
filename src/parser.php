@@ -4,10 +4,10 @@
 
 	include_once 'constants.php';
 	include_once 'primitives.php';
-	include_once 'engine.php';
+	include_once 'analyser.php';
 	include_once 'data.php';
 
-	class Parser extends ParserEngine {
+	class Parser extends Analyser {
 		public $browser;
 		public $engine;
 		public $os;
@@ -65,12 +65,28 @@
 			return (!empty($this->device->series) && $this->device->series == $d) || (!empty($this->device->model) && $this->device->model == $d);
 		}
 
+		public function getType() {
+			return $this->device->type . (!empty($this->device->subtype) ? ':' . $this->device->subtype : '');
+		}
+
 		public function isType() {
 			$arguments = func_get_args();
 
-			$valid = false;
-			for ($a = 0; $a < count($arguments); $a++) $valid = $valid || $arguments[$a] == $this->device->type;
-			return $valid;
+			for ($a = 0; $a < count($arguments); $a++) { 
+				if (strpos($arguments[$a], ':') !== false) {
+					list($type, $subtype) = explode(':', $arguments[$a]);
+					if ($type == $this->device->type && $subtype == $this->device->subtype) {
+						return true;
+					}
+				}
+				else {
+					if ($arguments[$a] == $this->device->type) {
+						return true;
+					}
+				}
+			}
+
+			return false;
 		}
 
 		public function isDetected() {
