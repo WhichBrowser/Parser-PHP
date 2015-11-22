@@ -52,6 +52,7 @@
 
 			if (preg_match('/SunOS/u', $ua)) {
 				$this->os->name = 'Solaris';
+				$this->device->type = Constants\DeviceType::DESKTOP;
 			}
 
 
@@ -69,6 +70,8 @@
 				if (preg_match('/IRIX;?(?:64|32) ([0-9.]*)/u', $ua, $match)) {
 					$this->os->version = new Version([ 'value' => $match[1] ]);
 				}
+
+				$this->device->type = Constants\DeviceType::DESKTOP;
 			}
 
 
@@ -78,6 +81,7 @@
 
 			if (preg_match('/Syllable/u', $ua)) {
 				$this->os->name = 'Syllable';
+				$this->device->type = Constants\DeviceType::DESKTOP;
 			}
 
 
