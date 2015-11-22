@@ -1437,6 +1437,19 @@
 			}
 
 			/****************************************************
+			 *		RISC OS
+			 */
+
+			if (preg_match('/RISC OS/iu', $ua, $match)) {
+				$this->os->name = 'RISC OS';
+				$this->device->type = Constants\DeviceType::DESKTOP;
+
+				if (preg_match('/RISC OS(?:-NC)? ([0-9.]*)/iu', $ua, $match)) {
+					$this->os->version = new Version([ 'value' => $match[1] ]);
+				}
+			}
+
+			/****************************************************
 			 *		AmigaOS
 			 */
 
