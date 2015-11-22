@@ -5039,12 +5039,15 @@
 				array('name' => 'PhantomJS',			'regexp' => '/PhantomJS\/([0-9.]*)/u'),
 
 				array('name' => 'Google Earth',			'regexp' => '/Google Earth\/([0-9.]*)/u'),
+				array('name' => 'Google Desktop',		'regexp' => '/Google Desktop\/([0-9.]*)/u', 'details' => 2),
+
 				array('name' => 'EA Origin',			'regexp' => '/Origin\/([0-9.]*)/u'),
 				array('name' => 'SecondLife',			'regexp' => '/SecondLife\/([0-9.]*)/u'),
 				array('name' => 'Valve Steam',			'regexp' => '/Valve Steam/u'),
 
 				/* Media players */
-				array('name' => 'iTunes',				'regexp' => '/iTunes\/([0-9.]*)/u'),
+				array('name' => 'iTunes',				'regexp' => '/iTunes\/(?:xaa.)([0-9.]*)/u'),
+				array('name' => 'QuickTime',			'regexp' => '/QuickTime\/([0-9.]*)/u'),
 				array('name' => 'Bluefish',				'regexp' => '/bluefish ([0-9.]*)/u'),
 				array('name' => 'Songbird',				'regexp' => '/Songbird\/([0-9.]*)/u'),
 
@@ -5060,6 +5063,9 @@
 
 				/* Feed readers */
 				array('name' => 'FeedDemon',			'regexp' => '/FeedDemon\/([0-9.]*)/u'),
+				array('name' => 'Rss Bandit',			'regexp' => '/RssBandit\/([0-9.]*)/u'),
+				array('name' => 'Rss Owl',			'regexp' => '/RSSOwl\/([0-9.]*)/u'),
+				array('name' => 'Reeder',				'regexp' => '/Reeder\/([0-9.]*)/u'),
 
 				/* Social apps */
 				array('name' => 'Facebook',				'regexp' => '/FBAN\/FBIOS/u'),
@@ -5073,6 +5079,13 @@
 				/* Search */
 				array('name' => 'NAVER',				'regexp' => '/NAVER\(inapp; search; [0-9]+; ([0-9.]*)\)/u'),
 
+				/* Media players */
+				array('name' => 'CorePlayer',			'regexp' => '/CorePlayer\/([0-9.]*)/u'),
+				array('name' => 'FlyCast',				'regexp' => '/FlyCast\/([0-9.]*)/u'),
+
+				/* Editors */
+				array('name' => 'W3C Amaya',			'regexp' => '/amaya\/([0-9.]*)/u'),
+
 				/* Browsers */
 				array('name' => '1Browser',				'regexp' => '/1Password\/([0-9.]*)/u'),
 				array('name' => '2345 Browser',			'regexp' => '/Mb2345Browser\/([0-9.]*)/u'),
@@ -5083,6 +5096,7 @@
 				array('name' => '360 Safe Explorer',	'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP),
 				array('name' => 'ABrowse',				'regexp' => '/A[Bb]rowse ([0-9.]*)/u'),
 				array('name' => 'Abrowser',				'regexp' => '/Abrowser\/([0-9.]*)/u'),
+				array('name' => 'Acorn Browse',			'regexp' => '/Acorn Browse ([0-9.]+)/u' ),
 				array('name' => 'AltiBrowser',			'regexp' => '/AltiBrowser\/([0-9.]*)/i'),
 				array('name' => 'AOL Desktop',			'regexp' => '/AOL ([0-9.]*); AOLBuild/i'),
 				array('name' => 'AOL Browser',			'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i'),
@@ -5092,7 +5106,7 @@
 				array('name' => 'Avant Browser',		'regexp' => '/Avant TriCore/u'),
 				array('name' => 'Aviator',				'regexp' => '/Aviator\/([0-9.]*)/u', 'details' => 1),
 				array('name' => 'Awakening',			'regexp' => '/Awakening Browser\/([0-9.]*)/u', 'details' => 2),
-				array('name' => 'AWeb',					'regexp' => '/Amiga-AWeb\/([0-9.]*)/u'),
+				array('name' => 'AWeb',					'regexp' => '/Amiga-AWeb(?:\/([0-9.]*))?/u'),
 				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i'),
 				array('name' => 'Baidu Browser',		'regexp' => '/M?BaiduBrowser\/([0-9.]*)/i'),
@@ -5105,6 +5119,7 @@
 				array('name' => 'Black Wren',			'regexp' => '/BlackWren\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Blazer',				'regexp' => '/Blazer\/([0-9.]*)/u'),
 				array('name' => 'BrightSign', 			'regexp' => '/BrightSign\/([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE),
+				array('name' => 'Bunjalloo',			'regexp' => '/Bunjalloo\/([0-9.]*)/u'),															// Browser for the Nintento DS
 				array('name' => 'Byffox', 				'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP),
 				array('name' => 'Camino', 				'regexp' => '/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP),
 				array('name' => 'Canure', 				'regexp' => '/Canure\/([0-9.]*)/u', 'details' => 3),
@@ -5193,7 +5208,7 @@
 				array('name' => 'rekonq', 				'regexp' => '/rekonq(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::DESKTOP),
 				array('name' => 'RockMelt', 			'regexp' => '/RockMelt\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'SaaYaa Explorer', 		'regexp' => '/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP),
-				array('name' => 'SEMC Browser', 		'regexp' => '/SEMC-Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP),
+				array('name' => 'SEMC Browser', 		'regexp' => '/SEMC-Browser\/([0-9.]*)/u'),
 				array('name' => 'Sleipnir', 			'regexp' => '/Sleipnir\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'SlimBoat', 			'regexp' => '/SlimBoat\/([0-9.]*)/u'),
 				array('name' => 'SMBrowser', 			'regexp' => '/SMBrowser/u'),
@@ -5235,6 +5250,7 @@
 				array('name' => 'Nimbus', 				'regexp' => '/Nimbus\/([0-9.]*)/u'),
 
 				array('name' => 'McAfee Web Gateway', 	'regexp' => '/Webwasher\/([0-9.]*)/u'),
+				array('name' => 'Android Download Manager', 'regexp' => '/AndroidDownloadManager\/([0-9.]*)/u'),
 
 				array('name' => 'Open Sankoré', 		'regexp' => '/Open-Sankore\/([0-9.]*)/u', 'type' => Constants\DeviceType::WHITEBOARD),
 				array('name' => 'Coship MMCP', 			'regexp' => '/Coship_MMCP_([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE),
