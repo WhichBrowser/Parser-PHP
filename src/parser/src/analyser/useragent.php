@@ -4669,6 +4669,22 @@
 				$this->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 			}
 
+
+			/****************************************************
+			 *		ANT
+			 */
+
+			if (preg_match('/ANTFresco\/([0-9.]+)/iu', $ua, $match)) {
+				$this->browser->name = 'ANT Fresco';
+				$this->browser->version = new Version([ 'value' => $match[1] ]);
+			}
+
+			if (preg_match('/ANTGalio\/([0-9.]+)/iu', $ua, $match)) {
+				$this->browser->name = 'ANT Galio';
+				$this->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+			}
+
+
 			/****************************************************
 			 *		Obigo
 			 */
