@@ -73,7 +73,7 @@
 			$arguments = func_get_args();
 
 			for ($a = 0; $a < count($arguments); $a++) { 
-				if (strpos($arguments[$a], ':') !== -1) {
+				if (strpos($arguments[$a], ':') !== false) {
 					list($type, $subtype) = explode(':', $arguments[$a]);
 					if ($type == $this->device->type && $subtype == $this->device->subtype) {
 						return true;
