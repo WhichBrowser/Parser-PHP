@@ -1150,9 +1150,9 @@
 				'Archos 101 Xenon'							=> [ 'Archos', '101 Xenon', DeviceType::TABLET ],						// Elements
 				'ARCHOS 80 CHILDPAD'						=> [ 'Archos', '80 Childpad', DeviceType::TABLET ],
 				'ARCHOS 101 CHILDPAD'						=> [ 'Archos', '101 Childpad', DeviceType::TABLET ],
-				'Archos Chefpad'							=> [ 'Archos', 'ChefPad', DeviceType::GAMING ],
-				'ARCHOS GAMEPAD'							=> [ 'Archos', 'Gamepad', DeviceType::GAMING ],
-				'ARCHOS GAMEPAD2'							=> [ 'Archos', 'Gamepad 2', DeviceType::GAMING ],
+				'Archos Chefpad'							=> [ 'Archos', 'ChefPad', DeviceType::TABLET ],
+				'ARCHOS GAMEPAD'							=> [ 'Archos', 'Gamepad', [ DeviceType::GAMING, DeviceSubType::PORTABLE ] ],
+				'ARCHOS GAMEPAD2'							=> [ 'Archos', 'Gamepad 2', [ DeviceType::GAMING, DeviceSubType::PORTABLE ] ],
 				'ARCHOS FAMILYPAD 2'						=> [ 'Archos', 'Familypad 2', DeviceType::TABLET ],
 				'Archos 101 DB'								=> [ 'Archos', 'Droid Book', DeviceType::TABLET ],
 			],
