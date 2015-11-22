@@ -230,12 +230,22 @@
 				if ($match) {
  					$device->manufacturer = $match[0];
 					$device->model = self::applyMatches($match[1], $model, $pattern);
-					if (isset($match[2])) $device->type = $match[2];
-					if (isset($match[3])) $device->flag = $match[3];
 					$device->identified = Constants\Id::MATCH_UA;
 
+					if (isset($match[2])) {
+						if (is_array($match[2])) {
+							$device->type = $match[2][0];
+							$device->subtype = $match[2][1];
+						} 
+						else {
+							$device->type = $match[2];
+						}
+					}
 
-
+					if (isset($match[3])) {						
+						$device->flag = $match[3];
+					}
+					
 					if ($device->manufacturer == null && $device->model == null) {
 						$device->identified = Constants\Id::PATTERN;
 					}

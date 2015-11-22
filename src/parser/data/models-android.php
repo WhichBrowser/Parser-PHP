@@ -3,6 +3,7 @@
 		namespace WhichBrowser\Data;
 
 		use WhichBrowser\Constants\DeviceType;
+		use WhichBrowser\Constants\DeviceSubType;
 		use WhichBrowser\Constants\Flag;
 
 		DeviceModels::$ANDROID_MODELS = [
@@ -353,9 +354,9 @@
 
 
 			/* Game consoles */
-			'OUYA( Console)?!'							=> [ null, 'OUYA', DeviceType::GAMING ],
-			'SHIELD'									=> [ 'Nvidia', 'SHIELD', DeviceType::GAMING ],
-			'SHIELD Tablet'								=> [ 'Nvidia', 'SHIELD Tablet', DeviceType::GAMING ],
+			'OUYA( Console)?!'							=> [ null, 'OUYA', [ DeviceType::GAMING, DeviceSubType::CONSOLE ] ],
+			'SHIELD'									=> [ 'Nvidia', 'SHIELD', [ DeviceType::GAMING, DeviceSubType::CONSOLE ] ],
+			'SHIELD Tablet'								=> [ 'Nvidia', 'SHIELD Tablet', [ DeviceType::GAMING, DeviceSubType::PORTABLE ] ],
 
 
 			/* Regular devices */
