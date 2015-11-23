@@ -2517,6 +2517,7 @@
 				unset($this->os->name);
 				unset($this->os->version);
 
+				$this->device->manufacturer = 'Apple';
 				$this->device->model = 'AppleTV';
 				$this->device->type = Constants\DeviceType::TELEVISION;
 				$this->device->identified |= Constants\Id::MATCH_UA;

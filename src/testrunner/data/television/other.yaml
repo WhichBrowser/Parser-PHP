@@ -330,4 +330,4 @@
     result: { device: { type: television, manufacturer: NEXUS, model: TV44 } }
 -
     headers: 'User-Agent: XBMC/PRE-11.0 Git:20110623-62171b3 (iOS; 11.0.0 AppleTV2,1; http://www.xbmc.org)'
-    result: { browser: { name: XBMC, version: '11.0' }, device: { type: television, model: AppleTV } }
+    result: { browser: { name: XBMC, version: '11.0' }, device: { type: television, manufacturer: Apple, model: AppleTV } }
