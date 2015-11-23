@@ -198,7 +198,7 @@
 		}
 
 		public function isDetected() {
-			return !empty($this->model) || !empty($this->manufacturer);
+			return !empty($this->type) || !empty($this->model) || !empty($this->manufacturer);
 		}
 
 		public function toArray() {
