@@ -5228,8 +5228,8 @@
 				array('name' => 'Valve Steam',			'regexp' => '/Valve Steam/u'),
 
 				/* Media players */
-				array('name' => 'iTunes',				'regexp' => '/iTunes\/(?:xaa.)([0-9.]*)/u'),
-				array('name' => 'QuickTime',			'regexp' => '/QuickTime\/([0-9.]*)/u'),
+				array('name' => 'iTunes',				'regexp' => '/iTunes\/(?:xaa.)?([0-9.]*)/u'),
+				array('name' => 'QuickTime',			'regexp' => '/QuickTime[\/\\\\](?:xaa.)?([0-9.]*)/u'),
 				array('name' => 'Bluefish',				'regexp' => '/bluefish ([0-9.]*)/u'),
 				array('name' => 'Songbird',				'regexp' => '/Songbird\/([0-9.]*)/u'),
 				array('name' => 'SubStream',			'regexp' => '/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
