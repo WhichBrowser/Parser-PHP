@@ -1096,7 +1096,12 @@
 				}
 
 				if (preg_match('/\(([^;]+); ([^\/]+)\//u', $ua, $match)) {
-					if (strtoupper($match[1]) != 'SMART-TV' && $match[1] != 'Linux' && $match[1] != 'Tizen') {
+					$falsepositive = false;
+					if (strtoupper($match[1]) == 'SMART-TV') $falsepositive = true;
+					if ($match[1] == 'Linux') $falsepositive = true;
+					if ($match[1] == 'Tizen') $falsepositive = true;
+
+					if (!$falsepositive) {
 						$this->device->manufacturer = $match[1];
 						$this->device->model = $match[2];
 						$this->device->identified = Constants\Id::PATTERN;
@@ -1111,7 +1116,13 @@
 				}
 
 				if (preg_match('/\s*([^;]+);\s+([^;\)]+)\)/u', $ua, $match)) {
-					if ($match[1] != 'U' && substr($match[2], 0, 5) != 'Tizen') {
+					$falsepositive = false;
+					if ($match[1] == 'U') $falsepositive = true;
+					if (substr($match[2], 0, 5) == 'Tizen') $falsepositive = true;
+					if (substr($match[2], 0, 11) == 'AppleWebKit') $falsepositive = true;
+					if (preg_match("/^[a-z]{2,2}(?:\-[a-z]{2,2})?$/", $match[2])) $falsepositive = true;
+
+					if (!$falsepositive) {
 						$this->device->model = $match[2];
 						$this->device->identified = Constants\Id::PATTERN;
 
@@ -1124,6 +1135,12 @@
 					}
 				}
 
+
+				if (!$this->device->type && preg_match('/Mobile/iu', $ua, $match)) {
+					$this->device->type = Constants\DeviceType::MOBILE;
+				}
+
+
 				if (preg_match('/\(SMART[ -]TV;/iu', $ua, $match)) {
 					$this->device->type = Constants\DeviceType::TELEVISION;
 					$this->device->manufacturer = 'Samsung';
@@ -1132,7 +1149,7 @@
 				}
 
 
-				if (preg_match('/SamsungBrowser\/([0-9.]*)/u', $ua, $match)) {
+				if (preg_match('/(?:Samsung|Tizen ?)Browser\/([0-9.]*)/u', $ua, $match)) {
 					$this->browser->name = "Samsung Browser";
 					$this->browser->channel = null;
 					$this->browser->stock = true;
@@ -5829,6 +5846,10 @@
 				if ($this->os->name == 'BlackBerry Tablet OS' && !isset($this->browser->name) && $this->browser->stock) {
 					$this->browser->name = 'BlackBerry Browser';
 					$this->browser->hidden = true;
+				}
+
+				if ($this->os->name == 'Tizen' && !isset($this->browser->name) && $this->browser->stock && $this->device->type == Constants\DeviceType::MOBILE) {
+					$this->browser->name = 'Samsung Browser';
 				}
 
 				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
