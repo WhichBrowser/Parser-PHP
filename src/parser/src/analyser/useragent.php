@@ -3306,6 +3306,15 @@
 								$identified = true;
 							}
 
+							if (preg_match('/^(SH[0-9]+[A-Z])$/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Sharp';
+								$this->device->model = Data\DeviceModels::cleanup($match[1]);
+								$this->device->type = Constants\DeviceType::MOBILE;
+								$this->device->identified = false;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
 							if (preg_match('/^SE([A-Z][0-9]+[a-z])$/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Sony Ericsson';
 								$this->device->model = Data\DeviceModels::cleanup($match[1]);
@@ -3481,6 +3490,14 @@
 								$identified = true;
 							}
 
+							if (preg_match('/^vk-(vk[0-9]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'VK Mobile';
+								$this->device->model = Data\DeviceModels::cleanup(strtoupper($match[1]));
+								$this->device->type = Constants\DeviceType::MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
 							if (preg_match('/^Xiaomi[_]?([^\s]+)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Xiaomi';
 								$this->device->model = Data\DeviceModels::cleanup($match[1]);
@@ -3630,6 +3647,22 @@
 				}
 			}
 
+
+			if (preg_match('/\(([A-Z][0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, $match)) {
+				$this->device->manufacturer = 'DoCoMo';
+				$this->device->model = Data\DeviceModels::cleanup($match[1]);
+				$this->device->type = Constants\DeviceType::MOBILE;
+				$this->device->identified |= Constants\Id::PATTERN;
+				$this->device->generic = false;
+			}
+
+			if (preg_match('/DoCoMo\/[0-9.]+\/([A-Z][0-9]+[A-Z])[^\/]*\//ui', $ua, $match)) {
+				$this->device->manufacturer = 'DoCoMo';
+				$this->device->model = Data\DeviceModels::cleanup($match[1]);
+				$this->device->type = Constants\DeviceType::MOBILE;
+				$this->device->identified |= Constants\Id::PATTERN;
+				$this->device->generic = false;
+			}
 
 			if (preg_match('/J-PHONE\/[^\/]+\/([^\/]+)\//u', $ua, $match)) {
 				$this->device->manufacturer = 'Softbank';
