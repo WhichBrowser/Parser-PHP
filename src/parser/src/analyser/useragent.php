@@ -5416,7 +5416,7 @@
 				array('name' => 'Lynx', 				'regexp' => '/Lynx\/([0-9.]*)/u'),
 				array('name' => 'iLunascape', 			'regexp' => '/iLunascape\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Intermec Browser', 	'regexp' => '/Intermec\/([0-9.]*)/u', 'details' => 2),
-				array('name' => 'Jig Browser', 			'regexp' => '/jig browser core/u'),
+				array('name' => 'Jig Browser', 			'regexp' => '/jig browser(?: core|9i?)/u'),
 				array('name' => 'MaCross Mobile', 		'regexp' => '/MaCross\/([0-9.]*)/u'),
 				array('name' => 'Mammoth', 				'regexp' => '/Mammoth\/([0-9.]*)/u'),										// see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
 				array('name' => 'Maxthon', 				'regexp' => '/MxBrowser\/([0-9.]*)/u'),
