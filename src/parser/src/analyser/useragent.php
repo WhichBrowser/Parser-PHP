@@ -2533,6 +2533,7 @@
 				unset($this->os->name);
 				unset($this->os->version);
 
+				$this->device->manufacturer = 'Microsoft';
 				$this->device->model = 'WebTV';
 				$this->device->type = Constants\DeviceType::TELEVISION;
 				$this->device->identified |= Constants\Id::MATCH_UA;

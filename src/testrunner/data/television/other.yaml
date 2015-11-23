@@ -63,7 +63,7 @@
     result: { device: { type: television, manufacturer: Loewe, model: 'Connect SL121', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/3.0 WebTV/1.2 (compatible; MSIE 2.0)'
-    result: { browser: { name: 'Internet Explorer', version: '2.0' }, device: { type: television, model: WebTV } }
+    result: { browser: { name: 'Internet Explorer', version: '2.0' }, device: { type: television, manufacturer: Microsoft, model: WebTV } }
 -
     headers: 'User-Agent: Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL 6654N Volksbox Web Edition +; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0'
     result: { engine: { name: Webkit, version: '534.6' }, device: { type: television, manufacturer: Inverto, model: 'IDL 6654N Volksbox Web Edition +' } }
