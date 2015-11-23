@@ -787,7 +787,7 @@
 				$this->device->model = 'BlackBerry';
 				$this->device->manufacturer = 'RIM';
 				$this->device->type = Constants\DeviceType::MOBILE;
-				$this->device->identified = Constants\Id::NONE;
+				$this->device->identified = Constants\Id::INFER;
 
 				if (!preg_match('/Opera/u', $ua)) {
 					if (preg_match('/BlackBerry([0-9]*)\/([0-9.]*)/u', $ua, $match)) {
