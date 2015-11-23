@@ -5245,6 +5245,7 @@
 				array('name' => 'Postbox',				'regexp' => '/Postbox[\/ ]([0-9.]*)/u', 'details' => 2),
 
 				/* Feed readers */
+				array('name' => 'Akregator',			'regexp' => '/Akregator\/([0-9.]*)/u'),
 				array('name' => 'Blogos',				'regexp' => '/Blogos\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 				array('name' => 'FeedDemon',			'regexp' => '/FeedDemon\/([0-9.]*)/u'),
 				array('name' => 'Feeddler',				'regexp' => '/FeeddlerRSS\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
@@ -5324,6 +5325,7 @@
 				array('name' => 'Daedalus', 			'regexp' => '/Daedalus ([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Daum', 				'regexp' => '/DaumApps\/([0-9.]*)/u'),
 				array('name' => 'Daum', 				'regexp' => '/daumcafe\/([0-9.]*)/u'),
+				array('name' => 'Dillo', 				'regexp' => '/Dillo\/([0-9.]*)/u'),
 				array('name' => 'Demobrowser', 			'regexp' => '/demobrowser\/([0-9.]*)/u'),
 				array('name' => 'Doga Rhodonit', 		'regexp' => '/DogaRhodonit/u'),
 				array('name' => 'Dorado', 				'regexp' => '/Browser\/Dorado([0-9.]*)/u'),
@@ -5362,6 +5364,7 @@
 				array('name' => 'Lynx', 				'regexp' => '/Lynx\/([0-9.]*)/u'),
 				array('name' => 'iLunascape', 			'regexp' => '/iLunascape\/([0-9.]*)/u', 'details' => 3),
 				array('name' => 'Intermec Browser', 	'regexp' => '/Intermec\/([0-9.]*)/u', 'details' => 2),
+				array('name' => 'Jig Browser', 			'regexp' => '/jig browser core/u'),
 				array('name' => 'MaCross Mobile', 		'regexp' => '/MaCross\/([0-9.]*)/u'),
 				array('name' => 'Mammoth', 				'regexp' => '/Mammoth\/([0-9.]*)/u'),										// see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
 				array('name' => 'Maxthon', 				'regexp' => '/MxBrowser\/([0-9.]*)/u'),
