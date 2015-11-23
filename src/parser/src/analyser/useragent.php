@@ -3757,6 +3757,19 @@
 				}
 			}
 
+			if (preg_match('/(?:Apple-PubSub|AppleSyndication)\//u', $ua)) {
+				$this->browser->stock = true;
+				$this->browser->name = 'Safari RSS';
+				$this->browser->version = null;
+
+				$this->os->name = 'OS X';
+				$this->os->version = null;
+
+				$this->device->type = Constants\DeviceType::DESKTOP;
+			}
+
+
+
 			/****************************************************
 			 *		Internet Explorer
 			 */
