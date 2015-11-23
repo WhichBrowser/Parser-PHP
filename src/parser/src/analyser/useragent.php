@@ -5829,6 +5829,10 @@
 					$this->browser->name = 'Android Browser';
 				}
 
+				if ($this->os->name == 'Aliyun OS' && !isset($this->browser->using) && !isset($this->browser->name) && $this->browser->stock) {
+					$this->browser->name = 'Aliyun Browser';
+				}
+
 				if ($this->os->name == 'Google TV' && !isset($this->browser->name) && $this->browser->stock) {
 					$this->browser->name = 'Chrome';
 				}
