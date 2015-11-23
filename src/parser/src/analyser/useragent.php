@@ -5376,7 +5376,7 @@
 				array('name' => 'OmniWeb', 				'regexp' => '/OmniWeb/u', 'type' => Constants\DeviceType::DESKTOP),
 				array('name' => 'OneBrowser', 			'regexp' => '/OneBrowser\/([0-9.]*)/u'),
 				array('name' => 'Openwave',				'regexp' => '/Openwave\/([0-9.]*)/u', 'details' => 2),
-				array('name' => 'Openwave', 			'regexp' => '/UP\.Browser\/([a-z0-9.]*)/u', 'details' => 2),
+				array('name' => 'Openwave', 			'regexp' => '/UP\.Browser\/([a-z0-9.]*)/iu', 'details' => 2),
 				array('name' => 'Opera Oupeng', 		'regexp' => '/Oupeng\/([0-9.]*)/u', 'details' => 2),
 				array('name' => 'Oregano', 				'regexp' => '/Oregano ([0-9.]*)/u'),
 				array('name' => 'Orca', 				'regexp' => '/Orca\/([0-9.]*)/u'),
