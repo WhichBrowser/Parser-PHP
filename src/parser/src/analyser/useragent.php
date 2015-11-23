@@ -3729,6 +3729,26 @@
 						$this->browser->version = null;
 					}
 				}
+
+
+				if (isset($this->os->name) && $this->os->name == 'Darwin') {
+					if (preg_match("/^MobileSafari/iu", $ua)) {
+						$this->browser->name = 'Safari';
+						$this->browser->version = null;
+						$this->browser->stock = true;
+						$this->browser->hidden = true;
+
+						$this->device->type = Constants\DeviceType::MOBILE;
+					}
+
+					else if (preg_match("/^Safari/iu", $ua)) {
+						$this->browser->name = 'Safari';
+						$this->browser->version = null;
+						$this->browser->stock = true;
+
+						$this->device->type = Constants\DeviceType::DESKTOP;
+					}
+				}
 			}
 
 			/****************************************************
@@ -5193,6 +5213,7 @@
 				array('name' => 'QuickTime',			'regexp' => '/QuickTime\/([0-9.]*)/u'),
 				array('name' => 'Bluefish',				'regexp' => '/bluefish ([0-9.]*)/u'),
 				array('name' => 'Songbird',				'regexp' => '/Songbird\/([0-9.]*)/u'),
+				array('name' => 'SubStream',			'regexp' => '/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 
 				/* Email clients */
 				array('name' => 'Lightning', 			'regexp' => '/Lightning\/([0-9.]*)/u'),
@@ -5205,11 +5226,16 @@
 				array('name' => 'Postbox',				'regexp' => '/Postbox[\/ ]([0-9.]*)/u', 'details' => 2),
 
 				/* Feed readers */
+				array('name' => 'Blogos',				'regexp' => '/Blogos\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 				array('name' => 'FeedDemon',			'regexp' => '/FeedDemon\/([0-9.]*)/u'),
+				array('name' => 'Feeddler',				'regexp' => '/FeeddlerRSS\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
+				array('name' => 'Feeddler Pro',			'regexp' => '/FeeddlerPro\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 				array('name' => 'Liferea',				'regexp' => '/Liferea\/([0-9.]*)/u'),
+				array('name' => 'NewsBlur',				'regexp' => '/NewsBlur\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 				array('name' => 'Rss Bandit',			'regexp' => '/RssBandit\/([0-9.]*)/u'),
 				array('name' => 'Rss Owl',				'regexp' => '/RSSOwl\/([0-9.]*)/u'),
 				array('name' => 'Reeder',				'regexp' => '/Reeder\/([0-9.]*)/u'),
+				array('name' => 'ReedKit',				'regexp' => '/ReedKit\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP),
 
 				/* Social apps */
 				array('name' => 'Facebook',				'regexp' => '/FBAN\/FBIOS/u'),
