@@ -193,7 +193,17 @@
 		}
 
 		public function toString() {
-			if ($this->identified) return trim((!empty($this->manufacturer) ? $this->manufacturer . ' ' : '') . (!empty($this->model) ? $this->model . ' ' : '') . (!empty($this->series) ? $this->series : ''));
+			if ($this->identified) {
+				$model = $this->getModel();
+				$manufacturer = $this->getManufacturer();
+
+				if ($manufacturer != '' && strpos($model, $manufacturer) === 0) {
+					$manufacturer = '';
+				}
+
+				return trim($manufacturer . ' ' . $model);
+			}
+
 			return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
 		}
 
