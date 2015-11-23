@@ -291,6 +291,16 @@
 
 
 			/****************************************************
+			 *		Darwin
+			 */
+
+			else if (preg_match('/Darwin\/([0-9]+.[0-9]+)/u', $ua, $match)) {
+				$this->os->name = "Darwin";
+				$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+			}
+
+
+			/****************************************************
 			 *		Windows
 			 */
 
@@ -5741,6 +5751,49 @@
 				if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
 					$this->browser->hidden = true;
 				}
+
+				if ($this->os->name == 'Darwin' && $this->device->type == Constants\DeviceType::MOBILE) {
+					$this->os->name = 'iOS';
+
+					switch (strstr($this->os->getVersion(), '.', true)) {
+						case '9':		$this->os->version = new Version([ 'value' =>'1' ]); $this->os->alias = 'iPhone OS'; break;
+						case '10':		$this->os->version = new Version([ 'value' =>'4' ]); break;
+						case '11':		$this->os->version = new Version([ 'value' =>'5' ]); break;
+						case '13':		$this->os->version = new Version([ 'value' =>'6' ]); break;
+						case '14':		$this->os->version = new Version([ 'value' =>'7' ]); break;
+						case '15':		$this->os->version = new Version([ 'value' =>'9' ]); break;
+						default:		$this->os->version = null;
+					}
+				}
+
+				if ($this->os->name == 'Darwin' && $this->device->type == Constants\DeviceType::DESKTOP) {
+					$this->os->name = 'OS X';
+
+					switch (strstr($this->os->getVersion(), '.', true)) {
+						case '1':		$this->os->version = new Version([ 'value' =>'10.0' ]); break;
+						case '5':		$this->os->version = new Version([ 'value' =>'10.1' ]); break;
+						case '6':		$this->os->version = new Version([ 'value' =>'10.2' ]); break;
+						case '7':		$this->os->version = new Version([ 'value' =>'10.3' ]); break;
+						case '8':		$this->os->version = new Version([ 'value' =>'10.4' ]); break;
+						case '9':		$this->os->version = new Version([ 'value' =>'10.5' ]); break;
+						case '10':		$this->os->version = new Version([ 'value' =>'10.6' ]); break;
+						case '11':		$this->os->version = new Version([ 'value' =>'10.7' ]); break;
+						case '12':		$this->os->version = new Version([ 'value' =>'10.8' ]); break;
+						case '13':		$this->os->version = new Version([ 'value' =>'10.9' ]); break;
+						case '14':		$this->os->version = new Version([ 'value' =>'10.10' ]); break;
+						case '15':		$this->os->version = new Version([ 'value' =>'10.11' ]); break;
+						default:		$this->os->version = null;
+					}
+
+					if (!empty($this->os->version)) {
+						if ($this->os->version->is('<', '10.7')) $this->os->alias = 'Mac OS X';
+						if ($this->os->version->is('10.7')) $this->os->version->nickname = 'Lion';
+						if ($this->os->version->is('10.8')) $this->os->version->nickname = 'Mountain Lion';
+						if ($this->os->version->is('10.9')) $this->os->version->nickname = 'Mavericks';
+						if ($this->os->version->is('10.10')) $this->os->version->nickname = 'Yosemite';
+						if ($this->os->version->is('10.11')) $this->os->version->nickname = 'El Capitan';
+					}
+				}			
 			}
 
 
