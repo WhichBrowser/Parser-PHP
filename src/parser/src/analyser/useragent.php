@@ -272,12 +272,18 @@
 			 *		OS X
 			 */
 
-			else if (preg_match('/Mac OS X/u', $ua)) {
+			else if (preg_match('/Mac OS X/u', $ua) || preg_match('/;os=Mac/u', $ua)) {
 				$this->os->name = 'OS X';
 
 				if (preg_match('/Mac OS X (10[0-9\._]*)/u', $ua, $match)) {
 					$this->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]), 'details' => 2 ]);
+				}
 
+				if (preg_match('/;os=Mac (10[0-9\.]*)/u', $ua, $match)) {
+					$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+				}
+
+				if (!empty($this->os->version)) {
 					if ($this->os->version->is('<', '10.7')) $this->os->alias = 'Mac OS X';
 					if ($this->os->version->is('10.7')) $this->os->version->nickname = 'Lion';
 					if ($this->os->version->is('10.8')) $this->os->version->nickname = 'Mountain Lion';
