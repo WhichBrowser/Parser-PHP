@@ -4577,11 +4577,13 @@
 						$this->device->model = 'Kindle Fire';
 						$this->device->type = Constants\DeviceType::TABLET;
 						$this->device->identified |= Constants\Id::INFER;
-					}
 
-					if (isset($this->os->name) && $this->os->name != 'Android') {
-						$this->os->name = 'Android';
-						$this->os->version = null;
+						if (isset($this->os->name) && ($this->os->name != 'Android' || $this->os->name != 'FireOS')) {
+							$this->os->name = 'FireOS';
+							$this->os->family = new Family([ 'name' => 'Android' ]);
+							$this->os->alias = null;
+							$this->os->version = null;
+						}
 					}
 				}
 			}

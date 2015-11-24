@@ -41,6 +41,9 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; KFTBWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.51020.2250.0238 Safari/537.36'
     result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 10' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Silk/1.0.22.153_10033210) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Silk-Accelerated=true'
+    result: { browser: { name: Silk, version: '1.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
     result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
 -
@@ -76,3 +79,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; xx; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true'
     result: { browser: { name: Silk, version: '3.13' }, engine: { name: Webkit, version: '535.19' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX 8.9"' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.22.153_10033210) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
+    result: { browser: { name: Silk, version: '1.0' }, engine: { name: Webkit, version: '533.16' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
