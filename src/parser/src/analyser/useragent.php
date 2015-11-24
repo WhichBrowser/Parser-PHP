@@ -3710,6 +3710,14 @@
 				$this->device->generic = false;
 			}
 
+			if (preg_match('/^T-Mobile ([^\/]+)\//u', $ua, $match)) {
+				$this->device->manufacturer = 'T-Mobile';
+				$this->device->model = Data\DeviceModels::cleanup($match[1]);
+				$this->device->type = Constants\DeviceType::MOBILE;
+				$this->device->identified |= Constants\Id::PATTERN;
+				$this->device->generic = false;
+			}
+
 			if (preg_match('/HP(iPAQ[0-9]+)\//u', $ua, $match)) {
 				$this->device->manufacturer = 'HP';
 				$this->device->model = Data\DeviceModels::cleanup($match[1]);
