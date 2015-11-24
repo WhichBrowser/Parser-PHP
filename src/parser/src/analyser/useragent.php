@@ -1431,6 +1431,15 @@
 			if (preg_match('/PalmOS/iu', $ua, $match)) {
 				$this->os->name = 'Palm OS';
 				$this->device->type = Constants\DeviceType::MOBILE;
+
+				if (preg_match('/; ([^;)]+)\)/u', $ua, $match)) {
+					$device = Data\DeviceModels::identify('palmos', $match[1]);
+
+					if ($device->identified) {
+						$device->identified |= $this->device->identified;
+						$this->device = $device;
+					}
+				}
 			}
 
 			if (preg_match('/Palm OS ([0-9.]*)/iu', $ua, $match)) {
@@ -1444,7 +1453,7 @@
 				$this->os->version = null;
 				$this->device->type = Constants\DeviceType::MOBILE;
 
-				if (preg_match('/PalmSource\/([^;]+);/u', $ua, $match)) {
+				if (preg_match('/PalmSource\/([^;]+)/u', $ua, $match)) {
 					$this->device->model = $match[1];
 					$this->device->identified = Constants\Id::PATTERN;
 				}
@@ -5238,7 +5247,29 @@
 				}
 			}
 
+			/****************************************************
+			 *		Xiino
+			 */
 
+			if (preg_match('/Xiino\/([^;]+);/u', $ua, $match)) {
+				$this->browser->name = 'Xiino';
+				$this->browser->version = new Version([ 'value' => $match[1] ]);
+				$this->os->name = 'Palm OS';
+				$this->device->type = Constants\DeviceType::MOBILE;
+			}
+
+			/****************************************************
+			 *		WebPro
+			 */
+
+			if (preg_match('/WebPro/u', $ua) && preg_match('/PalmOS/u', $ua)) {
+				$this->browser->name = 'WebPro';
+				$this->browser->version = null;
+
+				if (preg_match('/WebPro\/([0-9.]*)/u', $ua, $match)) {
+					$this->browser->version = new Version([ 'value' => $match[1] ]);
+				}
+			}
 
 
 
