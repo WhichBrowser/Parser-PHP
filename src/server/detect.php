@@ -239,10 +239,18 @@ var WhichBrowser = (function(){
 		},
 		
 		toString: function() {
-			if (this.identified)			
-				return ((this.manufacturer || '') + ' ' + (this.model || '') + ' ' + (this.series || '')).replace(/^\s+|\s+$/g,'');
-			else
-				return (this.model ? 'unrecognized device (' + this.model + ')' : '');
+			if (this.identified) {		
+				var manufactuer = this.manufacturer || '';
+				var model = (this.model || '') + ' ' + (this.series || '')).trim();
+
+				if (model.indexOf(manufacturer) === 0) {
+					manufacturer = '';
+				}
+
+				return (manufacturer + ' ' + model).trim();
+			}
+			
+			return (this.model ? 'unrecognized device (' + this.model + ')' : '');
 		}
 	};
 
