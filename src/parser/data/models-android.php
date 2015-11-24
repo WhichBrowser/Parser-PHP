@@ -11283,6 +11283,7 @@
 			'Primo S1'									=> [ 'Walton', 'Primo S1' ],
 			'WALTON Primo S3'							=> [ 'Walton', 'Primo S3' ],
 			'Primo S3'									=> [ 'Walton', 'Primo S3' ],
+			'Primo S3 mini'								=> [ 'Walton', 'Primo S3 mini' ],
 			'Primo V1'									=> [ 'Walton', 'Primo V1' ],
 			'(WALTON )?Primo-X1!'						=> [ 'Walton', 'Primo X1' ],
 			'Primo-X2'									=> [ 'Walton', 'Primo X2' ],
