@@ -241,7 +241,7 @@ var WhichBrowser = (function(){
 		toString: function() {
 			if (this.identified) {		
 				var manufactuer = this.manufacturer || '';
-				var model = (this.model || '') + ' ' + (this.series || '')).trim();
+				var model = ((this.model || '') + ' ' + (this.series || '')).trim();
 
 				if (model.indexOf(manufacturer) === 0) {
 					manufacturer = '';
