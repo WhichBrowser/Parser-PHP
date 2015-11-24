@@ -1544,6 +1544,8 @@
 				if (preg_match('/Kindle\/3.0\+/u', $ua)) $this->device->model = 'Kindle 3 or later';
 				if (preg_match('/Kindle SkipStone/u', $ua)) $this->device->model = 'Kindle Touch or later';
 
+				if (!empty($this->device->model)) $this->device->series = null;
+
 				$this->device->identified |= Constants\Id::MATCH_UA;
 			}
 
