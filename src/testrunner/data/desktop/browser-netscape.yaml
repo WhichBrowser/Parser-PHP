@@ -1,3 +1,15 @@
 -
     headers: 'User-Agent: Mozilla/2.02E (Win95; U)'
     result: { browser: { name: 'Netscape Navigator', version: 2.0.2 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/2.02Gold (Win95; I)'
+    result: { browser: { name: 'Netscape Navigator', version: 2.0.2 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (X11; I; OSF1 V4.0 alpha)'
+    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: 'Digital Unix', version: '4.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.01Gold (X11; I; SunOS 5.5.1 sun4m)'
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.04Gold (X11; U; IRIX 5.3 IP22)'
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.4 }, os: { name: IRIX, version: '5.3' }, device: { type: desktop } }
