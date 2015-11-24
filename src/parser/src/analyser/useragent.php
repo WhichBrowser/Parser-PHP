@@ -5334,6 +5334,7 @@
 				array('name' => 'QuickTime',			'regexp' => '/QuickTime[\/\\\\](?:xaa.)?([0-9.]*)/u'),
 				array('name' => 'Bluefish',				'regexp' => '/bluefish ([0-9.]*)/u'),
 				array('name' => 'Songbird',				'regexp' => '/Songbird\/([0-9.]*)/u'),
+				array('name' => 'Stagefright',				'regexp' => '/stagefright\/([0-9.]*)/u'),
 				array('name' => 'SubStream',			'regexp' => '/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 
 				/* Email clients */
@@ -5367,6 +5368,10 @@
 				array('name' => 'Sina Weibo',			'regexp' => '/weibo__([0-9.]*)/u'),
 				array('name' => 'Twitter',				'regexp' => '/TwitterAndroid/u'),
 				array('name' => 'Kik',					'regexp' => '/Kik\/([0-9.]*)/u'),
+
+				/* Office suite */
+				array('name' => 'Microsoft Office',		'regexp' => '/MSOffice ([0-9.]*)/u'),
+
 
 				/* Search */
 				array('name' => 'NAVER',				'regexp' => '/NAVER\(inapp; search; [0-9]+; ([0-9.]*)\)/u'),
