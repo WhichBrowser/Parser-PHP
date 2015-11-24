@@ -2632,7 +2632,7 @@
 			if ($this->device->type == Constants\DeviceType::TELEVISION) {
 
 				/* Drop OS */
-				if (isset($this->os->name) && !in_array($this->os->name, [ 'Tizen', 'Android', 'Google TV', 'Firefox OS' ])) {
+				if (isset($this->os->name) && !in_array($this->os->name, [ 'Aliyun OS', 'Tizen', 'Android', 'Google TV', 'Firefox OS' ])) {
 					unset($this->os->name);
 					unset($this->os->version);
 				}

@@ -10839,6 +10839,8 @@
 				'TizzBird S20T'								=> [ 'TizzBird', 'S20T', DeviceType::TELEVISION ],
 			],
 
+			'MagicBox'									=> [ 'Tmall', 'MagicBox', DeviceType::TELEVISION ],
+
 			'tolino tab!!' => [
 				'tolino tab 7'								=> [ 'Tolino', 'Tab 7', DeviceType::TABLET ],
 				'tolino tab 8'								=> [ 'Tolino', 'Tab 8', DeviceType::TABLET ],
