@@ -4892,6 +4892,15 @@
 					if (preg_match('/OS ([0-9_]*);/u', $ua, $match)) {
 						$this->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
 					}
+
+					if (preg_match('/; ([^;]+)\)/u', $ua, $match)) {
+						$device = Data\DeviceModels::identify('ios', $match[1]);
+
+						if ($device->identified) {
+							$device->identified |= $this->device->identified;
+							$this->device = $device;
+						}
+					}
 				}
 
 				if (preg_match('/\(Windows;/u', $ua)) {
