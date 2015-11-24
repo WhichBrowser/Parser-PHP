@@ -3857,7 +3857,7 @@
 				}
 
 				if (preg_match('/MSIE ([0-9.]*)/u', $ua, $match)) {
-					$this->browser->version = new Version([ 'value' => $match[1] ]);
+					$this->browser->version = new Version([ 'value' => preg_replace("/\.([0-9])([0-9])/", '.$1.$2', $match[1]) ]);
 				}
 
 				if (preg_match('/Mac_/u', $ua)) {
