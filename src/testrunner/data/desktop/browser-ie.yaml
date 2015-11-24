@@ -1,6 +1,18 @@
 -
+    headers: 'User-Agent: Mozilla/1.0 (compatible; MSIE 1.0; Windows 95)'
+    result: { browser: { name: 'Internet Explorer', version: '1.0' }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 2.1; Mac_PowerPC)'
+    result: { browser: { name: 'Internet Explorer', version: '2.1' }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.01; Windows 95)'
+    result: { browser: { name: 'Internet Explorer', version: 3.0.1 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.02; Update a; AOL 3.0; Windows 95)'
     result: { browser: { name: 'Internet Explorer', version: 3.0.2 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)'
+    result: { browser: { name: 'Internet Explorer', version: '4.0' }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Mac_PowerPC)'
     result: { browser: { name: 'Internet Explorer', version: 4.0.1 }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
