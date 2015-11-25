@@ -240,7 +240,7 @@ var WhichBrowser = (function(){
 		
 		toString: function() {
 			if (this.identified) {		
-				var manufactuer = this.manufacturer || '';
+				var manufacturer = this.manufacturer || '';
 				var model = ((this.model || '') + ' ' + (this.series || '')).trim();
 
 				if (model.indexOf(manufacturer) === 0) {
