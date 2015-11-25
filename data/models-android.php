@@ -300,14 +300,6 @@
 			'CX-929'									=> [ null, 'CX-929', DeviceType::TELEVISION ],
 			'CX-950'									=> [ null, 'CX-950', DeviceType::TELEVISION ],
 			'CX-958'									=> [ null, 'CX-958', DeviceType::TELEVISION ],
-			'MK808'										=> [ null, 'MK808', DeviceType::TELEVISION ],
-			'MK808B'									=> [ null, 'MK808 B', DeviceType::TELEVISION ],
-			'MK809B'									=> [ null, 'MK809 B', DeviceType::TELEVISION ],
-			'MK809IV'									=> [ null, 'MK809 IV', DeviceType::TELEVISION ],
-			'MK818B'									=> [ null, 'MK818 B', DeviceType::TELEVISION ],
-			'MK908'										=> [ null, 'MK908', DeviceType::TELEVISION ],
-			'MK908II'									=> [ null, 'MK908 II', DeviceType::TELEVISION ],
-			'GK802'										=> [ null, 'GK802', DeviceType::TELEVISION ],
 			'VEOLO'										=> [ 'A.C. Ryan', 'VEOLO Smart Android Hub', DeviceType::TELEVISION ],
 			'VEOLO2'									=> [ 'A.C. Ryan', 'VEOLO2 Smart Android Hub', DeviceType::TELEVISION ],
 			'Astone A108'								=> [ 'Astone', 'A108', DeviceType::TELEVISION ],
@@ -343,8 +335,16 @@
 			'Rikomagic MK802IIIS'						=> [ 'Rikomagic', 'MK802 IIIS', DeviceType::TELEVISION ],
 			'RKM MK802IIIS'								=> [ 'Rikomagic', 'MK802 IIIS', DeviceType::TELEVISION ],
 			'RKM MK802IV'								=> [ 'Rikomagic', 'MK802 IV', DeviceType::TELEVISION ],
+			'MK808'										=> [ 'Rikomagic', 'MK808', DeviceType::TELEVISION ],
+			'MK808B'									=> [ 'Rikomagic', 'MK808 B', DeviceType::TELEVISION ],
+			'MK809B'									=> [ 'Rikomagic', 'MK809 B', DeviceType::TELEVISION ],
+			'MK809IV'									=> [ 'Rikomagic', 'MK809 IV', DeviceType::TELEVISION ],
+			'MK818B'									=> [ 'Rikomagic', 'MK818 B', DeviceType::TELEVISION ],
 			'RKM MK902'									=> [ 'Rikomagic', 'MK902', DeviceType::TELEVISION ],
 			'RKM MK902II'								=> [ 'Rikomagic', 'MK902 II', DeviceType::TELEVISION ],
+			'MK908'										=> [ 'Rikomagic', 'MK908', DeviceType::TELEVISION ],
+			'MK908II'									=> [ 'Rikomagic', 'MK908 II', DeviceType::TELEVISION ],
+			'GK802'										=> [ 'Rikomagic', 'GK802', DeviceType::TELEVISION ],
 			'XW-I8'										=> [ 'Sambao', 'XW-I8', DeviceType::TELEVISION ],
 			'TCC8920 EVM'								=> [ 'Telechips', 'TCC8920', DeviceType::TELEVISION ],
 			'TCC8925 HDMI DONGLE'						=> [ 'Telechips', 'TCC8925', DeviceType::TELEVISION ],
@@ -354,7 +354,7 @@
 
 
 			/* Game consoles */
-			'OUYA( Console)?!'							=> [ null, 'OUYA', [ DeviceType::GAMING, DeviceSubType::CONSOLE ] ],
+			'OUYA( Console)?!'							=> [ 'OUYA', 'OUYA', [ DeviceType::GAMING, DeviceSubType::CONSOLE ] ],
 			'SHIELD'									=> [ 'Nvidia', 'SHIELD', [ DeviceType::GAMING, DeviceSubType::CONSOLE ] ],
 			'SHIELD Tablet'								=> [ 'Nvidia', 'SHIELD Tablet', [ DeviceType::GAMING, DeviceSubType::PORTABLE ] ],
 
@@ -420,6 +420,8 @@
 			'TS1003T'									=> [ '3Q', 'Qoo! Surf Tablet TS1003T', DeviceType::TABLET ],
 			'TS1004T'									=> [ '3Q', 'Qoo! Surf Tablet TS1004T', DeviceType::TABLET ],
 			'TS1009B'									=> [ '3Q', 'Qoo! Surf Tablet TS1009B', DeviceType::TABLET ],
+			'TS1013B'									=> [ '3Q', 'Qoo! Surf Tablet TS1013B', DeviceType::TABLET ],
+			'TS9708B'									=> [ '3Q', 'Qoo! Surf Tablet TS9708B', DeviceType::TABLET ],
 			'OC1020A'									=> [ '3Q', 'Qoo! Surf Tablet OC1020A', DeviceType::TABLET ],
 			'QS9715F'									=> [ '3Q', 'Qoo! Surf Tablet QS9715F', DeviceType::TABLET ],
 			'QS9719D'									=> [ '3Q', 'Qoo! Surf Tablet QS9719D', DeviceType::TABLET ],
@@ -595,6 +597,7 @@
 			'Vandroid T3i'								=> [ 'Advan', 'Vandroid T3i', DeviceType::TABLET ],
 			'ADVAN T5C'									=> [ 'Advan', 'Vandroid T5-C', DeviceType::TABLET ],
 			'Vandroid T'								=> [ 'Advan', 'Vandroid T', DeviceType::TABLET ],
+			'Vega'										=> [ 'Advent', 'Vega', DeviceType::TABLET ],
 			'VegaBean!'									=> [ 'Advent', 'Vega', DeviceType::TABLET ],
 			'Advent Vega'								=> [ 'Advent', 'Vega', DeviceType::TABLET ],
 			'AG Chrome Go Tab 7.0'						=> [ 'AG Mobile', 'Chrome Go-Tab 7.0', DeviceType::TABLET ],
@@ -922,24 +925,25 @@
 			'Softwinerf761I'							=> [ 'AllWinner', 'F761', DeviceType::TABLET ],
 			'Softwinerf900'								=> [ 'AllWinner', 'F900', DeviceType::TABLET ],
 			'SoftwinerEvbV13'							=> [ 'AllWinner', 'V13', DeviceType::TABLET ],
+			'AT107F'									=> [ 'Aluratek', 'Cinepad AT107F', DeviceType::TABLET ],
 			'AT108F'									=> [ 'Aluratek', 'Cinepad AT108F', DeviceType::TABLET ],
 			'AT197F'									=> [ 'Aluratek', 'Cinepad AT197F', DeviceType::TABLET ],
 			'(Amazon )?Kindle Fire!'					=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET ],								// 1st generation or unknown variant using unofficial firmware
+			'Amazon Otter'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET ],									// "Otter"	1st generation 7" (1024 x 600)
+			'Amazon OtterX'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET ],									// "Otter"	1st generation 7" (1024 x 600)
+			'Amazon Otter2'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET ],									// "Otter2"	2nd generation 7" (1024 x 600)
+			'Amazon Tate'								=> [ 'Amazon', 'Kindle Fire HD', DeviceType::TABLET ],								// "Tate" 	2nd generation 7" HD (1280 x 800)
+			'Amazon Jem'								=> [ 'Amazon', 'Kindle Fire HD 8.9"', DeviceType::TABLET ],							// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
+			'soho'										=> [ 'Amazon', 'Kindle Fire HD (2013)', DeviceType::TABLET ],						// "Soho" 	3rd generation 7" HD (1280 x 800)
+			'thor'										=> [ 'Amazon', 'Kindle Fire HDX', DeviceType::TABLET ],								// "Thor" 	3rd generation 7" HDX (1920 x 1200)
+			'apollo'									=> [ 'Amazon', 'Kindle Fire HDX 8.9"', DeviceType::TABLET ],						// "Apollo" 3rd generation 8.9" HDX (2560 x 1600)
 			'KFOTE?!'									=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET, Flag::FIREOS ],					// "Otter"	1st or 2nd generation 7" (1024 x 600)
-			'Amazon Otter'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET, Flag::FIREOS ],					// "Otter"	1st generation 7" (1024 x 600)
-			'Amazon OtterX'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET, Flag::FIREOS ],					// "Otter"	1st generation 7" (1024 x 600)
-			'Amazon Otter2'								=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET, Flag::FIREOS ],					// "Otter2"	2nd generation 7" (1024 x 600)
 			'KFTT'										=> [ 'Amazon', 'Kindle Fire HD', DeviceType::TABLET, Flag::FIREOS ],				// "Tate" 	2nd generation 7" HD (1280 x 800)
-			'Amazon Tate'								=> [ 'Amazon', 'Kindle Fire HD', DeviceType::TABLET, Flag::FIREOS ],				// "Tate" 	2nd generation 7" HD (1280 x 800)
 			'KFJW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HD 8.9"', DeviceType::TABLET, Flag::FIREOS ],			// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
-			'Amazon Jem'								=> [ 'Amazon', 'Kindle Fire HD 8.9"', DeviceType::TABLET, Flag::FIREOS ],			// "Jem" 	2nd generation 8.9" HD (1920 x 1200)
 			'KFJMWI'									=> [ 'Amazon', 'Kindle Fire', DeviceType::TABLET, Flag::FIREOS ],					//          3rd generation (1280 x 800)
 			'KFSOWI'									=> [ 'Amazon', 'Kindle Fire HD (2013)', DeviceType::TABLET, Flag::FIREOS ],			// "Soho" 	3rd generation 7" HD (1280 x 800)
-			'soho'										=> [ 'Amazon', 'Kindle Fire HD (2013)', DeviceType::TABLET, Flag::FIREOS ],			// "Soho" 	3rd generation 7" HD (1280 x 800)
 			'KFTHW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX', DeviceType::TABLET, Flag::FIREOS ],				// "Thor" 	3rd generation 7" HDX (1920 x 1200)
-			'thor'										=> [ 'Amazon', 'Kindle Fire HDX', DeviceType::TABLET, Flag::FIREOS ],				// "Thor" 	3rd generation 7" HDX (1920 x 1200)
 			'KFAPW(I|A)!'								=> [ 'Amazon', 'Kindle Fire HDX 8.9"', DeviceType::TABLET, Flag::FIREOS ],			// "Apollo" 3rd generation 8.9" HDX (2560 x 1600)
-			'apollo'									=> [ 'Amazon', 'Kindle Fire HDX 8.9"', DeviceType::TABLET, Flag::FIREOS ],			// "Apollo" 3rd generation 8.9" HDX (2560 x 1600)
 			'KFARWI'									=> [ 'Amazon', 'Fire HD 6', DeviceType::TABLET, Flag::FIREOS ],						// 4th generation 6" HD (1280 x 800)
 			'KFASWI'									=> [ 'Amazon', 'Fire HD 7', DeviceType::TABLET, Flag::FIREOS ],						// 4th generation 7" HD (1280 x 800)
 			'KFSAW(I|A)!'								=> [ 'Amazon', 'Fire HDX 8.9" (2014)', DeviceType::TABLET, Flag::FIREOS ],			// 4th generation 8.9" HDX (2560 x 1600)
@@ -1039,7 +1043,6 @@
 			'AN10BG2I'									=> [ 'Archos', 'Arnova 10b G2', DeviceType::TABLET ],
 			'AN10BG3'									=> [ 'Archos', 'Arnova 10b G3', DeviceType::TABLET ],
 			'AN10BG3DT'									=> [ 'Archos', 'Arnova 10b G3', DeviceType::TABLET ],
-			'AN10BG3-LZ'								=> [ 'Archos', 'Arnova 10b G3', DeviceType::TABLET ],
 			'AN10CG3'									=> [ 'Archos', 'Arnova 10c G3', DeviceType::TABLET ],
 			'AN10DG3'									=> [ 'Archos', 'Arnova 10d G3', DeviceType::TABLET ],
 			'ARNOVA 90G3'								=> [ 'Archos', 'Arnova 90 G3', DeviceType::TABLET ],
@@ -1048,6 +1051,8 @@
 			'ARNOVA 101 G4'								=> [ 'Archos', 'Arnova 101 G4', DeviceType::TABLET ],
 			'AN8BG3-LZ'									=> [ 'Archos', 'Lazer 8.0', DeviceType::TABLET ],
 			'A101B2-LZ'									=> [ 'Archos', 'Lazer 10.1', DeviceType::TABLET ],
+			'AN10G2-LZ'									=> [ 'Archos', 'Lazer 10.1', DeviceType::TABLET ],
+			'AN10BG3-LZ'								=> [ 'Archos', 'Lazer 10.1', DeviceType::TABLET ],
 			'AN7DG3C'									=> [ 'Archos', 'Tabeo', DeviceType::TABLET ],
 			'A32'										=> [ 'Archos', '32', 'media' ],
 			'A35DE'										=> [ 'Archos', '35 Smart Home Phone' ],
@@ -1295,6 +1300,7 @@
 			'asus google cube'							=> [ 'Asus', 'Cube with Google TV', DeviceType::TELEVISION, Flag::GOOGLETV ],
 			'google cube'								=> [ 'Asus', 'Cube with Google TV', DeviceType::TELEVISION, Flag::GOOGLETV ],
 			'T-07B'										=> [ 'AudioSonic', 'T07B', DeviceType::TABLET ],
+			'T-800'										=> [ 'AudioSonic', 'T800', DeviceType::TABLET ],
 			'AUX 909+P'									=> [ 'AUX', '909+P' ],
 			'AUX 910+'									=> [ 'AUX', '910+' ],
 			'AUX 939+'									=> [ 'AUX', '939+' ],
@@ -1626,6 +1632,7 @@
 			],
 
 			'BroadSign Xpress!'							=> [ 'BroadSign', 'Xpress', DeviceType::SIGNAGE ],
+			'Broncho M7'								=> [ 'Broncho', 'M7', DeviceType::TABLET ],
 			'CENTURION'									=> [ 'Brondi', 'CENTURION' ],
 			'CENTURION 3'								=> [ 'Brondi', 'CENTURION 3' ],
 			'GLADIATOR'									=> [ 'Brondi', 'GLADIATOR' ],
@@ -1835,6 +1842,7 @@
 				'Celkon Q550'								=> [ 'Celkon', 'Millennia Epic Q550' ],
 			],
 
+			'CT710'										=> [ 'Celkon', 'CT710', DeviceType::TABLET ],
 			'CT910'										=> [ 'Celkon', 'CT910', DeviceType::TABLET ],
 			'W820'										=> [ 'Cellon', 'HW-W820' ],
 
@@ -2087,6 +2095,7 @@
 			'Coolgen E68+'								=> [ 'Coolgen', 'E68+' ],
 			'Coolgen E69+'								=> [ 'Coolgen', 'E69+' ],
 			'Coolgen E70'								=> [ 'Coolgen', 'E70' ],
+			'Coolgen E70 G'								=> [ 'Coolgen', 'E70 G' ],
 			'Coolgen E71'								=> [ 'Coolgen', 'E71' ],
 			'Coolgen E72 Note 3G'						=> [ 'Coolgen', 'E72' ],
 			'Coolgen E72 Note8'							=> [ 'Coolgen', 'E72' ],
@@ -2258,6 +2267,8 @@
 			'Coolpad 9970'								=> [ 'Coolpad', 'Grand 4 9970' ],
 			'Coolpad 9976!'								=> [ 'Coolpad', '9976' ],
 			'Coolpad Flo'								=> [ 'Coolpad', 'Flo' ],
+			'COWON D3'									=> [ 'Cowon', 'D3 Plenue', DeviceType::MEDIA ],
+			'COWON Z2'									=> [ 'Cowon', 'Z2 Plenue', DeviceType::MEDIA ],
 			'CLP281X'									=> [ 'Craig', 'CLP281x', DeviceType::TABLET ],
 			'CMP741d'									=> [ 'Craig', 'CMP741d', DeviceType::TABLET ],
 			'CMP741E'									=> [ 'Craig', 'CMP741e', DeviceType::TABLET ],
@@ -2271,6 +2282,7 @@
 			'ZiiLABS ZiiO10'							=> [ 'Creative', 'ZiiO 10', DeviceType::TABLET ],
 			'ZiiLABS ZiiO10 '							=> [ 'Creative', 'ZiiO 10', DeviceType::TABLET ],
 			'CTP828BT'									=> [ 'Cresta', 'CTP828BT', DeviceType::TABLET ],
+			'CRESTA.CTP888'								=> [ 'Cresta', 'CTP888', DeviceType::TABLET ],
 
 			'Cross!!' => [
 				'CROSS-A1'									=> [ 'Cross', 'A1' ],
@@ -2294,7 +2306,7 @@
 				'CROSS AT1G*'								=> [ 'Cross', 'AT1G', DeviceType::TABLET ],
 			],
 
-			'Crosscall' => [
+			'Crosscall!!' => [
 				'Crosscall ELEMENT'							=> [ 'Crosscall', 'ELEMENT' ],
 				'CROSSCALL WILD'							=> [ 'Crosscall', 'WILD' ],
 			],
@@ -2326,7 +2338,7 @@
 			'S222'										=> [ 'Cubot', 'S222' ],
 			'S308'										=> [ 'Cubot', 'S308' ],
 
-			'(CUBE ?)[KU][0-9]{1,2}GT!!' => [
+			'(CUBE ?)?[KU][0-9]{1,2}GT!!' => [
 				'CUBE K8GT A'								=> [ 'Cube', 'K8GT A', DeviceType::TABLET ],
 				'CUBE K8GT B'								=> [ 'Cube', 'K8GT B', DeviceType::TABLET ],
 				'K8GT C'									=> [ 'Cube', 'K8GT C', DeviceType::TABLET ],
@@ -2422,6 +2434,7 @@
 			'Cydle M7!'									=> [ 'Cydle', 'M7 MultiPAD', DeviceType::TABLET ],
 			'EVDO1000'									=> [ 'Cyrus', 'EVDO 1000' ],
 			'GloryG1000'								=> [ 'Cyrus', 'Glory G1000' ],
+			'TVPAD Slim K3409'							=> [ 'Cyrus', 'TVPad Slim K3409', DeviceType::TABLET ],
 
 			'D2-[0-9]{3,3}!!' => [
 				'D2-711'									=> [ 'D2pad', 'D2-711', DeviceType::TABLET ],
@@ -2790,6 +2803,7 @@
 			'edgejr'									=> [ 'EnTourage', 'Pocket eDGe', DeviceType::TABLET ],
 			'l97D'										=> [ 'EPad', 'l97D', DeviceType::TABLET ],
 			'A1001T'									=> [ 'Elijah', 'A1001T', DeviceType::TABLET ],
+			'ELIYA S1'									=> [ 'Eliya', 'S1' ],
 
 			'epade!!' => [
 				'epade A3'									=> [ 'epade', 'A3' ],
@@ -2902,6 +2916,8 @@
 				'GT-H9500'									=> [ 'Feiteng', 'GT-H9500' ],
 				'GT-N9300'									=> [ 'Feiteng', 'GT-N9300' ],
 			],
+
+			'9300'										=> [ 'Feiteng', 'GT-N9300' ],
 
 			'iOCEAN!!' => [
 				'iOCEAN X7'									=> [ 'FHD', 'iOCEAN X7' ],
@@ -3158,6 +3174,8 @@
 
 			'GP-720'									=> [ 'Genius', 'GP-720', DeviceType::TABLET ],
 			
+			'G9'										=> [ 'GFive', 'G9' ],
+
 			'GFIVE!!' => [
 				'GFIVE A5'									=> [ 'GFive', 'A5' ],
 				'GFIVE A800'								=> [ 'GFive', 'A800' ],
@@ -3281,6 +3299,7 @@
 			'(GIO-)?(GiONEE[- ])?GN9002!'				=> [ 'Gionee', 'GN9002' ],
 			'(GIO-)?(GiONEE[- ])?GN9004!'				=> [ 'Gionee', 'GN9004' ],
 			'(GIO-)?(GiONEE[- ])?GN9005!'				=> [ 'Gionee', 'GN9005' ],
+			'GPLUS N809'								=> [ 'Gionee', 'N809' ],
 			'(GIO-)?(GiONEE[- ])?S101!'					=> [ 'Gionee', 'S101' ],
 			'(GIO-)?(GiONEE[- ])?V182!'					=> [ 'Gionee', 'V182' ],
 			'(GIO-)?(GiONEE[- ])?V185!'					=> [ 'Gionee', 'V185' ],
@@ -3551,7 +3570,7 @@
 			'Zera S'									=> [ 'Highscreen', 'Zera S' ],
 			'Zera-S-Power'								=> [ 'Highscreen', 'Zera S Power' ],
 
-			'HLV_T!!' => [
+			'HLV-T!!' => [
 				'HLV-T701'									=> [ 'Hi-Level', 'HLV-T701', DeviceType::TABLET ],
 				'HLV-T702'									=> [ 'Hi-Level', 'HLV-T702', DeviceType::TABLET ],
 				'HLV-T704'									=> [ 'Hi-Level', 'HLV-T704', DeviceType::TABLET ],
@@ -4750,6 +4769,7 @@
 			'DEOX'										=> [ 'i-Joy', 'Deox', DeviceType::TABLET ],
 			'Neon7'										=> [ 'i-Joy', 'Neon7', DeviceType::TABLET ],
 			'Neon9'										=> [ 'i-Joy', 'Neon9', DeviceType::TABLET ],
+			'Planet II v2'								=> [ 'i-Joy', 'Planet II', DeviceType::TABLET ],
 			'Sygnus'									=> [ 'i-Joy', 'Sygnus', DeviceType::TABLET ],
 			'MBR-1100'									=> [ 'iAdea', 'MBR-1100', DeviceType::SIGNAGE ],
 			'XDS-0548'									=> [ 'iAdea', 'XDS-0548', DeviceType::SIGNAGE ],
@@ -5299,6 +5319,7 @@
 				'Karbonn Titanium X'						=> [ 'Karbonn', 'Titanium X' ],
 			],
 
+			'A7*'										=> [ 'Karbonn', 'A7' ],
 			'A7+'										=> [ 'Karbonn', 'A7+' ],
 			'A11'										=> [ 'Karbonn', 'A11' ],
 			'A21'										=> [ 'Karbonn', 'A21' ],
@@ -5307,9 +5328,11 @@
 			'Sparkle V'									=> [ 'Karbonn', 'Sparkle V' ],
 			'ST10'										=> [ 'Karbonn', 'Smart Tab 10 Cosmic', DeviceType::TABLET ],
 			'SmartTab1'									=> [ 'Karbonn', 'Smart Tab 1', DeviceType::TABLET ],
+			'KB901'										=> [ 'Kaser', 'KB901', DeviceType::TABLET ],
 
-			'(KAZAM|Trooper)!!' => [
+			'(KAZAM|Tornado|Trooper)!!' => [
 				'KAZAM Thunder Q45'							=> [ 'KAZAM', 'Thunder Q4.5' ],
+				'Tornado 348'								=> [ 'KAZAM', 'Tornado 348' ],
 				'KAZAM Trooper 445L'						=> [ 'KAZAM', 'Trooper 445' ],
 				'KAZAM Trooper 450'							=> [ 'KAZAM', 'Trooper 450' ],
 				'KAZAM Trooper 540'							=> [ 'KAZAM', 'Trooper 540' ],
@@ -5329,10 +5352,12 @@
 				'KENEKSI-ZETA'								=> [ 'KENEKSI', 'Zeta' ],
 			],
 
+			'Pro 10 dual core'							=> [ 'Kiano', 'Pro 10 Dual', DeviceType::TABLET ],
 			'KIOTO 793'									=> [ 'KIOTO', '793' ],
 			'D91'										=> [ 'KK', 'D91', DeviceType::TABLET ],
 			'K080'										=> [ 'Kobo', 'K080', DeviceType::EREADER ],
 			'M1050S'									=> [ 'KOCASO', 'M1050S', DeviceType::TABLET ],
+			'SX9701W'									=> [ 'KOCASO', 'SX9701W', DeviceType::TABLET ],
 
 			'(KATBL|Agora)!!' => [
 				'KATBL07AND'								=> [ 'Kogan', 'Agora' ],
@@ -5349,6 +5374,8 @@
 				'KOMU ENERGY'								=> [ 'Komu', 'Energy' ],
 				'KOMU-MINI'									=> [ 'Komu', 'Mini' ],
 			],
+
+			'V1'										=> [ 'Konka', 'KOMI V1' ],
 
 			'KONKA!!' => [
 				'KONKA V615'								=> [ 'Konka', 'V615' ],
@@ -5779,6 +5806,7 @@
 
 			'LENCM900HZ'								=> [ 'Lenco', 'TAB 811', DeviceType::TABLET ],
 			'TAB1011'									=> [ 'Lenco', 'TAB 1011', DeviceType::TABLET ],
+			'TAB-1030'									=> [ 'Lenco', 'TAB 1030', DeviceType::TABLET ],
 			'ThinkPad( Tablet)?!'						=> [ 'Lenovo', 'ThinkPad Tablet', DeviceType::TABLET ],
 			'IdeaPad A1'								=> [ 'Lenovo', 'IdeaPad A1', DeviceType::TABLET ],
 			'Lenovo A1-32AB0'							=> [ 'Lenovo', 'IdeaPad A1', DeviceType::TABLET ],
@@ -6908,6 +6936,7 @@
 			],
 
 			'Mi-A402'									=> [ 'Mi-fone', 'FAB 4.0' ],
+			'A13'										=> [ 'Micromax', 'A13' ],
 			'Micromax A24'								=> [ 'Micromax', 'A24 Bolt' ],
 			'Micromax A25'								=> [ 'Micromax', 'A25 Smarty' ],
 			'Micromax A26'								=> [ 'Micromax', 'A26 Bolt' ],
@@ -7271,7 +7300,7 @@
 			'XT901'										=> [ 'Motorola', 'Electrify M' ],
 			'XT905'										=> [ 'Motorola', 'RAZR M' ],
 			'XT907'										=> [ 'Motorola', 'Droid RAZR M' ],
-			'XT910'										=> [ 'Motorola', 'RAZR' ],
+			'XT910!'									=> [ 'Motorola', 'RAZR' ],
 			'XT912!'									=> [ 'Motorola', 'Droid RAZR' ],
 			'XT9(14|15|16|18)!'							=> [ 'Motorola', 'Droid RAZR D1' ],
 			'XT9(19|20)!'								=> [ 'Motorola', 'Droid RAZR D3' ],
@@ -7342,7 +7371,7 @@
 			'MotoE2(4G-LTE)'							=> [ 'Motorola', 'Moto E (2015)' ],
 			'MotoG3'									=> [ 'Motorola', 'Moto G (2015)' ],
 			'MotoG3-TE'									=> [ 'Motorola', 'Moto G (2015)' ],
-			'MotoroiX'									=> [ 'Motorola', 'Droid X' ],
+			'roiX'										=> [ 'Motorola', 'Droid X' ],
 			'Moto Backflip'								=> [ 'Motorola', 'BACKFLIP' ],
 			'RAZR'										=> [ 'Motorola', 'RAZR' ],
 			'RAZR HD'									=> [ 'Motorola', 'RAZR HD' ],
@@ -7645,6 +7674,8 @@
 			'COOLPIX S800c'								=> [ 'Nikon', 'Coolpix S800c', DeviceType::CAMERA ],
 			'i5300'										=> [ 'Ninetology', 'Palette' ],
 			'i5350'										=> [ 'Ninetology', 'Pearl Mini' ],
+			'nine i7400'								=> [ 'Ninetology', 'Black Pearl' ],
+			'I 7520'									=> [ 'Ninetology', 'Stealth' ],
 			'i8400'										=> [ 'Ninetology', 'U9 P1' ],
 			'i8450'										=> [ 'Ninetology', 'U9 Q1' ],
 			'i9400'										=> [ 'Ninetology', 'Black Pearl II' ],
@@ -8011,6 +8042,7 @@
 				'Panasonic KX-PRXA15'						=> [ 'Panasonic', 'KX-PRXA15', DeviceType::DECT ],
 				'Panasonic SV-ME970'						=> [ 'Panasonic', 'Viera SV-ME970', DeviceType::TABLET ],
 				'Panasonic SV-ME1000'						=> [ 'Panasonic', 'Viera SV-ME1000', DeviceType::TABLET ],
+				'Panasonic SV-MV100'						=> [ 'Panasonic', 'SV-MV100', DeviceType::MEDIA ],
 			],
 
 			'JT-H580VT'									=> [ 'Panasonic', 'BizPad 7', DeviceType::TABLET ],
@@ -8200,6 +8232,7 @@
 			],
 
 			'PGM 398'									=> [ 'Pixcom', 'PGM 398' ],
+			'Playboy PB-S3'								=> [ 'Playboy', 'Note 5' ],
 
 			'(PLOYER-)?MOMO!!' => [
 				'PLOYER-MOMO'								=> [ 'Ployer', 'MOMO', DeviceType::TABLET ],
@@ -8646,6 +8679,8 @@
 				'Q-WaveA101'								=> [ 'Quantum', 'Q-Wave A101', DeviceType::TABLET ],
 				'Q-Wave L70N'								=> [ 'Quantum', 'Q-Wave L70N', DeviceType::TABLET ],
 			],
+
+			'Quechua Phone 5'							=> [ 'Quechua', 'Phone 5' ],
 
 			'QW ?TB-[0-9]{4,4}!!' => [
 				'QW TB-1007'								=> [ 'Qware', 'Pro3 (7.0 inch, 1st gen)', DeviceType::TABLET ],
@@ -10051,6 +10086,7 @@
 
 			'BRAVIA'									=> [ 'Sony', 'Bravia W80', DeviceType::TELEVISION ],
 			'PRS-T1'									=> [ 'Sony', 'Reader PRS-T1', DeviceType::EREADER ],
+			'SpeedUp S3'								=> [ 'SpeedUp', 'Tab S3', DeviceType::TABLET ],
 
 			'(CSL[- ])?(Spice[- ]?)?Mi-?[0-9]{3,3}!!' => [
 				'Spice Mi-270'								=> [ 'Spice', 'Mi-270' ],
@@ -10803,6 +10839,8 @@
 				'TizzBird S20T'								=> [ 'TizzBird', 'S20T', DeviceType::TELEVISION ],
 			],
 
+			'MagicBox'									=> [ 'Tmall', 'MagicBox', DeviceType::TELEVISION ],
+
 			'tolino tab!!' => [
 				'tolino tab 7'								=> [ 'Tolino', 'Tab 7', DeviceType::TABLET ],
 				'tolino tab 8'								=> [ 'Tolino', 'Tab 8', DeviceType::TABLET ],
@@ -11061,7 +11099,7 @@
 				'VL-879'									=> [ 'Visual Land', 'Connect 7', DeviceType::TABLET ],
 			],
 
-			'(BGG-|VIV-)?vivo!!' => [
+			'(BBG-|VIV-)?vivo!!' => [
 				'vivo E1'									=> [ 'Vivo', 'E1' ],
 				'vivo E1t'									=> [ 'Vivo', 'E1t' ],
 				'vivo E3'									=> [ 'Vivo', 'E3' ],
@@ -11244,6 +11282,8 @@
 			'Primo RX2'									=> [ 'Walton', 'Primo RX2' ],
 			'Primo S1'									=> [ 'Walton', 'Primo S1' ],
 			'WALTON Primo S3'							=> [ 'Walton', 'Primo S3' ],
+			'Primo S3'									=> [ 'Walton', 'Primo S3' ],
+			'Primo S3 mini'								=> [ 'Walton', 'Primo S3 mini' ],
 			'Primo V1'									=> [ 'Walton', 'Primo V1' ],
 			'(WALTON )?Primo-X1!'						=> [ 'Walton', 'Primo X1' ],
 			'Primo-X2'									=> [ 'Walton', 'Primo X2' ],
@@ -11251,7 +11291,7 @@
 			'Primo-ZX'									=> [ 'Walton', 'Primo ZX' ],
 			'Primo Walpad 7'							=> [ 'Walton', 'Primo Walpad 7', DeviceType::TABLET ],
 			'Primo Walpad 8'							=> [ 'Walton', 'Primo Walpad 8', DeviceType::TABLET ],
-			'Walpad 8b '								=> [ 'Walton', 'Primo Walpad 8b', DeviceType::TABLET ],
+			'Walpad 8b'									=> [ 'Walton', 'Primo Walpad 8b', DeviceType::TABLET ],
 			'Primo Walpad 8W'							=> [ 'Walton', 'Primo Walpad 8W', DeviceType::TABLET ],
 			'xPAD-70'									=> [ 'WayteQ', 'xPAD-70', DeviceType::TABLET ],
 			'xTAB-7X'									=> [ 'WayteQ', 'xTAB-7X', DeviceType::TABLET ],
@@ -11262,6 +11302,7 @@
 			'WellcoM-A99'								=> [ 'WellcoM', 'A99' ],
 			'WellcoM-A800'								=> [ 'WellcoM', 'A800', DeviceType::TABLET ],
 			'ZEN 4.5'									=> [ 'Wexler', 'Zen 4.5' ],
+			'ZEN 4.7'									=> [ 'Wexler', 'Zen 4.7' ],
 			'WEXLER. ZEN 5'								=> [ 'Wexler', 'Zen 5' ],
 			'WEXLER TAB7ID'								=> [ 'Wexler', 'Tab 7ID', DeviceType::TABLET ],
 			'WEXLER-TAB-7iS'							=> [ 'Wexler', 'Tab 7IS', DeviceType::TABLET ],
@@ -11410,6 +11451,7 @@
 				'Woxter Nimbus 98Q'							=> [ 'Woxter', 'Nimbus 98Q', DeviceType::TABLET ],
 			],
 			
+			'Proton Lite'								=> [ 'X-View', 'Proton Lite', DeviceType::TABLET ],
 			'XELIO P900A'								=> [ 'Xelio', 'P900A' ],
 			'MI-ONE'									=> [ 'Xiaomi', 'Mi 1' ],
 			'MI-ONEC1'									=> [ 'Xiaomi', 'Mi 1' ],
@@ -11560,6 +11602,7 @@
 			'Andy 4E'									=> [ 'Yezz', 'Andy 4E' ],
 			'Andy 4EI'									=> [ 'Yezz', 'Andy 4EI' ],
 			'C868'										=> [ 'Yicheer', 'C868' ],
+			'DEM752NC'									=> [ 'Yifang', 'M752' ],
 			'EMR1879'									=> [ 'Yidong', 'EMR1879', DeviceType::TABLET ],
 			'YD201'										=> [ 'Yota', 'YotaPhone 2' ],
 			'YX-YUSUN E80'								=> [ 'Yusun', 'E80' ],
@@ -11631,7 +11674,7 @@
 			'ZBOX-ID18'									=> [ 'Zotac', 'ZBOX ID18', DeviceType::DESKTOP ],
 			'ZBOX-ID81'									=> [ 'Zotac', 'ZBOX ID81', DeviceType::DESKTOP ],
 			'ZTE Libra'									=> [ 'ZTE', 'Libra' ],
-			'ZTE-LINK'									=> [ 'ZTE', 'Link' ],
+			'ZTE LINK'									=> [ 'ZTE', 'Link' ],
 			'ZTE T T9'									=> [ 'ZTE', 'Light Tab T9', DeviceType::TABLET ],
 			'ZTE V7073'									=> [ 'ZTE', 'Light Tab V9', DeviceType::TABLET ],
 			'V9'										=> [ 'ZTE', 'Light Tab V9', DeviceType::TABLET ],
@@ -11720,6 +11763,7 @@
 			'ZTE Blade Vec 4G'							=> [ 'ZTE', 'Blade Vec' ],
 			'ZTE Blade Vec Pro'							=> [ 'ZTE', 'Blade Vec Pro' ],
 			'ZTE Geek'									=> [ 'ZTE', 'Geek' ],
+			'ZTE 975'									=> [ 'ZTE', 'Geek' ],
 			'ZTE Geek 2'								=> [ 'ZTE', 'Geek II' ],
 			'ZTE Geek 2 LTE'							=> [ 'ZTE', 'Geek II' ],
 			'ZTE GEEK II 4G'							=> [ 'ZTE', 'Geek II' ],
@@ -12450,6 +12494,8 @@
 			'TELENOR SMART TOUCH MINI'					=> [ 'Telenor', 'Smart Touch Mini' ],
 			'Telenor Touch Pad'							=> [ 'Telenor', 'Touch Pad', DeviceType::TABLET ],
 
+			'T-Hub2'									=> [ 'Telstra', 'T-Hub 2', DeviceType::TABLET ],
+
 			'tmn smart a7'								=> [ 'TMN', 'Smart A7' ],
 			'tmn smart a8'								=> [ 'TMN', 'Smart A8' ],
 			'tmn smart a15'								=> [ 'TMN', 'Smart A15' ],
@@ -12519,6 +12565,7 @@
 			'SmartTab2'									=> [ 'Vodafone', 'Smart Tab 2', DeviceType::TABLET ],
 			'SmartTab7'									=> [ 'Vodafone', 'Smart Tab 7', DeviceType::TABLET ],
 			'SmartTabII7'								=> [ 'Vodafone', 'Smart Tab II 7', DeviceType::TABLET ],		/* Lenovo */
+			'[a-z][a-z](?:-[a-z][a-z])?, SmartTabII7!'	=> [ 'Vodafone', 'Smart Tab II 7', DeviceType::TABLET ],		/* Lenovo */
 			'SmartTabII10'								=> [ 'Vodafone', 'Smart Tab II 10', DeviceType::TABLET ],
 			'Vodafone SmartTab II 10'					=> [ 'Vodafone', 'Smart Tab II 10', DeviceType::TABLET ],
 			'Vodafone Smart Tab III 7'					=> [ 'Vodafone', 'Smart Tab III 7', DeviceType::TABLET ],
