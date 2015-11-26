@@ -2864,8 +2864,8 @@
 					array_push($candidates, $match[1]);
 				}
 
-				if (preg_match('/Huawei\/1.0\/([^\s]+)/u', $ua, $match)) {
-					array_push($candidates, $match[1]);
+				if (preg_match('/Huawei\/1.0\/0?([^\s]+)/u', $ua, $match)) {
+					array_push($candidates, 'HUAWEI-' . $match[1]);
 				}
 
 				if (preg_match('/^(DoCoMo[^(]+)/u', $ua, $match)) {
@@ -2925,6 +2925,10 @@
 				}
 
 				if (preg_match('/^([a-z]+\s[a-z0-9\-\_\.]+)/iu', $ua, $match)) {
+					array_push($candidates, $match[1]);
+				}
+
+				if (preg_match('/(?:DDIPOCKET|WILLCOM);([a-z]+\/[^\/]+)/iu', $ua, $match)) {
 					array_push($candidates, $match[1]);
 				}
 
@@ -3168,6 +3172,14 @@
 								$identified = true;
 							}
 
+							if (preg_match('/^KYOCERA\/([^\s]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Kyocera';
+								$this->device->model = Data\DeviceModels::cleanup($match[1]);
+								$this->device->type = Constants\DeviceType::MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
 							if (preg_match('/^KONKA[-_]?([^\s]+)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Konka';
 								$this->device->model = Data\DeviceModels::cleanup($match[1]);
@@ -3210,6 +3222,14 @@
 
 							if (preg_match('/(?:^|\()LGE?(?:\/|-|_|\s)([^\s]*)/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'LG';
+								$this->device->model = Data\DeviceModels::cleanup($match[1]);
+								$this->device->type = Constants\DeviceType::MOBILE;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^Micromax([^\)]+)/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Micromax';
 								$this->device->model = Data\DeviceModels::cleanup($match[1]);
 								$this->device->type = Constants\DeviceType::MOBILE;
 								$this->device->generic = false;
@@ -3330,6 +3350,15 @@
 							if (preg_match('/^sam-([A-Z][0-9]+)$/ui', $candidates[$i], $match)) {
 								$this->device->manufacturer = 'Samsung';
 								$this->device->model = Data\DeviceModels::cleanup('sam-' . $match[1]);
+								$this->device->type = Constants\DeviceType::MOBILE;
+								$this->device->identified = false;
+								$this->device->generic = false;
+								$identified = true;
+							}
+
+							if (preg_match('/^SANYO\/([^\/]+)$/ui', $candidates[$i], $match)) {
+								$this->device->manufacturer = 'Sanyo';
+								$this->device->model = Data\DeviceModels::cleanup($match[1]);
 								$this->device->type = Constants\DeviceType::MOBILE;
 								$this->device->identified = false;
 								$this->device->generic = false;
@@ -3688,6 +3717,14 @@
 
 			if (preg_match('/DoCoMo\/[0-9.]+\/([A-Z][0-9]+[A-Z])[^\/]*\//ui', $ua, $match)) {
 				$this->device->manufacturer = 'DoCoMo';
+				$this->device->model = Data\DeviceModels::cleanup($match[1]);
+				$this->device->type = Constants\DeviceType::MOBILE;
+				$this->device->identified |= Constants\Id::PATTERN;
+				$this->device->generic = false;
+			}
+
+			if (preg_match('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, $match)) {
+				$this->device->manufacturer = 'Vodafone';
 				$this->device->model = Data\DeviceModels::cleanup($match[1]);
 				$this->device->type = Constants\DeviceType::MOBILE;
 				$this->device->identified |= Constants\Id::PATTERN;

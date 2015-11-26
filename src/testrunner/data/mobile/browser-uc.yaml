@@ -60,7 +60,7 @@
     result: { browser: { name: 'UC Browser', version: '7.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; xx; MicromaxQ5) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: BlackBerry, model: Q5 } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia6233) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6233' } }
