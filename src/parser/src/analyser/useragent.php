@@ -4913,18 +4913,18 @@
 					$this->device = Data\DeviceModels::identify('android', $match[2]);
 				}
 
-				if (preg_match('/; Adr ([0-9\.]+); [^;]+; ([^;]*[^\s])\)/u', $ua, $match)) {
+				if (preg_match('/; Adr ([0-9\.]+)(?:-update[0-9])?; [^;]+; ([^;]*[^\s])\)/u', $ua, $match)) {
 					$this->os->name = 'Android';
 					$this->os->version = new Version([ 'value' => $match[1] ]);
 
 					$this->device = Data\DeviceModels::identify('android', $match[2]);
 				}
 
-				if (preg_match('/\(iOS;/u', $ua)) {
+				if (preg_match('/\((?:iOS|iPhone);/u', $ua)) {
 					$this->os->name = 'iOS';
 					$this->os->version = new Version([ 'value' => '1.0' ]);
 
-					if (preg_match('/OS ([0-9_]*);/u', $ua, $match)) {
+					if (preg_match('/OS[_ ]([0-9_]*);/u', $ua, $match)) {
 						$this->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
 					}
 

@@ -84,7 +84,7 @@
     result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.1-update1; xx; E15a) U2/1.0.0 UCBrowser/9.3.1.344 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X8' } }
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X8' } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.2.2; xx; GT-I5700) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Spica' } }
