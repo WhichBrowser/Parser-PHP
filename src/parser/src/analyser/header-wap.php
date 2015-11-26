@@ -5,7 +5,7 @@
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait Wap {
+	trait HeaderWap {
 		
 		private function analyseWapProfile($url) {
 			$url = trim($url);

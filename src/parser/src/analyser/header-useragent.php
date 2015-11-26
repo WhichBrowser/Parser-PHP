@@ -8,7 +8,7 @@
 	use WhichBrowser\Using;
 	use WhichBrowser\Version;
 
-	trait Useragent {
+	trait HeaderUseragent {
 
 		private function analyseUserAgent($ua) {
 			$ua = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $ua);

@@ -5,7 +5,7 @@
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait BrowserId {
+	trait HeaderBrowserId {
 
 		private function analyseBrowserId($id) {
 			$browser = Data\BrowserIds::identify('android', $id);

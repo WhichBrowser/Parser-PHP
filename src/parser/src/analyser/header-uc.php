@@ -6,7 +6,7 @@
 	use WhichBrowser\Data;
 	use WhichBrowser\Version;
 
-	trait UC {
+	trait HeaderUC {
 
 		private function analyseOldUCUserAgent($ua) {
 			if ($this->device->type == Constants\DeviceType::DESKTOP) {

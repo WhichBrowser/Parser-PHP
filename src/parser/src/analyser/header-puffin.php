@@ -5,7 +5,7 @@
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait Puffin {
+	trait HeaderPuffin {
 
 		private function analysePuffinUserAgent($ua) {
 			$parts = explode('/', $ua);

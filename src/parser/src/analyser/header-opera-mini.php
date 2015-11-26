@@ -5,7 +5,7 @@
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait OperaMini {
+	trait HeaderOperaMini {
 
 		private function analyseOperaMiniPhone($ua) {
 			@list($manufacturer, $model) = explode(' # ', $ua);

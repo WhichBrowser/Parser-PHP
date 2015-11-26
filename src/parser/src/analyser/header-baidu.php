@@ -4,7 +4,7 @@
 
 	use WhichBrowser\Constants;
 
-	trait Baidu {
+	trait HeaderBaidu {
 
 		private function analyseBaiduHeader($ua) {
 			if (!isset($this->browser->name) || $this->browser->name != 'Baidu Browser') {

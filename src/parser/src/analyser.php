@@ -5,22 +5,23 @@
 	use WhichBrowser\Constants;
 
 
-	include_once 'analyser/baidu.php';
-	include_once 'analyser/browser-id.php';
-	include_once 'analyser/camouflage.php';
-	include_once 'analyser/opera-mini.php';
-	include_once 'analyser/puffin.php';
-	include_once 'analyser/uc.php';
-	include_once 'analyser/useragent.php';
-	include_once 'analyser/wap.php';
+	include_once 'analyser/header-baidu.php';
+	include_once 'analyser/header-browser-id.php';
+	include_once 'analyser/header-opera-mini.php';
+	include_once 'analyser/header-puffin.php';
+	include_once 'analyser/header-uc.php';
+	include_once 'analyser/header-useragent.php';
+	include_once 'analyser/header-wap.php';
 	include_once 'analyser/derive.php';
 	include_once 'analyser/corrections.php';
+	include_once 'analyser/camouflage.php';
 
 
 	class Analyser {
 
-		use Analyser\Baidu, Analyser\BrowserId, Analyser\Camouflage, Analyser\OperaMini, Analyser\Puffin, 
-			Analyser\UC, Analyser\Useragent, Analyser\Wap, Analyser\Derive, Analyser\Corrections;
+		use Analyser\HeaderBaidu, Analyser\HeaderBrowserId, Analyser\HeaderOperaMini, Analyser\HeaderPuffin, 
+			Analyser\HeaderUC, Analyser\HeaderUseragent, Analyser\HeaderWap, 
+			Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
 
 
 		public function __construct($options) {
