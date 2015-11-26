@@ -6012,7 +6012,7 @@
 			}
 
 
-			if (preg_match('/Bot[\/;]/iu', $ua) || preg_match('/Robot[\/;]/iu', $ua) || preg_match('/Spider[\/;]/iu', $ua) || preg_match('/Crawler[\/;]/iu', $ua)) {
+			if (preg_match('/Bot([\/;]|$)/iu', $ua) || preg_match('/Robot(?:[\/;]|$)/iu', $ua) || preg_match('/Spider(?:[\/;]|$)/iu', $ua) || preg_match('/Crawler(?:[\/;]|$)/iu', $ua)) {
 				$this->device->identified = false;
 				$this->device->type = Constants\DeviceType::BOT;
 
