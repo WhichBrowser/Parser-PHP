@@ -4867,6 +4867,11 @@
 					$this->browser->version = new Version([ 'value' => $match[1] ]);
 				}
 
+				else if (preg_match('/TelecaBrowser\/([A-Z]+)0?([0-9.]+)/iu', $ua, $match)) {
+					$this->browser->name = 'Obigo ' . $match[1];
+					$this->browser->version = new Version([ 'value' => $match[2] ]);
+				}
+
 				else if (preg_match('/(?:Obigo(?:InternetBrowser|[- ]Browser)?|Teleca)\/([A-Z]+)0?([0-9.]+)/ui', $ua, $match)) {
 					$this->browser->name = 'Obigo ' . $match[1];
 					$this->browser->version = new Version([ 'value' => $match[2] ]);
