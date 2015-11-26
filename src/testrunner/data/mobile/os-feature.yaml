@@ -1,0 +1,33 @@
+-
+    headers: 'User-Agent: COCOON/R01 Browser/Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Huawei/1.0/H12HW/B000 Browser/Obigo-Browser/Q04A'
+    result: { browser: { name: 'Obigo Q', version: '4' }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW } }
+-
+    headers: 'User-Agent: Mozilla/3.0(DDIPOCKET;KYOCERA/AH-K3001V/1.4.1.67.000000/0.1/C100) Opera 7.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V } }
+-
+    headers: 'User-Agent: Mozilla/3.0(DDIPOCKET;KYOCERA/AH-K3001V/1.4.1.67.000000/0.1/C100) Opera 7.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;SANYO/WX310SA/2;1/1/C128) NetFront/3.3'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: WX310SA } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;SANYO/WX310SA/2;1/1/C128) NetFront/3.3'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: WX310SA } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;TOSHIBA/WX320T/2;1/1/C128) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: WX320T } }
+-
+    headers: 'User-Agent: Vodafone/1.0/V905SH/SHJ001 Browser/VF-NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: 905SH } }
