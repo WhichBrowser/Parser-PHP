@@ -42,7 +42,7 @@
     result: { browser: { name: 'Firefox Mobile', version: '18.1' }, engine: { name: Gecko, version: '18.1' }, os: { name: 'Firefox OS', version: '1.1' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: Open } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:18.1) Gecko/18.1 Firefox/18.1'
-    result: { browser: { name: 'Firefox Mobile', version: '18.1' }, engine: { name: Gecko, version: '18.1' }, os: { name: 'Firefox OS' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Firefox Mobile', version: '18.1' }, engine: { name: Gecko, version: '18.1' }, os: { name: 'Firefox OS', version: '1.1' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:28.0) Gecko/28.0 Firefox/28.0'
-    result: { browser: { name: 'Firefox Mobile', version: '28.0' }, engine: { name: Gecko, version: '28.0' }, os: { name: 'Firefox OS' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Firefox Mobile', version: '28.0' }, engine: { name: Gecko, version: '28.0' }, os: { name: 'Firefox OS', version: '1.3' }, device: { type: mobile, subtype: smart } }

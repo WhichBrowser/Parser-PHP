@@ -4061,20 +4061,6 @@
 				}
 			}
 
-			if (isset($this->os->name) && $this->os->name == 'Firefox OS') {
-				if (preg_match('/rv:([0-9.]*)/u', $ua, $match)) {
-					switch($match[1]) {
-						case '18.0': $this->os->version = new Version([ 'value' => '1.0.1' ]); break;
-						case '18.1': $this->os->version = new Version([ 'value' => '1.1' ]); break;
-						case '26.0': $this->os->version = new Version([ 'value' => '1.2' ]); break;
-						case '28.0': $this->os->version = new Version([ 'value' => '1.3' ]); break;
-						case '30.0': $this->os->version = new Version([ 'value' => '1.4' ]); break;
-						case '32.0': $this->os->version = new Version([ 'value' => '2.0' ]); break;
-						case '34.0': $this->os->version = new Version([ 'value' => '2.1' ]); break;
-					}
-				}
-			}
-
 			if (preg_match('/FxiOS\/([0-9.]*)/u', $ua, $match)) {
 				$this->browser->name = 'Firefox';
 				$this->browser->version = new Version([ 'value' => $match[1] ]);
@@ -5761,6 +5747,21 @@
 			if (isset($this->browser->name) && $this->browser->name == 'Firefox Mobile' && !isset($this->os->name)) {
 				$this->os->name = 'Firefox OS';
 			}
+
+			if (isset($this->os->name) && $this->os->name == 'Firefox OS') {
+				if (preg_match('/rv:([0-9.]*)/u', $ua, $match)) {
+					switch($match[1]) {
+						case '18.0': $this->os->version = new Version([ 'value' => '1.0.1' ]); break;
+						case '18.1': $this->os->version = new Version([ 'value' => '1.1' ]); break;
+						case '26.0': $this->os->version = new Version([ 'value' => '1.2' ]); break;
+						case '28.0': $this->os->version = new Version([ 'value' => '1.3' ]); break;
+						case '30.0': $this->os->version = new Version([ 'value' => '1.4' ]); break;
+						case '32.0': $this->os->version = new Version([ 'value' => '2.0' ]); break;
+						case '34.0': $this->os->version = new Version([ 'value' => '2.1' ]); break;
+					}
+				}
+			}
+
 
 
 			if (isset($this->os->name) && $this->os->name == 'Windows Phone' && isset($this->browser->name) && $this->browser->name == 'Mobile Internet Explorer') {
