@@ -5389,6 +5389,7 @@
 				array('name' => 'Feeddler Pro',			'regexp' => '/FeeddlerPro\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
 				array('name' => 'Liferea',				'regexp' => '/Liferea\/([0-9.]*)/u'),
 				array('name' => 'NewsBlur',				'regexp' => '/NewsBlur\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE),
+				array('name' => 'Newsbeuter',			'regexp' => '/newsbeuter\/([0-9.]*)/u'),
 				array('name' => 'Rss Bandit',			'regexp' => '/RssBandit\/([0-9.]*)/u'),
 				array('name' => 'Rss Owl',				'regexp' => '/RSSOwl\/([0-9.]*)/u'),
 				array('name' => 'Reeder',				'regexp' => '/Reeder\/([0-9.]*)/u'),
@@ -5396,12 +5397,14 @@
 
 				/* Social apps */
 				array('name' => 'Facebook',				'regexp' => '/FBAN\/FBIOS/u'),
+				array('name' => 'Facebook',				'regexp' => '/FBAN\/FB4A/u'),
 				array('name' => 'Facebook',				'regexp' => '/FB_IAB\/FB4A/u'),
 				array('name' => 'Google+',				'regexp' => '/com.google.GooglePlus/u' ),
 				array('name' => 'WeChat',				'regexp' => '/MicroMessenger\/([0-9.]*)/u'),
 				array('name' => 'Sina Weibo',			'regexp' => '/weibo__([0-9.]*)/u'),
 				array('name' => 'Twitter',				'regexp' => '/TwitterAndroid/u'),
 				array('name' => 'Kik',					'regexp' => '/Kik\/([0-9.]*)/u'),
+				array('name' => 'WordPress',			'regexp' => '/wp-android\/([0-9.]*)/u'),
 
 				/* Office suite */
 				array('name' => 'Microsoft Office',		'regexp' => '/MSOffice ([0-9.]*)/u'),
