@@ -4125,16 +4125,20 @@
 			 *		Chrome
 			 */
 
-			if (preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9.]*)/u', $ua, $match)) {
+			if (preg_match('/(?:Chrome|CrMo|CriOS)\/[0-9]/u', $ua) || preg_match('/Browser\/Chrome[0-9]/u', $ua)) {
 				$this->browser->stock = false;
 				$this->browser->name = 'Chrome';
-				$this->browser->version = new Version([ 'value' => $match[1] ]);
+
+				$version = '';
+				if (preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9.]*)/u', $ua, $match)) $version = $match[1];
+				if (preg_match('/Browser\/Chrome([0-9.]*)/u', $ua, $match)) $version = $match[1];
+				$this->browser->version = new Version([ 'value' => $version ]);
 
 				if (isset($this->os->name) && $this->os->name == 'Android') {
-					$channel = Data\Chrome::getChannel('mobile', $match[1]);
+					$channel = Data\Chrome::getChannel('mobile', $this->browser->version->value);
 
 					if ($channel == 'stable') {
-						if (explode('.', $match[1])[1] == '0') {
+						if (explode('.', $version)[1] == '0') {
 							$this->browser->version->details = 1;
 						} else {
 							$this->browser->version->details = 2;
@@ -4149,8 +4153,8 @@
 
 
 					/* Webview for Android 4.4 and higher */
-					if (implode('.', array_slice(explode('.', $match[1]), 1, 2)) == '0.0' && preg_match('/Version\//u', $ua)) {
-						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $match[1])[0] ]) ]);
+					if (implode('.', array_slice(explode('.', $version), 1, 2)) == '0.0' && preg_match('/Version\//u', $ua)) {
+						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $version)[0] ]) ]);
 						$this->browser->stock = true;
 						$this->browser->name = null;
 						$this->browser->version = null;
@@ -4159,7 +4163,7 @@
 
 					/* Webview for Android 5 */
 					if (preg_match('/; wv\)/u', $ua)) {
-						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $match[1])[0] ]) ]);
+						$this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $version)[0] ]) ]);
 						$this->browser->stock = true;
 						$this->browser->name = null;
 						$this->browser->version = null;
@@ -4168,7 +4172,7 @@
 
 					/* LG Chromium based browsers */
 					if (isset($device->manufacturer) && $device->manufacturer == 'LG') {
-						if (in_array($match[1], [ '30.0.1599.103', '34.0.1847.118', '38.0.2125.0', '38.0.2125.102' ]) && preg_match('/Version\/4/u', $ua) && !preg_match('/; wv\)/u', $ua)) {
+						if (in_array($version, [ '30.0.1599.103', '34.0.1847.118', '38.0.2125.0', '38.0.2125.102' ]) && preg_match('/Version\/4/u', $ua) && !preg_match('/; wv\)/u', $ua)) {
 							$this->browser->name = "LG Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4181,7 +4185,7 @@
 					if (isset($device->manufacturer) && $device->manufacturer == 'Samsung') {
 
 						/* Version 1.0 */
-						if ($match[1] == '18.0.1025.308' && preg_match('/Version\/1.0/u', $ua)) {
+						if ($version == '18.0.1025.308' && preg_match('/Version\/1.0/u', $ua)) {
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4190,7 +4194,7 @@
 						}
 
 						/* Version 1.5 */
-						if ($match[1] == '28.0.1500.94' && preg_match('/Version\/1.5/u', $ua)) {
+						if ($version == '28.0.1500.94' && preg_match('/Version\/1.5/u', $ua)) {
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4199,7 +4203,7 @@
 						}
 
 						/* Version 1.6 */
-						if ($match[1] == '28.0.1500.94' && preg_match('/Version\/1.6/u', $ua)) {
+						if ($version == '28.0.1500.94' && preg_match('/Version\/1.6/u', $ua)) {
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4208,7 +4212,7 @@
 						}
 
 						/* Version 2.0 */
-						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.0/u', $ua)) {
+						if ($version == '34.0.1847.76' && preg_match('/Version\/2.0/u', $ua)) {
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4217,7 +4221,7 @@
 						}
 
 						/* Version 2.1 */
-						if ($match[1] == '34.0.1847.76' && preg_match('/Version\/2.1/u', $ua)) {
+						if ($version == '34.0.1847.76' && preg_match('/Version\/2.1/u', $ua)) {
 							$this->browser->name = "Samsung Browser";
 							$this->browser->channel = null;
 							$this->browser->stock = true;
@@ -4237,10 +4241,10 @@
 				}
 
 				else {
-					$channel = Data\Chrome::getChannel('desktop', $match[1]);
+					$channel = Data\Chrome::getChannel('desktop', $version);
 
 					if ($channel == 'stable') {
-						if (explode('.', $match[1])[1] == '0') {
+						if (explode('.', $version)[1] == '0') {
 							$this->browser->version->details = 1;
 						} else {
 							$this->browser->version->details = 2;
