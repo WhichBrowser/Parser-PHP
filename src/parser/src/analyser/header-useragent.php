@@ -1032,8 +1032,8 @@
 			 *		S30
 			 */
 
-			if (preg_match('/Series30/u', $ua)) {
-				$this->os->name = 'Series30';
+			if (preg_match('/Series30Plus/u', $ua)) {
+				$this->os->name = 'Series30+';
 
 				if (preg_match('/Nokia([^\/]+)\//u', $ua, $match)) {
 					$this->device->manufacturer = 'Nokia';
@@ -1042,11 +1042,23 @@
 				}
 
 				if (isset($this->device->model)) {
-					$device = Data\DeviceModels::identify('s30', $this->device->model);
+					$device = Data\DeviceModels::identify('s30plus', $this->device->model);
 					if ($device->identified) {
 						$device->identified |= $this->device->identified;
 						$this->device = $device;
 					}
+				}
+
+				$this->device->type = Constants\DeviceType::MOBILE;
+			}
+
+			else if (preg_match('/Series30/u', $ua)) {
+				$this->os->name = 'Series30';
+
+				if (preg_match('/Nokia([^\/]+)\//u', $ua, $match)) {
+					$this->device->manufacturer = 'Nokia';
+					$this->device->model = Data\DeviceModels::cleanup($match[1]);
+					$this->device->identified |= Constants\Id::PATTERN;
 				}
 
 				$this->device->type = Constants\DeviceType::MOBILE;

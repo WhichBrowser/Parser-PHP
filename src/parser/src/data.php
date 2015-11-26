@@ -116,7 +116,7 @@
 		static $WINDOWS_MOBILE_MODELS = [];
 		static $WINDOWS_PHONE_MODELS = [];
 		static $PALMOS_MODELS = [];
-		static $S30_MODELS = [];
+		static $S30PLUS_MODELS = [];
 		static $S40_MODELS = [];
 		static $S60_MODELS = [];
 		static $FEATURE_MODELS = [];
@@ -139,7 +139,7 @@
 				case 'touchwiz': 	return self::identifyList(self::$TOUCHWIZ_MODELS, $model);
 				case 'wm': 			return self::identifyList(self::$WINDOWS_MOBILE_MODELS, $model);
 				case 'wp': 			return self::identifyList(self::$WINDOWS_PHONE_MODELS, $model);
-				case 's30': 		return self::identifyList(self::$S30_MODELS, $model);
+				case 's30plus': 	return self::identifyList(self::$S30PLUS_MODELS, $model);
 				case 's40': 		return self::identifyList(self::$S40_MODELS, $model);
 				case 's60': 		return self::identifyList(self::$S60_MODELS, $model);
 				case 'palmos': 		return self::identifyList(self::$PALMOS_MODELS, $model);
