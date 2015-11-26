@@ -300,7 +300,7 @@
 			 *		Darwin
 			 */
 
-			else if (preg_match('/Darwin\/([0-9]+.[0-9]+)/u', $ua, $match)) {
+			if (preg_match('/Darwin[\/ ]([0-9]+.[0-9]+)/u', $ua, $match)) {
 				$this->os->name = "Darwin";
 				$this->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 			}
