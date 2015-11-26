@@ -72,6 +72,7 @@
 			'SM-B780(A|W)!'								=> [ 'Samsung', 'Rugby 4' ],
 			'S7350'										=> [ 'Samsung', 'S7350 Ultra S' ],
 			'sam-r560'									=> [ 'Samsung', 'Messenger II R560' ],
+			'WT13i!'									=> [ 'Sony Ericsson', 'Mix Walkman' ],				// Shijia
 			'tecnot36'									=> [ 'Tecno', 'T36' ],
 			'Vodafone 575'								=> [ 'Vodafone', '575' ],
 			'GT-I6410'									=> [ 'Vodafone', '360 M1' ],

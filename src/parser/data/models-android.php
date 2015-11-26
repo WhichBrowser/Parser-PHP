@@ -9925,7 +9925,6 @@
 			'U20(a|i|iv)!'								=> [ 'Sony Ericsson', 'Xperia X10 Mini Pro' ],		// Mimmi
 
 			'WT[0-9]{2,2}[a-z]!!' => [
-				'WT13i!'									=> [ 'Sony Ericsson', 'Mix Walkman' ],				// Shijia
 				'WT18i!'									=> [ 'Sony Ericsson', 'Walkman' ],					// Mulberry
 				'WT19(a|i|iv)!'								=> [ 'Sony Ericsson', 'Live with Walkman' ],		// Coconut
 			],

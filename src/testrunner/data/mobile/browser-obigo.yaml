@@ -74,5 +74,8 @@
     headers: 'User-Agent: Mozilla/4.0 (Vodafone/1.0/LG-KC910/V08e Browser/Obigo-Q7.1 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: KC910 } }
 -
+    headers: 'User-Agent: SonyEricssonWT13i/R3AF010 TelecaBrowser/Q07C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Obigo Q', version: '7' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: 'Mix Walkman' } }
+-
     headers: 'User-Agent: T-Mobile Vairy Touch II/5.0 Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: '3' }, device: { type: mobile, subtype: feature, manufacturer: T-Mobile, model: 'Vairy Touch II' } }
