@@ -13,12 +13,14 @@
 	include_once 'analyser/uc.php';
 	include_once 'analyser/useragent.php';
 	include_once 'analyser/wap.php';
+	include_once 'analyser/derive.php';
+	include_once 'analyser/corrections.php';
 
 
 	class Analyser {
 
 		use Analyser\Baidu, Analyser\BrowserId, Analyser\Camouflage, Analyser\OperaMini, Analyser\Puffin, 
-			Analyser\UC, Analyser\Useragent, Analyser\Wap;
+			Analyser\UC, Analyser\Useragent, Analyser\Wap, Analyser\Derive, Analyser\Corrections;
 
 
 		public function __construct($options) {
@@ -82,6 +84,16 @@
 
 			if ($this->hasHeader('X-Wap-Profile')) 
 				$this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
+
+
+			/* Derive more information from everything we have gathered  */
+
+			$this->deriveInformation();
+
+
+			/* Apply corrections  */
+
+			$this->applyCorrections();
 
 
 			/* Detect if the browser is camouflaged */
