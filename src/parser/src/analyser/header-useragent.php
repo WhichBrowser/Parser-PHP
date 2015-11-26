@@ -5835,46 +5835,10 @@
 				}
 			}
 
+			/* Detect if our useragent is a bot */
 
-			if (preg_match('/Bot([\/;]|$)/iu', $ua) || preg_match('/Robot(?:[\/;]|$)/iu', $ua) || preg_match('/Spider(?:[\/;]|$)/iu', $ua) || preg_match('/Crawler(?:[\/;]|$)/iu', $ua)) {
-				$this->device->identified = false;
-				$this->device->type = Constants\DeviceType::BOT;
+			$this->detectBotBasedOnUserAgent($ua);
 
-				unset($this->browser->name);
-				unset($this->browser->alias);
-				unset($this->browser->version);
-
-				unset($this->os->name);
-				unset($this->os->alias);
-				unset($this->os->version);
-
-				unset($this->engine->name);
-				unset($this->engine->alias);
-				unset($this->engine->version);
-
-				unset($this->device->manufacturer);
-				unset($this->device->model);
-				unset($this->device->identifier);
-			}
-
-			if ($bot = Data\Bots::identify($ua)) {
-				$this->browser = $bot;
-
-				$this->device->identified = false;
-				$this->device->type = Constants\DeviceType::BOT;
-
-				unset($this->os->name);
-				unset($this->os->alias);
-				unset($this->os->version);
-
-				unset($this->engine->name);
-				unset($this->engine->alias);
-				unset($this->engine->version);
-
-				unset($this->device->manufacturer);
-				unset($this->device->model);
-				unset($this->device->identifier);
-			}
 
 			if (!$this->device->identified && isset($this->device->model)) {
 				if (preg_match('/^[a-z][a-z]-[a-z][a-z]$/u', $this->device->model)) {
@@ -5919,5 +5883,48 @@
 					}				
 				}
 			}
-		}	
+		}
+
+
+		private function detectBotBasedOnUserAgent($ua) {
+			if (preg_match('/Bot([\/;]|$)/iu', $ua) || preg_match('/Robot(?:[\/;]|$)/iu', $ua) || preg_match('/Spider(?:[\/;]|$)/iu', $ua) || preg_match('/Crawler(?:[\/;]|$)/iu', $ua)) {
+				$this->device->identified = false;
+				$this->device->type = Constants\DeviceType::BOT;
+
+				unset($this->browser->name);
+				unset($this->browser->alias);
+				unset($this->browser->version);
+
+				unset($this->os->name);
+				unset($this->os->alias);
+				unset($this->os->version);
+
+				unset($this->engine->name);
+				unset($this->engine->alias);
+				unset($this->engine->version);
+
+				unset($this->device->manufacturer);
+				unset($this->device->model);
+				unset($this->device->identifier);
+			}
+
+			if ($bot = Data\Bots::identify($ua)) {
+				$this->browser = $bot;
+
+				$this->device->identified = false;
+				$this->device->type = Constants\DeviceType::BOT;
+
+				unset($this->os->name);
+				unset($this->os->alias);
+				unset($this->os->version);
+
+				unset($this->engine->name);
+				unset($this->engine->alias);
+				unset($this->engine->version);
+
+				unset($this->device->manufacturer);
+				unset($this->device->model);
+				unset($this->device->identifier);
+			}
+		}
 	}
