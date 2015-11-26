@@ -102,19 +102,9 @@
 			$this->detectCamouflage();
 
 
-			/* Determine subtype of mobile devices */
+			/* Determine subtype of devices */
 
-			if ($this->device->type == 'mobile') {
-				$this->device->subtype = 'feature';
-
-				if (isset($this->os->family) && in_array($this->os->family->getName(), [ 'Android' ])) {
-					$this->device->subtype = 'smart';
-				}
-
-				if (in_array($this->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Tizen', 'Ubuntu', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
-					$this->device->subtype = 'smart';
-				}
-			}
+			$this->deriveDeviceSubType();
 		}
 
 		private function hasHeader($h) {
