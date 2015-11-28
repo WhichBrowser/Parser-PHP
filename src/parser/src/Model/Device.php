@@ -3,6 +3,7 @@
 	namespace WhichBrowser\Model;
 
 	use WhichBrowser\Constants;
+	use WhichBrowser\Model\Primitive\Base;
 
 
 	class Device extends Base {

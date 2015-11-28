@@ -2,6 +2,8 @@
 
 	namespace WhichBrowser\Model;
 
+	use WhichBrowser\Model\Primitive\NameVersion;
+
 
 	class Using extends NameVersion {
 		public function toArray() {

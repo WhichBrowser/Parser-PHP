@@ -1,6 +1,6 @@
 <?php
 
-	namespace WhichBrowser\Model;
+	namespace WhichBrowser\Model\Primitive;
 
 
 	class NameVersion extends Base {

@@ -1,8 +1,8 @@
 <?php
 
-	include_once 'Model/Base.php';
-	include_once 'Model/NameVersion.php';
+	include_once 'Model/Primitive.php';
 
+	include_once 'Model/Main.php';
 	include_once 'Model/Browser.php';
 	include_once 'Model/Device.php';
 	include_once 'Model/Engine.php';

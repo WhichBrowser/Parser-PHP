@@ -2,6 +2,8 @@
 
 	namespace WhichBrowser\Model;
 
+	use WhichBrowser\Model\Primitive\Base;
+
 
 	class Version extends Base {
 		var $value = null;
