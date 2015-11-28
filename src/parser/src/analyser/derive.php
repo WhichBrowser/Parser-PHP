@@ -153,6 +153,12 @@
 				$this->os->family = new Family([ 'name' => 'Android' ]);
 				unset($this->os->version);
 				unset($this->device->flag);
+
+				if ($this->browser->isUsing('Chrome Content Shell')) {
+					$this->browser->name = 'Wear Internet Browser';
+					$this->browser->using = null;
+				}
+
 				return;
 			}
 
@@ -166,17 +172,20 @@
 		}
 
 		private function deriveBasedOnOperatingSystem() {
+
+			/* Derive the default browser on Android */
+
 			if ($this->os->name == 'Android' && !isset($this->browser->using) && !isset($this->browser->name) && $this->browser->stock) {
 				$this->browser->name = 'Android Browser';
 			}
 
-			if ($this->os->name == 'Aliyun OS' && !isset($this->browser->using) && !isset($this->browser->name) && $this->browser->stock) {
-				$this->browser->name = 'Aliyun Browser';
-			}
+			/* Derive the default browser on Google TV */
 
 			if ($this->os->name == 'Google TV' && !isset($this->browser->name) && $this->browser->stock) {
 				$this->browser->name = 'Chrome';
 			}
+
+			/* Derive the default browser on BlackBerry */
 
 			if ($this->os->name == 'BlackBerry' && !isset($this->browser->name) && $this->browser->stock) {
 				$this->browser->name = 'BlackBerry Browser';
@@ -193,13 +202,29 @@
 				$this->browser->hidden = true;
 			}
 
+			/* Derive the default browser on Tizen */
+
 			if ($this->os->name == 'Tizen' && !isset($this->browser->name) && $this->browser->stock && $this->device->type == Constants\DeviceType::MOBILE) {
 				$this->browser->name = 'Samsung Browser';
+			}
+
+			/* Derive the default browser on Aliyun OS */
+
+			if ($this->os->name == 'Aliyun OS' && !isset($this->browser->using) && !isset($this->browser->name) && $this->browser->stock) {
+				$this->browser->name = 'Aliyun Browser';
+			}
+
+			if ($this->os->name == 'Aliyun OS' && $this->browser->isUsing('Chrome Content Shell')) {
+				$this->browser->name = 'Aliyun Browser';
+				$this->browser->using = null;
+				$this->browser->stock = true;
 			}
 
 			if ($this->os->name == 'Aliyun OS' && $this->browser->stock) {
 				$this->browser->hidden = true;
 			}
+
+			/* Derive iOS and OS X versions from Darwin */
 
 			if ($this->os->name == 'Darwin' && $this->device->type == Constants\DeviceType::MOBILE) {
 				$this->os->name = 'iOS';

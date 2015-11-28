@@ -229,14 +229,6 @@
 						$this->browser->stock = true;
 						$this->browser->version = new Version([ 'value' => $match[1] ]);
 					}
-
-					/* Wear Internet Browser */
-					if (preg_match('/Chrome\/19\.77\.34\.5/u', $ua)) {
-					 	$this->browser->name = "Wear Internet Browser";
-					 	$this->browser->version = null;
-						$this->browser->channel = null;
-						$this->browser->stock = false;
-					}
 				}
 
 				else {
@@ -276,6 +268,17 @@
 				if ($this->device->type == '') {
 					$this->device->type = Constants\DeviceType::DESKTOP;
 				}
+			}
+
+			/* Chrome Content Shell */
+
+			if (preg_match('/Chrome\/[0-9]+\.77\.34\.5/u', $ua)) {
+				$this->browser->using = new Using([ 'name' => 'Chrome Content Shell' ]); 
+
+				$this->browser->stock = false;
+				$this->browser->name = null;
+				$this->browser->version = null;
+				$this->browser->channel = null;
 			}
 
 			/* Chromium WebView by Amazon */
