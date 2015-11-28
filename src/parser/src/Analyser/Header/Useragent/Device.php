@@ -3,15 +3,6 @@
 	namespace WhichBrowser\Analyser\Header\Useragent;
 
 
-	include_once 'Device/Cars.php';
-	include_once 'Device/Ereader.php';
-	include_once 'Device/Gaming.php';
-	include_once 'Device/Mobile.php';
-	include_once 'Device/Media.php';
-	include_once 'Device/Television.php';
-	include_once 'Device/Signage.php';
-
-
 	trait Device {
 
 		use Device\Cars, Device\Gaming, Device\Ereader, Device\Mobile, 

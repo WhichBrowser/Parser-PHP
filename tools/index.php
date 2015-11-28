@@ -100,7 +100,7 @@
 					error_reporting(E_ALL);
 					ini_set('display_errors', true);
 
-					include('../src/parser/src/Parser.php');
+					include('../src/parser/bootstrap.php');
 
 					$headers = array();
 					if (isset($_REQUEST['useragent']) && $_REQUEST['useragent'] != '') $headers['User-Agent'] = $_REQUEST['useragent'];

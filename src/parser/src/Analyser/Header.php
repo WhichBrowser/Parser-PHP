@@ -2,13 +2,6 @@
 
 	namespace WhichBrowser\Analyser;
 
-	include_once 'Header/Baidu.php';
-	include_once 'Header/BrowserId.php';
-	include_once 'Header/OperaMini.php';
-	include_once 'Header/Puffin.php';
-	include_once 'Header/UC.php';
-	include_once 'Header/Useragent.php';
-	include_once 'Header/Wap.php';
 
 	trait Header {
 

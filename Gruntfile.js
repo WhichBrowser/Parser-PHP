@@ -10,11 +10,11 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
-          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**', 'README.md'], dest: 'dist/parser/' },
-          { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/server/' },
+          { expand: true, cwd: 'src/parser', src: ['bootstrap.php', 'data/**', 'src/**', 'README.md'], dest: 'dist/parser/' },
+          { expand: true, cwd: 'src/server', src: ['.htaccess', 'bootstrap.php', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/server/' },
           { expand: true, cwd: 'src/testrunner/data', src: ['**/*.yaml'], dest: 'dist/testrunner/data/' },
-          { expand: true, cwd: 'src/testrunner', src: ['runner.php', 'src/**'], dest: 'dist/testrunner/' },
-          { expand: true, cwd: 'src/parser', src: ['data/**', 'src/**'], dest: 'dist/legacy/' },
+          { expand: true, cwd: 'src/testrunner', src: ['bootstrap.php', 'runner.php', 'src/**'], dest: 'dist/testrunner/' },
+          { expand: true, cwd: 'src/parser', src: ['bootstrap.php', 'data/**', 'src/**'], dest: 'dist/legacy/' },
           { expand: true, cwd: 'src/server', src: ['.htaccess', 'index.php', 'detect.php', 'README.md', 'src/**'], dest: 'dist/legacy/' },
           { expand: true, cwd: 'src/legacy', src: ['libraries/**', 'README.md'], dest: 'dist/legacy/' },
         ]

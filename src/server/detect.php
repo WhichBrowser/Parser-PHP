@@ -5,13 +5,8 @@
 	header("Pragma: no-cache");
 	header("Expires: 0"); 
 
-	include_once('src/polyfills.php');
+	include_once 'bootstrap.php';
 
-	if (basename(__DIR__) == 'server')
-		include_once('../parser/src/Parser.php');
-	else
-		include_once('src/Parser.php');
-		
 
 	$options = array('headers' => getallheaders());
 	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];

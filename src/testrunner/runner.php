@@ -1,6 +1,6 @@
 <?php
 
-	include_once 'src/bootstrap.php';
+	include_once 'bootstrap.php';
 
 	use WhichBrowser\Testrunner;
 
