@@ -2,6 +2,9 @@
 
 	namespace WhichBrowser\Analyser\Header;
 
+	use WhichBrowser\Constants;
+	use WhichBrowser\Parser;
+
 	include_once 'useragent/os.php';
 	include_once 'useragent/device.php';
 	include_once 'useragent/browser.php';
@@ -30,5 +33,14 @@
 			$this->refineBrowserFromUseragent($ua);
 			
 			$this->refineOperatingSystemFromUseragent($ua);
+		}
+
+		private function additionalUserAgent($ua) {
+			$extra = new Parser($ua);
+
+			if ($extra->device->type != Constants\DeviceType::DESKTOP) {
+				if (isset($extra->os->name)) $this->os = $extra->os;
+				if ($extra->device->identified) $this->device = $extra->device;
+			}
 		}
 	}

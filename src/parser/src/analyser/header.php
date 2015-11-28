@@ -2,10 +2,6 @@
 
 	namespace WhichBrowser\Analyser;
 
-	use WhichBrowser\Constants;
-	use WhichBrowser\Parser;
-
-
 	include_once 'header/baidu.php';
 	include_once 'header/browser-id.php';
 	include_once 'header/opera-mini.php';
@@ -85,15 +81,6 @@
 		private function getHeader($h) {
 			foreach ($this->headers as $k => $v) {
 				if (strtolower($h) == strtolower($k)) return $v;
-			}
-		}
-
-		private function additionalUserAgent($ua) {
-			$extra = new Parser($ua);
-
-			if ($extra->device->type != Constants\DeviceType::DESKTOP) {
-				if (isset($extra->os->name)) $this->os = $extra->os;
-				if ($extra->device->identified) $this->device = $extra->device;
 			}
 		}
 	}
