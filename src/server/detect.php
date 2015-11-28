@@ -8,9 +8,9 @@
 	include_once('src/polyfills.php');
 
 	if (basename(__DIR__) == 'server')
-		include_once('../parser/src/parser.php');
+		include_once('../parser/src/Parser.php');
 	else
-		include_once('src/parser.php');
+		include_once('src/Parser.php');
 		
 
 	$options = array('headers' => getallheaders());

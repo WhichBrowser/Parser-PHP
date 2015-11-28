@@ -1,6 +1,6 @@
 <?php
 
-	include '../src/parser/src/data.php';
+	include '../src/parser/src/Data.php';
 	include '../src/parser/data/browsers-chrome.php';
 
 
