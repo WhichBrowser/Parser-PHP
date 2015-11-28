@@ -5,13 +5,7 @@
 	use WhichBrowser\Constants;
 
 
-	include_once 'analyser/header-baidu.php';
-	include_once 'analyser/header-browser-id.php';
-	include_once 'analyser/header-opera-mini.php';
-	include_once 'analyser/header-puffin.php';
-	include_once 'analyser/header-uc.php';
-	include_once 'analyser/header-useragent.php';
-	include_once 'analyser/header-wap.php';
+	include_once 'analyser/header.php';
 	include_once 'analyser/derive.php';
 	include_once 'analyser/corrections.php';
 	include_once 'analyser/camouflage.php';
@@ -19,9 +13,7 @@
 
 	class Analyser {
 
-		use Analyser\HeaderBaidu, Analyser\HeaderBrowserId, Analyser\HeaderOperaMini, Analyser\HeaderPuffin, 
-			Analyser\HeaderUC, Analyser\HeaderUseragent, Analyser\HeaderWap, 
-			Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
+		use Analyser\Header, Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
 
 
 		public function __construct($options) {
@@ -34,57 +26,10 @@
 			if (isset($this->options->headers)) $this->headers = $this->options->headers;
 
 
-			/* Analyse the main useragent header */
 
-			$this->analyseUserAgent($this->hasHeader('User-Agent') ? $this->getHeader('User-Agent') : '');
+			/* Analyse the headers  */
 
-
-			/* Analyse secondary useragent headers */
-
-			if ($this->hasHeader('X-Original-User-Agent')) 
-				$this->additionalUserAgent($this->getHeader('X-Original-User-Agent'));
-			
-			if ($this->hasHeader('X-Device-User-Agent')) 
-				$this->additionalUserAgent($this->getHeader('X-Device-User-Agent'));
-			
-			if ($this->hasHeader('Device-Stock-UA')) 
-				$this->additionalUserAgent($this->getHeader('Device-Stock-UA'));
-			
-			if ($this->hasHeader('X-OperaMini-Phone-UA')) 
-				$this->additionalUserAgent($this->getHeader('X-OperaMini-Phone-UA'));
-
-			if ($this->hasHeader('X-UCBrowser-Device-UA')) 
-				$this->additionalUserAgent($this->getHeader('X-UCBrowser-Device-UA'));
-			
-
-			/* Analyse browser specific headers */
-
-			if ($this->hasHeader('X-OperaMini-Phone')) 
-				$this->analyseOperaMiniPhone($this->getHeader('X-OperaMini-Phone'));
-			
-			if ($this->hasHeader('X-UCBrowser-Phone-UA')) 
-				$this->analyseOldUCUserAgent($this->getHeader('X-UCBrowser-Phone-UA'));
-			
-			if ($this->hasHeader('X-UCBrowser-UA')) 
-				$this->analyseNewUCUserAgent($this->getHeader('X-UCBrowser-UA'));
-			
-			if ($this->hasHeader('X-Puffin-UA')) 
-				$this->analysePuffinUserAgent($this->getHeader('X-Puffin-UA'));
-			
-			if ($this->hasHeader('Baidu-FlyFlow')) 
-				$this->analyseBaiduHeader($this->getHeader('Baidu-FlyFlow'));
-			
-
-			/* Analyse Android WebView browser ids */
-
-			if ($this->hasHeader('X-Requested-With')) 
-				$this->analyseBrowserId($this->getHeader('X-Requested-With'));
-			
-
-			/* Analyse WAP profile header */
-
-			if ($this->hasHeader('X-Wap-Profile')) 
-				$this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
+			$this->analyseHeaders();
 
 
 			/* Derive more information from everything we have gathered  */
@@ -105,29 +50,6 @@
 			/* Determine subtype of devices */
 
 			$this->deriveDeviceSubType();
-		}
-
-		private function hasHeader($h) {
-			foreach ($this->headers as $k => $v) {
-				if (strtolower($h) == strtolower($k)) return true;
-			}
-
-			return false;
-		}
-
-		private function getHeader($h) {
-			foreach ($this->headers as $k => $v) {
-				if (strtolower($h) == strtolower($k)) return $v;
-			}
-		}
-
-		private function additionalUserAgent($ua) {
-			$extra = new Parser($ua);
-
-			if ($extra->device->type != Constants\DeviceType::DESKTOP) {
-				if (isset($extra->os->name)) $this->os = $extra->os;
-				if ($extra->device->identified) $this->device = $extra->device;
-			}
 		}
 	}	
 

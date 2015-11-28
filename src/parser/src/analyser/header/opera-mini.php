@@ -1,11 +1,11 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait HeaderOperaMini {
+	trait OperaMini {
 
 		private function analyseOperaMiniPhone($ua) {
 			@list($manufacturer, $model) = explode(' # ', $ua);

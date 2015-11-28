@@ -1,11 +1,11 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
-	trait HeaderBrowserId {
+	trait BrowserId {
 
 		private function analyseBrowserId($id) {
 			$browser = Data\BrowserIds::identify('android', $id);

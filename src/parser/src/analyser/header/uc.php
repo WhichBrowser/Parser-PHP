@@ -1,12 +1,12 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 	use WhichBrowser\Version;
 
-	trait HeaderUC {
+	trait UC {
 
 		private function analyseOldUCUserAgent($ua) {
 			if ($this->device->type == Constants\DeviceType::DESKTOP) {

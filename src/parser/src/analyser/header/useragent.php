@@ -1,6 +1,6 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
@@ -9,16 +9,16 @@
 	use WhichBrowser\Version;
 
 
-	include_once 'header-useragent/os.php';
-	include_once 'header-useragent/device.php';
-	include_once 'header-useragent/browser.php';
-	include_once 'header-useragent/engine.php';
-	include_once 'header-useragent/bot.php';
+	include_once 'useragent/os.php';
+	include_once 'useragent/device.php';
+	include_once 'useragent/browser.php';
+	include_once 'useragent/engine.php';
+	include_once 'useragent/bot.php';
 
 
-	trait HeaderUseragent {
+	trait Useragent {
 
-		use HeaderUseragentOs, HeaderUseragentDevice, HeaderUseragentBrowser, HeaderUseragentEngine, HeaderUseragentBot;
+		use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Engine, Useragent\Bot;
 
 
 		private function analyseUserAgent($ua) {

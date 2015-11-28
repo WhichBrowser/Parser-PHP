@@ -1,6 +1,6 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header\Useragent;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
@@ -18,12 +18,10 @@
 	include_once 'device/signage.php';
 
 
-	trait HeaderUseragentDevice {
+	trait Device {
 
-		use HeaderUseragentDeviceCars, HeaderUseragentDeviceGaming, HeaderUseragentDeviceEreader,
-			HeaderUseragentDeviceMobile, HeaderUseragentDeviceMedia, HeaderUseragentDeviceTelevision,
-			HeaderUseragentDeviceSignage;
-
+		use Device\Cars, Device\Gaming, Device\Ereader, Device\Mobile, 
+			Device\Media, Device\Television, Device\Signage;
 
 		private function detectDeviceFromUseragent($ua) {
 

@@ -1,6 +1,6 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header\Useragent;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
@@ -8,7 +8,7 @@
 	use WhichBrowser\Using;
 	use WhichBrowser\Version;
 
-	trait HeaderUseragentOs {
+	trait Os {
 
 		private function detectOperatingSystemFromUseragent($ua) {
 

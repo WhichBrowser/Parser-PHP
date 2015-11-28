@@ -1,6 +1,6 @@
 <?php
 
-	namespace WhichBrowser\Analyser;
+	namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
@@ -8,7 +8,7 @@
 	use WhichBrowser\Using;
 	use WhichBrowser\Version;
 
-	trait HeaderUseragentDeviceMedia {
+	trait Media {
 
 
 		private function detectMediaFromUseragent($ua) {
