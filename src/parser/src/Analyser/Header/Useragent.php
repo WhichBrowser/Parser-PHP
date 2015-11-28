@@ -1,40 +1,44 @@
 <?php
 
-	namespace WhichBrowser\Analyser\Header;
+namespace WhichBrowser\Analyser\Header;
 
-	use WhichBrowser\Constants;
-	use WhichBrowser\Parser;
+use WhichBrowser\Constants;
+use WhichBrowser\Parser;
 
+trait Useragent
+{
+    use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Engine, Useragent\Bot;
 
-	trait Useragent {
+    private function analyseUserAgent($ua)
+    {
+        $ua = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $ua);
 
-		use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Engine, Useragent\Bot;
+        $this->detectOperatingSystemFromUseragent($ua);
 
+        $this->detectDeviceFromUseragent($ua);
 
-		private function analyseUserAgent($ua) {
-			$ua = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $ua);
+        $this->detectBrowserFromUseragent($ua);
 
-			$this->detectOperatingSystemFromUseragent($ua);
+        $this->detectEngineFromUseragent($ua);
 
-			$this->detectDeviceFromUseragent($ua);
+        $this->detectBotBasedOnUserAgent($ua);
 
-			$this->detectBrowserFromUseragent($ua);
+        $this->refineBrowserFromUseragent($ua);
+        
+        $this->refineOperatingSystemFromUseragent($ua);
+    }
 
-			$this->detectEngineFromUseragent($ua);
+    private function additionalUserAgent($ua)
+    {
+        $extra = new Parser($ua);
 
-			$this->detectBotBasedOnUserAgent($ua);
-
-			$this->refineBrowserFromUseragent($ua);
-			
-			$this->refineOperatingSystemFromUseragent($ua);
-		}
-
-		private function additionalUserAgent($ua) {
-			$extra = new Parser($ua);
-
-			if ($extra->device->type != Constants\DeviceType::DESKTOP) {
-				if (isset($extra->os->name)) $this->os = $extra->os;
-				if ($extra->device->identified) $this->device = $extra->device;
-			}
-		}
-	}
+        if ($extra->device->type != Constants\DeviceType::DESKTOP) {
+            if (isset($extra->os->name)) {
+                $this->os = $extra->os;
+            }
+            if ($extra->device->identified) {
+                $this->device = $extra->device;
+            }
+        }
+    }
+}

@@ -1,25 +1,26 @@
 <?php
 
-	namespace WhichBrowser\Data;
-	
-	use WhichBrowser\Model\Browser;
-	use WhichBrowser\Model\Version;
-	
+namespace WhichBrowser\Data;
 
-	class Bots {
-		static $BOTS = [];
+use WhichBrowser\Model\Browser;
+use WhichBrowser\Model\Version;
 
-		static function identify($ua) {
-			require_once __DIR__ . '/../../data/browsers-bots.php';
+class Bots
+{
+    public static $BOTS = [];
 
-			foreach (self::$BOTS as $i => $bot) {
-				if (preg_match($bot['regexp'], $ua, $match)) {
-					return new Browser([
-						'name'		=> $bot['name'],
-						'stock'		=> false,
-						'version'	=> isset($match[1]) && $match[1] ? new Version([ 'value' => $match[1], 'details' => isset($bot['details']) ? $bot['details'] : null ]) : null
-					]);
-				}
-			}
-		}
-	}
+    public static function identify($ua)
+    {
+        require_once __DIR__ . '/../../data/browsers-bots.php';
+
+        foreach (self::$BOTS as $i => $bot) {
+            if (preg_match($bot['regexp'], $ua, $match)) {
+                return new Browser([
+                    'name'      => $bot['name'],
+                    'stock'     => false,
+                    'version'   => isset($match[1]) && $match[1] ? new Version([ 'value' => $match[1], 'details' => isset($bot['details']) ? $bot['details'] : null ]) : null
+                ]);
+            }
+        }
+    }
+}

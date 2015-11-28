@@ -45,13 +45,13 @@
 
 	$result  = "";
 	$result .= "<?php\n\n";
-	$result .= "\t\tnamespace WhichBrowser\Data;\n\n";
-	$result .= "\t\tChrome::\$DESKTOP = [\n";
-	foreach (WhichBrowser\Data\Chrome::$DESKTOP as $version => $channel) $result .= "\t\t\t'{$version}' => '{$channel}',\n";
-	$result .= "\t\t];\n\n";
-	$result .= "\t\tChrome::\$MOBILE = [\n";
-	foreach (WhichBrowser\Data\Chrome::$MOBILE as $version => $channel) $result .= "\t\t\t'{$version}' => '{$channel}',\n";
-	$result .= "\t\t];\n\n";
+	$result .= "namespace WhichBrowser\Data;\n\n";
+	$result .= "Chrome::\$DESKTOP = [\n";
+	foreach (WhichBrowser\Data\Chrome::$DESKTOP as $version => $channel) $result .= "    '{$version}' => '{$channel}',\n";
+	$result .= "];\n\n";
+	$result .= "Chrome::\$MOBILE = [\n";
+	foreach (WhichBrowser\Data\Chrome::$MOBILE as $version => $channel) $result .= "    '{$version}' => '{$channel}',\n";
+	$result .= "];\n";
 
 
 	file_put_contents('../src/parser/data/browsers-chrome.php', $result);

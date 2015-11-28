@@ -1,34 +1,34 @@
 <?php
 
-	namespace WhichBrowser\Analyser\Header\Useragent;
+namespace WhichBrowser\Analyser\Header\Useragent;
 
-	use WhichBrowser\Constants;
-	use WhichBrowser\Data;
+use WhichBrowser\Constants;
+use WhichBrowser\Data;
 
-	trait Bot {
+trait Bot
+{
+    private function detectBotBasedOnUserAgent($ua)
+    {
+        /* Detect bots based on common markers */
 
-		private function detectBotBasedOnUserAgent($ua) {
+        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/;]|$)/iu', $ua)) {
+            $this->browser->reset();
+            $this->os->reset();
+            $this->engine->reset();
+            $this->device->reset();
 
-			/* Detect bots based on common markers */
+            $this->device->type = Constants\DeviceType::BOT;
+        }
 
-			if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/;]|$)/iu', $ua)) {
-				$this->browser->reset();
-				$this->os->reset();
-				$this->engine->reset();
-				$this->device->reset();
+        /* Detect based on a predefined list or markers */
 
-				$this->device->type = Constants\DeviceType::BOT;
-			}
+        if ($bot = Data\Bots::identify($ua)) {
+            $this->browser = $bot;
+            $this->os->reset();
+            $this->engine->reset();
+            $this->device->reset();
 
-			/* Detect based on a predefined list or markers */
-
-			if ($bot = Data\Bots::identify($ua)) {
-				$this->browser = $bot;
-				$this->os->reset();
-				$this->engine->reset();
-				$this->device->reset();
-
-				$this->device->type = Constants\DeviceType::BOT;
-			}
-		}
-	}
+            $this->device->type = Constants\DeviceType::BOT;
+        }
+    }
+}

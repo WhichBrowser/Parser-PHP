@@ -1,17 +1,21 @@
 <?php
 
-	namespace WhichBrowser\Data;
-	
+namespace WhichBrowser\Data;
 
-	class Manufacturers {
-		static $TELEVISION = [];
+class Manufacturers
+{
+    public static $TELEVISION = [];
 
-		static function identify($type, $name) {
-			$name = preg_replace('/^CUS\:/u', '', trim($name));
+    public static function identify($type, $name)
+    {
+        $name = preg_replace('/^CUS\:/u', '', trim($name));
 
-			require_once __DIR__ . '/../../data/manufacturer-names.php';
+        require_once __DIR__ . '/../../data/manufacturer-names.php';
 
-			if (isset(Manufacturers::$TELEVISION[$name])) return self::$TELEVISION[$name];
-			return $name;
-		}
-	}
+        if (isset(Manufacturers::$TELEVISION[$name])) {
+            return self::$TELEVISION[$name];
+        }
+
+        return $name;
+    }
+}

@@ -1,39 +1,38 @@
 <?php
 
-	namespace WhichBrowser\Analyser\Header\Useragent\Device;
+namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
-	use WhichBrowser\Constants;
+use WhichBrowser\Constants;
 
-	trait Signage {
+trait Signage
+{
+    private function detectSignageFromUseragent($ua)
+    {
+        /* BrightSign */
+
+        if (preg_match('/BrightSign\/[0-9\.]+(?:-[a-z0-9\-]+)? \(([^\)]+)/u', $ua, $match)) {
+            unset($this->os->name);
+            unset($this->os->version);
+
+            $this->device->manufacturer = 'BrightSign';
+            $this->device->model = $match[1];
+            $this->device->type = Constants\DeviceType::SIGNAGE;
+            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->device->generic = false;
+        }
 
 
-		private function detectSignageFromUseragent($ua) {
+        /* Iadea */
 
-			/* BrightSign */
+        if (preg_match('/ADAPI/u', $ua) && preg_match('/\(MODEL:([^\)]+)\)/u', $ua, $match)) {
+            unset($this->os->name);
+            unset($this->os->version);
 
-			if (preg_match('/BrightSign\/[0-9\.]+(?:-[a-z0-9\-]+)? \(([^\)]+)/u', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
-				$this->device->manufacturer = 'BrightSign';
-				$this->device->model = $match[1];
-				$this->device->type = Constants\DeviceType::SIGNAGE;
-				$this->device->identified |= Constants\Id::MATCH_UA;
-				$this->device->generic = false;
-			}
-
-
-			/* Iadea */
-
-			if (preg_match('/ADAPI/u', $ua) && preg_match('/\(MODEL:([^\)]+)\)/u', $ua, $match)) {
-				unset($this->os->name);
-				unset($this->os->version);
-
-				$this->device->manufacturer = 'Iadea';
-				$this->device->model = $match[1];
-				$this->device->type = Constants\DeviceType::SIGNAGE;
-				$this->device->identified |= Constants\Id::MATCH_UA;
-				$this->device->generic = false;
-			}
-		}
-	}
+            $this->device->manufacturer = 'Iadea';
+            $this->device->model = $match[1];
+            $this->device->type = Constants\DeviceType::SIGNAGE;
+            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->device->generic = false;
+        }
+    }
+}

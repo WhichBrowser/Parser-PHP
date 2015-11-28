@@ -1,17 +1,17 @@
 <?php
 
-	namespace WhichBrowser;
+namespace WhichBrowser;
 
-	use WhichBrowser\Model\Main;
+use WhichBrowser\Model\Main;
 
+class Parser extends Main
+{
+    use Analyser;
 
-	class Parser extends Main {
+    public function __construct($options)
+    {
+        parent::__construct();
 
-		use Analyser;
-
-		public function __construct($options) {
-			parent::__construct();
-
-			$this->analyse($options);
-		}		
-	}
+        $this->analyse($options);
+    }
+}
