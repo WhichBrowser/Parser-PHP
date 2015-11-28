@@ -3,9 +3,6 @@
 	namespace WhichBrowser\Analyser\Header\Useragent;
 
 	use WhichBrowser\Constants;
-	use WhichBrowser\Data;
-	use WhichBrowser\Family;
-	use WhichBrowser\Using;
 	use WhichBrowser\Version;
 
 	trait Engine {

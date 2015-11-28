@@ -3,10 +3,6 @@
 	namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
 	use WhichBrowser\Constants;
-	use WhichBrowser\Data;
-	use WhichBrowser\Family;
-	use WhichBrowser\Using;
-	use WhichBrowser\Version;
 
 	trait Media {
 

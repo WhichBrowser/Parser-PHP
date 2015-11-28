@@ -2,7 +2,6 @@
 
 	namespace WhichBrowser\Analyser\Header;
 
-	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
 
 	trait OperaMini {

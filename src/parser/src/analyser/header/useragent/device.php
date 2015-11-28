@@ -2,12 +2,6 @@
 
 	namespace WhichBrowser\Analyser\Header\Useragent;
 
-	use WhichBrowser\Constants;
-	use WhichBrowser\Data;
-	use WhichBrowser\Family;
-	use WhichBrowser\Using;
-	use WhichBrowser\Version;
-
 
 	include_once 'device/cars.php';
 	include_once 'device/ereader.php';

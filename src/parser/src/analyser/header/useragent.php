@@ -2,13 +2,6 @@
 
 	namespace WhichBrowser\Analyser\Header;
 
-	use WhichBrowser\Constants;
-	use WhichBrowser\Data;
-	use WhichBrowser\Family;
-	use WhichBrowser\Using;
-	use WhichBrowser\Version;
-
-
 	include_once 'useragent/os.php';
 	include_once 'useragent/device.php';
 	include_once 'useragent/browser.php';

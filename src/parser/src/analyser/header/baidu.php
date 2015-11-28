@@ -2,8 +2,6 @@
 
 	namespace WhichBrowser\Analyser\Header;
 
-	use WhichBrowser\Constants;
-
 	trait Baidu {
 
 		private function analyseBaiduHeader($ua) {
