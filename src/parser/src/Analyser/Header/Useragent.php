@@ -5,11 +5,11 @@
 	use WhichBrowser\Constants;
 	use WhichBrowser\Parser;
 
-	include_once 'useragent/os.php';
-	include_once 'useragent/device.php';
-	include_once 'useragent/browser.php';
-	include_once 'useragent/engine.php';
-	include_once 'useragent/bot.php';
+	include_once 'Useragent/Os.php';
+	include_once 'Useragent/Device.php';
+	include_once 'Useragent/Browser.php';
+	include_once 'Useragent/Engine.php';
+	include_once 'Useragent/Bot.php';
 
 
 	trait Useragent {

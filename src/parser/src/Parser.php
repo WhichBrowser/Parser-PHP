@@ -2,10 +2,10 @@
 
 	namespace WhichBrowser;
 
-	include_once 'constants.php';
-	include_once 'primitives.php';
-	include_once 'analyser.php';
-	include_once 'data.php';
+	include_once 'Constants.php';
+	include_once 'Primitives.php';
+	include_once 'Analyser.php';
+	include_once 'Data.php';
 
 	class Parser extends Analyser {
 		public $browser;

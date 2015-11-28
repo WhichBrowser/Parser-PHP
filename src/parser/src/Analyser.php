@@ -5,10 +5,10 @@
 	use WhichBrowser\Constants;
 
 
-	include_once 'analyser/header.php';
-	include_once 'analyser/derive.php';
-	include_once 'analyser/corrections.php';
-	include_once 'analyser/camouflage.php';
+	include_once 'Analyser/Header.php';
+	include_once 'Analyser/Derive.php';
+	include_once 'Analyser/Corrections.php';
+	include_once 'Analyser/Camouflage.php';
 
 
 	class Analyser {

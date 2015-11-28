@@ -3,13 +3,13 @@
 	namespace WhichBrowser\Analyser\Header\Useragent;
 
 
-	include_once 'device/cars.php';
-	include_once 'device/ereader.php';
-	include_once 'device/gaming.php';
-	include_once 'device/mobile.php';
-	include_once 'device/media.php';
-	include_once 'device/television.php';
-	include_once 'device/signage.php';
+	include_once 'Device/Cars.php';
+	include_once 'Device/Ereader.php';
+	include_once 'Device/Gaming.php';
+	include_once 'Device/Mobile.php';
+	include_once 'Device/Media.php';
+	include_once 'Device/Television.php';
+	include_once 'Device/Signage.php';
 
 
 	trait Device {

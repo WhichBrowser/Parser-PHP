@@ -5,7 +5,7 @@
 		unsupported non-namespaced WhichBrowser object
 	*/
 
-	include_once __DIR__ . '/../src/parser.php';
+	include_once __DIR__ . '/../src/Parser.php';
 
 	define ('TYPE_DESKTOP', 'desktop');
 	define ('TYPE_MOBILE', 'mobile');
