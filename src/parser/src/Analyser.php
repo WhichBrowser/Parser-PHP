@@ -3,7 +3,6 @@
 	namespace WhichBrowser;
 
 	use WhichBrowser\Constants;
-	use WhichBrowser\Model\Main;
 
 	include_once 'Analyser/Header.php';
 	include_once 'Analyser/Derive.php';
@@ -11,14 +10,12 @@
 	include_once 'Analyser/Camouflage.php';
 
 
-	class Analyser extends Main {
+	trait Analyser {
 
 		use Analyser\Header, Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
 
 
-		public function __construct($options) {
-			parent::__construct();
-
+		public function analyse($options) {
 			if (is_string($options)) 
 				$this->options = (object) [ 'headers' => [ 'User-Agent' => $options ] ];
 			else
