@@ -152,17 +152,6 @@
 				$this->os->name = 'Android Wear';
 				$this->os->family = new Family([ 'name' => 'Android' ]);
 				unset($this->os->version);
-
-				if (preg_match('/Chrome\/19\.77\.34\.5/u', $ua)) {
-					$this->browser->name = "Wear Internet Browser";
-					$this->browser->version = null;
-				}
-				else {
-					$this->browser->stock = true;
-					$this->browser->hidden = true;
-				}
-
-				unset($this->browser->channel);
 				unset($this->device->flag);
 				return;
 			}

@@ -878,6 +878,14 @@
 						$this->browser->version = new Version([ 'value' => $match[1] ]);
 						$this->browser->channel = null;
 					}
+
+					/* Wear Internet Browser */
+					if (preg_match('/Chrome\/19\.77\.34\.5/u', $ua)) {
+					 	$this->browser->name = "Wear Internet Browser";
+					 	$this->browser->version = null;
+						$this->browser->channel = null;
+						$this->browser->stock = false;
+					}
 				}
 
 				else {
