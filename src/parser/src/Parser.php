@@ -3,9 +3,15 @@
 	namespace WhichBrowser;
 
 	include_once 'Constants.php';
-	include_once 'Primitives.php';
+	include_once 'Model.php';
 	include_once 'Analyser.php';
 	include_once 'Data.php';
+
+	use WhichBrowser\Model\Browser;
+	use WhichBrowser\Model\Engine;
+	use WhichBrowser\Model\Os;
+	use WhichBrowser\Model\Device;
+	
 
 	class Parser extends Analyser {
 		public $browser;

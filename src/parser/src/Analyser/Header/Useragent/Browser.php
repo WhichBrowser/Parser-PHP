@@ -4,9 +4,9 @@
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
-	use WhichBrowser\Family;
-	use WhichBrowser\Using;
-	use WhichBrowser\Version;
+	use WhichBrowser\Model\Family;
+	use WhichBrowser\Model\Using;
+	use WhichBrowser\Model\Version;
 
 	trait Browser {
 

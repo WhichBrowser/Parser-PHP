@@ -2,8 +2,8 @@
 
 	namespace WhichBrowser\Data;
 	
-	use WhichBrowser\Browser;
-	use WhichBrowser\Version;
+	use WhichBrowser\Model\Browser;
+	use WhichBrowser\Model\Version;
 	
 
 	class Bots {

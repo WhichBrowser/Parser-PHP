@@ -3,7 +3,7 @@
 	namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
 	use WhichBrowser\Constants;
-	use WhichBrowser\Version;
+	use WhichBrowser\Model\Version;
 
 	trait Gaming {
 

@@ -3,7 +3,7 @@
 	namespace WhichBrowser\Data;
 	
 	use WhichBrowser\Constants;
-	use WhichBrowser\Device;
+	use WhichBrowser\Model\Device;
 
 
 	class DeviceModels {

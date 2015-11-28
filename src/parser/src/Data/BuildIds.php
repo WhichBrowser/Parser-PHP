@@ -2,7 +2,7 @@
 
 	namespace WhichBrowser\Data;
 	
-	use WhichBrowser\Version;
+	use WhichBrowser\Model\Version;
 
 
 	class BuildIds {

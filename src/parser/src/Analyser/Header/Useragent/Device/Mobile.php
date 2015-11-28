@@ -4,7 +4,7 @@
 
 	use WhichBrowser\Constants;
 	use WhichBrowser\Data;
-	use WhichBrowser\Version;
+	use WhichBrowser\Model\Version;
 
 	trait Mobile {
 
