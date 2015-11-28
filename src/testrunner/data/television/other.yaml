@@ -144,10 +144,10 @@
     result: { engine: { name: Webkit, version: '538.8' }, device: { type: television, manufacturer: Selevision, model: EMC1000i } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Boxee/1.0.1 bxapi/7.1'
-    result: { browser: { name: Boxee, version: 1.0.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Linux }, device: { type: television } }
+    result: { browser: { name: Boxee, version: 1.0.1 }, engine: { name: Webkit, version: '533.4' }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/533.4 (KHTML, like Gecko) Boxee/1.0.1 bxapi/7.1'
-    result: { browser: { name: Boxee, version: 1.0.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Linux }, device: { type: television } }
+    result: { browser: { name: Boxee, version: 1.0.1 }, engine: { name: Webkit, version: '533.4' }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;Mstar;OWB;Arcelik;J5;)'
     result: { browser: { name: 'Origyn Web Browser' }, engine: { name: Webkit, version: '534.1' }, device: { type: television, manufacturer: MStar, model: PVR } }

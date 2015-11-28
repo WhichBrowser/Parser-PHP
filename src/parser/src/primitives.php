@@ -49,6 +49,12 @@
 		public $version;
 
 
+		public function reset() {
+			unset ($this->name);
+			unset ($this->alias);
+			unset ($this->version);
+		}
+
 		public function getName() {
 			return !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
 		}
@@ -74,6 +80,18 @@
 		public $stock = true;
 		public $hidden = false;
 		public $mode = '';
+
+		public function reset() {
+			parent::reset();
+
+			unset($this->channel);
+			unset($this->useing);
+			unset($this->family);
+
+			$this->stock = true;
+			$this->hidden = false;
+			$this->mode = '';
+		}
 
 		public function getName() {
 			$name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
@@ -133,6 +151,12 @@
 	class Os extends NameVersionPrimitive {
 		public $family;
 
+		public function reset() {
+			parent::reset();
+
+			unset($this->family);
+		}
+
 		public function toArray() {
 			$result = [];
 
@@ -182,6 +206,18 @@
 		public $subtype = '';
 		public $identified = Constants\Id::NONE;
 		public $generic = true;
+
+		public function reset() {
+			unset($this->manufacturer);
+			unset($this->model);
+			unset($this->series);
+			unset($this->identifier);
+
+			$this->type = '';
+			$this->subtype = '';
+			$this->identified = Constants\Id::NONE;
+			$this->generic = true;
+		}
 
 		public function getManufacturer() {
 			return $this->identified && !empty($this->manufacturer) ? $this->manufacturer : '';

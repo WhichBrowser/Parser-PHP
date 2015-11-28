@@ -12,6 +12,9 @@
 		private function deriveInformation() {
 			if (isset($this->device->flag)) $this->deriveBasedOnDeviceFlag();
 			if (isset($this->os->name)) $this->deriveBasedOnOperatingSystem();
+
+			if (isset($this->browser->name)) $this->deriveOperaDevices();
+			if (isset($this->browser->name)) $this->deriveFirefoxOS();
 		}
 
 
@@ -28,6 +31,61 @@
 				}
 			}
 		}
+
+
+		private function deriveFirefoxOS() {
+			if ($this->browser->name == 'Firefox Mobile' && !isset($this->os->name)) {
+				$this->os->name = 'Firefox OS';
+			}
+
+			if (isset($this->os->name) && $this->os->name == 'Firefox OS') {
+				switch($this->engine->getVersion()) {
+					case '18.0': $this->os->version = new Version([ 'value' => '1.0.1' ]); break;
+					case '18.1': $this->os->version = new Version([ 'value' => '1.1' ]); break;
+					case '26.0': $this->os->version = new Version([ 'value' => '1.2' ]); break;
+					case '28.0': $this->os->version = new Version([ 'value' => '1.3' ]); break;
+					case '30.0': $this->os->version = new Version([ 'value' => '1.4' ]); break;
+					case '32.0': $this->os->version = new Version([ 'value' => '2.0' ]); break;
+					case '34.0': $this->os->version = new Version([ 'value' => '2.1' ]); break;
+				}
+			}
+		}
+
+
+		private function deriveOperaDevices() {
+			if ($this->browser->name == 'Opera' && $this->device->type == Constants\DeviceType::TELEVISION) {
+				$this->browser->name = 'Opera Devices';
+
+				if ($this->engine->getName() == 'Presto') {
+					switch(implode('.', array_slice(explode('.', $this->engine->getVersion()), 0, 2))) {
+						case '2.12':		$this->browser->version = new Version([ 'value' => '3.4' ]); break;
+						case '2.11':		$this->browser->version = new Version([ 'value' => '3.3' ]); break;
+						case '2.10':		$this->browser->version = new Version([ 'value' => '3.2' ]); break;
+						case '2.9':			$this->browser->version = new Version([ 'value' => '3.1' ]); break;
+						case '2.8':			$this->browser->version = new Version([ 'value' => '3.0' ]); break;
+						case '2.7':			$this->browser->version = new Version([ 'value' => '2.9' ]); break;
+						case '2.6':			$this->browser->version = new Version([ 'value' => '2.8' ]); break;
+						case '2.4':			$this->browser->version = new Version([ 'value' => '10.3' ]); break;
+						case '2.3':			$this->browser->version = new Version([ 'value' => '10' ]); break;
+						case '2.2':			$this->browser->version = new Version([ 'value' => '9.7' ]); break;
+						case '2.1':			$this->browser->version = new Version([ 'value' => '9.6' ]); break;
+						default:			unset($this->browser->version);
+					}
+				}
+				else {
+					switch(explode('.', $this->browser->getVersion())[0]) {
+						case '17':			$this->browser->version = new Version([ 'value' => '4.0' ]); break;
+						case '19':			$this->browser->version = new Version([ 'value' => '4.1' ]); break;
+						case '22':			$this->browser->version = new Version([ 'value' => '4.2' ]); break;
+						default:			unset($this->browser->version);
+					}
+				}
+
+				unset($this->os->name);
+				unset($this->os->version);
+			}
+		}
+
 
 
 		private function deriveBasedOnDeviceFlag() {
