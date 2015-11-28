@@ -817,7 +817,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = null;
-							$this->browser->channel = null;
 						}
 					}
 
@@ -830,7 +829,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version([ 'value' => '1.0' ]);
-							$this->browser->channel = null;
 						}
 
 						/* Version 1.5 */
@@ -839,7 +837,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version([ 'value' => '1.5' ]);
-							$this->browser->channel = null;
 						}
 
 						/* Version 1.6 */
@@ -848,7 +845,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version([ 'value' => '1.6' ]);
-							$this->browser->channel = null;
 						}
 
 						/* Version 2.0 */
@@ -857,7 +853,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version([ 'value' => '2.0' ]);
-							$this->browser->channel = null;
 						}
 
 						/* Version 2.1 */
@@ -866,7 +861,6 @@
 							$this->browser->channel = null;
 							$this->browser->stock = true;
 							$this->browser->version = new Version([ 'value' => '2.1' ]);
-							$this->browser->channel = null;
 						}
 					}
 
@@ -876,7 +870,6 @@
 						$this->browser->channel = null;
 						$this->browser->stock = true;
 						$this->browser->version = new Version([ 'value' => $match[1] ]);
-						$this->browser->channel = null;
 					}
 
 					/* Wear Internet Browser */
