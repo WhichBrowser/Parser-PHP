@@ -2,39 +2,29 @@
 
 namespace WhichBrowser\Analyser\Header;
 
-use WhichBrowser\Constants;
-use WhichBrowser\Parser;
-
-trait Useragent
+class Useragent
 {
     use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Engine, Useragent\Bot;
 
-    private function analyseUserAgent($ua)
+    public function __construct($header, &$data)
     {
-        $ua = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $ua);
+        $this->data =& $data;
 
-        $this->detectOperatingSystemFromUseragent($ua);
-        $this->detectDeviceFromUseragent($ua);
-        $this->detectBrowserFromUseragent($ua);
-        $this->detectEngineFromUseragent($ua);
-        $this->detectBotBasedOnUserAgent($ua);
+        /* Make sure we do not have a duplicate concatenated useragent string */
 
-        $this->refineBrowserFromUseragent($ua);
-        $this->refineOperatingSystemFromUseragent($ua);
-    }
+        $header = preg_replace("/^(Mozilla\/[0-9]\.[0-9].*)\s+Mozilla\/[0-9]\.[0-9].*$/iu", '$1', $header);
 
-    private function additionalUserAgent($ua)
-    {
-        $extra = new Parser($ua);
+        /* Detect the basic information */
 
-        if ($extra->device->type != Constants\DeviceType::DESKTOP) {
-            if (isset($extra->os->name)) {
-                $this->os = $extra->os;
-            }
-            
-            if ($extra->device->identified) {
-                $this->device = $extra->device;
-            }
-        }
+        $this->detectOperatingSystem($header)
+             ->detectDevice($header)
+             ->detectBrowser($header)
+             ->detectEngine($header)
+             ->detectBot($header);
+
+        /* Refine some of the information */
+
+        $this->refineBrowser($header)
+             ->refineOperatingSystem($header);
     }
 }

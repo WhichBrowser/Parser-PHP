@@ -6,10 +6,10 @@ use WhichBrowser\Constants;
 
 trait Cars
 {
-    private function detectCarsFromUseragent($ua)
+    private function detectCars($ua)
     {
         if (preg_match('/Car/u', $ua)) {
-            $this->detectTeslaFromUseragent($ua);
+            $this->detectTesla($ua);
         }
     }
 
@@ -19,15 +19,15 @@ trait Cars
 
     /* Tesla S */
 
-    private function detectTeslaFromUseragent($ua)
+    private function detectTesla($ua)
     {
         if (preg_match('/QtCarBrowser/u', $ua)) {
-            $this->os->name = '';
+            $this->data->os->name = '';
 
-            $this->device->manufacturer = 'Tesla';
-            $this->device->model = 'Model S';
-            $this->device->type = Constants\DeviceType::CAR;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'Tesla';
+            $this->data->device->model = 'Model S';
+            $this->data->device->type = Constants\DeviceType::CAR;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 }

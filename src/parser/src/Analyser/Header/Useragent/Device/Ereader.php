@@ -6,15 +6,15 @@ use WhichBrowser\Constants;
 
 trait Ereader
 {
-    private function detectEreaderFromUseragent($ua)
+    private function detectEreader($ua)
     {
-        $this->detectKindleFromUseragent($ua);
-        $this->detectNookFromUseragent($ua);
-        $this->detectBookeenFromUseragent($ua);
-        $this->detectKoboFromUseragent($ua);
-        $this->detectSonyreaderFromUseragent($ua);
-        $this->detectPocketbookFromUseragent($ua);
-        $this->detectIriverFromUseragent($ua);
+        $this->detectKindle($ua);
+        $this->detectNook($ua);
+        $this->detectBookeen($ua);
+        $this->detectKobo($ua);
+        $this->detectSonyreader($ua);
+        $this->detectPocketbook($ua);
+        $this->detectIriver($ua);
     }
 
 
@@ -22,116 +22,111 @@ trait Ereader
 
     /* Amazon Kindle */
 
-    private function detectKindleFromUseragent($ua)
+    private function detectKindle($ua)
     {
         if (preg_match('/Kindle/u', $ua) && !preg_match('/Fire/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Amazon';
-            $this->device->series = 'Kindle';
-            $this->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->manufacturer = 'Amazon';
+            $this->data->device->series = 'Kindle';
+            $this->data->device->type = Constants\DeviceType::EREADER;
 
             if (preg_match('/Kindle SkipStone/u', $ua)) {
-                $this->device->model = 'Kindle Touch or later';
-            }
-            elseif (preg_match('/Kindle\/3.0\+/u', $ua)) {
-                $this->device->model = 'Kindle 3 or later';
-            }
-            elseif (preg_match('/Kindle\/3.0/u', $ua)) {
-                $this->device->model = 'Kindle 3';
-            }
-            elseif (preg_match('/Kindle\/2.5/u', $ua)) {
-                $this->device->model = 'Kindle 2';
-            }
-            elseif (preg_match('/Kindle\/2.0/u', $ua)) {
-                $this->device->model = 'Kindle 2';
-            }
-            elseif (preg_match('/Kindle\/1.0/u', $ua)) {
-                $this->device->model = 'Kindle 1';
+                $this->data->device->model = 'Kindle Touch or later';
+            } elseif (preg_match('/Kindle\/3.0\+/u', $ua)) {
+                $this->data->device->model = 'Kindle 3 or later';
+            } elseif (preg_match('/Kindle\/3.0/u', $ua)) {
+                $this->data->device->model = 'Kindle 3';
+            } elseif (preg_match('/Kindle\/2.5/u', $ua)) {
+                $this->data->device->model = 'Kindle 2';
+            } elseif (preg_match('/Kindle\/2.0/u', $ua)) {
+                $this->data->device->model = 'Kindle 2';
+            } elseif (preg_match('/Kindle\/1.0/u', $ua)) {
+                $this->data->device->model = 'Kindle 1';
             }
 
-            if (!empty($this->device->model)) {
-                $this->device->series = null;
+            if (!empty($this->data->device->model)) {
+                $this->data->device->series = null;
             }
 
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 
 
     /* Barnes & Noble Nook */
 
-    private function detectNookFromUseragent($ua)
+    private function detectNook($ua)
     {
         if (preg_match('/nook browser/u', $ua)) {
-            $this->os->name = 'Android';
+            $this->data->os->name = 'Android';
 
-            $this->device->manufacturer = 'Barnes & Noble';
-            $this->device->series = 'NOOK';
-            $this->device->type = Constants\DeviceType::EREADER;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'Barnes & Noble';
+            $this->data->device->series = 'NOOK';
+            $this->data->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 
 
     /* Bookeen */
 
-    private function detectBookeenFromUseragent($ua)
+    private function detectBookeen($ua)
     {
         if (preg_match('/bookeen\/cybook/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Bookeen';
-            $this->device->series = 'Cybook';
-            $this->device->type = Constants\DeviceType::EREADER;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'Bookeen';
+            $this->data->device->series = 'Cybook';
+            $this->data->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 
 
     /* Kobo */
 
-    private function detectKoboFromUseragent($ua)
+    private function detectKobo($ua)
     {
         if (preg_match('/Kobo Touch/u', $ua, $match)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Kobo';
-            $this->device->series = 'eReader';
-            $this->device->type = Constants\DeviceType::EREADER;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'Kobo';
+            $this->data->device->series = 'eReader';
+            $this->data->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 
 
     /* Sony Reader */
 
-    private function detectSonyreaderFromUseragent($ua)
+    private function detectSonyreader($ua)
     {
         if (preg_match('/EBRD([0-9]+)/u', $ua, $match)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Sony';
-            $this->device->series = 'Reader';
-            $this->device->type = Constants\DeviceType::EREADER;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->series = 'Reader';
+            $this->data->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
 
             switch ($match[1]) {
                 case '1101':
-                    $this->device->model = 'PRS-T1';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'PRS-T1';
+                    $this->data->device->generic = false;
                     break;
                 case '1102':
-                    $this->device->model = 'PRS-T1';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'PRS-T1';
+                    $this->data->device->generic = false;
                     break;
                 case '1201':
-                    $this->device->model = 'PRS-T2';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'PRS-T2';
+                    $this->data->device->generic = false;
                     break;
                 case '1301':
-                    $this->device->model = 'PRS-T3';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'PRS-T3';
+                    $this->data->device->generic = false;
                     break;
             }
         }
@@ -140,59 +135,59 @@ trait Ereader
 
     /* PocketBook */
 
-    private function detectPocketbookFromUseragent($ua)
+    private function detectPocketbook($ua)
     {
         if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'PocketBook';
-            $this->device->type = Constants\DeviceType::EREADER;
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->manufacturer = 'PocketBook';
+            $this->data->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
 
             switch ($match[1]) {
                 case '515':
-                    $this->device->model = 'Mini';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Mini';
+                    $this->data->device->generic = false;
                     break;
                 case '614':
-                    $this->device->model = 'Basic 2';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Basic 2';
+                    $this->data->device->generic = false;
                     break;
                 case '622':
-                    $this->device->model = 'Touch';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Touch';
+                    $this->data->device->generic = false;
                     break;
                 case '623':
-                    $this->device->model = 'Touch Lux';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Touch Lux';
+                    $this->data->device->generic = false;
                     break;
                 case '624':
-                    $this->device->model = 'Basic Touch';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Basic Touch';
+                    $this->data->device->generic = false;
                     break;
                 case '626':
-                    $this->device->model = 'Touch Lux 2';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Touch Lux 2';
+                    $this->data->device->generic = false;
                     break;
                 case '630':
-                    $this->device->model = 'Sense';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Sense';
+                    $this->data->device->generic = false;
                     break;
                 case '640':
-                    $this->device->model = 'Auqa';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Auqa';
+                    $this->data->device->generic = false;
                     break;
                 case '650':
-                    $this->device->model = 'Ultra';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Ultra';
+                    $this->data->device->generic = false;
                     break;
                 case '801':
-                    $this->device->model = 'Color Lux';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'Color Lux';
+                    $this->data->device->generic = false;
                     break;
                 case '840':
-                    $this->device->model = 'InkPad';
-                    $this->device->generic = false;
+                    $this->data->device->model = 'InkPad';
+                    $this->data->device->generic = false;
                     break;
             }
         }
@@ -201,21 +196,21 @@ trait Ereader
 
     /* iRiver */
 
-    private function detectIriverFromUseragent($ua)
+    private function detectIriver($ua)
     {
         if (preg_match('/Iriver ;/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'iRiver';
-            $this->device->series = 'Story';
-            $this->device->type = Constants\DeviceType::EREADER;
+            $this->data->device->manufacturer = 'iRiver';
+            $this->data->device->series = 'Story';
+            $this->data->device->type = Constants\DeviceType::EREADER;
 
             if (preg_match('/EB07/u', $ua)) {
-                $this->device->model = 'Story HD EB07';
-                $this->device->generic = false;
+                $this->data->device->model = 'Story HD EB07';
+                $this->data->device->generic = false;
             }
 
-            $this->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 }

@@ -4,41 +4,43 @@ namespace WhichBrowser\Analyser\Header;
 
 use WhichBrowser\Data;
 
-trait OperaMini
+class OperaMini
 {
-    private function analyseOperaMiniPhone($ua)
+    public function __construct($header, &$data)
     {
-        @list($manufacturer, $model) = explode(' # ', $ua);
+        $this->data =& $data;
+
+        @list($manufacturer, $model) = explode(' # ', $header);
 
         if ($manufacturer != '?' && $model != '?') {
-            if (!$this->device->identified && $this->os->name == 'Bada') {
+            if (!$this->data->device->identified && $this->data->os->name == 'Bada') {
                 $device = Data\DeviceModels::identify('bada', $model);
                 if ($device->identified) {
-                    $device->identified |= $this->device->identified;
-                    $this->device = $device;
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
                 }
             }
 
-            if (!$this->device->identified && $this->os->name == 'Blackberry') {
+            if (!$this->data->device->identified && $this->data->os->name == 'Blackberry') {
                 $device = Data\DeviceModels::identify('blackberry', $model);
                 if ($device->identified) {
-                    $device->identified |= $this->device->identified;
-                    $this->device = $device;
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
                 }
             }
 
-            if (!$this->device->identified && $this->os->name == 'Windows Mobile') {
+            if (!$this->data->device->identified && $this->data->os->name == 'Windows Mobile') {
                 $device = Data\DeviceModels::identify('wm', $model);
                 if ($device->identified) {
-                    $device->identified |= $this->device->identified;
-                    $this->device = $device;
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
                 }
             }
 
-            if (!$this->device->identified) {
-                $this->device->manufacturer = $manufacturer;
-                $this->device->model = $model;
-                $this->device->identified = true;
+            if (!$this->data->device->identified) {
+                $this->data->device->manufacturer = $manufacturer;
+                $this->data->device->model = $model;
+                $this->data->device->identified = true;
             }
         }
     }

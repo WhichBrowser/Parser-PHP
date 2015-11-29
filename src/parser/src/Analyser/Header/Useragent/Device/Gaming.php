@@ -7,18 +7,18 @@ use WhichBrowser\Model\Version;
 
 trait Gaming
 {
-    private function detectGamingFromUseragent($ua)
+    private function detectGaming($ua)
     {
         if (preg_match('/Nintendo/iu', $ua)) {
-            $this->detectNintendoFromUseragent($ua);
+            $this->detectNintendo($ua);
         }
 
         if (preg_match('/PlayStation/iu', $ua)) {
-            $this->detectPlaystationFromUseragent($ua);
+            $this->detectPlaystation($ua);
         }
 
         if (preg_match('/Xbox/iu', $ua)) {
-            $this->detectXboxFromUseragent($ua);
+            $this->detectXbox($ua);
         }
     }
 
@@ -28,205 +28,205 @@ trait Gaming
 
     /* Nintendo Wii and DS */
 
-    private function detectNintendoFromUseragent($ua)
+    private function detectNintendo($ua)
     {
         /* Wii */
 
         if (preg_match('/Nintendo Wii/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = 'Wii';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = 'Wii';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* Wii U */
 
         if (preg_match('/Nintendo Wii ?U/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = 'Wii U';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = 'Wii U';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* DS */
 
         if (preg_match('/Nintendo DS/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = 'DS';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = 'DS';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* DSi */
 
         if (preg_match('/Nintendo DSi/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = 'DSi';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = 'DSi';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* 3DS */
 
         if (preg_match('/Nintendo 3DS/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
             if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
-                $this->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = '3DS';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = '3DS';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* New 3DS */
 
         if (preg_match('/New Nintendo 3DS/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
             if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
-                $this->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->device->manufacturer = 'Nintendo';
-            $this->device->model = 'New 3DS';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Nintendo';
+            $this->data->device->model = 'New 3DS';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
     }
 
 
     /* Sony PlayStation */
 
-    private function detectPlaystationFromUseragent($ua)
+    private function detectPlaystation($ua)
     {
         /* PlayStation Portable */
 
         if (preg_match('/PlayStation Portable/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Sony';
-            $this->device->model = 'Playstation Portable';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Playstation Portable';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* PlayStation Vita */
 
         if (preg_match('/PlayStation Vita/u', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
             if (preg_match('/PlayStation Vita ([0-9.]*)/u', $ua, $match)) {
-                $this->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->device->manufacturer = 'Sony';
-            $this->device->model = 'Playstation Vita';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::PORTABLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Playstation Vita';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::PORTABLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
 
             if (preg_match('/VTE\//u', $ua)) {
-                $this->device->model = 'Playstation TV';
+                $this->data->device->model = 'Playstation TV';
             }
         }
 
         /* PlayStation 3 */
 
         if (preg_match('/PlayStation 3/ui', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
             if (preg_match('/PLAYSTATION 3;? ([0-9.]*)/u', $ua, $match)) {
-                $this->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->device->manufacturer = 'Sony';
-            $this->device->model = 'Playstation 3';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Playstation 3';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* PlayStation 4 */
 
         if (preg_match('/PlayStation 4/ui', $ua)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
             if (preg_match('/PlayStation 4 ([0-9.]*)/u', $ua, $match)) {
-                $this->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->device->manufacturer = 'Sony';
-            $this->device->model = 'Playstation 4';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Playstation 4';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
     }
 
 
     /* Microsoft Xbox */
 
-    private function detectXboxFromUseragent($ua)
+    private function detectXbox($ua)
     {
         /* Xbox 360 */
 
         if (preg_match('/Xbox\)$/u', $ua, $match)) {
-            $this->os->reset();
+            $this->data->os->reset();
 
-            $this->device->manufacturer = 'Microsoft';
-            $this->device->model = 'Xbox 360';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Microsoft';
+            $this->data->device->model = 'Xbox 360';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
 
         /* Xbox One */
 
         if (preg_match('/Xbox One\)/u', $ua, $match)) {
-            if ($this->isOs('Windows Phone', '=', '10')) {
-                $this->os->name = 'Windows';
-                $this->os->version->alias = '10';
+            if ($this->data->isOs('Windows Phone', '=', '10')) {
+                $this->data->os->name = 'Windows';
+                $this->data->os->version->alias = '10';
             }
 
-            if (!$this->isOs('Windows', '=', '10')) {
-                $this->os->reset();
+            if (!$this->data->isOs('Windows', '=', '10')) {
+                $this->data->os->reset();
             }
 
-            $this->device->manufacturer = 'Microsoft';
-            $this->device->model = 'Xbox One';
-            $this->device->type = Constants\DeviceType::GAMING;
-            $this->device->subtype = Constants\DeviceSubType::CONSOLE;
-            $this->device->identified |= Constants\Id::MATCH_UA;
-            $this->device->generic = false;
+            $this->data->device->manufacturer = 'Microsoft';
+            $this->data->device->model = 'Xbox One';
+            $this->data->device->type = Constants\DeviceType::GAMING;
+            $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
     }
 }

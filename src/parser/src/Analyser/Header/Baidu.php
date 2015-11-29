@@ -2,14 +2,16 @@
 
 namespace WhichBrowser\Analyser\Header;
 
-trait Baidu
+class Baidu
 {
-    private function analyseBaiduHeader($ua)
+    public function __construct($header, &$data)
     {
-        if (!isset($this->browser->name) || $this->browser->name != 'Baidu Browser') {
-            $this->browser->name = 'Baidu Browser';
-            $this->browser->version = null;
-            $this->browser->stock = false;
+        $this->data =& $data;
+
+        if (!isset($this->data->browser->name) || $this->data->browser->name != 'Baidu Browser') {
+            $this->data->browser->name = 'Baidu Browser';
+            $this->data->browser->version = null;
+            $this->data->browser->stock = false;
         }
     }
 }

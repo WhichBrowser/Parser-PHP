@@ -3,12 +3,15 @@
 namespace WhichBrowser;
 
 use WhichBrowser\Constants;
+use WhichBrowser\Data\Main;
 
-trait Analyser
+class Analyser
 {
     use Analyser\Header, Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
 
-    public function analyse($options)
+    private $data;
+
+    public function __construct($options)
     {
         if (is_string($options)) {
             $this->options = (object) [ 'headers' => [ 'User-Agent' => $options ] ];
@@ -21,30 +24,30 @@ trait Analyser
         if (isset($this->options->headers)) {
             $this->headers = $this->options->headers;
         }
+    }
 
+    public function setData(&$data)
+    {
+        $this->data =& $data;
+    }
 
-        /* Analyse the headers  */
+    public function &getData()
+    {
+        return $this->data;
+    }
 
-        $this->analyseHeaders();
+    public function analyse()
+    {
+        if (!isset($this->data)) {
+            $this->data = new Main();
+        }
 
+        /* Start the actual analysing steps */
 
-        /* Derive more information from everything we have gathered  */
-
-        $this->deriveInformation();
-
-
-        /* Apply corrections  */
-
-        $this->applyCorrections();
-
-
-        /* Detect if the browser is camouflaged */
-
-        $this->detectCamouflage();
-
-
-        /* Determine subtype of devices */
-
-        $this->deriveDeviceSubType();
+        $this->analyseHeaders()
+             ->deriveInformation()
+             ->applyCorrections()
+             ->detectCamouflage()
+             ->deriveDeviceSubType();
     }
 }

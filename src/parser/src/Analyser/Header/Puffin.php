@@ -4,44 +4,46 @@ namespace WhichBrowser\Analyser\Header;
 
 use WhichBrowser\Data;
 
-trait Puffin
+class Puffin
 {
-    private function analysePuffinUserAgent($ua)
+    public function __construct($header, &$data)
     {
-        $parts = explode('/', $ua);
+        $this->data =& $data;
 
-        if ($this->browser->name != 'Puffin') {
-            $this->browser->name = 'Puffin';
-            $this->browser->version = null;
-            $this->browser->stock = false;
+        $parts = explode('/', $header);
+
+        if ($this->data->browser->name != 'Puffin') {
+            $this->data->browser->name = 'Puffin';
+            $this->data->browser->version = null;
+            $this->data->browser->stock = false;
         }
 
-        $this->device->type = 'mobile';
+        $this->data->device->type = 'mobile';
 
         if (count($parts) > 1 && $parts[0] == 'Android') {
-            if (!isset($this->os->name) || $this->os->name != 'Android') {
-                $this->os->name = 'Android';
-                $this->os->version = null;
+            if (!isset($this->data->os->name) || $this->data->os->name != 'Android') {
+                $this->data->os->name = 'Android';
+                $this->data->os->version = null;
             }
 
             $device = Data\DeviceModels::identify('android', $parts[1]);
             if ($device->identified) {
-                $device->identified |= $this->device->identified;
-                $this->device = $device;
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
             }
         }
 
         if (count($parts) > 1 && $parts[0] == 'iPhone OS') {
-            if (!isset($this->os->name) || $this->os->name != 'iOS') {
-                $this->os->name = 'iOS';
-                $this->os->version = null;
+            if (!isset($this->data->os->name) || $this->data->os->name != 'iOS') {
+                $this->data->os->name = 'iOS';
+                $this->data->os->version = null;
             }
 
             $device = Data\DeviceModels::identify('ios', $parts[1]);
 
             if ($device->identified) {
-                $device->identified |= $this->device->identified;
-                $this->device = $device;
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
             }
         }
     }

@@ -7,14 +7,16 @@ trait Device
     use Device\Cars, Device\Gaming, Device\Ereader, Device\Mobile,
         Device\Media, Device\Television, Device\Signage;
 
-    private function detectDeviceFromUseragent($ua)
+    private function &detectDevice($ua)
     {
-        $this->detectCarsFromUseragent($ua);
-        $this->detectEreaderFromUseragent($ua);
-        $this->detectGamingFromUseragent($ua);
-        $this->detectTelevisionFromUseragent($ua);
-        $this->detectSignageFromUseragent($ua);
-        $this->detectMediaFromUseragent($ua);
-        $this->detectMobileFromUseragent($ua);
+        $this->detectCars($ua);
+        $this->detectEreader($ua);
+        $this->detectGaming($ua);
+        $this->detectTelevision($ua);
+        $this->detectSignage($ua);
+        $this->detectMedia($ua);
+        $this->detectMobile($ua);
+
+        return $this;
     }
 }

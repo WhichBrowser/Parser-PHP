@@ -2,12 +2,12 @@
 
 namespace WhichBrowser\Analyser;
 
+use WhichBrowser\Constants;
+use WhichBrowser\Parser;
+
 trait Header
 {
-    use Header\Baidu, Header\BrowserId, Header\OperaMini, Header\Puffin,
-        Header\UC, Header\Useragent, Header\Wap;
-
-    private function analyseHeaders()
+    private function &analyseHeaders()
     {
         /* Analyse the main useragent header */
 
@@ -74,7 +74,68 @@ trait Header
         if ($header = $this->getHeader('X-Wap-Profile')) {
             $this->analyseWapProfile($header);
         }
+
+        return $this;
     }
+
+
+
+    private function analyseUserAgent($header)
+    {
+        new Header\Useragent($header, $this->data);
+    }
+
+    private function analyseBaiduHeader($header)
+    {
+        new Header\Baidu($header, $this->data);
+    }
+
+    private function analyseOperaMiniPhone($header)
+    {
+        new Header\OperaMini($header, $this->data);
+    }
+
+    private function analyseBrowserId($header)
+    {
+        new Header\BrowserId($header, $this->data);
+    }
+
+    private function analysePuffinUserAgent($header)
+    {
+        new Header\Puffin($header, $this->data);
+    }
+
+    private function analyseNewUCUserAgent($header)
+    {
+        new Header\UCBrowserNew($header, $this->data);
+    }
+
+    private function analyseOldUCUserAgent($header)
+    {
+        new Header\UCBrowserOld($header, $this->data);
+    }
+
+    private function analyseWapProfile($header)
+    {
+        new Header\Wap($header, $this->data);
+    }
+
+
+    private function additionalUserAgent($ua)
+    {
+        $extra = new Parser($ua);
+
+        if ($extra->device->type != Constants\DeviceType::DESKTOP) {
+            if (isset($extra->os->name)) {
+                $this->data->os = $extra->os;
+            }
+            
+            if ($extra->device->identified) {
+                $this->data->device = $extra->device;
+            }
+        }
+    }
+
 
     private function getHeader($h)
     {
