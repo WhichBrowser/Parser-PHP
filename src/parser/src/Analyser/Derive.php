@@ -189,12 +189,8 @@ trait Derive
             }
 
             if ($this->isBrowser('Chrome')) {
+                $this->browser->reset();
                 $this->browser->using = new Using([ 'name' => 'Amazon WebView' ]);
-
-                $this->browser->stock = false;
-                $this->browser->name = null;
-                $this->browser->version = null;
-                $this->browser->channel = null;
             }
 
             if ($this->browser->isUsing('Chromium WebView')) {

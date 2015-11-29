@@ -25,7 +25,7 @@ trait Ereader
     private function detectKindleFromUseragent($ua)
     {
         if (preg_match('/Kindle/u', $ua) && !preg_match('/Fire/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Amazon';
             $this->device->series = 'Kindle';
@@ -79,7 +79,7 @@ trait Ereader
     private function detectBookeenFromUseragent($ua)
     {
         if (preg_match('/bookeen\/cybook/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Bookeen';
             $this->device->series = 'Cybook';
@@ -94,8 +94,7 @@ trait Ereader
     private function detectKoboFromUseragent($ua)
     {
         if (preg_match('/Kobo Touch/u', $ua, $match)) {
-            $this->os->name = '';
-            $this->os->version = null;
+            $this->os->reset();
 
             $this->device->manufacturer = 'Kobo';
             $this->device->series = 'eReader';
@@ -110,7 +109,7 @@ trait Ereader
     private function detectSonyreaderFromUseragent($ua)
     {
         if (preg_match('/EBRD([0-9]+)/u', $ua, $match)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Sony';
             $this->device->series = 'Reader';
@@ -144,7 +143,7 @@ trait Ereader
     private function detectPocketbookFromUseragent($ua)
     {
         if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'PocketBook';
             $this->device->type = Constants\DeviceType::EREADER;
@@ -205,7 +204,7 @@ trait Ereader
     private function detectIriverFromUseragent($ua)
     {
         if (preg_match('/Iriver ;/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'iRiver';
             $this->device->series = 'Story';

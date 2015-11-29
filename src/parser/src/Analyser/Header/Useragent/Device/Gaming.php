@@ -33,7 +33,7 @@ trait Gaming
         /* Wii */
 
         if (preg_match('/Nintendo Wii/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Nintendo';
             $this->device->model = 'Wii';
@@ -46,7 +46,7 @@ trait Gaming
         /* Wii U */
 
         if (preg_match('/Nintendo Wii ?U/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Nintendo';
             $this->device->model = 'Wii U';
@@ -59,7 +59,7 @@ trait Gaming
         /* DS */
 
         if (preg_match('/Nintendo DS/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Nintendo';
             $this->device->model = 'DS';
@@ -72,7 +72,7 @@ trait Gaming
         /* DSi */
 
         if (preg_match('/Nintendo DSi/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Nintendo';
             $this->device->model = 'DSi';
@@ -85,7 +85,7 @@ trait Gaming
         /* 3DS */
 
         if (preg_match('/Nintendo 3DS/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
                 $this->os->version = new Version([ 'value' => $match[1] ]);
@@ -102,7 +102,7 @@ trait Gaming
         /* New 3DS */
 
         if (preg_match('/New Nintendo 3DS/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
                 $this->os->version = new Version([ 'value' => $match[1] ]);
@@ -125,7 +125,7 @@ trait Gaming
         /* PlayStation Portable */
 
         if (preg_match('/PlayStation Portable/u', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             $this->device->manufacturer = 'Sony';
             $this->device->model = 'Playstation Portable';
@@ -137,9 +137,12 @@ trait Gaming
 
         /* PlayStation Vita */
 
-        if (preg_match('/PlayStation Vita ([0-9.]*)/u', $ua, $match)) {
-            $this->os->name = '';
-            $this->os->version = new Version([ 'value' => $match[1] ]);
+        if (preg_match('/PlayStation Vita/u', $ua)) {
+            $this->os->reset();
+
+            if (preg_match('/PlayStation Vita ([0-9.]*)/u', $ua, $match)) {
+                $this->os->version = new Version([ 'value' => $match[1] ]);
+            }
 
             $this->device->manufacturer = 'Sony';
             $this->device->model = 'Playstation Vita';
@@ -156,7 +159,7 @@ trait Gaming
         /* PlayStation 3 */
 
         if (preg_match('/PlayStation 3/ui', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             if (preg_match('/PLAYSTATION 3;? ([0-9.]*)/u', $ua, $match)) {
                 $this->os->version = new Version([ 'value' => $match[1] ]);
@@ -173,7 +176,7 @@ trait Gaming
         /* PlayStation 4 */
 
         if (preg_match('/PlayStation 4/ui', $ua)) {
-            $this->os->name = '';
+            $this->os->reset();
 
             if (preg_match('/PlayStation 4 ([0-9.]*)/u', $ua, $match)) {
                 $this->os->version = new Version([ 'value' => $match[1] ]);
@@ -196,8 +199,7 @@ trait Gaming
         /* Xbox 360 */
 
         if (preg_match('/Xbox\)$/u', $ua, $match)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Microsoft';
             $this->device->model = 'Xbox 360';
@@ -216,8 +218,7 @@ trait Gaming
             }
 
             if (!$this->isOs('Windows', '=', '10')) {
-                unset($this->os->name);
-                unset($this->os->version);
+                $this->os->reset();
             }
 
             $this->device->manufacturer = 'Microsoft';

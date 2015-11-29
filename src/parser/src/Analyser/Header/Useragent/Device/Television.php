@@ -364,8 +364,7 @@ trait Television
         /* KreaTV */
 
         if (preg_match('/KreaTV/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->series = 'KreaTV';
             $this->device->type = Constants\DeviceType::TELEVISION;
@@ -380,8 +379,7 @@ trait Television
         /* ADB */
 
         if (preg_match('/\(ADB; ([^\)]+)\)/u', $ua, $match)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'ADB';
             $this->device->model = ($match[1] != 'Unknown' ? str_replace('ADB', '', $match[1]) . ' ' : '') . 'IPTV receiver';
@@ -393,8 +391,7 @@ trait Television
         /* MStar */
 
         if (preg_match('/Mstar;OWB/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'MStar';
             $this->device->model = 'PVR';
@@ -407,8 +404,7 @@ trait Television
         /* TechniSat */
 
         if (preg_match('/TechniSat ([^;]+);/u', $ua, $match)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'TechniSat';
             $this->device->model = $match[1];
@@ -420,8 +416,7 @@ trait Television
         /* Technicolor */
 
         if (preg_match('/Technicolor_([^;]+);/u', $ua, $match)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Technicolor';
             $this->device->model = $match[1];
@@ -433,8 +428,7 @@ trait Television
         /* Winbox Evo2 */
 
         if (preg_match('/Winbox Evo2/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Winbox';
             $this->device->model = 'Evo2';
@@ -446,8 +440,7 @@ trait Television
         /* DuneHD */
 
         if (preg_match('/DuneHD\//u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Dune HD';
             $this->device->model = '';
@@ -462,8 +455,7 @@ trait Television
         /* Roku  */
 
         if (preg_match('/^Roku\/DVP-([0-9]+)/u', $ua, $match)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Roku';
             $this->device->type = Constants\DeviceType::TELEVISION;
@@ -505,8 +497,7 @@ trait Television
         /* AppleTV */
 
         if (preg_match('/AppleTV[0-9],[0-9]/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Apple';
             $this->device->model = 'AppleTV';
@@ -518,8 +509,7 @@ trait Television
         /* WebTV */
 
         if (preg_match('/WebTV\/[0-9.]/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Microsoft';
             $this->device->model = 'WebTV';
@@ -538,8 +528,7 @@ trait Television
         /* MediStream */
 
         if (preg_match('/MediStream/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Bewatec';
             $this->device->model = 'MediStream';
