@@ -6,8 +6,21 @@ use WhichBrowser\Model\Primitive\Base;
 
 class Version extends Base
 {
+    /** @var string|null */
     public $value = null;
+
+    /** @var boolean */
     public $hidden = false;
+
+
+    /**
+     * Determine if the version is lower, equal or higher than the specified value
+     *
+     * @param  string   $operator   The operator, must be <, <=, =, >= or >
+     * @param  mixed    $value      The value, can be an integer, float or string with a version number
+     *
+     * @return boolean
+     */
 
     public function is()
     {
@@ -56,6 +69,18 @@ class Version extends Base
         return $valid;
     }
 
+
+    /**
+     * Convert a version string seperated by dots into a float that can be compared
+     *
+     * @internal
+     *
+     * @param  string   $vaiue      Version string, with elements seperated by a dot
+     * @param  int      $count      The maximum precision
+     *
+     * @return float
+     */
+
     private function toValue($value = null, $count = null)
     {
         if (is_null($value)) {
@@ -80,15 +105,36 @@ class Version extends Base
         return floatval($result);
     }
 
+
+    /**
+     * Return the version as a float
+     *
+     * @return float
+     */
+
     public function toFloat()
     {
         return floatval($this->value);
     }
 
+
+    /**
+     * Return the version as an integer
+     *
+     * @return int
+     */
+
     public function toNumber()
     {
         return intval($this->value);
     }
+
+
+    /**
+     * Return the version as a human readable string
+     *
+     * @return string
+     */
 
     public function toString()
     {
@@ -146,6 +192,13 @@ class Version extends Base
 
         return $version;
     }
+
+
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
 
     public function toArray()
     {

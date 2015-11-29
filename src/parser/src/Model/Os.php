@@ -6,7 +6,13 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Os extends NameVersion
 {
+    /** @var string */
     public $family;
+
+
+    /**
+     * Set the properties to the default values
+     */
 
     public function reset()
     {
@@ -14,6 +20,13 @@ class Os extends NameVersion
 
         unset($this->family);
     }
+
+
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
 
     public function toArray()
     {

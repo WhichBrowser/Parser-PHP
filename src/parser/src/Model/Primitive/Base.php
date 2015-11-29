@@ -4,6 +4,11 @@ namespace WhichBrowser\Model\Primitive;
 
 class Base
 {
+    /**
+     * Set the properties of the object the the values specified in the array
+     *
+     * @param  array|null   An array, the key of an element determines the name of the property
+     */
     public function __construct($defaults = null)
     {
         if (is_array($defaults)) {
@@ -12,6 +17,13 @@ class Base
             }
         }
     }
+
+
+    /**
+     * Get a string containing a JavaScript representation of the object
+     *
+     * @return string
+     */
 
     public function toJavaScript()
     {

@@ -6,6 +6,12 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Engine extends NameVersion
 {
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
+
     public function toArray()
     {
         $result = [];

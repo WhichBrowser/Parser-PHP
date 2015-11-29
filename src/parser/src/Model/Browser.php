@@ -6,13 +6,28 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Browser extends NameVersion
 {
+    /** @var string */
     public $channel;
+
+    /** @var \WhichBrowser\Model\Using */
     public $using;
+
+    /** @var \WhichBrowser\Model\Family */
     public $family;
 
+    /** @var boolean */
     public $stock = true;
+
+    /** @var boolean */
     public $hidden = false;
+
+    /** @var string */
     public $mode = '';
+
+
+    /**
+     * Set the properties to the default values
+     */
 
     public function reset()
     {
@@ -27,11 +42,27 @@ class Browser extends NameVersion
         $this->mode = '';
     }
 
+
+    /**
+     * Get the name in a human readable format
+     *
+     * @return string
+     */
+
     public function getName()
     {
         $name = !empty($this->alias) ? $this->alias : (!empty($this->name) ? $this->name : '');
         return $name ? $name . (!empty($this->channel) ? ' ' . $this->channel : '') : '';
     }
+
+
+    /**
+     * Is the browser using the specified webview
+     *
+     * @param  string   $s      The name of the webview
+     *
+     * @return boolean
+     */
 
     public function isUsing($s)
     {
@@ -44,6 +75,13 @@ class Browser extends NameVersion
         return false;
     }
 
+
+    /**
+     * Get a combined name and version number in a human readable format
+     *
+     * @return string
+     */
+
     public function toString()
     {
         $result = trim(($this->hidden == false ? $this->getName() . ' ' : '') . $this->getVersion());
@@ -54,6 +92,13 @@ class Browser extends NameVersion
 
         return $result;
     }
+
+
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
 
     public function toArray()
     {

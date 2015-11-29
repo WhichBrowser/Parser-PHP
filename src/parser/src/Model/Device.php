@@ -7,15 +7,35 @@ use WhichBrowser\Model\Primitive\Base;
 
 class Device extends Base
 {
+    /** @var string */
     public $manufacturer;
+
+    /** @var string */
     public $model;
+
+    /** @var string */
     public $series;
+
+    /** @var int */
     public $identifier;
 
+
+    /** @var string */
     public $type = '';
+
+    /** @var string */
     public $subtype = '';
+
+    /** @var int */
     public $identified = Constants\Id::NONE;
+
+    /** @var boolean */
     public $generic = true;
+
+
+    /**
+     * Set the properties to the default values
+     */
 
     public function reset()
     {
@@ -30,10 +50,24 @@ class Device extends Base
         $this->generic = true;
     }
 
+
+    /**
+     * Get the name of the manufacturer in a human readable format
+     *
+     * @return string
+     */
+
     public function getManufacturer()
     {
         return $this->identified && !empty($this->manufacturer) ? $this->manufacturer : '';
     }
+
+
+    /**
+     * Get the name of the model in a human readable format
+     *
+     * @return string
+     */
 
     public function getModel()
     {
@@ -43,6 +77,13 @@ class Device extends Base
 
         return !empty($this->model) ? $this->model : '';
     }
+
+
+    /**
+     * Get the combined name of the manufacturer and model in a human readable format
+     *
+     * @return string
+     */
 
     public function toString()
     {
@@ -60,10 +101,24 @@ class Device extends Base
         return !empty($this->model) ? 'unrecognized device (' . $this->model . ')' : '';
     }
 
+
+    /**
+     * Check if device information is detected
+     *
+     * @return boolean
+     */
+
     public function isDetected()
     {
         return !empty($this->type) || !empty($this->model) || !empty($this->manufacturer);
     }
+
+
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
 
     public function toArray()
     {

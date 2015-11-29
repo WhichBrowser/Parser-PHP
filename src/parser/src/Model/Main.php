@@ -9,15 +9,28 @@ use WhichBrowser\Model\Device;
 
 class Main
 {
+    /** @var \WhichBrowser\Model\Browser */
     public $browser;
+
+    /** @var \WhichBrowser\Model\Engine */
     public $engine;
+
+    /** @var \WhichBrowser\Model\Os */
     public $os;
+
+    /** @var \WhichBrowser\Model\Device */
     public $device;
 
+    /** @var boolean */
     public $camouflage = false;
+
+    /** @var int[] */
     public $features = [];
 
 
+    /**
+     * Create default objects
+     */
 
     public function __construct()
     {
@@ -26,6 +39,20 @@ class Main
         $this->os = new Os();
         $this->device = new Device();
     }
+
+
+    /**
+     * Check the name of a property and optionally is a specific version
+     *
+     * @internal
+     *
+     * @param  string   $property   The name of the property, such as 'browser', 'engine' or 'os'
+     * @param  string   $name       The name of the browser that is checked
+     * @param  string   $operator   Optional, the operator, must be <, <=, =, >= or >
+     * @param  mixed    $value      Optional, the value, can be an integer, float or string with a version number
+     *
+     * @return boolean
+     */
 
     private function isX()
     {
@@ -48,12 +75,34 @@ class Main
         return $valid;
     }
 
+
+    /**
+     * Check the name of the browser and optionally is a specific version
+     *
+     * @param  string   $name       The name of the browser that is checked
+     * @param  string   $operator   Optional, the operator, must be <, <=, =, >= or >
+     * @param  mixed    $value      Optional, the value, can be an integer, float or string with a version number
+     *
+     * @return boolean
+     */
+
     public function isBrowser()
     {
         $arguments = func_get_args();
         array_unshift($arguments, 'browser');
         return call_user_func_array([ $this, 'isX' ], $arguments);
     }
+
+
+    /**
+     * Check the name of the rendering engine and optionally is a specific version
+     *
+     * @param  string   $name       The name of the rendering engine that is checked
+     * @param  string   $operator   Optional, the operator, must be <, <=, =, >= or >
+     * @param  mixed    $value      Optional, the value, can be an integer, float or string with a version number
+     *
+     * @return boolean
+     */
 
     public function isEngine()
     {
@@ -62,6 +111,17 @@ class Main
         return call_user_func_array([ $this, 'isX' ], $arguments);
     }
 
+
+    /**
+     * Check the name of the operating system and optionally is a specific version
+     *
+     * @param  string   $name       The name of the operating system that is checked
+     * @param  string   $operator   Optional, the operator, must be <, <=, =, >= or >
+     * @param  mixed    $value      Optional, the value, can be an integer, float or string with a version number
+     *
+     * @return boolean
+     */
+
     public function isOs()
     {
         $arguments = func_get_args();
@@ -69,15 +129,41 @@ class Main
         return call_user_func_array([ $this, 'isX' ], $arguments);
     }
 
+
+    /**
+     * Check if the detected browser is of the specified type
+     *
+     * @param  string   $d          The type, or a combination of type and subtime joined with a semicolon.
+     *
+     * @return boolean
+     */
+
     public function isDevice($d)
     {
         return (!empty($this->device->series) && $this->device->series == $d) || (!empty($this->device->model) && $this->device->model == $d);
     }
 
+
+    /**
+     * Get the type and subtile (if applicable)
+     *
+     * @return string
+     */
+
     public function getType()
     {
         return $this->device->type . (!empty($this->device->subtype) ? ':' . $this->device->subtype : '');
     }
+
+
+    /**
+     * Check if the detected browser is of the specified type
+     *
+     * @param  string   $type       The type, or a combination of type and subtime joined with a semicolon.
+     * @param  string   $type,...   Unlimited optional types to check
+     *
+     * @return boolean
+     */
 
     public function isType()
     {
@@ -99,15 +185,40 @@ class Main
         return false;
     }
 
+
+    /**
+     * Check if a browser was detected
+     *
+     * @return boolean
+     */
+
     public function isDetected()
     {
         return $this->browser->isDetected() || $this->os->isDetected() || $this->engine->isDetected() || $this->device->isDetected();
     }
 
+
+    /**
+     * Return the input string prefixed with 'a' or 'an' depending on the first letter of the string
+     *
+     * @internal
+     *
+     * @param  string   $s      The string that will be prefixed
+     *
+     * @return string
+     */
+
     private function a($s)
     {
         return (preg_match("/^[aeiou]/i", $s) ? 'an ' : 'a ') . $s;
     }
+
+
+    /**
+     * Get a human readable string of the whole browser identification
+     *
+     * @return string
+     */
 
     public function toString()
     {
@@ -166,6 +277,13 @@ class Main
         return 'an unknown browser';
     }
 
+
+    /**
+     * Get a string containing a JavaScript representation of the object
+     *
+     * @return string
+     */
+
     public function toJavaScript()
     {
         return "this.browser = new Browser({ " . $this->browser->toJavaScript() . " });\n" .
@@ -175,6 +293,13 @@ class Main
                "this.camouflage = " . ($this->camouflage ? 'true' : 'false') . ";\n" .
                "this.features = " . json_encode($this->features) . ";\n";
     }
+
+
+    /**
+     * Get an array of all defined properties
+     *
+     * @return array
+     */
 
     public function toArray()
     {
