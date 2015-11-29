@@ -4,7 +4,7 @@
 
 namespace WhichBrowser\Data;
 
-BrowserIds::$ANDROID_BROWSERS = array(
+BrowserIds::$ANDROID_BROWSERS = [
     'com.agilebits.onepassword'                                                                           => '1Password',
     'com.browser2345'                                                                                     => '2345 Browser',
     'com.browser2345hd'                                                                                   => '2345 Browser HD',
@@ -284,4 +284,4 @@ BrowserIds::$ANDROID_BROWSERS = array(
     'com.zetakey.browser'                                                                                 => 'Zetakey',
     'org.zirco'                                                                                           => 'Zirco Browser',
     'com.zte.browser'                                                                                     => 'ZTE Browser',
-);
+];
