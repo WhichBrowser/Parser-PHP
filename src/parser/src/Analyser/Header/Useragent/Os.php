@@ -11,7 +11,6 @@ trait Os
 {
     private function detectOperatingSystemFromUseragent($ua)
     {
-
         $this->detectUnixFromUseragent($ua);
         $this->detectDarwinFromUseragent($ua);
         $this->detectWindowsFromUseragent($ua);
@@ -31,7 +30,6 @@ trait Os
 
     private function refineOperatingSystemFromUseragent($ua)
     {
-
         $this->determineAndroidVersionBasedOnBuild($ua);
     }
 
@@ -95,19 +93,16 @@ trait Os
                 if ($this->os->version->is('<', '10.7')) {
                     $this->os->alias = 'Mac OS X';
                 }
+                
                 if ($this->os->version->is('10.7')) {
                     $this->os->version->nickname = 'Lion';
-                }
-                if ($this->os->version->is('10.8')) {
+                } elseif ($this->os->version->is('10.8')) {
                     $this->os->version->nickname = 'Mountain Lion';
-                }
-                if ($this->os->version->is('10.9')) {
+                } elseif ($this->os->version->is('10.9')) {
                     $this->os->version->nickname = 'Mavericks';
-                }
-                if ($this->os->version->is('10.10')) {
+                } elseif ($this->os->version->is('10.10')) {
                     $this->os->version->nickname = 'Yosemite';
-                }
-                if ($this->os->version->is('10.11')) {
+                } elseif ($this->os->version->is('10.11')) {
                     $this->os->version->nickname = 'El Capitan';
                 }
             }
@@ -174,9 +169,11 @@ trait Os
                 }
 
                 $this->device->type = Constants\DeviceType::MOBILE;
+
                 if ($this->os->version->toFloat() >= 3) {
                     $this->device->type = Constants\DeviceType::TABLET;
                 }
+
                 if ($this->os->version->toFloat() >= 4 && preg_match('/Mobile/u', $ua)) {
                     $this->device->type = Constants\DeviceType::MOBILE;
                 }

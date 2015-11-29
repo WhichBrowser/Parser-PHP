@@ -9,7 +9,6 @@ trait Gaming
 {
     private function detectGamingFromUseragent($ua)
     {
-
         if (preg_match('/Nintendo/iu', $ua)) {
             $this->detectNintendoFromUseragent($ua);
         }
@@ -149,7 +148,7 @@ trait Gaming
             $this->device->identified |= Constants\Id::MATCH_UA;
             $this->device->generic = false;
 
-            if (preg_match('/VTE\//u', $ua, $match)) {
+            if (preg_match('/VTE\//u', $ua)) {
                 $this->device->model = 'Playstation TV';
             }
         }

@@ -19,8 +19,7 @@ trait Media
     private function detectZuneFromUseragent($ua)
     {
         if (preg_match('/Microsoft ZuneHD/u', $ua)) {
-            unset($this->os->name);
-            unset($this->os->version);
+            $this->os->reset();
 
             $this->device->manufacturer = 'Microsoft';
             $this->device->model = 'Zune HD';

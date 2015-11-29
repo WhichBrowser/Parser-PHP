@@ -14,18 +14,23 @@ trait Corrections
         if (isset($this->device->model)) {
             $this->hideDeviceModelIfMatchesLanguage();
         }
+
         if (isset($this->browser->name) && isset($this->os->name)) {
             $this->hideBrowserBasedOnOperatingSystem();
         }
+
         if (isset($this->browser->name) && isset($this->os->name)) {
             $this->correctVersionOfMobileInternetExplorer();
         }
+
         if (isset($this->browser->name) && $this->device->type == Constants\DeviceType::TELEVISION) {
             $this->hideBrowserOnDeviceTypeTelevision();
         }
+
         if ($this->device->type == Constants\DeviceType::TELEVISION) {
             $this->hideOsOnDeviceTypeTelevision();
         }
+        
         if (isset($this->browser->name) && isset($this->engine->name)) {
             $this->fixMidoriEngineName();
         }

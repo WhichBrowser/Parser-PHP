@@ -16,12 +16,14 @@ trait UC
             unset($this->os->name);
             unset($this->os->version);
         }
+
         if (!isset($this->browser->name) || $this->browser->name != 'UC Browser') {
             $this->browser->name = 'UC Browser';
             $this->browser->version = null;
         }
 
         $extra = new Parser([ 'headers' => [ 'User-Agent' => $ua ]]);
+        
         if ($extra->device->type != Constants\DeviceType::DESKTOP) {
             if (isset($extra->os->version)) {
                 $this->os = $extra->os;

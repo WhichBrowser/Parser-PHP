@@ -9,17 +9,11 @@ trait Ereader
     private function detectEreaderFromUseragent($ua)
     {
         $this->detectKindleFromUseragent($ua);
-
         $this->detectNookFromUseragent($ua);
-
         $this->detectBookeenFromUseragent($ua);
-
         $this->detectKoboFromUseragent($ua);
-
         $this->detectSonyreaderFromUseragent($ua);
-
         $this->detectPocketbookFromUseragent($ua);
-
         $this->detectIriverFromUseragent($ua);
     }
 
@@ -37,23 +31,23 @@ trait Ereader
             $this->device->series = 'Kindle';
             $this->device->type = Constants\DeviceType::EREADER;
 
-            if (preg_match('/Kindle\/1.0/u', $ua)) {
-                $this->device->model = 'Kindle 1';
-            }
-            if (preg_match('/Kindle\/2.0/u', $ua)) {
-                $this->device->model = 'Kindle 2';
-            }
-            if (preg_match('/Kindle\/2.5/u', $ua)) {
-                $this->device->model = 'Kindle 2';
-            }
-            if (preg_match('/Kindle\/3.0/u', $ua)) {
-                $this->device->model = 'Kindle 3';
-            }
-            if (preg_match('/Kindle\/3.0\+/u', $ua)) {
-                $this->device->model = 'Kindle 3 or later';
-            }
             if (preg_match('/Kindle SkipStone/u', $ua)) {
                 $this->device->model = 'Kindle Touch or later';
+            }
+            elseif (preg_match('/Kindle\/3.0\+/u', $ua)) {
+                $this->device->model = 'Kindle 3 or later';
+            }
+            elseif (preg_match('/Kindle\/3.0/u', $ua)) {
+                $this->device->model = 'Kindle 3';
+            }
+            elseif (preg_match('/Kindle\/2.5/u', $ua)) {
+                $this->device->model = 'Kindle 2';
+            }
+            elseif (preg_match('/Kindle\/2.0/u', $ua)) {
+                $this->device->model = 'Kindle 2';
+            }
+            elseif (preg_match('/Kindle\/1.0/u', $ua)) {
+                $this->device->model = 'Kindle 1';
             }
 
             if (!empty($this->device->model)) {

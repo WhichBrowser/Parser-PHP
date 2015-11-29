@@ -14,6 +14,7 @@ trait Derive
         if (isset($this->device->flag)) {
             $this->deriveBasedOnDeviceFlag();
         }
+
         if (isset($this->os->name)) {
             $this->deriveBasedOnOperatingSystem();
         }
@@ -21,6 +22,7 @@ trait Derive
         if (isset($this->browser->name)) {
             $this->deriveOperaDevices();
         }
+
         if (isset($this->browser->name)) {
             $this->deriveFirefoxOS();
         }

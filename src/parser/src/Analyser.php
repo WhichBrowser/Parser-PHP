@@ -8,7 +8,6 @@ trait Analyser
 {
     use Analyser\Header, Analyser\Derive, Analyser\Corrections, Analyser\Camouflage;
 
-
     public function analyse($options)
     {
         if (is_string($options)) {
@@ -22,7 +21,6 @@ trait Analyser
         if (isset($this->options->headers)) {
             $this->headers = $this->options->headers;
         }
-
 
 
         /* Analyse the headers  */
