@@ -11,78 +11,69 @@ trait Header
     {
         /* Analyse the main useragent header */
 
-        $this->analyseUserAgent($this->hasHeader('User-Agent') ? $this->getHeader('User-Agent') : '');
+        if ($header = $this->getHeader('User-Agent')) {
+            $this->analyseUserAgent($header);
+        }
 
 
         /* Analyse secondary useragent headers */
 
-        if ($this->hasHeader('X-Original-User-Agent')) {
-            $this->additionalUserAgent($this->getHeader('X-Original-User-Agent'));
+        if ($header = $this->getHeader('X-Original-User-Agent')) {
+            $this->additionalUserAgent($header);
         }
         
-        if ($this->hasHeader('X-Device-User-Agent')) {
-            $this->additionalUserAgent($this->getHeader('X-Device-User-Agent'));
+        if ($header = $this->getHeader('X-Device-User-Agent')) {
+            $this->additionalUserAgent($header);
         }
         
-        if ($this->hasHeader('Device-Stock-UA')) {
-            $this->additionalUserAgent($this->getHeader('Device-Stock-UA'));
+        if ($header = $this->getHeader('Device-Stock-UA')) {
+            $this->additionalUserAgent($header);
         }
         
-        if ($this->hasHeader('X-OperaMini-Phone-UA')) {
-            $this->additionalUserAgent($this->getHeader('X-OperaMini-Phone-UA'));
+        if ($header = $this->getHeader('X-OperaMini-Phone-UA')) {
+            $this->additionalUserAgent($header);
         }
 
-        if ($this->hasHeader('X-UCBrowser-Device-UA')) {
-            $this->additionalUserAgent($this->getHeader('X-UCBrowser-Device-UA'));
+        if ($header = $this->getHeader('X-UCBrowser-Device-UA')) {
+            $this->additionalUserAgent($header);
         }
         
 
         /* Analyse browser specific headers */
 
-        if ($this->hasHeader('X-OperaMini-Phone')) {
-            $this->analyseOperaMiniPhone($this->getHeader('X-OperaMini-Phone'));
+        if ($header = $this->getHeader('X-OperaMini-Phone')) {
+            $this->analyseOperaMiniPhone($header);
         }
         
-        if ($this->hasHeader('X-UCBrowser-Phone-UA')) {
-            $this->analyseOldUCUserAgent($this->getHeader('X-UCBrowser-Phone-UA'));
+        if ($header = $this->getHeader('X-UCBrowser-Phone-UA')) {
+            $this->analyseOldUCUserAgent($header);
         }
         
-        if ($this->hasHeader('X-UCBrowser-UA')) {
-            $this->analyseNewUCUserAgent($this->getHeader('X-UCBrowser-UA'));
+        if ($header = $this->getHeader('X-UCBrowser-UA')) {
+            $this->analyseNewUCUserAgent($header);
         }
         
-        if ($this->hasHeader('X-Puffin-UA')) {
-            $this->analysePuffinUserAgent($this->getHeader('X-Puffin-UA'));
+        if ($header = $this->getHeader('X-Puffin-UA')) {
+            $this->analysePuffinUserAgent($header);
         }
         
-        if ($this->hasHeader('Baidu-FlyFlow')) {
-            $this->analyseBaiduHeader($this->getHeader('Baidu-FlyFlow'));
+        if ($header = $this->getHeader('Baidu-FlyFlow')) {
+            $this->analyseBaiduHeader($header);
         }
         
 
         /* Analyse Android WebView browser ids */
 
-        if ($this->hasHeader('X-Requested-With')) {
-            $this->analyseBrowserId($this->getHeader('X-Requested-With'));
+        if ($header = $this->getHeader('X-Requested-With')) {
+            $this->analyseBrowserId($header);
         }
         
 
         /* Analyse WAP profile header */
 
-        if ($this->hasHeader('X-Wap-Profile')) {
-            $this->analyseWapProfile($this->getHeader('X-Wap-Profile'));
+        if ($header = $this->getHeader('X-Wap-Profile')) {
+            $this->analyseWapProfile($header);
         }
-    }
-
-    private function hasHeader($h)
-    {
-        foreach ($this->headers as $k => $v) {
-            if (strtolower($h) == strtolower($k)) {
-                return true;
-            }
-        }
-
-        return false;
     }
 
     private function getHeader($h)
