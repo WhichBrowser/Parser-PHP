@@ -9,6 +9,17 @@ trait BrowserId
 {
     private function analyseBrowserId($id)
     {
+        /* The X-Requested-With header is send by the WebView, so our browser name is Chrome it is probably the Chromium WebView which is sometimes misidentified. */
+
+        if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
+            $version = $this->browser->getVersion();
+
+            $this->browser->reset();
+            $this->browser->using = new Using([ 'name' => 'Chromium WebView', 'version' => new Version([ 'value' => explode('.', $version)[0] ]) ]);
+        }
+
+        /* Detect the correct browser based on the header */
+
         $browser = Data\BrowserIds::identify('android', $id);
         if ($browser) {
             if (!isset($this->browser->name)) {
@@ -22,15 +33,6 @@ trait BrowserId
                     $this->browser->name = $browser;
                 }
             }
-        }
-
-        /* The X-Requested-With header is send by the WebView, so our browser name is Chrome it is probably the Chromium WebView which is sometimes misidentified. */
-
-        if (isset($this->browser->name) && $this->browser->name == 'Chrome') {
-            $this->browser->stock = true;
-            $this->browser->name = null;
-            $this->browser->version = null;
-            $this->browser->channel = null;
         }
 
         /* The X-Requested-With header is only send from Android devices */
