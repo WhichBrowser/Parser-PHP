@@ -460,11 +460,7 @@ trait Os
                 switch ($match[1]) {
                     case '10.0':
                     case '6.4':
-                        if (preg_match('/; ARM;/u', $ua)) {
-                            $this->os->version = new Version([ 'value' => $match[1], 'alias' => 'RT 10' ]);
-                        } else {
-                            $this->os->version = new Version([ 'value' => $match[1], 'alias' => '10' ]);
-                        }
+                        $this->os->version = new Version([ 'value' => $match[1], 'alias' => '10' ]);
                         break;
 
                     case '6.3':
