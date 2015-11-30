@@ -17,8 +17,8 @@
     },
     
     "autoload": {
-        "classmap": [
-            "src/parser.php"
-        ]
+        "psr-4": {
+            "WhichBrowser\\": "src/"
+        }
     }
 }
