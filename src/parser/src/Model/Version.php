@@ -71,6 +71,60 @@ class Version extends Base
 
 
     /**
+     * Return an object with each part of the version number
+     *
+     * @return object
+     */
+
+    public function getParts()
+    {
+        $parts = explode('.', $this->value);
+
+        return (object) [
+            'major' => isset($parts[0]) ? intval($parts[0]) : 0,
+            'minor' => isset($parts[1]) ? intval($parts[1]) : 0,
+            'patch' => isset($parts[2]) ? intval($parts[2]) : 0,
+        ];
+    }
+
+
+    /**
+     * Return the major version as an integer
+     *
+     * @return integer
+     */
+
+    public function getMajor()
+    {
+        return $this->getParts()->major;
+    }
+
+
+    /**
+     * Return the minor version as an integer
+     *
+     * @return integer
+     */
+
+    public function getMinor()
+    {
+        return $this->getParts()->minor;
+    }
+
+
+    /**
+     * Return the build number as an integer
+     *
+     * @return integer
+     */
+
+    public function getBuild()
+    {
+        return $this->getParts()->build;
+    }
+
+
+    /**
      * Convert a version string seperated by dots into a float that can be compared
      *
      * @internal
