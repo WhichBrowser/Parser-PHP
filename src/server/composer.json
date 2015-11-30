@@ -1,6 +1,7 @@
 {
     "name": "whichbrowser/server",
     "description": "Useragent sniffing server for Javascript",
+    "type": "project",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",

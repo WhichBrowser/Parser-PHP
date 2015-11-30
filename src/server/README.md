@@ -15,23 +15,15 @@ The server should be able to handle PHP and included is a `.htaccess` file that 
 How to install it
 -----------------
 
-You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/server`. This sets up all dependancies like the PHP parser library.
+You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/server`. This sets up all dependancies like the PHP parser library. Go to an empty directory on your webserver, like the `www` or `public_html` directory of the domain where you want to install WhichBrowser.
 
-    composer require whichbrowser/server
+    composer create-project whichbrowser/server .
 
-You can easily update WhichBrowser by running a simple command. 
+This will install the server in the current directory and install the `whichbrowser/parser` dependancy. You can easily update the parser library by running a simple command. 
 
     composer update
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
-
-After installing with Composer you may need to create a symlink to the vendor directory in which WhichBrowser was installed:
-
-    ln -s vendor/whichbrowser/server whichbrowser
-
-Or create a `.htaccess` file in the root of your site and add an `Alias` command:
-
-    Alias /whichbrowser vendor/whichbrowser/server
 
 
 
