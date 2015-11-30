@@ -2,15 +2,19 @@
 
 namespace WhichBrowser\Model\Primitive;
 
+/**
+ * @internal
+ */
+
 class NameVersion extends Base
 {
-    /** @var string */
+    /**
+     * @var string                          $name       The name
+     * @var string                          $alias      An alternative name that is used for readable strings
+     * @var \WhichBrowser\Model\Version     $version    Version information
+     */
     public $name;
-
-    /** @var string */
     public $alias;
-
-    /** @var \WhichBrowser\Model\Browser */
     public $version;
 
 

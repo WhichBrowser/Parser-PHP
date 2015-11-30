@@ -2,6 +2,10 @@
 
 namespace WhichBrowser\Model\Primitive;
 
+/**
+ * @internal
+ */
+
 class Base
 {
     /**

@@ -10,21 +10,33 @@ use WhichBrowser\Model\Device;
 class Main
 {
     /**
-     * @var \WhichBrowser\Model\Browser     $browser    Information about the browser
-     * @var \WhichBrowser\Model\Engine      $engine     Information about the rendering engine
-     * @var \WhichBrowser\Model\Os          $os         Information about the operating system
-     * @var \WhichBrowser\Model\Device      $device     Information about the device
+     * @var \WhichBrowser\Model\Browser  $browser      Information about the browser
      */
     public $browser;
+
+    /**
+     * @var \WhichBrowser\Model\Engine   $engine       Information about the rendering engine
+     */
     public $engine;
+
+    /**
+     * @var \WhichBrowser\Model\Os       $os           Information about the operating system
+     */
     public $os;
+
+    /**
+     * @var \WhichBrowser\Model\Device   $device       Information about the device
+     */
     public $device;
 
-
-    /** @var boolean */
+    /**
+     * @var boolean                      $camouflage   Is the browser camouflaged as another browser
+     */
     public $camouflage = false;
 
-    /** @var int[] */
+    /**
+     * @var int[]                        $features       
+     */
     public $features = [];
 
 
@@ -159,7 +171,7 @@ class Main
     /**
      * Check if the detected browser is of the specified type
      *
-     * @param  string   $type       The type, or a combination of type and subtime joined with a semicolon.
+     * @param  string   $type       The type, or a combination of type and subtype joined with a semicolon.
      * @param  string   $type,...   Unlimited optional types to check
      *
      * @return boolean
