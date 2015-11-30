@@ -3,7 +3,7 @@
 namespace WhichBrowser;
 
 use WhichBrowser\Constants;
-use WhichBrowser\Data\Main;
+use WhichBrowser\Model\Main;
 
 class Analyser
 {
