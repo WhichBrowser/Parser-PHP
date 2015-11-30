@@ -14,6 +14,6 @@
     
     "require": {
         "php": ">=5.4.0",
-        "whichbrowser/parser": "1.*"
+        "whichbrowser/parser": "^2.0"
     }
 }

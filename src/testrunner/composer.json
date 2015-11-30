@@ -13,6 +13,6 @@
     ],
     "require": {
         "symfony/yaml": "^2.7",
-        "whichbrowser/parser": "1.*"
+        "whichbrowser/parser": "^2.0"
     }
 }
