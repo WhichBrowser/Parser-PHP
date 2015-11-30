@@ -9,17 +9,17 @@ use WhichBrowser\Model\Device;
 
 class Main
 {
-    /** @var \WhichBrowser\Model\Browser */
+    /**
+     * @var \WhichBrowser\Model\Browser     $browser    Information about the browser
+     * @var \WhichBrowser\Model\Engine      $engine     Information about the rendering engine
+     * @var \WhichBrowser\Model\Os          $os         Information about the operating system
+     * @var \WhichBrowser\Model\Device      $device     Information about the device
+     */
     public $browser;
-
-    /** @var \WhichBrowser\Model\Engine */
     public $engine;
-
-    /** @var \WhichBrowser\Model\Os */
     public $os;
-
-    /** @var \WhichBrowser\Model\Device */
     public $device;
+
 
     /** @var boolean */
     public $camouflage = false;
@@ -145,7 +145,7 @@ class Main
 
 
     /**
-     * Get the type and subtile (if applicable)
+     * Get the type and subtype, separated by a semicolon (if applicable)
      *
      * @return string
      */

@@ -9,6 +9,8 @@ class Using extends NameVersion
     /**
      * Get an array of all defined properties
      *
+     * @internal
+     *
      * @return array
      */
 

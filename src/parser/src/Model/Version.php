@@ -197,6 +197,8 @@ class Version extends Base
     /**
      * Get an array of all defined properties
      *
+     * @internal
+     *
      * @return array
      */
 

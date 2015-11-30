@@ -6,14 +6,16 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Browser extends NameVersion
 {
+    /**
+     * @var \WhichBrowser\Model\Using       $using      Information about web views the browser is using
+     * @var \WhichBrowser\Model\Family      $family     To which browser family does this browser belong
+     */
+    public $using;
+    public $family;
+
+
     /** @var string */
     public $channel;
-
-    /** @var \WhichBrowser\Model\Using */
-    public $using;
-
-    /** @var \WhichBrowser\Model\Family */
-    public $family;
 
     /** @var boolean */
     public $stock = true;
@@ -27,6 +29,8 @@ class Browser extends NameVersion
 
     /**
      * Set the properties to the default values
+     *
+     * @internal
      */
 
     public function reset()
@@ -96,6 +100,8 @@ class Browser extends NameVersion
 
     /**
      * Get an array of all defined properties
+     *
+     * @internal
      *
      * @return array
      */

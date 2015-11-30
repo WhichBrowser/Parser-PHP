@@ -35,6 +35,8 @@ class Device extends Base
 
     /**
      * Set the properties to the default values
+     *
+     * @internal
      */
 
     public function reset()
@@ -116,6 +118,8 @@ class Device extends Base
 
     /**
      * Get an array of all defined properties
+     *
+     * @internal
      *
      * @return array
      */

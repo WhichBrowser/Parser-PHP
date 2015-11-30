@@ -6,12 +6,16 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Os extends NameVersion
 {
-    /** @var string */
+    /**
+     * @var \WhichBrowser\Model\Family      $family     To which family does this operating system belong
+     */
     public $family;
 
 
     /**
      * Set the properties to the default values
+     *
+     * @internal
      */
 
     public function reset()
@@ -24,6 +28,8 @@ class Os extends NameVersion
 
     /**
      * Get an array of all defined properties
+     *
+     * @internal
      *
      * @return array
      */

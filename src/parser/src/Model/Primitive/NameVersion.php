@@ -16,6 +16,8 @@ class NameVersion extends Base
 
     /**
      * Set the properties to the default values
+     *
+     * @internal
      */
 
     public function reset()

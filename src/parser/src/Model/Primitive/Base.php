@@ -22,6 +22,8 @@ class Base
     /**
      * Get a string containing a JavaScript representation of the object
      *
+     * @internal
+     *
      * @return string
      */
 
