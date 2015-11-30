@@ -3,4 +3,4 @@
     result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; xx; SD4930UR Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.29 like Chrome/34.0.1847.137 Mobile Safari/537.36'
-    result: { browser: { name: Silk, version: '3.29' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '3' }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 34 }, version: '3.29' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '3' }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }

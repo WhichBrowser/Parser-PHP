@@ -306,6 +306,12 @@ trait Browser
             $this->data->browser->version = null;
             $this->data->browser->channel = null;
         }
+
+        /* Set the browser family */
+
+        if ($this->data->isBrowser('Chrome')) {
+            $this->data->browser->family = new Family([ 'name' => $this->data->browser->name, 'version' => new Version([ 'value' => $this->data->browser->version->getMajor() ]) ]);
+        }
     }
 
 
@@ -368,6 +374,13 @@ trait Browser
             $this->data->browser->name = 'Mobile Internet Explorer';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
         }
+
+
+        /* Set the browser family */
+
+        if ($this->data->isBrowser('Internet Explorer') || $this->data->isBrowser('Mobile Internet Explorer')) {
+            unset($this->data->browser->family);
+        }
     }
 
 
@@ -380,6 +393,13 @@ trait Browser
             $this->data->browser->alias = 'Edge ' . $match[1];
             $this->data->browser->channel = '';
             $this->data->browser->version = null;
+        }
+
+
+        /* Set the browser family */
+
+        if ($this->data->isBrowser('Edge')) {
+            unset($this->data->browser->family);
         }
     }
 
@@ -650,6 +670,13 @@ trait Browser
         if (preg_match('/FxiOS\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Firefox';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+        }
+
+
+        /* Set the browser family */
+
+        if ($this->data->isBrowser('Firefox')) {
+            $this->data->browser->family = new Family([ 'name' => $this->data->browser->name, 'version' => $this->data->browser->version ]);
         }
     }
 

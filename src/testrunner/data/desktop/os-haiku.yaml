@@ -27,7 +27,7 @@
     result: { browser: { name: WebPositive }, engine: { name: Webkit, version: '528' }, os: { name: Haiku }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; U; WebPositive/533.4; Haiku) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.55 Safari/533.4'
-    result: { browser: { name: WebPositive }, engine: { name: Webkit, version: '533.4' }, os: { name: Haiku }, device: { type: desktop } }
+    result: { browser: { name: WebPositive, family: { name: Chrome, version: 5 } }, engine: { name: Webkit, version: '533.4' }, os: { name: Haiku }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; x86 Haiku R1; xx) AppleWebKit/537.1 (KHTML, like Gecko) WebPositive/1.2 Safari/537.1'
     result: { browser: { name: WebPositive, version: '1.2' }, engine: { name: Webkit, version: '537.1' }, os: { name: Haiku }, device: { type: desktop } }

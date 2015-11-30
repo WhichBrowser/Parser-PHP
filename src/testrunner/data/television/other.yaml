@@ -105,10 +105,10 @@
     result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (+DRM+TRICKMODE; SERAPHIC; TV101; sw-v1.0; hw-v1.0) CE-HTML/1.0 FXM-U2FsdGVkX1+tH+IvjK4AyJIfuJUAyORg8ptl86EQiyLy7LytAiEgU3mKjwgF90uz-END'
-    result: { engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Seraphic, model: TV101 } }
+    result: { browser: { family: { name: Chrome, version: 30 } }, engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Seraphic, model: TV101 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (CHANGHONG; TV55; sw-v1.0;) CE-HTML/1.0 NETRANGEMMH'
-    result: { engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Changhong, model: TV55 } }
+    result: { browser: { family: { name: Chrome, version: 30 } }, engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Changhong, model: TV55 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux mips; U;HbbTV/1.1.1 (+RTSP;DMM;Dreambox;0.1a;1.0;) CE-HTML/1.0; xx) AppleWebKit/535.19 no/Volksbox QtWebkit/2.2'
     result: { engine: { name: Webkit, version: '535.19' }, device: { type: television, manufacturer: DMM, model: Dreambox } }

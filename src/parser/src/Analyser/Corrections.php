@@ -35,11 +35,20 @@ trait Corrections
             $this->fixMidoriEngineName();
         }
 
+        if (isset($this->data->browser->name) && isset($this->data->browser->family)) {
+            $this->hideFamilyIfEqualToBrowser();
+        }
+
         return $this;
     }
 
 
-
+    private function hideFamilyIfEqualToBrowser()
+    {
+        if ($this->data->browser->name == $this->data->browser->family->name) {
+            unset($this->data->browser->family);
+        }
+    }
 
     private function hideDeviceModelIfMatchesLanguage()
     {

@@ -6,7 +6,7 @@
     result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFSOWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36 OPR/26.0.1656.87080'
-    result: { browser: { name: Opera, version: '26.0' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD (2013)' } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD (2013)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFSOWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36'
     result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD (2013)' } }
@@ -45,37 +45,37 @@
     result: { browser: { name: Silk, version: '1.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFOT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.35 like Chrome/34.0.1847.137 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.35' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 34 }, version: '3.35' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFOT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.39 like Chrome/34.0.1847.137 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.39' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 34 }, version: '3.39' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFOT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; xx; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD 8.9"' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD 8.9"' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; xx; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD 8.9"' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD 8.9"' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX 8.9"' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX 8.9"' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFARWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.41' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.46 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.46' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.46' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.38 like Chrome/37.0.2026.117 Safari/537.36'
-    result: { browser: { name: Silk, version: '3.38' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
+    result: { browser: { name: Silk, family: { name: Chrome, version: 37 }, version: '3.38' }, engine: { name: Blink, version: '537.36' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; xx; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true'
     result: { browser: { name: Silk, version: '3.13' }, engine: { name: Webkit, version: '535.19' }, os: { name: FireOS, family: Android, version: '3' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX 8.9"' } }

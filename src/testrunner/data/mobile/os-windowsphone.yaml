@@ -750,7 +750,7 @@
     result: { browser: { name: 'QQ Browser', version: '3.7' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
 -
     headers: "User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx; rv:1.9.0.5) Gecko/200900101 Firefox/3.0.5\nX-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA RM-914_im_mea3_380);pr(UCBrowser/3.4.1.407);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);up(U2/1.0.0);pm(1);"
-    result: { browser: { name: 'UC Browser', version: '3.4' }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+    result: { browser: { name: 'UC Browser', family: { name: Firefox, version: 3.0.5 }, version: '3.4' }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
 -
     headers: "User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop) UCBrowser/3.1.1.343\nX-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(HTC  8S by HTC);pr(UCBrowser/3.1.1.343);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);pm(0);"
     result: { browser: { name: 'UC Browser', version: '3.1' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }

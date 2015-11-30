@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.4.56.ALSAN3.7 SonyCEBrowser/1.0 (BDPlayer; BDP10G_AX; BDP2015/M24.D.0104; XAE;)'
-    result: { browser: { name: 'Opera Devices', version: '4.1' }, engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Sony, model: BDP10G, series: 'Blu-ray Player' } }
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 32 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Sony, model: BDP10G, series: 'Blu-ray Player' } }
 -
     headers: 'User-Agent: OPR/17.0.1251.0 OMI/4.0.2.23, KreaTV/0.0.0.0 (ARRIS, VMS1100, wired)'
     result: { browser: { name: 'Opera Devices', version: '4.0' }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
