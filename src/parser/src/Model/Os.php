@@ -27,6 +27,30 @@ class Os extends NameVersion
 
 
     /**
+     * Is the operating from the specified family
+     *
+     * @param  string   $name   The name of the family
+     *
+     * @return boolean
+     */
+
+    public function isFamily($name)
+    {
+        if ($this->getName() == $name) {
+            return true;
+        }
+
+        if (isset($this->family)) {
+            if ($this->family->getName() == $name) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    /**
      * Get an array of all defined properties
      *
      * @internal

@@ -61,6 +61,30 @@ class Browser extends NameVersion
 
 
     /**
+     * Is the browser from the specified family
+     *
+     * @param  string   $name   The name of the family
+     *
+     * @return boolean
+     */
+
+    public function isFamily($name)
+    {
+        if ($this->getName() == $name) {
+            return true;
+        }
+
+        if (isset($this->family)) {
+            if ($this->family->getName() == $name) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    /**
      * Is the browser using the specified webview
      *
      * @param  string   $name   The name of the webview
