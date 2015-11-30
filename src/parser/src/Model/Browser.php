@@ -63,15 +63,15 @@ class Browser extends NameVersion
     /**
      * Is the browser using the specified webview
      *
-     * @param  string   $s      The name of the webview
+     * @param  string   $name   The name of the webview
      *
      * @return boolean
      */
 
-    public function isUsing($s)
+    public function isUsing($name)
     {
         if (isset($this->using)) {
-            if ($this->using->getName() == $s) {
+            if ($this->using->getName() == $name) {
                 return true;
             }
         }

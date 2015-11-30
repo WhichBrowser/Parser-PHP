@@ -145,14 +145,14 @@ class Main
     /**
      * Check if the detected browser is of the specified type
      *
-     * @param  string   $d          The type, or a combination of type and subtime joined with a semicolon.
+     * @param  string   $model      The type, or a combination of type and subtime joined with a semicolon.
      *
      * @return boolean
      */
 
-    public function isDevice($d)
+    public function isDevice($model)
     {
-        return (!empty($this->device->series) && $this->device->series == $d) || (!empty($this->device->model) && $this->device->model == $d);
+        return (!empty($this->device->series) && $this->device->series == $model) || (!empty($this->device->model) && $this->device->model == $model);
     }
 
 
