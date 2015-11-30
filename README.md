@@ -31,7 +31,7 @@ WhichBrowser server for Javascript
 
 There is also a server component that can called from your webpage and queried from Javascript: [WhichBrowser/Server](https://github.com/WhichBrowser/Server). You can install it by using Composer. It is available as the `whichbrowser/server` package using Composer.
 
-    composer require whichbrowser/server
+    composer create-project whichbrowser/server .
 
 For more information about the API and how to install, please see the [WhichBrowser/Server](https://github.com/WhichBrowser/Server) project.
 
