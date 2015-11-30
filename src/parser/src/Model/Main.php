@@ -35,7 +35,7 @@ class Main
     public $camouflage = false;
 
     /**
-     * @var int[]                        $features       
+     * @var int[]                        $features
      */
     public $features = [];
 
