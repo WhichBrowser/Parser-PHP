@@ -11,6 +11,10 @@ class Analyser
 
     private $data;
 
+    private $options;
+
+    private $headers = [];
+
     public function __construct($options)
     {
         if (is_string($options)) {
@@ -18,8 +22,6 @@ class Analyser
         } else {
             $this->options = (object) (isset($options['headers']) ? $options : [ 'headers' => $options ]);
         }
-
-        $this->headers = [];
 
         if (isset($this->options->headers)) {
             $this->headers = $this->options->headers;
