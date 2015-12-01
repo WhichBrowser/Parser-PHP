@@ -134,9 +134,9 @@ module.exports = function(grunt) {
                 open: true
             }
         },
-        tools: {
+        run: {
             options: {
-                base: 'tools',
+                base: 'bin',
                 port: 8080,
                 keepalive: true,
                 open: true
@@ -161,7 +161,7 @@ module.exports = function(grunt) {
       },
 
       updatechrome: {
-        cwd: 'tools',
+        cwd: 'bin',
         cmd: 'php -f update-chrome.php'
       }
     },
@@ -186,7 +186,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['generate', 'clean', 'copy:dist', 'exec:check', 'gitcheck']);
   grunt.registerTask('generate', ['wget', 'exec:updatechrome']);
   grunt.registerTask('release', ['generate', 'clean', 'copy:dist', 'copy:release', 'exec:check', 'gitcheck', 'bump', 'buildcontrol:legacy', 'buildcontrol:server', 'buildcontrol:parser', 'buildcontrol:testrunner']);
-  grunt.registerTask('tools', ['php:tools']);
+  grunt.registerTask('run', ['php:run']);
   grunt.registerTask('server', ['php:server']);
 
   grunt.registerTask('test', 'Running unittests...', function() {
