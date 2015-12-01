@@ -61,7 +61,9 @@ switch ($command) {
             $coverage->stop();
             
             $writer = new PHP_CodeCoverage_Report_Clover;
-            $writer->process($coverage, 'clover.xml');
+            $writer->process($coverage, __DIR__ . '/../../clover.xml');
+
+            echo "Written coverage to clover.xml\n\n";
         }
 
         if (!$result) {
