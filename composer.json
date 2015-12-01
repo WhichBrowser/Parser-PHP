@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/yaml": "^2.7"
+        "symfony/yaml": "^2.7",
+        "phpunit/php-code-coverage": "^3",
     }
 }
