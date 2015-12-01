@@ -2,6 +2,6 @@
     "require": {
         "symfony/yaml": "^2.7",
         "squizlabs/php_codesniffer": "2.*",
-        "phpunit/php-code-coverage": "^3"
+        "phpunit/php-code-coverage": "^2.2|^3"
     }
 }

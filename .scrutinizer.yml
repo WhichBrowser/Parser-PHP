@@ -8,5 +8,5 @@ checks:
     php: true
 coding_style:
     php: {  }
-
-
+tools:
+    external_code_coverage: true
