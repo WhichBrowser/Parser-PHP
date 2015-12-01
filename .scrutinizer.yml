@@ -4,9 +4,7 @@ filter:
         - src/legacy/*
         - src/server/*
         - src/testrunner/*
-checks:
-    php: true
-coding_style:
-    php: {  }
+
 tools:
-    external_code_coverage: true
+    external_code_coverage:
+        timeout: 600

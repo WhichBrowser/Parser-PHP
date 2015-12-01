@@ -51,6 +51,7 @@ switch ($command) {
     case 'check':
         if (in_array('coverage', $options)) {
             $coverage = new PHP_CodeCoverage;
+            $coverage->filter()->addDirectoryToWhitelist(__DIR__ . '/../parser/');
             $coverage->start('Testrunner');
         }
 
@@ -58,7 +59,7 @@ switch ($command) {
 
         if (in_array('coverage', $options)) {
             $coverage->stop();
-
+            
             $writer = new PHP_CodeCoverage_Report_Clover;
             $writer->process($coverage, 'clover.xml');
         }
