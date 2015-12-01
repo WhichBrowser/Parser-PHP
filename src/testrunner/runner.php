@@ -63,7 +63,7 @@ switch ($command) {
             $writer = new PHP_CodeCoverage_Report_Clover;
             $writer->process($coverage, __DIR__ . '/../../clover.xml');
 
-            echo "Written coverage to clover.xml\n\n";
+            echo "\nWritten coverage to clover.xml\n\n";
         }
 
         if (!$result) {
