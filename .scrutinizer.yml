@@ -1,0 +1,12 @@
+filter:
+    excluded_paths:
+        - bin/*
+        - src/legacy/*
+        - src/server/*
+        - src/testrunner/*
+checks:
+    php: true
+coding_style:
+    php: {  }
+
+
