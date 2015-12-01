@@ -1,4 +1,4 @@
 #!/usr/bin/env php
 <?php
 
-	include '../src/testrunner/runner.php';
+	include __DIR__ . '/../src/testrunner/runner.php';
