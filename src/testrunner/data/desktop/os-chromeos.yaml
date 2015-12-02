@@ -1,0 +1,24 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS armv7l 3428.149.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.87 Safari/537.22'
+    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS armv7l 7520.42.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.59 Safari/537.36'
+    result: { browser: { name: Chrome, version: 47.0.2526.59 }, engine: { name: Blink, version: '537.36' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS i686 1193.117.0) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.66 Safari/535.7'
+    result: { browser: { name: Chrome, version: '16' }, engine: { name: Webkit, version: '535.7' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS i686 1828.0.2012) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/19.0.1051.0 Safari/535.22'
+    result: { browser: { name: Chrome, version: 19.0.1051.0 }, engine: { name: Webkit, version: '535.22' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS i686 3607.0.2013) AppleWebKit/537.27 (KHTML, like Gecko) Chrome/26.0.1393.2 Safari/537.27'
+    result: { browser: { name: Chrome, version: 26.0.1393.2 }, engine: { name: Webkit, version: '537.27' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS i686 6163.0.2014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2126.0 Safari/537.36'
+    result: { browser: { name: Chrome, version: 39.0.2126.0 }, engine: { name: Blink, version: '537.36' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS x86_64 12.10.0) AppleWebKit/537.30 (KHTML, like Gecko) Chrome/26.0.1400.0 Safari/537.30'
+    result: { browser: { name: Chrome, version: 26.0.1400.0 }, engine: { name: Webkit, version: '537.30' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CrOS x86_64 2913.193.0) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11'
+    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '537.11' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
