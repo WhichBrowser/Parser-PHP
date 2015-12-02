@@ -41,7 +41,11 @@ class Testrunner
             $rules = Yaml::parse(file_get_contents($file));
 
             foreach ($rules as $rule) {
-                $detected = new Parser(http_parse_headers($rule['headers']));
+                if (is_string($rule['headers'])) {
+                    $rule['headers'] = http_parse_headers($rule['headers']);
+                }
+
+                $detected = new Parser($rule['headers']);
 
                 if (isset($rule['result'])) {
                     if ($detected->toArray() != $rule['result']) {
@@ -102,8 +106,11 @@ class Testrunner
         $rules = self::sortRules(Yaml::parse(file_get_contents($file)));
 
         foreach ($rules as $rule) {
-            $headers = http_parse_headers($rule['headers']);
-            echo $headers['User-Agent'] . "\n";
+            if (is_string($rule['headers'])) {
+                $rule['headers'] = http_parse_headers($rule['headers']);
+            }
+
+            echo $rule['headers']['User-Agent'] . "\n";
         }
     }
 
@@ -124,15 +131,28 @@ class Testrunner
             if (is_array($rules)) {
                 echo "Rebasing {$file}\n";
 
+                foreach ($rules as $k => $v) {
+                    if (is_string($rules[$k]['headers'])) {
+                        $rules[$k]['headers'] = http_parse_headers($rules[$k]['headers']);
+                    }
+                }
+
                 if ($sort) {
                     $rules = self::sortRules($rules);
                 }
 
                 foreach ($rules as $rule) {
-                    $detected = new Parser(http_parse_headers($rule['headers']));
+                    if (count($rule['headers']) > 1) {
+                        $headers = $rule['headers'];
+                    } else {
+                        $key = array_keys($rule['headers'])[0];
+                        $headers = $key . ': ' . $rule['headers'][$key];
+                    }
+
+                    $detected = new Parser($rule['headers']);
 
                     $result[] = [
-                        'headers'   => trim($rule['headers']),
+                        'headers'   => $headers,
                         'result'    => $detected->toArray()
                     ];
                 }
@@ -163,8 +183,8 @@ class Testrunner
     private static function sortRules($rules)
     {
         usort($rules, function ($a, $b) {
-            $ah = http_parse_headers($a['headers']);
-            $bh = http_parse_headers($b['headers']);
+            $ah = $a['headers'];
+            $bh = $b['headers'];
 
             $as = '';
             $bs = '';
