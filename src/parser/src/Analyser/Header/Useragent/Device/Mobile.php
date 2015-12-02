@@ -204,14 +204,10 @@ trait Mobile
 
             if (isset($this->data->os->name)) {
                 for ($i = 0; $i < count($candidates); $i++) {
-                    $result = false;
-
                     if (!isset($this->data->device->model) && !isset($this->data->device->manufacturer)) {
                         if (isset($this->data->os->name) && ($this->data->os->name == 'Android' || $this->data->os->name == 'Linux')) {
                             $device = Data\DeviceModels::identify('android', $candidates[$i]);
                             if ($device->identified) {
-                                $result = true;
-
                                 $device->identified |= $this->data->device->identified;
                                 $this->data->device = $device;
 
@@ -225,8 +221,6 @@ trait Mobile
                         if (!isset($this->data->os->name) || $this->data->os->name == 'Windows' || $this->data->os->name == 'Windows Mobile' || $this->data->os->name == 'Windows CE') {
                             $device = Data\DeviceModels::identify('wm', $candidates[$i]);
                             if ($device->identified) {
-                                $result = true;
-
                                 $device->identified |= $this->data->device->identified;
                                 $this->data->device = $device;
 
