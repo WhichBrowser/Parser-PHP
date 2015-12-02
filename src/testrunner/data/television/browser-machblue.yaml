@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: MachBlue'
+    result: { browser: { name: 'MachBlue XT' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (U; Linux ICE4200; C) AppleWebKit/534.26  mbxtWebKit/1.0.0_pre-alpha (intelce)'
+    result: { browser: { name: 'MachBlue XT', version: '1.0' }, engine: { name: Webkit, version: '534.26' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (U; Linux x86_64; en_CA.UTF-8) AppleWebKit/534.26+ (KHTML, like Gecko) mbxtWebKit/1.0.0 (gtk)'
+    result: { browser: { name: 'MachBlue XT', version: '1.0' }, engine: { name: Webkit, version: '534.26' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (U; Linux x86_64; en_CA.UTF-8) AppleWebKit/534.26+ mbxtWebKit/1.0.0_pre-alpha (gtk)'
+    result: { browser: { name: 'MachBlue XT', version: '1.0' }, engine: { name: Webkit, version: '534.26' }, device: { type: television } }

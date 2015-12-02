@@ -1,4 +1,13 @@
 -
+    headers: 'User-Agent: BIRD_T810_TD/T810_10A_V1.00 Threadx/4.0 Mocor/W11 Release/12.01.2011 Browser/NF4.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
+    result: { browser: { name: NetFront, version: '4.0' }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: T810 } }
+-
+    headers: 'User-Agent: GiONEE_TD200_TD/00.00 ThreadX_OS/04.00 SC8800G/G2 Release/03.25.2011 Browser/NF3.5 Profile/MIDP-2.1 Config/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.5' }, os: { name: ThreadX, version: '04.00' }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: TD200 } }
+-
+    headers: 'User-Agent: K-Touch_T566_CMCC_TD/TBT910514_7470_V0801/10.25.2009 Browser/NF3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
+    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, subtype: feature, manufacturer: K-Touch, model: T566 } }
+-
     headers: 'User-Agent: PantechP6020/JXUS04022012 BMP/1.0.4 DeviceId/141026 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P6020 } }
 -
@@ -19,3 +28,6 @@
 -
     headers: 'User-Agent: SonyEricssonZ770i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }
+-
+    headers: 'User-Agent: UNTRUSTED/1.0/HS-T39_TD/1.0 Release/03.03.2011 Threadx/4.0 Mocor/W10 Browser/NF4.0 Profile/MIDP-2.0 Config/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '4.0' }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature } }
