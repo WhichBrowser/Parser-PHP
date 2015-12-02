@@ -3,8 +3,6 @@
 namespace WhichBrowser\Analyser;
 
 use WhichBrowser\Constants;
-use WhichBrowser\Model\Family;
-use WhichBrowser\Model\Using;
 use WhichBrowser\Model\Version;
 
 trait Corrections
