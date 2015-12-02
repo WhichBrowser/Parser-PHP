@@ -176,31 +176,6 @@ trait Camouflage
             }
         }
 
-        if (isset($this->options->width) && isset($this->options->height)) {
-            if (isset($this->data->device->model)) {
-                /* If we have an iPad that is not 768 x 1024, we have an imposter */
-                if ($this->data->device->model == 'iPad') {
-                    if (($this->options->width != 0 && $this->options->height != 0) && ($this->options->width != 768 && $this->options->height != 1024) && ($this->options->width != 1024 && $this->options->height != 768)) {
-                        $this->data->features[] = 'sizeMismatch';
-                        $this->data->camouflage = true;
-                    }
-                }
-
-                /* If we have an iPhone or iPod that is not 320 x 480, we have an imposter */
-                /*
-                if ($this->data->device->model == 'iPhone' || $this->data->device->model == 'iPod') {
-                    if (($this->options->width != 0 && $this->options->height != 0) && 
-                        ($this->options->width != 320 && $this->options->height != 480) && 
-                        ($this->options->width != 480 && $this->options->height != 320)
-                    ) {
-                        $this->features[] = 'sizeMismatch';
-                        $this->camouflage = true;
-                    }
-                }
-                */
-            }
-        }
-
         if (isset($this->options->features)) {
             if (isset($this->data->browser->name) && isset($this->data->os->name)) {
                 if ($this->data->os->name == 'iOS' && $this->data->browser->name != 'Opera Mini' && $this->data->browser->name != 'UC Browser' && isset($this->data->os->version)) {
