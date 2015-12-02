@@ -19,6 +19,9 @@ class Device extends Base
     /** @var int */
     public $identifier;
 
+    /** @var mixed */
+    public $flag;
+
 
     /** @var string */
     public $type = '';

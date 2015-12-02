@@ -15,8 +15,15 @@ class Version extends Base
     /** @var string */
     public $nickname;
 
+    /** @var string */
+    public $alias;
+
     /** @var int */
     public $details;
+
+    /** @var boolean */
+    public $builds;
+
 
 
     /**
