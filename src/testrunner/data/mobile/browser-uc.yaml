@@ -127,3 +127,21 @@
 -
     headers: 'User-Agent: jbed-fastbcc/UCWEB8.2.0.116/70/4171 UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '8.2' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+-
+    headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2) UCBrowser/8.6.0.199/84/352 UNTRUSTED/1.0 3gpp-gba', X-UCBrowser-Phone-UA: nokia701, X-UCBrowser-Phone: nokia701 }
+    result: { browser: { name: 'UC Browser', version: '8.6' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '701' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; xx) AppleWebKit/534.1+ (KHTML, Like Gecko) Version/6.0.0.141 Mobile Safari/534.1+', X-Ucbrowser-Phone: sunmicro, X-Ucbrowser-Phone-Ua: sunmicro }
+    result: { browser: { name: 'UC Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+-
+    headers: { User-Agent: 'NokiaC3-01/5.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0(Java; U; MIDP-2.0; xx; nokiac3-01) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-Phone-UA: nokiac3-01, X-UCBrowser-Phone: nokiac3-01 }
+    result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C3-01 } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; Nokia203/20.37) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile', X-Ucbrowser-Phone: nokia305, X-Ucbrowser-Phone-Ua: nokia305 }
+    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 305' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0(Java; U; MIDP-2.0; xx; gt-s5233s) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0', X-Ucbrowser-Phone: gt-s5233s, X-Ucbrowser-Phone-Ua: gt-s5233s }
+    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+-
+    headers: { User-Agent: 'SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0(Java; U; MIDP-2.0; xx; sonyericssonj108i) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile', X-UCBrowser-Phone-UA: sonyericssonj108i, X-UCBrowser-Phone: sonyericssonj108i, x-ucbrowser-ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(sonyericssonj108i);pr(UCBrowser/8.8.0.227);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Cedar } }
