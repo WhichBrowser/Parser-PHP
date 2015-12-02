@@ -50,7 +50,9 @@ class Testrunner
                 if (isset($rule['result'])) {
                     if ($detected->toArray() != $rule['result']) {
                         fwrite($fp, "\n{$name}\n--------------\n\n");
-                        fwrite($fp, $rule['headers'] . "\n");
+                        foreach ($rule['headers'] as $k => $v) {
+                            fwrite($fp, $k . ': ' . $v . "\n");
+                        }
                         fwrite($fp, "Base:\n");
                         fwrite($fp, Yaml::dump($rule['result']) . "\n");
                         fwrite($fp, "Calculated:\n");
