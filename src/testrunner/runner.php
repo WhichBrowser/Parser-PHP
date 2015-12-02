@@ -84,6 +84,12 @@ switch ($command) {
 
         if (!$result) {
             echo "\033[0;31mTestrunner failed, please look at runner.log for the details!\033[0m\n\n";
+
+            if (in_array('show', $options)) {
+                echo file_get_contents('runner.log') . "\n\n";
+                echo "Done!\n\n";
+            }
+
             exit(1);
         }
 
