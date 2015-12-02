@@ -53,6 +53,9 @@
     headers: 'User-Agent: HbbTV/1.2.1 (OITF_HD_UIPROF+PVR+DL; UEC; PVR9600; 1.0.6053; 1.0)'
     result: { device: { type: television, manufacturer: UEC, model: PVR9600 } }
 -
+    headers: 'User-Agent: HtmlRenderer/x.y (Technicolor_DXI807FT; U; Linux i686; xx) QtWebKit/2.2.z'
+    result: { engine: { name: Webkit, version: 2.2. }, device: { type: television, manufacturer: Technicolor, model: DXI807FT } }
+-
     headers: 'User-Agent: LOEWE/TV HBBTV/1.0 CE-HTML/1.0 SL150/14.16.0'
     result: { device: { type: television, manufacturer: Loewe, model: 'Connect SL150', series: 'Smart TV' } }
 -
@@ -101,6 +104,9 @@
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; Linux sh4) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+HbbTV/1.1.1 (;iWedia;Teatro;3.0;;)'
     result: { engine: { name: Webkit, version: '537.6' }, device: { type: television, manufacturer: iWedia, model: Teatro } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; c) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ (Winbox Evo2) CE-HTML/1.0 HbbTV/1.1.1 (;;;;)'
+    result: { engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Winbox, model: Evo2 } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux armv9; U; xx) AppleWebKit/537.17 (KHTML, like Gecko) HbbTV/1.1.1 (;Mstar;MWB;Arcelik;KY;)'
     result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
@@ -115,6 +121,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; fr-fr; STOREX LinkBox Build/20120103) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: television, manufacturer: Storex, model: LinkBox } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MediStream; U; KHTML, like Gecko; Mobile) NetFrontNX/3.0.2'
+    result: { browser: { name: 'NetFront NX', version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Bewatec, model: MediStream } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; L28YTNRA)'
     result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'L28YTNRA IPTV receiver' } }
@@ -322,6 +331,9 @@
 -
     headers: 'User-Agent: Opera/9.80 (Linux sh4; U; HbbTV/1.1.1(;;;;;); CE-HTML; TechniSat DIGIT ISIO S; xx) Presto/2.8.115 Version/11.10'
     result: { browser: { name: 'Opera Devices', version: '3.0' }, engine: { name: Presto, version: 2.8.115 }, device: { type: television, manufacturer: TechniSat, model: 'DIGIT ISIO S' } }
+-
+    headers: 'User-Agent: Roku/DVP-3100EU-4.3 (024.03E10000A)'
+    result: { device: { type: television, manufacturer: Roku, model: '2 XS' } }
 -
     headers: 'User-Agent: Roku/DVP-5.4 (045.04E03198A)'
     result: { device: { type: television, manufacturer: Roku } }

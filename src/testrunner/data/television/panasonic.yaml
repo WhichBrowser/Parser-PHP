@@ -26,6 +26,9 @@
     headers: 'User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2014;0.001;ba01-0003 4000-0000;)'
     result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2014' } }
 -
+    headers: 'User-Agent: HbbTV/1.2.1 (;Panasonic;VIERA 2015;3.003;4401-0003 0002-0000;)'
+    result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2015' } }
+-
     headers: 'User-Agent: Hybridcast/1.0 (;008045;PANATV1308;2;2;)'
     result: { device: { type: television, manufacturer: Panasonic, series: 'Smart TV' } }
 -

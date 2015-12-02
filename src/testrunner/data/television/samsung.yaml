@@ -20,6 +20,9 @@
     headers: 'User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2014;T-MST14DEUC-1106.1;;) WebKit'
     result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2014' } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; Gecko/20041115) Maple 5.0.0 Navi'
+    result: { engine: { name: Gecko }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2009' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; GT-B9150 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.55 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '37' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: television, manufacturer: Samsung, model: 'Galaxy HomeSync' } }
 -

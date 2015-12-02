@@ -2,6 +2,9 @@
     headers: 'User-Agent: (LGSmartTV/1.0) AppleWebKit/534.23 OBIGO-T10/2.0'
     result: { browser: { name: 'Obigo T', version: '10' }, engine: { name: Webkit, version: '534.23' }, device: { type: television, manufacturer: LG, series: 'Smart TV' } }
 -
+    headers: 'User-Agent: LG Browser/5.0.0 InettvBrowser/2.2 (00E091;LGE2D2012M;01;00)'
+    result: { browser: { name: 'LG Browser', version: '5.0' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2012' } }
+-
     headers: 'User-Agent: LG Browser/5.0.0 InettvBrowser/2.2 (00E091;LGE3D2012M;01;00)'
     result: { browser: { name: 'LG Browser', version: '5.0' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2012' } }
 -
@@ -68,6 +71,12 @@
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+mouse+PORTAL_KEY+SCREEN+TUNER; LGE; 42LV470S-ZC; 06.01.04; 0x00000001;); LG NetCast.TV-2011'
     result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, model: LV470S, series: 'NetCast TV 2011' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; xx) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( SCREEN TUNER; LGE; GLOBAL-PLAT3; 11.00.14; 0x00000081;); LG NetCast.TV-2011 0'
+    result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2011' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+mouse+SCREEN+TUNER; LGE; GLOBAL-PLAT3; 03.04.40; 0x00000001;); LG NetCast.TV-2011 0'
+    result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2011' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( 3D BDP NO_NUM; LGE; Media/ST600; LG NetCast.Media-2011'
     result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, model: ST600, series: 'NetCast Media 2011' } }
 -
@@ -115,6 +124,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LA6900-NA; 04.00.33; 0x00000001;); LG NetCast.TV-2013 /04.00.33 (LG, 47LA6900-NA, wired)'
     result: { browser: { name: 'LG Browser', version: '6.00' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, model: LA6900, series: 'NetCast TV 2013' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; GLOBAL-PLAT5; 03.07.01; 0x00000001;); LG NetCast.TV-2013/03.17.01 (LG, GLOBAL-PLAT4, wired)'
+    result: { browser: { name: 'LG Browser', version: '6.00' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2013' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; GLOBAL-PLAT5; 03.07.01; 0x00000001;); LG NetCast.TV-2013/03.17.01 (LG, GLOBAL-PLAT4, wired)'
     result: { browser: { name: 'LG Browser', version: '6.00' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2013' } }
