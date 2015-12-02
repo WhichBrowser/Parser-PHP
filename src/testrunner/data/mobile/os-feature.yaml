@@ -31,3 +31,167 @@
 -
     headers: 'User-Agent: Vodafone/1.0/V905SH/SHJ001 Browser/VF-NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: 905SH } }
+-
+    headers: 'User-Agent: SonyEricssonK850i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SonyEricssonK790a/R1EG Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonJ108i) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0 Mobile'
+-
+    headers: 'User-Agent: SonyEricssonC510/R1FA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1 JavaPlatform/JP-8.4.3'
+-
+    headers: 'User-Agent: SoftBank/1.0/932SH/SHJ003/SN353700022260911 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SoftBank/1.0/103P/PJP10/SN352788051966244 Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SoftBank/1.0/708SC/SCJ001/SN543210987654321 Browser/NetFront/3.3'
+-
+    headers: 'User-Agent: SAMSUNG-SM-B780A/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SAMSUNG-SM-B360E Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35840/35.7561; U; xx) Presto/2.8.119 Version/11.10'
+-
+    headers: 'User-Agent: SAMSUNG-SGH-S390G/S390UD[TF359782046053567009990015123957215] NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SAMSUNG-SGH-T189N/T189NUVMG1 SHP/VPP/R5 NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'
+-
+    headers: 'User-Agent: SAMSUNG-SGH-A667/A667UCLD4; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2'
+-
+    headers: 'User-Agent: SAMSUNG-GT-S5611 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.34814/36.1370; U; xx) Presto/2.12.423 Version/12.16'
+-
+    headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'
+-
+    headers: 'User-Agent: PantechP7000/JDUS10052009; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.'
+-
+    headers: 'User-Agent: OPPO A203/4.02/13 Release/2010.4.15 Browser/Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: OPPOA617/2.07/11 Release/2011.6.14 Browser/Opera Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: OneBrowser/3.1 (SonyEricssonJ10i2/R7CA061)'
+-
+    headers: 'User-Agent: OneBrowser/3.1 (SAMSUNG-GT-E1282T)'
+-
+    headers: 'User-Agent: OneBrowser/3.1 (PantechP7040/JLUS04042011)'
+-
+    headers: 'User-Agent: OneBrowser/3.1 (LG-T375)'
+-
+    headers: 'User-Agent: Nokia7020/2.0 (08.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia7020) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
+-
+    headers: 'User-Agent: Nokia3030/5.0 (14.60) Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: Nokia1680c-2/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.8 (SAMSUNG GT-C3520)'
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.4 (SAMSUNG GT-C6112)'
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.5 (SonyEricssonJ105i/R1HA035)'
+-
+    headers: 'User-Agent: MQQBrowser/Mini3.1 (CoolpadT60/1.01.T60)'
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.2 (LG-T385)'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-T385b/V10i AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-GS290/V10c Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Mozilla) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0 '
+-
+    headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (SonyEricssonU5i)UC AppleWebkit(like Gecko) Safari/530'
+-
+    headers: 'User-Agent: Mozilla/5.0 (LG-T395 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (LG-C207 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; samsung-gt-e2202) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; sonyericssonw150i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile UNTRUSTED/1.0'
+-
+    headers: 'User-Agent: MOT-Z3/08.00.10R MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/1.0'
+-
+    headers: 'User-Agent: MOT-V9mm/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: MOT-V860/00.72 UP.Browser/7.2.7.5.665 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0'
+-
+    headers: 'User-Agent: MOT-V300/0B.09.19R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+-
+    headers: 'User-Agent: MOT-V3/0E.42.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+-
+    headers: 'User-Agent: MOT-RAZRV3xx/96.B0.0FR BER2.2 Mozilla/4.0 (compatible; MSIE 6.0; 11073256) Profile/MIDP-2.0 Configuration/CLDC-1.1  Opera 8.00 [en]'
+-
+    headers: 'User-Agent: MOT-MOTOQA1/A2.01.11R Release/09.24.2008 OPERA/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: MOT-EX132/1.0 REXL4'
+-
+    headers: 'User-Agent: MOT-EX108 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1'
+-
+    headers: 'User-Agent: LG_TB200_CMCC A2000pH/2.32.00 Release/9.14.2009 Browser/Teleca/Q7.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: LGE-VM510 NetFront/3.5.1 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: LGE-PM225/1.0 UP.Browser/6.2.3.7.e.1.101 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: LG/KC910i/V10a Browser/Obigo-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: LG-T300/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: LG-LG840G/V100[TF013293005445552024363913344521363] Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+-
+    headers: 'User-Agent: KDDI-SN3K UP.Browser/6.2.0.7.3.129 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: KDDI-SN3I UP.Browser/6.2_7.2.7.1.K.2.123 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: KDDI-CA39 UP.Browser/6.2.0.13.1.5 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: KDDI-SH3F UP.Browser/6.2_7.2.7.1.K.4.304 (GUI) MMP/2.0'
+-
+    headers: 'User-Agent: CTC/HUAWEIC5720 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
+-
+    headers: 'User-Agent: DoCoMo/1.0/D505i/c20/TB/W20H10'
+-
+    headers: 'User-Agent: DoCoMo/1.0/F671is/c1'
+-
+    headers: 'User-Agent: DoCoMo/2.0 F04A(c100;TB;W24H17;ser353709020370762; icc8981100020732495171f)(c100;TB;W24H12)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 F03B(c500;TB;W24H16)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 F09C(c500;TB;W24H16)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 N02C(c500;TB;W24H16)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 N09A3(c500;TB;W30H20)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16;ser28028f0a26884cc;icc123428028f0a26884cc1)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 SH06B(c500;TB;W20H13)'
+-
+    headers: 'User-Agent: DoCoMo/2.0 SH901iC(c100;TB;W24H12)'
+-
+    headers: 'User-Agent: ALCATEL_TRIBE_3075A/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_TRIBE_3075A/1.0 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_ONE_TOUCH_838/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_one_touch_813/1.0 model-orange Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_ONE_TOUCH_768T/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_A392T/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_ONE_TOUCH_2067X/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: ALCATEL_A392G/1.0 ObigoInternetBrowser/Q05A[TF35868800000015804729021]'
+-
+    headers: 'User-Agent: Alcatel_A205G-B/1.0 ObigoInternetBrowser/Q05A[TF014217003311291004903718147907548]'
+-
+    headers: 'User-Agent: ALCATEL-OT871A/987 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+-
+    headers: 'User-Agent: Alcatel-OT-807D/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'

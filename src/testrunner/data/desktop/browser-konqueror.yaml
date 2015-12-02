@@ -1,0 +1,40 @@
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.10 (like Gecko) SUSE'
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.7 (like Gecko)'
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko)'
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; Linux) KHTML/4.5.5 (like Gecko)'
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.6; Linux) KHTML/4.6.5 (like Gecko) Fedora/4.6.5-8.fc14'
+-
+	headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.6; Linux; X11; x86_64; xx) KHTML/4.6.5 (like Gecko) Mageia/4.6.5-1.7.mga1'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11) KHTML/4.14.3 (like Gecko) Konqueror/4.14'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; BSD Four) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/4.10.5 Safari/534.34'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Cygwin) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/4.13.3 Safari/534.34'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) KHTML/4.12.4 (like Gecko) Konqueror/4.12'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD) KHTML/4.9.1 (like Gecko) Konqueror/4.9'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux 3.13.0-30-generic) KHTML/4.13.2 (like Gecko) Konqueror/4.13'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux 3.15.3-1-ARCH x86_64) KHTML/4.13.2 (like Gecko) Konqueror/4.13'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux armv7l) KHTML/4.10.4 (like Gecko) Konqueror/4.10'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux ; xx) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/4.11.5 Safari/534.34'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/4.14.1 Safari/534.34'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) KHTML/4.8.2 (like Gecko) Konqueror/4.8'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) KHTML/4.10.4 (like Gecko) Konqueror/4.10 Fedora/4.10.4-1.fc18'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; en_US) KHTML/4.13.0 (like Gecko) Konqueror/4.13'
+-
+	headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; xx) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/4.14.2 Safari/534.34'

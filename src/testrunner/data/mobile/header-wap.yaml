@@ -1,0 +1,30 @@
+-
+	headers: { User-Agent: 'Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SM-N9005.xml' }
+-
+	headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; xx; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-I9100.xml' }
+-
+	headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.0.4; xx; SonyST23i Build/11.0.A.5.8) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://uaprof.sonymobile.com/ST23iR402.xml' }
+-
+	headers: { User-Agent: 'Nokia208/2.0 (03.39) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia208) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile', X-Wap-Profile: 'http://nds1.nds.nokia.com/uaprof/Nokia208r100.xml' }
+-
+	headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.0.3; xx; A500 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30', X-Wap-Profile: 'http://support.acer.com/UAprofile/Acer_A500_IML74K_Profile.xml' }
+-
+	headers: { User-Agent: 'LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/LG-KP500.xml' }
+-
+	headers: { User-Agent: 'Mozilla/5.0 (LG-C195 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/LG-C195-M3-D1.xml' }
+-
+	headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.25137/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/W1.xml' }
+-
+	headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.24702/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/Vodafone550.xml' }
+-
+	headers: { User-Agent: 'SAMSUNG-GT-S5610/S5610XXLI1 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-S5610_3G.rdf' }
+-
+	headers: { User-Agent: 'MOT-EX116 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1', X-Wap-Profile: 'http://uaprof.motorola.com/phoneconfig/ex116/Profile/ex116.rdf' }
+-
+	headers: { User-Agent: 'Alcatel_A205G-B/1.0 ObigoInternetBrowser/Q05A[TF014404009534395004115512532586563]', X-Wap-Profile: 'http://www-ccpp.tcl-ta.com/files/Alcatel_A205G-B.rdf' }
+-
+	headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile6.0) Sprint T7380', X-Wap-Profile: 'http://device.sprintpcs.com/HTC/PPCT7380SP/2046514.rdf' }
+-
+	headers: { User-Agent: 'dopodT8588/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 Opera/9.7 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1', X-Wap-Profile: 'http://www.htcmms.com.tw/gen/HTC_HD2_T8585-1.0.xml' }
+-
+	headers: { User-Agent: 'SAMSUNG-SGH-i900/1.0 Opera 9.5', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SGH-i900.xml' }
