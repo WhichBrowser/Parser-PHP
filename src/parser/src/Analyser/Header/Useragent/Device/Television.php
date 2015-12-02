@@ -30,7 +30,7 @@ trait Television
         $this->detectSettopboxes($ua);
 
         /* Improve model names */
-        $this->improveModelsOnDeviceTypeTelevision($ua);
+        $this->improveModelsOnDeviceTypeTelevision();
     }
 
 
