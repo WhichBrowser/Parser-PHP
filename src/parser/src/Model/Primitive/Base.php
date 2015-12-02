@@ -35,7 +35,7 @@ class Base
     {
         $lines = [];
 
-        foreach ($this as $key => $value) {
+        foreach (get_object_vars($this) as $key => $value) {
             if (!is_null($value)) {
                 $line = $key . ": ";
 
