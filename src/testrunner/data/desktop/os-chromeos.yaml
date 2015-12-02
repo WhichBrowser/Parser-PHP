@@ -3,7 +3,7 @@
     result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; CrOS armv7l 7520.42.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: 47.0.2526.59 }, engine: { name: Blink, version: '537.36' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '47' }, engine: { name: Blink, version: '537.36' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; CrOS i686 1193.117.0) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.66 Safari/535.7'
     result: { browser: { name: Chrome, version: '16' }, engine: { name: Webkit, version: '535.7' }, os: { name: 'Chrome OS' }, device: { type: desktop } }
