@@ -1882,7 +1882,9 @@ trait Browser
             [ 'name' => 'Coship MMCP',          'regexp' => '/Coship_MMCP_([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
         ];
 
-        for ($b = 0; $b < count($browsers); $b++) {
+
+        $count = count($browsers);
+        for ($b = 0; $b < $count; $b++) {
             if (preg_match($browsers[$b]['regexp'], $ua, $match)) {
                 $this->data->browser->name = $browsers[$b]['name'];
                 $this->data->browser->channel = '';

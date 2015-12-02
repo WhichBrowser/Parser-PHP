@@ -1518,7 +1518,8 @@ trait Os
             [ 'name' => 'ThreadX',      'regexp' => [ '/ThreadX(?:_OS)?\/([0-9.]*)/iu' ] ],
         ];
 
-        for ($b = 0; $b < count($patterns); $b++) {
+        $count = count($patterns);
+        for ($b = 0; $b < $count; $b++) {
             for ($r = 0; $r < count($patterns[$b]['regexp']); $r++) {
 
                 if (preg_match($patterns[$b]['regexp'][$r], $ua, $match)) {
