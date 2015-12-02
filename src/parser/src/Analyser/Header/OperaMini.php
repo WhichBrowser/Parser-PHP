@@ -10,7 +10,9 @@ class OperaMini
     {
         $this->data =& $data;
 
-        @list($manufacturer, $model) = explode(' # ', $header);
+        $parts = explode(' # ', $header);
+        $manufacturer = isset($parts[0]) ? $parts[0] : '';
+        $model = isset($parts[1]) ? $parts[1] : '';
 
         if ($manufacturer != '?' && $model != '?') {
             if (!$this->data->device->identified && $this->data->os->name == 'Bada') {
