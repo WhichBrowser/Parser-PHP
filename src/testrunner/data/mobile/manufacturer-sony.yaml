@@ -62,7 +62,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST23a Build/11.0.A.2.10) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Miro' } }
 -
-    headers: 'User-Agent:  Mozilla/5.0 (Linux; Android 4.0.4; ST25i Build/6.1.1.B.1.10;compatible iPhone) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST25i Build/6.1.1.B.1.10;compatible iPhone) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST26a Build/11.0.A.3.28) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
