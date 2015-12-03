@@ -1,4 +1,7 @@
 -
+    headers: 'User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini; U; xx) Presto/2.12.423 Version/11.10'
+    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature } }
+-
     headers: 'User-Agent: Opera/9.80 (X11; Linux zbov; U; xx) Presto/2.9.201 Version/11.50'
     result: { browser: { name: 'Opera Mobile', version: '11.50' }, engine: { name: Presto, version: 2.9.201 }, device: { type: mobile, subtype: feature } }
 -
