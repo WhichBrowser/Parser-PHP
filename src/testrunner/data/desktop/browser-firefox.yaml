@@ -90,7 +90,7 @@
     result: { browser: { name: Firefox, version: 1.0.7 }, engine: { name: Gecko, version: 1.7.12 }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; WinNT4.0; xx; rv:1.8.1) Gecko/20061010 Firefox/2.0'
-    result: { browser: { name: Firefox, version: '2.0' }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '2.0' }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx; rv:1.9.1.5pre) Gecko/20091017 Shiretoko/3.5.5pre'
     result: { browser: { name: Firefox, version: 3.5.5 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }

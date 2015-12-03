@@ -15,7 +15,7 @@
     result: { browser: { name: 'Internet Explorer', version: 3.0.2 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.0; Windows 3.1)'
-    result: { browser: { name: 'Internet Explorer', version: '3.0' }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '3.0' }, os: { name: Windows, version: '3.1' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)'
     result: { browser: { name: 'Internet Explorer', version: '4.0' }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
