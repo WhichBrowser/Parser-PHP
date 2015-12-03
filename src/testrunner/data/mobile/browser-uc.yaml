@@ -2,6 +2,9 @@
     headers: 'User-Agent: BREW-Applet/0x20068888 (BREW/3.1.5.20; DeviceId: 32056; Lang: zhcn) ucweb-squid'
     result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5.20 }, device: { type: mobile, subtype: feature } }
 -
+    headers: 'User-Agent: HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
+    result: { browser: { name: 'UC Browser', version: '7.8' }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+-
     headers: 'User-Agent: IUC(U;iOS 6.1.3;Zh-cn;320*480;)/UCWEB8.9.0.238/44/997'
     result: { browser: { name: 'UC Browser', version: '8.9' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, subtype: smart } }
 -
@@ -37,6 +40,33 @@
 -
     headers: 'User-Agent: JUC(Linux;U;Android2.3.6;Zh_cn;Micromax A50;240*320;)UCWEB7.8.0.95/139/444'
     result: { browser: { name: 'UC Browser', version: '7.8' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Micromax, model: 'A50 Ninja' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
+    result: { browser: { name: 'UC Browser', version: '7.8' }, engine: { name: Gecko }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; xx; NokiaX2DS Build/JLS36C) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/533.1'
+    result: { browser: { name: 'UC Browser', version: '10.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: 'Nokia X Platform', family: Android }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: X2 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWI Build/KTU84M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.576 U3/0.8.0 Mobile Safari/534.30'
+    result: { browser: { name: 'UC Browser', version: '10.4' }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; SD4930UR Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.7.0.636 U3/0.8.0 Mobile Safari/534.30'
+    result: { browser: { name: 'UC Browser', version: '10.7' }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 520) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537 UCBrowser/4.2.0.524 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630 Dual SIM) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537 UCBrowser/4.2.1.541 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 820) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537 UCBrowser/4.2.1.541 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 820' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00) UCBrowser/4.2.1.541 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W1' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: 'User-Agent: SAMSUNGSGH-i450/UCWEB8.7.0.187/28/10086'
     result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-i450 } }
@@ -110,6 +140,12 @@
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.2.1; xx; Lenovo A830) U2/1.0.0 UCBrowser/9.4.2.365 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A830 } }
 -
+    headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 8.0; xx; NOKIA; RM-885_im_india_249) U2/1.0.0 UCBrowser/4.1.0.504 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.1' }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 720' } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 8.10; xx; NOKIA; RM-821_im_india_443) U2/1.0.0 UCBrowser/4.2.0.524 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Gecko }, os: { name: 'Windows Phone' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+-
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPad OS 6_1_2; xx; iPad2,4) U2/1.0.0 UCBrowser/9.2.0.312 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: iOS, version: 6.1.2 }, device: { type: tablet, manufacturer: Apple, model: 'iPad 2' } }
 -
@@ -125,8 +161,50 @@
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPh OS 7_0_4; xx; iPh3,1) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.0' }, engine: { name: Gecko }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4' } }
 -
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 4.2.0.397; xx; 9330/4.2.0.397) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9330' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 5.2.0.104; xx; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 6.3.0.63; xx; 9300/6.3.0.63) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 6.6.0.207; xx; 9700/6.6.0.207) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 9.6.0.51; xx; 9360/9.6.0.51) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9360' } }
+-
     headers: 'User-Agent: jbed-fastbcc/UCWEB8.2.0.116/70/4171 UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '8.2' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: nokiae63-1/UC Browser7.9.0.102/69/352 UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '7.9' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E63 } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.2.2; xx; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(Lenovo A369i Build/JDQ39);pr(UCBrowser/9.1.0.297);ov(Android 4.2.2);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(GZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(3);' }
+    result: { browser: { name: 'UC Browser', version: '9.1' }, engine: { name: Webkit, version: '534.31' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A369 } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; xx) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11D257 UCBrowser/10.2.0.517 Mobile', X-UCBrowser-UA: 'dv(iPh4,1);pr(UCBrowser/10.2.0.517);ov(7_1_2);ss(320x416);bt(UC);pm(0);bv(0);nm(0);im(0);nt(1);' }
+    result: { browser: { name: 'UC Browser', version: '10.2' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X; xx) AppleWebKit/600.1.4.12.4 (KHTML, like Gecko) Mobile/12B440 UCBrowser/9.3.0.326 Mobile', X-UCBrowser-UA: 'pf(44);la(en-US);dv(iPh4,1);pr(UCBrowser);ov(8_1_2);pi(640x960);ss(320x416);er(U);bt(GJ);up();re(AppleWebKit/600.1.4.12.4 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(1);' }
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Webkit, version: 600.1.4.12.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X; xx) AppleWebKit/600.1.4.12.4 (KHTML, like Gecko) Mobile/12B440 UCBrowser/9.3.0.326 Mobile', X-UCBrowser-UA: 'pf(44);la(en-US);dv(iPh6,2);pr(UCBrowser);ov(8_1_2);pi(640x1136);ss(320x416);er(U);bt(GJ);up();re(AppleWebKit/600.1.4.12.4 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(2);' }
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Webkit, version: 600.1.4.12.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 5s' } }
+-
+    headers: { User-Agent: NokiaE72-1/UCWEB8.9.0.253/28/999, X-Ucbrowser-Ua: 'pf(Symbian);er(U);la(zh-CN);up(U2/1.0.0);re(U2/1.0.0);dv(NokiaE72-1);pr(UCBrowser/8.9.0.253);ov(S60V3);pi(320*240);ss(320*240);bt(UC);pm(1);bv(0);nm(0);im(0);sr(2);nt(2)' }
+    result: { browser: { name: 'UC Browser', version: '8.9' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E72 } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; xx; GT-S7262) U2/1.0.0 UCBrowser/9.4.1.482 U2/1.0.0 Mobile', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(GT-S7262);pr(UCBrowser/9.4.1.482);ov(4.1.2);pi(480*800);ss(480*800);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Star Pro' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Windows; U; wds 7.10; xx; NOKIA; Lumia 710) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile', x-ucbrowser-ua: 'pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA Lumia 710);pr(UCBrowser/3.2.0.340);ov(wds 7.10);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(2);nt(1);up(U2/1.0.0);pm(1);' }
+    result: { browser: { name: 'UC Browser', version: '3.2' }, engine: { name: Gecko }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 710' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Windows; U; wds 7.10; xx; NOKIA; Lumia 800) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile', X-UCBrowser-UA: 'pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA Lumia 800);pr(UCBrowser/3.2.0.340);ov(wds 7.10);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(2);up(U2/1.0.0);pm(1);' }
+    result: { browser: { name: 'UC Browser', version: '3.2' }, engine: { name: Gecko }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 800' } }
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2) UCBrowser/8.6.0.199/84/352 UNTRUSTED/1.0 3gpp-gba', X-UCBrowser-Phone-UA: nokia701, X-UCBrowser-Phone: nokia701 }
     result: { browser: { name: 'UC Browser', version: '8.6' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '701' } }
@@ -140,8 +218,62 @@
     headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; Nokia203/20.37) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile', X-Ucbrowser-Phone: nokia305, X-Ucbrowser-Phone-Ua: nokia305 }
     result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 305' } }
 -
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; Nokia203/20.37) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile', x-ucbrowser-ua: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(Micromax_A36);pr(UCBrowser/9.4.0.460);ov(2.3.5);pi(480*800);ss(480*800);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);', x-ucbrowser-device-ua: 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-US; Micromax_A36 Build/MocorDroid2.3.5_Trout) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1' }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Micromax, model: 'A36 Bolt' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; xx; GT-S7562) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(GT-S7562);pr(UCBrowser/9.4.0.460);ov(4.0.4);pi(480*800);ss(480*800);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);', X-UCBrowser-Device-UA: 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1' }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S Duos' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; xx; Nokia_X) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; Nokia_X Build/JZO54K) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1', X-Ucbrowser-Ua: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(Nokia_X);pr(UCBrowser/9.4.0.460);ov(4.1.2);pi(480*800);ss(480*800);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: 'Nokia X Platform', family: Android }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: X } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; xx; KYY21) U2/1.0.0 UCBrowser/9.5.1.494 U2/1.0.0 Mobile', x-ucbrowser-ua: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(KYY21);pr(UCBrowser/9.5.1.494);ov(4.2.2);pi(720*1280);ss(720*1280);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);', x-ucbrowser-device-ua: 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; KYY21 Build/209.0.1700) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Kyocera, model: 'Urbano L01' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; xx; TECNO_S3) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(U2/1.0.0);dv(TECNO_S3);pr(UCBrowser/8.8.1.359);ov(4.2.2);pi(320*480);ss(320*480);up(U2/1.0.0);er(U);bt(GJ);pm(1);nm(0);im(0);sr(2);nt(99);', X-UCBrowser-Device-UA: 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; TECNO S3 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+    result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Tecno, model: S3 } }
+-
     headers: { User-Agent: 'UCWEB/2.0(Java; U; MIDP-2.0; xx; gt-s5233s) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0', X-Ucbrowser-Phone: gt-s5233s, X-Ucbrowser-Phone-Ua: gt-s5233s }
     result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
 -
+    headers: { User-Agent: 'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia200) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile', X-Ucbrowser-Ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia200);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (Series40; Nokia200/11.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11', X-Ucbrowser-Device: 'nokia#200' }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 200' } }
+-
+    headers: { User-Agent: 'NokiaC2-01/5.0 (11.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; NokiaC2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0', x-ucbrowser-device: 'nokia#C2-01', x-ucbrowser-device-ua: '?', x-ucbrowser-ua: 'pf(Java);la(pl-PL);re(U2/1.0.0);dv(NokiaC2-01);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-01 } }
+-
+    headers: { User-Agent: 'SAMSUNG-GT-C3312/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0', X-UCBrowser-Device: 'samsung#-GT-C3312', x-ucbrowser-device-ua: 'SAMSUNG-GT-C3312/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1', x-ucbrowser-ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-C3312);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Champ Deluxe Duos' } }
+-
+    headers: { User-Agent: 'SAMSUNG-GT-S3770K/S3770KDDKH4 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0', x-ucbrowser-ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);', X-UCBrowser-Device-UA: 'SAMSUNG-GT-S3770K/S3770KDDKH4 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1', X-UCBrowser-Device: j2me }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Champ 3G' } }
+-
+    headers: { User-Agent: 'SAMSUNG-GT-S3770K/S3770KDDLH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0', X-UCBrowser-Device: j2me, X-UCBrowser-Device-UA: 'MOT-A1200e/1.0 LinuxOS/2.4.20 Release/1.31.2007 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.56.11R', X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Linux }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
+-
     headers: { User-Agent: 'SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0(Java; U; MIDP-2.0; xx; sonyericssonj108i) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile', X-UCBrowser-Phone-UA: sonyericssonj108i, X-UCBrowser-Phone: sonyericssonj108i, x-ucbrowser-ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(sonyericssonj108i);pr(UCBrowser/8.8.0.227);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Cedar } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia501) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-Device: 'nokia#501', X-UCBrowser-Device-UA: '?', X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia501);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; NokiaC7-00) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0 3gpp-gba', X-Ucbrowser-Ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(NokiaC7-00);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(360*640);ss(360*640);up(U2/1.0.0);er(U);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(0);nt(99);', X-Ucbrowser-Device-Ua: '?', X-Ucbrowser-Device: 'nokia#C7-00' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C7-00 } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; SAMSUNG-GT-S3850) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S3850);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*260);ss(240*260);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);', X-UCBrowser-Device-UA: 'SAMSUNG-GT-S3850/1.0 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B', X-UCBrowser-Device: 'samsung#-GT-S3850' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby II' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; SAMSUNG-GT-S5250) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0', X-Ucbrowser-Device: 'samsung#-GT-S5250', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; uk-ua) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B', X-Ucbrowser-Ua: 'pf(Java);la(ru);re(U2/1.0.0);dv(SAMSUNG-GT-S5250);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*400);ss(240*400);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(2);im(0);sr(0);nt(99);' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Bada, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave 525' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; SAMSUNG-GT-S8600) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0', X-Ucbrowser-Ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S8600);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(1);sr(0);nt(99);', X-Ucbrowser-Device-Ua: '?', X-Ucbrowser-Device: 'samsung#-GT-S8600' }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave 3' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Symbian; U; S60 V3; xx; NOKIA6120c) U2/1.0.0 UCBrowser/9.2.0.336 U2/1.0.0 Mobile', X-Ucbrowser-Device: 'NOKIA # 6120c', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NOKIA6120c/07.20; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413', X-Ucbrowser-Ua: 'pf(Symbian);er(U);la(en-US);up(U2/1.0.0);re(U2/1.0.0);dv(NOKIA6120c);pr(UCBrowser/9.2.0.336);ov(S60V3);pi(240*320);ss(240*320);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(2);nt(1)' }
+    result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: Series60, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6120 classic' } }
+-
+    headers: { User-Agent: 'UCWEB/2.0 (Symbian; U; S60 V5; xx; NokiaE7-00) U2/1.0.0 UCBrowser/9.2.0.336 U2/1.0.0 Mobile', X-Ucbrowser-Device: 'Nokia # E7-00', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaE7-00/1.040.1511; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.4.1.14 Mobile Safari/533.4 3gpp-gba', X-Ucbrowser-Ua: 'pf(Symbian);er(U);la(en-US);up(U2/1.0.0);re(U2/1.0.0);dv(NokiaE7-00);pr(UCBrowser/9.2.0.336);ov(S60V5);pi(360*640);ss(360*640);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(2);nt(2)' }
+    result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: Series60, version: '5.3' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E7-00 } }
+-
+    headers: { User-Agent: 'UNTRUSTED/1.0/HS-T39_TD/1.0 Release/03.03.2011 Threadx/4.0 Mocor/W10 Browser/NF4.0 Profile/MIDP-2.0 Config/CLDC-1.1', X-Ucbrowser-Ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(Jblend);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);', X-Ucbrowser-Device-Ua: '?', X-Ucbrowser-Device: Jblend }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature } }

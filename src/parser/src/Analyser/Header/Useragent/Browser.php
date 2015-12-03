@@ -797,6 +797,27 @@ trait Browser
                 }
             }
 
+            if (preg_match('/\(Symbian;/u', $ua)) {
+                $this->data->os->name = 'Series60';
+                $this->data->os->version = null;
+
+                if (preg_match('/S60 V([0-9])/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                if (preg_match('/; Nokia([^;]+)\)/iu', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('s60', $match[1]);
+
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+            }
+
             if (preg_match('/\(Windows;/u', $ua)) {
                 $this->data->os->name = 'Windows Phone';
                 $this->data->os->version = null;
