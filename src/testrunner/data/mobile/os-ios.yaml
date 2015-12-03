@@ -32,6 +32,9 @@
     headers: 'User-Agent: MQQBrowser/451 Mozilla/5.0 (iPhone 5SGSM; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Safari/7534.48.3'
     result: { browser: { name: 'QQ Browser', version: '451' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 5' } }
 -
+    headers: 'User-Agent: MobileSafari/7534.48.3 CFNetwork/548.0.4 Darwin/11.0.0'
+    result: { browser: { name: Safari }, os: { name: iOS, version: '5' }, device: { type: mobile, subtype: smart } }
+-
     headers: 'User-Agent: Mozilla/5.0 (iPhone 3GS; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B146 Safari/8536.25'
     result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 3GS' } }
 -

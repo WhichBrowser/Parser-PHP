@@ -93,7 +93,7 @@
     result: { browser: { name: Chrome, version: '44' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6P Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: 47.0.2526.69 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
+    result: { browser: { name: Chrome, version: '47' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 7 Build/MDB08M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.8 Safari/537.36'
     result: { browser: { name: Chrome, version: 48.0.2564.8 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
