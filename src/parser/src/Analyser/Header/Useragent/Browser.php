@@ -1114,19 +1114,20 @@ trait Browser
 
     private function detectIris($ua)
     {
-        if (preg_match('/Iris[ \/]/u', $ua)) {
+        if (preg_match('/Iris\//u', $ua)) {
             $this->data->browser->name = 'Iris';
-
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->manufacturer = null;
-            $this->data->device->model = null;
-
-            $this->data->os->name = 'Windows Mobile';
-            $this->data->os->version = null;
+            $this->data->browser->hidden = false;
+            $this->data->browser->stock = false;
 
             if (preg_match('/Iris\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
+
+            $this->data->device->reset();
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $this->data->os->reset();
+            $this->data->os->name = 'Windows Mobile';
 
             if (preg_match('/ WM([0-9]) /u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] . '.0' ]);
