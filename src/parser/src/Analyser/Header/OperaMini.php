@@ -23,7 +23,7 @@ class OperaMini
                 }
             }
 
-            if (!$this->data->device->identified && $this->data->os->name == 'Blackberry') {
+            if (!$this->data->device->identified && $this->data->os->name == 'BlackBerry OS') {
                 $device = Data\DeviceModels::identify('blackberry', $model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
