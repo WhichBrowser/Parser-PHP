@@ -1,6 +1,12 @@
 WhichBrowser
 ============
 
+[![Build Status](https://travis-ci.org/WhichBrowser/WhichBrowser.svg?branch=dev)](https://travis-ci.org/WhichBrowser/WhichBrowser)
+[![Code Coverage](https://scrutinizer-ci.com/g/WhichBrowser/WhichBrowser/badges/coverage.png?b=dev)](https://scrutinizer-ci.com/g/WhichBrowser/WhichBrowser/?branch=dev)
+[![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
+[![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
+
+
 > **Everybody lies**  — House M.D.
 
 This is an extremely complicated and almost completely useless browser sniffing library written in PHP. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
