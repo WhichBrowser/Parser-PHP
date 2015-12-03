@@ -19,3 +19,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; NOOK BNTV400 Build/ICS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK HD Tablet' } }
+-
+    headers: 'User-Agent: nook browser/1.0'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: ereader, manufacturer: 'Barnes & Noble', series: NOOK } }

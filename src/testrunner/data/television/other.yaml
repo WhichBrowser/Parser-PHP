@@ -20,6 +20,9 @@
     headers: 'User-Agent: HbbTV/1.1.1 (; Vestel; MB70; 1.0; 1.0;) NetFront/4.1'
     result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, manufacturer: Vestel, model: MB70 } }
 -
+    headers: 'User-Agent: HbbTV/1.1.1 (;;;;;) NETRANGEMMH sraf_tv_browser webkitMozilla/5.0 (Unknown; Linux mips) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36'
+    result: { browser: { name: 'Sraf TV Browser', using: 'Chrome Content Shell' }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
+-
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;EN2000 ;9.wk.92;4.4.2; ) LOH; Opera; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
     result: { browser: { name: 'NetFront NX', version: '2.1' }, device: { type: television, manufacturer: HyperPanel, model: EN2000 } }
 -
@@ -44,6 +47,9 @@
     headers: 'User-Agent: HbbTV/1.1.1 (;IP4TV;DXD5505;1.0;1.0;)'
     result: { device: { type: television, manufacturer: IP4TV, model: DXD5505 } }
 -
+    headers: 'User-Agent: HbbTV/1.1.1 (NETRANGEMMH sraf_tv_browser webkitMozilla/5.0 (Unknown; Linux mips) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36) FXM-U2FsdGVkX1/tdIdmThx556OcX2OvLYJ7xZ4szfWJhVJaKuyMPSh2dCfn+cBdncw9-END'
+    result: { browser: { name: 'Sraf TV Browser', using: 'Chrome Content Shell' }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
+-
     headers: 'User-Agent: HbbTV/1.2.1 (+DL+PVR+DRM;Sky_worth;HC7620;2.07.12;1.0;)CE-HTML/1.0 Skykid/5.1.6.2.04'
     result: { device: { type: television, manufacturer: Skyworth, model: HC7620 } }
 -
@@ -55,6 +61,9 @@
 -
     headers: 'User-Agent: HtmlRenderer/x.y (Technicolor_DXI807FT; U; Linux i686; xx) QtWebKit/2.2.z'
     result: { engine: { name: Webkit, version: 2.2. }, device: { type: television, manufacturer: Technicolor, model: DXI807FT } }
+-
+    headers: 'User-Agent: Kodi/14.0 (Macintosh; Intel Mac OS X 10_10_3) App_Bitness/64 Version/14.0-Git:2014-12-23-ad747d9-dirty'
+    result: { browser: { name: Kodi, version: '14.0' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
 -
     headers: 'User-Agent: LOEWE/TV HBBTV/1.0 CE-HTML/1.0 SL150/14.16.0'
     result: { device: { type: television, manufacturer: Loewe, model: 'Connect SL150', series: 'Smart TV' } }

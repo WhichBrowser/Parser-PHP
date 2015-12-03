@@ -17,6 +17,9 @@
     headers: 'User-Agent: LG Browser/7.00.00, webOS.TV-2014/02.00.14 (LG, WEBOS1, wired)'
     result: { browser: { name: 'LG Browser', version: '7.00' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; STB Linux; POLARIS6; UPLUSTVBROWSER)'
+    result: { browser: { name: Polaris, version: '6' }, device: { type: television, manufacturer: LG, series: 'U+ tv' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( ;LGE ;NetCast 3.0 ;1.0 ;1.0M ;)'
     result: { engine: { name: Webkit, version: '534.26' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2012' } }
 -
