@@ -36,7 +36,7 @@
     result: { browser: { name: 'Internet Explorer', version: '5.0' }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.12; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: 5.1.2 }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: 5.1.2 }, engine: { name: Tasman }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.22; Mac_PowerPC)'
     result: { browser: { name: 'Internet Explorer', version: 5.2.2 }, engine: { name: Tasman }, os: { name: 'OS X' }, device: { type: desktop } }
