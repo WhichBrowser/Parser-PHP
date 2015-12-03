@@ -64,7 +64,9 @@ class Testrunner
                     }
                 } else {
                     fwrite($fp, "\n{$name}\n--------------\n\n");
-                    fwrite($fp, $rule['headers'] . "\n");
+                    foreach ($rule['headers'] as $k => $v) {
+                        fwrite($fp, $k . ': ' . $v . "\n");
+                    }
                     fwrite($fp, "New result:\n");
 
                     try {
