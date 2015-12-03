@@ -1380,20 +1380,20 @@ trait Browser
         /* NineSky */
 
         if (preg_match('/Ninesky(?:-android-mobile(?:-cn)?)?\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->reset();
             $this->data->browser->name = 'NineSky';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
             if (isset($this->data->device->manufacturer) && $this->data->device->manufacturer == 'Apple') {
-                unset($this->data->device->manufacturer);
-                unset($this->data->device->model);
-                unset($this->data->device->identifier);
-                $this->data->device->identified = Constants\Id::NONE;
+                $this->data->device->reset();
             }
 
-            if (isset($this->data->os->name) && $this->data->os->name != 'Android') {
+            if (!$this->data->os->isFamily('Android')) {
+                $this->data->os->reset();
                 $this->data->os->name = 'Android';
-                $this->data->os->version = null;
             }
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
         /* Skyfire */
