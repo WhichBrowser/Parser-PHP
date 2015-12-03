@@ -414,15 +414,15 @@ trait Browser
             $this->data->browser->name = 'Opera';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 
-            if (preg_match('/Edition Developer/u', $ua)) {
+            if (preg_match('/Edition Developer/iu', $ua)) {
                 $this->data->browser->channel = 'Developer';
             }
 
-            if (preg_match('/Edition Next/u', $ua)) {
+            if (preg_match('/Edition Next/iu', $ua)) {
                 $this->data->browser->channel = 'Next';
             }
 
-            if (preg_match('/Edition beta/u', $ua)) {
+            if (preg_match('/Edition Beta/iu', $ua)) {
                 $this->data->browser->channel = 'Beta';
             }
 
