@@ -1,7 +1,4 @@
 <?php
-
-include_once 'bootstrap.php';
-
 use WhichBrowser\Testrunner;
 
 set_error_handler(function ($errno, $errstr, $errfile, $errline, array $errcontext) {
@@ -12,8 +9,6 @@ set_error_handler(function ($errno, $errstr, $errfile, $errline, array $errconte
 
     throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
 });
-
-
 
 $all = false;
 $command = 'compare';

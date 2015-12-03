@@ -11,8 +11,19 @@
             "role": "Developer"
         }
     ],
+    
     "require": {
         "symfony/yaml": "^2.7",
         "whichbrowser/parser": "^2.0"
+    },
+    
+    "autoload": {
+        "classmap": [
+            "src/Testrunner.php"
+        ],
+        
+        "files": [
+            "src/Polyfills.php"
+        ]
     }
 }
