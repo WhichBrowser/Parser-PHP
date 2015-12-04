@@ -3,7 +3,7 @@
     "version": "2.0.3",
 
     "description": "Useragent sniffing library for PHP",
-    "keywords": ["useragent","browser"],
+    "keywords": ["useragent","browser","sniffing", "ua"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",
     "authors": [
