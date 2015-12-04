@@ -4,6 +4,14 @@ filter:
         - tests/*
         - data/*
 
+checks:
+    php:
+        code_rating: true
+        duplication: true
+
+coding_style:
+    php: {  }
+
 tools:
     external_code_coverage:
         timeout: 1200
