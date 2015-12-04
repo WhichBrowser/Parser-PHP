@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/534.34 (KHTML, like Gecko) QtCarBrowser Safari/534.34'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: car, manufacturer: Tesla, model: 'Model S' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) QtCarBrowser Safari/533.3'
+    result: { engine: { name: Webkit, version: '533.3' }, device: { type: car, manufacturer: Tesla, model: 'Model S' } }

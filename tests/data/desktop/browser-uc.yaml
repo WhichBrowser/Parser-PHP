@@ -1,0 +1,63 @@
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Sicent; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; UBrowser/3.0.1806.0)'
+    result: { browser: { name: 'UC Browser', version: '3.0' }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; InfoPath.3 UBrowser/1.0.226.1028)'
+    result: { browser: { name: 'UC Browser', version: '1.0' }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 UBrowser/2.0.1144.0 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 35 }, version: '2.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 UBrowser/5.4.4237.1032 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 44 }, version: '5.4' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 44 }, version: '5.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 UBrowser/4.0.4627.3 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 38 }, version: '4.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 UBrowser/5.0.389.22 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 41 }, version: '5.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0 UBrowser/1.0.342.1224) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '1.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; UBrowser/2.0.754.0) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '2.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; UBrowser/3.0.947.1) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '3.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; UBrowser/5.1.2238.18) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '5.1' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 UBrowser/1.0.898.0 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 32 }, version: '1.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.30 UBrowser/5.2.3129.0 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 44 }, version: '5.2' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 UBrowser/3.1.1644.34 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 35 }, version: '3.1' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 UBrowser/4.1.4627.19 Safari/537.36'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 38 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; UBrowser/5.0.966.1045) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '5.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; UBrowser/5.4.4799.303) like Gecko'
+    result: { browser: { name: 'UC Browser', version: '5.4' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; UBrowser/3.2.2937.4)'
+    result: { browser: { name: 'UC Browser', version: '3.2' }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.3; WOW64; Trident/8.0; UBrowser/5.0.389.27)'
+    result: { browser: { name: 'UC Browser', version: '5.0' }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0 UBrowser/1.0.370.1388)'
+    result: { browser: { name: 'UC Browser', version: '1.0' }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) UBrowser/1.0.44.100'
+    result: { browser: { name: 'UC Browser', version: '1.0' }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }

@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; ko-kr; SAMSUNG; NX30) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
+    result: { browser: { family: { name: Chrome, version: 18 } }, engine: { name: Webkit, version: '535.19' }, os: { name: Tizen }, device: { type: camera, manufacturer: Samsung, model: NX30 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Tizen 1.0; xx; Samsung NX300) AppleWebKit/534.16 (KHTML, like Gecko) Version/1.0 Mobile Android compatible'
+    result: { engine: { name: Webkit, version: '534.16' }, os: { name: Tizen, version: '1.0' }, device: { type: camera, manufacturer: Samsung, model: NX300 } }

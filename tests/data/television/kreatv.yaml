@@ -1,0 +1,21 @@
+-
+    headers: 'User-Agent: KreaTVWebKit/531 (Motorola STB; Linux)'
+    result: { engine: { name: Webkit, version: '531' }, device: { type: television, manufacturer: Motorola, series: KreaTV } }
+-
+    headers: 'User-Agent: Motorola KreaTV STB (Linux)/WebKit'
+    result: { device: { type: television, manufacturer: Motorola, series: KreaTV } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux) AppleWebKit/534.51 (KHTML, like Gecko) Ekioh/2.2.4.7-moto-mob Safari/534.51:534 Motorola KreaTV STB VIP1003'
+    result: { browser: { name: Ekioh, version: 2.2.4.7 }, engine: { name: Webkit, version: '534.51' }, device: { type: television, manufacturer: Motorola, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/19.0.1325.0 OMI/4.1.4.54, KreaTV/0.16197.0.0 (ARRIS, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.1' }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/19.0.1325.0 OMI/4.1.4.54, KreaTV/0.923.0.0 (ARRIS, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.1' }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/19.0.1325.0 OMI/4.1.4.54, KreaTV/15.99.2.1 (ARRIS, IPC1100P2, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.1' }, device: { type: television, manufacturer: Arris, model: IPC1100P2, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/19.0.1325.0 OMI/4.1.4.54, KreaTV/15.99.2.1 (ARRIS, IPC1100P2, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.1' }, device: { type: television, manufacturer: Arris, model: IPC1100P2, series: KreaTV } }

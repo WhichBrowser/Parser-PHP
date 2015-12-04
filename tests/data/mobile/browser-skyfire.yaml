@@ -1,0 +1,9 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; xx) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0'
+    result: { browser: { name: Skyfire, version: '2.0' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, alias: 'Mac OS X' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; xx) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/6DE'
+    result: { browser: { name: Skyfire, version: '6' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, alias: 'Mac OS X' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Skyfire/5.0.1 (Linux; U; Android 4.1.2; xx; PlayBook Build/jelly bean) AppleWebKit/535.1+ (KHTML, like Gecko) Version/7.2.0.0 Safari/535.19'
+    result: { browser: { name: Skyfire, version: 5.0.1 }, engine: { name: Webkit, version: '535.1' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry PlayBook' } }

@@ -1,0 +1,42 @@
+-
+    headers: 'User-Agent: Dolphin/10.0.0 (Linux; U; Android 4.1.2; xx; PlayBook Build/jelly bean) AppleWebKit/535.1+ (KHTML, like Gecko) Version/7.2.0.0 Safari/535.1+'
+    result: { browser: { name: Dolphin, version: 10.0.0 }, engine: { name: Webkit, version: '535.1' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry PlayBook' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android 4.0.4; U; xx; SAMSUNG-SGH-I717 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/1.1.0'
+    result: { browser: { name: Dolphin, version: 1.1.0 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android 4.0.4; U; xx; SAMSUNG-SGH-I717 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.1.0'
+    result: { browser: { name: Dolphin, version: 1.1.0 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.5.1.16-RT-20120808.143842; xx; K-Touch W619 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/CN-1.0.8 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.0.8 }, engine: { name: Webkit, version: '534.30' }, os: { name: 'Aliyun OS', family: Android, version: 1.5.1 }, device: { type: mobile, subtype: smart, manufacturer: K-Touch, model: W619 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; Coolpad 5820 Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 DolphinHDCN/7.0.2'
+    result: { browser: { name: Dolphin, version: 7.0.2 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Coolpad, model: '5820' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; xx; HTC Desire Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 DolphinHDCN/6.3.1'
+    result: { browser: { name: Dolphin, version: 6.3.1 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Desire } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; xx; GT-I9100 Build/GINGERBREAD) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0.8 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.0.8 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; xx; ST18i Build/4.0.A.2.368) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/CN-1.0.9 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.0.9 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Ray' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; LG-E730 Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.1.0 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.1.0 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus Sol' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; ME860 Build/4.5.2A-74_OLH-25) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/CN-1.0.9 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.0.9 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; HTC One X Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.1.0 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 1.1.0 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.2; xx; SAMSUNG-SGH-I727 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-9.0.3 Mobile Safari/534.30'
+    result: { browser: { name: Dolphin, version: 9.0.3 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Skyrocket' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7 DolphinHDCN/6.2.0'
+    result: { browser: { name: Dolphin, version: 6.2.0 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7 DolphinHDCN/7.0.2'
+    result: { browser: { name: Dolphin, version: 7.0.2 }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }

@@ -1,0 +1,27 @@
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D050; Blazer/4.3) 16;320x320)'
+    result: { browser: { name: Blazer, version: '4.3' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: TX } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D053; Blazer/4.5) 16;320x320 UP.Link/6.3.1.17.0'
+    result: { browser: { name: Blazer, version: '4.5' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 680' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D062; Blazer/4.5) 16;320x320'
+    result: { browser: { name: Blazer, version: '4.5' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Centro } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-TunX; Blazer/4.3) 16;320x448'
+    result: { browser: { name: Blazer, version: '4.3' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: LifeDrive } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-H102; Blazer/4.0) 16;320x320'
+    result: { browser: { name: Blazer, version: '4.0' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 650' } }
+-
+    headers: 'User-Agent: Mozilla/4.76 (compatible; MSIE 6.0; U; Windows 95; PalmSource; PalmOS; WebPro; Tungsten Proxyless 1.1 320x320x16)'
+    result: { browser: { name: WebPro }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Palm680/RC1 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D053; Blazer/4.5) 16;320x320 UP.Link/6.3.1.17.06.3.1.17.0'
+    result: { browser: { name: Blazer, version: '4.5' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 680' } }
+-
+    headers: 'User-Agent: PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320'
+    result: { browser: { name: Blazer, version: '4.5' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Centro } }
+-
+    headers: 'User-Agent: Xiino/1.0.9E [en] (v. 4.1; 153x130; g4)'
+    result: { browser: { name: Xiino, version: '1.0.9E [en] (v. 4.1' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart } }

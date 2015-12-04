@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Iriver ; EB07 ) AppleWebKit/534.16  (KHTML, like Gecko) Version/5.0 Safari/534.16'
+    result: { engine: { name: Webkit, version: '534.16' }, device: { type: ereader, manufacturer: iRiver, model: 'Story HD EB07', series: Story } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (mobile; CPU ARM Linux 2.6.21;en-us) AppleWebKit/525.1 (bookeen/cybook) Orizon/1.0 (screen 600x800)'
+    result: { engine: { name: Webkit, version: '525.1' }, device: { type: ereader, manufacturer: Bookeen, series: Cybook } }

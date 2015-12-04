@@ -1,0 +1,99 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.4.56.ALSAN3.7 SonyCEBrowser/1.0 (BDPlayer; BDP10G_AX; BDP2015/M24.D.0104; XAE;)'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 32 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, device: { type: television, manufacturer: Sony, model: BDP10G, series: 'Blu-ray Player' } }
+-
+    headers: 'User-Agent: OPR/17.0.1251.0 OMI/4.0.2.23, KreaTV/0.0.0.0 (ARRIS, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.0' }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/19.0.1325.0 OMI/4.1.4.54, KreaTV/0.19090.0.0 (ARRIS, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '4.1' }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
+-
+    headers: 'User-Agent: OPR/22.0.1481.0 OMI/4.2.12.29, KreaTV/0.0.0.0 (ARRIS, IPC1100, wired)CM[00.01]'
+    result: { browser: { name: 'Opera Devices', version: '4.2' }, device: { type: television, manufacturer: Arris, model: IPC1100, series: KreaTV } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5450; TOSHIBA;E8E0B7047FEF;BDX3400KB; 0.64) Presto/2.12.362 Version/12.10'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Toshiba, model: BDX3400, series: 'Blu-ray Player' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11  Blu-ray Player/v00.17 (Pioneer, BDP-160, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Pioneer, model: BDP-160, series: 'Blu-ray Player' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 55PUS780912; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/014.002.026.129 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Philips, model: PUS7809, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; ; ; PHILIPSTV; )  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/010.001.072.040 (PhilipsTV, 3.1.1,)en) Presto/2.12.407 Version/12.50'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) ; CC/ARG) Presto/2.12.407 Version/12.50'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Sony, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KD55X9005A; CC/DEU) Presto/2.12.362 Version/12.11'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Sony, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2(00014A;SonyDTV115;0002;0100) KDL-50R556A; CC/CHN) Presto/2.12.362 Version/12.11'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Sony, model: 'Bravia R556', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; U; xx) Presto/2.10.287 Version/12.00 SonyCEBrowser/1.0 (KDL-42W805A; CTV/PKG3.009EUA; GBR)'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: Sony, model: 'Bravia W805', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux i686; U; HbbTV/1.1.1 (; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/1.0; xx) Presto/2.10.287 Version/12.00 A3/1.0.1.28219 (BANGOLUFSEN, A3, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: 'Bang & Olufsen', model: A3, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips) Presto/2.12.407 Version/12.50 , KreaTV/12.36.2.2 (ARRIS, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Arris, model: VMS1100, series: KreaTV } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips) Presto/2.12.407 Version/12.50 , Vizio Co-Star LT/1.0.3T4 (Vizio, ISV-B11, wireless)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Vizio, model: ISV-B11, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips) Presto/2.12.407 Version/12.51 , TiVo-Device/b-tcdclient-harmony/2013.12.17-2041 (TiVo, TCD8F6000, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: TiVo, series: DVR } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips) Presto/2.12.407 Version/12.51 , TiVo-Device/ml4-th.2014.03.20-1412-VMC-2 (TiVo, OnDemand_TCDC00000, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: TiVo, series: DVR } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.6.X (TOSHIBA, Si2156LG32, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Toshiba, model: Si2156LG32, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.3.0 PHILIPSTV/1.1.1 Firmware/173.44.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; Opera TV Store/6162; HbbTV/1.2.1 (; Altech UEC; PVR9600; ; ; )) Presto/2.12.407 Version/12.51 Model/AltechMultimedia-TestingDevice'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: 'Altech UEC', model: PVR9600 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL40HX750; PKG2.222GAA; 2012;);; xx) Presto/2.10.250 Version/11.60'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Sony, model: 'Bravia HX750', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 HbbTV/1.1.1 (; CUS:SHARP; MB95; 2.1.9.o; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: Sharp, model: MB95 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Humax; HDR-5100S; 1.0.0; 1.0.0; ); ce-html/1.0; xx) Presto/2.9.167 Version/11.50'
+    result: { browser: { name: 'Opera Devices', version: '3.1' }, engine: { name: Presto, version: 2.9.167 }, device: { type: television, manufacturer: Humax, model: HDR-5100S, series: 'Digital Receiver' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) AZ2CVT2; CC/CAN; en) Presto/2.7.61 Version/11.00'
+    result: { browser: { name: 'Opera Devices', version: '2.9' }, engine: { name: Presto, version: 2.7.61 }, device: { type: television, manufacturer: Sony, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL55HX925; CC/XGA; xx) Presto/2.7.61 Version/11.00'
+    result: { browser: { name: 'Opera Devices', version: '2.9' }, engine: { name: Presto, version: 2.7.61 }, device: { type: television, manufacturer: Sony, model: 'Bravia HX925', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.250 Version/11.60 , VMS/12.23.4.1 (MMI, VMS1100, wired)'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: MMI, model: VMS1100, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (tv102; 130515_2104_b6) CE-HTML/1.0 NETRANGEMMH'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: 'Dune HD', model: TV-102 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux sh4 ; U; HBBTV/1.0 (; LOH/1.00; -----;;;) CE-HTML/1.0 Config(L:de,CC:AT); en) Presto/2.5.21 Version/10.30'
+    result: { browser: { name: 'Opera Devices' }, engine: { name: Presto, version: 2.5.21 }, device: { type: television } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; Loewe; SL210; LOH/10.2.3.25;;) CE-HTML/1.0 Config(L:spa,CC:ESP) NETRANGEMMH) Presto/2.12.362 Version/12.10'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Loewe, model: 'Connect SL210', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (;Sharp;LE750;v0.100;;) CE-HTML/1.0 Config(L:eng,CC:DEU) NETRANGEMMH) Presto/2.12.362 Version/12.10'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Sharp, model: LE750 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux sh4; U; HbbTV/1.1.1 (; INTEK; VT-100 HD+;;;) hdplusSmartTV/1.0 (NETRANGEMMH;) Bee/3.2 CE-HTML/1.0; en) Presto/2.10.250 Version/11.60'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: INTEK, model: 'VT-100 HD+' } }
+-
+    headers: 'User-Agent: Opera/9.80(Linux armv6I; Opera TV Store/5530; Smart-BD; M; Linux/SmartBD; B-HM5160; Mediatek) Presto/2.12.362 Version/12.11 (3c:07:71:e7:5a:2c BDP-S1200_EUR M19.D.0046 M19.R.0035 M)'
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Sony, model: BDP-S1200, series: 'Blu-ray Player' } }
+-
+    headers: 'User-Agent: Opera/9.80(Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.1; PHILIPS-AVM-2012; xx) Presto/2.10.250 Version/11.60'
+    result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Philips, series: 'Blu-ray Player' } }
