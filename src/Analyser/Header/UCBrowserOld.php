@@ -4,8 +4,6 @@ namespace WhichBrowser\Analyser\Header;
 
 use WhichBrowser\Parser;
 use WhichBrowser\Constants;
-use WhichBrowser\Data;
-use WhichBrowser\Model\Version;
 
 class UCBrowserOld
 {

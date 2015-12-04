@@ -3,8 +3,6 @@
 namespace WhichBrowser\Analyser;
 
 use WhichBrowser\Constants;
-use WhichBrowser\Model\Family;
-use WhichBrowser\Model\Using;
 use WhichBrowser\Model\Version;
 
 trait Corrections
@@ -35,6 +33,10 @@ trait Corrections
             $this->fixMidoriEngineName();
         }
 
+        if (isset($this->data->browser->name) && isset($this->data->engine->name)) {
+            $this->fixNineSkyEngineName();
+        }
+
         if (isset($this->data->browser->name) && isset($this->data->browser->family)) {
             $this->hideFamilyIfEqualToBrowser();
         }
@@ -62,6 +64,14 @@ trait Corrections
     private function fixMidoriEngineName()
     {
         if ($this->data->browser->name == 'Midori' && $this->data->engine->name != 'Webkit') {
+            $this->data->engine->name = 'Webkit';
+            $this->data->engine->version = null;
+        }
+    }
+
+    private function fixNineSkyEngineName()
+    {
+        if ($this->data->browser->name == 'NineSky' && $this->data->engine->name != 'Webkit') {
             $this->data->engine->name = 'Webkit';
             $this->data->engine->version = null;
         }

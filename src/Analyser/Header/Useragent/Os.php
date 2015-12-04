@@ -458,7 +458,7 @@ trait Os
             $this->data->os->name = 'Windows';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
 
-            if (preg_match('/Windows NT ([0-9][0-9]?\.[0-9])/u', $ua, $match)) {
+            if (preg_match('/(?:Windows NT |WinNT)([0-9][0-9]?\.[0-9])/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
 
                 switch ($match[1]) {
@@ -518,6 +518,10 @@ trait Os
 
             if (preg_match('/Windows XP/u', $ua) || preg_match('/WinXP/u', $ua)) {
                 $this->data->os->version = new Version([ 'value' => '5.1', 'alias' => 'XP' ]);
+            }
+
+            if (preg_match('/Windows (3.[0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
             if (preg_match('/WPDesktop/u', $ua)) {
@@ -1518,7 +1522,8 @@ trait Os
             [ 'name' => 'ThreadX',      'regexp' => [ '/ThreadX(?:_OS)?\/([0-9.]*)/iu' ] ],
         ];
 
-        for ($b = 0; $b < count($patterns); $b++) {
+        $count = count($patterns);
+        for ($b = 0; $b < $count; $b++) {
             for ($r = 0; $r < count($patterns[$b]['regexp']); $r++) {
 
                 if (preg_match($patterns[$b]['regexp'][$r], $ua, $match)) {

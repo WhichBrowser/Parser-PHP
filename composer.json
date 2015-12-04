@@ -1,5 +1,7 @@
 {
     "name": "whichbrowser/parser",
+    "version": "2.0.3",
+
     "description": "Useragent sniffing library for PHP",
     "keywords": ["useragent","browser"],
     "homepage": "http://whichbrowser.net",
@@ -17,8 +19,17 @@
     },
     
     "autoload": {
-        "psr-4": {
-            "WhichBrowser\\": "src/"
-        }
+        "psr-4": { "WhichBrowser\\": "src/" }
+    },
+
+    "require-dev": {
+        "symfony/yaml": "^2.7",
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/php-code-coverage": "^2.2|^3.0"
+    },
+
+    "autoload-dev": {
+        "psr-4": { "WhichBrowser\\": "tests/src/" },
+        "files": [ "tests/src/polyfills.php" ]
     }
 }

@@ -2,7 +2,6 @@
 
 namespace WhichBrowser\Analyser\Header;
 
-use WhichBrowser\Constants;
 use WhichBrowser\Data;
 use WhichBrowser\Model\Version;
 
@@ -19,15 +18,23 @@ class UCBrowserNew
         }
 
         /* Find os */
-        if (preg_match('/ov\(Android ([0-9\.]+)/u', $header, $match)) {
+        if (preg_match('/pf\(Java\)/u', $header)) {
+            if (preg_match('/dv\(([^\)]*)\)/u', $header, $match)) {
+                if ($this->identifyBasedOnModel($match[1])) {
+                    return;
+                }
+            }
+        }
+
+        if (preg_match('/pf\(Linux\)/u', $header) && preg_match('/ov\((?:Android )?([0-9\.]+)/u', $header, $match)) {
             $this->data->os->name = 'Android';
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
         }
 
-        if (preg_match('/pf\(Symbian\)/u', $header) && preg_match('/ov\(S60V5/u', $header)) {
+        if (preg_match('/pf\(Symbian\)/u', $header) && preg_match('/ov\(S60V([0-9])/u', $header, $match)) {
             if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
                 $this->data->os->name = 'Series60';
-                $this->data->os->version = new Version([ 'value' => 5 ]);
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
         }
 
@@ -75,7 +82,7 @@ class UCBrowserNew
         }
 
         if (isset($this->data->os->name) && $this->data->os->name == 'Series60') {
-            if (preg_match('/dv\((?:Nokia)?([^\)]*)\)/u', $header, $match)) {
+            if (preg_match('/dv\((?:Nokia)?([^\)]*)\)/iu', $header, $match)) {
                 $device = Data\DeviceModels::identify('s60', $match[1]);
 
                 if ($device) {
@@ -102,6 +109,63 @@ class UCBrowserNew
                     $this->data->device = $device;
                 }
             }
+        }
+    }
+
+    private function identifyBasedOnModel($model)
+    {
+        $model = preg_replace('/^Nokia/iu', '', $model);
+
+        $device = Data\DeviceModels::identify('s60', $model);
+        if ($device->identified) {
+            $device->identified |= $this->data->device->identified;
+            $this->data->device = $device;
+
+            if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
+                $this->data->os->name = 'Series60';
+                $this->data->os->version = null;
+            }
+
+            return true;
+        }
+
+        $device = Data\DeviceModels::identify('s40', $model);
+        if ($device->identified) {
+            $device->identified |= $this->data->device->identified;
+            $this->data->device = $device;
+
+            if (!isset($this->data->os->name) || $this->data->os->name != 'Series40') {
+                $this->data->os->name = 'Series40';
+                $this->data->os->version = null;
+            }
+
+            return true;
+        }
+
+        $device = Data\DeviceModels::identify('bada', $model);
+        if ($device->identified) {
+            $device->identified |= $this->data->device->identified;
+            $this->data->device = $device;
+
+            if (!isset($this->data->os->name) || $this->data->os->name != 'Bada') {
+                $this->data->os->name = 'Bada';
+                $this->data->os->version = null;
+            }
+
+            return true;
+        }
+
+        $device = Data\DeviceModels::identify('touchwiz', $model);
+        if ($device->identified) {
+            $device->identified |= $this->data->device->identified;
+            $this->data->device = $device;
+
+            if (!isset($this->data->os->name) || $this->data->os->name != 'Touchwiz') {
+                $this->data->os->name = 'Touchwiz';
+                $this->data->os->version = null;
+            }
+
+            return true;
         }
     }
 }

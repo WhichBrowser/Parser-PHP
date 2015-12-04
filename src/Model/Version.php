@@ -12,6 +12,19 @@ class Version extends Base
     /** @var boolean */
     public $hidden = false;
 
+    /** @var string */
+    public $nickname;
+
+    /** @var string */
+    public $alias;
+
+    /** @var int */
+    public $details;
+
+    /** @var boolean */
+    public $builds;
+
+
 
     /**
      * Determine if the version is lower, equal or higher than the specified value

@@ -30,7 +30,7 @@ trait Television
         $this->detectSettopboxes($ua);
 
         /* Improve model names */
-        $this->improveModelsOnDeviceTypeTelevision($ua);
+        $this->improveModelsOnDeviceTypeTelevision();
     }
 
 
@@ -142,7 +142,7 @@ trait Television
 
         if (preg_match('/webOS\.TV-([0-9]+)/u', $ua, $match)) {
             $this->data->device->manufacturer = 'LG';
-            $this->data->device->series = 'webOS TV'; // . $match[1];
+            $this->data->device->series = 'webOS TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
 
@@ -607,6 +607,8 @@ trait Television
         if (preg_match('/(?:DTVNetBrowser|InettvBrowser|Hybridcast)\/[0-9\.]+[A-Z]? \(/u', $ua, $match)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
+            $vendorName = null;
+            $modelName = null;
             $found = false;
 
             if (preg_match('/(?:DTVNetBrowser|InettvBrowser)\/[0-9\.]+[A-Z]? \(([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
@@ -683,6 +685,8 @@ trait Television
         if (preg_match('/(?:HbbTV|SmartTV)\/[0-9\.]+ \(/iu', $ua, $match)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
+            $vendorName = null;
+            $modelName = null;
             $found = false;
 
             if (preg_match('/HbbTV\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
