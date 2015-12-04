@@ -1,0 +1,4 @@
+runner.log
+runner.xml
+composer.lock
+vendor/*

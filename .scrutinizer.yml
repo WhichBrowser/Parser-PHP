@@ -1,0 +1,9 @@
+filter:
+    excluded_paths:
+        - bin/*
+        - tests/*
+        - data/*
+
+tools:
+    external_code_coverage:
+        timeout: 1200
