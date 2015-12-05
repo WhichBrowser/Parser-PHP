@@ -82,32 +82,28 @@ trait Gaming
 
         if (preg_match('/Nintendo 3DS/u', $ua)) {
             $this->data->os->reset();
+            $this->data->os->identifyVersion('/Version\/([0-9.]*)/u', $ua);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Nintendo',
                 'model'         =>  '3DS',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::PORTABLE
             ]);
-
-            if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            }
         }
 
         /* New 3DS */
 
         if (preg_match('/New Nintendo 3DS/u', $ua)) {
             $this->data->os->reset();
+            $this->data->os->identifyVersion('/Version\/([0-9.]*)/u', $ua);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Nintendo',
                 'model'         =>  'New 3DS',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::PORTABLE
             ]);
-
-            if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            }
         }
     }
 
@@ -132,16 +128,14 @@ trait Gaming
 
         if (preg_match('/PlayStation Vita/u', $ua)) {
             $this->data->os->reset();
+            $this->data->os->identifyVersion('/PlayStation Vita ([0-9.]*)/u', $ua);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sony',
                 'model'         =>  'Playstation Vita',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::PORTABLE
             ]);
-
-            if (preg_match('/PlayStation Vita ([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            }
 
             if (preg_match('/VTE\//u', $ua)) {
                 $this->data->device->model = 'Playstation TV';
@@ -152,32 +146,28 @@ trait Gaming
 
         if (preg_match('/PlayStation 3/ui', $ua)) {
             $this->data->os->reset();
+            $this->data->os->identifyVersion('/PLAYSTATION 3;? ([0-9.]*)/u', $ua);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sony',
                 'model'         =>  'Playstation 3',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
-
-            if (preg_match('/PLAYSTATION 3;? ([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            }
         }
 
         /* PlayStation 4 */
 
         if (preg_match('/PlayStation 4/ui', $ua)) {
             $this->data->os->reset();
+            $this->data->os->identifyVersion('/PlayStation 4 ([0-9.]*)/u', $ua);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sony',
                 'model'         =>  'Playstation 4',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
-
-            if (preg_match('/PlayStation 4 ([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            }
         }
     }
 

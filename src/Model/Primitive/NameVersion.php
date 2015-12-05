@@ -2,6 +2,8 @@
 
 namespace WhichBrowser\Model\Primitive;
 
+use WhichBrowser\Model\Version;
+
 /**
  * @internal
  */
@@ -34,6 +36,38 @@ class NameVersion extends Base
 
         if (is_array($properties)) {
             $this->set($properties);
+        }
+    }
+
+
+    /**
+     * Identify the version based on a pattern
+     *
+     * @param   string      $pattern   The regular expression that defines the group that matches the version string
+     * @param   string      $subject   The string the regular expression is matched with
+     * @param   array|null  $defaults  An optional array of properties to set together with the value
+     *
+     * @return string
+     */
+
+    public function identifyVersion($pattern, $subject, $defaults = [])
+    {
+        if (preg_match($pattern, $subject, $match)) {
+            $version = $match[1];
+
+            if (isset($defaults['type'])) {
+                switch ($defaults['type']) {
+                    case 'underscore':
+                        $version = str_replace('_', '.', $version);
+                        break;
+                    case 'legacy':
+                        $version = preg_replace("/([0-9])([0-9])/", '$1.$2', $version);
+                        break;
+                }
+            }
+            
+
+            $this->version = new Version(array_merge($defaults, [ 'value' => $version ]));
         }
     }
 
