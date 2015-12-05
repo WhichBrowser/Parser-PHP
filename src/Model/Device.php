@@ -63,7 +63,7 @@ class Device extends Base
 
 
     /**
-     * Declare an positive identification 
+     * Declare an positive identification
      *
      * @param  array  $properties  An array, the key of an element determines the name of the property
      *
