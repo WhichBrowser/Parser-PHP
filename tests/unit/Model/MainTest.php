@@ -166,4 +166,72 @@ class MainTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('mobile:feature', $main->getType());
     }
+
+    public function testToString()
+    {
+        $main = new Main();
+        $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
+        $main->engine->set([ 'name' => 'Blink' ]);
+        $main->os->set([ 'name' => 'OS X', 'version' => new Version([ 'value' => '10.11', 'nickname' => 'El Capitan' ]) ]);
+
+        $this->assertEquals('Chrome 47 on OS X El Capitan 10.11', $main->toString());
+
+
+        $main = new Main();
+        $main->engine->set([ 'name' => 'WebKit' ]);
+        $main->os->set([ 'name' => 'Tizen', 'version' => new Version([ 'value' => '2.0' ]) ]);
+
+        $this->assertEquals('Tizen 2.0', $main->toString());
+
+
+        $main = new Main();
+        $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
+
+        $this->assertEquals('Chrome 47', $main->toString());
+
+
+        $main->browser->set([ 'name' => 'Safari', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->engine->set([ 'name' => 'WebKit' ]);
+        $main->os->set([ 'name' => 'iOS', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+
+        $this->assertEquals('Safari 8.0 on an Apple iPhone 6 running iOS 8.0', $main->toString());
+
+
+        $main = new Main();
+        $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
+        $main->os->set([ 'name' => 'Android', 'version' => new Version([ 'value' => '4.4' ]) ]);
+        $main->device->set([ 'model' => 'SM-A300', 'type' => Constants\DeviceType::MOBILE ]);
+        $this->assertEquals('Chrome 47 on an unrecognized device (SM-A300) running Android 4.4', $main->toString());
+    }
+
+
+    public function testToArray()
+    {
+        $main = new Main();
+        $this->assertEquals([], $main->toArray());
+
+        $main->browser->set([ 'name' => 'Safari', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->engine->set([ 'name' => 'WebKit' ]);
+        $main->os->set([ 'name' => 'iOS', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+        $this->assertEquals([
+            'browser' => [
+                'name'      => 'Safari',
+                'version'   => '8.0'
+            ],
+            'engine' => [
+                'name'      => 'WebKit'
+            ],
+            'os' => [
+                'name'      => 'iOS',
+                'version'   => '8.0'
+            ],
+            'device' => [
+                'type'          => 'mobile',
+                'manufacturer'  => 'Apple',
+                'model'         => 'iPhone 6'
+            ]
+        ], $main->toArray());
+    }
 }

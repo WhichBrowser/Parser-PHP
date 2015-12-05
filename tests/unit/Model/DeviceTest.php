@@ -168,6 +168,20 @@ class DeviceTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertEquals('Sony PRS-T2 Reader', $device->toString());
+
+        $device->setIdentification([
+            'manufacturer'  =>  'Apple',
+            'model'         =>  'AppleTV'
+        ]);
+
+        $this->assertEquals('AppleTV', $device->toString());
+
+        $device->setIdentification([
+            'manufacturer'  =>  'OUYA',
+            'model'         =>  'OUYA'
+        ]);
+
+        $this->assertEquals('OUYA', $device->toString());
     }
 
     public function testDetected()
