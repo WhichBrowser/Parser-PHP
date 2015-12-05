@@ -20,12 +20,11 @@ trait Media
     {
         if (preg_match('/Microsoft ZuneHD/u', $ua)) {
             $this->data->os->reset();
-
-            $this->data->device->manufacturer = 'Microsoft';
-            $this->data->device->model = 'Zune HD';
-            $this->data->device->type = Constants\DeviceType::MEDIA;
-            $this->data->device->identified |= Constants\Id::MATCH_UA;
-            $this->data->device->generic = false;
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Microsoft',
+                'model'         =>  'Zune HD',
+                'type'          =>  Constants\DeviceType::MEDIA
+            ]);
         }
     }
 }
