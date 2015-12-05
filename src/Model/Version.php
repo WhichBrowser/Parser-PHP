@@ -126,14 +126,14 @@ class Version extends Base
 
 
     /**
-     * Return the build number as an integer
+     * Return the patch number as an integer
      *
      * @return integer
      */
 
-    public function getBuild()
+    public function getPatch()
     {
-        return $this->getParts()->build;
+        return $this->getParts()->patch;
     }
 
 
