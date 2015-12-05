@@ -62,6 +62,12 @@
     headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 820) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537 UCBrowser/4.2.1.541 Mobile'
     result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 820' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (NOKIAE90)UC AppleWebkit(like Gecko) Safari/530'
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E90 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nokia5250)UC AppleWebkit(like Gecko) Safari/530'
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5250' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00) UCBrowser/4.2.1.541 Mobile'
     result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W1' } }
 -

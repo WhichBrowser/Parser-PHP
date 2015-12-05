@@ -68,6 +68,15 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) acer_E100'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: E100 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) acer_F900'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Tempo F900' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]'
+    result: { browser: { name: 'Opera Mobile' }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature } }
+-
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
@@ -77,6 +86,9 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; xx) Presto/2.4.13 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.13 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (MOT-A3300c/A3300c_03.08; U; Windows Mobile/6.1; Profile/MIDP-2.0 Configuration/CLDC-1.1; 240*400; CTC/2.0) IE/MSIE 6.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: A3300c } }
+-
     headers: 'User-Agent: Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1938; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.5' }, os: { name: Windows }, device: { type: mobile, subtype: feature } }
 -
@@ -85,6 +97,12 @@
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; xx) Presto/2.2.1'
     result: { browser: { name: 'Opera Mobile', version: '9.7' }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
+    result: { browser: { name: 'Opera Mobile', version: '9.7' }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: W-ZERO3 } }
+-
+    headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
+    result: { browser: { name: 'Opera Mobile', version: '9.7' }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: W-ZERO3 } }
 -
     headers: 'User-Agent: Opera/9.70 (Windows NT 5.1; U; xx) TMO-US_LEO'
     result: { browser: { name: Opera, version: '9.70' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
