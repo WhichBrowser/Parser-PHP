@@ -70,21 +70,26 @@ class Main
     {
         $arguments = func_get_args();
         $x = $arguments[0];
-        $valid = true;
         
-        if (count($arguments) >= 2) {
-            $valid = $valid && $this->$x->name == $arguments[1];
-        
-            if (count($arguments) >= 4 && !empty($this->$x->version) && $valid) {
-                $valid = $valid && $this->$x->version->is($arguments[2], $arguments[3]);
+        if (count($arguments) < 2) {
+            return false;
+        }
+
+        if ($this->$x->name != $arguments[1]) {
+            return false;
+        }
+    
+        if (count($arguments) >= 4) {
+            if (empty($this->$x->version)) {
+                return false;
             }
 
-            if ($valid) {
-                return true;
+            if (!$this->$x->version->is($arguments[2], $arguments[3])) {
+                return false;
             }
         }
 
-        return $valid;
+        return true;
     }
 
 
