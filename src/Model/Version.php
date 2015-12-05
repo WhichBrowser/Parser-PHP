@@ -164,7 +164,8 @@ class Version extends Base
         if (count($parts) > 1) {
             $result .= '.';
 
-            for ($p = 1; $p < count($parts); $p++) {
+            $count = count($parts);
+            for ($p = 1; $p < $count; $p++) {
                 $result .= substr('0000' . $parts[$p], -4);
             }
         }
@@ -242,7 +243,8 @@ class Version extends Base
                 }
 
                 if (isset($this->builds) && !$this->builds) {
-                    for ($i = 0; $i < count($v); $i++) {
+                    $count = count($v);
+                    for ($i = 0; $i < $count; $i++) {
                         if ($v[$i] > 999) {
                             array_splice($v, $i, 1);
                         }
