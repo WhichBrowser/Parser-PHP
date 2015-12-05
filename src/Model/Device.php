@@ -39,10 +39,12 @@ class Device extends Base
     /**
      * Set the properties to the default values
      *
+     * @param   array|null  $properties  An optional array of properties to set after setting it to the default values
+     *
      * @internal
      */
 
-    public function reset()
+    public function reset($properties = null)
     {
         unset($this->manufacturer);
         unset($this->model);
@@ -53,6 +55,30 @@ class Device extends Base
         $this->subtype = '';
         $this->identified = Constants\Id::NONE;
         $this->generic = true;
+
+        if (is_array($properties)) {
+            $this->set($properties);
+        }
+    }
+
+
+    /**
+     * Declare an positive identification 
+     *
+     * @param  array  $properties  An array, the key of an element determines the name of the property
+     *
+     * @return string
+     */
+
+    public function setIdentification($properties)
+    {
+        $this->reset($properties);
+
+        if (!empty($this->model)) {
+            $this->generic = false;
+        }
+        
+        $this->identified |= Constants\Id::MATCH_UA;
     }
 
 

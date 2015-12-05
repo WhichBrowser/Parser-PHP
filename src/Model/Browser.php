@@ -30,10 +30,12 @@ class Browser extends NameVersion
     /**
      * Set the properties to the default values
      *
+     * @param   array|null  $properties  An optional array of properties to set after setting it to the default values
+     *
      * @internal
      */
 
-    public function reset()
+    public function reset($properties = null)
     {
         parent::reset();
 
@@ -44,6 +46,10 @@ class Browser extends NameVersion
         $this->stock = true;
         $this->hidden = false;
         $this->mode = '';
+
+        if (is_array($properties)) {
+            $this->set($properties);
+        }
     }
 
 
