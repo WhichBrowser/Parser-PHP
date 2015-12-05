@@ -114,7 +114,7 @@ class NameVersionTest extends PHPUnit_Framework_TestCase
 
         $nameversion->reset();
 
-        $nameversion->identifyVersion('/Version\/([0-9\.]+)/u', 'Version/1_0_2', [ 'type' => 'underscore' ]);
+        $nameversion->identifyVersion('/Version\/([0-9_]+)/u', 'Version/1_0_2', [ 'type' => 'underscore' ]);
 
         $this->assertEquals('1.0.2', $nameversion->getVersion());
 

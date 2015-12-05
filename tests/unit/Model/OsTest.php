@@ -164,6 +164,12 @@ class OsTest extends PHPUnit_Framework_TestCase
         $this->assertEquals([], $os->toArray());
 
         $os->set([
+            'name'      => ''
+        ]);
+
+        $this->assertEquals([], $os->toArray());
+
+        $os->reset([
             'name'      => 'iOS',
             'version'   => new Version([ 'value' => '8.0' ])
         ]);

@@ -120,6 +120,12 @@ class EngineTest extends PHPUnit_Framework_TestCase
         $this->assertEquals([], $engine->toArray());
 
         $engine->set([
+            'name'      => ''
+        ]);
+
+        $this->assertEquals([], $engine->toArray());
+
+        $engine->reset([
             'name'      => 'WebKit',
             'version'   => new Version([ 'value' => '601.3.9' ])
         ]);

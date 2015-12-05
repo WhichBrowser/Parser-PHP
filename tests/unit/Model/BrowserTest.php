@@ -147,6 +147,12 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         $this->assertEquals([], $browser->toArray());
 
         $browser->set([
+            'name'      => ''
+        ]);
+
+        $this->assertEquals([], $browser->toArray());
+
+        $browser->reset([
             'name'      => 'Chrome',
             'version'   => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ])
         ]);
