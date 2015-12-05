@@ -6,7 +6,7 @@ use WhichBrowser\Model\Primitive\Base;
 use WhichBrowser\Model\Version;
 
 /**
- * @covers WhichBrowser\Model\Base
+ * @covers WhichBrowser\Model\Primitive\Base
  */
 class BaseTest extends PHPUnit_Framework_TestCase
 {

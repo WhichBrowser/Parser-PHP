@@ -6,7 +6,7 @@ use WhichBrowser\Model\Primitive\NameVersion;
 use WhichBrowser\Model\Version;
 
 /**
- * @covers WhichBrowser\Model\NameVersion
+ * @covers WhichBrowser\Model\Primitive\NameVersion
  */
 class NameVersionTest extends PHPUnit_Framework_TestCase
 {
