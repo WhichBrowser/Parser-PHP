@@ -29,8 +29,8 @@ class Version extends Base
     /**
      * Determine if the version is lower, equal or higher than the specified value
      *
-     * @param  string   $operator   The operator, must be <, <=, =, >= or >
-     * @param  mixed    $value      The value, can be an integer, float or string with a version number
+     * @param  string   The operator, must be <, <=, =, >= or >
+     * @param  mixed    The value, can be an integer, float or string with a version number
      *
      * @return boolean
      */
@@ -142,8 +142,8 @@ class Version extends Base
      *
      * @internal
      *
-     * @param  string   $vaiue      Version string, with elements seperated by a dot
-     * @param  int      $count      The maximum precision
+     * @param  string   Version string, with elements seperated by a dot
+     * @param  int      The maximum precision
      *
      * @return float
      */
