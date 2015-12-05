@@ -186,7 +186,8 @@ class Main
     {
         $arguments = func_get_args();
 
-        for ($a = 0; $a < count($arguments); $a++) {
+        $count = count($arguments);
+        for ($a = 0; $a < $count; $a++) {
             if (strpos($arguments[$a], ':') !== false) {
                 list($type, $subtype) = explode(':', $arguments[$a]);
                 if ($type == $this->device->type && $subtype == $this->device->subtype) {
