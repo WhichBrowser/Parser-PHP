@@ -120,7 +120,7 @@ class EngineTest extends PHPUnit_Framework_TestCase
         $this->assertEquals([], $engine->toArray());
 
         $engine->set([
-            'name'      => ''
+            'name'      => null
         ]);
 
         $this->assertEquals([], $engine->toArray());

@@ -99,6 +99,17 @@ class MainTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($main->isDevice('PRS-T2'));
     }
 
+    public function testIsDetected()
+    {
+        $main = new Main();
+
+        $this->assertFalse($main->isDetected());
+
+        $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
+
+        $this->assertTrue($main->isDetected());
+    }
+
     public function testIsType()
     {
         $main = new Main();
@@ -170,6 +181,9 @@ class MainTest extends PHPUnit_Framework_TestCase
     public function testToString()
     {
         $main = new Main();
+        $this->assertEquals('an unknown browser', $main->toString());
+
+        $main = new Main();
         $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
         $main->engine->set([ 'name' => 'Blink' ]);
         $main->os->set([ 'name' => 'OS X', 'version' => new Version([ 'value' => '10.11', 'nickname' => 'El Capitan' ]) ]);
@@ -203,8 +217,87 @@ class MainTest extends PHPUnit_Framework_TestCase
         $main->os->set([ 'name' => 'Android', 'version' => new Version([ 'value' => '4.4' ]) ]);
         $main->device->set([ 'model' => 'SM-A300', 'type' => Constants\DeviceType::MOBILE ]);
         $this->assertEquals('Chrome 47 on an unrecognized device (SM-A300) running Android 4.4', $main->toString());
+
+
+        $main = new Main();
+        $main->browser->set([ 'stock' => true ]);
+        $main->engine->set([ 'name' => 'Blink' ]);
+
+        $this->assertEquals('an unknown browser based on Blink', $main->toString());
+
+
+        $main = new Main();
+        $main->engine->set([ 'name' => 'Blink' ]);
+        $main->os->set([ 'name' => 'OS X', 'version' => new Version([ 'value' => '10.11', 'nickname' => 'El Capitan' ]) ]);
+        $main->device->set([ 'type' => Constants\DeviceType::DESKTOP ]);
+
+        $this->assertEquals('an unknown browser based on Blink running on OS X El Capitan 10.11', $main->toString());
+
+
+        $main = new Main();
+        $main->browser->set([ 'name' => 'Safari', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+
+        $this->assertEquals('Safari 8.0 on an Apple iPhone 6', $main->toString());
+
+
+        $main = new Main();
+        $main->os->set([ 'name' => 'iOS', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+
+        $this->assertEquals('an Apple iPhone 6 running iOS 8.0', $main->toString());
+
+
+        $main = new Main();
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+
+        $this->assertEquals('an Apple iPhone 6', $main->toString());
+
+
+        $main = new Main();
+        $main->device->setIdentification([ 'type' => Constants\DeviceType::TELEVISION ]);
+
+        $this->assertEquals('a television', $main->toString());
+
+
+        $main = new Main();
+        $main->device->setIdentification([ 'type' => Constants\DeviceType::EMULATOR ]);
+
+        $this->assertEquals('an emulator', $main->toString());
     }
 
+    public function testToJavaScript()
+    {
+        $main = new Main();
+        $expected = <<<'EOD'
+this.browser = new Browser({ stock: true, hidden: false, mode: "" });
+this.engine = new Engine({  });
+this.os = new Os({  });
+this.device = new Device({ type: "", subtype: "", identified: 0, generic: true });
+this.camouflage = false;
+this.features = [];
+
+EOD;
+
+        $this->assertEquals($expected, $main->toJavaScript());
+
+        $main->browser->set([ 'name' => 'Safari', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->engine->set([ 'name' => 'WebKit' ]);
+        $main->os->set([ 'name' => 'iOS', 'version' => new Version([ 'value' => '8.0' ]) ]);
+        $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
+
+        $expected = <<<'EOD'
+this.browser = new Browser({ stock: true, hidden: false, mode: "", name: "Safari", version: new Version({ value: "8.0", hidden: false }) });
+this.engine = new Engine({ name: "WebKit" });
+this.os = new Os({ name: "iOS", version: new Version({ value: "8.0", hidden: false }) });
+this.device = new Device({ manufacturer: "Apple", model: "iPhone 6", type: "mobile", subtype: "", identified: 4, generic: false });
+this.camouflage = false;
+this.features = [];
+
+EOD;
+
+        $this->assertEquals($expected, $main->toJavaScript());
+    }
 
     public function testToArray()
     {
