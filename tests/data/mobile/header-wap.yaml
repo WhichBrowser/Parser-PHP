@@ -1,4 +1,7 @@
 -
+    headers: 'X-Wap-Profile: http://wap.samsungmobile.com/uaprof/GT-I9100.xml'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+-
     headers: { User-Agent: 'Alcatel_A205G-B/1.0 ObigoInternetBrowser/Q05A[TF014404009534395004115512532586563]', X-Wap-Profile: 'http://www-ccpp.tcl-ta.com/files/Alcatel_A205G-B.rdf' }
     result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A205G-B } }
 -
@@ -22,6 +25,9 @@
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.0.4; xx; SonyST23i Build/11.0.A.5.8) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://uaprof.sonymobile.com/ST23iR402.xml' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Miro' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; xx; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: '"http://wap.samsungmobile.com/uaprof/GT-I9100.xml"' }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; xx; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-I9100.xml' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }

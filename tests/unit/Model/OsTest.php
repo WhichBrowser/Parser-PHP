@@ -100,7 +100,7 @@ class OsTest extends PHPUnit_Framework_TestCase
             'family'    => new Family([ 'name' => 'Android' ])
         ]);
 
-        $this->assertTrue($os->isFamily('iOS'));
+        $this->assertFalse($os->isFamily('iOS'));
     }
 
     public function testToString()
