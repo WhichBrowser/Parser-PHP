@@ -80,6 +80,13 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertTrue($browser->isFamily('Chrome'));
+
+        $browser->reset([
+            'name'      => 'Opera',
+            'family'    => new Family([ 'name' => 'Chrome' ])
+        ]);
+
+        $this->assertFalse($browser->isFamily('Firefox'));
     }
 
     public function testIsToString()

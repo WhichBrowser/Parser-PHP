@@ -94,6 +94,13 @@ class OsTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertTrue($os->isFamily('Android'));
+
+        $os->reset([
+            'name'      => 'FireOS',
+            'family'    => new Family([ 'name' => 'Android' ])
+        ]);
+
+        $this->assertTrue($os->isFamily('iOS'));
     }
 
     public function testToString()
