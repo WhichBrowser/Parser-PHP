@@ -281,7 +281,7 @@ class Main
         }
 
         if ($this->device->type == 'desktop' && !empty($os) && !empty($engine) && empty($device)) {
-            return 'an unknown browser based on ' . $engine + ' running on ' + $os;
+            return 'an unknown browser based on ' . $engine . ' running on ' . $os;
         }
 
         if ($this->browser->stock && !empty($os) && empty($device)) {
