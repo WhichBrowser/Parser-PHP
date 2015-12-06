@@ -1,0 +1,9 @@
+service_name: travis-ci
+
+src_dir: src
+
+coverage_clover: 
+  - runner.xml
+  - phpunit.xml
+
+json_path: coveralls.json
