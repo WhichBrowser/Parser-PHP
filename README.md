@@ -1,6 +1,11 @@
 WhichBrowser/Parser
 ===================
 
+[![Build Status](https://travis-ci.org/WhichBrowser/Parser.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
+[![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser?branch=master)
+[![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
+[![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
+
 > **Everybody lies**  — House M.D.
 
 This is an extremely complicated and almost completely useless browser sniffing library written in PHP. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
