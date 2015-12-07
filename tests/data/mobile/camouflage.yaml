@@ -1,0 +1,34 @@
+-
+    headers: 'User-Agent: MQBrowser/5.0 (iPhone; CPU iPhone OS 8.4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Safari/7534.48.3'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '8.4' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
+    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/1.0.0.39 Safari/535.19'
+    result: { browser: { name: Chrome, version: 1.0.0.39 }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/7.1.4 Safari/537.85.13'
+    result: { browser: { name: Safari, version: 7.1.4 }, engine: { name: Webkit, version: 600.4.10 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: '538.15' }, os: { name: 'OS X' }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: '530.5' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_DesireHD_A9191; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'
+    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.0.10338 Safari/537.36'
+    result: { browser: { name: Chrome, version: 42.0.0.10338 }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; ru; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.2.0.336'
+    useragent: 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/'
+    result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: '538.1' }, os: { name: 'OS X' }, device: { type: desktop }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari/8536.25'
+    result: { browser: { name: Safari }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }

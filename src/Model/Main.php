@@ -348,6 +348,10 @@ class Main
             unset($result['device']);
         }
 
+        if ($this->camouflage) {
+            $result['camouflage'] = true;
+        }
+
         return $result;
     }
 }
