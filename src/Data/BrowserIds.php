@@ -6,22 +6,12 @@ class BrowserIds
 {
     public static $ANDROID_BROWSERS = [];
 
-    public static function identify($type, $model)
+    public static function identify($model)
     {
-        require_once __DIR__ . '/../../data/id-' . $type . '.php';
+        require_once __DIR__ . '/../../data/id-android.php';
 
-        switch ($type) {
-            case 'android':
-                return self::identifyList(BrowserIds::$ANDROID_BROWSERS, $model);
-        }
-
-        return false;
-    }
-
-    public static function identifyList($list, $id)
-    {
-        if (isset($list[$id])) {
-            return $list[$id];
+        if (isset(BrowserIds::$ANDROID_BROWSERS[$model])) {
+            return BrowserIds::$ANDROID_BROWSERS[$model];
         }
 
         return false;

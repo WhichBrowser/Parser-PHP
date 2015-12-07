@@ -24,7 +24,7 @@ class BrowserId
 
         /* Detect the correct browser based on the header */
 
-        $browser = Data\BrowserIds::identify('android', $header);
+        $browser = Data\BrowserIds::identify($header);
         if ($browser) {
             if (!isset($this->data->browser->name)) {
                 $this->data->browser->name = $browser;
