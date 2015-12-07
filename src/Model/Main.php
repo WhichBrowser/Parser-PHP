@@ -75,6 +75,10 @@ class Main
             return false;
         }
 
+        if (empty($this->$x->name)) {
+            return false;
+        }
+    
         if ($this->$x->name != $arguments[1]) {
             return false;
         }
