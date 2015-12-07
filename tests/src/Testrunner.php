@@ -40,18 +40,14 @@ class Testrunner
             $rules = Yaml::parse(file_get_contents($file));
 
             foreach ($rules as $rule) {
-                $options = [];
+                $options = $rule;
 
-                if (isset($rule['headers'])) {
-                    $options['headers'] = $rule['headers'];
-
-                    if (is_string($options['headers'])) {
-                        $options['headers'] = http_parse_headers($options['headers']);
-                    }
+                if (isset($options['headers']) && is_string($options['headers'])) {
+                    $options['headers'] = http_parse_headers($options['headers']);
                 }
-
-                if (isset($rule['useragent'])) {
-                    $options['useragent'] = $rule['useragent'];
+                
+                if (isset($options['result'])) {
+                    unset($options['result']);
                 }
 
                 $detected = new Parser($options);
