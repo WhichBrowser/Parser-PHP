@@ -1513,7 +1513,7 @@ trait Os
 
             [ 'name' => 'Grid OS',      'regexp' => [ '/Grid OS ([0-9.]*)/iu' ],                            'type' => Constants\DeviceType::TABLET ],
 
-            [ 'name' => 'MAUI Runtime', 'regexp' => [ '/MAUI/u' ],                                          'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MAUI Runtime', 'regexp' => [ '/MAUI/iu' ],                                         'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MTK',          'regexp' => [ '/\(MTK;/iu', '/\/MTK /iu' ],                         'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'QNX',          'regexp' => [ '/QNX/iu' ],                                          'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],
