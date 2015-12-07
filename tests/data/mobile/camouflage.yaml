@@ -36,40 +36,40 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86; rv:35.0) Gecko/20100101 Firefox/40.0'
     engine: 16
-    result: { browser: { name: Firefox, version: '40.0' }, engine: { name: Gecko, version: '35.0' }, os: { name: Ubuntu }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '40.0' }, engine: { name: Gecko, version: '35.0' }, os: { name: Ubuntu }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20130331 Firefox/21.0'
     engine: 19
-    result: { browser: { name: Firefox, version: '21.0' }, engine: { name: Gecko, version: '21.0' }, os: { name: Ubuntu }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '21.0' }, engine: { name: Gecko, version: '21.0' }, os: { name: Ubuntu }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11;Unknown) AppleWebKit/525.20+ (KHTML,like Gecko) Chromium/24.0.1312.52 Chrome/24.0.1312.52 Safari/525.52+'
     engine: 8
-    result: { browser: { name: Chromium, version: 24.0.1312.52 }, engine: { name: Webkit, version: '525.20' }, device: { type: desktop } }
+    result: { browser: { name: Chromium, version: 24.0.1312.52 }, engine: { name: Webkit, version: '525.20' }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari/8536.25'
     result: { browser: { name: Safari }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko'
     engine: 16
-    result: { engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10'
     engine: 51
     features: 7
-    result: { browser: { name: Safari, version: 4.0.4 }, engine: { name: Webkit, version: 531.21.10 }, os: { name: iOS, alias: 'iPhone OS', version: '3.2' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Safari, version: 4.0.4 }, engine: { name: Webkit, version: 531.21.10 }, os: { name: iOS, alias: 'iPhone OS', version: '3.2' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.6.7 Version/11.00'
     engine: 19
-    result: { browser: { name: Opera, version: '11.00' }, engine: { name: Presto, version: 2.6.7 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '11.00' }, engine: { name: Presto, version: 2.6.7 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17'
     engine: 16
-    result: { browser: { name: Opera, version: '12.17' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.17' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.2; WOW64) Presto/2.12.388 Version/12.12'
     engine: 8
-    result: { browser: { name: Opera, version: '12.12' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.12' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: W3S/Ready (Windows NT 6.1; Presto/2.12.423; Opera/12.18) AppleWebkit/537.36 Edge/12.246'
     engine: 2
-    result: { browser: { name: Opera, alias: 'Edge 12', version: '12.18' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, alias: 'Edge 12', version: '12.18' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }

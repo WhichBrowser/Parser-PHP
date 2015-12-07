@@ -162,11 +162,10 @@ class Testrunner
                         $headers = $key . ': ' . $rule['headers'][$key];
                     }
 
-                    $options = [];
-                    $options['headers'] = $rule['headers'];
+                    $options = $rule;
 
-                    if (isset($rule['useragent'])) {
-                        $options['useragent'] = $rule['useragent'];
+                    if (isset($options['result'])) {
+                        unset($options['result']);
                     }
 
                     $detected = new Parser($options);
