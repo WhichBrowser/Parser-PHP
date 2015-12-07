@@ -32,7 +32,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedAndroidBrowser($ua) 
+    private function &detectCamouflagedAndroidBrowser($ua)
     {
         if (preg_match('/Mac OS X 10_6_3; ([^;]+); [a-z]{2}(?:-[a-z]{2})?\)/u', $ua, $match)) {
             $this->data->browser->name = '';
@@ -54,7 +54,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedAndroidAsusBrowser($ua) 
+    private function &detectCamouflagedAndroidAsusBrowser($ua)
     {
         if (preg_match('/Linux Ventana; [a-z]{2}(?:-[a-z]{2})?; (.+) Build/u', $ua, $match)) {
             $this->data->browser->name = '';
@@ -75,7 +75,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedAsSafari($ua) 
+    private function &detectCamouflagedAsSafari($ua)
     {
         if ($this->data->isBrowser('Safari') && !preg_match('/Darwin/u', $ua)) {
             if ($this->data->isOs('iOS') && !preg_match('/^Mozilla/u', $ua)) {
@@ -92,10 +92,10 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedAsChrome($ua) 
+    private function &detectCamouflagedAsChrome($ua)
     {
         if ($this->data->isBrowser('Chrome')) {
-            if (preg_match('/(?:Chrome|CrMo|CriOS)\//u', $ua)  
+            if (preg_match('/(?:Chrome|CrMo|CriOS)\//u', $ua)
                 && !preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9]{1,2}\.[0-9]\.[0-9]{3,4}\.[0-9]+)/u', $ua)
             ) {
 
@@ -107,7 +107,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedUCBrowser($ua) 
+    private function &detectCamouflagedUCBrowser($ua)
     {
         if ($ua == 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/') {
 
@@ -128,7 +128,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedBasedOnEngines() 
+    private function &detectCamouflagedBasedOnEngines()
     {
         if (isset($this->data->engine->name) && $this->data->browser->mode != 'proxy') {
 
@@ -180,16 +180,16 @@ trait Camouflage
                 }
 
                 /* IE 11 on mobile now supports Webkit APIs */
-                if (isset($this->data->browser->name) && $this->data->browser->name == 'Mobile Internet Explorer' 
-                    && isset($this->data->browser->version) && $this->data->browser->version->toFloat() >= 11 
+                if (isset($this->data->browser->name) && $this->data->browser->name == 'Mobile Internet Explorer'
+                    && isset($this->data->browser->version) && $this->data->browser->version->toFloat() >= 11
                     && isset($this->data->os->name) && $this->data->os->name == 'Windows Phone'
                 ) {
                     $this->data->camouflage = false;
                 }
 
                 /* IE 11 Developer Preview now supports  Webkit APIs */
-                if (isset($this->data->browser->name) && $this->data->browser->name == 'Internet Explorer' 
-                    && isset($this->data->browser->version) && $this->data->browser->version->toFloat() >= 11 
+                if (isset($this->data->browser->name) && $this->data->browser->name == 'Internet Explorer'
+                    && isset($this->data->browser->version) && $this->data->browser->version->toFloat() >= 11
                     && isset($this->data->os->name) && $this->data->os->name == 'Windows'
                 ) {
                     $this->data->camouflage = false;
@@ -222,7 +222,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedBasedOnFeatures($ua) 
+    private function &detectCamouflagedBasedOnFeatures($ua)
     {
         if (isset($this->data->browser->name) && isset($this->data->os->name)) {
             if ($this->data->os->name == 'iOS' && $this->data->browser->name != 'Opera Mini' && $this->data->browser->name != 'UC Browser' && isset($this->data->os->version)) {
