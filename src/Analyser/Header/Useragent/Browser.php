@@ -1663,6 +1663,7 @@ trait Browser
 
             [ 'name' => 'Google Earth',         'regexp' => '/Google Earth\/([0-9.]*)/u' ],
             [ 'name' => 'Google Desktop',       'regexp' => '/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'Google Search',        'regexp' => '/GSA\/([0-9.]*)/u', 'details' => 3 ],
 
             [ 'name' => 'EA Origin',            'regexp' => '/Origin\/([0-9.]*)/u' ],
             [ 'name' => 'SecondLife',           'regexp' => '/SecondLife\/([0-9.]*)/u' ],
