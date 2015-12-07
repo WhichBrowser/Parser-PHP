@@ -132,7 +132,7 @@ BuildIds::$ANDROID_BUILDS = [
     'LMY47Z'        => '5.1.1',
     'LMY48B'        => '5.1.1',
 
-    'MPZ44Q'        => ['value' => '5.2', 'alias' => 'M'],
+    'MPZ44Q'        => ['value' => '6.0', 'alias' => 'M'],
 ];
 
 // Source: http://source.android.com/source/build-numbers.html
