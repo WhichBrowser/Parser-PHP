@@ -188,6 +188,9 @@
     headers: 'User-Agent: nokiae63-1/UC Browser7.9.0.102/69/352 UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '7.9' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E63 } }
 -
+    headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)', X-Ucbrowser-Phone-Ua: 'maui browser' }
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: 'MAUI Runtime' }, device: { type: mobile, subtype: feature } }
+-
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.2.2; xx; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(Lenovo A369i Build/JDQ39);pr(UCBrowser/9.1.0.297);ov(Android 4.2.2);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(GZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(3);' }
     result: { browser: { name: 'UC Browser', version: '9.1' }, engine: { name: Webkit, version: '534.31' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A369 } }
 -
@@ -213,10 +216,10 @@
     result: { browser: { name: 'UC Browser', version: '3.2' }, engine: { name: Gecko }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 800' } }
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2) UCBrowser/8.6.0.199/84/352 UNTRUSTED/1.0 3gpp-gba', X-UCBrowser-Phone-UA: nokia701, X-UCBrowser-Phone: nokia701 }
-    result: { browser: { name: 'UC Browser', version: '8.6' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '701' } }
+    result: { browser: { name: 'UC Browser', version: '8.6' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '701' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; xx) AppleWebKit/534.1+ (KHTML, Like Gecko) Version/6.0.0.141 Mobile Safari/534.1+', X-Ucbrowser-Phone: sunmicro, X-Ucbrowser-Phone-Ua: sunmicro }
-    result: { browser: { name: 'UC Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
 -
     headers: { User-Agent: 'NokiaC3-01/5.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0(Java; U; MIDP-2.0; xx; nokiac3-01) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-Phone-UA: nokiac3-01, X-UCBrowser-Phone: nokiac3-01 }
     result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C3-01 } }
