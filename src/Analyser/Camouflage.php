@@ -77,15 +77,6 @@ trait Camouflage
 
     private function &detectCamouflagedAsSafari($ua) 
     {
-        if ($this->data->isBrowser('Safari')) {
-            preg_match('/AppleWebKit\/([0-9]+.[0-9]+)/iu', $ua, $webkitMatch);
-            preg_match('/Safari\/([0-9]+.[0-9]+)/iu', $ua, $safariMatch);
-
-            if (!$this->data->isOs('iOS') && $webkitMatch[1] != $safariMatch[1]) {
-                $this->data->features[] = 'safariMismatch';
-                $this->data->camouflage = true;
-            }
-
             if ($this->data->isOs('iOS') && !preg_match('/^Mozilla/u', $ua)) {
                 $this->data->features[] = 'noMozillaPrefix';
                 $this->data->camouflage = true;

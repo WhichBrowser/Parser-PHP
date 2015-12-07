@@ -9,7 +9,7 @@
     result: { browser: { name: Chrome, version: 1.0.0.39 }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/7.1.4 Safari/537.85.13'
-    result: { browser: { name: Safari, version: 7.1.4 }, engine: { name: Webkit, version: 600.4.10 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop }, camouflage: true }
+    result: { browser: { name: Safari, version: 7.1.4 }, engine: { name: Webkit, version: 600.4.10 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15'
     result: { browser: { name: Safari }, engine: { name: Webkit, version: '538.15' }, os: { name: 'OS X' }, device: { type: desktop }, camouflage: true }
