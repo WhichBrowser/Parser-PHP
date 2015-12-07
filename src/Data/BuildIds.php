@@ -8,28 +8,16 @@ class BuildIds
 {
     public static $ANDROID_BUILDS = [];
 
-    public static function identify($type, $id)
+    public static function identify($id)
     {
-        require_once __DIR__ . '/../../data/build-' . $type . '.php';
+        require_once __DIR__ . '/../../data/build-android.php';
 
-        switch ($type) {
-            case 'android':
-                return self::identifyList(BuildIds::$ANDROID_BUILDS, $id);
-        }
-
-        return false;
-    }
-
-    public static function identifyList($list, $id)
-    {
-        if (isset($list[$id])) {
-            if (is_array($list[$id])) {
-                return new Version($list[$id]);
+        if (isset(BuildIds::$ANDROID_BUILDS[$id])) {
+            if (is_array(BuildIds::$ANDROID_BUILDS[$id])) {
+                return new Version(BuildIds::$ANDROID_BUILDS[$id]);
             } else {
-                return new Version([ 'value' => $list[$id] ]);
+                return new Version([ 'value' => BuildIds::$ANDROID_BUILDS[$id] ]);
             }
         }
-
-        return false;
     }
 }

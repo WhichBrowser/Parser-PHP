@@ -431,7 +431,7 @@ trait Os
     {
         if ((isset($this->data->os->name) && $this->data->os->name == 'Android') || isset($this->data->os->name) && $this->data->os->name == 'Android TV') {
             if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
-                $version = Data\BuildIds::identify('android', $match[1]);
+                $version = Data\BuildIds::identify($match[1]);
 
                 if ($version) {
                     if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {

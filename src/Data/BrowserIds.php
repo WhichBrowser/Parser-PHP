@@ -13,7 +13,5 @@ class BrowserIds
         if (isset(BrowserIds::$ANDROID_BROWSERS[$model])) {
             return BrowserIds::$ANDROID_BROWSERS[$model];
         }
-
-        return false;
     }
 }
