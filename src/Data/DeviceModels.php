@@ -63,8 +63,6 @@ class DeviceModels
             case 'feature':
                 return self::identifyList(self::$FEATURE_MODELS, $model);
         }
-
-        return (object) [ 'type' => '', 'model' => $model, 'identified' => Constants\Id::NONE ];
     }
 
     public static function identifyIOS($model)
