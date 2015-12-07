@@ -40,17 +40,29 @@ class Testrunner
             $rules = Yaml::parse(file_get_contents($file));
 
             foreach ($rules as $rule) {
-                if (is_string($rule['headers'])) {
-                    $rule['headers'] = http_parse_headers($rule['headers']);
+                $options = [];
+
+                if (isset($rule['headers'])) {
+                    $options['headers'] = $rule['headers'];
+
+                    if (is_string($options['headers'])) {
+                        $options['headers'] = http_parse_headers($options['headers']);
+                    }
                 }
 
-                $detected = new Parser($rule['headers']);
+                if (isset($rule['useragent'])) {
+                    $options['useragent'] = $rule['useragent'];
+                }
+
+                $detected = new Parser($options);
 
                 if (isset($rule['result'])) {
                     if ($detected->toArray() != $rule['result']) {
                         fwrite($fp, "\n{$name}\n--------------\n\n");
-                        foreach ($rule['headers'] as $k => $v) {
-                            fwrite($fp, $k . ': ' . $v . "\n");
+                        if (isset($options['headers'])) {
+                            foreach ($options['headers'] as $k => $v) {
+                                fwrite($fp, $k . ': ' . $v . "\n");
+                            }
                         }
                         fwrite($fp, "Base:\n");
                         fwrite($fp, Yaml::dump($rule['result']) . "\n");
@@ -63,8 +75,10 @@ class Testrunner
                     }
                 } else {
                     fwrite($fp, "\n{$name}\n--------------\n\n");
-                    foreach ($rule['headers'] as $k => $v) {
-                        fwrite($fp, $k . ': ' . $v . "\n");
+                    if (isset($options['headers'])) {
+                        foreach ($options['headers'] as $k => $v) {
+                            fwrite($fp, $k . ': ' . $v . "\n");
+                        }
                     }
                     fwrite($fp, "New result:\n");
 
@@ -152,12 +166,19 @@ class Testrunner
                         $headers = $key . ': ' . $rule['headers'][$key];
                     }
 
-                    $detected = new Parser($rule['headers']);
+                    $options = [];
+                    $options['headers'] = $rule['headers'];
 
-                    $result[] = [
-                        'headers'   => $headers,
-                        'result'    => $detected->toArray()
-                    ];
+                    if (isset($rule['useragent'])) {
+                        $options['useragent'] = $rule['useragent'];
+                    }
+
+                    $detected = new Parser($options);
+
+                    $rule['headers'] = $headers;
+                    $rule['result'] = $detected->toArray();
+
+                    $result[] = $rule;
                 }
 
                 if (count($result)) {
