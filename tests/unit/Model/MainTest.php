@@ -280,24 +280,6 @@ this.features = [];
 EOD;
 
         $this->assertEquals($expected, $main->toJavaScript());
-
-//         $main = new Main();
-//         $main->browser->set([ 'name' => 'Safari', 'version' => new Version([ 'value' => '8.0' ]) ]);
-//         $main->engine->set([ 'name' => 'WebKit' ]);
-//         $main->os->set([ 'name' => 'iOS', 'version' => new Version([ 'value' => '8.0' ]) ]);
-//         $main->device->setIdentification([ 'manufacturer' => 'Apple', 'model' => 'iPhone 6', 'type' => Constants\DeviceType::MOBILE ]);
-
-//         $expected = <<<'EOD'
-// this.browser = new Browser({ stock: true, hidden: false, mode: "", name: "Safari", version: new Version({ value: "8.0", hidden: false }) });
-// this.engine = new Engine({ name: "WebKit" });
-// this.os = new Os({ name: "iOS", version: new Version({ value: "8.0", hidden: false }) });
-// this.device = new Device({ manufacturer: "Apple", model: "iPhone 6", type: "mobile", subtype: "", identified: 4, generic: false });
-// this.camouflage = false;
-// this.features = [];
-
-// EOD;
-
-//         $this->assertEquals($expected, $main->toJavaScript());
     }
 
     public function testToArray()
