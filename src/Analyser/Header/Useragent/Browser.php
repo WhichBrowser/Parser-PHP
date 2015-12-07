@@ -757,7 +757,7 @@ trait Browser
             }
 
             if (isset($this->data->os->name) && $this->data->os->name == 'Linux') {
-                $this->data->os->name = '';
+                $this->data->os->reset();
             }
 
             if (preg_match('/^IUC ?\(U; ?iOS ([0-9\._]+);/u', $ua, $match)) {
@@ -943,13 +943,9 @@ trait Browser
             if ($this->data->browser->name == 'UC Browser') {
                 if (!preg_match("/UBrowser\//", $ua) && ($this->data->device->type == 'desktop' || (isset($this->data->os->name) && ($this->data->os->name == 'Windows' || $this->data->os->name == 'OS X')))) {
                     $this->data->device->type = Constants\DeviceType::MOBILE;
-
                     $this->data->browser->mode = 'desktop';
-
-                    unset($this->data->engine->name);
-                    unset($this->data->engine->version);
-                    unset($this->data->os->name);
-                    unset($this->data->os->version);
+                    $this->data->engine->reset();
+                    $this->data->os->reset();
                 } elseif (!isset($this->data->os->name) || ($this->data->os->name != 'iOS' && $this->data->os->name != 'Windows Phone' && $this->data->os->name != 'Windows' && $this->data->os->name != 'Android' && (!isset($this->data->os->family) || $this->data->os->family->getName() != 'Android'))) {
                     $this->data->engine->name = 'Gecko';
                     unset($this->data->engine->version);
