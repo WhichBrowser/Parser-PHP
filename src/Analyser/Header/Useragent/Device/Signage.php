@@ -23,7 +23,10 @@ trait Signage
         /* Iadea */
 
         if (preg_match('/ADAPI/u', $ua) && preg_match('/\(MODEL:([^\)]+)\)/u', $ua, $match)) {
-            $this->data->os->reset();
+            if (!$this->data->isOs('Android')) {
+                $this->data->os->reset();
+            }
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Iadea',
                 'model'         =>  $match[1],

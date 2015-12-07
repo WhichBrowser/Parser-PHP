@@ -1758,7 +1758,6 @@ trait Browser
             [ 'name' => 'Baidu Hao123',         'regexp' => '/hao123\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Black Wren',           'regexp' => '/BlackWren\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Blazer',               'regexp' => '/Blazer\/([0-9.]*)/u' ],
-            [ 'name' => 'BrightSign',           'regexp' => '/BrightSign\/([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
             [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // Browser for the Nintento DS
             [ 'name' => 'Byffox',               'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Camino',               'regexp' => '/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
@@ -1898,6 +1897,9 @@ trait Browser
             [ 'name' => 'Android Download Manager', 'regexp' => '/AndroidDownloadManager\/([0-9.]*)/u' ],
 
             [ 'name' => 'Open Sankoré',         'regexp' => '/Open-Sankore\/([0-9.]*)/u', 'type' => Constants\DeviceType::WHITEBOARD ],
+
+            [ 'name' => 'Adapi',                'regexp' => '/ ADAPI\/([0-9.]*)/u', 'hidden' => true, 'type' => Constants\DeviceType::SIGNAGE ],
+            [ 'name' => 'BrightSign',           'regexp' => '/BrightSign\/([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
             [ 'name' => 'Coship MMCP',          'regexp' => '/Coship_MMCP_([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
         ];
 
@@ -1907,7 +1909,7 @@ trait Browser
             if (preg_match($browsers[$b]['regexp'], $ua, $match)) {
                 $this->data->browser->name = $browsers[$b]['name'];
                 $this->data->browser->channel = '';
-                $this->data->browser->hidden = false;
+                $this->data->browser->hidden = isset($browsers[$b]['hidden']) ? $browsers[$b]['hidden'] : false;
                 $this->data->browser->stock = false;
 
                 if (isset($match[1]) && $match[1]) {
