@@ -1,4 +1,6 @@
 -
+    headers: 'X-Wap-Profile: http://whichbrowser.net/fake/wap/profile/to/test/unknowns.xml'
+-
     headers: 'X-Wap-Profile: http://wap.samsungmobile.com/uaprof/GT-I9100.xml'
     result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
 -
