@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Lenovo_A588t_TD/V1 Linux/3.4.67 Android/4.4.2 Release/08.13.2014 Browser/AppleWebKit537.36 Chrome/30.0.0.0 Mobile Safari/537.36 System/Android 4.4.2;'
-    result: { browser: { name: Chrome, version: 30.0.0.0 }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A588 } }
+    result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A588 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  Galaxy Nexus Build/ITL41F) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Nexus' } }
