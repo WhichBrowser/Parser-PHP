@@ -222,7 +222,7 @@ trait Camouflage
         return $this;
     }
 
-    private function &detectCamouflagedBasedOnFeatures($ua)
+    private function &detectCamouflagedBasedOnFeatures()
     {
         if (isset($this->data->browser->name) && isset($this->data->os->name)) {
             if ($this->data->os->name == 'iOS' && $this->data->browser->name != 'Opera Mini' && $this->data->browser->name != 'UC Browser' && isset($this->data->os->version)) {
