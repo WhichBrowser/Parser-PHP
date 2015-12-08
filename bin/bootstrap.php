@@ -1,5 +1,10 @@
 <?php
 
-chdir(dirname(__DIR__));
+$standaloneAutoloader = __DIR__ . '/../vendor/autoload.php';
+$packageAutoloader = __DIR__ . '/../../../autoload.php';
 
-require 'vendor/autoload.php';
+if (file_exists($packageAutoloader)) {
+    require_once $packageAutoloader;
+} else {
+    require_once $standaloneAutoloader;
+}
