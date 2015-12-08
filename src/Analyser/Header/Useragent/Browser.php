@@ -1560,6 +1560,8 @@ trait Browser
             $this->data->browser->name = 'MiniBrowser';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
             $this->data->os->name = 'Series60';
             $this->data->os->version = null;
         }
