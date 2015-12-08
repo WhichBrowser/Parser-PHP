@@ -1,9 +1,8 @@
 <?php
 
-	include __DIR__ . '/../src/Data/Chrome.php';
+	include_once __DIR__ . '/bootstrap.php';
 	include __DIR__ . '/../data/browsers-chrome.php';
-
-
+	
 	$stable = [
 		'desktop' => [],
 		'mobile'  => []
