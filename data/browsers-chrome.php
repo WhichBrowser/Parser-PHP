@@ -3,9 +3,9 @@
 namespace WhichBrowser\Data;
 
 Chrome::$DESKTOP = [
-    '0.2.149' => 'stable',
-    '0.3.154' => 'stable',
-    '0.4.154' => 'stable',
+    '0.2.149' => 'beta',
+    '0.3.154' => 'beta',
+    '0.4.154' => 'beta',
     '1.0.154' => 'stable',
     '2.0.172' => 'stable',
     '3.0.195' => 'stable',
