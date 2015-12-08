@@ -20,6 +20,9 @@
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35659/35.6497; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520' }
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
 -
+    headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35659/35.6497; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520' }
+    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+-
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-S8500' }
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
 -
