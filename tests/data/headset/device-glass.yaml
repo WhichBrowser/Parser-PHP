@@ -1,0 +1,15 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Glass 1 Build/XRV49) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Blink, version: '537.36' }, os: { family: Android }, device: { type: headset, manufacturer: Google, model: Glass } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Glass 1 Build/XRX13B; XE22; 1511057; user; release-keys; 48cad1880fd0f82644ef86f5a7f6535b) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Blink, version: '537.36' }, os: { family: Android }, device: { type: headset, manufacturer: Google, model: Glass } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; xx; Glass 1 Build/IMM76L; XE10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    result: { engine: { name: Webkit, version: '534.30' }, os: { family: Android }, device: { type: headset, manufacturer: Google, model: Glass } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; xx; Glass 1 Build/IMM76L; XE17) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    result: { engine: { name: Webkit, version: '534.30' }, os: { family: Android }, device: { type: headset, manufacturer: Google, model: Glass } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; xx; Glass 1 Build/XRT73B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    result: { engine: { name: Webkit, version: '534.30' }, os: { family: Android }, device: { type: headset, manufacturer: Google, model: Glass } }
