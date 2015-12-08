@@ -78,7 +78,7 @@ The variable `$result` now contains an object which you can query for informatio
 First of all, you can call to toString() function to get a human readable identification:
 
     "You are using " . $result->toString();
-    // You are using Chrome 27 on Mac OS X 10.8.4
+    // You are using Chrome 27 on OS X 10.8.4
 
 
 Another possiblity is to query the object:
@@ -108,7 +108,7 @@ You can also access these properties directly:
     // Blink
 
     $result->os->toString();
-    // Mac OS X 10.8.4
+    // OS X 10.8.4
 
 
 Or access parts of these properties directly:
@@ -155,8 +155,11 @@ After a new `WhichBrowser\Parser` object is created, it contains a number of pro
 
 **Functions:**
 
+`getType()`  
+Returns the `type` and `subtype` property of the `device` object. If a subtype is present it is concatenated to the type and seperated by a semicolor, for example: `mobile:smart` or `gaming:portable`. If the subtype is not applicable, it just return the type, for example: `desktop` or `ereader`.
+
 `isType($type [,$type [,$type [,$type]]])`  
-If a single argument is used, the function returns `true` if the argument matches the `type` propery of `device` obejct. It can use multiple arguments in which case the function returns `true` if one of the arguments matches. If none of the arguments matches, it returns `false`
+If a single argument is used, the function returns `true` if the argument matches the `type` propery of `device` object. The argument can optionally also provide a subtype by concatenating it to the type and seperating it with a semicolon. It can use multiple arguments in which case the function returns `true` if one of the arguments matches. If none of the arguments matches, it returns `false`
 
 `isBrowser($name [, $comparison, $version])`  
 Is used to query the `name` and `version` property of the `browser` object. The funcion can contain a single argument to a simple comparison based on `name`, or three arguments to compare both `name` and `version`. The first argument always contains the name of the browser. The second arguments is a string that can container either `<`, `<=`, `=`, `=>` or `>`. The third is an integer, float or string that contains the version. You can use versions like `10`, `10.7` or `'10.7.4'`. For more information about how version comparisons are performed, please see the `is()` function of the `Version` object.
@@ -167,15 +170,23 @@ Is used to query the `name` and `version` property of the `engine` object. This 
 `isOs($name [, $comparison, $version])`  
 Is used to query the `name` and `version` property of the `os` object. This function works in exactly the same way as `isBrowser`.
 
+`isDetected()`  
+Is there actually some browser detected, for did we fail to detect anything?
+
+`toString()`  
+Get a human readable representation of the detected browser, including operating system and device information.
+
 
 ### The browser object
 
-The `WhichBrowser\Browser` object is used for the `browser` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+An object of the `WhichBrowser\Model\Browser` class is used for the `browser` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
 
 **Properties:**
 
 * `name`  
   a string containing the name of the browser
+* `alias`  
+  a string containing an alternative name of the browser
 * `version`  
   a version object containing information about the version of the browser
 * `stock`  
@@ -186,11 +197,32 @@ The `WhichBrowser\Browser` object is used for the `browser` property of the main
   a string that can contain the operating mode of the browser, ie. 'proxy'.
 * `hidden`  
   a boolean that is true if the browser does not have a name and is the default of the operating system.
+* `family`  
+  an object that contains information about to which family this browser belongs
+* `using`  
+  an object that contains information about to which kind of webview this browser uses
+
+**Functions:**
+
+`isFamily($name)`  
+Does the family of this browser have this name, or does the browser itself have this name. 
+
+`isUsing($name)`  
+Is the browser using a webview using with the provided name. 
+
+`getName()`  
+Get the name of the browser
+
+`getVersion()`  
+Get the version of the browser
+
+`toString()`  
+Get a human readable representation of the detected browser
 
 
 ### The engine object
 
-The `WhichBrowser\Engine` object is used for the `engine` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+An object of the `WhichBrowser\Model\Engine` class is used for the `engine` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
 
 **Properties:**
 
@@ -199,10 +231,21 @@ The `WhichBrowser\Engine` object is used for the `engine` property of the main `
 * `version`  
   a version object containing information about the version of the rendering engine
 
+**Functions:**
+
+`getName()`  
+Get the name of the rendering engine
+
+`getVersion()`  
+Get the version of the rendering engine
+
+`toString()`  
+Get a human readable representation of the detected rendering engine
+
 
 ### The os object
 
-The `WhichBrowser\Os` object is used for the `os` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+An object of the `WhichBrowser\Model\Os` class is used for the `os` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
 
 **Properties:**
 
@@ -210,16 +253,34 @@ The `WhichBrowser\Os` object is used for the `os` property of the main `WhichBro
   a string containing the name of the operating system
 * `version`  
   a version object containing information about the version of the operating system
+* `family`  
+  an object that contains information about to which family this operating system belongs
+
+**Functions:**
+
+`isFamily($name)`  
+Does the family of this operating system have this name, or does the operating system itself have this name. 
+
+`getName()`  
+Get the name of the operating system
+
+`getVersion()`  
+Get the version of the operating system
+
+`toString()`  
+Get a human readable representation of the detected operating system
 
 
 ### The device object
 
-The `WhichBrowser\Device` object is used for the `device` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+An object of the `WhichBrowser\Model\Device` class is used for the `device` property of the main `WhichBrowser\Parser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
 
 **Properties:**
 
 * `type`  
   a string containing the type of the browser.
+* `subtype`  
+  a string containing the subtype of the browser.
 * `identified`  
   a boolean that is true if the device has been positively identified.
 * `manufacturer`  
@@ -246,10 +307,77 @@ The `type` property can contain any value from the following list:
 * pos
 * bot
 
+If the `type` is "mobile", the `subtype` property can contain any value from the following list:
+
+* feature
+* smart
+
+If the `type` is "gaming", the `subtype` property can contain any value from the following list:
+
+* console
+* portable
+
+**Functions:**
+
+`getManufacturer()`  
+Get the name of the manufacturer
+
+`getModel()`  
+Get the name of the model
+
+`toString()`  
+Get a human readable representation of the detected device
+
+
+### The family object
+
+An object of the `WhichBrowser\Model\Family` class is used for the `family` property of the `WhichBrowser\Model\Browser` and `WhichBrowser\Model\Os` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+
+**Properties:**
+
+* `name`  
+  a string containing the name of the family
+* `version`  
+  a version object containing information about the version of the family
+
+**Functions:**
+
+`getName()`  
+Get the name of the family
+
+`getVersion()`  
+Get the version of the family
+
+`toString()`  
+Get a human readable representation of the family
+
+
+### The using object
+
+An object of the `WhichBrowser\Model\Using` class is used for the `using` property of the `WhichBrowser\Model\Browser` object and contains a number of properties. If a property is not applicable in this situation it will be null or undefined.
+
+**Properties:**
+
+* `name`  
+  a string containing the name of the webview
+* `version`  
+  a version object containing information about the version of the webview
+
+**Functions:**
+
+`getName()`  
+Get the name of the webview
+
+`getVersion()`  
+Get the version of the webview
+
+`toString()`  
+Get a human readable representation of the webview
+
 
 ### The version object
 
-The `WhichBrowser\Version` object is used for the `version` property of the `browser`, `engine` and `os` object and contains a number of properties and functions. If a property is not applicable in this situation it will be null or undefined.
+An object of the `WhichBrowser\Model\Version` class is used for the `version` property of the `browser`, `engine` and `os` object and contains a number of properties and functions. If a property is not applicable in this situation it will be null or undefined.
 
 **Properties:**
 
