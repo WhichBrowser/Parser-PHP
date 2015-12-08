@@ -54,5 +54,3 @@
 
 
 	file_put_contents(__DIR__ . '/../data/browsers-chrome.php', $result);
-
-	echo `git diff {__DIR__}/../src/parser/data/browsers-chrome.php`;
