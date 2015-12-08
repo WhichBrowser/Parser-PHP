@@ -96,17 +96,34 @@ class DeviceModels
 
     public static function identifyBlackBerry($model)
     {
+        $original = $model;
+
+        if (preg_match("/BlackBerry ?([0-9]+)/ui", $model, $match)) {
+            $model = $match[1];
+        }
+
         $device = new Device([
             'type'          => Constants\DeviceType::MOBILE,
-            'identified'    => Constants\Id::PATTERN,
-            'manufacturer'  => 'RIM',
-            'model'         => 'BlackBerry ' . $model,
+            'identified'    => Constants\Id::NONE,
+            'manufacturer'  => null,
+            'model'         => $model,
+            'identifier'    => $original,
             'generic'       => false
         ]);
 
-        if (isset(self::$BLACKBERRY_MODELS[$model])) {
-            $device->model = 'BlackBerry ' . self::$BLACKBERRY_MODELS[$model] . ' ' . $model;
-            $device->identified |= Constants\Id::MATCH_UA;
+        if (is_numeric($model) && intval($model) > 999 && intval($model) < 10000) {
+            $device = new Device([
+                'type'          => Constants\DeviceType::MOBILE,
+                'identified'    => Constants\Id::PATTERN,
+                'manufacturer'  => 'RIM',
+                'model'         => 'BlackBerry ' . $model,
+                'generic'       => false
+            ]);
+
+            if (isset(self::$BLACKBERRY_MODELS[$model])) {
+                $device->model = 'BlackBerry ' . self::$BLACKBERRY_MODELS[$model] . ' ' . $model;
+                $device->identified |= Constants\Id::MATCH_UA;
+            }
         }
 
         return $device;

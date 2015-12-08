@@ -252,7 +252,7 @@
     result: { browser: { name: 'Opera Mini', version: '4.4' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/4.6.32744/32.1214; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: BlackBerry9300, X-OperaMini-Phone: 'Blackberry # 9300', X-OperaMini-Phone-UA: BlackBerry9300, X-OperaMini-Features: 'httpping, advanced, routing, file_system, folding' }
-    result: { browser: { name: 'Opera Mini', version: '4.6' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry BlackBerry' } }
+    result: { browser: { name: 'Opera Mini', version: '4.6' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35667/35.3781; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'BlackBerry8530/5.0.0.973 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105', X-OperaMini-Phone: '? # ?', X-OperaMini-Phone-UA: 'BlackBerry8530/5.0.0.973 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105', X-OperaMini-Features: 'advanced, httpping, folding, file_system, touch, camera, routing' }
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8530' } }
