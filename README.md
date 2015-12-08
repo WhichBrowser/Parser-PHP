@@ -43,9 +43,9 @@ You can install WhichBrowser by using Composer - the standard package manager fo
 
     composer require whichbrowser/parser
 
-And just like the Git method, you can easily update WhichBrowser by running a simple command.
+You can easily update WhichBrowser by running a simple command.
 
-    composer update
+    composer update whichbrowser/parser
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
@@ -61,7 +61,7 @@ The first step require the Composer autoloader:
 
         require 'vendor/autoload.php';
 
-The second step is to create a new `WhichBrowser\Parser` object. This object will contain all the information the library could find about the browser. The object has a required parameter, either the headers send by the browser, or a useragent string. Using the headers if preferable, because it will allow a better detection, but if you have just the useragent string, this will also work.
+The second step is to create a new `WhichBrowser\Parser` object. This object will contain all the information the library could find about the browser. The object has a required parameter, either the headers send by the browser, or a useragent string. Using the headers is preferable, because it will allow a better detection, but if you have just the useragent string, this will also work.
 
 For example:
 
@@ -75,10 +75,10 @@ or:
 The variable `$result` now contains an object which you can query for information. There are various ways to access the information.
 
 
-First of all, you can call to toString() function to get a human readable identification:
+First of all, you can call to `toString()` function to get a human readable identification:
 
     "You are using " . $result->toString();
-    // You are using Chrome 27 on OS X 10.8.4
+    // You are using Chrome 27 on OS X Mountain Lion 10.8
 
 
 Another possiblity is to query the object:
@@ -86,14 +86,17 @@ Another possiblity is to query the object:
     $result->isType('desktop');
     // true
 
-    $result->isType('mobile', 'tablet', 'media');
+    $result->isType('mobile', 'tablet', 'media', 'gaming:portable');
     // false
 
     $result->isBrowser('Maxthon', '<', '4.0.5');
     // false
 
-    $result->isOs('iOS', '>=', '5');
+    $result->isOs('iOS', '>=', '8');
     // false
+
+    $result->isOs('OS X');
+    // true
 
     $result->isEngine('Blink');
     // true
@@ -108,7 +111,7 @@ You can also access these properties directly:
     // Blink
 
     $result->os->toString();
-    // OS X 10.8.4
+    // OS X Mountain Lion 10.8
 
 
 Or access parts of these properties directly:
