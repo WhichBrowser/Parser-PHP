@@ -1,0 +1,48 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0'
+    result: { browser: { name: Chrome, version: 4.0.202.0 }, engine: { name: Webkit, version: '532.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4'
+    result: { browser: { name: Chrome, version: '5' }, engine: { name: Webkit, version: '533.4' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.120 Safari/535.2'
+    result: { browser: { name: Chrome, version: '15' }, engine: { name: Webkit, version: '535.2' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13'
+    result: { browser: { name: Chrome, version: 0.2.149.27 }, engine: { name: Webkit, version: '525.13' }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.153.0 Safari/525.19'
+    result: { browser: { name: Chrome, version: 0.2.153.0 }, engine: { name: Webkit, version: '525.19' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.4.154.18 Safari/525.19'
+    result: { browser: { name: Chrome, version: 0.4.154.18 }, engine: { name: Webkit, version: '525.19' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.39 Safari/525.19'
+    result: { browser: { name: Chrome, version: '1' }, engine: { name: Webkit, version: '525.19' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.6 Safari/525.13'
+    result: { browser: { name: Chrome, version: 0.2.149.6 }, engine: { name: Webkit, version: '525.13' }, os: { name: Windows, version: { value: '5.2', alias: 'Server 2003' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/530.4 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.4'
+    result: { browser: { name: Chrome, version: '2' }, engine: { name: Webkit, version: '530.4' }, os: { name: Windows, version: { value: '5.2', alias: 'Server 2003' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19'
+    result: { browser: { name: Chrome, version: '1' }, engine: { name: Webkit, version: '525.19' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.1 Safari/528.8'
+    result: { browser: { name: Chrome, version: 2.0.156.1 }, engine: { name: Webkit, version: '528.8' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.193.2 Safari/531.3'
+    result: { browser: { name: Chrome, version: 3.0.193.2 }, engine: { name: Webkit, version: '531.3' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.3.154.9 Safari/525.19'
+    result: { browser: { name: Chrome, version: 0.3.154.9 }, engine: { name: Webkit, version: '525.19' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1025 Safari/532.5'
+    result: { browser: { name: Chrome, version: '4.1' }, engine: { name: Webkit, version: '532.5' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; it-IT) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.25 Safari/532.5'
+    result: { browser: { name: Chrome, version: '4' }, engine: { name: Webkit, version: '532.5' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16'
+    result: { browser: { name: Chrome, version: '10' }, engine: { name: Webkit, version: '534.16' }, os: { name: Linux }, device: { type: desktop } }

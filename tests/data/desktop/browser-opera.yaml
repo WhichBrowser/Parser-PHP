@@ -179,6 +179,9 @@
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.5.8; U; Edition Next; xx) Presto/2.10.269 Version/12.00'
     result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.10.269 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; Edition Labs HTML5 Parser; xx) Presto/2.9.181 Version/12.00'
+    result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.9.181 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+-
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.7.3; U; Edition MacAppStore; xx) Presto/2.9.168 Version/11.51'
     result: { browser: { name: Opera, version: '11.51' }, engine: { name: Presto, version: 2.9.168 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
 -
@@ -212,6 +215,9 @@
     headers: 'User-Agent: Opera/9.80 (Windows NT 5.1; Edition IBIS) Presto/2.12.388 Version/12.11'
     result: { browser: { name: Opera, version: '12.11' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Opera/9.80 (Windows NT 5.1; Edition Labs ) Presto/2.12.388 Version/12.17'
+    result: { browser: { name: Opera, version: '12.17' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Opera/9.80 (Windows NT 5.1; Edition Next) Presto/2.12.370 Version/12.50'
     result: { browser: { name: Opera, version: '12.50' }, engine: { name: Presto, version: 2.12.370 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
@@ -223,6 +229,9 @@
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 5.1; U; xx) Presto/2.7.62 Version/11.01'
     result: { browser: { name: Opera, version: '11.01' }, engine: { name: Presto, version: 2.7.62 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/9.80 (Windows NT 5.2; U; Edition Labs HTML5 Parser; xx) Presto/2.9.181 Version/12.00'
+    result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.9.181 }, os: { name: Windows, version: { value: '5.2', alias: 'Server 2003' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 5.2; U; Edition Next; xx) Presto/2.10.289 Version/12.00'
     result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.10.289 }, os: { name: Windows, version: { value: '5.2', alias: 'Server 2003' } }, device: { type: desktop } }
@@ -254,11 +263,17 @@
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.0; Win64; x64; U; Edition Next; xx) Presto/2.11.310 Version/12.50'
     result: { browser: { name: Opera, version: '12.50' }, engine: { name: Presto, version: 2.11.310 }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U; Edition Labs HTML5 Parser; xx) Presto/2.9.181 Version/12.00'
+    result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.9.181 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U; xx) Presto/2.6.31 Version/10.70'
     result: { browser: { name: Opera, version: '10.70' }, engine: { name: Presto, version: 2.6.31 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U;) Presto/2.10.229 Version/11.61'
     result: { browser: { name: Opera, version: '11.61' }, engine: { name: Presto, version: 2.10.229 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Labs ) Presto/2.12.388 Version/12.15'
+    result: { browser: { name: Opera, version: '12.15' }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; Win64; x64; U; xx)'
     result: { browser: { name: Opera, version: '9.80' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
@@ -274,6 +289,9 @@
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 8.4-RELEASE-p1 i386) Presto/2.12.388 Version/12.16'
     result: { browser: { name: Opera, version: '12.16' }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/9.80 (X11; Linux i686; U; Edition Labs Camera and Pages; xx) Presto/2.9.220 Version/12.00'
+    result: { browser: { name: Opera, version: '12.00' }, engine: { name: Presto, version: 2.9.220 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux i686; U; xx) Presto/2.6.30 Version/10.60'
     result: { browser: { name: Opera, version: '10.60' }, engine: { name: Presto, version: 2.6.30 }, os: { name: Linux }, device: { type: desktop } }

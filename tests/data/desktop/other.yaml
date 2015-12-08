@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: WorldWideweb (NEXT)'
+    result: { browser: { name: WorldWideWeb }, os: { name: NextStep } }

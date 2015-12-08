@@ -1,0 +1,42 @@
+-
+    headers: 'User-Agent: Midori/0.1.9 (X11; Linux i686; U; xx) WebKit/532+'
+    result: { browser: { name: Midori, version: 0.1.9 }, engine: { name: Webkit, version: '532' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.2 (X11; Linux; U; c) WebKit/534.7+'
+    result: { browser: { name: Midori, version: '0.2' }, engine: { name: Webkit, version: '534.7' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.2.2 (X11; Linux ppc; U; xx) WebKit/531.2'
+    result: { browser: { name: Midori, version: 0.2.2 }, engine: { name: Webkit, version: '531.2' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.3 (X11; Linux; U; xx) WebKit/534.21+'
+    result: { browser: { name: Midori, version: '0.3' }, engine: { name: Webkit, version: '534.21' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.4 (CentOS 6.5)'
+    result: { browser: { name: Midori, version: '0.4' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.5 (X11; FreeBSD/11) WebKit/2.4.7 Midori/0.5.9'
+    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: 2.4.7 }, os: { name: FreeBSD }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; c) AppleWebKit/535+ (KHTML, like Gecko) Version/5.0 Safari/535.10+ Midori/0.4'
+    result: { browser: { name: Midori, version: '0.4' }, engine: { name: Webkit, version: '535' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; xx) AppleWebKit/538+ (KHTML, like Gecko) Version/8.0 Safari/538.15+ Midori/0.5'
+    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: '538' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.6 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.6 Midori/0.4'
+    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.4' }, engine: { name: Webkit, version: '537.6' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; CYGWIN_NT-6.1) AppleWebKit/537.32 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.32 Midori/0.5'
+    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.5' }, engine: { name: Webkit, version: '537.32' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.5'
+    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.5' }, engine: { name: Webkit, version: '535.22' }, os: { name: FreeBSD }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.4 Midori/0.4'
+    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.4' }, engine: { name: Webkit, version: '537.4' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) midori'
+    result: { browser: { name: Midori }, engine: { name: Webkit, version: '525.1' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; xx) AppleWebKit/532  (KHTML, like Gecko) Version/3.0 Mobile/1A538b Safari/419.3 Midori/0.4'
+    result: { browser: { name: Midori, version: '0.4' }, engine: { name: Webkit, version: '532' }, os: { name: iOS, version: '1.0' }, device: { type: desktop } }
