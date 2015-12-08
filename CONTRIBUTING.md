@@ -33,7 +33,7 @@ To run the unit tests:
 vendor/bin/phpunit
 ```
 
-The data for the analyser can be found in the `tests/data/` directories. These are Yaml files containing an for every single test that is executed. Currently these directories contain over 2500 different tests resulting in almost 90% code coverage. Every entries contains a number of keys, which represent the different parameters of the Parser object and an extra key which contains the result. If you add a new test, you should not provide the result yourself, but instead just provide the parameters and let the testing framework generate the result.
+The data for the analyser can be found in the `tests/data/` directories. These are Yaml files containing an entry for every single test that is executed. Currently these directories contain over 2500 different tests resulting in almost 90% code coverage. Every entries contains a number of keys, which represent the different parameters of the Parser object and an extra key which contains the result. If you add a new test, you should not provide the result yourself, but instead just provide the parameters and let the testing framework generate the result.
 
 A very simple test entry looks like this:
 
@@ -109,4 +109,4 @@ DeviceModels::$ANDROID_MODELS = [
 This will both match the "Aspire 5750G", the "Aspire 4738G" and many more similar models.
 
 
-On more thing you need to be aware of, all of the keys are not tested against the raw value extracted from the useragent string, but instead is pre-processed. The code for this can be found in the `DeviceModels::cleanup()`` function in the `src/Data/DeviceModels.php` file.
+On more thing you need to be aware of, all of the keys are not tested against the raw value extracted from the useragent string, but instead is pre-processed. The code for this can be found in the `DeviceModels::cleanup()` function in the `src/Data/DeviceModels.php` file.
