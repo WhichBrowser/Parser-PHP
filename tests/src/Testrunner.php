@@ -123,7 +123,9 @@ class Testrunner
                 $rule['headers'] = http_parse_headers($rule['headers']);
             }
 
-            echo $rule['headers']['User-Agent'] . "\n";
+            if (isset($rule['headers']['User-Agent'])) {
+                echo $rule['headers']['User-Agent'] . "\n";
+            }
         }
     }
 
