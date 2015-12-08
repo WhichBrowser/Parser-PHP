@@ -1462,15 +1462,34 @@ trait Browser
         /* 360 Phone Browser */
 
         if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)(?:beta)?\)/u', $ua, $match)) {
-            $this->data->browser->name = '360 Phone Browser';
+            $this->data->browser->name = 'Qihoo 360 Browser';
+            $this->data->browser->family = null;
             $this->data->browser->channel = '';
-            $this->data->browser->version = null;
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             
-            if (preg_match('/360\(android/u', $ua) && (!isset($this->data->os->name) || ($this->data->os->name != 'Android' && (!isset($this->data->os->family) || $this->data->os->family->getName() != 'Android')))) {
-                $this->data->os->name = 'Android';
-                $this->data->os->version = null;
+            if (!$this->data->os->isFamily('Android')) {
                 $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->os->reset([
+                    'name' => 'Android'
+                ]);
+            }
+        }
+
+        if (preg_match('/QHBrowser\/([0-9\.]+)/u', $ua, $match)) {
+            $version = $match[1];
+            if (preg_match('/^[0-9][0-9][0-9]$/u', $version)) {
+                $version = $version[0] . '.' . $version[1] . '.' . $version[2];
+            }
+
+            $this->data->browser->name = 'Qihoo 360 Browser';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $version ]);
+
+            if (!$this->data->isOs('iOS')) {
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->os->reset([
+                    'name' => 'iOS'
+                ]);
             }
         }
 
@@ -1731,7 +1750,6 @@ trait Browser
             [ 'name' => '2345 Browser',         'regexp' => '/Mb2345Browser\/([0-9.]*)/u' ],
             [ 'name' => '3G Explorer',          'regexp' => '/3G Explorer\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => '4G Explorer',          'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3 ],
-            [ 'name' => '360 Aphone Browser',   'regexp' => '/360 Aphone Browser\(([0-9.]*)\)/u' ],
             [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'ABrowse',              'regexp' => '/A[Bb]rowse ([0-9.]*)/u' ],
