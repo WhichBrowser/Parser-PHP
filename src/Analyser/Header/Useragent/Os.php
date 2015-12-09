@@ -1391,7 +1391,7 @@ trait Os
                 $this->data->os->name = 'LiMo';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
-        } 
+        }
 
         if (preg_match('/\(Ubuntu; (Mobile|Tablet)/u', $ua)) {
             $this->data->os->name = 'Ubuntu Touch';
@@ -1402,7 +1402,7 @@ trait Os
             if (preg_match('/\(Ubuntu; Tablet/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TABLET;
             }
-        } 
+        }
 
         if (preg_match('/(?:\(|; )Ubuntu ([0-9.]+) like Android/u', $ua, $match)) {
             $this->data->os->name = 'Ubuntu Touch';
