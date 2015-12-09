@@ -1475,6 +1475,13 @@ trait Browser
             }
         }
 
+        if (preg_match('/360%20Browser\/([0-9\.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Qihoo 360 Browser';
+            $this->data->browser->family = null;
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+        }
+
         if (preg_match('/QHBrowser\/([0-9\.]+)/u', $ua, $match)) {
             $version = $match[1];
             if (preg_match('/^[0-9][0-9][0-9]$/u', $version)) {
