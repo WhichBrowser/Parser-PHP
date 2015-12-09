@@ -138,7 +138,9 @@ trait Ereader
     private function detectPocketbook($ua)
     {
         if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
-            switch ($match[1]) {
+             $model = null;
+ 
+             switch ($match[1]) {
                 case '515':
                     $model = 'Mini';
                     break;
@@ -172,8 +174,6 @@ trait Ereader
                 case '840':
                     $model = 'InkPad';
                     break;
-                default:
-                    $model = null;
             }
 
             $this->data->os->reset();

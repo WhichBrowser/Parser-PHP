@@ -5,6 +5,9 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/515 (screen 600x800; FW W515.4.4.540) Mobile'
     result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: Mini } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/614 (screen 600x800; FW W515.4.4.540) Mobile'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Basic 2' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/623 (screen 758x1024; FW T623.4.4.616) Mobile'
     result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Touch Lux' } }
 -
