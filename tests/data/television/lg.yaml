@@ -77,6 +77,9 @@
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; xx) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( SCREEN TUNER; LGE; GLOBAL-PLAT3; 11.00.14; 0x00000081;); LG NetCast.TV-2011 0'
     result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2011' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; xx) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  LG Browser/4.1.4( SCREEN TUNER; LGE; GLOBAL-PLAT3; 11.00.14; 0x00000081;); LG NetCast.TV-2011 0'
+    result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2011' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux 35230; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+mouse+SCREEN+TUNER; LGE; GLOBAL-PLAT3; 03.04.40; 0x00000001;); LG NetCast.TV-2011 0'
     result: { browser: { name: 'LG Browser', version: '4.1' }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2011' } }
 -
