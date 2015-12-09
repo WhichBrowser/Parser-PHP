@@ -56,9 +56,6 @@ trait Os
 
             if (preg_match('/OS (.*) like Mac OS X/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
-                if ($this->data->os->version->is('<', '4')) {
-                    $this->data->os->alias = 'iPhone OS';
-                }
             }
 
             if (preg_match('/iPhone Simulator;/u', $ua)) {
@@ -93,32 +90,47 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             }
 
-            if (!empty($this->data->os->version)) {
-                if ($this->data->os->version->is('<', '10.7')) {
-                    $this->data->os->alias = 'Mac OS X';
-                }
-                
-                if ($this->data->os->version->is('10.7')) {
-                    $this->data->os->version->nickname = 'Lion';
-                } elseif ($this->data->os->version->is('10.8')) {
-                    $this->data->os->version->nickname = 'Mountain Lion';
-                } elseif ($this->data->os->version->is('10.9')) {
-                    $this->data->os->version->nickname = 'Mavericks';
-                } elseif ($this->data->os->version->is('10.10')) {
-                    $this->data->os->version->nickname = 'Yosemite';
-                } elseif ($this->data->os->version->is('10.11')) {
-                    $this->data->os->version->nickname = 'El Capitan';
-                }
-            }
-
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
         /* Darwin */
 
-        if (preg_match('/Darwin[\/ ]([0-9]+.[0-9]+)/u', $ua, $match)) {
-            $this->data->os->name = "Darwin";
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+        if (preg_match('/Darwin\/([0-9]+).[0-9]+/u', $ua, $match)) {
+            if (preg_match('/\((?:x86_64|i386)\)/u', $ua)) {
+                
+                /* OS X */
+                $this->data->os->name = 'OS X';
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+
+                $version = Data\Darwin::getVersion('osx', $match[1]);
+                if ($version) {
+                    $this->data->os->version = new Version($version);
+                }
+
+                if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
+                    $version = Data\CFNetwork::getVersion('osx', $match[1]);
+                    if ($version) {
+                        $this->data->os->version = new Version($version);
+                    }
+                }
+            } else {
+
+                /* iOS */
+                $this->data->os->name = 'iOS';
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $version = Data\Darwin::getVersion('ios', $match[1]);
+                if ($version) {
+                    $this->data->os->version = new Version($version);
+                }
+
+                if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
+                    $version = Data\CFNetwork::getVersion('ios', $match[1]);
+                    if ($version) {
+                        $this->data->os->version = new Version($version);
+                    }
+                }
+            }
         }
     }
 

@@ -146,5 +146,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'
     result: { browser: { name: Safari, version: '5.1' }, engine: { name: Webkit, version: '534.50' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Safari/10600.2.5 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)'
+    result: { browser: { name: Safari }, os: { name: 'OS X', version: { value: 10.10.1, nickname: Yosemite } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir6%2C2)'
     result: { browser: { name: Safari }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)'
+    result: { os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }

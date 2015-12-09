@@ -298,80 +298,17 @@ trait Derive
             $this->data->browser->hidden = true;
         }
 
-        /* Derive iOS and OS X versions from Darwin */
-
-        if ($this->data->os->name == 'Darwin' && $this->data->device->type == Constants\DeviceType::MOBILE) {
-            $this->data->os->name = 'iOS';
-
-            switch (strstr($this->data->os->getVersion(), '.', true)) {
-                case '9':
-                    $this->data->os->version = new Version([ 'value' =>'1' ]);
+        /* Derive iOS and OS X aliases */
+ 
+        if ($this->data->os->name == 'iOS') {
+            if (!empty($this->data->os->version)) {
+                if ($this->data->os->version->is('<', '4')) {
                     $this->data->os->alias = 'iPhone OS';
-                    break;
-                case '10':
-                    $this->data->os->version = new Version([ 'value' =>'4' ]);
-                    break;
-                case '11':
-                    $this->data->os->version = new Version([ 'value' =>'5' ]);
-                    break;
-                case '13':
-                    $this->data->os->version = new Version([ 'value' =>'6' ]);
-                    break;
-                case '14':
-                    $this->data->os->version = new Version([ 'value' =>'7' ]);
-                    break;
-                case '15':
-                    $this->data->os->version = new Version([ 'value' =>'9' ]);
-                    break;
-                default:
-                    $this->data->os->version = null;
+                }
             }
         }
 
-        if ($this->data->os->name == 'Darwin' && $this->data->device->type == Constants\DeviceType::DESKTOP) {
-            $this->data->os->name = 'OS X';
-
-            switch (strstr($this->data->os->getVersion(), '.', true)) {
-                case '1':
-                    $this->data->os->version = new Version([ 'value' =>'10.0' ]);
-                    break;
-                case '5':
-                    $this->data->os->version = new Version([ 'value' =>'10.1' ]);
-                    break;
-                case '6':
-                    $this->data->os->version = new Version([ 'value' =>'10.2' ]);
-                    break;
-                case '7':
-                    $this->data->os->version = new Version([ 'value' =>'10.3' ]);
-                    break;
-                case '8':
-                    $this->data->os->version = new Version([ 'value' =>'10.4' ]);
-                    break;
-                case '9':
-                    $this->data->os->version = new Version([ 'value' =>'10.5' ]);
-                    break;
-                case '10':
-                    $this->data->os->version = new Version([ 'value' =>'10.6' ]);
-                    break;
-                case '11':
-                    $this->data->os->version = new Version([ 'value' =>'10.7' ]);
-                    break;
-                case '12':
-                    $this->data->os->version = new Version([ 'value' =>'10.8' ]);
-                    break;
-                case '13':
-                    $this->data->os->version = new Version([ 'value' =>'10.9' ]);
-                    break;
-                case '14':
-                    $this->data->os->version = new Version([ 'value' =>'10.10' ]);
-                    break;
-                case '15':
-                    $this->data->os->version = new Version([ 'value' =>'10.11' ]);
-                    break;
-                default:
-                    $this->data->os->version = null;
-            }
-
+        if ($this->data->os->name == 'OS X') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('<', '10.7')) {
                     $this->data->os->alias = 'Mac OS X';
