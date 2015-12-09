@@ -93,13 +93,13 @@ trait Corrections
     private function hideBrowserBasedOnOperatingSystem()
     {
         if ($this->data->os->name == 'Series80' && $this->data->browser->name == 'Internet Explorer') {
-            $this->data->browser->name = null;
-            $this->data->browser->version = null;
+            $this->data->browser->reset();
         }
 
         if ($this->data->os->name == 'Tizen' && $this->data->browser->name == 'Chrome') {
-            $this->data->browser->name = null;
-            $this->data->browser->version = null;
+            $this->data->browser->reset([
+                'family' => isset($this->data->browser->family) ? $this->data->browser->family : null
+            ]);
         }
 
         if ($this->data->os->name == 'Ubuntu Touch' && $this->data->browser->name == 'Chromium') {
