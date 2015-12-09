@@ -121,3 +121,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Tizen 2.1; xx; SEC_SC-001) AppleWebKit/537.1 (KHTML, like Gecko) Version/2.1.0 Mobile'
     result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '537.1' }, os: { name: Tizen, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'SC-001 prototype' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-I9500/1.0; U; Tizen/1.0 like Android; xx) AppleWebKit/535.7 (KHTML, like Gecko) SLP Browser/1.0 Mobile'
+    result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '535.7' }, os: { name: Tizen, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GT-I9500 prototype' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-i9500/2.0; U; Tizen/2.0 like Android; xx) AppleWebKit/534.46 (KHTML, like Gecko) SLP Browser/2.0 Mobile'
+    result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '534.46' }, os: { name: Tizen, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GT-I9500 prototype' } }
+-
+    headers: 'User-Agent: Mozilla/5.0(Linux; Tizen2.2;sdk) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
+    result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '537.3' }, os: { name: Tizen }, device: { type: mobile, subtype: smart } }
