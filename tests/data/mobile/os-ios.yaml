@@ -1,4 +1,7 @@
 -
+    headers: 'User-Agent: CFNetwork/0.0.0 Darwin/0.0.0'
+    result: { os: { name: iOS }, device: { type: mobile, subtype: smart } }
+-
     headers: 'User-Agent: MQQBrowser/31 Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3'
     result: { browser: { name: 'QQ Browser', version: '3.1' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
