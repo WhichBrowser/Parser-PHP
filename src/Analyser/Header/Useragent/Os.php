@@ -394,6 +394,7 @@ trait Os
 
         if (preg_match('/WoPhone/u', $ua)) {
             $this->data->os->name = 'WoPhone';
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
             if (preg_match('/WoPhone\/([0-9\.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
