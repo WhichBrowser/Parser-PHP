@@ -29,6 +29,9 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-E900)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus 7' } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; Microsoft; XDeviceEmulator)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: emulator } }
+-
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 710)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 710' } }
 -
@@ -130,6 +133,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HUAWEI; W2-U00) like Gecko'
     result: { browser: { name: 'Mobile Internet Explorer', version: '11.0' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W2' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; Microsoft; XDeviceEmulator) like Gecko'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11.0' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Motorola Solutions; TC70) like Gecko'
     result: { browser: { name: 'Mobile Internet Explorer', version: '11.0' }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: TC70 } }
@@ -464,6 +470,9 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; SPH-I800)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Ativ S Neo' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Microsoft; XDeviceEmulator)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: emulator } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart } }
 -
@@ -634,6 +643,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; MAL; N880e WP7.8 V5.0 8862; China Telecom)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: N880e } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Microsoft; XDeviceEmulator)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; 909)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1020' } }
