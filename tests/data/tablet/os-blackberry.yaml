@@ -1,4 +1,10 @@
 -
+    headers: 'User-Agent: Mozilla/5.0 (PlayBook) AppleWebKit/536.2+ (KHTML, like Gecko) Version/10.0.4.102 Safari/536.2+'
+    result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '536.2' }, os: { name: BlackBerry, version: '10.0' }, device: { type: tablet, manufacturer: RIM, model: 'BlackBerry PlayBook' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PlayBook; U; Android 2.3.3; xx; PlayBook Build/10.1.0.147) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: BlackBerry, version: '10.1' }, device: { type: tablet, manufacturer: RIM, model: 'BlackBerry PlayBook' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (PlayBook; U; Android 2.3.3; xx; PlayBook Build/2.0.0.51) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: 'BlackBerry Tablet OS', version: '2.0' }, device: { type: tablet, manufacturer: RIM, model: 'BlackBerry PlayBook' } }
 -

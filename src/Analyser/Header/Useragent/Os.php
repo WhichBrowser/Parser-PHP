@@ -1176,6 +1176,12 @@ trait Os
                 $this->data->device->identified |= Constants\Id::MATCH_UA;
             }
         }
+
+        /* Internal versions of BlackBerry 10 running on the Playbook */
+
+        if ($this->data->isOs('BlackBerry Tablet OS', '>=', 10)) {
+            $this->data->os->name = 'BlackBerry';
+        }
     }
 
 
