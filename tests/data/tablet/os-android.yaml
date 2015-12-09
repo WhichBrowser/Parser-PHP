@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1; xx; HP eStation/1.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: tablet, manufacturer: HP, model: eStation } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; xx; HP eStation/1.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: tablet, manufacturer: HP, model: eStation } }

@@ -1,0 +1,15 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unix) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7'
+    result: { browser: { name: Chrome, version: '16' }, engine: { name: Webkit, version: '535.7' }, os: { name: Unix }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unix; rv:9.0.1) Gecko/20100101 Firefox/9.0.1'
+    result: { browser: { name: Firefox, version: 9.0.1 }, engine: { name: Gecko, version: 9.0.1 }, os: { name: Unix }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Unix; xx) AppleWebKit/537.15 (KHTML, like Gecko) Chrome/24.0.1295.0 Safari/537.15 Surf/0.6.1'
+    result: { browser: { name: Surf, family: { name: Chrome, version: 24 }, version: 0.6.1 }, engine: { name: Webkit, version: '537.15' }, os: { name: Unix }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Unix; xx) AppleWebKit/537.15 (KHTML, like Gecko) Chrome/24.0.1295.0 Safari/537.15 Surf/1.0'
+    result: { browser: { name: Surf, family: { name: Chrome, version: 24 }, version: '1.0' }, engine: { name: Webkit, version: '537.15' }, os: { name: Unix }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Surf/0.4.1 (X11; U; Unix; xx) AppleWebKit/531.2+ Compatible (Safari)'
+    result: { browser: { name: Surf, version: 0.4.1 }, engine: { name: Webkit, version: '531.2' }, os: { name: Unix } }
