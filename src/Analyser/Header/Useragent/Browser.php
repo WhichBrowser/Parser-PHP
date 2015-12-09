@@ -92,24 +92,6 @@ trait Browser
                     $this->data->browser->version = null;
                 }
             }
-
-
-            if (isset($this->data->os->name) && $this->data->os->name == 'Darwin') {
-                if (preg_match("/^MobileSafari/iu", $ua)) {
-                    $this->data->browser->name = 'Safari';
-                    $this->data->browser->version = null;
-                    $this->data->browser->stock = true;
-                    $this->data->browser->hidden = true;
-
-                    $this->data->device->type = Constants\DeviceType::MOBILE;
-                } elseif (preg_match("/^Safari/iu", $ua)) {
-                    $this->data->browser->name = 'Safari';
-                    $this->data->browser->version = null;
-                    $this->data->browser->stock = true;
-
-                    $this->data->device->type = Constants\DeviceType::DESKTOP;
-                }
-            }
         }
 
         if (preg_match('/(?:Apple-PubSub|AppleSyndication)\//u', $ua)) {
