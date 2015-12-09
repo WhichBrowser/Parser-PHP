@@ -42,7 +42,7 @@ trait Derive
                 $this->data->device->subtype = 'smart';
             }
 
-            if (in_array($this->data->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Tizen', 'Ubuntu', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
+            if (in_array($this->data->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Series80', 'Tizen', 'Ubuntu Touch', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
                 $this->data->device->subtype = 'smart';
             }
         }
