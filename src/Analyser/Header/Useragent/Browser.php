@@ -1493,6 +1493,19 @@ trait Browser
             }
         }
 
+        /* Mercury */
+
+        if (preg_match('/Mercury\/([0-9\.]+)/u', $ua, $match)) {
+            $version = $match[1];
+            if (preg_match('/^[0-9][0-9][0-9]$/u', $version)) {
+                $version = $version[0] . '.' . $version[1] . '.' . $version[2];
+            }
+
+            $this->data->browser->name = 'Mercury Browser';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $version ]);
+        }
+
         /* iBrowser */
 
         if (preg_match('/(iBrowser)\/([0-9.]*)/u', $ua, $match) && !preg_match('/OviBrowser/u', $ua)) {
@@ -1839,7 +1852,6 @@ trait Browser
             [ 'name' => 'MaCross Mobile',       'regexp' => '/MaCross\/([0-9.]*)/u' ],
             [ 'name' => 'Mammoth',              'regexp' => '/Mammoth\/([0-9.]*)/u' ],                                      // see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
             [ 'name' => 'Maxthon',              'regexp' => '/MxBrowser\/([0-9.]*)/u' ],
-            [ 'name' => 'Mercury Browser',      'regexp' => '/Mercury\/([0-9.]*)/u' ],
             [ 'name' => 'MixShark',             'regexp' => '/MixShark\/([0-9.]*)/u' ],
             [ 'name' => 'mlbrowser',            'regexp' => '/mlbrowser/u' ],
             [ 'name' => 'Motorola WebKit',      'regexp' => '/MotorolaWebKit(?:\/([0-9.]*))?/u', 'details' => 3 ],
