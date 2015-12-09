@@ -245,48 +245,6 @@ trait Os
                     $this->data->device->identified |= Constants\Id::MATCH_UA;
                     $this->data->device->generic = false;
                 }
-                if (preg_match('/Pre\/1.0/u', $ua)) {
-                    $this->data->device->manufacturer = 'Palm';
-                    $this->data->device->model = 'Pre';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/Pre\/1.1/u', $ua)) {
-                    $this->data->device->manufacturer = 'Palm';
-                    $this->data->device->model = 'Pre Plus';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/Pre\/1.2/u', $ua)) {
-                    $this->data->device->manufacturer = 'Palm';
-                    $this->data->device->model = 'Pre 2';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/Pre\/3.0/u', $ua)) {
-                    $this->data->device->manufacturer = 'HP';
-                    $this->data->device->model = 'Pre 3';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/Pixi\/1.0/u', $ua)) {
-                    $this->data->device->manufacturer = 'Palm';
-                    $this->data->device->model = 'Pixi';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/Pixi\/1.1/u', $ua)) {
-                    $this->data->device->manufacturer = 'Palm';
-                    $this->data->device->model = 'Pixi Plus';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
-                if (preg_match('/P160UN?A?\/1.0/u', $ua)) {
-                    $this->data->device->manufacturer = 'HP';
-                    $this->data->device->model = 'Veer';
-                    $this->data->device->identified |= Constants\Id::MATCH_UA;
-                    $this->data->device->generic = false;
-                }
             }
         }
 
@@ -1031,33 +989,46 @@ trait Os
             $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->device->type = preg_match('/Tablet/iu', $ua) ? Constants\DeviceType::TABLET : Constants\DeviceType::MOBILE;
             $this->data->device->generic = false;
+        }
 
+        if (preg_match('/(?:Spark|elite)\/fzz/u', $ua, $match) || preg_match('/webOSBrowser/u', $ua, $match)) {
+            $this->data->os->name = 'webOS';
+            $this->data->device->type = preg_match('/Tablet/iu', $ua) ? Constants\DeviceType::TABLET : Constants\DeviceType::MOBILE;
+            $this->data->device->generic = false;
+        }
+
+        if ($this->data->isOs('webOS')) {
             if (preg_match('/Pre\/1.0/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pre';
             }
             if (preg_match('/Pre\/1.1/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pre Plus';
             }
             if (preg_match('/Pre\/1.2/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pre 2';
             }
             if (preg_match('/Pre\/3.0/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pre 3';
             }
             if (preg_match('/Pixi\/1.0/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pixi';
             }
             if (preg_match('/Pixi\/1.1/u', $ua)) {
+                $this->data->device->manufacturer = 'Palm';
                 $this->data->device->model = 'Pixi Plus';
             }
             if (preg_match('/P160UN?A?\/1.0/u', $ua)) {
+                $this->data->device->manufacturer = 'HP';
                 $this->data->device->model = 'Veer';
             }
             if (preg_match('/TouchPad\/1.0/u', $ua)) {
+                $this->data->device->manufacturer = 'HP';
                 $this->data->device->model = 'TouchPad';
-            }
-            if (isset($this->data->device->model)) {
-                $this->data->device->manufacturer = preg_match('/hpwOS/u', $ua) ? 'HP' : 'Palm';
             }
 
             if (preg_match('/Emulator\//u', $ua) || preg_match('/Desktop\//u', $ua)) {
@@ -1067,10 +1038,6 @@ trait Os
             }
 
             $this->data->device->identified |= Constants\Id::MATCH_UA;
-        }
-
-        if (preg_match('/elite\/fzz/u', $ua, $match)) {
-            $this->data->os->name = 'webOS';
         }
     }
 
