@@ -1,4 +1,16 @@
 -
+    headers: 'User-Agent: 3G Explorer/3.1.0.1085 (Linux;Android 4.3,SM-N9005) AppleWebKit/533.1 (357507050070039,01)'
+    result: { browser: { name: '3G Explorer', version: 3.1.0 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
+-
+    headers: 'User-Agent: 3G Explorer/3.1.3.165 (Linux;Android 4.2.2,Lenovo K900) AppleWebKit/533.1 (860486024086613,00)'
+    result: { browser: { name: '3G Explorer', version: 3.1.3 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: K900 } }
+-
+    headers: 'User-Agent: 4G Explorer/3.2.0 (Linux;Android 4.4.2,HTC 801e) AppleWebKit/533.1 (354439050552654,01)'
+    result: { browser: { name: '4G Explorer', version: 3.2.0 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
+-
+    headers: 'User-Agent: 4G Explorer/3.5.3 (Linux;Android 4.2.2,HM NOTE 1TD) AppleWebKit/533.1 (863990024967042,78)'
+    result: { browser: { name: '4G Explorer', version: 3.5.3 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi Note 1' } }
+-
     headers: 'User-Agent: AcerTD600_TD/1.0 Android/2.2 (Linux; Android 2.2) Release/12.20.2010 Browser/WAP 2.0 AppleWebKit/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'beTouch TD600' } }
 -
@@ -32,6 +44,12 @@
     headers: 'User-Agent: Lephone_TD8208_TD/1.0 Android/2.3.5 MocorDroid/SpreadTrum Release/3.22.2012 Browser/AppleWebKit5333.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '5333.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Lephone, model: TD8208 } }
 -
+    headers: 'User-Agent: MQQBrowser/3.0/Mozilla/5.0 (HW-HUAWEI_C8500/C8500V100R001C92B234;U;Android/2.1;240*320;CTC/2.0) AppleWebKit/530.17 Mobile Safari/530.17'
+    result: { browser: { name: 'QQ Browser', version: '3.0' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_C8500/C8500V100R001C92B234;U;Android/2.1;240*320;CTC/2.0) AppleWebKit/530.17 Mobile Safari/530.17 parameters/{scr=427_320,cm=1,ql=l,imei=a0000020ccd264,bm=1,eng=adrmini7,mdm=1,mdl=C8500,ps=1} tiantian(securitypay)'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; Aspire V5-121 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36'
     result: { browser: { name: Chrome, version: '40' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: desktop, manufacturer: Acer, model: 'Aspire V5-121' } }
 -
@@ -41,8 +59,26 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.99; Build/MPZ44Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '44' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 02.00.06(2.1-update1); xx; i-station Buddy Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, model: 'i-station Buddy' } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.1; xx; androVM for VirtualBox (''Tablet'' version with phone caps) Build/JRO03S) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.1 }, device: { type: emulator } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android Eclair; es-es Build/pandigitalopc1/sourceidDL00000009) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: tablet, manufacturer: Pandigital, model: OPC1 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android Eclair; xx; i-mobile i858 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: i-Mobile, model: i858 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android KeyLimePie; xx; LG-D410 Build/KRS91B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.4' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: L90 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android KeyLimePie; xx; LG-F320L Build/KRS92B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.4' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MOT-XT800/TITA_M2_16.22.7;U;Android/2.1-update1;480*854;CTC/2.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT800' } }
 -
     headers: 'User-Agent: NGM Dynamic Racing 2/V2 Linux/3.0.13 Android/4.2 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2;'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.2' }, device: { type: mobile, subtype: smart } }

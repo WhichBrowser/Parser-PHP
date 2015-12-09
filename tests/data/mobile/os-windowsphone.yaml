@@ -752,6 +752,18 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; ZTE; V965W)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '9.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'V965W Tania' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 8.0.10328.0; Trident/5.0; IEMobile/9.0; CuteBrowser/3.0.0; NOKIA; RM-822_apac_prc_204)'
+    result: { browser: { name: CuteBrowser, version: '3.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 8.0.10501.0; Trident/5.0; IEMobile/9.0; CuteBrowser/3.0.0; HTC; Windows Phone 8X by HTC)'
+    result: { browser: { name: CuteBrowser, version: '3.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 8.10.14157.0; Trident/5.0; IEMobile/9.0; CuteBrowser/3.0.0; HUAWEI; HUAWEI W1-U00)'
+    result: { browser: { name: CuteBrowser, version: '3.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '8.10' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W1' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 8.10.14203.0; Trident/5.0; IEMobile/9.0; CuteBrowser/3.0.0; SAMSUNG; GT-I8750)'
+    result: { browser: { name: CuteBrowser, version: '3.0' }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '8.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Ativ S' } }
+-
     headers: { User-Agent: 'MQQBrowser/1.0/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; NOKIA; RM-910apacprc200)', Q-UA: 'WPQB10_GA/100001&SMTT_3/020100&WP8&0014&RM-910apacprc200&0&9218&V3' }
     result: { browser: { name: 'QQ Browser', version: '1.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
 -
