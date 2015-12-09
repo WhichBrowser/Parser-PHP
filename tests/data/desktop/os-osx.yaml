@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: QuickTime/7.6 (qtver=7.6;cpu=IA32;os=Mac 10,5,7)'
+    result: { browser: { name: QuickTime, version: '7.6' }, os: { name: 'OS X', version: { value: '10', nickname: 'El Capitan' } }, device: { type: desktop } }
