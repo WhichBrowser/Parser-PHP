@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: BrightSign/4.6.46 (XD230) Mozilla/5.0 (compatible; Linux mips) AppleWebKit/537.4 (KHTML, like Gecko) Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/537.4'
-    result: { browser: { name: BrightSign, version: 4.6.46 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: XD230 } }
+    result: { browser: { name: BrightSign, family: { name: Chrome, version: 18 }, version: 4.6.46 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: XD230 } }
 -
     headers: 'User-Agent: BrightSign/5.1.52 (SV-4K-ROW) Mozilla/5.0 (compatible; Linux mips) AppleWebKit/537.4 (KHTML, like Gecko) Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/537.4'
-    result: { browser: { name: BrightSign, version: 5.1.52 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: SV-4K-ROW } }
+    result: { browser: { name: BrightSign, family: { name: Chrome, version: 18 }, version: 5.1.52 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: SV-4K-ROW } }
 -
     headers: 'User-Agent: BrightSign/6.0.13 (XD1132) Mozilla/5.0 (compatible; Linux mips) AppleWebKit/537.4 (KHTML, like Gecko) Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/537.4'
-    result: { browser: { name: BrightSign, version: 6.0.13 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: XD1132 } }
+    result: { browser: { name: BrightSign, family: { name: Chrome, version: 18 }, version: 6.0.13 }, engine: { name: Webkit, version: '537.4' }, device: { type: signage, manufacturer: BrightSign, model: XD1132 } }
 -
     headers: 'User-Agent: BrightSign/6.0.50 (4K1142) Mozilla/5.0 (Unknown; Linux arm) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.4.3 Chrome/37.0.2062.103 Safari/537.36'
     result: { browser: { name: BrightSign, family: { name: Chrome, version: 37 }, version: 6.0.50 }, engine: { name: Blink, version: '537.36' }, device: { type: signage, manufacturer: BrightSign, model: 4K1142 } }

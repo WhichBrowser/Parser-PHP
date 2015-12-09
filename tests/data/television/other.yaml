@@ -108,7 +108,7 @@
     result: { engine: { name: Webkit, version: '538.8' }, device: { type: television, manufacturer: Selevision, model: EMC1000i } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; Linux sh4) AppleWebKit/537.6+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/537.6+HbbTV/1.1.1 (;iWedia;Teatro;3.0;;)'
-    result: { engine: { name: Webkit, version: '537.6' }, device: { type: television, manufacturer: iWedia, model: Teatro } }
+    result: { browser: { family: { name: Chrome, version: 17 } }, engine: { name: Webkit, version: '537.6' }, device: { type: television, manufacturer: iWedia, model: Teatro } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; Linux sh4) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+HbbTV/1.1.1 (;iWedia;Teatro;3.0;;)'
     result: { engine: { name: Webkit, version: '537.6' }, device: { type: television, manufacturer: iWedia, model: Teatro } }

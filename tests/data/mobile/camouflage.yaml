@@ -65,7 +65,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11;Unknown) AppleWebKit/525.20+ (KHTML,like Gecko) Chromium/24.0.1312.52 Chrome/24.0.1312.52 Safari/525.52+'
     engine: 8
-    result: { browser: { name: Chromium, version: 24.0.1312.52 }, engine: { name: Webkit, version: '525.20' }, device: { type: desktop }, camouflage: true }
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 24 }, version: 24.0.1312.52 }, engine: { name: Webkit, version: '525.20' }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari/8536.25'
     result: { browser: { name: Safari }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }

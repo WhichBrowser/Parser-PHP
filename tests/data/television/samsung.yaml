@@ -39,7 +39,7 @@
     result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.2' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit/537.42 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.42'
-    result: { engine: { name: Webkit, version: '537.42' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
+    result: { browser: { family: { name: Chrome, version: 25 } }, engine: { name: Webkit, version: '537.42' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SMART-TV; X11; Linux i686) AppleWebKit/534.7 (KHTML, like Gecko) Version/5.0 Safari/534.7'
     result: { engine: { name: Webkit, version: '534.7' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
