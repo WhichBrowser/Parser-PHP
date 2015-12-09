@@ -153,7 +153,9 @@ trait Derive
 
     private function deriveBasedOnDeviceFlag()
     {
-        if ($this->data->device->flag == Constants\Flag::NOKIAX) {
+        $flag = $this->data->device->flag;
+
+        if ($flag == Constants\Flag::NOKIAX) {
             $this->data->os->name = 'Nokia X Platform';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -161,7 +163,7 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($this->data->device->flag == Constants\Flag::FIREOS) {
+        if ($flag == Constants\Flag::FIREOS) {
             $this->data->os->name = 'FireOS';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -203,7 +205,7 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($this->data->device->flag == Constants\Flag::GOOGLETV) {
+        if ($flag == Constants\Flag::GOOGLETV) {
             $this->data->os->name = 'Google TV';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -211,14 +213,14 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($this->data->device->flag == Constants\Flag::ANDROIDTV) {
+        if ($flag == Constants\Flag::ANDROIDTV) {
             $this->data->os->name = 'Android TV';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
             unset($this->data->device->flag);
         }
 
-        if ($this->data->device->flag == Constants\Flag::ANDROIDWEAR) {
+        if ($flag == Constants\Flag::ANDROIDWEAR) {
             $this->data->os->name = 'Android Wear';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             unset($this->data->os->version);
@@ -230,7 +232,7 @@ trait Derive
             }
         }
 
-        if ($this->data->device->flag == Constants\Flag::GOOGLEGLASS) {
+        if ($flag == Constants\Flag::GOOGLEGLASS) {
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             unset($this->data->os->name);
             unset($this->data->os->version);
