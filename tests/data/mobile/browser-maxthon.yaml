@@ -47,5 +47,8 @@
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx)Maxthon AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20'
     result: { browser: { name: Maxthon }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: 4.3.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
+    headers: 'User-Agent: MxBrowser-iPhone/40 CFNetwork/672.0.8 Darwin/14.0.0'
+    result: { browser: { name: Maxthon, version: '40' }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
     headers: 'User-Agent: ZTE U950_TD/1.0 Linux/3.1.10 Android/4.0 Release/8.1.2012 Browser/AppleWebKit534.30 Maxthon/4.1.1.1000'
     result: { browser: { name: Maxthon, version: 4.1.1 }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: U950 } }
