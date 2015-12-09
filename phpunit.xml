@@ -18,9 +18,7 @@
     
     <filter>
        <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src/Model</directory>
-            <file>src/Parser.php</file>
-            <file>src/Analyser.php</file>
+            <directory suffix=".php">src</directory>
         </whitelist>
     </filter>
 
