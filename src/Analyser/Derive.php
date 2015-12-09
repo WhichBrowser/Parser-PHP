@@ -159,7 +159,6 @@ trait Derive
 
             unset($this->data->os->version);
             unset($this->data->device->flag);
-            return;
         }
 
         if ($this->data->device->flag == Constants\Flag::FIREOS) {
@@ -202,7 +201,6 @@ trait Derive
             }
 
             unset($this->data->device->flag);
-            return;
         }
 
         if ($this->data->device->flag == Constants\Flag::GOOGLETV) {
@@ -211,7 +209,6 @@ trait Derive
 
             unset($this->data->os->version);
             unset($this->data->device->flag);
-            return;
         }
 
         if ($this->data->device->flag == Constants\Flag::ANDROIDTV) {
@@ -219,7 +216,6 @@ trait Derive
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
             unset($this->data->device->flag);
-            return;
         }
 
         if ($this->data->device->flag == Constants\Flag::ANDROIDWEAR) {
@@ -232,8 +228,6 @@ trait Derive
                 $this->data->browser->name = 'Wear Internet Browser';
                 $this->data->browser->using = null;
             }
-
-            return;
         }
 
         if ($this->data->device->flag == Constants\Flag::GOOGLEGLASS) {
@@ -241,7 +235,6 @@ trait Derive
             unset($this->data->os->name);
             unset($this->data->os->version);
             unset($this->data->device->flag);
-            return;
         }
     }
 
