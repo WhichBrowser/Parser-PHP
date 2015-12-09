@@ -103,8 +103,9 @@ trait Corrections
         }
 
         if ($this->data->os->name == 'Ubuntu Touch' && $this->data->browser->name == 'Chromium') {
-            $this->data->browser->name = null;
-            $this->data->browser->version = null;
+            $this->data->browser->reset([
+                'family' => isset($this->data->browser->family) ? $this->data->browser->family : null
+            ]);
         }
     }
 
