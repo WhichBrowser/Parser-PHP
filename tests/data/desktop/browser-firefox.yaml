@@ -99,7 +99,7 @@
     result: { browser: { name: Firefox, version: 3.0.12 }, engine: { name: Gecko, version: 1.9.0 }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    result: { browser: { name: Firebird, version: 0.6.1 }, engine: { name: Gecko, version: 1.5a }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Firebird, family: { name: Firefox, version: 0.6.1 }, version: 0.6.1 }, engine: { name: Gecko, version: 1.5a }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx; rv:1.8.1.22pre) Gecko/20090330 BonEcho/2.0.0.22pre'
     result: { browser: { name: Firefox, version: 2.0.0.22 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
@@ -108,7 +108,7 @@
     result: { browser: { name: Firefox, version: 3.7a4 }, engine: { name: Gecko, version: 1.9.3a4pre }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; xx; rv:1.5) Gecko/20031006 Firebird/0.7'
-    result: { browser: { name: Firebird, version: '0.7' }, engine: { name: Gecko, version: '1.5' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    result: { browser: { name: Firebird, family: { name: Firefox, version: '0.7' }, version: '0.7' }, engine: { name: Gecko, version: '1.5' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0'
     result: { browser: { name: Firefox, version: '41.0' }, engine: { name: Gecko, version: '41.0' }, os: { name: Fedora }, device: { type: desktop } }

@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Tablet; rv:28.0) Gecko/28.0 Firefox/28.0'
-    result: { browser: { name: 'Firefox Mobile', version: '28.0' }, engine: { name: Gecko, version: '28.0' }, os: { name: 'Firefox OS', version: '1.3' }, device: { type: tablet } }
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '28.0' }, version: '28.0' }, engine: { name: Gecko, version: '28.0' }, os: { name: 'Firefox OS', version: '1.3' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Tablet; rv:30.0) Gecko/30.0 Firefox/30.0'
-    result: { browser: { name: 'Firefox Mobile', version: '30.0' }, engine: { name: Gecko, version: '30.0' }, os: { name: 'Firefox OS', version: '1.4' }, device: { type: tablet } }
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '30.0' }, version: '30.0' }, engine: { name: Gecko, version: '30.0' }, os: { name: 'Firefox OS', version: '1.4' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Tablet; rv:32.0) Gecko/32.0 Firefox/32.0'
-    result: { browser: { name: 'Firefox Mobile', version: '32.0' }, engine: { name: Gecko, version: '32.0' }, os: { name: 'Firefox OS', version: '2.0' }, device: { type: tablet } }
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '32.0' }, version: '32.0' }, engine: { name: Gecko, version: '32.0' }, os: { name: 'Firefox OS', version: '2.0' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Tablet; rv:37.0) Gecko/37.0 Firefox/37.0'
-    result: { browser: { name: 'Firefox Mobile', version: '37.0' }, engine: { name: Gecko, version: '37.0' }, os: { name: 'Firefox OS' }, device: { type: tablet } }
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0' }, engine: { name: Gecko, version: '37.0' }, os: { name: 'Firefox OS' }, device: { type: tablet } }

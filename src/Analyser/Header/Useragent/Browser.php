@@ -636,6 +636,26 @@ trait Browser
             $this->data->browser->channel = 'BonEcho';
         }
 
+        if (preg_match('/Fennec/u', $ua)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Firefox Mobile';
+
+            if (preg_match('/Fennec\/([0-9ab.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->browser->channel = 'Fennec';
+        }
+
+        if (preg_match('/Minimo/u', $ua)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Minimo';
+
+            if (preg_match('/Minimo\/([0-9ab.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+        }
+
         if (preg_match('/Firebird/u', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firebird';
@@ -653,8 +673,12 @@ trait Browser
 
         /* Set the browser family */
 
-        if ($this->data->isBrowser('Firefox')) {
-            $this->data->browser->family = new Family([ 'name' => $this->data->browser->name, 'version' => $this->data->browser->version ]);
+        if ($this->data->isBrowser('Firefox') || $this->data->isBrowser('Firefox Mobile') || $this->data->isBrowser('Firebird')) {
+            $this->data->browser->family = new Family([ 'name' => 'Firefox', 'version' => $this->data->browser->version ]);
+        }
+
+        if ($this->data->isBrowser('Minimo')) {
+            $this->data->browser->family = new Family([ 'name' => 'Firefox' ]);
         }
     }
 
