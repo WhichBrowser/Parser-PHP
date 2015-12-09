@@ -128,11 +128,7 @@ trait Browser
                 $channel = Data\Chrome::getChannel('mobile', $this->data->browser->version->value);
 
                 if ($channel == 'stable') {
-                    if (explode('.', $version)[1] == '0') {
-                        $this->data->browser->version->details = 1;
-                    } else {
-                        $this->data->browser->version->details = 2;
-                    }
+                    $this->data->browser->version->details = 1;
                 } elseif ($channel == 'beta') {
                     $this->data->browser->channel = 'Beta';
                 } else {
