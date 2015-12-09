@@ -352,7 +352,7 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             }
 
-            if (preg_match('/Android 20[0-9]+/u', $ua, $match)) {
+            if (preg_match('/Android 20[0-9]+\./u', $ua, $match)) {
                 $this->data->os->name = 'Aliyun OS';
                 $this->data->os->family = new Family([ 'name' => 'Android' ]);
                 $this->data->os->version = null;
