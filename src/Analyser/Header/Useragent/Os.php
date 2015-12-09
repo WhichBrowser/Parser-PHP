@@ -990,16 +990,6 @@ trait Os
             }
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
-        } elseif (preg_match('/Series30/u', $ua)) {
-            $this->data->os->name = 'Series30';
-
-            if (preg_match('/Nokia([^\/]+)\//u', $ua, $match)) {
-                $this->data->device->manufacturer = 'Nokia';
-                $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                $this->data->device->identified |= Constants\Id::PATTERN;
-            }
-
-            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
         /* Meego */
