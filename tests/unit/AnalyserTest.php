@@ -6,7 +6,7 @@ use WhichBrowser\Analyser;
 use WhichBrowser\Model\Main;
 
 /**
- * @covers WhichBrowser\Parser
+ * @covers WhichBrowser\Analyser
  */
 class AnalyserTest extends PHPUnit_Framework_TestCase
 {
