@@ -104,12 +104,14 @@ trait Ereader
     private function detectSonyreader($ua)
     {
         if (preg_match('/EBRD([0-9]+)/u', $ua, $match)) {
+            $model = null;
+
             switch ($match[1]) {
                 case '1101':
                     $model = 'PRS-T1';
                     break;
                 case '1102':
-                    $model = 'PRS-T1';
+                    $model = 'PRS-G1';
                     break;
                 case '1201':
                     $model = 'PRS-T2';
@@ -117,8 +119,6 @@ trait Ereader
                 case '1301':
                     $model = 'PRS-T3';
                     break;
-                default:
-                    $model = null;
             }
 
             $this->data->os->reset();
