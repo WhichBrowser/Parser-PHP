@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: MQQBrowser/1.0 Mozilla/5.0 (Linux; U; Android 2.3.4; xx; Baidu Yi on Passion Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1 Aurora/10'
+    result: { browser: { name: 'QQ Browser', version: '1.0' }, engine: { name: Webkit, version: '533.1' }, os: { name: 'Baidu Yi', family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Nexus One' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; Baidu Yi on Passion Build/GRJ22) AppleWebKit/530.17 (KHTML, like Gecko) FlyFlow/2.4 Version/4.0 Mobile Safari/530.17 baidubrowser/042_9.0.4.2_diordna_008_084/CTH_01_4.3.2_noissaP-no-iY-udiaB/1200a/556D6BBE7792DA7'
+    result: { browser: { name: 'Baidu Browser', version: '2.4' }, engine: { name: Webkit, version: '530.17' }, os: { name: 'Baidu Yi', family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Nexus One' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; Baidu Yi on Passion Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) FlyFlow/2.2 Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'Baidu Browser', version: '2.2' }, engine: { name: Webkit, version: '533.1' }, os: { name: 'Baidu Yi', family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Nexus One' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; Baidu Yi on Passion Build/GRJ22) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Webkit, version: '534.31' }, os: { name: 'Baidu Yi', family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Nexus One' } }

@@ -363,6 +363,7 @@ trait Os
 
         if (preg_match('/Baidu Yi/u', $ua)) {
             $this->data->os->name = 'Baidu Yi';
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
             $this->data->os->version = null;
         }
 
