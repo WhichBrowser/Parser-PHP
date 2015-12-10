@@ -82,3 +82,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.22.153_10033210) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     result: { browser: { name: Silk, version: '1.0' }, engine: { name: Webkit, version: '533.16' }, os: { name: FireOS, family: Android }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; KFTHWI Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2203.0 Safari/537.36'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; KFSOWI Build/KOT49H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Kindle Fire Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
