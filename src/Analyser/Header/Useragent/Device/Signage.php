@@ -28,7 +28,7 @@ trait Signage
             }
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Iadea',
+                'manufacturer'  =>  'IAdea',
                 'model'         =>  $match[1],
                 'type'          =>  Constants\DeviceType::SIGNAGE
             ]);
