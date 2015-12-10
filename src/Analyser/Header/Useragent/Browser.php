@@ -288,7 +288,10 @@ trait Browser
         /* Set the browser family */
 
         if ($this->data->isBrowser('Chrome') || $this->data->isBrowser('Chromium')) {
-            $this->data->browser->family = new Family([ 'name' => 'Chrome', 'version' => new Version([ 'value' => $this->data->browser->version->getMajor() ]) ]);
+            $this->data->browser->family = new Family([ 
+                'name'      => 'Chrome', 
+                'version'   => !empty($this->data->browser->version) ? new Version([ 'value' => $this->data->browser->version->getMajor() ]) : null
+            ]);
         }
     }
 
