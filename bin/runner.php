@@ -96,6 +96,6 @@ switch ($command) {
         break;
 
     case 'rebase':
-        Testrunner::rebase($files, !$all);
+        Testrunner::rebase($files, false);
         break;
 }
