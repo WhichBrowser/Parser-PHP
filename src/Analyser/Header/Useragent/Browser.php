@@ -1844,6 +1844,7 @@ trait Browser
             [ 'name' => 'Iron',                 'regexp' => '/Iron\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Isis',                 'regexp' => '/BrowserServer/u' ],
             [ 'name' => 'Isis',                 'regexp' => '/ISIS\/([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'iSurf',                'regexp' => '/iSurf version \/v([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Jumanji',              'regexp' => '/jumanji/u' ],
             [ 'name' => 'Kazehakase',           'regexp' => '/Kazehakase\/([0-9.]*)/u' ],
             [ 'name' => 'KChrome',              'regexp' => '/KChrome\/([0-9.]*)/u', 'details' => 3 ],
