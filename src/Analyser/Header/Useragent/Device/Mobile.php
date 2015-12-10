@@ -1064,19 +1064,6 @@ trait Mobile
                     }
                 }
             }
-
-            if (! ($this->data->device->identified & Constants\Id::MATCH_UA)) {
-                $device = Data\DeviceModels::identify('s40', $this->data->device->model);
-                if ($device->identified) {
-                    $device->identified |= $this->data->device->identified;
-                    $this->data->device = $device;
-
-                    if (!isset($this->data->os->name) || $this->data->os->name != 'Series40') {
-                        $this->data->os->name = 'Series40';
-                        $this->data->os->version = null;
-                    }
-                }
-            }
         }
     }
 }
