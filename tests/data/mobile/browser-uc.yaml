@@ -2,6 +2,9 @@
     headers: 'User-Agent: BREW-Applet/0x20068888 (BREW/3.1.5.20; DeviceId: 32056; Lang: zhcn) ucweb-squid'
     result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5.20 }, device: { type: mobile, subtype: feature } }
 -
+    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(NokiaC7-00);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(360*640);ss(360*640);up(U2/1.0.0);er(U);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(0);nt(99);'
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C7-00 } }
+-
     headers: 'User-Agent: HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8' }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
 -
@@ -71,9 +74,6 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00) UCBrowser/4.2.1.541 Mobile'
     result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W1' } }
 -
-    headers: 'X-Ucbrowser-Ua: pf(Symbian);er(U);la(en-US);up(U2/1.0.0);re(U2/1.0.0);dv(NokiaE7-00);pr(UCBrowser/9.2.0.336);ov(S60V5);pi(360*640);ss(360*640);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(2);nt(2)'
-    result: { browser: { name: 'UC Browser', version: '9.2' }, os: { name: Series60, version: '5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E7-00 } }
--
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
     result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
@@ -82,6 +82,9 @@
 -
     headers: 'User-Agent: SonyEricssonJ20i/R7CA Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonJ20i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Hazel } }
+-
+    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S8600);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(1);sr(0);nt(99);'
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave 3' } }
 -
     headers: 'User-Agent: SonyEricssonU1/UCWEB8.9.0.253/50/800'
     result: { browser: { name: 'UC Browser', version: '8.9' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: U1 } }
@@ -134,26 +137,23 @@
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.3.7; xx; HTC Desire) U2/1.0.0 UCBrowser/9.2.3.324 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Desire } }
 -
-    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.1.2; xx; HUAWEI C8813Q) U2/1.0.0 UCBrowser/9.4.2.365 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend C8813' } }
--
-    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.2.1; xx; JY-G4) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Jiayu, model: G4 } }
--
-    headers: 'X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S3850);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*260);ss(240*260);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);'
-    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby II' } }
--
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.0.4; xx; JY-G2) U2/1.0.0 UCBrowser/8.8.0.212 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Jiayu, model: G2 } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.1.1; xx; M040) U2/1.0.0 UCBrowser/9.2.3.327 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'MX2 M040' } }
 -
+    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.1.2; xx; HUAWEI C8813Q) U2/1.0.0 UCBrowser/9.4.2.365 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend C8813' } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.2.1; xx; JY-G4) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Jiayu, model: G4 } }
+-
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 4.2.1; xx; Lenovo A830) U2/1.0.0 UCBrowser/9.4.2.365 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A830 } }
 -
-    headers: 'X-UCBrowser-UA: pf(44);la(en-US);dv(iPh4,1);pr(UCBrowser);ov(8_1_2);pi(640x960);ss(320x416);er(U);bt(GJ);up();re(AppleWebKit/600.1.4.12.4 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(1);'
-    result: { browser: { name: 'UC Browser' }, engine: { name: Webkit, version: 600.1.4.12.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4S' } }
+    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia200);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);'
+    result: { browser: { name: 'UC Browser', version: '9.4' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 200' } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 8.0; xx; NOKIA; RM-885_im_india_249) U2/1.0.0 UCBrowser/4.1.0.504 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '4.1' }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 720' } }
@@ -161,14 +161,11 @@
     headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 8.10; xx; NOKIA; RM-821_im_india_443) U2/1.0.0 UCBrowser/4.2.0.524 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '4.2' }, engine: { name: Gecko }, os: { name: 'Windows Phone' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
+    headers: 'X-Ucbrowser-Ua: pf(Symbian);er(U);la(en-US);up(U2/1.0.0);re(U2/1.0.0);dv(NokiaE7-00);pr(UCBrowser/9.2.0.336);ov(S60V5);pi(360*640);ss(360*640);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(2);nt(2)'
+    result: { browser: { name: 'UC Browser', version: '9.2' }, os: { name: Series60, version: '5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E7-00 } }
+-
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPad OS 6_1_2; xx; iPad2,4) U2/1.0.0 UCBrowser/9.2.0.312 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2' }, engine: { name: Gecko }, os: { name: iOS, version: 6.1.2 }, device: { type: tablet, manufacturer: Apple, model: 'iPad 2' } }
--
-    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 6.3.0.63; xx; 9300/6.3.0.63) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
--
-    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia200);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 200' } }
 -
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPh OS 5_1_1; xx; iPh4,1) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.0' }, engine: { name: Gecko }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4S' } }
@@ -188,17 +185,20 @@
     headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 5.2.0.104; xx; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
 -
+    headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 6.3.0.63; xx; 9300/6.3.0.63) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
+-
     headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 6.6.0.207; xx; 9700/6.6.0.207) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
 -
-    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(NokiaC7-00);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(360*640);ss(360*640);up(U2/1.0.0);er(U);bt(GJ);pm(0);bv(0);nm(1);im(0);sr(0);nt(99);'
-    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C7-00 } }
--
-    headers: 'X-Ucbrowser-Ua: pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S8600);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(1);sr(0);nt(99);'
-    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave 3' } }
--
     headers: 'User-Agent: UCWEB/2.0(BlackBerry; U; 9.6.0.51; xx; 9360/9.6.0.51) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '8.1' }, engine: { name: Gecko }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9360' } }
+-
+    headers: 'X-UCBrowser-UA: pf(44);la(en-US);dv(iPh4,1);pr(UCBrowser);ov(8_1_2);pi(640x960);ss(320x416);er(U);bt(GJ);up();re(AppleWebKit/600.1.4.12.4 (KHTML, like Gecko));pm(0);bv(0);nm(0);im(0);nt(1);'
+    result: { browser: { name: 'UC Browser' }, engine: { name: Webkit, version: 600.1.4.12.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4S' } }
+-
+    headers: 'X-UCBrowser-UA: pf(Java);la(en-US);re(U2/1.0.0);dv(SAMSUNG-GT-S3850);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*260);ss(240*260);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);'
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby II' } }
 -
     headers: 'User-Agent: UCWEB/9.5.1.408 CFNetwork/609 Darwin/13.0.0'
     result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart } }
