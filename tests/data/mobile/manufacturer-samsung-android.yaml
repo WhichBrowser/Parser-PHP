@@ -570,10 +570,10 @@
     result: { browser: { name: 'Samsung Browser', version: '3.4' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-A310F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: SM-A310 } }
+    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A3 (2015)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-A510F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: SM-A510 } }
+    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A5 (2015)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G600FY Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
     result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy On7' } }
