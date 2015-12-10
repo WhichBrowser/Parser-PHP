@@ -558,7 +558,7 @@ trait Mobile
                                             $this->data->os->name = 'Nokia Asha Platform';
                                             $this->data->os->version = new Version([ 'value' => '1.0' ]);
 
-                                            if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+);/u', $ua, $match)) {
+                                            if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+)[;\)]/u', $ua, $match)) {
                                                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
                                             }
                                         }
