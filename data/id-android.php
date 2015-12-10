@@ -134,6 +134,7 @@ BrowserIds::$ANDROID_BROWSERS = [
     'nu.tommie.inbrowser'                                                                                 => 'InBrowser',
     'nu.tommie.inbrowser.beta'                                                                            => 'InBrowser Beta',
     'com.infamous.browser'                                                                                => 'Infamous Browser',
+    'derek.iSurf'                                                                                         => 'iSurf',
     'com.jerky.browser'                                                                                   => 'Javelin Incognito Browser',
     'com.jerky.browser2'                                                                                  => 'Javelin Incognito Browser',
     'com.adsi.kioware.client.mobile.app'                                                                  => 'KioWare Kiosk',
