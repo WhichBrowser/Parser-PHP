@@ -29,4 +29,6 @@
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; Lenovo TAB S8-50F/BMAIN) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.4.2 Mobile Safari/534.30', X-Requested-With: com.lenovo.browser }
     result: { browser: { name: 'Lenovo Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Lenovo, model: 'Tab S8' } }
 -
+    headers: { User-Agent: 'no-ua', X-Requested-With: 'com.mx.browser' }
+-
     headers: { User-Agent: 'iSurf version /v1.0', X-Requested-With: 'derek.iSurf' }
