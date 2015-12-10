@@ -128,20 +128,6 @@ trait Derive
                     default:
                         unset($this->data->browser->version);
                 }
-            } else {
-                switch (explode('.', $this->data->browser->getVersion())[0]) {
-                    case '17':
-                        $this->data->browser->version = new Version([ 'value' => '4.0' ]);
-                        break;
-                    case '19':
-                        $this->data->browser->version = new Version([ 'value' => '4.1' ]);
-                        break;
-                    case '22':
-                        $this->data->browser->version = new Version([ 'value' => '4.2' ]);
-                        break;
-                    default:
-                        unset($this->data->browser->version);
-                }
             }
 
             unset($this->data->os->name);
