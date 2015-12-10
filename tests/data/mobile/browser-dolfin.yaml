@@ -19,3 +19,27 @@
 -
     headers: 'User-Agent: SAMSUNG-GT-S5263/S5263JPKB4 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0' }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S5560/S5560XXJI1 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+    result: { browser: { name: Dolfin, version: '1.0' }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Marvel } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S5620-ORANGE/S5620BVJF2 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+    result: { browser: { name: Dolfin, version: '1.5' }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Monte } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-B5310/B5310DDIK5 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+    result: { browser: { name: Dolfin, version: '1.5' }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby Pro' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S8530/S8530XXLAV Bada/2.0 AppleWebKit/534.20 Dolfin/3.0 Mobile NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '3.0' }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S8530/S8530XXKF1 Bada/1.2 AppleWebKit/533.1 Dolfin/2.2 Mobile NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.2' }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S8500/S8500XXJEE Bada/1.0 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, os: { name: Bada, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
+    result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-B2710/B2710POJK3 SHP/VPP/R5 Dolfin/2.0 QTV/5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
+    result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Xcover 271' } }
