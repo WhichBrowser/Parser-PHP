@@ -89,6 +89,7 @@ trait Derive
     {
         if ($this->data->browser->name == 'Opera' && $this->data->device->type == Constants\DeviceType::TELEVISION) {
             $this->data->browser->name = 'Opera Devices';
+            $this->data->browser->version = null;
 
             if ($this->data->engine->getName() == 'Presto') {
                 switch (implode('.', array_slice(explode('.', $this->data->engine->getVersion()), 0, 2))) {
@@ -130,8 +131,7 @@ trait Derive
                 }
             }
 
-            unset($this->data->os->name);
-            unset($this->data->os->version);
+            $this->data->os->reset();
         }
     }
 
