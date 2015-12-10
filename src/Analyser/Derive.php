@@ -156,6 +156,7 @@ trait Derive
             if (isset($this->data->os->version) && isset($this->data->os->version->value)) {
                 switch ($this->data->os->version->value) {
                     case '2.3.3':
+                    case '2.3.4':
                         $this->data->os->version = new Version([ 'value' => '1' ]);
                         break;
                     case '4.0.3':
