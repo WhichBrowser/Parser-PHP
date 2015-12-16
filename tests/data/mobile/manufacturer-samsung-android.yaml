@@ -801,7 +801,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; GT-I8320 Build/GINGERBREAD; 480*800) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: H1 } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, model: GT-I8320 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; GT-I777 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Singa } }

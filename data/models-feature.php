@@ -75,5 +75,7 @@ DeviceModels::$FEATURE_MODELS = [
     'WT13i!'                                    => [ 'Sony Ericsson', 'Mix Walkman' ],              // Shijia
     'tecnot36'                                  => [ 'Tecno', 'T36' ],
     'Vodafone 575'                              => [ 'Vodafone', '575' ],
-    'GT-I6410'                                  => [ 'Vodafone', '360 M1' ],
+    'GT-I6410!'                                 => [ 'Vodafone', '360 M1' ],
+    'GT-I8320!'                                 => [ 'Vodafone', '360 H1' ],
+    'GT-I8330!'                                 => [ 'Vodafone', '360 H2' ],
 ];

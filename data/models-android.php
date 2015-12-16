@@ -8858,7 +8858,6 @@ DeviceModels::$ANDROID_MODELS = [
         'GT-I8258!'                             => [ 'Samsung', 'GT-I8258' ],
         'GT-I82(60|62)!'                        => [ 'Samsung', 'Galaxy Core' ],
         'GT-I8268!'                             => [ 'Samsung', 'GT-I8268' ],
-        'GT-I8320!'                             => [ 'Samsung', 'H1' ],
         'GT-I85(20|30)!'                        => [ 'Samsung', 'Galaxy Beam' ],
         'GT-I85(50|52|58)!'                     => [ 'Samsung', 'Galaxy Win' ],
         'GT-I8580'                              => [ 'Samsung', 'Galaxy Core Advance' ],
