@@ -49,3 +49,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.0IT'
     result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.5.0 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+-
+    headers: 'X-Puffin-Ua: iPhone OS/iPad4,1/1536x2048'
+    result: { browser: { name: Puffin }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
+-
+    headers: 'X-Puffin-Ua: Android/D6503/1080x1776'
+    result: { browser: { name: Puffin }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z2' } }
