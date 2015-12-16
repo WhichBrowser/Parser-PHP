@@ -1540,17 +1540,38 @@ trait Browser
 
         /* Puffin */
 
-        if (preg_match('/Puffin\/([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/Puffin\/([0-9.]+)([IA])?([PT])?/u', $ua, $match)) {
             $this->data->browser->name = 'Puffin';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => (intval(substr(strrchr($match[1], '.'), 1)) > 99 ? -1 : null) ]);
             $this->data->browser->mode = 'proxy';
             $this->data->browser->channel = '';
 
-            $this->data->device->type = Constants\DeviceType::MOBILE;
+            if (isset($match[2])) {
+                switch($match[2]) {
+                    case 'A':
+                        if (!$this->data->isOs('Android')) {
+                            $this->data->os->reset([ 'name' => 'Android' ]);
+                        }
+                        break;
 
-            if ($this->data->os->name == 'Linux') {
-                $this->data->os->name = null;
-                $this->data->os->version = null;
+                    case 'I':
+                        if (!$this->data->isOs('iOS')) {
+                            $this->data->os->reset([ 'name' => 'iOS' ]);
+                        }
+                        break;
+                }
+            }
+
+            if (isset($match[3])) {
+                switch($match[3]) {
+                    case 'P':
+                        $this->data->device->type = Constants\DeviceType::MOBILE;
+                        break;
+
+                    case 'T':
+                        $this->data->device->type = Constants\DeviceType::TABLET;
+                        break;
+                }
             }
         }
 

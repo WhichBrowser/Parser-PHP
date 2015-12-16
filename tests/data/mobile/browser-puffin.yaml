@@ -3,37 +3,49 @@
     result: { browser: { name: Puffin, family: { name: Chrome, version: 30 } }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AP', X-Puffin-Ua: Android/D6503/1080x1776 }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z2' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.0.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z2' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AP', X-Puffin-Ua: Android/SM-G900F/1080x1920 }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S5' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.0.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S5' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT', X-Puffin-Ua: 'Android/Nexus 10/1600x2464' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Nexus 10' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.0.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Nexus 10' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2.1212AP', X-Puffin-Ua: Android/SAMSUNG-SM-N910A/1440x2560 }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 4' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.1.2 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 4' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.4.1387AT', X-Puffin-Ua: 'Android/bq Edison/1280x752' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: bq, model: Edison } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.1.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: bq, model: Edison } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.4IP', X-Puffin-Ua: 'iPhone OS/iPhone6,1/320x568' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.1' }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 5s' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.1.4 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 5s' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.2.0.1824AT', X-Puffin-Ua: Android/LenovoA3300-HV/600x976 }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.2' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Lenovo, model: 'IdeaTab A3300' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.2.0 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Lenovo, model: 'IdeaTab A3300' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.3.0.1852AT', X-Puffin-Ua: 'Android/Nexus 10/1600x2464' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.3' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Nexus 10' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.3.0 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Nexus 10' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.3.0.1852AT', X-Puffin-Ua: Android/SM-T310/1280x800 }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.3' }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 (8.0)' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.3.0 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 (8.0)' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.1IP', X-Puffin-Ua: 'iPhone OS/iPhone7,1/1242x2208' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.4' }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.4.1 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.0IT', X-Puffin-Ua: 'iPhone OS/iPad4,1/1024x768' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.5' }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.5.0 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT', X-Puffin-Ua: 'iPhone OS/iPad4,1/1536x2048' }
-    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: '4.6' }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.6.1 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: 'iPad Air' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AP'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.0.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.0.4 }, engine: { name: Blink, version: '537.36' }, os: { name: Android }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.1IP'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.4.1 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.0IT'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.5.0 }, engine: { name: Blink, version: '537.36' }, os: { name: iOS }, device: { type: tablet } }
