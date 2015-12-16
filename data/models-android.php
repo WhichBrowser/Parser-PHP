@@ -4377,6 +4377,7 @@ DeviceModels::$ANDROID_MODELS = [
     'MediaPad M1 8.0'                           => [ 'Huawei', 'MediaPad M1', DeviceType::TABLET ],
     'S8-306L'                                   => [ 'Huawei', 'MediaPad M1', DeviceType::TABLET ],
     'HUAWEI M2-A01L'                            => [ 'Huawei', 'MediaPad M2', DeviceType::TABLET ],
+    'T1 7.0'                                    => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
     'MediaPad T1 8.0'                           => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
     'MediaPad T1 8.0 LTE'                       => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
     'S8-701u'                                   => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
@@ -4511,7 +4512,7 @@ DeviceModels::$ANDROID_MODELS = [
     'HUAWEI Honor 3c w'                         => [ 'Huawei', 'Honor 3C' ],
     'CHM-(CL00|TL00H|TL00|U01|UL00)!'           => [ 'Huawei', 'Honor Play 4C' ],
     'SCL-(L01|L04|L001|L004|AL00|CL00|TL00|TL00H)!' => [ 'Huawei', 'Honor 4A' ],
-    'HUAWEI SCL-(L02|L03|L04|L21|TL00)!'        => [ 'Huawei', 'Honor 4A' ],
+    'HUAWEI SCL-(L01|L02|L03|L04|L21|TL00)!'        => [ 'Huawei', 'Honor 4A' ],
     'CHE-(TL00|TL00H)!'                         => [ 'Huawei', 'Honor 4X' ],
     'HW-Che1-CL10'                              => [ 'Huawei', 'Honor 4X' ],
     'Che1-(L04|CL10|CL20)!'                     => [ 'Huawei', 'Honor 4X' ],
@@ -8517,6 +8518,7 @@ DeviceModels::$ANDROID_MODELS = [
         'PMT3077 3G'                                => [ 'Prestigio', 'Multipad Rider 7.0 3G', DeviceType::TABLET ],
         'PMT3177 3G'                                => [ 'Prestigio', 'Multipad Journey 7.0 3G', DeviceType::TABLET ],
         'PMT3277 3G'                                => [ 'Prestigio', 'Multipad Ranger 7.0 3G', DeviceType::TABLET ],
+        'PMT3287 3G'                                => [ 'Prestigio', 'Multipad Ranger 8.0 3G', DeviceType::TABLET ],
         'PMT3377 Wi'                                => [ 'Prestigio', 'Multipad Thunder 7.0i', DeviceType::TABLET ],
         'PMT3677 Wi'                                => [ 'Prestigio', 'Multipad Ultra+ 7.0', DeviceType::TABLET ],
         'PMT5001 3G'                                => [ 'Prestigio', 'Multipad Muze 5001 3G', DeviceType::TABLET ],
@@ -12383,6 +12385,11 @@ DeviceModels::$ANDROID_MODELS = [
 
     'M9000'                                     => [ 'MobiFone', 'M9000' ],
 
+    'G0775'                                     => [ 'Movistar', 'Go Mobile 775' ],
+    'GO778'                                     => [ 'Movistar', 'Go Mobile 778' ],
+    'B916C'                                     => [ 'Movistar', 'Go Mobile 950' ],
+    'GO980'                                     => [ 'Movistar', 'Go Mobile 980' ],
+    'Gomobile GO1001'                           => [ 'Movistar', 'Go Mobile 1001' ],
     'Movistar Motion'                           => [ 'Movistar', 'Motion' ],
 
     'MTC 916'                                   => [ 'MTC', '916' ],
