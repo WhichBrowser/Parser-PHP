@@ -1547,7 +1547,7 @@ trait Browser
             $this->data->browser->channel = '';
 
             if (isset($match[2])) {
-                switch($match[2]) {
+                switch ($match[2]) {
                     case 'A':
                         if (!$this->data->isOs('Android')) {
                             $this->data->os->reset([ 'name' => 'Android' ]);
@@ -1563,13 +1563,21 @@ trait Browser
             }
 
             if (isset($match[3])) {
-                switch($match[3]) {
+                switch ($match[3]) {
                     case 'P':
                         $this->data->device->type = Constants\DeviceType::MOBILE;
+                        if ($this->data->os->name == 'iOS' && empty($this->data->device->model)) {
+                            $this->data->device->manufacturer = 'Apple';
+                            $this->data->device->model = 'iPhone';
+                        }
                         break;
 
                     case 'T':
                         $this->data->device->type = Constants\DeviceType::TABLET;
+                        if ($this->data->os->name == 'iOS' && empty($this->data->device->model)) {
+                            $this->data->device->manufacturer = 'Apple';
+                            $this->data->device->model = 'iPad';
+                        }
                         break;
                 }
             }
