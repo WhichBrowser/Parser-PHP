@@ -6,11 +6,13 @@ use WhichBrowser\Constants\DeviceType;
 use WhichBrowser\Constants\Flag;
 
 DeviceModels::$S60_MODELS = [
+    'RIZR-Z8'                                   => [ 'Motorola', 'RIZR Z8', DeviceType::MOBILE, Flag::UIQ ],
     'G700'                                      => [ 'Sony Ericsson', 'G700', DeviceType::MOBILE, Flag::UIQ ],
     'G900'                                      => [ 'Sony Ericsson', 'G900', DeviceType::MOBILE, Flag::UIQ ],
     'M600i'                                     => [ 'Sony Ericsson', 'M600', DeviceType::MOBILE, Flag::UIQ ],
     'P990i'                                     => [ 'Sony Ericsson', 'P990', DeviceType::MOBILE, Flag::UIQ ],
     'P1i'                                       => [ 'Sony Ericsson', 'P1', DeviceType::MOBILE, Flag::UIQ ],
+    'U'                                         => [ 'Sony Ericsson', 'Satio' ],
     'U1'                                        => [ 'Sony Ericsson', 'Satio' ],
     'U 1'                                       => [ 'Sony Ericsson', 'Satio' ],
     'U1(a|i|iv)?!'                              => [ 'Sony Ericsson', 'Satio' ],
@@ -143,4 +145,5 @@ DeviceModels::$S60_MODELS = [
     '7610'                                      => [ 'Nokia', '7610' ],
     '7660'                                      => [ 'Nokia', '7660' ],
     'ConstellationT'                            => [ 'Vertu', 'Constellation T' ],
+    'ConstellationQuest'                        => [ 'Vertu', 'Constellation Quest' ],
 ];

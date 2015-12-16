@@ -496,6 +496,22 @@ trait Mobile
                             $identified = true;
                         }
 
+                        if (preg_match('/^MOTO([^\/_]+)(?:\/|_|$)/u', $candidates[$i], $match)) {
+                            $this->data->device->manufacturer = 'Motorola';
+                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
+                            $this->data->device->type = Constants\DeviceType::MOBILE;
+                            $this->data->device->generic = false;
+                            $identified = true;
+
+                            if (isset($this->data->os->name) && $this->data->os->name == 'Series60') {
+                                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+                                if ($device->identified) {
+                                    $device->identified |= $this->data->device->identified;
+                                    $this->data->device = $device;
+                                }
+                            }
+                        }
+
                         if (preg_match('/^MOT-([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
                             $this->data->device->manufacturer = 'Motorola';
                             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);

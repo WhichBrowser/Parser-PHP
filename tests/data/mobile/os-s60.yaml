@@ -30,7 +30,7 @@
     result: { browser: { name: 'Nokia Browser', version: 7.2.6 }, engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 VertuConstellationQuest/051.844.1; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.26 Mobile Safari/533.4'
-    result: { browser: { name: 'Nokia Browser', version: 7.3.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Vertu, model: ConstellationQuest } }
+    result: { browser: { name: 'Nokia Browser', version: 7.3.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Vertu, model: 'Constellation Quest' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5233/40.1.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.4'
     result: { browser: { name: 'Nokia Browser', version: 7.2.7 }, engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5228' } }
@@ -79,3 +79,33 @@
 -
     headers: 'User-Agent: SonyEricssonU1i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525'
     result: { engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Satio } }
+-
+    headers: 'User-Agent: MOTORIZR-Z8/46.00.00 Mozilla/4.0 (compatible MSIE 6.0 Symbian OS 342) Opera 8.65'
+    result: { browser: { name: 'Opera Mobile', version: '8.65' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'RIZR Z8' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 VertuConstellationQuest/051.844.1; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.26 Mobile Safari/533.4'
+    result: { browser: { name: 'Nokia Browser', version: 7.3.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Vertu, model: 'Constellation Quest' } }
+-
+    headers: 'User-Agent: VertuConstellationT/025.605 (Symbian/3; Series60/5.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba'
+    result: { browser: { name: 'Nokia Browser', version: 7.3.1 }, engine: { name: Webkit, version: '533.4' }, os: { name: Series60, family: Symbian, version: '5.2' }, device: { type: mobile, subtype: smart, manufacturer: Vertu, model: 'Constellation T' } }
+-
+    headers: 'User-Agent: SonyEricssonP1i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 701) Opera 8.65 [ru]'
+    result: { browser: { name: 'Opera Mobile', version: '8.65' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: P1 } }
+-
+    headers: 'User-Agent: SonyEricssonG700/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 958) Opera 8.65 [en]'
+    result: { browser: { name: 'Opera Mobile', version: '8.65' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: G700 } }
+-
+    headers: 'User-Agent: SonyEricssonP990i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 598) Opera 8.65 [ru]'
+    result: { browser: { name: 'Opera Mobile', version: '8.65' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: P990 } }
+-
+    headers: 'User-Agent: SonyEricssonW950i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 598) Opera 8.65 [ru]'
+    result: { browser: { name: 'Opera Mobile', version: '8.65' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W950 } }
+-
+    headers: 'User-Agent: SonyEricssonU_1/R1CA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525'
+    result: { engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Satio } }
+-
+    headers: 'User-Agent: SonyEricssonU1iv/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525'
+    result: { engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Satio } }
+-
+    headers: 'User-Agent: SamsungI8910/SymbianOS/9.1 Series60/3.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)'
+    result: { os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia HD' } }
