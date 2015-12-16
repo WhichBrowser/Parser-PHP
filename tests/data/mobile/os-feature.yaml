@@ -132,7 +132,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
 -
     headers: 'User-Agent: MOT-MOTOQA1/A2.01.11R Release/09.24.2008 OPERA/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mini' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: MOTOQA1 } }
+    result: { browser: { name: 'Opera Mini' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
 -
     headers: 'User-Agent: MOT-RAZRV3xx/96.B0.0FR BER2.2 Mozilla/4.0 (compatible; MSIE 6.0; 11073256) Profile/MIDP-2.0 Configuration/CLDC-1.1  Opera 8.00 [en]'
     result: { browser: { name: 'Opera Mini' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
