@@ -1848,6 +1848,7 @@ trait Browser
             [ 'name' => 'Daedalus',             'regexp' => '/Daedalus ([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Daum',                 'regexp' => '/DaumApps\/([0-9.]*)/u' ],
             [ 'name' => 'Daum',                 'regexp' => '/daumcafe\/([0-9.]*)/u' ],
+            [ 'name' => 'Digia @Web',           'regexp' => '/Digia @Web\/([0-9.]*)/u' ],
             [ 'name' => 'Dillo',                'regexp' => '/Dillo\/([0-9.]*)/u' ],
             [ 'name' => 'Demobrowser',          'regexp' => '/demobrowser\/([0-9.]*)/u' ],
             [ 'name' => 'Doga Rhodonit',        'regexp' => '/DogaRhodonit/u' ],

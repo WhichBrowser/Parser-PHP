@@ -11,4 +11,5 @@ class Flag
     const ANDROIDTV = 8;
     const NOKIAX = 16;
     const FIREOS = 32;
+    const UIQ = 64;
 }

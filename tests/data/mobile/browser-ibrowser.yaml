@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: iBrowser/2.5 (NokiaE5-00;SymbianOS/9.3 Series60/3.2)'
-    result: { browser: { name: iBrowser, version: '2.5' }, os: { name: Series60, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
+    result: { browser: { name: iBrowser, version: '2.5' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
 -
     headers: 'User-Agent: iBrowser/2.6 (Nokia5250;SymbianOS/9.1 Series60/3.0)'
-    result: { browser: { name: iBrowser, version: '2.6' }, os: { name: Series60, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5250' } }
+    result: { browser: { name: iBrowser, version: '2.6' }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5250' } }
 -
     headers: 'User-Agent: iBrowser/2.7 (NokiaN8-00;SymbianOS/9.1 Series60/3.0)'
-    result: { browser: { name: iBrowser, version: '2.7' }, os: { name: Series60, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
+    result: { browser: { name: iBrowser, version: '2.7' }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
 -
     headers: 'User-Agent: iBrowser/2.7 Mozilla/5.0 (Linux; U; Android 2.3.6; xx; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: iBrowser, version: '2.7' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }

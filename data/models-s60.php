@@ -2,18 +2,28 @@
 
 namespace WhichBrowser\Data;
 
+use WhichBrowser\Constants\DeviceType;
+use WhichBrowser\Constants\Flag;
+
 DeviceModels::$S60_MODELS = [
-    'M600i'                                     => [ 'Sony Ericsson', 'M600i' ],
+    'G700'                                      => [ 'Sony Ericsson', 'G700', DeviceType::MOBILE, Flag::UIQ ],
+    'G900'                                      => [ 'Sony Ericsson', 'G900', DeviceType::MOBILE, Flag::UIQ ],
+    'M600i'                                     => [ 'Sony Ericsson', 'M600', DeviceType::MOBILE, Flag::UIQ ],
+    'P990i'                                     => [ 'Sony Ericsson', 'P990', DeviceType::MOBILE, Flag::UIQ ],
+    'P1i'                                       => [ 'Sony Ericsson', 'P1', DeviceType::MOBILE, Flag::UIQ ],
     'U1'                                        => [ 'Sony Ericsson', 'Satio' ],
     'U 1'                                       => [ 'Sony Ericsson', 'Satio' ],
-    'U1i'                                       => [ 'Sony Ericsson', 'Satio' ],
-    'U5(i|iv)!'                                 => [ 'Sony Ericsson', 'Vivaz' ],
-    'U8i'                                       => [ 'Sony Ericsson', 'Vivaz Pro' ],
+    'U1(a|i|iv)?!'                              => [ 'Sony Ericsson', 'Satio' ],
+    'U5(a|i|iv)?!'                              => [ 'Sony Ericsson', 'Vivaz' ],
+    'U8(a|i)?!'                                 => [ 'Sony Ericsson', 'Vivaz Pro' ],
     'W100i'                                     => [ 'Sony Ericsson', 'Spiro' ],
+    'W950i'                                     => [ 'Sony Ericsson', 'W950', DeviceType::MOBILE, Flag::UIQ ],
+    'W960i'                                     => [ 'Sony Ericsson', 'W960', DeviceType::MOBILE, Flag::UIQ ],
     'I7710'                                     => [ 'Samsung', 'GT-I7710' ],
     'I8510'                                     => [ 'Samsung', 'INNOV8' ],
     'I8910'                                     => [ 'Samsung', 'Omnia HD' ],
-    'SGH-i450'                                  => [ 'Samsung', 'i450' ],
+    'SGH-i450!'                                 => [ 'Samsung', 'i450' ],
+    'SGH-i550!'                                 => [ 'Samsung', 'i550' ],
     'SGH-G810'                                  => [ 'Samsung', 'G810' ],
     'C5-00!'                                    => [ 'Nokia', 'C5-00' ],
     'C5-01'                                     => [ 'Nokia', 'C5-01' ],
@@ -131,5 +141,6 @@ DeviceModels::$S60_MODELS = [
     '6790s-1b!'                                 => [ 'Nokia', '6790 Surge' ],
     '6790s-1c!'                                 => [ 'Nokia', '6790 slide' ],
     '7610'                                      => [ 'Nokia', '7610' ],
-    '7660'                                      => [ 'Nokia', '7660' ]
+    '7660'                                      => [ 'Nokia', '7660' ],
+    'ConstellationT'                            => [ 'Vertu', 'Constellation T' ],
 ];

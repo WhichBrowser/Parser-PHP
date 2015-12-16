@@ -1,18 +1,18 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian/3; U; 500; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBrowserMobile/4.0 Mobile Safari/534.3'
-    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian/3; U; C7-00; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBrowserMobile/4.0 Mobile Safari/534.3'
-    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian; U; 603; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBrowserMobile/4.0 Mobile Safari/534.3'
-    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '603' } }
+    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '603' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian; U; N8-00; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBrowserMobile/4.0 Mobile Safari/534.3'
-    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
+    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian; U; Nokia808 PureView; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBrowserMobile/4.0 Mobile Safari/534.3'
-    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '808 PureView' } }
+    result: { browser: { name: MiniBrowser, version: '4.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '808 PureView' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx) AppleWebKit/534.3 (KHTML, like Gecko) MiniBowserM/3.0 Safari/534.3'
     result: { browser: { name: MiniBrowser, version: '3.0' }, engine: { name: Webkit, version: '534.3' }, os: { name: Series60 }, device: { type: mobile, subtype: smart } }

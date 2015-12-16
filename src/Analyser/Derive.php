@@ -225,6 +225,13 @@ trait Derive
             unset($this->data->os->version);
             unset($this->data->device->flag);
         }
+
+        if ($flag == Constants\Flag::UIQ) {
+            $this->data->os->name = 'UIQ';
+
+            unset($this->data->os->version);
+            unset($this->data->device->flag);
+        }
     }
 
     private function deriveBasedOnOperatingSystem()

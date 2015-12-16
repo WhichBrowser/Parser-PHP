@@ -828,6 +828,7 @@ trait Os
         if (preg_match('/Series80\/([0-9.]*)/u', $ua, $match)) {
             $this->data->os->name = 'Series80';
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
 
             if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
                 if ($match[1] != 'Browser') {
@@ -842,6 +843,7 @@ trait Os
 
         if (preg_match('/Symbian/u', $ua) || preg_match('/Series[ ]?60/u', $ua) || preg_match('/S60;/u', $ua) || preg_match('/S60V/u', $ua)) {
             $this->data->os->name = 'Series60';
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
 
             if (preg_match('/SymbianOS\/9.1/u', $ua) && !preg_match('/Series60/u', $ua)) {
                 $this->data->os->version = new Version([ 'value' => '3.0' ]);
@@ -851,8 +853,16 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
+            if (preg_match('/S60\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
             if (preg_match('/S60V([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            if (preg_match('/SymbianOS\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->family->version = new Version([ 'value' => $match[1] ]);
             }
 
             if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
