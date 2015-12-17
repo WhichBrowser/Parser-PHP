@@ -1897,6 +1897,7 @@ trait Browser
             [ 'name' => 'Mammoth',              'regexp' => '/Mammoth\/([0-9.]*)/u' ],                                      // see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
             [ 'name' => 'Maxthon',              'regexp' => '/MxBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'Maxthon',              'regexp' => '/MxBrowser-iPhone\/([0-9.]*)/u' ],
+            [ 'name' => 'MIUI Browser',         'regexp' => '/MiuiBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'MixShark',             'regexp' => '/MixShark\/([0-9.]*)/u' ],
             [ 'name' => 'mlbrowser',            'regexp' => '/mlbrowser/u' ],
             [ 'name' => 'Motorola WebKit',      'regexp' => '/MotorolaWebKit(?:\/([0-9.]*))?/u', 'details' => 3 ],
