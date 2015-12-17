@@ -32,9 +32,10 @@ if ($command == 'exec') {
 
     if ($payload != '') {
         echo "\n\033[0;32mInput:\033[0;0m\n" . trim($payload) . "\n";
-        echo "\n\033[0;32mResult:\033[0;0m\n";
 
         $result = new Parser(trim($payload));
+        echo "\n\033[0;32mHuman readable:\033[0;0m\n" . $result->toString() . "\n";
+        echo "\n\033[0;32mData:\033[0;0m\n";
         echo json_encode($result, JSON_PRETTY_PRINT);
         echo "\n\n";
     }
