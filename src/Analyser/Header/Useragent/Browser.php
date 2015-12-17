@@ -1921,6 +1921,7 @@ trait Browser
             [ 'name' => 'Qihoo 360',            'regexp' => '/QIHU THEWORLD/u' ],
             [ 'name' => 'QtCreator',            'regexp' => '/QtCreator\/([0-9.]*)/u' ],
             [ 'name' => 'QtQmlViewer',          'regexp' => '/QtQmlViewer/u' ],
+            [ 'name' => 'QtMiniBrowser',        'regexp' => '/QtMiniBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'QtTestBrowser',        'regexp' => '/QtTestBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'QtWeb',                'regexp' => '/QtWeb Internet Browser\/([0-9.]*)/u' ],
             [ 'name' => 'QupZilla',             'regexp' => '/QupZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
