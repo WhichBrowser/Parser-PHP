@@ -1909,6 +1909,7 @@ trait Browser
             [ 'name' => 'Openwave',             'regexp' => '/Openwave\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Openwave',             'regexp' => '/UP\.Browser\/([a-z0-9.]*)/iu', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Opera Oupeng',         'regexp' => '/Oupeng\/([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'Opera Oupeng',         'regexp' => '/OupengHD-([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Oregano',              'regexp' => '/Oregano ([0-9.]*)/u' ],
             [ 'name' => 'Orca',                 'regexp' => '/Orca\/([0-9.]*)/u' ],
             [ 'name' => 'Origyn',               'regexp' => '/Origyn Web Browser/u' ],

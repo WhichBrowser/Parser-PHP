@@ -12,4 +12,4 @@
     result: { browser: { name: 'Opera Mobile', version: '12.00' }, engine: { name: Presto, version: 2.10.254 }, os: { name: Android, version: '3.1' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 4.1.1; Linux; Opera Tablet/OupengHD-1.6/ADR-1301101023) Presto/2.11.355 Version/12.10'
-    result: { browser: { name: 'Opera Mobile', version: '12.10' }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 4.1.1 }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Oupeng', version: '1.6' }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 4.1.1 }, device: { type: tablet } }
