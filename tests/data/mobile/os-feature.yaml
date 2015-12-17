@@ -322,3 +322,15 @@
 -
     headers: 'User-Agent: vk-vk900/1.1 up.browser/6.2.3.4 (gui) mmp/2.0'
     result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: 'VK Mobile', model: VK900 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 2.0)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 2.0; U; AvantGo 3.2)'
+    result: { browser: { name: AvantGo, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 4.6; U; rv:1.7.12) Gecko/20050920'
+    result: { engine: { name: Gecko, version: 1.7.12 }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 5.0; U; rv:1.7.12) Gecko/20050920'
+    result: { engine: { name: Gecko, version: 1.7.12 }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }

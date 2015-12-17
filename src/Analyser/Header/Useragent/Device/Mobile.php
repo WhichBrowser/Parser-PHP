@@ -1036,6 +1036,14 @@ trait Mobile
             $this->data->device->generic = false;
         }
 
+        if (preg_match('/Danger hiptop ([0-9.]+)/u', $ua, $match)) {
+            $this->data->device->manufacturer = 'Danger';
+            $this->data->device->model = 'Hiptop';
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->generic = false;
+        }
+
         if (preg_match('/HP(iPAQ[0-9]+)\//u', $ua, $match)) {
             $this->data->device->manufacturer = 'HP';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
