@@ -300,6 +300,16 @@ trait Browser
 
     private function detectExplorer($ua)
     {
+        if (preg_match('/\(IE ([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Internet Explorer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+        }
+
+        if (preg_match('/Browser\/IE([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Internet Explorer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+        }
+
         if (preg_match('/MSIE/u', $ua)) {
             $this->data->browser->name = 'Internet Explorer';
 
@@ -328,16 +338,6 @@ trait Browser
                     $this->data->os->name = 'OS X';
                 }
             }
-        }
-
-        if (preg_match('/\(IE ([0-9.]*)/u', $ua, $match)) {
-            $this->data->browser->name = 'Internet Explorer';
-            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-        }
-
-        if (preg_match('/Browser\/IE([0-9.]*)/u', $ua, $match)) {
-            $this->data->browser->name = 'Internet Explorer';
-            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
         }
 
         if (preg_match('/Trident\/[789][^\)]+; rv:([0-9.]*)\)/u', $ua, $match)) {

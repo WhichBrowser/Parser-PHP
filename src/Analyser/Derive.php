@@ -236,6 +236,12 @@ trait Derive
 
     private function deriveBasedOnOperatingSystem()
     {
+        /* Derive the default browser on Windows Mobile */
+
+        if ($this->data->os->name == 'Windows Mobile' && $this->data->isBrowser('Internet Explorer')) {
+            $this->data->browser->name = 'Mobile Internet Explorer';
+        }
+
         /* Derive the default browser on Android */
 
         if ($this->data->os->name == 'Android' && !isset($this->data->browser->using) && !isset($this->data->browser->name) && $this->data->browser->stock) {
