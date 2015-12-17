@@ -39,10 +39,10 @@
     result: { browser: { name: 'SEMC Browser', version: 4.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Celkon, model: C64 } }
 -
     headers: 'User-Agent: COCOON/R01 Browser/Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, subtype: feature, manufacturer: O2, model: Cocoon } }
 -
     headers: 'User-Agent: CTC/HUAWEIC5720 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
-    result: { device: { type: mobile, subtype: feature } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Huawei, model: C5720 } }
 -
     headers: 'User-Agent: Cricket-A415/1.0 Polaris/v6.17'
     result: { browser: { name: Polaris, version: '6.17' }, device: { type: mobile, subtype: feature, manufacturer: Cricket, model: A415 } }
@@ -51,7 +51,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: D505i } }
 -
     headers: 'User-Agent: DoCoMo/1.0/F671is/c1'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: F671i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: F671is } }
 -
     headers: 'User-Agent: DoCoMo/2.0 F03B(c500;TB;W24H16)'
     result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: F03B } }
@@ -72,10 +72,10 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: N905i } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH06B(c500;TB;W20H13)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: SH06B } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06B } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH07F(c500;TB;W24H16)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: SH07F } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH07F } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH901iC(c100;TB;W24H12)'
     result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: SH901iC } }
@@ -93,10 +93,10 @@
     result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: KDDI, model: CA39 } }
 -
     headers: 'User-Agent: KDDI-SH3F UP.Browser/6.2_7.2.7.1.K.4.304 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: KDDI, model: SH3F } }
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH3F } }
 -
     headers: 'User-Agent: KDDI-SH3F UP.Browser/6.2_7.2.7.1.K.4.304 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: KDDI, model: SH3F } }
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH3F } }
 -
     headers: 'User-Agent: KDDI-SN3I UP.Browser/6.2_7.2.7.1.K.2.123 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: KDDI, model: SN3I } }
@@ -216,7 +216,7 @@
     result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SH06A3;FOMA;like Gecko)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: SH06A } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SonyEricssonU5i)UC AppleWebkit(like Gecko) Safari/530'
     result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: U5i } }

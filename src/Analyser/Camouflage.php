@@ -61,13 +61,13 @@ trait Camouflage
             $this->data->browser->version = null;
             $this->data->browser->mode = 'desktop';
 
-            $this->data->os->name = 'Android';
-            $this->data->os->version = null;
+            if (!$this->data->isOs('Android')) {
+                $this->data->os->reset([ 'name' => 'Android' ]);
+                $this->data->device->type = 'mobile';
+            }
 
             $this->data->engine->name = 'Webkit';
             $this->data->engine->version = null;
-
-            $this->data->device->type = 'mobile';
 
             $this->data->features[] = 'foundDevice';
         }

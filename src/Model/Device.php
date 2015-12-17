@@ -3,6 +3,7 @@
 namespace WhichBrowser\Model;
 
 use WhichBrowser\Constants;
+use WhichBrowser\Data;
 use WhichBrowser\Model\Primitive\Base;
 
 class Device extends Base
@@ -58,6 +59,41 @@ class Device extends Base
 
         if (is_array($properties)) {
             $this->set($properties);
+        }
+    }
+
+
+    /**
+     * Identify the manufacturer and model based on a pattern
+     *
+     * @param   string      $pattern   The regular expression that defines the group that matches the model
+     * @param   string      $subject   The string the regular expression is matched with
+     * @param   array|null  $defaults  An optional array of properties to set together
+     *
+     * @return string
+     */
+
+    public function identifyModel($pattern, $subject, $defaults = [])
+    {
+        if (preg_match($pattern, $subject, $match)) {
+            $this->manufacturer = !empty($defaults['manufacturer']) ? $defaults['manufacturer'] : null;
+            $this->model = Data\DeviceModels::cleanup($match[1]);
+            $this->identifier = preg_replace('/ (Mozilla|Opera|Obigo|Build|Java|PPC)$/iu', '', $match[0]);
+
+            if (isset($defaults['model'])) {
+                if (is_callable($defaults['model'])) {
+                    $this->model = call_user_func($defaults['model'], $this->model);
+                } else {
+                    $this->model = $defaults['model'];
+                }
+            }
+
+            $this->generic = false;
+            $this->identified |= Constants\Id::PATTERN;
+
+            if (!empty($defaults['type'])) {
+                $this->type = $defaults['type'];
+            }
         }
     }
 

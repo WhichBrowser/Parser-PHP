@@ -27,7 +27,7 @@
     result: { browser: { name: Chrome, version: '37' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: television, manufacturer: Samsung, model: 'Galaxy HomeSync' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; olleh tv; U; xx; SMT-E5015) AppleWebKit/536.25 (KHTML, like Gecko) AltiBrowser/3.0.4 (olleh tv; Large Screen) Safari/536.25'
-    result: { browser: { name: AltiBrowser, version: 3.0.4 }, engine: { name: Webkit, version: '536.25' }, os: { name: Android }, device: { type: television, manufacturer: Samsung, model: SMT-E5015 } }
+    result: { browser: { name: AltiBrowser, version: 3.0.4 }, engine: { name: Webkit, version: '536.25' }, device: { type: television, manufacturer: Samsung, model: 'Olleh SkyLife Smart Settopbox' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SMART-TV; Linux; Tizen 2.2) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1'
     result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.2' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }

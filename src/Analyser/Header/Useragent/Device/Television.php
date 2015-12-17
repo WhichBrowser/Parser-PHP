@@ -291,6 +291,24 @@ trait Television
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
+
+        if (preg_match('/olleh tv;/u', $ua)) {
+            $this->data->device->manufacturer = 'Samsung';
+            $this->data->device->model = null;
+            $this->data->device->series = null;
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+
+            if (preg_match('/(SMT-[A-Z0-9]+)/u', $ua, $match)) {
+                $this->data->device->model = $match[1];
+                $this->data->device->identifier = $match[1];
+                $this->data->device->generic = false;
+            }
+
+            if ($this->data->device->model == "SMT-E5015") {
+                $this->data->device->model = 'Olleh SkyLife Smart Settopbox';
+            }
+        }
     }
 
 

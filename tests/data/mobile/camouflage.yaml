@@ -7,7 +7,7 @@
     result: { browser: { name: 'Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
-    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+    result: { engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/1.0.0.39 Safari/535.19'
     result: { browser: { name: Chrome, version: 1.0.0.39 }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
@@ -27,7 +27,7 @@
     result: { browser: { name: Safari }, engine: { name: Webkit, version: '530.5' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_DesireHD_A9191; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'
-    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire HD' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
     engine: 16

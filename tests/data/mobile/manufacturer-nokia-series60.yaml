@@ -63,7 +63,7 @@
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E71 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE90-1/200.34.73 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'E90 Communicator ' } }
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'E90 Communicator' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN76-1/31.0.014 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N76 } }

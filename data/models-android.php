@@ -10256,6 +10256,7 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'DIAMOND D1'                                => [ 'Starmobile', 'Diamond D1' ],
+    'DIAMOND S3'                                => [ 'Starmobile', 'Diamond S3' ],
     'ROAR'                                      => [ 'Starmobile', 'Roar' ],
 
     '(Starway )?Andromeda!!' => [

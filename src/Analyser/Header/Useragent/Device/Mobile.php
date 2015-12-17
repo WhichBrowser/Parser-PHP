@@ -15,9 +15,14 @@ trait Mobile
 
         /* Look for specific manufacturers and models */
         $this->detectKin($ua);
+        $this->detectNokia($ua);
+        $this->detectSamsung($ua);
 
         /* Try to parse some generic methods to store device information */
         $this->detectGenericMobileModels($ua);
+
+        /* Try to find the model names based on id */
+        $this->detectGenericMobileLocations($ua);
     }
 
 
@@ -62,1018 +67,28 @@ trait Mobile
     }
 
 
-    /* Model information not in a fixed place */
+    /* Nokia */
 
-    private function detectGenericMobileModels($ua)
+    private function detectNokia($ua)
     {
-        if (!isset($this->data->device->model) && !isset($this->data->device->manufacturer)) {
-            $candidates = [];
-
-            if (!preg_match('/^(Mozilla|Opera)/u', $ua)) {
-                if (preg_match('/^(?:MQQBrowser\/[0-9\.]+\/)?([^\s]+)/u', $ua, $match)) {
-                    $match[1] = preg_replace('/_TD$/u', '', $match[1]);
-                    $match[1] = preg_replace('/_CMCC$/u', '', $match[1]);
-                    $match[1] = preg_replace('/[_ ]Mozilla$/u', '', $match[1]);
-                    $match[1] = preg_replace('/ Linux$/u', '', $match[1]);
-                    $match[1] = preg_replace('/ Opera$/u', '', $match[1]);
-                    $match[1] = preg_replace('/\/[0-9].*$/u', '', $match[1]);
-
-                    array_push($candidates, $match[1]);
-                }
-            }
-
-            if (preg_match('/^((?:SAMSUNG|TCL|ZTE) [^\s]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/(Samsung (?:GT|SCH|SGH|SHV|SHW|SPH)-[A-Z-0-9]+)/ui', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/[0-9]+x[0-9]+; ([^;]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/[0-9]+x[0-9]+; [^;]+; ([^;]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/\s*([^;]*[^\s])\s*; [0-9]+\*[0-9]+\)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/[0-9]+X[0-9]+ ([^;\/\(\)]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Windows NT 5.1; ([^;]+); Windows Phone/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/\) PPC; (?:[0-9]+x[0-9]+; )?([^;\/\(\)]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Windows Mobile; ([^;]+); PPC;/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/\(([^;]+); U; Windows Mobile/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/MSIEMobile [0-9.]+\) ([^\s]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Series60\/[0-9\.]+ ([^\s]+) Profile/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Vodafone\/1.0\/([^\/]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Huawei\/1.0\/0?([^\s]+)/u', $ua, $match)) {
-                array_push($candidates, 'HUAWEI-' . $match[1]);
-            }
-
-            if (preg_match('/^(DoCoMo[^(]+)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/\ ([^\s]+)$/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/; ([^;\)]+)\)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^(.*)\/UCWEB/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([^\s]+\s[^\s]+)\s+Opera/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Linux/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Android/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/\(([a-z0-9\.\_\-\+\/ ]+) Browser/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([a-z0-9\.\_\-\+\/ ]+) Release/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/Mozilla\/[0-9.]+ ([a-z0-9\.\-\_\+\/ ]+) Browser/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/ \(([^\)]+)\)/u', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/([a-z][a-z0-9\_]+)\/[a-z]/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^$([a-z0-9\.\_\+ ]+)\//iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/^([a-z]+\s[a-z0-9\-\_\.]+)/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (preg_match('/(?:DDIPOCKET|WILLCOM);([a-z]+\/[^\/]+)/iu', $ua, $match)) {
-                array_push($candidates, $match[1]);
-            }
-
-            if (isset($this->data->os->name)) {
-                for ($i = 0; $i < count($candidates); $i++) {
-                    if (!isset($this->data->device->model) && !isset($this->data->device->manufacturer)) {
-                        if (isset($this->data->os->name) && ($this->data->os->name == 'Android' || $this->data->os->name == 'Linux')) {
-                            $device = Data\DeviceModels::identify('android', $candidates[$i]);
-                            if ($device->identified) {
-                                $device->identified |= $this->data->device->identified;
-                                $this->data->device = $device;
-
-                                if ($this->data->os->name != 'Android') {
-                                    $this->data->os->name = 'Android';
-                                    $this->data->os->version = null;
-                                }
-                            }
-                        }
-
-                        if (!isset($this->data->os->name) || $this->data->os->name == 'Windows' || $this->data->os->name == 'Windows Mobile' || $this->data->os->name == 'Windows CE') {
-                            $device = Data\DeviceModels::identify('wm', $candidates[$i]);
-                            if ($device->identified) {
-                                $device->identified |= $this->data->device->identified;
-                                $this->data->device = $device;
-
-                                if (isset($this->data->os->name) && $this->data->os->name != 'Windows Mobile') {
-                                    $this->data->os->name = 'Windows Mobile';
-                                    $this->data->os->version = null;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (!isset($this->data->device->model) && !isset($this->data->device->manufacturer)) {
-                $identified = false;
-
-                for ($i = 0; $i < count($candidates); $i++) {
-                    if (!$this->data->device->identified) {
-                        if (preg_match('/^acer_([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Acer';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^AIRNESS-([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Airness';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^ALCATEL[_-]([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Alcatel';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-
-                            if (preg_match('/^TRIBE ([^\s]+)/ui', $this->data->device->model, $match)) {
-                                $this->data->device->model = 'One Touch Tribe ' . $match[1];
-                            } elseif (preg_match('/^ONE TOUCH ([^\s]*)/ui', $this->data->device->model, $match)) {
-                                $this->data->device->model = 'One Touch ' . $match[1];
-                            } elseif (preg_match('/^OT[-\s]*([^\s]*)/ui', $this->data->device->model, $match)) {
-                                $this->data->device->model = 'One Touch ' . $match[1];
-                            }
-
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^BenQ-([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'BenQ';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Bird[ _]([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Bird';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^(?:YL-|YuLong-)?COOLPAD([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Coolpad';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^CELKON\.([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Celkon';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Coship ([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Coship';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Cricket-([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Cricket';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^DESAY[ _]([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'DESAY';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Diamond_([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Diamond';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^DoCoMo\/[0-9\.]+[ \/]([^\s\/]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'DoCoMo';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^dopod[-_]?([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Dopod';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^FLY_]?([^\s\/]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Fly';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^GIONEE[-_ ]([^\s\/]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Gionee';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^GIONEE([A-Z0-9]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Gionee';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^HIKe_([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'HIKe';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Hisense[ -](?:HS-)?([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Hisense';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^HS-([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Hisense';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^HTC[_-]?([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'HTC';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^HUAWEI[\s_-]?([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Huawei';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Karbonn ([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Karbonn';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^KDDI-([^\s;]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'KDDI';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^KYOCERA\/([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Kyocera';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^KONKA[-_]?([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Konka';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^TIANYU-KTOUCH\/([^\/]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'K-Touch';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^K-Touch_?([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'K-Touch';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Lenovo-([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Lenovo';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Lephone_([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Lephone';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/(?:^|\()LGE?(?:\/|-|_|\s)([^\s]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'LG';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Micromax([^\)]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Micromax';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^MOTO([^\/_]+)(?:\/|_|$)/u', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Motorola';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-
-                            if (isset($this->data->os->name) && $this->data->os->name == 'Series60') {
-                                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                }
-                            }
-                        }
-
-                        if (preg_match('/^MOT-([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Motorola';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Motorola_([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Motorola';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Nokia-?([^\/]+)(?:\/|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Nokia';
-
-                            if ($match[1] != 'Browser') {
-                                $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                                $this->data->device->type = Constants\DeviceType::MOBILE;
-                                $this->data->device->identified = false;
-                                $this->data->device->generic = false;
-                                $identified = true;
-
-                                if (!$this->data->device->identified) {
-                                    $device = Data\DeviceModels::identify('s60', $this->data->device->model);
-                                    if ($device->identified) {
-                                        $device->identified |= $this->data->device->identified;
-                                        $this->data->device = $device;
-
-                                        if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
-                                            $this->data->os->name = 'Series60';
-                                            $this->data->os->version = null;
-                                        }
-                                    }
-                                }
-
-                                if (!$this->data->device->identified) {
-                                    $device = Data\DeviceModels::identify('s40', $this->data->device->model);
-                                    if ($device->identified) {
-                                        $device->identified |= $this->data->device->identified;
-                                        $this->data->device = $device;
-
-                                        if (!isset($this->data->os->name) || $this->data->os->name != 'Series40') {
-                                            $this->data->os->name = 'Series40';
-                                            $this->data->os->version = null;
-                                        }
-                                    }
-                                }
-
-                                if (!$this->data->device->identified) {
-                                    $device = Data\DeviceModels::identify('asha', $this->data->device->model);
-                                    if ($device->identified) {
-                                        $device->identified |= $this->data->device->identified;
-                                        $this->data->device = $device;
-
-                                        if (!isset($this->data->os->name) || $this->data->os->name != 'Nokia Asha Platform') {
-                                            $this->data->os->name = 'Nokia Asha Platform';
-                                            $this->data->os->version = new Version([ 'value' => '1.0' ]);
-
-                                            if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+)[;\)]/u', $ua, $match)) {
-                                                $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        if (preg_match('/^Nexian([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Nexian';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^NGM_([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'NGM';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^OPPO_([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Oppo';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Pantech-?([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Pantech';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Philips([^\/_\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Philips';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^sam-([A-Z][0-9]+)$/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Samsung';
-                            $this->data->device->model = Data\DeviceModels::cleanup('sam-' . $match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^SANYO\/([^\/]+)$/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Sanyo';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^(SH[0-9]+[A-Z])$/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Sharp';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^SE([A-Z][0-9]+[a-z])$/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Sony Ericsson';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^SonyEricsson([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Sony Ericsson';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-
-                            if (preg_match('/^[a-z][0-9]+/u', $this->data->device->model)) {
-                                $this->data->device->model[0] = strtoupper($this->data->device->model[0]);
-                            }
-
-                            if (isset($this->data->os->name) && $this->data->os->name == 'Series60') {
-                                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                }
-                            }
-                        }
-
-                        if (preg_match('/^Spice\s?([A-Z][0-9]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Spice';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Tecno([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Tecno';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^T-smart_([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'T-smart';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^TCL[-_ ]([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'TCL';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Tiphone ([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'TiPhone';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Toshiba[\/-]([^\/-]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Toshiba';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^SHARP[-_\/]([^\/]*)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Sharp';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^SAMSUNG[-\/ ]?([^\/_]+)(?:\/|_|$)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Samsung';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->identified = false;
-                            $this->data->device->generic = false;
-                            $identified = true;
-
-                            if (isset($this->data->os->name) && $this->data->os->name == 'Bada') {
-                                $device = Data\DeviceModels::identify('bada', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                }
-                            } elseif (isset($this->data->os->name) && $this->data->os->name == 'Series60') {
-                                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                }
-                            } elseif (preg_match('/Jasmine\/([0-9.]*)/u', $ua, $match)) {
-                                $version = $match[1];
-
-                                $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                    $this->data->os->name = 'Touchwiz';
-
-                                    switch ($version) {
-                                        case '0.8':
-                                            $this->data->os->version = new Version([ 'value' => '1.0' ]);
-                                            break;
-                                        case '1.0':
-                                            $this->data->os->version = new Version([ 'value' => '2.0', 'alias' => '2.0 or earlier' ]);
-                                            break;
-                                    }
-                                }
-                            } elseif (preg_match('/(?:Dolfin\/([0-9.]*)|Browser\/Dolfin([0-9.]*))/u', $ua, $match)) {
-                                $version = $match[1] || $match[2];
-
-                                $device = Data\DeviceModels::identify('bada', $this->data->device->model);
-                                if ($device->identified) {
-                                    $device->identified |= $this->data->device->identified;
-                                    $this->data->device = $device;
-                                    $this->data->os->name = 'Bada';
-
-                                    switch ($version) {
-                                        case '2.0':
-                                            $this->data->os->version = new Version([ 'value' => '1.0' ]);
-                                            break;
-                                        case '2.2':
-                                            $this->data->os->version = new Version([ 'value' => '1.2' ]);
-                                            break;
-                                        case '3.0':
-                                            $this->data->os->version = new Version([ 'value' => '2.0' ]);
-                                            break;
-                                    }
-                                } else {
-                                    $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
-                                    if ($device->identified) {
-                                        $device->identified |= $this->data->device->identified;
-                                        $this->data->device = $device;
-                                        $this->data->os->name = 'Touchwiz';
-
-                                        switch ($version) {
-                                            case '1.5':
-                                                $this->data->os->version = new Version([ 'value' => '2.0' ]);
-                                                break;
-                                            case '2.0':
-                                                $this->data->os->version = new Version([ 'value' => '3.0' ]);
-                                                break;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        if (preg_match('/^Spice\s([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Spice';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^UTStar-([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'UTStar';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^vk-(vk[0-9]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'VK Mobile';
-                            $this->data->device->model = Data\DeviceModels::cleanup(strtoupper($match[1]));
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^Xiaomi[_]?([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'Xiaomi';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-
-                        if (preg_match('/^ZTE[-_]?([^\s]+)/ui', $candidates[$i], $match)) {
-                            $this->data->device->manufacturer = 'ZTE';
-                            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                            $this->data->device->type = Constants\DeviceType::MOBILE;
-                            $this->data->device->generic = false;
-                            $identified = true;
-                        }
-                    }
-                }
-
-                if ($identified && !$this->data->device->identified) {
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('bada', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Bada';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Touchwiz';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('wp', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Windows Phone';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('wm', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Windows Mobile';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('android', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-
-                            if (!isset($this->data->os->name) || ($this->data->os->name != 'Android' && (!isset($this->data->os->family) || $this->data->os->family != 'Android'))) {
-                                $this->data->os->name = 'Android';
-                            }
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('brew', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Brew';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('feature', $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                        }
-                    }
-                }
-
-                if ($identified && !$this->data->device->identified) {
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('bada', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Bada';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('touchwiz', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Touchwiz';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('wp', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Windows Phone';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('wm', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                            $this->data->os->name = 'Windows Mobile';
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('android', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-
-                            if (!isset($this->data->os->name)) {
-                                $this->data->os->name = 'Android';
-                            }
-                        }
-                    }
-
-                    if (!$this->data->device->identified) {
-                        $device = Data\DeviceModels::identify('feature', $this->data->device->manufacturer . ' ' . $this->data->device->model);
-                        if ($device->identified) {
-                            $device->identified |= $this->data->device->identified;
-                            $this->data->device = $device;
-                        }
-                    }
-                }
-
-                if ($identified) {
-                    $this->data->device->identified |= Constants\Id::PATTERN;
-                }
-            }
+        if (isset($this->data->device->manufacturer)) {
+            return;
         }
 
+        if (preg_match('/Nokia-?([^\/\)]+)/ui', $ua, $match)) {
 
-        if (preg_match('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, $match)) {
-            $this->data->device->manufacturer = 'DoCoMo';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/DoCoMo\/[0-9.]+\/([A-Z][0-9]+[A-Z])[^\/]*\//ui', $ua, $match)) {
-            $this->data->device->manufacturer = 'DoCoMo';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, $match)) {
-            $this->data->device->manufacturer = 'Vodafone';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/J-PHONE\/[^\/]+\/([^\/]+)(?:\/|$)/u', $ua, $match)) {
-            $this->data->device->manufacturer = 'Softbank';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, $match)) {
-            $this->data->device->manufacturer = 'Softbank';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/^T-Mobile ([^\/]+)\//u', $ua, $match)) {
-            $this->data->device->manufacturer = 'T-Mobile';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/Danger hiptop ([0-9.]+)/u', $ua, $match)) {
-            $this->data->device->manufacturer = 'Danger';
-            $this->data->device->model = 'Hiptop';
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/HP(iPAQ[0-9]+)\//u', $ua, $match)) {
-            $this->data->device->manufacturer = 'HP';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-
-            $device = Data\DeviceModels::identify('wm', $this->data->device->model);
-            if ($device->identified) {
-                $device->identified |= $this->data->device->identified;
-                $this->data->device = $device;
+            if ($match[1] == 'Browser') {
+                return;
             }
-        }
 
-        if (preg_match('/\((?:LG[-|\/])(.*) (?:Browser\/)?AppleWebkit/u', $ua, $match)) {
-            $this->data->device->manufacturer = 'LG';
-            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->generic = false;
-        }
-
-        if (preg_match('/^Mozilla\/5.0 \((?:Nokia|NOKIA)(?:\s?)([^\)]+)\)UC AppleWebkit\(like Gecko\) Safari\/530$/u', $ua, $match)) {
             $this->data->device->manufacturer = 'Nokia';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->identifier = $match[0];
             $this->data->device->identified |= Constants\Id::PATTERN;
             $this->data->device->generic = false;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            if (! ($this->data->device->identified & Constants\Id::MATCH_UA)) {
+            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
                 $device = Data\DeviceModels::identify('s60', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
@@ -1084,6 +99,721 @@ trait Mobile
                         $this->data->os->version = null;
                     }
                 }
+            }
+
+            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+                $device = Data\DeviceModels::identify('s40', $this->data->device->model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+
+                    if (!isset($this->data->os->name) || $this->data->os->name != 'Series40') {
+                        $this->data->os->name = 'Series40';
+                        $this->data->os->version = null;
+                    }
+                }
+            }
+
+            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+                $device = Data\DeviceModels::identify('asha', $this->data->device->model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+
+                    if (!isset($this->data->os->name) || $this->data->os->name != 'Nokia Asha Platform') {
+                        $this->data->os->name = 'Nokia Asha Platform';
+                        $this->data->os->version = new Version([ 'value' => '1.0' ]);
+
+                        if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+)[;\)]/u', $ua, $match)) {
+                            $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
+                        }
+                    }
+                }
+            }
+
+            $this->identifyBasedOnIdentifier();
+        }
+    }
+
+
+    /* Samsung */
+
+    private function detectSamsung($ua)
+    {
+        if (isset($this->data->device->manufacturer)) {
+            return;
+        }
+
+        if (preg_match('/SAMSUNG[-\/ ]?([^\/\)_]+)/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Samsung';
+            $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
+            $this->data->device->identifier = $match[0];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->generic = false;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            if ($this->data->isOS('Bada')) {
+                $device = Data\DeviceModels::identify('bada', $this->data->device->model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if ($this->data->isOS('Series60')) {
+                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if (!$this->data->os->isDetected()) {
+                if (preg_match('/Jasmine\/([0-9.]*)/u', $ua, $match)) {
+                    $version = $match[1];
+
+                    $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                        $this->data->os->name = 'Touchwiz';
+
+                        switch ($version) {
+                            case '0.8':
+                                $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                                break;
+                            case '1.0':
+                                $this->data->os->version = new Version([ 'value' => '2.0', 'alias' => '2.0 or earlier' ]);
+                                break;
+                        }
+                    }
+                }
+
+                if (preg_match('/(?:Dolfin\/([0-9.]*)|Browser\/Dolfin([0-9.]*))/u', $ua, $match)) {
+                    $version = $match[1] || $match[2];
+
+                    $device = Data\DeviceModels::identify('bada', $this->data->device->model);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                        $this->data->os->name = 'Bada';
+
+                        switch ($version) {
+                            case '2.0':
+                                $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                                break;
+                            case '2.2':
+                                $this->data->os->version = new Version([ 'value' => '1.2' ]);
+                                break;
+                            case '3.0':
+                                $this->data->os->version = new Version([ 'value' => '2.0' ]);
+                                break;
+                        }
+                    } else {
+                        $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
+                        if ($device->identified) {
+                            $device->identified |= $this->data->device->identified;
+                            $this->data->device = $device;
+                            $this->data->os->name = 'Touchwiz';
+
+                            switch ($version) {
+                                case '1.5':
+                                    $this->data->os->version = new Version([ 'value' => '2.0' ]);
+                                    break;
+                                case '2.0':
+                                    $this->data->os->version = new Version([ 'value' => '3.0' ]);
+                                    break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            $this->identifyBasedOnIdentifier();
+        }
+    }
+
+
+    /* Generic models */
+
+    private function detectGenericMobileModels($ua)
+    {
+        if (isset($this->data->device->manufacturer)) {
+            return;
+        }
+
+        $this->data->device->identifyModel('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/DoCoMo\/1.0\/([0-9A-Z]+)[^\/]*\//ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/DoCoMo\/2.0 ([0-9A-Z]+)[^\(]*\(/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Vodafone'
+        ]);
+
+        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/]+)(?:\/|$)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/T-Mobile[_ ]([^\/;]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'T-Mobile'
+        ]);
+
+        $this->data->device->identifyModel('/Danger hiptop ([0-9.]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Danger',
+            'model'         => 'Hiptop'
+        ]);
+
+        $this->data->device->identifyModel('/HP(iPAQ[0-9]+)\//u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'HP'
+        ]);
+
+        $this->data->device->identifyModel('/Acer_?([^\/_]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Acer'
+        ]);
+
+        $this->data->device->identifyModel('/AIRNESS-([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Airness'
+        ]);
+
+        $this->data->device->identifyModel('/BenQ-([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'BenQ'
+        ]);
+
+        $this->data->device->identifyModel('/ALCATEL[_-]([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Alcatel',
+            'model'         => function ($model) {
+                if (preg_match('/^TRIBE ([^\s]+)/ui', $model, $match)) {
+                    $model = 'One Touch Tribe ' . $match[1];
+                } elseif (preg_match('/^ONE TOUCH ([^\s]*)/ui', $model, $match)) {
+                    $model = 'One Touch ' . $match[1];
+                } elseif (preg_match('/^OT[-\s]*([^\s]*)/ui', $model, $match)) {
+                    $model = 'One Touch ' . $match[1];
+                }
+
+                return $model;
+            }
+        ]);
+
+        $this->data->device->identifyModel('/Bird[ _]([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Bird'
+        ]);
+
+        $this->data->device->identifyModel('/(?:YL-|YuLong-)?COOLPAD([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Coolpad'
+        ]);
+
+        $this->data->device->identifyModel('/CELKON\.([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Celkon'
+        ]);
+
+        $this->data->device->identifyModel('/Coship ([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Coship'
+        ]);
+
+        $this->data->device->identifyModel('/Cricket-([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Cricket'
+        ]);
+
+        $this->data->device->identifyModel('/DESAY[ _]([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DESAY'
+        ]);
+
+        $this->data->device->identifyModel('/Diamond_([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Diamond'
+        ]);
+
+        $this->data->device->identifyModel('/dopod[-_]?([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Dopod'
+        ]);
+
+        $this->data->device->identifyModel('/FLY_]?([^\s\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Fly'
+        ]);
+
+        $this->data->device->identifyModel('/GIONEE[-_ ]([^\s\/;]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Gionee'
+        ]);
+
+        $this->data->device->identifyModel('/GIONEE([A-Z0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Gionee'
+        ]);
+
+        $this->data->device->identifyModel('/HIKe_([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'HIKe'
+        ]);
+
+        $this->data->device->identifyModel('/Hisense[ -](?:HS-)?([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Hisense'
+        ]);
+
+        $this->data->device->identifyModel('/HS-([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Hisense'
+        ]);
+
+        $this->data->device->identifyModel('/HTC[\s_-]?([^\/\);]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'HTC'
+        ]);
+
+        $this->data->device->identifyModel('/(?:HTC_)?([A-Z0-9_]+_T[0-9]{4,4})/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'HTC'
+        ]);
+
+        $this->data->device->identifyModel('/HUAWEI[\s_-]?([^\/\)]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Huawei'
+        ]);
+
+        $this->data->device->identifyModel('/Huawei\/1.0\/0?(?:Huawei)?([^\/]+)\//ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Huawei'
+        ]);
+
+        $this->data->device->identifyModel('/Karbonn ([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Karbonn'
+        ]);
+
+        $this->data->device->identifyModel('/KDDI-([^\s;]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'KDDI'
+        ]);
+
+        $this->data->device->identifyModel('/KYOCERA\/([^\s\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Kyocera'
+        ]);
+
+        $this->data->device->identifyModel('/KONKA[-_]?([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Konka'
+        ]);
+
+        $this->data->device->identifyModel('/TIANYU-KTOUCH\/([^\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'K-Touch'
+        ]);
+
+        $this->data->device->identifyModel('/K-Touch_?([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'K-Touch'
+        ]);
+
+        $this->data->device->identifyModel('/Lenovo[_-]?([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Lenovo'
+        ]);
+
+        $this->data->device->identifyModel('/Lephone_([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Lephone'
+        ]);
+
+        $this->data->device->identifyModel('/LGE?(?:\/|-|_)([^\s\)\-]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'LG'
+        ]);
+
+        $this->data->device->identifyModel('/LGE? ([A-Z]+[0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'LG'
+        ]);
+
+        $this->data->device->identifyModel('/Micromax([^\)]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Micromax'
+        ]);
+
+        $this->data->device->identifyModel('/MOTO([^\/_]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Motorola'
+        ]);
+
+        $this->data->device->identifyModel('/MOT-([^\/_]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Motorola'
+        ]);
+
+        $this->data->device->identifyModel('/Motorola_([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Motorola'
+        ]);
+
+        $this->data->device->identifyModel('/Nexian([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Nexian'
+        ]);
+
+        $this->data->device->identifyModel('/NGM_([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'NGM'
+        ]);
+
+        $this->data->device->identifyModel('/OPPO_([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Oppo'
+        ]);
+
+        $this->data->device->identifyModel('/Pantech-?([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Pantech'
+        ]);
+
+        $this->data->device->identifyModel('/Philips([A-Z][0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Philips'
+        ]);
+
+        $this->data->device->identifyModel('/sam-([A-Z][0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Samsung'
+        ]);
+
+        $this->data->device->identifyModel('/SANYO\/([^\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sanyo'
+        ]);
+
+        $this->data->device->identifyModel('/(SH[0-9]+[A-Z])/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sharp'
+        ]);
+
+        $this->data->device->identifyModel('/SE([A-Z][0-9]+[a-z])/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sony Ericsson'
+        ]);
+
+        $this->data->device->identifyModel('/SonyEricsson([^\/\)]+)/iu', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sony Ericsson',
+            'model'         => function ($model) {
+                if (preg_match('/^([A-Z]) ([0-9]+)$/u', $model, $match)) {
+                    $model = $match[1] . $match[2];
+                }
+
+                if (preg_match('/^[a-z][0-9]+/u', $model)) {
+                    $model[0] = strtoupper($model[0]);
+                }
+
+                return $model;
+            }
+        ]);
+
+        $this->data->device->identifyModel('/SHARP[-_\/]([^\/\;]*)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sharp'
+        ]);
+
+        $this->data->device->identifyModel('/Spice\s([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Spice'
+        ]);
+
+        $this->data->device->identifyModel('/Spice\s?([A-Z][0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Spice'
+        ]);
+
+        $this->data->device->identifyModel('/Tecno([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Tecno'
+        ]);
+
+        $this->data->device->identifyModel('/T-smart_([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'T-smart'
+        ]);
+
+        $this->data->device->identifyModel('/TCL[-_ ]([^\/\;\)]*)/ui', $ua, [
+            'manufacturer'  => 'TCL'
+        ]);
+
+        $this->data->device->identifyModel('/Tiphone ([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'TiPhone'
+        ]);
+
+        $this->data->device->identifyModel('/Toshiba[\/-]([^\/-]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Toshiba'
+        ]);
+
+        $this->data->device->identifyModel('/UTStar-([^\s\.]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'UTStarcom'
+        ]);
+
+
+        $this->data->device->identifyModel('/vk-(vk[0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'VK Mobile',
+            'model'         => function ($model) {
+                return strtoupper($model);
+            }
+        ]);
+
+        $this->data->device->identifyModel('/Xiaomi[_]?([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Xiaomi'
+        ]);
+
+
+        $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'ZTE'
+        ]);
+
+        $this->identifyBasedOnIdentifier();
+    }
+
+
+    /* Device models not identified by a prefix */
+
+    private function detectGenericMobileLocations($ua)
+    {
+        if ($this->data->device->identified & Constants\Id::PATTERN) {
+            return;
+        }
+
+        $candidates = [];
+
+        if (preg_match('/Windows NT 5.1; ([^;]+); Windows Phone/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/Windows Mobile; ([^;]+); PPC;/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/\(([^;]+); U; Windows Mobile/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/MSIEMobile [0-9.]+\) ([^\s]+)/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//iu', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/\ ([^\s\)]+)\)?$/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        if (preg_match('/^([^\/\)]+)/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
+        foreach ($candidates as $i => $id) {
+            $this->identifyBasedOnIdUsingOs($id);
+
+            if ($this->data->device->identified & Constants\Id::MATCH_UA) {
+                return;
+            }
+        }
+
+        foreach ($candidates as $i => $id) {
+            $this->identifyBasedOnId($id);
+
+            if ($this->data->device->identified & Constants\Id::MATCH_UA) {
+                return;
+            }
+        }
+    }
+
+    function identifyBasedOnIdentifier()
+    {
+        if ($this->data->device->identified & Constants\Id::MATCH_UA) {
+            return;
+        }
+
+        $ids = [];
+
+        if (!empty($this->data->device->identifier)) {
+            $ids[] = $this->data->device->identifier;
+        }
+
+        if (!empty($this->data->device->model)) {
+            $ids[] = $this->data->device->model;
+        }
+
+        foreach ($ids as $i => $id) {
+            $this->identifyBasedOnIdUsingOs($id);
+
+            if ($this->data->device->identified & Constants\Id::MATCH_UA) {
+                return;
+            }
+        }
+
+        foreach ($ids as $i => $id) {
+            $this->identifyBasedOnId($id);
+
+            if ($this->data->device->identified & Constants\Id::MATCH_UA) {
+                return;
+            }
+        }
+    }
+
+    function identifyBasedOnIdUsingOs($id)
+    {
+        switch ($this->data->os->getFamily()) {
+
+            case 'Android':
+                $device = Data\DeviceModels::identify('android', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+                break;
+
+            case 'Brew':
+                $device = Data\DeviceModels::identify('brew', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+                break;
+
+            case 'Symbian':
+                $device = Data\DeviceModels::identify('s60', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+                break;
+
+            case 'Windows':
+            case 'Windows CE':
+            case 'Windows Mobile':
+                $device = Data\DeviceModels::identify('wm', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+
+                    if (!$this->data->isOs('Windows Mobile')) {
+                        $this->data->os->reset([
+                            'name' => 'Windows Mobile'
+                        ]);
+                    }
+                }
+                break;
+
+            default:
+                $device = Data\DeviceModels::identify('feature', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+                break;
+        }
+    }
+
+    function identifyBasedOnId($id)
+    {
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('brew', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->name = 'Brew';
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('bada', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->name = 'Bada';
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('touchwiz', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->name = 'Touchwiz';
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('wp', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->name = 'Windows Phone';
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('wm', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->name = 'Windows Mobile';
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('android', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+
+                if (!isset($this->data->os->name)) {
+                    $this->data->os->name = 'Android';
+                }
+            }
+        }
+
+        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            $device = Data\DeviceModels::identify('feature', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
             }
         }
     }

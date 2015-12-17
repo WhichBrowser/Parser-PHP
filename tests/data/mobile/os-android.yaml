@@ -21,7 +21,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Desay, model: TS808 } }
 -
     headers: 'User-Agent: Diamond_S3/Diamond_S3 Linux/3.4.5+ Android/4.2.2 Release/Diamond_S3 Browser/AppleWebKit534.30 Profile/ Configuration/ Mobile Safari/534.30'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Starmobile, model: 'Diamond S3' } }
 -
     headers: 'User-Agent: GiONEE-GN705T_TD/V1 Linux/3.4.5 Android/4.2.1 Release/04.07.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30 System/Android 4.2.1;'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Gionee, model: GN705T } }

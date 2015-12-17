@@ -3,4 +3,4 @@
     result: { browser: { name: Polaris, version: '6.15' } }
 -
     headers: 'User-Agent: SCH-W279/ POLARIS/6.2 (GUI; compatible; UP.Browser)'
-    result: { browser: { name: Polaris, version: '6.2' } }
+    result: { browser: { name: Polaris, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Primo Duos' } }

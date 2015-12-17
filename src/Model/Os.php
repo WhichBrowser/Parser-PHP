@@ -33,6 +33,22 @@ class Os extends NameVersion
 
 
     /**
+     * Return the name of the operating system family
+     *
+     * @return string
+     */
+
+    public function getFamily()
+    {
+        if (isset($this->family)) {
+            return $this->family->getName();
+        }
+
+        return $this->getName();
+    }
+
+
+    /**
      * Is the operating from the specified family
      *
      * @param  string   $name   The name of the family

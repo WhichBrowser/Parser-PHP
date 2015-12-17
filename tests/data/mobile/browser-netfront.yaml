@@ -30,4 +30,4 @@
     result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }
 -
     headers: 'User-Agent: UNTRUSTED/1.0/HS-T39_TD/1.0 Release/03.03.2011 Threadx/4.0 Mocor/W10 Browser/NF4.0 Profile/MIDP-2.0 Config/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.0' }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '4.0' }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: T39 } }

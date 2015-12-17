@@ -42,7 +42,7 @@
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave Y' } }
 -
     headers: { User-Agent: 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/37.6116; U; xx) Presto/2.12.423 Version/12.16', X-OperaMini-Phone: 'HTC # Touch Pro/T7272/TyTn III', X-OperaMini-Phone-UA: HTC_Touch_Pro_T7272 }
-    result: { browser: { name: 'Opera Mini', version: '5.1' }, engine: { name: Presto, version: 2.12.423 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Touch } }
+    result: { browser: { name: 'Opera Mini', version: '5.1' }, engine: { name: Presto, version: 2.12.423 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-S8500', Device-Stock-UA: SAMSUNG-GT-S8500, X-OperaMini-Phone-UA: SAMSUNG-GT-S8500 }
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }

@@ -266,6 +266,7 @@ class DeviceModels
         $s = preg_replace('/^(Sony ?Ericsson|Sony)/u', '', $s);
         $s = preg_replace('/^(Lenovo Lenovo|LNV-Lenovo|LENOVO-Lenovo)/u', 'Lenovo', $s);
         $s = preg_replace('/^Lenovo-/u', 'Lenovo', $s);
+        $s = preg_replace('/^Lenovo/u', 'Lenovo ', $s);
         $s = preg_replace('/^ZTE-/u', 'ZTE ', $s);
         $s = preg_replace('/^(LG)[ _\/]/u', '$1-', $s);
         $s = preg_replace('/^(HTC.+)\s[v|V][0-9.]+$/u', '$1', $s);
@@ -276,8 +277,10 @@ class DeviceModels
         $s = preg_replace('/^Moto([^\s])/u', '$1', $s);
 
         $s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust|ls)$/iu', '', $s);
+        $s = preg_replace('/ (Mozilla|Opera|Obigo|Build|Java|PPC)$/iu', '', $s);
         $s = preg_replace('/http:\/\/.+$/iu', '', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);
+        $s = preg_replace('/\s+/u', ' ', $s);
 
         return $s;
     }

@@ -18,7 +18,7 @@ trait Os
         $this->detectChromeos($ua);
         $this->detectBlackberry($ua);
         $this->detectWebos($ua);
-        $this->detectNokia($ua);
+        $this->detectNokiaOs($ua);
         $this->detectTizen($ua);
         $this->detectSailfish($ua);
         $this->detectBada($ua);
@@ -259,6 +259,17 @@ trait Os
             }
         }
 
+        if (preg_match('/\(Linux; U; Linux Ventana; [^;]+; ([^;]+) Build/u', $ua, $match)) {
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= Constants\Id::PATTERN;
+                $device->identified |= $this->data->device->identified;
+
+                $this->data->os->name = 'Android';
+                $this->data->device = $device;
+            }
+        }
+
         /* Aliyun OS */
 
         if (preg_match('/Aliyun/u', $ua) || preg_match('/YunOs/ui', $ua)) {
@@ -401,10 +412,9 @@ trait Os
 
     private function determineAndroidVersionBasedOnBuild($ua)
     {
-        if ((isset($this->data->os->name) && $this->data->os->name == 'Android') || isset($this->data->os->name) && $this->data->os->name == 'Android TV') {
+        if ($this->data->isOs('Linux') || $this->data->isOs('Android')) {
             if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
                 $version = Data\BuildIds::identify($match[1]);
-
                 if ($version) {
                     if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
                         $this->data->os->version = $version;
@@ -413,6 +423,10 @@ trait Os
                     /* Special case for Android L */
                     if ($version->toFloat() == 5) {
                         $this->data->os->version = $version;
+                    }
+
+                    if (!$this->data->isOs('Android')) {
+                        $this->data->os->name = 'Android';
                     }
                 }
 
@@ -821,7 +835,7 @@ trait Os
 
     /* Nokia */
 
-    private function detectNokia($ua)
+    private function detectNokiaOs($ua)
     {
         /* Series 80 */
 
