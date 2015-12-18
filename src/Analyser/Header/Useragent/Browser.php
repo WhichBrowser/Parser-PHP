@@ -28,6 +28,7 @@ trait Browser
         /* Detect other specific desktop browsers */
         $this->detectSeamonkey($ua);
         $this->detectModernNetscape($ua);
+        $this->detectMosaic($ua);
         $this->detectKonqueror($ua);
 
         /* Detect other various mobile browsers */
@@ -739,6 +740,24 @@ trait Browser
             if (preg_match('/Netscape[0-9]?\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
+        }
+    }
+
+
+    /* Mosaic */
+
+    private function detectMosaic($ua)
+    {
+        if (preg_match('/NCSA[ _]Mosaic\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'NCSA Mosaic';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->stock = false;
+        }
+
+        if (preg_match('/MosaicView\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Spyglass Mosaic';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->stock = false;
         }
     }
 
