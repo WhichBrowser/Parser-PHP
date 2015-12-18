@@ -3,10 +3,10 @@
     result: { browser: { name: 'NCSA Mosaic', version: '2.1' }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: NCSA Mosaic/2.6b1 (X11;UNIX_System_V 4.2 R4000) libwww/2.12 modified'
-    result: { browser: { name: 'NCSA Mosaic', version: '2.6' } }
+    result: { browser: { name: 'NCSA Mosaic', version: '2.6' }, os: { name: 'UNIX System V', version: '4.2' }, device: { type: desktop } }
 -
     headers: 'User-Agent: NCSA Mosaic/2.6b1 [en-gb] (X11;UNIX_System_V 4.2 R4000) libwww/2.12 modified'
-    result: { browser: { name: 'NCSA Mosaic', version: '2.6' } }
+    result: { browser: { name: 'NCSA Mosaic', version: '2.6' }, os: { name: 'UNIX System V', version: '4.2' }, device: { type: desktop } }
 -
     headers: 'User-Agent: NCSA Mosaic/3.0.0 (Windows x86)'
     result: { browser: { name: 'NCSA Mosaic', version: 3.0.0 }, os: { name: Windows }, device: { type: desktop } }

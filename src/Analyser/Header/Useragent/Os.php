@@ -1209,6 +1209,14 @@ trait Os
             $this->data->os->name = 'Unix';
         }
 
+        /* Unix System V */
+
+        if (preg_match('/UNIX_System_V ([0-9.]*)/u', $ua, $match)) {
+            $this->data->os->name = 'UNIX System V';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* Digital Unix */
 
         if (preg_match('/OSF1 /u', $ua)) {
