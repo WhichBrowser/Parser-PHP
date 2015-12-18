@@ -343,3 +343,6 @@
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.14912/34.818; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Apple # iPhone', X-OperaMini-Features: 'advanced, file_system, folding', X-OperaMini-Phone-UA: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5', Device-Stock-UA: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5' }
     result: { browser: { name: 'Opera Mini', version: '4.2' }, engine: { name: Presto, version: 2.8.119 }, os: { name: iOS, version: 4.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3'
+    result: { browser: { name: Safari, version: '3.0' }, engine: { name: Webkit, version: '420' }, os: { name: iOS, alias: 'iPhone OS', version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }

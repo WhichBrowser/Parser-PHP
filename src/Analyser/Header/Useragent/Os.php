@@ -52,8 +52,11 @@ trait Os
         if ((preg_match('/iPhone/u', $ua) && !preg_match('/like iPhone/u', $ua)) ||
             preg_match('/iPad/u', $ua) || preg_match('/iPod/u', $ua)) {
             $this->data->os->name = 'iOS';
-            $this->data->os->version = new Version([ 'value' => '1.0' ]);
 
+            if (preg_match('/CPU like Mac OS X/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => '1.0' ]);
+            }
+            
             if (preg_match('/OS (.*) like Mac OS X/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
             }
