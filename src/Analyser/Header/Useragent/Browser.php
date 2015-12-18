@@ -997,6 +997,10 @@ trait Browser
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
+            if (preg_match('/DigitalMediaPlayer/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::MEDIA;
+            }
+
             if (preg_match('/(InettvBrowser|HbbTV)/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
