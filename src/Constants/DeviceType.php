@@ -7,6 +7,7 @@ class DeviceType
 {
     const DESKTOP = 'desktop';
     const MOBILE = 'mobile';
+    const PDA = 'pda';
     const DECT = 'dect';
     const TABLET = 'tablet';
     const GAMING = 'gaming';

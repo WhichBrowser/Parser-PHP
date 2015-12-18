@@ -1,0 +1,27 @@
+-
+    headers: 'User-Agent: sharp pda browser/4.1[ja](MI-600/1.0)'
+    result: { browser: { name: 'Sharp PDA Browser', version: '4.1' }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus MI-600' } }
+-
+    headers: 'User-Agent: sharp pda browser/5.0[ja](MI-EX1/1.0)'
+    result: { browser: { name: 'Sharp PDA Browser', version: '5.0' }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus MI-EX1' } }
+-
+    headers: 'User-Agent: sharp pda browser/6.1[ja](MI-E1/1.0)'
+    result: { browser: { name: 'Sharp PDA Browser', version: '6.1' }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus MI-E1' } }
+-
+    headers: 'User-Agent: sharp pda browser/6.2[ja](MI-E21/1.0)'
+    result: { browser: { name: 'Sharp PDA Browser', version: '6.2' }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus MI-E21' } }
+-
+    headers: 'User-Agent: sharp wd browser/1.0[ja](MA10/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=MOUSE'
+    result: { browser: { name: 'Sharp WD Browser', version: '1.0' }, device: { type: pda, manufacturer: Sharp, model: '書院 MA10' } }
+-
+    headers: 'User-Agent: sharp wd browser/1.0[ja](MA10/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=MOUSE, KEYBOARD; Page=2.0M; Category=Home Mail Tool; CPU=sh3; Storage=NO; Product=SHARP/MA10;)'
+    result: { browser: { name: 'Sharp WD Browser', version: '1.0' }, device: { type: pda, manufacturer: Sharp, model: '書院 MA10' } }
+-
+    headers: 'User-Agent: sharp wd browser/1.0[ja](MR-1/1.0) AVE-Front/1.0 (BrowserInfo Screen=1024x768x16bit;)'
+    result: { browser: { name: 'Sharp WD Browser', version: '1.0' }, device: { type: pda, manufacturer: Sharp, model: '書院 MR-1' } }
+-
+    headers: 'User-Agent: sharp wd browser/1.0[ja](VP2/1.0) AVE-Front/2.0(BrowserInfo Screen=800x600x256; InputMethod=PEN'
+    result: { browser: { name: 'Sharp WD Browser', version: '1.0' }, device: { type: pda, manufacturer: Sharp, model: '書院 VP2' } }
+-
+    headers: 'User-Agent: sharp wd browser/1.0[ja](WMC100/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=KEYBOARD; Page=1.8M; Category=WP; CPU=x86; Storage=3.8M; Product=SHARP/C100;)'
+    result: { browser: { name: 'Sharp WD Browser', version: '1.0' }, device: { type: pda, manufacturer: Sharp, model: '書院 WMC100' } }

@@ -15,7 +15,6 @@ trait Mobile
 
         /* Look for specific manufacturers and models */
         $this->detectKin($ua);
-        $this->detectSharpZaurus($ua);
         $this->detectNokia($ua);
         $this->detectSamsung($ua);
 
@@ -63,27 +62,6 @@ trait Mobile
                     $this->data->device->identified |= Constants\Id::MATCH_UA;
                     $this->data->device->generic = false;
                     break;
-            }
-        }
-    }
-
-
-    /* Sharp Zaurus */
-
-    private function detectSharpZaurus($ua)
-    {
-        if (preg_match('/sharp pda browser\/([0-9\.]+)/ui', $ua, $match)) {
-            $this->data->browser->name = 'Sharp PDA Browser';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-
-            $this->data->device->manufacturer = 'Sharp';
-            $this->data->device->model = 'Zaurus';
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-
-            if (preg_match('/\(([A-Z0-9\-]+)\/[0-9\.]+\)/ui', $ua, $match)) {
-                $this->data->device->model = 'Zaurus ' . $match[1];
-                $this->data->device->identified |= Constants\Id::MATCH_UA;
-                $this->data->device->generic = false;
             }
         }
     }
