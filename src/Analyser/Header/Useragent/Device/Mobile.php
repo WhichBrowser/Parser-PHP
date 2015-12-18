@@ -247,12 +247,7 @@ trait Mobile
             'manufacturer'  => 'DoCoMo'
         ]);
 
-        $this->data->device->identifyModel('/DoCoMo\/1.0\/([0-9A-Z]+)[^\/]*\//ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/DoCoMo\/2.0 ([0-9A-Z]+)[^\(]*\(/ui', $ua, [
+        $this->data->device->identifyModel('/DoCoMo\/[0-9].0[\/\s]([0-9A-Z]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'DoCoMo'
         ]);
@@ -262,7 +257,7 @@ trait Mobile
             'manufacturer'  => 'Vodafone'
         ]);
 
-        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/]+)(?:\/|$)/u', $ua, [
+        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/_]+)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Softbank'
         ]);
@@ -414,7 +409,7 @@ trait Mobile
             'manufacturer'  => 'Karbonn'
         ]);
 
-        $this->data->device->identifyModel('/KDDI-([^\s;]+)/ui', $ua, [
+        $this->data->device->identifyModel('/KDDI-([^\s\);]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'KDDI'
         ]);
