@@ -1251,6 +1251,11 @@ trait Os
 
         if (preg_match('/SunOS/u', $ua)) {
             $this->data->os->name = 'Solaris';
+
+            if (preg_match('/SunOS ([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
