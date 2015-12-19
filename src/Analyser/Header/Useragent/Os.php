@@ -1233,10 +1233,10 @@ trait Os
 
         /* Digital Unix */
 
-        if (preg_match('/OSF1 /u', $ua)) {
+        if (preg_match('/OSF1?[ _]/u', $ua)) {
             $this->data->os->name = 'Digital Unix';
 
-            if (preg_match('/OSF1 V([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/OSF1?[ _]V?([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 

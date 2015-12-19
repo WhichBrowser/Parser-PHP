@@ -13,3 +13,6 @@
 -
     headers: 'User-Agent: Surf/0.4.1 (X11; U; Unix; xx) AppleWebKit/531.2+ Compatible (Safari)'
     result: { browser: { name: Surf, version: 0.4.1 }, engine: { name: Webkit, version: '531.2' }, os: { name: Unix } }
+-
+    headers: 'User-Agent: Mozilla/4.04_(X11;_I;_OSF_3.2d)/1.0 libwww/4.0D'
+    result: { browser: { name: 'Netscape Communicator', version: 4.0.4 }, os: { name: 'Digital Unix', version: '3.2' }, device: { type: desktop } }
