@@ -24,7 +24,7 @@
     result: { browser: { name: Blazer, version: '4.5' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Centro } }
 -
     headers: 'User-Agent: Xiino/1.0.9E [en] (v. 4.1; 153x130; g4)'
-    result: { browser: { name: Xiino, version: '1.0.9E [en] (v. 4.1' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Xiino, version: 1.0.9 }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/4.76 [en] (PalmOS; U; WebPro/3.0.1b; palm-MT64)'
     result: { browser: { name: WebPro, version: 3.0.1 }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Tungsten C' } }
