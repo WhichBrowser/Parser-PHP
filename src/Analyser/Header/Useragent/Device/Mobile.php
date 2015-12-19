@@ -88,15 +88,19 @@ trait Mobile
             $this->data->device->generic = false;
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
+                $device = Data\DeviceModels::identify('asha', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
-                    if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
-                        $this->data->os->name = 'Series60';
-                        $this->data->os->version = null;
+                    if (!isset($this->data->os->name) || $this->data->os->name != 'Nokia Asha Platform') {
+                        $this->data->os->name = 'Nokia Asha Platform';
+                        $this->data->os->version = new Version([ 'value' => '1.0' ]);
+
+                        if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+)[;\)]/u', $ua, $match)) {
+                            $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
+                        }
                     }
                 }
             }
@@ -114,19 +118,15 @@ trait Mobile
                 }
             }
 
-                $device = Data\DeviceModels::identify('asha', $this->data->device->model);
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
+                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
-                    if (!isset($this->data->os->name) || $this->data->os->name != 'Nokia Asha Platform') {
-                        $this->data->os->name = 'Nokia Asha Platform';
-                        $this->data->os->version = new Version([ 'value' => '1.0' ]);
-
-                        if (preg_match('/java_runtime_version=Nokia_Asha_([0-9_]+)[;\)]/u', $ua, $match)) {
-                            $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
-                        }
+                    if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
+                        $this->data->os->name = 'Series60';
+                        $this->data->os->version = null;
                     }
                 }
             }
