@@ -10,6 +10,7 @@ DeviceModels::$WINDOWS_MOBILE_MODELS = [
     'P400'                                      => [ 'Acer', 'neoTouch P400' ],
     'Bird_T900'                                 => [ 'Bird', 'T900' ],
     'Coolpad F800'                              => [ 'Coolpad', 'F800' ],
+    'T-01A!'                                    => [ 'DoCoMo', 'PRO series T-01A' ],
     'T5388'                                     => [ 'Dopod', 'Touch Diamond 2' ],
     'garmin-asus-Nuvifone-M10'                  => [ 'Garmin-Asus', 'Nuvifone M10' ],
     'GIGABYTE-MS800'                            => [ 'Gigabyte', 'GSmart MS800' ],

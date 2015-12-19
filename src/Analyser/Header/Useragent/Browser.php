@@ -997,6 +997,8 @@ trait Browser
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
+            /* Detect device type based on NetFront identifier */
+
             if (preg_match('/DigitalMediaPlayer/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::MEDIA;
             }
@@ -1012,15 +1014,19 @@ trait Browser
             if (preg_match('/Kindle/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::EREADER;
             }
+
+            /* Detect OS based on NetFront identifier */
+
+            if (preg_match('/NF[0-9][0-9](?:WMPRO|PPC)\//ui', $ua, $match)) {
+                if (!$this->data->isOs('Windows Mobile')) {
+                    $this->data->os->reset([
+                        'name' => 'Windows Mobile'
+                    ]);
+                }
+            }
         }
 
-        if (preg_match('/Browser\/NF([0-9.]*)/ui', $ua, $match)) {
-            $this->data->browser->name = 'NetFront';
-            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-        }
-
-        if (preg_match('/Browser\/NetFont-([0-9.]*)/ui', $ua, $match)) {
+        if (preg_match('/Browser\/(?:NF|NetFr?ont-)([0-9.]*)/ui', $ua, $match)) {
             $this->data->browser->name = 'NetFront';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->device->type = Constants\DeviceType::MOBILE;
