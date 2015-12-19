@@ -88,8 +88,8 @@ trait Mobile
             $this->data->device->generic = false;
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
                 $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+            if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
@@ -101,7 +101,7 @@ trait Mobile
                 }
             }
 
-            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+            if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 $device = Data\DeviceModels::identify('s40', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
@@ -114,8 +114,8 @@ trait Mobile
                 }
             }
 
-            if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
                 $device = Data\DeviceModels::identify('asha', $this->data->device->model);
+            if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
@@ -758,7 +758,7 @@ trait Mobile
 
     function identifyBasedOnId($id)
     {
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('brew', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
@@ -767,7 +767,7 @@ trait Mobile
             }
         }
 
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('bada', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
@@ -776,7 +776,7 @@ trait Mobile
             }
         }
 
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('touchwiz', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
@@ -785,7 +785,7 @@ trait Mobile
             }
         }
 
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('wm', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
@@ -794,7 +794,7 @@ trait Mobile
             }
         }
 
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('feature', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;

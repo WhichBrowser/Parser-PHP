@@ -210,7 +210,7 @@
     result: { browser: { name: 'UC Browser', version: '7.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; xx; MicromaxQ5) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: BlackBerry, model: Q5 } }
+    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Micromax, model: Q5 } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia6233) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6233' } }
@@ -279,7 +279,7 @@
     result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Tecno, model: S3 } }
 -
     headers: { User-Agent: 'UCWEB/2.0(Java; U; MIDP-2.0; xx; gt-s5233s) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0', X-Ucbrowser-Phone: gt-s5233s, X-Ucbrowser-Phone-Ua: gt-s5233s }
-    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Star } }
 -
     headers: { User-Agent: 'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia200) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile', X-Ucbrowser-Ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(Nokia200);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(1);', X-Ucbrowser-Device-Ua: 'Mozilla/5.0 (Series40; Nokia200/11.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11', X-Ucbrowser-Device: 'nokia#200' }
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 200' } }
