@@ -20,6 +20,7 @@ trait Mobile
 
         /* Try to parse some generic methods to store device information */
         $this->detectGenericMobileModels($ua);
+        $this->detectJapaneseMobileModels($ua);
 
         /* Try to find the model names based on id */
         $this->detectGenericMobileLocations($ua);
@@ -242,31 +243,6 @@ trait Mobile
             return;
         }
 
-        $this->data->device->identifyModel('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/DoCoMo\/[0-9].0[\/\s]([0-9A-Z]+)/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Vodafone'
-        ]);
-
-        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/_]+)/u', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Softbank'
-        ]);
-
-        $this->data->device->identifyModel('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Softbank'
-        ]);
-
         $this->data->device->identifyModel('/T-Mobile[_ ]([^\/;]+)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'T-Mobile'
@@ -409,11 +385,6 @@ trait Mobile
             'manufacturer'  => 'Karbonn'
         ]);
 
-        $this->data->device->identifyModel('/KDDI-([^\s\);]+)/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'KDDI'
-        ]);
-
         $this->data->device->identifyModel('/KYOCERA\/([^\s\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Kyocera'
@@ -509,11 +480,6 @@ trait Mobile
             'manufacturer'  => 'Sanyo'
         ]);
 
-        $this->data->device->identifyModel('/(SH[0-9]+[A-Z])/u', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Sharp'
-        ]);
-
         $this->data->device->identifyModel('/SE([A-Z][0-9]+[a-z])/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Sony Ericsson'
@@ -601,6 +567,183 @@ trait Mobile
 
         $this->identifyBasedOnIdentifier();
     }
+
+
+    /* Japanese models */
+
+    private function detectJapaneseMobileModels($ua)
+    {
+        if (isset($this->data->device->manufacturer)) {
+            return;
+        }
+
+        /* First identify it based on carrier */
+
+        $this->data->device->identifyModel('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/DoCoMo\/[0-9].0[\/\s]([0-9A-Z]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/NTTDoCoMo ([0-9A-Z]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/_]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/(KDDI-[^\s\);]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'KDDI'
+        ]);
+
+        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Vodafone'
+        ]);
+
+
+        /* Then identify it based on id */
+
+        $model = null;
+        $manufacturer = null;
+
+        if (preg_match('/[\s\/\-\(;]((CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{3,3}i)/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+        }
+
+        if (preg_match('/[\s\/\-\(;](J-(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{2,2})/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+        }
+
+        if (preg_match('/[\s\/\-\(;]((?:V|DM|WX)?[0-9]{3,3}(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T))/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+        }
+
+        if (preg_match('/[\s\/\-\(;](W[0-9]{2,2}(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T))/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+        }
+
+        if (preg_match('/[\s\/\-\(;]((CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{2,2}[A-Z])/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+        }
+
+        if (!empty($model) && !empty($manufacturer)) {
+            $this->data->device->reset([
+                'type'      => Constants\DeviceType::MOBILE,
+                'model'     => $model
+            ]);
+            
+            switch ($manufacturer) {
+                case 'CA':
+                    $this->data->device->manufacturer = 'Casio';
+                    break;
+                case 'F':
+                    $this->data->device->manufacturer = 'Fujitsu';
+                    break;
+                case 'D':
+                    $this->data->device->manufacturer = 'Mitsubishi';
+                    break;
+                case 'K':
+                    $this->data->device->manufacturer = 'Kyocera';
+                    break;
+                case 'L':
+                    $this->data->device->manufacturer = 'LG';
+                    break;
+                case 'N':
+                    $this->data->device->manufacturer = 'NEC';
+                    break;
+                case 'NK':
+                    $this->data->device->manufacturer = 'Nokia';
+                    break;
+                case 'P':
+                    $this->data->device->manufacturer = 'Panasonic';
+                    break;
+                case 'SA':
+                    $this->data->device->manufacturer = 'Sanyo';
+                    break;
+                case 'SC':
+                    $this->data->device->manufacturer = 'Samsung';
+                    break;
+                case 'SH':
+                    $this->data->device->manufacturer = 'Sharp';
+                    break;
+                case 'SO':
+                    $this->data->device->manufacturer = 'Sony Ericsson';
+                    break;
+                case 'T':
+                    $this->data->device->manufacturer = 'Toshiba';
+                    break;
+            }
+
+            $this->data->device->identified |= Constants\Id::PATTERN;
+        }
+
+
+        if (preg_match('/[\s\/\-\(;]((CA|FJ|HI|KC|MA|PT|SA|SH|SN|ST|TS)[0-9][0-9A-Z])[;\)\s]/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+
+            $this->data->device->reset([
+                'type'      => Constants\DeviceType::MOBILE,
+                'model'     => 'KDDI-' . $model
+            ]);
+            
+            switch ($manufacturer) {
+                case 'CA':
+                    $this->data->device->manufacturer = 'Casio';
+                    break;
+                case 'FJ':
+                    $this->data->device->manufacturer = 'Fujitsu';
+                    break;
+                case 'HI':
+                    $this->data->device->manufacturer = 'Hitachi';
+                    break;
+                case 'KC':
+                    $this->data->device->manufacturer = 'Kyocera';
+                    break;
+                case 'MA':
+                    $this->data->device->manufacturer = 'Panasonic';
+                    break;
+                case 'PT':
+                    $this->data->device->manufacturer = 'Pantech';
+                    break;
+                case 'ST':
+                case 'SA':
+                    $this->data->device->manufacturer = 'Sanyo';
+                    break;
+                case 'SH':
+                    $this->data->device->manufacturer = 'Sharp';
+                    break;
+                case 'SN':
+                    $this->data->device->manufacturer = 'Sony Ericsson';
+                    break;
+                case 'TS':
+                    $this->data->device->manufacturer = 'Toshiba';
+                    break;
+            }
+
+            $this->data->device->identified |= Constants\Id::PATTERN;
+        }
+    }
+
 
 
     /* Device models not identified by a prefix */

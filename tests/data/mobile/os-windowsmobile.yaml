@@ -81,7 +81,7 @@
     result: { browser: { name: 'Opera Mobile', version: '10.00' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; KDDI-TS01; Windows Phone 6.5.3.5)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: KDDI, model: TS01 } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: KDDI-TS01 } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; xx) Presto/2.4.13 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.13 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
