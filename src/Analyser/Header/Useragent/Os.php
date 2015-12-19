@@ -1285,6 +1285,18 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
+        /* AIX */
+
+        if (preg_match('/AIX/u', $ua)) {
+            $this->data->os->name = 'AIX';
+
+            if (preg_match('/AIX ([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* IRIX */
 
         if (preg_match('/IRIX/u', $ua)) {
