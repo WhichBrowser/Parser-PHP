@@ -641,6 +641,17 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
+        $candidates = array_diff($candidates, [
+            'Mobile', 'Safari', 'Version', 'GoogleTV', 'WebKit', 'NetFront', 
+            'Microsoft', 'ZuneWP7', 'Firefox', 'UCBrowser', 'IEMobile', 'Touch',
+            'Fennec', 'Minimo', 'Gecko', 'TizenBrowser', 'Browser', 'sdk', 
+            'Mini', 'Fennec', 'Darwin', 'Puffin', 'Tanggula', 'Edge',
+            'QHBrowser', 'BonEcho', 'Iceweasel', 'Midori', 'BeOS', 'UBrowser', 
+            'SeaMonkey', 'Model', 'Silk-Accelerated=true', 'Configuration',
+            'UNTRUSTED', 'OSRE', 'Dolfin', 'Surf', 'Epiphany', 'Konqueror',
+            'Presto', 'OWB', 'PmWFx', 'Netscape', 'Netscape6', 'Navigator'
+        ]);
+
         foreach ($candidates as $i => $id) {
             $this->identifyBasedOnIdUsingOs($id);
 
