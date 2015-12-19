@@ -775,32 +775,11 @@ trait Mobile
         }
 
         if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
-            $device = Data\DeviceModels::identify('wp', $id);
-            if ($device->identified) {
-                $device->identified |= $this->data->device->identified;
-                $this->data->device = $device;
-                $this->data->os->name = 'Windows Phone';
-            }
-        }
-
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
             $device = Data\DeviceModels::identify('wm', $id);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->name = 'Windows Mobile';
-            }
-        }
-
-        if ($this->data->device->identified & ~Constants\Id::MATCH_UA) {
-            $device = Data\DeviceModels::identify('android', $id);
-            if ($device->identified) {
-                $device->identified |= $this->data->device->identified;
-                $this->data->device = $device;
-
-                if (!isset($this->data->os->name)) {
-                    $this->data->os->name = 'Android';
-                }
             }
         }
 

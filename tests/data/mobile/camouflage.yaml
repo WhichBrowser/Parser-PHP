@@ -27,7 +27,7 @@
     result: { browser: { name: Safari }, engine: { name: Webkit, version: '530.5' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_DesireHD_A9191; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'
-    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire HD' } }
+    result: { engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'DesireHD A9191' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
     engine: 16
