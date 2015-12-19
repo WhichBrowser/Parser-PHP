@@ -25,3 +25,21 @@
 -
     headers: 'User-Agent: Xiino/1.0.9E [en] (v. 4.1; 153x130; g4)'
     result: { browser: { name: Xiino, version: '1.0.9E [en] (v. 4.1' }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/4.76 [en] (PalmOS; U; WebPro/3.0.1b; palm-MT64)'
+    result: { browser: { name: WebPro, version: 3.0.1 }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Tungsten C' } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (PDA; PalmOS/palm/model MT64/Revision:2.0.34 (en)) NetFront/3.1'
+    result: { browser: { name: NetFront, version: '3.1' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Tungsten C' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (PDA; PalmOS/sony/model prmr/Revision:1.1.54 (en)) NetFront/3.0'
+    result: { browser: { name: NetFront, version: '3.0' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-UX50' } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (PDA; PalmOS/sony/model tldo/Revision:2.0.22 (en)) NetFront/3.1'
+    result: { browser: { name: NetFront, version: '3.1' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-NX73V' } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (PDA; PalmOS/sony/model prmr/Revision:2.0.22 (en)) NetFront/3.1'
+    result: { browser: { name: NetFront, version: '3.1' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-UX50' } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (PDA; PalmOS/sony/model atom/Revision:2.0.22) NetFront/3.1'
+    result: { browser: { name: NetFront, version: '3.1' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-TH55' } }

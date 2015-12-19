@@ -35,6 +35,15 @@ trait Pda
                     $this->data->device = $device;
                 }
             }
+
+            if (preg_match('/PalmOS\/([a-z]+)\/model ([^\/]+)\//iu', $ua, $match)) {
+                $device = Data\DeviceModels::identify('palmos', $match[1] . '-' . $match[2]);
+
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
         }
 
         if (preg_match('/Palm OS ([0-9.]*)/iu', $ua, $match)) {
