@@ -1261,6 +1261,18 @@ trait Os
             $this->data->os->name = 'NetBSD';
         }
 
+        /* HP-UX */
+
+        if (preg_match('/HP-UX/u', $ua)) {
+            $this->data->os->name = 'HP-UX';
+
+            if (preg_match('/HP-UX [A-Z].0?([1-9][0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* Solaris */
 
         if (preg_match('/SunOS/u', $ua)) {

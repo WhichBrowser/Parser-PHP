@@ -16,3 +16,9 @@
 -
     headers: 'User-Agent: Mozilla/4.04_(X11;_I;_OSF_3.2d)/1.0 libwww/4.0D'
     result: { browser: { name: 'Netscape Communicator', version: 4.0.4 }, os: { name: 'Digital Unix', version: '3.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.04 [en] (X11; I; HP-UX B.10.20 9000/712)'
+    result: { browser: { name: 'Netscape Communicator', version: 4.0.4 }, os: { name: HP-UX, version: '10.20' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.03 [en] (X11; I; HP-UX A.09.04 9000/816)'
+    result: { browser: { name: 'Netscape Communicator', version: 4.0.3 }, os: { name: HP-UX, version: '9.04' }, device: { type: desktop } }
