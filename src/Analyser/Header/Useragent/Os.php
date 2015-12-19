@@ -567,7 +567,7 @@ trait Os
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
 
-            if (preg_match('/Windows Phone/u', $ua) || preg_match('/WPDesktop/u', $ua)) {
+            if (preg_match('/Windows Phone/u', $ua) || preg_match('/WPDesktop/u', $ua) || preg_match('/ZuneWP7/u', $ua)) {
                 $this->data->os->name = 'Windows Phone';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
 
@@ -632,6 +632,18 @@ trait Os
                     $this->data->device->identified |= Constants\Id::PATTERN;
 
                     $device = Data\DeviceModels::identify('wp', $this->data->device->model);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+
+                /* Desktop mode of WP 7 */
+                if (preg_match('/XBLWP7; ZuneWP7; ([^\)]+)\)/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wp', $match[1]);
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
