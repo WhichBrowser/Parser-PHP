@@ -23,7 +23,6 @@ trait Os
         $this->detectSailfish($ua);
         $this->detectBada($ua);
         $this->detectBrew($ua);
-        $this->detectPalmOS($ua);
         $this->detectRemainingOperatingSystems($ua);
 
         return $this;
@@ -56,7 +55,7 @@ trait Os
             if (preg_match('/CPU like Mac OS X/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => '1.0' ]);
             }
-            
+
             if (preg_match('/OS (.*) like Mac OS X/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
             }
@@ -1468,53 +1467,6 @@ trait Os
                 }
             }
         }
-    }
-
-
-    /* Palm OS */
-
-    private function detectPalmOS($ua)
-    {
-        if (preg_match('/PalmOS/iu', $ua, $match)) {
-            $this->data->os->name = 'Palm OS';
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-
-            if (preg_match('/; ([^;)]+)\)/u', $ua, $match)) {
-                $device = Data\DeviceModels::identify('palmos', $match[1]);
-
-                if ($device->identified) {
-                    $device->identified |= $this->data->device->identified;
-                    $this->data->device = $device;
-                }
-            }
-        }
-
-        if (preg_match('/Palm OS ([0-9.]*)/iu', $ua, $match)) {
-            $this->data->os->name = 'Palm OS';
-            $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-        }
-
-        if (preg_match('/PalmSource/u', $ua, $match)) {
-            $this->data->os->name = 'Palm OS';
-            $this->data->os->version = null;
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-
-            if (preg_match('/PalmSource\/([^;]+)/u', $ua, $match)) {
-                $this->data->device->model = $match[1];
-                $this->data->device->identified = Constants\Id::PATTERN;
-            }
-
-            if (isset($this->data->device->model) && $this->data->device->model) {
-                $device = Data\DeviceModels::identify('palmos', $this->data->device->model);
-
-                if ($device->identified) {
-                    $device->identified |= $this->data->device->identified;
-                    $this->data->device = $device;
-                }
-            }
-        }
-
     }
 
 
