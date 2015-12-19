@@ -35,6 +35,14 @@ trait Pda
                 $this->data->device->generic = false;
             }
         }
+
+        if (preg_match('/\(PDA; (SL-[A-Z][0-9]+)\/[0-9\.]/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Sharp';
+            $this->data->device->model = 'Zaurus ' . $match[1];
+            $this->data->device->type = Constants\DeviceType::PDA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
     }
 
 

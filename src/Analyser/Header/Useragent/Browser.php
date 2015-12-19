@@ -1001,6 +1001,10 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::MEDIA;
             }
 
+            if (preg_match('/PDA/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::PDA;
+            }
+
             if (preg_match('/(InettvBrowser|HbbTV)/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
