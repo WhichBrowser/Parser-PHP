@@ -633,7 +633,7 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
-        if (preg_match('/\ ([^\s\)]+)\)?$/u', $ua, $match)) {
+        if (preg_match('/\ ([^\s\)\/]+)[^\s]*$/u', $ua, $match)) {
             array_push($candidates, $match[1]);
         }
 
