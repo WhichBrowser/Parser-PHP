@@ -1844,6 +1844,7 @@ trait Browser
             [ 'name' => 'ABrowse',              'regexp' => '/A[Bb]rowse ([0-9.]*)/u' ],
             [ 'name' => 'Abrowser',             'regexp' => '/Abrowser\/([0-9.]*)/u' ],
             [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Browse ([0-9.]+)/u'  ],
+            [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Phoenix ([0-9.]+)/u'  ],
             [ 'name' => 'AltiBrowser',          'regexp' => '/AltiBrowser\/([0-9.]*)/i' ],
             [ 'name' => 'AOL Desktop',          'regexp' => '/AOL ([0-9.]*); AOLBuild/i' ],
             [ 'name' => 'AOL Browser',          'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],

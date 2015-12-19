@@ -16,3 +16,9 @@
 -
     headers: 'User-Agent: NetSurf/3.0 (RISC OS)'
     result: { browser: { name: Surf, version: '3.0' }, os: { name: 'RISC OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.01 (Compatible; Acorn Phoenix 2.08 [intermediate]; RISC OS 4.39) Acorn-HTTP/0.84'
+    result: { browser: { name: 'Acorn Browse', version: '2.08' }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.00 [en] (Compatible; RISC OS 4.39; MSIE 5.01; Windows 98; Oregano 1.10)'
+    result: { browser: { name: Oregano, version: '1.10' }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
