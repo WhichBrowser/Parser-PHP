@@ -424,3 +424,6 @@
 -
     headers: 'User-Agent: Mozilla/4.08 (SH705i2;FOMA;c300;TB)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH705i } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (NTTDoCoMo SH900i) Scope/3.0 Venus/0326.1'
+    result: { browser: { name: Scope, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i } }

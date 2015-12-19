@@ -1966,6 +1966,7 @@ trait Browser
             [ 'name' => 'rekonq',               'regexp' => '/rekonq(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'RockMelt',             'regexp' => '/RockMelt\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'SaaYaa Explorer',      'regexp' => '/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Scope',                'regexp' => '/Scope\/([0-9.]*)/u', 'details' => 2 ],                                                // see: http://www.programmer.co.jp/scope.shtml
             [ 'name' => 'SEMC Browser',         'regexp' => '/SEMC-Browser\/([0-9.]*)/u' ],
             [ 'name' => 'Sleipnir',             'regexp' => '/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'SlimBoat',             'regexp' => '/SlimBoat\/([0-9.]*)/u' ],
