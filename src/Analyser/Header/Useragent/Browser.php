@@ -1926,7 +1926,7 @@ trait Browser
             [ 'name' => 'Motorola Internet Browser', 'regexp' => '/MIB\/([0-9.]*)/u' ],
             [ 'name' => 'iLunascape',           'regexp' => '/iLunascape\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'Intermec Browser',     'regexp' => '/Intermec\/([0-9.]*)/u', 'details' => 2 ],
-            [ 'name' => 'Jig Browser',          'regexp' => '/jig browser(?: core|9i?)/u' ],
+            [ 'name' => 'Jig Browser',          'regexp' => '/jig browser(?: web| core|9i?)?;? ([0-9.]+)?/u', 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MaCross Mobile',       'regexp' => '/MaCross\/([0-9.]*)/u' ],
             [ 'name' => 'Mammoth',              'regexp' => '/Mammoth\/([0-9.]*)/u' ],                                      // see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
             [ 'name' => 'Maxthon',              'regexp' => '/MxBrowser\/([0-9.]*)/u' ],
