@@ -642,11 +642,11 @@ trait Mobile
         }
 
         $candidates = array_diff($candidates, [
-            'Mobile', 'Safari', 'Version', 'GoogleTV', 'WebKit', 'NetFront', 
+            'Mobile', 'Safari', 'Version', 'GoogleTV', 'WebKit', 'NetFront',
             'Microsoft', 'ZuneWP7', 'Firefox', 'UCBrowser', 'IEMobile', 'Touch',
-            'Fennec', 'Minimo', 'Gecko', 'TizenBrowser', 'Browser', 'sdk', 
+            'Fennec', 'Minimo', 'Gecko', 'TizenBrowser', 'Browser', 'sdk',
             'Mini', 'Fennec', 'Darwin', 'Puffin', 'Tanggula', 'Edge',
-            'QHBrowser', 'BonEcho', 'Iceweasel', 'Midori', 'BeOS', 'UBrowser', 
+            'QHBrowser', 'BonEcho', 'Iceweasel', 'Midori', 'BeOS', 'UBrowser',
             'SeaMonkey', 'Model', 'Silk-Accelerated=true', 'Configuration',
             'UNTRUSTED', 'OSRE', 'Dolfin', 'Surf', 'Epiphany', 'Konqueror',
             'Presto', 'OWB', 'PmWFx', 'Netscape', 'Netscape6', 'Navigator'
