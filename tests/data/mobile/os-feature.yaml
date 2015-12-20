@@ -51,7 +51,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D505i } }
 -
     headers: 'User-Agent: DoCoMo/1.0/F671is/c1'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F671i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F671is } }
 -
     headers: 'User-Agent: DoCoMo/2.0 F03B(c500;TB;W24H16)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F03B } }
@@ -78,7 +78,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH07F } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH901iC(c100;TB;W24H12)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH901i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH901iC } }
 -
     headers: 'User-Agent: Fly_E154 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Profile/MIDP-2.0 Configuration/CLDC-1.1 Sync/SyncClient1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; xx) Presto/2.5.28 Version/10.10'
     result: { browser: { name: 'Opera Mobile', version: '10.10' }, engine: { name: Presto, version: 2.5.28 }, os: { name: MTK }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: E154 } }
@@ -198,7 +198,7 @@
     result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Messenger Touch R631' } }
 -
     headers: 'User-Agent: Mozilla/4.08 (N905imyu_W;FOMA;c500;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905imyu } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; samsung-gt-e2202) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '8.5' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Metro } }

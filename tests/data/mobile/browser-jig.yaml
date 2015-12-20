@@ -1,9 +1,9 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.0.5; N901iS)'
-    result: { browser: { name: 'Jig Browser', version: 5.0.5 }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: N901i } }
+    result: { browser: { name: 'Jig Browser', version: 5.0.5 }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: N901iS } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.4.5; F901iS)'
-    result: { browser: { name: 'Jig Browser', version: 5.4.5 }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F901i } }
+    result: { browser: { name: 'Jig Browser', version: 5.4.5 }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F901iS } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.9; D902i)'
     result: { browser: { name: 'Jig Browser', version: 7.0.9 }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D902i } }
@@ -54,7 +54,7 @@
     result: { browser: { name: 'Jig Browser', version: 4.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P900i } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.0.1; F900iT)'
-    result: { browser: { name: 'Jig Browser', version: 5.0.1 }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F900i } }
+    result: { browser: { name: 'Jig Browser', version: 5.0.1 }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F900iT } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.4.5; V904SH)'
     result: { browser: { name: 'Jig Browser', version: 5.4.5 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V904SH } }

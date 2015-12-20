@@ -620,27 +620,44 @@ trait Mobile
         $model = null;
         $manufacturer = null;
 
-        if (preg_match('/[\s\/\-\(;]((CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{3,3}i)/u', $ua, $match)) {
+        $ids = [
+            'CA'    => 'Casio',
+            'F'     => 'Fujitsu',
+            'D'     => 'Mitsubishi',
+            'K'     => 'Kyocera',
+            'L'     => 'LG',
+            'M'     => 'Motorola',
+            'N'     => 'NEC',
+            'NK'    => 'Nokia',
+            'P'     => 'Panasonic',
+            'SA'    => 'Sanyo',
+            'SC'    => 'Samsung',
+            'SH'    => 'Sharp',
+            'SO'    => 'Sony Ericsson',
+            'T'     => 'Toshiba'
+        ];
+
+        if (preg_match('/[\s\/\-\(;]((' . implode('|', array_keys($ids)) . ')[0-9]{3,3}[a-z]+[A-Z]*)/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;](J-(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{2,2})/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;](J-(' . implode('|', array_keys($ids)) . ')[0-9]{2,2})/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;]((?:V|DM|WX)?[0-9]{3,3}(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T))/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;]((?:V|DM|WX)?[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;](W[0-9]{2,2}(CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T))/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;](W[0-9]{2,2}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;]((CA|F|D|K|L|N|NK|P|SA|SC|SH|SN|SO|T)[0-9]{2,2}[A-Z])/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;]((' . implode('|', array_keys($ids)) . ')[0-9]{2,2}[A-Z])/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
@@ -651,53 +668,30 @@ trait Mobile
                 'model'     => $model
             ]);
             
-            switch ($manufacturer) {
-                case 'CA':
-                    $this->data->device->manufacturer = 'Casio';
-                    break;
-                case 'F':
-                    $this->data->device->manufacturer = 'Fujitsu';
-                    break;
-                case 'D':
-                    $this->data->device->manufacturer = 'Mitsubishi';
-                    break;
-                case 'K':
-                    $this->data->device->manufacturer = 'Kyocera';
-                    break;
-                case 'L':
-                    $this->data->device->manufacturer = 'LG';
-                    break;
-                case 'N':
-                    $this->data->device->manufacturer = 'NEC';
-                    break;
-                case 'NK':
-                    $this->data->device->manufacturer = 'Nokia';
-                    break;
-                case 'P':
-                    $this->data->device->manufacturer = 'Panasonic';
-                    break;
-                case 'SA':
-                    $this->data->device->manufacturer = 'Sanyo';
-                    break;
-                case 'SC':
-                    $this->data->device->manufacturer = 'Samsung';
-                    break;
-                case 'SH':
-                    $this->data->device->manufacturer = 'Sharp';
-                    break;
-                case 'SO':
-                    $this->data->device->manufacturer = 'Sony Ericsson';
-                    break;
-                case 'T':
-                    $this->data->device->manufacturer = 'Toshiba';
-                    break;
+            if (array_key_exists($manufacturer, $ids)) {
+                $this->data->device->manufacturer = $ids[$manufacturer];
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;
         }
 
+        /* Then identify it based on KDDI id */
 
-        if (preg_match('/[\s\/\-\(;]((CA|FJ|HI|KC|MA|PT|SA|SH|SN|ST|TS)[0-9][0-9A-Z])[;\)\s]/u', $ua, $match)) {
+        $ids = [
+            'CA'    => 'Casio',
+            'FJ'    => 'Fujitsu',
+            'HI'    => 'Hitachi',
+            'KC'    => 'Kyocera',
+            'MA'    => 'Panasonic',
+            'PT'    => 'Pantech',
+            'SA'    => 'Sanyo',
+            'ST'    => 'Sanyo',
+            'SH'    => 'Sharp',
+            'SN'    => 'Sony Ericsson',
+            'TS'    => 'Toshiba'
+        ];
+
+        if (preg_match('/[\s\/\-\(;]((' . implode('|', array_keys($ids)) . ')[0-9][0-9A-Z])[;\)\s]/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
 
@@ -706,38 +700,8 @@ trait Mobile
                 'model'     => 'KDDI-' . $model
             ]);
             
-            switch ($manufacturer) {
-                case 'CA':
-                    $this->data->device->manufacturer = 'Casio';
-                    break;
-                case 'FJ':
-                    $this->data->device->manufacturer = 'Fujitsu';
-                    break;
-                case 'HI':
-                    $this->data->device->manufacturer = 'Hitachi';
-                    break;
-                case 'KC':
-                    $this->data->device->manufacturer = 'Kyocera';
-                    break;
-                case 'MA':
-                    $this->data->device->manufacturer = 'Panasonic';
-                    break;
-                case 'PT':
-                    $this->data->device->manufacturer = 'Pantech';
-                    break;
-                case 'ST':
-                case 'SA':
-                    $this->data->device->manufacturer = 'Sanyo';
-                    break;
-                case 'SH':
-                    $this->data->device->manufacturer = 'Sharp';
-                    break;
-                case 'SN':
-                    $this->data->device->manufacturer = 'Sony Ericsson';
-                    break;
-                case 'TS':
-                    $this->data->device->manufacturer = 'Toshiba';
-                    break;
+            if (array_key_exists($manufacturer, $ids)) {
+                $this->data->device->manufacturer = $ids[$manufacturer];
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;
