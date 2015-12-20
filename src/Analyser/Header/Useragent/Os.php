@@ -529,6 +529,7 @@ trait Os
             if (preg_match('/Windows CE/u', $ua) || preg_match('/WinCE/u', $ua) || preg_match('/WindowsCE/u', $ua)) {
                 if (preg_match('/ IEMobile/u', $ua)) {
                     $this->data->os->name = 'Windows Mobile';
+                    $this->data->device->type = Constants\DeviceType::MOBILE;
 
                     if (preg_match('/ IEMobile 8/u', $ua)) {
                         $this->data->os->version = new Version([ 'value' => '6.5', 'details' => 2 ]);
@@ -543,6 +544,7 @@ trait Os
                     }
                 } else {
                     $this->data->os->name = 'Windows CE';
+                    $this->data->device->type = Constants\DeviceType::MOBILE;
 
                     if (preg_match('/WindowsCEOS\/([0-9.]*)/u', $ua, $match)) {
                         $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
@@ -553,18 +555,49 @@ trait Os
                     }
                 }
 
-                $this->data->device->type = Constants\DeviceType::MOBILE;
+                if (preg_match('/IEMobile [0-9.]+\) (?:PPC; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?([^;]+)/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
             }
+
+            /* Detect models in common places */
 
             if (preg_match('/Windows ?Mobile/u', $ua)) {
                 $this->data->os->name = 'Windows Mobile';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
-            }
 
-            if (preg_match('/WindowsMobile\/([0-9.]*)/u', $ua, $match)) {
-                $this->data->os->name = 'Windows Mobile';
-                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-                $this->data->device->type = Constants\DeviceType::MOBILE;
+                if (preg_match('/Windows ?Mobile[\/ ]([0-9.]*)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+                }
+
+                if (preg_match('/Windows Mobile; ([^;]+); PPC;/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+
+                if (preg_match('/\(([^;]+); U; Windows Mobile/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
             }
 
             if (preg_match('/Windows Phone/u', $ua) || preg_match('/WPDesktop/u', $ua) || preg_match('/ZuneWP7/u', $ua)) {
@@ -576,6 +609,18 @@ trait Os
 
                     if (intval($match[1]) < 7) {
                         $this->data->os->name = 'Windows Mobile';
+                    }
+                }
+
+                /* Windows Mobile 6.5 */
+                if (preg_match('/Windows NT 5.1; ([^;]+); Windows Phone/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
                     }
                 }
 

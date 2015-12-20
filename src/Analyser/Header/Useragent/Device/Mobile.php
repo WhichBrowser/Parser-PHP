@@ -259,7 +259,7 @@ trait Mobile
             'manufacturer'  => 'HP'
         ]);
 
-        $this->data->device->identifyModel('/Acer_?([^\/_]*)/ui', $ua, [
+        $this->data->device->identifyModel('/Acer_?([^\s\/_]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Acer'
         ]);
@@ -540,7 +540,7 @@ trait Mobile
             'manufacturer'  => 'Toshiba'
         ]);
 
-        $this->data->device->identifyModel('/UTStar-([^\s\.]+)/u', $ua, [
+        $this->data->device->identifyModel('/UTStar-([^\s\.;]+)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'UTStarcom'
         ]);
@@ -622,6 +622,7 @@ trait Mobile
 
         $ids = [
             'CA'    => 'Casio',
+            'HT'    => 'HTC',
             'NK'    => 'Nokia',
             'SA'    => 'Sanyo',
             'SC'    => 'Samsung',
@@ -652,7 +653,7 @@ trait Mobile
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;](W[0-9]{2,2}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;]([SW][0-9]{2,2}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
@@ -719,22 +720,6 @@ trait Mobile
         }
 
         $candidates = [];
-
-        if (preg_match('/Windows NT 5.1; ([^;]+); Windows Phone/u', $ua, $match)) {
-            array_push($candidates, $match[1]);
-        }
-
-        if (preg_match('/Windows Mobile; ([^;]+); PPC;/u', $ua, $match)) {
-            array_push($candidates, $match[1]);
-        }
-
-        if (preg_match('/\(([^;]+); U; Windows Mobile/u', $ua, $match)) {
-            array_push($candidates, $match[1]);
-        }
-
-        if (preg_match('/MSIEMobile [0-9.]+\) ([^\s]+)/u', $ua, $match)) {
-            array_push($candidates, $match[1]);
-        }
 
         if (preg_match('/^([a-z0-9\.\_\+\/ ]+)_TD\//iu', $ua, $match)) {
             array_push($candidates, $match[1]);
