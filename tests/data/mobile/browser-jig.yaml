@@ -75,7 +75,7 @@
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 001SC } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 705NK)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: 705N } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 705NK } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 810T)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 810T } }

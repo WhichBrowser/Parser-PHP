@@ -622,18 +622,18 @@ trait Mobile
 
         $ids = [
             'CA'    => 'Casio',
+            'NK'    => 'Nokia',
+            'SA'    => 'Sanyo',
+            'SC'    => 'Samsung',
+            'SH'    => 'Sharp',
+            'SO'    => 'Sony Ericsson',
             'F'     => 'Fujitsu',
             'D'     => 'Mitsubishi',
             'K'     => 'Kyocera',
             'L'     => 'LG',
             'M'     => 'Motorola',
             'N'     => 'NEC',
-            'NK'    => 'Nokia',
             'P'     => 'Panasonic',
-            'SA'    => 'Sanyo',
-            'SC'    => 'Samsung',
-            'SH'    => 'Sharp',
-            'SO'    => 'Sony Ericsson',
             'T'     => 'Toshiba'
         ];
 
