@@ -43,3 +43,6 @@
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; PalmOS/sony/model atom/Revision:2.0.22) NetFront/3.1'
     result: { browser: { name: NetFront, version: '3.1' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-TH55' } }
+-
+    headers: 'User-Agent: CorePlayer/1.0 (Palm OS 5.4.9; ARM Intel PXA27x; en) CorePlayer/1.3.2_6909'
+    result: { browser: { name: CorePlayer, version: '1.0' }, os: { name: 'Palm OS', version: 5.4.9 }, device: { type: pda } }
