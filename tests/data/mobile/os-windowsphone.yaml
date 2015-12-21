@@ -814,3 +814,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) LG;LG-E900h)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus 7' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; rv:11; NOKIA; Lumia 920) like Gecko'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
