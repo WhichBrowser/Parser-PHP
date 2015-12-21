@@ -91,3 +91,6 @@
 -
     headers: 'User-Agent: SmartTV/1.0.0 (SAMSUNG;OTV-SMT-E5015;0x01;BAC.2012.05.12)'
     result: { device: { type: television, manufacturer: Samsung, model: 'Olleh SkyLife Smart Settopbox' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SmartHub; U; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko) Safari/535.20+'
+    result: { engine: { name: Webkit, version: '535.20' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2012' } }
