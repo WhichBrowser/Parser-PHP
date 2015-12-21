@@ -1524,7 +1524,7 @@ trait Os
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
             if (preg_match('/(?:Brew MP|BREW|BMP) [^;]+; U; [^;]+; ([^;]+); NetFront[^\)]+\) [^\s]+ ([^\s]+)/u', $ua, $match)) {
-                $this->data->device->manufacturer = trim($match[1]);
+                $this->data->device->manufacturer = Data\Manufacturers::identify(Constants\DeviceType::MOBILE, $match[1]);
                 $this->data->device->model = $match[2];
                 $this->data->device->identified = Constants\Id::PATTERN;
 
