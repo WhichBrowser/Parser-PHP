@@ -148,3 +148,6 @@
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1853; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', Device-Stock-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', X-OperaMini-Features: 'advanced, httpping, routing, file_system, folding, camera', X-OperaMini-Phone: '? # ?' }
     result: { browser: { name: 'Opera Mini', version: '7.1' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Incognito } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (REX; U; en-us; Sanyo; SCP-6750/US; NetFront/3.4/AMB)'
+    result: { browser: { name: NetFront, version: '3.4' }, os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: 'Katana Eclipse X' } }

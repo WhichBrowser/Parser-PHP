@@ -22,6 +22,7 @@ DeviceModels::$BREW_MODELS = [
     'SCH-U820'                                  => [ 'Samsung', 'Reality' ],
     'SCH-W709!'                                 => [ 'Samsung', 'SCH-W709' ],
     'sam-r631'                                  => [ 'Samsung', 'Messenger Touch R631' ],
+    'SCP-6750'                                  => [ 'Sanyo', 'Katana Eclipse X' ],
     'SCP6760'                                   => [ 'Sanyo', 'Incognito' ],
     'SCP-6760'                                  => [ 'Sanyo', 'Incognito' ],
     'SCP6780'                                   => [ 'Sanyo', 'Innuendo' ],

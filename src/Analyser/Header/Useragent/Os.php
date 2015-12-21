@@ -1503,6 +1503,25 @@ trait Os
 
     private function detectBrew($ua)
     {
+        if (preg_match('/REX; U/ui', $ua)) {
+            $this->data->os->name = 'REX';
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            if (preg_match('/REX; U; [^;]+; ([^;]+); ([^;\/]+)[^;]*; NetFront/u', $ua, $match)) {
+                $this->data->device->manufacturer = Data\Manufacturers::identify(Constants\DeviceType::MOBILE, $match[1]);
+                $this->data->device->model = $match[2];
+                $this->data->device->identified = Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('brew', $match[2]);
+
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+        }
+
         if (preg_match('/BREW/ui', $ua) || preg_match('/BMP( [0-9.]*)?; U/u', $ua) || preg_match('/BMP\/([0-9.]*)/u', $ua)) {
             $this->data->os->name = 'Brew';
 
@@ -1521,7 +1540,6 @@ trait Os
             } elseif (preg_match('/BMP\/([0-9.]*)/iu', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
-
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
