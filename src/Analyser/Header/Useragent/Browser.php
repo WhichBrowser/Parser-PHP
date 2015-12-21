@@ -1897,6 +1897,7 @@ trait Browser
             [ 'name' => 'ELinks',               'regexp' => '/ELinks\/([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'EVM Browser',          'regexp' => '/EVMBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'EMOBILE Browser',      'regexp' => '/WWW Browser\/ver([0-9.]*)/u' ],
+            [ 'name' => 'EudoraWeb',            'regexp' => '/EudoraWeb ([0-9.]*)/u' ],
             [ 'name' => 'FireWeb',              'regexp' => '/FireWeb\/([0-9.]*)/u' ],
             [ 'name' => 'Flock',                'regexp' => '/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Galeon',               'regexp' => '/Galeon\/([0-9.]*)/u', 'details' => 3 ],

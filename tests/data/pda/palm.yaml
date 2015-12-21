@@ -46,3 +46,6 @@
 -
     headers: 'User-Agent: CorePlayer/1.0 (Palm OS 5.4.9; ARM Intel PXA27x; en) CorePlayer/1.3.2_6909'
     result: { browser: { name: CorePlayer, version: '1.0' }, os: { name: 'Palm OS', version: 5.4.9 }, device: { type: pda } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2'
+    result: { browser: { name: EudoraWeb, version: '2' }, os: { name: 'Palm OS', version: '3.0' }, device: { type: pda } }

@@ -27,6 +27,10 @@ trait Pda
             $this->data->os->name = 'Palm OS';
             $this->data->device->type = Constants\DeviceType::PDA;
 
+            if (preg_match('/PalmOS ([0-9.]*)/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
             if (preg_match('/; ([^;)]+)\)/u', $ua, $match)) {
                 $device = Data\DeviceModels::identify('palmos', $match[1]);
 
