@@ -808,3 +808,9 @@
 -
     headers: { User-Agent: 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/35.2989; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)', X-OperaMini-Phone: '? # ?', X-OperaMini-Phone-UA: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)', X-OperaMini-Features: 'httpping, advanced, routing, download, file_system' }
     result: { browser: { name: 'Opera Mini', version: '5.1' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 710' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) Asus;Galaxy6'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy 6' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) LG;LG-E900h)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '7.0' }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus 7' } }

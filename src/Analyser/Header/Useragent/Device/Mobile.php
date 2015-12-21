@@ -746,7 +746,7 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
-        if (preg_match('/\ ([^\s\)\/]+)[^\s]*$/u', $ua, $match)) {
+        if (preg_match('/[; ]([^\s\)\/;]+)[^\s;]*$/u', $ua, $match)) {
             array_push($candidates, $match[1]);
         }
 
@@ -856,6 +856,14 @@ trait Mobile
                             'name' => 'Windows Mobile'
                         ]);
                     }
+                }
+                break;
+
+            case 'Windows Phone':
+                $device = Data\DeviceModels::identify('wp', $id);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
                 }
                 break;
 
