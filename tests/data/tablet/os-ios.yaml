@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: FeeddlerRSS 2.4 (iPad; iPhone OS 5.1.1; en_US)'
+    result: { browser: { name: Feeddler, version: '2.4' }, os: { name: iOS, version: 5.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }

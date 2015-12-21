@@ -60,6 +60,10 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
             }
 
+            if (preg_match('/iPhone OS ([0-9.]*);/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
             if (preg_match('/iPhone Simulator;/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::EMULATOR;
             } else {
