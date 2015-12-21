@@ -703,6 +703,12 @@ trait Mobile
             
             if (array_key_exists($manufacturer, $ids)) {
                 $this->data->device->manufacturer = $ids[$manufacturer];
+
+                $device = Data\DeviceModels::identify('feature', 'KDDI-' . $model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;

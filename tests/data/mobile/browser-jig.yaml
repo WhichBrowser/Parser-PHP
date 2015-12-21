@@ -18,7 +18,7 @@
     result: { browser: { name: 'Jig Browser', version: 8.1.6 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 934SH } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; SN3F)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.0 }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: KDDI-SN3F } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.0 }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 706P)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 706P } }
@@ -45,7 +45,7 @@
     result: { browser: { name: 'Jig Browser', version: 1.5.0 }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P03C } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser; HI31)'
-    result: { browser: { name: 'Jig Browser' }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: KDDI-HI31 } }
+    result: { browser: { name: 'Jig Browser' }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W11H } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9i 1.4.8; SH01B; 1007)'
     result: { browser: { name: 'Jig Browser', version: 1.4.8 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH01B } }
@@ -60,7 +60,7 @@
     result: { browser: { name: 'Jig Browser', version: 5.4.5 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V904SH } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.5; HI31)'
-    result: { browser: { name: 'Jig Browser', version: 7.0.5 }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: KDDI-HI31 } }
+    result: { browser: { name: 'Jig Browser', version: 7.0.5 }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W11H } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.9; D902i)'
     result: { browser: { name: 'Jig Browser', version: 7.0.9 }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D902i } }
@@ -84,7 +84,7 @@
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: 830CA } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; CA3C)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: KDDI-CA3C } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: W63CA } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; DM003SH)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: DM003SH } }
@@ -96,16 +96,16 @@
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F903i } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; HI3E)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: KDDI-HI3E } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W63H } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; KC38)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: KDDI-KC38 } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: W44K } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; PT34)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: KDDI-PT34 } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; SA3C)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: KDDI-SA3C } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: W61SA } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; V702NK)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: V702NK } }
