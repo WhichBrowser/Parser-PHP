@@ -1,3 +1,6 @@
 -
     headers: 'User-Agent: WorldWideweb (NEXT)'
     result: { browser: { name: WorldWideWeb }, os: { name: NextStep } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (Charon; Inferno)'
+    result: { browser: { name: Charon }, os: { name: Inferno }, device: { type: desktop } }
