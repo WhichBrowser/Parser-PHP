@@ -514,7 +514,7 @@ trait Television
 
         /* AppleTV */
 
-        if (preg_match('/AppleTV[0-9],[0-9]/u', $ua)) {
+        if (preg_match('/AppleTV/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Apple';
