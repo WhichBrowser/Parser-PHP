@@ -33,7 +33,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: '4.4' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: I639M } }
 -
     headers: 'User-Agent: KONKA V980_TD/1.0 Android/4.0 Release/10.23.2012 Browser/AppleWebKit534.3 Profile/MIDP-2.0 Configuration/CLDC-1.1;'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.3' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.3' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Konka, model: V980 } }
 -
     headers: 'User-Agent: Karbonn A25 Linux/3.0.13 Android/4.0.4 Release/06.09.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Karbonn, model: A25 } }
@@ -81,7 +81,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT800' } }
 -
     headers: 'User-Agent: NGM Dynamic Racing 2/V2 Linux/3.0.13 Android/4.2 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2;'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.2' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.2' }, device: { type: mobile, subtype: smart, manufacturer: NGM, model: 'Dynamic Racing 2' } }
 -
     headers: 'User-Agent: OPPO_R811/1.0 Linux/3.0.13 Android/4.0 Release/10.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R811 } }

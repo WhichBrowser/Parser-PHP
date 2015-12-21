@@ -201,6 +201,8 @@ trait Os
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/; ?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
+                } elseif (preg_match('/^((?U)[^\/]+)(?:_TD)?\/[^s]+ (?:Linux\/[0-9.]+ )?Android\//u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
                 } elseif (preg_match('/Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
