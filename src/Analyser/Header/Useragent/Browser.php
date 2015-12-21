@@ -1795,20 +1795,26 @@ trait Browser
             [ 'name' => 'Microsoft Outlook Express',    'regexp' => '/Outlook-Express\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Lotus Notes',          'regexp' => '/Lotus-Notes\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Postbox',              'regexp' => '/Postbox[\/ ]([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'The Bat!',             'regexp' => '/The Bat! ([0-9.]*)/u', 'details' => 3 ],
 
             /* Feed readers */
             [ 'name' => 'Akregator',            'regexp' => '/Akregator\/([0-9.]*)/u' ],
             [ 'name' => 'Blogos',               'regexp' => '/Blogos\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'Cococ',                'regexp' => '/cococ\/([0-9.]*)/u' ],
             [ 'name' => 'FeedDemon',            'regexp' => '/FeedDemon\/([0-9.]*)/u' ],
             [ 'name' => 'Feeddler',             'regexp' => '/FeeddlerRSS\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Feeddler Pro',         'regexp' => '/FeeddlerPro\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Liferea',              'regexp' => '/Liferea\/([0-9.]*)/u' ],
             [ 'name' => 'NewsBlur',             'regexp' => '/NewsBlur\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Newsbeuter',           'regexp' => '/newsbeuter\/([0-9.]*)/u' ],
-            [ 'name' => 'Rss Bandit',           'regexp' => '/RssBandit\/([0-9.]*)/u' ],
-            [ 'name' => 'Rss Owl',              'regexp' => '/RSSOwl\/([0-9.]*)/u' ],
+            [ 'name' => 'JetBrains Omea Reader','regexp' => '/JetBrains Omea Reader ([0-9.]*)/u' ],
+            [ 'name' => 'RSS Bandit',           'regexp' => '/RssBandit\/([0-9.]*)/u' ],
+            [ 'name' => 'RSS Junkie',           'regexp' => '/RSS Junkie Daemon/u' ],
+            [ 'name' => 'RSS Owl',              'regexp' => '/RSSOwl\/([0-9.]*)/u' ],
             [ 'name' => 'Reeder',               'regexp' => '/Reeder\/([0-9.]*)/u' ],
             [ 'name' => 'ReedKit',              'regexp' => '/ReedKit\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Rome',                 'regexp' => '/Rome Client/u' ],
+            [ 'name' => 'jsRSS++',              'regexp' => '/jsRSS++\/([0-9.]*)/u' ],
 
             /* Social apps */
             [ 'name' => 'Facebook',             'regexp' => '/FBAN\/FBIOS/u' ],

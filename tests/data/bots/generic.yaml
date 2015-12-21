@@ -328,3 +328,6 @@
 -
     headers: 'User-Agent: msnbot/2.0b ( http://search.msn.com/msnbot.htm)'
     result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (compatible; Indy Library)'
+    result: { browser: { name: 'Borland Delphi' }, device: { type: bot } }
