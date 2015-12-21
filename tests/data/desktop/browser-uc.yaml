@@ -61,3 +61,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) UBrowser/1.0.44.100'
     result: { browser: { name: 'UC Browser', version: '1.0' }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: UCWEB/8.8 (iPhone; CPU OS_6; en-US)AppleWebKit/534.1 U3/3.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Webkit, version: '534.1' }, os: { name: iOS, version: '6' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.2.2; zh-CN; HTC HD7 LTE 4G+ For AT&T) U2/1.0.0 UCBrowser/9.5.1.381 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '9.5' }, engine: { name: Gecko }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD7 } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.1-update1; xx; E15a) U2/1.0.0 UCBrowser/9.3.1.344 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '9.3' }, engine: { name: Gecko }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X8' } }

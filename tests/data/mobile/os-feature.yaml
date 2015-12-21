@@ -460,3 +460,9 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (DDIPOCKET;JRC/AH-J3001V,AH-J3002V/1.0/0100/c50) CNF/2.0'
     result: { browser: { name: CNF, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: JRC, model: AH-J3001V } }
+-
+    headers: 'User-Agent: Vodafone/1.0/V804SH/SHJ001/SN0000000000000 Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.3.2 Ext-V-Profile/VSCL-2.0.0'
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V804SH } }
+-
+    headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Obigo Q', version: '5' }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
