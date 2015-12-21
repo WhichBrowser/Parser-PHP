@@ -780,10 +780,10 @@
     result: { browser: { name: 'UC Browser', version: '3.1' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10512)', Baidu-FlyFlow: 'Microsoft Windows NT 8.0.10512.0;4.0.50829.0;NOKIA;RM-822_apac_prc_204;ca23bc5b9a1777612837b43014640b3cce62fc50;2.5.0.12' }
-    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12 }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: 'WPDesktop) baidubrowser/2.5.0.12 (Baidu', model: 'P3 8.0.10512' } }
+    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12 }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10521)', Baidu-FlyFlow: 'Microsoft Windows NT 8.0.10521.0;4.0.50829.0;NOKIA;RM-821_apac_hong_kong_234;03988de8b2eab0b1cadee6ec115612692262e40d;2.5.0.12' }
-    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12 }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: 'WPDesktop) baidubrowser/2.5.0.12 (Baidu', model: 'P3 8.0.10521' } }
+    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12 }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620e)', X-UCBrowser-UA: 'pf(Windows);la(zh-CN);re(U2/1.0.0);dv(HTC A620e);pr(UCBrowser/3.4.1.407);ov(wds 8.10);pi(480*800);ss(480*800);er(U);bt(UC);nm(0);im(0);sr(2);nt(2);pm(0);' }
     result: { browser: { name: 'UC Browser', version: '3.4' }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }
