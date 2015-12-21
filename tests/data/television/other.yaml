@@ -219,7 +219,7 @@
     result: { browser: { name: 'Opera Devices', version: '3.2' }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Thomson, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; LOEWE; SL32x; LOH/0.3.5.0;;) CE-HTML/1.0 Config(L:ger,CC:DE) NETRANGEMMH) Presto/2.12.407 Version/12.50'
-    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: LOEWE, model: SL32x } }
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Loewe, model: 'Connect SL32', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; U; HbbTV/1.1.1 (; INTEK; VANTAGE-ibox; 1.0; 1.0;) CE-HTML/1.0; FXM-U2FsdGVkX1+SeQgKwMxDHwbkH5VtZb8Wpivfvs2Rqd0yf/FVDeLDABtbH9UngCaD-END; xx) Presto/2.9.167 Version/11.50'
     result: { browser: { name: 'Opera Devices', version: '3.1' }, engine: { name: Presto, version: 2.9.167 }, device: { type: television, manufacturer: INTEK, model: VANTAGE-ibox } }
