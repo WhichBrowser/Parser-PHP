@@ -1553,10 +1553,10 @@ trait Browser
 
         /* iBrowser */
 
-        if (preg_match('/(iBrowser)\/([0-9.]*)/u', $ua, $match) && !preg_match('/OviBrowser/u', $ua)) {
+        if (preg_match('/(?:^| )iBrowser\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'iBrowser';
 
-            $version = $match[2];
+            $version = $match[1];
             if (preg_match('/^[0-9][0-9]$/u', $version)) {
                 $version = $version[0] . '.' . $version[1];
             }
