@@ -4347,7 +4347,6 @@ DeviceModels::$ANDROID_MODELS = [
     'HTL22'                                     => [ 'HTC', 'J One' ],
     'HTC HTL22'                                 => [ 'HTC', 'J One' ],
     'HTL23!'                                    => [ 'HTC', 'J Butterfly (HTL23)' ],
-    'HTX21'                                     => [ 'HTC', 'au Infobar A02' ],
     'USCCADR6275US!'                            => [ 'HTC', 'Desire' ],
     'USCCADR6285US!'                            => [ 'HTC', 'Hero S' ],
     'USCCADR6325US!'                            => [ 'HTC', 'Merge' ],
@@ -4925,9 +4924,14 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'INFOBAR!!' => [
-        'INFOBAR A01'                               => [ 'iida', 'INFOBAR A01' ],
-        'INFOBAR A01-2'                             => [ 'iida', 'INFOBAR A01' ],
+        'INFOBAR A01'                               => [ 'iida', 'INFOBAR A01' ],               // by Sharp
+        'INFOBAR A01-2'                             => [ 'iida', 'INFOBAR A01' ],               // by Sharp
+        'INFOBAR C01'                               => [ 'iida', 'INFOBAR C01' ],               // by Sharp
     ],
+
+    'HTX21'                                     => [ 'iida', 'INFOBAR A02' ],                   // by HTC
+    'KYV33'                                     => [ 'iida', 'INFOBAR A03' ],                   // by Kyocera
+
 
     'IMO!!' => [
         'IMO Discovery II'                          => [ 'IMO', 'Discovery II' ],
@@ -5498,7 +5502,6 @@ DeviceModels::$ANDROID_MODELS = [
         'KYY24'                                     => [ 'Kyocera', 'Torque G01' ],
         'KYV31'                                     => [ 'Kyocera', 'Urbano V01' ],
         'KYV32'                                     => [ 'Kyocera', 'BASIO' ],
-        'KYV33'                                     => [ 'Kyocera', 'INFOBAR A03' ],
         'KYV34'                                     => [ 'Kyocera', 'Torque G02' ],
         'KYV35'                                     => [ 'Kyocera', 'Urbano V02' ],
     ],
@@ -9708,8 +9711,6 @@ DeviceModels::$ANDROID_MODELS = [
         'SHV31'                                     => [ 'Sharp', 'Aquos Serie mini SHV31' ],
         'SHV32'                                     => [ 'Sharp', 'Aquos Serie SHV32' ],
     ],
-
-    'INFOBAR C01'                               => [ 'Sharp', 'INFOBAR C01' ],
     'WX04SH'                                    => [ 'Sharp', 'Aquos es' ],
     'SHARP-ADS1'                                => [ 'Sharp', 'FX Plus' ],
 
