@@ -255,7 +255,7 @@
     result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Vestel, model: S7720 } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.6.k (MEDION, Si2157LG32, wired) HbbTV/1.1.1 (; MEDION; MB90; 3.3.6.k; 1.0;) CE-HTML/1.0 FXM-U2FsdGVkX1+oZew0140/QGladdDUZDDIO4+B71P3Onne0Z4OH8l/qzolGsZMPYPk-END'
-    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: MEDION, model: MB90, series: 'Smart TV' } }
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Medion, model: MB90, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; hdr1000s; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50'
     result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Humax, model: HDR-1000S, series: 'Digital Receiver' } }

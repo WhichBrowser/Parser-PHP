@@ -15,6 +15,7 @@ Manufacturers::$TELEVISION = [
     'BANGOLUFSEN'                               => 'Bang & Olufsen',
     'CHANGHONG'                                 => 'Changhong',
     'inverto'                                   => 'Inverto',
+    'MEDION'                                    => 'Medion',
     'SERAPHIC'                                  => 'Seraphic',
     'selevision'                                => 'Selevision',
     'smart'                                     => 'Smart',
