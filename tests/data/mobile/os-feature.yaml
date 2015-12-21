@@ -427,3 +427,36 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (NTTDoCoMo SH900i) Scope/3.0 Venus/0326.1'
     result: { browser: { name: Scope, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i } }
+-
+    headers: 'User-Agent: IAC/1.0 (H31IA;like Gecko;OpenBrowser) WWW Browser/ver1.0'
+    result: { browser: { name: 'EMOBILE Browser', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Inventec, model: H31IA } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (H11T; like Gecko; OpenBrowser) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T } }
+-
+    headers: 'User-Agent: emobile/1.0.0 (H11T; like Gecko; Wireless) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T } }
+-
+    headers: 'User-Agent: MOT-C980/80.2F.2E. MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: C980 } }
+-
+    headers: 'User-Agent: SoftBank/1.0/910T/TJ001/SN Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 910T } }
+-
+    headers: 'User-Agent: J-PHONE/5.0/V801SH/SN000000000 SH/0005aa Profile /MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.1.0'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V801SH } }
+-
+    headers: 'User-Agent: KDDI-CA23 UP.Browser/5.2.0.1.126 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '5.2' }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: A5401CA } }
+-
+    headers: 'User-Agent: SIE-M65 (Openwave Mobile Browser 7.0.0.1.167a; U) [de]'
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
+-
+    headers: 'User-Agent: SIE-M65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
+-
+    headers: 'User-Agent: SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 UP.Link/6.6.4.0.0'
+    result: { browser: { name: Openwave, version: '6.1' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: MC60 } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (DDIPOCKET;JRC/AH-J3001V,AH-J3002V/1.0/0100/c50) CNF/2.0'
+    result: { browser: { name: CNF, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: JRC, model: AH-J3001V } }

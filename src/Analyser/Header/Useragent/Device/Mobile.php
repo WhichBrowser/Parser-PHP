@@ -390,6 +390,11 @@ trait Mobile
             'manufacturer'  => 'Kyocera'
         ]);
 
+        $this->data->device->identifyModel('/JRC\/([^\s\/,]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'JRC'
+        ]);
+
         $this->data->device->identifyModel('/KONKA[-_]?([^\s]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Konka'
@@ -478,6 +483,11 @@ trait Mobile
         $this->data->device->identifyModel('/SANYO\/([^\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Sanyo'
+        ]);
+
+        $this->data->device->identifyModel('/SIE-([A-Z]+[0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Siemens'
         ]);
 
         $this->data->device->identifyModel('/SE([A-Z][0-9]+[a-z])/u', $ua, [
@@ -623,6 +633,10 @@ trait Mobile
         $ids = [
             'CA'    => 'Casio',
             'HT'    => 'HTC',
+            'HW'    => 'Huawei',
+            'IA'    => 'Inventec',
+            'JR'    => 'JRC',
+            'LC'    => 'Longcheer',
             'NK'    => 'Nokia',
             'SA'    => 'Sanyo',
             'SC'    => 'Samsung',
@@ -630,6 +644,7 @@ trait Mobile
             'SO'    => 'Sony Ericsson',
             'F'     => 'Fujitsu',
             'D'     => 'Mitsubishi',
+            'J'     => 'JRC',
             'K'     => 'Kyocera',
             'L'     => 'LG',
             'M'     => 'Motorola',
@@ -653,7 +668,7 @@ trait Mobile
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;]([SW][0-9]{2,2}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
+        if (preg_match('/[\s\/\-\(;]([SHW][0-9]{2,2}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
