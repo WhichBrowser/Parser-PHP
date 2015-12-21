@@ -93,7 +93,7 @@
     result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Sony, model: 'Bravia RB1', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; SONY; KDL32; PKG3010EUA; 2013;); sony.hbbtv.tv.2013; xx; ; CC/XAE) Presto/2.12.407 Version/12.50'
-    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: SONY, model: KDL32 } }
+    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Sony, model: 'Bravia L32', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) ; CC/ARG) Presto/2.12.407 Version/12.50'
     result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Sony, series: 'Smart TV' } }

@@ -8,6 +8,7 @@ Manufacturers::$GENERIC = [
     'TOSHIBA'                                   => 'Toshiba',
     'SAMSUNG'                                   => 'Samsung',
     'SHARP'                                     => 'Sharp',
+    'SONY'                                      => 'Sony',
 ];
 
 Manufacturers::$TELEVISION = [
