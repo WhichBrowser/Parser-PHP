@@ -274,6 +274,14 @@ trait Mobile
             'manufacturer'  => 'BenQ'
         ]);
 
+        $this->data->device->identifyModel('/ maui ([a-z0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'BenQ',
+            'model'         => function ($model) {
+                return 'Maui ' . strtoupper($model);
+            }
+        ]);
+
         $this->data->device->identifyModel('/ALCATEL[_-]([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Alcatel',
@@ -570,7 +578,7 @@ trait Mobile
         ]);
 
 
-        $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/]+)/ui', $ua, [
+        $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/\)]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'ZTE'
         ]);
