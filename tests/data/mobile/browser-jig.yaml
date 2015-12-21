@@ -112,3 +112,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9 1.4.5; L03B; 2072)'
     result: { browser: { name: 'Jig Browser', version: 1.4.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: L03B } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (jig browser9)'
+    result: { browser: { name: 'Jig Browser' }, device: { type: mobile, subtype: feature } }
