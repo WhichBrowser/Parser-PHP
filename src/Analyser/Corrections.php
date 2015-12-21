@@ -119,8 +119,10 @@ trait Corrections
     {
         switch ($this->data->browser->name) {
             case 'Firefox':
-                unset($this->data->browser->name);
-                unset($this->data->browser->version);
+                if (!$this->data->isOs('Firefox OS')) {
+                    unset($this->data->browser->name);
+                    unset($this->data->browser->version);
+                }
                 break;
 
             case 'Internet Explorer':

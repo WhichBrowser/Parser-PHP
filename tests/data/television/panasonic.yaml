@@ -81,7 +81,7 @@
     result: { browser: { name: 'Viera Browser', family: { name: Chrome, version: 23 }, version: 3.7.0 }, engine: { name: Webkit, version: '537.11' }, device: { type: television, manufacturer: Panasonic, series: Viera } }
 -
     headers: 'User-Agent: Mozilla/5.0 (FreeBSD; Viera; rv:34.0) Gecko/20100101 Firefox/34.0'
-    result: { browser: { family: { name: Firefox, version: '34.0' } }, engine: { name: Gecko, version: '34.0' }, os: { name: 'Firefox OS', version: '2.1' }, device: { type: television, manufacturer: Panasonic, series: 'Viera 2015' } }
+    result: { browser: { name: Firefox, version: '34.0' }, engine: { name: Gecko, version: '34.0' }, os: { name: 'Firefox OS', version: '2.1' }, device: { type: television, manufacturer: Panasonic, series: 'Viera 2015' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD; U; Viera; xx) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1'
     result: { browser: { name: 'Viera Browser', family: { name: Chrome, version: 14 }, version: 1.5.1 }, engine: { name: Webkit, version: '535.1' }, device: { type: television, manufacturer: Panasonic, series: Viera } }
