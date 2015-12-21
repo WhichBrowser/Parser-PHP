@@ -577,7 +577,7 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
                 }
 
-                if (preg_match('/Windows Mobile; ([^;]+); PPC;/u', $ua, $match)) {
+                if (preg_match('/Windows Mobile; ([^;]+); (?:PPC|Smartphone);/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                     $this->data->device->identified |= Constants\Id::PATTERN;
 
