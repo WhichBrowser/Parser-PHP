@@ -1061,19 +1061,24 @@ trait Browser
 
             if (preg_match('/Obigo\/0?([0-9.]+)/iu', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-            } elseif (preg_match('/TelecaBrowser\/([A-Z]+)0?([0-9.]+)/iu', $ua, $match)) {
+            } elseif (preg_match('/TelecaBrowser\/(WAP|[A-Z])0?([0-9.]+[A-Z]?)/iu', $ua, $match)) {
                 $this->data->browser->name = 'Obigo ' . $match[1];
                 $this->data->browser->version = new Version([ 'value' => $match[2] ]);
-            } elseif (preg_match('/(?:Obigo(?:InternetBrowser|[- ]Browser)?|Teleca)\/([A-Z]+)0?([0-9.]+)/ui', $ua, $match)) {
+            } elseif (preg_match('/(?:Obigo(?:InternetBrowser|[- ]Browser)?|Teleca)\/(WAP|[A-Z])[0O]?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
                 $this->data->browser->name = 'Obigo ' . $match[1];
                 $this->data->browser->version = new Version([ 'value' => $match[2] ]);
-            } elseif (preg_match('/(?:Obigo|Teleca)[- ]([A-Z]+)0?([0-9.]+)(?:[A-Z][0-9])?(?:[\/;]|$)/ui', $ua, $match)) {
+            } elseif (preg_match('/(?:Obigo|Teleca)[- ]([WAP|[A-Z])0?([0-9.]+[A-Z]?)(?:[0-9])?(?:[\/;]|$)/ui', $ua, $match)) {
                 $this->data->browser->name = 'Obigo ' . $match[1];
                 $this->data->browser->version = new Version([ 'value' => $match[2] ]);
-            } elseif (preg_match('/Browser\/(?:Obigo|Teleca)[_-](?:Browser\/)?([A-Z]+)0?([0-9.]+)/ui', $ua, $match)) {
+            } elseif (preg_match('/Browser\/(?:Obigo|Teleca)[_-](?:Browser\/)?(WAP|[A-Z])0?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
                 $this->data->browser->name = 'Obigo ' . $match[1];
                 $this->data->browser->version = new Version([ 'value' => $match[2] ]);
             }
+        }
+
+        if (preg_match('/(Q)0?([0-9][A-Z])/u', $ua, $match)) {
+            $this->data->browser->name = 'Obigo ' . $match[1];
+            $this->data->browser->version = new Version([ 'value' => $match[2] ]);
         }
     }
 

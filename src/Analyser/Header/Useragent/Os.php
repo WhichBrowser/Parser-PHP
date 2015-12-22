@@ -1592,7 +1592,8 @@ trait Os
 
             [ 'name' => 'Grid OS',      'regexp' => [ '/Grid OS ([0-9.]*)/iu' ],                            'type' => Constants\DeviceType::TABLET ],
 
-            [ 'name' => 'MAUI Runtime', 'regexp' => [ '/MAUI (?:Browser|Runtime)/iu' ],                     'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MAUI Runtime', 'regexp' => [ '/MAUI[-_ ](?:Browser|Runtime)/iu' ],                 'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MAUI Runtime', 'regexp' => [ '/Browser\/MAUI/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MTK',          'regexp' => [ '/\(MTK;/iu', '/\/MTK /iu' ],                         'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'QNX',          'regexp' => [ '/QNX/iu' ],                                          'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],
