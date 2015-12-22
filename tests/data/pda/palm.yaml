@@ -49,3 +49,6 @@
 -
     headers: 'User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2'
     result: { browser: { name: EudoraWeb, version: '2' }, os: { name: 'Palm OS', version: '3.0' }, device: { type: pda } }
+-
+    headers: 'User-Agent: Mozilla/4.76 [en] (PalmOS; U; WebPro3.0; Palm-Arz1)'
+    result: { browser: { name: WebPro, version: '3.0' }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Tungsten T3' } }

@@ -1760,7 +1760,7 @@ trait Browser
             $this->data->browser->name = 'WebPro';
             $this->data->browser->version = null;
 
-            if (preg_match('/WebPro\/([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/WebPro\/?([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
         }
