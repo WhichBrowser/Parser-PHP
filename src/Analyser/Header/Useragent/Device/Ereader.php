@@ -200,6 +200,7 @@ trait Ereader
 
             if (preg_match('/EB07/u', $ua)) {
                 $this->data->device->model = 'Story HD EB07';
+                $this->data->device->series = null;
                 $this->data->device->generic = false;
             }
         }
