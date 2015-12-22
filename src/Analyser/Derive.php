@@ -243,6 +243,12 @@ trait Derive
                 unset($this->data->os->version);
             }
         }
+
+        if ($flag == Constants\Flag::MOAPS) {
+            unset($this->data->device->flag);
+            $this->data->os->name = 'MOAP(S)';
+            unset($this->data->os->version);
+        }
     }
 
     private function deriveBasedOnOperatingSystem()

@@ -189,16 +189,16 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: 'User-Agent: SAMSUNGSGH-i450/UCWEB8.7.0.187/28/10086'
-    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-i450 } }
+    result: { browser: { name: 'UC Browser', version: '8.7' }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: i450 } }
 -
     headers: 'User-Agent: SonyEricssonJ20i/R7CA Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonJ20i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Hazel } }
 -
     headers: 'User-Agent: SonyEricssonU1/UCWEB8.9.0.253/50/800'
-    result: { browser: { name: 'UC Browser', version: '8.9' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: U1 } }
+    result: { browser: { name: 'UC Browser', version: '8.9' }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Satio } }
 -
     headers: 'User-Agent: SonyEricssonU5/UCWEB7.0.2.37/50/999'
-    result: { browser: { name: 'UC Browser', version: '7.0' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: U5 } }
+    result: { browser: { name: 'UC Browser', version: '7.0' }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Vivaz } }
 -
     headers: 'User-Agent: SonyEricssonW910i/R1FA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonW910i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W910i } }

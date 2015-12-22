@@ -218,9 +218,6 @@
     headers: 'User-Agent: Mozilla/5.0 (SH06A3;FOMA;like Gecko)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (SonyEricssonU5i)UC AppleWebkit(like Gecko) Safari/530'
-    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: U5i } }
--
     headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-GS290/V10c Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Mozilla) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0'
     result: { browser: { name: 'Obigo Q', version: '7.3' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'GS290 Cookie Fresh' } }
 -

@@ -271,7 +271,7 @@ trait Mobile
             'manufacturer'  => 'Airness'
         ]);
 
-        $this->data->device->identifyModel('/BenQ-([^\/]*)/ui', $ua, [
+        $this->data->device->identifyModel('/BenQ[ -]([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'BenQ'
         ]);
@@ -428,6 +428,11 @@ trait Mobile
         $this->data->device->identifyModel('/Lephone_([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Lephone'
+        ]);
+
+        $this->data->device->identifyModel('/LG([A-Z]{2,2}[0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'LG'
         ]);
 
         $this->data->device->identifyModel('/LGE?(?:\/|-|_)([^\s\)\-]+)/ui', $ua, [
@@ -725,6 +730,18 @@ trait Mobile
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;
+
+            /* Set flags for MOAP */
+
+            switch ($model) {
+                case 'F06B':
+                case 'F07B':
+                case 'F08B':
+                case 'SH07B':
+                    $this->data->os->reset([ 'family' => new Family([ 'name' => 'Symbian' ]) ]);
+                    $this->data->device->flag = Constants\Flag::MOAPS;
+                    break;
+            }
         }
 
         /* Then identify it based on KDDI id */
@@ -808,7 +825,7 @@ trait Mobile
             'Sleipnir', 'MobileSafari', 'MQQBrowser', 'BREW', '?',
             'Maxthon', '360%20Browser', 'OPR', 'CFNetwork', 'JUC', 'Skyfire',
             'UP.Browser', 'DolphinHDCN', 'NintendoBrowser', 'NCSA',
-            'NCSA Mosaic', 'NCSA_Mosaic'
+            'NCSA Mosaic', 'NCSA_Mosaic', 'U'
         ]);
 
         $candidates = array_unique($candidates);
@@ -951,6 +968,17 @@ trait Mobile
                 $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->name = 'Touchwiz';
+            }
+        }
+
+        if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
+            $device = Data\DeviceModels::identify('symbian', $id);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+                $this->data->os->reset([
+                    'family' => new Family([ 'name' => 'Symbian' ])
+                ]);
             }
         }
 

@@ -121,3 +121,24 @@
 -
     headers: 'User-Agent: Nokia6708/2.0 (V1.0.0) SymbianOS/7.0 UIQ/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     result: { os: { name: UIQ, family: { name: Symbian, version: '7.0' }, version: '2.1' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6708' } }
+-
+    headers: 'User-Agent: BenQ P30/R101 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: BenQ, model: P30 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SonyEricssonU5i)UC AppleWebkit(like Gecko) Safari/530'
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Vivaz } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 F06B(c500;TB;W20H13)'
+    result: { os: { name: MOAP(S), family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F06B } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LGKT610/v10A; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML; like Gecko) Safari/413'
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: KT610 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LGKT615/v10C; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: KT615 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LG KS10/v10A; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: KS10 } }
+-
+    headers: 'User-Agent: Panasonic-X800/1.0 SymbianOS/7.0 Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Panasonic, model: X800 } }

@@ -13,4 +13,5 @@ class Flag
     const FIREOS = 32;
     const UIQ = 64;
     const S60 = 128;
+    const MOAPS = 256;
 }
