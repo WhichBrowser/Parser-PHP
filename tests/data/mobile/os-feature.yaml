@@ -213,7 +213,7 @@
     result: { browser: { name: Phantom, version: '2.0' }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T395 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
-    result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SH06A3;FOMA;like Gecko)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A } }
@@ -466,3 +466,51 @@
 -
     headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
+-
+    headers: 'User-Agent: Vodafone/SonyEricssonV800/R1S025 Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'SEMC Browser', version: '4.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: V800 } }
+-
+    headers: 'User-Agent: Vodafone/1.0/SamsungSGHX660V/X660AUFH1/Browser/TSS/2.5 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: X660 } }
+-
+    headers: 'User-Agent: Vodafone/1.0/SAMSUNG-SGH-J700V/AUHA3/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: J700 } }
+-
+    headers: 'User-Agent: SoftBank/1.0/911SH/SHJ001/SN353678010678288 Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 911SH } }
+-
+    headers: 'User-Agent: SIE-S65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: S65 } }
+-
+    headers: 'User-Agent: SIE-EF81/32 UP.Browser/7.0.0.1.181 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Browser/UP.Browser/7.1.1.3.h (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: EF81 } }
+-
+    headers: 'User-Agent: SGH-Z500 SHP/VPP/R5 SMB3.1 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Z500 } }
+-
+    headers: 'User-Agent: SGH-Z107 SHP/VPP/R5 SMB3.1 SMM-MMS/1.1.0 profile/MIDP-2.0 configuration/CLDC-1.0'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Z107 } }
+-
+    headers: 'User-Agent: SEC-SGHX660/1.0 TSS/2.5'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X660 } }
+-
+    headers: 'User-Agent: SEC-SGHE900/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E900 } }
+-
+    headers: 'User-Agent: SCH-R410'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-R410 } }
+-
+    headers: 'User-Agent: SCH-R210 UP.Browser/6.2.3.8 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-R210 } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-X640/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X640 } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-U700/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-U700 } }
+-
+    headers: 'User-Agent: Motorola-w385 Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Obigo Q', version: { value: 4, alias: 4C } }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W385 } }
+-
+    headers: 'User-Agent: HTCP3600-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }

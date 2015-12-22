@@ -1565,7 +1565,7 @@ trait Browser
 
         /* Mercury */
 
-        if (preg_match('/Mercury\/([0-9\.]+)/u', $ua, $match)) {
+        if (preg_match('/(?:^| )Mercury\/([0-9\.]+)/u', $ua, $match)) {
             $version = $match[1];
             if (preg_match('/^[0-9][0-9][0-9]$/u', $version)) {
                 $version = $version[0] . '.' . $version[1] . '.' . $version[2];

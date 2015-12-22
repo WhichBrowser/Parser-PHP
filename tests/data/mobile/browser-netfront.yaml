@@ -21,7 +21,7 @@
     result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
 -
     headers: 'User-Agent: SEC-SGHD840/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-D840 } }
 -
     headers: 'User-Agent: SonyEricssonW200i/R4JA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W200i } }

@@ -448,9 +448,17 @@ trait Mobile
             'manufacturer'  => 'Motorola'
         ]);
 
-        $this->data->device->identifyModel('/MOT-([^\/_]+)/u', $ua, [
+        $this->data->device->identifyModel('/MOT-([^\/_\.]+)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Motorola'
+        ]);
+
+        $this->data->device->identifyModel('/Motorola-([^\s]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Motorola',
+            'model'         => function ($model) {
+                return strtoupper($model);
+            }
         ]);
 
         $this->data->device->identifyModel('/Motorola_([^\/_]+)/ui', $ua, [
@@ -484,6 +492,19 @@ trait Mobile
         ]);
 
         $this->data->device->identifyModel('/sam-([A-Z][0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Samsung'
+        ]);
+
+        $this->data->device->identifyModel('/SEC-(SGH[A-Z][0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Samsung',
+            'model'         => function ($model) {
+                return str_replace('SGH', 'SGH-', $model);
+            }
+        ]);
+
+        $this->data->device->identifyModel('/((?:SGH|SCH)-[A-Z][0-9]+)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Samsung'
         ]);
@@ -570,6 +591,11 @@ trait Mobile
             'model'         => function ($model) {
                 return strtoupper($model);
             }
+        ]);
+
+        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/(v[0-9]+)[^\/]*\//u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Vodafone'
         ]);
 
         $this->data->device->identifyModel('/Xiaomi[_]?([^\s]+)/ui', $ua, [
@@ -754,6 +780,10 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
+        if (preg_match('/^([a-z0-9\_]+)/iu', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
         if (preg_match('/[; ]([^\s\)\/;]+)[^\s;]*$/u', $ua, $match)) {
             array_push($candidates, $match[1]);
         }
@@ -770,8 +800,16 @@ trait Mobile
             'QHBrowser', 'BonEcho', 'Iceweasel', 'Midori', 'BeOS', 'UBrowser',
             'SeaMonkey', 'Model', 'Silk-Accelerated=true', 'Configuration',
             'UNTRUSTED', 'OSRE', 'Dolfin', 'Surf', 'Epiphany', 'Konqueror',
-            'Presto', 'OWB', 'PmWFx', 'Netscape', 'Netscape6', 'Navigator'
+            'Presto', 'OWB', 'PmWFx', 'Netscape', 'Netscape6', 'Navigator',
+            'Opera', 'Mozilla', 'BrightSign', 'Motorola', 'UCWEB',
+            'NativeOperaMini', 'OperaMini', 'SogouMobileBrowser', 'iLunascape',
+            'Sleipnir', 'MobileSafari', 'MQQBrowser', 'BREW', '?',
+            'Maxthon', '360%20Browser', 'OPR', 'CFNetwork', 'JUC', 'Skyfire',
+            'UP.Browser', 'DolphinHDCN', 'NintendoBrowser', 'NCSA',
+            'NCSA Mosaic', 'NCSA_Mosaic'
         ]);
+
+        $candidates = array_unique($candidates);
 
         foreach ($candidates as $i => $id) {
             $this->identifyBasedOnIdUsingOs($id);

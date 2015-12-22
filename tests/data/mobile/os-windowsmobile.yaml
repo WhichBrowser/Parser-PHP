@@ -361,3 +361,42 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) 480x800 LGE VS750'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Fathom VS750' } }
+-
+    headers: 'User-Agent: Xda_diamond/480x640 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
+-
+    headers: 'User-Agent: Xda_diamond Opera/9.50 (Windows NT 5.1; U; de)'
+    result: { browser: { name: 'Opera Mobile', version: '9.50' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
+-
+    headers: 'User-Agent: Xda_nova; 240x320 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Nova' } }
+-
+    headers: 'User-Agent: Vodafone/1.0/v1640/1.13.180 GER/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA IV' } }
+-
+    headers: 'User-Agent: Vodafone/1.0/v1240/2.5.484.0/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VDA IV' } }
+-
+    headers: 'User-Agent: Vodafone/1.0/HTC_wizard/2.21.3.102/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Wizard } }
+-
+    headers: 'User-Agent: Vodafone/1.0/HTC_VPACompactIV/1.9.162.1/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA Compact IV' } }
+-
+    headers: 'User-Agent: Vodafone/1.0/HTC_Mercury/1.20.162.3/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN } }
+-
+    headers: 'User-Agent: Vodafone/1.0/HTC_Diamond Opera/9.50 (Windows NT 5.1; U; de)'
+    result: { browser: { name: 'Opera Mobile', version: '9.50' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i617 BlackJack II' } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i607 BlackJack' } }
+-
+    headers: 'User-Agent: Palm750/v0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
+-
+    headers: 'User-Agent: Palm750/v0004 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }

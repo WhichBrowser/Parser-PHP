@@ -109,3 +109,6 @@
 -
     headers: 'User-Agent: SamsungI8910/SymbianOS/9.1 Series60/3.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)'
     result: { os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia HD' } }
+-
+    headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS) Opera 6.0  [de]./MOT-A925./P243'
+    result: { browser: { name: 'Opera Mobile', version: '6.0' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: A925 } }
