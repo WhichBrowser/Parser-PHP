@@ -352,3 +352,6 @@
 -
     headers: 'User-Agent: XBMC/PRE-11.0 Git:20110623-62171b3 (iOS; 11.0.0 AppleTV2,1; http://www.xbmc.org)'
     result: { browser: { name: XBMC, version: '11.0' }, device: { type: television, manufacturer: Apple, model: AppleTV } }
+-
+    headers: 'User-Agent: Mozilla/4.0 WebTV/2.8 (compatible; MSIE 4.0)'
+    result: { browser: { name: 'Internet Explorer', version: '4.0' }, device: { type: television, manufacturer: Microsoft, model: WebTV } }
