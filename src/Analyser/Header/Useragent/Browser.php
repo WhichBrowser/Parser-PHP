@@ -1056,7 +1056,7 @@ trait Browser
 
     private function detectObigo($ua)
     {
-        $processObigoVersion = function($version) {
+        $processObigoVersion = function ($version) {
             $result = [
                 'value' => $version
             ];
