@@ -1530,18 +1530,20 @@ trait Os
             }
         }
 
-        if (preg_match('/BREW/ui', $ua) || preg_match('/BMP( [0-9.]*)?; U/u', $ua) || preg_match('/BMP\/([0-9.]*)/u', $ua)) {
+        if (preg_match('/[\(\s\-;]BREW[\s\/\-;]/ui', $ua) || preg_match('/BMP( [0-9.]*)?; U/u', $ua) || preg_match('/BMP\/([0-9.]*)/u', $ua)) {
             $this->data->os->name = 'Brew';
 
-            if (preg_match('/; Brew ([0-9.]*);/iu', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            if (preg_match('/BREW MP/iu', $ua) || preg_match('/BMP/iu', $ua)) {
+                $this->data->os->name = 'Brew MP';
             }
 
-            if (preg_match('/BREW; U; ([0-9.]*)/iu', $ua, $match)) {
+            if (preg_match('/; Brew ([0-9.]+);/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            } elseif (preg_match('/BREW; U; ([0-9.]+)/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            } elseif (preg_match('/[\(;]BREW[\/ ]([0-9.]+)/iu', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             } elseif (preg_match('/BREW MP ([0-9.]*)/iu', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1] ]);
-            } elseif (preg_match('/[\(;]BREW[\/ ]([0-9.]*)/iu', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             } elseif (preg_match('/BMP ([0-9.]*); U/iu', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);

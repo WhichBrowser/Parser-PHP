@@ -9,22 +9,22 @@
     result: { browser: { name: 'QQ Browser Mini', version: '3.1' }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: R516 } }
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Kyocera; NetFront/4.1/AMB) Sprint E4255'
-    result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
+    result: { browser: { name: NetFront, version: '4.1' }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Sanyo; NetFront/3.5.1/AMB) Boost SCP6780'
-    result: { browser: { name: NetFront, version: 3.5.1 }, os: { name: Brew, version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Innuendo } }
+    result: { browser: { name: NetFront, version: 3.5.1 }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Innuendo } }
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151-PLB'
-    result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    result: { browser: { name: NetFront, version: '4.1' }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone; Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151'
-    result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    result: { browser: { name: NetFront, version: '4.1' }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
 -
     headers: 'User-Agent: Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;xx)/400x240 Samsung SCH-U820'
     result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Reality } }
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; BREW 3.1.5; xx) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000'
-    result: { browser: { name: Polaris, version: '7.0' }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+    result: { browser: { name: Polaris, version: '7.0' }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (HS-E316/E464.6.01.03.00;U;REX/3.0;BREW/3.1.5;240*320;CTC/2.0) Ucweb/7.6'
     result: { browser: { name: 'UC Browser', version: '7.6' }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: E316 } }
@@ -63,16 +63,16 @@
     result: { browser: { name: NetFront, version: 3.5.1 }, os: { name: Brew, version: 5.0.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Array } }
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Boost LG272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Reflex' } }
+    result: { browser: { name: NetFront, version: '4.2' }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Reflex' } }
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Sprint LN272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
+    result: { browser: { name: NetFront, version: '4.2' }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
 -
     headers: 'User-Agent: PantechP6030/JZUS09022013 BMP/1.0.4 DeviceId/141030 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.1' }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
 -
     headers: 'User-Agent: PhilipsW715/Qualcomm Brew MP 1.0.3/WAP-2.0/MIDP-2.0/CLDC-1.1'
-    result: { os: { name: Brew, version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: W715 } }
+    result: { os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: W715 } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377 UNTRUSTED/1.0', X-UCBrowser-Device-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Boost SCP6760', X-UCBrowser-Device: j2me, X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '9.4' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Incognito } }
@@ -144,7 +144,7 @@
     result: { browser: { name: 'Opera Mini', version: '4.4' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5.189 }, device: { type: mobile, subtype: feature } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1016; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'Mozilla/4.0 (Brew MP 1.0.2; U; en-us; Kyocera; NetFront/4.1/AMB) Sprint E4255', X-OperaMini-Phone-UA: 'Mozilla/4.0 (Brew MP 1.0.2; U; en-us; Kyocera; NetFront/4.1/AMB) Sprint E4255', X-OperaMini-Phone: '? # ?', X-OperaMini-Features: 'advanced, httpping, routing, folding, file_system, camera' }
-    result: { browser: { name: 'Opera Mini', version: '7.1' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
+    result: { browser: { name: 'Opera Mini', version: '7.1' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1853; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', Device-Stock-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', X-OperaMini-Features: 'advanced, httpping, routing, file_system, folding, camera', X-OperaMini-Phone: '? # ?' }
     result: { browser: { name: 'Opera Mini', version: '7.1' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Incognito } }
