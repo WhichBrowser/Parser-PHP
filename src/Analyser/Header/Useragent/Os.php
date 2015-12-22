@@ -1507,7 +1507,7 @@ trait Os
 
     private function detectBrew($ua)
     {
-        if (preg_match('/REX; U/ui', $ua)) {
+        if (preg_match('/REX; U/ui', $ua) || preg_match('/REXL4/ui', $ua)) {
             $this->data->os->name = 'REX';
 
             $this->data->device->type = Constants\DeviceType::MOBILE;

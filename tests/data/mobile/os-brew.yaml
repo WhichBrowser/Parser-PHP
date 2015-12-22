@@ -151,3 +151,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (REX; U; en-us; Sanyo; SCP-6750/US; NetFront/3.4/AMB)'
     result: { browser: { name: NetFront, version: '3.4' }, os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: 'Katana Eclipse X' } }
+-
+    headers: 'User-Agent: MOT-EX132/1.0 REXL4'
+    result: { os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
