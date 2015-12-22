@@ -378,7 +378,7 @@ trait Mobile
             'manufacturer'  => 'HTC'
         ]);
 
-        $this->data->device->identifyModel('/HUAWEI[\s_-]?([^\/\)]*)/ui', $ua, [
+        $this->data->device->identifyModel('/HUAWEI[\s_-]?([^\/\)\()]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Huawei'
         ]);
