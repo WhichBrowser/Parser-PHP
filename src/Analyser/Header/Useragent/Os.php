@@ -18,6 +18,7 @@ trait Os
         $this->detectChromeos($ua);
         $this->detectBlackberry($ua);
         $this->detectWebos($ua);
+        $this->detectSymbian($ua);
         $this->detectNokiaOs($ua);
         $this->detectTizen($ua);
         $this->detectSailfish($ua);
@@ -898,9 +899,9 @@ trait Os
     }
 
 
-    /* Nokia */
+    /* Symbian */
 
-    private function detectNokiaOs($ua)
+    private function detectSymbian($ua)
     {
         /* Series 80 */
 
@@ -908,25 +909,22 @@ trait Os
             $this->data->os->name = 'Series80';
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
-
-            if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
-                if ($match[1] != 'Browser') {
-                    $this->data->device->manufacturer = 'Nokia';
-                    $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
-                    $this->data->device->identified |= Constants\Id::PATTERN;
-                }
-            }
+            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
         /* Series 60 */
 
-        if (preg_match('/Symbian/u', $ua) || preg_match('/Series[ ]?60/u', $ua) || preg_match('/S60;/u', $ua) || preg_match('/S60V/u', $ua)) {
+        if (preg_match('/Symbian\/3/u', $ua)) {
+            $this->data->os->name = 'Series60';
+            $this->data->os->version = new Version([ 'value' => '5.2' ]);
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+        }
+
+        if (preg_match('/Series[ ]?60/u', $ua) || preg_match('/S60[V\/;]/u', $ua)) {
             $this->data->os->name = 'Series60';
             $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
-
-            if (preg_match('/SymbianOS\/9.1/u', $ua) && !preg_match('/Series60/u', $ua)) {
-                $this->data->os->version = new Version([ 'value' => '3.0' ]);
-            }
+            $this->data->device->type = Constants\DeviceType::MOBILE;
 
             if (preg_match('/Series60\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
@@ -939,11 +937,29 @@ trait Os
             if (preg_match('/S60V([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
+        }
+
+        /* UIQ */
+
+        if (preg_match('/UIQ\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->os->name = 'UIQ';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+        }
+
+        /* Symbian */
+
+        if (preg_match('/Symbian/u', $ua)) {
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
 
             if (preg_match('/SymbianOS\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->family->version = new Version([ 'value' => $match[1] ]);
             }
+        }
 
+
+        if ($this->data->os->isFamily('Symbian')) {
             if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
                 if ($match[1] != 'Browser') {
                     $this->data->device->manufacturer = 'Nokia';
@@ -977,10 +993,11 @@ trait Os
                     $this->data->device = $device;
                 }
             }
-
-            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
+    }
 
+    private function detectNokiaOs($ua)
+    {
         /* Series 40 */
 
         if (preg_match('/Series40/u', $ua)) {

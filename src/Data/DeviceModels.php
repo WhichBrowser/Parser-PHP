@@ -170,17 +170,18 @@ class DeviceModels
                 $device->model = self::applyMatches($match[1], $model, $pattern);
                 $device->identified = Constants\Id::MATCH_UA;
 
-                if (isset($match[2])) {
-                    if (is_array($match[2])) {
-                        $device->type = $match[2][0];
-                        $device->subtype = $match[2][1];
+                if (isset($match[2]) || isset($match['type'])) {
+                    $type = isset($match[2]) ? $match[2] : $match['type'];
+                    if (is_array($type)) {
+                        $device->type = $type[0];
+                        $device->subtype = $type[1];
                     } else {
-                        $device->type = $match[2];
+                        $device->type = $type;
                     }
                 }
 
-                if (isset($match[3])) {
-                    $device->flag = $match[3];
+                if (isset($match[3]) || isset($match['flag'])) {
+                    $device->flag = isset($match[3]) ? $match[3] : $match['flag'];
                 }
                 
                 if ($device->manufacturer == null && $device->model == null) {

@@ -227,10 +227,21 @@ trait Derive
         }
 
         if ($flag == Constants\Flag::UIQ) {
-            $this->data->os->name = 'UIQ';
-
-            unset($this->data->os->version);
             unset($this->data->device->flag);
+
+            if (!$this->data->isOs('UIQ')) {
+                $this->data->os->name = 'UIQ';
+                unset($this->data->os->version);
+            }
+        }
+
+        if ($flag == Constants\Flag::S60) {
+            unset($this->data->device->flag);
+
+            if (!$this->data->isOs('Series60')) {
+                $this->data->os->name = 'Series60';
+                unset($this->data->os->version);
+            }
         }
     }
 

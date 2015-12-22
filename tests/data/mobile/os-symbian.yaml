@@ -21,7 +21,7 @@
     result: { browser: { name: 'Nokia Browser', version: 8.3.1 }, engine: { name: Webkit, version: '535.1' }, os: { name: Series60, family: Symbian, version: '5.3' }, device: { type: mobile, subtype: smart, manufacturer: Vertu, model: 'Constellation T' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; xx) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart } }
+    result: { engine: { name: Webkit, version: '413' }, os: { family: { name: Symbian, version: '9.1' } } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 Nokia6710s/031.020; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1'
     result: { browser: { name: 'Nokia Browser', version: 7.2.3 }, engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6710 Navigator' } }
@@ -111,4 +111,13 @@
     result: { os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia HD' } }
 -
     headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS) Opera 6.0  [de]./MOT-A925./P243'
-    result: { browser: { name: 'Opera Mobile', version: '6.0' }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: A925 } }
+    result: { browser: { name: 'Opera Mobile', version: '6.0' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A925 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola A1000;735b) Opera 7.50 [en]./A1000./1.0 UP.Link/6.3.1.15.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.50' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1000 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola M1000;811) Opera 7.50 [ja]./M1000./1.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.50' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000 } }
+-
+    headers: 'User-Agent: Nokia6708/2.0 (V1.0.0) SymbianOS/7.0 UIQ/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { os: { name: UIQ, family: { name: Symbian, version: '7.0' }, version: '2.1' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6708' } }

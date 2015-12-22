@@ -12,4 +12,5 @@ class Flag
     const NOKIAX = 16;
     const FIREOS = 32;
     const UIQ = 64;
+    const S60 = 128;
 }
