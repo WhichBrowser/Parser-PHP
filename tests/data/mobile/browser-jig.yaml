@@ -102,7 +102,7 @@
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: W44K } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; PT34)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: KDDI-PT34 } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: W62PT } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; SA3C)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: W61SA } }
