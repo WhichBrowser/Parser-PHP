@@ -1,42 +1,42 @@
 -
     headers: 'User-Agent: AIRNESS-AIR99/REV 2.2.1/Teleca Q03B1'
-    result: { browser: { name: 'Obigo Q', version: 3B }, device: { type: mobile, subtype: feature, manufacturer: Airness, model: AIR99 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3B } }, device: { type: mobile, subtype: feature, manufacturer: Airness, model: AIR99 } }
 -
     headers: 'User-Agent: ALCATEL-OT871A/985 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 871A' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 871A' } }
 -
     headers: 'User-Agent: ALCATEL_A383G/1.0 ObigoInternetBrowser/Q05A[TF013859000005250099949419492204383]'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A383G } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A383G } }
 -
     headers: 'User-Agent: ALCATEL_ONE_TOUCH_2067X/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 2067X' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 2067X' } }
 -
     headers: 'User-Agent: Alcatel-OT-802/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 802' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 802' } }
 -
     headers: 'User-Agent: HUAWEI-M570/001.00 WAP/OBIGO/Q05A'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }
 -
     headers: 'User-Agent: Huawei-U2800/U2800ACBXB119 Browser/Obigo-Browser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U2800 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U2800 } }
 -
     headers: 'User-Agent: Huawei/1.0/0HuaweiM615/B100 Browser/Obigo_Browser/Q05A HUAWEI-M615'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M615 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M615 } }
 -
     headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
 -
     headers: 'User-Agent: Huawei/1.0/H12HW/B000 Browser/Obigo-Browser/Q04A'
-    result: { browser: { name: 'Obigo Q', version: 4A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW } }
+    result: { browser: { name: 'Obigo Q', version: { value: 4, alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW } }
 -
     headers: 'User-Agent: HuaweiU7510/B000 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U7510 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U7510 } }
 -
     headers: 'User-Agent: LG-A380/A38009d Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: '7.3' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: A380 } }
 -
     headers: 'User-Agent: LG-CU920/V1.0s Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: LG, model: CU920 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: LG, model: CU920 } }
 -
     headers: 'User-Agent: LG-GD510/V100 Teleca/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo WAP', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: GD510 } }
@@ -66,7 +66,7 @@
     result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KC910i Renoir' } }
 -
     headers: 'User-Agent: LG/KF750/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 5A }, device: { type: mobile, subtype: feature, manufacturer: LG, model: KF750 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 5, alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: LG, model: KF750 } }
 -
     headers: 'User-Agent: LG_TB200_CMCC A2000pH/2.32.00 Release/9.14.2009 Browser/Teleca/Q7.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: TB200 } }
@@ -78,10 +78,10 @@
     result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: KC910 } }
 -
     headers: 'User-Agent: SonyEricssonWT13i/R3AF010 TelecaBrowser/Q07C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 7C }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: 'Mix Walkman' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 7, alias: 7C } }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: 'Mix Walkman' } }
 -
     headers: 'User-Agent: T-Mobile Vairy Touch II/5.0 Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 3C }, device: { type: mobile, subtype: feature, manufacturer: T-Mobile, model: 'Vairy Touch II' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3C } }, device: { type: mobile, subtype: feature, manufacturer: T-Mobile, model: 'Vairy Touch II' } }
 -
     headers: 'User-Agent: GIONEE50_12864_11B_HW (MRE\\2.5.00(3072) resolution\\240320 chipset\\MT6250 touch\\1 tpannel\\0 camera\\1 gsensor\\0 keyboard\ ormal) 1307SY_0201_V1045 Release/2013.06.28 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/Profile/MIDP-2.0 Configuration/CLDC-1.1 Q03C1-2.40 en-US'
     result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3C } }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: '50' } }
