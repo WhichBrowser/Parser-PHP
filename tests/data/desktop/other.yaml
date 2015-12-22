@@ -4,3 +4,6 @@
 -
     headers: 'User-Agent: Mozilla/4.08 (Charon; Inferno)'
     result: { browser: { name: Charon }, os: { name: Inferno }, device: { type: desktop } }
+-
+    headers: 'User-Agent: VMS_Mosaic/3.8-1 (Motif;OpenVMS V7.3-2 DEC 3000 - M700)  libwww/2.12_Mosaic'
+    result: { browser: { name: 'VMS Mosaic', version: '3.8' }, os: { name: OpenVMS, version: '7.3' }, device: { type: desktop } }

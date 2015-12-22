@@ -168,7 +168,7 @@
     result: { browser: { name: Firefox, version: 3.0b3 }, engine: { name: Gecko, version: 1.9b3pre }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; OpenVMS HP_rx2660__(1.42GHz/6.0MB); xx; rv:1.8.1.18) Gecko/20081201 BonEcho/2.0.0.18'
-    result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 } }
+    result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OpenVMS }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; QNX x86pc; xx; rv:1.9.2.15) Gecko/20110316 Namoroka/3.6.15'
     result: { browser: { name: Firefox, version: 3.6.15 }, engine: { name: Gecko, version: 1.9.2 }, os: { name: QNX }, device: { type: mobile, subtype: feature } }
