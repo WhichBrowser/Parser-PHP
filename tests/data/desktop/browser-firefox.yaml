@@ -156,16 +156,16 @@
     result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: Solaris }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.8.1.18) Gecko/20110906 BonEcho/2.0.0.18'
-    result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux } }
+    result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.1.7) Gecko/20100303 Shiretoko/3.5.7'
-    result: { browser: { name: Firefox, version: 3.5.7 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Linux } }
+    result: { browser: { name: Firefox, version: 3.5.7 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.1.9) Gecko/20100330 Fedora/3.5.9-2.fc12 Firefox/3.5.9'
     result: { browser: { name: Firefox, version: 3.5.9 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Fedora, version: '12' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9b3pre) Gecko/2008020404 Minefield/3.0b3pre'
-    result: { browser: { name: Firefox, version: 3.0b3 }, engine: { name: Gecko, version: 1.9b3pre }, os: { name: Linux } }
+    result: { browser: { name: Firefox, version: 3.0b3 }, engine: { name: Gecko, version: 1.9b3pre }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; OpenVMS HP_rx2660__(1.42GHz/6.0MB); xx; rv:1.8.1.18) Gecko/20081201 BonEcho/2.0.0.18'
     result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 } }

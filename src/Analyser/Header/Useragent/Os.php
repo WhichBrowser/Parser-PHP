@@ -1376,6 +1376,10 @@ trait Os
         if (preg_match('/Linux/u', $ua)) {
             $this->data->os->name = 'Linux';
 
+            if (preg_match('/X11/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
             if (preg_match('/CentOS/u', $ua)) {
                 $this->data->os->name = 'CentOS';
                 if (preg_match('/CentOS\/[0-9\.\-]+el([0-9_]+)/u', $ua, $match)) {
