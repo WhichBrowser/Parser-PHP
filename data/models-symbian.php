@@ -5,7 +5,7 @@ namespace WhichBrowser\Data;
 use WhichBrowser\Constants\DeviceType;
 use WhichBrowser\Constants\Flag;
 
-DeviceModels::$S60_MODELS = [
+DeviceModels::$SYMBIAN_MODELS = [
     'RIZR-Z8'                                   => [ 'Motorola', 'RIZR Z8', DeviceType::MOBILE, Flag::UIQ ],
     'G700'                                      => [ 'Sony Ericsson', 'G700', DeviceType::MOBILE, Flag::UIQ ],
     'G900'                                      => [ 'Sony Ericsson', 'G900', DeviceType::MOBILE, Flag::UIQ ],

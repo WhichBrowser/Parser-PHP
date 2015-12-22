@@ -89,7 +89,7 @@ class UCBrowserNew
 
         if ($this->data->isOs('Series60')) {
             if (preg_match('/dv\((?:Nokia)?([^\)]*)\)/iu', $header, $match)) {
-                $device = Data\DeviceModels::identify('s60', $match[1]);
+                $device = Data\DeviceModels::identify('symbian', $match[1]);
 
                 if ($device) {
                     $this->data->device = $device;
@@ -122,7 +122,7 @@ class UCBrowserNew
     {
         $model = preg_replace('/^Nokia/iu', '', $model);
 
-        $device = Data\DeviceModels::identify('s60', $model);
+        $device = Data\DeviceModels::identify('symbian', $model);
         if ($device->identified) {
             $device->identified |= $this->data->device->identified;
             $this->data->device = $device;

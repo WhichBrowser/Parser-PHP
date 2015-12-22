@@ -19,7 +19,7 @@ class DeviceModels
     public static $PALMOS_MODELS = [];
     public static $S30PLUS_MODELS = [];
     public static $S40_MODELS = [];
-    public static $S60_MODELS = [];
+    public static $SYMBIAN_MODELS = [];
     public static $FEATURE_MODELS = [];
     public static $BLACKBERRY_MODELS = [];
     public static $IOS_MODELS = [];
@@ -56,8 +56,8 @@ class DeviceModels
                 return self::identifyList(self::$S30PLUS_MODELS, $model);
             case 's40':
                 return self::identifyList(self::$S40_MODELS, $model);
-            case 's60':
-                return self::identifyList(self::$S60_MODELS, $model);
+            case 'symbian':
+                return self::identifyList(self::$SYMBIAN_MODELS, $model);
             case 'palmos':
                 return self::identifyList(self::$PALMOS_MODELS, $model);
             case 'feature':

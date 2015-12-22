@@ -120,7 +120,7 @@ trait Mobile
             }
 
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
-                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+                $device = Data\DeviceModels::identify('symbian', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
@@ -162,7 +162,7 @@ trait Mobile
             }
 
             if ($this->data->isOS('Series60')) {
-                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+                $device = Data\DeviceModels::identify('symbian', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
@@ -882,7 +882,7 @@ trait Mobile
                 break;
 
             case 'Symbian':
-                $device = Data\DeviceModels::identify('s60', $id);
+                $device = Data\DeviceModels::identify('symbian', $id);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;

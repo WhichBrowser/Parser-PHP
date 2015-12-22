@@ -971,7 +971,7 @@ trait Os
             }
 
             if (isset($this->data->device->model)) {
-                $device = Data\DeviceModels::identify('s60', $this->data->device->model);
+                $device = Data\DeviceModels::identify('symbian', $this->data->device->model);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
