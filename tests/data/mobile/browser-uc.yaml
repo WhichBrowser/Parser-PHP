@@ -222,7 +222,7 @@
     result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N70 } }
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)', X-Ucbrowser-Phone-Ua: 'maui browser' }
-    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: 'MAUI Runtime' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, os: { name: MRE }, device: { type: mobile, subtype: feature } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.2.2; xx; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31', X-UCBrowser-UA: 'pf(Linux);la(en-US);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(Lenovo A369i Build/JDQ39);pr(UCBrowser/9.1.0.297);ov(Android 4.2.2);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(GZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(3);' }
     result: { browser: { name: 'UC Browser', version: '9.1' }, engine: { name: Webkit, version: '534.31' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A369 } }

@@ -84,10 +84,10 @@
     result: { browser: { name: 'Obigo Q', version: 3C }, device: { type: mobile, subtype: feature, manufacturer: T-Mobile, model: 'Vairy Touch II' } }
 -
     headers: 'User-Agent: GIONEE50_12864_11B_HW (MRE\\2.5.00(3072) resolution\\240320 chipset\\MT6250 touch\\1 tpannel\\0 camera\\1 gsensor\\0 keyboard\ ormal) 1307SY_0201_V1045 Release/2013.06.28 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/Profile/MIDP-2.0 Configuration/CLDC-1.1 Q03C1-2.40 en-US'
-    result: { browser: { name: 'Obigo Q', version: 3C }, os: { name: 'MAUI Runtime' }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: '50' } }
+    result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3C } }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: '50' } }
 -
     headers: 'User-Agent: GIONEE S80/Q03C MAUI-browser/MIDP2.0/CLDC1.1/Screen-240X320'
-    result: { browser: { name: 'Obigo Q', version: 3C }, os: { name: 'MAUI Runtime' }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: S80 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3C } }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: S80 } }
 -
     headers: 'User-Agent: Fly_DS123/Q03C_MAUI_Browser/MIDP2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: 3C }, os: { name: 'MAUI Runtime' }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: DS123 } }
+    result: { browser: { name: 'Obigo Q', version: { value: 3, alias: 3C } }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: DS123 } }
