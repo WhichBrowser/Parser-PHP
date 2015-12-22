@@ -3,6 +3,7 @@
 namespace WhichBrowser\Analyser\Header;
 
 use WhichBrowser\Data;
+use WhichBrowser\Model\Family;
 use WhichBrowser\Model\Version;
 
 class UCBrowserNew
@@ -130,6 +131,7 @@ class UCBrowserNew
             if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
                 $this->data->os->name = 'Series60';
                 $this->data->os->version = null;
+                $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
             }
 
             return true;

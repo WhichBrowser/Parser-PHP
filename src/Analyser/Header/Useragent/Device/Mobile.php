@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\Model\Family;
 use WhichBrowser\Model\Version;
 
 trait Mobile
@@ -128,6 +129,7 @@ trait Mobile
                     if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
                         $this->data->os->name = 'Series60';
                         $this->data->os->version = null;
+                        $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
                     }
                 }
             }

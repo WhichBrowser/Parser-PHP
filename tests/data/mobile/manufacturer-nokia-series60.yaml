@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; xx; rv:1.9.2.26) Gecko/20120128 NokiaN95'
-    result: { engine: { name: Gecko, version: 1.9.2 }, os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N95 } }
+    result: { engine: { name: Gecko, version: 1.9.2 }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N95 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 Nokia500/111.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { os: { name: Series60, family: Symbian, version: '5.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '500' } }
@@ -156,10 +156,10 @@
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: X6-00 } }
 -
     headers: 'User-Agent: NOKIAE5-00'
-    result: { os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
+    result: { os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
 -
     headers: 'User-Agent: NOKIAN86 8MP'
-    result: { os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'N86 8MP' } }
+    result: { os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'N86 8MP' } }
 -
     headers: 'User-Agent: Nokia5236/51.9.002 (SymbianOS/9.4; U; Series60/5.0; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML,like Gecko) Safari/413'
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5236' } }
@@ -180,7 +180,7 @@
     result: { os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '7610' } }
 -
     headers: 'User-Agent: NokiaC5-05'
-    result: { os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C5-05 } }
+    result: { os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C5-05 } }
 -
     headers: 'User-Agent: NokiaC5-06/23.6.015 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525'
     result: { engine: { name: Webkit, version: '525' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C5-06 } }
@@ -210,4 +210,4 @@
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: X5-00 } }
 -
     headers: 'User-Agent: nokia7660'
-    result: { os: { name: Series60 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '7660' } }
+    result: { os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '7660' } }

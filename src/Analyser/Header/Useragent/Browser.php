@@ -831,6 +831,7 @@ trait Browser
             if (preg_match('/\(Symbian;/u', $ua)) {
                 $this->data->os->name = 'Series60';
                 $this->data->os->version = null;
+                $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
 
                 if (preg_match('/S60 V([0-9])/u', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
