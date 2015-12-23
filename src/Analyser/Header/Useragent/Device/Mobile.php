@@ -340,6 +340,11 @@ trait Mobile
             'manufacturer'  => 'Dopod'
         ]);
 
+        $this->data->device->identifyModel('/^Ericsson([^\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Ericsson'
+        ]);
+
         $this->data->device->identifyModel('/FLY_]?([^\s\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Fly'

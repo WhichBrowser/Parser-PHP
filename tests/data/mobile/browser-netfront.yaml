@@ -24,7 +24,7 @@
     result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-D840 } }
 -
     headers: 'User-Agent: SonyEricssonW200i/R4JA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W200i } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Zylo } }
 -
     headers: 'User-Agent: SonyEricssonZ770i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }

@@ -204,7 +204,7 @@
     result: { browser: { name: 'UC Browser', version: '8.5' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Metro } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; sonyericssonw150i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile UNTRUSTED/1.0'
-    result: { browser: { name: 'UC Browser', version: '8.6' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W150i } }
+    result: { browser: { name: 'UC Browser', version: '8.6' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Yendo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (LG-C207 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     result: { browser: { name: Phantom, version: '2.0' }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: C207 } }
@@ -511,3 +511,9 @@
 -
     headers: 'User-Agent: HTCP3600-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
     result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
+-
+    headers: 'User-Agent: EricssonT39/R202'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ericsson, model: T39 } }
+-
+    headers: 'User-Agent: SonyEricssonT250a/R5x TelecaBrowser/1.1.14.20'
+    result: { browser: { name: Obigo }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: T250a } }
