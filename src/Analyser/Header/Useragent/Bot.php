@@ -9,9 +9,20 @@ trait Bot
 {
     private function &detectBot($ua)
     {
+        /* Detect bots based on url in the UA string */
+
+        if (preg_match('/\+https?:\/\//iu', $ua)) {
+            $this->data->browser->reset();
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
         /* Detect bots based on common markers */
 
-        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/;]|$)/iu', $ua)) {
+        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
