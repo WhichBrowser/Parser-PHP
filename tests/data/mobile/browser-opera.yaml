@@ -50,6 +50,9 @@
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.7144/hifi/tmobile/at; Nokia 6085; de; U; ssr)'
     result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6085' } }
 -
+    headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.4948/hifi/tmobile/at; SonyEricsson K550i; de; U; ssr)'
+    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K550i } }
+-
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.5005/hifi/tmobile/at; Nokia 5300; de; U; ssr)'
     result: { browser: { name: 'Opera Mini', version: '1.1' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
 -

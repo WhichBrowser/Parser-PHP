@@ -541,7 +541,12 @@ trait Mobile
             'manufacturer'  => 'Sony Ericsson'
         ]);
 
-        $this->data->device->identifyModel('/SonyEricsson([^\/\)]+)/iu', $ua, [
+        $this->data->device->identifyModel('/sony-ericsson ([A-Z][0-9]+[a-z])/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sony Ericsson'
+        ]);
+
+        $this->data->device->identifyModel('/SonyEricsson ?([^\/\);]+)/iu', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Sony Ericsson',
             'model'         => function ($model) {
