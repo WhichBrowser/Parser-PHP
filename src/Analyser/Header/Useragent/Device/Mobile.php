@@ -77,7 +77,7 @@ trait Mobile
             return;
         }
 
-        if (preg_match('/Nokia-?([^\/\)]+)/ui', $ua, $match)) {
+        if (preg_match('/Nokia[- ]?([^\/\);]+)/ui', $ua, $match)) {
 
             if ($match[1] == 'Browser') {
                 return;
