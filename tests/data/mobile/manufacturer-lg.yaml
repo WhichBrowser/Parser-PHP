@@ -360,13 +360,13 @@
     result: { browser: { name: 'LG Browser' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Wine Smart' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; LG-H650 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '45' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: H650 } }
+    result: { browser: { name: Chrome, version: '45' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Zero } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; LG-H731 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'G4 Vigor' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; LG-H900/H90010d Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'G4 Pro' } }
+    result: { browser: { name: 'LG Browser' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: V10 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; VS820 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Lancet } }
