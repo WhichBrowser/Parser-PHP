@@ -331,12 +331,14 @@ trait Browser
                 $this->data->engine->name = 'Tasman';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
 
-                if ($this->data->browser->version->is('>=', '5.1.1') && $this->data->browser->version->is('<=', '5.1.3')) {
-                    $this->data->os->name = 'OS X';
-                }
+                if (!empty($this->data->browser->version)) {
+                    if ($this->data->browser->version->is('>=', '5.1.1') && $this->data->browser->version->is('<=', '5.1.3')) {
+                        $this->data->os->name = 'OS X';
+                    }
 
-                if ($this->data->browser->version->is('>=', '5.2')) {
-                    $this->data->os->name = 'OS X';
+                    if ($this->data->browser->version->is('>=', '5.2')) {
+                        $this->data->os->name = 'OS X';
+                    }
                 }
             }
         }
