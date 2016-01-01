@@ -520,3 +520,6 @@
 -
     headers: 'User-Agent: LG-LG620G[TF012114009741104000000018032359160] Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo WAP', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG620G } }
+-
+    headers: 'User-Agent: LG/U900/v1.0'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U900 } }

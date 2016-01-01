@@ -440,7 +440,7 @@ trait Mobile
             'manufacturer'  => 'LG'
         ]);
 
-        $this->data->device->identifyModel('/LGE?(?:\/|-|_)([^\s\)\-]+)/ui', $ua, [
+        $this->data->device->identifyModel('/LGE?(?:\/|-|_)([^\s\)\-\[\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'LG'
         ]);
