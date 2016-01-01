@@ -142,6 +142,19 @@ trait Gaming
             }
         }
 
+        /* PlayStation 2 */
+
+        if (preg_match('/Playstation2/u', $ua)) {
+            $this->data->os->reset();
+
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sony',
+                'model'         =>  'Playstation 2',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+
         /* PlayStation 3 */
 
         if (preg_match('/PlayStation 3/ui', $ua)) {

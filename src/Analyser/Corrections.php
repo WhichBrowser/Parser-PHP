@@ -25,6 +25,10 @@ trait Corrections
             $this->hideBrowserOnDeviceTypeTelevision();
         }
 
+        if (isset($this->data->browser->name) && $this->data->device->type == Constants\DeviceType::GAMING) {
+            $this->hideBrowserOnDeviceTypeGaming();
+        }
+
         if ($this->data->device->type == Constants\DeviceType::TELEVISION) {
             $this->hideOsOnDeviceTypeTelevision();
         }
@@ -112,6 +116,13 @@ trait Corrections
             $this->data->browser->reset([
                 'family' => isset($this->data->browser->family) ? $this->data->browser->family : null
             ]);
+        }
+    }
+
+    private function hideBrowserOnDeviceTypeGaming()
+    {
+        if (isset($this->data->device->model) && $this->data->device->model == 'Playstation 2' && $this->data->browser->name == 'Internet Explorer') {
+            $this->data->browser->reset();
         }
     }
 
