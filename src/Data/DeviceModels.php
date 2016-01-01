@@ -23,6 +23,7 @@ class DeviceModels
     public static $FEATURE_MODELS = [];
     public static $BLACKBERRY_MODELS = [];
     public static $IOS_MODELS = [];
+    public static $KDDI_MODELS = [];
 
 
     public static function identify($type, $model)
@@ -60,6 +61,8 @@ class DeviceModels
                 return self::identifyList(self::$SYMBIAN_MODELS, $model);
             case 'palmos':
                 return self::identifyList(self::$PALMOS_MODELS, $model);
+            case 'kddi':
+                return self::identifyList(self::$KDDI_MODELS, $model);
             case 'feature':
                 return self::identifyList(self::$FEATURE_MODELS, $model);
         }
