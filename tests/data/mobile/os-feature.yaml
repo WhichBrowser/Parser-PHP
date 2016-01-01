@@ -523,3 +523,12 @@
 -
     headers: 'User-Agent: LG/U900/v1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U900 } }
+-
+    headers: 'User-Agent: KWC-Lightpipe/ UP.Browser/7.2.7.2.531 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'E1100 Neo' } }
+-
+    headers: 'User-Agent: KWC-K612/1.0.04 UP.Browser/6.2.3.9.g.1.103 (GUI) MMP/2.0 UP.Link/6.3.0.0.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'K612 Strobe' } }
+-
+    headers: 'User-Agent: KWC-Glide/ UP.Browser/7.2.7.2.541 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: Glide } }

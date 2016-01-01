@@ -400,6 +400,11 @@ trait Mobile
             'manufacturer'  => 'Karbonn'
         ]);
 
+        $this->data->device->identifyModel('/KWC-([^\s\/]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Kyocera'
+        ]);
+
         $this->data->device->identifyModel('/KYOCERA\/([^\s\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Kyocera'

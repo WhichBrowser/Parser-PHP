@@ -4,6 +4,8 @@ namespace WhichBrowser\Data;
 
 DeviceModels::$FEATURE_MODELS = [
     'EF71'                                      => [ 'BenQ-Siemens', 'EF71' ],
+    'Lightpipe'                                 => [ 'Kyocera', 'E1100 Neo' ],
+    'K612'                                      => [ 'Kyocera', 'K612 Strobe' ],
     'EX115'                                     => [ 'Motorola', 'Starling EX115' ],
     'EX118'                                     => [ 'Motorola', 'MOTOKEY XT EX118' ],
     'EX119'                                     => [ 'Motorola', 'Brea EX119' ],
