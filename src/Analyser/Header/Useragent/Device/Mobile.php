@@ -531,7 +531,7 @@ trait Mobile
             'manufacturer'  => 'Sanyo'
         ]);
 
-        $this->data->device->identifyModel('/SIE-([A-Z]+[0-9]+)/ui', $ua, [
+        $this->data->device->identifyModel('/(?:Siemens |SIE-)([A-Z]+[0-9]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Siemens'
         ]);

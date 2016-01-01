@@ -46,3 +46,6 @@
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-S8500', Device-Stock-UA: SAMSUNG-GT-S8500, X-OperaMini-Phone-UA: SAMSUNG-GT-S8500 }
     result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+-
+    headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.3314/hifi/tmobile/cz; Siemens ME75; cs; U; ssr)'
+    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: ME75 } }
