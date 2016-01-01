@@ -1765,8 +1765,13 @@ trait Browser
         if (preg_match('/Xiino\/([0-9.]+)/u', $ua, $match)) {
             $this->data->browser->name = 'Xiino';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-            $this->data->os->name = 'Palm OS';
             $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $this->data->os->name = 'Palm OS';
+
+            if (preg_match('/\(v. ([0-9.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
 
         /* WebPro */
