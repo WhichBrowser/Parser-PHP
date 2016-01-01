@@ -498,6 +498,11 @@ trait Mobile
             'manufacturer'  => 'Oppo'
         ]);
 
+        $this->data->device->identifyModel('/Panasonic-([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Panasonic'
+        ]);
+
         $this->data->device->identifyModel('/Pantech-?([^\/_]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Pantech'

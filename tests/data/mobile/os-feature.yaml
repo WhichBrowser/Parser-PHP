@@ -553,3 +553,6 @@
 -
     headers: 'User-Agent: KDDI-SN39'
     result: { device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W51S } }
+-
+    headers: 'User-Agent: Panasonic-X200P/RP1 Profile/MIDP-1.0 Configuration/CLDC-1.0'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: X200P } }
