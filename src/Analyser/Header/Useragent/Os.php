@@ -515,6 +515,10 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => '5.1', 'alias' => 'XP' ]);
             }
 
+            if (preg_match('/Windows Vista/u', $ua)) {
+                $this->data->os->version = new Version([ 'value' => '6.0', 'alias' => 'Vista' ]);
+            }
+
             if (preg_match('/Windows (3.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
