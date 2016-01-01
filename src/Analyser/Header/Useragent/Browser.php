@@ -1825,11 +1825,13 @@ trait Browser
             /* Media players */
             [ 'name' => 'iTunes',               'regexp' => '/iTunes\/(?:xaa.)?([0-9.]*)/u' ],
             [ 'name' => 'iTunes',               'regexp' => '/iTunes-AppleTV\//u' ],
-            [ 'name' => 'QuickTime',            'regexp' => '/QuickTime[\/\\\\](?:xaa.)?([0-9.]*)/u' ],
+            [ 'name' => 'QuickTime',            'regexp' => '/\(qtver=([0-9.]*);/u' ],
             [ 'name' => 'Bluefish',             'regexp' => '/bluefish ([0-9.]*)/u' ],
             [ 'name' => 'Songbird',             'regexp' => '/Songbird\/([0-9.]*)/u' ],
-            [ 'name' => 'Stagefright',              'regexp' => '/stagefright\/([0-9.]*)/u' ],
+            [ 'name' => 'Stagefright',          'regexp' => '/stagefright\/([0-9.]*)/u' ],
             [ 'name' => 'SubStream',            'regexp' => '/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'VLC',                  'regexp' => '/VLC media player - version ([0-9.]*)/u' ],
+            [ 'name' => 'Windows Media Player', 'regexp' => '/Windows-Media-Player\/([0-9.]*)/u', 'details' => 1 ],
 
             /* Email clients */
             [ 'name' => 'Lightning',            'regexp' => '/Lightning\/([0-9.]*)/u' ],
@@ -1860,6 +1862,10 @@ trait Browser
             [ 'name' => 'ReedKit',              'regexp' => '/ReedKit\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Rome',                 'regexp' => '/Rome Client/u' ],
             [ 'name' => 'jsRSS++',              'regexp' => '/jsRSS++\/([0-9.]*)/u' ],
+            [ 'name' => 'Windows RSS Platorm',  'regexp' => '/Windows-RSS-Platform\/([0-9.]*)/u' ],
+
+            /* Podcast apps */
+            [ 'name' => 'Ziepod',              'regexp' => '/Ziepod\+? ([0-9.]*)/u' ],
 
             /* Social apps */
             [ 'name' => 'Facebook',             'regexp' => '/FBAN\/FBIOS/u' ],
@@ -1885,6 +1891,12 @@ trait Browser
 
             /* Editors */
             [ 'name' => 'W3C Amaya',            'regexp' => '/amaya\/([0-9.]*)/u' ],
+
+            /* Text based browsers */
+
+            [ 'name' => 'Lynx',                 'regexp' => '/Lynx\/([0-9.]*)/u' ],
+            [ 'name' => 'ELinks',               'regexp' => '/ELinks\/([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'w3m',                  'regexp' => '/w3m\/([0-9.]*)/u' ],
 
             /* Browsers */
             [ 'name' => '1Browser',             'regexp' => '/1Password\/([0-9.]*)/u' ],
@@ -1946,7 +1958,6 @@ trait Browser
             [ 'name' => 'Dorothy',              'regexp' => '/Dorothy$/u' ],
             [ 'name' => 'DWB',                  'regexp' => '/dwb(?:-hg)?(?:\/([0-9.]*))?/u' ],
             [ 'name' => 'GNOME Web',            'regexp' => '/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'ELinks',               'regexp' => '/ELinks\/([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'EVM Browser',          'regexp' => '/EVMBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'EMOBILE Browser',      'regexp' => '/WWW Browser\/ver([0-9.]*)/u' ],
             [ 'name' => 'EudoraWeb',            'regexp' => '/EudoraWeb ([0-9.]*)/u' ],
@@ -1978,7 +1989,6 @@ trait Browser
             [ 'name' => 'Lobo',                 'regexp' => '/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Lotus Expeditor',      'regexp' => '/Gecko Expeditor ([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'Lunascape',            'regexp' => '/Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],
-            [ 'name' => 'Lynx',                 'regexp' => '/Lynx\/([0-9.]*)/u' ],
             [ 'name' => 'Motorola Internet Browser', 'regexp' => '/MIB\/([0-9.]*)/u' ],
             [ 'name' => 'iLunascape',           'regexp' => '/iLunascape\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'Intermec Browser',     'regexp' => '/Intermec\/([0-9.]*)/u', 'details' => 2 ],
@@ -1999,7 +2009,7 @@ trait Browser
             [ 'name' => 'OneBrowser',           'regexp' => '/OneBrowser\/([0-9.]*)/u' ],
             [ 'name' => 'Openwave',             'regexp' => '/Openwave\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Openwave',             'regexp' => '/Openwave Mobile Browser ([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
-            [ 'name' => 'Openwave',             'regexp' => '/UP\.Browser\/([a-z0-9.]*)/iu', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'Openwave',             'regexp' => '/UP\. ?Browser(?:\/([a-z0-9.]*))?/iu', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'Opera Oupeng',         'regexp' => '/Oupeng\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Opera Oupeng',         'regexp' => '/OupengHD-([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Oregano',              'regexp' => '/Oregano ([0-9.]*)/u' ],
@@ -2061,12 +2071,12 @@ trait Browser
             [ 'name' => 'YRC Weblink',          'regexp' => '/YRCWeblink\/([0-9.]*)/u' ],
             [ 'name' => 'Zetakey',              'regexp' => '/Zetakey Webkit\/([0-9.]*)/u' ],
             [ 'name' => 'Zetakey',              'regexp' => '/Zetakey\/([0-9.]*)/u' ],
-            [ 'name' => '冲浪浏览器',            'regexp' => '/CMSurfClient-Android/u' ],
+            [ 'name' => '冲浪浏览器',             'regexp' => '/CMSurfClient-Android/u' ],
 
             [ 'name' => 'Nimbus',               'regexp' => '/Nimbus\/([0-9.]*)/u' ],
 
             [ 'name' => 'McAfee Web Gateway',   'regexp' => '/Webwasher\/([0-9.]*)/u' ],
-            [ 'name' => 'Android Download Manager', 'regexp' => '/AndroidDownloadManager\/([0-9.]*)/u' ],
+            [ 'name' => 'Android Download Manager', 'regexp' => '/AndroidDownloadManager\//u' ],
 
             [ 'name' => 'Open Sankoré',         'regexp' => '/Open-Sankore\/([0-9.]*)/u', 'type' => Constants\DeviceType::WHITEBOARD ],
 
