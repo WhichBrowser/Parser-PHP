@@ -188,7 +188,7 @@ Bots::$BOTS = [
     [ 'name' => 'Yahoo! Product Search',        'regexp' => '/YahooSeeker\/ProductSearch([0-9.]*)/u' ],
     [ 'name' => 'Yahoo! Slurp',                 'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u' ],
     [ 'name' => 'Yahoo! Slurp',                 'regexp' => '/Yahoo\! Slurp/u' ],
-    [ 'name' => 'Yahoo! Seeker',                'regexp' => '/YahooSeeker\/([0-9.]*)/u' ],
+    [ 'name' => 'Yahoo! Seeker',                'regexp' => '/YahooSeeker(?:\/([0-9.]*))?/u' ],
     [ 'name' => 'Yahoo! Seeker',                'regexp' => '/YahooSeeker-Testing\/v([0-9.]*)/u' ],
     [ 'name' => 'Yahoo! Site Checker',          'regexp' => '/Y\!J SiteChecker/u' ],
     [ 'name' => 'Yahoo! Pipes',                 'regexp' => '/Yahoo Pipes ([0-9.]*)/u' ],
