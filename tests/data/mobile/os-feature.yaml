@@ -532,3 +532,24 @@
 -
     headers: 'User-Agent: KWC-Glide/ UP.Browser/7.2.7.2.541 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: Glide } }
+-
+    headers: 'User-Agent: KDDI-W61CA UP.Browser/6.2.0.5 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: W61CA } }
+-
+    headers: 'User-Agent: KDDI-W54T UP.Browser/6.2.0.7.3.129 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: W54T } }
+-
+    headers: 'User-Agent: KDDI-W53S UP.Browser'
+    result: { browser: { name: Openwave }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W53S } }
+-
+    headers: 'User-Agent: KDDI-W41SA UP.Browser/6.2.0.7.3.129'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: W41SA } }
+-
+    headers: 'User-Agent: KDDI-W32S UP.Browser/6.2.0.5(GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W32S } }
+-
+    headers: 'User-Agent: KDDI-W11H UP.Browser/6.2.0.5 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W11H } }
+-
+    headers: 'User-Agent: KDDI-SN39'
+    result: { device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W51S } }

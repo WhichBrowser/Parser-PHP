@@ -670,7 +670,7 @@ trait Mobile
             'manufacturer'  => 'Softbank'
         ]);
 
-        $this->data->device->identifyModel('/(KDDI-[^\s\);]+)/ui', $ua, [
+        $this->data->device->identifyModel('/(KDDI-[^\s\)\.;]{4,})/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'KDDI'
         ]);
@@ -688,6 +688,7 @@ trait Mobile
 
         $ids = [
             'CA'    => 'Casio',
+            'ER'    => 'Ericsson',
             'HT'    => 'HTC',
             'HW'    => 'Huawei',
             'IA'    => 'Inventec',
@@ -696,7 +697,9 @@ trait Mobile
             'NK'    => 'Nokia',
             'SA'    => 'Sanyo',
             'SC'    => 'Samsung',
+            'SS'    => 'Samsung',
             'SH'    => 'Sharp',
+            'SE'    => 'Sony Ericsson',
             'SO'    => 'Sony',
             'F'     => 'Fujitsu',
             'D'     => 'Mitsubishi',
@@ -709,7 +712,7 @@ trait Mobile
             'T'     => 'Toshiba'
         ];
 
-        if (preg_match('/[\s\/\-\(;]((' . implode('|', array_keys($ids)) . ')[0-9]{3,3}[a-z]+[A-Z]*)/u', $ua, $match)) {
+        if (preg_match('/(?:^|[\s\/\-\(;])((' . implode('|', array_keys($ids)) . ')[0-9]{3,3}[a-z]+[A-Z]*)/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
@@ -719,7 +722,7 @@ trait Mobile
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/[\s\/\-\(;]((?:V|DM|WX)?[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
+        if (preg_match('/(?:^|[\s\/\-\(;])((?:V|DM|WX)?[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }
@@ -759,25 +762,61 @@ trait Mobile
             }
         }
 
+        /* Then KDDI model number */
+
+        $ids = [
+            'CA'    => 'Casio',
+            'DE'    => 'Denso',
+            'PT'    => 'Pantech',
+            'SA'    => 'Sanyo',
+            'ST'    => 'Sanyo',
+            'SH'    => 'Sharp',
+            'H'     => 'Hitachi',
+            'K'     => 'Kyocera',
+            'P'     => 'Panasonic',
+            'S'     => 'Sony Ericsson',
+            'T'     => 'Toshiba'
+        ];
+
+        if (preg_match('/(?:^|KDDI-)(W[0-9]{2,2}(' . implode('|', array_keys($ids)) . '))[;\)\s\/]/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+
+            $this->data->device->reset([
+                'type'      => Constants\DeviceType::MOBILE,
+                'model'     => $model
+            ]);
+
+            if (array_key_exists($manufacturer, $ids)) {
+                $this->data->device->manufacturer = $ids[$manufacturer];
+            }
+
+            $this->data->device->identified |= Constants\Id::PATTERN;
+        }
+
         /* Then identify it based on KDDI id */
 
         $ids = [
             'CA'    => 'Casio',
+            'DN'    => 'Denso',
+            'ER'    => 'Ericsson',
             'FJ'    => 'Fujitsu',
             'HI'    => 'Hitachi',
             'KC'    => 'Kyocera',
             'MA'    => 'Panasonic',
+            'MI'    => 'Mitsubishi',
             'PT'    => 'Pantech',
             'SA'    => 'Sanyo',
             'ST'    => 'Sanyo',
+            'SY'    => 'Sanyo',
             'SH'    => 'Sharp',
             'SN'    => 'Sony Ericsson',
             'TS'    => 'Toshiba'
         ];
 
-        if (preg_match('/[\s\/\-\(;]((' . implode('|', array_keys($ids)) . ')[0-9][0-9A-Z])[;\)\s]/u', $ua, $match)) {
-            $model = $match[1];
-            $manufacturer = $match[2];
+        if (preg_match('/(?:^|KDDI-|UP\. ?Browser\/[0-9\.]+-|; )((' . implode('|', array_keys($ids)) . ')(?:[0-9][0-9]|[A-Z][0-9]|[0-9][A-Z]))($|[;\)\s])/ui', $ua, $match)) {
+            $model = strtoupper($match[1]);
+            $manufacturer = strtoupper($match[2]);
 
             $this->data->device->reset([
                 'type'      => Constants\DeviceType::MOBILE,
