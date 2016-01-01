@@ -687,7 +687,7 @@ trait Mobile
             'SA'    => 'Sanyo',
             'SC'    => 'Samsung',
             'SH'    => 'Sharp',
-            'SO'    => 'Sony Ericsson',
+            'SO'    => 'Sony',
             'F'     => 'Fujitsu',
             'D'     => 'Mitsubishi',
             'J'     => 'JRC',

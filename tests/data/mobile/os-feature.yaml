@@ -411,7 +411,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N903i } }
 -
     headers: 'User-Agent: DoCoMo/2.0/SO502i'
-    result: { device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: SO502i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sony, model: SO502i } }
 -
     headers: 'User-Agent: Mozilla/5.0 (MobilePhone; NMCS/3.4; like Gecko/20060901;KYOCERA/WX340K/2;3.0.3.11.000000/1) NetFront/3.4'
     result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX340K } }

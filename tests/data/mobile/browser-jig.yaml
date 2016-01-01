@@ -66,7 +66,7 @@
     result: { browser: { name: 'Jig Browser', version: 7.0.9 }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D902i } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.8.3; SO703i)'
-    result: { browser: { name: 'Jig Browser', version: 7.8.3 }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: SO703i } }
+    result: { browser: { name: 'Jig Browser', version: 7.8.3 }, device: { type: mobile, subtype: feature, manufacturer: Sony, model: SO703i } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; 940N)'
     result: { browser: { name: 'Jig Browser', version: 1.0.0 }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: 940N } }
