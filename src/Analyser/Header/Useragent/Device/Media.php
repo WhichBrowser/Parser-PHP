@@ -8,11 +8,36 @@ trait Media
 {
     private function detectMedia($ua)
     {
+        $this->detectArchos($ua);
         $this->detectZune($ua);
         $this->detectWalkman($ua);
     }
 
 
+
+
+    /* Archos Generation 4 and 5 */
+
+    private function detectArchos($ua)
+    {
+        if (preg_match('/Archos A([67]04)WIFI\//u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Archos',
+                'model'         =>  $match[1] . ' WiFi',
+                'type'          =>  Constants\DeviceType::MEDIA
+            ]);
+        }
+
+        if (preg_match('/ARCHOS; GOGI; a([67]05);/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Archos',
+                'model'         =>  $match[1] . ' WiFi',
+                'type'          =>  Constants\DeviceType::MEDIA
+            ]);
+        }
+    }
 
 
     /* Microsoft Zune */
