@@ -648,45 +648,7 @@ trait Mobile
             return;
         }
 
-        /* First identify it based on carrier */
-
-        $this->data->device->identifyModel('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/DoCoMo\/[0-9].0[\/\s]([0-9A-Z]+)/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/NTTDoCoMo ([0-9A-Z]+)/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'DoCoMo'
-        ]);
-
-        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/_]+)/u', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Softbank'
-        ]);
-
-        $this->data->device->identifyModel('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Softbank'
-        ]);
-
-        $this->data->device->identifyModel('/(KDDI-[^\s\)\.;]{4,})/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'KDDI'
-        ]);
-
-        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Vodafone'
-        ]);
-
-
-        /* Then identify it based on id */
+        /* First identify it based on id */
 
         $model = null;
         $manufacturer = null;
@@ -765,6 +727,8 @@ trait Mobile
                     $this->data->device->flag = Constants\Flag::MOAPS;
                     break;
             }
+
+            return;
         }
 
         /* Then KDDI model number */
@@ -797,6 +761,7 @@ trait Mobile
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;
+            return;
         }
 
         /* Then identify it based on KDDI id */
@@ -839,6 +804,55 @@ trait Mobile
             }
 
             $this->data->device->identified |= Constants\Id::PATTERN;
+            return;
+        }
+
+
+        /* Finally identify it based on carrier */
+
+        $this->data->device->identifyModel('/\(([A-Z]+[0-9]+[A-Z])[^;]*; ?FOMA/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/\(FOMA ([^;]+)+;/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/DoCoMo\/[0-9].0[\/\s]([0-9A-Z]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/NTTDoCoMo ([0-9A-Z]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'DoCoMo'
+        ]);
+
+        $this->data->device->identifyModel('/J-PHONE\/[^\/]+\/([^\/_]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/SoftBank\/[^\/]+\/([^\/]+)\//u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Softbank'
+        ]);
+
+        $this->data->device->identifyModel('/(KDDI-[^\s\)\.;]{4,})/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'KDDI'
+        ]);
+
+        $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/V([0-9]+[A-Z]+)[^\/]*\//ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Vodafone'
+        ]);
+
+
+        if (!empty($this->data->device->model)) {
+            $this->identifyBasedOnId($this->data->device->model);
         }
     }
 

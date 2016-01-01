@@ -556,3 +556,6 @@
 -
     headers: 'User-Agent: Panasonic-X200P/RP1 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: X200P } }
+-
+    headers: 'User-Agent: Opera/3.1 (FOMA M1000; U; FOMA; ja-JP; rv:1.1.2) Opera/20050207 Opera/3.11'
+    result: { browser: { name: 'Opera Mobile', version: '3.1' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000 } }
