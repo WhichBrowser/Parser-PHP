@@ -578,6 +578,11 @@ trait Os
                 }
             }
 
+            if (preg_match('/Microsoft Windows; PPC/u', $ua)) {
+                $this->data->os->name = 'Windows Mobile';
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }            
+
             /* Detect models in common places */
 
             if (preg_match('/Windows ?Mobile/u', $ua)) {
