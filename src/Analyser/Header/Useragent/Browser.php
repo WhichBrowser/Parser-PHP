@@ -598,6 +598,18 @@ trait Browser
             }
         }
 
+
+        if (preg_match('/GranParadiso/u', $ua)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Firefox';
+
+            if (preg_match('/GranParadiso\/([0-9ab.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->browser->channel = 'Gran Paradiso';
+        }
+
         if (preg_match('/Namoroka/u', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox';
