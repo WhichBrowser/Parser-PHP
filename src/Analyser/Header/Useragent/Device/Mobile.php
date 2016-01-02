@@ -716,7 +716,7 @@ trait Mobile
             $manufacturer = $match[2];
         }
 
-        if (preg_match('/^DoCoMo\/[0-9].0[\/\s](?:MST_v_)?((' . implode('|', array_keys($ids)) . ')[1-9][0-9]{3,3}[A-Z]?)/u', $ua, $match)) {
+        if (preg_match('/DoCoMo\/[0-9].0[\/\s](?:MST_v_)?((' . implode('|', array_keys($ids)) . ')[1-9][0-9]{3,3}[A-Z]?)/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
         }

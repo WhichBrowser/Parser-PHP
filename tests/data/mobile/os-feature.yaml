@@ -589,3 +589,6 @@
 -
     headers: 'User-Agent: DoCoMo\xe2\x81\x842.0 P901i(c100;TB;W30H15)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P901i } }
+-
+    headers: 'User-Agent: F2051 DoCoMo/2.0 F2051(c100;TB)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F2051 } }
