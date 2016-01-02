@@ -290,6 +290,7 @@ DeviceModels::$KDDI_MODELS = [
     'SY13'                                 => [ 'Sanyo', 'C405SA' ],
     'SY14'                                 => [ 'Sanyo', 'C412SA' ],
     'SY15'                                 => [ 'Sanyo', 'C1001SA' ],
+    'TS01'                                 => [ 'Toshiba', 'IS02' ],
     'TS11'                                 => [ 'Toshiba', 'C301T' ],
     'TS12'                                 => [ 'Toshiba', 'C310T' ],
     'TS13'                                 => [ 'Toshiba', 'C410T' ],

@@ -12,7 +12,7 @@ DeviceModels::$SYMBIAN_MODELS = [
     'A920'                                      => [ 'Motorola', 'A920', 'flag' => Flag::UIQ ],
     'A925'                                      => [ 'Motorola', 'A925', 'flag' => Flag::UIQ ],
     'A1000'                                     => [ 'Motorola', 'A1000', 'flag' => Flag::UIQ ],
-    'M1000'                                     => [ 'Motorola', 'M1000', 'flag' => Flag::UIQ ],
+    'M1000'                                     => [ 'Motorola', 'M1000', 'flag' => Flag::UIQ, 'carrier' => 'DoCoMo' ],
     'G700'                                      => [ 'Sony Ericsson', 'G700', 'flag' => Flag::UIQ ],
     'G900'                                      => [ 'Sony Ericsson', 'G900', 'flag' => Flag::UIQ ],
     'M600i'                                     => [ 'Sony Ericsson', 'M600', 'flag' => Flag::UIQ ],

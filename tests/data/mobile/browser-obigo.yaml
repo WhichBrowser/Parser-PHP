@@ -24,10 +24,10 @@
     result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M615 } }
 -
     headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: Java } }
 -
     headers: 'User-Agent: Huawei/1.0/H12HW/B000 Browser/Obigo-Browser/Q04A'
-    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW } }
+    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW, carrier: EMOBILE } }
 -
     headers: 'User-Agent: HuaweiU7510/B000 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3'
     result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U7510 } }

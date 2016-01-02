@@ -187,6 +187,11 @@ class DeviceModels
                     $device->flag = isset($match[3]) ? $match[3] : $match['flag'];
                 }
                 
+
+                if (isset($match['carrier'])) {
+                    $device->carrier = $match['carrier'];
+                }
+                
                 if ($device->manufacturer == null && $device->model == null) {
                     $device->identified = Constants\Id::PATTERN;
                 }

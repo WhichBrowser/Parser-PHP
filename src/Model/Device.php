@@ -17,6 +17,9 @@ class Device extends Base
     /** @var string */
     public $series;
 
+    /** @var string */
+    public $carrier;
+
     /** @var int */
     public $identifier;
 
@@ -50,6 +53,7 @@ class Device extends Base
         unset($this->manufacturer);
         unset($this->model);
         unset($this->series);
+        unset($this->carrier);
         unset($this->identifier);
 
         $this->type = '';
@@ -91,6 +95,10 @@ class Device extends Base
             $this->generic = false;
             $this->identified |= Constants\Id::PATTERN;
 
+            if (!empty($defaults['carrier'])) {
+                $this->carrier = $defaults['carrier'];
+            }
+
             if (!empty($defaults['type'])) {
                 $this->type = $defaults['type'];
             }
@@ -115,6 +123,18 @@ class Device extends Base
         }
         
         $this->identified |= Constants\Id::MATCH_UA;
+    }
+
+
+    /**
+     * Get the name of the carrier in a human readable format
+     *
+     * @return string
+     */
+
+    public function getCarrier()
+    {
+        return $this->identified && !empty($this->carrier) ? $this->carrier : '';
     }
 
 
@@ -211,6 +231,10 @@ class Device extends Base
 
         if (!empty($this->series)) {
             $result['series'] = $this->series;
+        }
+
+        if (!empty($this->carrier)) {
+            $result['carrier'] = $this->carrier;
         }
 
         return $result;

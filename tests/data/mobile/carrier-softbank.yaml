@@ -1,51 +1,51 @@
 -
     headers: 'User-Agent: J-PHONE/3.0/J-SH10'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: J-SH10 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: J-SH10, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/4.3/V604SH/SNJSHQ2099925 SH/0009aa Profile/MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.3.2'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V604SH } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V604SH, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/4.3/V603SH/SNJSHM3102091 SH/0007aa Profile/MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.3.2'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V603SH } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V603SH, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/5.0/V801SA/SN123456789012345 SA/0001JP Profile/MIDP-1.0 Configuration/CLDC-1.0'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: V801SA } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: V801SA, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/4.2/V601SH/SNJSHH1226872 SH/0004aa Profile/MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.2.1'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V601SH } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V601SH, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/4.1/J-SA51_a/SNJSAA1000513 SA/0001JP Profile/MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.1.1'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: J-SA51 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: J-SA51, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/3.0/V301T'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: V301T } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: V301T, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/3.0/J-SH05'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: J-SH05 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: J-SH05, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/2.0/J-P03'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: J-P03 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: J-P03, carrier: Softbank } }
 -
     headers: 'User-Agent: J-PHONE/5.0/V801SH/SN000000000 SH/0005aa Profile /MIDP-1.0 Configuration/CLDC-1.0 Ext-Profile/JSCL-1.1.0'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V801SH } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V801SH, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/103P/PJP10/SN352788051966244 Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 103P } }
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 103P, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/708SC/SCJ001/SN543210987654321 Browser/NetFront/3.3'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 708SC } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 708SC, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/932SH/SHJ003/SN353700022260911 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 932SH } }
+    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 932SH, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/910T/TJ001/SN Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 910T } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 910T, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/911SH/SHJ001/SN353678010678288 Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 911SH } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 911SH, carrier: Softbank } }
 -
     headers: 'User-Agent: Vodafone/1.0/V804SH/SHJ001/SN0000000000000 Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.3.2 Ext-V-Profile/VSCL-2.0.0'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V804SH } }
+    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V804SH, carrier: Softbank } }
 -
     headers: 'User-Agent: Vodafone/1.0/V905SH/SHJ001 Browser/VF-NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V905SH } }
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V905SH, carrier: Softbank } }

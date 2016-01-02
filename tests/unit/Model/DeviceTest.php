@@ -16,6 +16,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('', $device->getManufacturer());
         $this->assertEquals('', $device->getModel());
+        $this->assertEquals('', $device->getCarrier());
     }
 
     public function testWithDefaults()
@@ -128,6 +129,21 @@ class DeviceTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Reader', $device->series);
     }
 
+    public function testCarrier()
+    {
+        $device = new Device();
+
+        $device->setIdentification([
+            'manufacturer'  =>  'NEC',
+            'model'         =>  'N2002',
+            'carrier'       =>  'DoCoMo',
+        ]);
+
+        $this->assertEquals('DoCoMo', $device->getCarrier());
+        $this->assertEquals('DoCoMo', $device->carrier);
+    }
+
+
     public function testSetWithoutIdentified()
     {
         $device = new Device();
@@ -228,6 +244,23 @@ class DeviceTest extends PHPUnit_Framework_TestCase
             'model'         =>  'Playstation 4',
             'type'          =>  Constants\DeviceType::GAMING,
             'subtype'       =>  Constants\DeviceSubType::CONSOLE
+        ], $device->toArray());
+
+
+        $device->setIdentification([
+            'manufacturer'  =>  'NEC',
+            'model'         =>  'N2002',
+            'carrier'       =>  'DoCoMo',
+            'type'          =>  Constants\DeviceType::MOBILE,
+            'subtype'       =>  Constants\DeviceSubType::FEATURE
+        ]);
+
+        $this->assertEquals([
+            'manufacturer'  =>  'NEC',
+            'model'         =>  'N2002',
+            'carrier'       =>  'DoCoMo',
+            'type'          =>  Constants\DeviceType::MOBILE,
+            'subtype'       =>  Constants\DeviceSubType::FEATURE
         ], $device->toArray());
     }
 }

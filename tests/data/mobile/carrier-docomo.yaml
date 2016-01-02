@@ -1,90 +1,90 @@
 -
     headers: 'User-Agent: DoCoMo/1.0/D505i/c20/TB/W20H10'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D505i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D505i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/1.0/F671is/c1'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F671is } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F671is, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 F03B(c500;TB;W24H16)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F03B } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F03B, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 F04A(c100;TB;W24H17;ser353709020370762; icc8981100020732495171f)(c100;TB;W24H12)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F04A } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F04A, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 F09C(c500;TB;W24H16)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F09C } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F09C, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N02C(c500;TB;W24H16)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N02C } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N02C, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N09A3(c500;TB;W30H20)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N09A } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N09A3, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16;ser28028f0a26884cc;icc123428028f0a26884cc1)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH06B(c500;TB;W20H13)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06B } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06B, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH07F(c500;TB;W24H16)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH07F } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH07F, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH901iC(c100;TB;W24H12)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH901iC } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH901iC, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/3.0/X503i/c10/serNMAIA000001'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: X503i } }
+    result: { device: { type: mobile, subtype: feature, model: X503i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/3.0 N903i'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N903i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N903i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0/SO502i'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sony, model: SO502i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sony, model: SO502i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N2102V(c100;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2102V } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2102V, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N2002(c100)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 N2701(c100;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2701 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2701, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Docomo/2.0 P2002(c100)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: P2002 } }
+    result: { device: { type: mobile, subtype: feature, model: P2002, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 P2101V（c100)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0 T2101V(c100)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T2101V } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T2101V, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0/N2002/'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0\xe3\x80\x80MST_v_SH2101V(c100)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH2101V } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH2101V, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo/2.0\xe3\x80\x80P2101V\xef\xbc\x88c100\xef\xbc\x89'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V, carrier: DoCoMo } }
 -
     headers: 'User-Agent: DoCoMo\xe2\x81\x842.0 P901i(c100;TB;W30H15)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P901i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P901i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: F2051 DoCoMo/2.0 F2051(c100;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F2051 } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F2051, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (NTTDoCoMo SH900i) Scope/3.0 Venus/0326.1'
-    result: { browser: { name: Scope, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i } }
+    result: { browser: { name: Scope, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (N04A;FOMA;like Gecko)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N04A } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N04A, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/4.08 (SH705i2;FOMA;c300;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH705i } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH705i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Opera/3.1 (FOMA M1000; U; FOMA; ja-JP; rv:1.1.2) Opera/20050207 Opera/3.11'
-    result: { browser: { name: 'Opera Mobile', version: '3.1' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000 } }
+    result: { browser: { name: 'Opera Mobile', version: '3.1' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SH06A3;FOMA;like Gecko)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A3, carrier: DoCoMo } }

@@ -120,7 +120,7 @@
     result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Messenger Touch R631' } }
 -
     headers: 'User-Agent: Mozilla/4.08 (N905imyu_W;FOMA;c500;TB)'
-    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905imyu } }
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905imyu, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; samsung-gt-e2202) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '8.5' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Metro } }
@@ -264,7 +264,7 @@
     result: { browser: { name: Openwave, version: '6.1' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: MC60 } }
 -
     headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: MTC-752 } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: Java } }
 -
     headers: 'User-Agent: Vodafone/SonyEricssonV800/R1S025 Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'SEMC Browser', version: '4.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: V800 } }
