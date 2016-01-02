@@ -559,3 +559,24 @@
 -
     headers: 'User-Agent: Opera/3.1 (FOMA M1000; U; FOMA; ja-JP; rv:1.1.2) Opera/20050207 Opera/3.11'
     result: { browser: { name: 'Opera Mobile', version: '3.1' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000 } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 N2102V(c100;TB)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2102V } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 N2002(c100)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002 } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 N2701(c100;TB)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2701 } }
+-
+    headers: 'User-Agent: Docomo/2.0 P2002(c100)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: DoCoMo, model: P2002 } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 P2101V（c100)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 T2101V(c100)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T2101V } }
+-
+    headers: 'User-Agent: DoCoMo/2.0/N2002/'
+    result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002 } }
