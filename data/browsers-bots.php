@@ -190,11 +190,12 @@ Bots::$BOTS = [
     [ 'name' => 'Yahoo! Slurp',                 'regexp' => '/Yahoo\! Slurp/u' ],
     [ 'name' => 'Yahoo! Seeker',                'regexp' => '/YahooSeeker(?:\/([0-9.]*))?/u' ],
     [ 'name' => 'Yahoo! Seeker',                'regexp' => '/YahooSeeker-Testing\/v([0-9.]*)/u' ],
+    [ 'name' => 'Yahoo! Seeker',                'regexp' => '/yahooseeker-jp-mobile/u' ],
     [ 'name' => 'Yahoo! Site Checker',          'regexp' => '/Y\!J SiteChecker/u' ],
     [ 'name' => 'Yahoo! Pipes',                 'regexp' => '/Yahoo Pipes ([0-9.]*)/u' ],
     [ 'name' => 'Yahoo! Video Search',          'regexp' => '/YahooVideoSearch/u' ],
     [ 'name' => 'Yahoo! Japan',                 'regexp' => '/Yahoo\! Japan/u' ],
-    [ 'name' => 'Yahoo! Japan',                 'regexp' => '/^Y\!J-/u' ],
+    [ 'name' => 'Yahoo! Japan',                 'regexp' => '/(^|\(compatible; )Y\!J-/u' ],
 
     /* Generic bots */
     [ 'name' => 'Apache Httpd',                 'regexp' => '/Apache-HttpClient(?:\/([0-9.]*))?/u' ],
