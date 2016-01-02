@@ -1907,7 +1907,8 @@ trait Browser
             /* Text based browsers */
 
             [ 'name' => 'Lynx',                 'regexp' => '/Lynx\/([0-9.]*)/u' ],
-            [ 'name' => 'ELinks',               'regexp' => '/ELinks\/([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Links',                'regexp' => '/Links \(([0-9.]*)/u' ],
+            [ 'name' => 'ELinks',               'regexp' => '/E[Ll]inks(?:\/| \()([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'w3m',                  'regexp' => '/w3m\/([0-9.]*)/u' ],
 
             /* Browsers */
@@ -1997,7 +1998,6 @@ trait Browser
             [ 'name' => 'Lbbrowser',            'regexp' => '/LBBROWSER/u' ],
             [ 'name' => 'Leechcraft',           'regexp' => '/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2 ],
             [ 'name' => 'LieBaoFast',           'regexp' => '/LieBaoFast\/([0-9.]*)/u' ],
-            [ 'name' => 'Links',                'regexp' => '/Links \(([0-9.]*)/u' ],
             [ 'name' => 'Lobo',                 'regexp' => '/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Lotus Expeditor',      'regexp' => '/Gecko Expeditor ([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'Lunascape',            'regexp' => '/Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],
