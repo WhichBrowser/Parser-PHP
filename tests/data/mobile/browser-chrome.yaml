@@ -30,10 +30,10 @@
     result: { browser: { name: Chrome, version: '30' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-10D Build/V20R47F) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.33 Mobile Safari/537.22'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows X F-10D' } }
+    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows X F-10D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-11D Build/V21R36A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.74 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '27' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows Me' } }
+    result: { browser: { name: Chrome, version: '27' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows Me', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; FZ-A1B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36'
     result: { browser: { name: Chrome, version: '31' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
@@ -51,13 +51,13 @@
     result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW13F Build/V77R60B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows Z' } }
+    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows Z', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Lenovo S880 Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: S880 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; SC-02C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36'
     result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }

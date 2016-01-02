@@ -686,6 +686,7 @@ trait Mobile
             'SH'    => 'Sharp',
             'SE'    => 'Sony Ericsson',
             'SO'    => 'Sony',
+            'ZT'    => 'ZTE',
             'F'     => 'Fujitsu',
             'D'     => 'Mitsubishi',
             'J'     => 'JRC',
@@ -694,7 +695,8 @@ trait Mobile
             'M'     => 'Motorola',
             'N'     => 'NEC',
             'P'     => 'Panasonic',
-            'T'     => 'Toshiba'
+            'T'     => 'Toshiba',
+            'Z'     => 'ZTE',
         ];
 
         if (preg_match('/(?:^|[\s\/\-\(;])((' . implode('|', array_keys($ids)) . ')[0-9]{3,3}[a-z]+[A-Z]*)/u', $ua, $match)) {
