@@ -18,4 +18,4 @@
     result: { browser: { name: NetFront, version: '4.1' }, os: { name: 'Windows Mobile' }, device: { type: pda } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF35WMPRO/3.2; like Gecko) NetFront/3.5 T-01A_6.5'
-    result: { browser: { name: NetFront, version: '3.5' }, os: { name: 'Windows Mobile' }, device: { type: pda, manufacturer: DoCoMo, model: 'PRO series T-01A' } }
+    result: { browser: { name: NetFront, version: '3.5' }, os: { name: 'Windows Mobile' }, device: { type: pda, manufacturer: DoCoMo, model: 'PRO series T-01A', carrier: DoCoMo } }
