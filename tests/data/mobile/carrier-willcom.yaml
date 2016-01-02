@@ -1,0 +1,36 @@
+-
+    headers: 'User-Agent: Mozilla/3.0(DDIPOCKET;KYOCERA/AH-K3001V/1.4.1.67.000000/0.1/C100) Opera 7.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V } }
+-
+    headers: 'User-Agent: Mozilla/3.0(DDIPOCKET;KYOCERA/AH-K3001V/1.4.1.67.000000/0.1/C100) Opera 7.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (DDIPOCKET;JRC/AH-J3001V,AH-J3002V/1.0/0100/c50) CNF/2.0'
+    result: { browser: { name: CNF, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: JRC, model: AH-J3001V } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MobilePhone; NMCS/3.4; like Gecko/20060901;KYOCERA/WX340K/2;3.0.3.11.000000/1) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX340K } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KYOCERA/WX320K/2;1.0.7.14.000000/0.1) Opera 7.0 [ja]'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX320K } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KYOCERA/AH-K3001V/1.7.2.70.000000/0.1) Opera 7.0 [ja]'
+    result: { browser: { name: 'Opera Mobile', version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX331K/2;1.0.8.13.000000/0.1/C100) Opera 7.2 EX'
+    result: { browser: { name: 'Opera Mobile', version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX331K } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;SANYO/WX310SA/2;1/1/C128) NetFront/3.3'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: WX310SA } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;SANYO/WX310SA/2;1/1/C128) NetFront/3.3'
+    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: WX310SA } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;TOSHIBA/WX320T/2;1/1/C128) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: WX320T } }

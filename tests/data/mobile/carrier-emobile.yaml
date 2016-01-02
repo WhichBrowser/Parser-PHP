@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: Huawei/1.0/H12HW/B000 Browser/Obigo-Browser/Q04A'
+    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW } }
+-
+    headers: 'User-Agent: IAC/1.0 (H31IA;like Gecko;OpenBrowser) WWW Browser/ver1.0'
+    result: { browser: { name: 'EMOBILE Browser', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Inventec, model: H31IA } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (H11T; like Gecko; OpenBrowser) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T } }
+-
+    headers: 'User-Agent: emobile/1.0.0 (H11T; like Gecko; Wireless) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T } }
