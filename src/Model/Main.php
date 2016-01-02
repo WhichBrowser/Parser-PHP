@@ -296,6 +296,10 @@ class Main
             return 'an unknown browser based on ' . $engine;
         }
         
+        if ($this->device->type == 'bot') {
+            return 'an unknown bot';
+        }
+
         return 'an unknown browser';
     }
 
