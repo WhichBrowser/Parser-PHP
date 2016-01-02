@@ -580,3 +580,12 @@
 -
     headers: 'User-Agent: DoCoMo/2.0/N2002/'
     result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N2002 } }
+-
+    headers: 'User-Agent: DoCoMo/2.0\xe3\x80\x80MST_v_SH2101V(c100)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH2101V } }
+-
+    headers: 'User-Agent: DoCoMo/2.0\xe3\x80\x80P2101V\xef\xbc\x88c100\xef\xbc\x89'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P2101V } }
+-
+    headers: 'User-Agent: DoCoMo\xe2\x81\x842.0 P901i(c100;TB;W30H15)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P901i } }
