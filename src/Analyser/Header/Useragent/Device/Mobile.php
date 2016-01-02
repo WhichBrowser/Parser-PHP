@@ -653,8 +653,8 @@ trait Mobile
         if (preg_match('/^DoCoMo/u', $ua)) {
             $ua = preg_replace_callback(
                 "#\\\x([0-9A-Fa-f]{2})#",
-                function($m) { 
-                    return chr(hexdec($m[1])); 
+                function ($m) {
+                    return chr(hexdec($m[1]));
                 },
                 $ua
             );
