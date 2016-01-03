@@ -742,7 +742,15 @@ trait Mobile
             $carrier = 'Softbank';
         }
 
-        if (preg_match('/(?:^|[\s\/\-\(;])((V|DM|WX)?[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
+        if (preg_match('/(?:^|; |\/)([0-9]{3,3}(' . implode('|', array_keys($ids)) . '))[\/\)]/u', $ua, $match)) {
+            if ($match[1] != '360SE') {
+                $model = $match[1];
+                $manufacturer = $match[2];
+                $carrier = 'Softbank';
+            }
+        }
+
+        if (preg_match('/(?:^|[\s\/\-\(;])((V|DM|WX)[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[3];
 
@@ -755,9 +763,6 @@ trait Mobile
                     break;
                 case 'WX':
                     $carrier = 'Willcom';
-                    break;
-                default:
-                    $carrier = 'Softbank';
                     break;
             }
         }
