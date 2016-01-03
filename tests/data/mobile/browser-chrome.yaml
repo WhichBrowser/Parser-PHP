@@ -48,7 +48,7 @@
     result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Raider 4G' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW12HT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
+    result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW13F Build/V77R60B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'Arrows Z', carrier: au } }
