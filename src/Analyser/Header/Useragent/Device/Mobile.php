@@ -673,6 +673,7 @@ trait Mobile
 
         $ids = [
             'CA'    => 'Casio',
+            'DL'    => 'Dell',
             'ER'    => 'Ericsson',
             'HT'    => 'HTC',
             'HW'    => 'Huawei',
