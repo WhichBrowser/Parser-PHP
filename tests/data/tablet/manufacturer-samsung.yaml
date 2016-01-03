@@ -30,10 +30,10 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 10.1N' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SC-01D Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 10.1 LTE', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab 10.1 LTE SC-01D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SC-01E Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.7 Plus', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab 7.7 Plus SC-01E', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SCH-I800 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.0' } }
@@ -72,7 +72,7 @@
     result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Pro 12.2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; 403SC Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 (7.0)', carrier: Softbank } }
+    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab 4 (7.0) 403SC', carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Note 10.1' } }
@@ -111,7 +111,7 @@
     result: { browser: { name: 'Samsung Browser', version: '2.0' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 10.1 (2015)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; xx; SCT21 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S', carrier: au } }
+    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab S SCT21', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-P350 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Safari/537.36'
     result: { browser: { name: 'Samsung Browser', version: '3.2' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab A Plus 8.0' } }
