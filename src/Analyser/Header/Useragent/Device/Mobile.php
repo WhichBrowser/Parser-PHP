@@ -628,6 +628,10 @@ trait Mobile
             return;
         }
 
+        if ($this->data->os->isFamily('Android')) {
+            return;
+        }
+
         /* Sometimes DoCoMo UA strings are (partially) encoded */
 
         if (preg_match('/^DoCoMo/u', $ua)) {
@@ -645,6 +649,7 @@ trait Mobile
         $model = null;
         $manufacturer = null;
         $carrier = null;
+        $falsepositive = false;
 
         $ids = [
             'CA'    => 'Casio',
@@ -718,11 +723,9 @@ trait Mobile
         }
 
         if (preg_match('/(?:^|; |\/)([0-9]{3,3}(' . implode('|', array_keys($ids)) . '))[\/\)]/u', $ua, $match)) {
-            if ($match[1] != '360SE') {
-                $model = $match[1];
-                $manufacturer = $match[2];
-                $carrier = 'Softbank';
-            }
+            $model = $match[1];
+            $manufacturer = $match[2];
+            $carrier = 'Softbank';
         }
 
         if (preg_match('/(?:^|[\s\/\-\(;])((V|DM|WX)[0-9]{3,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
@@ -748,7 +751,11 @@ trait Mobile
             $carrier = 'Willcom';
         }
 
-        if (!empty($model) && !empty($manufacturer)) {
+        if (in_array($model, [ '360SE' ])) {
+            $falsepositive = true;
+        }
+
+        if (!$falsepositive && !empty($model) && !empty($manufacturer)) {
             $this->data->device->reset([
                 'type'      => Constants\DeviceType::MOBILE,
                 'model'     => $model,
@@ -833,26 +840,33 @@ trait Mobile
         if (preg_match('/(?:^|KDDI-|UP\. ?Browser\/[0-9\.]+-|; )((' . implode('|', array_keys($ids)) . ')(?:[0-9][0-9]|[A-Z][0-9]|[0-9][A-Z]))($|[;\)\s])/ui', $ua, $match)) {
             $model = strtoupper($match[1]);
             $manufacturer = strtoupper($match[2]);
+            $falsepositive = false;
 
-            $this->data->device->reset([
-                'type'      => Constants\DeviceType::MOBILE,
-                'model'     => $model,
-                'carrier'   => 'au'
-            ]);
-            
-            if (array_key_exists($manufacturer, $ids)) {
-                $this->data->device->manufacturer = $ids[$manufacturer];
-
-                $device = Data\DeviceModels::identify('kddi', $model);
-                if ($device->identified) {
-                    $device->identified |= $this->data->device->identified;
-                    $device->carrier = 'au';
-                    $this->data->device = $device;
-                }
+            if (in_array($model, [ 'MAM2', 'MAM3' ])) {
+                $falsepositive = true;
             }
 
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            return;
+            if (!$falsepositive) {
+                $this->data->device->reset([
+                    'type'      => Constants\DeviceType::MOBILE,
+                    'model'     => $model,
+                    'carrier'   => 'au'
+                ]);
+                
+                if (array_key_exists($manufacturer, $ids)) {
+                    $this->data->device->manufacturer = $ids[$manufacturer];
+
+                    $device = Data\DeviceModels::identify('kddi', $model);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $device->carrier = 'au';
+                        $this->data->device = $device;
+                    }
+                }
+
+                $this->data->device->identified |= Constants\Id::PATTERN;
+                return;
+            }
         }
 
 
