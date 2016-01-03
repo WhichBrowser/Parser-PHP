@@ -620,31 +620,6 @@ trait Mobile
     }
 
 
-    /* Japanese carriers */
-
-    private function detectJapaneseCarriers($ua)
-    {
-        if (preg_match('/(DoCoMo\/|FOMA)/u', $ua)) {
-            $this->data->device->carrier = 'DoCoMo';
-        }
-
-        if (preg_match('/(emobile\/)/u', $ua)) {
-            $this->data->device->carrier = 'EMOBILE';
-        }
-
-        if (preg_match('/(KDDI-)/u', $ua)) {
-            $this->data->device->carrier = 'au';
-        }
-
-        if (preg_match('/(SoftBank\/|Vodafone\/|J-PHONE\/)/u', $ua)) {
-            $this->data->device->carrier = 'Softbank';
-        }
-
-        if (preg_match('/(WILLCOM|DDIPOCKET)/u', $ua)) {
-            $this->data->device->carrier = 'Willcom';
-        }
-    }
-
     /* Japanese models */
 
     private function detectJapaneseMobileModels($ua)
@@ -796,10 +771,6 @@ trait Mobile
                     $this->data->os->reset([ 'family' => new Family([ 'name' => 'Symbian' ]) ]);
                     $this->data->device->flag = Constants\Flag::MOAPS;
                     break;
-            }
-
-            if (empty($carrier)) {
-                $this->detectJapaneseCarriers($ua);
             }
 
             return;
