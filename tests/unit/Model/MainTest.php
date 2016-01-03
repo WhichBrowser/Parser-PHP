@@ -184,6 +184,10 @@ class MainTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('an unknown browser', $main->toString());
 
         $main = new Main();
+        $main->device->set([ 'type' => Constants\DeviceType::BOT ]);
+        $this->assertEquals('an unknown bot', $main->toString());
+
+        $main = new Main();
         $main->browser->set([ 'name' => 'Chrome', 'version' => new Version([ 'value' => '47.0.2526.73', 'details' => 1 ]) ]);
         $main->engine->set([ 'name' => 'Blink' ]);
         $main->os->set([ 'name' => 'OS X', 'version' => new Version([ 'value' => '10.11', 'nickname' => 'El Capitan' ]) ]);

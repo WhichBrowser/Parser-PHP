@@ -331,3 +331,27 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (compatible; Indy Library)'
     result: { browser: { name: 'Borland Delphi' }, device: { type: bot } }
+-
+    headers: 'User-Agent: 1NET/Crawler (compatible; 1NET; robot; http://www.1NET.gr)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: abot/0.1 (abot; http://www.abot.com; abot@abot.com)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: Amfibibot/0.07 (Amfibi Robot; http://www.amfibi.com; agent@amfibi.com)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: envolk/1.7 (+http://www.envolk.com/envolkspiderinfo.html)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: EnaBot/1.2 (http://www.enaball.com/crawler.html)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: EuripBot/0.5 (+http://www.eurip.com) PreCheck'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: FaviconArchiver/1.0 (+http://moblur.org/workshop/favicon_archive/)'
+    result: { device: { type: bot } }
+-
+    headers: 'User-Agent: Feedfetcher-feedraider; (+http://feedraider.com/help/feedfetcher.html; X subscribers; Allow like Gecko)'
+    result: { device: { type: bot } }
