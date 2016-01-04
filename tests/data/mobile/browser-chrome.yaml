@@ -87,13 +87,13 @@
     result: { browser: { name: Chrome, version: '46' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5X Build/MDB08I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.43 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '46' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+    result: { browser: { name: Chrome, version: '46' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6 Build/MPA44G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '44' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6P Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '47' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
+    result: { browser: { name: Chrome, version: '47' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Nexus 6P' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 7 Build/MDB08M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.8 Safari/537.36'
     result: { browser: { name: Chrome, version: 48.0.2564.8 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
