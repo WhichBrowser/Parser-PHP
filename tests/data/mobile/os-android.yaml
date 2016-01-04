@@ -94,3 +94,57 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 (grouper) Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 XiaoMi/MiPad/MiuiBrowser/1.0'
     result: { browser: { name: 'MIUI Browser', version: '1.0' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
+-
+    headers: 'User-Agent: MASTONE G3_TD/1.0 Android/2.3 Release/4.20.2012 Browser/AppleWebKit533.1 Profile/MIDP-2.0'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.3' }, device: { type: mobile, subtype: smart, manufacturer: Mastone, model: G3 } }
+-
+    headers: 'User-Agent: MASTONE_G13_TD/V2 Linux/3.0.13 Android/4.0 Release/04.02.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.0.4'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Mastone, model: G13 } }
+-
+    headers: 'User-Agent: Mastone_G9_TD/V2.00 Release/3.19.2012 Mozilla/5.0 (Linux; U; Android 2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Mastone, model: G9 } }
+-
+    headers: 'User-Agent: CoolPadCoolpad-8056_TD/1.0 Android/2.3.5(Linux; Android 2.3.5) Release/10.30.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Coolpad, model: '8056' } }
+-
+    headers: 'User-Agent: DESAY_TS908_CMCC_TD/1.0 Android/2.3.7 (LinuxOS 2.6.35.7) Release/04.13.2012 Browser/WAP2.0'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Desay, model: TS908 } }
+-
+    headers: 'User-Agent: GiONEE_TD500_CMCC/1.0 Android/2.3.7 (LinuxOS 2.6.35.7) Release/11.28.2011 Browser/WAP2.0 (UCWEB/7.9.3)'
+    result: { browser: { name: 'UC Browser', version: '7.9' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Gionee, model: TD500 } }
+-
+    headers: 'User-Agent: HUAWEI Y325-T00_TD/V1 Linux/3.4.5 Android/2.3.6 Release/03.26.2013 Browser/AppleWebKit533.1 Mobile Safari/533.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend Y325' } }
+-
+    headers: 'User-Agent: Hisense_E602M_TDLTE/V3 Linux/3.4.67 Android/4.4.2 Release/04.01.2014 Browser/AppleWebKit537.36 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: E602M } }
+-
+    headers: 'User-Agent: AMOI N820 Linux/3.0.13 Android/4.0.4 Release/08.24.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Amoi, model: N820 } }
+-
+    headers: 'User-Agent: AT-AS40SE Linux/3.0.13 Android/4.0.4 Release/01.25.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Wolfgang, model: AT-AS40SE } }
+-
+    headers: 'User-Agent: E1-B Linux/3.0.13 Android/4.0.4 Release/06.05.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, model: E1-B } }
+-
+    headers: 'User-Agent: GT-I9300 Linux/3.0.13 Android/4.0.4 Release/09.25.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+-
+    headers: 'User-Agent: Mobiistar Touch Kem 452 Linux/3.0.13 Android/4.0.4 Release/09.21.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Mobiistar, model: 'Touch Kem 452' } }
+-
+    headers: 'User-Agent: MI2-MI2/1.0 Linux/2.6.35.7 Android 2.3.5 Release/01.10.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2' } }
+-
+    headers: 'User-Agent: MF356ZP/A/V1 Linux/3.4.39 Android/4.4.4 Release/11.13.2014 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.4.4'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: sprd-GT-N9300/1.0 Linux/2.6.35.7 Android/4.0.3 Release/11.29.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Feiteng, model: GT-N9300 } }
+-
+    headers: 'User-Agent: OneBrowser/3.2/HS-T92_TD/1.0 Android/2.2 Release/12.10.2011 Browser/AppleWebKit533.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: OneBrowser, version: '3.2' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T92 } }
+-
+    headers: 'User-Agent: MQQBrowser/5.0/HS-T96_TD/1.0 Android/4.0 Release/5.10.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T96 } }

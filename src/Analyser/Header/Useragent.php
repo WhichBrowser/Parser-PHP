@@ -27,4 +27,11 @@ class Useragent
         $this->refineBrowser($header)
              ->refineOperatingSystem($header);
     }
+
+    private function removeKnownPrefixes($ua)
+    {
+        $ua = preg_replace('/^OneBrowser\/[0-9.]+\//', '', $ua);
+        $ua = preg_replace('/^MQQBrowser\/[0-9.]+\//', '', $ua);
+        return $ua;
+    }
 }

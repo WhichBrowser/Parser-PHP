@@ -202,11 +202,16 @@ trait Os
                 }
 
 
+
                 if (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/; ?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
-                } elseif (preg_match('/^((?U)[^\/]+)(?:_TD)?\/[^s]+ (?:Linux\/[0-9.]+ )?Android\//u', $ua, $match)) {
+                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                    $this->data->device->model = $match[1];
+                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Android(_OS)?\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                    $this->data->device->model = $match[1];
+                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
@@ -225,6 +230,11 @@ trait Os
                 /* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
                 if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android') {
                     $this->data->device->model = null;
+                }
+
+                /* Sometimes we get a model name that starts with "sprd-", in that case it delete that part */
+                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 5) == 'sprd-') {
+                    $this->data->device->model = substr($this->data->device->model, 5);
                 }
 
                 /* Sometimes we get version and API numbers and display size too */
