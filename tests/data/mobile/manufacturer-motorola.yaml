@@ -87,7 +87,7 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'TRIUMPH WX435' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; 201M Build/7.7.1Q-164_SMJ-143) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid RAZR M' } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR M 201M', carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; Atrix_2_WeifanZ Build/6.7.2_GC-180-EDS-20 By Muyiafan) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.48 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ATRIX 2' } }
@@ -297,7 +297,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT882' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; ISW11M Build/4.5.1A-1_KDI-92_LE-24)  AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: PHOTON ISW11M, carrier: au } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: PHOTON ISW11M, carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; MT870 Build/04.30.51) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO MT870' } }

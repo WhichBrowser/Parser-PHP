@@ -260,6 +260,7 @@ DeviceModels::$WINDOWS_PHONE_MODELS = [
     'Taylor'                                    => [ 'Samsung', 'Taylor' ],
     'S606'                                      => [ 'TCL', 'Horizon S606' ],
     'TSUNAGI'                                   => [ 'Toshiba', 'Tsunagi' ],
+    'TG01'                                      => [ 'Toshiba', 'TG01' ],
     'MI4'                                       => [ 'Xiaomi', 'Mi 4' ],
     'Win-Q900S'                                 => [ 'XOLO', 'Win Q900s' ],
     'Win Q1000'                                 => [ 'XOLO', 'Win Q1000' ],

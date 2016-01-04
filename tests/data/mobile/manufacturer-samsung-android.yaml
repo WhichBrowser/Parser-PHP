@@ -117,7 +117,7 @@
     result: { browser: { name: Chrome, version: '31' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S Duos' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ISW11SC Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II WiMAX ISW11SC', carrier: au } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II WiMAX ISW11SC', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SAMSUNG-SGH-I437 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Express' } }
@@ -132,7 +132,7 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S Blaze' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SC-05D Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY Note SC-05D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY Note SC-05D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SCH-I200 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Stellar' } }
@@ -150,7 +150,7 @@
     result: { browser: { name: Chrome, version: 28.0.1500.64 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Duos' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SCL21 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III Progre SCL21', carrier: au } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III Progre SCL21', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SGH-I757M Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Skyrocket HD' } }
@@ -183,7 +183,7 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Premier' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; SC-03E Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III α SC-03E', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III α SC-03E', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2;  GT-S5282 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Star' } }
@@ -405,7 +405,7 @@
     result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; xx; SAMSUNG SC-02F Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY J SC-02F', carrier: DoCoMo } }
+    result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY J SC-02F', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; xx; SAMSUNG SM-G310R5 Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: 'Samsung Browser', version: '1.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GreatCall Touch 3' } }
@@ -570,10 +570,10 @@
     result: { browser: { name: 'Samsung Browser', version: '3.4' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-A310F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A3 (2015)' } }
+    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A3 (2016)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-A510F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A5 (2015)' } }
+    result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A5 (2016)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G600FY Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36'
     result: { browser: { name: 'Samsung Browser', version: '3.5' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy On7' } }

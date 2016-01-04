@@ -18,7 +18,7 @@
     result: { browser: { name: 'Jig Browser', version: 8.1.6 }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 934SH, carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; SN3F)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.0 }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re, carrier: au } }
+    result: { browser: { name: 'Jig Browser', version: 1.0.0 }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re W63S, carrier: au } }
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 706P)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 706P, carrier: Softbank } }

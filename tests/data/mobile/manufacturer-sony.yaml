@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 2.3.7; SOL25 Build/17.1.1.C.1.64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia ZL2 SOL25', carrier: au } }
+    result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia ZL2 SOL25', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; LT22i Build/6.1.1.B.1.75) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia P' } }
@@ -42,16 +42,16 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Sola' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SO-01E Build/9.0.G.0.217) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia AX SO-01E', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia AX SO-01E', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SO-04D Build/7.0.D.1.117) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia GX SO-04D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia GX SO-04D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SO-05D Build/7.0.D.1.117) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia SX SO-05D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia SX SO-05D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SOL21 Build/9.0.F.0.195) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia VL SOL21', carrier: au } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia VL SOL21', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST21a Build/11.0.A.0.16) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Tipo' } }
@@ -90,10 +90,10 @@
     result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia ZL' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; SO-04E Build/10.1.1.D.0.179) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A SO-04E', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A SO-04E', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; SOL22 Build/10.2.F.3.43) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia UL SOL22', carrier: au } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia UL SOL22', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.1; C2305 Build/16.0.B.2.13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.38 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia C' } }
@@ -111,7 +111,7 @@
     result: { browser: { name: Chrome, version: 26.0.1410.58 }, engine: { name: Webkit, version: '537.31' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; SO-02F Build/14.1.H.1.230) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: 28.0.1500.94 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: 28.0.1500.94 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3.1; D2303 Build/21.0.D.8.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: 28.0.1500.94 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.3.1 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia M2' } }
@@ -120,7 +120,7 @@
     result: { browser: { name: Chrome, version: '31' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.3.1 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z Ultra (Google Edition)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; 401SO Build/14.2.A.1.136) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z3 401SO', carrier: Softbank } }
+    result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z3 401SO', carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; C6916 Build/14.2.C.0.159) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '31' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1s' } }
@@ -162,7 +162,7 @@
     result: { browser: { name: Chrome, version: '34' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia T3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SO-04F Build/14.3.B.0.251) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A2 SO-04F', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A2 SO-04F', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; D5788 Build/14.4.C.0.114) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '36' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia J1 Compact' } }
@@ -183,7 +183,7 @@
     result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia E4 dual' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; 402SO Build/28.0.C.0.413) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z4 402SO', carrier: Softbank } }
+    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z4 402SO', carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; D6683 Build/23.1.2.E.0.13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z3 dual' } }
@@ -192,7 +192,7 @@
     result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z3+' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; SO-04G Build/23.1.B.0.435) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A4 SO-04G', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia A4 SO-04G', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; E2303 Build/26.1.A.0.114) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '40' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia M4 Aqua' } }
@@ -234,4 +234,4 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia GX or TX' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; xx; SonySO-04EM Build/10.3.1.B.2.13) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia feat. HATSUNE MIKU SO-04E', carrier: DoCoMo } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia feat. HATSUNE MIKU SO-04E', carrier: DoCoMo } }
