@@ -1556,6 +1556,12 @@ trait Os
                 $this->data->os->name = 'LiMo';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
+
+
+            if (preg_match('/LinuxOS\//u', $ua) && preg_match('/Software\/R5/u', $ua)) {
+                $this->data->os->name = 'EZX Linux';
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }
         }
 
         if (preg_match('/\(Ubuntu; (Mobile|Tablet)/u', $ua)) {

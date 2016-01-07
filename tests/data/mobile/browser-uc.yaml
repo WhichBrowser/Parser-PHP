@@ -294,7 +294,7 @@
     result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Champ 3G' } }
 -
     headers: { User-Agent: 'SAMSUNG-GT-S3770K/S3770KDDLH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0', X-UCBrowser-Device: j2me, X-UCBrowser-Device-UA: 'MOT-A1200e/1.0 LinuxOS/2.4.20 Release/1.31.2007 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.56.11R', X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.5.0.449);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
-    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: Linux }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
+    result: { browser: { name: 'UC Browser', version: '9.5' }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
 -
     headers: { User-Agent: 'SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0(Java; U; MIDP-2.0; xx; sonyericssonj108i) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile', X-UCBrowser-Phone-UA: sonyericssonj108i, X-UCBrowser-Phone: sonyericssonj108i, x-ucbrowser-ua: 'pf(Java);la(en-US);re(U2/1.0.0);dv(sonyericssonj108i);pr(UCBrowser/8.8.0.227);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '8.8' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Cedar } }

@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: MOT-A1200e/1.0 LinuxOS/2.4.20 Release/1.31.2007 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.56.11R'
+    result: { os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
+-
+    headers: 'User-Agent: MOT-A1200r/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.52.08R'
+    result: { os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
+-
+    headers: 'User-Agent: MOT-A1200r/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.52.13R'
+    result: { os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
+-
+    headers: 'User-Agent: MOT-A1600/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R542_G_11.61.33R'
+    result: { os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1600 } }
