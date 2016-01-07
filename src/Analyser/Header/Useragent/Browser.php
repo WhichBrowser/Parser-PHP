@@ -1209,16 +1209,23 @@ trait Browser
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
-            $this->data->device->reset();
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-
-            $this->data->os->reset();
-            $this->data->os->name = 'Windows Mobile';
-
             if (preg_match('/ WM([0-9]) /u', $ua, $match)) {
+                $this->data->device->reset();
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $this->data->os->reset();
+                $this->data->os->name = 'Windows Mobile';
                 $this->data->os->version = new Version([ 'value' => $match[1] . '.0' ]);
-            } else {
+            }
+
+            if (preg_match('/Windows NT/u', $ua, $match)) {
                 $this->data->browser->mode = 'desktop';
+
+                $this->data->device->reset();
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $this->data->os->reset();
+                $this->data->os->name = 'Windows Mobile';
             }
         }
     }
