@@ -43,3 +43,9 @@
 -
     headers: 'User-Agent: Opera/9.80 (X11; SunOS sun4u; U; xx) Presto/2.2 Version/10.11'
     result: { browser: { name: Opera, version: '10.11' }, engine: { name: Presto, version: '2.2' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+-
+    headers: 'User-Agent: User-Agent: Mozilla/1.0N (X11; SunOS 4.1.1 sun4c)'
+    result: { browser: { name: 'Netscape Navigator', version: '1.0' }, os: { name: Solaris, family: BSD, version: '1.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: User-Agent: Mozilla/1.1N (X11; I; SunOS 4.1.2 sun4c)'
+    result: { browser: { name: 'Netscape Navigator', version: '1.1' }, os: { name: Solaris, family: BSD, version: 1.0.1 }, device: { type: desktop } }

@@ -1395,30 +1395,29 @@ trait Os
             $this->data->os->name = 'Solaris';
             $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
-            if (preg_match('/SunOS 4\.1\.([1234])/u', $ua, $match)) {
-                $version = '1';
-
-                switch ($match[1]) {
-                    case '1':
-                        $version = '1.0';
-                        break;
-                    case '2':
-                        $version = '1.0.1';
-                        break;
-                    case '3':
-                        $version = '1.1';
-                        break;
-                    case '4':
-                        $version = '1.1.2';
-                        break;
-                }
-
-                $this->data->os->version = new Version([ 'value' => $version ]);
-                $this->data->os->family = new Family([ 'name' => 'BSD' ]);
-            } else if (preg_match('/SunOS ([1234]\.[0-9\.]+)/u', $ua, $match)) {
+            if (preg_match('/SunOS ([1234]\.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->os->name = 'SunOS';
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+    
+                if (preg_match('/SunOS 4\.1\.([1234])/u', $ua, $match)) {
+                    $this->data->os->name = 'Solaris';
+                    
+                    switch ($match[1]) {
+                        case '1':
+                            $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                            break;
+                        case '2':
+                            $this->data->os->version = new Version([ 'value' => '1.0.1' ]);
+                            break;
+                        case '3':
+                            $this->data->os->version = new Version([ 'value' => '1.1' ]);
+                            break;
+                        case '4':
+                            $this->data->os->version = new Version([ 'value' => '1.1.2' ]);
+                            break;
+                    }
+                }
             }
 
             if (preg_match('/SunOS 5\.([123456](?:\.[0-9\.]*)?) /u', $ua, $match)) {
