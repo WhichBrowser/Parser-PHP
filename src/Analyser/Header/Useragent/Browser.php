@@ -1071,6 +1071,14 @@ trait Browser
             $this->data->os->name = '';
             $this->data->os->version = null;
         }
+
+        /* The Sony Mylo 2 identifies as Firefox 2, but is NetFront */
+
+        if (preg_match('/Sony\/COM2/u', $ua, $match)) {
+            $this->data->browser->reset([
+                'name' => 'NetFront'
+            ]);
+        }
     }
 
 

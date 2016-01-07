@@ -11,6 +11,7 @@ trait Pda
     private function detectPda($ua)
     {
         $this->detectPalm($ua);
+        $this->detectSonyMylo($ua);
         $this->detectSharpZaurus($ua);
         $this->detectSharpShoin($ua);
     }
@@ -76,6 +77,25 @@ trait Pda
             }
         }
 
+    }
+
+
+    /* Sony Mylo */
+
+    private function detectSonyMylo($ua)
+    {
+        if (preg_match('/SONY\/COM([0-9])/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Mylo ' . $match[1];
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->type = Constants\DeviceType::PDA;
+
+            $this->data->os->reset();
+
+            if (preg_match('/Qt embedded/ui', $ua, $match)) {
+                $this->data->os->name = 'Qtopia';
+            }
+        }
     }
 
 
