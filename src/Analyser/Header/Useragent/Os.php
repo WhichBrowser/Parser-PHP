@@ -1532,6 +1532,15 @@ trait Os
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
+            if (preg_match('/moonOS/u', $ua)) {
+                $this->data->os->name = 'moonOS';
+                if (preg_match('/moonOS\/([0-9.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
             if (preg_match('/Red Hat/u', $ua)) {
                 $this->data->os->name = 'Red Hat';
                 if (preg_match('/Red Hat[^\/]*\/[0-9\.\-]+el([0-9_]+)/u', $ua, $match)) {
