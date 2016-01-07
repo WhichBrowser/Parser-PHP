@@ -425,11 +425,11 @@ trait Browser
             unset($this->data->os->version);
         }
 
-        if (preg_match('/Opera[\/\-\s]/iu', $ua)) {
+        if (preg_match('/Opera[\/\-\s]/iu', $ua) || preg_match('/Browser\/Opera/iu', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Opera';
 
-            if (preg_match('/Opera[\/| ]([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Opera[\/| ]?([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
