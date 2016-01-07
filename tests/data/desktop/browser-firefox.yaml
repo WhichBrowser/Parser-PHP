@@ -114,10 +114,10 @@
     result: { browser: { name: Firefox, version: '41.0' }, engine: { name: Gecko, version: '41.0' }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:17.0) Gecko/201071 Firefox/17.0'
-    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:27.0) Gecko/20100101 Firefox/27.0'
-    result: { browser: { name: Firefox, version: '27.0' }, engine: { name: Gecko, version: '27.0' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '27.0' }, engine: { name: Gecko, version: '27.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) Gecko/20100101 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko }, os: { name: Linux }, device: { type: desktop } }
@@ -138,13 +138,13 @@
     result: { browser: { name: Firefox, version: '8.0' }, engine: { name: Gecko, version: '8.0' }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:12.0) Gecko/20100101 Firefox/12.0'
-    result: { browser: { name: Firefox, version: '12.0' }, engine: { name: Gecko, version: '12.0' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '12.0' }, engine: { name: Gecko, version: '12.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386; rv:25.0) Gecko/20100101 Firefox/25.0'
-    result: { browser: { name: Firefox, version: '25.0' }, engine: { name: Gecko, version: '25.0' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '25.0' }, engine: { name: Gecko, version: '25.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386; rv:8.0.1) Gecko/20100101 Firefox/8.0.1'
-    result: { browser: { name: Firefox, version: 8.0.1 }, engine: { name: Gecko, version: 8.0.1 }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 8.0.1 }, engine: { name: Gecko, version: 8.0.1 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Scientific Linux x86_64; rv:17.0) Red Hat/6.4 Gecko/20130917 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: 'Red Hat' }, device: { type: desktop } }

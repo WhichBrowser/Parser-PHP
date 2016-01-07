@@ -15,7 +15,7 @@
     result: { browser: { name: Midori, version: '0.4' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Midori/0.5 (X11; FreeBSD/11) WebKit/2.4.7 Midori/0.5.9'
-    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: 2.4.7 }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: 2.4.7 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; c) AppleWebKit/535+ (KHTML, like Gecko) Version/5.0 Safari/535.10+ Midori/0.4'
     result: { browser: { name: Midori, version: '0.4' }, engine: { name: Webkit, version: '535' }, device: { type: desktop } }
@@ -30,7 +30,7 @@
     result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.5' }, engine: { name: Webkit, version: '537.32' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.5'
-    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.5' }, engine: { name: Webkit, version: '535.22' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.5' }, engine: { name: Webkit, version: '535.22' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.4 Midori/0.4'
     result: { browser: { name: Midori, family: { name: Chrome, version: 18 }, version: '0.4' }, engine: { name: Webkit, version: '537.4' }, os: { name: Linux }, device: { type: desktop } }

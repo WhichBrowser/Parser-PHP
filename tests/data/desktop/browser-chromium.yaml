@@ -6,7 +6,7 @@
     result: { browser: { name: Chromium, family: { name: Chrome, version: 23 }, version: 23.0.1271.95 }, engine: { name: Webkit, version: '537.6' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/538.1 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/538.1'
-    result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2 }, engine: { name: Webkit, version: '538.1' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2 }, engine: { name: Webkit, version: '538.1' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 17 }, version: 17.0.963.56 }, engine: { name: Webkit, version: '535.22' }, os: { name: Linux }, device: { type: desktop } }

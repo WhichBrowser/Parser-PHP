@@ -565,7 +565,7 @@ trait Browser
                     $device = Data\DeviceModels::identify('firefoxos', $match[1]);
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
-                        $this->data->os->name = 'Firefox OS';
+                        $this->data->os->reset([ 'name' => 'Firefox OS' ]);
                         $this->data->device = $device;
                     }
                 }
@@ -578,7 +578,7 @@ trait Browser
                     $device = Data\DeviceModels::identify('firefoxos', $match[1]);
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
-                        $this->data->os->name = 'Firefox OS';
+                        $this->data->os->reset([ 'name' => 'Firefox OS' ]);
                         $this->data->device = $device;
                     }
                 }
@@ -586,7 +586,7 @@ trait Browser
 
             if (preg_match('/Viera;(?: ([^;]+);)? rv/u', $ua, $match)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
-                $this->data->os->name = 'Firefox OS';
+                $this->data->os->reset([ 'name' => 'Firefox OS' ]);
             }
 
             if ($this->data->device->type == Constants\DeviceType::MOBILE || $this->data->device->type == Constants\DeviceType::TABLET) {

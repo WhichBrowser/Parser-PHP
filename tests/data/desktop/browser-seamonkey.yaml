@@ -39,7 +39,7 @@
     result: { browser: { name: SeaMonkey, version: '2.7' }, engine: { name: Gecko, version: '10.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:26.0) Gecko/20100101 Firefox/26.0 SeaMonkey/2.23'
-    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '26.0' }, version: '2.23' }, engine: { name: Gecko, version: '26.0' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '26.0' }, version: '2.23' }, engine: { name: Gecko, version: '26.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:17.0) Gecko/20100101 SeaMonkey/2.14.1'
     result: { browser: { name: SeaMonkey, version: 2.14.1 }, engine: { name: Gecko, version: '17.0' }, os: { name: Linux }, device: { type: desktop } }
@@ -51,7 +51,7 @@
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '7.0' }, version: '2.4' }, engine: { name: Gecko, version: '7.0' }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30'
-    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '33.0' }, version: '2.30' }, engine: { name: Gecko, version: '33.0' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '33.0' }, version: '2.30' }, engine: { name: Gecko, version: '33.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; IRIX64 IP35; xx; rv:1.8.1.25pre) Gecko/20121113 SeaMonkey/1.1.20pre'
     result: { browser: { name: SeaMonkey, version: 1.1.20 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: IRIX }, device: { type: desktop } }

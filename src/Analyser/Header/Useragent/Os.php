@@ -1436,18 +1436,21 @@ trait Os
 
         if (preg_match('/FreeBSD/u', $ua)) {
             $this->data->os->name = 'FreeBSD';
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
         }
 
         /* OpenBSD */
 
         if (preg_match('/OpenBSD/u', $ua)) {
             $this->data->os->name = 'OpenBSD';
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
         }
 
         /* NetBSD */
 
         if (preg_match('/NetBSD/u', $ua)) {
             $this->data->os->name = 'NetBSD';
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
         }
     }
     

@@ -1,66 +1,66 @@
 -
     headers: 'User-Agent: Midori/0.5 (X11; FreeBSD/11) WebKit/537.32+ Midori/0.5'
-    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OpenBSD i386) AppleWebKit/538.1+ (KHTML, like Gecko) WebKitGTK+/2.2.3 luakit/0d5f4'
-    result: { browser: { name: LuaKit }, engine: { name: Webkit, version: '538.1' }, os: { name: OpenBSD } }
+    result: { browser: { name: LuaKit }, engine: { name: Webkit, version: '538.1' }, os: { name: OpenBSD, family: BSD } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11'
-    result: { browser: { name: Chrome, version: '17' }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '17' }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:45.0) Gecko/20100101 Firefox/45.0'
-    result: { browser: { name: Firefox, version: '45.0' }, engine: { name: Gecko, version: '45.0' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '45.0' }, engine: { name: Gecko, version: '45.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11'
-    result: { browser: { name: Chrome, version: '17' }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '17' }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.6.6 Safari/538.1'
-    result: { browser: { name: QupZilla, version: 1.6.6 }, engine: { name: Webkit, version: '538.1' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: QupZilla, version: 1.6.6 }, engine: { name: Webkit, version: '538.1' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; GNU/kFreeBSD x86_64; rv:30.0) Gecko/20100101 Firefox/30.0 Iceweasel/30.0'
-    result: { browser: { name: Iceweasel, family: { name: Firefox, version: '30.0' }, version: '30.0' }, engine: { name: Gecko, version: '30.0' }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Iceweasel, family: { name: Firefox, version: '30.0' }, version: '30.0' }, engine: { name: Gecko, version: '30.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
-    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '43' }, engine: { name: Blink, version: '537.36' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:17.0) Gecko/20121206 Firefox/17.0'
-    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD i386; rv:40.0) Gecko/20100101 Firefox/40.0'
-    result: { browser: { name: Firefox, version: '40.0' }, engine: { name: Gecko, version: '40.0' }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '40.0' }, engine: { name: Gecko, version: '40.0' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD) AppleWebKit/538.15+ Midori/0.5'
-    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: '538.15' }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, version: '0.5' }, engine: { name: Webkit, version: '538.15' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Midori/0.4'
-    result: { browser: { name: Midori, family: { name: Firefox, version: 4.0.1 }, version: '0.4' }, engine: { name: Webkit }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, family: { name: Firefox, version: 4.0.1 }, version: '0.4' }, engine: { name: Webkit }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:42.0) Gecko/20100101 Firefox/42.0'
-    result: { browser: { name: Firefox, version: '42.0' }, engine: { name: Gecko, version: '42.0' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '42.0' }, engine: { name: Gecko, version: '42.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36'
-    result: { browser: { name: Chrome, version: '36' }, engine: { name: Blink, version: '537.36' }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '36' }, engine: { name: Blink, version: '537.36' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; OpenBSD i386; xx; rv:1.9.1.16) Gecko/20110216 Firefox/3.5.16'
-    result: { browser: { name: Firefox, version: 3.5.16 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 3.5.16 }, engine: { name: Gecko, version: 1.9.1 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; NetBSD) KHTML/3.5.10 (like Gecko)'
-    result: { browser: { name: Konqueror, version: '3.5' }, engine: { name: KHTML, version: 3.5.10 }, os: { name: NetBSD }, device: { type: desktop } }
+    result: { browser: { name: Konqueror, version: '3.5' }, engine: { name: KHTML, version: 3.5.10 }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; FreeBSD) KHTML/4.5.5 (like Gecko)'
-    result: { browser: { name: Konqueror, version: '4.5' }, engine: { name: KHTML, version: 4.5.5 }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Konqueror, version: '4.5' }, engine: { name: KHTML, version: 4.5.5 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 10.0-CURRENT amd64) Presto/2.12.388 Version/12.11'
-    result: { browser: { name: Opera, version: '12.11' }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.11' }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 8.2-RELEASE amd64; U; xx) Presto/2.10.229 Version/11.61'
-    result: { browser: { name: Opera, version: '11.61' }, engine: { name: Presto, version: 2.10.229 }, os: { name: FreeBSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '11.61' }, engine: { name: Presto, version: 2.10.229 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; OpenBSD i386) Presto/2.12.388 Version/12.16'
-    result: { browser: { name: Opera, version: '12.16' }, engine: { name: Presto, version: 2.12.388 }, os: { name: OpenBSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.16' }, engine: { name: Presto, version: 2.12.388 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
