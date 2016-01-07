@@ -135,13 +135,13 @@
     result: { browser: { name: 'NetFront NX', version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Bewatec, model: MediStream } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; L28YTNRA)'
-    result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'L28YTNRA IPTV receiver' } }
+    result: { browser: { using: Qt }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'L28YTNRA IPTV receiver' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; TNR-5720CDX)'
-    result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'TNR-5720CDX IPTV receiver' } }
+    result: { browser: { using: Qt }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'TNR-5720CDX IPTV receiver' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) MWB/1.0 Safari/537.4 HbbTV/1.2.1 (+PVR+DRM; Mstar; MWB;;;)'
-    result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: Mstar, model: MWB } }
+    result: { browser: { using: Qt }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0 Safari/534.16+ IrisBrowser/4.0.17.1 HbbTV/1.2.1 (;Digisoft.tv;Iris;4.0.17.1;;)'
     result: { engine: { name: Webkit, version: '534.16' }, device: { type: television, manufacturer: Digisoft.tv, model: Iris } }

@@ -9,7 +9,7 @@
     result: { browser: { name: 'Internet Explorer', version: '11.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: 'RT 8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows XP) AppleWebKit/537.40 (KHTML, like Gecko) Qt/4.8.0 Safari/537.40'
-    result: { browser: { name: Qt, version: 4.8.0 }, engine: { name: Webkit, version: '537.40' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { using: { name: Qt, version: 4.8.0 } }, engine: { name: Webkit, version: '537.40' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows XP; rv:9.0.1) Gecko/20100101 Firefox/9.0.1'
     result: { browser: { name: Firefox, version: 9.0.1 }, engine: { name: Gecko, version: 9.0.1 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }

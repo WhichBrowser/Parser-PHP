@@ -3,4 +3,4 @@
     result: { engine: { name: Webkit, version: '533.1' }, device: { type: ereader, manufacturer: Kobo, series: eReader } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) Kobo eReader Safari/534.34'
-    result: { browser: { name: QtEmbedded }, engine: { name: Webkit, version: '534.34' }, os: { name: Linux } }
+    result: { browser: { using: Qt }, engine: { name: Webkit, version: '534.34' }, os: { name: Linux } }

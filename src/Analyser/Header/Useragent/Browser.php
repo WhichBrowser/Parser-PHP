@@ -1837,35 +1837,16 @@ trait Browser
     private function detectRemainingBrowsers($ua)
     {
         $browsers = [
-            [ 'name' => 'AdobeAIR',             'regexp' => '/AdobeAIR\/([0-9.]*)/u' ],
-            [ 'name' => 'Awesomium',            'regexp' => '/Awesomium\/([0-9.]*)/u' ],
-            [ 'name' => 'Bsalsa Embedded',      'regexp' => '/EmbeddedWB ([0-9.]*)/u' ],
-            [ 'name' => 'Bsalsa Embedded',      'regexp' => '/bsalsa\.com/u' ],
-            [ 'name' => 'Bsalsa Embedded',      'regexp' => '/Embedded Web Browser/u' ],
-            [ 'name' => 'Canvace',              'regexp' => '/Canvace Standalone\/([0-9.]*)/u' ],
-            [ 'name' => 'Ekioh',                'regexp' => '/Ekioh\/([0-9.]*)/u' ],
-            [ 'name' => 'JavaFX',               'regexp' => '/JavaFX\/([0-9.]*)/u' ],
-            [ 'name' => 'GFXe',                 'regexp' => '/GFXe\/([0-9.]*)/u' ],
-            [ 'name' => 'LuaKit',               'regexp' => '/luakit/u' ],
-            [ 'name' => 'Titanium',             'regexp' => '/Titanium\/([0-9.]*)/u' ],
-            [ 'name' => 'OpenWebKitSharp',      'regexp' => '/OpenWebKitSharp/u' ],
-            [ 'name' => 'Prism',                'regexp' => '/Prism\/([0-9.]*)/u' ],
-            [ 'name' => 'Qt',                   'regexp' => '/Qt\/([0-9.]*)/u' ],
-            [ 'name' => 'Qt',                   'regexp' => '/QtWebEngine\/([0-9.]*)/u' ],
-            [ 'name' => 'QtEmbedded',           'regexp' => '/QtEmbedded/u' ],
-            [ 'name' => 'QtEmbedded',           'regexp' => '/QtEmbedded.*Qt\/([0-9.]*)/u' ],
-            [ 'name' => 'ReqwirelessWeb',       'regexp' => '/ReqwirelessWeb\/([0-9.]*)/u' ],
-            [ 'name' => 'RhoSimulator',         'regexp' => '/RhoSimulator/u' ],
-            [ 'name' => 'UWebKit',              'regexp' => '/UWebKit\/([0-9.]*)/u' ],
-            [ 'name' => 'Node-WebKit',          'regexp' => '/nw-tests\/([0-9.]*)/u' ],
-            [ 'name' => 'WebKit2.NET',          'regexp' => '/WebKit2.NET/u' ],
 
+            /* Server rendering engines */
             [ 'name' => 'PhantomJS',            'regexp' => '/PhantomJS\/([0-9.]*)/u' ],
 
+            /* Regular apps */
             [ 'name' => 'Google Earth',         'regexp' => '/Google Earth\/([0-9.]*)/u' ],
             [ 'name' => 'Google Desktop',       'regexp' => '/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Google Search',        'regexp' => '/GSA\/([0-9.]*)/u', 'details' => 3 ],
 
+            /* Games */
             [ 'name' => 'EA Origin',            'regexp' => '/Origin\/([0-9.]*)/u' ],
             [ 'name' => 'SecondLife',           'regexp' => '/SecondLife\/([0-9.]*)/u' ],
             [ 'name' => 'Valve Steam',          'regexp' => '/Valve Steam/u' ],
@@ -1941,7 +1922,6 @@ trait Browser
             [ 'name' => 'W3C Amaya',            'regexp' => '/amaya\/([0-9.]*)/u' ],
 
             /* Text based browsers */
-
             [ 'name' => 'Lynx',                 'regexp' => '/Lynx\/([0-9.]*)/u' ],
             [ 'name' => 'Links',                'regexp' => '/Links \(([0-9.]*)/u' ],
             [ 'name' => 'ELinks',               'regexp' => '/E[Ll]inks(?:\/| \()([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],

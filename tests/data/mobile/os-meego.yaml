@@ -3,7 +3,7 @@
     result: { browser: { name: Helium, version: 1.0.0 }, engine: { name: Webkit, version: '534.34' }, os: { name: MeeGo }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (MeeGo) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.7.4 Mobile Safari/534.34'
-    result: { browser: { name: Qt, version: 4.7.4 }, engine: { name: Webkit, version: '534.34' }, os: { name: MeeGo }, device: { type: mobile, subtype: smart } }
+    result: { browser: { using: { name: Qt, version: 4.7.4 } }, engine: { name: Webkit, version: '534.34' }, os: { name: MeeGo }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (MeeGo; NokiaN9)'
     result: { os: { name: MeeGo }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N9 } }
