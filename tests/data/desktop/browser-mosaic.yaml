@@ -16,3 +16,6 @@
 -
     headers: 'User-Agent: NEC MosaicView/1.0 libwww/2.15_Spyglass'
     result: { browser: { name: 'Spyglass Mosaic', version: '1.0' } }
+-
+    headers: 'User-Agent: mMosaic/3.6.6 (X11;SunOS 5.8 sun4m)'
+    result: { browser: { name: mMosaic, version: 3.6.6 }, os: { name: Solaris, family: UNIX, version: '8' }, device: { type: desktop } }

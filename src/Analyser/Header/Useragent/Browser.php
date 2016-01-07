@@ -799,6 +799,11 @@ trait Browser
             $this->data->browser->stock = false;
         }
 
+        if (preg_match('/mMosaic\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'mMosaic';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->stock = false;
+        }
     }
 
 
