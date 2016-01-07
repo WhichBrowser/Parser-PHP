@@ -1391,7 +1391,15 @@ trait Os
         if (preg_match('/SunOS/u', $ua)) {
             $this->data->os->name = 'Solaris';
 
-            if (preg_match('/SunOS ([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/SunOS ([1234]\.[0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->name = 'SunOS';
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+            }
+
+            if (preg_match('/SunOS 5.([123456](?:\.[0-9\.]*)?) /u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => '2.' . $match[1] ]);
+            } else if (preg_match('/SunOS 5\.([0-9\.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 

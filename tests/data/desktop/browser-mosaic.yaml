@@ -12,7 +12,7 @@
     result: { browser: { name: 'NCSA Mosaic', version: 3.0.0 }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: NCSA_Mosaic/2.6L10N+ (X11;SunOS 5.6 sun4u) libwww/2.12 modified'
-    result: { browser: { name: 'NCSA Mosaic', version: '2.6' }, os: { name: Solaris, version: '5.6' }, device: { type: desktop } }
+    result: { browser: { name: 'NCSA Mosaic', version: '2.6' }, os: { name: Solaris, version: '2.6' }, device: { type: desktop } }
 -
     headers: 'User-Agent: NEC MosaicView/1.0 libwww/2.15_Spyglass'
     result: { browser: { name: 'Spyglass Mosaic', version: '1.0' } }
