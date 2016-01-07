@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: xChaos_Arachne/4.1.71;UE01 (DOS x86;WATTCP/1.05; 640x480,16c; www.arachne.cz)'
+    result: { browser: { name: Arachne, version: 4.1.71 }, device: { type: desktop } }
+-
+    headers: 'User-Agent: xChaos_Arachne/5.1.89;GPL,386+'
+    result: { browser: { name: Arachne, version: 5.1.89 }, device: { type: desktop } }

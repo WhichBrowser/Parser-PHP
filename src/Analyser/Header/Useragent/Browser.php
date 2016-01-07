@@ -1940,8 +1940,8 @@ trait Browser
             [ 'name' => 'AltiBrowser',          'regexp' => '/AltiBrowser\/([0-9.]*)/i' ],
             [ 'name' => 'AOL Desktop',          'regexp' => '/AOL ([0-9.]*); AOLBuild/i' ],
             [ 'name' => 'AOL Browser',          'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
-            [ 'name' => 'Arachne',              'regexp' => '/Arachne\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'Arora',                'regexp' => '/[Aa]rora\/([0-9.]*)/u' ],                         // see: www.arora-browser.org
+            [ 'name' => 'Arachne',              'regexp' => '/xChaos_Arachne\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: www.glennmcc.org
+            [ 'name' => 'Arora',                'regexp' => '/[Aa]rora\/([0-9.]*)/u' ],                                                             // see: www.arora-browser.org
             [ 'name' => 'AvantGo',              'regexp' => '/AvantGo ([0-9.]+)/u' ],
             [ 'name' => 'Avant Browser',        'regexp' => '/Avant Browser/u' ],
             [ 'name' => 'Avant Browser',        'regexp' => '/Avant TriCore/u' ],
