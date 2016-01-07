@@ -24,6 +24,7 @@ trait Os
         $this->detectSailfish($ua);
         $this->detectBada($ua);
         $this->detectBrew($ua);
+        $this->detectQtopia($ua);
         $this->detectRemainingOperatingSystems($ua);
 
         return $this;
@@ -1310,6 +1311,20 @@ trait Os
         if (preg_match('/CrOS/u', $ua)) {
             $this->data->os->name = 'Chrome OS';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+    }
+
+
+    /* Qtopia */
+
+    private function detectQtopia($ua)
+    {
+        if (preg_match('/Qtopia/u', $ua)) {
+            $this->data->os->name = 'Qtopia';
+
+            if (preg_match('/Qtopia\/([0-9.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
     }
 
