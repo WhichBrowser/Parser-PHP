@@ -12,6 +12,8 @@ trait Os
     private function &detectOperatingSystem($ua)
     {
         $this->detectUnix($ua);
+        $this->detectLinux($ua);
+        $this->detectBsd($ua);
         $this->detectDarwin($ua);
         $this->detectWindows($ua);
         $this->detectAndroid($ua);
@@ -1359,24 +1361,6 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
-        /* FreeBSD */
-
-        if (preg_match('/FreeBSD/u', $ua)) {
-            $this->data->os->name = 'FreeBSD';
-        }
-
-        /* OpenBSD */
-
-        if (preg_match('/OpenBSD/u', $ua)) {
-            $this->data->os->name = 'OpenBSD';
-        }
-
-        /* NetBSD */
-
-        if (preg_match('/NetBSD/u', $ua)) {
-            $this->data->os->name = 'NetBSD';
-        }
-
         /* HP-UX */
 
         if (preg_match('/HP-UX/u', $ua)) {
@@ -1428,16 +1412,37 @@ trait Os
 
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
+    }
+    
 
-        /* Syllable */
+    /* BSD */
+    
+    private function detectBsd($ua)
+    {
+        /* FreeBSD */
 
-        if (preg_match('/Syllable/u', $ua)) {
-            $this->data->os->name = 'Syllable';
-            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        if (preg_match('/FreeBSD/u', $ua)) {
+            $this->data->os->name = 'FreeBSD';
         }
 
-        /* Linux */
+        /* OpenBSD */
 
+        if (preg_match('/OpenBSD/u', $ua)) {
+            $this->data->os->name = 'OpenBSD';
+        }
+
+        /* NetBSD */
+
+        if (preg_match('/NetBSD/u', $ua)) {
+            $this->data->os->name = 'NetBSD';
+        }
+    }
+    
+
+    /* Linux */
+    
+    private function detectLinux($ua)
+    {
         if (preg_match('/Linux/u', $ua)) {
             $this->data->os->name = 'Linux';
 
@@ -1661,6 +1666,7 @@ trait Os
             [ 'name' => 'Joli OS',      'regexp' => [ '/Joli OS\/([0-9.]*)/iu' ],                           'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'OS/2 Warp',    'regexp' => [ '/OS\/2; (?:U; )?Warp ([0-9.]*)/iu' ],                'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Inferno',      'regexp' => [ '/Inferno/iu' ],                                      'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Syllable',     'regexp' => [ '/Syllable/iu' ],                                     'type' => Constants\DeviceType::DESKTOP ],
 
             [ 'name' => 'Grid OS',      'regexp' => [ '/Grid OS ([0-9.]*)/iu' ],                            'type' => Constants\DeviceType::TABLET ],
 
