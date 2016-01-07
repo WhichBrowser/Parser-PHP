@@ -1765,6 +1765,16 @@ trait Browser
             }
         }
 
+        /* IBM WebExplorer */
+
+        if (preg_match('/IBM-WebExplorer-DLL\/v([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'IBM WebExplorer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->channel = '';
+
+            $this->data->os->name = 'OS/2';
+        }
+
         /* WorldWideweb */
 
         if (preg_match('/WorldWideweb \(NEXT\)/u', $ua, $match)) {

@@ -16,3 +16,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20140428 Firefox/24.0'
     result: { browser: { name: Firefox, version: '24.0' }, engine: { name: Gecko, version: '24.0' }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: IBM-WebExplorer-DLL/v1.1h'
+    result: { browser: { name: 'IBM WebExplorer', version: '1.1' }, os: { name: OS/2 } }
