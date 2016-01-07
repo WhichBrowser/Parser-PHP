@@ -366,10 +366,22 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
         }
 
+        /* Old versions of Pocket Internet Explorer */
+
+        if (preg_match('/Microsoft Pocket Internet Explorer\//u', $ua)) {
+            $this->data->browser->name = 'Pocket Internet Explorer';
+            $this->data->browser->version = new Version([ 'value' => '1.0' ]);
+        }
+
+        if (preg_match('/MSPIE ([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Pocket Internet Explorer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+        }
+
 
         /* Set the browser family */
 
-        if ($this->data->isBrowser('Internet Explorer') || $this->data->isBrowser('Mobile Internet Explorer')) {
+        if ($this->data->isBrowser('Internet Explorer') || $this->data->isBrowser('Mobile Internet Explorer') || $this->data->isBrowser('Pocket Internet Explorer')) {
             unset($this->data->browser->family);
         }
     }

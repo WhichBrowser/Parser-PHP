@@ -37,3 +37,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows CE 5.2; xx; rv:1.9.2a1pre) Gecko/20090513 Fennec/1.0a1'
     result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: 1.0a1 }, version: 1.0a1 }, engine: { name: Gecko, version: 1.9.2a1pre }, os: { name: 'Windows CE', version: '5.2' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/1.1 (compatible; MSPIE 2.0; Windows CE)'
+    result: { browser: { name: 'Pocket Internet Explorer', version: '2.0' }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Microsoft Pocket Internet Explorer/0.6'
+    result: { browser: { name: 'Pocket Internet Explorer', version: '1.0' } }
