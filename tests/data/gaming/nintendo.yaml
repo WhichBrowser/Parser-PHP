@@ -79,3 +79,6 @@
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; ja)'
     result: { browser: { name: Opera, version: '9.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50 [ja]'
+    result: { browser: { name: Opera, version: '8.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }

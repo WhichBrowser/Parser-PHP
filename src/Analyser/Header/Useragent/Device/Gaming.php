@@ -9,7 +9,7 @@ trait Gaming
 {
     private function detectGaming($ua)
     {
-        if (preg_match('/Nintendo/iu', $ua)) {
+        if (preg_match('/Nintendo/iu', $ua) || preg_match('/Nitro/iu', $ua)) {
             $this->detectNintendo($ua);
         }
 
@@ -56,7 +56,7 @@ trait Gaming
 
         /* DS */
 
-        if (preg_match('/Nintendo DS/u', $ua)) {
+        if (preg_match('/Nintendo DS/u', $ua) || preg_match('/Nitro.*Opera/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Nintendo',
