@@ -1801,7 +1801,7 @@ trait Browser
             }
         }
 
-        /* WebPro */
+        /* Novarra WebPro */
 
         if (preg_match('/WebPro/u', $ua) && preg_match('/PalmOS/u', $ua)) {
             $this->data->browser->name = 'WebPro';
@@ -1809,6 +1809,18 @@ trait Browser
 
             if (preg_match('/WebPro\/?([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+        }
+
+        /* Novarra Vision */
+
+        if (preg_match('/Novarra-Vision\/?([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Novarra Vision';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+
+            if ($this->data->device->type != Constants\DeviceType::MOBILE) {
+                $this->data->os->reset();
+                $this->data->device->type = Constants\DeviceType::MOBILE;
             }
         }
     }

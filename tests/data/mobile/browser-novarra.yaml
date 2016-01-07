@@ -1,0 +1,9 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 MG (Novarra-Vision/6.1)'
+    result: { browser: { name: 'Novarra Vision', family: { name: Firefox, version: 1.5.0.7 }, version: '6.1' }, engine: { name: Gecko, version: 1.8.0 }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: NokiaC1-01/2.0 (03.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 Novarra-Vision/8.0'
+    result: { browser: { name: 'Novarra Vision', version: '8.0' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C1-01 } }
+-
+    headers: 'User-Agent: Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3'
+    result: { browser: { name: 'Novarra Vision', version: '7.3' }, os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6600' } }
