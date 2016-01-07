@@ -68,29 +68,36 @@ trait Browser
     private function detectSafari($ua)
     {
         if (preg_match('/Safari/u', $ua)) {
+            $falsepositive = false;
 
-            if (isset($this->data->os->name) && $this->data->os->name == 'iOS') {
-                $this->data->browser->stock = true;
-                $this->data->browser->hidden = true;
-                $this->data->browser->name = 'Safari';
-                $this->data->browser->version = null;
-
-                if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
-                    $this->data->browser->version = new Version([ 'value' => $match[1], 'hidden' => true ]);
-                }
+            if (preg_match('/Qt/u', $ua)) {
+                $falsepositive = true;
             }
 
-            if (isset($this->data->os->name) && ($this->data->os->name == 'OS X' || $this->data->os->name == 'Windows')) {
-                $this->data->browser->name = 'Safari';
-                $this->data->browser->stock = $this->data->os->name == 'OS X';
+            if (!$falsepositive) {
+                if (isset($this->data->os->name) && $this->data->os->name == 'iOS') {
+                    $this->data->browser->stock = true;
+                    $this->data->browser->hidden = true;
+                    $this->data->browser->name = 'Safari';
+                    $this->data->browser->version = null;
 
-                if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
-                    $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+                    if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
+                        $this->data->browser->version = new Version([ 'value' => $match[1], 'hidden' => true ]);
+                    }
                 }
 
-                if (preg_match('/AppleWebKit\/[0-9\.]+\+/u', $ua)) {
-                    $this->data->browser->name = 'WebKit Nightly Build';
-                    $this->data->browser->version = null;
+                if (isset($this->data->os->name) && ($this->data->os->name == 'OS X' || $this->data->os->name == 'Windows')) {
+                    $this->data->browser->name = 'Safari';
+                    $this->data->browser->stock = $this->data->os->name == 'OS X';
+
+                    if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
+                        $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+                    }
+
+                    if (preg_match('/AppleWebKit\/[0-9\.]+\+/u', $ua)) {
+                        $this->data->browser->name = 'WebKit Nightly Build';
+                        $this->data->browser->version = null;
+                    }
                 }
             }
         }
