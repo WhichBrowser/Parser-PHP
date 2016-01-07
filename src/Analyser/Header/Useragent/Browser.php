@@ -1817,6 +1817,8 @@ trait Browser
         if (preg_match('/Novarra-Vision\/?([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Novarra Vision';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = null;
+            $this->data->browser->mode = 'proxy';
 
             if ($this->data->device->type != Constants\DeviceType::MOBILE) {
                 $this->data->os->reset();
