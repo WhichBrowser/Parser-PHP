@@ -590,6 +590,19 @@ trait Os
                     }
                 }
 
+                if (preg_match('/MSIE [0-9.]+; Windows CE; PPC; [0-9]+x[0-9]+; (?:HTC\/|Toshiba\/)?([^;\)]+)\)$/u', $ua, $match)) {
+                    $this->data->os->name = 'Windows Mobile';
+
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+
                 if (preg_match('/MSIE [0-9.]+; Windows CE; (?:HTC\/|Toshiba\/)?([^;\)]+)(?:; PPC; [0-9]+x[0-9]+)?\)$/u', $ua, $match) && !preg_match('/Windows CE; IEMobile/', $ua)) {
                     $this->data->os->name = 'Windows Mobile';
 

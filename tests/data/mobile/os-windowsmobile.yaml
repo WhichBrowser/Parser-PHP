@@ -412,3 +412,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Toshiba/X01T)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: G900 X01T, carrier: Softbank } }
+-
+    headers: 'User-Agent: ASUS-GalaxyII/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; ASUS-GalaxyII)'
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy II' } }

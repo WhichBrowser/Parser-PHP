@@ -8,6 +8,7 @@ DeviceModels::$WINDOWS_MOBILE_MODELS = [
     'F900'                                      => [ 'Acer', 'Tempo F900' ],
     'S200'                                      => [ 'Acer', 'neoTouch S200' ],
     'P400'                                      => [ 'Acer', 'neoTouch P400' ],
+    '-GalaxyII'                                 => [ 'Asus', 'Galaxy II' ],
     'Bird_T900'                                 => [ 'Bird', 'T900' ],
     'Coolpad F800'                              => [ 'Coolpad', 'F800' ],
     'T5388'                                     => [ 'Dopod', 'Touch Diamond 2' ],
