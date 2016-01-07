@@ -150,10 +150,10 @@
     result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: 'Red Hat' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS i86pc; rv:2.0) Gecko/20100101 Firefox/4.0'
-    result: { browser: { name: Firefox, version: '4.0' }, engine: { name: Gecko, version: '2.0' }, os: { name: Solaris }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '4.0' }, engine: { name: Gecko, version: '2.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS sun4u; rv:17.0) Gecko/17.0 Firefox/17.0'
-    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: Solaris }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '17.0' }, engine: { name: Gecko, version: '17.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.8.1.18) Gecko/20110906 BonEcho/2.0.0.18'
     result: { browser: { name: Firefox, version: 2.0.0.18 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }

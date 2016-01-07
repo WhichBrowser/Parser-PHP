@@ -1358,6 +1358,7 @@ trait Os
 
         if (preg_match('/UNIX_System_V ([0-9.]*)/u', $ua, $match)) {
             $this->data->os->name = 'UNIX System V';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
@@ -1366,6 +1367,7 @@ trait Os
 
         if (preg_match('/OSF1?[ _]/u', $ua)) {
             $this->data->os->name = 'Digital Unix';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
             if (preg_match('/OSF1?[ _]V?([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
@@ -1378,6 +1380,7 @@ trait Os
 
         if (preg_match('/HP-UX/u', $ua)) {
             $this->data->os->name = 'HP-UX';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
             if (preg_match('/HP-UX [A-Z].0?([1-9][0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
@@ -1390,6 +1393,7 @@ trait Os
 
         if (preg_match('/SunOS/u', $ua)) {
             $this->data->os->name = 'Solaris';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
             if (preg_match('/SunOS ([1234]\.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->os->name = 'SunOS';
@@ -1410,6 +1414,7 @@ trait Os
 
         if (preg_match('/AIX/u', $ua)) {
             $this->data->os->name = 'AIX';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
             if (preg_match('/AIX ([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
@@ -1422,6 +1427,7 @@ trait Os
 
         if (preg_match('/IRIX/u', $ua)) {
             $this->data->os->name = 'IRIX';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
 
             if (preg_match('/IRIX ([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);

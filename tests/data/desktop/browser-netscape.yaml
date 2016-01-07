@@ -9,16 +9,16 @@
     result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; OSF1 V4.0 alpha)'
-    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: 'Digital Unix', version: '4.0' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: 'Digital Unix', family: UNIX, version: '4.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01Gold (X11; I; Linux 2.0.32 i486)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01Gold (X11; I; SunOS 5.5.1 sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, version: 2.5.1 }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.04Gold (X11; U; IRIX 5.3 IP22)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.4 }, os: { name: IRIX, version: '5.3' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.4 }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.10pre) Gecko/20071127 Firefox/2.0.0.10 Navigator/9.0.0.4'
     result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.10 }, version: 9.0.0 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }

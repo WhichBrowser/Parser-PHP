@@ -303,4 +303,4 @@
     result: { browser: { name: Opera, version: '10.63' }, engine: { name: Presto, version: 2.6.30 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; SunOS i86pc; U; xx) Presto/2.2.15 Version/10.11'
-    result: { browser: { name: Opera, version: '10.11' }, engine: { name: Presto, version: 2.2.15 }, os: { name: Solaris }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '10.11' }, engine: { name: Presto, version: 2.2.15 }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
