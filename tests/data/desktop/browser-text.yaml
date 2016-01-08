@@ -25,3 +25,12 @@
 -
     headers: 'User-Agent: Emacs-w3m/1.4.77 w3m/0.5'
     result: { browser: { name: w3m, version: 1.4.77, type: 'browser:text' } }
+-
+    headers: 'User-Agent: CERN-LineMode/2.12'
+    result: { browser: { name: 'CERN LineMode', version: '2.12', type: 'browser:text' } }
+-
+    headers: 'User-Agent: CERN-LineMode/2.14'
+    result: { browser: { name: 'CERN LineMode', version: '2.14', type: 'browser:text' } }
+-
+    headers: 'User-Agent: CERN-LineMode/3.0'
+    result: { browser: { name: 'CERN LineMode', version: '3.0', type: 'browser:text' } }

@@ -2164,6 +2164,7 @@ trait Browser
             ],
 
             Constants\BrowserType::BROWSER_TEXT => [
+                [ 'name' => 'CERN LineMode',        'regexp' => '/CERN-LineMode\/([0-9.]*)/u' ],
                 [ 'name' => 'Lynx',                 'regexp' => '/Lynx\/([0-9.]*)/u' ],
                 [ 'name' => 'Links',                'regexp' => '/Links \(([0-9.]*)/u' ],
                 [ 'name' => 'ELinks',               'regexp' => '/E[Ll]inks(?:\/| \()([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
