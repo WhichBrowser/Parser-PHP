@@ -1877,6 +1877,7 @@ trait Browser
             [ 'name' => 'EA Origin',            'regexp' => '/Origin\/([0-9.]*)/u' ],
             [ 'name' => 'SecondLife',           'regexp' => '/SecondLife\/([0-9.]*)/u' ],
             [ 'name' => 'Valve Steam',          'regexp' => '/Valve Steam/u' ],
+            [ 'name' => 'Raptr',                'regexp' => '/Raptr/u' ],
 
             /* Media players */
             [ 'name' => 'iTunes',               'regexp' => '/iTunes\/(?:xaa.)?([0-9.]*)/u' ],
@@ -1954,28 +1955,45 @@ trait Browser
             [ 'name' => 'ELinks',               'regexp' => '/E[Ll]inks(?:\/| \()([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'w3m',                  'regexp' => '/w3m\/([0-9.]*)/u' ],
 
-            /* Browsers */
+            /* Desktop browsers */
+
+            [ 'name' => '126 Browser',          'regexp' => '/126BROWSER/u' ],
+            [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Browse ([0-9.]+)/u'  ],
+            [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Phoenix ([0-9.]+)/u'  ],
+            [ 'name' => 'AOL Desktop',          'regexp' => '/AOL ([0-9.]*); AOLBuild/i' ],
+            [ 'name' => 'AOL Browser',          'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
+            [ 'name' => 'Arachne',              'regexp' => '/xChaos_Arachne\/[0-9]\.([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: www.glennmcc.org
+            [ 'name' => 'AWeb',                 'regexp' => '/Amiga-AWeb(?:\/([0-9.]*))?/u' ],
+            [ 'name' => 'AvantGo',              'regexp' => '/AvantGo ([0-9.]+)/u' ],
+            [ 'name' => 'Avant Browser',        'regexp' => '/Avant Browser/u' ],
+            [ 'name' => 'Avant Browser',        'regexp' => '/Avant TriCore/u' ],
+            [ 'name' => 'Byffox',               'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Camino',               'regexp' => '/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Comodo Dragon',        'regexp' => '/Comodo_Dragon\/([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'Comodo Dragon',        'regexp' => '/Dragon\/([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'Conkeror',             'regexp' => '/[Cc]onkeror\/([0-9.]*)/u' ],
+            [ 'name' => 'CoolNovo',             'regexp' => '/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'ChromePlus',           'regexp' => '/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'Cunaguaro',            'regexp' => '/Cunaguaro\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+
+            /* Mobile browsers */
             [ 'name' => '1Browser',             'regexp' => '/1Password\/([0-9.]*)/u' ],
             [ 'name' => '2345 Browser',         'regexp' => '/Mb2345Browser\/([0-9.]*)/u' ],
             [ 'name' => '3G Explorer',          'regexp' => '/3G Explorer\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => '4G Explorer',          'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3 ],
-            [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
+
+            /* Other browsers */
+            [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // Browser for the Nintento DS
+
+
             [ 'name' => 'ABrowse',              'regexp' => '/A[Bb]rowse ([0-9.]*)/u' ],
             [ 'name' => 'Abrowser',             'regexp' => '/Abrowser\/([0-9.]*)/u' ],
-            [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Browse ([0-9.]+)/u'  ],
-            [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Phoenix ([0-9.]+)/u'  ],
             [ 'name' => 'AltiBrowser',          'regexp' => '/AltiBrowser\/([0-9.]*)/i' ],
-            [ 'name' => 'AOL Desktop',          'regexp' => '/AOL ([0-9.]*); AOLBuild/i' ],
-            [ 'name' => 'AOL Browser',          'regexp' => '/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
-            [ 'name' => 'Arachne',              'regexp' => '/xChaos_Arachne\/[0-9]\.([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: www.glennmcc.org
             [ 'name' => 'Arora',                'regexp' => '/[Aa]rora\/([0-9.]*)/u' ],                                                             // see: www.arora-browser.org
-            [ 'name' => 'AvantGo',              'regexp' => '/AvantGo ([0-9.]+)/u' ],
-            [ 'name' => 'Avant Browser',        'regexp' => '/Avant Browser/u' ],
-            [ 'name' => 'Avant Browser',        'regexp' => '/Avant TriCore/u' ],
             [ 'name' => 'Aviator',              'regexp' => '/Aviator\/([0-9.]*)/u', 'details' => 1 ],
             [ 'name' => 'Awakening',            'regexp' => '/Awakening Browser\/([0-9.]*)/u', 'details' => 2 ],
-            [ 'name' => 'AWeb',                 'regexp' => '/Amiga-AWeb(?:\/([0-9.]*))?/u' ],
             [ 'name' => 'Baidu Browser',        'regexp' => '/bdbrowser\/([0-9.]*)/i' ],
             [ 'name' => 'Baidu Browser',        'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i' ],
             [ 'name' => 'Baidu Browser',        'regexp' => '/M?BaiduBrowser\/([0-9.]*)/i' ],
@@ -1987,19 +2005,10 @@ trait Browser
             [ 'name' => 'Baidu Hao123',         'regexp' => '/hao123\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Black Wren',           'regexp' => '/BlackWren\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Blazer',               'regexp' => '/Blazer\/([0-9.]*)/u' ],
-            [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // Browser for the Nintento DS
-            [ 'name' => 'Byffox',               'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'Camino',               'regexp' => '/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Canure',               'regexp' => '/Canure\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'CNF',                  'regexp' => '/CNF\/([0-9.]*)/u' ],
             [ 'name' => 'CometBird',            'regexp' => '/CometBird\/([0-9.]*)/u' ],
-            [ 'name' => 'Comodo Dragon',        'regexp' => '/Comodo_Dragon\/([0-9.]*)/u', 'details' => 2 ],
-            [ 'name' => 'Comodo Dragon',        'regexp' => '/Dragon\/([0-9.]*)/u', 'details' => 2 ],
-            [ 'name' => 'Conkeror',             'regexp' => '/[Cc]onkeror\/([0-9.]*)/u' ],
-            [ 'name' => 'CoolNovo',             'regexp' => '/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Charon',               'regexp' => '/Charon/' ],
-            [ 'name' => 'ChromePlus',           'regexp' => '/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'Cunaguaro',            'regexp' => '/Cunaguaro\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'CuteBrowser',          'regexp' => '/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Cyberfox',             'regexp' => '/Cyberfox\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Daedalus',             'regexp' => '/Daedalus ([0-9.]*)/u', 'details' => 2 ],
@@ -2092,6 +2101,7 @@ trait Browser
             [ 'name' => 'SEMC Browser',         'regexp' => '/SEMC-Browser\/([0-9.]*)/u' ],
             [ 'name' => 'Sleipnir',             'regexp' => '/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
             [ 'name' => 'SlimBoat',             'regexp' => '/SlimBoat\/([0-9.]*)/u' ],
+            [ 'name' => 'SlimBrowser',          'regexp' => '/SlimBrowser(?:\/([0-9.]*))?/u' ],
             [ 'name' => 'SMBrowser',            'regexp' => '/SMBrowser/u' ],
             [ 'name' => 'Sogou Explorer',       'regexp' => '/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Sogou Mobile',         'regexp' => '/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
@@ -2101,11 +2111,12 @@ trait Browser
             [ 'name' => 'SunChrome',            'regexp' => '/SunChrome\/([0-9.]*)/u' ],
             [ 'name' => 'Superbird',            'regexp' => '/Superbird\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'Surf',                 'regexp' => '/Surf\/([0-9.]*)/u' ],
-            [ 'name' => 'The World',            'regexp' => '/TheWorld ([0-9.]*)/u' ],
+            [ 'name' => 'The World',            'regexp' => '/TheWorld(?: ([0-9.]*))?/u' ],
             [ 'name' => 'TaoBrowser',           'regexp' => '/TaoBrowser\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'TaomeeBrowser',        'regexp' => '/TaomeeBrowser\/([0-9.]*)/u', 'details' => 2 ],
             [ 'name' => 'TazWeb',               'regexp' => '/TazWeb/u' ],
             [ 'name' => 'Tencent Traveler',     'regexp' => '/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
+            [ 'name' => 'TenFourFox',           'regexp' => '/TenFourFox\//u' ],
             [ 'name' => 'Uzbl',                 'regexp' => '/^Uzbl/u' ],
             [ 'name' => 'Viera Browser',        'regexp' => '/Viera\/([0-9.]*)/u' ],
             [ 'name' => 'Villanova',            'regexp' => '/Villanova\/([0-9.]*)/u', 'details' => 3 ],
