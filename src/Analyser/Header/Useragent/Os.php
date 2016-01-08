@@ -1465,6 +1465,19 @@ trait Os
     
     private function detectBsd($ua)
     {
+        /* BSD/OS */
+
+        if (preg_match('/BSD\/386/u', $ua)) {
+            $this->data->os->name = 'BSD/OS';
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+        }
+
+        if (preg_match('/BSD\/OS ([0-9.]*)/u', $ua, $match)) {
+            $this->data->os->name = 'BSD/OS';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+        }
+
         /* FreeBSD */
 
         if (preg_match('/FreeBSD/u', $ua)) {

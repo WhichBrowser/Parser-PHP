@@ -64,3 +64,9 @@
 -
     headers: 'User-Agent: Opera/9.80 (X11; OpenBSD i386) Presto/2.12.388 Version/12.16'
     result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/1.1N (X11; I; BSD/386 uname failed)'
+    result: { os: { name: BSD/OS, family: BSD } }
+-
+    headers: 'User-Agent: Mozilla/1.1N (X11; I; BSD/OS 2.0 i386)'
+    result: { os: { name: BSD/OS, family: BSD, version: '2.0' } }
