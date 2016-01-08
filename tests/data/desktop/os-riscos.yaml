@@ -1,24 +1,24 @@
 -
     headers: 'User-Agent: Mozilla/1.10 [en] (Compatible; RISC OS 3.70; Oregano 1.10)'
-    result: { browser: { name: Oregano, version: '1.10' }, os: { name: 'RISC OS', version: '3.70' }, device: { type: desktop } }
+    result: { browser: { name: Oregano, version: '1.10', type: browser }, os: { name: 'RISC OS', version: '3.70' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)'
-    result: { browser: { name: 'ANT Fresco', version: '2.13' }, os: { name: 'RISC OS', version: '4.02' }, device: { type: desktop } }
+    result: { browser: { name: 'ANT Fresco', version: '2.13', type: browser }, os: { name: 'RISC OS', version: '4.02' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.01 (Compatible; Acorn Browse 1.25 [23-Oct-97] AW  97; RISC OS 4.39) Acorn-HTTP/0.84'
-    result: { browser: { name: 'Acorn Browse', version: '1.25' }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
+    result: { browser: { name: 'Acorn Browse', version: '1.25', type: browser }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (ChoX11; U; RISC OS; xx; rv:1.8.1.12) Gecko/20080224 BonEcho/2.0.0.12'
-    result: { browser: { name: Firefox, version: 2.0.0.12 }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'RISC OS' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 2.0.0.12, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'RISC OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: NetSurf/2.0 (RISC OS; armv5l)'
-    result: { browser: { name: Surf, version: '2.0' }, os: { name: 'RISC OS' }, device: { type: desktop } }
+    result: { browser: { name: Surf, version: '2.0', type: browser }, os: { name: 'RISC OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: NetSurf/3.0 (RISC OS)'
-    result: { browser: { name: Surf, version: '3.0' }, os: { name: 'RISC OS' }, device: { type: desktop } }
+    result: { browser: { name: Surf, version: '3.0', type: browser }, os: { name: 'RISC OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.01 (Compatible; Acorn Phoenix 2.08 [intermediate]; RISC OS 4.39) Acorn-HTTP/0.84'
-    result: { browser: { name: 'Acorn Browse', version: '2.08' }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
+    result: { browser: { name: 'Acorn Browse', version: '2.08', type: browser }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.00 [en] (Compatible; RISC OS 4.39; MSIE 5.01; Windows 98; Oregano 1.10)'
-    result: { browser: { name: Oregano, version: '1.10' }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }
+    result: { browser: { name: Oregano, version: '1.10', type: browser }, os: { name: 'RISC OS', version: '4.39' }, device: { type: desktop } }

@@ -1,15 +1,15 @@
 -
     headers: 'User-Agent: Opera/9.80 (Android 1.6; Linux; Opera Tablet/ADR-1202011015; U; xx) Presto/2.9.201 Version/11.50'
-    result: { browser: { name: 'Opera Mobile', version: '11.50' }, engine: { name: Presto, version: 2.9.201 }, os: { name: Android, version: '1.6' }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Mobile', version: '11.50', type: browser }, engine: { name: Presto, version: 2.9.201 }, os: { name: Android, version: '1.6' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 2.2.1; Linux; Opera Tablet/ADR-1301080958) Presto/2.11.355 Version/12.10'
-    result: { browser: { name: 'Opera Mobile', version: '12.10' }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 2.2.1 }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Mobile', version: '12.10', type: browser }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 2.2.1 }, device: { type: tablet } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 2.3.1; Linux; Opera Tablet/ADR-1203051651; U; xx) Presto/2.10.254 Version/12.00'
-    result: { browser: { name: 'Opera Mobile', version: '12.00' }, engine: { name: Presto, version: 2.10.254 }, os: { name: Android, version: 2.3.1 }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Mobile', version: '12.00', type: browser }, engine: { name: Presto, version: 2.10.254 }, os: { name: Android, version: 2.3.1 }, device: { type: tablet } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADR-1205181138; U; xx) Presto/2.10.254 Version/12.00'
-    result: { browser: { name: 'Opera Mobile', version: '12.00' }, engine: { name: Presto, version: 2.10.254 }, os: { name: Android, version: '3.1' }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Mobile', version: '12.00', type: browser }, engine: { name: Presto, version: 2.10.254 }, os: { name: Android, version: '3.1' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Opera/9.80 (Android 4.1.1; Linux; Opera Tablet/OupengHD-1.6/ADR-1301101023) Presto/2.11.355 Version/12.10'
-    result: { browser: { name: 'Opera Oupeng', version: '1.6' }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 4.1.1 }, device: { type: tablet } }
+    result: { browser: { name: 'Opera Oupeng', version: '1.6', type: browser }, engine: { name: Presto, version: 2.11.355 }, os: { name: Android, version: 4.1.1 }, device: { type: tablet } }

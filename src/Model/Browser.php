@@ -26,6 +26,9 @@ class Browser extends NameVersion
     /** @var string */
     public $mode = '';
 
+    /** @var string */
+    public $type = '';
+
 
     /**
      * Set the properties to the default values
@@ -46,6 +49,7 @@ class Browser extends NameVersion
         $this->stock = true;
         $this->hidden = false;
         $this->mode = '';
+        $this->type = '';
 
         if (is_array($properties)) {
             $this->set($properties);
@@ -160,6 +164,10 @@ class Browser extends NameVersion
             $result['version'] = $this->version->toArray();
         }
 
+        if (!empty($this->type)) {
+            $result['type'] = $this->type;
+        }
+        
         if (isset($result['version']) && !count($result['version'])) {
             unset($result['version']);
         }

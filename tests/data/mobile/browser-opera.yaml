@@ -1,84 +1,84 @@
 -
     headers: 'User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini; U; xx) Presto/2.12.423 Version/11.10'
-    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux zbov; U; xx) Presto/2.9.201 Version/11.50'
-    result: { browser: { name: 'Opera Mobile', version: '11.50' }, engine: { name: Presto, version: 2.9.201 }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Opera Mobile', version: '11.50', type: browser }, engine: { name: Presto, version: 2.9.201 }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.12.423 Version/11.10'
-    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.8.119 Version/10.54'
-    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322i Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.8.119 Version/11.10'
-    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C3322i } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C3322i } }
 -
     headers: 'User-Agent: SAMSUNG-GT-S5611 Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.8.119 Version/11.10'
-    result: { browser: { name: 'Opera Mini' }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-S5611 } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-S5611 } }
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35659/35.6497; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-S8500' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-i8000' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35659/35.6497; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35659/35.6497; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520', X-OperaMini-Phone-UA: 'BlackBerry8520/5.0.0.681 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/613' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35667/35.6680; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8900', X-OperaMini-Phone-UA: 'BlackBerry8900/5.0.0.1113 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8900' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8900' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-i8000', X-OperaMini-Phone-UA: 'SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; en) Opera 9.5 UNTRUSTED/1.0' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.7382; U; xx) Presto/2.8.119 Version/11.10', X-Operamini-Phone-Ua: 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380D/S5380DZHLB1; U; Bada/2.0; zh-cn) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile HVGA SMM-MMS/1.2.0 OPN-B', Device-Stock-Ua: 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380D/S5380DZHLB1; U; Bada/2.0; zh-cn) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile HVGA SMM-MMS/1.2.0 OPN-B' }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave Y' } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave Y' } }
 -
     headers: { User-Agent: 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/37.6116; U; xx) Presto/2.12.423 Version/12.16', X-OperaMini-Phone: 'HTC # Touch Pro/T7272/TyTn III', X-OperaMini-Phone-UA: HTC_Touch_Pro_T7272 }
-    result: { browser: { name: 'Opera Mini', version: '5.1' }, engine: { name: Presto, version: 2.12.423 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro' } }
+    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.12.423 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro' } }
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/35.6368; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'Samsung # GT-S8500', Device-Stock-UA: SAMSUNG-GT-S8500, X-OperaMini-Phone-UA: SAMSUNG-GT-S8500 }
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.7144/hifi/tmobile/at; Nokia 6085; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6085' } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6085' } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.7231/hifi/tmobile/at; Motorola V3; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.4948/hifi/tmobile/at; SonyEricsson K550i; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K550i } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K550i } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.5005/hifi/tmobile/at; Nokia 5300; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.3314/hifi/tmobile/cz; Siemens ME75; cs; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: ME75 } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: ME75 } }
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.3003/hifi/tmobile-motorola/at; Motorola V3i; en; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.80 (KDDI-SN3U; BREW; Opera Mobi; U; ja) Presto/2.4.18 Version/10.00'
-    result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.18 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S007, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.18 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S007, carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.5 (KDDI-TS3V; BREW; Opera Mobi; U; ja) Presto/2.4.15 Version/10.00'
-    result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.15 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T005, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.15 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T005, carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.5 (KDDI-TS3P; BREW; Opera Mobi; U; ja) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.5' }, engine: { name: Presto, version: 2.2.1 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T002, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: T002, carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.5 (KDDI-SN3O; BREW; Opera Mobi; U; ja) Presto/2.4.15 Version/10.00'
-    result: { browser: { name: 'Opera Mobile', version: '10.00' }, engine: { name: Presto, version: 2.4.15 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S003, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.15 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S003, carrier: au } }
 -
     headers: 'User-Agent: Opera/9.51 Beta (Microsoft Windows; PPC; Opera Mobi/1718; U; en)'
-    result: { browser: { name: 'Opera Mobile', version: '9.51' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Opera/9.51 Beta (Microsoft Windows; PPC; 240x320; Opera Mobi/1718; U; en)'
-    result: { browser: { name: 'Opera Mobile', version: '9.51' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }

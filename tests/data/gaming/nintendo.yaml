@@ -1,9 +1,9 @@
 -
     headers: 'User-Agent: Bunjalloo/0.7.6(Nintendo DS;U;en)'
-    result: { browser: { name: Bunjalloo, version: 0.7.6 }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }
+    result: { browser: { name: Bunjalloo, version: 0.7.6, type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }
 -
     headers: 'User-Agent: Mozilla/5.0 (New Nintendo 3DS like iPhone) AppleWebKit/536.30 (KHTML, like Gecko) NX/3.0.0.5.10 Mobile NintendoBrowser/1.1.9996.EU'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '536.30' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 'New 3DS' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '536.30' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 'New 3DS' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS like iPhone) Version/1.7412.JP'
     result: { os: { version: 1.7412. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
@@ -30,16 +30,16 @@
     result: { os: { version: 1.7498. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.10.9 NintendoBrowser/1.5.0.8047.EU'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.10.9 NintendoBrowser/1.5.0.8047.US'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.8.21 NintendoBrowser/1.0.0.7494.US'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.8.8 Version/1.0.0.6760.JP'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: '534.52' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/1.2.0.USA'
     result: { engine: { name: Webkit, version: '534.53' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
@@ -51,34 +51,34 @@
     result: { engine: { name: Webkit, version: '534.53' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.11.12 NintendoBrowser/2.0.0.9098.JP'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.11 NintendoBrowser/2.1.0.9559.EU'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.6 NintendoBrowser/2.0.0.9362.EU'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.6 NintendoBrowser/2.0.0.9362.JP'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '536.28' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 2047-7; en)'
-    result: { browser: { name: Opera, version: '9.30' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 3642; en)'
-    result: { browser: { name: Opera, version: '9.30' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 3642; ja)'
-    result: { browser: { name: Opera, version: '9.30' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; en-GB)'
-    result: { browser: { name: Opera, version: '9.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; en-US)'
-    result: { browser: { name: Opera, version: '9.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; ja)'
-    result: { browser: { name: Opera, version: '9.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50 [ja]'
-    result: { browser: { name: Opera, version: '8.50' }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }
+    result: { browser: { name: Opera, version: '8.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }

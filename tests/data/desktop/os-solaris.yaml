@@ -1,51 +1,51 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 4.1.4 sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: Solaris, family: BSD, version: 1.1.2 }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: BSD, version: 1.1.2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 5.4 sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 5.5 sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: '3.0' }, os: { name: Solaris, family: UNIX, version: '2.5' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: UNIX, version: '2.5' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 4.1.3 sun4c)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 4.1.3-JL sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 5.4 sun4m)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 5.5.1 sun4u)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.01Gold (X11; I; SunOS 5.5.1 i86pc)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.1 }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.04 [ja_euc] (X11; I; SunOS 5.9 sun4u)'
-    result: { browser: { name: 'Netscape Navigator', version: 3.0.4 }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)'
-    result: { browser: { name: 'Internet Explorer', version: '5.0' }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; SunOS 5.5; FDM)'
-    result: { browser: { name: 'Internet Explorer', version: '6.0' }, os: { name: Solaris, family: UNIX, version: '5' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Solaris, family: UNIX, version: '5' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)'
-    result: { browser: { name: 'Internet Explorer', version: '5.0' }, os: { name: Solaris, family: UNIX, version: '10' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, os: { name: Solaris, family: UNIX, version: '10' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS i86pc; rv:24.0) Gecko/20100101 Firefox/24.0'
-    result: { browser: { name: Firefox, version: '24.0' }, engine: { name: Gecko, version: '24.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '24.0', type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.24 (X11; SunOS i86pc; U; en)'
-    result: { browser: { name: Opera, version: '9.24' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.24', type: browser }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; SunOS sun4u; U; xx) Presto/2.2 Version/10.11'
-    result: { browser: { name: Opera, version: '10.11' }, engine: { name: Presto, version: '2.2' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '10.11', type: browser }, engine: { name: Presto, version: '2.2' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: User-Agent: Mozilla/1.0N (X11; SunOS 4.1.1 sun4c)'
-    result: { browser: { name: 'Netscape Navigator', version: '1.0' }, os: { name: Solaris, family: BSD, version: '1.0' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '1.0', type: browser }, os: { name: Solaris, family: BSD, version: '1.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: User-Agent: Mozilla/1.1N (X11; I; SunOS 4.1.2 sun4c)'
-    result: { browser: { name: 'Netscape Navigator', version: '1.1' }, os: { name: Solaris, family: BSD, version: 1.0.1 }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: Solaris, family: BSD, version: 1.0.1 }, device: { type: desktop } }

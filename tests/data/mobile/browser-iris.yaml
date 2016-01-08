@@ -1,18 +1,18 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (U; Mobile; iPhone; PPC; xx; 320x320) AppleWebKit/525.18.1 (KHTML, like Gecko) WM5 Iris/1.1.9 Version/3.1.1 Mobile/5A345 Safari/525.20'
-    result: { browser: { name: Iris, version: 1.1.9 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Iris, version: 1.1.9, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (U; Mobile; iPhone; Smartphone; xx; 320x240) AppleWebKit/525.18.1 (KHTML, like Gecko) WM5 Iris/1.1.7 Version/3.1.1 Mobile/5A345 Safari/525.20'
-    result: { browser: { name: Iris, version: 1.1.7 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Iris, version: 1.1.7, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT; U; xx) AppleWebKit/522+ (KHTML, like Gecko) Iris/1.0.14 Safari/419.3'
-    result: { browser: { name: Iris, version: 1.0.14 }, engine: { name: Webkit, version: '522' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Iris, version: 1.0.14, type: browser }, engine: { name: Webkit, version: '522' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT; U; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Iris/1.1.8 Safari/525.20'
-    result: { browser: { name: Iris, version: 1.1.8 }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Iris, version: 1.1.8, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows CE; U; Mobile; iPhone; PPC; en) AppleWebKit/522+ (KHTML, like Gecko) WM5 Iris/1.0.14 Safari/419.3'
-    result: { browser: { name: Iris, version: 1.0.14 }, engine: { name: Webkit, version: '522' }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Iris, version: 1.0.14, type: browser }, engine: { name: Webkit, version: '522' }, os: { name: 'Windows Mobile', version: '5.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; arm; en, Nuvi) AppleWebKit/523.13 (KHTML, like Gecko) Version/3.0 Mobile Safari/419.3 Qt Qtopia Iris/1.1.2'
-    result: { browser: { name: Iris, version: 1.1.2 }, engine: { name: Webkit, version: '523.13' }, os: { name: Qtopia }, device: { type: gps, manufacturer: Garmin, model: Nuvi } }
+    result: { browser: { name: Iris, version: 1.1.2, type: browser }, engine: { name: Webkit, version: '523.13' }, os: { name: Qtopia }, device: { type: gps, manufacturer: Garmin, model: Nuvi } }

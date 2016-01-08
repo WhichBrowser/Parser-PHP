@@ -3,217 +3,217 @@
     result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A588 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  Galaxy Nexus Build/ITL41F) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Nexus' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Nexus' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  HTC Sensation XE with Beats Audio Z715e Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 ...'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Sensation XE' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Sensation XE' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  LT18i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Arc S' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Arc S' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  S2005A-H Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Lenovo, model: 'IdeaTab S2005' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Lenovo, model: 'IdeaTab S2005' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  SHW-M250S Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18' }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; A100 Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Safari/537.22'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Acer, model: 'Iconia Tab A100' } }
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Acer, model: 'Iconia Tab A100' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ARCHOS 101G9 Build/MR1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Safari/537.22'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Archos, model: '101 G9' } }
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Archos, model: '101 G9' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ASUS Transformer Pad TF300T Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: '29' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
+    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ASUS Transformer Pad TF300T Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36'
-    result: { browser: { name: Chrome, version: '30' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-10D Build/V20R47F) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.33 Mobile Safari/537.22'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS X F-10D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS X F-10D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-11D Build/V21R36A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.74 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '27' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; FZ-A1B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: '31' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
+    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; GT-I9220 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; HTC Desire C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.36 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '36' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire C' } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire C' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; HTC PH39100 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Raider 4G' } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Raider 4G' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW12HT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '42' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW13F Build/V77R60B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Lenovo S880 Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: S880 } }
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: S880 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; SC-02C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; MB860 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '36' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; V370 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '30' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Liquid E2' } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Liquid E2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; SCH-R970C Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '34' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
+    result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LG-D801 Build/KOT49I.D80120a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.76 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '37' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+    result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; GT-I9300 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.34 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '41' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+    result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-T817T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Safari/537.36'
-    result: { browser: { name: Chrome, version: '45' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S2 9.7' } }
+    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S2 9.7' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1; XT1060 Build/LPA23.12-39.7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2507.0 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: 47.0.2507.0 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X' } }
+    result: { browser: { name: Chrome, version: 47.0.2507.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '46' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5X Build/MDB08I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.43 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '46' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5X' } }
+    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6 Build/MPA44G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '44' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
+    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6P Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '47' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Nexus 6P' } }
+    result: { browser: { name: Chrome, version: '47', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Nexus 6P' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 7 Build/MDB08M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.8 Safari/537.36'
-    result: { browser: { name: Chrome, version: 48.0.2564.8 }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
+    result: { browser: { name: Chrome, version: 48.0.2564.8, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.1; xx; Coolpad8297_CMCC_TD/1.0 Android/4.2.1 Release/02.20.2014 Browser/Chrome30.0.0.0 Profile/MIDP-1.0 Configuration/CLDC-1.0) Chrome/30.0.0.0 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30'
     result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Coolpad, model: 'Dashen F1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/9A405 Safari/7534.48.3 (AD1EC959-762E-4E8B-A814-7A6BFF9274D6)'
-    result: { browser: { name: Chrome, version: '25' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X; xx) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/9B176 Safari/7534.48.3 (AD5080E1-ED62-4654-A8AA-1C36DF3B6BFD)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/10A403 Safari/7534.48.3 (643D5A48-4F57-4091-AC16-8BE7917326A6)'
-    result: { browser: { name: Chrome, version: '21' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: '6.0' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '21', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: '6.0' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X; xx) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/10A523 Safari/8536.25 (166FE58F-9C03-4B66-AA74-40DEF4715127)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 (C9905D08-5428-45A5-8FB6-F0362D8DC5BA)'
-    result: { browser: { name: Chrome, version: '30' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/37.0.2062.60 Mobile/12A405 Safari/9537.53 (000622)'
-    result: { browser: { name: Chrome, version: '37' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 8.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 8.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B435 Safari/600.1.4 (000097)'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B435 Safari/600.1.4 (000102)'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B440 Safari/600.1.4 (000792)'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/40.0.2214.61 Mobile/12B440 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '40' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/41.0.2272.58 Mobile/12B466 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '41' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/42.0.2311.47 Mobile/12D508 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '42' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.2' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.2' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/35.0.1916.41 Mobile/12F69 Safari/9537.53'
-    result: { browser: { name: Chrome, version: '35' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '8.3' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '35', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '8.3' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/41.0.2272.56 Mobile/12H143 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '41' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.56 Mobile/12H4125a Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '43' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/42.0.2311.47 Mobile/13A452 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '42' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 9.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 9.0.2 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/46.0.2490.85 Mobile/13B143 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '46' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/8J2 Safari/7534.48.3 (841B1A38-329C-4D7B-9F54-FB50CC35E37D)'
-    result: { browser: { name: Chrome, version: '21' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 4.3.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '21', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 4.3.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; U; CPU OS 5_1_1 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3 (3B62CF00-A197-4935-88AB-F56C103D3B5F)'
-    result: { browser: { name: Chrome, version: '19' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 5.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    result: { browser: { name: Chrome, version: '19', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 5.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X; xx) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/23.0.1271.96 Mobile/9A334 Safari/7534.48.3 (932DD630-9909-4631-99CF-773639792A4A)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/9A405 Safari/7534.48.3 (EEDF4476-97FF-426A-9AFF-7F7FE176A5EC)'
-    result: { browser: { name: Chrome, version: '28' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '28', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X; xx) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/9A405 Safari/7534.48.3 (4775B5E1-6D71-45AE-BEA2-6CAE9E683F1E)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.80 Mobile/9B208 Safari/7534.48.3 (72D75273-00EC-4E3B-91F9-C07363C6B72D)'
-    result: { browser: { name: Chrome, version: '21' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '21', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/10A403 Safari/7534.48.3 (5FC24CF1-BC6D-408B-BA27-7AA33F074073)'
-    result: { browser: { name: Chrome, version: '21' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '21', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X; xx) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/10A525 Safari/7534.48.3 (AA07214F-1BDE-4B8A-8F7D-87B9721773C5)'
-    result: { browser: { name: Chrome, version: '21' }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '21', type: browser }, engine: { name: Webkit, version: 534.46.0 }, os: { name: iOS, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.16 Mobile/10B144 Safari/8536.25 (10555816-DD25-4211-B5AC-FE688CE3545B)'
-    result: { browser: { name: Chrome, version: '28' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '28', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X; xx) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/10B143 Safari/8536.25 (FA2694E8-BCB0-4ECA-BBD3-6E15B8EEB37C)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/27.0.1453.10 Mobile/10B329 Safari/8536.25 (27A46047-DC2A-481C-A996-9DD3335D57E7)'
-    result: { browser: { name: Chrome, version: '27' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A465 Safari/8536.25 (6C4719BC-2A6B-4473-91AC-E31A6135ADB1)'
-    result: { browser: { name: Chrome, version: '30' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/11B511 Safari/9537.53 (3C9C5C07-1448-4304-A505-C0F304002E6A)'
-    result: { browser: { name: Chrome, version: '32' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/11B554a Safari/9537.53 (8FD0799C-6F5D-48C3-8DD6-BE2D09939C4C)'
-    result: { browser: { name: Chrome, version: '32' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/33.0.1750.21 Mobile/11D201 Safari/9537.53 (008D48E6-1C70-444E-A74B-DC0A1199FCE3)'
-    result: { browser: { name: Chrome, version: '33' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/38.0.2125.67 Mobile/11D257 Safari/9537.53 (000685)'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B435 Safari/600.1.4 (000657)'
-    result: { browser: { name: Chrome, version: '39' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/12F70 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '45' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.3' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.3' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/13A4254v Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '44' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '9.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '9.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.56 Mobile/13A404 Safari/600.1.4'
-    result: { browser: { name: Chrome, version: '43' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 9.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 9.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPod; CPU iPhone OS 6_0_1 like Mac OS X; xx) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/23.0.1271.96 Mobile/10A523 Safari/8536.25 (3189B71D-4F1C-4868-B46A-12A0C07CDBE9)'
-    result: { browser: { name: Chrome, version: '23' }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: media, manufacturer: Apple, model: 'iPod touch' } }
+    result: { browser: { name: Chrome, version: '23', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.0.1 }, device: { type: media, manufacturer: Apple, model: 'iPod touch' } }
 -
     headers: 'User-Agent: m2 note/4.5 Linux/3.10.65 Android/5.1 Release/08.17.2015 Browser/Chrome40.0.2214.114 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: Chrome, version: '40' }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'M2 Note' } }
+    result: { browser: { name: Chrome, version: '40', type: browser }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'M2 Note' } }

@@ -1,15 +1,15 @@
 -
     headers: 'User-Agent: 3G Explorer/3.1.0.1085 (Linux;Android 4.3,SM-N9005) AppleWebKit/533.1 (357507050070039,01)'
-    result: { browser: { name: '3G Explorer', version: 3.1.0 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
+    result: { browser: { name: '3G Explorer', version: 3.1.0, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
 -
     headers: 'User-Agent: 3G Explorer/3.1.3.165 (Linux;Android 4.2.2,Lenovo K900) AppleWebKit/533.1 (860486024086613,00)'
-    result: { browser: { name: '3G Explorer', version: 3.1.3 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: K900 } }
+    result: { browser: { name: '3G Explorer', version: 3.1.3, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: K900 } }
 -
     headers: 'User-Agent: 4G Explorer/3.2.0 (Linux;Android 4.4.2,HTC 801e) AppleWebKit/533.1 (354439050552654,01)'
-    result: { browser: { name: '4G Explorer', version: 3.2.0 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
+    result: { browser: { name: '4G Explorer', version: 3.2.0, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
 -
     headers: 'User-Agent: 4G Explorer/3.5.3 (Linux;Android 4.2.2,HM NOTE 1TD) AppleWebKit/533.1 (863990024967042,78)'
-    result: { browser: { name: '4G Explorer', version: 3.5.3 }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi Note 1' } }
+    result: { browser: { name: '4G Explorer', version: 3.5.3, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi Note 1' } }
 -
     headers: 'User-Agent: AcerTD600_TD/1.0 Android/2.2 (Linux; Android 2.2) Release/12.20.2010 Browser/WAP 2.0 AppleWebKit/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'beTouch TD600' } }
@@ -45,19 +45,19 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '5333.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Lephone, model: TD8208 } }
 -
     headers: 'User-Agent: MQQBrowser/3.0/Mozilla/5.0 (HW-HUAWEI_C8500/C8500V100R001C92B234;U;Android/2.1;240*320;CTC/2.0) AppleWebKit/530.17 Mobile Safari/530.17'
-    result: { browser: { name: 'QQ Browser', version: '3.0' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
+    result: { browser: { name: 'QQ Browser', version: '3.0', type: browser }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_C8500/C8500V100R001C92B234;U;Android/2.1;240*320;CTC/2.0) AppleWebKit/530.17 Mobile Safari/530.17 parameters/{scr=427_320,cm=1,ql=l,imei=a0000020ccd264,bm=1,eng=adrmini7,mdm=1,mdl=C8500,ps=1} tiantian(securitypay)'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; Aspire V5-121 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36'
-    result: { browser: { name: Chrome, version: '40' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: desktop, manufacturer: Acer, model: 'Aspire V5-121' } }
+    result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: desktop, manufacturer: Acer, model: 'Aspire V5-121' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.99; Build/LPV81C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.99; Build/MPZ44Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '44' }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 02.00.06(2.1-update1); xx; i-station Buddy Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, model: 'i-station Buddy' } }
@@ -87,13 +87,13 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R811 } }
 -
     headers: 'User-Agent: T-smart_G18_TD/1.0 Linux/2.6.35 Android/2.3.5 Release/7.16.2012 Mozilla/5.0 (Linux; U; Android 2.2) AppleWebKit/533.1 (KHTML, like Gecko) FlyFlow/2.4 Version/4.0 Mobile Safari/533.1 baidubrowser/061_6.5.4.2_diordna_084_023/trams-T_01_5.3.2_81G-trams-T/71'
-    result: { browser: { name: 'Baidu Browser', version: '2.4' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: T-smart, model: G18 } }
+    result: { browser: { name: 'Baidu Browser', version: '2.4', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: T-smart, model: G18 } }
 -
     headers: 'User-Agent: Xiaomi_2013022_TD/V1 Linux/3.4.5 Android/4.2.1 Release/03.11.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.1;'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi Red Rice' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 (grouper) Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 XiaoMi/MiPad/MiuiBrowser/1.0'
-    result: { browser: { name: 'MIUI Browser', version: '1.0' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
+    result: { browser: { name: 'MIUI Browser', version: '1.0', type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
 -
     headers: 'User-Agent: MASTONE G3_TD/1.0 Android/2.3 Release/4.20.2012 Browser/AppleWebKit533.1 Profile/MIDP-2.0'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.3' }, device: { type: mobile, subtype: smart, manufacturer: Mastone, model: G3 } }
@@ -111,7 +111,7 @@
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Desay, model: TS908 } }
 -
     headers: 'User-Agent: GiONEE_TD500_CMCC/1.0 Android/2.3.7 (LinuxOS 2.6.35.7) Release/11.28.2011 Browser/WAP2.0 (UCWEB/7.9.3)'
-    result: { browser: { name: 'UC Browser', version: '7.9' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Gionee, model: TD500 } }
+    result: { browser: { name: 'UC Browser', version: '7.9', type: browser }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Gionee, model: TD500 } }
 -
     headers: 'User-Agent: HUAWEI Y325-T00_TD/V1 Linux/3.4.5 Android/2.3.6 Release/03.26.2013 Browser/AppleWebKit533.1 Mobile Safari/533.1;'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend Y325' } }
@@ -144,7 +144,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Feiteng, model: GT-N9300 } }
 -
     headers: 'User-Agent: OneBrowser/3.2/HS-T92_TD/1.0 Android/2.2 Release/12.10.2011 Browser/AppleWebKit533.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: OneBrowser, version: '3.2' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T92 } }
+    result: { browser: { name: OneBrowser, version: '3.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T92 } }
 -
     headers: 'User-Agent: MQQBrowser/5.0/HS-T96_TD/1.0 Android/4.0 Release/5.10.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'QQ Browser', version: '5.0' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T96 } }
+    result: { browser: { name: 'QQ Browser', version: '5.0', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T96 } }

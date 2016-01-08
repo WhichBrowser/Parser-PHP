@@ -1,21 +1,21 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10162'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10525'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10537'
-    result: { browser: { name: Edge, alias: 'Edge 13' }, engine: { name: EdgeHTML, version: '13' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10514'
-    result: { browser: { name: Edge, alias: 'Edge 12' }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }

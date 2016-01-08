@@ -45,7 +45,7 @@
     result: { engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Pre 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (hp-desktop; Linux; hpwOS/2.0; U; xx) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 Desktop/1.0'
-    result: { browser: { name: 'webOS Browser' }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '2.0' }, device: { type: emulator } }
+    result: { browser: { name: 'webOS Browser', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '2.0' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; xx)(webOS/2.1.0; U; xx) AppleWebKit/532.2 Version/1.0 Safari/532.2 Pre/1.0 -CET'
     result: { engine: { name: Webkit, version: '532.2' }, os: { name: webOS, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Pre } }

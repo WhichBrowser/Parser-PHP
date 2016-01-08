@@ -30,22 +30,22 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V801SH, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/103P/PJP10/SN352788051966244 Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 103P, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 103P, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/708SC/SCJ001/SN543210987654321 Browser/NetFront/3.3'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 708SC, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 708SC, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/932SH/SHJ003/SN353700022260911 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 932SH, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 932SH, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/910T/TJ001/SN Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 910T, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 910T, carrier: Softbank } }
 -
     headers: 'User-Agent: SoftBank/1.0/911SH/SHJ001/SN353678010678288 Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 911SH, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 911SH, carrier: Softbank } }
 -
     headers: 'User-Agent: Vodafone/1.0/V804SH/SHJ001/SN0000000000000 Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.3.2 Ext-V-Profile/VSCL-2.0.0'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V804SH, carrier: Softbank } }
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V804SH, carrier: Softbank } }
 -
     headers: 'User-Agent: Vodafone/1.0/V905SH/SHJ001 Browser/VF-NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V905SH, carrier: Softbank } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V905SH, carrier: Softbank } }

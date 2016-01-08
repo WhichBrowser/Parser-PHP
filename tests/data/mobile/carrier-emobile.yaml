@@ -1,33 +1,33 @@
 -
     headers: 'User-Agent: Huawei/1.0/H12HW/B000 Browser/Obigo-Browser/Q04A'
-    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW, carrier: EMOBILE } }
+    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H12HW, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Huawei/1.0/H11HW/B000 Browser/Obigo-Browser/Q04A'
-    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H11HW, carrier: EMOBILE } }
+    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: H11HW, carrier: EMOBILE } }
 -
     headers: 'User-Agent: IAC/1.0 (H31IA;like Gecko;OpenBrowser) WWW Browser/ver1.0'
-    result: { browser: { name: 'EMOBILE Browser', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Inventec, model: H31IA, carrier: EMOBILE } }
+    result: { browser: { name: 'EMOBILE Browser', version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Inventec, model: H31IA, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/5.0 (H11T; like Gecko; OpenBrowser) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
 -
     headers: 'User-Agent: emobile/1.0.0 (H11T; like Gecko; Wireless) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
 -
     headers: 'User-Agent: emobile/1.0.0 (H11T; Profile/MIDP-2.0 Configuration/CLDC-1.1 Local/ja UNTRUSTED/1.0)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S11HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S11HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S11HT, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S12HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S12HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S12HT, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) S21HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S21HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S21HT, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) S22HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0' }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S22HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S22HT, carrier: EMOBILE } }
 -
     headers: 'User-Agent: Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U; ja) S21HT'
-    result: { browser: { name: 'Opera Mobile', version: '9.5' }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S21HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S21HT, carrier: EMOBILE } }

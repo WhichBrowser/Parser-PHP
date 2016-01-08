@@ -75,7 +75,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F2051, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (NTTDoCoMo SH900i) Scope/3.0 Venus/0326.1'
-    result: { browser: { name: Scope, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i, carrier: DoCoMo } }
+    result: { browser: { name: Scope, version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH900i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (N04A;FOMA;like Gecko)'
     result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N04A, carrier: DoCoMo } }
@@ -84,7 +84,7 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH705i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Opera/3.1 (FOMA M1000; U; FOMA; ja-JP; rv:1.1.2) Opera/20050207 Opera/3.11'
-    result: { browser: { name: 'Opera Mobile', version: '3.1' }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000, carrier: DoCoMo } }
+    result: { browser: { name: 'Opera Mobile', version: '3.1', type: browser }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: M1000, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SH06A3;FOMA;like Gecko)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH06A3, carrier: DoCoMo } }

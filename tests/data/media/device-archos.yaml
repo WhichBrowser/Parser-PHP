@@ -1,9 +1,9 @@
 -
     headers: 'User-Agent: Opera/8.5 (GOGI; Linux armv5tejl; U) [DE] Archos A704WIFI/SW1.7.53'
-    result: { browser: { name: Opera, version: '8.5' }, device: { type: media, manufacturer: Archos, model: '704 WiFi' } }
+    result: { browser: { name: Opera, version: '8.5', type: browser }, device: { type: media, manufacturer: Archos, model: '704 WiFi' } }
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a605; en)'
-    result: { browser: { name: Opera, version: '9.02' }, device: { type: media, manufacturer: Archos, model: '605 WiFi' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '605 WiFi' } }
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a705; en)'
-    result: { browser: { name: Opera, version: '9.02' }, device: { type: media, manufacturer: Archos, model: '705 WiFi' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '705 WiFi' } }

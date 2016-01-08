@@ -1,21 +1,21 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T32013713.0203.7DD; TVwithVideoPlayer; like Gecko) NetFront/4.1 DTVNetBrowser/2.2 (000039;T32013713;0203;7DD) InettvBrowser/2.2 (000039;T32013713;0203;7DD)'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T33010302.0203.3DD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T33010302;0203;3DD) InettvBrowser/2.2 (000039;T33010302;0203;3DD)'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T38014006.0203.0DD; TVwithVideoPlayer; like Gecko) NetFront/4.1 DTVNetBrowser/2.2 (000039;T38014006;0203;0DD) InettvBrowser/2.2 (000039;T38014006;0203;0DD) YahooDTV/2.0 (Video=0x03;Audio=0x01;Screen=0x01;Device=0x00;Remote=0x10)'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T43011A02.0203.ADD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T43011A02;0203;ADD) InettvBrowser/2.2 (000039;T43011A02;0203;ADD)'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T45000006.0203.CDD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T45011C06;0203;CDD) InettvBrowser/2.2 (000039;T45011C06;0203;CDD)'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/TXXXXXXXXX.0203.ADD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;TXXXXXXXXX;0203;ADD) InettvBrowser/2.2 (000039;TXXXXXXXXX;0203;ADD) YahooDTV/1.1 (Video=0x03;Audio=0x01;Screen=0x01;Device=0x00;Remote=0x10)'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux mipsel; U; HbbTV/1.1.1 (; TOSHIBA; 40PX200; 0.7.3.0.; t12; ) ; Toshiba_TP/1.3.0 (+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4+VIDEO_X_MS_ASF+OFFLINEAPP) ; en) AppleWebKit/534.1 (KHTML, like Gecko)'
     result: { engine: { name: Webkit, version: '534.1' }, device: { type: television, manufacturer: Toshiba, model: 'Regza PX200', series: 'Smart TV' } }
@@ -45,37 +45,37 @@
     result: { engine: { name: Webkit, version: '534.1' }, device: { type: television, manufacturer: Toshiba, model: 'Regza TL838', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux ; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 en-US;L7200 Version/4.0 Safari/531.2+'
-    result: { browser: { name: Espial, version: 6.0.4 }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Toshiba, model: 'Regza L7200', series: 'Smart TV' } }
+    result: { browser: { name: Espial, version: 6.0.4, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Toshiba, model: 'Regza L7200', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux ; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.1 en-US;L7200 Version/4.0 Safari/531.2+'
-    result: { browser: { name: Espial, version: 6.1.1 }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Toshiba, model: 'Regza L7200', series: 'Smart TV' } }
+    result: { browser: { name: Espial, version: 6.1.1, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Toshiba, model: 'Regza L7200', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux; xx; DTV; TSBNetTV/T2F019608.0203.6DD) AppleWebKit/534(KHTML, like Gecko) NX/3.0 (DTV; HTML; R1.0;) DTVNetBrowser/2.2 (000039;T2F019608;0203;6DD) InettvBrowser/2.2 (000039;T2F019608;0203;6DD)'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux; xx; DTV; TSBNetTV/T47016F08.0203.FDD) AppleWebKit/534(KHTML, like Gecko) NX/2.1 (DTV; HTML; R1.0;) DTVNetBrowser/2.2 (000039;T47016F08;0203;FDD) InettvBrowser/2.2 (000039;T47016F08;0203;FDD)'
-    result: { browser: { name: 'NetFront NX', version: '2.1' }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux; xx; DTV; TSBNetTV/T4D018C01.0203.CDD) AppleWebKit/534(KHTML, like Gecko) NX/3.0 (DTV; HTML; R1.0;) DTVNetBrowser/2.2 (000039;T4D018C01;0203;CDD) InettvBrowser/2.2 (000039;T4D018C01;0203;CDD)'
-    result: { browser: { name: 'NetFront NX', version: '3.0' }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) MWB/1.0 Safari/537.4 HbbTV/1.1.1 (; TOSHIBA; MWB;;;)'
     result: { browser: { using: Qt }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: Toshiba, model: MWB } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5450; TOSHIBA;E8E0B7047FEF;BDX3400KB; 0.64) Presto/2.12.362 Version/12.10'
-    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Toshiba, model: BDX3400, series: 'Blu-ray Player' } }
+    result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Toshiba, model: BDX3400, series: 'Blu-ray Player' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5450; TOSHIBA;E8E0B7F82B9B;BDX5400KB; 0.33) Presto/2.12.362 Version/12.10'
-    result: { browser: { name: 'Opera Devices', version: '3.4' }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Toshiba, model: BDX5400, series: 'Blu-ray Player' } }
+    result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Toshiba, model: BDX5400, series: 'Blu-ray Player' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 37SL863; 19.2.36.0; 3; ) ; ToshibaTP/1.1.0 () ; en) Presto/2.6.33 Version/10.60'
-    result: { browser: { name: 'Opera Devices', version: '2.8' }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza SL863', series: 'Smart TV' } }
+    result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza SL863', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 55WL863; 19.5.61.15; 3; ) ; ToshibaTP/1.3.0 (+VIDEO_X_MS_ASF+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4+DRM+3D) ; de) Presto/2.6.33 Version/10.60'
-    result: { browser: { name: 'Opera Devices', version: '2.8' }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza WL863', series: 'Smart TV' } }
+    result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza WL863', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 55ZL1; 19.7.61.14; 3; ) ; ToshibaTP/1.3.0 (+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4) ; de) Presto/2.6.33 Version/10.60'
-    result: { browser: { name: 'Opera Devices', version: '2.8' }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'ZL1 Cevo', series: 'Smart TV' } }
+    result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'ZL1 Cevo', series: 'Smart TV' } }
 -
     headers: 'User-Agent: mwb-db-client Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 32SL863; 19.2.39.208; 3; ) ; ToshibaTP/1.1.1 () ; xx) Presto/2.6.33 Version/10.60'
-    result: { browser: { name: 'Opera Devices', version: '2.8' }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza SL863', series: 'Smart TV' } }
+    result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza SL863', series: 'Smart TV' } }

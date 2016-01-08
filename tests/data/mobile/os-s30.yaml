@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Series30Plus; Nokia220/13.00.11; Profile/Series30Plus Configuration/Series30Plus) Gecko/20100401 S40OviBrowser/3.8.1.0.5'
-    result: { browser: { name: 'Nokia Xpress', version: 3.8.1 }, engine: { name: Gecko }, os: { name: Series30+ }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '220' } }
+    result: { browser: { name: 'Nokia Xpress', version: 3.8.1, type: browser }, engine: { name: Gecko }, os: { name: Series30+ }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '220' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Series30Plus; Nokia225/20.06.17; Profile/Series30Plus Configuration/Series30Plus) Gecko/20100401 S40OviBrowser/3.8.1.2.3005'
-    result: { browser: { name: 'Nokia Xpress', version: 3.8.1 }, engine: { name: Gecko }, os: { name: Series30+ }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '225' } }
+    result: { browser: { name: 'Nokia Xpress', version: 3.8.1, type: browser }, engine: { name: Gecko }, os: { name: Series30+ }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '225' } }

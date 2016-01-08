@@ -1,0 +1,240 @@
+<?php
+	
+	require_once('paymentproviders/tripledeal-commandapi.php');
+
+	class Payment {
+		
+		function create($administration, $change, $currency, $amount, $billto, $shopper, $payload = null) {
+			global $db; 
+			
+			$key = substr(hash('sha256', openssl_random_pseudo_bytes(64)), 0, 16) . '@' . time();
+
+			$paymentcluster = PaymentProvider::create($key, $currency, $amount, $payload->payable->description, $billto, $shopper);
+			
+			if ($paymentcluster) {
+				$invoice = Invoices::create($administration, $currency, $amount, $billto, $shopper, $payload);
+				
+				$result = $db->query('
+					INSERT INTO
+						SubscriptionPayment
+					SET
+						`AdministrationId` = ' . @intval($administration) . ',
+						`SubscriptionInvoiceId` = ' . @intval($invoice) . ',
+						`SubscriptionChangeId` = ' . @intval($change) . ',
+						`PaymentCluster` = ' . @intval($paymentcluster) . ',
+						`PaymentStarted` = NOW(),
+						`PaymentFinished` = NULL,
+						`PaymentKey` = "' . $key . '",
+						`Status` = 0
+				');
+
+				if ($db->error) {
+					trigger_error($db->error);
+				}
+	
+				if ($result) {
+					$id = $db->insert_id;			
+			
+					return (object) array(
+						'id'	=> $id,
+						'url'	=> PaymentProvider::getUrlForPaymentCluster($paymentcluster, $key)
+					);
+				}
+			}
+		}
+		
+		function ping($key) {
+			global $db; 
+			
+			$result = $db->query('
+				SELECT 
+					`PaymentCluster`
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`PaymentKey` = "' . $key . '" AND
+					`Status` = 0
+			');
+
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				return PaymentProvider::ping($obj->PaymentCluster, $key);
+			}						
+		}
+		
+		function changeUsingPaymentCluster($paymentcluster, $status) {
+			global $db; 
+			
+			$result = $db->query('
+				SELECT 
+					`AdministrationId`, `Id`
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`PaymentCluster` = "' . $paymentcluster . '"
+			');
+
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				Payment::change(intval($obj->AdministrationId), intval($obj->Id), $status);
+			}						
+		}
+		
+		function updatePayloadUsingPaymentCluster($paymentcluster, $payload) {
+			global $db; 
+			
+			$result = $db->query('
+				UPDATE
+					SubscriptionPayment
+				SET
+					`Payload` = "' . $db->real_escape_string($payload) . '"
+				WHERE
+					`PaymentCluster` = "' . $paymentcluster . '"
+			');
+
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+		}
+		
+		function change($administration, $id, $type) {
+			switch ($type) {
+				case 'success':	Payment::success($administration, $id); break;
+				case 'cancel':	Payment::failed($administration, $id, 1); break;
+				case 'expire':	Payment::failed($administration, $id, 2); break;
+				case 'fail':	Payment::failed($administration, $id, 3); break;
+			}
+		}
+				
+		function success($administration, $id) {
+			global $db; 
+			
+			$result = $db->query('
+				SELECT 
+					`SubscriptionInvoiceId`, `SubscriptionChangeId`
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`AdministrationId` = ' . intval($administration) . ' AND
+					`Id` = "' . intval($id) . '"
+			');
+			
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				Invoices::confirm(intval($obj->SubscriptionInvoiceId));
+				Change::confirm(intval($obj->SubscriptionChangeId), intval($id));
+
+				$result = $db->query('
+					UPDATE
+						SubscriptionPayment
+					SET
+						`Status` = 4,
+						`PaymentFinished` = NOW()
+					WHERE
+						`Id` = ' . intval($id) . '
+				');
+
+				if ($db->error) {
+					trigger_error($db->error);
+				}
+			}
+			
+			return true;
+		}	
+				
+		function failed($administration, $id, $status) {
+			global $db; 
+			
+			$result = $db->query('
+				SELECT 
+					`SubscriptionInvoiceId`, `SubscriptionChangeId`
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`AdministrationId` = ' . intval($administration) . ' AND
+					`Id` = "' . intval($id) . '"
+			');
+			
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				Invoices::cancel(intval($obj->SubscriptionInvoiceId));
+				Change::fail(intval($obj->SubscriptionChangeId));
+
+				$result = $db->query('
+					UPDATE
+						SubscriptionPayment
+					SET
+						`Status` = ' . intval($status) . ',
+						`PaymentFinished` = NOW()
+					WHERE
+						`Id` = ' . intval($id) . '
+				');
+
+				if ($db->error) {
+					trigger_error($db->error);
+				}
+			}
+			
+			return true;
+		}
+		
+		function isPaymentForChangePending($change) {
+			global $db;
+			
+			$result = $db->query('
+				SELECT 
+					count(*) AS Count
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`SubscriptionChangeId` = ' . intval($change) . ' AND
+					`Status` = 0
+			');
+
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				if ($obj->Count > 0) return true;
+			}
+			
+			return false;
+		}
+		
+		function getPending($administration) {
+			global $db;
+			
+			$result = $db->query('
+				SELECT 
+					`Id`, `PaymentKey`, `PaymentCluster`
+				FROM 
+					SubscriptionPayment
+				WHERE
+					`AdministrationId` = ' . intval($administration) . ' AND
+					`Status` = 0
+			');
+			
+			if ($db->error) {
+				trigger_error($db->error);
+			}
+
+			if ($result && $obj = $result->fetch_object()) { 
+				return array('id' => intval($obj->Id), 'url' => PaymentProvider::getUrlForPaymentCluster(intval($obj->PaymentCluster), $obj->PaymentKey));
+			}
+
+			return null;
+		}
+	}

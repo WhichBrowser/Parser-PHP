@@ -1,153 +1,153 @@
 -
     headers: 'User-Agent: ALCATEL-OT871A/987 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 871A' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 871A' } }
 -
     headers: 'User-Agent: ALCATEL_A392G/1.0 ObigoInternetBrowser/Q05A[TF35868800000015804729021]'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A392G } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A392G } }
 -
     headers: 'User-Agent: ALCATEL_A392T/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A392T } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A392T } }
 -
     headers: 'User-Agent: ALCATEL_ONE_TOUCH_2067X/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 2067X' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 2067X' } }
 -
     headers: 'User-Agent: ALCATEL_ONE_TOUCH_768T/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 768T' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 768T' } }
 -
     headers: 'User-Agent: ALCATEL_ONE_TOUCH_838/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 838' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 838' } }
 -
     headers: 'User-Agent: ALCATEL_TRIBE_3075A/1.0 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch Tribe 3075A' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch Tribe 3075A' } }
 -
     headers: 'User-Agent: ALCATEL_TRIBE_3075A/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch Tribe 3075A' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch Tribe 3075A' } }
 -
     headers: 'User-Agent: ALCATEL_one_touch_813/1.0 model-orange Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 813' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 813' } }
 -
     headers: 'User-Agent: Alcatel-OT-807D/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 807D' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'One Touch 807D' } }
 -
     headers: 'User-Agent: Alcatel_A205G-B/1.0 ObigoInternetBrowser/Q05A[TF014217003311291004903718147907548]'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A205G-B } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A205G-B } }
 -
     headers: 'User-Agent: BenQ-CF61/1.00/WAP2.0/MIDP2.0/CLDC1.0 UP.Browser/6.3.0.4.c.1.102 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.3' }, device: { type: mobile, subtype: feature, manufacturer: BenQ, model: CF61 } }
+    result: { browser: { name: Openwave, version: '6.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: BenQ, model: CF61 } }
 -
     headers: 'User-Agent: CELKON.C64/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'SEMC Browser', version: 4.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Celkon, model: C64 } }
+    result: { browser: { name: 'SEMC Browser', version: 4.0.3, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Celkon, model: C64 } }
 -
     headers: 'User-Agent: COCOON/R01 Browser/Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: O2, model: Cocoon } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: O2, model: Cocoon } }
 -
     headers: 'User-Agent: CTC/HUAWEIC5720 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Huawei, model: C5720 } }
 -
     headers: 'User-Agent: Cricket-A415/1.0 Polaris/v6.17'
-    result: { browser: { name: Polaris, version: '6.17' }, device: { type: mobile, subtype: feature, manufacturer: Cricket, model: A415 } }
+    result: { browser: { name: Polaris, version: '6.17', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Cricket, model: A415 } }
 -
     headers: 'User-Agent: Fly_E154 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Profile/MIDP-2.0 Configuration/CLDC-1.1 Sync/SyncClient1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; xx) Presto/2.5.28 Version/10.10'
-    result: { browser: { name: 'Opera Mobile', version: '10.10' }, engine: { name: Presto, version: 2.5.28 }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: E154 } }
+    result: { browser: { name: 'Opera Mobile', version: '10.10', type: browser }, engine: { name: Presto, version: 2.5.28 }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: E154 } }
 -
     headers: 'User-Agent: LG-LG840G/V100[TF013293005445552024363913344521363] Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.3' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG840G } }
+    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG840G } }
 -
     headers: 'User-Agent: LG-T300/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.3' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T300 } }
+    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T300 } }
 -
     headers: 'User-Agent: LG/KC910i/V10a Browser/Obigo-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KC910i Renoir' } }
+    result: { browser: { name: 'Obigo Q', version: '7.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KC910i Renoir' } }
 -
     headers: 'User-Agent: LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KU990 Viewty' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KU990 Viewty' } }
 -
     headers: 'User-Agent: LGE-PM225/1.0 UP.Browser/6.2.3.7.e.1.101 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: PM225 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: PM225 } }
 -
     headers: 'User-Agent: LGE-VM510 NetFront/3.5.1 (GUI) MMP/2.0'
-    result: { browser: { name: NetFront, version: 3.5.1 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VM510 } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VM510 } }
 -
     headers: 'User-Agent: LG_TB200_CMCC A2000pH/2.32.00 Release/9.14.2009 Browser/Teleca/Q7.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: TB200 } }
+    result: { browser: { name: 'Obigo Q', version: '7.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: TB200 } }
 -
     headers: 'User-Agent: MOT-EX108 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1'
-    result: { browser: { name: 'Obigo WAP', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX108 } }
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX108 } }
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4'
     result: { os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
 -
     headers: 'User-Agent: MOT-MOTOQA1/A2.01.11R Release/09.24.2008 OPERA/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mini' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
+    result: { browser: { name: 'Opera Mini', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
 -
     headers: 'User-Agent: MOT-RAZRV3xx/96.B0.0FR BER2.2 Mozilla/4.0 (compatible; MSIE 6.0; 11073256) Profile/MIDP-2.0 Configuration/CLDC-1.1  Opera 8.00 [en]'
-    result: { browser: { name: 'Opera Mini' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
+    result: { browser: { name: 'Opera Mini', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
 -
     headers: 'User-Agent: MOT-V3/0E.42.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
-    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
+    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
 -
     headers: 'User-Agent: MOT-V300/0B.09.19R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0'
-    result: { browser: { name: 'Motorola Internet Browser', version: '2.2' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V300 } }
+    result: { browser: { name: 'Motorola Internet Browser', version: '2.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V300 } }
 -
     headers: 'User-Agent: MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0'
-    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
+    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
 -
     headers: 'User-Agent: MOT-V860/00.72 UP.Browser/7.2.7.5.665 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V860 } }
+    result: { browser: { name: Openwave, version: '7.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V860 } }
 -
     headers: 'User-Agent: MOT-V9mm/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V9mm } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V9mm } }
 -
     headers: 'User-Agent: MOT-Z3/08.00.10R MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/1.0'
-    result: { browser: { name: 'Motorola Internet Browser' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: Z3 } }
+    result: { browser: { name: 'Motorola Internet Browser', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: Z3 } }
 -
     headers: 'User-Agent: MQQBrowser/Mini2.2 (LG-T385)'
-    result: { browser: { name: 'QQ Browser Mini', version: '2.2' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T385 } }
+    result: { browser: { name: 'QQ Browser Mini', version: '2.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T385 } }
 -
     headers: 'User-Agent: MQQBrowser/Mini2.4 (SAMSUNG GT-C6112)'
-    result: { browser: { name: 'QQ Browser Mini', version: '2.4' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C6112 } }
+    result: { browser: { name: 'QQ Browser Mini', version: '2.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C6112 } }
 -
     headers: 'User-Agent: MQQBrowser/Mini2.5 (SonyEricssonJ105i/R1HA035)'
-    result: { browser: { name: 'QQ Browser Mini', version: '2.5' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Naite } }
+    result: { browser: { name: 'QQ Browser Mini', version: '2.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Naite } }
 -
     headers: 'User-Agent: MQQBrowser/Mini2.8 (SAMSUNG GT-C3520)'
-    result: { browser: { name: 'QQ Browser Mini', version: '2.8' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C3520 } }
+    result: { browser: { name: 'QQ Browser Mini', version: '2.8', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C3520 } }
 -
     headers: 'User-Agent: MQQBrowser/Mini3.1 (CoolpadT60/1.01.T60)'
-    result: { browser: { name: 'QQ Browser Mini', version: '3.1' }, device: { type: mobile, subtype: feature, manufacturer: Coolpad, model: T60 } }
+    result: { browser: { name: 'QQ Browser Mini', version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Coolpad, model: T60 } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Polaris 6.2; Brew 3.1.5; en)/240X320 Samsung sam-r631'
-    result: { browser: { name: Polaris, version: '6.2' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Messenger Touch R631' } }
+    result: { browser: { name: Polaris, version: '6.2', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Messenger Touch R631' } }
 -
     headers: 'User-Agent: Mozilla/4.08 (N905imyu_W;FOMA;c500;TB)'
     result: { device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905imyu, carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; samsung-gt-e2202) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0'
-    result: { browser: { name: 'UC Browser', version: '8.5' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Metro } }
+    result: { browser: { name: 'UC Browser', version: '8.5', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Metro } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Java; U; xx; sonyericssonw150i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile UNTRUSTED/1.0'
-    result: { browser: { name: 'UC Browser', version: '8.6' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Yendo } }
+    result: { browser: { name: 'UC Browser', version: '8.6', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Yendo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (LG-C207 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
-    result: { browser: { name: Phantom, version: '2.0' }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: C207 } }
+    result: { browser: { name: Phantom, version: '2.0', type: browser }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: C207 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (LG-T395 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0'
-    result: { browser: { name: Phantom, version: '2.0' }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T395 } }
+    result: { browser: { name: Phantom, version: '2.0', type: browser }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T395 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
-    result: { browser: { name: Dolfin, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
+    result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-GS290/V10c Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Mozilla) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0'
-    result: { browser: { name: 'Obigo Q', version: '7.3' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'GS290 Cookie Fresh' } }
+    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'GS290 Cookie Fresh' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-T385b/V10i AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
-    result: { browser: { name: Phantom, version: '2.0' }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T385b } }
+    result: { browser: { name: Phantom, version: '2.0', type: browser }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T385b } }
 -
     headers: 'User-Agent: NGM_Coffee/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C } }, device: { type: mobile, subtype: feature, manufacturer: NGM, model: Coffee } }
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: NGM, model: Coffee } }
 -
     headers: 'User-Agent: NexianNX-G963/MTK  Release/01.01.2011/MAUI Browser/Opera Profile/MIDP2.0 Configuration/CLDC-1 Opera/9.80 (MTK; U; xx) Presto/2.5.28 Version/10.10'
-    result: { browser: { name: 'Opera Mobile', version: '10.10' }, engine: { name: Presto, version: 2.5.28 }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Nexian, model: NX-G963 } }
+    result: { browser: { name: 'Opera Mobile', version: '10.10', type: browser }, engine: { name: Presto, version: 2.5.28 }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Nexian, model: NX-G963 } }
 -
     headers: 'User-Agent: Nokia1680c-2/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 1680c-2 } }
@@ -156,67 +156,67 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3030' } }
 -
     headers: 'User-Agent: Nokia7020/2.0 (08.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia7020) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '7020' } }
+    result: { browser: { name: 'UC Browser', version: '9.4', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '7020' } }
 -
     headers: 'User-Agent: OPPO A203/4.02/13 Release/2010.4.15 Browser/Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C } }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: OPPOA617/2.07/11 Release/2011.6.14 Browser/Opera Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mobile' }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: 'Opera Mobile', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: OneBrowser/3.1 (LG-T375)'
-    result: { browser: { name: OneBrowser, version: '3.1' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T375 } }
+    result: { browser: { name: OneBrowser, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T375 } }
 -
     headers: 'User-Agent: OneBrowser/3.1 (PantechP7040/JLUS04042011)'
-    result: { browser: { name: OneBrowser, version: '3.1' }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P7040 } }
+    result: { browser: { name: OneBrowser, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P7040 } }
 -
     headers: 'User-Agent: OneBrowser/3.1 (SAMSUNG-GT-E1282T)'
-    result: { browser: { name: OneBrowser, version: '3.1' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Guru } }
+    result: { browser: { name: OneBrowser, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Guru } }
 -
     headers: 'User-Agent: OneBrowser/3.1 (SonyEricssonJ10i2/R7CA061)'
-    result: { browser: { name: OneBrowser, version: '3.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Elm } }
+    result: { browser: { name: OneBrowser, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Elm } }
 -
     headers: 'User-Agent: PantechP7000/JDUS10052009; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.'
-    result: { browser: { name: 'Opera Mini', version: 4.2. }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Impact } }
+    result: { browser: { name: 'Opera Mini', version: 4.2., type: browser }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Impact } }
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'GT-C3322 Duos' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'GT-C3322 Duos' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'GT-C3322 Duos' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-S5611 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.34814/36.1370; U; xx) Presto/2.12.423 Version/12.16'
-    result: { browser: { name: 'Opera Mini', version: '7.1' }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-S5611 } }
+    result: { browser: { name: 'Opera Mini', version: '7.1', type: browser }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-S5611 } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-A667/A667UCLD4; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2'
-    result: { browser: { name: 'Opera Mini', version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'A667 Evergreen' } }
+    result: { browser: { name: 'Opera Mini', version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'A667 Evergreen' } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: G600 } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-S390G/S390UD[TF359782046053567009990015123957215] NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'S390 TracFone' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'S390 TracFone' } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-T189N/T189NUVMG1 SHP/VPP/R5 NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Freeform M' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Freeform M' } }
 -
     headers: 'User-Agent: SAMSUNG-SM-B360E Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35840/35.7561; U; xx) Presto/2.8.119 Version/11.10'
-    result: { browser: { name: 'Opera Mini', version: '8.0' }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SM-B360E } }
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SM-B360E } }
 -
     headers: 'User-Agent: SAMSUNG-SM-B780A/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
 -
     headers: 'User-Agent: SonyEricssonC510/R1FA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1 JavaPlatform/JP-8.4.3'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: C510 } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: C510 } }
 -
     headers: 'User-Agent: SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonJ108i) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.4' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Cedar } }
+    result: { browser: { name: 'UC Browser', version: '9.4', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Cedar } }
 -
     headers: 'User-Agent: SonyEricssonK790a/R1EG Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K790a } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K790a } }
 -
     headers: 'User-Agent: SonyEricssonK850i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K850i } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K850i } }
 -
     headers: 'User-Agent: TIANYU-KTOUCH/A930/Screen-240X320'
     result: { device: { type: mobile, subtype: feature, manufacturer: K-Touch, model: A930 } }
@@ -225,13 +225,13 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: TiPhone, model: T67 } }
 -
     headers: 'User-Agent: vk-vk900/1.1 up.browser/6.2.3.4 (gui) mmp/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: 'VK Mobile', model: VK900 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'VK Mobile', model: VK900 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 2.0)'
     result: { device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 2.0; U; AvantGo 3.2)'
-    result: { browser: { name: AvantGo, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
+    result: { browser: { name: AvantGo, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Danger hiptop 4.6; U; rv:1.7.12) Gecko/20050920'
     result: { engine: { name: Gecko, version: 1.7.12 }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
@@ -240,46 +240,46 @@
     result: { engine: { name: Gecko, version: 1.7.12 }, device: { type: mobile, subtype: feature, manufacturer: Danger, model: Hiptop } }
 -
     headers: 'User-Agent: LGE-VX5500/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VX5500 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VX5500 } }
 -
     headers: 'User-Agent: LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KU990 Viewty' } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KU990 Viewty' } }
 -
     headers: 'User-Agent: LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1'
-    result: { browser: { name: 'Obigo WAP', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KP500 Cookie' } }
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KP500 Cookie' } }
 -
     headers: 'User-Agent: LG-CU720/V1.0l Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: LG, model: CU720 } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: CU720 } }
 -
     headers: 'User-Agent: MOT-C980/80.2F.2E. MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: C980 } }
+    result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: C980 } }
 -
     headers: 'User-Agent: SIE-M65 (Openwave Mobile Browser 7.0.0.1.167a; U) [de]'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
 -
     headers: 'User-Agent: SIE-M65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: M65 } }
 -
     headers: 'User-Agent: SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 UP.Link/6.6.4.0.0'
-    result: { browser: { name: Openwave, version: '6.1' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: MC60 } }
+    result: { browser: { name: Openwave, version: '6.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: MC60 } }
 -
     headers: 'User-Agent: Huawei/1.0/0MTC-752/B000 Browser/Obigo-Browser/Q05A MTC-752 HuaweiJava/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A } }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: Java } }
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: Java } }
 -
     headers: 'User-Agent: Vodafone/SonyEricssonV800/R1S025 Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'SEMC Browser', version: '4.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: V800 } }
+    result: { browser: { name: 'SEMC Browser', version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: V800 } }
 -
     headers: 'User-Agent: Vodafone/1.0/SamsungSGHX660V/X660AUFH1/Browser/TSS/2.5 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: X660 } }
 -
     headers: 'User-Agent: Vodafone/1.0/SAMSUNG-SGH-J700V/AUHA3/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: J700 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: J700 } }
 -
     headers: 'User-Agent: SIE-S65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: S65 } }
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: S65 } }
 -
     headers: 'User-Agent: SIE-EF81/32 UP.Browser/7.0.0.1.181 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Browser/UP.Browser/7.1.1.3.h (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '7.0' }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: EF81 } }
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: EF81 } }
 -
     headers: 'User-Agent: SGH-Z500 SHP/VPP/R5 SMB3.1 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Z500 } }
@@ -291,46 +291,46 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X660 } }
 -
     headers: 'User-Agent: SEC-SGHE900/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E900 } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E900 } }
 -
     headers: 'User-Agent: SCH-R410'
     result: { device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-R410 } }
 -
     headers: 'User-Agent: SCH-R210 UP.Browser/6.2.3.8 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-R210 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-R210 } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-X640/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X640 } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X640 } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-U700/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-U700 } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-U700 } }
 -
     headers: 'User-Agent: Motorola-w385 Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4C } }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W385 } }
+    result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W385 } }
 -
     headers: 'User-Agent: HTCP3600-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
 -
     headers: 'User-Agent: EricssonT39/R202'
     result: { device: { type: mobile, subtype: feature, manufacturer: Ericsson, model: T39 } }
 -
     headers: 'User-Agent: SonyEricssonT250a/R5x TelecaBrowser/1.1.14.20'
-    result: { browser: { name: Obigo, version: '1.1' }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: T250a } }
+    result: { browser: { name: Obigo, version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: T250a } }
 -
     headers: 'User-Agent: LG-LG620G[TF012114009741104000000018032359160] Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo WAP', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG620G } }
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG620G } }
 -
     headers: 'User-Agent: LG/U900/v1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U900 } }
 -
     headers: 'User-Agent: KWC-Lightpipe/ UP.Browser/7.2.7.2.531 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'E1100 Neo' } }
+    result: { browser: { name: Openwave, version: '7.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'E1100 Neo' } }
 -
     headers: 'User-Agent: KWC-K612/1.0.04 UP.Browser/6.2.3.9.g.1.103 (GUI) MMP/2.0 UP.Link/6.3.0.0.0'
-    result: { browser: { name: Openwave, version: '6.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'K612 Strobe' } }
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'K612 Strobe' } }
 -
     headers: 'User-Agent: KWC-Glide/ UP.Browser/7.2.7.2.541 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '7.2' }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: Glide } }
+    result: { browser: { name: Openwave, version: '7.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: Glide } }
 -
     headers: 'User-Agent: Panasonic-X200P/RP1 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: X200P } }
