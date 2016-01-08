@@ -19,3 +19,24 @@
 -
     headers: 'User-Agent: mMosaic/3.6.6 (X11;SunOS 5.8 sun4m)'
     result: { browser: { name: mMosaic, version: 3.6.6, type: browser }, os: { name: Solaris, family: UNIX, version: '8' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: AIR_Mosaic(16bit)/v1.00.198.07'
+    result: { browser: { name: 'AIR Mosaic', version: '1.00', type: browser } }
+-
+    headers: 'User-Agent: AIR_Mosaic(16bit)/v3.09.04.02'
+    result: { browser: { name: 'AIR Mosaic', version: '3.09', type: browser } }
+-
+    headers: 'User-Agent: AIR_Mosaic(16bit)/v3.10.06.07'
+    result: { browser: { name: 'AIR Mosaic', version: '3.10', type: browser } }
+-
+    headers: 'User-Agent: DCL SuperMosaic/1.0.2.9J_Win32'
+    result: { browser: { name: SuperMosaic, version: '1.0', type: browser } }
+-
+    headers: 'User-Agent: SPRY_Mosaic(16bit)/v3.10.198.07'
+    result: { browser: { name: 'AIR Mosaic', version: '3.10', type: browser } }
+-
+    headers: 'User-Agent: SPRY_Mosaic/v8.01 (Windows 16-bit) SPRY_package/v4.00'
+    result: { browser: { name: 'AIR Mosaic', version: '8.01', type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
+    headers: 'User-Agent: WinMosaic/Version 2.0 (ALPHA 2)'
+    result: { browser: { name: WinMosaic, version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
