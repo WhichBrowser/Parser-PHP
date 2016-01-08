@@ -25,3 +25,6 @@
 -
     headers: 'User-Agent: Mozilla/4.03 [en] (X11; I; HP-UX A.09.04 9000/816)'
     result: { browser: { name: 'Netscape Communicator', version: 4.0.3, type: browser }, os: { name: HP-UX, family: UNIX, version: '9.04' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/1.1I (X11; I; NEWS-OS 6.1.1 news5000)'
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: 'NEWS OS', family: UNIX, version: 6.1.1 }, device: { type: desktop } }

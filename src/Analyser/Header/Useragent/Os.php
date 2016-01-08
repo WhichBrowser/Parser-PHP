@@ -1458,6 +1458,21 @@ trait Os
 
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
+
+        /* Sony NEWS OS */
+
+        if (preg_match('/NEWS-OS ([0-9\.]+)/u', $ua, $match)) {
+            $this->data->os->name = 'NEWS OS';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+            
+
+            if (preg_match('/NEWS-OS 6/u', $ua)) {
+                $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
     }
     
 
