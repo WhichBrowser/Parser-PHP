@@ -66,16 +66,16 @@
     result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/1.1N (X11; I; BSD/386 uname failed)'
-    result: { os: { name: BSD/OS, family: BSD } }
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: BSD/OS, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/1.1N (X11; I; BSD/OS 2.0 i386)'
-    result: { os: { name: BSD/OS, family: BSD, version: '2.0' } }
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: BSD/OS, family: BSD, version: '2.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Links (2.1pre22; NetBSD 2.0.2 i386; 80x48)'
     result: { browser: { name: Links, version: '2.1', type: 'browser:text' }, os: { name: NetBSD, family: BSD, version: 2.0.2 } }
 -
     headers: 'User-Agent: Mozilla/4.04 [ja_euc] (X11; I; NetBSD 1.2.1 i386; Nav)'
-    result: { os: { name: NetBSD, family: BSD, version: 1.2.1 } }
+    result: { browser: { name: 'Netscape Communicator', version: 4.0.4, type: browser }, os: { name: NetBSD, family: BSD, version: 1.2.1 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; NetBSD 5.0.2; X11; amd64; en_US) KHTML/4.5.4 (like Gecko)'
     result: { browser: { name: Konqueror, version: '4.5', type: browser }, engine: { name: KHTML, version: 4.5.4 }, os: { name: NetBSD, family: BSD, version: 5.0.2 }, device: { type: desktop } }
@@ -102,4 +102,4 @@
     result: { browser: { name: Midori, version: '0.5', type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD, family: BSD, version: '11' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/3.04Gold (X11; I; FreeBSD 2.2.1-RELEASE i386)'
-    result: { os: { name: FreeBSD, family: BSD, version: 2.2.1 } }
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: FreeBSD, family: BSD, version: 2.2.1 }, device: { type: desktop } }
