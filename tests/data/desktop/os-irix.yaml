@@ -3,7 +3,7 @@
     result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.08 [en] (X11; U; IRIX 5.3 IP5; Nav)'
-    result: { browser: { name: 'Netscape Communicator', version: 4.0.8, type: browser }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', version: 4.0.8, type: browser }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.76C-SGI [ru] (X11; I; IRIX64 6.5 IP30)'
     result: { browser: { name: 'Netscape Communicator', version: 4.7.6, type: browser }, os: { name: IRIX, family: UNIX, version: '6.5' }, device: { type: desktop } }

@@ -803,6 +803,10 @@ trait Browser
                     $this->data->browser->name = 'Netscape Communicator';
                     $this->data->browser->version = new Version([ 'value' => preg_replace("/([0-9])([0-9])/", '$1.$2', $match[1]) ]);
                     $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+                    if (preg_match('/Nav\)/u', $ua)) {
+                        $this->data->browser->name = 'Netscape Navigator';
+                    }
                 }
             }
         }
