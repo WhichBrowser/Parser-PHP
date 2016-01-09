@@ -862,7 +862,7 @@ trait Browser
         }
 
         if (preg_match('/SPRY_Mosaic(?:\(16bit\))?\/v([0-9.]*)/u', $ua, $match)) {
-            $this->data->browser->name = 'AIR Mosaic';
+            $this->data->browser->name = 'SPRY Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
