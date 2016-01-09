@@ -40,3 +40,30 @@
 -
     headers: 'User-Agent: WinMosaic/Version 2.0 (ALPHA 2)'
     result: { browser: { name: WinMosaic, version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Spyglass Mosaic/1.0'
+    result: { browser: { name: 'Spyglass Mosaic', version: '1.0', type: browser } }
+-
+    headers: 'User-Agent: Spyglass_Mosaic/2.10 Win32 TGV/2'
+    result: { browser: { name: 'Spyglass Mosaic', version: '2.10', type: browser } }
+-
+    headers: 'User-Agent: Spyglass_Mosaic/2.11 IRIX5.2 Spyglass/11'
+    result: { browser: { name: 'Spyglass Mosaic', version: '2.11', type: browser }, os: { name: IRIX, family: UNIX }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Spyglass_Mosaic/2.11 Mac_68000 Spyglass/6'
+    result: { browser: { name: 'Spyglass Mosaic', version: '2.11', type: browser } }
+-
+    headers: 'User-Agent: Quarterdeck Mosaic Version 1.0'
+    result: { browser: { name: 'Quarterdeck Mosaic', version: '1.0', type: browser } }
+-
+    headers: 'User-Agent: Quarterdeck Mosaic Version 2.0/Final/Export'
+    result: { browser: { name: 'Quarterdeck Mosaic', version: '2.0', type: browser } }
+-
+    headers: 'User-Agent: Quarterdeck Mosaic Version 2.01/Release/Export'
+    result: { browser: { name: 'Quarterdeck Mosaic', version: '2.01', type: browser } }
+-
+    headers: 'User-Agent: NCSA Mosaic for the X Window System/2.5b5 (L10N-2.4.0)'
+    result: { browser: { name: 'NCSA Mosaic', version: '2.5', type: browser } }
+-
+    headers: 'User-Agent: NCSA Mosaic(tm) for Windows/Version 2.0 (ALPHA 7)'
+    result: { browser: { name: 'NCSA Mosaic', version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
