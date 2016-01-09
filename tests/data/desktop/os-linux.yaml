@@ -168,7 +168,7 @@
     result: { browser: { name: Iceweasel, version: 3.0.6, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: Debian }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.0.18) Gecko/2010020400 SUSE/3.0.18-0.1.1 Firefox/3.0.18'
-    result: { browser: { name: Firefox, version: 3.0.18, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: SUSE }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 3.0.18, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: SUSE, version: '3.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.0.19) Gecko/2010031705 Red Hat/3.0.19-1.el4 Firefox/3.0.19'
     result: { browser: { name: Firefox, version: 3.0.19, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'Red Hat', version: '4' }, device: { type: desktop } }

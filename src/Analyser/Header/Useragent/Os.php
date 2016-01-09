@@ -1654,6 +1654,10 @@ trait Os
 
             if (preg_match('/SUSE/u', $ua)) {
                 $this->data->os->name = 'SUSE';
+                if (preg_match('/SUSE\/([0-9]\.[0-9]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
