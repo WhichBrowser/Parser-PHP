@@ -1591,6 +1591,10 @@ trait Os
 
             if (preg_match('/Kubuntu/u', $ua)) {
                 $this->data->os->name = 'Kubuntu';
+                if (preg_match('/Kubuntu[ \/]([0-9.]*)/iu', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 

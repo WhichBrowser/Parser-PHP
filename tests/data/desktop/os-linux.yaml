@@ -243,7 +243,7 @@
     result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux x86_64; U; Kubuntu 12.04 LTS; xx) Presto/2.10.229 Version/11.62'
-    result: { browser: { name: Opera, version: '11.62', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: Kubuntu }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '11.62', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: Kubuntu, version: '12.04' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko/2009032711 moonOS/2.0 (kachana) Firefox/3.0.8'
     result: { browser: { name: Firefox, version: 3.0.8, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: moonOS, version: '2.0' }, device: { type: desktop } }
