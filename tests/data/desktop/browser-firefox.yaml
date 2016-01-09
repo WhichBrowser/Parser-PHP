@@ -21,25 +21,25 @@
     result: { browser: { name: Firefox, version: 2.0.0.15, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 3; xx; rv:1.8.1.17) Gecko/20080925 Firefox/2.0.0.17'
-    result: { browser: { name: Firefox, version: 2.0.0.17, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS/2 Warp', version: '3' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 2.0.0.17, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '3', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.7.12) Gecko/20050922 Firefox/1.0.7'
-    result: { browser: { name: Firefox, version: 1.0.7, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 1.0.7, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.8.1.11) Gecko/20071209 Firefox/2.0.0.11'
-    result: { browser: { name: Firefox, version: 2.0.0.11, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 2.0.0.11, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.9) Gecko/20100101 Firefox/10.0.9'
-    result: { browser: { name: Firefox, version: 10.0.9, type: browser }, engine: { name: Gecko, version: 10.0.9 }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 10.0.9, type: browser }, engine: { name: Gecko, version: 10.0.9 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:17.0) Gecko/20100101 Firefox/17.0'
-    result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0'
-    result: { browser: { name: Firefox, version: '31.0', type: browser }, engine: { name: Gecko, version: '31.0' }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '31.0', type: browser }, engine: { name: Gecko, version: '31.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:6.0) Gecko/20100101 Firefox/6.0'
-    result: { browser: { name: Firefox, version: '6.0', type: browser }, engine: { name: Gecko, version: '6.0' }, os: { name: 'OS/2 Warp', version: '4.5' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '6.0', type: browser }, engine: { name: Gecko, version: '6.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Photon; U; QNX x86pc; xx; rv:1.8.1.20) Gecko/-0000001 BonEcho/2.0.0.20'
     result: { browser: { name: Firefox, version: 2.0.0.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: QNX }, device: { type: mobile, subtype: feature } }
