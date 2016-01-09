@@ -840,6 +840,7 @@ trait Browser
         if (preg_match('/NCSA[ _]Mosaic(?:\(tm\))?(?: for the X Window System| for Windows)?\/(?:Version )?([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'NCSA Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -847,6 +848,7 @@ trait Browser
         if (preg_match('/AIR_Mosaic(?:\(16bit\))?\/v([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'AIR Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -854,6 +856,7 @@ trait Browser
         if (preg_match('/(?:MosaicView|Spyglass[ _]Mosaic)\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Spyglass Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -861,6 +864,7 @@ trait Browser
         if (preg_match('/SPRY_Mosaic(?:\(16bit\))?\/v([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'AIR Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -868,6 +872,7 @@ trait Browser
         if (preg_match('/DCL SuperMosaic\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'SuperMosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -875,6 +880,7 @@ trait Browser
         if (preg_match('/VMS_Mosaic\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'VMS Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -882,6 +888,7 @@ trait Browser
         if (preg_match('/mMosaic\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'mMosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -889,6 +896,7 @@ trait Browser
         if (preg_match('/Quarterdeck Mosaic Version ([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Quarterdeck Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
@@ -896,6 +904,7 @@ trait Browser
         if (preg_match('/WinMosaic\/Version ([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'WinMosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
