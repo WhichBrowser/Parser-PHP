@@ -623,15 +623,6 @@ trait Browser
 
             if (preg_match('/Tablet;(?: ([^;]+);)? rv/u', $ua, $match)) {
                 $this->data->device->type = Constants\DeviceType::TABLET;
-
-                if (isset($match[1])) {
-                    $device = Data\DeviceModels::identify('firefoxos', $match[1]);
-                    if ($device->identified) {
-                        $device->identified |= $this->data->device->identified;
-                        $this->data->os->reset([ 'name' => 'Firefox OS' ]);
-                        $this->data->device = $device;
-                    }
-                }
             }
 
             if (preg_match('/Viera;(?: ([^;]+);)? rv/u', $ua, $match)) {
