@@ -1941,12 +1941,12 @@ trait Browser
 
         /* IBM WebExplorer */
 
-        if (preg_match('/IBM[- ]WebExplorer[ -](DLL |Window API )?\//u', $ua)) {
+        if (preg_match('/IBM[- ]WebExplorer[ -]?(DLL ?|Window API ?)?/u', $ua)) {
             $this->data->browser->name = 'IBM WebExplorer';
             $this->data->browser->channel = '';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
     
-            if (preg_match('/IBM[- ]WebExplorer[ -](DLL |Window API )?\/v([0-9]\.[0-9.]+)/u', $ua, $match)) {
+            if (preg_match('/IBM[- ]WebExplorer[ -]?(?:DLL ?|Window API ?)?\/v([0-9]\.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
