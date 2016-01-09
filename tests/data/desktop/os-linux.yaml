@@ -54,7 +54,7 @@
     result: { browser: { name: 'GNOME Web', version: 3.2.1, type: browser }, engine: { name: Webkit, version: '535.4' }, os: { name: Debian }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux armv6l) AppleWebKit/538.1 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/538.1 Debian/7.2 (3.8.2+rpi-2rpi1) Epiphany/3.8.2'
-    result: { browser: { name: 'GNOME Web', family: { name: Chrome, version: 25 }, version: 3.8.2, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Debian }, device: { type: desktop } }
+    result: { browser: { name: 'GNOME Web', family: { name: Chrome, version: 25 }, version: 3.8.2, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Debian, version: '7.2' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 36 }, version: 36.0.1985.125, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Ubuntu }, device: { type: desktop } }

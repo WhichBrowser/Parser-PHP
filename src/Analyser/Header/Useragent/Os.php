@@ -1559,6 +1559,10 @@ trait Os
 
             if (preg_match('/Debian/u', $ua)) {
                 $this->data->os->name = 'Debian';
+                if (preg_match('/Debian\/([0-9.]*)/iu', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
