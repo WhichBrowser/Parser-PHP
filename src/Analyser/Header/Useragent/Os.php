@@ -1487,31 +1487,46 @@ trait Os
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
         }
 
-        if (preg_match('/BSD\/OS ([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/BSD\/OS/u', $ua)) {
             $this->data->os->name = 'BSD/OS';
-            $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            if (preg_match('/BSD\/OS ([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
 
         /* FreeBSD */
 
-        if (preg_match('/FreeBSD/u', $ua)) {
+        if (preg_match('/FreeBSD/iu', $ua)) {
             $this->data->os->name = 'FreeBSD';
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            if (preg_match('/FreeBSD[ -\/]?([0-9.]*)/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
 
         /* OpenBSD */
 
-        if (preg_match('/OpenBSD/u', $ua)) {
+        if (preg_match('/OpenBSD/iu', $ua)) {
             $this->data->os->name = 'OpenBSD';
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            if (preg_match('/OpenBSD ?([0-9.]*)/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
 
         /* NetBSD */
 
-        if (preg_match('/NetBSD/u', $ua)) {
+        if (preg_match('/NetBSD/iu', $ua)) {
             $this->data->os->name = 'NetBSD';
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            if (preg_match('/NetBSD ?([0-9.]*)/iu', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
     }
     

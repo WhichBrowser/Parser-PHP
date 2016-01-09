@@ -288,7 +288,7 @@
     result: { browser: { name: Opera, version: '12.10', type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 8.4-RELEASE-p1 i386) Presto/2.12.388 Version/12.16'
-    result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD, family: BSD, version: '8.4' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux i686; U; Edition Labs Camera and Pages; xx) Presto/2.9.220 Version/12.00'
     result: { browser: { name: Opera, version: '12.00', type: browser }, engine: { name: Presto, version: 2.9.220 }, os: { name: Linux }, device: { type: desktop } }

@@ -6,7 +6,7 @@
     result: { browser: { name: ELinks, version: 0.3.2, type: 'browser:text' }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Elinks (0.3; FreeBSD 4.3-RELEASE i386)'
-    result: { browser: { name: ELinks, version: '0.3', type: 'browser:text' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: ELinks, version: '0.3', type: 'browser:text' }, os: { name: FreeBSD, family: BSD, version: '4.3' }, device: { type: desktop } }
 -
     headers: 'User-Agent: ELinks (0.4.3rc2; Linux 2.4.22 i686; 110x40)'
     result: { browser: { name: ELinks, version: 0.4.3, type: 'browser:text' }, os: { name: Linux }, device: { type: desktop } }

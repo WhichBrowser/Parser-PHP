@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Midori/0.5 (X11; FreeBSD/11) WebKit/537.32+ Midori/0.5'
-    result: { browser: { name: Midori, version: '0.5', type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Midori, version: '0.5', type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD, family: BSD, version: '11' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (OpenBSD i386) AppleWebKit/538.1+ (KHTML, like Gecko) WebKitGTK+/2.2.3 luakit/0d5f4'
     result: { browser: { using: LuaKit }, engine: { name: Webkit, version: '538.1' }, os: { name: OpenBSD, family: BSD } }
@@ -57,10 +57,10 @@
     result: { browser: { name: Konqueror, version: '4.5', type: browser }, engine: { name: KHTML, version: 4.5.5 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 10.0-CURRENT amd64) Presto/2.12.388 Version/12.11'
-    result: { browser: { name: Opera, version: '12.11', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.11', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: FreeBSD, family: BSD, version: '10.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; FreeBSD 8.2-RELEASE amd64; U; xx) Presto/2.10.229 Version/11.61'
-    result: { browser: { name: Opera, version: '11.61', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '11.61', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: FreeBSD, family: BSD, version: '8.2' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.80 (X11; OpenBSD i386) Presto/2.12.388 Version/12.16'
     result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
@@ -70,3 +70,36 @@
 -
     headers: 'User-Agent: Mozilla/1.1N (X11; I; BSD/OS 2.0 i386)'
     result: { os: { name: BSD/OS, family: BSD, version: '2.0' } }
+-
+    headers: 'User-Agent: Links (2.1pre22; NetBSD 2.0.2 i386; 80x48)'
+    result: { browser: { name: Links, version: '2.1', type: 'browser:text' }, os: { name: NetBSD, family: BSD, version: 2.0.2 } }
+-
+    headers: 'User-Agent: Mozilla/4.04 [ja_euc] (X11; I; NetBSD 1.2.1 i386; Nav)'
+    result: { os: { name: NetBSD, family: BSD, version: 1.2.1 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; NetBSD 5.0.2; X11; amd64; en_US) KHTML/4.5.4 (like Gecko)'
+    result: { browser: { name: Konqueror, version: '4.5', type: browser }, engine: { name: KHTML, version: 4.5.4 }, os: { name: NetBSD, family: BSD, version: 5.0.2 }, device: { type: desktop } }
+-
+    headers: 'User-Agent: curl/7.16.0 (i386-unknown-openbsd4.1) libcurl/7.16.0 OpenSSL/0.9.7j zlib/1.2.3'
+    result: { os: { name: OpenBSD, family: BSD, version: '4.1' } }
+-
+    headers: 'User-Agent: Links (2.1pre30; OpenBSD 4.3 macppc; x)'
+    result: { browser: { name: Links, version: '2.1', type: 'browser:text' }, os: { name: OpenBSD, family: BSD, version: '4.3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Konqueror/3.3; OpenBSD 3.6; X11; i386; ja) (KHTML, like Gecko)'
+    result: { browser: { name: Konqueror, version: '3.3', type: browser }, os: { name: OpenBSD, family: BSD, version: '3.6' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/6.12 (OpenBSD 3.7; U)  [en]'
+    result: { browser: { name: Opera, version: '6.12', type: browser }, os: { name: OpenBSD, family: BSD, version: '3.7' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: curl/7.14.1 (i386-portbld-freebsd4.7) libcurl/7.14.1 OpenSSL/0.9.8 zlib/1.1.3'
+    result: { os: { name: FreeBSD, family: BSD, version: '4.7' } }
+-
+    headers: 'User-Agent: ELinks/0.11.1 (textmode; FreeBSD 6.1-RELEASE i386; 127x77-2)'
+    result: { browser: { name: ELinks, version: 0.11.1, type: 'browser:text' }, os: { name: FreeBSD, family: BSD, version: '6.1' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Midori/0.5 (X11; FreeBSD/11) WebKit/537.32+ Midori/0.5'
+    result: { browser: { name: Midori, version: '0.5', type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: FreeBSD, family: BSD, version: '11' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.04Gold (X11; I; FreeBSD 2.2.1-RELEASE i386)'
+    result: { os: { name: FreeBSD, family: BSD, version: 2.2.1 } }
