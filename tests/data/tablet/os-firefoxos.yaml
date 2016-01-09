@@ -9,4 +9,4 @@
     result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '32.0' }, version: '32.0', type: browser }, engine: { name: Gecko, version: '32.0' }, os: { name: 'Firefox OS', version: '2.0' }, device: { type: tablet } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Tablet; rv:37.0) Gecko/37.0 Firefox/37.0'
-    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Gecko, version: '37.0' }, os: { name: 'Firefox OS' }, device: { type: tablet } }
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Gecko, version: '37.0' }, os: { name: 'Firefox OS', version: '2.2' }, device: { type: tablet } }

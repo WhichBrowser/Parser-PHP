@@ -80,6 +80,12 @@ trait Derive
                 case '34.0':
                     $this->data->os->version = new Version([ 'value' => '2.1' ]);
                     break;
+                case '37.0':
+                    $this->data->os->version = new Version([ 'value' => '2.2' ]);
+                    break;
+                case '44.0':
+                    $this->data->os->version = new Version([ 'value' => '2.5' ]);
+                    break;
             }
         }
     }
