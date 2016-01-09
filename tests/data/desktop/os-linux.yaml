@@ -177,7 +177,7 @@
     result: { browser: { name: Firefox, version: 3.0.3, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: Mandriva, version: '2009' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.1.11) Gecko/20100728 Turbolinux/3.5.11-1 Firefox/3.5.11'
-    result: { browser: { name: Firefox, version: 3.5.11, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Turbolinux }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 3.5.11, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Turbolinux, version: '3.5' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.2.17) Gecko/20110429 Mandriva Linux/1.9.2.17-0.1mdv2010.0 (2010.0) Firefox/3.6.17'
     result: { browser: { name: Firefox, version: 3.6.17, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: Mandriva, version: '2010' }, device: { type: desktop } }
