@@ -2038,6 +2038,7 @@ trait Browser
                 [ 'name' => '126 Browser',          'regexp' => '/126BROWSER/u' ],
                 [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
+                [ 'name' => '7Star',                'regexp' => '/7Star\/([0-9.]*)/u' ],                                                                // see: http://www.qixing123.com
                 [ 'name' => 'ABrowse',              'regexp' => '/A[Bb]rowse ([0-9.]*)/u' ],                                                            // browser for the Syllable OS
                 [ 'name' => 'Abrowser',             'regexp' => '/Abrowser\/([0-9.]*)/u' ],                                                             // unbranded version of Firefox
                 [ 'name' => 'Acorn Browse',         'regexp' => '/Acorn Browse ([0-9.]+)/u'  ],

@@ -37,3 +37,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:38.0) Gecko/20100101 Firefox/38.0 TenFourFox/7400'
     result: { browser: { name: TenFourFox, family: { name: Firefox, version: '38.0' }, type: browser }, engine: { name: Gecko, version: '38.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 7Star/1.45.0.407 Safari/537.36'
+    result: { browser: { name: 7Star, family: { name: Chrome, version: 45 }, version: 1.45.0.407, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
