@@ -1724,6 +1724,13 @@ trait Browser
             $this->data->browser->channel = '';
         }
 
+        if (preg_match('/QQ\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'QQ Browser';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->channel = '';
+        }
+
         /* 360 Phone Browser */
 
         if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)(?:beta)?\)/u', $ua, $match)) {
