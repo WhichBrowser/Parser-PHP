@@ -558,18 +558,21 @@ trait Browser
         }
 
         if (preg_match('/OPiOS\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->stock = false;
             $this->data->browser->name = 'Opera Mini';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
         if (preg_match('/Coast\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->stock = false;
             $this->data->browser->name = 'Coast by Opera';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
         if (preg_match('/Oupeng(?:HD)?[\/-]([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->stock = false;
             $this->data->browser->name = 'Opera Oupeng';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
