@@ -80,7 +80,6 @@ trait Browser
                     $this->data->browser->type = Constants\BrowserType::BROWSER;
                     $this->data->browser->version = null;
                     $this->data->browser->stock = true;
-                    $this->data->browser->hidden = true;
 
                     if (preg_match('/Version\/([0-9\.]+)/u', $ua, $match)) {
                         $this->data->browser->version = new Version([ 'value' => $match[1], 'hidden' => true ]);

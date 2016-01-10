@@ -96,6 +96,10 @@ trait Corrections
 
     private function hideBrowserBasedOnOperatingSystem()
     {
+        if ($this->data->os->name == 'iOS' && $this->data->browser->name == 'Safari') {
+            $this->data->browser->hidden = true;
+        }
+
         if ($this->data->os->name == 'Series60' && $this->data->browser->name == 'Internet Explorer') {
             $this->data->browser->reset();
             $this->data->engine->reset();
