@@ -2283,6 +2283,7 @@ trait Browser
                 [ 'name' => 'Sina Weibo',           'regexp' => '/weibo__([0-9.]*)/u' ],
                 [ 'name' => 'Twitter',              'regexp' => '/TwitterAndroid/u' ],
                 [ 'name' => 'Kik',                  'regexp' => '/Kik\/([0-9.]*)/u' ],
+                [ 'name' => 'Yammer',               'regexp' => '/Yammer\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'WordPress',            'regexp' => '/wp-android\/([0-9.]*)/u' ],
             ],
 
