@@ -2132,6 +2132,7 @@ trait Browser
                 [ 'name' => 'Baidu Browser',        'regexp' => '/BaiduHD\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
                 [ 'name' => 'Blazer',               'regexp' => '/Blazer\/([0-9.]*)/u' ],
                 [ 'name' => 'CNF',                  'regexp' => '/CNF\/([0-9.]*)/u' ],
+                [ 'name' => 'Cornowser',            'regexp' => '/Cornowser\/([0-9.]*)/u' ],
                 [ 'name' => 'CuteBrowser',          'regexp' => '/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Digia @Web',           'regexp' => '/Digia @Web\/([0-9.]*)/u' ],
                 [ 'name' => 'Dorado',               'regexp' => '/Browser\/Dorado([0-9.]*)/u' ],
