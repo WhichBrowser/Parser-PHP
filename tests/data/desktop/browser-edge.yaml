@@ -19,3 +19,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10514'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/14.11111'
+    result: { browser: { name: Edge, alias: 'Edge 14', type: browser }, engine: { name: EdgeHTML, version: '14' }, os: { name: Windows, version: { value: '10.1', alias: '10' } }, device: { type: desktop } }

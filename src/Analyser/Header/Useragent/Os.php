@@ -470,6 +470,7 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
 
                 switch ($match[1]) {
+                    case '10.1':
                     case '10.0':
                     case '6.4':
                         $this->data->os->version = new Version([ 'value' => $match[1], 'alias' => '10' ]);
