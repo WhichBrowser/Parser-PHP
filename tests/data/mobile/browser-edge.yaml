@@ -16,3 +16,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Nokia; Lumia 520) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10130'
     result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; WebView/3.0; NOKIA; RM-1027) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586'
+    result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 636' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; WebView/3.0; SAMSUNG; GT-I8750) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586'
+    result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Ativ S' } }

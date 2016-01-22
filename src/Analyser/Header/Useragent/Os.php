@@ -694,7 +694,7 @@ trait Os
                 }
 
                 /* Windows Phone 10 */
-                if (preg_match('/Windows Phone 1[0-9]\.[0-9]; Android [0-9\.]+; ([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
+                if (preg_match('/Windows Phone 1[0-9]\.[0-9]; Android [0-9\.]+; (?:WebView\/[0-9\.]+; )?([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
                     $this->data->device->manufacturer = $match[1];
                     $this->data->device->model = $match[2];
                     $this->data->device->identified |= Constants\Id::PATTERN;
