@@ -163,7 +163,7 @@ trait Ereader
                     $model = 'Sense';
                     break;
                 case '640':
-                    $model = 'Auqa';
+                    $model = 'Aqua';
                     break;
                 case '650':
                     $model = 'Ultra';
