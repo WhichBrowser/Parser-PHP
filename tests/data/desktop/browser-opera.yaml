@@ -12,88 +12,88 @@
     result: { browser: { name: Opera, version: '8.50', type: browser }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.44 Safari/537.36 OPR/24.0.1558.25 (Edition Next)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 37 }, version: '24.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 37 }, version: '24.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2101.0 Safari/537.36 OPR/25.0.1592.0 (Edition Developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2159.4 Safari/537.36 OPR/26.0.1646.0 (Edition developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.53 Safari/537.36 OPR/28.0.1750.31 (Edition beta)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 41 }, version: '28.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 41 }, version: '28.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 OPR/19.0.1326.47'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.49 Safari/537.36 OPR/16.0.1196.45 (Edition Next)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 OPR/18.0.1284.49'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.180'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 44 }, version: '31.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 44 }, version: '31.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36 OPR/15.0.1147.138'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 28 }, version: '15.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 28 }, version: '15.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36 OPR/17.0.1241.53'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 30 }, version: '17.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 30 }, version: '17.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36 OPR/19.0.1300.0 (Edition Developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36 OPR/19.0.1326.63'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36 OPR/20.0.1387.77'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 33 }, version: '20.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 33 }, version: '20.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 OPR/23.0.1522.75'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 36 }, version: '23.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 36 }, version: '23.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2305.3 Safari/537.36 OPR/29.0.1794.0 (Edition developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 42 }, version: '29.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 42 }, version: '29.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.32 Safari/537.36 OPR/16.0.1196.29 (Edition Next)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 OPR/18.0.1284.49'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36 OPR/26.0.1656.32'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) Presto/2.12.388 Opera/12.16'
     result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36 OPR/25.0.1614.63'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.140'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 43 }, version: '30.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 43 }, version: '30.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.30 Safari/537.36 OPR/31.0.1889.16 (Edition beta)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 44 }, version: '31.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 44 }, version: '31.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.29 Safari/537.36 OPR/20.0.1396.70617'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 33 }, version: '20.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 33 }, version: '20.0', type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.44 Safari/537.36 OPR/25.0.1614.11 (Edition beta)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36 OPR/26.0.1656.87215'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Slackware Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2188.2 Safari/537.36 OPR/27.0.1683.0 (Edition developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 40 }, version: '27.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Slackware }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 40 }, version: '27.0', type: browser }, engine: { name: Blink }, os: { name: Slackware }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0) Opera 12.12'
     result: { browser: { name: Opera, version: '12.12', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }

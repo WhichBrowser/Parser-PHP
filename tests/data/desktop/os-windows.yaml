@@ -3,7 +3,7 @@
     result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; WinXP; x86) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: 37.0.2049.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: 37.0.2049.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; ARM; Trident/7.0; rv:11.0) like Gecko'
     result: { browser: { name: 'Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: 'RT 8.1' } }, device: { type: desktop } }

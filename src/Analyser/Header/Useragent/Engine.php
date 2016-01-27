@@ -33,7 +33,7 @@ trait Engine
 
             if (preg_match('/(?:Chrome|Chromium)\/([0-9]*)/u', $ua, $match)) {
                 if (intval($match[1]) >= 27) {
-                    $this->data->engine->name = 'Blink';
+                    $this->data->engine->reset([ 'name' => 'Blink' ]);
                 }
             }
         }

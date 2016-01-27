@@ -117,7 +117,7 @@
     result: { browser: { family: { name: Chrome, version: 26 }, type: browser }, engine: { name: Webkit, version: '537.31' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.31 SmartTV/6.0'
-    result: { browser: { family: { name: Chrome, version: 34 }, type: browser }, engine: { name: Blink, version: '537.31' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+    result: { browser: { family: { name: Chrome, version: 34 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 LGSmartTV/5.0'
     result: { browser: { family: { name: Chrome, version: 26 }, type: browser }, engine: { name: Webkit, version: '537.31' }, device: { type: television, manufacturer: LG, series: 'Smart TV' } }

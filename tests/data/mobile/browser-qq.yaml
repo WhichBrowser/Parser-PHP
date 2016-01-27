@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; MX4 Pro Build/LMY48Y) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 V1_AND_SQ_6.2.0_320_YYB_D QQ/6.2.0.2655 NetType/WIFI WebP/0.4.1 Pixel/1536'
-    result: { browser: { name: 'QQ Browser', using: { name: 'Chromium WebView', version: '39' }, version: '6.2', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'MX4 Pro' } }
+    result: { browser: { name: 'QQ Browser', using: { name: 'Chromium WebView', version: '39' }, version: '6.2', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'MX4 Pro' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; m1 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025483 Mobile Safari/533.1 V1_AND_SQ_6.2.0_320_YYB_D QQ/6.2.0.2655 NetType/WIFI WebP/0.3.0 Pixel/768'
     result: { browser: { name: 'QQ Browser', version: '6.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, model: m1 } }

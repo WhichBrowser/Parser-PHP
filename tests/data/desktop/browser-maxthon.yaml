@@ -42,34 +42,34 @@
     result: { browser: { name: Maxthon, version: 4.5.0, type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/30.0.1599.101 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 30 }, version: '4.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 30 }, version: '4.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/44.0.2403.69 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 44 }, version: '4.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 44 }, version: '4.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.12 (KHTML, like Gecko) Maxthon/3.0 Chrome/23.0.1229.79 Safari/535.12'
     result: { browser: { name: Maxthon, family: { name: Chrome, version: 23 }, version: '3', type: browser }, engine: { name: Webkit, version: '535.12' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.0.1010 Chrome/39.0.2146.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.0.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.0.500 Chrome/35.0.1849.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.0.700 Chrome/35.0.1849.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.0.900 Chrome/35.0.1849.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.1.2000 Chrome/35.0.1849.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.1, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 35 }, version: 1.0.1, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.1.0.601 Chrome/39.0.2146.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.1.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.1.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.1.0.2000 Chrome/39.0.2146.0 Safari/537.36'
-    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.1.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    result: { browser: { name: 'Maxthon Nitro', family: { name: Chrome, version: 39 }, version: 1.1.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; Maxthon/3.0)'
     result: { browser: { name: Maxthon, version: '3', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
@@ -90,13 +90,13 @@
     result: { browser: { name: Maxthon, version: 4.2.0, type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.6.600 Chrome/43.0.2357.124 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 43 }, version: 4.4.6, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 43 }, version: 4.4.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Windows NT 6.3; U; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.5.3000 Chrome/43.0.2357.81 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 43 }, version: 4.4.5, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 43 }, version: 4.4.5, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Windows NT 6.3; U; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.7.1000 Chrome/44.0.2403.157 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 44 }, version: 4.4.7, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 44 }, version: 4.4.7, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Windows NT 6.3; U; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.8.1000 Chrome/46.0.2490.86 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 46 }, version: 4.4.8, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 46 }, version: 4.4.8, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }

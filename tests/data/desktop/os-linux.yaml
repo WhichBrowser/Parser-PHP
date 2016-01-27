@@ -18,7 +18,7 @@
     result: { browser: { name: Firefox, version: '38.0', type: browser }, engine: { name: Gecko, version: '38.0' }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
-    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Fedora }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
     result: { browser: { name: Firefox, version: '39.0', type: browser }, engine: { name: Gecko, version: '39.0' }, os: { name: Fedora }, device: { type: desktop } }
@@ -30,7 +30,7 @@
     result: { browser: { name: Firefox, version: '37.0', type: browser }, engine: { name: Gecko, version: '37.0' }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: 46.0.2486.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Fedora }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: 46.0.2486.0, type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; KDE; Debian GNU/Linux Jessie x86_64; rv:39.0) Gecko/39.0 Firefox/39.0'
     result: { browser: { name: Firefox, version: '39.0', type: browser }, engine: { name: Gecko, version: '39.0' }, os: { name: Debian }, device: { type: desktop } }
@@ -57,10 +57,10 @@
     result: { browser: { name: 'GNOME Web', family: { name: Chrome, version: 25 }, version: 3.8.2, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Debian, version: '7.2' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36'
-    result: { browser: { name: Chromium, family: { name: Chrome, version: 36 }, version: 36.0.1985.125, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Ubuntu }, device: { type: desktop } }
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 36 }, version: 36.0.1985.125, type: browser }, engine: { name: Blink }, os: { name: Ubuntu }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64); CentOS Linux release 7.1.1503 (Core)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: CentOS }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: CentOS }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.121 Chrome/15.0.874.121 Safari/535.2'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 15 }, version: 15.0.874.121, type: browser }, engine: { name: Webkit, version: '535.2' }, os: { name: Ubuntu, version: '11.10' }, device: { type: desktop } }
@@ -69,7 +69,7 @@
     result: { browser: { name: Chrome, version: 19.0.1031.0, type: browser }, engine: { name: Webkit, version: '535.20' }, os: { name: SUSE }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.32 (KHTML, like Gecko) Chrome/27.0.1425.0 Safari/537.32 SUSE/27.0.1425.0'
-    result: { browser: { name: Chrome, version: 27.0.1425.0, type: browser }, engine: { name: Blink, version: '537.32' }, os: { name: SUSE }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: 27.0.1425.0, type: browser }, engine: { name: Blink }, os: { name: SUSE }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 SUSE/20150920 (3.18.0) Epiphany/3.18.0'
     result: { browser: { name: 'GNOME Web', version: 3.18.0, type: browser }, engine: { name: Webkit, version: '602.1' }, os: { name: SUSE }, device: { type: desktop } }
@@ -84,10 +84,10 @@
     result: { browser: { name: Konqueror, version: '4.9', type: browser }, engine: { name: KHTML, version: 4.9.3 }, os: { name: SUSE }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; Fedora release 18 (Spherical Cow)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Fedora }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; Fedora release 20 (Heisenbug)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.1 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Fedora }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/10.10 Chromium/17.0.963.26 Chrome/17.0.963.26 Safari/535.11'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 17 }, version: 17.0.963.26, type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: Ubuntu, version: '10.10' }, device: { type: desktop } }
@@ -96,10 +96,10 @@
     result: { browser: { name: 'GNOME Web', family: { name: Chrome, version: 25 }, version: 3.8.2, type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: Debian }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1587.0 Safari/537.36 SUSE/30.0.1587.0'
-    result: { browser: { name: Chrome, version: 30.0.1587.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: SUSE }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: 30.0.1587.0, type: browser }, engine: { name: Blink }, os: { name: SUSE }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) OpenMandriva Chromium/34.0.1847.134 Chrome/34.0.1847.134 Safari/537.36'
-    result: { browser: { name: Chromium, family: { name: Chrome, version: 34 }, version: 34.0.1847.134, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Mandriva }, device: { type: desktop } }
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 34 }, version: 34.0.1847.134, type: browser }, engine: { name: Blink }, os: { name: Mandriva }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 Ubuntu/15.10 (3.16.3-1ubuntu1) Epiphany/3.16.3'
     result: { browser: { name: 'GNOME Web', version: 3.16.3, type: browser }, engine: { name: Webkit, version: '601.1' }, os: { name: Ubuntu, version: '15.10' }, device: { type: desktop } }
@@ -111,7 +111,7 @@
     result: { browser: { name: Konqueror, version: '4.11', type: browser }, engine: { name: KHTML, version: 4.11.4 }, os: { name: Fedora, version: '20' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Gentoo Base System release 2.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Gentoo }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Gentoo }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:11.0) Gecko/2012314 Firefox/17.0.1 Slackware Linux'
     result: { browser: { name: Firefox, version: 17.0.1, type: browser }, engine: { name: Gecko, version: '11.0' }, os: { name: Slackware }, device: { type: desktop } }
@@ -129,10 +129,10 @@
     result: { browser: { name: Firefox, version: 10.0.9, type: browser }, engine: { name: Gecko, version: 10.0.9 }, os: { name: Mageia }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Slackware Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.44 Safari/537.36 OPR/25.0.1614.31 (Edition beta)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Slackware }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: Slackware }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Slackware Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2145.4 Safari/537.36 OPR/26.0.1632.0 (Edition developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Slackware }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: Slackware }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Slackware Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0'
     result: { browser: { name: Firefox, version: '42.0', type: browser }, engine: { name: Gecko, version: '42.0' }, os: { name: Slackware }, device: { type: desktop } }

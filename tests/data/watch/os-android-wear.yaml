@@ -21,4 +21,4 @@
     result: { browser: { name: 'Wear Internet Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: Sony, model: 'SmartWatch 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; G Watch R Build/LCA44B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Crosswalk/15.44.384.12 Mobile Safari/537.36'
-    result: { browser: { using: { name: 'Crosswalk WebView', version: '15' } }, engine: { name: Blink, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch R' } }
+    result: { browser: { using: { name: 'Crosswalk WebView', version: '15' } }, engine: { name: Blink }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch R' } }

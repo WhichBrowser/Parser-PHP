@@ -24,79 +24,79 @@
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Archos, model: '101 G9' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ASUS Transformer Pad TF300T Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
+    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ASUS Transformer Pad TF300T Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36'
-    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Asus, model: 'Transformer Pad 300' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-10D Build/V20R47F) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.33 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS X F-10D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-11D Build/V21R36A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.74 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; FZ-A1B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
+    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; GT-I9220 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
+    result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; HTC Desire C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.36 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire C' } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire C' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; HTC PH39100 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Raider 4G' } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Raider 4G' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW12HT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW13F Build/V77R60B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Lenovo S880 Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: S880 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; SC-02C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36'
-    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; MB860 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; V370 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Liquid E2' } }
+    result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Liquid E2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; SCH-R970C Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
+    result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LG-D801 Build/KOT49I.D80120a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.76 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+    result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; GT-I9300 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.34 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+    result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-T817T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Safari/537.36'
-    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 5.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S2 9.7' } }
+    result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S2 9.7' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1; XT1060 Build/LPA23.12-39.7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2507.0 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: 47.0.2507.0, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X' } }
+    result: { browser: { name: Chrome, version: 47.0.2507.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5X Build/MDB08I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.43 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5X' } }
+    result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5X' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6 Build/MPA44G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
+    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 6P Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '47', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Nexus 6P' } }
+    result: { browser: { name: Chrome, version: '47', type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Nexus 6P' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 7 Build/MDB08M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.8 Safari/537.36'
-    result: { browser: { name: Chrome, version: 48.0.2564.8, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
+    result: { browser: { name: Chrome, version: 48.0.2564.8, type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.1; xx; Coolpad8297_CMCC_TD/1.0 Android/4.2.1 Release/02.20.2014 Browser/Chrome30.0.0.0 Profile/MIDP-1.0 Configuration/CLDC-1.0) Chrome/30.0.0.0 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30'
     result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, os: { name: Android, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Coolpad, model: 'Dashen F1' } }

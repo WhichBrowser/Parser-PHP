@@ -9,7 +9,7 @@
     result: { browser: { name: Chrome, version: '17', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:45.0) Gecko/20100101 Firefox/45.0'
     result: { browser: { name: Firefox, version: '45.0', type: browser }, engine: { name: Gecko, version: '45.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
@@ -24,7 +24,7 @@
     result: { browser: { name: Iceweasel, family: { name: Firefox, version: '30.0' }, version: '30.0', type: browser }, engine: { name: Gecko, version: '30.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
-    result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Blink }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:17.0) Gecko/20121206 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: NetBSD, family: BSD }, device: { type: desktop } }
@@ -45,7 +45,7 @@
     result: { browser: { name: Firefox, version: '42.0', type: browser }, engine: { name: Gecko, version: '42.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36'
-    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; OpenBSD i386; xx; rv:1.9.1.16) Gecko/20110216 Firefox/3.5.16'
     result: { browser: { name: Firefox, version: 3.5.16, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }

@@ -51,13 +51,13 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: C8500 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; Aspire V5-121 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36'
-    result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: 4.4.4 }, device: { type: desktop, manufacturer: Acer, model: 'Aspire V5-121' } }
+    result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: desktop, manufacturer: Acer, model: 'Aspire V5-121' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.99; Build/LPV81C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.69 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.99; Build/MPZ44Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Chrome, version: '44', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 02.00.06(2.1-update1); xx; i-station Buddy Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, model: 'i-station Buddy' } }
