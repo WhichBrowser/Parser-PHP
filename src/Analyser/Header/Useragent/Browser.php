@@ -2056,6 +2056,7 @@ trait Browser
                 [ 'name' => 'Baidu Browser',        'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i' ],
                 [ 'name' => 'Baidu Spark',          'regexp' => '/BDSpark\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Black Wren',           'regexp' => '/BlackWren\/([0-9.]*)/u', 'details' => 2 ],                                            // see: https://github.com/conmarap/jetbrowser
+                [ 'name' => 'Brave',                'regexp' => '/brave\/([0-9.]*)/u' ],
                 [ 'name' => 'Byffox',               'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'Camino',               'regexp' => '/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'Canure',               'regexp' => '/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
