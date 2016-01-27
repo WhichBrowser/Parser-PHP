@@ -9,4 +9,4 @@
     result: { browser: { name: Atom, using: { name: Electron, version: 0.17.1 }, family: { name: Chrome, version: 37 }, version: 0.136.0, type: 'app:editor' }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) AtomShellDefaultApp/0.1.0 Chrome/37.0.2062.102 AtomShell/0.17.2 Safari/537.36'
-    result: { browser: { name: Chrome, using: { name: Electron, version: 0.17.2 }, version: '37', type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { using: { name: Electron, version: 0.17.2 }, family: { name: Chrome, version: 37 }, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
