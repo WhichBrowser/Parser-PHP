@@ -12,6 +12,7 @@ trait Engine
         $this->detectKHTML($ua);
         $this->detectGecko($ua);
         $this->detectServo($ua);
+        $this->detectGoanna($ua);
         $this->detectPresto($ua);
         $this->detectTrident($ua);
         $this->detectEdgeHTMLUseragent($ua);
@@ -80,6 +81,24 @@ trait Engine
         if (preg_match('/Servo\/([0-9.]*)/u', $ua, $match)) {
             $this->data->engine->name = 'Servo';
             $this->data->engine->version = new Version([ 'value' => $match[1] ]);
+        }
+    }
+
+
+    /* Goanna */
+
+    private function detectGoanna($ua)
+    {
+        if (preg_match('/Goanna/u', $ua)) {
+            $this->data->engine->name = 'Goanna';
+
+            if (preg_match('/Goanna\/([0-9]\.[0-9.]+)/u', $ua, $match)) {
+                $this->data->engine->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            if (preg_match('/Goanna\/20[0-9]{6,6}/u', $ua) && preg_match('/; rv:([^\);]+)[\);]/u', $ua, $match)) {
+                $this->data->engine->version = new Version([ 'value' => $match[1] ]);
+            }
         }
     }
 

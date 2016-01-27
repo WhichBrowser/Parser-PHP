@@ -1,0 +1,21 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:38.9) Gecko/20100101 Goanna/2.0 Firefox/38.9 PaleMoon/26.0.0b4'
+    result: { browser: { name: 'Pale Moon', family: { name: Firefox, version: '38.9' }, version: 26.0.0, type: browser }, engine: { name: Goanna, version: '2.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0) Gecko/20100101 Goanna/20151214 PaleMoon/26.0.0b4'
+    result: { browser: { name: 'Pale Moon', version: 26.0.0, type: browser }, engine: { name: Goanna, version: '2.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:1.0) Goanna/20150828 Gecko/20100101 PaleMoon/26.0.0b2'
+    result: { browser: { name: 'Pale Moon', version: 26.0.0, type: browser }, engine: { name: Goanna, version: '1.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:1.0) Goanna/20150819 Gecko/20100101 Firefox/31.9 PaleMoon/26.0.0b1'
+    result: { browser: { name: 'Pale Moon', family: { name: Firefox, version: '31.9' }, version: 26.0.0, type: browser }, engine: { name: Goanna, version: '1.0' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:1.0) Goanna/20150804 Firefox/31.9 PaleMoon/26.0.0b1'
+    result: { browser: { name: 'Pale Moon', family: { name: Firefox, version: '31.9' }, version: 26.0.0, type: browser }, engine: { name: Goanna, version: '1.0' }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:38.9) Gecko/20100101 Goanna/2.0 Firefox/38.9 PaleMoon/26.0.0'
+    result: { browser: { name: 'Pale Moon', family: { name: Firefox, version: '38.9' }, version: 26.0.0, type: browser }, engine: { name: Goanna, version: '2.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:2.0) Goanna/20160105 PaleMoon/26.0.0'
+    result: { browser: { name: 'Pale Moon', version: 26.0.0, type: browser }, engine: { name: Goanna, version: '2.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
