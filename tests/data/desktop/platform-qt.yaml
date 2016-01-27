@@ -3,4 +3,4 @@
     result: { browser: { name: QtMiniBrowser, version: '0.1', type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/0.9.0 Chrome/33.0.1750.149 Safari/537.36'
-    result: { browser: { using: { name: Qt, version: 0.9.0 }, family: { name: Chrome, version: 33 }, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { using: Qt, family: { name: Chrome, version: 33 }, type: browser }, engine: { name: Blink, version: '537.36' }, os: { name: Linux }, device: { type: desktop } }

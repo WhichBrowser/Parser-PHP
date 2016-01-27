@@ -25,7 +25,7 @@ trait Using
             [ 'name' => 'OpenWebKitSharp',                  'regexp' => '/OpenWebKitSharp/u' ],
             [ 'name' => 'Prism',                            'regexp' => '/Prism\/([0-9.]*)/u' ],
             [ 'name' => 'Qt',                               'regexp' => '/Qt\/([0-9.]*)/u' ],
-            [ 'name' => 'Qt',                               'regexp' => '/QtWebEngine\/([0-9.]*)/u' ],
+            [ 'name' => 'Qt',                               'regexp' => '/QtWebEngine\/([4-9][0-9.]*)?/u' ],
             [ 'name' => 'Qt',                               'regexp' => '/QtEmbedded/u' ],
             [ 'name' => 'Qt',                               'regexp' => '/QtEmbedded.*Qt\/([0-9.]*)/u' ],
             [ 'name' => 'ReqwirelessWeb',                   'regexp' => '/ReqwirelessWeb\/([0-9.]*)/u' ],
