@@ -100,10 +100,8 @@ trait Corrections
 
     private function hideBrowserBasedOnUsing()
     {
-        if ($this->data->browser->name == 'Chrome')
-        {
-            if ($this->data->browser->isUsing('Electron') || $this->data->browser->isUsing('Qt'))
-            {
+        if ($this->data->browser->name == 'Chrome') {
+            if ($this->data->browser->isUsing('Electron') || $this->data->browser->isUsing('Qt')) {
                 unset($this->data->browser->name);
                 unset($this->data->browser->version);
             }

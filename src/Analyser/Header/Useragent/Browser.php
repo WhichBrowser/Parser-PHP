@@ -2040,7 +2040,7 @@ trait Browser
                 [ 'name' => '126 Browser',          'regexp' => '/126BROWSER/u' ],
                 [ 'name' => '2345 Explorer',        'regexp' => '/2345Explorer\/([0-9.]*)/u', 'details' => 3 ],
                 [ 'name' => '2345 Explorer',        'regexp' => '/2345Explorer v([0-9.]*)/u', 'details' => 3 ],
-                [ 'name' => '2345 Chrome',          'regexp' => '/2345chrome v([0-9.]*)/u', 'details' => 3 ], 
+                [ 'name' => '2345 Chrome',          'regexp' => '/2345chrome v([0-9.]*)/u', 'details' => 3 ],
                 [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => '7Star',                'regexp' => '/7Star\/([0-9.]*)/u' ],                                                                // see: http://www.qixing123.com
