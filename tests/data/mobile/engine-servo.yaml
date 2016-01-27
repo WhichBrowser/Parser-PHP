@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android; Mobile; rv:37.0) Servo/1.0 Firefox/37.0'
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:37.0) Servo/1.0 Firefox/37.0'
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'Firefox OS' }, device: { type: mobile, subtype: smart } }

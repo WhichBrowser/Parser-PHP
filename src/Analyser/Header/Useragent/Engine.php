@@ -11,6 +11,7 @@ trait Engine
         $this->detectWebkit($ua);
         $this->detectKHTML($ua);
         $this->detectGecko($ua);
+        $this->detectServo($ua);
         $this->detectPresto($ua);
         $this->detectTrident($ua);
         $this->detectEdgeHTMLUseragent($ua);
@@ -68,6 +69,17 @@ trait Engine
             if (preg_match('/; rv:([^\);]+)[\);]/u', $ua, $match)) {
                 $this->data->engine->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             }
+        }
+    }
+
+
+    /* Servo */
+
+    private function detectServo($ua)
+    {
+        if (preg_match('/Servo\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->engine->name = 'Servo';
+            $this->data->engine->version = new Version([ 'value' => $match[1] ]);
         }
     }
 
