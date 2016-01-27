@@ -2035,7 +2035,12 @@ trait Browser
             Constants\BrowserType::BROWSER => [
 
                 /* Desktop browsers */
+                [ 'name' => '115 Browser',          'regexp' => '/115Browser\/([0-9.]*)/u' ],
+                [ 'name' => '115 Chrome',           'regexp' => '/115Chrome\/([0-9.]*)/u' ],
                 [ 'name' => '126 Browser',          'regexp' => '/126BROWSER/u' ],
+                [ 'name' => '2345 Explorer',        'regexp' => '/2345Explorer\/([0-9.]*)/u', 'details' => 3 ],
+                [ 'name' => '2345 Explorer',        'regexp' => '/2345Explorer v([0-9.]*)/u', 'details' => 3 ],
+                [ 'name' => '2345 Chrome',          'regexp' => '/2345chrome v([0-9.]*)/u', 'details' => 3 ], 
                 [ 'name' => '360 Extreme Explorer', 'regexp' => '/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => '360 Safe Explorer',    'regexp' => '/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => '7Star',                'regexp' => '/7Star\/([0-9.]*)/u' ],                                                                // see: http://www.qixing123.com
@@ -2055,6 +2060,7 @@ trait Browser
                 [ 'name' => 'Baidu Browser',        'regexp' => '/bdbrowser\/([0-9.]*)/i' ],
                 [ 'name' => 'Baidu Browser',        'regexp' => '/bdbrowser_i18n\/([0-9.]*)/i' ],
                 [ 'name' => 'Baidu Spark',          'regexp' => '/BDSpark\/([0-9.]*)/u', 'details' => 2 ],
+                [ 'name' => 'Beamrise',             'regexp' => '/Beamrise\/([0-9.]*)/u' ],                                                             // see: http://beamrise.com
                 [ 'name' => 'Black Wren',           'regexp' => '/BlackWren\/([0-9.]*)/u', 'details' => 2 ],                                            // see: https://github.com/conmarap/jetbrowser
                 [ 'name' => 'Brave',                'regexp' => '/brave\/([0-9.]*)/u' ],
                 [ 'name' => 'Byffox',               'regexp' => '/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
@@ -2082,6 +2088,7 @@ trait Browser
                 [ 'name' => 'Iceape',               'regexp' => '/Iceape\/([0-9.]*)/u' ],
                 [ 'name' => 'IceCat',               'regexp' => '/IceCat[ \/]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                   // see: https://www.gnu.org/software/gnuzilla/
                 [ 'name' => 'Iceweasel',            'regexp' => '/Iceweasel\/([0-9.]*)/iu', 'type' => Constants\DeviceType::DESKTOP ],
+                [ 'name' => 'Iridium',              'regexp' => '/Iridium\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
                 [ 'name' => 'Iron',                 'regexp' => '/Iron\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
                 [ 'name' => 'Kazehakase',           'regexp' => '/Kazehakase\/([0-9.]*)/u' ],                                                           // see: http://kazehakase.osdn.jp
                 [ 'name' => 'KChrome',              'regexp' => '/KChrome\/([0-9.]*)/u', 'details' => 3 ],                                              // see: http://www.kchrome.com
@@ -2099,7 +2106,7 @@ trait Browser
                 [ 'name' => 'Orca',                 'regexp' => '/Orca\/([0-9.]*)/u' ],
                 [ 'name' => 'Oregano',              'regexp' => '/Oregano ([0-9.]*)/u' ],                                                               // see: http://www.xat.nl/en/riscos/sw/oregano/
                 [ 'name' => 'Origyn',               'regexp' => '/Origyn Web Browser/u' ],
-                [ 'name' => 'Otter',                'regexp' => '/Otter Browser\/([0-9.]*)/u' ],                                                        // see: https://otter-browser.org
+                [ 'name' => 'Otter',                'regexp' => '/Otter(?: Browser)?\/([0-9.]*)/u' ],                                                   // see: https://otter-browser.org
                 [ 'name' => 'Pale Moon',            'regexp' => '/Pale[mM]oon\/([0-9.]*)/u' ],                                                          // see: https://www.palemoon.org
                 [ 'name' => 'Qihoo 360',            'regexp' => '/QIHU THEWORLD/u' ],
                 [ 'name' => 'QtWeb',                'regexp' => '/QtWeb Internet Browser\/([0-9.]*)/u' ],
@@ -2112,9 +2119,11 @@ trait Browser
                 [ 'name' => 'Stainless',            'regexp' => '/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
                 [ 'name' => 'SunChrome',            'regexp' => '/SunChrome\/([0-9.]*)/u' ],
                 [ 'name' => 'Superbird',            'regexp' => '/Superbird\/([0-9.]*)/u', 'details' => 2 ],
+                [ 'name' => 'Swing Browser',        'regexp' => '/Swing(?:\(And\))?\/([0-9.]*)/u', 'details' => 3 ],                                    // see: http://swing-browser.com
                 [ 'name' => 'Tencent Traveler',     'regexp' => '/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'TenFourFox',           'regexp' => '/TenFourFox\//u' ],
                 [ 'name' => 'The World',            'regexp' => '/TheWorld(?: ([0-9.]*))?/u' ],
+                [ 'name' => 'Tungsten Browser',     'regexp' => '/TungstenBrowser\/([0-9.]*)/u' ],
                 [ 'name' => 'Vivaldi',              'regexp' => '/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Voyager',              'regexp' => '/AmigaVoyager\/([0-9.]*)/u' ],
                 [ 'name' => 'Waterfox',             'regexp' => '/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
