@@ -1468,7 +1468,7 @@ trait Os
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
             
 
-            if (preg_match('/NEWS-OS 6/u', $ua)) {
+            if (preg_match('/NEWS-OS [56]/u', $ua)) {
                 $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
             }
 
