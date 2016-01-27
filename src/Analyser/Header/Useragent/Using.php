@@ -16,6 +16,8 @@ trait Using
             [ 'name' => 'Delphi Embedded Web Browser',      'regexp' => '/Embedded Web Browser/u' ],
             [ 'name' => 'Canvace',                          'regexp' => '/Canvace Standalone\/([0-9.]*)/u' ],
             [ 'name' => 'Ekioh',                            'regexp' => '/Ekioh\/([0-9.]*)/u' ],
+            [ 'name' => 'Electron',                         'regexp' => '/AtomShell\/([0-9.]*)/u' ],
+            [ 'name' => 'Electron',                         'regexp' => '/Electron\/([0-9.]*)/u' ],
             [ 'name' => 'JavaFX',                           'regexp' => '/JavaFX\/([0-9.]*)/u' ],
             [ 'name' => 'GFXe',                             'regexp' => '/GFXe\/([0-9.]*)/u' ],
             [ 'name' => 'LuaKit',                           'regexp' => '/luakit/u' ],
