@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/2.2; like Gecko) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/1.3.1; like Gecko) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/1.8; like Gecko) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MFP; 98/0100R200; like Gecko) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: printer } }

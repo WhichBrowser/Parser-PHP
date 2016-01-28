@@ -1156,6 +1156,10 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::PDA;
             }
 
+            if (preg_match('/MFP/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::PRINTER;
+            }
+
             if (preg_match('/(InettvBrowser|HbbTV|DTV)/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
