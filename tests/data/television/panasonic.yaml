@@ -109,3 +109,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.tv.2012)'
     result: { engine: { name: Webkit, version: '420' }, device: { type: television, manufacturer: Panasonic, series: 'Viera 2012' } }
+-
+    headers: 'User-Agent: HbbTV/1.3.1 (;Panasonic;Viera2015.mid;36.3605;4501-0003 0002-0000;) FVC/1.0 (Panasonic;Viera2015;) (avdn/Panasonic.tv.mid.2015)'
+    result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2015' } }
