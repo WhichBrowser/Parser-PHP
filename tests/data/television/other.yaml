@@ -373,3 +373,6 @@
 -
     headers: 'User-Agent: opera/9.80, M350/0.1.46_flash (Sagemcom_Broadband_SAS,DIW350_TP,Wired)'
     result: { browser: { name: 'Opera Devices', type: browser }, device: { type: television, manufacturer: Sagemcom, model: DIW350 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; changhong TV) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19,STB/01.00.00.01(changhong,dvb,wired)'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: television, manufacturer: Changhong, series: 'Smart TV' } }

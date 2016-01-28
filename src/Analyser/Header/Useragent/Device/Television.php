@@ -628,7 +628,11 @@ trait Television
 
                 default:
                     $this->data->device->manufacturer = $vendorName;
-                    $this->data->device->model = $modelName;
+
+                    if (!in_array($modelName, [ 'dvb' ])) {
+                        $this->data->device->model = $modelName;
+                    }
+
                     break;
             }
         }
