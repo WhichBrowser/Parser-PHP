@@ -132,7 +132,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: television, manufacturer: Storex, model: LinkBox } }
 -
     headers: 'User-Agent: Mozilla/5.0 (MediStream; U; KHTML, like Gecko; Mobile) NetFrontNX/3.0.2'
-    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bewatec, model: MediStream } }
+    result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, device: { type: television, manufacturer: Bewatec, model: MediStream } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/534.34 (KHTML, like Gecko) kazoku/0.2 Safari/534.34 (ADB; L28YTNRA)'
     result: { browser: { using: Qt }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'L28YTNRA IPTV receiver' } }

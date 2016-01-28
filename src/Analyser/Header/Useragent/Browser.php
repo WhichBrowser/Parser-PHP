@@ -1140,7 +1140,6 @@ trait Browser
     {
         if (preg_match('/Net[fF]ront/u', $ua)) {
             $this->data->browser->name = 'NetFront';
-            $this->data->device->type = Constants\DeviceType::MOBILE;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
             if (preg_match('/NetFront\/?([0-9.]*)/ui', $ua, $match)) {
@@ -1163,6 +1162,10 @@ trait Browser
 
             if (preg_match('/Kindle/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::EREADER;
+            }
+
+            if (empty($this->data->device->type)) {
+                $this->data->device->type = Constants\DeviceType::MOBILE; 
             }
 
             /* Detect OS based on NetFront identifier */
