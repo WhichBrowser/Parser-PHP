@@ -465,7 +465,7 @@ trait Browser
             unset($this->data->os->version);
         }
 
-        if (preg_match('/Opera[\/\-\s]/iu', $ua) || preg_match('/Browser\/Opera/iu', $ua)) {
+        if ((preg_match('/Opera[\/\-\s]/iu', $ua) || preg_match('/Browser\/Opera/iu', $ua)) && !preg_match('/Opera Software/iu', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Opera';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
