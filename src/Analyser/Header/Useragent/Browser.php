@@ -20,6 +20,14 @@ trait Browser
         $this->detectEdge($ua);
         $this->detectOpera($ua);
         
+        /* Detect other various mobile browsers */
+        $this->detectNokiaBrowser($ua);
+        $this->detectSilk($ua);
+        $this->detectSailfishBrowser($ua);
+        $this->detectWebOSBrowser($ua);
+        $this->detectDolfin($ua);
+        $this->detectIris($ua);
+
         /* Detect other browsers */
         $this->detectUC($ua);
         $this->detectNetfront($ua);
@@ -30,14 +38,6 @@ trait Browser
         $this->detectModernNetscape($ua);
         $this->detectMosaic($ua);
         $this->detectKonqueror($ua);
-
-        /* Detect other various mobile browsers */
-        $this->detectNokiaBrowser($ua);
-        $this->detectSilk($ua);
-        $this->detectSailfishBrowser($ua);
-        $this->detectWebOSBrowser($ua);
-        $this->detectDolfin($ua);
-        $this->detectIris($ua);
 
         /* Detect other various television browsers */
         $this->detectEspial($ua);

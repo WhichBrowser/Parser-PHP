@@ -31,3 +31,6 @@
 -
     headers: 'User-Agent: UNTRUSTED/1.0/HS-T39_TD/1.0 Release/03.03.2011 Threadx/4.0 Mocor/W10 Browser/NF4.0 Profile/MIDP-2.0 Config/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: T39 } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S5260/1.0 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
