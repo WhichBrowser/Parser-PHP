@@ -118,3 +118,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 [ja] (compatible; MSIE 6.0; Linux 2.6.11-1.1369_FC4; Playstation2)'
     result: { device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (PS2; PlayStation BB Navigator 1.0) NetFront/3.0'
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }

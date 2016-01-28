@@ -13,7 +13,7 @@ trait Gaming
             $this->detectNintendo($ua);
         }
 
-        if (preg_match('/PlayStation/iu', $ua)) {
+        if (preg_match('/PlayStation/iu', $ua) || preg_match('/PS[0-9]/u', $ua)) {
             $this->detectPlaystation($ua);
         }
 
@@ -144,7 +144,7 @@ trait Gaming
 
         /* PlayStation 2 */
 
-        if (preg_match('/Playstation2/u', $ua)) {
+        if (preg_match('/Playstation2/u', $ua) || preg_match('/\(PS2;/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->setIdentification([
