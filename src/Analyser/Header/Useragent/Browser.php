@@ -1148,6 +1148,10 @@ trait Browser
 
             /* Detect device type based on NetFront identifier */
 
+            if (preg_match('/MobilePhone/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }
+
             if (preg_match('/DigitalMediaPlayer/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::MEDIA;
             }
