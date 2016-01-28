@@ -30,8 +30,8 @@ trait Browser
 
         /* Detect other browsers */
         $this->detectUC($ua);
-        $this->detectNetfront($ua);
         $this->detectObigo($ua);
+        $this->detectNetfront($ua);
 
         /* Detect other specific desktop browsers */
         $this->detectSeamonkey($ua);
