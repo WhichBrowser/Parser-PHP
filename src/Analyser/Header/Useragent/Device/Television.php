@@ -867,6 +867,13 @@ trait Television
                         $this->data->device->generic = false;
                         break;
 
+                    case 'hgs1000s':
+                        $this->data->device->manufacturer = 'Humax';
+                        $this->data->device->model = 'HGS-1000S';
+                        $this->data->device->identified |= Constants\Id::MATCH_UA;
+                        $this->data->device->generic = false;
+                        break;
+
                     case 'hms1000s':
                     case 'hms1000sph2':
                         $this->data->device->manufacturer = 'Humax';

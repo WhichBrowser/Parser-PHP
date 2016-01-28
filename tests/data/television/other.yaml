@@ -275,6 +275,9 @@
     headers: 'User-Agent: Opera/9.80 (Linux mips; Opera TV Store/5921; HbbTV/1.2.1 (PVR; Humax; hms1000sph2; DESFAB 1.01.01; 1.0.0; wired; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50 Model/Humax-TestingDevice'
     result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Humax, model: HMS-1000S, series: 'Digital Receiver' } }
 -
+    headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (+PVR; Humax; hgs1000s; DESNAG 0.90.10; 1.0.0; wired; UX-PRISM--OP-SES;  hdplusSmartTV/1.0 (NETRANGEMMH; )); ce-html/1.0) Presto/2.12.407 Version/12.50'
+    result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Humax, model: HGS-1000S, series: 'Digital Receiver' } }
+-
     headers: 'User-Agent: Opera/9.80 (Linux mips; Opera TV Store/6162; HbbTV/1.2.1 (; Altech UEC; PVR9600; ; ; )) Presto/2.12.407 Version/12.51 Model/AltechMultimedia-TestingDevice'
     result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: 'Altech UEC', model: PVR9600 } }
 -
