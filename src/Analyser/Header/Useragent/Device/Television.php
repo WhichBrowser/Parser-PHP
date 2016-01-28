@@ -55,7 +55,7 @@ trait Television
 
     private function detectToshibaTelevision($ua)
     {
-        if (preg_match('/Toshiba_?TP\//u', $ua) || preg_match('/TSBNetTV\//u', $ua)) {
+        if (preg_match('/Toshiba_?TP\//u', $ua) || preg_match('/TSBNetTV ?\//u', $ua)) {
             $this->data->device->manufacturer = 'Toshiba';
             $this->data->device->series = 'Smart TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;

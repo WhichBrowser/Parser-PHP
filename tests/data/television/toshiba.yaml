@@ -79,3 +79,6 @@
 -
     headers: 'User-Agent: mwb-db-client Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; TOSHIBA; 32SL863; 19.2.39.208; 3; ) ; ToshibaTP/1.1.1 () ; xx) Presto/2.6.33 Version/10.60'
     result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Toshiba, model: 'Regza SL863', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV /T33010307.0203.399; TvwithVideoPlayer; SWReleaseVer=22.1.46.0; AVP=1; DT=br; like Gecko) NetFront/4.1'
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
