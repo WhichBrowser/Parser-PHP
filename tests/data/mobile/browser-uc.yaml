@@ -66,7 +66,13 @@
     result: { browser: { name: 'UC Browser', version: '4.1', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 720' } }
 -
     headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 8.10; xx; NOKIA; RM-821_im_india_443) U2/1.0.0 UCBrowser/4.2.0.524 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Phone' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 10.0; xx; NOKIA; RM-978_1012) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 10.0; xx; NOKIA; RM-984_1043) U2/1.0.0 UCBrowser/4.2.0.524 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }
 -
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPad OS 6_1_2; xx; iPad2,4) U2/1.0.0 UCBrowser/9.2.0.312 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, engine: { name: Gecko }, os: { name: iOS, version: 6.1.2 }, device: { type: tablet, manufacturer: Apple, model: 'iPad 2' } }
@@ -328,3 +334,15 @@
 -
     headers: 'User-Agent: UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; ZTE NOVA) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.4', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: NOVA } }
+-
+    headers: 'X-UCBrowser-UA: pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA Lumia 800);pr(UCBrowser/3.2.0.340);ov(wds 7.10);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(2);up(U2/1.0.0);pm(1);'
+    result: { browser: { name: 'UC Browser', version: '3.2' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 800' } }
+-
+    headers: 'X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(NOKIA RM-913_apac_prc_213);pr(UCBrowser/2.9.0.263);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(YY);nm(0);im(0);sr(0);nt(2);pm(0);'
+    result: { browser: { name: 'UC Browser', version: '2.9' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+-
+    headers: 'X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(NOKIA RM-978_1007);pr(UCBrowser/3.3.0.358);ov(wds 8.10);pi(480*800);ss(480*800);er(U);bt(YZ);nm(0);im(0);sr(0);nt(2);pm(0);'
+    result: { browser: { name: 'UC Browser', version: '3.3' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
+-
+    headers: 'X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(NOKIA RM-984_1043);pr(UCBrowser/3.3.0.358);ov(wds 10.0);pi(720*1280);ss(480*853);er(U);bt(YZ);nm(0);im(0);sr(0);nt(2);pm(0);'
+    result: { browser: { name: 'UC Browser', version: '3.3' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }

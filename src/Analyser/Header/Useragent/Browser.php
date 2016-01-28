@@ -990,16 +990,19 @@ trait Browser
                 $this->data->os->name = 'Windows Phone';
                 $this->data->os->version = null;
 
-                if (preg_match('/wds ([0-9]\.[0-9])/u', $ua, $match)) {
+                if (preg_match('/wds ([0-9]+\.[0-9])/u', $ua, $match)) {
                     switch ($match[1]) {
-                        case '7.0':
-                            $this->data->os->version = new Version([ 'value' => '7.0' ]);
-                            break;
                         case '7.1':
                             $this->data->os->version = new Version([ 'value' => '7.5' ]);
                             break;
                         case '8.0':
                             $this->data->os->version = new Version([ 'value' => '8.0' ]);
+                            break;
+                        case '8.1':
+                            $this->data->os->version = new Version([ 'value' => '8.1' ]);
+                            break;
+                        case '10.0':
+                            $this->data->os->version = new Version([ 'value' => '10.0' ]);
                             break;
                     }
                 }
