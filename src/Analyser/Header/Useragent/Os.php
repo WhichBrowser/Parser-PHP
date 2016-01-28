@@ -263,7 +263,7 @@ trait Os
                 if (preg_match('/HP eStation/u', $ua)) {
                     $this->data->device->manufacturer = 'HP';
                     $this->data->device->model = 'eStation';
-                    $this->data->device->type = Constants\DeviceType::TABLET;
+                    $this->data->device->type = Constants\DeviceType::PRINTER;
                     $this->data->device->identified |= Constants\Id::MATCH_UA;
                     $this->data->device->generic = false;
                 }

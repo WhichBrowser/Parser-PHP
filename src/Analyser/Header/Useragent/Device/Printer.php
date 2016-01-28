@@ -28,5 +28,15 @@ trait Printer
                 'type'          =>  Constants\DeviceType::PRINTER
             ]);
         }
+
+        /* HP Web PrintSmart */
+
+        if (preg_match('/HP Web PrintSmart/iu', $ua, $match)) {
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'HP',
+                'model'         =>  'Web PrintSmart',
+                'type'          =>  Constants\DeviceType::PRINTER
+            ]);
+        }
     }
 }
