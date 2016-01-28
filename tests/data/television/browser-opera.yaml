@@ -100,3 +100,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.84 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.0.Gangnam.62 HbbTV/1.3.1 (+DL+PVR;Opera Software;HbbTV add-on;;;)'
     result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, type: browser }, engine: { name: Blink }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0 VSTVB MB100 HbbTV/1.2.1 (; HHW HAIER; MB100; 0.1.33.5; ;) SmartTvA/3.0.0 UID(00:09:DF:C2:EA:02/MB100/HHW HAIER/0.1'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 38 }, version: '4.3', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Haier, model: MB100 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0 VSTVB MB100 HbbTV/1.2.1 (; PANASONIC; MB100; 0.1.19.8; ;) SmartTvA/3.0.0 UID(00:09:DF:A9:CF:EC/MB100/PANASONIC/0.1'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 38 }, version: '4.3', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Panasonic, model: MB100 } }
