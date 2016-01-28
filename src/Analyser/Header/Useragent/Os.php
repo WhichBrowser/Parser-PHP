@@ -787,9 +787,7 @@ trait Os
                     }
                 }
             }
-        }
-
-        elseif (preg_match('/WMPRO/u', $ua)) {
+        } elseif (preg_match('/WMPRO/u', $ua)) {
             $this->data->os->name = 'Windows Mobile';
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }

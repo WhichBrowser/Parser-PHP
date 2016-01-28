@@ -1173,7 +1173,7 @@ trait Browser
             }
 
             if (empty($this->data->device->type)) {
-                $this->data->device->type = Constants\DeviceType::MOBILE; 
+                $this->data->device->type = Constants\DeviceType::MOBILE;
             }
 
             /* Detect OS based on NetFront identifier */
