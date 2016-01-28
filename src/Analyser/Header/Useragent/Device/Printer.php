@@ -17,5 +17,16 @@ trait Printer
                 'type'          =>  Constants\DeviceType::PRINTER
             ]);
         }
+
+
+        /* Canon IJ */
+
+        if (preg_match('/CanonIJCL/iu', $ua, $match)) {
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Canon',
+                'model'         =>  'IJ Printer',
+                'type'          =>  Constants\DeviceType::PRINTER
+            ]);
+        }
     }
 }
