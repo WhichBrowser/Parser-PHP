@@ -455,6 +455,18 @@ trait Television
             $this->data->device->generic = false;
         }
 
+        /* Sony LocationFreeTV */
+
+        if (preg_match('/LocationFreeTV\/([A-Z0-9\-]+)/u', $ua, $match)) {
+            $this->data->os->reset();
+
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'LocationFreeTV ' . $match[1];
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
+
         /* Winbox Evo2 */
 
         if (preg_match('/Winbox Evo2/u', $ua)) {

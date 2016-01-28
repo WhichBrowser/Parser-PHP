@@ -1164,7 +1164,7 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::PRINTER;
             }
 
-            if (preg_match('/(InettvBrowser|HbbTV|DTV)/u', $ua)) {
+            if (preg_match('/(InettvBrowser|HbbTV|DTV|NetworkAVTV)/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
 
