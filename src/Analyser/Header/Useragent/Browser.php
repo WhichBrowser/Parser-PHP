@@ -43,6 +43,7 @@ trait Browser
         $this->detectEspial($ua);
         $this->detectMachBlue($ua);
         $this->detectAnt($ua);
+        $this->detectSraf($ua);
 
         /* Detect other browses */
         $this->detectSpecficBrowsers($ua);
@@ -1298,6 +1299,18 @@ trait Browser
         if (preg_match('/ANTGalio\/([0-9.]+)/iu', $ua, $match)) {
             $this->data->browser->name = 'ANT Galio';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+    }
+
+
+    /* Seraphic Sraf */
+
+    private function detectSraf($ua)
+    {
+        if (preg_match('/SRAF\/([0-9.]+)/iu', $ua, $match)) {
+            $this->data->browser->name = 'Seraphic Sraf';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
     }

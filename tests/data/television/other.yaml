@@ -120,10 +120,10 @@
     result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (+DRM+TRICKMODE; SERAPHIC; TV101; sw-v1.0; hw-v1.0) CE-HTML/1.0 FXM-U2FsdGVkX1+tH+IvjK4AyJIfuJUAyORg8ptl86EQiyLy7LytAiEgU3mKjwgF90uz-END'
-    result: { browser: { family: { name: Chrome, version: 30 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Seraphic, model: TV101 } }
+    result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Seraphic, model: TV101 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (CHANGHONG; TV55; sw-v1.0;) CE-HTML/1.0 NETRANGEMMH'
-    result: { browser: { family: { name: Chrome, version: 30 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Changhong, model: TV55 } }
+    result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Changhong, model: TV55 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux mips; U;HbbTV/1.1.1 (+RTSP;DMM;Dreambox;0.1a;1.0;) CE-HTML/1.0; xx) AppleWebKit/535.19 no/Volksbox QtWebkit/2.2'
     result: { engine: { name: Webkit, version: '535.19' }, device: { type: television, manufacturer: DMM, model: Dreambox } }
@@ -357,7 +357,7 @@
     result: { device: { type: television, manufacturer: Roku, model: 'Streaming Stick' } }
 -
     headers: 'User-Agent: Sraf/3.0 (Linux i686 ; U; HbbTV/1.1.1 (+PVR+DL;NEXUS; TV44; sw1.0) CE-HTML/1.0 Config(L:eng,CC:DEU); en/de)'
-    result: { device: { type: television, manufacturer: NEXUS, model: TV44 } }
+    result: { browser: { name: 'Seraphic Sraf', version: '3.0', type: browser }, device: { type: television, manufacturer: NEXUS, model: TV44 } }
 -
     headers: 'User-Agent: XBMC/PRE-11.0 Git:20110623-62171b3 (iOS; 11.0.0 AppleTV2,1; http://www.xbmc.org)'
     result: { browser: { name: XBMC, version: '11.0', type: 'app:mediaplayer' }, device: { type: television, manufacturer: Apple, model: AppleTV } }
