@@ -14,6 +14,7 @@ Manufacturers::$GENERIC = [
 Manufacturers::$TELEVISION = [
     'BANGOLUFSEN'                               => 'Bang & Olufsen',
     'CHANGHONG'                                 => 'Changhong',
+    'changhong'                                 => 'Changhong',
     'HYUNDAI'                                   => 'Hyundai',
     'inverto'                                   => 'Inverto',
     'LOEWE'                                     => 'Loewe',
