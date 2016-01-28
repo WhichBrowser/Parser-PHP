@@ -729,6 +729,12 @@ trait Mobile
             $carrier = 'Softbank';
         }
 
+        if (preg_match('/\(([0-9]{3,3}(' . implode('|', array_keys($ids)) . ')[es]?);SoftBank/u', $ua, $match)) {
+            $model = $match[1];
+            $manufacturer = $match[2];
+            $carrier = 'Softbank';
+        }
+
         if (preg_match('/(?:^|[\s\/\-\(;])((V|DM|WS|WX)[0-9]{2,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[3];

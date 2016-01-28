@@ -49,3 +49,33 @@
 -
     headers: 'User-Agent: Vodafone/1.0/V905SH/SHJ001 Browser/VF-NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V905SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (811SH;SoftBank;SN359798003583289) NetFront/3.3'
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 811SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (815SH;SoftBank) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 815SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (830CA;SoftBank;SN353718020756383) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: 830CA, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (840Pe;SoftBank;SN359013030797930) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 840Pe, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (940P;SoftBank;SN353165030880706) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 940P, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (202SHe;SoftBank;SN353468050706037) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 202SHe, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (004SH;SoftBank;SN353021044176351) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 004SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (831SHs;SoftBank;SN359401026027380) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 831SHs, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (841SH;SoftBank;SN359305032972549) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 841SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (945SH;SoftBank;SN359323030706330) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 945SH, carrier: Softbank } }
