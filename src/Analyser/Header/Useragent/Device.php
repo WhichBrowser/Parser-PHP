@@ -5,7 +5,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 trait Device
 {
     use Device\Cars, Device\Gps, Device\Gaming, Device\Ereader, Device\Mobile,
-        Device\Media, Device\Television, Device\Signage, Device\Pda;
+        Device\Media, Device\Television, Device\Signage, Device\Printer, Device\Pda;
 
     private function &detectDevice($ua)
     {
@@ -17,6 +17,7 @@ trait Device
         $this->detectSignage($ua);
         $this->detectMedia($ua);
         $this->detectPda($ua);
+        $this->detectPrinter($ua);
         $this->detectMobile($ua);
 
         return $this;

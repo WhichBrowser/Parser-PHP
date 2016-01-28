@@ -19,6 +19,7 @@ class DeviceType
     const TELEVISION = 'television';
     const MONITOR = 'monitor';
     const CAMERA = 'camera';
+    const PRINTER = 'printer';
     const SIGNAGE = 'signage';
     const WHITEBOARD = 'whiteboard';
     const DEVBOARD = 'devboard';
