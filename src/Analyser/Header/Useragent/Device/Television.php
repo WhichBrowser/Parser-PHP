@@ -610,6 +610,17 @@ trait Television
 
                     break;
 
+                case 'Sagemcom':
+                    $this->data->device->manufacturer = $vendorName;
+                    $this->data->device->series = 'Settopbox';
+                    
+                    if (preg_match('/^([A-Z]+[0-9]+)/ui', $modelName, $match)) {
+                        $this->data->device->model = $match[1];
+                        unset($this->data->device->series);
+                    }
+
+                    break;
+
                 case 'TiVo':
                     $this->data->device->manufacturer = 'TiVo';
                     $this->data->device->series = 'DVR';

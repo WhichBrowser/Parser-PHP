@@ -367,3 +367,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; Media-Highway Evolution/CI.0244(05.01.05); like Gecko; TV) NetFront/3.5'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+-
+    headers: 'User-Agent: opera/9.80, DI384 TKC/0.5.20(Sagemcom_Broadband_SAS,DI384_UHD_TKC,Wired)'
+    result: { browser: { name: 'Opera Devices', type: browser }, device: { type: television, manufacturer: Sagemcom, model: DI384 } }
+-
+    headers: 'User-Agent: opera/9.80, M350/0.1.46_flash (Sagemcom_Broadband_SAS,DIW350_TP,Wired)'
+    result: { browser: { name: 'Opera Devices', type: browser }, device: { type: television, manufacturer: Sagemcom, model: DIW350 } }

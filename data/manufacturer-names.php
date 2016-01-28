@@ -18,6 +18,7 @@ Manufacturers::$TELEVISION = [
     'inverto'                                   => 'Inverto',
     'LOEWE'                                     => 'Loewe',
     'MEDION'                                    => 'Medion',
+    'Sagemcom_Broadband_SAS'                    => 'Sagemcom',
     'SERAPHIC'                                  => 'Seraphic',
     'selevision'                                => 'Selevision',
     'smart'                                     => 'Smart',
