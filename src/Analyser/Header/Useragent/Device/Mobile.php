@@ -613,7 +613,10 @@ trait Mobile
 
         $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/\)]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'ZTE'
+            'manufacturer'  => 'ZTE',
+            'model'         => function ($model) {
+                return preg_match('/[A-Z]+[0-9]+/iu', $model) ? strtoupper($model) : $model;
+            }
         ]);
 
         $this->identifyBasedOnIdentifier();
