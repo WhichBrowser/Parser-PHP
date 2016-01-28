@@ -40,3 +40,9 @@
 -
     headers: 'User-Agent: Mozilla/3.0(WILLCOM;KES/WS018KE/2;0001;2/1/C128) NetFront/3.4'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: KES, model: WS018KE, carrier: Willcom } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX01K/2;1.0.11.14.000000/1/C256) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX01K, carrier: Willcom } }
+-
+    headers: 'User-Agent: Mozilla/3.0(WILLCOM;KYOCERA/WX02K/2;1.0.0.7.000000/1/C256) NetFront/3.4'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX02K, carrier: Willcom } }
