@@ -496,39 +496,27 @@ trait Television
 
         /* Roku  */
 
-        if (preg_match('/^Roku\/DVP-([0-9]+)/u', $ua, $match)) {
+        if (preg_match('/^Roku\/DVP-(?:[0-9A-Z]+-)?[0-9\.]+ \(([0-9]{2,2})/u', $ua, $match)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Roku';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
             switch ($match[1]) {
-                case '2000':
-                    $this->data->device->model = 'HD';
+                case '02':
+                    $this->data->device->model = '2 XS';
                     $this->data->device->generic = false;
                     break;
-                case '2050':
-                    $this->data->device->model = 'XD';
+                case '04':
+                    $this->data->device->model = '3';
                     $this->data->device->generic = false;
                     break;
-                case '2100':
-                    $this->data->device->model = 'XDS';
-                    $this->data->device->generic = false;
-                    break;
-                case '2400':
+                case '07':
                     $this->data->device->model = 'LT';
                     $this->data->device->generic = false;
                     break;
-                case '3000':
-                    $this->data->device->model = '2 HD';
-                    $this->data->device->generic = false;
-                    break;
-                case '3050':
-                    $this->data->device->model = '2 XD';
-                    $this->data->device->generic = false;
-                    break;
-                case '3100':
-                    $this->data->device->model = '2 XS';
+                case '09':
+                    $this->data->device->model = 'Streaming Stick';
                     $this->data->device->generic = false;
                     break;
             }

@@ -345,7 +345,13 @@
     result: { device: { type: television, manufacturer: Roku, model: '2 XS' } }
 -
     headers: 'User-Agent: Roku/DVP-5.4 (045.04E03198A)'
-    result: { device: { type: television, manufacturer: Roku } }
+    result: { device: { type: television, manufacturer: Roku, model: '3' } }
+-
+    headers: 'User-Agent: Roku/DVP-4.9 (074.09E08022A)'
+    result: { device: { type: television, manufacturer: Roku, model: LT } }
+-
+    headers: 'User-Agent: Roku/DVP-5.5 (095.05E02025A)'
+    result: { device: { type: television, manufacturer: Roku, model: 'Streaming Stick' } }
 -
     headers: 'User-Agent: Sraf/3.0 (Linux i686 ; U; HbbTV/1.1.1 (+PVR+DL;NEXUS; TV44; sw1.0) CE-HTML/1.0 Config(L:eng,CC:DEU); en/de)'
     result: { device: { type: television, manufacturer: NEXUS, model: TV44 } }
