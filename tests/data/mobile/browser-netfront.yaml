@@ -37,3 +37,15 @@
 -
     headers: 'User-Agent: HuaweiU9130/B047 Browser/NetFront/3.5 MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U9130 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (MobilePhone SCP-6600/US/1.0) NetFront/3.1 MMP/2.0'
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (MobilePhone SCP-5500/US/1.0) NetFront/3.0 MMP/2.0'
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: VM4500 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (MobilePhone PM-8200/US/1.0) NetFront/3.x MMP/2.0'
+    result: { browser: { name: NetFront, version: '3.', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: PM-8200 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (MobilePhone PLS6600KJ/US/1.0) NetFront/3.1 MMP/2.0'
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }

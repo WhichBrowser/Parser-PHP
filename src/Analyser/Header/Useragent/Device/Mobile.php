@@ -948,6 +948,10 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
+        if (preg_match('/MobilePhone ([^\/\)]+)/u', $ua, $match)) {
+            array_push($candidates, $match[1]);
+        }
+
         $candidates = array_diff($candidates, [
             'Mobile', 'Safari', 'Version', 'GoogleTV', 'WebKit', 'NetFront',
             'Microsoft', 'ZuneWP7', 'Firefox', 'UCBrowser', 'IEMobile', 'Touch',
