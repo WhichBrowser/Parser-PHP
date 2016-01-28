@@ -1157,7 +1157,7 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::PDA;
             }
 
-            if (preg_match('/(InettvBrowser|HbbTV)/u', $ua)) {
+            if (preg_match('/(InettvBrowser|HbbTV|DTV)/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
 
@@ -1188,7 +1188,7 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
-            if (!isset($this->data->device->type) || !$this->data->device->type) {
+            if (empty($this->data->device->type) || $this->data->isType('desktop')) {
                 if (preg_match('/(DTV|HbbTV)/iu', $ua)) {
                     $this->data->device->type = Constants\DeviceType::TELEVISION;
                 } elseif (preg_match('/mobile/iu', $ua)) {
