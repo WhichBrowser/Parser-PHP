@@ -10,3 +10,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP; 98/0100R200; like Gecko) NetFront/3.5'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: printer } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (MFP; 99/0100o100; like Gecko) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: printer } }
