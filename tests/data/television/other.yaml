@@ -355,3 +355,9 @@
 -
     headers: 'User-Agent: Mozilla/4.0 WebTV/2.8 (compatible; MSIE 4.0)'
     result: { browser: { name: 'Internet Explorer', version: '4.0', type: browser }, device: { type: television, manufacturer: Microsoft, model: WebTV } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (DTV; Media-Highway Evolution/CI.0220(08.02.03); like Gecko; TV) NetFront/4.2'
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (DTV; Media-Highway Evolution/CI.0244(05.01.05); like Gecko; TV) NetFront/3.5'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }

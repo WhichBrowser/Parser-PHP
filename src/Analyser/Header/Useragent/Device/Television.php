@@ -443,6 +443,18 @@ trait Television
             $this->data->device->generic = false;
         }
 
+        /* Cisco MediaHighway */
+
+        if (preg_match('/Media-Highway Evolution/u', $ua, $match)) {
+            $this->data->os->reset();
+
+            $this->data->device->manufacturer = 'Cisco';
+            $this->data->device->model = 'MediaHighway';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
+
         /* Winbox Evo2 */
 
         if (preg_match('/Winbox Evo2/u', $ua)) {
