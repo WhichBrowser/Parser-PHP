@@ -120,7 +120,7 @@
     result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: Mstar, model: MWB } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (+DRM+TRICKMODE; SERAPHIC; TV101; sw-v1.0; hw-v1.0) CE-HTML/1.0 FXM-U2FsdGVkX1+tH+IvjK4AyJIfuJUAyORg8ptl86EQiyLy7LytAiEgU3mKjwgF90uz-END'
-    result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Seraphic, model: TV101 } }
+    result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (CHANGHONG; TV55; sw-v1.0;) CE-HTML/1.0 NETRANGEMMH'
     result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Changhong, model: TV55 } }

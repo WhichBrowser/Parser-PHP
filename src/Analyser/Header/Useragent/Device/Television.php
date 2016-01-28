@@ -746,6 +746,10 @@ trait Television
                 $found = true;
             }
 
+            if (in_array($vendorName, [ 'Access', 'ANT', 'EMSYS', 'Opera Software', 'Seraphic', 'Vendor' ])) {
+                $found = false;
+            }
+
             if ($found) {
                 $this->data->device->identified |= Constants\Id::PATTERN;
 
