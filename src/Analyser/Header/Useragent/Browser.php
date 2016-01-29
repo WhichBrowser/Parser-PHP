@@ -1308,10 +1308,18 @@ trait Browser
 
     private function detectSraf($ua)
     {
+        if (preg_match('/sraf_tv_browser/u', $ua)) {
+            $this->data->browser->name = 'Seraphic Sraf';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+        }
+
         if (preg_match('/SRAF\/([0-9.]+)/iu', $ua, $match)) {
             $this->data->browser->name = 'Seraphic Sraf';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
         }
     }
 
@@ -1650,14 +1658,6 @@ trait Browser
             $this->data->browser->name = 'Kodi';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::APP_MEDIAPLAYER;
-        }
-
-        /* Sraf TV Browser */
-
-        if (preg_match('/sraf_tv_browser/u', $ua)) {
-            $this->data->browser->name = 'Sraf TV Browser';
-            $this->data->browser->version = null;
-            $this->data->device->type = Constants\DeviceType::TELEVISION;
         }
 
         /* LG Browser */

@@ -21,7 +21,7 @@
     result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Vestel, model: MB70 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;;;;;) NETRANGEMMH sraf_tv_browser webkitMozilla/5.0 (Unknown; Linux mips) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36'
-    result: { browser: { name: 'Sraf TV Browser', using: 'Chrome Content Shell' }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
+    result: { browser: { name: 'Seraphic Sraf', using: 'Chrome Content Shell', type: browser }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;EN2000 ;9.wk.92;4.4.2; ) LOH; Opera; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
     result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, device: { type: television, manufacturer: HyperPanel, model: EN2000 } }
@@ -48,7 +48,7 @@
     result: { device: { type: television, manufacturer: IP4TV, model: DXD5505 } }
 -
     headers: 'User-Agent: HbbTV/1.1.1 (NETRANGEMMH sraf_tv_browser webkitMozilla/5.0 (Unknown; Linux mips) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36) FXM-U2FsdGVkX1/tdIdmThx556OcX2OvLYJ7xZ4szfWJhVJaKuyMPSh2dCfn+cBdncw9-END'
-    result: { browser: { name: 'Sraf TV Browser', using: 'Chrome Content Shell' }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
+    result: { browser: { name: 'Seraphic Sraf', using: 'Chrome Content Shell', type: browser }, engine: { name: Webkit, version: '537.36' }, device: { type: television } }
 -
     headers: 'User-Agent: HbbTV/1.2.1 (+DL+PVR+DRM;Sky_worth;HC7620;2.07.12;1.0;)CE-HTML/1.0 Skykid/5.1.6.2.04'
     result: { device: { type: television, manufacturer: Skyworth, model: HC7620 } }
