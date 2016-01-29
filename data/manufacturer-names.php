@@ -12,6 +12,7 @@ Manufacturers::$GENERIC = [
 ];
 
 Manufacturers::$TELEVISION = [
+    'ALDISUED'                                  => 'Aldi',
     'BANGOLUFSEN'                               => 'Bang & Olufsen',
     'CHANGHONG'                                 => 'Changhong',
     'changhong'                                 => 'Changhong',
