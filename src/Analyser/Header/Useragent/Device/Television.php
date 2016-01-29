@@ -829,9 +829,6 @@ trait Television
                             case 'videoweb':
                                 $this->data->device->model = 'Videoweb';
                                 break;
-                            default:
-                                $this->data->device->model = $modelName;
-                                break;
                         }
 
                         break;
