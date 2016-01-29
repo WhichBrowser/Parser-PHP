@@ -594,10 +594,8 @@ trait Television
                     $this->data->device->manufacturer = 'LG';
 
                     switch ($modelName) {
-                        case 'webOS.TV':
-                            $this->data->device->series = 'webOS TV';
-                            break;
                         case 'WEBOS1':
+                        case 'webOS.TV':
                             $this->data->device->series = 'webOS TV';
                             break;
                         case 'GLOBAL-PLAT4':
@@ -758,26 +756,12 @@ trait Television
                         $this->data->device->manufacturer = 'LG';
 
                         switch ($modelName) {
-                            case 'GLOBAL_PLAT3':
-                                $this->data->device->series = 'NetCast TV 2012';
-                                break;
-                            case 'GLOBAL_PLAT4':
-                                $this->data->device->series = 'NetCast TV 2013';
-                                break;
-                            case 'GLOBAL_PLAT5':
-                                $this->data->device->series = 'NetCast TV 2014';
-                                break;
-                            case 'NetCast 2.0':
-                                $this->data->device->series = 'NetCast TV 2011';
-                                break;
                             case 'NetCast 3.0':
+                            case 'GLOBAL_PLAT3':
                                 $this->data->device->series = 'NetCast TV 2012';
                                 break;
                             case 'NetCast 4.0':
                                 $this->data->device->series = 'NetCast TV 2013';
-                                break;
-                            case 'NetCast 4.5':
-                                $this->data->device->series = 'NetCast TV 2014';
                                 break;
                             default:
                                 $this->data->device->model = $modelName;
