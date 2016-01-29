@@ -388,3 +388,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.31.Vespa2.0 MB100/0.0.20.0 (OEM, Si2158LG32, wired) HbbTV/1.2.1 (; CUS:OEM; MB100; 0.0.20.0; 1.0;) CE-HTML/1.0 NETRANGEMMH ipl'
     result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 35 }, version: '4.2', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: OEM, model: MB100, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 ( PVR RTSP;vendorName;modelName;3.2.0.25.05.devel;hw_v_1_1_1;) ANTGalio/3.2.0.25.05.devel.50029'
+    result: { browser: { name: 'ANT Galio', version: 3.2.0, type: browser }, device: { type: television } }

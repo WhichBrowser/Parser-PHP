@@ -727,7 +727,7 @@ trait Television
             $found = false;
 
             if (preg_match('/(?:HbbTV|OHTV)\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
-                if (trim($match[1]) == "" || trim($match[1]) == "PVR" || strpos($match[1], '+') !== false) {
+                if (trim($match[1]) == "" || in_array(strtok($match[1], ' '), [ 'PVR', 'DL' ]) || strpos($match[1], '+') !== false) {
                     $vendorName = Data\Manufacturers::identify(Constants\DeviceType::TELEVISION, $match[2]);
                     $modelName = trim($match[3]);
                 } else {
