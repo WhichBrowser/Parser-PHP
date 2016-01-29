@@ -746,7 +746,7 @@ trait Television
                 $found = true;
             }
 
-            if (in_array($vendorName, [ 'Access', 'ANT', 'EMSYS', 'Opera Software', 'Seraphic', 'Vendor' ])) {
+            if (in_array($vendorName, [ 'Access', 'ANT', 'EMSYS', 'Em-Sys', 'Opera', 'Opera Software', 'Seraphic', 'Vendor' ])) {
                 $found = false;
             }
 
