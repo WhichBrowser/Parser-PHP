@@ -193,3 +193,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4 SmartTV/4.6'
     result: { browser: { family: { name: Chrome, version: 22 }, type: browser }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: LG, series: 'NetCast TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; NETCAST4; 04.00.15; 0x00000001;); LG NetCast.TV-2013 /04.00.15 (LG, NETCAST4, wired)'
+    result: { browser: { name: 'LG Browser', version: '6.00', type: browser }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, model: NETCAST4, series: 'NetCast TV 2013' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; NetCast4.0; 01.11.01; 0x00000001;); LG NetCast.TV-2013 /01.11.01 (LG, NetCast4.0, wired)'
+    result: { browser: { name: 'LG Browser', version: '6.00', type: browser }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, model: NetCast4.0, series: 'NetCast TV 2013' } }
