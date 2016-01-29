@@ -28,3 +28,6 @@
 -
     headers: 'User-Agent: Mozilla/1.1I (X11; I; NEWS-OS 6.1.1 news5000)'
     result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: 'NEWS OS', family: UNIX, version: 6.1.1 }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; GENIX 4.1 MG-200/NS32332; en-US; rv:4.7.1.1) Gecko/20080815 SeaMonkey/1.2.3'
+    result: { browser: { name: SeaMonkey, version: 1.2.3, type: browser }, engine: { name: Gecko, version: 4.7.1 }, os: { name: GENIX, family: BSD, version: '4.1' }, device: { type: desktop } }

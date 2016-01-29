@@ -1477,6 +1477,16 @@ trait Os
 
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
+
+        /* National Semiconductors GENIX */
+
+        if (preg_match('/GENIX ([0-9\.]+)/u', $ua, $match)) {
+            $this->data->os->name = 'GENIX';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
     }
     
 
