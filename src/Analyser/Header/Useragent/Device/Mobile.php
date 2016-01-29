@@ -193,7 +193,7 @@ trait Mobile
                 }
 
                 if (preg_match('/(?:Dolfin\/([0-9.]*)|Browser\/Dolfin([0-9.]*))/u', $ua, $match)) {
-                    $version = $match[1] || $match[2];
+                    $version = !empty($match[1]) ? $match[1] : $match[2];
 
                     $device = Data\DeviceModels::identify('bada', $this->data->device->model);
                     if ($device->identified) {
@@ -220,6 +220,9 @@ trait Mobile
                             $this->data->os->name = 'Touchwiz';
 
                             switch ($version) {
+                                case '1.0':
+                                    $this->data->os->version = new Version([ 'value' => '2.0', 'alias' => '2.0 or earlier' ]);
+                                    break;
                                 case '1.5':
                                     $this->data->os->version = new Version([ 'value' => '2.0' ]);
                                     break;
