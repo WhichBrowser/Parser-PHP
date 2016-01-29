@@ -202,3 +202,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ OHTV/1.0 ( ;LGE ;GLOBAL-PLAT4 ;02.22.01 ;0x00000001)'
     result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2013' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; WEBOS3; WEBOS3.0 02.01.32; W3_M16;)'
+    result: { browser: { using: { name: Qt, version: 5.2.1 }, family: { name: Chrome, version: 38 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }

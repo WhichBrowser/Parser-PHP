@@ -766,6 +766,9 @@ trait Television
                             case 'GLOBAL-PLAT4':
                                 $this->data->device->series = 'NetCast TV 2013';
                                 break;
+                            case 'WEBOS3':
+                                $this->data->device->series = 'webOS TV';
+                                break;
                             default:
                                 $this->data->device->model = $modelName;
                                 break;
