@@ -148,3 +148,6 @@
 -
     headers: 'User-Agent: MQQBrowser/5.0/HS-T96_TD/1.0 Android/4.0 Release/5.10.2012 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'QQ Browser', version: '5.0', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: Hisense, model: T96 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; H30-T00) AppleWebKit/535.19 (KHTML, like Gecko) Version/4.0 LieBaoFast/2.9.0 Mobile Safari/535.19'
+    result: { browser: { name: LieBaoFast, version: 2.9.0, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Honor 3C' } }
