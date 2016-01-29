@@ -773,7 +773,6 @@ trait Television
 
                         break;
 
-                    case 'SAMSUNG':
                     case 'Samsung':
                         $this->data->device->manufacturer = 'Samsung';
 
