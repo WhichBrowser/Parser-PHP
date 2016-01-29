@@ -1443,6 +1443,13 @@ trait Browser
             if ($this->data->os->name != 'webOS') {
                 $this->data->os->name = 'webOS';
             }
+
+            if (isset($this->data->device->manufacturer) && $this->data->device->manufacturer == 'Apple') {
+                unset($this->data->device->manufacturer);
+                unset($this->data->device->model);
+                unset($this->data->device->identifier);
+                $this->data->device->identified = Constants\Id::NONE;
+            }
         }
     }
 
