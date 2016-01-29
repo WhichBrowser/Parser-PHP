@@ -43,3 +43,6 @@
 -
     headers: 'User-Agent: SAMSUNG-GT-B2710/B2710POJK3 SHP/VPP/R5 Dolfin/2.0 QTV/5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Xcover 271' } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-S8530/1.0 SHP/VPP/R5 Dolfin/2.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
+    result: { browser: { name: Dolfin, version: '2.2', type: browser }, os: { name: Bada, version: '1.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
