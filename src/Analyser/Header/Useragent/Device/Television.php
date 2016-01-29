@@ -843,7 +843,7 @@ trait Television
                             $this->data->device->manufacturer = $vendorName;
                         }
 
-                        if ($modelName != '' && $modelName != 'modelName') {
+                        if ($modelName != '' && !in_array($modelName, [ 'dvb', 'modelName', 'undefined-model-name' ])) {
                             $this->data->device->model = $modelName;
                         }
 

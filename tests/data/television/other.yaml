@@ -379,3 +379,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; changhong TV) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19,STB/01.00.00.01(changhong,dvb,wired)'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: television, manufacturer: Changhong, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (+PVR; ADB; undefined-model-name; undefined-software-version; undefined-hardware-version; )'
+    result: { device: { type: television, manufacturer: ADB } }
