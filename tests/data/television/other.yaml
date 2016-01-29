@@ -117,7 +117,7 @@
     result: { engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Winbox, model: Evo2 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv9; U; xx) AppleWebKit/537.17 (KHTML, like Gecko) HbbTV/1.1.1 (;Mstar;MWB;Arcelik;KY;)'
-    result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: Mstar, model: MWB } }
+    result: { engine: { name: Webkit, version: '537.17' }, device: { type: television, manufacturer: MStar, model: PVR } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux i686; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0 HbbTV/1.1.1 (+DRM+TRICKMODE; SERAPHIC; TV101; sw-v1.0; hw-v1.0) CE-HTML/1.0 FXM-U2FsdGVkX1+tH+IvjK4AyJIfuJUAyORg8ptl86EQiyLy7LytAiEgU3mKjwgF90uz-END'
     result: { browser: { name: 'Seraphic Sraf', family: { name: Chrome, version: 30 }, version: '3.0', type: browser }, engine: { name: Blink }, device: { type: television } }
@@ -141,7 +141,7 @@
     result: { browser: { using: Qt }, engine: { name: Webkit, version: '534.34' }, device: { type: television, manufacturer: ADB, model: 'TNR-5720CDX IPTV receiver' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) MWB/1.0 Safari/537.4 HbbTV/1.2.1 (+PVR+DRM; Mstar; MWB;;;)'
-    result: { browser: { using: Qt }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: Mstar, model: MWB } }
+    result: { browser: { using: Qt }, engine: { name: Webkit, version: '537.4' }, device: { type: television, manufacturer: MStar, model: PVR } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0 Safari/534.16+ IrisBrowser/4.0.17.1 HbbTV/1.2.1 (;Digisoft.tv;Iris;4.0.17.1;;)'
     result: { engine: { name: Webkit, version: '534.16' }, device: { type: television, manufacturer: Digisoft.tv, model: Iris } }
@@ -168,7 +168,7 @@
     result: { browser: { name: Boxee, version: 1.0.1, type: 'app:mediaplayer' }, engine: { name: Webkit, version: '533.4' }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;Mstar;OWB;Arcelik;J5;)'
-    result: { browser: { name: 'Origyn Web Browser' }, engine: { name: Webkit, version: '534.1' }, device: { type: television, manufacturer: MStar, model: PVR } }
+    result: { engine: { name: Webkit, version: '534.1' }, device: { type: television, manufacturer: MStar, model: PVR } }
 -
     headers: 'User-Agent: Opera/10.60 (Linux i686 ; U; HbbTV/1.1.1 (;;;;;); CE-HTML; TechniSat MultyVision ISIO; de) Presto/2.6.33 Version/10.60'
     result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: TechniSat, model: 'MultyVision ISIO' } }

@@ -408,15 +408,13 @@ trait Television
 
         /* MStar */
 
-        if (preg_match('/Mstar;OWB/u', $ua)) {
+        if (preg_match('/Mstar;/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'MStar';
             $this->data->device->model = 'PVR';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
-
-            $this->data->browser->name = 'Origyn Web Browser';
         }
 
         /* TechniSat */
