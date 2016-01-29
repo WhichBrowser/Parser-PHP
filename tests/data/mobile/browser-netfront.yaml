@@ -49,3 +49,15 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone PLS6600KJ/US/1.0) NetFront/3.1 MMP/2.0'
     result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (Standard; NF32SW/1.0) NetFront/3.2'
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/4.08 NetFront/3.2 (Standard; NF32SW/2.0) [en]'
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Standard; NF41SW/1.1; like Gecko;) NetFront/4.1'
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux) AppleWebKit/533.3 (KHTML, like Gecko) WebkitBrowser/1.2 Safari/533.3 NetFront/3.4 (Custom3.00.1101.01201.)'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Linux }, device: { type: mobile, subtype: feature } }

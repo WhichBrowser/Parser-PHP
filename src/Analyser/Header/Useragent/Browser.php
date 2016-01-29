@@ -1138,9 +1138,10 @@ trait Browser
 
     private function detectNetfront($ua)
     {
-        if (preg_match('/Net[fF]ront/u', $ua)) {
+        if (preg_match('/Net[fF]ront/u', $ua) && !preg_match('/NetFrontNX/u', $ua)) {
             $this->data->browser->name = 'NetFront';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            unset($this->data->browser->channel);
 
             if (preg_match('/NetFront\/?([0-9.]*)/ui', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
@@ -1191,6 +1192,8 @@ trait Browser
             $this->data->browser->name = 'NetFront';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            unset($this->data->browser->channel);
+
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
@@ -1198,19 +1201,17 @@ trait Browser
             $this->data->browser->name = 'NetFront NX';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            unset($this->data->browser->channel);
 
             if (empty($this->data->device->type) || $this->data->isType('desktop')) {
                 if (preg_match('/(DTV|HbbTV)/iu', $ua)) {
                     $this->data->device->type = Constants\DeviceType::TELEVISION;
-                } elseif (preg_match('/mobile/iu', $ua)) {
-                    $this->data->device->type = Constants\DeviceType::MOBILE;
                 } else {
                     $this->data->device->type = Constants\DeviceType::DESKTOP;
                 }
             }
 
-            $this->data->os->name = '';
-            $this->data->os->version = null;
+            $this->data->os->reset();
         }
 
         /* The Sony Mylo 2 identifies as Firefox 2, but is NetFront */
