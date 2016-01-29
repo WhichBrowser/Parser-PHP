@@ -110,6 +110,45 @@ class MainTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($main->isDetected());
     }
 
+    public function testIsMobile()
+    {
+        $main = new Main();
+
+        $main->device->setIdentification([
+            'type'          =>  Constants\DeviceType::GAMING,
+            'subtype'       =>  Constants\DeviceSubType::CONSOLE
+        ]);
+
+        $this->assertFalse($main->isMobile());
+
+        $main->device->reset([
+            'type'          =>  Constants\DeviceType::GAMING,
+            'subtype'       =>  Constants\DeviceSubType::PORTABLE
+        ]);
+
+        $this->assertTrue($main->isMobile());
+
+        $main->device->reset([
+            'type'          =>  Constants\DeviceType::MOBILE,
+            'subtype'       =>  Constants\DeviceSubType::SMART
+        ]);
+
+        $this->assertTrue($main->isMobile());
+
+        $main->device->reset([
+            'type'          =>  Constants\DeviceType::MOBILE,
+            'subtype'       =>  Constants\DeviceSubType::FEATURE
+        ]);
+
+        $this->assertTrue($main->isMobile());
+
+        $main->device->reset([
+            'type'          =>  Constants\DeviceType::DESKTOP,
+        ]);
+
+        $this->assertFalse($main->isMobile());
+    }
+
     public function testIsType()
     {
         $main = new Main();

@@ -164,6 +164,9 @@ Returns the `type` and `subtype` property of the `device` object. If a subtype i
 `isType($type [,$type [,$type [,$type]]])`  
 If a single argument is used, the function returns `true` if the argument matches the `type` propery of `device` object. The argument can optionally also provide a subtype by concatenating it to the type and seperating it with a semicolon. It can use multiple arguments in which case the function returns `true` if one of the arguments matches. If none of the arguments matches, it returns `false`
 
+`isMobile()`  
+Return `true` if the browser is a mobile device, like a phone, tablet, ereader, camera, portable media player, watch or portable gaming console. Otherwise it returns `false`.
+
 `isBrowser($name [, $comparison, $version])`  
 Is used to query the `name` and `version` property of the `browser` object. The funcion can contain a single argument to a simple comparison based on `name`, or three arguments to compare both `name` and `version`. The first argument always contains the name of the browser. The second arguments is a string that can container either `<`, `<=`, `=`, `=>` or `>`. The third is an integer, float or string that contains the version. You can use versions like `10`, `10.7` or `'10.7.4'`. For more information about how version comparisons are performed, please see the `is()` function of the `Version` object.
 

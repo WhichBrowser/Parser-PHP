@@ -209,6 +209,18 @@ class Main
 
 
     /**
+     * Check if the detected browser is a mobile device
+     *
+     * @return boolean
+     */
+
+    public function isMobile()
+    {
+        return $this->isType('mobile', 'tablet', 'ereader', 'media', 'watch', 'camera', 'gaming:portable');
+    }
+
+
+    /**
      * Check if a browser was detected
      *
      * @return boolean
