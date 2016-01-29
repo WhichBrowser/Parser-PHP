@@ -154,3 +154,9 @@
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4'
     result: { os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (BREW; U; 3.1.5; xx) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000'
+    result: { browser: { name: Polaris, version: '7.0', type: browser }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (BREW; U; 3.1.5; xx) AppleWebKit/528.28 (KHTML, like Gecko) OBIGO/W10.1 Safari/528.5 480X800 LGE VX11000'
+    result: { browser: { name: 'Obigo W', version: '10.1', type: browser }, engine: { name: Webkit, version: '528.28' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
