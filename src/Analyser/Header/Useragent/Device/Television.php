@@ -767,9 +767,6 @@ trait Television
                             case 'WEBOS3':
                                 $this->data->device->series = 'webOS TV';
                                 break;
-                            default:
-                                $this->data->device->model = $modelName;
-                                break;
                         }
 
                         break;
@@ -793,9 +790,6 @@ trait Television
                             case 'OTV-SMT-E5015':
                                 $this->data->device->model = 'Olleh SkyLife Smart Settopbox';
                                 unset($this->data->device->series);
-                                break;
-                            default:
-                                $this->data->device->model = $modelName;
                                 break;
                         }
 
