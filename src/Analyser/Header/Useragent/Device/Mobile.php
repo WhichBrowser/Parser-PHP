@@ -208,9 +208,6 @@ trait Mobile
                             case '2.2':
                                 $this->data->os->version = new Version([ 'value' => '1.2' ]);
                                 break;
-                            case '3.0':
-                                $this->data->os->version = new Version([ 'value' => '2.0' ]);
-                                break;
                         }
                     } else {
                         $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
