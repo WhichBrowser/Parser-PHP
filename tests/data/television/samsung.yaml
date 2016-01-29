@@ -20,6 +20,9 @@
     headers: 'User-Agent: HbbTV/1.1.1 (;Samsung;SmartTV2014;T-MST14DEUC-1106.1;;) WebKit'
     result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2014' } }
 -
+    headers: 'User-Agent: HbbTV/1.2.1 (+DRM;Samsung;SmartTV2015;T-HKMDEUC-1213.4;;) WebKit'
+    result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2015' } }
+-
     headers: 'User-Agent: Mozilla/4.0 (compatible; Gecko/20041115) Maple 5.0.0 Navi'
     result: { engine: { name: Gecko }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2009' } }
 -
