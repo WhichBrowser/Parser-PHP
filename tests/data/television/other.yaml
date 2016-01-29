@@ -382,3 +382,6 @@
 -
     headers: 'User-Agent: HbbTV/1.1.1 (+PVR; ADB; undefined-model-name; undefined-software-version; undefined-hardware-version; )'
     result: { device: { type: television, manufacturer: ADB } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; HbbTV/1.3.1 (PVR; Humax; hdr4000t; UKTFAE 0.99.23; 1.0.0; wired;); ce-html/1.0) Presto/2.12.407 Version/12.50 FVC/1.0 (Humax; hdr4000t;) (Core 2.12.407)'
+    result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Humax, model: HDR-4000T, series: 'Digital Receiver' } }

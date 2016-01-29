@@ -858,6 +858,13 @@ trait Television
                         $this->data->device->generic = false;
                         break;
 
+                    case 'hdr4000t':
+                        $this->data->device->manufacturer = 'Humax';
+                        $this->data->device->model = 'HDR-4000T';
+                        $this->data->device->identified |= Constants\Id::MATCH_UA;
+                        $this->data->device->generic = false;
+                        break;
+
                     case 'hgs1000s':
                         $this->data->device->manufacturer = 'Humax';
                         $this->data->device->model = 'HGS-1000S';
