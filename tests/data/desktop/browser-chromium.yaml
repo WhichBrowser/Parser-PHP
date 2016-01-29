@@ -34,3 +34,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/10.10 Chromium/9.0.597.107 Chrome/9.0.597.107 Safari/534.13'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 9 }, version: 9.0.597.107, type: browser }, engine: { name: Webkit, version: '534.13' }, os: { name: Ubuntu, version: '10.10' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips)  Chromium/25.0.1349.2'
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2, type: browser }, os: { name: Linux }, device: { type: desktop } }
