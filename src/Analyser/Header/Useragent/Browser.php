@@ -2000,11 +2000,6 @@ trait Browser
                 unset($this->data->device->identifier);
                 $this->data->device->identified = Constants\Id::NONE;
             }
-
-            if (isset($this->data->os->name) && $this->data->os->name != 'Android') {
-                $this->data->os->name = 'Android';
-                $this->data->os->version = null;
-            }
         }
 
         /* Xiino */
