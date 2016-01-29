@@ -285,7 +285,7 @@
     result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: EUROFIX, model: S7700 } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 HbbTV/1.1.1 (; CUS:OEM; MB90; 0.6.8; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3'
-    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: OEM, model: MB90 } }
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, model: MB90 } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 HbbTV/1.1.1 (; CUS:TELEFUNKEN; MB95; 1.0; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3'
     result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: Telefunken, model: MB95 } }
@@ -385,3 +385,6 @@
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; HbbTV/1.3.1 (PVR; Humax; hdr4000t; UKTFAE 0.99.23; 1.0.0; wired;); ce-html/1.0) Presto/2.12.407 Version/12.50 FVC/1.0 (Humax; hdr4000t;) (Core 2.12.407)'
     result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Humax, model: HDR-4000T, series: 'Digital Receiver' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.31.Vespa2.0 MB100/0.0.20.0 (OEM, Si2158LG32, wired) HbbTV/1.2.1 (; CUS:OEM; MB100; 0.0.20.0; 1.0;) CE-HTML/1.0 NETRANGEMMH ipl'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 35 }, version: '4.2', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: OEM, model: MB100, series: 'Smart TV' } }

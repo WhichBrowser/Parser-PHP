@@ -834,7 +834,7 @@ trait Television
                         break;
 
                     default:
-                        if ($vendorName != '' && $vendorName != 'vendorName') {
+                        if ($vendorName != '' && !in_array($vendorName, [ 'OEM', 'vendorName' ])) {
                             $this->data->device->manufacturer = $vendorName;
                         }
 
