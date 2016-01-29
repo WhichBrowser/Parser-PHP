@@ -103,3 +103,9 @@
 -
     headers: 'User-Agent: Mozilla/3.04Gold (X11; I; FreeBSD 2.2.1-RELEASE i386)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: FreeBSD, family: BSD, version: 2.2.1 }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; DragonFly x86_64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1'
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '36.0' }, version: 2.33.1, type: browser }, engine: { name: Gecko, version: '36.0' }, os: { name: 'DragonFly BSD', family: BSD }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; DragonFly x86_64; rv:34.0) Gecko/20100101 Firefox/34.0 SeaMonkey/2.31'
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '34.0' }, version: '2.31', type: browser }, engine: { name: Gecko, version: '34.0' }, os: { name: 'DragonFly BSD', family: BSD }, device: { type: desktop } }

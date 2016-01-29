@@ -1494,7 +1494,7 @@ trait Os
     
     private function detectBsd($ua)
     {
-        if (preg_match('/BSD/iu', $ua)) {
+        if (preg_match('/BSD/iu', $ua) || preg_match('/DragonFly/iu', $ua)) {
             if (preg_match('/X11/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
@@ -1546,6 +1546,13 @@ trait Os
                 if (preg_match('/NetBSD ?([0-9.]*)/iu', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 }
+            }
+
+            /* DragonFly */
+
+            if (preg_match('/DragonFly/iu', $ua)) {
+                $this->data->os->name = 'DragonFly BSD';
+                $this->data->os->family = new Family([ 'name' => 'BSD' ]);
             }
         }
     }
