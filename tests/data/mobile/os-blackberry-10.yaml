@@ -76,3 +76,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (BB10; Touch) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.1.407 Mobile Safari/537.35+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '537.35' }, os: { name: BlackBerry, version: '10.3' }, device: { type: mobile, subtype: smart, manufacturer: BlackBerry, model: 'A or Z series' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (BlackBerry) AppleWebKit/536.2+ (KHTML, like Gecko) Version/10.0.6.384 Mobile Safari/536.2+'
+    result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '536.2' }, os: { name: BlackBerry, version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: BlackBerry } }
