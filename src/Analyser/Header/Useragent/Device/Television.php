@@ -721,14 +721,14 @@ trait Television
 
     private function detectGenericHbbTV($ua)
     {
-        if (preg_match('/(?:HbbTV|SmartTV)\/[0-9\.]+ \(/iu', $ua, $match)) {
+        if (preg_match('/(?:HbbTV|OHTV|SmartTV)\/[0-9\.]+ \(/iu', $ua, $match)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
             $vendorName = null;
             $modelName = null;
             $found = false;
 
-            if (preg_match('/HbbTV\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
+            if (preg_match('/(?:HbbTV|OHTV)\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
                 if (trim($match[1]) == "" || trim($match[1]) == "PVR" || strpos($match[1], '+') !== false) {
                     $vendorName = Data\Manufacturers::identify(Constants\DeviceType::TELEVISION, $match[2]);
                     $modelName = trim($match[3]);
@@ -763,6 +763,7 @@ trait Television
                                 $this->data->device->series = 'NetCast TV 2012';
                                 break;
                             case 'NetCast 4.0':
+                            case 'GLOBAL-PLAT4':
                                 $this->data->device->series = 'NetCast TV 2013';
                                 break;
                             default:
