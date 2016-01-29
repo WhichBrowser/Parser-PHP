@@ -766,10 +766,6 @@ trait Browser
             if (preg_match('/SeaMonkey\/([0-9ab.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
-
-            if ($this->data->device->type == '') {
-                $this->data->device->type = Constants\DeviceType::DESKTOP;
-            }
         }
 
         if (preg_match('/PmWFx\/([0-9ab.]*)/u', $ua, $match)) {
