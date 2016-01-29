@@ -835,3 +835,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 620; Vodafone)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; HTC6990LVW) like Gecko'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
