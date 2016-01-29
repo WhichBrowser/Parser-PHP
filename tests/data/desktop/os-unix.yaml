@@ -31,3 +31,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; GENIX 4.1 MG-200/NS32332; en-US; rv:4.7.1.1) Gecko/20080815 SeaMonkey/1.2.3'
     result: { browser: { name: SeaMonkey, version: 1.2.3, type: browser }, engine: { name: Gecko, version: 4.7.1 }, os: { name: GENIX, family: BSD, version: '4.1' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Links (2.8; ULTRIX 4.5 VAX; GNU C 1; text)'
+    result: { browser: { name: Links, version: '2.8', type: 'browser:text' }, os: { name: ULTRIX, family: BSD, version: '4.5' }, device: { type: desktop } }

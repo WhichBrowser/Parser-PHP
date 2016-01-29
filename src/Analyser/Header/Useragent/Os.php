@@ -1380,6 +1380,19 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
+        /* Digital ULTRIX */
+
+        if (preg_match('/ULTRIX/u', $ua)) {
+            $this->data->os->name = 'ULTRIX';
+            $this->data->os->family = new Family([ 'name' => 'BSD' ]);
+
+            if (preg_match('/ULTRIX ([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* HP-UX */
 
         if (preg_match('/HP-UX/u', $ua)) {
