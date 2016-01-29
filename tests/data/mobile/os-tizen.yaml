@@ -130,3 +130,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0(Linux; Tizen2.2;sdk) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
     result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '537.3' }, os: { name: Tizen }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Opera/9.80 (Tizen; Opera Mini/7.5.35847/35.5691; U; xx) Presto/2.8.119 Version/11.10'
+    result: { browser: { name: 'Opera Mini', version: '7.5', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Tizen }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Tizen/1.0 like Android; xx; AppleWebKit/534.46 (KHTML, like Gecko) Tizen Browser/1.0 Mobile'
+    result: { browser: { name: 'Samsung Browser', version: '1.0' }, engine: { name: Webkit, version: '534.46' }, os: { name: Tizen, version: '1.0' }, device: { type: mobile, subtype: smart } }
