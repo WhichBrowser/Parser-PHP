@@ -147,15 +147,15 @@ trait Engine
 
             if (isset($this->data->os->version) && isset($this->data->os->name) && $this->data->os->name == 'Windows Phone' && isset($this->data->browser->name) && $this->data->browser->name == 'Mobile Internet Explorer') {
                 if ($this->data->engine->version->toNumber() == 7 && $this->data->os->version->toFloat() < 8.1) {
-                    $this->data->os->version = new Version([ 'value' => '8.1' ]);
+                    $this->data->os->version = new Version([ 'value' => '8.1', 'details' => 2 ]);
                 }
 
                 if ($this->data->engine->version->toNumber() == 6 && $this->data->os->version->toFloat() < 8) {
-                    $this->data->os->version = new Version([ 'value' => '8.0' ]);
+                    $this->data->os->version = new Version([ 'value' => '8.0', 'details' => 2 ]);
                 }
 
                 if ($this->data->engine->version->toNumber() == 5 && $this->data->os->version->toFloat() < 7.5) {
-                    $this->data->os->version = new Version([ 'value' => '7.5' ]);
+                    $this->data->os->version = new Version([ 'value' => '7.5', 'details' => 2 ]);
                 }
             }
         }

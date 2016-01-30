@@ -539,7 +539,7 @@ trait Os
 
             if (preg_match('/WPDesktop/u', $ua)) {
                 $this->data->os->name = 'Windows Phone';
-                $this->data->os->version = new Version([ 'value' => '8.0', 'details' => 1 ]);
+                $this->data->os->version = new Version([ 'value' => '8.0', 'details' => 2 ]);
                 $this->data->device->type = Constants\DeviceType::MOBILE;
                 $this->data->browser->mode = 'desktop';
             }
@@ -722,8 +722,6 @@ trait Os
 
                 /* Desktop mode of WP 8.1 */
                 if (preg_match('/WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\) like Gecko/u', $ua, $match)) {
-                    $this->data->os->version = new Version([ 'value' => '8.1', 'details' => 2 ]);
-
                     if (preg_match("/^[A-Z]+$/", $match[1])) {
                         $this->data->device->manufacturer = $match[1];
                         $this->data->device->model = $match[2];
@@ -752,10 +750,8 @@ trait Os
                     }
                 }
 
-                /* Desktop mode of WP 8.1 Update (buggy version) */
+                /* Desktop mode of WP 8.0 and 8.1 Update (buggy version) */
                 if (preg_match('/Touch; WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\)/u', $ua, $match)) {
-                    $this->data->os->version = new Version([ 'value' => '8.1', 'details' => 2 ]);
-
                     if (preg_match("/^[A-Z]+$/", $match[1]) && isset($match[2])) {
                         $this->data->device->manufacturer = $match[1];
                         $this->data->device->model = $match[2];
