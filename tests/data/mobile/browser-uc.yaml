@@ -346,3 +346,9 @@
 -
     headers: 'X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(NOKIA RM-984_1043);pr(UCBrowser/3.3.0.358);ov(wds 10.0);pi(720*1280);ss(480*853);er(U);bt(YZ);nm(0);im(0);sr(0);nt(2);pm(0);'
     result: { browser: { name: 'UC Browser', version: '3.3' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }
+-
+    headers: 'User-Agent: Opera/9.80 (Android; Opera Mini/7.28879/27.1662; U; xx) Presto/2.8.119 Version/11.10 UCBrowser/8.4.1.204/145/352/'
+    result: { browser: { name: 'UC Browser', version: '8.4', type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; xx; GT-I9082) U2/1.0.0 UCBrowser/8.9.2.373 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.9', type: browser }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Grand Duos' } }
