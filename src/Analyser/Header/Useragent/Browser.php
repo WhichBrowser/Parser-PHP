@@ -2206,6 +2206,7 @@ trait Browser
                 [ 'name' => 'Viera Browser',        'regexp' => '/Viera\/([0-9.]*)/u' ],
                 [ 'name' => 'Zetakey',              'regexp' => '/Zetakey Webkit\/([0-9.]*)/u' ],
                 [ 'name' => 'Zetakey',              'regexp' => '/Zetakey\/([0-9.]*)/u' ],
+                [ 'name' => 'Oregan Browser',       'regexp' => '/OreganMediaBrowser(?:\/([0-9.]*))?/u', 'details' => 2 ],
 
                 /* Other browsers */
                 [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
