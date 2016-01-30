@@ -1719,6 +1719,13 @@ trait Os
             }
 
 
+            if (preg_match('/Linux\/SLP\/([0-9.]+)/u', $ua, $match)) {
+                $this->data->os->name = 'Linux SLP';
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }
+
+
             if (preg_match('/LinuxOS\//u', $ua) && preg_match('/Software\/R5/u', $ua)) {
                 $this->data->os->name = 'EZX Linux';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
