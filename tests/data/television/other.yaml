@@ -409,3 +409,18 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; N; Windows NT 6.1; xx) AppleWebKit/533.3 (KHTML, like Gecko) AwoX/1.0 Browser CE-HTML (HD_UIPROF MP3 MPEG_TS_SD_NA_T) - FLA Safari/533.3'
     result: { browser: { name: AwoX, version: '1.0', type: browser }, engine: { name: Webkit, version: '533.3' }, device: { type: television } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 UID(00:1C:A8:A0:2D:46/IP7600/OEM/3)+CE-HTML;MEM:LOW'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, model: IP7600 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 UID(00:0a:2d:71:5b:b6/T7670/VESTEL/1.0)+CE-HTML'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: Vestel, model: T7670 } }
+-
+    headers: 'User-Agent: Opera/9.80 (Linux mips; U; ; xx) Presto/2.10.287 Version/12.00 UID(00:09:DF:2B:67:C2/MB95/HOTEL/8.1.9.b)+CE-HTML;MEM:HIGH'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: HOTEL, model: MB95 } }
+-
+    headers: 'User-Agent: Opera/9.80 Presto/2.12.407 Version/12.51 UID(00:09:df:33:55:78/S7830/VESTEL/332.8)+CE-HTML;MEM:HIGH'
+    result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Vestel, model: S7830 } }
+-
+    headers: 'User-Agent: UID(00:09:df:01:c0:c1/MB70/TECHWOOD/0.11.14)+CE-HTML'
+    result: { device: { type: television, manufacturer: TECHWOOD, model: MB70 } }

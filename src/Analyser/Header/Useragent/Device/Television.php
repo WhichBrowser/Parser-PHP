@@ -730,12 +730,18 @@ trait Television
 
     private function detectGenericHbbTV($ua)
     {
-        if (preg_match('/(?:HbbTV|OHTV|SmartTV)\/[0-9\.]+ \(/iu', $ua, $match)) {
+        if (preg_match('/((HbbTV|OHTV|SmartTV)\/[0-9\.]+ \(|\)\+CE-HTML)/iu', $ua)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
             $vendorName = null;
             $modelName = null;
             $found = false;
+
+            if (preg_match('/UID\([a-f0-9:]+\/([^\/]+)\/([^\/]+)\/[0-9a-z\.]+\)\+CE-HTML/iu', $ua, $match)) {
+                $vendorName = Data\Manufacturers::identify(Constants\DeviceType::TELEVISION, $match[2]);
+                $modelName = trim($match[1]);
+                $found = true;
+            }
 
             if (preg_match('/(?:HbbTV|OHTV)\/[0-9\.]+ \(([^;]*);\s*([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
                 if (trim($match[1]) == "" || in_array(strtok($match[1], ' '), [ 'PVR', 'DL' ]) || strpos($match[1], '+') !== false) {
