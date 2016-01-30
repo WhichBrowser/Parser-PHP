@@ -183,6 +183,13 @@ trait Television
                 $this->data->device->series = 'Blu-ray Player';
             }
         }
+
+        if (preg_match('/PHILIPS_OLS_20[0-9]+/u', $ua)) {
+            $this->data->device->manufacturer = 'Philips';
+            $this->data->device->series = 'Net TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
     }
 
 

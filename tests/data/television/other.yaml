@@ -409,3 +409,15 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; N; Windows NT 6.1; xx) AppleWebKit/533.3 (KHTML, like Gecko) AwoX/1.0 Browser CE-HTML (HD_UIPROF MP3 MPEG_TS_SD_NA_T) - FLA Safari/533.3'
     result: { browser: { name: AwoX, version: '1.0', type: browser }, engine: { name: Webkit, version: '533.3' }, device: { type: television } }
+-
+    headers: 'User-Agent: Opera/9.50 (Linux mips ; U; CE-HTML/1.0 (<profilelist><ui_profile name="PHILIPS_OLS_2008"/></profilelist>); xx)'
+    result: { browser: { name: 'Opera Devices', type: browser }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.70 ( Linux mips;U;CE-HTML/1.0 (<profilelist><ui_profile name="PHILIPS_OLS_2010"/></profilelist>);xx) Presto/2.2.1'
+    result: { browser: { name: 'Opera Devices', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.70 (Linux armv6l ; U; CE-HTML/1.0 (<profilelist><ui_profile name="PHILIPS_OLS_2010"/></profilelist>); xx) Presto/2.2.1'
+    result: { browser: { name: 'Opera Devices', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
+-
+    headers: 'User-Agent: Opera/9.70 (Linux x86_64 ; U; CE-HTML/1.0 (<profilelist><ui_profile name="PHILIPS_OLS_2008"/></profilelist>); xx) Presto/2.2.1'
+    result: { browser: { name: 'Opera Devices', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, device: { type: television, manufacturer: Philips, series: 'Net TV' } }
