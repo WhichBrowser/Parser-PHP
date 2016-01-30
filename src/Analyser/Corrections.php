@@ -21,10 +21,6 @@ trait Corrections
             $this->hideBrowserBasedOnOperatingSystem();
         }
 
-        if (isset($this->data->browser->name) && isset($this->data->os->name)) {
-            $this->correctVersionOfMobileInternetExplorer();
-        }
-
         if (isset($this->data->browser->name) && $this->data->device->type == Constants\DeviceType::TELEVISION) {
             $this->hideBrowserOnDeviceTypeTelevision();
         }
@@ -82,19 +78,6 @@ trait Corrections
         if ($this->data->browser->name == 'NineSky' && $this->data->engine->name != 'Webkit') {
             $this->data->engine->name = 'Webkit';
             $this->data->engine->version = null;
-        }
-    }
-
-    private function correctVersionOfMobileInternetExplorer()
-    {
-        if ($this->data->os->name == 'Windows Phone' && $this->data->browser->name == 'Mobile Internet Explorer') {
-            if ($this->data->os->version->toFloat() == 8.0 && $this->data->browser->version->toNumber() < 10) {
-                $this->data->browser->version = new Version([ 'value' => '10' ]);
-            }
-
-            if ($this->data->os->version->toFloat() == 8.1 && $this->data->browser->version->toNumber() < 11) {
-                $this->data->browser->version = new Version([ 'value' => '11' ]);
-            }
         }
     }
 
