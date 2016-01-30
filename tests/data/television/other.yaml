@@ -397,3 +397,15 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips) AppleWebkit/536.7 (KHTML, like Gecko) WebShell/1.0.0.0 Safari/536.7 (avvp/ssl; avui/tv; avkb/pc; avrt/html5; avst/off) CE-HTML/1.0 OreganMediaBrowser'
     result: { browser: { name: 'Oregan Browser', type: browser }, engine: { name: Webkit, version: '536.7' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) AwoX Browser CE-HTML/1.0 ()/AwoX-Software:W37-2011 Safari/534.34'
+    result: { browser: { name: AwoX, type: browser }, engine: { name: Webkit, version: '534.34' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) AwoX/1.0 Browser CE-HTML (HD_UIPROF MP3 MPEG_TS_SD_NA_T) - FLA Safari/534.34'
+    result: { browser: { name: AwoX, version: '1.0', type: browser }, engine: { name: Webkit, version: '534.34' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; N; Windows NT 6.1; xx) AppleWebKit/533.3 (KHTML, like Gecko) AwoX Browser CE-HTML/1.0 ()/AwoX-Software:W37-2011 Safari/533.3'
+    result: { browser: { name: AwoX, type: browser }, engine: { name: Webkit, version: '533.3' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; N; Windows NT 6.1; xx) AppleWebKit/533.3 (KHTML, like Gecko) AwoX/1.0 Browser CE-HTML (HD_UIPROF MP3 MPEG_TS_SD_NA_T) - FLA Safari/533.3'
+    result: { browser: { name: AwoX, version: '1.0', type: browser }, engine: { name: Webkit, version: '533.3' }, device: { type: television } }
