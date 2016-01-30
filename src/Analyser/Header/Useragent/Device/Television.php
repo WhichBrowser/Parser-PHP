@@ -41,6 +41,10 @@ trait Television
 
     private function detectGenericTelevision($ua)
     {
+        if (preg_match('/CE-HTML/u', $ua)) {
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+        }
+
         if (preg_match('/SmartTvA\//u', $ua)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
         }
