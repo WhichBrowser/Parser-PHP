@@ -777,13 +777,13 @@
     result: { browser: { name: 'UC Browser', family: { name: Firefox, version: 3.0.5 }, version: '3.4', type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop) UCBrowser/3.1.1.343', X-UCBrowser-UA: 'pf(Windows);la(en-US);re(U2/1.0.0);dv(HTC  8S by HTC);pr(UCBrowser/3.1.1.343);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);pm(0);' }
-    result: { browser: { name: 'UC Browser', version: '3.1', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }
+    result: { browser: { name: 'UC Browser', version: '3.1', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10512)', Baidu-FlyFlow: 'Microsoft Windows NT 8.0.10512.0;4.0.50829.0;NOKIA;RM-822_apac_prc_204;ca23bc5b9a1777612837b43014640b3cce62fc50;2.5.0.12' }
-    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12, type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12, type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; IEMobile/10.0; WPDesktop) baidubrowser/2.5.0.12 (Baidu; P3 8.0.10521)', Baidu-FlyFlow: 'Microsoft Windows NT 8.0.10521.0;4.0.50829.0;NOKIA;RM-821_apac_hong_kong_234;03988de8b2eab0b1cadee6ec115612692262e40d;2.5.0.12' }
-    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12, type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Baidu Browser', version: 2.5.0.12, type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; A620e)', X-UCBrowser-UA: 'pf(Windows);la(zh-CN);re(U2/1.0.0);dv(HTC A620e);pr(UCBrowser/3.4.1.407);ov(wds 8.10);pi(480*800);ss(480*800);er(U);bt(UC);nm(0);im(0);sr(2);nt(2);pm(0);' }
     result: { browser: { name: 'UC Browser', version: '3.4', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8S } }
@@ -801,7 +801,7 @@
     result: { browser: { name: 'UC Browser', version: '3.1', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop) UCBrowser/3.0.1.302', X-UCBrowser-UA: 'pf(Windows);la(en-US);re(U2/1.0.0);dv(NOKIA RM-914_eu_turkey_355);pr(UCBrowser/3.0.1.302);ov(wds 8.0);pi(480*800);ss(480*800);er(U);bt(GJ);nm(0);im(0);sr(0);nt(1);pm(0);', UA-CPU: ARM }
-    result: { browser: { name: 'UC Browser', version: '3.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+    result: { browser: { name: 'UC Browser', version: '3.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Series40; NOKIALumia900; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.8.0.50.5', X-Nokia-Device-Type: '0', x-Mobile-Gateway: 'Novarra-Vision/8.1 (Default)', X-NB-CONTENT: xhtml }
     result: { browser: { name: 'Nokia Xpress', version: 1.8.0, type: browser }, engine: { name: Gecko }, os: { name: 'Windows Phone' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 900' } }
@@ -819,22 +819,22 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; HTC; HTC6990LVW)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; HTC; Windows Phone 8X by HTC)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; HTCPO881; SPRINT)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8XT } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8XT } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; HTC6990LVW)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 620)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 620; Vodafone)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 620' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; HTC6990LVW) like Gecko'
     result: { browser: { name: 'Mobile Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }

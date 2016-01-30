@@ -33,4 +33,4 @@
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 640 XL' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 1530)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '11', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 1530' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 1530' } }
