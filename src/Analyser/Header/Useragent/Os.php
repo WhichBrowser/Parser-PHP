@@ -1530,6 +1530,16 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
+        /* NEC EWS-UX */
+
+        if (preg_match('/EWS-UNIX rev ([0-9\.]+)/u', $ua, $match)) {
+            $this->data->os->name = 'EWS-UX';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* National Semiconductors GENIX */
 
         if (preg_match('/GENIX ([0-9\.]+)/u', $ua, $match)) {
