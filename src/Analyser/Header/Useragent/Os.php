@@ -1382,7 +1382,7 @@ trait Os
     {
         /* Unix */
 
-        if (preg_match('/Unix/u', $ua)) {
+        if (preg_match('/Unix/iu', $ua)) {
             $this->data->os->name = 'Unix';
         }
 

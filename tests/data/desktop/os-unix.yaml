@@ -34,3 +34,9 @@
 -
     headers: 'User-Agent: Links (2.8; ULTRIX 4.5 VAX; GNU C 1; text)'
     result: { browser: { name: Links, version: '2.8', type: 'browser:text' }, os: { name: ULTRIX, family: BSD, version: '4.5' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/6.11 (UNIX; U)  [en]'
+    result: { browser: { name: Opera, version: '6.11', type: browser }, os: { name: Unix }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/7.10 (UNIX; U) [en]'
+    result: { browser: { name: Opera, version: '7.10', type: browser }, os: { name: Unix }, device: { type: desktop } }
