@@ -27,10 +27,10 @@
     result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.8 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; xx; rv:0.9.4.1) Gecko/20020508 Netscape6/6.2.3'
-    result: { browser: { name: Netscape, version: 6.2.3, type: browser }, engine: { name: Gecko, version: 0.9.4 } }
+    result: { browser: { name: Netscape, version: 6.2.3, type: browser }, engine: { name: Gecko, version: 0.9.4 }, os: { name: MacOS }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; xx; rv:1.0.2) Gecko/20030208 Netscape/7.02'
-    result: { browser: { name: Netscape, version: '7.02', type: browser }, engine: { name: Gecko, version: 1.0.2 } }
+    result: { browser: { name: Netscape, version: '7.02', type: browser }, engine: { name: Gecko, version: 1.0.2 }, os: { name: MacOS }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6'
     result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.12 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
