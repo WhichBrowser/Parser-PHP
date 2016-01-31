@@ -49,3 +49,6 @@
 -
     headers: 'User-Agent: Opera/6.03 (Windows Me; U) [en]'
     result: { browser: { name: Opera, version: '6.03', type: browser }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Microsoft Internet Explorer/5.2 (Windows 4.0; )'
+    result: { os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
