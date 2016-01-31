@@ -469,9 +469,24 @@ trait Os
 
     private function detectWindows($ua)
     {
-        if (preg_match('/Windows/u', $ua) || preg_match('/Win[9MX]/u', $ua)) {
+        if (preg_match('/(Windows|WinNT|WinCE|Win ?[9MX])/u', $ua)) {
             $this->data->os->name = 'Windows';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
+
+
+            /* Windows NT */
+
+            if (preg_match('/Windows 2000/u', $ua)) {
+                $this->data->os->version = new Version([ 'value' => '5.0', 'alias' => '2000' ]);
+            }
+
+            if (preg_match('/Windows XP/u', $ua) || preg_match('/WinXP/u', $ua)) {
+                $this->data->os->version = new Version([ 'value' => '5.1', 'alias' => 'XP' ]);
+            }
+
+            if (preg_match('/Windows Vista/u', $ua)) {
+                $this->data->os->version = new Version([ 'value' => '6.0', 'alias' => 'Vista' ]);
+            }
 
             if (preg_match('/(?:Windows NT |WinNT)([0-9][0-9]?\.[0-9])/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
@@ -520,33 +535,39 @@ trait Os
                 }
             }
 
-            if (preg_match('/Windows 95/u', $ua) || preg_match('/Win95/u', $ua) || preg_match('/Win 9x 4.00/u', $ua)) {
+
+            /* Windows */
+
+            if (preg_match('/Windows 95/u', $ua) || preg_match('/Win95/u', $ua)) {
                 $this->data->os->version = new Version([ 'value' => '4.0', 'alias' => '95' ]);
             }
 
-            if (preg_match('/Windows 98/u', $ua) || preg_match('/Win98/u', $ua) || preg_match('/Win 9x 4.10/u', $ua)) {
+            if (preg_match('/Windows 98/u', $ua) || preg_match('/Win98/u', $ua)) {
                 $this->data->os->version = new Version([ 'value' => '4.1', 'alias' => '98' ]);
             }
 
-            if (preg_match('/Windows ME/u', $ua) || preg_match('/WinME/u', $ua) || preg_match('/Win 9x 4.90/u', $ua)) {
+            if (preg_match('/Windows M[eE]/u', $ua) || preg_match('/WinME/u', $ua)) {
                 $this->data->os->version = new Version([ 'value' => '4.9', 'alias' => 'ME' ]);
             }
 
-            if (preg_match('/Windows 2000/u', $ua)) {
-                $this->data->os->version = new Version([ 'value' => '5.0', 'alias' => '2000' ]);
-            }
-
-            if (preg_match('/Windows XP/u', $ua) || preg_match('/WinXP/u', $ua)) {
-                $this->data->os->version = new Version([ 'value' => '5.1', 'alias' => 'XP' ]);
-            }
-
-            if (preg_match('/Windows Vista/u', $ua)) {
-                $this->data->os->version = new Version([ 'value' => '6.0', 'alias' => 'Vista' ]);
-            }
-
-            if (preg_match('/Windows (3.[0-9\.]+)/u', $ua, $match)) {
+            if (preg_match('/(?:Windows|Win 9x) (([1234]\.[0-9])[0-9\.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
+
+                switch ($match[2]) {
+                    case '4.0':
+                        $this->data->os->version = new Version([ 'value' => '4.0', 'alias' => '95' ]);
+                        break;
+                    case '4.1':
+                        $this->data->os->version = new Version([ 'value' => '4.1', 'alias' => '98' ]);
+                        break;
+                    case '4.9':
+                        $this->data->os->version = new Version([ 'value' => '4.9', 'alias' => 'ME' ]);
+                        break;
+                }
             }
+
+
+            /* Windows Mobile and Windows Phone */
 
             if (preg_match('/WPDesktop/u', $ua)) {
                 $this->data->os->name = 'Windows Phone';
