@@ -1449,6 +1449,17 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 
+        if (preg_match('/Solaris(?: ([0-9\.]+))?;/u', $ua, $match)) {
+            $this->data->os->name = 'Solaris';
+            $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
+
+            if (preg_match('/Solaris ([0-9\.]+);/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+
         /* AIX */
 
         if (preg_match('/AIX/u', $ua)) {
