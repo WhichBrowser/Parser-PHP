@@ -1779,7 +1779,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/360%20Browser\/([0-9\.]+)/u', $ua, $match)) {
+        if (preg_match('/360%20(?:Browser|Lite)\/([0-9\.]+)/u', $ua, $match)) {
             $this->data->browser->name = 'Qihoo 360 Browser';
             $this->data->browser->family = null;
             $this->data->browser->channel = '';
