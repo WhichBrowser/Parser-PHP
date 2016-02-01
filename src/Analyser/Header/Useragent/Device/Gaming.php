@@ -126,7 +126,7 @@ trait Gaming
 
         /* PlayStation Vita */
 
-        if (preg_match('/PlayStation Vita/u', $ua)) {
+        if (preg_match('/PlayStation Vita/iu', $ua)) {
             $this->data->os->reset();
             $this->data->os->identifyVersion('/PlayStation Vita ([0-9.]*)/u', $ua);
 
