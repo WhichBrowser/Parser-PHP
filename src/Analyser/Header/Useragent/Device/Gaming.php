@@ -144,7 +144,7 @@ trait Gaming
 
         /* PlayStation 2 */
 
-        if (preg_match('/Playstation2/u', $ua) || preg_match('/\(PS2;/u', $ua)) {
+        if (preg_match('/Playstation2/u', $ua) || preg_match('/\(PS2/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->setIdentification([
@@ -157,7 +157,7 @@ trait Gaming
 
         /* PlayStation 3 */
 
-        if (preg_match('/PlayStation 3/ui', $ua)) {
+        if (preg_match('/PlayStation 3/ui', $ua) || preg_match('/\(PS3/u', $ua)) {
             $this->data->os->reset();
             $this->data->os->identifyVersion('/PLAYSTATION 3;? ([0-9.]*)/u', $ua);
 

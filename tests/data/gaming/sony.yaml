@@ -121,3 +121,9 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (PS2; PlayStation BB Navigator 1.0) NetFront/3.0'
     result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PS3) AppleWebKit/535.11 (KHTML, like Gecko) NuantiMeta/2.0'
+    result: { engine: { name: Webkit, version: '535.11' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PS3) AppleWebKit/535.1 (KHTML, like Gecko) NuantiMeta/2.0 Chrome/13.0.782.220 Safari/535.1'
+    result: { browser: { name: Chrome, version: '13', type: browser }, engine: { name: Webkit, version: '535.1' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
