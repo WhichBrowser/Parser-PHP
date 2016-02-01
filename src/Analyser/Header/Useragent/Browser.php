@@ -2210,8 +2210,10 @@ trait Browser
                 [ 'name' => 'Zetakey',              'regexp' => '/Zetakey\/([0-9.]*)/u' ],
 
                 /* Gaming browsers */
-                [ 'name' => 'Nuanti Meta',          'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
+                [ 'name' => 'Aplix',                'regexp' => '/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9])?)/u' ],                                    // browser for the Sega Saturn
                 [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
+                [ 'name' => 'Dream Passport',       'regexp' => '/DreamPassport\/([0-9.]*)/u' ],                                                        // browser for the Sega Dreamcast
+                [ 'name' => 'Nuanti Meta',          'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the Playstation
 
                 /* Other browsers */
                 [ 'name' => 'Wear Internet Browser','regexp' => '/WIB\/([0-9.]*)/u' ],

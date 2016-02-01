@@ -20,6 +20,10 @@ trait Gaming
         if (preg_match('/Xbox/iu', $ua)) {
             $this->detectXbox($ua);
         }
+
+        if (preg_match('/Sega/iu', $ua)) {
+            $this->detectSega($ua);
+        }
     }
 
 
@@ -216,6 +220,36 @@ trait Gaming
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Microsoft',
                 'model'         =>  'Xbox One',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+    }
+
+
+    /* Sega */
+
+    private function detectSega($ua)
+    {
+        /* Sega Saturn */
+
+        if (preg_match('/SEGASATURN/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sega',
+                'model'         =>  'Saturn',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+
+        /* Sega Dreamcast */
+
+        if (preg_match('/Dream/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sega',
+                'model'         =>  'Dreamcast',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
