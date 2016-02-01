@@ -1244,7 +1244,7 @@ trait Os
             $this->data->device->identified = Constants\Id::INFER;
 
             if (!preg_match('/Opera/u', $ua)) {
-                if (preg_match('/BlackBerry([0-9]*)\/([0-9.]*)/u', $ua, $match)) {
+                if (preg_match('/BlackBerry([0-9]+[ei]?)\/([0-9.]*)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                     $this->data->os->version = new Version([ 'value' => $match[2], 'details' => 2 ]);
                 }

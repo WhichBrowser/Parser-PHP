@@ -114,7 +114,7 @@ class DeviceModels
             'generic'       => false
         ]);
 
-        if (is_numeric($model) && intval($model) > 999 && intval($model) < 10000) {
+        if (preg_match("/^[1-9][0-9][0-9][0-9][ei]?$/u", $model)) {
             $device = new Device([
                 'type'          => Constants\DeviceType::MOBILE,
                 'identified'    => Constants\Id::PATTERN,
