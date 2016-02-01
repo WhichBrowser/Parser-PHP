@@ -100,3 +100,18 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/ 162671'
     result: { browser: { name: Chrome, version: '5', type: browser }, engine: { name: Webkit, version: '533.4' }, os: { name: 'Google TV', family: Android }, device: { type: television } }
+-
+    headers: 'User-Agent: Cinnamon/1.0.0.0, GFHD100/gfibertv-42-pre0-140-gf65a138-sm (Google Fiber, GFHD100, wired)'
+    result: { device: { type: television, manufacturer: 'Google Fiber', model: 'TV Box', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Cinnamon/1.0.0.0, GFHD100/gfibertv-42-pre0-64-g663c97d-sm (Google Fiber, GFHD100, wired)'
+    result: { device: { type: television, manufacturer: 'Google Fiber', model: 'TV Box', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Cinnamon/1.0.0.0, GFHD200/gftv200-42-pre0-140-gf65a138-sm (Google Fiber, GFHD200, wired)'
+    result: { device: { type: television, manufacturer: 'Google Fiber', model: 'TV Box', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Cinnamon/1.0.0.0, GFHD200/gftv200-44-pre1-88-gd3004e5-sm (Google Fiber, GFHD200, wired)'
+    result: { device: { type: television, manufacturer: 'Google Fiber', model: 'TV Box', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Cinnamon/1.0.0.1, GFHD100/gfibertv-43-pre0-499238-g2b2e445 (Google Fiber, GFHD100, wired) CrKey/1.13.20150302.125330'
+    result: { device: { type: television, manufacturer: 'Google Fiber', model: 'TV Box', series: 'Smart TV' } }

@@ -633,6 +633,11 @@ trait Television
 
                     break;
 
+                case 'Google Fiber':
+                    $this->data->device->manufacturer = $vendorName;
+                    $this->data->device->model = 'TV Box';
+                    break;
+
                 case 'Sagemcom':
                     $this->data->device->manufacturer = $vendorName;
                     $this->data->device->series = 'Settopbox';
