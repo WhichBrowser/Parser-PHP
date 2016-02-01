@@ -424,3 +424,6 @@
 -
     headers: 'User-Agent: UID(00:09:df:01:c0:c1/MB70/TECHWOOD/0.11.14)+CE-HTML'
     result: { device: { type: television, manufacturer: TECHWOOD, model: MB70 } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (;TechnoTrend Goerler/Kathrein;S-855/S-955/UFS-925;3.2.0.25.08;;) CE-HTML/1.0 (<profilelist><ui_profile name="HYBRID_UIPROF_0.1"><ext><hscroll>true</hscroll></ext></ui_profile><audio_profile type="audio/mpeg" name="MP3"/><audio_profile type="'
+    result: { device: { type: television, manufacturer: TechnoTrend, model: S-855/S-955/UFS-925 } }
