@@ -827,7 +827,7 @@ trait Browser
 
     private function detectMosaic($ua)
     {
-        if (preg_match('/NCSA[ _]Mosaic(?:\(tm\))?(?: for the X Window System| for Windows)?\/(?:Version )?([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/(?:NCSA[ _])?Mosaic(?:\(tm\))?(?: for the X Window System| for Windows)?\/(?:Version )?([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'NCSA Mosaic';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
