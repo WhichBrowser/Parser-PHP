@@ -720,6 +720,9 @@ trait Television
                             case 'LGE3D2012M':
                                 $this->data->device->series = 'NetCast TV 2012';
                                 break;
+                            case 'LGwebOSTV':
+                                $this->data->device->series = 'webOS TV';
+                                break;
                         }
 
                         break;

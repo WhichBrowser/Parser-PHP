@@ -205,3 +205,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; WEBOS3; WEBOS3.0 02.01.32; W3_M16;)'
     result: { browser: { using: { name: Qt, version: 5.2.1 }, family: { name: Chrome, version: 38 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/537.1+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/537.1+; Hybridcast/1.0(;00E091;LGwebOSTV;1;0;)0'
+    result: { browser: { family: { name: Chrome, version: 17 }, type: browser }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ Hybridcast/1.0(;00E091;LGwebOSTV;1;0;)0'
+    result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
