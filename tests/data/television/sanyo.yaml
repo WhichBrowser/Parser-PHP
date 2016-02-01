@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Aplix_SANYO_browser/1.x (Japanese)'
+    result: { browser: { name: Aplix, version: '1', type: browser }, device: { type: television, manufacturer: Sanyo, series: 'Internet TV' } }
+-
+    headers: 'User-Agent: Aplix_SANYO_browser/1.03 (Japanese)'
+    result: { browser: { name: Aplix, version: '1.03', type: browser }, device: { type: television, manufacturer: Sanyo, series: 'Internet TV' } }

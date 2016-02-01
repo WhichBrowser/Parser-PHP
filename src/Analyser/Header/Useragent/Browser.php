@@ -2201,6 +2201,7 @@ trait Browser
 
                 /* Television browsers */
                 [ 'name' => 'AltiBrowser',          'regexp' => '/AltiBrowser\/([0-9.]*)/i' ],
+                [ 'name' => 'Aplix',                'regexp' => '/Aplix_SANYO_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
                 [ 'name' => 'AwoX',                 'regexp' => '/AwoX(?:\/([0-9.]*))? Browser/i' ],
                 [ 'name' => 'Isis',                 'regexp' => '/BrowserServer/u' ],
                 [ 'name' => 'Isis',                 'regexp' => '/ISIS\/([0-9.]*)/u', 'details' => 2 ],
@@ -2210,7 +2211,7 @@ trait Browser
                 [ 'name' => 'Zetakey',              'regexp' => '/Zetakey\/([0-9.]*)/u' ],
 
                 /* Gaming browsers */
-                [ 'name' => 'Aplix',                'regexp' => '/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9])?)/u' ],                                    // browser for the Sega Saturn
+                [ 'name' => 'Aplix',                'regexp' => '/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
                 [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
                 [ 'name' => 'Dream Passport',       'regexp' => '/DreamPassport\/([0-9.]*)/u' ],                                                        // browser for the Sega Dreamcast
                 [ 'name' => 'Nuanti Meta',          'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the Playstation

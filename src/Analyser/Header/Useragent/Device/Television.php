@@ -25,6 +25,7 @@ trait Television
         $this->detectPhilipsTelevision($ua);
         $this->detectLgTelevision($ua);
         $this->detectToshibaTelevision($ua);
+        $this->detectSanyoTelevision($ua);
 
         /* Try to detect set top boxes from various manufacturers */
         $this->detectSettopboxes($ua);
@@ -319,6 +320,19 @@ trait Television
             if ($this->data->device->model == "SMT-E5015") {
                 $this->data->device->model = 'Olleh SkyLife Smart Settopbox';
             }
+        }
+    }
+
+
+    /* Sanyo */
+
+    private function detectSanyoTelevision($ua)
+    {
+        if (preg_match('/Aplix_SANYO_browser/u', $ua)) {
+            $this->data->device->manufacturer = 'Sanyo';
+            $this->data->device->series = 'Internet TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
     }
 
