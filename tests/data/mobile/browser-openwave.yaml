@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: Amoi-F90/Plat-F/WAP2.0/MIDP1.0/CLDC1.0 UP.Browser/6.2.2.6.f.1.100 (GUI) MMP/1.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: F90 } }
