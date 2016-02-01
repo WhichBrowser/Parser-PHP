@@ -671,20 +671,20 @@ trait Television
 
     private function detectGenericInettvBrowser($ua)
     {
-        if (preg_match('/(?:DTVNetBrowser|InettvBrowser|Hybridcast)\/[0-9\.]+[A-Z]? \(/u', $ua, $match)) {
+        if (preg_match('/(?:DTVNetBrowser|InettvBrowser|Hybridcast)\/[0-9\.]+[A-Z]? ?\(/u', $ua, $match)) {
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
             $vendorName = null;
             $modelName = null;
             $found = false;
 
-            if (preg_match('/(?:DTVNetBrowser|InettvBrowser)\/[0-9\.]+[A-Z]? \(([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
+            if (preg_match('/(?:DTVNetBrowser|InettvBrowser)\/[0-9\.]+[A-Z]? ?\(([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
                 $vendorName = trim($match[1]);
                 $modelName = trim($match[2]);
                 $found = true;
             }
 
-            if (preg_match('/Hybridcast\/[0-9\.]+ \([^;]*;([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
+            if (preg_match('/Hybridcast\/[0-9\.]+ ?\([^;]*;([^;]*)\s*;\s*([^;]*)\s*;/u', $ua, $match)) {
                 $vendorName = trim($match[1]);
                 $modelName = trim($match[2]);
                 $found = true;
