@@ -2214,6 +2214,7 @@ trait Browser
                 [ 'name' => 'Aplix',                'regexp' => '/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
                 [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
                 [ 'name' => 'Dream Passport',       'regexp' => '/DreamPassport\/([0-9.]*)/u' ],                                                        // browser for the Sega Dreamcast
+                [ 'name' => 'Nintendo Web Framework', 'regexp' => '/NWF\/([0-9.]*)/u', 'details' => 2 ],                                                        // browser for the Sega Dreamcast
                 [ 'name' => 'Nuanti Meta',          'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the Playstation
 
                 /* Other browsers */
