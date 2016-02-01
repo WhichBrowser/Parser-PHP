@@ -427,3 +427,9 @@
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;TechnoTrend Goerler/Kathrein;S-855/S-955/UFS-925;3.2.0.25.08;;) CE-HTML/1.0 (<profilelist><ui_profile name="HYBRID_UIPROF_0.1"><ext><hscroll>true</hscroll></ext></ui_profile><audio_profile type="audio/mpeg" name="MP3"/><audio_profile type="'
     result: { device: { type: television, manufacturer: TechnoTrend, model: S-855/S-955/UFS-925 } }
+-
+    headers: 'User-Agent: InettvBrowser/1.0 (00A0B0;VIP1200J;001;000) TvpsExtInfo/A07F91 (6A07000000000001;10) (compatible; MSIE 6.0; Win32)'
+    result: { browser: { type: browser }, device: { type: television, manufacturer: 'I-O Data Device', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/4.08(DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(000024;JC-4000;000;000)'
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Connect AS', series: 'Smart TV' } }

@@ -698,8 +698,16 @@ trait Television
                 }
 
                 switch ($vendorName . '#') {
+                    case '000024#':
+                        $this->data->device->manufacturer = 'Connect AS';
+                        break;
+
                     case '000087#':
                         $this->data->device->manufacturer = 'Hitachi';
+                        break;
+
+                    case '00A0B0#':
+                        $this->data->device->manufacturer = 'I-O Data Device';
                         break;
 
                     case '00E091#':
