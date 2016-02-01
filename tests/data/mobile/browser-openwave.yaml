@@ -1,3 +1,51 @@
 -
     headers: 'User-Agent: Amoi-F90/Plat-F/WAP2.0/MIDP1.0/CLDC1.0 UP.Browser/6.2.2.6.f.1.100 (GUI) MMP/1.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: F90 } }
+-
+    headers: 'User-Agent: 802SH Vodafone/1.0/V802SH/SHJ001[/Serial] Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.2.2 Ext-V-Profile/VSCL-2.0.0'
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V802SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2'
+    result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: BG3 } }
+-
+    headers: 'User-Agent: BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/137 UP.Browser/5.0.3.3'
+    result: { browser: { name: Openwave, version: '5.0', type: browser }, os: { name: 'BlackBerry OS', version: '4.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 8100' } }
+-
+    headers: 'User-Agent: KDDI-CA22 UP.Browser/6.0.8.1 (GUI) MMP/1.1'
+    result: { browser: { name: Openwave, version: '6.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: A5302CA, carrier: au } }
+-
+    headers: 'User-Agent: KDDI-HI3E UP.Browser/6.2_7.2.7.1.K.2.232 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W63H, carrier: au } }
+-
+    headers: 'User-Agent: LGE-VX5500/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VX5500 } }
+-
+    headers: 'User-Agent: MOT-V860/00.72 UP.Browser/7.2.7.5.630 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '7.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V860 } }
+-
+    headers: 'User-Agent: SAMSUNG-GT-E2222/E2222JVNC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 222' } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-J700/J700XAHA6 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-J700 } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-X640/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X640 } }
+-
+    headers: 'User-Agent: SIE-C55/24 UP.Browser/5.0.3.3 (GUI) UP.Link/1.1'
+    result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: C55 } }
+-
+    headers: 'User-Agent: SIE-S65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: S65 } }
+-
+    headers: 'User-Agent: UP.Browser/3.04-KC14 UP.Link/3.4.5.6'
+    result: { browser: { name: Openwave, version: '3.04', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: A1012K, carrier: au } }
+-
+    headers: 'User-Agent: UP.Browser/3.04-SN15 UP.Link/3.4.5.6'
+    result: { browser: { name: Openwave, version: '3.04', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sony, model: C413S, carrier: au } }
+-
+    headers: 'User-Agent: Vodafone/1.0/V703SHf/SHJ001/SN354723000668748 Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.2.2 Ext-V-Profile/VSCL-2.0.0'
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V703SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: Vodafone/1.0/V903SH/SHJ001 Browser/UP.Browser/7.0.2.1'
+    result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V903SH, carrier: Softbank } }
