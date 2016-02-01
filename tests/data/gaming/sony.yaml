@@ -33,7 +33,7 @@
     result: { os: { version: '3.55' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation 3) SonyComputerEntertainmentEurope/531.3 (NCell) NuantiMeta/2.0'
-    result: { device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { browser: { name: 'Nuanti Meta', version: '2.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)'
     result: { engine: { name: Webkit, version: '536.26' }, os: { version: '1.000' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 4' } }
@@ -123,7 +123,10 @@
     result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PS3) AppleWebKit/535.11 (KHTML, like Gecko) NuantiMeta/2.0'
-    result: { engine: { name: Webkit, version: '535.11' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { browser: { name: 'Nuanti Meta', version: '2.0', type: browser }, engine: { name: Webkit, version: '535.11' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PS3) AppleWebKit/535.1 (KHTML, like Gecko) NuantiMeta/2.0 Chrome/13.0.782.220 Safari/535.1'
-    result: { browser: { name: Chrome, version: '13', type: browser }, engine: { name: Webkit, version: '535.1' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { browser: { name: 'Nuanti Meta', family: { name: Chrome, version: 13 }, version: '2.0', type: browser }, engine: { name: Webkit, version: '535.1' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PlayStation 4) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0'
+    result: { browser: { name: 'Nuanti Meta', version: '2.0', type: browser }, engine: { name: Webkit, version: '531.3' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 4' } }
