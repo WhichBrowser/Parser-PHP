@@ -63,4 +63,4 @@
     result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Linux }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Amoi 8512/R28.0 NF-Browser/3.3'
-    result: { device: { type: mobile, subtype: feature, manufacturer: Amoi, model: '8512' } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: '8512' } }
