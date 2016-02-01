@@ -732,6 +732,10 @@ trait Television
                         $this->data->device->manufacturer = 'Panasonic';
                         break;
 
+                    case '00E036#':
+                        $this->data->device->manufacturer = 'Pioneer';
+                        break;
+
                     case '00E064#':
                         $this->data->device->manufacturer = 'Samsung';
                         break;
