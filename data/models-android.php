@@ -273,6 +273,8 @@ DeviceModels::$ANDROID_MODELS = [
     'Nexus Player'                              => [ 'Asus', 'Nexus Player', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'BRAVIA 2015'                               => [ 'Sony', 'Bravia Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'BRAVIA 4K 2015'                            => [ 'Sony', 'Bravia Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV ],
+    'QV151E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
+    'QM151E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'QM152E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'SHIELD Android TV'                         => [ 'Nvidia', 'SHIELD Android TV', DeviceType::TELEVISION, Flag::ANDROIDTV],
 
