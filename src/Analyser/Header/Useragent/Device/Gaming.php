@@ -21,7 +21,7 @@ trait Gaming
             $this->detectXbox($ua);
         }
 
-        if (preg_match('/Sega/iu', $ua)) {
+        if (preg_match('/Sega/iu', $ua) || preg_match('/DreamPassport/iu', $ua)) {
             $this->detectSega($ua);
         }
     }
@@ -245,7 +245,7 @@ trait Gaming
 
         /* Sega Dreamcast */
 
-        if (preg_match('/Dream/u', $ua, $match)) {
+        if (preg_match('/DreamPassport/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sega',
