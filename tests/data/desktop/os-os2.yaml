@@ -18,31 +18,31 @@
     result: { browser: { name: Firefox, version: '24.0', type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM-WebExplorer-DLL/v1.1h'
-    result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer /v0.94'
-    result: { browser: { name: 'IBM WebExplorer', version: '0.94', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '0.94', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer /v1.01'
-    result: { browser: { name: 'IBM WebExplorer', version: '1.01', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '1.01', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer DLL /v1.03'
-    result: { browser: { name: 'IBM WebExplorer', version: '1.03', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '1.03', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer DLL /v1.1'
-    result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer/v0.8'
-    result: { browser: { name: 'IBM WebExplorer', version: '0.8', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', version: '0.8', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer Window API'
-    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer DLL'
-    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: IBM WebExplorer Window API /v950716 Demo'
-    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 } }
+    result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/2.02 (OS/2; I)'
     result: { browser: { name: 'Netscape Navigator', version: 2.0.2, type: browser }, os: { name: OS/2 }, device: { type: desktop } }

@@ -1982,6 +1982,7 @@ trait Browser
             }
 
             $this->data->os->name = 'OS/2';
+            $this->data->device->type = 'desktop';
         }
 
         /* WorldWideweb */
@@ -1993,6 +1994,7 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
             $this->data->os->name = 'NextStep';
+            $this->data->device->type = 'desktop';
         }
 
         /* Sogou Mobile */
