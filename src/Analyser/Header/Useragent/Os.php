@@ -1388,7 +1388,7 @@ trait Os
 
         /* Unix System V */
 
-        if (preg_match('/UNIX_System_V ([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/(?:UNIX_System_V|UNIX_SV) ([0-9.]*)/u', $ua, $match)) {
             $this->data->os->name = 'UNIX System V';
             $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
             $this->data->os->version = new Version([ 'value' => $match[1] ]);

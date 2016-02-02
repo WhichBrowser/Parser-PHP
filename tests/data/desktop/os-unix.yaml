@@ -43,3 +43,12 @@
 -
     headers: 'User-Agent: (Mozilla/7.2 (X11; U; EWS-UNIX rev 9.2/Solaris; en-US; rv:1.8.4) Gecko/20050314 Firefox/1.0-rc3)'
     result: { browser: { name: Firefox, version: '1.0', type: browser }, engine: { name: Gecko, version: 1.8.4 }, os: { name: EWS-UX, family: UNIX, version: '9.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/1.1I [en] (X11; I; UNIX_SV 4.2MP R4000)'
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: 'UNIX System V', family: UNIX, version: '4.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/1.1I (X11; I; UNIX_SV 4.2MP R4000)'
+    result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: 'UNIX System V', family: UNIX, version: '4.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.01 [ja_euc] (X11; I; UNIX_SV 4.2MP R4000)'
+    result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: 'UNIX System V', family: UNIX, version: '4.2' }, device: { type: desktop } }
