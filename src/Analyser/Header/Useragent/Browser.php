@@ -2162,7 +2162,7 @@ trait Browser
                 [ 'name' => 'Galeon',               'regexp' => '/Galeon\/([0-9.]*)/u', 'details' => 3 ],
                 [ 'name' => 'GNOME Web',            'regexp' => '/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'IBrowse',              'regexp' => '/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
-                [ 'name' => 'iCab',                 'regexp' => '/iCab\/([0-9.]*)/u' ],
+                [ 'name' => 'iCab',                 'regexp' => '/iCab(?: J)?\/([0-9.]*)/u' ],
                 [ 'name' => 'Iceape',               'regexp' => '/Iceape\/([0-9.]*)/u' ],
                 [ 'name' => 'IceCat',               'regexp' => '/IceCat[ \/]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                   // see: https://www.gnu.org/software/gnuzilla/
                 [ 'name' => 'Iceweasel',            'regexp' => '/Iceweasel\/([0-9.]*)/iu', 'type' => Constants\DeviceType::DESKTOP ],

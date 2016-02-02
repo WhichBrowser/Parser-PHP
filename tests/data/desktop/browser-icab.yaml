@@ -1,0 +1,30 @@
+-
+    headers: 'User-Agent: iCab J/2.8.2 (Macintosh; U; PPC)'
+    result: { browser: { name: iCab, version: 2.8.2, type: browser }, os: { name: MacOS }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab J/2.9.8 (Macintosh; U; PPC; Mac OS X)'
+    result: { browser: { name: iCab, version: 2.9.8, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab/2.9 (Macintosh; U; PPC)'
+    result: { browser: { name: iCab, version: '2.9', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab/2.9 (Macintosh; U; PPC; Mac OS X)'
+    result: { browser: { name: iCab, version: '2.9', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab/5.0 (Macintosh; U; Intel Mac OS X)'
+    result: { browser: { name: iCab, version: '5.0', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab/5.0 (Macintosh; U; PPC Mac OS X)'
+    result: { browser: { name: iCab, version: '5.0', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: iCab/5.0 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (iMac7%2C1)'
+    result: { browser: { name: iCab, version: '5.0', type: browser }, os: { name: 'OS X', alias: 'Mac OS X', version: 10.6.8 }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) iCab/5.5 Safari/533.16'
+    result: { browser: { name: iCab, version: '5.5', type: browser }, engine: { name: Webkit, version: 600.1.25 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.52.7 (KHTML, like Gecko) iCab/4.8 Safari/533.16'
+    result: { browser: { name: iCab, version: '4.8', type: browser }, engine: { name: Webkit, version: 534.52.7 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; xx) AppleWebKit/523.10.3 (KHTML, like Gecko) iCab/4.9 Safari/533.16'
+    result: { browser: { name: iCab, version: '4.9', type: browser }, engine: { name: Webkit, version: 523.10.3 }, os: { name: 'OS X' }, device: { type: desktop } }
