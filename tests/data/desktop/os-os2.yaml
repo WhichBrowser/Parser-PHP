@@ -43,3 +43,6 @@
 -
     headers: 'User-Agent: IBM WebExplorer Window API /v950716 Demo'
     result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 } }
+-
+    headers: 'User-Agent: Mozilla/2.02 (OS/2; I)'
+    result: { browser: { name: 'Netscape Navigator', version: 2.0.2, type: browser }, os: { name: OS/2 }, device: { type: desktop } }
