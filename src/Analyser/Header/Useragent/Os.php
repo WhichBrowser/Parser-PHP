@@ -469,7 +469,7 @@ trait Os
 
     private function detectWindows($ua)
     {
-        if (preg_match('/(Windows|WinNT|WinCE|Win ?[9MX])/u', $ua)) {
+        if (preg_match('/(Windows|WinNT|WinCE|Win ?[9MX]|Win(16|32))/u', $ua)) {
             $this->data->os->name = 'Windows';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
 
