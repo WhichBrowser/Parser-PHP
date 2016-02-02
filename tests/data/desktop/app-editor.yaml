@@ -4,3 +4,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Atom/1.0.19 Chrome/43.0.2357.65 Electron/0.30.7 Safari/537.36'
     result: { browser: { name: Atom, using: { name: Electron, version: 0.30.7 }, family: { name: Chrome, version: 43 }, version: 1.0.19, type: 'app:editor' }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/3.0  (compatible; GoLive 6.0; Windows 2000)'
+    result: { browser: { name: 'Adobe GoLive', version: '6.0', type: 'app:editor' }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }

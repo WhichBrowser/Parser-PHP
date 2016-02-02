@@ -2349,6 +2349,7 @@ trait Browser
 
             Constants\BrowserType::APP_EDITOR => [
                 [ 'name' => 'Atom',                 'regexp' => '/Atom\/([0-9.]*)/u' ],
+                [ 'name' => 'Adobe GoLive',         'regexp' => '/GoLive ([0-9.]*)/u' ],
                 [ 'name' => 'Brackets',             'regexp' => '/Brackets\/([0-9.]*)/u' ],
                 [ 'name' => 'Microsoft FrontPage',  'regexp' => '/MS FrontPage ([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'W3C Amaya',            'regexp' => '/amaya\/([0-9.]*)/u' ],
