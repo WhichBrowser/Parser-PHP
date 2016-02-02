@@ -2054,6 +2054,56 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
         }
+
+        if (preg_match('/DreamPassport\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Dream Passport';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sega',
+                'model'         =>  'Dreamcast',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+
+        if (preg_match('/Planetweb\/v?([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Planetweb';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (preg_match('/Dreamcast/u', $ua, $match)) {
+                $this->data->device->setIdentification([
+                    'manufacturer'  =>  'Sega',
+                    'model'         =>  'Dreamcast',
+                    'type'          =>  Constants\DeviceType::GAMING,
+                    'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                ]);
+            }
+
+            if (preg_match('/SPS/u', $ua, $match)) {
+                $this->data->device->setIdentification([
+                    'manufacturer'  =>  'Sony',
+                    'model'         =>  'Playstation 2',
+                    'type'          =>  Constants\DeviceType::GAMING,
+                    'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                ]);
+            }
+        }
+
+        if (preg_match('/AveFront\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'AveFront';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sony',
+                'model'         =>  'Playstation 2',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
     }
 
     private function detectRemainingBrowsers($ua)
@@ -2215,7 +2265,6 @@ trait Browser
                 /* Gaming browsers */
                 [ 'name' => 'Aplix',                'regexp' => '/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
                 [ 'name' => 'Bunjalloo',            'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
-                [ 'name' => 'Dream Passport',       'regexp' => '/DreamPassport\/([0-9.]*)/u' ],                                                        // browser for the Sega Dreamcast
                 [ 'name' => 'Nintendo Web Framework', 'regexp' => '/NWF\/([0-9.]*)/u', 'details' => 2 ],                                                        // browser for the Sega Dreamcast
                 [ 'name' => 'Nuanti Meta',          'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the Playstation
 

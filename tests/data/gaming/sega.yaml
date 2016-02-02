@@ -19,3 +19,6 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/1.01)'
     result: { browser: { name: 'Dream Passport', version: '1.01', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
+    result: { browser: { name: Planetweb, version: '2.100', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
