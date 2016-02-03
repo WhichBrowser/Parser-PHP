@@ -261,7 +261,7 @@ trait Mobile
             'manufacturer'  => 'HP'
         ]);
 
-        $this->data->device->identifyModel('/Acer_?([^\s\/_]*)/ui', $ua, [
+        $this->data->device->identifyModel('/Acer[_-]?([^\s\/_]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Acer'
         ]);

@@ -49,3 +49,6 @@
 -
     headers: 'User-Agent: Vodafone/1.0/V903SH/SHJ001 Browser/UP.Browser/7.0.2.1'
     result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V903SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: ACER-Pro80/1.02 UP/4.1.20i UP.Browser/4.1.20i-XXXX'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Acer, model: Pro80 } }
