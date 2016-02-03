@@ -64,3 +64,6 @@
 -
     headers: 'User-Agent: Amoi 8512/R28.0 NF-Browser/3.3'
     result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: '8512' } }
+-
+    headers: 'User-Agent: ZTE-F102 H3G/1.0 ACS-NF/3.4 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F102 } }

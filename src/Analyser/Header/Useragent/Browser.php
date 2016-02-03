@@ -1188,7 +1188,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/(?:Browser\/(?:NF|NetFr?ont-)|NF-Browser\/)([0-9.]*)/ui', $ua, $match)) {
+        if (preg_match('/(?:Browser\/(?:NF|NetFr?ont-)|NF-Browser\/|ACS-NF\/)([0-9.]*)/ui', $ua, $match)) {
             $this->data->browser->name = 'NetFront';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
