@@ -685,6 +685,7 @@ trait Mobile
             'M'     => 'Motorola',
             'N'     => 'NEC',
             'P'     => 'Panasonic',
+            'R'     => 'JRC',
             'T'     => 'Toshiba',
             'Z'     => 'ZTE',
         ];
