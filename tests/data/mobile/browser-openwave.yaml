@@ -61,3 +61,15 @@
 -
     headers: 'User-Agent: NEC-DB7000/1.0 UP.Browser/4.1.23c'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: DB7000 } }
+-
+    headers: 'User-Agent: PHILIPS-Az@lis288 UP/4.1.19l'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Az@lis 288' } }
+-
+    headers: 'User-Agent: PHILIPS-FISIO 318 UP/4.1.19m'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 318' } }
+-
+    headers: 'User-Agent: PHILIPS-Fisio311/2.1 UP/4.1.19m'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 311' } }
+-
+    headers: 'User-Agent: PHILIPS-Fisio 121/2.1 UP/4.1.19m'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 121' } }

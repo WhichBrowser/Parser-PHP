@@ -508,6 +508,22 @@ trait Mobile
             'manufacturer'  => 'Philips'
         ]);
 
+        $this->data->device->identifyModel('/PHILIPS-([a-zA-Z0-9@]+(?: [0-9]+)?)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Philips',
+            'model'         => function ($model) {
+                if (preg_match('/Az@lis([0-9]{3,3})/ui', $model, $match)) {
+                    return 'Az@lis ' . $match[1];
+                }
+
+                if (preg_match('/Fisio ?([0-9]{3,3})/ui', $model, $match)) {
+                    return 'Fisio ' . $match[1];
+                }
+
+                return $model;
+            }
+        ]);
+
         $this->data->device->identifyModel('/sam-([A-Z][0-9]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Samsung'
