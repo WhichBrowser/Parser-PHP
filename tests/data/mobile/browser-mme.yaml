@@ -1,0 +1,15 @@
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J5)'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7/J70)'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z7)'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; CellPhone; Benefon Q)'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }

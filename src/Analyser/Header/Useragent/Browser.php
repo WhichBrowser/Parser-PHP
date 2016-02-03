@@ -396,6 +396,14 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
+        /* Microsoft Mobile Explorer */
+
+        if (preg_match('/MMEF([0-9])([0-9])/u', $ua, $match)) {
+            $this->data->browser->name = 'Microsoft Mobile Explorer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] . '.' . $match[2] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
 
         /* Set the browser family */
 
