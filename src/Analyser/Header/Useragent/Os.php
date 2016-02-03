@@ -1164,6 +1164,21 @@ trait Os
                 $this->data->device->generic = false;
             }
         }
+
+        /* GEOS */
+
+        if (preg_match('/Geos ([0-9.]+)/u', $ua, $match)) {
+            $this->data->os->name = 'GEOS';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            if (preg_match('/Nokia-([0-9]{4,4}[a-z]?)/u', $ua, $match)) {
+                $this->data->device->manufacturer = 'Nokia';
+                $this->data->device->model = $match[1];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+                $this->data->device->generic = false;
+            }
+        }
     }
 
 

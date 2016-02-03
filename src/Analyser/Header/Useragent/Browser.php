@@ -1540,6 +1540,16 @@ trait Browser
             }
         }
 
+        if (preg_match('/Nokia-Communicator-WWW-Browser/u', $ua)) {
+            $this->data->browser->name = 'Nokia Browser';
+            $this->data->browser->channel = null;
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (preg_match('/Nokia-Communicator-WWW-Browser\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            }
+        }
+
 
         /* Nokia Xpress for S30+, S40 and Windows Phone */
 

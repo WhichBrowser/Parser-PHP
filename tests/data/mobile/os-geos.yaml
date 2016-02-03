@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: Nokia-Communicator-WWW-Browser/2.0 (Geos 3.0 Nokia-9000i)'
+    result: { browser: { name: 'Nokia Browser', version: '2.0', type: browser }, os: { name: GEOS, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 9000i } }
+-
+    headers: 'User-Agent: Nokia-Communicator-WWW-Browser/3.0 (Geos 3.0 Nokia-9110)'
+    result: { browser: { name: 'Nokia Browser', version: '3.0', type: browser }, os: { name: GEOS, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '9110' } }
