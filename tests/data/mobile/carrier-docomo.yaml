@@ -91,3 +91,6 @@
 -
     headers: 'User-Agent: DoCoMo/1.0/R209i'
     result: { device: { type: mobile, subtype: feature, manufacturer: JRC, model: R209i, carrier: DoCoMo } }
+-
+    headers: 'User-Agent: DoCoMo/1.0/KO210i'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Kokusai, model: KO210i, carrier: DoCoMo } }

@@ -667,6 +667,7 @@ trait Mobile
             'HW'    => 'Huawei',
             'IA'    => 'Inventec',
             'JR'    => 'JRC',
+            'KO'    => 'Kokusai',
             'LC'    => 'Longcheer',
             'NK'    => 'Nokia',
             'KE'    => 'KES',
