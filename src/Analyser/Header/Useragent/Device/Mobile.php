@@ -478,6 +478,11 @@ trait Mobile
             'manufacturer'  => 'Nexian'
         ]);
 
+        $this->data->device->identifyModel('/NEC-([^\/_]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'NEC'
+        ]);
+
         $this->data->device->identifyModel('/NGM_([^\/_]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'NGM'

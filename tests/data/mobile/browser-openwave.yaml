@@ -55,3 +55,9 @@
 -
     headers: 'User-Agent: Alcatel-BE3/1.0 UP/4.1.8d'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: BE3 } }
+-
+    headers: 'User-Agent: NEC-525/1.0 up.Browser/6.1.0.6.1 (GUI) MMP/1.0'
+    result: { browser: { name: Openwave, version: '6.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: '525' } }
+-
+    headers: 'User-Agent: NEC-DB7000/1.0 UP.Browser/4.1.23c'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: DB7000 } }
