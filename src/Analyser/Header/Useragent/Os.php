@@ -1902,6 +1902,8 @@ trait Os
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'SpreadTrum',   'regexp' => [ '/\(SpreadTrum;/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
 
+            [ 'name' => 'EPOC',         'regexp' => [ '/EPOC;/iu' ],                                        'type' => Constants\DeviceType::PDA ],
+
             [ 'name' => 'ThreadX',      'regexp' => [ '/ThreadX(?:_OS)?\/([0-9.]*)/iu' ] ],
         ];
 
