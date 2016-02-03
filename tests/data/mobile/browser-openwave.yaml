@@ -52,3 +52,6 @@
 -
     headers: 'User-Agent: ACER-Pro80/1.02 UP/4.1.20i UP.Browser/4.1.20i-XXXX'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Acer, model: Pro80 } }
+-
+    headers: 'User-Agent: Alcatel-BE3/1.0 UP/4.1.8d'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: BE3 } }
