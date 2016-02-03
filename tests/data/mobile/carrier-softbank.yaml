@@ -79,3 +79,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (945SH;SoftBank;SN359323030706330) NetFront/3.5'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 945SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: SoftBank/1.0/813SHe/SHJ002 Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 813SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: SoftBank/1.0/812SHs/SHJ001/SN353688015624831 Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 812SH, carrier: Softbank } }
+-
+    headers: 'User-Agent: SoftBank/1.0/830SHp/SHJ001/SN359424020396056 Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 830SH, carrier: Softbank } }
