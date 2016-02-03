@@ -105,7 +105,7 @@ trait Television
             $this->data->device->identified |= Constants\Id::MATCH_UA;
 
             if (preg_match('/LG Browser\/[0-9.]+\([^;]+; LGE; ([^;]+);/u', $ua, $match)) {
-                if (substr($match[1], 0, 6) != 'GLOBAL') {
+                if (substr($match[1], 0, 6) != 'GLOBAL' && substr($match[1], 0, 7) != 'NETCAST') {
                     $this->data->device->model = $match[1];
                 }
             }
