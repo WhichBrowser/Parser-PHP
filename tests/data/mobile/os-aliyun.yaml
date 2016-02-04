@@ -172,3 +172,6 @@
 -
     headers: { User-Agent: 'Opera/9.80 (Android; Opera Mini/7.8.35214/34.1571; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'Mozilla/5.0 (Linux; U; Android 4.2.5; zh-cn; MI 2SC Build/YunOS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-OperaMini-Phone: 'Android #', X-OperaMini-Phone-UA: 'Mozilla/5.0 (Linux; U; Android 4.2.5; zh-cn; MI 2SC Build/YunOS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-OperaMini-Features: 'advanced, httpping, routing, camera, viewport, file_system, folding, touch, download' }
     result: { browser: { name: 'Opera Mini', version: '7.8', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Aliyun OS', family: Android }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2S' } }
+-
+    headers: 'User-Agent: K-Touch_W619/V01 Linux/2.6.38.6-perf Android/1.5.2.0-RT-20120926.155001 Release/06.16.2012 Browser/AppleWebKit533.1 Profile/Configuration/'
+    result: { browser: { name: 'Aliyun Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: 'Aliyun OS', family: Android, version: 1.5.2 }, device: { type: mobile, subtype: smart, manufacturer: K-Touch, model: W619 } }
