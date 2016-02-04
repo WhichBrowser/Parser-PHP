@@ -1,0 +1,15 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Roku) AppleWebKit/537.36 (KHTML, like Gecko) Web/1.1 Safari/537.36'
+    result: { browser: { name: Web, version: '1.1', type: browser }, engine: { name: Webkit, version: '537.36' }, device: { type: television, manufacturer: Roku } }
+-
+    headers: 'User-Agent: Roku/DVP-3100EU-4.3 (024.03E10000A)'
+    result: { device: { type: television, manufacturer: Roku, model: '2 XS' } }
+-
+    headers: 'User-Agent: Roku/DVP-5.4 (045.04E03198A)'
+    result: { device: { type: television, manufacturer: Roku, model: '3' } }
+-
+    headers: 'User-Agent: Roku/DVP-4.9 (074.09E08022A)'
+    result: { device: { type: television, manufacturer: Roku, model: LT } }
+-
+    headers: 'User-Agent: Roku/DVP-5.5 (095.05E02025A)'
+    result: { device: { type: television, manufacturer: Roku, model: 'Streaming Stick' } }

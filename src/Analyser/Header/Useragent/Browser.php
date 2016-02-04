@@ -1683,6 +1683,14 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::APP_MEDIAPLAYER;
         }
 
+        /* Web on Roku */
+
+        if (preg_match('/Roku/u', $ua) && preg_match('/Web\/([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Web';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
         /* LG Browser */
 
         if (preg_match('/LG Browser\/([0-9.]*)/u', $ua, $match)) {

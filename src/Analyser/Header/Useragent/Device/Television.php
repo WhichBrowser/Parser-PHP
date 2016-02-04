@@ -563,6 +563,13 @@ trait Television
             $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
 
+        if (preg_match('/\(Roku/u', $ua)) {
+            $this->data->device->manufacturer = 'Roku';
+            $this->data->device->model = '';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
         /* AppleTV */
 
         if (preg_match('/AppleTV/u', $ua)) {
