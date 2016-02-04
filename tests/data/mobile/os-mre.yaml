@@ -34,3 +34,6 @@
 -
     headers: { User-Agent: 'Opera/9.80 (MTK; Opera Mini/7.0.32977/34.1576; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone-UA: 'NativeOperaMini(MTK/Unknown;Opera Mini/7.0.32977;en-US)', X-OperaMini-Features: 'httpping, advanced, routing, folding, file_system, download', X-OperaMini-Phone: '? # ?', Device-Stock-UA: 'NativeOperaMini(MTK/Unknown;Opera Mini/7.0.32977;en-US)' }
     result: { browser: { name: 'Opera Mini', version: '7.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: MRE }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mot-WX308/v3 BTSTLE_G_0A.22.11RPS Release/10.11.2011 Browser/Opera Profile/MIDP-2.0 Configuration/CLDC-1.1 Sync/SyncClient1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; xx) Presto/2.5.28 Version/10.10'
+    result: { browser: { name: 'Opera Mobile', version: '10.10', type: browser }, engine: { name: Presto, version: 2.5.28 }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: WX308 } }
