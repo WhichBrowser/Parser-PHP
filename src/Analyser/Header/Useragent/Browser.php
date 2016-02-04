@@ -1367,7 +1367,7 @@ trait Browser
                 $this->data->device->model = null;
             }
 
-            if (preg_match('/Espial(?: Browser)?\/(?:sig)?([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Espial(?: Browser|TVBrowser)?\/(?:sig)?([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
