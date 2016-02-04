@@ -2037,7 +2037,7 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
-            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->type = Constants\DeviceType::PDA;
 
             $this->data->os->name = 'Palm OS';
 
