@@ -524,6 +524,11 @@ trait Mobile
             }
         ]);
 
+        $this->data->device->identifyModel('/Sanyo-([A-Z0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sanyo'
+        ]);
+
         $this->data->device->identifyModel('/sam-([A-Z][0-9]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Samsung'

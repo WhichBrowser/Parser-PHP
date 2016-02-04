@@ -76,3 +76,9 @@
 -
     headers: 'User-Agent: PHILIPS-Ozeo UP/4.1.16r'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: Ozeo } }
+-
+    headers: 'User-Agent: Sanyo-C304SA/2.0 UP/4.1.20e'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: C304SA } }
+-
+    headers: 'User-Agent: Sanyo-SCP5000/1.1b UP.Browser/4.1.23a'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: SCP5000 } }
