@@ -83,10 +83,6 @@ trait Mobile
                 return;
             }
 
-            if ($match[1] == 'Communicator-WWW-Browser') {
-                return;
-            }
-
             $this->data->device->manufacturer = 'Nokia';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
             $this->data->device->identifier = $match[0];
