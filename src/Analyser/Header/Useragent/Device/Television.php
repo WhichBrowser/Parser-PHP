@@ -145,6 +145,13 @@ trait Television
             $this->data->device->identified |= Constants\Id::MATCH_UA;
         }
 
+        if (preg_match('/Web[O0]S; Linux\/SmartTV/u', $ua)) {
+            $this->data->device->manufacturer = 'LG';
+            $this->data->device->series = 'webOS TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
         if (preg_match('/webOS\.TV-([0-9]+)/u', $ua, $match)) {
             $this->data->device->manufacturer = 'LG';
             $this->data->device->series = 'webOS TV';
