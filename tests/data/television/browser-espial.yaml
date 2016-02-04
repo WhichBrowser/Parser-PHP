@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; xx) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1); Espial Browser/sig3.11.0 (Tesco; Technika Media Streamer; TCMSAW11)'
+    result: { browser: { name: Espial, version: 3.11.0, type: browser }, engine: { name: Webkit, version: '525.1' }, device: { type: television } }
