@@ -1250,6 +1250,14 @@ trait Os
     {
         /* BlackBerry OS */
 
+        if (preg_match('/RIM([0-9]{3,3})/u', $ua, $match)) {
+            $this->data->os->name = 'BlackBerry OS';
+            $this->data->device->manufacturer = 'RIM';
+            $this->data->device->model = $match[1];
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->identified = Constants\Id::INFER;
+        }
+
         if (preg_match('/BlackBerry/u', $ua) && !preg_match('/BlackBerry Runtime for Android Apps/u', $ua)) {
             $this->data->os->name = 'BlackBerry OS';
 
