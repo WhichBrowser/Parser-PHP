@@ -34,3 +34,9 @@
 -
     headers: 'User-Agent: OWB/3.12 (AmigaOS 4.1; ppc; U)'
     result: { browser: { name: Odyssey, version: '3.12', type: browser }, os: { name: AmigaOS, version: '4.1' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; IBrowse 2.3; AmigaOS4.0)'
+    result: { browser: { name: IBrowse, version: '2.3', type: browser }, os: { name: AmigaOS, version: '4.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; AmigaOS4.0) IBrowse 2.3'
+    result: { browser: { name: IBrowse, version: '2.3', type: browser }, os: { name: AmigaOS, version: '4.0' }, device: { type: desktop } }
