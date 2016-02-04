@@ -73,3 +73,6 @@
 -
     headers: 'User-Agent: PHILIPS-Fisio 121/2.1 UP/4.1.19m'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 121' } }
+-
+    headers: 'User-Agent: PHILIPS-Ozeo UP/4.1.16r'
+    result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: Ozeo } }
