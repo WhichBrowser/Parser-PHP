@@ -398,6 +398,15 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
+        /* Orange La clé TV */
+
+        if (preg_match('/lacleTV\//u', $ua)) {
+            $this->data->device->manufacturer = 'Orange';
+            $this->data->device->series = 'La clé TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
         /* Loewe */
 
         if (preg_match('/LOEWE\/TV/u', $ua)) {
