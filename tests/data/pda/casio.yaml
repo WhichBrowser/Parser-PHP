@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: Mozilla/4.5 (Screen=240x320x64K; InputMethod=PEN; Page=1M; Product=CASIO/CASSIOPEIA BE; HTML-level=3.2; Category=PDA; JavaScript=yes) (WorldTALK/2.2.24)'
+    result: { device: { type: pda, manufacturer: Casio, model: Cassiopeia } }

@@ -10,6 +10,7 @@ trait Pda
 {
     private function detectPda($ua)
     {
+        $this->detectCasio($ua);
         $this->detectPalm($ua);
         $this->detectSonyMylo($ua);
         $this->detectSharpZaurus($ua);
@@ -18,6 +19,19 @@ trait Pda
 
 
 
+
+
+    /* Casio */
+
+    private function detectCasio($ua)
+    {
+        if (preg_match('/CASIO\/CASSIOPEIA/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Casio';
+            $this->data->device->model = 'Cassiopeia';
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->type = Constants\DeviceType::PDA;
+        }
+    }
 
 
     /* Palm */
