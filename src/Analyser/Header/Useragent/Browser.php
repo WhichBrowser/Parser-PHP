@@ -1356,6 +1356,7 @@ trait Browser
     {
         if (preg_match('/Espial/u', $ua)) {
             $this->data->browser->name = 'Espial';
+            $this->data->browser->channel = null;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
             $this->data->os->name = '';
