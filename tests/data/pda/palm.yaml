@@ -52,3 +52,15 @@
 -
     headers: 'User-Agent: Mozilla/4.76 [en] (PalmOS; U; WebPro3.0; Palm-Arz1)'
     result: { browser: { name: WebPro, version: '3.0', type: browser }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Tungsten T3' } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; EudoraWeb 2.0; pdQbrowser; PalmOS 2.0)'
+    result: { browser: { name: EudoraWeb, version: '2.0', type: browser }, os: { name: 'Palm OS', version: '2.0' }, device: { type: pda, manufacturer: Kyocera, model: QCP-6035 } }
+-
+    headers: 'User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1'
+    result: { browser: { name: EudoraWeb, version: '2.1', type: browser }, os: { name: 'Palm OS', version: '3.0' }, device: { type: pda } }
+-
+    headers: 'User-Agent: Palmscape/PR5 (PalmPilot Pro; I)'
+    result: { browser: { name: Palmscape, version: '5', type: browser }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: 'Pilot Professional' } }
+-
+    headers: 'User-Agent: Palmscape/3.0J [ja] (v. 3.5.2H1.5; 153x130; c8)'
+    result: { browser: { name: Palmscape, version: '3.0', type: browser }, os: { name: 'Palm OS', version: 3.5.2 }, device: { type: pda } }

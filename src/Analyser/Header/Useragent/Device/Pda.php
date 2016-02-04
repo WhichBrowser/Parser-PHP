@@ -91,6 +91,19 @@ trait Pda
             }
         }
 
+        /* Some model markers */
+
+        if (preg_match('/PalmPilot Pro/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Palm';
+            $this->data->device->model = 'Pilot Professional';
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
+        if (preg_match('/pdQbrowser/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Kyocera';
+            $this->data->device->model = 'QCP-6035';
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
     }
 
 

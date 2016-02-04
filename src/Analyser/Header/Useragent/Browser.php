@@ -2046,6 +2046,22 @@ trait Browser
             }
         }
 
+        /* Palmscape */
+
+        if (preg_match('/Palmscape\/(?:PR)?([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Palmscape';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            $this->data->device->type = Constants\DeviceType::PDA;
+
+            $this->data->os->name = 'Palm OS';
+
+            if (preg_match('/\(v. ([0-9.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+        }
+
         /* Novarra WebPro */
 
         if (preg_match('/WebPro/u', $ua) && preg_match('/PalmOS/u', $ua)) {
