@@ -22,3 +22,6 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     result: { browser: { name: Planetweb, version: '2.100', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (DreamKey/1.0)'
+    result: { browser: { name: Dreamkey, version: '1.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }

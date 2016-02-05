@@ -2098,6 +2098,19 @@ trait Browser
             }
         }
 
+        if (preg_match('/DreamKey\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Dreamkey';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Sega',
+                'model'         =>  'Dreamcast',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+
         if (preg_match('/DreamPassport\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Dream Passport';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
