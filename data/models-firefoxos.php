@@ -26,5 +26,6 @@ DeviceModels::$FIREFOXOS_MODELS = [
     'ZTEOPEN'                                   => [ 'ZTE', 'Open' ],
     'OpenC'                                     => [ 'ZTE', 'Open C' ],
     'Open C'                                    => [ 'ZTE', 'Open C' ],
+    'OPENC2'                                    => [ 'ZTE', 'Open C2' ],
     'OPEN2'                                     => [ 'ZTE', 'Open II' ],
 ];
