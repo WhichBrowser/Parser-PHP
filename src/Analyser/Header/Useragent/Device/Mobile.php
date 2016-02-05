@@ -776,7 +776,7 @@ trait Mobile
             $carrier = 'Softbank';
         }
 
-        if (preg_match('/(?:^|[\s\/\-\(;])((V|DM|WS|WX)[0-9]{2,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
+        if (preg_match('/(?:^|[\s\/\(;])((V|DM|W|WS|WX)[0-9]{2,3}(' . implode('|', array_keys($ids)) . '))/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[3];
 
@@ -787,6 +787,7 @@ trait Mobile
                 case 'DM':
                     $carrier = 'Disney Mobile';
                     break;
+                case 'W':
                 case 'WS':
                 case 'WX':
                     $carrier = 'Willcom';

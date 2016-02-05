@@ -49,3 +49,6 @@
 -
     headers: 'User-Agent: Mozilla/3.0(WILLCOM;TOSHIBA/WS023T/2;0001;4/1/C128) NetFront/3.4'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: WS023T, carrier: Willcom } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (WILLCOM;KYOCERA/W320K/2;1.0.7.14.000000/0.1/C100) Opera/7.0'
+    result: { browser: { name: 'Opera Mobile', version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: W320K, carrier: Willcom } }
