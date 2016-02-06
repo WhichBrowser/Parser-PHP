@@ -136,3 +136,9 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (Planetweb/v1.16; SPS JP)'
     result: { browser: { name: Planetweb, version: '1.16', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
+-
+    headers: 'User-Agent: Mozilla/3.0 AVE-Front/2.6 (BrowserInfo Screen=624x400x16M; InputMethod=CONTROLER, MOUSE, REMOCON; Page=10M; Category=GAME; Product=ACCESS/NFPS; HTML-Level=3.2; Strage=NO;)'
+    result: { browser: { name: NetFront, version: '2.6', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
+-
+    headers: 'User-Agent: Mozilla/3.0 AVE-Front/2.6 (BrowserInfo Screen=640x448x16M; InputMethod=CONTROLER, MOUSE, REMOCON; Page=12M; Category=GAME; Product=SUNSOFT/EnjoyMagic; HTML-Level=3.2; Language=ja.SJIS; Storage=NO;)'
+    result: { browser: { name: NetFront, version: '2.6', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }

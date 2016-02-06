@@ -74,9 +74,6 @@
     headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
     result: { browser: { name: NetFront, version: '2.6', type: browser } }
 -
-    headers: 'User-Agent: Mozilla/3.0 AVE-Front/2.6 (BrowserInfo Screen=624x400x16M; InputMethod=CONTROLER, MOUSE, REMOCON; Page=10M; Category=GAME; Product=ACCESS/NFPS; HTML-Level=3.2; Strage=NO;)'
-    result: { browser: { name: NetFront, version: '2.6', type: browser }, device: { type: gaming, subtype: console } }
--
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.5 (BrowserInfo Screen=620x400x256; InputMethod=REMOCON, KEYBOARD; Page=3M; Product=Winbond/STB; HTML-Level=3.2; Category=STB; Language=en_US; CPU=PARISC; Storage=NO;)'
     result: { browser: { name: NetFront, version: '2.5', type: browser }, device: { type: television } }
 -
