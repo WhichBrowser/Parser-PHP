@@ -13,6 +13,7 @@ trait Pda
         $this->detectCasio($ua);
         $this->detectPalm($ua);
         $this->detectSonyMylo($ua);
+        $this->detectSonyAirboard($ua);
         $this->detectSharpZaurus($ua);
         $this->detectSharpShoin($ua);
         $this->detectNttPetitWeb($ua);
@@ -131,6 +132,26 @@ trait Pda
             if (preg_match('/Qt embedded/ui', $ua, $match)) {
                 $this->data->os->name = 'Qtopia';
             }
+        }
+    }
+
+
+    /* Sony Airboard */
+
+    private function detectSonyAirboard($ua)
+    {
+        if (preg_match('/SONY\/airboard\/IDT-([A-Z0-9]+)/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Airboard ' . $match[1];
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->type = Constants\DeviceType::PDA;
+        }
+
+        if (preg_match('/LocationFreeTV; Airboard\/(LF-[A-Z0-9]+)/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Sony';
+            $this->data->device->model = 'Airboard ' . $match[1];
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->type = Constants\DeviceType::PDA;
         }
     }
 
