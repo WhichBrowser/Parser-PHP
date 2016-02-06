@@ -17,6 +17,7 @@ trait Pda
         $this->detectSharpZaurus($ua);
         $this->detectSharpShoin($ua);
         $this->detectPanasonicPocketE($ua);
+        $this->detectFujitsuOasys($ua);
         $this->detectNttPetitWeb($ua);
     }
 
@@ -211,6 +212,26 @@ trait Pda
             $this->data->device->type = Constants\DeviceType::PDA;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->generic = false;
+        }
+    }
+
+
+    /* Fujitsu OASYS */
+
+    private function detectFujitsuOasys($ua)
+    {
+        if (preg_match('/Fujitsu; OASYS/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Fujitsu';
+            $this->data->device->model = 'OASYS';
+            $this->data->device->type = Constants\DeviceType::PDA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+
+            if (preg_match('/eNavigator/ui', $ua, $match)) {
+                $this->data->browser->name = 'eNavigator';
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::BROWSER;
+            }
         }
     }
 
