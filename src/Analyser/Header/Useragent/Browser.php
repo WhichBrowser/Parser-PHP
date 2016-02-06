@@ -1223,11 +1223,19 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
-            if (preg_match('/Category=([^;]+);/u', $ua, $match)) {
+            if (preg_match('/Category=([^\);]+)[\);]/u', $ua, $match)) {
                 switch($match[1]) {
                     case 'WP':
                     case 'Home Mail Tool':
+                    case 'PDA':
                         $this->data->device->type = Constants\DeviceType::PDA;
+                        break;
+                    case 'STB':
+                        $this->data->device->type = Constants\DeviceType::TELEVISION;
+                        break;
+                    case 'GAME':
+                        $this->data->device->type = Constants\DeviceType::GAMING;
+                        $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
                         break;
                 }
             }
