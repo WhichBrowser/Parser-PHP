@@ -143,6 +143,7 @@ trait Gaming
 
             if (preg_match('/VTE\//u', $ua)) {
                 $this->data->device->model = 'Playstation TV';
+                $this->data->device->subtype = Constants\DeviceSubType::CONSOLE;
             }
         }
 

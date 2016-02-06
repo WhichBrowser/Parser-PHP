@@ -96,13 +96,13 @@
     result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.01' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Vita' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation Vita 3.01) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2 VTE/2.50'
-    result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.01' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation TV' } }
+    result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.01' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation Vita 3.10) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2'
     result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.10' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Vita' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation Vita 3.10) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2 VTE/2.50'
-    result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.10' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation TV' } }
+    result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.10' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation Vita 3.12) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2'
     result: { engine: { name: Webkit, version: '536.26' }, os: { version: '3.12' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Vita' } }
