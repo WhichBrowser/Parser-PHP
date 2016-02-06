@@ -1205,6 +1205,25 @@ trait Browser
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
+        /* AVE-Front */
+
+        if (preg_match('/(?:AVE-Front|AveFront)\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'NetFront';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (preg_match('/Category=([^;]+);/u', $ua, $match)) {
+                switch($match[1]) {
+                    case 'WP':
+                    case 'Home Mail Tool':
+                        $this->data->device->type = Constants\DeviceType::PDA;
+                        break;
+                }
+            }
+        }
+
+        /* Netfront NX */
+
         if (preg_match('/NX\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'NetFront NX';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
@@ -2146,19 +2165,6 @@ trait Browser
                     'subtype'       =>  Constants\DeviceSubType::CONSOLE
                 ]);
             }
-        }
-
-        if (preg_match('/AveFront\/([0-9.]*)/u', $ua, $match)) {
-            $this->data->browser->name = 'AveFront';
-            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-            $this->data->browser->type = Constants\BrowserType::BROWSER;
-
-            $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation 2',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
-            ]);
         }
     }
 

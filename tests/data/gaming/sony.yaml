@@ -136,9 +136,3 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (Planetweb/v1.16; SPS JP)'
     result: { browser: { name: Planetweb, version: '1.16', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
--
-    headers: 'User-Agent: Mozilla/3.0 (AveFront/2.6)'
-    result: { browser: { name: AveFront, version: '2.6', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
--
-    headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
-    result: { browser: { name: AveFront, version: '2.6', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }

@@ -67,3 +67,9 @@
 -
     headers: 'User-Agent: ZTE-F102 H3G/1.0 ACS-NF/3.4 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F102 } }
+-
+    headers: 'User-Agent: Mozilla/3.0 (AveFront/2.6)'
+    result: { browser: { name: NetFront, version: '2.6', type: browser } }
+-
+    headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
+    result: { browser: { name: NetFront, version: '2.6', type: browser } }
