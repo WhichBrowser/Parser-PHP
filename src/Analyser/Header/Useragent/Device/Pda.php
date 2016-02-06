@@ -131,9 +131,6 @@ trait Pda
     private function detectSharpZaurus($ua)
     {
         if (preg_match('/sharp pda browser\/([0-9\.]+)/ui', $ua, $match)) {
-            $this->data->browser->name = 'Sharp PDA Browser';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-
             $this->data->device->manufacturer = 'Sharp';
             $this->data->device->model = 'Zaurus';
             $this->data->device->type = Constants\DeviceType::PDA;
@@ -160,9 +157,6 @@ trait Pda
     private function detectSharpShoin($ua)
     {
         if (preg_match('/sharp wd browser\/([0-9\.]+)/ui', $ua, $match)) {
-            $this->data->browser->name = 'Sharp WD Browser';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-
             $this->data->device->manufacturer = 'Sharp';
             $this->data->device->model = '書院';
             $this->data->device->type = Constants\DeviceType::PDA;
