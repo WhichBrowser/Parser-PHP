@@ -19,3 +19,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF35WMPRO/3.2; like Gecko) NetFront/3.5 T-01A_6.5'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: pda, manufacturer: Toshiba, model: T-01A, carrier: DoCoMo } }
+-
+    headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.5 (Screen=640x390x256;Product=NTT/PI-2000_1.20; )'
+    result: { browser: { name: NetFront, version: '2.5', type: browser }, device: { type: pda, manufacturer: NTT, model: 'PetitWeb PI-2000' } }

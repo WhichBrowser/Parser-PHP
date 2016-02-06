@@ -15,6 +15,7 @@ trait Pda
         $this->detectSonyMylo($ua);
         $this->detectSharpZaurus($ua);
         $this->detectSharpShoin($ua);
+        $this->detectNttPetitWeb($ua);
     }
 
 
@@ -174,6 +175,20 @@ trait Pda
                 $this->data->device->identified |= Constants\Id::MATCH_UA;
                 $this->data->device->generic = false;
             }
+        }
+    }
+
+
+    /* PetitWeb */
+
+    private function detectNttPetitWeb($ua)
+    {
+        if (preg_match('/Product\=NTT\/(PI-[0-9]+)/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'NTT';
+            $this->data->device->model = 'PetitWeb ' . $match[1];
+            $this->data->device->type = Constants\DeviceType::PDA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
     }
 }
