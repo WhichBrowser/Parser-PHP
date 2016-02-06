@@ -166,11 +166,11 @@ trait Pda
     {
         if (preg_match('/sharp wd browser\/([0-9\.]+)/ui', $ua, $match)) {
             $this->data->device->manufacturer = 'Sharp';
-            $this->data->device->model = '書院';
+            $this->data->device->model = 'Mobile Shoin';
             $this->data->device->type = Constants\DeviceType::PDA;
 
             if (preg_match('/\(([A-Z0-9\-]+)\/[0-9\.]+\)/ui', $ua, $match)) {
-                $this->data->device->model = '書院 ' . $match[1];
+                $this->data->device->model = 'Mobile Shoin ' . $match[1];
                 $this->data->device->identified |= Constants\Id::MATCH_UA;
                 $this->data->device->generic = false;
             }
