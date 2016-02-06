@@ -10,7 +10,7 @@ trait Phone
 {
     private function detectPhone($ua)
     {
-        $this->detectNtt($ua);
+        $this->detectNttTeless($ua);
     }
 
 
@@ -19,17 +19,14 @@ trait Phone
 
     /* Casio */
 
-    private function detectNtt($ua)
+    private function detectNttTeless($ua)
     {
-        if (preg_match('/Product\=NTT\/([^\);]+)[\);]/ui', $ua, $match)) {
+        if (preg_match('/Product\=NTT\/Teless/ui', $ua, $match)) {
             $this->data->device->manufacturer = 'NTT';
+            $this->data->device->model = 'Teless';
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->type = Constants\DeviceType::MOBILE;
             $this->data->device->subtype = Constants\DeviceSubType::DESKTOP;
-
-            if (substr($match[1], 0, 6) == 'Teless') {
-                $this->data->device->model = 'Teless';
-            }
         }
     }
 }
