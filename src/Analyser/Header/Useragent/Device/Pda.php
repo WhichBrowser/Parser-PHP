@@ -16,6 +16,7 @@ trait Pda
         $this->detectSonyAirboard($ua);
         $this->detectSharpZaurus($ua);
         $this->detectSharpShoin($ua);
+        $this->detectPanasonicPocketE($ua);
         $this->detectNttPetitWeb($ua);
     }
 
@@ -196,6 +197,20 @@ trait Pda
                 $this->data->device->identified |= Constants\Id::MATCH_UA;
                 $this->data->device->generic = false;
             }
+        }
+    }
+
+
+    /* Panasonic POCKET・E */
+
+    private function detectPanasonicPocketE($ua)
+    {
+        if (preg_match('/Product\=Panasonic\/POCKET-E/ui', $ua, $match)) {
+            $this->data->device->manufacturer = 'Panasonic';
+            $this->data->device->model = 'POCKET・E';
+            $this->data->device->type = Constants\DeviceType::PDA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
         }
     }
 
