@@ -1146,6 +1146,17 @@ trait Browser
 
     private function detectNetfront($ua)
     {
+        /* Compact NetFront */
+
+        if (preg_match('/CNF\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Compact NetFront';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+        }
+
+        /* NetFront */
+
         if (preg_match('/Net[fF]ront/u', $ua) && !preg_match('/NetFrontNX/u', $ua)) {
             $this->data->browser->name = 'NetFront';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
@@ -2281,7 +2292,6 @@ trait Browser
                 [ 'name' => 'Baidu Browser',        'regexp' => '/BIDUBrowser[ \/]([0-9.]*)/u' ],
                 [ 'name' => 'Baidu Browser',        'regexp' => '/BaiduHD\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
                 [ 'name' => 'Blazer',               'regexp' => '/Blazer\/([0-9.]*)/u' ],
-                [ 'name' => 'CNF',                  'regexp' => '/CNF\/([0-9.]*)/u' ],
                 [ 'name' => 'Cornowser',            'regexp' => '/Cornowser\/([0-9.]*)/u' ],
                 [ 'name' => 'CuteBrowser',          'regexp' => '/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Digia @Web',           'regexp' => '/Digia @Web\/([0-9.]*)/u' ],

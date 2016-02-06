@@ -6,7 +6,7 @@
     result: { browser: { name: 'Opera Mobile', version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: AH-K3001V, carrier: Willcom } }
 -
     headers: 'User-Agent: Mozilla/3.0 (DDIPOCKET;JRC/AH-J3001V,AH-J3002V/1.0/0100/c50) CNF/2.0'
-    result: { browser: { name: CNF, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: JRC, model: AH-J3001V, carrier: Willcom } }
+    result: { browser: { name: 'Compact NetFront', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: JRC, model: AH-J3001V, carrier: Willcom } }
 -
     headers: 'User-Agent: Mozilla/5.0 (MobilePhone; NMCS/3.4; like Gecko/20060901;KYOCERA/WX340K/2;3.0.3.11.000000/1) NetFront/3.4'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: WX340K, carrier: Willcom } }
