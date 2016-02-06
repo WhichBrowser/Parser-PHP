@@ -35,7 +35,7 @@ trait Derive
 
     private function &deriveDeviceSubType()
     {
-        if ($this->data->device->type == 'mobile') {
+        if ($this->data->device->type == 'mobile' && empty($this->data->device->subtype)) {
             $this->data->device->subtype = 'feature';
 
             if (isset($this->data->os->family) && in_array($this->data->os->family->getName(), [ 'Android' ])) {

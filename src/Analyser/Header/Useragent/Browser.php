@@ -1225,6 +1225,10 @@ trait Browser
 
             if (preg_match('/Category=([^\);]+)[\);]/u', $ua, $match)) {
                 switch($match[1]) {
+                    case 'WebPhone':
+                        $this->data->device->type = Constants\DeviceType::MOBILE;
+                        $this->data->device->subtype = Constants\DeviceSubType::DESKTOP;
+                        break;
                     case 'WP':
                     case 'Home Mail Tool':
                     case 'PDA':

@@ -82,3 +82,6 @@
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.0 Screen=320x240x256; InputMethod=MOUSE,KEYBOARD; Page=512K; Product=Panasonic/POCKET-E1.0C01; HTML-Level=3.2; Language=ja.SJIS; Category=PDA; CPU=M32R; Storage=NO; DDIP=LOCATION'
     result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda } }
+-
+    headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.0 (BrowserInfo Screen=640x480x256; InputMethod=PEN,KEYBOARD; Page=2M; Product=NTT/Telesse1_1.0; HTML-Level=3.2; Language=ja.SJIS; Category=WebPhone; CPU=MPC823; Storage=NO;)'
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: mobile, subtype: desktop, manufacturer: NTT, model: Teless } }
