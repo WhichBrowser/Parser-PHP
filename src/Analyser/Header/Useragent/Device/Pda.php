@@ -25,11 +25,19 @@ trait Pda
 
     private function detectCasio($ua)
     {
-        if (preg_match('/CASIO\/CASSIOPEIA/ui', $ua, $match)) {
+        if (preg_match('/Product\=CASIO\/([^\);]+)[\);]/ui', $ua, $match)) {
             $this->data->device->manufacturer = 'Casio';
-            $this->data->device->model = 'Cassiopeia';
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->type = Constants\DeviceType::PDA;
+
+            if ($match[1] == 'CASSIOPEIA BE') {
+                $this->data->device->model = 'Cassiopeia';
+            }
+
+            if ($match[1] == 'PPP101') {
+                $this->data->device->model = 'Pocket PostPet';
+                $this->data->device->carrier = 'DoCoMo';
+            }
         }
     }
 
