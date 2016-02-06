@@ -5,7 +5,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 trait Device
 {
     use Device\Cars, Device\Gps, Device\Gaming, Device\Ereader, Device\Mobile,
-        Device\Media, Device\Television, Device\Signage, Device\Printer, 
+        Device\Media, Device\Television, Device\Signage, Device\Printer,
         Device\Phone, Device\Pda;
 
     private function &detectDevice($ua)
