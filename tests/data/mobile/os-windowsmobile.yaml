@@ -75,7 +75,7 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Tempo F900' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]'
-    result: { browser: { name: 'Opera Mobile', type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: WS020SH } }
+    result: { browser: { name: 'Opera Mobile', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
@@ -99,10 +99,10 @@
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: W-ZERO3 WS007SH, carrier: Willcom } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: W-ZERO3 WS007SH, carrier: Willcom } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
 -
     headers: 'User-Agent: Opera/9.70 (Windows NT 5.1; U; xx) TMO-US_LEO'
     result: { browser: { name: Opera, version: '9.70', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
@@ -147,7 +147,7 @@
     result: { os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: dopodT5388/1.0 WindowsMobile/6.1 CEOS/5.2 release/1.6 Opera/9.5 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
-    result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: 'Touch Diamond 2' } }
+    result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: T5388 } }
 -
     headers: 'User-Agent: dopodT8588/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 Opera/9.7 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1 4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/800'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: T8588 } }
@@ -342,16 +342,16 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: TG01 } }
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: W-ZERO3 WS007SH, carrier: Willcom } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S12HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S12HT, carrier: EMOBILE } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Smartphone; 240x320; SPV E650; OpVer 22.114.2.733'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV E650' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) HTCS620;Smartphone;320x240'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Excalibur } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'S620 Excalibur' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320X320 Palm Treo850e'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 850e' } }

@@ -285,6 +285,8 @@ class DeviceModels
         $s = preg_replace('/^(MOT-)/u', '', $s);
         $s = preg_replace('/^Moto([^\s])/u', '$1', $s);
 
+        $s = preg_replace('/^VZW:/iu', '', $s);
+        $s = preg_replace('/^Vodafone\/1.0\//iu', '', $s);
         $s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust|ls)$/iu', '', $s);
         $s = preg_replace('/ (Mozilla|Opera|Obigo|Build|Java|PPC)$/iu', '', $s);
         $s = preg_replace('/http:\/\/.+$/iu', '', $s);
