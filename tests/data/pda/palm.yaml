@@ -6,7 +6,7 @@
     result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 680' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D062; Blazer/4.5) 16;320x320'
-    result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Centro } }
+    result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Centro 690' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-TunX; Blazer/4.3) 16;320x448'
     result: { browser: { name: Blazer, version: '4.3', type: browser }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Palm, model: LifeDrive } }
@@ -21,7 +21,7 @@
     result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 680' } }
 -
     headers: 'User-Agent: PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320'
-    result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: Centro } }
+    result: { browser: { name: Blazer, version: '4.5', type: browser }, os: { name: 'Palm OS' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Centro 685' } }
 -
     headers: 'User-Agent: Xiino/1.0.9E [en] (v. 4.1; 153x130; g4)'
     result: { browser: { name: Xiino, version: 1.0.9, type: browser }, os: { name: 'Palm OS', version: '4.1' }, device: { type: pda } }
@@ -64,3 +64,6 @@
 -
     headers: 'User-Agent: Palmscape/3.0J [ja] (v. 3.5.2H1.5; 153x130; c8)'
     result: { browser: { name: Palmscape, version: '3.0', type: browser }, os: { name: 'Palm OS', version: 3.5.2 }, device: { type: pda } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (PDA; PalmOS/sony/model grnd/Revision:1.1.30(en)) NetFront/3.0'
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-NZ90' } }
