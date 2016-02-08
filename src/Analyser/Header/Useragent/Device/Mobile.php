@@ -276,6 +276,11 @@ trait Mobile
             'manufacturer'  => 'Airness'
         ]);
 
+        $this->data->device->identifyModel('/ASUS-([^\/]*)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Asus'
+        ]);
+
         $this->data->device->identifyModel('/BenQ[ -]([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'BenQ'

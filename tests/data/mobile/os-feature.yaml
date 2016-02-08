@@ -340,3 +340,6 @@
 -
     headers: 'User-Agent: BIRD-S689'
     result: { device: { type: mobile, subtype: feature, manufacturer: Bird, model: S689 } }
+-
+    headers: 'User-Agent: ASUS-J501/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Asus, model: J501 } }
