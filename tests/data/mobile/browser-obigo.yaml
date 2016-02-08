@@ -91,3 +91,27 @@
 -
     headers: 'User-Agent: Fly_DS123/Q03C_MAUI_Browser/MIDP2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Fly, model: DS123 } }
+-
+    headers: 'User-Agent: Philips9@9k/R08 NXP5210/DV7 Release/9.12.2007 Mozilla/Obigo/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { browser: { name: Obigo, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 9@9k } }
+-
+    headers: 'User-Agent: SonyEricssonT250a/R5CA005 TelecaBrowser/1.1.14.20'
+    result: { browser: { name: Obigo, version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: T250a } }
+-
+    headers: 'User-Agent: BIRD.F501/1.00 Nucleus RTOS/V1.11.19 MTK6227/05C_V24 Release/11.21.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: F501 } }
+-
+    headers: 'User-Agent: Philips E210/Obigo Browser wap2.0'
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: E210 } }
+-
+    headers: 'User-Agent: Philips292 / Obigo Browser 2.0'
+    result: { browser: { name: Obigo, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: '292' } }
+-
+    headers: 'User-Agent: Alcatel-OH2/1.0 ObigoInternetBrowser/2.0'
+    result: { browser: { name: Obigo, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: OH2 } }
+-
+    headers: 'User-Agent: PhilipsX830/1.0 MTK6239/08A Release/11.11.2008 Browser/Obigo2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
+    result: { browser: { name: Obigo, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: X830 } }
+-
+    headers: 'User-Agent: LENOVO-A210/S015 Nucleus/1.15 MTK/53 Release/09.01.2011 Browser/Obigo03C'
+    result: { browser: { name: Obigo, version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Lenovo, model: A210 } }

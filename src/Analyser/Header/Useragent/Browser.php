@@ -1309,6 +1309,7 @@ trait Browser
 
         if (preg_match('/(?:Obigo|Teleca)/ui', $ua)) {
             $this->data->browser->name = 'Obigo';
+            $this->data->browser->version = null;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
             if (preg_match('/Obigo\/0?([0-9.]+)/iu', $ua, $match)) {
@@ -1316,22 +1317,27 @@ trait Browser
             } elseif (preg_match('/TelecaBrowser\/(WAP|[A-Z])?0?([0-9.]+[A-Z]?)/iu', $ua, $match)) {
                 $this->data->browser->version = new Version($processObigoVersion($match[2]));
                 if (!empty($match[1])) {
-                    $this->data->browser->name = 'Obigo ' . $match[1];
+                    $this->data->browser->name = 'Obigo ' . strtoupper($match[1]);
                 }
             } elseif (preg_match('/(?:Obigo(?:InternetBrowser|[- ]Browser)?|Teleca)\/(WAP|[A-Z])?[0O]?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
                 $this->data->browser->version = new Version($processObigoVersion($match[2]));
                 if (!empty($match[1])) {
-                    $this->data->browser->name = 'Obigo ' . $match[1];
+                    $this->data->browser->name = 'Obigo ' . strtoupper($match[1]);
                 }
             } elseif (preg_match('/(?:Obigo|Teleca)[- ]([WAP|[A-Z])?0?([0-9.]+[A-Z]?)(?:[0-9])?(?:[\/;]|$)/ui', $ua, $match)) {
                 $this->data->browser->version = new Version($processObigoVersion($match[2]));
                 if (!empty($match[1])) {
-                    $this->data->browser->name = 'Obigo ' . $match[1];
+                    $this->data->browser->name = 'Obigo ' . strtoupper($match[1]);
                 }
-            } elseif (preg_match('/Browser\/(?:Obigo|Teleca)[_-](?:Browser\/)?(WAP|[A-Z])?0?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
+            } elseif (preg_match('/Browser\/(?:Obigo|Teleca)[_-]?(?:Browser\/)?(WAP|[A-Z])?0?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
                 $this->data->browser->version = new Version($processObigoVersion($match[2]));
                 if (!empty($match[1])) {
-                    $this->data->browser->name = 'Obigo ' . $match[1];
+                    $this->data->browser->name = 'Obigo ' . strtoupper($match[1]);
+                }
+            } elseif (preg_match('/Obigo Browser (WAP|[A-Z])?0?([0-9.]+[A-Z]?)/ui', $ua, $match)) {
+                $this->data->browser->version = new Version($processObigoVersion($match[2]));
+                if (!empty($match[1])) {
+                    $this->data->browser->name = 'Obigo ' . strtoupper($match[1]);
                 }
             }
         }
