@@ -75,7 +75,7 @@
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N82 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95-3/10.2.006; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'N95-3 NAM' } }
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N95 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95_8GB/15.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.2' }, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'N95 8GB' } }
@@ -129,7 +129,7 @@
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N96 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-3/3.00; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N96-3 } }
+    result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N96 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC5-03/23.0.015; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) PRO|MODv2.4/8.3.1.1 Mobile Safari/533.4 3gpp-gba'
     result: { engine: { name: Webkit, version: '533.4' }, os: { name: Series60, family: { name: Symbian, version: '9.4' }, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C5-03 } }
