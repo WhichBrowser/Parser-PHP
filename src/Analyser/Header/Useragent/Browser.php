@@ -1162,7 +1162,7 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             unset($this->data->browser->channel);
 
-            if (preg_match('/NetFront\/?([0-9.]*)/ui', $ua, $match)) {
+            if (preg_match('/NetFront[ \/]?([0-9.]*)/ui', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
@@ -1207,7 +1207,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/(?:Browser\/(?:NF|NetFr?ont-)|NF-Browser\/|ACS-NF\/)([0-9.]*)/ui', $ua, $match)) {
+        if (preg_match('/(?:Browser\/(?:NF|NetFr?ont-)|NF-Browser\/|ACS-NF\/|NetFront FullBrowser\/)([0-9.]*)/ui', $ua, $match)) {
             $this->data->browser->name = 'NetFront';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;

@@ -82,3 +82,9 @@
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.0 (BrowserInfo Screen=640x480x256; InputMethod=PEN,KEYBOARD; Page=2M; Product=NTT/Telesse1_1.0; HTML-Level=3.2; Language=ja.SJIS; Category=WebPhone; CPU=MPC823; Storage=NO;)'
     result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: mobile, subtype: desktop, manufacturer: NTT, model: Teless } }
+-
+    headers: 'User-Agent: MOT-WX450/0.1.26B NetFront FullBrowser/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: WX450 } }
+-
+    headers: 'User-Agent: SAMSUNG-SGH-E778/NetFront 3.2/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDA0NDAxMDUwMDY4OTEx'
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E778 } }
