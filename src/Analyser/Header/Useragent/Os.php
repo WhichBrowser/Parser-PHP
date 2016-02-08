@@ -1853,7 +1853,7 @@ trait Os
         if (preg_match('/[\(\s\-;]BREW[\s\/\-;]/ui', $ua) || preg_match('/BMP( [0-9.]*)?; U/u', $ua) || preg_match('/B(?:rew)?MP\/([0-9.]*)/u', $ua)) {
             $this->data->os->name = 'Brew';
 
-            if (preg_match('/BREW MP/iu', $ua) || preg_match('/B(?:rew)?MP/iu', $ua)) {
+            if (preg_match('/BREW MP/iu', $ua) || preg_match('/B(rew)?MP/iu', $ua)) {
                 $this->data->os->name = 'Brew MP';
             }
 

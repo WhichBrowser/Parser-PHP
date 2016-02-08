@@ -69,7 +69,7 @@
     result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
 -
     headers: 'User-Agent: PantechP6030/JZUS09022013 BMP/1.0.4 DeviceId/141030 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: Brew, version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
 -
     headers: 'User-Agent: PhilipsW715/Qualcomm Brew MP 1.0.3/WAP-2.0/MIDP-2.0/CLDC-1.1'
     result: { os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: W715 } }

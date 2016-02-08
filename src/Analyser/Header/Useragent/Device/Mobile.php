@@ -1138,7 +1138,10 @@ trait Mobile
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
-                $this->data->os->name = 'Brew';
+
+                if (!in_array($this->data->os->name, [ 'Brew', 'Brew MP' ])) {
+                    $this->data->os->name = 'Brew';
+                }
             }
         }
 

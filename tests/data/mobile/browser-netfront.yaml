@@ -9,7 +9,7 @@
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: K-Touch, model: T566 } }
 -
     headers: 'User-Agent: PantechP6020/JXUS04022012 BMP/1.0.4 DeviceId/141026 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P6020 } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: 'Persuit II' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-S3350/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 335' } }
