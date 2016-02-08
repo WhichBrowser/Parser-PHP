@@ -1316,10 +1316,14 @@ trait Os
                 $this->data->device->model = 'A or Z series';
             }
 
+            if ($this->data->device->model == 'STL100-2') {
+                $this->data->device->model = 'Z10';
+            }
+
             $this->data->device->type = preg_match('/Mobile/u', $ua) ? Constants\DeviceType::MOBILE : Constants\DeviceType::TABLET;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
 
-            if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Version\/([0-9.]+)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             }
         }
