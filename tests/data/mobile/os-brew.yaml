@@ -160,3 +160,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; 3.1.5; xx) AppleWebKit/528.28 (KHTML, like Gecko) OBIGO/W10.1 Safari/528.5 480X800 LGE VX11000'
     result: { browser: { name: 'Obigo W', version: '10.1', type: browser }, engine: { name: Webkit, version: '528.28' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+-
+    headers: 'User-Agent: MOT-EX132/1.0 REXL4/1.0 BrewMP/1.0.3 Release/6.15.2011 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
