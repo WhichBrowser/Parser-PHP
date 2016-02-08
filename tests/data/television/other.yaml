@@ -421,3 +421,6 @@
 -
     headers: 'User-Agent: Mozilla/4.08(DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(000024;JC-4000;000;000)'
     result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Connect AS', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/4.08 (DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(0050C9;010;001;000)'
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Maspro Denkoh', series: 'Smart TV' } }

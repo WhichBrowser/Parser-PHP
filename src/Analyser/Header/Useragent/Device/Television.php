@@ -750,6 +750,10 @@ trait Television
 
                         break;
 
+                    case '0050C9#':
+                        $this->data->device->manufacturer = 'Maspro Denkoh';
+                        break;
+
                     case '38E08E#':
                         $this->data->device->manufacturer = 'Mitsubishi';
                         break;
