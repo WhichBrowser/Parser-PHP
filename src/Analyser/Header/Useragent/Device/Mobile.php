@@ -305,7 +305,7 @@ trait Mobile
             }
         ]);
 
-        $this->data->device->identifyModel('/Bird[ _\.]([^\/]*)/ui', $ua, [
+        $this->data->device->identifyModel('/Bird[ _\-\.]([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Bird'
         ]);

@@ -115,3 +115,6 @@
 -
     headers: 'User-Agent: LENOVO-A210/S015 Nucleus/1.15 MTK/53 Release/09.01.2011 Browser/Obigo03C'
     result: { browser: { name: Obigo, version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Lenovo, model: A210 } }
+-
+    headers: 'User-Agent: BIRD S710_BLEU/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca'
+    result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: S710 } }
