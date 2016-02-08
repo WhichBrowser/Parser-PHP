@@ -305,7 +305,7 @@ trait Mobile
             }
         ]);
 
-        $this->data->device->identifyModel('/Bird[ _]([^\/]*)/ui', $ua, [
+        $this->data->device->identifyModel('/Bird[ _\.]([^\/]*)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Bird'
         ]);
@@ -503,7 +503,7 @@ trait Mobile
             'manufacturer'  => 'Pantech'
         ]);
 
-        $this->data->device->identifyModel('/Philips([A-Z][0-9]+)/u', $ua, [
+        $this->data->device->identifyModel('/Philips ?([A-Z]?[0-9@]+[a-z]?)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Philips'
         ]);
