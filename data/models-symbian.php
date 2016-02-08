@@ -22,7 +22,7 @@ DeviceModels::$SYMBIAN_MODELS = [
     'W950i'                                     => [ 'Sony Ericsson', 'W950', 'flag' => Flag::UIQ ],
     'W960i'                                     => [ 'Sony Ericsson', 'W960', 'flag' => Flag::UIQ ],
 
-    'LG KS10'                                   => [ 'LG', 'KS10', 'flag' => Flag::S60 ],
+    'LG KS10'                                   => [ 'LG', 'KS10 Joy', 'flag' => Flag::S60 ],
     'LGKT610'                                   => [ 'LG', 'KT610', 'flag' => Flag::S60 ],
     'LGKT615'                                   => [ 'LG', 'KT615', 'flag' => Flag::S60 ],
     'C5-00!'                                    => [ 'Nokia', 'C5-00', 'flag' => Flag::S60 ],

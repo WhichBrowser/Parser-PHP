@@ -42,5 +42,7 @@ DeviceModels::$BREW_MODELS = [
     'CDM8999'                                   => [ 'Pantech', 'Crux' ],
     'CDM8992'                                   => [ 'Pantech', 'Hotshot' ],
     'TXT8045'                                   => [ 'Pantech', 'Jest 2' ],
+    'P5000'                                     => [ 'Pantech', 'Link II' ],
+    'P6020'                                     => [ 'Pantech', 'Persuit II' ],
     'P6030'                                     => [ 'Pantech', 'Reneu' ],
 ];
