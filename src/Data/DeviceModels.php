@@ -237,6 +237,7 @@ class DeviceModels
 
         $s = preg_replace('/_TD$/u', '', $s);
         $s = preg_replace('/_LTE$/u', '', $s);
+        $s = preg_replace('/_GPRS$/u', '', $s);
         $s = preg_replace('/_CMCC$/u', '', $s);
         $s = preg_replace('/_CUCC$/u', '', $s);
         $s = preg_replace('/-BREW.+$/u', '', $s);

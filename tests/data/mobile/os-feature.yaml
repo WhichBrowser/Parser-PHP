@@ -334,3 +334,6 @@
 -
     headers: 'User-Agent: Panasonic-X200P/RP1 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: X200P } }
+-
+    headers: 'User-Agent: BIRD S701_GPRS/1.0 OSE/V1.6.0 ULC/2.0 Release/04.21.2008 Browser/JB4.3'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Bird, model: S701 } }

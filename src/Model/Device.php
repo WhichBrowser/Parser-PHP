@@ -83,6 +83,7 @@ class Device extends Base
             $this->manufacturer = !empty($defaults['manufacturer']) ? $defaults['manufacturer'] : null;
             $this->model = Data\DeviceModels::cleanup($match[1]);
             $this->identifier = preg_replace('/ (Mozilla|Opera|Obigo|Build|Java|PPC)$/iu', '', $match[0]);
+            $this->identifier = preg_replace('/_(TD|GPRS|LTE|CMCC|CUCC)$/iu', '', $match[0]);
 
             if (isset($defaults['model'])) {
                 if (is_callable($defaults['model'])) {
