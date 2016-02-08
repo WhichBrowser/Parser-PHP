@@ -29,13 +29,31 @@ trait Media
             ]);
         }
 
-        if (preg_match('/ARCHOS; GOGI; a([67]05);/u', $ua, $match)) {
+        if (preg_match('/ARCHOS; GOGI; a([67]05f?);/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Archos',
                 'model'         =>  $match[1] . ' WiFi',
                 'type'          =>  Constants\DeviceType::MEDIA
             ]);
+        }
+
+        if (preg_match('/ARCHOS; GOGI; G6([SHL]);/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Archos',
+                'type'          =>  Constants\DeviceType::MEDIA
+            ]);
+
+            switch ($match[1]) {
+                case 'S':
+                case 'H':
+                    $this->data->device->model = '5';
+                    break;
+                case 'L':
+                    $this->data->device->model = '7';
+                    break;
+            }
         }
     }
 

@@ -7,3 +7,15 @@
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a705; en)'
     result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '705 WiFi' } }
+-
+    headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a605f; de)'
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '605f WiFi' } }
+-
+    headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6S; Version 1.1.1    (WMDRMPD: 10.1); en)'
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '5' } }
+-
+    headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6H; Version 1.7.11    (WMDRMPD: 10.1) ; de)'
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '5' } }
+-
+    headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6L; Version 1.6.53    (WMDRMPD: 10.1) ; es)'
+    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '7' } }
