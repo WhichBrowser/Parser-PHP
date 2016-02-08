@@ -734,7 +734,7 @@ trait Mobile
             $carrier = 'DoCoMo';
         }
 
-        if (preg_match('/DoCoMo\/[0-9].0 ((' . implode('|', array_keys($ids)) . ')[0-9]{2,2}[A-Z][0-9]?)\(/u', $ua, $match)) {
+        if (preg_match('/DoCoMo\/[0-9].0 ((' . implode('|', array_keys($ids)) . ')[0-9]{2,2}[A-Z][0-9]?)(?:\s?\(|$)/u', $ua, $match)) {
             $model = $match[1];
             $manufacturer = $match[2];
             $carrier = 'DoCoMo';

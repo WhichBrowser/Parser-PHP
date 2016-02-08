@@ -94,3 +94,12 @@
 -
     headers: 'User-Agent: DoCoMo/1.0/KO210i'
     result: { device: { type: mobile, subtype: feature, manufacturer: Kokusai, model: KO210i, carrier: DoCoMo } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 F04B'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F04B, carrier: DoCoMo } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 F02C (c500; TB; W24H16)'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F02C, carrier: DoCoMo } }
+-
+    headers: 'User-Agent: DoCoMo/2.0 F09A3'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F09A3, carrier: DoCoMo } }
