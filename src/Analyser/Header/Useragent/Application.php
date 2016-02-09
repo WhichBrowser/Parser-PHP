@@ -146,16 +146,20 @@ trait Application
                 [ 'name' => 'Ziepod',              'regexp' => '/Ziepod\+? ([0-9.]*)/u' ],
             ],
 
+            Constants\BrowserType::APP_CHAT => [
+                [ 'name' => 'Kik',                  'regexp' => '/Kik\/([0-9.]*)/u' ],
+                [ 'name' => 'WeChat',               'regexp' => '/MicroMessenger\/([0-9.]*)/u' ],
+                [ 'name' => 'Yahoo Messenger',      'regexp' => '/YahooMobile\/1.0 \(im; ([0-9.]+)\)/u', 'details' => 3 ],
+                [ 'name' => 'Yammer',               'regexp' => '/Yammer\/([0-9.]*)/u', 'details' => 2 ],
+            ],
+
             Constants\BrowserType::APP_SOCIAL => [
                 [ 'name' => 'Facebook',             'regexp' => '/FBAN\/FBIOS/u' ],
                 [ 'name' => 'Facebook',             'regexp' => '/FBAN\/FB4A/u' ],
                 [ 'name' => 'Facebook',             'regexp' => '/FB_IAB\/FB4A/u' ],
                 [ 'name' => 'Google+',              'regexp' => '/com.google.GooglePlus/u'  ],
-                [ 'name' => 'WeChat',               'regexp' => '/MicroMessenger\/([0-9.]*)/u' ],
                 [ 'name' => 'Sina Weibo',           'regexp' => '/weibo__([0-9.]*)/u' ],
                 [ 'name' => 'Twitter',              'regexp' => '/TwitterAndroid/u' ],
-                [ 'name' => 'Kik',                  'regexp' => '/Kik\/([0-9.]*)/u' ],
-                [ 'name' => 'Yammer',               'regexp' => '/Yammer\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'WordPress',            'regexp' => '/wp-android\/([0-9.]*)/u' ],
             ],
 

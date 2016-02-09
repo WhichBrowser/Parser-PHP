@@ -24,4 +24,5 @@ class BrowserType
     const APP_NEWS = 'app:news';
     const APP_ANTIVIRUS = 'app:antivirus';
     const APP_SHOPPING = 'app:shopping';
+    const APP_CHAT = 'app:chat';
 }
