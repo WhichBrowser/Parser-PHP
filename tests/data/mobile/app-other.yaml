@@ -1,0 +1,6 @@
+-
+    headers: 'User-Agent: GoogleEarth/7.1.0002.2011(Android;Android (HTC One X-endeavoru-user-4.2.2);de-DE;kml:2.2;client:Free;type:default)'
+    result: { browser: { name: 'Google Earth', version: '7.1', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+-
+    headers: 'User-Agent: GoogleEarth/7.1.0003.1255(Android;Android (LG-E986-geefhd-user-4.1.2);de-DE;kml:2.2;client:Free;type:default)'
+    result: { browser: { name: 'Google Earth', version: '7.1', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus G Pro' } }
