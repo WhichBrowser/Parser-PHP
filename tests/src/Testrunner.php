@@ -55,11 +55,15 @@ class Testrunner
                 if (isset($rule['result'])) {
                     if ($detected->toArray() != $rule['result']) {
                         fwrite($fp, "\n{$name}\n--------------\n\n");
+                        fwrite($fp, $detected->toString() . "\n\n");
+    
                         if (isset($options['headers'])) {
                             foreach ($options['headers'] as $k => $v) {
                                 fwrite($fp, $k . ': ' . $v . "\n");
                             }
                         }
+
+                        fwrite($fp, "\n");
                         fwrite($fp, "Base:\n");
                         fwrite($fp, Yaml::dump($rule['result']) . "\n");
                         fwrite($fp, "Calculated:\n");
@@ -71,11 +75,15 @@ class Testrunner
                     }
                 } else {
                     fwrite($fp, "\n{$name}\n--------------\n\n");
+                    fwrite($fp, $detected->toString() . "\n\n");
+
                     if (isset($options['headers'])) {
                         foreach ($options['headers'] as $k => $v) {
                             fwrite($fp, $k . ': ' . $v . "\n");
                         }
                     }
+
+                    fwrite($fp, "\n");
                     fwrite($fp, "New result:\n");
 
                     try {
