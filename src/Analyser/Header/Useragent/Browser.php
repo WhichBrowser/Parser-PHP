@@ -2359,6 +2359,7 @@ trait Browser
                 [ 'name' => 'AwoX',                 'regexp' => '/AwoX(?:\/([0-9.]*))? Browser/i' ],
                 [ 'name' => 'Isis',                 'regexp' => '/BrowserServer/u' ],
                 [ 'name' => 'Isis',                 'regexp' => '/ISIS\/([0-9.]*)/u', 'details' => 2 ],
+                [ 'name' => 'Spyglass',             'regexp' => '/Spyglass ([0-9.]+); OpenTV/u' ],
                 [ 'name' => 'Oregan Browser',       'regexp' => '/OreganMediaBrowser(?:\/([0-9.]*))?/u', 'details' => 2 ],
                 [ 'name' => 'Viera Browser',        'regexp' => '/Viera\/([0-9.]*)/u' ],
                 [ 'name' => 'Zetakey',              'regexp' => '/Zetakey Webkit\/([0-9.]*)/u' ],

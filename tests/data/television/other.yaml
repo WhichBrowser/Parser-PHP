@@ -424,3 +424,6 @@
 -
     headers: 'User-Agent: Mozilla/4.08 (DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(0050C9;010;001;000)'
     result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Maspro Denkoh', series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Spyglass 3.0; OpenTV) Gecko/20081010  InettvBrowser/1.0 (F00001;OTV-IB24L;2.4;00000),gzip(gfe),gzip(gfe),gzip(gfe)'
+    result: { browser: { name: Spyglass, version: '3.0', type: browser }, engine: { name: Gecko }, device: { type: television, series: OpenTV } }
