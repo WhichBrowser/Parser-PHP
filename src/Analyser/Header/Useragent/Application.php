@@ -85,6 +85,27 @@ trait Application
                 $this->data->device = $device;
             }
         }
+
+        /* Yahoo */
+
+        if (preg_match('/YahooMobile(?:Messenger|Mail)\/1.0 \(Android (Messenger|Mail); ([0-9\.]+)\) \([^;]+; ?[^;]+; ?([^;]+); ?([0-9\.]+)\/[^\;\)\/]+\)/u', $ua, $match)) {
+            $this->data->browser->name = 'Yahoo ' . $match[1];
+            $this->data->browser->version = new Version([ 'value' => $match[2], 'details' => 3 ]);
+            $this->data->browser->type = $match[1] == 'Messenger' ? Constants\BrowserType::APP_CHAT : Constants\BrowserType::APP_EMAIL;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[4] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[3]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
     }
 
     private function detectRemainingApplications($ua)
@@ -114,6 +135,7 @@ trait Application
                 [ 'name' => 'Lotus Notes',          'regexp' => '/Lotus-Notes\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'Postbox',              'regexp' => '/Postbox[\/ ]([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'The Bat!',             'regexp' => '/The Bat! ([0-9.]*)/u', 'details' => 3 ],
+                [ 'name' => 'Yahoo Mail',           'regexp' => '/YahooMobile\/1.0 \(mail; ([0-9.]+)\)/u', 'details' => 3 ],
             ],
 
             Constants\BrowserType::APP_NEWS => [

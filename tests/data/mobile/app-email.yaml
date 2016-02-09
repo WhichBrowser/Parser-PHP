@@ -1,0 +1,27 @@
+-
+    headers: 'User-Agent: YahooMobileMail/1.0 (Android Mail; 1.3.9) (inc;HTC;ADR6300;2.3.4/GRJ22)'
+    result: { browser: { name: 'Yahoo Mail', version: 1.3.9, type: 'app:email' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Droid Incredible' } }
+-
+    headers: 'User-Agent: YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)'
+    result: { browser: { name: 'Yahoo Mail', version: 1.3.10, type: 'app:email' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 4G' } }
+-
+    headers: 'User-Agent: YahooMobileMail/1.0 (Android Mail; 3.0.5) (runnymede;HTC;Sensation XL with Beats Audio;4.0.3/IML74K)'
+    result: { browser: { name: 'Yahoo Mail', version: 3.0.5, type: 'app:email' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Sensation } }
+-
+    headers: 'User-Agent: YahooMobile/1.0 (mail; 1.3.8.9816); (Linux; U; Android 2.3.4; htc_glacier Build/GINGERBREAD_MR1);'
+    result: { browser: { name: 'Yahoo Mail', version: 1.3.8, type: 'app:email' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'myTouch 4G' } }
+-
+    headers: 'User-Agent: YahooMobile/1.0 (mail; 2.6.6.1310803); (Linux; U; Android 4.0.3; htc_shooteru Build/ICE_CREAM_SANDWICH_MR1);'
+    result: { browser: { name: 'Yahoo Mail', version: 2.6.6, type: 'app:email' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: shooteru } }
+-
+    headers: 'User-Agent: YahooMobile/1.0 (mail; 3.0.5.1311380); (Linux; U; Android 4.0.3; htc_runnymede Build/ICE_CREAM_SANDWICH_MR1);'
+    result: { browser: { name: 'Yahoo Mail', version: 3.0.5, type: 'app:email' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Sensation XL' } }
+-
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Mail; 1.3.10) (SGH-T499; Samsung; SGH-T499; 2.2.2/FROYO)'
+    result: { browser: { name: 'Yahoo Mail', version: 1.3.10, type: 'app:email' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Dart } }
+-
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Mail; 1.4.0) (vivow; HTC; ADR6350; 2.3.4/GRJ22)'
+    result: { browser: { name: 'Yahoo Mail', version: 1.4.0, type: 'app:email' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Droid Incredible 2' } }
+-
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Mail; 1.4.5) (SCH-I510; samsung; SCH-I510; 2.3.6/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Mail', version: 1.4.5, type: 'app:email' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Stealth V' } }

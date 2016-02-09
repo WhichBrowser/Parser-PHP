@@ -1,3 +1,15 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D14 Yammer/6.5.10.4304 (iPhone8,1; iPhone OS 9.2.1; fr_BE; xx; Scale/2.00)'
     result: { browser: { name: Yammer, version: '6.5', type: 'app:chat' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: 9.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6s' } }
+-
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Messenger; 1.5.1) (SCH-I500; Samsung; SCH-I500; 2.3.5/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.5.1, type: 'app:chat' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Fascinate } }
+-
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Messenger; 1.8.3) (SHW-M340K; samsung; SHW-M340K; 2.3.6/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.3, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
+-
+    headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 2.3.6; ONE_TOUCH_991D_ALDE Build/GINGERBREAD_MR1);'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Alcatel, model: 'One Touch 991' } }
+-
+    headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 4.2.2; ARCHOS 79XE Build/Unknown);'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, model: 'ARCHOS 79XE' } }
