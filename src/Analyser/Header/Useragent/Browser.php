@@ -2010,8 +2010,10 @@ trait Browser
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            $this->data->os->name = 'Series60';
-            $this->data->os->version = null;
+            if (!$this->data->isOs('Series60')) { 
+                $this->data->os->name = 'Series60';
+                $this->data->os->version = null;
+            }
         }
 
         /* Maxthon */
