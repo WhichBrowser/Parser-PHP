@@ -291,10 +291,6 @@ trait Application
                     } else {
                         $this->data->browser->version = null;
                     }
-
-                    if (isset($browsers[$b]['type'])) {
-                        $this->data->device->type = $browsers[$b]['type'];
-                    }
                 }
             }
         }
