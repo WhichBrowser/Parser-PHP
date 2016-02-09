@@ -6,6 +6,7 @@ DeviceModels::$ASHA_MODELS = [
     'Asha230SingleSIM'                          => [ 'Nokia', 'Asha 230' ],
     'Asha230DualSIM'                            => [ 'Nokia', 'Asha 230' ],
     '500'                                       => [ 'Nokia', 'Asha 500' ],
+    'Asha500SingleSIM'                          => [ 'Nokia', 'Asha 500' ],
     'Asha500DualSIM'                            => [ 'Nokia', 'Asha 500' ],
     '501'                                       => [ 'Nokia', 'Asha 501' ],
     '501s'                                      => [ 'Nokia', 'Asha 501' ],

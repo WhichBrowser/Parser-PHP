@@ -4417,6 +4417,7 @@ DeviceModels::$ANDROID_MODELS = [
     'HTC X310e'                                 => [ 'HTC', 'Titan' ],
     'HTC ETERNITY'                              => [ 'HTC', 'Titan' ],
     'HTC Polaris'                               => [ 'HTC', 'Touch Cruise' ],
+    'HTC TOUCH DUAL'                            => [ 'HTC', 'Touch Dual' ],
     'HTC DiamondII EX'                          => [ 'HTC', 'Touch Diamond II' ],
     'HTC T7373'                                 => [ 'HTC', 'Touch Pro II' ],
     'Touch Pro 2'                               => [ 'HTC', 'Touch Pro II' ],
