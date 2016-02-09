@@ -2045,7 +2045,7 @@ trait Browser
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            if (!$this->data->isOs('Series60')) { 
+            if (!$this->data->isOs('Series60')) {
                 $this->data->os->name = 'Series60';
                 $this->data->os->version = null;
             }
