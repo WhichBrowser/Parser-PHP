@@ -86,6 +86,59 @@ trait Application
             }
         }
 
+        /* Whatsapp */
+
+        if (preg_match('/WhatsApp\+?\/([0-9\.]+) (Android|S60Version|WP7)\/([0-9\.\_]+) Device\/([^\-]+)\-(.*)(?:-\([0-9]+\.[0-9]+\))?(?:\-H[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)?$/uU', $ua, $match)) {
+            $this->data->browser->name = 'WhatsApp';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::APP_CHAT;
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->manufacturer = $match[4];
+            $this->data->device->model = $match[5];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+
+            if ($match[2] == 'Android') {
+                $this->data->os->reset([
+                    'name'      => 'Android',
+                    'version'   => new Version([ 'value' => str_replace('_', '.', $match[3]) ])
+                ]);
+
+                $device = Data\DeviceModels::identify('android', $match[5]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if ($match[2] == 'S60Version') {
+                $this->data->os->reset([
+                    'name'      => 'Series60',
+                    'version'   => new Version([ 'value' => $match[3] ]),
+                    'family'    => new Family([ 'name' => 'Symbian' ])
+                ]);
+
+                $device = Data\DeviceModels::identify('symbian', $match[5]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if ($match[2] == 'WP7') {
+                $this->data->os->reset([
+                    'name'      => 'Windows Phone',
+                    'version'   => new Version([ 'value' => $match[3], 'details' => 2 ])
+                ]);
+
+                $device = Data\DeviceModels::identify('wp', $match[5]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+        }
+
         /* Yahoo */
 
         if (preg_match('/YahooMobile(?:Messenger|Mail)\/1.0 \(Android (Messenger|Mail); ([0-9\.]+)\) \([^;]+; ?[^;]+; ?([^;]+); ?([0-9\.]+)\/[^\;\)\/]+\)/u', $ua, $match)) {

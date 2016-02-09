@@ -13,3 +13,27 @@
 -
     headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 4.2.2; ARCHOS 79XE Build/Unknown);'
     result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, model: 'ARCHOS 79XE' } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.164 Android/4_2_2 Device/samsung-GT-I9152'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Mega 5.8 Plus' } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.139 Android/4.0.4 Device/HTC-HTC_Incredible_S'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Incredible S' } }
+-
+    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.1.2 Device/samsung-GT-S5310'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Pocket Neo' } }
+-
+    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.0.4 Device/Motorola-MB526'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY+ } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.107 S60Version/3.1 Device/Nokia-E51-(02.1)'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E51 } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.236 S60Version/3.2 Device/Nokia-6650-(02.01)'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6650' } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.356 WP7/7.10.8107 Device/SAMSUNG-GT-I8350-H23.15.0.8'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
+-
+    headers: 'User-Agent: WhatsApp/2.11.282 WP7/8.0.10328.0 Device/NOKIA-RM-914_eu_euro2_341-H1.0.0.0'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
