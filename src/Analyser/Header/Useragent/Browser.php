@@ -821,7 +821,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/Navigator\/([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/ Navigator\/(9\.[0-9.]*)/u', $ua, $match)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Netscape Navigator';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
