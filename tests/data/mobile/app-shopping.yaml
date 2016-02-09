@@ -1,0 +1,9 @@
+-
+    headers: 'User-Agent: Groupon/2.10.3166 (Android 4.1.2; LGE Vee4ss / Lge LG-E440; )[preload=true;locale=de_DE;clientidbase=android-om-lge]'
+    result: { browser: { name: Groupon, version: '2.10', type: 'app:shopping' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L4 II' } }
+-
+    headers: 'User-Agent: Groupon/2.10.3156 (Android 4.2.2; HTC Endeavoru / Htc HTC One X; O2 - de)[preload=false;locale=en_DE;clientidbase=android-htc-rev]'
+    result: { browser: { name: Groupon, version: '2.10', type: 'app:shopping' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+-
+    headers: 'User-Agent: Groupon/2.10.3156 (Android 4.2.2; Samsung Jflte / Samsung GT-I9505; Telekom.de)[preload=true;locale=de_DE;clientidbase=android-samsung]'
+    result: { browser: { name: Groupon, version: '2.10', type: 'app:shopping' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }

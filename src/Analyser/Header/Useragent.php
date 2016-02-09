@@ -4,7 +4,7 @@ namespace WhichBrowser\Analyser\Header;
 
 class Useragent
 {
-    use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Using, Useragent\Engine, Useragent\Bot;
+    use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Application, Useragent\Using, Useragent\Engine, Useragent\Bot;
 
     public function __construct($header, &$data)
     {
@@ -19,6 +19,7 @@ class Useragent
         $this->detectOperatingSystem($header)
              ->detectDevice($header)
              ->detectBrowser($header)
+             ->detectApplication($header)
              ->detectUsing($header)
              ->detectEngine($header)
              ->detectBot($header);
