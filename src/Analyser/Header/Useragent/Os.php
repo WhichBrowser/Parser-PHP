@@ -1049,7 +1049,7 @@ trait Os
                 }
             }
 
-            if (preg_match('/Symbian; U; (?:Nokia)?([^;]+); [a-z][a-z](?:\-[a-z][a-z])?/u', $ua, $match)) {
+            if (preg_match('/Symbian(?:\/3)?; U; (?:Nokia)?([^;]+); [a-z][a-z](?:\-[a-z][a-z])?/u', $ua, $match)) {
                 $this->data->device->manufacturer = 'Nokia';
                 $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
                 $this->data->device->identified |= Constants\Id::PATTERN;
