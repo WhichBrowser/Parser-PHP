@@ -151,3 +151,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; H30-T00) AppleWebKit/535.19 (KHTML, like Gecko) Version/4.0 LieBaoFast/2.9.0 Mobile Safari/535.19'
     result: { browser: { name: LieBaoFast, version: 2.9.0, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Honor 3C' } }
+-
+    headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: HTC One Firmware version: 4.3'
+    result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
+-
+    headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: Archos 50 Platinum Firmware version: 4.1.2'
+    result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Archos, model: '50 Platinum' } }
+-
+    headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.9.7030 Device model: HTC One mini Firmware version: 4.2.2'
+    result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One Mini' } }

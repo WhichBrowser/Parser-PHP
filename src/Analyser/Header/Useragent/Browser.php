@@ -45,10 +45,12 @@ trait Browser
         $this->detectAnt($ua);
         $this->detectSraf($ua);
 
-        /* Detect other browses */
+        /* Detect other browsers */
         $this->detectSpecficBrowsers($ua);
         $this->detectRemainingBrowsers($ua);
 
+        /* Detect other applications */
+        $this->detectApplications($ua);
 
         return $this;
     }
@@ -2204,6 +2206,30 @@ trait Browser
                     'type'          =>  Constants\DeviceType::GAMING,
                     'subtype'       =>  Constants\DeviceSubType::CONSOLE
                 ]);
+            }
+        }
+    }
+
+    private function detectApplications($ua)
+    {
+        /* Dr. Web Anti-Virus */
+
+        if (preg_match('/Dr\.Web anti\-virus Light Version: ([0-9\.]+) Device model: (.*) Firmware version: ([0-9\.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Dr. Web Light';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::APP_ANTIVIRUS;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[3] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[2]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
             }
         }
     }

@@ -22,4 +22,5 @@ class BrowserType
     const APP_DOWNLOAD = 'app:download';
     const APP_SEARCH = 'app:search';
     const APP_NEWS = 'app:news';
+    const APP_ANTIVIRUS = 'app:antivirus';
 }
