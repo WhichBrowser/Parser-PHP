@@ -1831,6 +1831,41 @@ trait Browser
             if (!isset($this->data->os->name) && $match[1] == 'QQBrowser') {
                 $this->data->os->name = 'Windows';
             }
+
+            if (preg_match('/MQQBrowser\/[0-9\.]+\/Adr \(Linux; U; ([0-9\.]+); [^;]+; (.+) Build/u', $ua, $match)) {
+                $this->data->os->reset([
+                    'name'      => 'Android',
+                    'version'   => new Version([ 'value' => $match[1] ])
+                ]);
+
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->device->model = $match[2];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('android', $match[2]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if (preg_match('/MQQBrowser\/[0-9\.]+\/WP7 \([^;]+;WPOS:([0-9]\.[0-9])[0-9\.]*;([^;]+); ([^\)]+)\)/u', $ua, $match)) {
+                $this->data->os->reset([
+                    'name'      => 'Windows Phone',
+                    'version'   => new Version([ 'value' => $match[1] ])
+                ]);
+
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->device->manufacturer = $match[2];
+                $this->data->device->model = $match[3];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('wp', $match[3]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
         }
 
         if (preg_match('/MQQBrowser\/Mini([0-9.]*)/u', $ua, $match)) {

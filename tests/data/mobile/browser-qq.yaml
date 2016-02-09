@@ -4,3 +4,60 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; m1 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025483 Mobile Safari/533.1 V1_AND_SQ_6.2.0_320_YYB_D QQ/6.2.0.2655 NetType/WIFI WebP/0.3.0 Pixel/768'
     result: { browser: { name: 'QQ Browser', version: '6.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, model: m1 } }
+-
+    headers: 'User-Agent: MQQBrowser/2.0 (Nokia5730;SymbianOS/9.1 Series60/3.0)'
+    result: { browser: { name: 'QQ Browser', version: '2.0', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5730 XpressMusic' } }
+-
+    headers: 'User-Agent: MQQBrowser/2.0 (NokiaN868MP;SymbianOS/9.1 Series60/3.0)'
+    result: { browser: { name: 'QQ Browser', version: '2.0', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'N86 8MP' } }
+-
+    headers: 'User-Agent: MQQBrowser/2.4 (Nokia6720c-1;SymbianOS/9.1 Series60/3.0)'
+    result: { browser: { name: 'QQ Browser', version: '2.4', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6720 classic' } }
+-
+    headers: 'User-Agent: MQQBrowser/2.2(KQBP22_GA;SonyEricssonJ105i/R1HA035)'
+    result: { browser: { name: 'QQ Browser', version: '2.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Naite } }
+-
+    headers: 'User-Agent: MQQBrowser/20 Mozilla/5.0 (Linux; U; Android 1.6; zh-cn; HTC TOUCH DUAL Build/DRC83) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
+    result: { browser: { name: 'QQ Browser', version: '2.0', type: browser }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Dual' } }
+-
+    headers: 'User-Agent: MQQBrowser/3.5/Mozilla/5.0 (Linux; U; Android 2.3.4; zh-cn; HTC EVO 3D by xiaoleizi Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'QQ Browser', version: '3.5', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
+-
+    headers: 'User-Agent: MQQBrowser/3.5/Mozilla/5.0 (Linux; U; Android 4.0.8; zh-cn; HTC inspire 4G For at&t Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    result: { browser: { name: 'QQ Browser', version: '3.5', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Inspire 4G' } }
+-
+    headers: 'User-Agent: MQQBrowser/4.0/Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; HTC EVO Design 4G Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1'
+    result: { browser: { name: 'QQ Browser', version: '4.0', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO Design 4G' } }
+-
+    headers: 'User-Agent: MQQBrowser/3.0/Adr (Linux; U; 4.0.4; zh-cn; HUAWEI U8950D Build/U8950DV100R001C17B939;540*960)'
+    result: { browser: { name: 'QQ Browser', version: '3.0', type: browser }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend G600' } }
+-
+    headers: 'User-Agent: MQQBrowser/3.6/Adr (Linux; U; 4.1.2; zh-cn; HUAWEI G610-C00 Build/G610-C00V100R001C92B120;540*960)'
+    result: { browser: { name: 'QQ Browser', version: '3.6', type: browser }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend G610' } }
+-
+    headers: 'User-Agent: MQQBrowser/2.0/WP7 (zh-cn;WPOS:7.10.8107;HTC; HD7T9292)'
+    result: { browser: { name: 'QQ Browser', version: '2.0', type: browser }, os: { name: 'Windows Phone', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD7 } }
+-
+    headers: 'User-Agent: MQQBrowser/2.7/Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; SurroundT8788)'
+    result: { browser: { name: 'QQ Browser', version: '2.7', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: '7 Surround' } }
+-
+    headers: 'User-Agent: MQQBrowser/2.7/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; HTC; WindowsPhone8Xby)'
+    result: { browser: { name: 'QQ Browser', version: '2.7', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 8X } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.2 (SAMSUNG SGH-F250L)'
+    result: { browser: { name: 'QQ Browser Mini', version: '2.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-F250L } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.2 (SAMSUNG-GT-E2252)'
+    result: { browser: { name: 'QQ Browser Mini', version: '2.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Metro 2252' } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.4 (PantechP7040/JLUS04042011)'
+    result: { browser: { name: 'QQ Browser Mini', version: '2.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: P7040 } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.5 (SonyEricssonK530i/R8BB001)'
+    result: { browser: { name: 'QQ Browser Mini', version: '2.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K530i } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini2.8 (SAMSUNG-GT-S5380K/S5380KDDLC3)'
+    result: { browser: { name: 'QQ Browser Mini', version: '2.8', type: browser }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave Y' } }
+-
+    headers: 'User-Agent: MQQBrowser/Mini3.1 (Nokia7100s/06.32)'
+    result: { browser: { name: 'QQ Browser Mini', version: '3.1', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '7100 Supernova' } }
