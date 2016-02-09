@@ -44,6 +44,27 @@ trait Application
             }
         }
 
+        /* Google Earth */
+
+        if (preg_match('/GoogleEarth\/([0-9\.]+)\(Android;Android \((.+)\-[^\-]+\-user-([0-9\.]+)\);/u', $ua, $match)) {
+            $this->data->browser->name = 'Google Earth';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::APP;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[3] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[2]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* Groupon */
 
         if (preg_match('/Groupon\/([0-9\.]+) \(Android ([0-9\.]+); [^\/]+ \/ ([^;]*);/u', $ua, $match)) {
@@ -168,7 +189,7 @@ trait Application
             ],
 
             Constants\BrowserType::APP => [
-                [ 'name' => 'Google Earth',         'regexp' => '/Google ?Earth\/([0-9.]*)/u', 'details' => 2 ],
+                [ 'name' => 'Google Earth',         'regexp' => '/Google Earth\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Google Desktop',       'regexp' => '/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Leechcraft',           'regexp' => '/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2 ],
                 [ 'name' => 'Lotus Expeditor',      'regexp' => '/Gecko Expeditor ([0-9.]*)/u', 'details' => 3 ],
