@@ -182,7 +182,7 @@ trait Browser
 
                     /* Version 1.0 */
                     if ($version == '18.0.1025.308' && preg_match('/Version\/1.0/u', $ua)) {
-                        $this->data->browser->name = "Samsung Browser";
+                        $this->data->browser->name = "Samsung Internet";
                         $this->data->browser->channel = null;
                         $this->data->browser->stock = true;
                         $this->data->browser->version = new Version([ 'value' => '1.0' ]);
@@ -190,7 +190,7 @@ trait Browser
 
                     /* Version 1.5 */
                     if ($version == '28.0.1500.94' && preg_match('/Version\/1.5/u', $ua)) {
-                        $this->data->browser->name = "Samsung Browser";
+                        $this->data->browser->name = "Samsung Internet";
                         $this->data->browser->channel = null;
                         $this->data->browser->stock = true;
                         $this->data->browser->version = new Version([ 'value' => '1.5' ]);
@@ -198,7 +198,7 @@ trait Browser
 
                     /* Version 1.6 */
                     if ($version == '28.0.1500.94' && preg_match('/Version\/1.6/u', $ua)) {
-                        $this->data->browser->name = "Samsung Browser";
+                        $this->data->browser->name = "Samsung Internet";
                         $this->data->browser->channel = null;
                         $this->data->browser->stock = true;
                         $this->data->browser->version = new Version([ 'value' => '1.6' ]);
@@ -206,7 +206,7 @@ trait Browser
 
                     /* Version 2.0 */
                     if ($version == '34.0.1847.76' && preg_match('/Version\/2.0/u', $ua)) {
-                        $this->data->browser->name = "Samsung Browser";
+                        $this->data->browser->name = "Samsung Internet";
                         $this->data->browser->channel = null;
                         $this->data->browser->stock = true;
                         $this->data->browser->version = new Version([ 'value' => '2.0' ]);
@@ -214,7 +214,7 @@ trait Browser
 
                     /* Version 2.1 */
                     if ($version == '34.0.1847.76' && preg_match('/Version\/2.1/u', $ua)) {
-                        $this->data->browser->name = "Samsung Browser";
+                        $this->data->browser->name = "Samsung Internet";
                         $this->data->browser->channel = null;
                         $this->data->browser->stock = true;
                         $this->data->browser->version = new Version([ 'value' => '2.1' ]);
@@ -223,7 +223,7 @@ trait Browser
 
                 /* Samsung Chromium based browsers */
                 if (preg_match('/SamsungBrowser\/([0-9.]*)/u', $ua, $match)) {
-                    $this->data->browser->name = "Samsung Browser";
+                    $this->data->browser->name = "Samsung Internet";
                     $this->data->browser->channel = null;
                     $this->data->browser->stock = true;
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
