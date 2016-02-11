@@ -290,7 +290,8 @@ class DeviceModels
         $s = preg_replace('/^VZW:/iu', '', $s);
         $s = preg_replace('/^Vodafone\/1.0\//iu', '', $s);
         $s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust)$/iu', '', $s);
-        $s = preg_replace('/ (Mozilla|Opera|Obigo|Build|Java|PPC)$/iu', '', $s);
+        $s = preg_replace('/ (Mozilla|Opera|Obigo|Java|PPC)$/iu', '', $s);
+        $s = preg_replace('/ ?Build$/iu', '', $s);
         $s = preg_replace('/http:\/\/.+$/iu', '', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);
         $s = preg_replace('/\s+/u', ' ', $s);
