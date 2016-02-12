@@ -1789,6 +1789,18 @@ trait Os
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
+            if (preg_match('/《붉은별》\/([0-9.]*)/iu', $ua, $match)) {
+                $this->data->os->name = 'Red Star';
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
+            if (preg_match('/Fedora\/[0-9\.\-]+rs([0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->name = 'Red Star';
+                $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
             if (preg_match('/Linux\/X2\/R1/u', $ua)) {
                 $this->data->os->name = 'LiMo';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
