@@ -38,6 +38,9 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx; rv:1.7.5) Gecko/20051012 Netscape/8.0.4'
     result: { browser: { name: Netscape, version: 8.0.4, type: browser }, engine: { name: Gecko, version: 1.7.5 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Netscape/8.0.4'
+    result: { browser: { name: Netscape, version: 8.0.4, type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.5) Gecko/20070321 Netscape/8.1.3'
     result: { browser: { name: Netscape, version: 8.1.3, type: browser }, engine: { name: Gecko, version: 1.7.5 }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
