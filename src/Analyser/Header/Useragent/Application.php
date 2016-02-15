@@ -170,6 +170,7 @@ trait Application
                 [ 'name' => 'iTunes',               'regexp' => '/iTunes-AppleTV\//u' ],
                 [ 'name' => 'QuickTime',            'regexp' => '/\(qtver=([0-9.]*);/u' ],
                 [ 'name' => 'Bluefish',             'regexp' => '/bluefish ([0-9.]*)/u' ],
+                [ 'name' => 'Nightingale',          'regexp' => '/Nightingale\/([0-9.]*)/u' ],
                 [ 'name' => 'Songbird',             'regexp' => '/Songbird\/([0-9.]*)/u' ],
                 [ 'name' => 'Stagefright',          'regexp' => '/stagefright\/([0-9.]*)/u' ],
                 [ 'name' => 'SubStream',            'regexp' => '/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
