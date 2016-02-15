@@ -2339,7 +2339,7 @@ trait Browser
                 [ 'name' => 'Sogou Explorer',       'regexp' => '/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
                 [ 'name' => 'Stainless',            'regexp' => '/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
                 [ 'name' => 'SunChrome',            'regexp' => '/SunChrome\/([0-9.]*)/u' ],
-                [ 'name' => 'Superbird',            'regexp' => '/Superbird\/([0-9.]*)/u', 'details' => 2 ],
+                [ 'name' => 'Superbird',            'regexp' => '/Super[Bb]ird\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Swing Browser',        'regexp' => '/Swing(?:\(And\))?\/([0-9.]*)/u', 'details' => 3 ],                                    // see: http://swing-browser.com
                 [ 'name' => 'Tencent Traveler',     'regexp' => '/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'TenFourFox',           'regexp' => '/TenFourFox\//u' ],
