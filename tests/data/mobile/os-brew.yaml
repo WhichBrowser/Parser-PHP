@@ -163,3 +163,9 @@
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4/1.0 BrewMP/1.0.3 Release/6.15.2011 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (BREW 3.1.5; U; en-us; Samsung; PLS_M330; POLARIS/6.1/WAP) MMP/2.0 Configuration/CLDC-1.1'
+    result: { browser: { name: Polaris, version: '6.1', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: PLS-M330 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (BREW 3.1.5; U; en-us; Samsung; SPH_M330; POLARIS/6.1/WAP) MMP/2.0 Configuration/CLDC-1.1 Novarra-Vision/8.0'
+    result: { browser: { name: Polaris, version: '6.1', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SPH-M330 } }

@@ -1927,6 +1927,20 @@ trait Os
                     $this->data->device = $device;
                 }
             }
+
+            if (preg_match('/\(BREW [^;]+; U; [^;]+; [^;]+; ([^;]+); (Polaris|Netfront)\/[0-9\.]+\/(WAP|AMB)\)/ui', $ua, $match)) {
+                var_dump($match);
+
+                $this->data->device->model = $match[1];
+                $this->data->device->identified = Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('brew', $match[1]);
+
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
         }
     }
 
