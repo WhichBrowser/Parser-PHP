@@ -233,6 +233,7 @@ trait Application
                 [ 'name' => 'Facebook',             'regexp' => '/FBAN\/FB4A/u' ],
                 [ 'name' => 'Facebook',             'regexp' => '/FB_IAB\/FB4A/u' ],
                 [ 'name' => 'Google+',              'regexp' => '/com.google.GooglePlus/u'  ],
+                [ 'name' => 'Instagram',            'regexp' => '/Instagram ([0-9.]+)/u' ],
                 [ 'name' => 'Sina Weibo',           'regexp' => '/weibo__([0-9.]*)/u' ],
                 [ 'name' => 'Twitter',              'regexp' => '/TwitterAndroid/u' ],
                 [ 'name' => 'WordPress',            'regexp' => '/wp-android\/([0-9.]*)/u' ],
