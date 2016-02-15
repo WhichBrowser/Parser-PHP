@@ -2372,6 +2372,7 @@ trait Browser
                 [ 'name' => 'EMOBILE Browser',      'regexp' => '/WWW Browser\/ver([0-9.]*)/u' ],
                 [ 'name' => 'Go.Web',               'regexp' => '/Go\.Web\/([0-9.]*)/u' ],                                                              // used on early Blackberry, by GoAmerica
                 [ 'name' => 'Helium',               'regexp' => '/HeliumMobileBrowser\/([0-9.]*)/u' ],
+                [ 'name' => 'iCab',                 'regexp' => '/iCabMobile\/([0-9.]*)/u' ],
                 [ 'name' => 'iLunascape',           'regexp' => '/iLunascape\/([0-9.]*)/u', 'details' => 3 ],                                           // see: http://www.lunascape.tv
                 [ 'name' => 'InternetSurfboard',    'regexp' => '/InternetSurfboard\/([0-9.]*)/u' ],
                 [ 'name' => 'iSurf',                'regexp' => '/iSurf version \/v([0-9.]*)/u', 'details' => 2 ],
