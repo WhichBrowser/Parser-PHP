@@ -2355,6 +2355,7 @@ trait Browser
                 [ 'name' => '2345 Browser',         'regexp' => '/Mb2345Browser\/([0-9.]*)/u' ],
                 [ 'name' => '3G Explorer',          'regexp' => '/3G Explorer\/([0-9.]*)/u', 'details' => 3 ],
                 [ 'name' => '4G Explorer',          'regexp' => '/4G Explorer\/([0-9.]*)/u', 'details' => 3 ],
+                [ 'name' => 'Atomic',               'regexp' => '/AtomicLite\/([0-9.]*)/u' ],                                                           // see: http://atomicwebbrowser.com
                 [ 'name' => 'Awakening',            'regexp' => '/Awakening Browser\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Baidu Browser',        'regexp' => '/M?BaiduBrowser\/([0-9.]*)/i' ],
                 [ 'name' => 'Baidu Browser',        'regexp' => '/BdMobile\/([0-9.]*)/i' ],
