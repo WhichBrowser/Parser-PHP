@@ -67,6 +67,10 @@ trait Derive
             if ($this->data->isBrowser('Mobile Internet Explorer', '=', 6)) {
                 $this->data->engine->set([ 'name' => 'Trident' ]);
             }
+
+            if ($this->data->isBrowser('Mobile Internet Explorer', '=', 7)) {
+                $this->data->engine->set([ 'name' => 'Trident', 'version' => new Version([ 'value' => '3.1' ]) ]);
+            }
         }
     }
 
