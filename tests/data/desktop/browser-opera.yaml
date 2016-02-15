@@ -306,13 +306,13 @@
     result: { browser: { name: Opera, version: '10.11', type: browser }, engine: { name: Presto, version: 2.2.15 }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/9.0 (Macintosh; U; PPC Mac OS; de)'
-    result: { browser: { name: Opera, version: '9.0', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/6.0 (Macintosh; PPC; U)  [en]'
-    result: { browser: { name: Opera, version: '6.0', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/5.0 (Macintosh;US;PPC) TP  [en]'
-    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Opera/5.0 (Macintosh;US;PPC)  [en]'
-    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }

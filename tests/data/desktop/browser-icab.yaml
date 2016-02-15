@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: iCab J/2.8.2 (Macintosh; U; PPC)'
-    result: { browser: { name: iCab, version: 2.8.2, type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: iCab, version: 2.8.2, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: iCab J/2.9.8 (Macintosh; U; PPC; Mac OS X)'
     result: { browser: { name: iCab, version: 2.9.8, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: iCab/2.9 (Macintosh; U; PPC)'
-    result: { browser: { name: iCab, version: '2.9', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: iCab, version: '2.9', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: iCab/2.9 (Macintosh; U; PPC; Mac OS X)'
     result: { browser: { name: iCab, version: '2.9', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }

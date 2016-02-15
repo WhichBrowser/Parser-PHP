@@ -69,4 +69,4 @@
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mosaic/1.0r2 (Macintosh; I; 68040)'
-    result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '1.0', type: browser }, os: { name: MacOS }, device: { type: desktop } }
+    result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '1.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
