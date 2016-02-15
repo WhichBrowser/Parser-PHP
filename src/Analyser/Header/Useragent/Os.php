@@ -612,37 +612,55 @@ trait Os
                     }
                 }
 
-                if (preg_match('/IEMobile [0-9.]+\) (?:PPC; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?(?:HTC\/|Toshiba\/)?([^;]+)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                    $this->data->device->identified |= Constants\Id::PATTERN;
 
-                    $device = Data\DeviceModels::identify('wm', $match[1]);
-                    if ($device->identified) {
-                        $device->identified |= $this->data->device->identified;
-                        $this->data->device = $device;
+                $model = null;
+
+                if (empty($model) && preg_match('/IEMobile [0-9.]+\)  ?(?:PPC; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?(?:VZW; )?([^;]+)/u', $ua, $match)) {
+                    if (!preg_match('/Profile\/MIDP/u', $match[1])) {
+                        $model = $match[1];
                     }
                 }
 
-                if (preg_match('/MSIE [0-9.]+; Windows CE; PPC; [0-9]+x[0-9]+; (?:HTC\/|Toshiba\/)?([^;\)]+)\)$/u', $ua, $match)) {
-                    $this->data->os->name = 'Windows Mobile';
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); [0-9]+x[0-9]+; ([^;\)]+)\)$/u', $ua, $match)) {
+                    $model = $match[1];
+                }
 
-                    $this->data->device->model = $match[1];
-                    $this->data->device->identified |= Constants\Id::PATTERN;
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); [0-9]+x[0-9]+; ([^;]+); (?:PPC|OpVer)/u', $ua, $match)) {
+                    $model = $match[1];
+                }
 
-                    $device = Data\DeviceModels::identify('wm', $match[1]);
-                    if ($device->identified) {
-                        $device->identified |= $this->data->device->identified;
-                        $this->data->device = $device;
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); ([^;]+) Profile\/MIDP/u', $ua, $match)) {
+                    $model = $match[1];
+                }
+
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone) ([^;]+)[;\/] [0-9]+x[0-9]+/u', $ua, $match)) {
+                    $model = $match[1];
+                }
+
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;]+); [0-9]+x[0-9]+\)/u', $ua, $match)) {
+                    if (!preg_match('/^(Smartphone|PPC$)/u', $match[1])) {
+                        $model = $match[1];
                     }
                 }
 
-                if (preg_match('/MSIE [0-9.]+; Windows CE; (?:HTC\/|Toshiba\/)?([^;\)]+)(?:; PPC; [0-9]+x[0-9]+)?\)$/u', $ua, $match) && !preg_match('/Windows CE; IEMobile/', $ua)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;]+);? ?(?:PPC|Smartphone); ?[0-9]+x[0-9]+/u', $ua, $match)) {
+                    $model = $match[1];
+                }
+
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;\)]+)(?:; (?:PPC|Smartphone); [0-9]+x[0-9]+)?\)( \[[a-zA-Z\-]+\])?$/u', $ua, $match)) {
+                    if (!preg_match('/^(IEMobile|MIDP-2.0|Smartphone|PPC$)/u', $match[1])) {
+                        $model = $match[1];
+                    }
+                }
+
+                if (!empty($model)) {
+                    $model = preg_replace('/(HTC\/|Toshiba\/)/', '', $model);
+
+                    $this->data->device->model = $model;
+                    $this->data->device->identified |= Constants\Id::PATTERN;
                     $this->data->os->name = 'Windows Mobile';
 
-                    $this->data->device->model = $match[1];
-                    $this->data->device->identified |= Constants\Id::PATTERN;
-
-                    $device = Data\DeviceModels::identify('wm', $match[1]);
+                    $device = Data\DeviceModels::identify('wm', $model);
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
