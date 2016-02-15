@@ -15,7 +15,7 @@
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX116 } }
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile6.0) Sprint T7380', X-Wap-Profile: 'http://device.sprintpcs.com/HTC/PPCT7380SP/2046514.rdf' }
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (LG-C195 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/LG-C195-M3-D1.xml' }
     result: { browser: { name: Phantom, version: '2.0', type: browser }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: C195 } }

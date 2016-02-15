@@ -62,6 +62,12 @@ trait Derive
                 $this->data->engine->set([ 'name' => 'Trident' ]);
             }
         }
+
+        if ($this->data->isMobile() && $this->data->isBrowser('Mobile Internet Explorer') && empty($this->data->engine->getName())) {
+            if ($this->data->isBrowser('Mobile Internet Explorer', '=', 6)) {
+                $this->data->engine->set([ 'name' => 'Trident' ]);
+            }
+        }
     }
 
 
