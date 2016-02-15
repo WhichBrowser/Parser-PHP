@@ -88,3 +88,6 @@
 -
     headers: 'User-Agent: SonyEricssonS302c/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1, SonyEricssonS302c/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: Openwave, version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S302c } }
+-
+    headers: 'User-Agent: MOT-W388_CMCC/1.0 Release/07.30.2008 Browser/OpenWave6.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/0.0.42'
+    result: { browser: { name: Openwave, version: '6.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W388 } }
