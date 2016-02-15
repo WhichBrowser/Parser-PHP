@@ -2387,7 +2387,7 @@ trait Browser
                 [ 'name' => 'MIUI Browser',         'regexp' => '/MiuiBrowser\/([0-9.]*)/u' ],
                 [ 'name' => 'NetFront Life Browser', 'regexp' => '/NetFrontLifeBrowser\/([0-9.]*)/u' ],
                 [ 'name' => 'OneBrowser',           'regexp' => '/OneBrowser\/([0-9.]*)/u' ],
-                [ 'name' => 'Openwave',             'regexp' => '/Openwave\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
+                [ 'name' => 'Openwave',             'regexp' => '/Open[Ww]ave\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
                 [ 'name' => 'Openwave',             'regexp' => '/Openwave Mobile Browser ([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
                 [ 'name' => 'Openwave',             'regexp' => '/UP\. ?Browser(?:\/([a-z0-9.]*))?/iu', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
                 [ 'name' => 'Openwave',             'regexp' => '/KM\.Browser\/([0-9.]+)/iu', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
