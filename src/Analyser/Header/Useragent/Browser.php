@@ -736,6 +736,16 @@ trait Browser
             }
         }
 
+        if (preg_match('/Phoenix/u', $ua)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Phoenix';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (preg_match('/Phoenix\/([0-9ab.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+        }
+
         if (preg_match('/Firebird/u', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firebird';

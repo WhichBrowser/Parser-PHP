@@ -184,3 +184,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0 Slackware/14.1'
     result: { browser: { name: Firefox, version: '33.0', type: browser }, engine: { name: Gecko, version: '33.0' }, os: { name: Slackware, version: '14.1' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021029 Phoenix/0.4'
+    result: { browser: { name: Phoenix, version: '0.4', type: browser }, engine: { name: Gecko, version: 1.2b }, os: { name: Linux }, device: { type: desktop } }
