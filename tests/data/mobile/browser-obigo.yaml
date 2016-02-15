@@ -121,3 +121,6 @@
 -
     headers: 'User-Agent: LG-MG800d MIC/WAP2.0 MIDP-2.0/CLDC-1.1'
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: MG800d } }
+-
+    headers: 'User-Agent: SAMSUNG-SPHM610 AU-MIC-M610'
+    result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SPHM610 } }
