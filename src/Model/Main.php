@@ -216,7 +216,7 @@ class Main
 
     public function isMobile()
     {
-        return $this->isType('mobile:smart', 'mobile:feature', 'tablet', 'ereader', 'media', 'watch', 'camera', 'gaming:portable');
+        return $this->isType('mobile', 'tablet', 'ereader', 'media', 'watch', 'camera', 'gaming:portable');
     }
 
 
