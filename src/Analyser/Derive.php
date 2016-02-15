@@ -57,13 +57,13 @@ trait Derive
 
     private function deriveTrident()
     {
-        if ($this->data->isType('desktop') && $this->data->isBrowser('Internet Explorer') && empty($this->data->engine->getName())) {
+        if ($this->data->isType('desktop') && $this->data->isBrowser('Internet Explorer') && !$this->data->engine->getName()) {
             if ($this->data->isBrowser('Internet Explorer', '>=', 4)) {
                 $this->data->engine->set([ 'name' => 'Trident' ]);
             }
         }
 
-        if ($this->data->isMobile() && $this->data->isBrowser('Mobile Internet Explorer') && empty($this->data->engine->getName())) {
+        if ($this->data->isMobile() && $this->data->isBrowser('Mobile Internet Explorer') && !$this->data->engine->getName()) {
             if ($this->data->isBrowser('Mobile Internet Explorer', '=', 6)) {
                 $this->data->engine->set([ 'name' => 'Trident' ]);
             }
