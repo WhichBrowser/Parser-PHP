@@ -7,3 +7,6 @@
 -
     headers: 'User-Agent: Mozilla/3.0  (compatible; GoLive 6.0; Windows 2000)'
     result: { browser: { name: 'Adobe GoLive', version: '6.0', type: 'app:editor' }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) iWeb/304'
+    result: { browser: { name: iWeb, version: '3', type: 'app:editor' }, engine: { name: Webkit, version: 600.1.25 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
