@@ -192,7 +192,7 @@
     result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W1' } }
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
 -
     headers: 'User-Agent: SAMSUNGSGH-i450/UCWEB8.7.0.187/28/10086'
     result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: i450 } }

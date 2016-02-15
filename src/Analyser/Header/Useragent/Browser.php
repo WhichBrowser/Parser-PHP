@@ -383,6 +383,10 @@ trait Browser
 
         /* Old versions of Pocket Internet Explorer */
 
+        if ($this->data->isBrowser('Mobile Internet Explorer', '<', 6)) {
+            $this->data->browser->name = 'Pocket Internet Explorer';
+        }
+
         if (preg_match('/Microsoft Pocket Internet Explorer\//u', $ua)) {
             $this->data->browser->name = 'Pocket Internet Explorer';
             $this->data->browser->version = new Version([ 'value' => '1.0' ]);

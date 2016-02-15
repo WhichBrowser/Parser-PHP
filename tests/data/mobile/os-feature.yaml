@@ -309,7 +309,7 @@
     result: { browser: { name: 'Obigo Q', version: { value: '4', alias: 4C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W385 } }
 -
     headers: 'User-Agent: HTCP3600-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
 -
     headers: 'User-Agent: EricssonT39/R202'
     result: { device: { type: mobile, subtype: feature, manufacturer: Ericsson, model: T39 } }

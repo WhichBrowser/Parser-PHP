@@ -30,7 +30,7 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 3G' } }
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88'
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
@@ -51,7 +51,7 @@
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
 -
     headers: 'User-Agent: HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
 -
     headers: 'User-Agent: HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
@@ -372,19 +372,19 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Nova' } }
 -
     headers: 'User-Agent: Vodafone/1.0/v1640/1.13.180 GER/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA IV' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA IV' } }
 -
     headers: 'User-Agent: Vodafone/1.0/v1240/2.5.484.0/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VDA II' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VDA II' } }
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_wizard/2.21.3.102/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Wizard } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Wizard } }
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_VPACompactIV/1.9.162.1/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA Compact IV' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA Compact IV' } }
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_Mercury/1.20.162.3/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN } }
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_Diamond Opera/9.50 (Windows NT 5.1; U; de)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
@@ -393,10 +393,10 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i617 BlackJack II' } }
 -
     headers: 'User-Agent: SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i607 BlackJack' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i607 BlackJack' } }
 -
     headers: 'User-Agent: Palm750/v0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
 -
     headers: 'User-Agent: Palm750/v0004 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
@@ -408,19 +408,19 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S630 X02HT, carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; HTC/X01HT; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN X01HT, carrier: Softbank } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN X01HT, carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Toshiba/X01T)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: G900 X01T, carrier: Softbank } }
 -
     headers: 'User-Agent: ASUS-GalaxyII/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; ASUS-GalaxyII)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy II' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy II' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; WMPRO1.0) NetFront/4.0'
     result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate JAMin PPC; 240x320; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMin } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMin } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate JASJAM PPC; 240x320)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JASJAM } }
@@ -429,7 +429,7 @@
     result: { browser: { name: 'UC Browser', version: '7.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: K-JAM } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; O2 Xda 2s;PPC;240x320; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA IIs' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA IIs' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate 6150/ 480x640)/UCWEB7.0.0.41/31/352'
     result: { browser: { name: 'UC Browser', version: '7.0', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: 'Ultimate 6150' } }
@@ -438,76 +438,76 @@
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: 'Ultimate 8502' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAMA; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMA } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMA } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAMAQ; 240x320)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMAQ } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAQ3; 240x320; PPC)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAQ3 } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAQ3 } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAQ; 240x320)/UC Browser7.7.1.88'
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAQ } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate PDAL; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: PDAL } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: PDAL } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; HPiPAQrw6800/1.0; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ rw6800' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ rw6800' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; Sprint:PPC-6700; PPC; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Apache } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Apache } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M2000; OpVer 5.12.2.131)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M2000' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M2000' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M3100; OpVer 14.123.1.614)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M3100; OpVer 14.123.5.721)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M700' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M700' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact II/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact II' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact II' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Compact/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA III/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA III' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA III' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/1.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda neo; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Neo' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Neo' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda orbit; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Orbit' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Orbit' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda trion; 240x320)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Trion' } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Trion' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Datalogic Memor; 240x320)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Datalogic, model: Memor } }
