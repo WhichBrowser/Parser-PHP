@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows XP)'
-    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; WinXP; x86) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
     result: { browser: { name: Chrome, version: 37.0.2049.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
@@ -18,7 +18,7 @@
     result: { browser: { name: Ziepod, version: '1.0', type: 'app:podcast' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; 360SE)'
-    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MAM2)'
     result: { browser: { name: 'Internet Explorer', version: '9.0', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
@@ -33,10 +33,10 @@
     result: { browser: { name: Opera, version: '6.03', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.0; Windows 2000)'
-    result: { browser: { name: 'Internet Explorer', version: '4.0', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '4.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000)'
-    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]'
     result: { browser: { name: Opera, version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
@@ -60,4 +60,4 @@
     result: { browser: { name: 'Netscape Communicator', version: 4.0.1, type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Win32);'
-    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows }, device: { type: desktop } }

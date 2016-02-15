@@ -18,7 +18,7 @@
     result: { browser: { name: 'Internet Explorer', version: '3.0', type: browser }, os: { name: Windows, version: '3.1' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)'
-    result: { browser: { name: 'Internet Explorer', version: '4.0', type: browser }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '4.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Mac_PowerPC)'
     result: { browser: { name: 'Internet Explorer', version: 4.0.1, type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
@@ -30,7 +30,7 @@
     result: { browser: { name: 'Internet Explorer', version: '4.5', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)'
-    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, os: { name: Solaris, family: UNIX, version: '10' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Trident }, os: { name: Solaris, family: UNIX, version: '10' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)'
     result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
@@ -42,19 +42,19 @@
     result: { browser: { name: 'Internet Explorer', version: 5.2.2, type: browser }, engine: { name: Tasman }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Win 9x 4.90)'
-    result: { browser: { name: 'Internet Explorer', version: '5.5', type: browser }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.5', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0 )'
-    result: { browser: { name: 'Internet Explorer', version: '5.5', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.5', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5b1; Mac_PowerPC)'
     result: { browser: { name: 'Internet Explorer', version: '5.5', type: browser }, engine: { name: Tasman }, os: { name: 'OS X' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90; .NET CLR 1.1.4322)'
-    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)'
-    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E)'
     result: { browser: { name: 'Internet Explorer', version: '8.0', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
