@@ -243,6 +243,7 @@ class DeviceModels
         $s = preg_replace('/_CUCC$/u', '', $s);
         $s = preg_replace('/-BREW.+$/u', '', $s);
         $s = preg_replace('/ MIDP.+$/u', '', $s);
+        $s = preg_replace('/ AU\.Browser$/u', '', $s);
 
         $s = preg_replace('/_/u', ' ', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);
