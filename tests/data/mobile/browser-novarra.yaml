@@ -7,3 +7,6 @@
 -
     headers: 'User-Agent: Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3'
     result: { browser: { name: 'Novarra Vision', version: '7.3', type: browser }, os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6600' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; U; en-US) Gecko/20081217 Vision-Browser/8.1 301x200 LG VN530'
+    result: { browser: { name: 'Novarra Vision', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Octane } }
