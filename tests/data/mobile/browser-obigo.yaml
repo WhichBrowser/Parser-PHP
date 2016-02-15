@@ -118,3 +118,6 @@
 -
     headers: 'User-Agent: BIRD S710_BLEU/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca'
     result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: S710 } }
+-
+    headers: 'User-Agent: LG-MG800d MIC/WAP2.0 MIDP-2.0/CLDC-1.1'
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: MG800d } }
