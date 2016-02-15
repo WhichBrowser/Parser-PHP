@@ -271,6 +271,7 @@ trait Application
             ],
 
             Constants\BrowserType::APP => [
+                [ 'name' => 'Cooliris',             'regexp' => '/Cooliris\/([0-9.]*)/u' ],
                 [ 'name' => 'Google Earth',         'regexp' => '/Google Earth\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Google Desktop',       'regexp' => '/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Leechcraft',           'regexp' => '/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2 ],
