@@ -82,3 +82,6 @@
 -
     headers: 'User-Agent: Sanyo-SCP5000/1.1b UP.Browser/4.1.23a'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: SCP5000 } }
+-
+    headers: 'User-Agent: MOT-EF/06.12 KM.Browser/5.0.2.4'
+    result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EF } }
