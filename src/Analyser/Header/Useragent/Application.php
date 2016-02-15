@@ -222,6 +222,7 @@ trait Application
             ],
 
             Constants\BrowserType::APP_CHAT => [
+                [ 'name' => 'Facebook Messenger',   'regexp' => '/FBAN\/MessengerForiOS/u' ],
                 [ 'name' => 'Kik',                  'regexp' => '/Kik\/([0-9.]*)/u' ],
                 [ 'name' => 'WeChat',               'regexp' => '/MicroMessenger\/([0-9.]*)/u' ],
                 [ 'name' => 'Yahoo Messenger',      'regexp' => '/YahooMobile\/1.0 \(im; ([0-9.]+)\)/u', 'details' => 3 ],

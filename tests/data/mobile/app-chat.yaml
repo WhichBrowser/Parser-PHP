@@ -37,3 +37,6 @@
 -
     headers: 'User-Agent: WhatsApp/2.11.282 WP7/8.0.10328.0 Device/NOKIA-RM-914_eu_euro2_341-H1.0.0.0'
     result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]'
+    result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
