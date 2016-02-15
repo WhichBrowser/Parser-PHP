@@ -731,7 +731,20 @@ trait Os
                     }
                 }
 
-                /* Windows Phone OS 7 and 8 */
+                /* Windows Phone 7 (buggy) */
+                if (preg_match('/Windows Phone OS [^;]+; Trident\/[^;]+; IEMobile\/[^;]+\) ([A-Z\s]+); ?([^\/,]+)/ui', $ua, $match)) {
+                    $this->data->device->manufacturer = $match[1];
+                    $this->data->device->model = $match[2];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wp', $match[2]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+
+                /* Windows Phone 7 and 8 */
                 if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?(?:rv:[0-9]+; )?(?: WpsLondonTest; )?\s*([^;\s][^;\)]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
                     $this->data->device->manufacturer = $match[1];
                     $this->data->device->model = $match[2];
