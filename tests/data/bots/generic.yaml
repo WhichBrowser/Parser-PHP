@@ -355,3 +355,21 @@
 -
     headers: 'User-Agent: Feedfetcher-feedraider; (+http://feedraider.com/help/feedfetcher.html; X subscribers; Allow like Gecko)'
     result: { device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.01; GomezAgent 2.0; Windows NT)'
+    result: { browser: { name: GomezAgent, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile 2008.0 (mobilesearch.support@orange-ftgroup.com)'
+    result: { browser: { name: OrangeBot }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; XML Sitemaps Generator; http://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0'
+    result: { browser: { name: 'XML Sitemaps Generator', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b'
+    result: { browser: { name: Bing, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;) Daumoa 4.0'
+    result: { browser: { name: Daumoa, version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 - James BOT - WebCrawler http://cognitiveseo.com/bot.html'
+    result: { browser: { name: JamesBOT }, device: { type: bot } }
