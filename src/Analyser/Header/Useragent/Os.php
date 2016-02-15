@@ -1929,8 +1929,6 @@ trait Os
             }
 
             if (preg_match('/\(BREW [^;]+; U; [^;]+; [^;]+; ([^;]+); (Polaris|Netfront)\/[0-9\.]+\/(WAP|AMB)\)/ui', $ua, $match)) {
-                var_dump($match);
-
                 $this->data->device->model = $match[1];
                 $this->data->device->identified = Constants\Id::PATTERN;
 
