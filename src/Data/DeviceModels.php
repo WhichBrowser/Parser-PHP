@@ -159,7 +159,7 @@ class DeviceModels
                         if (self::hasMatch($m2, $model)) {
                             $match = $v2;
                             $pattern = $m2;
-                            continue;
+                            break;
                         }
                     }
                 } else {
