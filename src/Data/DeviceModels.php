@@ -230,6 +230,7 @@ class DeviceModels
     public static function cleanup($s = '')
     {
         $s = preg_replace('/^phone\//', '', $s);
+        $s = preg_replace('/^(HTC|SAMSUNG|SHARP|Toshiba)\//u', '', $s);
         $s = preg_replace('/\/[^\/]+$/u', '', $s);
         $s = preg_replace('/\/[^\/]+ Android\/.*/u', '', $s);
 
@@ -265,6 +266,7 @@ class DeviceModels
         $s = preg_replace('/^Iconia( Tab)? /u', '', $s);
         $s = preg_replace('/^ASUS ?/u', '', $s);
         $s = preg_replace('/^Ainol /u', '', $s);
+        $s = preg_replace('/^CoolpadCoolpad/iu', 'Coolpad', $s);
         $s = preg_replace('/^Coolpad ?/iu', 'Coolpad ', $s);
         $s = preg_replace('/^Alcatel[_ ]OT[_-](.*)/iu', 'One Touch $1', $s);
         $s = preg_replace('/^ALCATEL /u', '', $s);
@@ -288,6 +290,7 @@ class DeviceModels
         $s = preg_replace('/^(Motorola[\s|-])/u', '', $s);
         $s = preg_replace('/^(MOT-)/u', '', $s);
         $s = preg_replace('/^Moto([^\s])/u', '$1', $s);
+        $s = preg_replace('/^(UTStar-)/u', '', $s);
 
         $s = preg_replace('/^VZW:/iu', '', $s);
         $s = preg_replace('/^Vodafone\/1.0\//iu', '', $s);

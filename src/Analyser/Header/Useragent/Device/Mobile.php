@@ -241,6 +241,10 @@ trait Mobile
 
     private function detectGenericMobileModels($ua)
     {
+        if ($this->data->device->identified & Constants\Id::PATTERN) {
+            return;
+        }
+
         if (isset($this->data->device->manufacturer)) {
             return;
         }
