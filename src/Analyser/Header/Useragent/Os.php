@@ -644,7 +644,9 @@ trait Os
                 }
 
                 if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;]+);? ?(?:PPC|Smartphone); ?[0-9]+x[0-9]+/u', $ua, $match)) {
-                    $model = $match[1];
+                    if (!preg_match('/^(MIDP-2.0)/u', $match[1])) {
+                        $model = $match[1];
+                    }
                 }
 
                 if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;\)]+)(?:; (?:PPC|Smartphone); [0-9]+x[0-9]+)?\)( \[[a-zA-Z\-]+\])?$/u', $ua, $match)) {
