@@ -396,7 +396,7 @@
     result: { browser: { name: 'Samsung Internet', version: '1.0', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4 Zoom' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; xx; SAMSUNG SM-G3502U Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19'
-    result: { browser: { name: 'Samsung Internet', version: '1.0', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Plus' } }
+    result: { browser: { name: 'Samsung Internet', version: '1.0', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Trend 3' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; xx; SAMSUNG SM-G3815/G3815XXEAMH3 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19'
     result: { browser: { name: 'Samsung Internet', version: '1.0', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Express 2' } }
@@ -801,7 +801,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; GT-I8320 Build/GINGERBREAD; 480*800) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: '360 H1' } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, model: GT-I8320 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; GT-I777 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Singa } }

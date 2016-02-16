@@ -153,7 +153,7 @@
     result: { browser: { name: LieBaoFast, version: 2.9.0, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Honor 3C' } }
 -
     headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: HTC One Firmware version: 4.3'
-    result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
+    result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One (Google Edition)' } }
 -
     headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: Archos 50 Platinum Firmware version: 4.1.2'
     result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Archos, model: '50 Platinum' } }
