@@ -46,7 +46,7 @@ function command($command, $type) {
 }
 
 function command_list($type) {
-	echo "- Creating index for \"{$type}\"\n";
+	echo "Creating index for 'data/models-{$type}.php'...\n";
 
     require_once __DIR__ . '/../data/models-' . $type . '.php';
 

@@ -3,6 +3,8 @@
 	include_once __DIR__ . '/bootstrap.php';
 	include __DIR__ . '/../data/browsers-chrome.php';
 	
+	echo "Updating chrome versions...\n";
+
 	$stable = [
 		'desktop' => [],
 		'mobile'  => []
