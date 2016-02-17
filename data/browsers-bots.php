@@ -32,6 +32,8 @@ Bots::$BOTS = [
     [ 'name' => 'Bing',                         'regexp' => '/msnbot-media\/([0-9.]*)/u' ],
     [ 'name' => 'Bing',                         'regexp' => '/MsnBot-Media \/([0-9.]*)/u' ],
     [ 'name' => 'Bing',                         'regexp' => '/msnbot-NewsBlogs\/([0-9.]*)/u' ],
+    [ 'name' => 'Bing',                         'regexp' => '/MSNBOT_Mobile/u' ],
+    [ 'name' => 'Bing',                         'regexp' => '/MSMOBOT/u' ],
     [ 'name' => 'Bing Preview',                 'regexp' => '/BingPreview\/([0-9.]*)/u' ],
     [ 'name' => 'Bloglines',                    'regexp' => '/Bloglines\/([0-9.]*)/u' ],
     [ 'name' => 'Bloglovin',                    'regexp' => '/Bloglovin\/([0-9.]*)/u' ],
