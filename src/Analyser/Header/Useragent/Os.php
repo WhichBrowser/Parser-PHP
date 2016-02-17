@@ -615,8 +615,8 @@ trait Os
 
                 $model = null;
 
-                    if (!preg_match('/Profile\/MIDP/u', $match[1])) {
                 if (empty($model) && preg_match('/IEMobile [0-9.]+\)  ?(?:PPC; |SP; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?(?:VZW; )?([^;]+)/u', $ua, $match)) {
+                    if (!preg_match('/(Profile\/MIDP|UNTRUSTED)/u', $match[1])) {
                         $model = $match[1];
                     }
                 }
