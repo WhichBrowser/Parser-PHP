@@ -14,8 +14,8 @@ class DeviceModels
     public static $FIREFOXOS_MODELS = [];
     public static $TIZEN_MODELS = [];
     public static $TOUCHWIZ_MODELS = [];
-    public static $WINDOWS_MOBILE_MODELS = [];
-    public static $WINDOWS_PHONE_MODELS = [];
+    public static $WM_MODELS = [];
+    public static $WP_MODELS = [];
     public static $PALMOS_MODELS = [];
     public static $S30PLUS_MODELS = [];
     public static $S40_MODELS = [];
@@ -25,76 +25,107 @@ class DeviceModels
     public static $IOS_MODELS = [];
     public static $KDDI_MODELS = [];
 
+    public static $ANDROID_INDEX = [];
+    public static $ASHA_INDEX = [];
+    public static $BADA_INDEX = [];
+    public static $BREW_INDEX = [];
+    public static $FIREFOXOS_INDEX = [];
+    public static $TIZEN_INDEX = [];
+    public static $TOUCHWIZ_INDEX = [];
+    public static $WM_INDEX = [];
+    public static $WP_INDEX = [];
+    public static $PALMOS_INDEX = [];
+    public static $S30PLUS_INDEX = [];
+    public static $S40_INDEX = [];
+    public static $SYMBIAN_INDEX = [];
+    public static $FEATURE_INDEX = [];
+    public static $KDDI_INDEX = [];
+
 
     public static function identify($type, $model)
     {
         require_once __DIR__ . '/../../data/models-' . $type . '.php';
 
+        if ($type != 'blackberry' && $type != 'ios') {
+            require_once __DIR__ . '/../../data/indices/models-' . $type . '.php';
+        }
+
         switch ($type) {
             case 'android':
                 return self::identifyAndroid($model);
             case 'asha':
-                return self::identifyList(self::$ASHA_MODELS, $model);
+                return self::identifyList(self::$ASHA_INDEX, self::$ASHA_MODELS, $model);
             case 'bada':
-                return self::identifyList(self::$BADA_MODELS, $model);
+                return self::identifyList(self::$BADA_INDEX, self::$BADA_MODELS, $model);
             case 'blackberry':
                 return self::identifyBlackBerry($model);
             case 'brew':
-                return self::identifyList(self::$BREW_MODELS, $model);
+                return self::identifyList(self::$BREW_INDEX, self::$BREW_MODELS, $model);
             case 'firefoxos':
-                return self::identifyList(self::$FIREFOXOS_MODELS, $model, false);
+                return self::identifyList(self::$FIREFOXOS_INDEX, self::$FIREFOXOS_MODELS, $model, false);
             case 'ios':
                 return self::identifyIOS($model);
             case 'tizen':
-                return self::identifyList(self::$TIZEN_MODELS, $model);
+                return self::identifyList(self::$TIZEN_INDEX, self::$TIZEN_MODELS, $model);
             case 'touchwiz':
-                return self::identifyList(self::$TOUCHWIZ_MODELS, $model);
+                return self::identifyList(self::$TOUCHWIZ_INDEX, self::$TOUCHWIZ_MODELS, $model);
             case 'wm':
-                return self::identifyList(self::$WINDOWS_MOBILE_MODELS, $model);
+                return self::identifyList(self::$WM_INDEX, self::$WM_MODELS, $model);
             case 'wp':
-                return self::identifyList(self::$WINDOWS_PHONE_MODELS, $model);
+                return self::identifyList(self::$WP_INDEX, self::$WP_MODELS, $model);
             case 's30plus':
-                return self::identifyList(self::$S30PLUS_MODELS, $model);
+                return self::identifyList(self::$S30PLUS_INDEX, self::$S30PLUS_MODELS, $model);
             case 's40':
-                return self::identifyList(self::$S40_MODELS, $model);
+                return self::identifyList(self::$S40_INDEX, self::$S40_MODELS, $model);
             case 'symbian':
-                return self::identifyList(self::$SYMBIAN_MODELS, $model);
+                return self::identifyList(self::$SYMBIAN_INDEX, self::$SYMBIAN_MODELS, $model);
             case 'palmos':
-                return self::identifyList(self::$PALMOS_MODELS, $model);
+                return self::identifyList(self::$PALMOS_INDEX, self::$PALMOS_MODELS, $model);
             case 'kddi':
-                return self::identifyList(self::$KDDI_MODELS, $model);
+                return self::identifyList(self::$KDDI_INDEX, self::$KDDI_MODELS, $model);
             case 'feature':
-                return self::identifyList(self::$FEATURE_MODELS, $model);
+                return self::identifyList(self::$FEATURE_INDEX, self::$FEATURE_MODELS, $model);
         }
     }
 
     public static function identifyIOS($model)
     {
+        $original = $model;
+
         $model = str_replace('Unknown ', '', $model);
         $model = preg_replace("/iPh([0-9],[0-9])/", 'iPhone\\1', $model);
         $model = preg_replace("/iPd([0-9],[0-9])/", 'iPod\\1', $model);
 
-        return self::identifyList(self::$IOS_MODELS, $model);
-    }
+        $device = new Device([
+            'type'          => Constants\DeviceType::MOBILE,
+            'identified'    => Constants\Id::NONE,
+            'manufacturer'  => null,
+            'model'         => $model,
+            'identifier'    => $original,
+            'generic'       => false
+        ]);
 
-    public static function identifyAndroid($model)
-    {
-        $result = self::identifyList(self::$ANDROID_MODELS, $model);
+        if (isset(self::$IOS_MODELS[$model])) {
+            $match = self::$IOS_MODELS[$model];
 
-        if (!$result->identified) {
-            $model = self::cleanup($model);
-            if (preg_match('/AndroVM/iu', $model)  || $model == 'Emulator' || $model == 'x86 Emulator' || $model == 'x86 VirtualBox' || $model == 'vm') {
-                return new Device([
-                    'type'          => Constants\DeviceType::EMULATOR,
-                    'identified'    => Constants\Id::PATTERN,
-                    'manufacturer'  => null,
-                    'model'         => null,
-                    'generic'       => false
-                ]);
+            $device->manufacturer = $match[0];
+            $device->model = $match[1];
+            $device->identified = Constants\Id::MATCH_UA;
+
+            if (isset($match[2]) || isset($match['type'])) {
+                $type = isset($match[2]) ? $match[2] : $match['type'];
+                if (is_array($type)) {
+                    $device->type = $type[0];
+                    $device->subtype = $type[1];
+                } else {
+                    $device->type = $type;
+                }
             }
+
+            return $device;
         }
 
-        return $result;
+        return $device;
     }
 
     public static function identifyBlackBerry($model)
@@ -115,13 +146,9 @@ class DeviceModels
         ]);
 
         if (preg_match("/^[1-9][0-9][0-9][0-9][ei]?$/u", $model)) {
-            $device = new Device([
-                'type'          => Constants\DeviceType::MOBILE,
-                'identified'    => Constants\Id::PATTERN,
-                'manufacturer'  => 'RIM',
-                'model'         => 'BlackBerry ' . $model,
-                'generic'       => false
-            ]);
+            $device->manufacturer = 'RIM';
+            $device->model = 'BlackBerry ' . $model;
+            $device->identified = Constants\Id::PATTERN;
 
             if (isset(self::$BLACKBERRY_MODELS[$model])) {
                 $device->model = 'BlackBerry ' . self::$BLACKBERRY_MODELS[$model] . ' ' . $model;
@@ -132,7 +159,27 @@ class DeviceModels
         return $device;
     }
 
-    public static function identifyList($list, $model, $cleanup = true)
+    public static function identifyAndroid($model)
+    {
+        $result = self::identifyList(self::$ANDROID_INDEX, self::$ANDROID_MODELS, $model);
+
+        if (!$result->identified) {
+            $model = self::cleanup($model);
+            if (preg_match('/AndroVM/iu', $model)  || $model == 'Emulator' || $model == 'x86 Emulator' || $model == 'x86 VirtualBox' || $model == 'vm') {
+                return new Device([
+                    'type'          => Constants\DeviceType::EMULATOR,
+                    'identified'    => Constants\Id::PATTERN,
+                    'manufacturer'  => null,
+                    'model'         => null,
+                    'generic'       => false
+                ]);
+            }
+        }
+
+        return $result;
+    }
+
+    public static function identifyList(&$index, &$list, $model, $cleanup = true)
     {
         $original = $model;
 
@@ -149,54 +196,61 @@ class DeviceModels
             'generic'       => false
         ]);
 
-        foreach ($list as $m => $v) {
-            $match = null;
-            $pattern = null;
+        $keys = [ '@' . strtoupper(substr($model, 0, 2)), '@' ];
 
-            if (self::hasMatch($m, $model)) {
-                if (substr($m, -2) == "!!") {
-                    foreach ($v as $m2 => $v2) {
-                        if (self::hasMatch($m2, $model)) {
-                            $match = $v2;
-                            $pattern = $m2;
-                            break;
+        $pattern = null;
+        $match = null;
+
+        foreach ($keys as $k => $key) {
+            if (isset($index[$key])) {
+                foreach ($index[$key] as $m => $v) {
+                    if (self::hasMatch($v, $model)) {
+                        if ($v) {
+                            if (substr($v, -2) == "!!") {
+                                foreach ($list[$v] as $m2 => $v2) {
+                                    if (self::hasMatch($m2, $model)) {
+                                        $match = $v2;
+                                        $pattern = $m2;
+                                        break;
+                                    }
+                                }
+                            } else {
+                                $match = $list[$v];
+                                $pattern = $v;
+                            }
+                        }
+
+                        if ($match) {
+                            $device->manufacturer = $match[0];
+                            $device->model = self::applyMatches($match[1], $model, $pattern);
+                            $device->identified = Constants\Id::MATCH_UA;
+
+                            if (isset($match[2]) || isset($match['type'])) {
+                                $type = isset($match[2]) ? $match[2] : $match['type'];
+                                if (is_array($type)) {
+                                    $device->type = $type[0];
+                                    $device->subtype = $type[1];
+                                } else {
+                                    $device->type = $type;
+                                }
+                            }
+
+                            if (isset($match[3]) || isset($match['flag'])) {
+                                $device->flag = isset($match[3]) ? $match[3] : $match['flag'];
+                            }
+
+                            if (isset($match['carrier'])) {
+                                $device->carrier = $match['carrier'];
+                            }
+                            
+                            if ($device->manufacturer == null && $device->model == null) {
+                                $device->identified = Constants\Id::PATTERN;
+                            }
+
+                            return $device;
                         }
                     }
-                } else {
-                    $match = $v;
-                    $pattern = $m;
                 }
-            }
-
-            if ($match) {
-                $device->manufacturer = $match[0];
-                $device->model = self::applyMatches($match[1], $model, $pattern);
-                $device->identified = Constants\Id::MATCH_UA;
-
-                if (isset($match[2]) || isset($match['type'])) {
-                    $type = isset($match[2]) ? $match[2] : $match['type'];
-                    if (is_array($type)) {
-                        $device->type = $type[0];
-                        $device->subtype = $type[1];
-                    } else {
-                        $device->type = $type;
-                    }
-                }
-
-                if (isset($match[3]) || isset($match['flag'])) {
-                    $device->flag = isset($match[3]) ? $match[3] : $match['flag'];
-                }
-                
-
-                if (isset($match['carrier'])) {
-                    $device->carrier = $match['carrier'];
-                }
-                
-                if ($device->manufacturer == null && $device->model == null) {
-                    $device->identified = Constants\Id::PATTERN;
-                }
-
-                return $device;
             }
         }
 

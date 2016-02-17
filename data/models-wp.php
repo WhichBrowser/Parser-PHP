@@ -2,7 +2,7 @@
 
 namespace WhichBrowser\Data;
 
-DeviceModels::$WINDOWS_PHONE_MODELS = [
+DeviceModels::$WP_MODELS = [
     'Allegro'                                   => [ 'Acer', 'Allegro' ],
     'M310'                                      => [ 'Acer', 'Allegro' ],
     'S58'                                       => [ 'Acer', 'Jade Primo' ],

@@ -6366,7 +6366,7 @@ DeviceModels::$ANDROID_MODELS = [
     'LAVA iRIS 504q'                            => [ 'Lava', 'Iris 504Q' ],
     'LAVA S12'                                  => [ 'Lava', 'S12' ],
 
-    '(XOLO )?[ABQX[0-9]{3,4}!!' => [
+    '(XOLO )?[ABQX][0-9]{3,4}!!' => [
         'A500L'                                     => [ 'Lava', 'XOLO A500L' ],
         'A500s'                                     => [ 'Lava', 'XOLO A500s' ],
         'A500S IPS'                                 => [ 'Lava', 'XOLO A500s' ],
