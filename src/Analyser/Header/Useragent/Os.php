@@ -717,7 +717,7 @@ trait Os
                 $this->data->os->name = 'Windows Phone';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
 
-                if (preg_match('/Windows Phone (?:OS )?([0-9.]*)/u', $ua, $match)) {
+                if (preg_match('/Windows Phone(?: OS)?[ \/]([0-9.]*)/u', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
 
                     if (intval($match[1]) < 7) {
@@ -778,6 +778,18 @@ trait Os
 
                 /* Third party browsers */
                 if (preg_match('/IEMobile\/[^;]+;(?: ARM; Touch; )?\s*(?:[^\/]+\/[^\/]+);\s*([^;\s][^;]*);\s*([^;\)\s][^;\)]*)[;|\)]/u', $ua, $match)) {
+                    $this->data->device->manufacturer = $match[1];
+                    $this->data->device->model = $match[2];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wp', $match[2]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+                }
+
+                if (preg_match('/\(Windows Phone OS\/[0-9\.]+; ([^:]+):([^;]+); [a-z]+(?:\-[a-z]+)?\)/iu', $ua, $match)) {
                     $this->data->device->manufacturer = $match[1];
                     $this->data->device->model = $match[2];
                     $this->data->device->identified |= Constants\Id::PATTERN;

@@ -16,3 +16,12 @@
 -
     headers: 'User-Agent: ET1 Android Application (16, et1 v2.2.2) - samsung GT-S7390 samsung - 00000000-2D69-D71B-CE09-19FA5FA5A961'
     result: { browser: { name: ET1, type: app }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Trend Lite' } }
+-
+    headers: 'User-Agent: PlacesDll Win32/SWchBvQ89wHhZhZGPH7ADQ:WVUjTbxpusEz-rl7htSN/3.2.315.8 (Windows Phone OS/8.0; NOKIA:Lumia 925; de-DE)'
+    result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
+-
+    headers: 'User-Agent: PlacesDll Win32/x4dXIL4zf4fEINN8j7e8GA:c5f40ce19e9659484ed40cba84c12227/3.5.487.8 (Windows Phone OS/8.0; NOKIA:Nokia 920T; zh-CN)'
+    result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+-
+    headers: 'User-Agent: PlacesDll Win32/x4dXIL4zf4fEINN8j7e8GA:c5f40ce19e9659484ed40cba84c12227/3.5.481.8 (Windows Phone OS/8.0; NOKIA:Lumia 1320; de-DE)'
+    result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1320' } }
