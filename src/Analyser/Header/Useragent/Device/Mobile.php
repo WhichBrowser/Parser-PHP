@@ -997,7 +997,7 @@ trait Mobile
             array_push($candidates, $match[1]);
         }
 
-        if (preg_match('/[; ]([^\s\)\/;]+)[^\s;]*$/u', $ua, $match)) {
+        if (preg_match('/[; ]\(?([^\s\)\/;]+)[^\s;]*$/u', $ua, $match)) {
             array_push($candidates, $match[1]);
         }
 
@@ -1023,7 +1023,26 @@ trait Mobile
             'Sleipnir', 'MobileSafari', 'MQQBrowser', 'BREW', '?',
             'Maxthon', '360%20Browser', 'OPR', 'CFNetwork', 'JUC', 'Skyfire',
             'UP.Browser', 'DolphinHDCN', 'NintendoBrowser', 'NCSA',
-            'NCSA Mosaic', 'NCSA_Mosaic', 'U'
+            'NCSA Mosaic', 'NCSA_Mosaic', 'U', 'NetFrontNX', 'QtWebKit',
+            'HtmlRenderer', 'HbbTV', 'WebAppManager', 'SmartTV', 'UPLUSTVBROWSER',
+            'LG Browser', 'LG', 'LGSmartTV', 'OBIGO-T10', 'Linux', 'DLNADOC',
+            'Aplix_SANYO_browser', 'Japanese', 'WebBrowser', 'Freetime',
+            'OreganMediaBrowser', 'NETRANGEMMH', 'http:', 'bxapi', 'Kodi',
+            'XBMC', 'KreaTVWebKit', 'MachBlue', 'Espial', 'TouchPad',
+            'sharp', 'sharp wd browser', 'sharp pda browser', 'browser',
+            'Palmscape', 'CorePlayer', 'Xiino', 'SONY', 'WorldTALK', 'TOPS',
+            'Windows', 'Microsoft Pocket Internet Explorer', 'Explorer',
+            'CE', 'Desktop', 'Maemo Browser', 'Maemo', 'baidubrowser', 
+            'Mercury', 'BREW-Applet', 'ucweb-squid', 'iSurf', '3gpp-gba',
+            'InfoPath.2', 'UC', 'J2ME', 'IUC', 'AveFront', 'MMP', 'BaiduHD',
+            '360%20Lite', '360', 'AppleWebKit', 'Instagram', 'FBOP',
+            'Nuanti', 'NuantiMeta', 'Silk', 'VTE', 'DreamKey', 'DreamPassport',
+            'Aplix_SEGASATURN_browser', 'NWF', 'Bunjalloo', 'libwww', 
+            'Inferno', 'NEXT', 'I', 'Microsoft Internet Explorer', 'MAM3',
+            'MAM2', '360SE', 'Ziepod', 'Vista', 'XP', 'Links', 'Syllable',
+            'sun4m', 'sun4c', 'sun4u', 'i86pc', 'X11', 'NaenaraBrowser', 
+            'QuickTime', 'IBM', 'QQBrowser', 'x86_64', 'i686', 'i386', 'Chrome',
+            'TenFourFox', 'Swing', 'NetFrontBrowserNX', 'Mac_PowerPC',
         ]);
 
         $candidates = array_unique($candidates);
