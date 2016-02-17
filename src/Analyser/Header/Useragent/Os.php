@@ -615,25 +615,25 @@ trait Os
 
                 $model = null;
 
-                if (empty($model) && preg_match('/IEMobile [0-9.]+\)  ?(?:PPC; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?(?:VZW; )?([^;]+)/u', $ua, $match)) {
                     if (!preg_match('/Profile\/MIDP/u', $match[1])) {
+                if (empty($model) && preg_match('/IEMobile [0-9.]+\)  ?(?:PPC; |SP; |Smartphone; )?(?:[0-9]+[Xx][0-9]+;? )?(?:VZW; )?([^;]+)/u', $ua, $match)) {
                         $model = $match[1];
                     }
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); [0-9]+x[0-9]+; ([^;\)]+)\)$/u', $ua, $match)) {
+                if (empty($model) && preg_match('/IEMobile [0-9.]+\) (?:PPC|SP|Smartphone); (?:[0-9]+[Xx][0-9]+;? )([^;]+) Profile\/MIDP/u', $ua, $match)) {
                     $model = $match[1];
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); [0-9]+x[0-9]+; ([^;]+); (?:PPC|OpVer)/u', $ua, $match)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|SP|Smartphone); [0-9]+x[0-9]+; ([^;\)]+)\)$/u', $ua, $match)) {
                     $model = $match[1];
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone); ([^;]+) Profile\/MIDP/u', $ua, $match)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|SP|Smartphone); [0-9]+x[0-9]+; ([^;]+); (?:PPC|OpVer)/u', $ua, $match)) {
                     $model = $match[1];
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|Smartphone) ([^;]+)[;\/] [0-9]+x[0-9]+/u', $ua, $match)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|SP|Smartphone) ([^;]+)[;\/] [0-9]+x[0-9]+/u', $ua, $match)) {
                     $model = $match[1];
                 }
 
@@ -643,13 +643,13 @@ trait Os
                     }
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;]+);? ?(?:PPC|Smartphone); ?[0-9]+x[0-9]+/u', $ua, $match)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;]+);? ?(?:PPC|SP|Smartphone); ?[0-9]+x[0-9]+/u', $ua, $match)) {
                     if (!preg_match('/^(MIDP-2.0)/u', $match[1])) {
                         $model = $match[1];
                     }
                 }
 
-                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;\)]+)(?:; (?:PPC|Smartphone); [0-9]+x[0-9]+)?\)( \[[a-zA-Z\-]+\])?$/u', $ua, $match)) {
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; ([^;\)]+)(?:; (?:PPC|SP|Smartphone); [0-9]+x[0-9]+)?\)( \[[a-zA-Z\-]+\])?$/u', $ua, $match)) {
                     if (!preg_match('/^(IEMobile|MIDP-2.0|Smartphone|PPC$)/u', $match[1])) {
                         $model = $match[1];
                     }
