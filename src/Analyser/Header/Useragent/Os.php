@@ -158,7 +158,7 @@ trait Os
     {
         /* Android */
 
-        if (preg_match('/Android/u', $ua)) {
+        if (preg_match('/Android/ui', $ua)) {
             $falsepositive = false;
 
             /* Prevent the Mobile IE 11 Franken-UA from matching Android */
@@ -181,7 +181,7 @@ trait Os
                 $this->data->os->name = 'Android';
                 $this->data->os->version = new Version();
 
-                if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/u', str_replace('-update', ',', $ua), $match)) {
+                if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/ui', str_replace('-update', ',', $ua), $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
                 }
 
@@ -214,6 +214,8 @@ trait Os
 
 
                 if (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                } elseif (preg_match('/android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/; ?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];

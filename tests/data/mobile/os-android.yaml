@@ -160,3 +160,12 @@
 -
     headers: 'User-Agent: Dr.Web anti-virus Light Version: 7.00.9.7030 Device model: HTC One mini Firmware version: 4.2.2'
     result: { browser: { name: 'Dr. Web Light', version: '7.00', type: 'app:antivirus' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One Mini' } }
+-
+    headers: 'User-Agent: GetJarSDK/20130503.06 (9) com.gau.go.launcherex.theme.superos7/1 android/4.0.3 (htc_europe; htc_golfu; HTC Desire C)'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire C' } }
+-
+    headers: 'User-Agent: GetJarSDK/20130814.07 (10) com.aceviral.agrr/13 android/2.3.5 (HUAWEI; U8850; HUAWEI-U8850)'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: Vision } }
+-
+    headers: 'User-Agent: GetJarSDK/20130302.04 (8) com.miniclip.railrush/24 android/4.3 (asus; WW_epad; K00E)'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Asus, model: 'Fonepad 7' } }
