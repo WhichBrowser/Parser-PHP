@@ -205,6 +205,28 @@ trait Application
                 $this->data->device = $device;
             }
         }
+
+        /* Yahoo Mobile App */
+
+        if (preg_match('/YahooJMobileApp\/[0-9\.]+ \(Android [a-z]+; ([0-9\.]+)\) \([^;]+; ?[^;]+; ?[^;]+; ?([^;]+); ?([0-9\.]+)\/[^\;\)\/]+\)/u', $ua, $match)) {
+            $this->data->browser->name = 'Yahoo Mobile';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            $this->data->browser->type = Constants\BrowserType::APP_SEARCH;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[3] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[2]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
     }
 
     private function detectRemainingApplications($ua)

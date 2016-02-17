@@ -1,0 +1,3 @@
+-
+    headers: 'User-Agent: YahooJMobileApp/1.1 (Android yjtop; 2.0.1) (samsung; SC-02C; samsung; SC-02C; 2.3.3/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Mobile', version: 2.0.1, type: 'app:search' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
