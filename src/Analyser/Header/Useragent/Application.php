@@ -187,10 +187,21 @@ trait Application
 
         /* Yahoo */
 
-        if (preg_match('/YahooMobile(?:Messenger|Mail)\/1.0 \(Android (Messenger|Mail); ([0-9\.]+)\) \([^;]+; ?[^;]+; ?([^;]+); ?([0-9\.]+)\/[^\;\)\/]+\)/u', $ua, $match)) {
+        if (preg_match('/YahooMobile(?:Messenger|Mail|Weather)\/1.0 \(Android (Messenger|Mail|Weather); ([0-9\.]+)\) \([^;]+; ?[^;]+; ?([^;]+); ?([0-9\.]+)\/[^\;\)\/]+\)/u', $ua, $match)) {
             $this->data->browser->name = 'Yahoo ' . $match[1];
             $this->data->browser->version = new Version([ 'value' => $match[2], 'details' => 3 ]);
-            $this->data->browser->type = $match[1] == 'Messenger' ? Constants\BrowserType::APP_CHAT : Constants\BrowserType::APP_EMAIL;
+
+            switch ($match[1]) {
+                case 'Messenger':
+                    $this->data->browser->type = Constants\BrowserType::APP_CHAT;
+                    break;
+                case 'Mail':
+                    $this->data->browser->type = Constants\BrowserType::APP_EMAIL;
+                    break;
+                case 'Weather':
+                    $this->data->browser->type = Constants\BrowserType::APP_NEWS;
+                    break;
+            }
 
             $this->data->os->reset([
                 'name'      => 'Android',
