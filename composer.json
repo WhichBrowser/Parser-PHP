@@ -1,6 +1,6 @@
 {
     "name": "whichbrowser/parser",
-    "version": "2.0.11",
+    "version": "2.0.12",
 
     "description": "Useragent sniffing library for PHP",
     "keywords": ["useragent","browser","sniffing", "ua"],
