@@ -343,3 +343,9 @@
 -
     headers: 'User-Agent: ASUS-J501/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { device: { type: mobile, subtype: feature, manufacturer: Asus, model: J501 } }
+-
+    headers: 'User-Agent: NOKIA-2605 UP.Browser/6.2.3.9.j.1.106 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2605' } }
+-
+    headers: 'User-Agent: Nokia-2228 UP.Browser/6.3.0.8.c.1.104 (GUI) MMP/2.0'
+    result: { browser: { name: Openwave, version: '6.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2228' } }

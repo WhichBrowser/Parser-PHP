@@ -247,6 +247,7 @@ class DeviceModels
         $s = preg_replace('/ MIDP.+$/u', '', $s);
         $s = preg_replace('/ AU-MIC.+$/u', '', $s);
         $s = preg_replace('/ AU\.Browser$/u', '', $s);
+        $s = preg_replace('/ UP\.Browser$/u', '', $s);
 
         $s = preg_replace('/_/u', ' ', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);

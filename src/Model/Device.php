@@ -82,7 +82,7 @@ class Device extends Base
         if (preg_match($pattern, $subject, $match)) {
             $this->manufacturer = !empty($defaults['manufacturer']) ? $defaults['manufacturer'] : null;
             $this->model = Data\DeviceModels::cleanup($match[1]);
-            $this->identifier = preg_replace('/ (Mozilla|Opera|Obigo|AU.Browser|Build|Java|PPC|AU-MIC.*)$/iu', '', $match[0]);
+            $this->identifier = preg_replace('/ (Mozilla|Opera|Obigo|AU.Browser|UP.Browser|Build|Java|PPC|AU-MIC.*)$/iu', '', $match[0]);
             $this->identifier = preg_replace('/_(TD|GPRS|LTE|BLEU|CMCC|CUCC)$/iu', '', $match[0]);
 
             if (isset($defaults['model'])) {
