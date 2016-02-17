@@ -231,7 +231,7 @@ class DeviceModels
     {
         $s = preg_replace('/^phone\//', '', $s);
         $s = preg_replace('/^(HTC|SAMSUNG|SHARP|Toshiba)\//u', '', $s);
-        $s = preg_replace('/^\//u', '', $s);
+        $s = preg_replace('/^(\/|; |;)/u', '', $s);
         $s = preg_replace('/\/[^\/]+$/u', '', $s);
         $s = preg_replace('/\/[^\/]+ Android\/.*/u', '', $s);
 

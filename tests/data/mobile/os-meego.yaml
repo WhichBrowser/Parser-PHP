@@ -18,7 +18,7 @@
     result: { browser: { name: 'Nokia Browser', version: 8.5.0, type: browser }, engine: { name: Webkit, version: '534.13' }, os: { name: MeeGo }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N950-00 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Nokia; Qt; MeeGo)'
-    result: { os: { name: MeeGo }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '; Qt; MeeGo' } }
+    result: { os: { name: MeeGo }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; Opera Mobi/1; MeeGo) Presto/2.11.355 Version/12.10'
     result: { browser: { name: 'Opera Mobile', version: '12.10', type: browser }, engine: { name: Presto, version: 2.11.355 }, os: { name: MeeGo }, device: { type: mobile, subtype: smart } }

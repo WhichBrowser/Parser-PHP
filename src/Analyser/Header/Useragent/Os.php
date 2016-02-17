@@ -1192,7 +1192,7 @@ trait Os
             $this->data->os->name = 'MeeGo';
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            if (preg_match('/Nokia([^\)]+)\)/u', $ua, $match)) {
+            if (preg_match('/Nokia([^\);]+)\)/u', $ua, $match)) {
                 $this->data->device->manufacturer = 'Nokia';
                 $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
                 $this->data->device->identified |= Constants\Id::PATTERN;
