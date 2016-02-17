@@ -1043,9 +1043,34 @@ trait Mobile
             'sun4m', 'sun4c', 'sun4u', 'i86pc', 'X11', 'NaenaraBrowser',
             'QuickTime', 'IBM', 'QQBrowser', 'x86_64', 'i686', 'i386', 'Chrome',
             'TenFourFox', 'Swing', 'NetFrontBrowserNX', 'Mac_PowerPC',
+            'NetCast.TV-2012', 'NetCast.TV-2011', 'NetCast.Media-2011',
+            'PaleMoon', 'Fedora', 'SUSE', 'iCab', 'Googlebot', 'Pixi',
+            'Pre', 'ELinks', 'developer', 'beta', 'BingPreview', 'IBrowse', '+http:'
         ]);
 
         $candidates = array_unique($candidates);
+
+        foreach ($candidates as $i => $id) {
+            if (preg_match('/^[0-9\.]+$/u', $id)) {
+                unset($candidates[$i]);
+                continue;
+            }
+
+            if (preg_match('/^[0-9]+[xX][0-9]+$/u', $id)) {
+                unset($candidates[$i]);
+                continue;
+            }
+
+            if (preg_match('/^\[?[a-z]{2,2}(\-[a-z]{2,2})?\]?$/ui', $id)) {
+                unset($candidates[$i]);
+                continue;
+            }
+
+            if (strlen($id) < 4) {
+                unset($candidates[$i]);
+                continue;
+            }
+        }
 
         foreach ($candidates as $i => $id) {
             $this->identifyBasedOnIdUsingOs($id);

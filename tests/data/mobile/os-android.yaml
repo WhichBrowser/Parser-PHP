@@ -135,7 +135,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Mobiistar, model: 'Touch Kem 452' } }
 -
     headers: 'User-Agent: MI2-MI2/1.0 Linux/2.6.35.7 Android 2.3.5 Release/01.10.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2' } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: MF356ZP/A/V1 Linux/3.4.39 Android/4.4.4 Release/11.13.2014 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.4.4'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart } }
