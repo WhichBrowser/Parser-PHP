@@ -231,6 +231,7 @@ class DeviceModels
     {
         $s = preg_replace('/^phone\//', '', $s);
         $s = preg_replace('/^(HTC|SAMSUNG|SHARP|Toshiba)\//u', '', $s);
+        $s = preg_replace('/^\//u', '', $s);
         $s = preg_replace('/\/[^\/]+$/u', '', $s);
         $s = preg_replace('/\/[^\/]+ Android\/.*/u', '', $s);
 
@@ -293,7 +294,7 @@ class DeviceModels
         $s = preg_replace('/^(UTStar-)/u', '', $s);
 
         $s = preg_replace('/^VZW:/iu', '', $s);
-        $s = preg_replace('/^Vodafone\/1.0\//iu', '', $s);
+        $s = preg_replace('/^(Swisscom|Vodafone)\/1.0\//iu', '', $s);
         $s = preg_replace('/-?(orange(-ls)?|vodafone|bouygues|parrot|Kust)$/iu', '', $s);
         $s = preg_replace('/[ -](Mozilla|Opera|Obigo|Java|PPC)$/iu', '', $s);
         $s = preg_replace('/ ?Build$/iu', '', $s);
