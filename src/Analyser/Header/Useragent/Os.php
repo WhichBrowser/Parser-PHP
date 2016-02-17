@@ -633,6 +633,10 @@ trait Os
                     $model = $match[1];
                 }
 
+                if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|SP|Smartphone); ([^;]+) Profile\/MIDP/u', $ua, $match)) {
+                    $model = $match[1];
+                }
+
                 if (empty($model) && preg_match('/MSIE [0-9.]+; Windows CE; (?:PPC|SP|Smartphone) ([^;]+)[;\/] [0-9]+x[0-9]+/u', $ua, $match)) {
                     $model = $match[1];
                 }
