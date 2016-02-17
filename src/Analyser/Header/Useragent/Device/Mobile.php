@@ -147,7 +147,7 @@ trait Mobile
             return;
         }
 
-        if (preg_match('/(?:SAMSUNG; )?SAMSUNG[-\/ ]?([^\/\)_]+)/ui', $ua, $match)) {
+        if (preg_match('/(?:SAMSUNG; )?SAMSUNG[-\/ ]?([^;\/\)_]+)/ui', $ua, $match)) {
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
             $this->data->device->identifier = $match[0];
