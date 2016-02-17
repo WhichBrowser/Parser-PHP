@@ -12,7 +12,7 @@
     result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Alcatel, model: 'One Touch 991' } }
 -
     headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 4.2.2; ARCHOS 79XE Build/Unknown);'
-    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, model: 'ARCHOS 79XE' } }
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: media, manufacturer: Archos, model: 79XE } }
 -
     headers: 'User-Agent: WhatsApp/2.11.164 Android/4_2_2 Device/samsung-GT-I9152'
     result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Mega 5.8 Plus' } }
