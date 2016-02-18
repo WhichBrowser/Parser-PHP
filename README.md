@@ -1,14 +1,11 @@
-WhichBrowser/Parser
-===================
+<img src="https://api.whichbrowser.net/whichbrowser.svg" width="400">
+
+This is an extremely complicated and almost completely useless browser sniffing library written in PHP. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
 [![Build Status](https://travis-ci.org/WhichBrowser/Parser.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
 [![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser?branch=master)
 [![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
 [![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
-
-> **Everybody lies**  — House M.D.
-
-This is an extremely complicated and almost completely useless browser sniffing library written in PHP. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
 **But why *almost completely useless* and not completely useless?**  
 Well, there is always an exception to the rule. There is one valid reason to do browser sniffing: to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.
