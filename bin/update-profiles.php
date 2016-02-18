@@ -2,11 +2,10 @@
 
 	include_once __DIR__ . '/bootstrap.php';
 	
-	echo "Downloading profiles...\n";
+	echo "Downloading...";
 
 	$profiles = json_decode(file_get_contents("https://api.whichbrowser.net/resources/profiles.json"));
 
-	$current = 1;
 	$total = count($profiles);
 
 	$result  = "";
@@ -24,15 +23,11 @@
 		$result .= "    '" . addslashes(trim($profile->url)) . "'" . str_repeat(" ", max(0, 100 - strlen($profile->url)));
 		$result .= "=> [ " . deviceString($profile->deviceManufacturer) . ", " . deviceString($profile->deviceModel);
 		$result .= ", " . deviceString($profile->osName) . ", " . deviceType($profile->deviceType) . " ],\n";
-
- 		echo "\r\033[KPreparing [{$current}/{$total}]";
- 		$current++;
 	}
 
 	$result .= "];\n";
 
-	echo "\n";
-	echo "Writing profiles...\n";
+	echo " and writing {$total} profiles...\n";
 	file_put_contents(__DIR__ . '/../data/profiles.php', $result);
 
 
