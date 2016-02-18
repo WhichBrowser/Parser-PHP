@@ -2644,7 +2644,7 @@ DeviceModels::$ANDROID_MODELS = [
     'S222'                                      => [ 'Cubot', 'S222' ],
     'S308'                                      => [ 'Cubot', 'S308' ],
 
-    '(CUBE ?)?[KU][0-9]{1,2}GT!!' => [
+    '(CUBE ?)?(K8|U1|U2|U3|U5|U6|U8|U9)[0-9]?GT!!' => [
         'CUBE K8GT'                                 => [ 'Cube', 'K8GT', DeviceType::TABLET ],
         'CUBE K8GT A'                               => [ 'Cube', 'K8GT A', DeviceType::TABLET ],
         'CUBE K8GT B'                               => [ 'Cube', 'K8GT B', DeviceType::TABLET ],
@@ -3228,9 +3228,12 @@ DeviceModels::$ANDROID_MODELS = [
         'EverTrendy'                                => [ 'Evertek', 'EverTrendy' ],
     ],
 
-    'E[78]0[0-9]{2,2}H[DG]!!' => [
+    'E70[0-9]{2,2}H[DG]!!' => [
         'E7020HD'                                   => [ 'Evertek', 'Everpad E7020HD', DeviceType::TABLET ],
         'E7050HD'                                   => [ 'Evertek', 'Everpad E7050HD', DeviceType::TABLET ],
+    ],
+
+    'E80[0-9]{2,2}H[DG]!!' => [
         'E8050HG'                                   => [ 'Evertek', 'Everpad E8050HG', DeviceType::TABLET ],
         'E8051HD'                                   => [ 'Evertek', 'Everpad E8051HD', DeviceType::TABLET ],
     ],
@@ -5226,15 +5229,18 @@ DeviceModels::$ANDROID_MODELS = [
         'C8860!'                                    => [ 'Huawei', 'Honor' ],
     ],
 
-    'T[89][0-9]{3,3}!!' => [
+    'T8[0-9]{3,3}!!' => [
         'T8620'                                     => [ 'Huawei', 'Ascend Y200T' ],
         'T8808!'                                    => [ 'Huawei', 'Ascend G306T' ],
         'T8830!'                                    => [ 'Huawei', 'Ascend G309T' ],
+    ],
+
+    'T9[0-9]{3,3}!!' => [
         'T9200'                                     => [ 'Huawei', 'Ascend P1' ],
         'T9510E'                                    => [ 'Huawei', 'Ascend D1 Quad XL' ],
     ],
 
-    'U[89][0-9]{3,3}!!' => [
+    'U8[0-9]{3,3}!!' => [
         'U8100'                                     => [ 'Huawei', 'U8100' ],
         'U8110'                                     => [ 'Huawei', 'U8110' ],
         'U8120'                                     => [ 'Huawei', 'U8120' ],
@@ -5274,6 +5280,9 @@ DeviceModels::$ANDROID_MODELS = [
         'U8836D'                                    => [ 'Huawei', 'Ascend G500' ],
         'U8850'                                     => [ 'Huawei', 'Vision' ],
         'U8860!'                                    => [ 'Huawei', 'Honor' ],
+    ],
+
+    'U9[0-9]{3,3}!!' => [
         'U9000'                                     => [ 'Huawei', 'Ascend X' ],
         'U9200!'                                    => [ 'Huawei', 'Ascend P1' ],
         'U9202!'                                    => [ 'Huawei', 'Ascend P1' ],
