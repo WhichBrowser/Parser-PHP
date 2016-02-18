@@ -957,11 +957,33 @@ trait Browser
                 $this->data->device = Data\DeviceModels::identify('android', $match[2]);
             }
 
-            if (preg_match('/; Adr ([0-9\.]+)(?:-update[0-9])?; [^;]+; ([^;]*[^\s])\)/u', $ua, $match)) {
+            if (preg_match('/\(MIDP-2.0; U; [^;]+; ([^;]*[^\s])\)/u', $ua, $match)) {
+                $this->data->os->name = 'Android';
+
+                $this->data->device->model = $match[1];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('android', $match[1]);
+
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if (preg_match('/\((?:Linux|MIDP-2.0); U; Adr ([0-9\.]+)(?:-update[0-9])?; [^;]+; ([^;]*[^\s])\)/u', $ua, $match)) {
                 $this->data->os->name = 'Android';
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
 
-                $this->data->device = Data\DeviceModels::identify('android', $match[2]);
+                $this->data->device->model = $match[2];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('android', $match[2]);
+
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
             }
 
             if (preg_match('/\((?:iOS|iPhone);/u', $ua)) {
