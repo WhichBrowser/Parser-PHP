@@ -114,12 +114,7 @@ class DeviceModels
 
             if (isset($match[2]) || isset($match['type'])) {
                 $type = isset($match[2]) ? $match[2] : $match['type'];
-                if (is_array($type)) {
-                    $device->type = $type[0];
-                    $device->subtype = $type[1];
-                } else {
-                    $device->type = $type;
-                }
+                $device->type = $type;
             }
 
             return $device;
