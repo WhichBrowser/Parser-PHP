@@ -1166,14 +1166,6 @@ trait Mobile
                 }
                 break;
 
-            case 'Windows Phone':
-                $device = Data\DeviceModels::identify('wp', $id);
-                if ($device->identified) {
-                    $device->identified |= $this->data->device->identified;
-                    $this->data->device = $device;
-                }
-                break;
-
             default:
                 $device = Data\DeviceModels::identify('feature', $id);
                 if ($device->identified) {
