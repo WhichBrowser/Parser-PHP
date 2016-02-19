@@ -38,6 +38,12 @@ The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Min
 
 
 
+Requirements
+-----------------
+
+WhichBrowser requires with PHP 5.4 or higher and supports PHP 7 and HHVM. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
+
+
 How to install it
 -----------------
 
