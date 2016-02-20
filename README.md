@@ -7,6 +7,7 @@ This is an extremely complicated and almost completely useless browser sniffing 
 [![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
 [![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/whichbrowserlib.svg?style=social)](https://twitter.com/whichbrowserlib)
 
 If you are looking for the JavaScript API for WhichBrowser, please go to the [WhichBrowser/Server](https://github.com/WhichBrowser/Server) project.
 
