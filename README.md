@@ -147,6 +147,31 @@ Finally you can also query versions directly:
     // false
 
 
+Enable result caching
+---------------------
+
+WhichBrowser supports PSR-6 compatible cache adapters for caching results between requests. Using a cache is especially useful if you use WhichBrowser on every page of your website and a user visits multiple pages. During the first visit the headers will be parsed and the result will be cached. Upon further visits, the cached results will be used, which is much faster than having to parse the headers again and again.
+
+There are adapters available for other types of caches, such as APC, Doctrine, Memcached, MongoDB, Redis and many more. The configuration of these adapters all differ from each other, but once configured, all you have to do is use the `setCache()` function to enable it's use by WhichBrowser. For more information see [PHP Cache](http://php-cache.readthedocs.org/en/latest/).
+
+For example, if you want to enable a memcached based cache you need to install an extra composer package:
+
+    composer require cache/memcached-adapter
+
+And change the call to WhichBrowser/Parser as follows:
+
+    $client = new \Memcached();
+    $client->addServer('localhost', 11211);
+
+    $pool = new \Cache\Adapter\Memcached\MemcachedCachePool($client);
+
+    $result = new WhichBrowser\Parser();
+    $result->setCache($pool);
+    $result->analyse(getallheaders());
+
+The `setCache()` function also supports an optional second parameter which specifies after how many seconds a cached result should be discarded. The default value is 900 seconds or 15 minutes. If you think WhichBrowser uses too much memory for caching, you should lower this value.
+
+
 API reference
 -------------
 
@@ -220,10 +245,10 @@ An object of the `WhichBrowser\Model\Browser` class is used for the `browser` pr
 **Functions:**
 
 `isFamily($name)`  
-Does the family of this browser have this name, or does the browser itself have this name. 
+Does the family of this browser have this name, or does the browser itself have this name.
 
 `isUsing($name)`  
-Is the browser using a webview using with the provided name. 
+Is the browser using a webview using with the provided name.
 
 `getName()`  
 Get the name of the browser
@@ -274,7 +299,7 @@ An object of the `WhichBrowser\Model\Os` class is used for the `os` property of 
 **Functions:**
 
 `isFamily($name)`  
-Does the family of this operating system have this name, or does the operating system itself have this name. 
+Does the family of this operating system have this name, or does the operating system itself have this name.
 
 `getName()`  
 Get the name of the operating system
@@ -408,7 +433,7 @@ An object of the `WhichBrowser\Model\Version` class is used for the `version` pr
 `is($version)` or `is($comparison, $version)`  
 Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`, but be aware that `10` is not the same as `10.0`. For example if our OS version is `10.7.4`:
 
-    $result->os->version->is('10.7.4'); 
+    $result->os->version->is('10.7.4');
     // true
 
     $result->os->version->is('10.7');
