@@ -6,7 +6,7 @@ use WhichBrowser\Parser;
 use Cache\Adapter\PHPArray\ArrayCachePool;
 
 /**
- * @covers WhichBrowser\Parser
+ * @covers WhichBrowser\Cache
  */
 class CacheTest extends PHPUnit_Framework_TestCase
 {
