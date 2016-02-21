@@ -12,15 +12,16 @@
             "role": "Developer"
         }
     ],
-    
+
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "psr/cache": "^1.0"
     },
-    
+
     "autoload": {
-        "psr-4": { 
+        "psr-4": {
             "WhichBrowser\\": [ "src/", "tests/src/" ]
-        } 
+        }
     },
 
     "require-dev": {
@@ -29,14 +30,15 @@
         "phpunit/php-code-coverage": "^2.2|^3.0",
         "phpunit/PHPUnit": "^4.0|^5.0",
         "satooshi/php-coveralls": "^0.6.1",
-        "icomefromthenet/reverse-regex" : "dev-master"
+        "icomefromthenet/reverse-regex" : "dev-master",
+        "cache/array-adapter": "^0.3.0"
     },
 
     "autoload-dev": {
-       "psr-4": { 
+       "psr-4": {
             "WhichBrowserTest\\":  "tests/unit"
         },
-        
+
         "files": [ "tests/src/polyfills.php" ]
     }
 }
