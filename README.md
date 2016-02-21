@@ -152,7 +152,7 @@ Enable result caching
 
 WhichBrowser supports PSR-6 compatible cache adapters for caching results between requests. Using a cache is especially useful if you use WhichBrowser on every page of your website and a user visits multiple pages. During the first visit the headers will be parsed and the result will be cached. Upon further visits, the cached results will be used, which is much faster than having to parse the headers again and again.
 
-There are adapters available for other types of caches, such as APC, Doctrine, Memcached, MongoDB, Redis and many more. The configuration of these adapters all differ from each other, but once configured, all you have to do is use the `setCache()` function to enable it's use by WhichBrowser. For more information see [PHP Cache](http://php-cache.readthedocs.org/en/latest/).
+There are adapters available for other types of caches, such as APC, Doctrine, Memcached, MongoDB, Redis and many more. The configuration of these adapters all differ from each other, but once configured, all you have to do is use the `setCache()` function to enable it's use by WhichBrowser. WhichBrowser has been tested to work with the adapters provided by [PHP Cache](http://php-cache.readthedocs.org/en/latest/). For a list of other packages that provide adapters see [Packagist](https://packagist.org/providers/psr/cache-implementation).
 
 For example, if you want to enable a memcached based cache you need to install an extra composer package:
 
