@@ -9,6 +9,12 @@ trait Cache
     private $cache;
     private $expires;
 
+    /**
+     * @var boolean     $cached   Was this result retrieve from the cache?
+     */
+
+    public $cached = false;
+
 
     /**
      * Enable caching of results
@@ -37,6 +43,8 @@ trait Cache
         foreach ($data as $key => $value) {
             $this->$key = $value;
         }
+
+        $this->cached = true;
     }
 
 
