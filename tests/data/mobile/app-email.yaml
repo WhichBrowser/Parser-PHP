@@ -6,7 +6,7 @@
     result: { browser: { name: 'Yahoo Mail', version: 1.3.10, type: 'app:email' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 4G' } }
 -
     headers: 'User-Agent: YahooMobileMail/1.0 (Android Mail; 3.0.5) (runnymede;HTC;Sensation XL with Beats Audio;4.0.3/IML74K)'
-    result: { browser: { name: 'Yahoo Mail', version: 3.0.5, type: 'app:email' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Sensation } }
+    result: { browser: { name: 'Yahoo Mail', version: 3.0.5, type: 'app:email' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Sensation XL' } }
 -
     headers: 'User-Agent: YahooMobile/1.0 (mail; 1.3.8.9816); (Linux; U; Android 2.3.4; htc_glacier Build/GINGERBREAD_MR1);'
     result: { browser: { name: 'Yahoo Mail', version: 1.3.8, type: 'app:email' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'myTouch 4G' } }
