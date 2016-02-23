@@ -4934,7 +4934,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HW-PLK-CL00'                               => [ 'Huawei', 'Honor 7' ],
         'ATH-(AL00|CL00)!'                          => [ 'Huawei', 'Honor 7i' ],
     ],
-   
+
     '(HUAWEI )?(CHC|KII)!!' => [
         'CHC-(U01|U03)!'                            => [ 'Huawei', 'G Play Mini' ],
         'KII-(L03|L05|L21|L23)!'                    => [ 'Huawei', 'GR5' ],
@@ -13310,8 +13310,8 @@ DeviceModels::$ANDROID_MODELS = [
     '402ZT'                                     => [ 'ZTE', 'Blade Q+ 402ZT', 'carrier' => 'Softbank' ],
     '502ZT'                                     => [ 'ZTE', 'Spro 2 502ZT', 'carrier' => 'Softbank' ],
     'ZA950'                                     => [ 'Zonda', 'Mega 5.0 ZA950' ],
-    
-    '(Zopo )?ZP ?{3,3}!!' => [
+
+    '(Zopo )?ZP ?[0-9]{3,3}!!' => [
         '(Zopo )?ZP100!'                            => [ 'Zopo', 'ZP100 Pilot' ],
         'ZP200'                                     => [ 'Zopo', 'ZP200 Shining' ],
         'ZP200+'                                    => [ 'Zopo', 'ZP200+ Shining' ],

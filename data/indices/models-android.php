@@ -6036,11 +6036,11 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@ZO' => 
   array (
-    0 => '(Zopo )?ZP ?{3,3}!!',
+    0 => '(Zopo )?ZP ?[0-9]{3,3}!!',
   ),
   '@ZP' => 
   array (
-    0 => '(Zopo )?ZP ?{3,3}!!',
+    0 => '(Zopo )?ZP ?[0-9]{3,3}!!',
   ),
   '@ZT' => 
   array (
