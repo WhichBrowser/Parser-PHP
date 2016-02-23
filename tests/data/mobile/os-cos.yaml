@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Android; COS2.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'
-    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: COS, family: Android, version: '2.0' }, device: { type: mobile, subtype: smart } }
 -
     headers: 'User-Agent: Mozilla/5.0 (COS 2.0; Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'
     result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: COS, family: Android, version: '2.0' }, device: { type: desktop } }
@@ -9,7 +9,7 @@
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: COS, family: Android }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (COS2.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'
-    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: COS, family: Android }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: COS, family: Android, version: '2.0' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (COS; HTC 9089)'
     result: { os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: '9089' } }
@@ -48,4 +48,4 @@
     result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS1.0; zh_CN; HTC 802t Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) Browser/2.2.4 Version/4.0 Mobile Safari/537.17'
-    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
+    result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }

@@ -107,7 +107,7 @@ trait Os
 
         if (preg_match('/Darwin\/([0-9]+).[0-9]+/u', $ua, $match)) {
             if (preg_match('/\((?:x86_64|i386|Power%20Macintosh)\)/u', $ua)) {
-                
+
                 /* OS X */
                 $this->data->os->name = 'OS X';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
@@ -405,39 +405,22 @@ trait Os
 
         /* COS */
 
-        if (preg_match('/COS like Android/ui', $ua, $match)) {
+        if (preg_match('/COS[\/ ]?([0-9]\.[0-9.]+)/ui', $ua, $match)) {
+            $this->data->os->name = 'COS';
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
+            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+        } elseif (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
+            $this->data->os->name = 'COS';
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
+            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+        } elseif (preg_match('/COS like Android/ui', $ua, $match)) {
             $this->data->os->name = 'COS';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             $this->data->os->version = null;
             $this->data->device->type = Constants\DeviceType::MOBILE;
-        }
-
-        if (preg_match('/COSBrowser\//ui', $ua, $match)) {
+        } elseif (preg_match('/(COS like Android|COSBrowser\/|\(COS;|\(COS 998;)/ui', $ua, $match)) {
             $this->data->os->name = 'COS';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
-        }
-
-        if (preg_match('/COS\/([0-9.]*)/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-        }
-
-        if (preg_match('/(?:\(|; )COS/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-        }
-
-        if (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-        }
-
-        if (preg_match('/(?:\(|; )COS ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
         }
     }
 
@@ -1522,10 +1505,10 @@ trait Os
                 $this->data->os->name = 'SunOS';
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 $this->data->os->family = new Family([ 'name' => 'BSD' ]);
-    
+
                 if (preg_match('/SunOS 4\.1\.([1234])/u', $ua, $match)) {
                     $this->data->os->name = 'Solaris';
-                    
+
                     switch ($match[1]) {
                         case '1':
                             $this->data->os->version = new Version([ 'value' => '1.0' ]);
@@ -1599,7 +1582,7 @@ trait Os
             $this->data->os->name = 'NEWS OS';
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
-            
+
 
             if (preg_match('/NEWS-OS [56]/u', $ua)) {
                 $this->data->os->family = new Family([ 'name' => 'UNIX' ]);
@@ -1628,10 +1611,10 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
-    
+
 
     /* BSD */
-    
+
     private function detectBsd($ua)
     {
         if (preg_match('/BSD/iu', $ua) || preg_match('/DragonFly/iu', $ua)) {
@@ -1696,10 +1679,10 @@ trait Os
             }
         }
     }
-    
+
 
     /* Linux */
-    
+
     private function detectLinux($ua)
     {
         if (preg_match('/Linux/u', $ua)) {
@@ -2011,7 +1994,7 @@ trait Os
             [ 'name' => 'MRE',          'regexp' => [ '/MRE\\\\/iu' ],                                      'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MRE',          'regexp' => [ '/MAUI[-_ ](?:Browser|Runtime)/iu' ],                 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MRE',          'regexp' => [ '/Browser\/MAUI/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
-            
+
             [ 'name' => 'QNX',          'regexp' => [ '/QNX/iu' ],                                          'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'SpreadTrum',   'regexp' => [ '/\(SpreadTrum;/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
