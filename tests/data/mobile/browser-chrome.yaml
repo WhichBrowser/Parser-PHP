@@ -36,7 +36,7 @@
     result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; FZ-A1B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36'
-    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: Toughpad } }
+    result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: 'Toughpad FZ-A1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; GT-I9220 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '39', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
