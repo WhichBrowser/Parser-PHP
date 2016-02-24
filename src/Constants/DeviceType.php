@@ -23,6 +23,7 @@ class DeviceType
     const SIGNAGE = 'signage';
     const WHITEBOARD = 'whiteboard';
     const DEVBOARD = 'devboard';
+    const INFLIGHT = 'inflight';
     const GPS = 'gps';
     const CAR = 'car';
     const POS = 'pos';
