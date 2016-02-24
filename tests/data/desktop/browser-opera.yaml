@@ -316,3 +316,9 @@
 -
     headers: 'User-Agent: Opera/5.0 (Macintosh;US;PPC)  [en]'
     result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16'
+    useragent: 'Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16'
+    engine: 2
+    features: 94
+    result: { browser: { name: Opera, version: '12.16', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
