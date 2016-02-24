@@ -3,6 +3,7 @@
 namespace WhichBrowser\Analyser;
 
 use WhichBrowser\Constants;
+use WhichBrowser\Model\Version;
 
 trait Camouflage
 {
@@ -123,6 +124,16 @@ trait Camouflage
 
             $this->data->engine->reset([ 'name' => 'Gecko' ]);
             $this->data->device->type = 'mobile';
+        }
+
+        if ($this->data->isBrowser('Chrome')) {
+            if (preg_match('/UBrowser\/?([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->stock = false;
+                $this->data->browser->name = 'UC Browser';
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+                $this->data->browser->type = Constants\BrowserType::BROWSER;
+                unset($this->data->browser->channel);
+            }
         }
 
         return $this;
