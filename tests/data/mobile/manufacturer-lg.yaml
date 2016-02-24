@@ -276,7 +276,7 @@
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus G Pro' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; LG-F460K Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'G3 Prime' } }
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'G3 Cat.6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; LG-F540L Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Volt } }
@@ -345,7 +345,7 @@
     result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Blink }, os: { name: Android, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Bello 2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; LG-F500L Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: F500 } }
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G4 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; LG-F580L Build/LMY47S) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Gentle } }
@@ -417,7 +417,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus Z' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; LG-CX670 Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus 3G' } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus One' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; LG-LU3000 Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus Mach' } }
@@ -537,13 +537,13 @@
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: L20 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LG-D120 Build/KOT49I.V10a) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: L30 } }
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'L30 Sporty' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LG-D213 Build/KOT49I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'L50 Sporty' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LG-D227 Build/KOT49I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: L50 } }
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'L50 Sporty' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LG-D315 Build/KOT49I.A1392170855) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: F70 } }
@@ -624,7 +624,7 @@
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Tribute } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LGLS740 Build/KOT49I.LS740ZV3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: F90 } }
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Volt } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LGMS395 Build/KOT49I.MS39510d) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: F60 } }

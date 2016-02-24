@@ -27,10 +27,10 @@
     result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Hisense, model: Pulse } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; LG Google TV G3 TV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36'
-    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'G3 series' } }
+    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'Android TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; LG Google TV TV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.80 Safari/537.36'
-    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'G2 series' } }
+    result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'Android TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; TCL Google TV TV Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36'
     result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: TCL, model: 'MoVo UD TV' } }
@@ -42,7 +42,7 @@
     result: { browser: { name: Chrome, version: '11', type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: NETGEAR, model: 'NeoTV Prime' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; GoogleTV 3.2; LG Google TV Build/MASTER) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.77 Safari/534.24'
-    result: { browser: { name: Chrome, version: '11', type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'G2 series' } }
+    result: { browser: { name: Chrome, version: '11', type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: LG, model: 'Android TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; GoogleTV 3.2; NSZ-GS7/GX70 Build/MASTER) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.77 Safari/534.24'
     result: { browser: { name: Chrome, version: '11', type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: 'Google TV', family: Android }, device: { type: television, manufacturer: Sony, model: NSZ-GS7 } }

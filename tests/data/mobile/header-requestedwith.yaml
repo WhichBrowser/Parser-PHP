@@ -18,7 +18,7 @@
     result: { browser: { name: WeChat, using: { name: 'Chromium WebView', version: '33' }, version: 5.4.0.51, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; Android 5.0; ASUS_T00J Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36', X-Requested-With: com.asus.browser }
-    result: { browser: { name: 'Asus Browser', using: { name: 'Chromium WebView', version: '37' } }, engine: { name: Blink }, os: { name: Android, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'ZenFone 5' } }
+    result: { browser: { name: 'Asus Browser', using: { name: 'Chromium WebView', version: '37' } }, engine: { name: Blink }, os: { name: Android, version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'ZenFone 5 (A501CG)' } }
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.1; zh-CN; MI 2S Build/JRO03L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.0.558 U3/0.8.0 Mobile Safari/537.36', X-Requested-With: com.UCMobile.lab }
     result: { browser: { name: 'UC Browser', version: '10.4', type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2S' } }

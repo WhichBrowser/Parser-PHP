@@ -168,4 +168,4 @@
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: Vision } }
 -
     headers: 'User-Agent: GetJarSDK/20130302.04 (8) com.miniclip.railrush/24 android/4.3 (asus; WW_epad; K00E)'
-    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Asus, model: 'Fonepad 7' } }
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Asus, model: 'Fonepad 7 (ME372CG)' } }

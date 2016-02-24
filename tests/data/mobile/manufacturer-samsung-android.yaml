@@ -9,7 +9,7 @@
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Indulge 4G' } }
 -
     headers: 'User-Agent: Dalvik/1.2.0 (Linux; U; Android 2.2; GT-I5500L Build/FROYO)'
-    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy 5' } }
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Europa' } }
 -
     headers: 'User-Agent: Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-S5360 Build/GINGERBREAD)'
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Y' } }
@@ -90,7 +90,7 @@
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Chat' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; GT-I8258 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: GT-I8258 } }
+    result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; GT-S5301 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Pocket Plus' } }
@@ -744,7 +744,7 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: GT-B9120 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; GT-I8250 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: GT-I8250 } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Beam' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; GT-S5367 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Y TV' } }
