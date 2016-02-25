@@ -1,9 +1,9 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  GT-P3113 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 (7.0)' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  GT-P5100 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 (10.1)' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 10.1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  GT-P7500 Build/HTJ85B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133  Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 10.1' } }
@@ -15,7 +15,7 @@
     result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.0 Plus' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  GT-P1000 Build/GINGERBREAD) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: '2.3' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: '2.3' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; GT-P6201 Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.87 Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.0 Plus N' } }
@@ -42,7 +42,7 @@
     result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Nexus 10' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2;  SM-T210 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133  Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 (7.0)' } }
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; GT-N5100 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Note 8.0' } }
@@ -54,13 +54,13 @@
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.2.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 Plus (10.1)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; GT-P5200 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36'
-    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 (10.1)' } }
+    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 10.1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; SM-T110 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Safari/537.36'
     result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 Lite' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; SM-T310 Build/JDQ39) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31'
-    result: { browser: { name: Chrome, version: 26.0.1410.58, type: browser }, engine: { name: Webkit, version: '537.31' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 (8.0)' } }
+    result: { browser: { name: Chrome, version: 26.0.1410.58, type: browser }, engine: { name: Webkit, version: '537.31' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 8.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; xx; SAMSUNG  SM-P905 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Note Pro' } }
@@ -72,19 +72,19 @@
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Pro 12.2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; 403SC Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab 4 (7.0) 403SC', carrier: Softbank } }
+    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab 4 7.0 403SC', carrier: Softbank } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Note 10.1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SAMSUNG-SM-T537A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 (10.1)' } }
+    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 10.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SM-T320 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Pro 8.4' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SM-T330 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 (8.0)' } }
+    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 8.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SM-T520 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Pro 10.1' } }
@@ -96,19 +96,19 @@
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab S 10.5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari/537.36'
-    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3 V' } }
+    result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3V 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-T560 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36'
     result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab E 9.6' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; xx; SAMSUNG SM-T239M Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 Lite' } }
+    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; xx; SAMSUNG SM-T360 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Active (8.0)' } }
+    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab Active 8.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; xx; SAMSUNG SM-T533 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 10.1 (2015)' } }
+    result: { browser: { name: 'Samsung Internet', version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 4 10.1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; xx; SCT21 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Samsung, model: 'GALAXY Tab S SCT21', carrier: au } }
@@ -135,7 +135,7 @@
     result: { browser: { name: 'Samsung Internet', version: '3.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy View' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; SMT-i9100 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: tablet, manufacturer: Samsung, model: SMT-I9100 } }
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 7.0' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; xx; Samsung Galaxy Tab3 - 4.2.2 - API 17 - 1024x600 Build/JDQ39E) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 3' } }

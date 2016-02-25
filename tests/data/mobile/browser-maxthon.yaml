@@ -18,7 +18,7 @@
     result: { browser: { name: Maxthon, version: 4.0.4, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.1 }, device: { type: tablet, manufacturer: Ainovo, model: 'Novo7 Paladin' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; GT-P5100 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Maxthon/4.0.3.3000'
-    result: { browser: { name: Maxthon, version: 4.0.3, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 (10.1)' } }
+    result: { browser: { name: Maxthon, version: 4.0.3, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 10.1' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; LG-P708g Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L7' } }
