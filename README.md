@@ -66,19 +66,25 @@ How to use it
 
 The first step require the Composer autoloader:
 
-    <?php
+```php
+<?php
 
-        require 'vendor/autoload.php';
+    require 'vendor/autoload.php';
+```
 
 The second step is to create a new `WhichBrowser\Parser` object. This object will contain all the information the library could find about the browser. The object has a required parameter, either the headers send by the browser, or a useragent string. Using the headers is preferable, because it will allow a better detection, but if you have just the useragent string, this will also work.
 
 For example:
 
-    $result = new WhichBrowser\Parser(getallheaders());
+```php
+$result = new WhichBrowser\Parser(getallheaders());
+```
 
 or:
 
-    $result = new WhichBrowser\Parser($_SERVER['HTTP_USER_AGENT']);
+```php
+$result = new WhichBrowser\Parser($_SERVER['HTTP_USER_AGENT']);
+```
 
 
 The variable `$result` now contains an object which you can query for information. There are various ways to access the information.
@@ -86,66 +92,71 @@ The variable `$result` now contains an object which you can query for informatio
 
 First of all, you can call to `toString()` function to get a human readable identification:
 
-    "You are using " . $result->toString();
-    // You are using Chrome 27 on OS X Mountain Lion 10.8
-
+```php
+"You are using " . $result->toString();
+// You are using Chrome 27 on OS X Mountain Lion 10.8
+```
 
 Another possiblity is to query the object:
 
-    $result->isType('desktop');
-    // true
+```php
+$result->isType('desktop');
+// true
 
-    $result->isType('mobile', 'tablet', 'media', 'gaming:portable');
-    // false
+$result->isType('mobile', 'tablet', 'media', 'gaming:portable');
+// false
 
-    $result->isBrowser('Maxthon', '<', '4.0.5');
-    // false
+$result->isBrowser('Maxthon', '<', '4.0.5');
+// false
 
-    $result->isOs('iOS', '>=', '8');
-    // false
+$result->isOs('iOS', '>=', '8');
+// false
 
-    $result->isOs('OS X');
-    // true
+$result->isOs('OS X');
+// true
 
-    $result->isEngine('Blink');
-    // true
-
+$result->isEngine('Blink');
+// true
+```
 
 You can also access these properties directly:
 
-    $result->browser->toString();
-    // Chrome 27  
+```php
+$result->browser->toString();
+// Chrome 27  
 
-    $result->engine->toString();
-    // Blink
+$result->engine->toString();
+// Blink
 
-    $result->os->toString();
-    // OS X Mountain Lion 10.8
-
+$result->os->toString();
+// OS X Mountain Lion 10.8
+```
 
 Or access parts of these properties directly:
 
-    $result->browser->name;
-    // Chrome
+```php
+$result->browser->name;
+// Chrome
 
-    $result->browser->name . ' ' . $result->browser->version.toString();
-    // Chrome 27
+$result->browser->name . ' ' . $result->browser->version.toString();
+// Chrome 27
 
-    $result->browser->version->value;
-    // 27.0.1453.110
+$result->browser->version->value;
+// 27.0.1453.110
 
-    $result->engine->name;
-    // Blink
-
+$result->engine->name;
+// Blink
+```
 
 Finally you can also query versions directly:
 
-    $result->browser->version->is('>', 26);
-    // true
+```php
+$result->browser->version->is('>', 26);
+// true
 
-    $result->os->version->is('<', '10.7.4');
-    // false
-
+$result->os->version->is('<', '10.7.4');
+// false
+```
 
 Enable result caching
 ---------------------
@@ -160,14 +171,16 @@ For example, if you want to enable a memcached based cache you need to install a
 
 And change the call to WhichBrowser/Parser as follows:
 
-    $client = new \Memcached();
-    $client->addServer('localhost', 11211);
+```php
+$client = new \Memcached();
+$client->addServer('localhost', 11211);
 
-    $pool = new \Cache\Adapter\Memcached\MemcachedCachePool($client);
+$pool = new \Cache\Adapter\Memcached\MemcachedCachePool($client);
 
-    $result = new WhichBrowser\Parser();
-    $result->setCache($pool);
-    $result->analyse(getallheaders());
+$result = new WhichBrowser\Parser();
+$result->setCache($pool);
+$result->analyse(getallheaders());
+```
 
 The `setCache()` function also supports an optional second parameter which specifies after how many seconds a cached result should be discarded. The default value is 900 seconds or 15 minutes. If you think WhichBrowser uses too much memory for caching, you should lower this value.
 
@@ -433,23 +446,25 @@ An object of the `WhichBrowser\Model\Version` class is used for the `version` pr
 `is($version)` or `is($comparison, $version)`  
 Using this function it is easy to compare a version to another version. If you specify only one argument, this function will return if the versions are the same. You can also specify two arguments, in that case the first argument contains the comparison operator, such as `<`, `<=`, `=`, `=>` or `>`. The second argument is the version you want to compare it to. You can use versions like `10`, `10.7` or `'10.7.4'`, but be aware that `10` is not the same as `10.0`. For example if our OS version is `10.7.4`:
 
-    $result->os->version->is('10.7.4');
-    // true
+```php
+$result->os->version->is('10.7.4');
+// true
 
-    $result->os->version->is('10.7');
-    // true
+$result->os->version->is('10.7');
+// true
 
-    $result->os->version->is('10');
-    // true
+$result->os->version->is('10');
+// true
 
-    $result->os->version->is('10.0');
-    // false
+$result->os->version->is('10.0');
+// false
 
-    $result->os->version->is('>', '10');
-    // false
+$result->os->version->is('>', '10');
+// false
 
-    $result->os->version->is('>', '10.7');
-    // false
+$result->os->version->is('>', '10.7');
+// false
 
-    $result->os->version->is('>', '10.7.3');
-    // true
+$result->os->version->is('>', '10.7.3');
+// true
+```
