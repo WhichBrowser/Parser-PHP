@@ -24,6 +24,7 @@ DeviceModels::$BREW_MODELS = [
     'sam-r631'                                  => [ 'Samsung', 'Messenger Touch R631' ],
     'SPH M330'                                  => [ 'Samsung', 'SPH-M330' ],
     'PLS M330'                                  => [ 'Samsung', 'PLS-M330' ],
+    'Sprint M850'                               => [ 'Samsung', 'Instinct HD' ],
     'SCP-6750'                                  => [ 'Sanyo', 'Katana Eclipse X' ],
     'SCP6760'                                   => [ 'Sanyo', 'Incognito' ],
     'SCP-6760'                                  => [ 'Sanyo', 'Incognito' ],

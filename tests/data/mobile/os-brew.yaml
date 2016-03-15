@@ -171,4 +171,4 @@
     result: { browser: { name: Polaris, version: '6.1', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SPH-M330 } }
 -
     headers: 'User-Agent: Opera/9.70 (BREW 4.0.3; U; en; Samsung; Opera Mobi; Presto/2.2.1/INT) Sprint M850 SprintTitan/OSGi-4.1 Profile/MIDP-2.1 Configuration/CDC-1.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: Brew, version: 4.0.3 }, device: { type: mobile, subtype: feature, model: 'Sprint M850' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: Brew, version: 4.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Instinct HD' } }

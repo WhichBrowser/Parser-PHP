@@ -91,6 +91,7 @@ DeviceModels::$BREW_INDEX = array (
   '@SP' => 
   array (
     0 => 'SPH M330',
+    1 => 'Sprint M850',
   ),
   '@TX' => 
   array (
