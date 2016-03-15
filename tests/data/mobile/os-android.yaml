@@ -169,3 +169,12 @@
 -
     headers: 'User-Agent: GetJarSDK/20130302.04 (8) com.miniclip.railrush/24 android/4.3 (asus; WW_epad; K00E)'
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Asus, model: 'Fonepad 7 (ME372CG)' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
+    result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android, version: 3.2.1 }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
+    result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; ETBW11AA Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
+    result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android, version: 3.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: Tough } }

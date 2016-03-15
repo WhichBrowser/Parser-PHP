@@ -8,7 +8,7 @@ BuildIds::$ANDROID_BUILDS = [
     'ECLAIR'        => '2.0',
     'FROYO'         => '2.2',
     'GINGERBREAD'   => '2.3',
-    
+
     'DRC83'         => '1.6',
     'DRC92'         => '1.6',
     'DRD08'         => '1.6',
@@ -41,7 +41,7 @@ BuildIds::$ANDROID_BUILDS = [
     'GRK39C'        => '2.3.6',
     'GRK39F'        => '2.3.6',
     'GWK74'         => '2.3.7',
-    
+
     'HRI39'         => '3.0',
     'HRI66'         => '3.0',
     'HWI69'         => '3.0',
@@ -49,12 +49,13 @@ BuildIds::$ANDROID_BUILDS = [
     'HMJ37'         => '3.1',
     'HTJ85B'        => '3.2',
     'HTK55D'        => '3.2.1',
+    'HTK75'         => '3.2.1',
     'HTK75D'        => '3.2.1',
     'HLK75C'        => '3.2.2',
     'HLK75D'        => '3.2.2',
     'HLK75F'        => '3.2.4',
     'HLK75H'        => '3.2.6',
-    
+
     'ITL41D'        => '4.0.1',
     'ITL41E'        => '4.0.1',
     'ITL41F'        => '4.0.1',
@@ -103,11 +104,11 @@ BuildIds::$ANDROID_BUILDS = [
     'KTU84L'        => '4.4.3',
     'KTU84M'        => '4.4.3',
     'KTU84P'        => '4.4.4',
-    
+
     'LPV79'         => ['value' => '5.0', 'alias' => 'L'],
     'LPV81C'        => ['value' => '5.0', 'alias' => 'L'],
     'LPX13D'        => ['value' => '5.0', 'alias' => 'L'],
-    
+
     'LRX21L'        => '5.0',
     'LRX21M'        => '5.0',
     'LRX21O'        => '5.0',

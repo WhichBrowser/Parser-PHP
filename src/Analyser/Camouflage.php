@@ -62,11 +62,6 @@ trait Camouflage
             $this->data->browser->version = null;
             $this->data->browser->mode = 'desktop';
 
-            if (!$this->data->isOs('Android')) {
-                $this->data->os->reset([ 'name' => 'Android' ]);
-                $this->data->device->type = 'mobile';
-            }
-
             $this->data->engine->name = 'Webkit';
             $this->data->engine->version = null;
 
