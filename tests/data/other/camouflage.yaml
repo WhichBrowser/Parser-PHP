@@ -7,7 +7,7 @@
     result: { browser: { name: 'Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
-    result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+    result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/1.0.0.39 Safari/535.19'
     result: { browser: { name: Chrome, version: 1.0.0.39, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
@@ -102,3 +102,15 @@
     headers: { User-Agent: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20', X-Wap-Profile: 'http://wap.sonyericsson.com/UAprof/SK17iR411.xml' }
     features: 88
     result: { browser: { name: Safari, version: 3.1.1, type: browser }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Mini Pro' }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3'
+    engine: 52
+    result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko'
+    engine: 16
+    result: { browser: { name: 'Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)'
+    engine: 8
+    result: { browser: { name: 'Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
