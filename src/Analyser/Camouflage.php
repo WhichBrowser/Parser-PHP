@@ -252,11 +252,6 @@ trait Camouflage
                     $this->data->features[] = 'foundWorker';
                     $this->data->camouflage = true;
                 }
-
-                if ($this->data->os->version->toFloat() > 2.1 && !$this->options->features & Constants\Feature::APPCACHE) {
-                    $this->data->features[] = 'noAppCache';
-                    $this->data->camouflage = true;
-                }
             }
 
             if ($this->data->os->name != 'iOS' && $this->data->browser->name == 'Safari' && isset($this->data->browser->version)) {
