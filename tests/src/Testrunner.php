@@ -45,7 +45,7 @@ class Testrunner
                 if (isset($options['headers']) && is_string($options['headers'])) {
                     $options['headers'] = http_parse_headers($options['headers']);
                 }
-                
+
                 if (isset($options['result'])) {
                     unset($options['result']);
                 }
@@ -53,10 +53,16 @@ class Testrunner
                 $detected = new Parser($options);
 
                 if (isset($rule['result'])) {
-                    if ($detected->toArray() != $rule['result']) {
+                    if ($detected->toArray() != $rule['result'] || $detected->toString() != $rule['readable']) {
                         fwrite($fp, "\n{$name}\n--------------\n\n");
-                        fwrite($fp, $detected->toString() . "\n\n");
-    
+
+                        if ($detected->toString() != $rule['readable']) {
+                            fwrite($fp, $rule['readable'] . "\n");
+                            fwrite($fp, $detected->toString() . "\n\n");
+                        } else {
+                            fwrite($fp, $detected->toString() . "\n\n");
+                        }
+
                         if (isset($options['headers'])) {
                             foreach ($options['headers'] as $k => $v) {
                                 fwrite($fp, $k . ': ' . $v . "\n");
@@ -181,6 +187,7 @@ class Testrunner
                     $detected = new Parser($options);
 
                     $rule['headers'] = $headers;
+                    $rule['readable'] = $detected->toString();
                     $rule['result'] = $detected->toArray();
 
                     $result[] = $rule;
@@ -228,7 +235,7 @@ class Testrunner
             if ($ah == $bh) {
                 return 0;
             }
-            
+
             return ($ah > $bh) ? +1 : -1;
         });
 

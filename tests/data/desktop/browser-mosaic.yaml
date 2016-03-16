@@ -1,72 +1,96 @@
 -
     headers: 'User-Agent: NCSA Mosaic/2.1 (Windows x86)'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.1', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 2.1 on Windows'
 -
     headers: 'User-Agent: NCSA Mosaic/2.6b1 (X11;UNIX_System_V 4.2 R4000) libwww/2.12 modified'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.6', type: browser }, os: { name: 'UNIX System V', family: UNIX, version: '4.2' }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 2.6 on UNIX System V 4.2'
 -
     headers: 'User-Agent: NCSA Mosaic/2.6b1 [en-gb] (X11;UNIX_System_V 4.2 R4000) libwww/2.12 modified'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.6', type: browser }, os: { name: 'UNIX System V', family: UNIX, version: '4.2' }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 2.6 on UNIX System V 4.2'
 -
     headers: 'User-Agent: NCSA Mosaic/3.0.0 (Windows x86)'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: 3.0.0, type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 3.0.0 on Windows'
 -
     headers: 'User-Agent: NCSA_Mosaic/2.6L10N+ (X11;SunOS 5.6 sun4u) libwww/2.12 modified'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.6', type: browser }, os: { name: Solaris, family: UNIX, version: '2.6' }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 2.6 on Solaris 2.6'
 -
     headers: 'User-Agent: NEC MosaicView/1.0 libwww/2.15_Spyglass'
     result: { browser: { name: 'Spyglass Mosaic', family: Mosaic, version: '1.0', type: browser } }
+    readable: 'Spyglass Mosaic 1.0'
 -
     headers: 'User-Agent: mMosaic/3.6.6 (X11;SunOS 5.8 sun4m)'
     result: { browser: { name: mMosaic, family: Mosaic, version: 3.6.6, type: browser }, os: { name: Solaris, family: UNIX, version: '8' }, device: { type: desktop } }
+    readable: 'mMosaic 3.6.6 on Solaris 8'
 -
     headers: 'User-Agent: AIR_Mosaic(16bit)/v1.00.198.07'
     result: { browser: { name: 'AIR Mosaic', family: Mosaic, version: '1.00', type: browser } }
+    readable: 'AIR Mosaic 1.00'
 -
     headers: 'User-Agent: AIR_Mosaic(16bit)/v3.09.04.02'
     result: { browser: { name: 'AIR Mosaic', family: Mosaic, version: '3.09', type: browser } }
+    readable: 'AIR Mosaic 3.09'
 -
     headers: 'User-Agent: AIR_Mosaic(16bit)/v3.10.06.07'
     result: { browser: { name: 'AIR Mosaic', family: Mosaic, version: '3.10', type: browser } }
+    readable: 'AIR Mosaic 3.10'
 -
     headers: 'User-Agent: DCL SuperMosaic/1.0.2.9J_Win32'
     result: { browser: { name: SuperMosaic, family: Mosaic, version: '1.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'SuperMosaic 1.0 on Windows'
 -
     headers: 'User-Agent: SPRY_Mosaic(16bit)/v3.10.198.07'
     result: { browser: { name: 'SPRY Mosaic', family: Mosaic, version: '3.10', type: browser } }
+    readable: 'SPRY Mosaic 3.10'
 -
     headers: 'User-Agent: SPRY_Mosaic/v8.01 (Windows 16-bit) SPRY_package/v4.00'
     result: { browser: { name: 'SPRY Mosaic', family: Mosaic, version: '8.01', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'SPRY Mosaic 8.01 on Windows'
 -
     headers: 'User-Agent: WinMosaic/Version 2.0 (ALPHA 2)'
     result: { browser: { name: WinMosaic, family: Mosaic, version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'WinMosaic 2.0 on Windows'
 -
     headers: 'User-Agent: Spyglass Mosaic/1.0'
     result: { browser: { name: 'Spyglass Mosaic', family: Mosaic, version: '1.0', type: browser } }
+    readable: 'Spyglass Mosaic 1.0'
 -
     headers: 'User-Agent: Spyglass_Mosaic/2.10 Win32 TGV/2'
     result: { browser: { name: 'Spyglass Mosaic', family: Mosaic, version: '2.10', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'Spyglass Mosaic 2.10 on Windows'
 -
     headers: 'User-Agent: Spyglass_Mosaic/2.11 IRIX5.2 Spyglass/11'
     result: { browser: { name: 'Spyglass Mosaic', family: Mosaic, version: '2.11', type: browser }, os: { name: IRIX, family: UNIX }, device: { type: desktop } }
+    readable: 'Spyglass Mosaic 2.11 on IRIX'
 -
     headers: 'User-Agent: Spyglass_Mosaic/2.11 Mac_68000 Spyglass/6'
     result: { browser: { name: 'Spyglass Mosaic', family: Mosaic, version: '2.11', type: browser } }
+    readable: 'Spyglass Mosaic 2.11'
 -
     headers: 'User-Agent: Quarterdeck Mosaic Version 1.0'
     result: { browser: { name: 'Quarterdeck Mosaic', family: Mosaic, version: '1.0', type: browser } }
+    readable: 'Quarterdeck Mosaic 1.0'
 -
     headers: 'User-Agent: Quarterdeck Mosaic Version 2.0/Final/Export'
     result: { browser: { name: 'Quarterdeck Mosaic', family: Mosaic, version: '2.0', type: browser } }
+    readable: 'Quarterdeck Mosaic 2.0'
 -
     headers: 'User-Agent: Quarterdeck Mosaic Version 2.01/Release/Export'
     result: { browser: { name: 'Quarterdeck Mosaic', family: Mosaic, version: '2.01', type: browser } }
+    readable: 'Quarterdeck Mosaic 2.01'
 -
     headers: 'User-Agent: NCSA Mosaic for the X Window System/2.5b5 (L10N-2.4.0)'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.5', type: browser } }
+    readable: 'NCSA Mosaic 2.5'
 -
     headers: 'User-Agent: NCSA Mosaic(tm) for Windows/Version 2.0 (ALPHA 7)'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '2.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 2.0 on Windows'
 -
     headers: 'User-Agent: Mosaic/1.0r2 (Macintosh; I; 68040)'
     result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '1.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    readable: 'NCSA Mosaic 1.0 on Mac OS'

@@ -1,174 +1,232 @@
 -
     headers: 'User-Agent: BREW-Applet/0x20068888 (BREW/3.1.5.20; DeviceId: 32056; Lang: zhcn) ucweb-squid'
     result: { browser: { name: 'UC Browser', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5.20 }, device: { type: mobile, subtype: feature } }
+    readable: 'UC Browser on Brew 3.1.5.20'
 -
     headers: 'User-Agent: BREW-Applet/0x20068888 (BREW/3.1.5.20; DeviceId: 90197; Lang: zhcn) ucweb-squid'
     result: { browser: { name: 'UC Browser', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5.20 }, device: { type: mobile, subtype: feature } }
+    readable: 'UC Browser on Brew 3.1.5.20'
 -
     headers: 'User-Agent: MQQBrowser/Mini3.1 (ZTE-R516-BREW-B01)'
     result: { browser: { name: 'QQ Browser Mini', version: '3.1', type: browser }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: R516 } }
+    readable: 'QQ Browser Mini 3.1 on a ZTE R516 running Brew'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Kyocera; NetFront/4.1/AMB) Sprint E4255'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
+    readable: 'NetFront 4.1 on a Kyocera DuraMax E4255 running Brew MP 1.0.2'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Sanyo; NetFront/3.5.1/AMB) Boost SCP6780'
     result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Innuendo } }
+    readable: 'NetFront 3.5.1 on a Sanyo Innuendo running Brew MP 1.0.2'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151-PLB'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    readable: 'NetFront 4.1 on a Kyocera Coast S2151 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone; Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    readable: 'NetFront 4.1 on a Kyocera Coast S2151 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;xx)/400x240 Samsung SCH-U820'
     result: { browser: { name: Polaris, version: '6.2', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Reality } }
+    readable: 'Polaris 6.2 on a Samsung Reality running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; BREW 3.1.5; xx) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000'
     result: { browser: { name: Polaris, version: '7.0', type: browser }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+    readable: 'Polaris 7.0 on a LG Env Touch running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (HS-E316/E464.6.01.03.00;U;REX/3.0;BREW/3.1.5;240*320;CTC/2.0) Ucweb/7.6'
     result: { browser: { name: 'UC Browser', version: '7.6', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: E316 } }
+    readable: 'UC Browser 7.6 on a Hisense E316 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_U2801;U;REX/1.0;BREW/5.0.4.1;Profile/MIDP-2.0 Configuration/CLDC-1.1;128*160) Opera/9.70'
     result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U2801 } }
+    readable: 'Opera Mobile 9.70 on a Huawei U2801 running Brew 5.0.4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_U5200/;U;REX/1.0;BREW/5.0.4.1;Profile/MIDP-2.0 Configuration/CLDC-1.1;240*320) Opera/9.70'
     result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U5200 } }
+    readable: 'Opera Mobile 9.70 on a Huawei U5200 running Brew 5.0.4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-B309I/B309IGC14;U;REX/3.0;BREW/3.1.5;128*128) Ucweb/6.3'
     result: { browser: { name: 'UC Browser', version: '6.3', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-B309 } }
+    readable: 'UC Browser 6.3 on a Samsung SCH-B309 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-S559/S559DL12;U;REX/3.0;BREW/3.1.5;Profile/MIDP-2.1 Configuration/CLDC-1.1;240*320;CTC/2.0) POLARIS/6.15.WEB'
     result: { browser: { name: Polaris, version: '6.15', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-S559 } }
+    readable: 'Polaris 6.15 on a Samsung SCH-S559 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-S579/S579DJ19;U;REX/3.0;BREW/3.1.5;Profile/MIDP-2.1 Configuration/CLDC-1.1;240*320;CTC/2.0) POLARIS/6.2.WEB'
     result: { browser: { name: Polaris, version: '6.2', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-S579 } }
+    readable: 'Polaris 6.2 on a Samsung SCH-S579 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; xx) 320X240 LGE VX9200'
     result: { browser: { name: 'Obigo Q', version: '7', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Env3 } }
+    readable: 'Obigo Q 7 on a LG Env3 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.80 (KDDI-FJ31; BREW; Opera Mobi; U; xx) Presto/2.4.18 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.18 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F001, carrier: au } }
+    readable: 'Opera Mobile 10.00 on a Fujitsu F001 running Brew'
 -
     headers: 'User-Agent: Mozilla/5.0_(Smartfren-E781A/E2_SQID_V0.1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/Q7'
     result: { browser: { name: 'Obigo Q', version: '7', type: browser }, os: { name: Brew, version: 3.1.5.189 }, device: { type: mobile, subtype: feature } }
+    readable: 'Obigo Q 7 on Brew 3.1.5.189'
 -
     headers: 'User-Agent: NetFront/3.5.1 (BREW 5.0.1.2; U; xx; LG; NetFront/3.5.1/AMB) Sprint LN510 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 5.0.1.2 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Touch' } }
+    readable: 'NetFront 3.5.1 on a LG Rumor Touch running Brew 5.0.1.2'
 -
     headers: 'User-Agent: NetFront/3.5.1(BREW 3.1.5; U; xx; SAMSUNG; NetFront/3.1.5/AMB) Sprint M550 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Exclaim } }
+    readable: 'NetFront 3.5.1 on a Samsung Exclaim running Brew 3.1.5'
 -
     headers: 'User-Agent: NetFront/3.5.1(BREW 5.0.2.1; U; xx; SAMSUNG; NetFront/3.5.1/WAP) PayLo M390-PLB'
     result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 5.0.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Array } }
+    readable: 'NetFront 3.5.1 on a Samsung Array running Brew 5.0.2.1'
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Boost LG272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Reflex' } }
+    readable: 'NetFront 4.2 on a LG Rumor Reflex running Brew MP 1.0.4'
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Sprint LN272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
+    readable: 'NetFront 4.2 on a LG LN272 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: PantechP6030/JZUS09022013 BMP/1.0.4 DeviceId/141030 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
+    readable: 'NetFront 4.1 on a Pantech Reneu running Brew MP 1.0.4'
 -
     headers: 'User-Agent: PhilipsW715/Qualcomm Brew MP 1.0.3/WAP-2.0/MIDP-2.0/CLDC-1.1'
     result: { os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: W715 } }
+    readable: 'a Philips W715 running Brew MP 1.0.3'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.4.1.377 UNTRUSTED/1.0', X-UCBrowser-Device-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Boost SCP6760', X-UCBrowser-Device: j2me, X-UCBrowser-UA: 'pf(Java);la(en-US);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(320*240);ss(320*240);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '9.4', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Incognito } }
+    readable: 'UC Browser 9.4 on a Sanyo Incognito running Brew 3.1.5'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.0/27.2354; U; xx) Presto/2.8.119 320X240 Samsung SCH-U380', X-OperaMini-Features: 'advanced, download, file_system, folding', X-OperaMini-Phone-UA: 'Samsung SCH-U380', X-OperaMini-Phone: 'Samsung # SCH-U380' }
     result: { browser: { name: 'Opera Mini', version: '5.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Brightside } }
+    readable: 'Opera Mini 5.0 on a Samsung Brightside running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 320X240 Pantech TXT8045', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'Pantech TXT8045', X-OperaMini-Phone: 'Pantech # TXT8045' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: 'Jest 2' } }
+    readable: 'Opera Mini 5.1 on a Pantech Jest 2 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 320X240 ZTE F-450', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'ZTE F-450', X-OperaMini-Phone: 'ZTE # F-450' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F-450 } }
+    readable: 'Opera Mini 5.1 on a ZTE F-450 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 400X240 LG VN271', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'LG VN271', X-OperaMini-Phone: 'LG # VN271' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Extravert } }
+    readable: 'Opera Mini 5.1 on a LG Extravert running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2354; U; xx) Presto/2.8.119 320X240 ZTE F-450', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'ZTE F-450', X-OperaMini-Phone: 'ZTE # F-450' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F-450 } }
+    readable: 'Opera Mini 5.1 on a ZTE F-450 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.0/27.2354; U; xx) Presto/2.8.119 240X320 Casio C781', X-OperaMini-Features: 'advanced, download, file_system, folding', X-OperaMini-Phone-UA: 'Casio C781', X-OperaMini-Phone: 'Casio # C781' }
     result: { browser: { name: 'Opera Mini', version: 6.0.0, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: C781 } }
+    readable: 'Opera Mini 6.0.0 on a Casio C781 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2338; U; xx) Presto/2.8.119 240X320 Samsung SCH-U380', X-OperaMini-Features: 'advanced, download, file_system, touch, folding', X-OperaMini-Phone: 'Samsung # SCH-U380', X-OperaMini-Phone-UA: 'Samsung SCH-U380' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Brightside } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Brightside running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2338; U; xx) Presto/2.8.119 240X320 Samsung SCH-U485', X-OperaMini-Features: 'advanced, download, file_system', X-OperaMini-Phone: 'Samsung # SCH-U485', X-OperaMini-Phone-UA: 'Samsung SCH-U485' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Intensity III' } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Intensity III running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2338; U; xx) Presto/2.8.119 240X400 Pantech CDM8992', X-OperaMini-Features: 'advanced, download, file_system, touch, folding', X-OperaMini-Phone: 'Pantech # CDM8992', X-OperaMini-Phone-UA: 'Pantech CDM8992' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Hotshot } }
+    readable: 'Opera Mini 6.0.3 on a Pantech Hotshot running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2338; U; xx) Presto/2.8.119 320X240 Samsung SCH-U380', X-OperaMini-Phone-UA: 'Samsung SCH-U380', X-OperaMini-Phone: 'Samsung # SCH-U380', X-OperaMini-Features: 'advanced, download, file_system, touch, folding' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Brightside } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Brightside running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2339; U; xx) Presto/2.8.119 320X240 LG VN530', X-OperaMini-Phone: 'LG # VN530', X-OperaMini-Phone-UA: 'LG VN530', X-OperaMini-Features: 'advanced, download, file_system, folding' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Octane } }
+    readable: 'Opera Mini 6.0.3 on a LG Octane running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X320 Samsung SCH-U380', X-OperaMini-Features: 'advanced, download, file_system, touch, folding', X-OperaMini-Phone: 'Samsung # SCH-U380', X-OperaMini-Phone-UA: 'Samsung SCH-U380' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Brightside } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Brightside running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X320 Samsung SCH-U485', X-OperaMini-Features: 'advanced, download, file_system', X-OperaMini-Phone-UA: 'Samsung SCH-U485', X-OperaMini-Phone: 'Samsung # SCH-U485' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Intensity III' } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Intensity III running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X320 Samsung SCH-U680', X-OperaMini-Phone: 'Samsung # SCH-U680', X-OperaMini-Phone-UA: 'Samsung SCH-U680', X-OperaMini-Features: 'advanced, download, file_system, folding' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-U680 } }
+    readable: 'Opera Mini 6.0.3 on a Samsung SCH-U680 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X400 Pantech CDM8999', X-OperaMini-Features: 'advanced, download, file_system, touch, folding', X-OperaMini-Phone: 'Pantech # CDM8999', X-OperaMini-Phone-UA: 'Pantech CDM8999' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Crux } }
+    readable: 'Opera Mini 6.0.3 on a Pantech Crux running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 320X240 LG VN530', X-OperaMini-Phone: 'LG # VN530', X-OperaMini-Features: 'advanced, download, file_system, folding', X-OperaMini-Phone-UA: 'LG VN530' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Octane } }
+    readable: 'Opera Mini 6.0.3 on a LG Octane running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 320X240 Samsung SCH-U380', X-OperaMini-Phone-UA: 'Samsung SCH-U380', X-OperaMini-Phone: 'Samsung # SCH-U380', X-OperaMini-Features: 'advanced, download, file_system, touch, folding' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Brightside } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Brightside running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 320X240 Samsung SCH-U485', X-OperaMini-Phone-UA: 'Samsung SCH-U485', X-OperaMini-Features: 'advanced, download, file_system, folding', X-OperaMini-Phone: 'Samsung # SCH-U485' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Intensity III' } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Intensity III running Brew'
 -
     headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; TCL-C616) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-Device: 'tcl#-C616', X-UCBrowser-Device-UA: 'Mozilla/5.0_(OneTouch-710C/710C_OMH_V1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/1.14', X-UCBrowser-UA: 'pf(Java);la(id);re(U2/1.0.0);dv(TCL-C616);pr(UCBrowser/9.4.1.377);ov(MIDP-2.0);pi(240*320);ss(240*320);up(U2/1.0.0);er(U);bt(GJ);pm(1);bv(0);nm(2);im(0);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '9.4', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 3.1.5.189 }, device: { type: mobile, subtype: feature, manufacturer: TCL, model: C616 } }
+    readable: 'UC Browser 9.4 on a TCL C616 running Brew 3.1.5.189'
 -
     headers: { User-Agent: 'UCWEB/2.0 (Java; U; MIDP-2.0; xx; j2me) U2/1.0.0 UCBrowser/9.0.0.261 U2/1.0.0 Mobile UNTRUSTED/1.0', X-UCBrowser-Device: j2me, X-UCBrowser-Device-UA: 'NetFront/3.5.1(BREW 5.0.2.1; U; en-us; Samsung ; NetFront/3.5.1/WAP) Boost M260 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1', X-UCBrowser-UA: 'pf(Java);la(zh-CN);re(U2/1.0.0);dv(j2me);pr(UCBrowser/9.0.0.261);ov(MIDP-2.0);pi(128*160);ss(128*160);up(U2/1.0.0);er(U);bt(UC);pm(1);bv(0);nm(2);im(1);sr(0);nt(99);' }
     result: { browser: { name: 'UC Browser', version: '9.0', type: browser }, engine: { name: Gecko }, os: { name: Brew, version: 5.0.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Factor } }
+    readable: 'UC Browser 9.0 on a Samsung Factor running Brew 5.0.2.1'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/4.2.99/34.1244; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'NativeOperaMini(Haier;Native Opera Mini/4.2.99;id;BREW 3.1.5)', X-OperaMini-Features: 'httpping, advanced, download, file_system, folding', X-OperaMini-Phone-UA: 'NativeOperaMini(Haier;Native Opera Mini/4.2.99;id;BREW 3.1.5)', X-OperaMini-Phone: '? # ?' }
     result: { browser: { name: 'Opera Mini', version: 4.2.99, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature } }
+    readable: 'Opera Mini 4.2.99 on Brew 3.1.5'
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31891/34.1526; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: '? # ?', Device-Stock-UA: 'Mozilla/5.0_(Smartfren-E781A/E2_SQID_V0.1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/Q7', X-OperaMini-Features: 'httpping, advanced, routing, folding', X-OperaMini-Phone-UA: 'Mozilla/5.0_(Smartfren-E781A/E2_SQID_V0.1.6; U; REX/4.3;BREW/3.1.5.189; Profile/MIDP-2.0_Configuration/CLDC-1.1; 240*320; CTC/2.0)_Obigo Browser/Q7' }
     result: { browser: { name: 'Opera Mini', version: '4.4', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5.189 }, device: { type: mobile, subtype: feature } }
+    readable: 'Opera Mini 4.4 on Brew 3.1.5.189'
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1016; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'Mozilla/4.0 (Brew MP 1.0.2; U; en-us; Kyocera; NetFront/4.1/AMB) Sprint E4255', X-OperaMini-Phone-UA: 'Mozilla/4.0 (Brew MP 1.0.2; U; en-us; Kyocera; NetFront/4.1/AMB) Sprint E4255', X-OperaMini-Phone: '? # ?', X-OperaMini-Features: 'advanced, httpping, routing, folding, file_system, camera' }
     result: { browser: { name: 'Opera Mini', version: '7.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
+    readable: 'Opera Mini 7.1 on a Kyocera DuraMax E4255 running Brew MP 1.0.2'
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32052/34.1853; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', Device-Stock-UA: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Sprint SCP-6760', X-OperaMini-Features: 'advanced, httpping, routing, file_system, folding, camera', X-OperaMini-Phone: '? # ?' }
     result: { browser: { name: 'Opera Mini', version: '7.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Incognito } }
+    readable: 'Opera Mini 7.1 on a Sanyo Incognito running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (REX; U; en-us; Sanyo; SCP-6750/US; NetFront/3.4/AMB)'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: 'Katana Eclipse X' } }
+    readable: 'NetFront 3.4 on a Sanyo Katana Eclipse X running REX'
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4'
     result: { os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
+    readable: 'a Motorola EX132 running REX'
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; 3.1.5; xx) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000'
     result: { browser: { name: Polaris, version: '7.0', type: browser }, engine: { name: Webkit, version: '525.26' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+    readable: 'Polaris 7.0 on a LG Env Touch running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (BREW; U; 3.1.5; xx) AppleWebKit/528.28 (KHTML, like Gecko) OBIGO/W10.1 Safari/528.5 480X800 LGE VX11000'
     result: { browser: { name: 'Obigo W', version: '10.1', type: browser }, engine: { name: Webkit, version: '528.28' }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Env Touch' } }
+    readable: 'Obigo W 10.1 on a LG Env Touch running Brew 3.1.5'
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4/1.0 BrewMP/1.0.3 Release/6.15.2011 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
+    readable: 'NetFront 3.5 on a Motorola EX132 running Brew MP 1.0.3'
 -
     headers: 'User-Agent: Mozilla/4.0 (BREW 3.1.5; U; en-us; Samsung; PLS_M330; POLARIS/6.1/WAP) MMP/2.0 Configuration/CLDC-1.1'
     result: { browser: { name: Polaris, version: '6.1', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: PLS-M330 } }
+    readable: 'Polaris 6.1 on a Samsung PLS-M330 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (BREW 3.1.5; U; en-us; Samsung; SPH_M330; POLARIS/6.1/WAP) MMP/2.0 Configuration/CLDC-1.1 Novarra-Vision/8.0'
     result: { browser: { name: Polaris, version: '6.1', type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SPH-M330 } }
+    readable: 'Polaris 6.1 on a Samsung SPH-M330 running Brew 3.1.5'
 -
     headers: 'User-Agent: Opera/9.70 (BREW 4.0.3; U; en; Samsung; Opera Mobi; Presto/2.2.1/INT) Sprint M850 SprintTitan/OSGi-4.1 Profile/MIDP-2.1 Configuration/CDC-1.1'
     result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: Brew, version: 4.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Instinct HD' } }
+    readable: 'Opera Mobile 9.70 on a Samsung Instinct HD running Brew 4.0.3'

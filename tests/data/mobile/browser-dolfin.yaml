@@ -1,48 +1,64 @@
 -
     headers: 'User-Agent: SAMSUNG-GT-S3370/S3370DDJE1 SHP/VPP/R5 Dolfin/1.5 Qtv/5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-N'
     result: { browser: { name: Dolfin, version: '1.5', type: browser }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby 3G' } }
+    readable: 'Dolfin 1.5 on a Samsung Corby 3G running Touchwiz 2.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S3850/S3850JVKC5 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Touchwiz, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby II' } }
+    readable: 'Dolfin 2.0 on a Samsung Corby II running Touchwiz 3.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S3970_TD/1.0 RTK-E/1.0 SHP/VPP-R5 Release/04.20.2011 Browser/Dolfin2.1 Profile/MIDP-2.1 Configuration/CLDC-1.1 SMM-MMS/1.2.0'
     result: { browser: { name: Dolfin, version: '2.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-S3970 } }
+    readable: 'Dolfin 2.1 on a Samsung GT-S3970'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5230W/S523WXIJH3 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '1.0', type: browser }, os: { name: Touchwiz, version: { value: '2.0', alias: '2.0 or earlier' } }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Star } }
+    readable: 'Dolfin 1.0 on a Samsung Star running Touchwiz 2.0 or earlier'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5233S/S5233SDDKG1 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '0.8', type: browser }, os: { name: Touchwiz, version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Star } }
+    readable: 'Dolfin 0.8 on a Samsung Star running Touchwiz 1.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5260/S5260XEKK1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Touchwiz, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
+    readable: 'Dolfin 2.0 on a Samsung Star II running Touchwiz 3.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5263/S5263JPKB4 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Touchwiz, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
+    readable: 'Dolfin 2.0 on a Samsung Star II running Touchwiz 3.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5560/S5560XXJI1 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '1.0', type: browser }, os: { name: Touchwiz, version: { value: '2.0', alias: '2.0 or earlier' } }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Marvel } }
+    readable: 'Dolfin 1.0 on a Samsung Marvel running Touchwiz 2.0 or earlier'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5620-ORANGE/S5620BVJF2 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '1.5', type: browser }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Monte } }
+    readable: 'Dolfin 1.5 on a Samsung Monte running Touchwiz 2.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-B5310/B5310DDIK5 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '1.5', type: browser }, os: { name: Touchwiz, version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Corby Pro' } }
+    readable: 'Dolfin 1.5 on a Samsung Corby Pro running Touchwiz 2.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S8530/S8530XXLAV Bada/2.0 AppleWebKit/534.20 Dolfin/3.0 Mobile NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '3.0', type: browser }, engine: { name: Webkit, version: '534.20' }, os: { name: Bada, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
+    readable: 'Dolfin 3.0 on a Samsung Wave II running Bada 2.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S8530/S8530XXKF1 Bada/1.2 AppleWebKit/533.1 Dolfin/2.2 Mobile NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Bada, version: '1.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
+    readable: 'Dolfin 2.2 on a Samsung Wave II running Bada 1.2'
 -
     headers: 'User-Agent: SAMSUNG-GT-S8500/S8500XXJEE Bada/1.0 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Bada, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+    readable: 'Dolfin 2.0 on a Samsung Wave running Bada 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
+    readable: 'Dolfin 2.0 on a Samsung SCH-F859'
 -
     headers: 'User-Agent: SAMSUNG-GT-B2710/B2710POJK3 SHP/VPP/R5 Dolfin/2.0 QTV/5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Xcover 271' } }
+    readable: 'Dolfin 2.0 on a Samsung Xcover 271'
 -
     headers: 'User-Agent: SAMSUNG-GT-S8530/1.0 SHP/VPP/R5 Dolfin/2.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
     result: { browser: { name: Dolfin, version: '2.2', type: browser }, os: { name: Bada, version: '1.2' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave II' } }
+    readable: 'Dolfin 2.2 on a Samsung Wave II running Bada 1.2'

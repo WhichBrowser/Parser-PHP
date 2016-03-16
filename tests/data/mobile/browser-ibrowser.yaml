@@ -1,45 +1,60 @@
 -
     headers: 'User-Agent: iBrowser/2.5 (NokiaE5-00;SymbianOS/9.3 Series60/3.2)'
     result: { browser: { name: iBrowser, version: '2.5', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E5-00 } }
+    readable: 'iBrowser 2.5 on a Nokia E5-00 running Series60 3.2'
 -
     headers: 'User-Agent: iBrowser/2.6 (Nokia5250;SymbianOS/9.1 Series60/3.0)'
     result: { browser: { name: iBrowser, version: '2.6', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5250' } }
+    readable: 'iBrowser 2.6 on a Nokia 5250 running Series60 3.0'
 -
     headers: 'User-Agent: iBrowser/2.7 (NokiaN8-00;SymbianOS/9.1 Series60/3.0)'
     result: { browser: { name: iBrowser, version: '2.7', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
+    readable: 'iBrowser 2.7 on a Nokia N8-00 running Series60 3.0'
 -
     headers: 'User-Agent: iBrowser/2.7 Mozilla/5.0 (Linux; U; Android 2.3.6; xx; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: iBrowser, version: '2.7', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    readable: 'iBrowser 2.7 on a Samsung Galaxy S II running Android 2.3.6'
 -
     headers: 'User-Agent: iBrowser/2.8 Mozilla/5.0 (Linux; Android 4.4.2; Mi-516 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
     result: { browser: { name: iBrowser, using: { name: 'Chromium WebView', version: '30' }, version: '2.8', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Spice, model: 'Mi-516 Stellar' } }
+    readable: 'iBrowser 2.8 on a Spice Mi-516 Stellar running Android 4.4.2'
 -
     headers: 'User-Agent: iBrowser/26 Mozilla/5.0 (Linux; U; Android 2.2.1; xx; GT-S5670 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: iBrowser, version: '2.6', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Fit' } }
+    readable: 'iBrowser 2.6 on a Samsung Galaxy Fit running Android 2.2.1'
 -
     headers: 'User-Agent: iBrowser/26 Mozilla/5.0 (Linux; U; Android 2.3.5; xx; LG-VM670 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: iBrowser, version: '2.6', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus V' } }
+    readable: 'iBrowser 2.6 on a LG Optimus V running Android 2.3.5'
 -
     headers: 'User-Agent: iBrowser/26 Mozilla/5.0 (Linux; U; Android 2.3.6; xx; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: iBrowser, version: '2.6', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note' } }
+    readable: 'iBrowser 2.6 on a Samsung Galaxy Note running Android 2.3.6'
 -
     headers: 'User-Agent: iBrowser/26 Mozilla/5.0 (Linux; U; Android 4.1.2; xx; LG-LU6200 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     result: { browser: { name: iBrowser, version: '2.6', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LTE' } }
+    readable: 'iBrowser 2.6 on a LG Optimus LTE running Android 4.1.2'
 -
     headers: 'User-Agent: iBrowser/Mini2.5 (LG-T375)'
     result: { browser: { name: 'iBrowser Mini', version: '2.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T375 } }
+    readable: 'iBrowser Mini 2.5 on a LG T375'
 -
     headers: 'User-Agent: iBrowser/Mini2.5 (Nokia6303iclassic/10.80)'
     result: { browser: { name: 'iBrowser Mini', version: '2.5', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6303i classic' } }
+    readable: 'iBrowser Mini 2.5 on a Nokia 6303i classic running Series40'
 -
     headers: 'User-Agent: iBrowser/Mini2.8 (NokiaC2-01/11.00)'
     result: { browser: { name: 'iBrowser Mini', version: '2.8', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-01 } }
+    readable: 'iBrowser Mini 2.8 on a Nokia C2-01 running Series40'
 -
     headers: 'User-Agent: iBrowser/Mini2.8 (SAMSUNG GT-E2222)'
     result: { browser: { name: 'iBrowser Mini', version: '2.8', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 222' } }
+    readable: 'iBrowser Mini 2.8 on a Samsung Ch@t 222'
 -
     headers: 'User-Agent: iBrowser/Mini2.8 (SAMSUNG-GT-C6712/C6712DDKE1)'
     result: { browser: { name: 'iBrowser Mini', version: '2.8', type: browser }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II Duos' } }
+    readable: 'iBrowser Mini 2.8 on a Samsung Star II Duos running Touchwiz'
 -
     headers: 'User-Agent: iBrowser/Mini2.8 (SAMSUNG-GT-S5260/S5260XXKC4)'
     result: { browser: { name: 'iBrowser Mini', version: '2.8', type: browser }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
+    readable: 'iBrowser Mini 2.8 on a Samsung Star II running Touchwiz'

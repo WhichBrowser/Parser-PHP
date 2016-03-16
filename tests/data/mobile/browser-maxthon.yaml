@@ -1,54 +1,72 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; L36h Build/10.5.A.0.230) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.2.2000  Maxthon/4.3.2.2000'
     result: { browser: { name: Maxthon, using: { name: 'Chromium WebView', version: '30' }, version: 4.3.2.2000, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z' } }
+    readable: 'Maxthon 4.3.2.2000 on a Sony Xperia Z running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KOT49I.D80220h) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.5.0.2000'
     result: { browser: { name: Maxthon, using: { name: 'Chromium WebView', version: '30' }, version: 4.5.0.2000, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+    readable: 'Maxthon 4.5.0.2000 on a LG G2 running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LG-F320L Build/KOT49I.F320L21p) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.4.0.2000  Maxthon/4.4.0.2000'
     result: { browser: { name: Maxthon, using: { name: 'Chromium WebView', version: '30' }, version: 4.4.0.2000, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+    readable: 'Maxthon 4.4.0.2000 on a LG G2 running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 MxBrowser/4.4.2.1000'
     result: { browser: { name: Maxthon, using: { name: 'Chromium WebView', version: '30' }, version: 4.4.2.1000, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Lenovo, model: 'IdeaTab A3500' } }
+    readable: 'Maxthon 4.4.2.1000 on a Lenovo IdeaTab A3500 running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT615 Build/V1.67A) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Maxthon'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT615' } }
+    readable: 'Maxthon on a Motorola MOTO XT615 running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.1; xx; NOVO7PALADIN Build/ICS_MR0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Maxthon/4.0.4.1000'
     result: { browser: { name: Maxthon, version: 4.0.4, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.1 }, device: { type: tablet, manufacturer: Ainovo, model: 'Novo7 Paladin' } }
+    readable: 'Maxthon 4.0.4 on an Ainovo Novo7 Paladin running Android 4.0.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; GT-P5100 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Maxthon/4.0.3.3000'
     result: { browser: { name: Maxthon, version: 4.0.3, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 2 10.1' } }
+    readable: 'Maxthon 4.0.3 on a Samsung Galaxy Tab 2 10.1 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; LG-P708g Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L7' } }
+    readable: 'Maxthon on a LG Optimus L7 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; xx; C6603 Build/10.3.1.A.2.67) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000'
     result: { browser: { name: Maxthon, version: 4.1.4, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z' } }
+    readable: 'Maxthon 4.1.4 on a Sony Xperia Z running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; xx; Symphony Xplorer W22 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MxBrowser/4.3.0.2000  Maxthon/4.3.0.2000'
     result: { browser: { name: Maxthon, version: 4.3.0.2000, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Symphony, model: 'Xplorer W22' } }
+    readable: 'Maxthon 4.3.0.2000 on a Symphony Xplorer W22 running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/537.4 Maxthon/4.1.4.2000'
     result: { browser: { name: Maxthon, version: 4.1.4, type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon 4.1.4 on an Apple iPhone running iOS 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/537.4 Maxthon/4.2.1.2000'
     result: { browser: { name: Maxthon, version: 4.2.1, type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon 4.2.1 on an Apple iPhone running iOS 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53 MxBrowser/4.3.0.2000 Maxthon/4.3.0.2000'
     result: { browser: { name: Maxthon, version: 4.3.0.2000, type: browser }, engine: { name: Webkit, version: 537.51.2 }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon 4.3.0.2000 on an Apple iPhone running iOS 7.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) MaxthoniOS/4.6.7.44 Mobile/12H143 Safari/600.1.4'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon on an Apple iPhone running iOS 8.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20 Mobile Maxthon'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, alias: 'iPhone OS', version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon on an Apple iPhone running iPhone OS 2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx)Maxthon AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20'
     result: { browser: { name: Maxthon, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, version: 4.3.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon on an Apple iPhone running iOS 4.3.2'
 -
     headers: 'User-Agent: MxBrowser-iPhone/40 CFNetwork/672.0.8 Darwin/14.0.0'
     result: { browser: { name: Maxthon, version: '40', type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Maxthon 40 on an Apple iPhone running iOS 7.0.3'
 -
     headers: 'User-Agent: ZTE U950_TD/1.0 Linux/3.1.10 Android/4.0 Release/8.1.2012 Browser/AppleWebKit534.30 Maxthon/4.1.1.1000'
     result: { browser: { name: Maxthon, version: 4.1.1, type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: U950 } }
+    readable: 'Maxthon 4.1.1 on a ZTE U950 running Android 4.0'

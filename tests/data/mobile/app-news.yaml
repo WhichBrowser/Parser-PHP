@@ -1,3 +1,4 @@
 -
     headers: 'User-Agent: YahooMobileWeather/1.0 (Android Weather; 1.2) (ME173X; asus; ME173X; 4.2.2/JDQ39)'
     result: { browser: { name: 'Yahoo Weather', version: '1.2', type: 'app:news' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Asus, model: 'MeMO Pad HD 7 (ME173X)' } }
+    readable: 'Yahoo Weather 1.2 on an Asus MeMO Pad HD 7 (ME173X) running Android 4.2.2'

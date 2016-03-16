@@ -1,24 +1,32 @@
 -
     headers: 'User-Agent: BaiduHD/2.1.0 CFNetwork/459 Darwin/10.0.0d3'
     result: { browser: { name: 'Baidu Browser', version: '2.1', type: browser }, os: { name: iOS, alias: 'iPhone OS', version: 3.1.3 }, device: { type: mobile, subtype: smart } }
+    readable: 'Baidu Browser 2.1 on iPhone OS 3.1.3'
 -
     headers: 'User-Agent: BaiduHD/2.3.0 CFNetwork/609.1.4 Darwin/13.0.0'
     result: { browser: { name: 'Baidu Browser', version: '2.3', type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart } }
+    readable: 'Baidu Browser 2.3 on iOS 6.1.2'
 -
     headers: 'User-Agent: BaiduHD/2.3.1 CFNetwork/671 Darwin/14.0.0'
     result: { browser: { name: 'Baidu Browser', version: '2.3', type: browser }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart } }
+    readable: 'Baidu Browser 2.3 on iOS 7.0'
 -
     headers: 'User-Agent: BaiduHD/2.3.2 CFNetwork/548.0.3 Darwin/11.4.2'
     result: { browser: { name: 'Baidu Browser', version: '2.3', type: browser }, os: { name: iOS, version: '5.0' }, device: { type: mobile, subtype: smart } }
+    readable: 'Baidu Browser 2.3 on iOS 5.0'
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W2-U00)', Baidu-Flyflow: 'Microsoft Windows NT 8.10.14219.0;4.0.30508.0;HUAWEI;HUAWEI W2-U00;4a1b5d7105057f0c0208d83c699276ff92cedbff;2.5.0.12' }
     result: { browser: { name: 'Baidu Browser', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend W2' } }
+    readable: 'Baidu Browser on a Huawei Ascend W2 running Windows Phone 8.0'
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 526)', Baidu-Flyflow: 'Microsoft Windows NT 8.10.14219.0;4.0.30508.0;NOKIA;RM-997_apac_prc_906;e7477c026c2d2dab09d667a0d502a19faf960316;2.5.0.12' }
     result: { browser: { name: 'Baidu Browser', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 526' } }
+    readable: 'Baidu Browser on a Nokia Lumia 526 running Windows Phone 8.0'
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)', Baidu-Flyflow: 'Microsoft Windows CE 7.10.8862;3.7.11140.0;HTC;HTC;f96cbdcb5bb37bb7bea3fdf0443f9c24ccc92597;1.0.3.3' }
     result: { browser: { name: 'Baidu Browser', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD7 } }
+    readable: 'Baidu Browser on a HTC HD7 running Windows Phone 7.5'
 -
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 625)', Baidu-Flyflow: 'Microsoft Windows CE 8.10.14219.0;4.0.30508.0;NOKIA;RM-941_eu_belarus_russia_215;d0be80b1a6380df0429cef6d36f56a9b318115fe;1.0.3.3' }
     result: { browser: { name: 'Baidu Browser', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 625' } }
+    readable: 'Baidu Browser on a Nokia Lumia 625 running Windows Phone 7.5'

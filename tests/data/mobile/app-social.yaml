@@ -1,18 +1,24 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/vfnl;FBID/phone;FBLC/nl_NL;FBOP/5'
     result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6' } }
+    readable: 'Facebook on an Apple iPhone 6 running iOS 8.1.3'
 -
     headers: 'User-Agent: Instagram 6.0.1 (iPhone3,3; iPhone OS 7_1; en_US; en) AppleWebKit/420+'
     result: { browser: { name: Instagram, version: 6.0.1, type: 'app:social' }, engine: { name: Webkit, version: '420' }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4' } }
+    readable: 'Instagram 6.0.1 on an Apple iPhone 4 running iOS 7.1'
 -
     headers: 'User-Agent: Instagram 5.0.7 Android (17/4.2.2; 240dpi; 480x800; samsung; SM-G350; cs02; hawaii_ss_cs02; de_DE)'
     result: { browser: { name: Instagram, version: 5.0.7, type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Plus' } }
+    readable: 'Instagram 5.0.7 on a Samsung Galaxy Core Plus running Android 4.2.2'
 -
     headers: 'User-Agent: Instagram 3.4.0 Android (10/2.3.6; 240dpi; 480x800; samsung; SCH-R760; SCH-R760; smdkc210; en_US)'
     result: { browser: { name: Instagram, version: 3.4.0, type: 'app:social' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    readable: 'Instagram 3.4.0 on a Samsung Galaxy S II running Android 2.3.6'
 -
     headers: 'User-Agent: Instagram 1.1.3 Android (10/2.3.6; 240dpi; 480x800; samsung; SAMSUNG-SGH-I727; SGH-I727; qcom; en_US)'
     result: { browser: { name: Instagram, version: 1.1.3, type: 'app:social' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Skyrocket' } }
+    readable: 'Instagram 1.1.3 on a Samsung Galaxy S II Skyrocket running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPad6,7;FBMD/iPad;FBSN/iPhone OS;FBSV/9.1;FBSS/2; FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/1]'
     result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: 'iPad Pro' } }
+    readable: 'Facebook on an Apple iPad Pro running iOS 9.1'

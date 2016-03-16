@@ -1,159 +1,212 @@
 -
     headers: 'User-Agent: Apple-PubSub/65.28'
     result: { browser: { name: 'Safari RSS', type: 'app:feedreader' }, os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'Safari RSS on OS X'
 -
     headers: 'User-Agent: AppleSyndication/56.1'
     result: { browser: { name: 'Safari RSS', type: 'app:feedreader' }, os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'Safari RSS on OS X'
 -
     headers: 'User-Agent: CFNetwork/0.0.0 Darwin/0.0.0 (x86_64)'
     result: { os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/538.34.43 (KHTML, like Gecko) Version/8.0 Safari/538.35.3'
     result: { browser: { name: Safari, version: '8.0', type: browser }, engine: { name: Webkit, version: 538.34.43 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'Safari 8.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/601.1.11+ (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: 601.1.11 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.13 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.13'
     result: { browser: { name: Safari, version: 8.0.3, type: browser }, engine: { name: Webkit, version: 600.3.13 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'Safari 8.0.3 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.7.9 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.9'
     result: { browser: { name: Safari, version: 8.0.7, type: browser }, engine: { name: Webkit, version: 600.7.9 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'Safari 8.0.7 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.34 (KHTML, like Gecko) Version/9.0 Safari/601.1.34'
     result: { browser: { name: Safari, version: '9.0', type: browser }, engine: { name: Webkit, version: 601.1.34 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    readable: 'Safari 9.0 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7'
     result: { browser: { name: Safari, version: 9.0.1, type: browser }, engine: { name: Webkit, version: 601.2.7 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    readable: 'Safari 9.0.1 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/602.1.12+ (KHTML, like Gecko) Version/9.0.2 Safari/601.3.6'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: 602.1.12 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/524.26.2 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'
     result: { browser: { name: Safari, version: 5.0.3, type: browser }, engine: { name: Webkit, version: 524.26.2 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'Safari 5.0.3 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/524.50.2 (KHTML, like Gecko) Version/4.0.5 Safari/531.22.7'
     result: { browser: { name: Safari, version: 4.0.5, type: browser }, engine: { name: Webkit, version: 524.50.2 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'Safari 4.0.5 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.4+ (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '535.4' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_2; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0.3 Safari/533.16'
     result: { browser: { name: Safari, version: 5.0.3, type: browser }, engine: { name: Webkit, version: '533.16' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'Safari 5.0.3 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_4) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/6.1 Safari/537.73.11'
     result: { browser: { name: Safari, version: '6.1', type: browser }, engine: { name: Webkit, version: 537.73.11 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'Safari 6.1 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.14  (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
     result: { browser: { name: Safari, version: 5.0.5, type: browser }, engine: { name: Webkit, version: '535.14' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'Safari 5.0.5 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.22+ (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '535.22' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3'
     result: { browser: { name: Safari, version: 5.1.5, type: browser }, engine: { name: Webkit, version: 534.55.3 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'Safari 5.1.5 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.3+ (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '536.3' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.7'
     result: { browser: { name: Safari, version: 5.1.7, type: browser }, engine: { name: Webkit, version: 534.48.3 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 5.1.7 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.52.7 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22'
     result: { browser: { name: Safari, version: 5.1.1, type: browser }, engine: { name: Webkit, version: 534.52.7 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 5.1.1 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.53.11 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10'
     result: { browser: { name: Safari, version: 5.1.3, type: browser }, engine: { name: Webkit, version: 534.53.11 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 5.1.3 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/534.57.7 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'
     result: { browser: { name: Safari, version: 5.0.3, type: browser }, engine: { name: Webkit, version: 534.57.7 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 5.0.3 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/538.2+ (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '538.2' }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/537.19+ (KHTML, like Gecko) Version/6.0 Safari/536.25'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '537.19' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/537.19.1 (KHTML, like Gecko) Version/6.1 Safari/537.19.1'
     result: { browser: { name: Safari, version: '6.1', type: browser }, engine: { name: Webkit, version: 537.19.1 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Safari 6.1 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'
     result: { browser: { name: Safari, version: 5.1.7, type: browser }, engine: { name: Webkit, version: 536.26.14 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Safari 5.1.7 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.47+ (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '537.47' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.6 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.6'
     result: { browser: { name: Safari, version: 6.0.3, type: browser }, engine: { name: Webkit, version: 536.28.6 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Safari 6.0.3 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.26.4 (KHTML, like Gecko) Version/6.1 Safari/537.26.4'
     result: { browser: { name: Safari, version: '6.1', type: browser }, engine: { name: Webkit, version: 537.26.4 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari 6.1 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.46.5 (KHTML, like Gecko) Version/7.0 Safari/537.46.5'
     result: { browser: { name: Safari, version: '7.0', type: browser }, engine: { name: Webkit, version: 537.46.5 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari 7.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10'
     result: { browser: { name: Safari, version: '7.1', type: browser }, engine: { name: Webkit, version: 600.1.17 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari 7.1 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/538.5+ (KHTML, like Gecko) Version/7.0.3 Safari/537.75.14'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '538.5' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.36'
     result: { browser: { name: Safari, version: '7.1', type: browser }, engine: { name: Webkit, version: 600.1.17 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari 7.1 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_8) AppleWebKit/535.1  (KHTML, like Gecko) Version/5.0.6 Safari/533.22.2'
     result: { browser: { name: Safari, version: 5.0.6, type: browser }, engine: { name: Webkit, version: '535.1' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'Safari 5.0.6 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10'
     result: { browser: { name: Safari, version: 5.1.3, type: browser }, engine: { name: Webkit, version: 534.55.3 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 5.1.3 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10_7_3) AppleWebKit/600.55.3 (KHTML, like Gecko) Version/6.1.3 Safari/600.53.10'
     result: { browser: { name: Safari, version: 6.1.3, type: browser }, engine: { name: Webkit, version: 600.55.3 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 6.1.3 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10_7_5) AppleWebKit/536.29.13 (KHTML, like Gecko) Version/6.0.4 Safari/536.29.13'
     result: { browser: { name: Safari, version: 6.0.4, type: browser }, engine: { name: Webkit, version: 536.29.13 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    readable: 'Safari 6.0.4 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; xx) AppleWebKit/525.13 (KHTML, like Gecko) Version/3.1 Safari/525.13'
     result: { browser: { name: Safari, version: '3.1', type: browser }, engine: { name: Webkit, version: '525.13' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 3.1 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; xx) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.22'
     result: { browser: { name: Safari, version: 3.1.2, type: browser }, engine: { name: Webkit, version: '525.18' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 3.1.2 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; xx) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17'
     result: { browser: { name: Safari, version: '4.0', type: browser }, engine: { name: Webkit, version: '530.17' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 4.0 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/4.1 Safari/533.16'
     result: { browser: { name: Safari, version: '4.1', type: browser }, engine: { name: Webkit, version: '533.16' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 4.1 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; xx) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.1 Safari/525.18'
     result: { browser: { name: Safari, version: 3.1.1, type: browser }, engine: { name: Webkit, version: '525.18' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 3.1.1 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; xx) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.22'
     result: { browser: { name: Safari, version: 3.1.2, type: browser }, engine: { name: Webkit, version: '525.18' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 3.1.2 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; xx) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.3 Safari/525.28.3'
     result: { browser: { name: Safari, version: 3.2.3, type: browser }, engine: { name: Webkit, version: 525.27.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'Safari 3.2.3 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; xx) AppleWebKit/533.21.1+ (KHTML, like Gecko) Version/4.1.3 Safari/533.21.1'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: 533.21.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; xx) AppleWebKit/532.0+ (KHTML, like Gecko) Version/4.0.3 Safari/531.9'
     result: { browser: { name: 'WebKit Nightly Build', type: browser }, engine: { name: Webkit, version: '532.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'WebKit Nightly Build on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WKC) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'
     result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.50' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Safari 5.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WKC) AppleWebKit/534.52.7 (KHTML, like Gecko) Version/5.1.2 Safari/534.52.7'
     result: { browser: { name: Safari, version: 5.1.2, type: browser }, engine: { name: Webkit, version: 534.52.7 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Safari 5.1.2 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'
     result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.50' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Safari 5.1 on Windows 7'
 -
     headers: 'User-Agent: Safari/10600.2.5 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)'
     result: { browser: { name: Safari, type: browser }, os: { name: 'OS X', version: { value: 10.10.1, nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'Safari on OS X Yosemite 10.10.1'
 -
     headers: 'User-Agent: Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir6%2C2)'
     result: { browser: { name: Safari, type: browser }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)'
     result: { os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    readable: 'OS X Yosemite 10.10'

@@ -1,27 +1,36 @@
 -
     headers: 'User-Agent: Aplix_SEGASATURN_browser/2.0 (Japanese)'
     result: { browser: { name: Aplix, version: '2.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Saturn } }
+    readable: 'Aplix 2.0 on a Sega Saturn'
 -
     headers: 'User-Agent: Aplix_SEGASATURN_browser/1.x (Japanese)'
     result: { browser: { name: Aplix, version: '1', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Saturn } }
+    readable: 'Aplix 1 on a Sega Saturn'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/3.0; SEGA/SAKURA-DP3)'
     result: { browser: { name: 'Dream Passport', version: '3.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dream Passport 3.0 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/3.15; SEGA/VF.NET)'
     result: { browser: { name: 'Dream Passport', version: '3.15', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dream Passport 3.15 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/3.0; isao/MyDiGiRabi)'
     result: { browser: { name: 'Dream Passport', version: '3.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dream Passport 3.0 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/2.1)'
     result: { browser: { name: 'Dream Passport', version: '2.1', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dream Passport 2.1 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamPassport/1.01)'
     result: { browser: { name: 'Dream Passport', version: '1.01', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dream Passport 1.01 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     result: { browser: { name: Planetweb, version: '2.100', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Planetweb 2.100 on a Sega Dreamcast'
 -
     headers: 'User-Agent: Mozilla/3.0 (DreamKey/1.0)'
     result: { browser: { name: Dreamkey, version: '1.0', type: browser }, device: { type: gaming, subtype: console, manufacturer: Sega, model: Dreamcast } }
+    readable: 'Dreamkey 1.0 on a Sega Dreamcast'

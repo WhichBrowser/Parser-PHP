@@ -1,3 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Ubuntu; Tablet) WebKit/537.21'
     result: { engine: { name: Webkit, version: '537.21' }, os: { name: 'Ubuntu Touch' }, device: { type: tablet } }
+    readable: 'Ubuntu Touch'

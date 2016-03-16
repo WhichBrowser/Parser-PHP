@@ -1,66 +1,88 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 2.3.7; SO-02D Build/6.1.A.2.55) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia NX SO-02D', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia NX SO-02D running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  LT15i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Arc' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Arc running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  LT18i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Arc S' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Arc S running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  MT11i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Neo V' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Neo V running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  MT15i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Neo' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Neo running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  R800i Build/4.1.H.0.4) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Play' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Play running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  SK17i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Mini Pro' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Mini Pro running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  ST15i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Mini' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Mini running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  ST18i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Ray' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Ray running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4 (Ice Cream Sandwich); WT19i (Live with Walkman) Build/4.1.B.0.587) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Live with Walkman' } }
+    readable: 'Chrome 18 on a Sony Ericsson Live with Walkman running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; IS12S Build/6.1.D.0.170) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro HD IS12S', carrier: au } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia acro HD IS12S running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MK16a Build/4.1.B.0.587) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Pro' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Pro running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SO-02C Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.8 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro SO-02C', carrier: DoCoMo } }
+    readable: 'Chrome 25 on a Sony Ericsson Xperia acro SO-02C running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST17a Build/4.1.B.0.587) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Active' } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia Active running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; Xperia X10 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X10' } }
+    readable: 'Chrome 31 on a Sony Ericsson Xperia X10 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; X8 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X8' } }
+    readable: 'Chrome 37 on a Sony Ericsson Xperia X8 running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; xx; SonyEricssonE10a Build/1.1.A.0.8) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X10 Mini' } }
+    readable: 'Android Browser on a Sony Ericsson Xperia X10 Mini running Android 1.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; xx; SonyEricssonU20a Build/1.1.A.0.8) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X10 Mini Pro' } }
+    readable: 'Android Browser on a Sony Ericsson Xperia X10 Mini Pro running Android 1.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; E16i Build/2.1.1.A.0.46) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'W8 Walkman' } }
+    readable: 'Android Browser on a Sony Ericsson W8 Walkman running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; OMS1_6 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: A8i } }
+    readable: 'Android Browser on a Sony Ericsson A8i running Android 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; WT18i Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Walkman } }
+    readable: 'Android Browser on a Sony Ericsson Walkman running Android 2.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; Xperia X1 Build/ARCDroid V5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Ydb/57'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X1' } }
+    readable: 'Android Browser on a Sony Ericsson Xperia X1 running Android 2.2.2'

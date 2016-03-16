@@ -1,12 +1,16 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)'
     result: { browser: { name: ABrowse, version: '0.4', type: browser }, os: { name: Syllable }, device: { type: desktop } }
+    readable: 'ABrowse 0.4 on Syllable'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)'
     result: { browser: { name: ABrowse, version: '0.6', type: browser }, engine: { name: Webkit, version: '420' }, os: { name: Syllable }, device: { type: desktop } }
+    readable: 'ABrowse 0.6 on Syllable'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; U; ABrowse 0.7; Syllable) AppleWebKit/420+ (KHTML, like Gecko)'
     result: { browser: { name: ABrowse, version: '0.7', type: browser }, engine: { name: Webkit, version: '420' }, os: { name: Syllable }, device: { type: desktop } }
+    readable: 'ABrowse 0.7 on Syllable'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; U; Webster 0.1; Syllable) AppleWebKit/420+ (KHTML, like Gecko)'
     result: { browser: { name: Webster, version: '0.1', type: browser }, engine: { name: Webkit, version: '420' }, os: { name: Syllable }, device: { type: desktop } }
+    readable: 'Webster 0.1 on Syllable'

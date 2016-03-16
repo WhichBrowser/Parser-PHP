@@ -1,66 +1,88 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:18.0) Gecko/20100101 Firefox/18.0 SeaMonkey/2.15.2'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '18.0' }, version: 2.15.2, type: browser }, engine: { name: Gecko, version: '18.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.15.2 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:19.0) Gecko/19.0 SeaMonkey/2.16a1'
     result: { browser: { name: SeaMonkey, version: 2.16a1, type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.16a1 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20110608 Firefox/4.0.1 SeaMonkey/2.1'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: 4.0.1 }, version: '2.1', type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.1 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:16.0) Gecko/20121012 SeaMonkey/2.13'
     result: { browser: { name: SeaMonkey, version: '2.13', type: browser }, engine: { name: Gecko, version: '16.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.13 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; xx; rv:1.8.1.17) Gecko/20080829 SeaMonkey/1.1.12'
     result: { browser: { name: SeaMonkey, version: 1.1.12, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'SeaMonkey 1.1.12 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; de; rv:1.8.1.11) Gecko/20071129 PmWFx/2.0.0.11'
     result: { browser: { name: SeaMonkey, version: 2.0.0.11, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.0.0.11 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20130108 Firefox/10.0.12 SeaMonkey/2.7.2'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: 10.0.12 }, version: 2.7.2, type: browser }, engine: { name: Gecko, version: 10.0.12 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.7.2 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:17.0) Gecko/20140621 Firefox/17.0 SeaMonkey/2.14'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '17.0' }, version: '2.14', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.14 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20120422 SeaMonkey/2.9'
     result: { browser: { name: SeaMonkey, version: '2.9', type: browser }, engine: { name: Gecko, version: '12.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.9 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/20100101 Firefox/19.0 SeaMonkey/2.16'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '19.0' }, version: '2.16', type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.16 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:20.0) Gecko/20.0 SeaMonkey/2.17a1'
     result: { browser: { name: SeaMonkey, version: 2.17a1, type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.17a1 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:28.0) Gecko/20100101 SeaMonkey/2.25'
     result: { browser: { name: SeaMonkey, version: '2.25', type: browser }, engine: { name: Gecko, version: '28.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.25 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0) Gecko/20120125 SeaMonkey/2.7'
     result: { browser: { name: SeaMonkey, version: '2.7', type: browser }, engine: { name: Gecko, version: '10.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.7 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:26.0) Gecko/20100101 Firefox/26.0 SeaMonkey/2.23'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '26.0' }, version: '2.23', type: browser }, engine: { name: Gecko, version: '26.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.23 on FreeBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:17.0) Gecko/20100101 SeaMonkey/2.14.1'
     result: { browser: { name: SeaMonkey, version: 2.14.1, type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.14.1 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:19.0) Gecko/19.0 Firefox/19.0 SeaMonkey/2.16a1'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '19.0' }, version: 2.16a1, type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.16a1 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:7.0) Gecko/20110922 Firefox/7.0 SeaMonkey/2.4'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '7.0' }, version: '2.4', type: browser }, engine: { name: Gecko, version: '7.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.4 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30'
     result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '33.0' }, version: '2.30', type: browser }, engine: { name: Gecko, version: '33.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+    readable: 'SeaMonkey 2.30 on OpenBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; IRIX64 IP35; xx; rv:1.8.1.25pre) Gecko/20121113 SeaMonkey/1.1.20pre'
     result: { browser: { name: SeaMonkey, version: 1.1.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: IRIX, family: UNIX }, device: { type: desktop } }
+    readable: 'SeaMonkey 1.1.20 on IRIX'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.8.0.12) Gecko/20070531 CentOS/1.0.9-0.1.el3.centos3 SeaMonkey/1.0.9'
     result: { browser: { name: SeaMonkey, version: 1.0.9, type: browser }, engine: { name: Gecko, version: 1.8.0 }, os: { name: CentOS, version: '3' }, device: { type: desktop } }
+    readable: 'SeaMonkey 1.0.9 on CentOS 3'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.8.1.21) Gecko/20090303 SeaMonkey/1.1.15 (Ubuntu-1.1.15+nobinonly-0ubuntu2)'
     result: { browser: { name: SeaMonkey, version: 1.1.15, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'SeaMonkey 1.1.15 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; ja-JP; rv:1.8.1.2pre) Gecko/20070111 SeaMonkey/1.1'
     result: { browser: { name: SeaMonkey, version: '1.1', type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    readable: 'SeaMonkey 1.1 on Mac OS'

@@ -1,24 +1,32 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; U; Linux mips; xx) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1); Espial Browser/sig3.11.0 (Tesco; Technika Media Streamer; TCMSAW11)'
     result: { browser: { name: Espial, version: 3.11.0, type: browser }, engine: { name: Webkit, version: '525.1' }, device: { type: television } }
+    readable: 'Espial 3.11.0 on a television'
 -
     headers: 'User-Agent: lacleTV/0.1.0 Espial/6.5.2'
     result: { browser: { name: Espial, version: 6.5.2, type: browser }, device: { type: television, manufacturer: Orange, series: 'La clé TV' } }
+    readable: 'Espial 6.5.2 on an Orange La clé TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.1 AQUOSBrowser/1.0 (US00DTV;V;0001;0001)'
     result: { browser: { name: Espial, version: 6.1.1, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Sharp, series: 'Aquos TV' } }
+    readable: 'Espial 6.1.1 on a Sharp Aquos TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Hybridcast/1.0 (;00014A;KDLxxxx;0;001;); InettvBrowser/2.2 (00014A;SonyDTV150;0001;0001); KDLxxxx) Espial/6.1.23 WebKit-r124753+'
     result: { browser: { name: Espial, version: 6.1.23, type: browser }, device: { type: television, manufacturer: Sony, series: 'Smart TV' } }
+    readable: 'Espial 6.1.23 on a Sony Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux armv6l; xx) AppleWebKit/537.1+ (KHTML, like Gecko) Espial/6.1.12 Version/4.0 Safari/537.1+'
     result: { browser: { name: Espial, version: 6.1.12, type: browser }, engine: { name: Webkit, version: '537.1' }, device: { type: television } }
+    readable: 'Espial 6.1.12 on a television'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux i686; xx) AppleWebKit/531.2  (KHTML, like Gecko) EspialTVBrowser/1.1.15  Safari/531.2  (avui/dtp; avrt/html4; avvp/flash; avkb/pc)'
     result: { browser: { name: Espial, version: 1.1.15, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television } }
+    readable: 'Espial 1.1.15 on a television'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.2 Version/4.0 Safari/531.2+ InettvBrowser/2.2B (0003D5;SSTV-PROTO;01;00)'
     result: { browser: { name: Espial, version: 6.1.2, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: 'Advanced Communications', series: 'Smart TV' } }
+    readable: 'Espial 6.1.2 on an Advanced Communications Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (CrKey - 0.9.3) AppleWebKit/537.36 (KHTML, like Gecko) Espial/6.1.11 Chrome/30.0.1573.2 Safari/537.36'
     result: { browser: { name: Espial, family: { name: Chrome, version: 30 }, version: 6.1.11, type: browser }, engine: { name: Blink }, device: { type: television } }
+    readable: 'Espial 6.1.11 on a television'

@@ -1,48 +1,64 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.3) Gecko/20030616'
     result: { engine: { name: Gecko, version: '1.3' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'an unknown browser based on Gecko 1.3 running on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.8.1.6) Gecko/20070731 Firefox/2.0.0.6'
     result: { browser: { name: Firefox, version: 2.0.0.6, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 2.0.0.6 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.11) Gecko/20100101 Firefox/10.0.11'
     result: { browser: { name: Firefox, version: 10.0.11, type: browser }, engine: { name: Gecko, version: 10.0.11 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 10.0.11 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:17.0) Gecko/20100101 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1'
     result: { browser: { name: Firefox, version: 4.0.1, type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 4.0.1 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20140428 Firefox/24.0'
     result: { browser: { name: Firefox, version: '24.0', type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 24.0 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: IBM-WebExplorer-DLL/v1.1h'
     result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 1.1 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer /v0.94'
     result: { browser: { name: 'IBM WebExplorer', version: '0.94', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 0.94 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer /v1.01'
     result: { browser: { name: 'IBM WebExplorer', version: '1.01', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 1.01 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer DLL /v1.03'
     result: { browser: { name: 'IBM WebExplorer', version: '1.03', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 1.03 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer DLL /v1.1'
     result: { browser: { name: 'IBM WebExplorer', version: '1.1', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 1.1 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer/v0.8'
     result: { browser: { name: 'IBM WebExplorer', version: '0.8', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer 0.8 on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer Window API'
     result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer DLL'
     result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer on OS/2'
 -
     headers: 'User-Agent: IBM WebExplorer Window API /v950716 Demo'
     result: { browser: { name: 'IBM WebExplorer', type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'IBM WebExplorer on OS/2'
 -
     headers: 'User-Agent: Mozilla/2.02 (OS/2; I)'
     result: { browser: { name: 'Netscape Navigator', version: 2.0.2, type: browser }, os: { name: OS/2 }, device: { type: desktop } }
+    readable: 'Netscape Navigator 2.0.2 on OS/2'

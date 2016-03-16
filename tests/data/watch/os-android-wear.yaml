@@ -1,24 +1,32 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; G Watch Build/KMV78Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch' } }
+    readable: 'Wear Internet Browser on a LG G Watch running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; G Watch Build/KNX01Q) AppleWebKit/537.36 (KHTML, like Gecko) WIB/0.9.8 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser', version: 0.9.8, type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch' } }
+    readable: 'Wear Internet Browser 0.9.8 on a LG G Watch running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; G Watch R Build/KNX01R) AppleWebKit/537.36 (KHTML, like Gecko) WIB/0.9.8 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser', version: 0.9.8, type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch R' } }
+    readable: 'Wear Internet Browser 0.9.8 on a LG G Watch R running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; Gear Live Build/KMV78X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: Samsung, model: 'Gear Live' } }
+    readable: 'Wear Internet Browser on a Samsung Gear Live running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4; Moto 360 Build/KNX01S) AppleWebKit/537.36 (KHTML, like Gecko) WIB/0.9.8 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser', version: 0.9.8, type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: Motorola, model: 'Moto 360' } }
+    readable: 'Wear Internet Browser 0.9.8 on a Motorola Moto 360 running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; ASUS ZenWatch Build/LWX48S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: Asus, model: ZenWatch } }
+    readable: 'Wear Internet Browser on an Asus ZenWatch running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; SmartWatch 3 Build/LWX49K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36'
     result: { browser: { name: 'Wear Internet Browser' }, engine: { name: Webkit, version: '537.36' }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: Sony, model: 'SmartWatch 3' } }
+    readable: 'Wear Internet Browser on a Sony SmartWatch 3 running Android Wear'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; G Watch R Build/LCA44B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Crosswalk/15.44.384.12 Mobile Safari/537.36'
     result: { browser: { using: { name: 'Crosswalk WebView', version: '15' } }, engine: { name: Blink }, os: { name: 'Android Wear', family: Android }, device: { type: watch, manufacturer: LG, model: 'G Watch R' } }
+    readable: 'Crosswalk WebView 15 on a LG G Watch R running Android Wear'

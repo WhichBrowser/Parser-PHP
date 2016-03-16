@@ -1,6 +1,8 @@
 -
     headers: 'User-Agent: MOT-C168i/1.0 Release/13.07.2007 Browser/CMCS1.0 Software/2.350'
     result: { browser: { name: 'Motorola Internet Browser', version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: C168i } }
+    readable: 'Motorola Internet Browser 1.0 on a Motorola C168i'
 -
     headers: 'User-Agent: MOT-V730/1.0 MIB1.2/v1.0'
     result: { browser: { name: 'Motorola Internet Browser', version: '1.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V730 } }
+    readable: 'Motorola Internet Browser 1.2 on a Motorola V730'

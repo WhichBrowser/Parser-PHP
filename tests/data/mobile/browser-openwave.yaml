@@ -1,93 +1,124 @@
 -
     headers: 'User-Agent: Amoi-F90/Plat-F/WAP2.0/MIDP1.0/CLDC1.0 UP.Browser/6.2.2.6.f.1.100 (GUI) MMP/1.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: F90 } }
+    readable: 'Openwave 6.2 on an Amoi F90'
 -
     headers: 'User-Agent: 802SH Vodafone/1.0/V802SH/SHJ001[/Serial] Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.2.2 Ext-V-Profile/VSCL-2.0.0'
     result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V802SH, carrier: Softbank } }
+    readable: 'Openwave 7.0 on a Sharp V802SH'
 -
     headers: 'User-Agent: Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: BG3 } }
+    readable: 'Openwave 5.0 on an Alcatel BG3'
 -
     headers: 'User-Agent: BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/137 UP.Browser/5.0.3.3'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, os: { name: 'BlackBerry OS', version: '4.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 8100' } }
+    readable: 'Openwave 5.0 on a RIM BlackBerry Pearl 8100 running BlackBerry OS 4.2'
 -
     headers: 'User-Agent: KDDI-CA22 UP.Browser/6.0.8.1 (GUI) MMP/1.1'
     result: { browser: { name: Openwave, version: '6.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: A5302CA, carrier: au } }
+    readable: 'Openwave 6.0 on a Casio A5302CA'
 -
     headers: 'User-Agent: KDDI-HI3E UP.Browser/6.2_7.2.7.1.K.2.232 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W63H, carrier: au } }
+    readable: 'Openwave 6.2 on a Hitachi W63H'
 -
     headers: 'User-Agent: LGE-VX5500/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VX5500 } }
+    readable: 'Openwave 6.2 on a LG VX5500'
 -
     headers: 'User-Agent: MOT-V860/00.72 UP.Browser/7.2.7.5.630 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '7.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V860 } }
+    readable: 'Openwave 7.2 on a Motorola V860'
 -
     headers: 'User-Agent: SAMSUNG-GT-E2222/E2222JVNC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 222' } }
+    readable: 'Openwave 6.2 on a Samsung Ch@t 222'
 -
     headers: 'User-Agent: SAMSUNG-SGH-J700/J700XAHA6 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-J700 } }
+    readable: 'Openwave 6.2 on a Samsung SGH-J700'
 -
     headers: 'User-Agent: SAMSUNG-SGH-X640/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-X640 } }
+    readable: 'Openwave 6.2 on a Samsung SGH-X640'
 -
     headers: 'User-Agent: SIE-C55/24 UP.Browser/5.0.3.3 (GUI) UP.Link/1.1'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: C55 } }
+    readable: 'Openwave 5.0 on a Siemens C55'
 -
     headers: 'User-Agent: SIE-S65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: S65 } }
+    readable: 'Openwave 7.0 on a Siemens S65'
 -
     headers: 'User-Agent: UP.Browser/3.04-KC14 UP.Link/3.4.5.6'
     result: { browser: { name: Openwave, version: '3.04', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: A1012K, carrier: au } }
+    readable: 'Openwave 3.04 on a Kyocera A1012K'
 -
     headers: 'User-Agent: UP.Browser/3.04-SN15 UP.Link/3.4.5.6'
     result: { browser: { name: Openwave, version: '3.04', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sony, model: C413S, carrier: au } }
+    readable: 'Openwave 3.04 on a Sony C413S'
 -
     headers: 'User-Agent: Vodafone/1.0/V703SHf/SHJ001/SN354723000668748 Browser/UP.Browser/7.0.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.2.2 Ext-V-Profile/VSCL-2.0.0'
     result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V703SH, carrier: Softbank } }
+    readable: 'Openwave 7.0 on a Sharp V703SH'
 -
     headers: 'User-Agent: Vodafone/1.0/V903SH/SHJ001 Browser/UP.Browser/7.0.2.1'
     result: { browser: { name: Openwave, version: '7.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V903SH, carrier: Softbank } }
+    readable: 'Openwave 7.0 on a Sharp V903SH'
 -
     headers: 'User-Agent: ACER-Pro80/1.02 UP/4.1.20i UP.Browser/4.1.20i-XXXX'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Acer, model: Pro80 } }
+    readable: 'Openwave 4.1 on an Acer Pro80'
 -
     headers: 'User-Agent: Alcatel-BE3/1.0 UP/4.1.8d'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: BE3 } }
+    readable: 'Openwave 4.1 on an Alcatel BE3'
 -
     headers: 'User-Agent: NEC-525/1.0 up.Browser/6.1.0.6.1 (GUI) MMP/1.0'
     result: { browser: { name: Openwave, version: '6.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: '525' } }
+    readable: 'Openwave 6.1 on a NEC 525'
 -
     headers: 'User-Agent: NEC-DB7000/1.0 UP.Browser/4.1.23c'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: DB7000 } }
+    readable: 'Openwave 4.1 on a NEC DB7000'
 -
     headers: 'User-Agent: PHILIPS-Az@lis288 UP/4.1.19l'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Az@lis 288' } }
+    readable: 'Openwave 4.1 on a Philips Az@lis 288'
 -
     headers: 'User-Agent: PHILIPS-FISIO 318 UP/4.1.19m'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 318' } }
+    readable: 'Openwave 4.1 on a Philips Fisio 318'
 -
     headers: 'User-Agent: PHILIPS-Fisio311/2.1 UP/4.1.19m'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 311' } }
+    readable: 'Openwave 4.1 on a Philips Fisio 311'
 -
     headers: 'User-Agent: PHILIPS-Fisio 121/2.1 UP/4.1.19m'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: 'Fisio 121' } }
+    readable: 'Openwave 4.1 on a Philips Fisio 121'
 -
     headers: 'User-Agent: PHILIPS-Ozeo UP/4.1.16r'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: Ozeo } }
+    readable: 'Openwave 4.1 on a Philips Ozeo'
 -
     headers: 'User-Agent: Sanyo-C304SA/2.0 UP/4.1.20e'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: C304SA } }
+    readable: 'Openwave 4.1 on a Sanyo C304SA'
 -
     headers: 'User-Agent: Sanyo-SCP5000/1.1b UP.Browser/4.1.23a'
     result: { browser: { name: Openwave, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: SCP5000 } }
+    readable: 'Openwave 4.1 on a Sanyo SCP5000'
 -
     headers: 'User-Agent: MOT-EF/06.12 KM.Browser/5.0.2.4'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EF } }
+    readable: 'Openwave 5.0 on a Motorola EF'
 -
     headers: 'User-Agent: SonyEricssonS302c/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1, SonyEricssonS302c/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: Openwave, version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: S302c } }
+    readable: 'Openwave 1.0 on a Sony Ericsson S302c'
 -
     headers: 'User-Agent: MOT-W388_CMCC/1.0 Release/07.30.2008 Browser/OpenWave6.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/0.0.42'
     result: { browser: { name: Openwave, version: '6.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W388 } }
+    readable: 'Openwave 6.3 on a Motorola W388'

@@ -1,18 +1,24 @@
 -
     headers: 'User-Agent: BIRD.S580 AU.Browser/1.2'
     result: { browser: { name: AU, version: '1.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: S580 } }
+    readable: 'AU 1.2 on a Bird S580'
 -
     headers: 'User-Agent: LG-G3100 AU/4.10'
     result: { browser: { name: AU, version: '4.10', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: G3100 } }
+    readable: 'AU 4.10 on a LG G3100'
 -
     headers: 'User-Agent: LG-G1500 AU/4.2'
     result: { browser: { name: AU, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: G1500 } }
+    readable: 'AU 4.2 on a LG G1500'
 -
     headers: 'User-Agent: LG-G4010 AU/4.12 UP.Link/1.1'
     result: { browser: { name: AU, version: '4.12', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: G4010 } }
+    readable: 'AU 4.12 on a LG G4010'
 -
     headers: 'User-Agent: LG-G5300i/JM AU/4.10 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     result: { browser: { name: AU, version: '4.10', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: G5300i } }
+    readable: 'AU 4.10 on a LG G5300i'
 -
     headers: 'User-Agent: LG-G7070 AU/4.10 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     result: { browser: { name: AU, version: '4.10', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: G7070 } }
+    readable: 'AU 4.10 on a LG G7070'

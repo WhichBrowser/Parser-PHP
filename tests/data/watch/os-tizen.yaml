@@ -1,9 +1,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.1.3; SAMSUNG SM-R750) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.2.1.3 Mobile Safari/538.1'
     result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: 2.2.1.3 }, device: { type: watch, manufacturer: Samsung, model: 'Gear S' } }
+    readable: 'a Samsung Gear S running Tizen 2.2.1.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.1.3; SAMSUNG SM-R750A) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.2.1.3 Mobile Safari/538.1'
     result: { engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: 2.2.1.3 }, device: { type: watch, manufacturer: Samsung, model: 'Gear S' } }
+    readable: 'a Samsung Gear S running Tizen 2.2.1.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Tizen 2.2.1.3; SM-R750) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.76 efl-webengine/0.1.1.1 Mobile Safari/537.36'
     result: { browser: { family: { name: Chrome, version: 34 } }, engine: { name: Blink }, os: { name: Tizen, version: 2.2.1.3 }, device: { type: watch, manufacturer: Samsung, model: 'Gear S' } }
+    readable: 'a Samsung Gear S running Tizen 2.2.1.3'

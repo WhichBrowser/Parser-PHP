@@ -1,6 +1,8 @@
 -
     headers: 'User-Agent: Opera/8.02 (Qt embedded; Linux armv4ll; U) [en] SONY/COM1'
     result: { browser: { name: Opera, version: '8.02', type: browser }, os: { name: Qtopia }, device: { type: pda, manufacturer: Sony, model: 'Mylo 1' } }
+    readable: 'Opera 8.02 on a Sony Mylo 1 running Qtopia'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux, Sony/COM2/1.01 [ja]; like Gecko/2007) Firefox/2'
     result: { browser: { name: NetFront, type: browser }, device: { type: pda, manufacturer: Sony, model: 'Mylo 2' } }
+    readable: 'NetFront on a Sony Mylo 2'

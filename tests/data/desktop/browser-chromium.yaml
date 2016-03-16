@@ -1,39 +1,52 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.6+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/537.6+'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 17 }, version: 17.0.963.56, type: browser }, engine: { name: Webkit, version: '537.6' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Chromium 17.0.963.56 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.6+ (KHTML, like Gecko) Chromium/23.0.1271.95 Chrome/23.0.1271.95 Safari/537.6+'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 23 }, version: 23.0.1271.95, type: browser }, engine: { name: Webkit, version: '537.6' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    readable: 'Chromium 23.0.1271.95 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/538.1 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/538.1'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Chromium 25.0.1349.2 on FreeBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 17 }, version: 17.0.963.56, type: browser }, engine: { name: Webkit, version: '535.22' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Chromium 17.0.963.56 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.42+ (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.42+'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2, type: browser }, engine: { name: Webkit, version: '537.42' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Chromium 25.0.1349.2 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/33.0.1750.152 Chrome/33.0.1750.152 Safari/537.36'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 33 }, version: 33.0.1750.152, type: browser }, engine: { name: Blink }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'Chromium 33.0.1750.152 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/11.04 Chromium/11.0.696.68 Chrome/11.0.696.68 Safari/534.24'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 11 }, version: 11.0.696.68, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Ubuntu, version: '11.04' }, device: { type: desktop } }
+    readable: 'Chromium 11.0.696.68 on Ubuntu 11.04'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/29.0.1547.62 Chrome/29.0.1547.62 Safari/537.36'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 29 }, version: 29.0.1547.62, type: browser }, engine: { name: Blink }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'Chromium 29.0.1547.62 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Fedora/16 (NRCBBXGu8kHISSSeydKmMptKvoa0gMvZ1htgTp2WpNQ=) Chromium/21.0.1180.81 Chrome/21.0.1180.81 Safari/535.2'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 21 }, version: 21.0.1180.81, type: browser }, engine: { name: Webkit, version: '535.2' }, os: { name: Fedora }, device: { type: desktop } }
+    readable: 'Chromium 21.0.1180.81 on Fedora'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.7 Chrome/45.0.2454.7 Safari/537.36'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 45 }, version: 45.0.2454.7, type: browser }, engine: { name: Blink }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'Chromium 45.0.2454.7 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML, like Gecko) Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/537.4'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 18 }, version: 18.0.1025.168, type: browser }, engine: { name: Webkit, version: '537.4' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Chromium 18.0.1025.168 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/10.10 Chromium/9.0.597.107 Chrome/9.0.597.107 Safari/534.13'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 9 }, version: 9.0.597.107, type: browser }, engine: { name: Webkit, version: '534.13' }, os: { name: Ubuntu, version: '10.10' }, device: { type: desktop } }
+    readable: 'Chromium 9.0.597.107 on Ubuntu 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux mips)  Chromium/25.0.1349.2'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 25 }, version: 25.0.1349.2, type: browser }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Chromium 25.0.1349.2 on Linux'

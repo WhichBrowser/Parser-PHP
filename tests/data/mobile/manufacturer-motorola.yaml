@@ -1,375 +1,500 @@
 -
     headers: 'User-Agent: Browse/0.5 (Linux; Android 5.1.1; Moto G (2014) Build/LMY47Z) WebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.138 Mobile Mozilla/5.0'
     result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G (Google Edition, 2014)' } }
+    readable: 'Chrome 42 on a Motorola Moto G (Google Edition, 2014) running Android 5.1.1'
 -
     headers: 'User-Agent: MOT-MB200/Blur_Version.0.14.501.MB200.AmericaMovil.en.01 Mozilla/5.0 (Linux; U; Android 1.5; xx; MB200 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: CLIQ } }
+    readable: 'Android Browser on a Motorola CLIQ running Android 1.5'
 -
     headers: 'User-Agent: MOT-MB300/Blur_Version.0.12.7150.MB300.AmericaMovil.en.MX Mozilla/5.0 (Linux; U; Android 1.5; xx; MB300 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: BACKFLIP } }
+    readable: 'Android Browser on a Motorola BACKFLIP running Android 1.5'
 -
     headers: 'User-Agent: MOT-MB502/Blur_Version.0.30.1.MB502.AmericaMovil.en.BR Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MB502 Build/BASLA_U3_00.30.0_R01) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: CHARM } }
+    readable: 'Android Browser on a Motorola CHARM running Android 2.1'
 -
     headers: 'User-Agent: MOT-MB511/Blur_Version.0.45.203.MB511.Brasil.en.BR Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MB511 Build/RUTLA_U3_00.45.203) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: FLIPOUT } }
+    readable: 'Android Browser on a Motorola FLIPOUT running Android 2.1'
 -
     headers: 'User-Agent: MOT-XT300/ Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; XT300 Build/SESLA_U3_01.44.7) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: SPICE } }
+    readable: 'Android Browser on a Motorola SPICE running Android 2.1'
 -
     headers: 'User-Agent: MOT-XT311/Mozilla/5.0 (Linux; U; Android 2.3.4; xx; XT311 Build/V4.33B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: FIRE } }
+    readable: 'Android Browser on a Motorola FIRE running Android 2.3.4'
 -
     headers: 'User-Agent: MOT-XT316/1.0 Android/2.3.4 Release/9.15.2011 Browser/AppleWebKit533.1 Mozilla/5.0 (Linux; U; Android 2.3.5; xx; XT316 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT316' } }
+    readable: 'Android Browser on a Motorola MOTO XT316 running Android 2.3.4'
 -
     headers: 'User-Agent: MOT-XT390/1.0 Android/2.3.6 Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MOT-XT390 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART XT390' } }
+    readable: 'Android Browser on a Motorola MOTOSMART XT390 running Android 2.3.6'
 -
     headers: 'User-Agent: MOT-XT530/Mozilla/5.0 (Linux; U; Android 2.3.5; xx; XT530 Build/V4.460) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'FIRE XT' } }
+    readable: 'Android Browser on a Motorola FIRE XT running Android 2.3.5'
 -
     headers: 'User-Agent: MOT-XT536/1.0 Android/2.3.7 Release/2.28.2012 Browser/AppleWebKit533.1 Mozilla/5.0 (Linux; U; Android 2.3.7; xx; MOT-XT536 Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'DEFY Diana' } }
+    readable: 'Android Browser on a Motorola DEFY Diana running Android 2.3.7'
 -
     headers: 'User-Agent: MOT-XT610/Blur_Version.0.17.62.XT610.Latam.en.01 Mozilla/5.0 (Linux; U; Android 2.2.2; xx; XT610 Build/0.17.0_R062) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Pro' } }
+    readable: 'Android Browser on a Motorola Droid Pro running Android 2.2.2'
 -
     headers: 'User-Agent: MOT-XT615/Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT615 Build/V1.62D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT615' } }
+    readable: 'Android Browser on a Motorola MOTO XT615 running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  DROID RAZR Build/6.7.1-68_DHD-15_M4-16) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid RAZR' } }
+    readable: 'Chrome 18 on a Motorola Droid RAZR running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  DROID4 Build/6.7.1-68_DR4-2_M2-6) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid 4' } }
+    readable: 'Chrome 18 on a Motorola Droid 4 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  XT875 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Bionic' } }
+    readable: 'Chrome 18 on a Motorola Droid Bionic running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  XT910 Build/6.7.1_GC-96) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: RAZR } }
+    readable: 'Chrome 18 on a Motorola RAZR running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  XT928 Build/6.7.1_GC-90) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: XT928 } }
+    readable: 'Chrome 18 on a Motorola XT928 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Droid2Global Build/MR1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31'
     result: { browser: { name: Chrome, version: 26.0.1410.58, type: browser }, engine: { name: Webkit, version: '537.31' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid 2' } }
+    readable: 'Chrome Dev 26.0.1410.58 on a Motorola Droid 2 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; MB525 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY } }
+    readable: 'Chrome 18 on a Motorola DEFY running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ME525+ Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.8 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO ME525' } }
+    readable: 'Chrome 25 on a Motorola MOTO ME525 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ME722 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Milestone 2' } }
+    readable: 'Chrome 18 on a Motorola Milestone 2 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Milestone Build/SHOLS_U2_05.26.3) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Milestone } }
+    readable: 'Chrome 18 on a Motorola Milestone running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; XT862 Build/5.5.1_84_D3G-55) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: 28.0.1500.94, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid 3' } }
+    readable: 'Chrome Dev 28.0.1500.94 on a Motorola Droid 3 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  MB526 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY+ } }
+    readable: 'Chrome 18 on a Motorola DEFY+ running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  MB855 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'PHOTON 4G' } }
+    readable: 'Chrome 18 on a Motorola PHOTON 4G running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  MB860 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ATRIX } }
+    readable: 'Chrome 18 on a Motorola ATRIX running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  MT917 Build/6.7.2_GC-120) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: MT917 } }
+    readable: 'Chrome 18 on a Motorola MT917 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4;  WX435 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'TRIUMPH WX435' } }
+    readable: 'Chrome 18 on a Motorola TRIUMPH WX435 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; 201M Build/7.7.1Q-164_SMJ-143) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR M 201M', carrier: Softbank } }
+    readable: 'Chrome 18 on a Motorola RAZR M 201M running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; Atrix_2_WeifanZ Build/6.7.2_GC-180-EDS-20 By Muyiafan) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.48 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ATRIX 2' } }
+    readable: 'Chrome 33 on a Motorola ATRIX 2 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; DROID RAZR HD Build/7.7.1Q-144_VQW_S334-25) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid RAZR HD' } }
+    readable: 'Chrome 18 on a Motorola Droid RAZR HD running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; DROIDX Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid X' } }
+    readable: 'Chrome 18 on a Motorola Droid X running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MB611 Build/CyanogenMod9-Milestone2-CN-Kernel-IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'CLIQ 2' } }
+    readable: 'Chrome 18 on a Motorola CLIQ 2 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MB870 Build/4.5.1A-DTN-130) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.33 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid X2' } }
+    readable: 'Chrome 25 on a Motorola Droid X2 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MB886 Build/7.7.1Q-115_MB886_BELL_FFW-11) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DINARA } }
+    readable: 'Chrome 18 on a Motorola DINARA running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MOT-XT788 Build/IRPMCT_B_02.60.00RPD) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: XT788 } }
+    readable: 'Chrome 18 on a Motorola XT788 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MT788 Build/AZ510_ICS_02.19I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR i' } }
+    readable: 'Chrome 29 on a Motorola RAZR i running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MT887 Build/6.7.2_GC-125-YTZTD-19) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '29', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR V' } }
+    readable: 'Chrome 29 on a Motorola RAZR V running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; Motorola RAZR MAXX Build/6.7.2-180_DHD-16_NA-27) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR MAXX' } }
+    readable: 'Chrome 18 on a Motorola RAZR MAXX running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT1080 Build/HuaweiU8825D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Ultra' } }
+    readable: 'Chrome 32 on a Motorola Droid Ultra running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT685 Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT685' } }
+    readable: 'Chrome 18 on a Motorola MOTO XT685 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT687 Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ATRIX TV' } }
+    readable: 'Chrome 18 on a Motorola ATRIX TV running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT883 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.64 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: 28.0.1500.64, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Milestone 3' } }
+    readable: 'Chrome Dev 28.0.1500.64 on a Motorola Milestone 3 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT897 Build/7.7.1Q-6_SPR-125_ASA-10) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Photon Q' } }
+    readable: 'Chrome 18 on a Motorola Photon Q running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT901 Build/7.7.1Q-144_SLS_S240-58) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Electrify M' } }
+    readable: 'Chrome 18 on a Motorola Electrify M running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; XT905 Build/7.7.1Q-164_SKT-39) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR M' } }
+    readable: 'Chrome 18 on a Motorola RAZR M running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; i1 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: i1 } }
+    readable: 'Chrome 18 on a Motorola i1 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; MB520 Build/JRO03H) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: BRAVO } }
+    readable: 'Chrome 18 on a Motorola BRAVO running Android 4.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; Atrix 4G Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '35', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ATRIX 4G' } }
+    readable: 'Chrome 35 on a Motorola ATRIX 4G running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; Atrix HD Build/HoloBlur-X v0.9 PurePerformance? Edition) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ATRIX HD' } }
+    readable: 'Chrome 31 on a Motorola ATRIX HD running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; RAZR HD Build/9.8.2Q-8-XT925_VQL-6) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'RAZR HD' } }
+    readable: 'Chrome 18 on a Motorola RAZR HD running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; TC55 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: 28.0.1500.94, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'TC55 Touch Computer' } }
+    readable: 'Chrome Dev 28.0.1500.94 on a Motorola TC55 Touch Computer running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; XT881 Build/9.8.3O-118_USC-14) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Electrify 2' } }
+    readable: 'Chrome 18 on a Motorola Electrify 2 running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; XT914 Build/2_28B_2005) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid RAZR D1' } }
+    readable: 'Chrome 18 on a Motorola Droid RAZR D1 running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2; XT919 Build/2_290_2004) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid RAZR D3' } }
+    readable: 'Chrome 18 on a Motorola Droid RAZR D3 running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; Nexus 6 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Nexus 6' } }
+    readable: 'Chrome 42 on a Motorola Nexus 6 running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; XT1030 Build/12.9.0Q2.X-160-OBK_TA-14-7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Mini' } }
+    readable: 'Chrome 27 on a Motorola Droid Mini running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; XT1049 Build/13.9.0Q2.X-178-RW-11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X' } }
+    readable: 'Chrome 30 on a Motorola Moto X running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; XT1028 Build/14.10.0Q3.X-84-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '30', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G' } }
+    readable: 'Chrome 30 on a Motorola Moto G running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.1; TC70 Build/90-23241-K-02-02-00-E2-011714) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
     result: { browser: { using: { name: 'Chromium WebView', version: '30' } }, engine: { name: Blink }, os: { name: Android, version: 4.4.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'TC70 Touch Computer' } }
+    readable: 'Chromium WebView 30 on a Motorola TC70 Touch Computer running Android 4.4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Moto G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '32', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G (Google Edition)' } }
+    readable: 'Chrome 32 on a Motorola Moto G (Google Edition) running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; Moto X Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X (Google Edition)' } }
+    readable: 'Chrome 33 on a Motorola Moto X (Google Edition) running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; XT1021 Build/KXC20.82-13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto E' } }
+    readable: 'Chrome 34 on a Motorola Moto E running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; TC75 Build/01-23257-K-05-01-00-D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'TC75 Touch Computer' } }
+    readable: 'Chrome 38 on a Motorola TC75 Touch Computer running Android 4.4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; XT1003 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '40', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G Ferrari' } }
+    readable: 'Chrome 40 on a Motorola Moto G Ferrari running Android 4.4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; Moto E Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto E (Google Edition)' } }
+    readable: 'Chrome 36 on a Motorola Moto E (Google Edition) running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1063 Build/KXB21.85-12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G (2014)' } }
+    readable: 'Chrome 41 on a Motorola Moto G (2014) running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1092 Build/KXE21.187-42) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X (2014)' } }
+    readable: 'Chrome 34 on a Motorola Moto X (2014) running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1225 Build/KXG21.50-11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '37', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto Maxx' } }
+    readable: 'Chrome 37 on a Motorola Moto Maxx running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1250 Build/KXG21.50-11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '41', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Turbo' } }
+    readable: 'Chrome 41 on a Motorola Droid Turbo running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; XT1526 Build/LXI22.50-14.6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '46', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto E (2015)' } }
+    readable: 'Chrome 46 on a Motorola Moto E (2015) running Android 5.0.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; XT1562 Build/LPD23.118-10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X Play' } }
+    readable: 'Chrome 42 on a Motorola Moto X Play running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; XT1565 Build/LCD23.118-4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid MAXX 2' } }
+    readable: 'Chrome 43 on a Motorola Droid MAXX 2 running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; XT1570 Build/LPH23.145-7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X Style' } }
+    readable: 'Chrome 45 on a Motorola Moto X Style running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; XT1575 Build/LPH23.116-18) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X Pure Edition' } }
+    readable: 'Chrome 42 on a Motorola Moto X Pure Edition running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; XT1580 Build/LPK23.145-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto X Force' } }
+    readable: 'Chrome 42 on a Motorola Moto X Force running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; xx; MB501 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'CLIQ XT' } }
+    readable: 'Android Browser on a Motorola CLIQ XT running Android 1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; xx; MOT-A1680 Build/DRD35) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO A1680' } }
+    readable: 'Android Browser on a Motorola MOTO A1680 running Android 1.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; xx; Motorola-XT502 Build/DONUT) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'QUENCH XT5' } }
+    readable: 'Android Browser on a Motorola QUENCH XT5 running Android 1.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; xx; calgary Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.6' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Droid Devour' } }
+    readable: 'Android Browser on a Motorola Droid Devour running Android 1.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.0.1; xx; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: 2.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Droid } }
+    readable: 'Android Browser on a Motorola Droid running Android 2.0.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; es-; XT701 Build/STCU_41.07.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: XT701 } }
+    readable: 'Android Browser on a Motorola XT701 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; Dext Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Dext } }
+    readable: 'Android Browser on a Motorola Dext running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MOT-XT301/CNACT_X2_01.20.3; 240*320; CTC/2.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT301' } }
+    readable: 'Android Browser on a Motorola MOTO XT301 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MOT-XT806/QLCG_M2_02.11.7; 480*854; CTC/2.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT806' } }
+    readable: 'Android Browser on a Motorola MOTO XT806 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MT716 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO MT716' } }
+    readable: 'Android Browser on a Motorola MOTO MT716 running Android 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; MT810 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO MT810' } }
+    readable: 'Android Browser on a Motorola MOTO MT810 running Android 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; WX445 Build/VZW) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'CITRUS WX445' } }
+    readable: 'Android Browser on a Motorola CITRUS WX445 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; XT702 Build/SGC01260) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT702' } }
+    readable: 'Android Browser on a Motorola MOTO XT702 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; XT711 Build/RSTCU10150) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT711' } }
+    readable: 'Android Browser on a Motorola MOTO XT711 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; XT800 Build/TITA_M2_16.22.7) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT800' } }
+    readable: 'Android Browser on a Motorola MOTO XT800 running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; xx; XT800W Build/TTSKT_U_80.10.24R) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO Glam' } }
+    readable: 'Android Browser on a Motorola MOTO Glam running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.1; xx; Milestone X Build/NTEL) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 480X854 motorola Milestone X'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Milestone X' } }
+    readable: 'Android Browser on a Motorola Milestone X running Android 2.2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; MB508 Build/3.4.2-159_SAG-17_SecATT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: FLIPSIDE } }
+    readable: 'Android Browser on a Motorola FLIPSIDE running Android 2.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; MB612 Build/KRNS-X4-1.1.10) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: XPRT } }
+    readable: 'Android Browser on a Motorola XPRT running Android 2.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; MOTWX435KT Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: TRIUMPH } }
+    readable: 'Android Browser on a Motorola TRIUMPH running Android 2.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; xx; MT620 Build/THTTD_N_01.01.27I) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO MT620' } }
+    readable: 'Android Browser on a Motorola MOTO MT620 running Android 2.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; xx; MOT-XT882/SWDFS_M7_4.60.4; 540*960; CTC/2.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT882' } }
+    readable: 'Android Browser on a Motorola MOTO XT882 running Android 2.3.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; ISW11M Build/4.5.1A-1_KDI-92_LE-24)  AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: PHOTON ISW11M, carrier: au } }
+    readable: 'Android Browser on a Motorola PHOTON ISW11M running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; MT870 Build/04.30.51) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO MT870' } }
+    readable: 'Android Browser on a Motorola MOTO MT870 running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; xx; XT319 Build/V4.37B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT319' } }
+    readable: 'Android Browser on a Motorola MOTO XT319 running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; ru-; Motorola Electrify Build/4.5.1A_SUN_USC_19.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Electrify } }
+    readable: 'Android Browser on a Motorola Electrify running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; uk-; MB632 Build/5.5.1Q-110-L28_ELWUS-TA-1) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: PRO+ } }
+    readable: 'Android Browser on a Motorola PRO+ running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; xx; Milestone X2 Build/45.0.25) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Milestone X2' } }
+    readable: 'Android Browser on a Motorola Milestone X2 running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; xx; XT321 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'DEFY Mini' } }
+    readable: 'Android Browser on a Motorola DEFY Mini running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; xx; XT603 Build/5.5.1Q-117_PAX-15) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: ADMIRAL } }
+    readable: 'Android Browser on a Motorola ADMIRAL running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; xx; XT760 Build/02.3C.08RPS) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT760' } }
+    readable: 'Android Browser on a Motorola MOTO XT760 running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MB626 Build/5.5.1Q-211) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: MB632 } }
+    readable: 'Android Browser on a Motorola MB632 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MOT-XT303 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART XT303' } }
+    readable: 'Android Browser on a Motorola MOTOSMART XT303 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MOT-XT305 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART XT305' } }
+    readable: 'Android Browser on a Motorola MOTOSMART XT305 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MOT-XT389 Build/06.13.03R_S) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART XT389' } }
+    readable: 'Android Browser on a Motorola MOTOSMART XT389 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; MOT-XT553 Build/AGSPIN_B_02.01.38RPD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART MIX' } }
+    readable: 'Android Browser on a Motorola MOTOSMART MIX running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; Motorola MOT-XT681 Build/IRM90B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT681' } }
+    readable: 'Android Browser on a Motorola MOTO XT681 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; XT605 Build/5.5.1Q-JORIAN-108-TA-261) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Master XT605' } }
+    readable: 'Android Browser on a Motorola Master XT605 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; XT621 Build/5.5.1Q_PRIMUS_MR-217) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Primus XT621' } }
+    readable: 'Android Browser on a Motorola Primus XT621 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; XT626 Build/5.5.1Q-364_IR_TA-23) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT626' } }
+    readable: 'Android Browser on a Motorola MOTO XT626 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; xx; XT627 Build/5.5.1Q-478_JESSUP-84) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Kairos XT627' } }
+    readable: 'Android Browser on a Motorola Kairos XT627 running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; MT680 Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOLUXE MT680' } }
+    readable: 'Android Browser on a Motorola MOTOLUXE MT680 running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; Motorola_XT500 Build/Modified by soda; Modified by soda) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT500' } }
+    readable: 'Android Browser on a Motorola MOTO XT500 running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT317 Build/V4.36A) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'SPICE Key' } }
+    readable: 'Android Browser on a Motorola SPICE Key running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT532 Build/V4.36A) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTO XT532' } }
+    readable: 'Android Browser on a Motorola MOTO XT532 running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT555C Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'DEFY XT' } }
+    readable: 'Android Browser on a Motorola DEFY XT running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT560 Build/V1.59C) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'DEFY Pro' } }
+    readable: 'Android Browser on a Motorola DEFY Pro running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT611 Build/V4.570) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART Flip' } }
+    readable: 'Android Browser on a Motorola MOTOSMART Flip running Android 2.3.7'

@@ -1,273 +1,364 @@
 -
     headers: 'User-Agent: BlackBerry7100/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 7100' } }
+    readable: 'a RIM BlackBerry 7100 running BlackBerry OS 4.1'
 -
     headers: 'User-Agent: BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, os: { name: 'BlackBerry OS', version: '4.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 7520' } }
+    readable: 'Openwave 5.0 on a RIM BlackBerry 7520 running BlackBerry OS 4.0'
 -
     headers: 'User-Agent: BlackBerry8220/4.6.0.293 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 8220' } }
+    readable: 'a RIM BlackBerry Pearl 8220 running BlackBerry OS 4.6'
 -
     headers: 'User-Agent: BlackBerry8300/4.5.0.108 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/136 UP.Browser/5.0.3.3'
     result: { browser: { name: Openwave, version: '5.0', type: browser }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8300' } }
+    readable: 'Openwave 5.0 on a RIM BlackBerry Curve 8300 running BlackBerry OS 4.5'
 -
     headers: 'User-Agent: BlackBerry8310/4.5.0.37 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8310' } }
+    readable: 'a RIM BlackBerry Curve 8310 running BlackBerry OS 4.5'
 -
     headers: 'User-Agent: BlackBerry8330/4.5.0.175 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8330' } }
+    readable: 'a RIM BlackBerry Curve 8330 running BlackBerry OS 4.5'
 -
     headers: 'User-Agent: BlackBerry8520/4.6.1.259 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    readable: 'a RIM BlackBerry Curve 8520 running BlackBerry OS 4.6'
 -
     headers: 'User-Agent: BlackBerry8520/4.6.1.314 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/600'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    readable: 'a RIM BlackBerry Curve 8520 running BlackBerry OS 4.6'
 -
     headers: 'User-Agent: BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/-1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    readable: 'a RIM BlackBerry Curve 8520 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry8530/5.0.0.1000 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/109'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8530' } }
+    readable: 'a RIM BlackBerry Curve 8530 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry8820/4.5.0.182 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.5' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 8820' } }
+    readable: 'a RIM BlackBerry 8820 running BlackBerry OS 4.5'
 -
     headers: 'User-Agent: BlackBerry8900/4.6.1.199 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/302'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8900' } }
+    readable: 'a RIM BlackBerry Curve 8900 running BlackBerry OS 4.6'
 -
     headers: 'User-Agent: BlackBerry8900/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8900' } }
+    readable: 'a RIM BlackBerry Curve 8900 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9000/4.6.0.216 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/245'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9000' } }
+    readable: 'a RIM BlackBerry Bold 9000 running BlackBerry OS 4.6'
 -
     headers: 'User-Agent: BlackBerry9000/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/179'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9000' } }
+    readable: 'a RIM BlackBerry Bold 9000 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9000/5.2.0.89 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9000' } }
+    readable: 'a RIM BlackBerry Bold 9000 running BlackBerry OS 5.2'
 -
     headers: 'User-Agent: BlackBerry9000/5.2.0.89 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/159/999'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '5.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9000' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Bold 9000 running BlackBerry OS 5.2'
 -
     headers: 'User-Agent: BlackBerry9100/6.6.0.248 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/159/999'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 9100' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Pearl 9100 running BlackBerry OS 6.6'
 -
     headers: 'User-Agent: BlackBerry9105/5.0.0.689 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/613'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 9105' } }
+    readable: 'a RIM BlackBerry Pearl 9105 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9300/5.0.0.794 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
+    readable: 'a RIM BlackBerry Curve 9300 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9330/5.0.0.886 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9330' } }
+    readable: 'a RIM BlackBerry Curve 9330 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9500/4.7.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/179'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.7' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm 9500' } }
+    readable: 'a RIM BlackBerry Storm 9500 running BlackBerry OS 4.7'
 -
     headers: 'User-Agent: BlackBerry9500/5.0.0.484 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/120'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm 9500' } }
+    readable: 'a RIM BlackBerry Storm 9500 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9520/4.2.0.423 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm2 9520' } }
+    readable: 'a RIM BlackBerry Storm2 9520 running BlackBerry OS 4.2'
 -
     headers: 'User-Agent: BlackBerry9520/5.0.0.1068 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/600'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm2 9520' } }
+    readable: 'a RIM BlackBerry Storm2 9520 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9530/4.7.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.0'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.7' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm 9530' } }
+    readable: 'a RIM BlackBerry Storm 9530 running BlackBerry OS 4.7'
 -
     headers: 'User-Agent: BlackBerry9530/5.0.0.973 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm 9530' } }
+    readable: 'a RIM BlackBerry Storm 9530 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9550/5.0.0.1015 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Storm 9550' } }
+    readable: 'a RIM BlackBerry Storm 9550 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9630/5.0.0.1030 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Tour 9630' } }
+    readable: 'a RIM BlackBerry Tour 9630 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9650/4.2.0.494 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/159/800'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '4.2' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9650' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Bold 9650 running BlackBerry OS 4.2'
 -
     headers: 'User-Agent: BlackBerry9650/5.0.0.1078 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9650' } }
+    readable: 'a RIM BlackBerry Bold 9650 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9670/4.4.0.560 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.4' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Style 9670' } }
+    readable: 'a RIM BlackBerry Style 9670 running BlackBerry OS 4.4'
 -
     headers: 'User-Agent: BlackBerry9700/5.0.0.1014 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
+    readable: 'a RIM BlackBerry Bold 9700 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry9700/6.6.0.124 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/159/800'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Bold 9700 running BlackBerry OS 6.6'
 -
     headers: 'User-Agent: BlackBerry9780/6.6.0.252 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/159/999'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9780' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Bold 9780 running BlackBerry OS 6.6'
 -
     headers: 'User-Agent: BlackBerry9800/6.0.0.600 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    readable: 'a RIM BlackBerry Torch 9800 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: BlackBerry9800/6.4.0.210 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/161/800'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.4' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Torch 9800 running BlackBerry OS 6.4'
 -
     headers: 'User-Agent: BlackBerry9800/6.6.0.207 Profile/MIDP-2.0 Configuration/CLDC-1.1/UCWEB8.1.0.104/161/999'
     result: { browser: { name: 'UC Browser', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '6.6' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    readable: 'UC Browser 8.1 on a RIM BlackBerry Torch 9800 running BlackBerry OS 6.6'
 -
     headers: 'User-Agent: BlackBerry9810/5.1.0.230 Profile/MIDP-2.0 Configuration/CLDC-1.1/UC Browser7.8.0.95/160/352'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'BlackBerry OS', version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9810' } }
+    readable: 'UC Browser 7.8 on a RIM BlackBerry Torch 9810 running BlackBerry OS 5.1'
 -
     headers: 'User-Agent: BlackBerry9810/7.0.0.261 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9810' } }
+    readable: 'a RIM BlackBerry Torch 9810 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: BlackBerry9810/7.1.0.694 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9810' } }
+    readable: 'a RIM BlackBerry Torch 9810 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: BlackBerry9860/5.1.0.276 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9860' } }
+    readable: 'a RIM BlackBerry Torch 9860 running BlackBerry OS 5.1'
 -
     headers: 'User-Agent: BlackBerry9900/5.1.0.692 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9900' } }
+    readable: 'a RIM BlackBerry Bold 9900 running BlackBerry OS 5.1'
 -
     headers: 'User-Agent: BlackBerry9930/5.1.0.678 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9930' } }
+    readable: 'a RIM BlackBerry Bold 9930 running BlackBerry OS 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9100; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.534 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 9100' } }
+    readable: 'a RIM BlackBerry Pearl 9100 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9105; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.481 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Pearl 9105' } }
+    readable: 'a RIM BlackBerry Pearl 9105 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9220; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1112 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9220' } }
+    readable: 'a RIM BlackBerry Curve 9220 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9300; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.424 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
+    readable: 'a RIM BlackBerry Curve 9300 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9310; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.539 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9310' } }
+    readable: 'a RIM BlackBerry Curve 9310 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9315; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1098 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 9315' } }
+    readable: 'a RIM BlackBerry 9315 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9320; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.398 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9320' } }
+    readable: 'a RIM BlackBerry Curve 9320 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9330; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.524 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9330' } }
+    readable: 'a RIM BlackBerry Curve 9330 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9350; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.580 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9350' } }
+    readable: 'a RIM BlackBerry Curve 9350 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9360; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.319 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9360' } }
+    readable: 'a RIM BlackBerry Curve 9360 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9360; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1098 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9360' } }
+    readable: 'a RIM BlackBerry Curve 9360 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9370; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.755 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9370' } }
+    readable: 'a RIM BlackBerry Curve 9370 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.514 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9380' } }
+    readable: 'a RIM BlackBerry Curve 9380 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.247 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9380' } }
+    readable: 'a RIM BlackBerry Curve 9380 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9620; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1112 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 9620' } }
+    readable: 'a RIM BlackBerry 9620 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; xx) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.280 Mobile Safari/534.1+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9650' } }
+    readable: 'a RIM BlackBerry Bold 9650 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9670; xx) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.407 Mobile Safari/534.1+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Style 9670' } }
+    readable: 'a RIM BlackBerry Style 9670 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9700; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
+    readable: 'a RIM BlackBerry Bold 9700 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9720; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1046 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 9720' } }
+    readable: 'a RIM BlackBerry 9720 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; xx) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.285 Mobile Safari/534.1+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9780' } }
+    readable: 'a RIM BlackBerry Bold 9780 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9788; xx) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.595 Mobile Safari/534.8+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.8' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9788' } }
+    readable: 'a RIM BlackBerry Bold 9788 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9790; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.473 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9790' } }
+    readable: 'a RIM BlackBerry Bold 9790 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9790; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1033 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9790' } }
+    readable: 'a RIM BlackBerry Bold 9790 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; xx) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.141 Mobile Safari/534.1+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.1' }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    readable: 'a RIM BlackBerry Torch 9800 running BlackBerry OS 6.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9810; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.261 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9810' } }
+    readable: 'a RIM BlackBerry Torch 9810 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9810; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1070 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9810' } }
+    readable: 'a RIM BlackBerry Torch 9810 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9850; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.362 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9850' } }
+    readable: 'a RIM BlackBerry Torch 9850 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9850; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1066 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9850' } }
+    readable: 'a RIM BlackBerry Torch 9850 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9860; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.296 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9860' } }
+    readable: 'a RIM BlackBerry Torch 9860 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.250 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9900' } }
+    readable: 'a RIM BlackBerry Bold 9900 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1041 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9900' } }
+    readable: 'a RIM BlackBerry Bold 9900 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.440 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9930' } }
+    readable: 'a RIM BlackBerry Bold 9930 running BlackBerry OS 7.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1083 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9930' } }
+    readable: 'a RIM BlackBerry Bold 9930 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9981; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.714 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Porsche P 9981' } }
+    readable: 'a RIM BlackBerry Porsche P 9981 running BlackBerry OS 7.1'
 -
     headers: { User-Agent: 'MQQBrowser/for Blackberry2.0.0 (BlackBerry9310/7.1.0.768)', Q-UA: 'BBQBM20_GA/200016&BBMMTT_3/200016&BB&201518&BlackBerry93107.1.0.&0&6347&V3' }
     result: { browser: { name: 'QQ Browser', type: browser }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9310' } }
+    readable: 'QQ Browser on a RIM BlackBerry Curve 9310 running BlackBerry OS 7.1'
 -
     headers: { User-Agent: 'MQQBrowser/for Blackberry2.0.0 (BlackBerry9380/7.1.0.714)', Q-UA: 'BBQBM20_GA/200016&BBMMTT_3/200016&BB&223021&BlackBerry93807.1.0.&0&6347&V3' }
     result: { browser: { name: 'QQ Browser', type: browser }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9380' } }
+    readable: 'QQ Browser on a RIM BlackBerry Curve 9380 running BlackBerry OS 7.1'
 -
     headers: { User-Agent: 'OneBrowser/for Blackberry3.0.0 (BlackBerry9320/7.1.0.398)', Q-UA: 'BBQBM30_ibibo/300001&BBMMTT_3/300001&BB&201518&BlackBerry93207.1.0.&6001&8976&V3' }
     result: { browser: { name: OneBrowser, type: browser }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9320' } }
+    readable: 'OneBrowser on a RIM BlackBerry Curve 9320 running BlackBerry OS 7.1'
 -
     headers: { User-Agent: 'OneBrowser/for Blackberry3.0.0 (BlackBerry9800/6.0.0.747)', Q-UA: 'BBQBM30_ibibo/300001&BBMMTT_3/300001&BB&223021&BlackBerry98006.0.0.&0&8976&V3' }
     result: { browser: { name: OneBrowser, type: browser }, os: { name: 'BlackBerry OS', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Torch 9800' } }
+    readable: 'OneBrowser on a RIM BlackBerry Torch 9800 running BlackBerry OS 6.0'
 -
     headers: { User-Agent: 'Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: 'RIM # BlackBerry 8520', X-OperaMini-Phone-UA: 'BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/613', X-OperaMini-Features: 'httpping, advanced, routing, folding, touch, camera, file_system' }
     result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8520' } }
+    readable: 'Opera Mini on a RIM BlackBerry Curve 8520 running BlackBerry OS 5.0'
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/4.4.26736/34.818; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'BlackBerry9700/5.0.0.235 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/1', X-OperaMini-Phone: 'BlackBerry # 9700', X-OperaMini-Phone-UA: 'BlackBerry9700/5.0.0.235 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/1', X-OperaMini-Features: 'httpping, advanced, routing, folding' }
     result: { browser: { name: 'Opera Mini', version: '4.4', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Bold 9700' } }
+    readable: 'Opera Mini 4.4 on a RIM BlackBerry Bold 9700 running BlackBerry OS 5.0'
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/4.6.32744/32.1214; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: BlackBerry9300, X-OperaMini-Phone: 'Blackberry # 9300', X-OperaMini-Phone-UA: BlackBerry9300, X-OperaMini-Features: 'httpping, advanced, routing, file_system, folding' }
     result: { browser: { name: 'Opera Mini', version: '4.6', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9300' } }
+    readable: 'Opera Mini 4.6 on a RIM BlackBerry Curve 9300 running BlackBerry OS'
 -
     headers: { User-Agent: 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35667/35.3781; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'BlackBerry8530/5.0.0.973 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105', X-OperaMini-Phone: '? # ?', X-OperaMini-Phone-UA: 'BlackBerry8530/5.0.0.973 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105', X-OperaMini-Features: 'advanced, httpping, folding, file_system, touch, camera, routing' }
     result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8530' } }
+    readable: 'Opera Mini 8.0 on a RIM BlackBerry Curve 8530 running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry7130e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104 3gpp-gba'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 7130e' } }
+    readable: 'a RIM BlackBerry 7130e running BlackBerry OS 4.1'
 -
     headers: 'User-Agent: BlackBerry8350i/5.0.0.1074 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/316'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '5.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 8350i' } }
+    readable: 'a RIM BlackBerry Curve 8350i running BlackBerry OS 5.0'
 -
     headers: 'User-Agent: BlackBerry8703e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '4.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 8703e' } }
+    readable: 'a RIM BlackBerry 8703e running BlackBerry OS 4.1'
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; Go.Web/6.2; HandHTTP 1.1; Elaine/1.0; RIM957 )'
     result: { browser: { name: Go.Web, version: '6.2', type: browser }, os: { name: 'BlackBerry OS' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: '957' } }
+    readable: 'Go.Web 6.2 on a RIM 957 running BlackBerry OS'
 -
     headers: 'User-Agent: BlackBerry6510/3.0'
     result: { browser: { name: 'BlackBerry Browser' }, os: { name: 'BlackBerry OS', version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 6510' } }
+    readable: 'a RIM BlackBerry 6510 running BlackBerry OS 3.0'

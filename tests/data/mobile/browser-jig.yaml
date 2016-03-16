@@ -1,117 +1,156 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.0.5; N901iS)'
     result: { browser: { name: 'Jig Browser', version: 5.0.5, type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: N901iS, carrier: DoCoMo } }
+    readable: 'Jig Browser 5.0.5 on a NEC N901iS'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.4.5; F901iS)'
     result: { browser: { name: 'Jig Browser', version: 5.4.5, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F901iS, carrier: DoCoMo } }
+    readable: 'Jig Browser 5.4.5 on a Fujitsu F901iS'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.9; D902i)'
     result: { browser: { name: 'Jig Browser', version: 7.0.9, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D902i, carrier: DoCoMo } }
+    readable: 'Jig Browser 7.0.9 on a Mitsubishi D902i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.3.7; P902i)'
     result: { browser: { name: 'Jig Browser', version: 7.3.7, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P902i, carrier: DoCoMo } }
+    readable: 'Jig Browser 7.3.7 on a Panasonic P902i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.7.4; N905i)'
     result: { browser: { name: 'Jig Browser', version: 7.7.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905i, carrier: DoCoMo } }
+    readable: 'Jig Browser 7.7.4 on a NEC N905i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 8.1.6; 934SH)'
     result: { browser: { name: 'Jig Browser', version: 8.1.6, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 934SH, carrier: Softbank } }
+    readable: 'Jig Browser 8.1.6 on a Sharp 934SH'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; SN3F)'
     result: { browser: { name: 'Jig Browser', version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re W63S, carrier: au } }
+    readable: 'Jig Browser 1.0.0 on a Sony Ericsson re W63S'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 706P)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 706P, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Panasonic 706P'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 823P)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 823P, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Panasonic 823P'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; F906i)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F906i, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.0.4 on a Fujitsu F906i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; N905i)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: N905i, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.0.4 on a NEC N905i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9 1.4.9; D905i; 2043)'
     result: { browser: { name: 'Jig Browser', version: 1.4.9, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D905i, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.4.9 on a Mitsubishi D905i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9 1.5.0; SH904i; 1023)'
     result: { browser: { name: 'Jig Browser', version: 1.5.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH904i, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.5.0 on a Sharp SH904i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9i 1.4.8; F08A3; 1002)'
     result: { browser: { name: 'Jig Browser', version: 1.4.8, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F08A3, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.4.8 on a Fujitsu F08A3'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9i 1.5.0; P03C; 2103)'
     result: { browser: { name: 'Jig Browser', version: 1.5.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P03C, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.5.0 on a Panasonic P03C'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser; HI31)'
     result: { browser: { name: 'Jig Browser', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W11H, carrier: au } }
+    readable: 'Jig Browser on a Hitachi W11H'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9i 1.4.8; SH01B; 1007)'
     result: { browser: { name: 'Jig Browser', version: 1.4.8, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: SH01B, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.4.8 on a Sharp SH01B'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 4.0.4; P900i)'
     result: { browser: { name: 'Jig Browser', version: 4.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: P900i, carrier: DoCoMo } }
+    readable: 'Jig Browser 4.0.4 on a Panasonic P900i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.0.1; F900iT)'
     result: { browser: { name: 'Jig Browser', version: 5.0.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F900iT, carrier: DoCoMo } }
+    readable: 'Jig Browser 5.0.1 on a Fujitsu F900iT'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 5.4.5; V904SH)'
     result: { browser: { name: 'Jig Browser', version: 5.4.5, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: V904SH, carrier: Softbank } }
+    readable: 'Jig Browser 5.4.5 on a Sharp V904SH'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.5; HI31)'
     result: { browser: { name: 'Jig Browser', version: 7.0.5, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W11H, carrier: au } }
+    readable: 'Jig Browser 7.0.5 on a Hitachi W11H'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.0.9; D902i)'
     result: { browser: { name: 'Jig Browser', version: 7.0.9, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Mitsubishi, model: D902i, carrier: DoCoMo } }
+    readable: 'Jig Browser 7.0.9 on a Mitsubishi D902i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser 7.8.3; SO703i)'
     result: { browser: { name: 'Jig Browser', version: 7.8.3, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sony, model: SO703i, carrier: DoCoMo } }
+    readable: 'Jig Browser 7.8.3 on a Sony SO703i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; 940N)'
     result: { browser: { name: 'Jig Browser', version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: NEC, model: 940N, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.0 on a NEC 940N'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 001SC)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 001SC, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Samsung 001SC'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 705NK)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 705NK, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Nokia 705NK'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 810T)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: 810T, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Toshiba 810T'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 830CA)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: 830CA, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Casio 830CA'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; CA3C)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: W63CA, carrier: au } }
+    readable: 'Jig Browser 1.0.4 on a Casio W63CA'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; DM003SH)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: DM003SH, carrier: 'Disney Mobile' } }
+    readable: 'Jig Browser 1.0.4 on a Sharp DM003SH'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; F02A)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F02A, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.0.4 on a Fujitsu F02A'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; F903i)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Fujitsu, model: F903i, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.0.4 on a Fujitsu F903i'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; HI3E)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Hitachi, model: W63H, carrier: au } }
+    readable: 'Jig Browser 1.0.4 on a Hitachi W63H'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; KC38)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: W44K, carrier: au } }
+    readable: 'Jig Browser 1.0.4 on a Kyocera W44K'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; PT34)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: W62PT, carrier: au } }
+    readable: 'Jig Browser 1.0.4 on a Pantech W62PT'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; SA3C)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: W61SA, carrier: au } }
+    readable: 'Jig Browser 1.0.4 on a Sanyo W61SA'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; V702NK)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: V702NK, carrier: Softbank } }
+    readable: 'Jig Browser 1.0.4 on a Nokia V702NK'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9 1.4.5; L03B; 2072)'
     result: { browser: { name: 'Jig Browser', version: 1.4.5, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: L03B, carrier: DoCoMo } }
+    readable: 'Jig Browser 1.4.5 on a LG L03B'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser9)'
     result: { browser: { name: 'Jig Browser', type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Jig Browser'

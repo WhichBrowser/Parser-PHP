@@ -1,15 +1,20 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WKC) AppleWebKit/536.5.1 (KHTML, like Gecko) NetFrontBrowserNX/3.0.0'
     result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, engine: { name: Webkit, version: 536.5.1 }, device: { type: desktop } }
+    readable: 'NetFront NX 3.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WKC) AppleWebKit/534.52.7 (KHTML, like Gecko) NetFrontBrowserNX/2.1.0'
     result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, engine: { name: Webkit, version: 534.52.7 }, device: { type: desktop } }
+    readable: 'NetFront NX 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.15 (KHTML, like Gecko) NX/3.0 Chrome/24.0.1295.0 Safari/537.15'
     result: { browser: { name: 'NetFront NX', family: { name: Chrome, version: 24 }, version: '3.0', type: browser }, engine: { name: Webkit, version: '537.15' }, device: { type: desktop } }
+    readable: 'NetFront NX 3.0'
 -
     headers: 'User-Agent: NX/2.1'
     result: { browser: { name: 'NetFront NX', version: '2.1', type: browser }, device: { type: desktop } }
+    readable: 'NetFront NX 2.1'
 -
     headers: 'User-Agent: NX/3.0'
     result: { browser: { name: 'NetFront NX', version: '3.0', type: browser }, device: { type: desktop } }
+    readable: 'NetFront NX 3.0'

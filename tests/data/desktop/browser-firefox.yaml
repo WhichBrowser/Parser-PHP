@@ -1,189 +1,252 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (BeOS; U; Haiku BePC; xx; rv:1.8.1.25pre) Gecko/20120930 BonEcho/2.0.0.22pre'
     result: { browser: { name: Firefox, version: 2.0.0.22, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Haiku }, device: { type: desktop } }
+    readable: 'Firefox BonEcho 2.0.0.22 on Haiku'
 -
     headers: 'User-Agent: Mozilla/5.0 (ChoX11; U; RISC OS; xx; rv:1.8.1.20) Gecko/20090803 BonEcho/2.0.0.20'
     result: { browser: { name: Firefox, version: 2.0.0.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'RISC OS' }, device: { type: desktop } }
+    readable: 'Firefox BonEcho 2.0.0.20 on RISC OS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:19.0) Gecko/20121220 Firefox/19.0'
     result: { browser: { name: Firefox, version: '19.0', type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Firefox 19.0 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20130102 Firefox/20.0'
     result: { browser: { name: Firefox, version: '20.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Firefox 20.0 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; xx; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19'
     result: { browser: { name: Firefox, version: 3.0.19, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    readable: 'Firefox 3.0.19 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; xx; rv:1.8.0.12) Gecko/20070508 Firefox/1.5.0.12'
     result: { browser: { name: Firefox, version: 1.5.0.12, type: browser }, engine: { name: Gecko, version: 1.8.0 }, os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'Firefox 1.5.0.12 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; xx; rv:1.8.1.15) Gecko/20080623 Firefox/2.0.0.15'
     result: { browser: { name: Firefox, version: 2.0.0.15, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    readable: 'Firefox 2.0.0.15 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 3; xx; rv:1.8.1.17) Gecko/20080925 Firefox/2.0.0.17'
     result: { browser: { name: Firefox, version: 2.0.0.17, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '3', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 2.0.0.17 on OS/2 Warp 3'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.7.12) Gecko/20050922 Firefox/1.0.7'
     result: { browser: { name: Firefox, version: 1.0.7, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 1.0.7 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; xx; rv:1.8.1.11) Gecko/20071209 Firefox/2.0.0.11'
     result: { browser: { name: Firefox, version: 2.0.0.11, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 2.0.0.11 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.9) Gecko/20100101 Firefox/10.0.9'
     result: { browser: { name: Firefox, version: 10.0.9, type: browser }, engine: { name: Gecko, version: 10.0.9 }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 10.0.9 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:17.0) Gecko/20100101 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0'
     result: { browser: { name: Firefox, version: '31.0', type: browser }, engine: { name: Gecko, version: '31.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 31.0 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:6.0) Gecko/20100101 Firefox/6.0'
     result: { browser: { name: Firefox, version: '6.0', type: browser }, engine: { name: Gecko, version: '6.0' }, os: { name: OS/2, version: { value: '4.5', nickname: Warp } }, device: { type: desktop } }
+    readable: 'Firefox 6.0 on OS/2 Warp 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Photon; U; QNX x86pc; xx; rv:1.8.1.20) Gecko/-0000001 BonEcho/2.0.0.20'
     result: { browser: { name: Firefox, version: 2.0.0.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: QNX }, device: { type: mobile, subtype: feature } }
+    readable: 'Firefox BonEcho 2.0.0.20 on QNX'
 -
     headers: 'User-Agent: Mozilla/5.0 (Photon; U; QNX x86pc; xx; rv:1.8.1.5pre) Gecko/20070709 BonEcho/2.0.0.5pre'
     result: { browser: { name: Firefox, version: 2.0.0.5, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: QNX }, device: { type: mobile, subtype: feature } }
+    readable: 'Firefox BonEcho 2.0.0.5 on QNX'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 4.0; rv:35.0) Gecko/20100101 Firefox/35.0'
     result: { browser: { name: Firefox, version: '35.0', type: browser }, engine: { name: Gecko, version: '35.0' }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
+    readable: 'Firefox 35.0 on Windows NT 4.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20120329 Firefox/13.0a2'
     result: { browser: { name: Firefox, version: 13.0a2, type: browser }, engine: { name: Gecko, version: '13.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Firefox Aurora 13.0a2 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:19.0) Gecko/19.0 Firefox/19.0'
     result: { browser: { name: Firefox, version: '19.0', type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Firefox 19.0 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:2.0b6) Gecko/20100101 Firefox/4.0b6'
     result: { browser: { name: Firefox, version: 4.0b6, type: browser }, engine: { name: Gecko, version: 2.0b6 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Firefox Beta 4.0b6 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.2; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0'
     result: { browser: { name: Firefox, version: '15.0', type: browser }, engine: { name: Gecko, version: '15.0' }, os: { name: Windows, version: { value: '5.2', alias: 'Server 2003' } }, device: { type: desktop } }
+    readable: 'Firefox 15.0 on Windows Server 2003'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:21.0) Gecko/20130113 Firefox/21.0'
     result: { browser: { name: Firefox, version: '21.0', type: browser }, engine: { name: Gecko, version: '21.0' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    readable: 'Firefox 21.0 on Windows Vista'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:3.0) Gecko/20100101 Firefox/3.0'
     result: { browser: { name: Firefox, version: '3.0', type: browser }, engine: { name: Gecko, version: '3.0' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    readable: 'Firefox 3.0 on Windows Vista'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:5.0) Gecko/20100101 Firefox/5.0'
     result: { browser: { name: Firefox, version: '5.0', type: browser }, engine: { name: Gecko, version: '5.0' }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    readable: 'Firefox 5.0 on Windows Vista'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20130627 Firefox/25.0'
     result: { browser: { name: Firefox, version: '25.0', type: browser }, engine: { name: Gecko, version: '25.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firefox 25.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/16.0 Firefox/16.0'
     result: { browser: { name: Firefox, version: '16.0', type: browser }, engine: { name: Gecko, version: '16.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firefox 16.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0) Gecko/20110814 Firefox/7.0'
     result: { browser: { name: Firefox, version: '7.0', type: browser }, engine: { name: Gecko, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firefox 7.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:20.0) Gecko/20130129 Firefox/20.0'
     result: { browser: { name: Firefox, version: '20.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    readable: 'Firefox 20.0 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Win95; xx; rv:1.7.13) Gecko/20060410 Firefox/1.0.8'
     result: { browser: { name: Firefox, version: 1.0.8, type: browser }, engine: { name: Gecko, version: 1.7.13 }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+    readable: 'Firefox 1.0.8 on Windows 95'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Win98; xx; rv:1.7.12) Gecko/20050915 Firefox/1.0.7'
     result: { browser: { name: Firefox, version: 1.0.7, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
+    readable: 'Firefox 1.0.7 on Windows 98'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; WinNT4.0; xx; rv:1.8.1) Gecko/20061010 Firefox/2.0'
     result: { browser: { name: Firefox, version: '2.0', type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
+    readable: 'Firefox 2.0 on Windows NT 4.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx; rv:1.9.1.5pre) Gecko/20091017 Shiretoko/3.5.5pre'
     result: { browser: { name: Firefox, version: 3.5.5, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Firefox Shiretoko 3.5.5 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12'
     result: { browser: { name: Firefox, version: 3.0.12, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    readable: 'Firefox 3.0.12 on Windows Vista'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
     result: { browser: { name: Firebird, family: { name: Firefox, version: 0.6.1 }, version: 0.6.1, type: browser }, engine: { name: Gecko, version: 1.5a }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firebird 0.6.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx; rv:1.8.1.22pre) Gecko/20090330 BonEcho/2.0.0.22pre'
     result: { browser: { name: Firefox, version: 2.0.0.22, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firefox BonEcho 2.0.0.22 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; xx; rv:1.9.3a4pre) Gecko/20100405 Minefield/3.7a4pre'
     result: { browser: { name: Firefox, version: 3.7a4, type: browser }, engine: { name: Gecko, version: 1.9.3a4pre }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Firefox Minefield 3.7a4 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; xx; rv:1.5) Gecko/20031006 Firebird/0.7'
     result: { browser: { name: Firebird, family: { name: Firefox, version: '0.7' }, version: '0.7', type: browser }, engine: { name: Gecko, version: '1.5' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    readable: 'Firebird 0.7 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0'
     result: { browser: { name: Firefox, version: '41.0', type: browser }, engine: { name: Gecko, version: '41.0' }, os: { name: Fedora }, device: { type: desktop } }
+    readable: 'Firefox 41.0 on Fedora'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:17.0) Gecko/201071 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on FreeBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:27.0) Gecko/20100101 Firefox/27.0'
     result: { browser: { name: Firefox, version: '27.0', type: browser }, engine: { name: Gecko, version: '27.0' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Firefox 27.0 on FreeBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) Gecko/20100101 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:20.0) Gecko/20130117 Firefox/20.0 Aurora/20.0a2'
     result: { browser: { name: Firefox, version: 20.0a2, type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Aurora 20.0a2 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20130614 Firefox/24.0'
     result: { browser: { name: Firefox, version: '24.0', type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox 24.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20130717 Firefox/24.0 Aurora/24.0a2'
     result: { browser: { name: Firefox, version: 24.0a2, type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Aurora 24.0a2 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Aurora/27.0a2'
     result: { browser: { name: Firefox, version: 27.0a2, type: browser }, engine: { name: Gecko, version: '27.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Aurora 27.0a2 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:8.0) Gecko/20111218 Firefox/8.0'
     result: { browser: { name: Firefox, version: '8.0', type: browser }, engine: { name: Gecko, version: '8.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox 8.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:12.0) Gecko/20100101 Firefox/12.0'
     result: { browser: { name: Firefox, version: '12.0', type: browser }, engine: { name: Gecko, version: '12.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Firefox 12.0 on OpenBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386; rv:25.0) Gecko/20100101 Firefox/25.0'
     result: { browser: { name: Firefox, version: '25.0', type: browser }, engine: { name: Gecko, version: '25.0' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Firefox 25.0 on OpenBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; OpenBSD i386; rv:8.0.1) Gecko/20100101 Firefox/8.0.1'
     result: { browser: { name: Firefox, version: 8.0.1, type: browser }, engine: { name: Gecko, version: 8.0.1 }, os: { name: OpenBSD, family: BSD }, device: { type: desktop } }
+    readable: 'Firefox 8.0.1 on OpenBSD'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Scientific Linux x86_64; rv:17.0) Red Hat/6.4 Gecko/20130917 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: 'Red Hat' }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on Red Hat'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS i86pc; rv:2.0) Gecko/20100101 Firefox/4.0'
     result: { browser: { name: Firefox, version: '4.0', type: browser }, engine: { name: Gecko, version: '2.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'Firefox 4.0 on Solaris'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS sun4u; rv:17.0) Gecko/17.0 Firefox/17.0'
     result: { browser: { name: Firefox, version: '17.0', type: browser }, engine: { name: Gecko, version: '17.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'Firefox 17.0 on Solaris'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.8.1.18) Gecko/20110906 BonEcho/2.0.0.18'
     result: { browser: { name: Firefox, version: 2.0.0.18, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox BonEcho 2.0.0.18 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.1.7) Gecko/20100303 Shiretoko/3.5.7'
     result: { browser: { name: Firefox, version: 3.5.7, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Shiretoko 3.5.7 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.1.9) Gecko/20100330 Fedora/3.5.9-2.fc12 Firefox/3.5.9'
     result: { browser: { name: Firefox, version: 3.5.9, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Fedora, version: '12' }, device: { type: desktop } }
+    readable: 'Firefox 3.5.9 on Fedora 12'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9b3pre) Gecko/2008020404 Minefield/3.0b3pre'
     result: { browser: { name: Firefox, version: 3.0b3, type: browser }, engine: { name: Gecko, version: 1.9b3pre }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Minefield 3.0b3 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; OpenVMS HP_rx2660__(1.42GHz/6.0MB); xx; rv:1.8.1.18) Gecko/20081201 BonEcho/2.0.0.18'
     result: { browser: { name: Firefox, version: 2.0.0.18, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: OpenVMS }, device: { type: desktop } }
+    readable: 'Firefox BonEcho 2.0.0.18 on OpenVMS'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; QNX x86pc; xx; rv:1.9.2.15) Gecko/20110316 Namoroka/3.6.15'
     result: { browser: { name: Firefox, version: 3.6.15, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: QNX }, device: { type: mobile, subtype: feature } }
+    readable: 'Firefox Namoroka 3.6.15 on QNX'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20120426 Firefox/15.0a1'
     result: { browser: { name: Firefox, version: 15.0a1, type: browser }, engine: { name: Gecko, version: '15.0' }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'Firefox Aurora 15.0a1 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
     result: { browser: { name: Firefox, version: '37.0', type: browser }, engine: { name: Gecko, version: '37.0' }, os: { name: Ubuntu }, device: { type: desktop } }
+    readable: 'Firefox 37.0 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.3) Gecko/2008100314 GranParadiso/3.0.3'
     result: { browser: { name: Firefox, version: 3.0.3, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Firefox Gran Paradiso 3.0.3 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0 Slackware/14.1'
     result: { browser: { name: Firefox, version: '33.0', type: browser }, engine: { name: Gecko, version: '33.0' }, os: { name: Slackware, version: '14.1' }, device: { type: desktop } }
+    readable: 'Firefox 33.0 on Slackware 14.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021029 Phoenix/0.4'
     result: { browser: { name: Phoenix, version: '0.4', type: browser }, engine: { name: Gecko, version: 1.2b }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Phoenix 0.4 on Linux'

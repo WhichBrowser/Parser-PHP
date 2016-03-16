@@ -1,6 +1,8 @@
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; Opera TV Store/5581) Presto/2.12.362 Version/12.11  Blu-ray Player/v00.17 (Pioneer, BDP-160, wired)'
     result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.362 }, device: { type: television, manufacturer: Pioneer, model: BDP-160, series: 'Blu-ray Player' } }
+    readable: 'Opera Devices 3.4 on a Pioneer BDP-160 Blu-ray Player'
 -
     headers: 'User-Agent: Mozilla/4.08 (Standard; NF32SW/2.0) NetFront/3.2 InettvBrowser/1.0(00E036;BD-V3;02;00)'
     result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: television, manufacturer: Pioneer, series: 'Smart TV' } }
+    readable: 'NetFront 3.2 on a Pioneer Smart TV'

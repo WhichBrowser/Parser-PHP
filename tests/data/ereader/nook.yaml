@@ -1,24 +1,32 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1; en-us; NOOK BNRV300 Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK Color' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK Color running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1; en-us; NOOK BNRV350 Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '530.17' }, os: { name: Android, version: '2.1' }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK Simple Touch' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK Simple Touch running Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.1 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK Color' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK Color running Android 2.2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; NOOK BNTV250 Build/GINGERBREAD 1.4.3) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK Tablet' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK Tablet running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; NOOK BNTV250A Build/GINGERBREAD 1.4.3) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK Tablet' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK Tablet running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; BNTV400 Build/IMM76L) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '537.16' }, os: { name: Android, version: 4.0.4 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK HD Tablet' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK HD Tablet running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; NOOK BNTV400 Build/ICS) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: 'NOOK HD Tablet' } }
+    readable: 'Android Browser on a Barnes & Noble NOOK HD Tablet running Android 4.0.4'
 -
     headers: 'User-Agent: nook browser/1.0'
     result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: ereader, manufacturer: 'Barnes & Noble', model: NOOK } }
+    readable: 'Android Browser on a Barnes & Noble NOOK running Android'

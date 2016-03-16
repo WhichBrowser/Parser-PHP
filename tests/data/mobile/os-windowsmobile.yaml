@@ -1,531 +1,708 @@
 -
     headers: 'User-Agent: Bird_T900/1.0 WindowsMobile/6.5 Release/12.1.2010 Browser/IE6 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Bird, model: T900 } }
+    readable: 'Mobile Internet Explorer 6 on a Bird T900 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: CoolPadF800/CMCC WindowsCEOS/6.0/(2009.10.30)10.01.F800/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Coolpad, model: F800 } }
+    readable: 'a Coolpad F800 running Windows Mobile'
 -
     headers: 'User-Agent: HD2_T8585 Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'HD mini' } }
+    readable: 'Opera Mobile 9.7 on a HTC HD mini running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'UC Browser 7.8 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T9193 Opera/9.7 (Windows NT 5.1; U; xx) V1.49.841.1 (71528)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_P3700 Opera/9.50 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch Diamond running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_3G Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 3G' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch 3G running Windows Mobile 6.1'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88'
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'UC Browser 7.7 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Opera/9.50 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Opera Mobile 9.7 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_HD_T8282'
     result: { os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch HD' } }
+    readable: 'a HTC Touch HD running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_HD_T8282 Opera/9.50 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch HD' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch HD running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Pro2_T7373 Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Opera Mobile 9.7 on a HTC Touch Pro 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN II running Windows Mobile'
 -
     headers: 'User-Agent: HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
+    readable: 'UC Browser 7.8 on a HTC TyTN II running Windows Mobile'
 -
     headers: 'User-Agent: LG-GW825/V10c IEMobile/8.12 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'IQ GW825' } }
+    readable: 'UC Browser 7.8 on a LG IQ GW825 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.0)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) DopodD810'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: D810 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Dopod D810 running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) acer_E100'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'beTouch E100' } }
+    readable: 'Mobile Internet Explorer 6.0 on an Acer beTouch E100 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) acer_F900'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'Tempo F900' } }
+    readable: 'Mobile Internet Explorer 6.0 on an Acer Tempo F900 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]'
     result: { browser: { name: 'Opera Mobile', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
+    readable: 'Opera Mobile on a Sharp WILLCOM 03 WS020SH running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; KDDI-TS01; Windows Phone 6.5.3.5)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: IS02, carrier: au } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba IS02 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; xx) Presto/2.4.13 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.13 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/5.0 (MOT-A3300c/A3300c_03.08; U; Windows Mobile/6.1; Profile/MIDP-2.0 Configuration/CLDC-1.1; 240*400; CTC/2.0) IE/MSIE 6.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: A3300c } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola A3300c running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1938; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 9.5 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.5 (Windows NT 5.1; U; xx) SAMSUNG-GT-i8000'
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Opera Mobile 9.5 on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; xx) Presto/2.2.1'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 9.7 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.70 (Windows NT 5.1; U; xx) TMO-US_LEO'
     result: { browser: { name: Opera, version: '9.70', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Opera 9.70 on Windows XP'
 -
     headers: 'User-Agent: Opera/9.80 (Windows Mobile; Opera Mini/5.1.21561/31.1386; U; xx) Presto/2.8.119 Version/11.10'
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mini 5.1 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50255; U; xx) Presto/2.4.13 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.13 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.80 (Windows Mobile; Windows CE; Opera Mobi/KEN-85228; U; xx) Presto/2.4.13 Version/10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto, version: 2.4.13 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: PPC; 240x320; HTC_Mega-T3333-Orange; OpVer 113.128.2.733 Opera/9.50 (Microsoft Windows 6.5; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch 2 running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-B7350/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'B7350 OmniaPRO 4' } }
+    readable: 'UC Browser 8.2 on a Samsung B7350 OmniaPRO 4 running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; xx) Opera 9.5'
     result: { browser: { name: 'Opera Mobile', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Opera Mobile on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'UC Browser 7.8 on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'UC Browser 8.2 on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i900 Omnia' } }
+    readable: 'UC Browser 7.8 on a Samsung i900 Omnia running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-SGH-i900/1.0 Opera 9.5'
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i900 Omnia' } }
+    readable: 'Opera Mobile 9.5 on a Samsung i900 Omnia running Windows Mobile'
 -
     headers: 'User-Agent: SonyEricssonM1i/R1BA Browser/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Aspen } }
+    readable: 'UC Browser 8.2 on a Sony Ericsson Aspen running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_HD2/3.14.162.5 (04666) Opera/9.7 (Windows NT 5.1; U; xx)'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: Windows CE; CE; IEMobile 8.12'
     result: { os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
+    readable: 'Windows Mobile 6.5'
 -
     headers: 'User-Agent: dopodT5388/1.0 WindowsMobile/6.1 CEOS/5.2 release/1.6 Opera/9.5 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: T5388 } }
+    readable: 'UC Browser 8.2 on a Dopod T5388 running Windows Mobile 6.1'
 -
     headers: 'User-Agent: dopodT8588/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 Opera/9.7 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1 4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/800'
     result: { browser: { name: 'UC Browser', version: '8.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: T8588 } }
+    readable: 'UC Browser 8.2 on a Dopod T8588 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'HD mini' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC HD mini running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC HD2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC HD2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'HTC_P3650 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Cruise' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Cruise running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'HTC_P3700 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'HTC_P4550/TYTN_II Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'TyTN II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC TyTN II running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'HTC_Touch_Diamond2_T5360 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'HTC_Touch_Pro2_T7373 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Pro 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'K-Touch_W366_CUCC/1.0 WindowsMobileOS/6.5 Release/30.10.2009 Browser/MSIE-6.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: K-Touch, model: W366 } }
+    readable: 'Mobile Internet Explorer 6.0 on a K-Touch W366 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) PPC; 240x320; HTC_Touch_Viva_T2223; OpVer 86.157.15.753', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Viva' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Viva running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Sprint:PPC6800', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Sprint, model: PPC6800 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sprint PPC6800 running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) HPiPAQ610/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x320)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ 610' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HP iPAQ 610 running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175.1; Windows Mobile 6.5 Standard;', UA-OS: 'Windows CE (Smartphone) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Verizon, model: 'Ozone XV6175' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Verizon Ozone XV6175 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 480x800 SAMSUNG SCH-i920 PPC', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i920 Omnia II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i920 Omnia II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) H-21', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Opticom, model: H-21 } }
+    readable: 'Mobile Internet Explorer 6.0 on an Opticom H-21 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) HTC_Touch_Pro2_T7379', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Pro 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) LG-GW550 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1', UA-OS: 'Windows CE (Smartphone) - Version 5.2' }
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: GW550 } }
+    readable: 'Obigo WAP 2.0 on a LG GW550 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) PPC; 240x320; HTC_Mega-T3333-Orange; OpVer 113.128.10.702', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) SAMSUNG-GT-i8000V/BUII1', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung I8000 Omnia II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) T-Mobile_LEO', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: Leo } }
+    readable: 'Mobile Internet Explorer 6.0 on a T-Mobile Leo running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) acer_S200', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Acer, model: 'neoTouch S200' } }
+    readable: 'Mobile Internet Explorer 6.0 on an Acer neoTouch S200 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)  480x800 LGE VS750', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Fathom VS750' } }
+    readable: 'Mobile Internet Explorer 6.0 on a LG Fathom VS750 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) Motorola_ES405B_312', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ES405 Enterprise Smartphone' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola ES405 Enterprise Smartphone running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) Motorola_MC659B_44000', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MC65 Wireless Rugged Mobile Computer' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola MC65 Wireless Rugged Mobile Computer running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HD2_T8585; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC HD2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC HD2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Pro2_T7373; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Pro 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Motorola_ES405B_312; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ES405 Enterprise Smartphone' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola ES405 Enterprise Smartphone running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Motorola_ES405B_44.000; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'ES405 Enterprise Smartphone' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola ES405 Enterprise Smartphone running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Motorola_MC659B_21103; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MC65 Wireless Rugged Mobile Computer' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola MC65 Wireless Rugged Mobile Computer running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Motorola_MC659B_40211; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MC65 Wireless Rugged Mobile Computer' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola MC65 Wireless Rugged Mobile Computer running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SonyEricssonX2/R3AA; Profile/MIDP-2.1; Configuration/CLDC-1.1; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sony Ericsson Xperia X2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; T-Mobile_LEO; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: Leo } }
+    readable: 'Mobile Internet Explorer 6.0 on a T-Mobile Leo running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Toshiba/TG01/02; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: TG01 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba TG01 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5.3.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; XV6975)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Verizon, model: 'Imagio XV6975' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Verizon Imagio XV6975 running Windows Mobile'
 -
     headers: { User-Agent: 'Mozilla/4.0 LG-GM750Q Browser/IE8.12 MMS/LGMMSv1.0/1.2 Java/LGVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Layla GM750' } }
+    readable: 'Mobile Internet Explorer 6.0 on a LG Layla GM750 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung I8000 Omnia II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung I8000 Omnia II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-GT-i8000Orange/BVIJ1 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung I8000 Omnia II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-SCH-M715/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'M715 T*OMNIA II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung M715 T*OMNIA II running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-I637/UCIG1 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)', UA-OS: 'Windows CE (Smartphone) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i637 Jack' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i637 Jack running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i780/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i780 Mirage' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i780 Mirage running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i780/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i780 Mirage' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i780 Mirage running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i900 Omnia' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i900 Omnia running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'SonyEricssonM1i/R1BA Browser/Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) Profile/MIDP-2.1 Configuration/CLDC-1.1', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: Aspen } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sony Ericsson Aspen running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'SonyEricssonX2/R3AA Browser/Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) Profile/MIDP-2.1 Configuration/CLDC-1.1', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sony Ericsson Xperia X2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Vodafone/1.0/SAMSUNG-GT-B7610/NBUIK3 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'B7610 OmniaPRO' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung B7610 OmniaPRO running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Vodafone/1.0/SEX1i/R2AA Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) UP.Link/6.3.1.20.0 Profile/MIDP-2.0 Configuration/CLDC-1.1', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia X1' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sony Ericsson Xperia X1 running Windows Mobile 6.1'
 -
     headers: { User-Agent: 'dopodT8388/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 IE/6.0 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)', UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Dopod, model: T8388 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Dopod T8388 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Sprint T7380', UA-color: color16, UA-OS: 'Windows CE (Pocket PC) - Version 5.2' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Pro 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/32.1214; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: Motorola, X-OperaMini-Phone: 'Motorola # A1000', X-OperaMini-Phone-UA: Motorola, X-OperaMini-Features: 'httpping, advanced, download, file_system' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: A1000 } }
+    readable: 'Opera Mini 5.1 on a Motorola A1000 running Windows Mobile'
 -
     headers: { User-Agent: 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/34.1606; U; xx) Presto/2.8.119 Version/11.10', Device-Stock-UA: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)', X-OperaMini-Phone: 'HTC # HD2', X-OperaMini-Phone-UA: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)', X-OperaMini-Features: 'httpping, advanced, routing, file_system, download' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mini 5.1 on a HTC HD2 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Motorola_MC659B_41400; Windows Phone 6.5.3.5)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MC65 Wireless Rugged Mobile Computer' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Motorola MC65 Wireless Rugged Mobile Computer running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch 2 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; KDDI-TS01; Windows Phone 6.5.3.5)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: IS02, carrier: au } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba IS02 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Toshiba-TG01-orange/ 02; Windows Phone 6.5)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: TG01 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba TG01 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S12HT'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER lite S12HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Smartphone; 240x320; SPV E650; OpVer 22.114.2.733'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV E650' } }
+    readable: 'Mobile Internet Explorer 6.0 on an Orange SPV E650 running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) HTCS620;Smartphone;320x240'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'S620 Excalibur' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S620 Excalibur running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320X320 Palm Treo850e'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo Pro' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Palm Treo Pro running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175; Window Mobile 6.1 Standard;'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: Verizon, model: 'Ozone XV6175' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Verizon Ozone XV6175 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5) 480x800 LGE VS750'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Fathom VS750' } }
+    readable: 'Mobile Internet Explorer 6.0 on a LG Fathom VS750 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Xda_diamond/480x640 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
+    readable: 'Mobile Internet Explorer 6.0 on an O2 XDA Diamond running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Xda_diamond Opera/9.50 (Windows NT 5.1; U; de)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
+    readable: 'Opera Mobile 9.50 on an O2 XDA Diamond running Windows Mobile'
 -
     headers: 'User-Agent: Xda_nova; 240x320 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Nova' } }
+    readable: 'Mobile Internet Explorer 6.0 on an O2 XDA Nova running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Vodafone/1.0/v1640/1.13.180 GER/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA IV' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Vodafone VPA IV running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/v1240/2.5.484.0/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VDA II' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Vodafone VDA II running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_wizard/2.21.3.102/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Wizard } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC Wizard running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_VPACompactIV/1.9.162.1/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Vodafone, model: 'VPA Compact IV' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Vodafone VPA Compact IV running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_Mercury/1.20.162.3/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_Diamond Opera/9.50 (Windows NT 5.1; U; de)'
     result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+    readable: 'Opera Mobile 9.50 on a HTC Touch Diamond running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i617 BlackJack II' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Samsung i617 BlackJack II running Windows Mobile 6.1'
 -
     headers: 'User-Agent: SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i607 BlackJack' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Samsung i607 BlackJack running Windows Mobile'
 -
     headers: 'User-Agent: Palm750/v0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Palm Treo 750 running Windows Mobile'
 -
     headers: 'User-Agent: Palm750/v0004 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo 750' } }
+    readable: 'Mobile Internet Explorer 6.0 on a Palm Treo 750 running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) HTC/X03HT'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S730 X03HT, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S730 X03HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) HTC/X02HT'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S630 X02HT, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S630 X02HT running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; HTC/X01HT; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN X01HT, carrier: Softbank } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN X01HT running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Toshiba/X01T)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: G900 X01T, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba G900 X01T running Windows Mobile'
 -
     headers: 'User-Agent: ASUS-GalaxyII/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; ASUS-GalaxyII)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy II' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an Asus Galaxy II running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; WMPRO1.0) NetFront/4.0'
     result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    readable: 'NetFront 4.0 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate JAMin PPC; 240x320; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMin } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an i-mate JAMin running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate JASJAM PPC; 240x320)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JASJAM } }
+    readable: 'UC Browser 7.8 on an i-mate JASJAM running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate K-JAM PPC; 240x320)/UC Browser7.2.2.51'
     result: { browser: { name: 'UC Browser', version: '7.2', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: K-JAM } }
+    readable: 'UC Browser 7.2 on an i-mate K-JAM running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; O2 Xda 2s;PPC;240x320; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA IIs' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an O2 XDA IIs running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate 6150/ 480x640)/UCWEB7.0.0.41/31/352'
     result: { browser: { name: 'UC Browser', version: '7.0', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: 'Ultimate 6150' } }
+    readable: 'UC Browser 7.0 on an i-mate Ultimate 6150 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate 8502; 240x320)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: 'Ultimate 8502' } }
+    readable: 'UC Browser 7.8 on an i-mate Ultimate 8502 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAMA; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMA } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an i-mate JAMA running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAMAQ; 240x320)/UC Browser7.8.0.95'
     result: { browser: { name: 'UC Browser', version: '7.8', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAMAQ } }
+    readable: 'UC Browser 7.8 on an i-mate JAMAQ running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAQ3; 240x320; PPC)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAQ3 } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an i-mate JAQ3 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate JAQ; 240x320)/UC Browser7.7.1.88'
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: JAQ } }
+    readable: 'UC Browser 7.7 on an i-mate JAQ running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC i-mate PDAL; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: i-mate, model: PDAL } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an i-mate PDAL running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; HPiPAQrw6800/1.0; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ rw6800' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HP iPAQ rw6800 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; Sprint:PPC-6700; PPC; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sprint, model: PPC6700 } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Sprint PPC6700 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M2000; OpVer 5.12.2.131)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M2000' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an Orange SPV M2000 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M3100; OpVer 14.123.1.614)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an Orange SPV M3100 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M3100; OpVer 14.123.5.721)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M3100' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an Orange SPV M3100 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV M700' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an Orange SPV M700 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact II/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact II' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Compact II running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Compact/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Compact running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Compact running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA compact/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Compact' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Compact running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA III/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA III' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA III running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Pro running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Pro' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Pro running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Vario running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/1.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Vario running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Vario/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a T-Mobile MDA Vario running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda neo; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Neo' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an O2 XDA Neo running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda orbit; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Orbit' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an O2 XDA Orbit running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda trion; 240x320)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Trion' } }
+    readable: 'Pocket Internet Explorer 4.0.1 on an O2 XDA Trion running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Datalogic Memor; 240x320)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Datalogic, model: Memor } }
+    readable: 'Mobile Internet Explorer 6.0 on a Datalogic Memor running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Sprint:PPC-6700) [en]'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sprint, model: PPC6700 } }
+    readable: 'Mobile Internet Explorer 6.0 on a Sprint PPC6700 running Windows Mobile'
 -
     headers: 'User-Agent: HTCS621-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature, manufacturer: HTC, model: S621 } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC S621 running Windows CE'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Trinity running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; MDA Vario/1.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: T-Mobile, model: 'MDA Vario' } }
+    readable: 'Mobile Internet Explorer 6.0 on a T-Mobile MDA Vario running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) SP; 240x320; HTC_S710/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'S710 Vox' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S710 Vox running Windows Mobile 6.0'
 -
     headers: 'User-Agent: LG-GT500s_TD/1.0 WinMobile/6.5 Release/1.21.2010 Browser/Polaris6.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'GT500 Puccini' } }
+    readable: 'a LG GT500 Puccini running Windows Mobile 6.5'

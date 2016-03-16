@@ -1,6 +1,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) QtMiniBrowser/0.1 Safari/538.1'
     result: { browser: { name: QtMiniBrowser, version: '0.1', type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'QtMiniBrowser 0.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/0.9.0 Chrome/33.0.1750.149 Safari/537.36'
     result: { browser: { using: Qt, family: { name: Chrome, version: 33 }, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Qt on Linux'

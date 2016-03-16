@@ -1,12 +1,16 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; en-us; EBRD1101; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { engine: { name: Webkit, version: '533.1' }, device: { type: ereader, manufacturer: Sony, model: PRS-T1, series: Reader } }
+    readable: 'a Sony PRS-T1 Reader'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; en-us; EBRD1201; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { engine: { name: Webkit, version: '533.1' }, device: { type: ereader, manufacturer: Sony, model: PRS-T2, series: Reader } }
+    readable: 'a Sony PRS-T2 Reader'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; en-us; EBRD1301; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { engine: { name: Webkit, version: '533.1' }, device: { type: ereader, manufacturer: Sony, model: PRS-T3, series: Reader } }
+    readable: 'a Sony PRS-T3 Reader'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; ja-jp; EBRD1102; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { engine: { name: Webkit, version: '533.1' }, device: { type: ereader, manufacturer: Sony, model: PRS-G1, series: Reader } }
+    readable: 'a Sony PRS-G1 Reader'

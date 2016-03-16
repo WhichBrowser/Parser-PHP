@@ -1,30 +1,40 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.1-update1; en_in) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.2.0 Safari/533.1'
     result: { browser: { name: NineSky, version: 2.2.0, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.1' }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.2.0 on Android 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; en_ca) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.1.0 Safari/533.1'
     result: { browser: { name: NineSky, version: 2.1.0, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.1.0 on Android 2.3.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 3.1; es_us) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1'
     result: { browser: { name: NineSky, version: 2.0.0, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '3.1' }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.0.0 on Android 3.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh_cn) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile-cn/1.9.3 Safari/533.1'
     result: { browser: { name: NineSky, version: 1.9.3, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 1.9.3 on Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; en_us) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Ninesky-android-mobile/2.0.1 Safari/535.1'
     result: { browser: { name: NineSky, version: 2.0.1, type: browser }, engine: { name: Webkit, version: '535.1' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.0.1 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; en_us) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Ninesky/1.8.0 Safari/535.1'
     result: { browser: { name: NineSky, version: 1.8.0, type: browser }, engine: { name: Webkit, version: '535.1' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 1.8.0 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; en_us) Gecko/20100101 Firefox/6.0 Ninesky-android-mobile/2.0.2 Safari/535.1'
     result: { browser: { name: NineSky, version: 2.0.2, type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.0.2 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; en_us) Gecko/20100101 Firefox/6.0 Ninesky/1.8.0 Safari/535.1'
     result: { browser: { name: NineSky, version: 1.8.0, type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 1.8.0 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; pl_pl) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Ninesky-android-mobile/2.1.0'
     result: { browser: { name: NineSky, version: 2.1.0, type: browser }, engine: { name: Webkit, version: 531.21.10 }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.1.0 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; zh_cn) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Ninesky-android-mobile/2.0.0 Safari/6531.22.7'
     result: { browser: { name: NineSky, version: 2.0.0, type: browser }, engine: { name: Webkit, version: '532.9' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'NineSky 2.0.0 on Android'

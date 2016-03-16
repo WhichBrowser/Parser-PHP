@@ -1,51 +1,68 @@
 -
     headers: 'User-Agent: AppleWebKit/532.7 (KHTML, like Gecko) Chrome/4.0.271.1 Safari/532.7 TencentTraveler/5.0 QQBrowser/5.0.6642.400 (webkit)'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 4 }, version: '5.0', type: browser }, engine: { name: Webkit, version: '532.7' }, os: { name: Windows }, device: { type: desktop } }
+    readable: 'QQ Browser 5.0 on Windows'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; ; QDesk 2.3.1183.202; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0) QQBrowser/6.11.11981.201'
     result: { browser: { name: 'QQ Browser', version: '6.11', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.11 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; QQDownload 691; SV1) QQBrowser/6.11.12388.201'
     result: { browser: { name: 'QQ Browser', version: '6.11', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.11 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET4.0C; .NET4.0E; QQBrowser/7.7.25715.400)'
     result: { browser: { name: 'QQ Browser', version: '7.7', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'QQ Browser 7.7 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQBrowser/7.6.19177.400)'
     result: { browser: { name: 'QQ Browser', version: '7.6', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'QQ Browser 7.6 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; Tablet PC 2.0; .NET CLR 1.1.4322; InfoPath.3; BOIE9;ZHCN) QQBrowser/6.13.13461.201'
     result: { browser: { name: 'QQ Browser', version: '6.13', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.13 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0) QQBrowser/6.11.12388.201'
     result: { browser: { name: 'QQ Browser', version: '6.11', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.11 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; QQBrowser/7.7.28658.400)'
     result: { browser: { name: 'QQ Browser', version: '7.7', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'QQ Browser 7.7 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; QQBrowser/7.4.15649.400)'
     result: { browser: { name: 'QQ Browser', version: '7.4', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    readable: 'QQ Browser 7.4 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; QQBrowser/8.0.1374.400)'
     result: { browser: { name: 'QQ Browser', version: '8.0', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'QQ Browser 8.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 QQBrowser/3.9.3952.400'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 45 }, version: '3.9', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    readable: 'QQ Browser 3.9 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.79 QQBrowser/1.4.0.2117 Safari/535.11'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 17 }, version: '1.4', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'QQ Browser 1.4 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.87 Safari/537.36 QQBrowser/9.2.5006.400'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 45 }, version: '9.2', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'QQ Browser 9.2 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 4.0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.15 Safari/535.11 QQBrowser/6.12.12934.201'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 17 }, version: '6.12', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.12 on Windows NT 4.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 4.10) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.15 Safari/535.11 QQBrowser/6.11.12135.201'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 17 }, version: '6.11', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: Windows, version: { value: '4.1', alias: 'NT 4.1' } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.11 on Windows NT 4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1 QQBrowser/6.10.11509.201'
     result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 13 }, version: '6.10', type: browser }, engine: { name: Webkit, version: '535.1' }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    readable: 'QQ Browser 6.10 on Windows 2000'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.0; Windows NT 5.1; Trident/6.0; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET CLR 1.0.3705; .NET CLR 3.0.04320; .NET4.0E; QQBrowser/7.0.3698.400)'
     result: { browser: { name: 'QQ Browser', version: '7.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'QQ Browser 7.0 on Windows XP'

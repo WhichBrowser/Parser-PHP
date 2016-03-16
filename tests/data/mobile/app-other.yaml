@@ -1,27 +1,36 @@
 -
     headers: 'User-Agent: GoogleEarth/7.1.0002.2011(Android;Android (HTC One X-endeavoru-user-4.2.2);de-DE;kml:2.2;client:Free;type:default)'
     result: { browser: { name: 'Google Earth', version: '7.1', type: app }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+    readable: 'Google Earth 7.1 on a HTC One X running Android 4.2.2'
 -
     headers: 'User-Agent: GoogleEarth/7.1.0003.1255(Android;Android (LG-E986-geefhd-user-4.1.2);de-DE;kml:2.2;client:Free;type:default)'
     result: { browser: { name: 'Google Earth', version: '7.1', type: app }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus G Pro' } }
+    readable: 'Google Earth 7.1 on a LG Optimus G Pro running Android 4.1.2'
 -
     headers: 'User-Agent: GoogleEarth/7.1.0003.1255(Android;Android (HTC Sensation XE with Beats Audio Z715e-pyramid-user-4.0.3);de-DE;kml:2.2;client:Free;type:default)'
     result: { browser: { name: 'Google Earth', version: '7.1', type: app }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Sensation XE' } }
+    readable: 'Google Earth 7.1 on a HTC Sensation XE running Android 4.0.3'
 -
     headers: 'User-Agent: XCON Android Application (16, xcon v2.2.2) - LGE LG-E460 lge - FFFFFFFF-CD6E-390A-B636-8CB346AAE71C'
     result: { browser: { name: XCON, type: app }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L5 II' } }
+    readable: 'XCON on a LG Optimus L5 II running Android 2.2.2'
 -
     headers: 'User-Agent: XPOR Android Application (12, xpor v2.0) - motorola MB525 MOTO - FFFFFFFF-CC93-8438-FFFF-FFFFB4F77635'
     result: { browser: { name: XPOR, type: app }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY } }
+    readable: 'XPOR on a Motorola DEFY running Android 2.0'
 -
     headers: 'User-Agent: ET1 Android Application (16, et1 v2.2.2) - samsung GT-S7390 samsung - 00000000-2D69-D71B-CE09-19FA5FA5A961'
     result: { browser: { name: ET1, type: app }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Trend Lite' } }
+    readable: 'ET1 on a Samsung Galaxy Trend Lite running Android 2.2.2'
 -
     headers: 'User-Agent: PlacesDll Win32/SWchBvQ89wHhZhZGPH7ADQ:WVUjTbxpusEz-rl7htSN/3.2.315.8 (Windows Phone OS/8.0; NOKIA:Lumia 925; de-DE)'
     result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
+    readable: 'a Nokia Lumia 925 running Windows Phone 8.0'
 -
     headers: 'User-Agent: PlacesDll Win32/x4dXIL4zf4fEINN8j7e8GA:c5f40ce19e9659484ed40cba84c12227/3.5.487.8 (Windows Phone OS/8.0; NOKIA:Nokia 920T; zh-CN)'
     result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 920' } }
+    readable: 'a Nokia Lumia 920 running Windows Phone 8.0'
 -
     headers: 'User-Agent: PlacesDll Win32/x4dXIL4zf4fEINN8j7e8GA:c5f40ce19e9659484ed40cba84c12227/3.5.481.8 (Windows Phone OS/8.0; NOKIA:Lumia 1320; de-DE)'
     result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1320' } }
+    readable: 'a Nokia Lumia 1320 running Windows Phone 8.0'

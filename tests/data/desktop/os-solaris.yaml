@@ -1,57 +1,76 @@
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 4.1.4 sun4m)'
     result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: BSD, version: 1.1.2 }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0 on Solaris 1.1.2'
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 5.4 sun4m)'
     result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0 on Solaris 2.4'
 -
     headers: 'User-Agent: Mozilla/3.0 (X11; I; SunOS 5.5 sun4m)'
     result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, os: { name: Solaris, family: UNIX, version: '2.5' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0 on Solaris 2.5'
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 4.1.3 sun4c)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.1 on Solaris 1.1'
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 4.1.3-JL sun4m)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: BSD, version: '1.1' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.1 on Solaris 1.1'
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 5.4 sun4m)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: '2.4' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.1 on Solaris 2.4'
 -
     headers: 'User-Agent: Mozilla/3.01 (X11; I; SunOS 5.5.1 sun4u)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.1 on Solaris 2.5.1'
 -
     headers: 'User-Agent: Mozilla/3.01Gold (X11; I; SunOS 5.5.1 i86pc)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.1, type: browser }, os: { name: Solaris, family: UNIX, version: 2.5.1 }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.1 on Solaris 2.5.1'
 -
     headers: 'User-Agent: Mozilla/3.04 [ja_euc] (X11; I; SunOS 5.9 sun4u)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.4 on Solaris 9'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)'
     result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Trident }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
+    readable: 'Internet Explorer 5.0 on Solaris 9'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; SunOS 5.5; FDM)'
     result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Solaris, family: UNIX, version: '5' }, device: { type: desktop } }
+    readable: 'Internet Explorer 6.0 on Solaris 5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)'
     result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Trident }, os: { name: Solaris, family: UNIX, version: '10' }, device: { type: desktop } }
+    readable: 'Internet Explorer 5.0 on Solaris 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; SunOS i86pc; rv:24.0) Gecko/20100101 Firefox/24.0'
     result: { browser: { name: Firefox, version: '24.0', type: browser }, engine: { name: Gecko, version: '24.0' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'Firefox 24.0 on Solaris'
 -
     headers: 'User-Agent: Opera/9.24 (X11; SunOS i86pc; U; en)'
     result: { browser: { name: Opera, version: '9.24', type: browser }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'Opera 9.24 on Solaris'
 -
     headers: 'User-Agent: Opera/9.80 (X11; SunOS sun4u; U; xx) Presto/2.2 Version/10.11'
     result: { browser: { name: Opera, version: '10.11', type: browser }, engine: { name: Presto, version: '2.2' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'Opera 10.11 on Solaris'
 -
     headers: 'User-Agent: User-Agent: Mozilla/1.0N (X11; SunOS 4.1.1 sun4c)'
     result: { browser: { name: 'Netscape Navigator', version: '1.0', type: browser }, os: { name: Solaris, family: BSD, version: '1.0' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 1.0 on Solaris 1.0'
 -
     headers: 'User-Agent: User-Agent: Mozilla/1.1N (X11; I; SunOS 4.1.2 sun4c)'
     result: { browser: { name: 'Netscape Navigator', version: '1.1', type: browser }, os: { name: Solaris, family: BSD, version: 1.0.1 }, device: { type: desktop } }
+    readable: 'Netscape Navigator 1.1 on Solaris 1.0.1'
 -
     headers: 'User-Agent: Opera/6.12 (Solaris 9; U ) [en]'
     result: { browser: { name: Opera, version: '6.12', type: browser }, os: { name: Solaris, family: UNIX, version: '9' }, device: { type: desktop } }
+    readable: 'Opera 6.12 on Solaris 9'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Sun Solaris; xx) AppleWebKit/533.3 (KHTML, like Gecko) QupZilla/1.4.4 Safari/533.3'
     result: { browser: { name: QupZilla, version: 1.4.4, type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    readable: 'QupZilla 1.4.4 on Solaris'

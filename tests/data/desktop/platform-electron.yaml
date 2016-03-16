@@ -1,12 +1,16 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Atom/0.136.0 Chrome/37.0.2062.102 AtomShell/0.17.1 Safari/537.36'
     result: { browser: { name: Atom, using: { name: Electron, version: 0.17.1 }, family: { name: Chrome, version: 37 }, version: 0.136.0, type: 'app:editor' }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Atom 0.136.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Atom/1.2.4 Chrome/45.0.2454.85 Electron/0.34.0 Safari/537.36'
     result: { browser: { name: Atom, using: { name: Electron, version: 0.34.0 }, family: { name: Chrome, version: 45 }, version: 1.2.4, type: 'app:editor' }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Atom 1.2.4 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Atom/0.136.0 Chrome/37.0.2062.102 AtomShell/0.17.1 Safari/537.36'
     result: { browser: { name: Atom, using: { name: Electron, version: 0.17.1 }, family: { name: Chrome, version: 37 }, version: 0.136.0, type: 'app:editor' }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Atom 0.136.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) AtomShellDefaultApp/0.1.0 Chrome/37.0.2062.102 AtomShell/0.17.2 Safari/537.36'
     result: { browser: { using: { name: Electron, version: 0.17.2 }, family: { name: Chrome, version: 37 }, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'Electron 0.17.2 on Linux'

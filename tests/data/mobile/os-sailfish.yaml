@@ -1,24 +1,32 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Jolla; Sailfish; Android 4.4; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.23 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Chrome 45 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Jolla; Sailfish; Android 4.4; Tablet) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.23 Safari/537.36'
     result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Sailfish }, device: { type: tablet, manufacturer: Jolla, model: Tablet } }
+    readable: 'Chrome 45 on a Jolla Tablet running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Jolla; Sailfish; Mobile; rv:20.0) Gecko/20.0 Firefox/20.0 Sailfish Browser/1.0 Mobile'
     result: { browser: { name: 'Sailfish Browser', family: { name: Firefox, version: '20.0' }, version: '1.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Sailfish Browser 1.0 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Jolla; Sailfish; Mobile; rv:20.0) Gecko/20.0 Firefox/20.0 Sailfish Browser/1.0 like Safari/535.19'
     result: { browser: { name: 'Sailfish Browser', family: { name: Firefox, version: '20.0' }, version: '1.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Sailfish Browser 1.0 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.9 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '45', type: browser }, engine: { name: Blink }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Chrome 45 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser/1.0 like Safari/538.1'
     result: { browser: { name: 'Sailfish Browser', family: { name: Firefox, version: '26.0' }, version: '1.0', type: browser }, engine: { name: Gecko, version: '26.0' }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Sailfish Browser 1.0 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:29.0) Gecko/29.0 Firefox/29.0 SailfishBrowser/1.0'
     result: { browser: { name: 'Sailfish Browser', family: { name: Firefox, version: '29.0' }, version: '1.0', type: browser }, engine: { name: Gecko, version: '29.0' }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Sailfish Browser 1.0 on a Jolla Phone running Sailfish'
 -
     headers: 'User-Agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:31.0) Gecko/31.0 Firefox/31.0 SailfishBrowser/1.0'
     result: { browser: { name: 'Sailfish Browser', family: { name: Firefox, version: '31.0' }, version: '1.0', type: browser }, engine: { name: Gecko, version: '31.0' }, os: { name: Sailfish }, device: { type: mobile, subtype: smart, manufacturer: Jolla, model: Phone } }
+    readable: 'Sailfish Browser 1.0 on a Jolla Phone running Sailfish'

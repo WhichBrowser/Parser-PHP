@@ -1,54 +1,72 @@
 -
     headers: 'X-Wap-Profile: http://wap.samsungmobile.com/uaprof/GT-I9100.xml'
     result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    readable: 'Android Browser on a Samsung Galaxy S II running Android'
 -
     headers: 'X-Wap-Profile: http://whichbrowser.net/fake/wap/profile/to/test/unknowns.xml'
     result: {  }
+    readable: 'an unknown browser'
 -
     headers: { User-Agent: 'Alcatel_A205G-B/1.0 ObigoInternetBrowser/Q05A[TF014404009534395004115512532586563]', X-Wap-Profile: 'http://www-ccpp.tcl-ta.com/files/Alcatel_A205G-B.rdf' }
     result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: A205G-B } }
+    readable: 'Obigo Q 5A on an Alcatel A205G-B'
 -
     headers: { User-Agent: 'LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/LG-KP500.xml' }
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KP500 Cookie' } }
+    readable: 'Obigo WAP 2.0 on a LG KP500 Cookie'
 -
     headers: { User-Agent: 'MOT-EX116 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1', X-Wap-Profile: 'http://uaprof.motorola.com/phoneconfig/ex116/Profile/ex116.rdf' }
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX116 } }
+    readable: 'Obigo WAP 2.0 on a Motorola EX116'
 -
     headers: { User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile6.0) Sprint T7380', X-Wap-Profile: 'http://device.sprintpcs.com/HTC/PPCT7380SP/2046514.rdf' }
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Pro 2 running Windows Mobile 6.5'
 -
     headers: { User-Agent: 'Mozilla/5.0 (LG-C195 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/LG-C195-M3-D1.xml' }
     result: { browser: { name: Phantom, version: '2.0', type: browser }, engine: { name: Webkit, version: '531' }, device: { type: mobile, subtype: feature, manufacturer: LG, model: C195 } }
+    readable: 'Phantom 2.0 on a LG C195'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; Android 4.4.2; xx; SAMSUNG SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SM-N9005.xml' }
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
+    readable: 'Samsung Internet 1.5 on a Samsung Galaxy Note 3 running Android 4.4.2'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.0.3; xx; A500 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30', X-Wap-Profile: 'http://support.acer.com/UAprofile/Acer_A500_IML74K_Profile.xml' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Acer, model: 'Iconia Tab A500' } }
+    readable: 'Android Browser on an Acer Iconia Tab A500 running Android 4.0.3'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.0.4; xx; SonyST23i Build/11.0.A.5.8) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://uaprof.sonymobile.com/ST23iR402.xml' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Miro' } }
+    readable: 'Android Browser on a Sony Xperia Miro running Android 4.0.4'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; xx; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: '"http://wap.samsungmobile.com/uaprof/GT-I9100.xml"' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    readable: 'Android Browser on a Samsung Galaxy S II running Android 4.1.2'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; xx; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-I9100.xml' }
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+    readable: 'Android Browser on a Samsung Galaxy S II running Android 4.1.2'
 -
     headers: { User-Agent: 'Nokia208/2.0 (03.39) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Nokia208) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile', X-Wap-Profile: 'http://nds1.nds.nokia.com/uaprof/Nokia208r100.xml' }
     result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '208' } }
+    readable: 'UC Browser 9.5 on a Nokia 208 running Series40'
 -
     headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.24702/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/Vodafone550.xml' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '550' } }
+    readable: 'Opera Mini 5.1 on a Vodafone 550'
 -
     headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.25137/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/W1.xml' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: W1 } }
+    readable: 'Opera Mini 5.1 on a Vodafone W1'
 -
     headers: { User-Agent: 'SAMSUNG-GT-S5610/S5610XXLI1 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-S5610_3G.rdf' }
     result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Primo } }
+    readable: 'NetFront 4.1 on a Samsung Primo'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i900/1.0 Opera 9.5', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SGH-i900.xml' }
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Omnia } }
+    readable: 'Opera Mobile 9.5 on a Samsung Omnia running Windows Mobile'
 -
     headers: { User-Agent: 'dopodT8588/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 Opera/9.7 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1', X-Wap-Profile: 'http://www.htcmms.com.tw/gen/HTC_HD2_T8585-1.0.xml' }
     result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile 6.5'

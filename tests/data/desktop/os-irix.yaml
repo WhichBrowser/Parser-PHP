@@ -1,15 +1,20 @@
 -
     headers: 'User-Agent: Mozilla/3.04Gold (X11; U; IRIX 5.3 IP22)'
     result: { browser: { name: 'Netscape Navigator', version: 3.0.4, type: browser }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 3.0.4 on IRIX 5.3'
 -
     headers: 'User-Agent: Mozilla/4.08 [en] (X11; U; IRIX 5.3 IP5; Nav)'
     result: { browser: { name: 'Netscape Navigator', version: 4.0.8, type: browser }, os: { name: IRIX, family: UNIX, version: '5.3' }, device: { type: desktop } }
+    readable: 'Netscape Navigator 4.0.8 on IRIX 5.3'
 -
     headers: 'User-Agent: Mozilla/4.76C-SGI [ru] (X11; I; IRIX64 6.5 IP30)'
     result: { browser: { name: 'Netscape Communicator', version: 4.7.6, type: browser }, os: { name: IRIX, family: UNIX, version: '6.5' }, device: { type: desktop } }
+    readable: 'Netscape Communicator 4.7.6 on IRIX 6.5'
 -
     headers: 'User-Agent: Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)'
     result: { browser: { name: 'Netscape Communicator', version: 4.7.7, type: browser }, os: { name: IRIX, family: UNIX, version: '6.5' }, device: { type: desktop } }
+    readable: 'Netscape Communicator 4.7.7 on IRIX 6.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; IRIX IP32; xx; rv:1.9.0.19) Gecko/2013020113 Firefox/3.0.19'
     result: { browser: { name: Firefox, version: 3.0.19, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: IRIX, family: UNIX }, device: { type: desktop } }
+    readable: 'Firefox 3.0.19 on IRIX'

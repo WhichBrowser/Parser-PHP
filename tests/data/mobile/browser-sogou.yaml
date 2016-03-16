@@ -1,54 +1,72 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.5.2.0-RT-20120926.155001; xx; K-Touch W619 Build/AliyunOs-2012) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/2.1.0'
     result: { browser: { name: 'Sogou Mobile', version: '2.1', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: 'Aliyun OS', family: Android, version: 1.5.2 }, device: { type: mobile, subtype: smart, manufacturer: K-Touch, model: W619 } }
+    readable: 'Sogou Mobile 2.1 on a K-Touch W619 running Aliyun OS 1.5.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; xx; HTC Incredible S Build/GRJ90) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.1.2'
     result: { browser: { name: 'Sogou Mobile', version: '3.1', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Incredible S' } }
+    readable: 'Sogou Mobile 3.1 on a HTC Incredible S running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFTT Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/2.6.3'
     result: { browser: { name: 'Sogou Mobile', version: '2.6', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
+    readable: 'Sogou Mobile 2.6 on an Amazon Kindle Fire HD running FireOS 2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; Lenovo A390t Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.5.1'
     result: { browser: { name: 'Sogou Mobile', version: '3.5', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A390 } }
+    readable: 'Sogou Mobile 3.5 on a Lenovo A390 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.1; xx; MI 2C Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/2.2.1'
     result: { browser: { name: 'Sogou Mobile', version: '2.2', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 2' } }
+    readable: 'Sogou Mobile 2.2 on a Xiaomi Mi 2 running Android 4.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; xx; HUAWEI C8816 Build/HuaweiC8816) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.4.1'
     result: { browser: { name: 'Sogou Mobile', version: '3.4', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend C8816' } }
+    readable: 'Sogou Mobile 3.4 on a Huawei Ascend C8816 running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; xx; SM-G3588V Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.8.2'
     result: { browser: { name: 'Sogou Mobile', version: '3.8', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Lite' } }
+    readable: 'Sogou Mobile 3.8 on a Samsung Galaxy Core Lite running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; SM-A5000 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/4.1.0'
     result: { browser: { name: 'Sogou Mobile', version: '4.1', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy A5' } }
+    readable: 'Sogou Mobile 4.1 on a Samsung Galaxy A5 running Android 4.4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 5.0.2; xx; MI NOTE Pro Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.8.0'
     result: { browser: { name: 'Sogou Mobile', version: '3.8', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi Note Pro' } }
+    readable: 'Sogou Mobile 3.8 on a Xiaomi Mi Note Pro running Android 5.0.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 5.1.1; xx; H60-L01 Build/HDH60-L01) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.8.4'
     result: { browser: { name: 'Sogou Mobile', version: '3.8', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Honor 6' } }
+    readable: 'Sogou Mobile 3.8 on a Huawei Honor 6 running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A403 SogouAndroidBrowser/2.6.1'
     result: { browser: { name: 'Sogou Mobile', version: 2.6.1, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'Sogou Mobile 2.6.1 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A403 SogouAndroidBrowser/2.6.3'
     result: { browser: { name: 'Sogou Mobile', version: 2.6.3, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'Sogou Mobile 2.6.3 on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 SogouMobileBrowser/2.0.1'
     result: { browser: { name: 'Sogou Mobile', version: '2.0', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: 6.1.4 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 2.0 on an Apple iPhone running iOS 6.1.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a SogouMobileBrowser/3.1.2'
     result: { browser: { name: 'Sogou Mobile', version: '3.1', type: browser }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: 7.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 3.1 on an Apple iPhone running iOS 7.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 SogouMobileBrowser/3.9.2'
     result: { browser: { name: 'Sogou Mobile', version: '3.9', type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: '8.4' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 3.9 on an Apple iPhone running iOS 8.4'
 -
     headers: 'User-Agent: SogouMobileBrowser/1.0.110 Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A405'
     result: { browser: { name: 'Sogou Mobile', version: '1.0', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 1.0 on an Apple iPhone running iOS 6.0'
 -
     headers: 'User-Agent: SogouMobileBrowser/1.0.164905 Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A403'
     result: { browser: { name: 'Sogou Mobile', version: '1.0', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 1.0 on an Apple iPhone running iOS 6.0'
 -
     headers: 'User-Agent: SogouMobileBrowser/1.2.1 Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B141'
     result: { browser: { name: 'Sogou Mobile', version: '1.2', type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    readable: 'Sogou Mobile 1.2 on an Apple iPhone running iOS 6.1'

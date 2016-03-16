@@ -1,12 +1,16 @@
 -
     headers: { User-Agent: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 MG (Novarra-Vision/6.1)', X-Device-User-Agent: 'Nokia6288/2.0 (05.94) Profile/MIDP-2.0 Configuration/CLDC-1.1' }
     result: { browser: { name: 'Novarra Vision', version: '6.1', type: browser }, engine: { name: Gecko, version: 1.8.0 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6288' } }
+    readable: 'Novarra Vision 6.1 on a Nokia 6288'
 -
     headers: 'User-Agent: NokiaC1-01/2.0 (03.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 Novarra-Vision/8.0'
     result: { browser: { name: 'Novarra Vision', version: '8.0', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C1-01 } }
+    readable: 'Novarra Vision 8.0 on a Nokia C1-01 running Series40'
 -
     headers: 'User-Agent: Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3'
     result: { browser: { name: 'Novarra Vision', version: '7.3', type: browser }, os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6600' } }
+    readable: 'Novarra Vision 7.3 on a Nokia 6600 running Series60 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; U; en-US) Gecko/20081217 Vision-Browser/8.1 301x200 LG VN530'
     result: { browser: { name: 'Novarra Vision', version: '8.1', type: browser }, engine: { name: Gecko }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Octane } }
+    readable: 'Novarra Vision 8.1 on a LG Octane running Brew'

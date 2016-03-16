@@ -1,124 +1,157 @@
 -
     headers: 'User-Agent: MQBrowser/5.0 (iPhone; CPU iPhone OS 8.4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Safari/7534.48.3'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '8.4' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
+    readable: 'an unknown browser that imitates an Apple iPhone running iOS 8.4'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MASBJS)'
     engine: 19
     result: { browser: { name: 'Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Internet Explorer 7.0 on Windows 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
+    readable: 'Android Browser Dev on an Asus Eee Pad Transformer running Android 3.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/1.0.0.39 Safari/535.19'
     result: { browser: { name: Chrome, version: 1.0.0.39, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Chrome Dev 1.0.0.39 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/1.0 Safari/1'
     engine: 16
     features: 56
     result: { browser: { name: Safari, version: '1.0', type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari 1.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/7.1.4 Safari/537.85.13'
     result: { browser: { name: Safari, version: 7.1.4, type: browser }, engine: { name: Webkit, version: 600.4.10 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'Safari 7.1.4 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: '538.15' }, os: { name: 'OS X' }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: '530.5' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_DesireHD_A9191; xx) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'
     result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'DesireHD A9191' } }
+    readable: 'a HTC DesireHD A9191 running Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
     engine: 16
     result: { browser: { name: 'Mobile Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
+    readable: 'Mobile Internet Explorer 11.0 on a Nokia Lumia 925 running Windows Phone 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.0.10338 Safari/537.36'
     result: { browser: { name: Chrome, version: 42.0.0.10338, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Chrome Dev 42.0.0.10338 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'
     engine: 19
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Edge 12 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
     engine: 16
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.4', alias: '10' } }, device: { type: desktop } }
+    readable: 'Edge 12 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; ru; Desktop) AppleWebKit/534.13 (KHTML, like Gecko)'
     useragent: 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/'
     result: { browser: { name: 'UC Browser' }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+    readable: 'UC Browser'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; ru; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.2.0.336'
     useragent: 'Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.2.3.4) Gecko/'
     result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature } }
+    readable: 'UC Browser 9.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: 'OS X' }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86; rv:35.0) Gecko/20100101 Firefox/40.0'
     engine: 16
     result: { browser: { name: Firefox, version: '40.0', type: browser }, engine: { name: Gecko, version: '35.0' }, os: { name: Ubuntu }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Firefox 40.0 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20130331 Firefox/21.0'
     engine: 19
     result: { browser: { name: Firefox, version: '21.0', type: browser }, engine: { name: Gecko, version: '21.0' }, os: { name: Ubuntu }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Firefox 21.0 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11;Unknown) AppleWebKit/525.20+ (KHTML,like Gecko) Chromium/24.0.1312.52 Chrome/24.0.1312.52 Safari/525.52+'
     engine: 8
     result: { browser: { name: Chromium, family: { name: Chrome, version: 24 }, version: 24.0.1312.52, type: browser }, engine: { name: Webkit, version: '525.20' }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Chromium 24.0.1312.52'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari/8536.25'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
+    readable: 'an unknown browser that imitates an Apple iPhone running iOS 8.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko'
     engine: 16
     result: { engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser based on Trident 7.0 running on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10'
     engine: 51
     features: 7
     result: { browser: { name: Safari, version: 4.0.4, type: browser }, engine: { name: Webkit, version: 531.21.10 }, os: { name: iOS, alias: 'iPhone OS', version: '3.2' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
+    readable: 'an unknown browser that imitates an Apple iPad running iPhone OS 3.2'
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.6.7 Version/11.00'
     engine: 19
     result: { browser: { name: Opera, version: '11.00', type: browser }, engine: { name: Presto, version: 2.6.7 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Opera 11.00 on Windows 7'
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17'
     engine: 16
     result: { browser: { name: Opera, version: '12.17', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Opera 12.17 on Windows 7'
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.2; WOW64) Presto/2.12.388 Version/12.12'
     engine: 8
     result: { browser: { name: Opera, version: '12.12', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Opera 12.12 on Windows 8'
 -
     headers: 'User-Agent: W3S/Ready (Windows NT 6.1; Presto/2.12.423; Opera/12.18) AppleWebkit/537.36 Edge/12.246'
     engine: 2
     result: { browser: { name: Opera, alias: 'Edge 12', version: '12.18', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Edge 12 12.18 on Windows 7'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; en-us) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/E400-M6-D2.xml' }
     features: 24
     result: { browser: { name: Safari, version: 3.1.2, type: browser }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L3' }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari 3.1.2 on a LG Optimus L3 running Android'
 -
     headers: { User-Agent: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20', X-Wap-Profile: 'http://wap.sonyericsson.com/UAprof/SK17iR411.xml' }
     features: 88
     result: { browser: { name: Safari, version: 3.1.1, type: browser }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Mini Pro' }, camouflage: true }
+    readable: 'an unknown browser that imitates Safari on a Sony Ericsson Xperia Mini Pro running Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3'
     engine: 52
     result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
+    readable: 'an unknown browser that imitates an Apple iPad running iOS 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko'
     engine: 16
     result: { browser: { name: 'Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Internet Explorer 11.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)'
     engine: 8
     result: { browser: { name: 'Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Internet Explorer 10.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/8.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3)'
     engine: 20
     result: { browser: { name: 'Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Internet Explorer 7.0 on Windows 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120427 Firefox/15.0a1'
     engine: 20
     result: { browser: { name: Firefox, version: 15.0a1, type: browser }, engine: { name: Gecko, version: '15.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Firefox Aurora 15.0a1 on Windows 7'

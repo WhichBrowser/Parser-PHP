@@ -1,6 +1,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Ubuntu 14.04 like Android 4.4) AppleWebKit/537.36 Chromium/35.0.1870.2 Mobile  Safari/537.36'
     result: { browser: { family: { name: Chrome, version: 35 } }, engine: { name: Blink }, os: { name: 'Ubuntu Touch', version: '14.04' }, device: { type: mobile, subtype: smart } }
+    readable: 'Ubuntu Touch 14.04'
 -
     headers: 'User-Agent: Mozilla/5.0 (Ubuntu; Mobile) WebKit/537.36'
     result: { engine: { name: Webkit, version: '537.36' }, os: { name: 'Ubuntu Touch' }, device: { type: mobile, subtype: smart } }
+    readable: 'Ubuntu Touch'

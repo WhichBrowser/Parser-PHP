@@ -1,48 +1,64 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Series30Plus; Nokia220/14.00.11; Profile/Series30Plus Configuration/Series30Plus) Gecko/20100401 S40OviBrowser/3.8.1.0.5'
     result: { browser: { name: 'Nokia Xpress', version: 3.8.1, type: browser }, engine: { name: Gecko }, os: { name: Series30+ }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '220' } }
+    readable: 'Nokia Xpress 3.8.1 on a Nokia 220 running Series30+'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; NOKIALumia900; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.8.0.50.5'
     result: { browser: { name: 'Nokia Xpress', version: 1.8.0, type: browser }, engine: { name: Gecko }, os: { name: 'Windows Phone' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 900' } }
+    readable: 'Nokia Xpress 1.8.0 on a Nokia Lumia 900 running Windows Phone'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia109/04.12; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11'
     result: { browser: { name: 'Nokia Xpress', version: 3.7.0, type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '109' } }
+    readable: 'Nokia Xpress 3.7.0 on a Nokia 109 running Series40'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia311/03.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.2.0.0.6'
     result: { browser: { name: 'Nokia Xpress', version: 3.2.0, type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 311' } }
+    readable: 'Nokia Xpress 3.2.0 on a Nokia Asha 311 running Series40'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia501/10.0.16; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.75'
     result: { browser: { name: 'Nokia Xpress', version: 3.0.0, type: browser }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
+    readable: 'Nokia Xpress 3.0.0 on a Nokia Asha 501 running Nokia Asha Platform 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.45'
     result: { browser: { name: 'Nokia Xpress', version: 4.0.0, type: browser }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
+    readable: 'Nokia Xpress 4.0.0 on a Nokia Asha 501 running Nokia Asha Platform 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.5.0.0.20'
     result: { browser: { name: 'Nokia Xpress', version: 5.5.0, type: browser }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
+    readable: 'Nokia Xpress 5.5.0 on a Nokia Asha 501 running Nokia Asha Platform 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia501/11.1.1/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.9.0.0.22'
     result: { browser: { name: 'Nokia Xpress', version: 3.9.0, type: browser }, engine: { name: Gecko }, os: { name: 'Nokia Asha Platform', version: 1.1.1 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Asha 501' } }
+    readable: 'Nokia Xpress 3.9.0 on a Nokia Asha 501 running Nokia Asha Platform 1.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; Nokia6303iclassic/10.80; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.9.0.0.22'
     result: { browser: { name: 'Nokia Xpress', version: 3.9.0, type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6303i classic' } }
+    readable: 'Nokia Xpress 3.9.0 on a Nokia 6303i classic running Series40'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; NokiaC2-00/03.45; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.5.0.0.27'
     result: { browser: { name: 'Nokia Xpress', version: 5.5.0, type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: C2-00 } }
+    readable: 'Nokia Xpress 5.5.0 on a Nokia C2-00 running Series40'
 -
     headers: 'User-Agent: Mozilla/5.0 (Series40; NokiaX2-05/08.60; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31'
     result: { browser: { name: 'Nokia Xpress', version: 5.0.0, type: browser }, engine: { name: Gecko }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: X2-05 } }
+    readable: 'Nokia Xpress 5.0.0 on a Nokia X2-05 running Series40'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20120315 OSRE/0.0b'
     result: { browser: { name: 'Nokia Xpress', type: browser }, engine: { name: Gecko, version: 5.0.1 }, device: { type: mobile, subtype: feature } }
+    readable: 'Nokia Xpress'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20120802 OSRE/2.0.7'
     result: { browser: { name: 'Nokia Xpress', type: browser }, engine: { name: Gecko, version: 5.0.1 }, device: { type: mobile, subtype: feature } }
+    readable: 'Nokia Xpress'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20120822 OSRE/1.0.7f'
     result: { browser: { name: 'Nokia Xpress', type: browser }, engine: { name: Gecko, version: 5.0.1 }, device: { type: mobile, subtype: feature } }
+    readable: 'Nokia Xpress'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20130214 OSRE/2.2.14.1'
     result: { browser: { name: 'Nokia Xpress', type: browser }, engine: { name: Gecko, version: 5.0.1 }, device: { type: mobile, subtype: feature } }
+    readable: 'Nokia Xpress'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20130402 OSRE/2.3.29'
     result: { browser: { name: 'Nokia Xpress', type: browser }, engine: { name: Gecko, version: 5.0.1 }, device: { type: mobile, subtype: feature } }
+    readable: 'Nokia Xpress'

@@ -1,3 +1,4 @@
 -
     headers: 'User-Agent: iTunes-AppleTV/4.1'
     result: { browser: { name: iTunes, type: 'app:mediaplayer' }, device: { type: television, manufacturer: Apple, model: AppleTV } }
+    readable: 'iTunes on an AppleTV'

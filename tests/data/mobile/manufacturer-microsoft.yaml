@@ -1,36 +1,48 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Nokia; Lumia 850)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '9.0', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 850' } }
+    readable: 'Mobile Internet Explorer 9.0 on a Microsoft Lumia 850 running Windows Phone 7.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; MICROSOFT; Surface Phone) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10240'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Surface Phone' } }
+    readable: 'Edge 12 on a Microsoft Surface Phone running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 430 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 430' } }
+    readable: 'Edge 12 on a Microsoft Lumia 430 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 435 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 435' } }
+    readable: 'Edge 12 on a Microsoft Lumia 435 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 532 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 532' } }
+    readable: 'Edge 12 on a Microsoft Lumia 532 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 535 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 535' } }
+    readable: 'Edge 12 on a Microsoft Lumia 535 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 540 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 540' } }
+    readable: 'Edge 12 on a Microsoft Lumia 540 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10562'
     result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 550' } }
+    readable: 'Edge 13 on a Microsoft Lumia 550 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 640' } }
+    readable: 'Edge 12 on a Microsoft Lumia 640 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10546'
     result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 950' } }
+    readable: 'Edge 13 on a Microsoft Lumia 950 running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; RM-1065) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10536'
     result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 640 XL' } }
+    readable: 'Edge 12 on a Microsoft Lumia 640 XL running Windows Phone 10.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop; Lumia 1530)'
     result: { browser: { name: 'Mobile Internet Explorer', version: '10.0', type: browser }, engine: { name: Trident, version: '6.0' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Microsoft, model: 'Lumia 1530' } }
+    readable: 'Mobile Internet Explorer 10.0 on a Microsoft Lumia 1530 running Windows Phone 8.0'
