@@ -122,7 +122,7 @@ class Browser extends NameVersion
 
     public function toString()
     {
-        $result = trim(($this->hidden === false ? $this->getName() . ' ' . $this->getVersion() : ''));
+        $result = trim(($this->hidden === false ? $this->getName() . ' ' . (!empty($this->version) && !$this->version->hidden ? $this->getVersion() : '') : ''));
 
         if (empty($result) && isset($this->using)) {
             return $this->using->toString();
@@ -147,19 +147,19 @@ class Browser extends NameVersion
         if (!empty($this->name)) {
             $result['name'] = $this->name;
         }
-        
+
         if (!empty($this->alias)) {
             $result['alias'] = $this->alias;
         }
-        
+
         if (!empty($this->using)) {
             $result['using'] = $this->using->toArray();
         }
-        
+
         if (!empty($this->family)) {
             $result['family'] = $this->family->toArray();
         }
-        
+
         if (!empty($this->version)) {
             $result['version'] = $this->version->toArray();
         }
@@ -167,7 +167,7 @@ class Browser extends NameVersion
         if (!empty($this->type)) {
             $result['type'] = $this->type;
         }
-        
+
         if (isset($result['version']) && !count($result['version'])) {
             unset($result['version']);
         }

@@ -65,7 +65,7 @@ class NameVersion extends Base
                         break;
                 }
             }
-            
+
 
             $this->version = new Version(array_merge($defaults, [ 'value' => $version ]));
         }
@@ -92,7 +92,7 @@ class NameVersion extends Base
 
     public function getVersion()
     {
-        return !empty($this->version) && !$this->version->hidden ? $this->version->toString() : '';
+        return !empty($this->version) ? $this->version->toString() : '';
     }
 
 
@@ -116,6 +116,6 @@ class NameVersion extends Base
 
     public function toString()
     {
-        return trim($this->getName() . ' ' . $this->getVersion());
+        return trim($this->getName() . ' ' . (!empty($this->version) && !$this->version->hidden ? $this->getVersion() : ''));
     }
 }
