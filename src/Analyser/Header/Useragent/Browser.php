@@ -1086,10 +1086,6 @@ trait Browser
             unset($this->data->browser->channel);
             unset($this->data->browser->mode);
 
-            if (!$this->data->device->type) {
-                $this->data->device->type = Constants\DeviceType::MOBILE;
-            }
-
             if ($this->data->device->type == Constants\DeviceType::DESKTOP) {
                 $this->data->device->type = Constants\DeviceType::MOBILE;
                 $this->data->browser->mode = 'desktop';
