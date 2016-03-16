@@ -122,42 +122,26 @@ trait Derive
             $this->data->browser->version = null;
 
             if ($this->data->engine->getName() == 'Presto') {
-                switch (implode('.', array_slice(explode('.', $this->data->engine->getVersion()), 0, 2))) {
-                    case '2.12':
-                        $this->data->browser->version = new Version([ 'value' => '3.4' ]);
-                        break;
-                    case '2.11':
-                        $this->data->browser->version = new Version([ 'value' => '3.3' ]);
-                        break;
-                    case '2.10':
-                        $this->data->browser->version = new Version([ 'value' => '3.2' ]);
-                        break;
-                    case '2.9':
-                        $this->data->browser->version = new Version([ 'value' => '3.1' ]);
-                        break;
-                    case '2.8':
-                        $this->data->browser->version = new Version([ 'value' => '3.0' ]);
-                        break;
-                    case '2.7':
-                        $this->data->browser->version = new Version([ 'value' => '2.9' ]);
-                        break;
-                    case '2.6':
-                        $this->data->browser->version = new Version([ 'value' => '2.8' ]);
-                        break;
-                    case '2.4':
-                        $this->data->browser->version = new Version([ 'value' => '10.3' ]);
-                        break;
-                    case '2.3':
-                        $this->data->browser->version = new Version([ 'value' => '10' ]);
-                        break;
-                    case '2.2':
-                        $this->data->browser->version = new Version([ 'value' => '9.7' ]);
-                        break;
-                    case '2.1':
-                        $this->data->browser->version = new Version([ 'value' => '9.6' ]);
-                        break;
-                    default:
-                        unset($this->data->browser->version);
+                $data = [
+                    '2.12'  => '3.4',
+                    '2.11'  => '3.3',
+                    '2.10'  => '3.2',
+                    '2.9'   => '3.1',
+                    '2.8'   => '3.0',
+                    '2.7'   => '2.9',
+                    '2.6'   => '2.8',
+                    '2.4'   => '10.3',
+                    '2.3'   => '10',
+                    '2.2'   => '9.7',
+                    '2.1'   => '9.6'
+                ];
+
+                $key = implode('.', array_slice(explode('.', $this->data->engine->getVersion()), 0, 2));
+
+                if (isset($data[$key])) {
+                    $this->data->browser->version = new Version([ 'value' => $data[$key] ]);
+                } else {
+                    unset($this->data->browser->version);
                 }
             }
 
@@ -341,7 +325,7 @@ trait Derive
         }
 
         /* Derive OS/2 nickname */
- 
+
         if ($this->data->os->name == 'OS/2') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('>', '2')) {
@@ -351,7 +335,7 @@ trait Derive
         }
 
         /* Derive iOS and OS X aliases */
- 
+
         if ($this->data->os->name == 'iOS') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('<', '4')) {
@@ -381,7 +365,7 @@ trait Derive
                 if ($this->data->os->version->is('10.10')) {
                     $this->data->os->version->nickname = 'Yosemite';
                 }
-                
+
                 if ($this->data->os->version->is('10.11')) {
                     $this->data->os->version->nickname = 'El Capitan';
                 }
