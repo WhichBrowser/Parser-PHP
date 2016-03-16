@@ -454,7 +454,7 @@ trait Os
 
     private function detectWindows($ua)
     {
-        if (preg_match('/(Windows|WinNT|WinCE|Win ?[9MX]|Win(16|32))/u', $ua)) {
+        if (preg_match('/(Windows|WinNT|WinCE|WinMobile|Win ?[9MX]|Win(16|32))/u', $ua)) {
             $this->data->os->name = 'Windows';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
 
@@ -566,6 +566,15 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => '7', 'details' => 1 ]);
                 $this->data->device->type = Constants\DeviceType::MOBILE;
                 $this->data->browser->mode = 'desktop';
+            }
+
+            if (preg_match('/WinMobile/u', $ua)) {
+                $this->data->os->name = 'Windows Mobile';
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                if (preg_match('/WinMobile\/([0-9.]*)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+                }
             }
 
             if (preg_match('/Windows CE/u', $ua) || preg_match('/WinCE/u', $ua) || preg_match('/WindowsCE/u', $ua)) {
