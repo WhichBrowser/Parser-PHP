@@ -36,7 +36,7 @@ trait Mobile
 
     private function detectGenericMobile($ua)
     {
-        if (preg_match('/(MIDP|CLDC)/u', $ua)) {
+        if (preg_match('/(MIDP|CLDC|UNTRUSTED\/|3gpp-gba)/u', $ua)) {
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
     }
@@ -552,6 +552,11 @@ trait Mobile
         ]);
 
         $this->data->device->identifyModel('/((?:SGH|SCH)-[A-Z][0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Samsung'
+        ]);
+
+        $this->data->device->identifyModel('/(GT-[A-Z][0-9]+[A-Z]?)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Samsung'
         ]);
@@ -1178,6 +1183,10 @@ trait Mobile
 
     function identifyBasedOnId($id)
     {
+        if ($this->data->device->type != 'mobile') {
+            return;
+        }
+
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('brew', $id);
             if ($device->identified) {
@@ -1226,10 +1235,6 @@ trait Mobile
                 $this->data->device = $device;
                 $this->data->os->name = 'Windows Mobile';
             }
-        }
-
-        if ($this->data->device->type != 'mobile') {
-            return;
         }
 
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
