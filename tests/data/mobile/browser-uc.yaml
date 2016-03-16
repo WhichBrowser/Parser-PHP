@@ -379,3 +379,27 @@
 -
     headers: 'User-Agent: SonyEricssonJ10i2/R7CA Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.2.0.311'
     result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Elm } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; xx; gt-s8000c) U2/1.0.0 UCBrowser/8.6.1.237 U2/1.0.0 Mobile'
+    result: { browser: { name: 'UC Browser', version: '8.6', type: browser }, engine: { name: Gecko }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Jet } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; xx; samsung-gt-s8500) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; xx; samsung-gt-s3653) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Corby } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; xx; nokiac5-05) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile UNTRUSTED/1.0 3gpp-gba'
+    result: { browser: { name: 'UC Browser', version: '8.8', type: browser }, engine: { name: Gecko }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: C5-05 } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; xx; gt-s5233s) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Star } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; Pt-BR; samsung-gt-s5380k) U2/1.0.0 UCBrowser/8.8.0.227 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.8', type: browser }, engine: { name: Gecko }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Wave Y' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; es-la; htc_touch_diamond) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+-
+    headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; en-us; samsung sch-i910) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0'
+    result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: sch-i910 } }

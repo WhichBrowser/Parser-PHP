@@ -38,7 +38,8 @@ DeviceModels::$TOUCHWIZ_INDEX = array (
     30 => 'GT-S5620!',
     31 => 'GT-S5680',
     32 => 'GT-S7550',
-    33 => 'GT-S8003',
+    33 => 'GT-S8000c',
+    34 => 'GT-S8003',
   ),
   '@S8' => 
   array (

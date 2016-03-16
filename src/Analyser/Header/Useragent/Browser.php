@@ -1130,7 +1130,7 @@ trait Browser
                 }
             }
 
-            if (!$this->data->device->identified && preg_match('/; ([^;]*)\) U2\//u', $ua, $match)) {
+            if ($this->data->device->identified < Constants\Id::MATCH_UA && preg_match('/; ([^;]*)\) U2\//u', $ua, $match)) {
                 $device = Data\DeviceModels::identify('android', $match[1]);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;

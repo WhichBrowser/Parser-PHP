@@ -37,6 +37,7 @@ DeviceModels::$TOUCHWIZ_MODELS = [
     'GT-S5680'                                  => [ 'Samsung', 'GT-S5680' ],
     'GT-S7550'                                  => [ 'Samsung', 'Blue Earth' ],
     'S80(00|03)!'                               => [ 'Samsung', 'Jet' ],
+    'GT-S8000c'                                 => [ 'Samsung', 'Jet' ],
     'GT-S8003'                                  => [ 'Samsung', 'Jet' ],
     'SGH-A597'                                  => [ 'Samsung', 'Eternity II' ],
     'SGH-F480'                                  => [ 'Samsung', 'Tocco' ],
