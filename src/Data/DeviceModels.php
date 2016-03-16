@@ -83,9 +83,11 @@ class DeviceModels
                 return self::identifyList(self::$PALMOS_INDEX, self::$PALMOS_MODELS, $model);
             case 'kddi':
                 return self::identifyList(self::$KDDI_INDEX, self::$KDDI_MODELS, $model);
-            case 'feature':
-                return self::identifyList(self::$FEATURE_INDEX, self::$FEATURE_MODELS, $model);
         }
+
+        require_once __DIR__ . '/../../data/models-feature.php';
+        require_once __DIR__ . '/../../data/indices/models-feature.php';
+        return self::identifyList(self::$FEATURE_INDEX, self::$FEATURE_MODELS, $model);
     }
 
     public static function identifyIOS($model)
@@ -237,7 +239,7 @@ class DeviceModels
                             if (isset($match['carrier'])) {
                                 $device->carrier = $match['carrier'];
                             }
-                            
+
                             if ($device->manufacturer == null && $device->model == null) {
                                 $device->identified = Constants\Id::PATTERN;
                             }
