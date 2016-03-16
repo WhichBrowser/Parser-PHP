@@ -18,7 +18,7 @@
     result: { browser: { name: Espial, version: 1.1.15, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.2 Version/4.0 Safari/531.2+ InettvBrowser/2.2B (0003D5;SSTV-PROTO;01;00)'
-    result: { browser: { name: Espial, version: 6.1.2, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, series: 'Smart TV' } }
+    result: { browser: { name: Espial, version: 6.1.2, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: 'Advanced Communications', series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (CrKey - 0.9.3) AppleWebKit/537.36 (KHTML, like Gecko) Espial/6.1.11 Chrome/30.0.1573.2 Safari/537.36'
     result: { browser: { name: Espial, family: { name: Chrome, version: 30 }, version: 6.1.11, type: browser }, engine: { name: Blink }, device: { type: television } }

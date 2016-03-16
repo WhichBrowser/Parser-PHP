@@ -625,7 +625,7 @@ trait Television
 
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::PATTERN;
-            
+
             if (!isset($this->data->device->series)) {
                 $this->data->device->series = 'Smart TV';
             }
@@ -664,7 +664,7 @@ trait Television
                 case 'Sagemcom':
                     $this->data->device->manufacturer = $vendorName;
                     $this->data->device->series = 'Settopbox';
-                    
+
                     if (preg_match('/^([A-Z]+[0-9]+)/ui', $modelName, $match)) {
                         $this->data->device->model = $match[1];
                         unset($this->data->device->series);
@@ -715,12 +715,12 @@ trait Television
 
             if ($found) {
                 $this->data->device->identified |= Constants\Id::PATTERN;
-                
-                if (!isset($this->data->device->series)) {
-                    $this->data->device->series = 'Smart TV';
-                }
 
                 switch ($vendorName . '#') {
+                    case '0003D5#':
+                        $this->data->device->manufacturer = 'Advanced Communications';
+                        break;
+
                     case '000024#':
                         $this->data->device->manufacturer = 'Connect AS';
                         break;
@@ -754,6 +754,7 @@ trait Television
                         $this->data->device->manufacturer = 'Maspro Denkoh';
                         break;
 
+                    case '002692#':
                     case '38E08E#':
                         $this->data->device->manufacturer = 'Mitsubishi';
                         break;
@@ -781,6 +782,10 @@ trait Television
                     case '000039#':
                         $this->data->device->manufacturer = 'Toshiba';
                         break;
+                }
+
+                if (!isset($this->data->device->series)) {
+                    $this->data->device->series = 'Smart TV';
                 }
             }
         }
