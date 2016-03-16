@@ -376,3 +376,6 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.2; zh-CN Build/JZO54K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.5.1.381 U3/0.8.0 Mobile Safari/533.1'
     result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: SonyEricssonJ10i2/R7CA Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; xx; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.2.0.311'
+    result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Elm } }

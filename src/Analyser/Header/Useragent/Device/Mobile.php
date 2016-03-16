@@ -36,7 +36,7 @@ trait Mobile
 
     private function detectGenericMobile($ua)
     {
-        if (preg_match('/MIDP/u', $ua)) {
+        if (preg_match('/(MIDP|CLDC)/u', $ua)) {
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
     }
@@ -820,7 +820,7 @@ trait Mobile
                 'model'     => $model,
                 'carrier'   => $carrier
             ]);
-            
+
             if (array_key_exists($manufacturer, $ids)) {
                 $this->data->device->manufacturer = $ids[$manufacturer];
             }
@@ -911,7 +911,7 @@ trait Mobile
                     'model'     => $model,
                     'carrier'   => 'au'
                 ]);
-                
+
                 if (array_key_exists($manufacturer, $ids)) {
                     $this->data->device->manufacturer = $ids[$manufacturer];
 
@@ -1226,6 +1226,10 @@ trait Mobile
                 $this->data->device = $device;
                 $this->data->os->name = 'Windows Mobile';
             }
+        }
+
+        if ($this->data->device->type != 'mobile') {
+            return;
         }
 
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
