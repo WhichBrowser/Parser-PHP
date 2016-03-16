@@ -61,3 +61,9 @@
 -
     headers: 'User-Agent: MQQBrowser/Mini3.1 (Nokia7100s/06.32)'
     result: { browser: { name: 'QQ Browser Mini', version: '3.1', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '7100 Supernova' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.3 Mobile Safari/537.36'
+    result: { browser: { name: 'QQ Browser', version: '5.3', type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: MQQBrowser/4.0/Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn Build/S-2-20) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1'
+    result: { browser: { name: 'QQ Browser', version: '4.0', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart } }

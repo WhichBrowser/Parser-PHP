@@ -58,10 +58,8 @@ trait Corrections
 
     private function hideDeviceModelIfMatchesLanguage()
     {
-        if (!$this->data->device->identified) {
-            if (preg_match('/^[a-z][a-z]-[a-z][a-z]$/u', $this->data->device->model)) {
-                $this->data->device->model = null;
-            }
+        if (preg_match('/^[a-z][a-z]-[a-zA-Z][a-zA-Z]$/u', $this->data->device->model)) {
+            $this->data->device->model = null;
         }
     }
 
@@ -154,7 +152,7 @@ trait Corrections
             case 'Chrome':
             case 'Chromium':
                 $valid = false;
-                
+
                 if (isset($this->data->os->name) && in_array($this->data->os->name, [ 'Google TV', 'Android' ])) {
                     $valid = true;
                 }
