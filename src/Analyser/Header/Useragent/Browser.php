@@ -19,7 +19,7 @@ trait Browser
         $this->detectChrome($ua);
         $this->detectEdge($ua);
         $this->detectOpera($ua);
-        
+
         /* Detect other various mobile browsers */
         $this->detectNokiaBrowser($ua);
         $this->detectSilk($ua);
@@ -56,7 +56,7 @@ trait Browser
     {
         $this->detectUCEngine($ua);
         $this->detectLegacyNetscape($ua);
- 
+
         return $this;
     }
 
@@ -1926,7 +1926,7 @@ trait Browser
             $this->data->browser->channel = '';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
-            
+
             if (!$this->data->os->isFamily('Android')) {
                 $this->data->device->type = Constants\DeviceType::MOBILE;
                 $this->data->os->reset([
@@ -2030,6 +2030,7 @@ trait Browser
                         if ($this->data->os->name == 'iOS' && empty($this->data->device->model)) {
                             $this->data->device->manufacturer = 'Apple';
                             $this->data->device->model = 'iPhone';
+                            $this->data->device->identified = Constants\Id::MATCH_UA;
                         }
                         break;
 
@@ -2038,6 +2039,7 @@ trait Browser
                         if ($this->data->os->name == 'iOS' && empty($this->data->device->model)) {
                             $this->data->device->manufacturer = 'Apple';
                             $this->data->device->model = 'iPad';
+                            $this->data->device->identified = Constants\Id::MATCH_UA;
                         }
                         break;
                 }
@@ -2094,7 +2096,7 @@ trait Browser
             $this->data->browser->channel = '';
             $this->data->browser->version = null;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
-            
+
             if (preg_match('/Maxthon[\/\' ]\(?([0-9.]*)\)?/iu', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             }
@@ -2109,7 +2111,7 @@ trait Browser
             $this->data->browser->channel = '';
             $this->data->browser->version = null;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
-            
+
             if (preg_match('/MxNitro\/([0-9.]*)/iu', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             }
@@ -2134,7 +2136,7 @@ trait Browser
             $this->data->browser->name = 'IBM WebExplorer';
             $this->data->browser->channel = '';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
-    
+
             if (preg_match('/IBM[- ]WebExplorer[ -]?(?:DLL ?|Window API ?)?\/v([0-9]\.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }

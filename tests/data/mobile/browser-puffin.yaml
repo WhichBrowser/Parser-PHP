@@ -55,3 +55,15 @@
 -
     headers: 'X-Puffin-Ua: Android/D6503/1080x1776'
     result: { browser: { name: Puffin }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z2' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; ar-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IP'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.4.0, type: browser }, engine: { name: Blink }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10543IT'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 11 }, version: '3', type: browser }, engine: { name: Webkit, version: '534.35' }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; xx) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.3IP'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 3.7.3, type: browser }, engine: { name: Blink }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; zh-Hant-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.2.0IT'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 30 }, version: 4.2.0, type: browser }, engine: { name: Blink }, os: { name: iOS }, device: { type: tablet, manufacturer: Apple, model: iPad } }
