@@ -716,26 +716,27 @@ trait Television
             if ($found) {
                 $this->data->device->identified |= Constants\Id::PATTERN;
 
-                switch ($vendorName . '#') {
-                    case '0003D5#':
-                        $this->data->device->manufacturer = 'Advanced Communications';
-                        break;
+                $data = [
+                    '0003D5'    =>  'Advanced Communications',
+                    '000024'    =>  'Connect AS',
+                    '000087'    =>  'Hitachi',
+                    '00A0B0'    =>  'I-O Data Device',
+                    '00E091'    =>  'LG',
+                    '0050C9'    =>  'Maspro Denkoh',
+                    '002692'    =>  'Mitsubishi',
+                    '38E08E'    =>  'Mitsubishi',
+                    '008045'    =>  'Panasonic',
+                    '00E036'    =>  'Pioneer',
+                    '00E064'    =>  'Samsung',
+                    '08001F'    =>  'Sharp',
+                    '00014A'    =>  'Sony',
+                    '000039'    =>  'Toshiba'
+                ];
 
-                    case '000024#':
-                        $this->data->device->manufacturer = 'Connect AS';
-                        break;
+                if (isset($data[$vendorName])) {
+                    $this->data->device->manufacturer = $data[$vendorName];
 
-                    case '000087#':
-                        $this->data->device->manufacturer = 'Hitachi';
-                        break;
-
-                    case '00A0B0#':
-                        $this->data->device->manufacturer = 'I-O Data Device';
-                        break;
-
-                    case '00E091#':
-                        $this->data->device->manufacturer = 'LG';
-
+                    if ($this->data->device->manufacturer == 'LG') {
                         switch ($modelName) {
                             case 'LGE2D2012M':
                                 $this->data->device->series = 'NetCast TV 2012';
@@ -747,41 +748,7 @@ trait Television
                                 $this->data->device->series = 'webOS TV';
                                 break;
                         }
-
-                        break;
-
-                    case '0050C9#':
-                        $this->data->device->manufacturer = 'Maspro Denkoh';
-                        break;
-
-                    case '002692#':
-                    case '38E08E#':
-                        $this->data->device->manufacturer = 'Mitsubishi';
-                        break;
-
-                    case '008045#':
-                        $this->data->device->manufacturer = 'Panasonic';
-                        break;
-
-                    case '00E036#':
-                        $this->data->device->manufacturer = 'Pioneer';
-                        break;
-
-                    case '00E064#':
-                        $this->data->device->manufacturer = 'Samsung';
-                        break;
-
-                    case '08001F#':
-                        $this->data->device->manufacturer = 'Sharp';
-                        break;
-
-                    case '00014A#':
-                        $this->data->device->manufacturer = 'Sony';
-                        break;
-
-                    case '000039#':
-                        $this->data->device->manufacturer = 'Toshiba';
-                        break;
+                    }
                 }
 
                 if (!isset($this->data->device->series)) {
