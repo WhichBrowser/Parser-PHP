@@ -1084,14 +1084,6 @@ trait Mobile
                 return;
             }
         }
-
-        foreach ($candidates as $i => $id) {
-            $this->identifyBasedOnId($id);
-
-            if ($this->data->device->identified & Constants\Id::MATCH_UA) {
-                return;
-            }
-        }
     }
 
     function identifyBasedOnIdentifier()
