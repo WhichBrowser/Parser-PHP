@@ -217,7 +217,7 @@ trait Os
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
-                } elseif (preg_match('/; ?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
+                } elseif (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                     $this->data->device->model = $match[1];
