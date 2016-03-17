@@ -1,10 +1,10 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586'
-    result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox One' } }
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox One' } }
     readable: 'Edge 13 on a Microsoft Xbox One running Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586'
-    result: { browser: { name: Edge, alias: 'Edge 13', type: browser }, engine: { name: EdgeHTML, version: '13' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox One' } }
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox One' } }
     readable: 'Edge 13 on a Microsoft Xbox One running Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)'

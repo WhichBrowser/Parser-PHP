@@ -49,12 +49,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'
     engine: 19
-    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, version: '12', type: browser }, engine: { name: EdgeHTML, version: '12.10240' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
     readable: 'Edge 12 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
     engine: 16
-    result: { browser: { name: Edge, alias: 'Edge 12', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.4', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Edge, version: '12', type: browser }, engine: { name: EdgeHTML, version: '12.0' }, os: { name: Windows, version: { value: '6.4', alias: '10' } }, device: { type: desktop } }
     readable: 'Edge 12 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; ru; Desktop) AppleWebKit/534.13 (KHTML, like Gecko)'
@@ -118,8 +118,8 @@
 -
     headers: 'User-Agent: W3S/Ready (Windows NT 6.1; Presto/2.12.423; Opera/12.18) AppleWebkit/537.36 Edge/12.246'
     engine: 2
-    result: { browser: { name: Opera, alias: 'Edge 12', version: '12.18', type: browser }, engine: { name: EdgeHTML, version: '12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
-    readable: 'an unknown browser that imitates Edge 12 12.18 on Windows 7'
+    result: { browser: { name: Opera, version: '12.18', type: browser }, engine: { name: EdgeHTML, version: '12.246' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Opera 12.18 on Windows 7'
 -
     headers: { User-Agent: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; en-us) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1', X-Wap-Profile: 'http://gsm.lge.com/html/gsm/E400-M6-D2.xml' }
     features: 24

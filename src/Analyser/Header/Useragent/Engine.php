@@ -164,7 +164,7 @@ trait Engine
     {
         if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
             $this->data->engine->name = 'EdgeHTML';
-            $this->data->engine->version = new Version([ 'value' => $match[1], 'details' => 1 ]);
+            $this->data->engine->version = new Version([ 'value' => $match[1], 'hidden' => true ]);
         }
     }
 }

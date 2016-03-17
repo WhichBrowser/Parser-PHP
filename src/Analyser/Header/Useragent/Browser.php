@@ -422,10 +422,9 @@ trait Browser
     {
         if (preg_match('/Edge\/([0-9]+)/u', $ua, $match)) {
             $this->data->browser->name = 'Edge';
-            $this->data->browser->alias = 'Edge ' . $match[1];
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->channel = '';
-            $this->data->browser->version = null;
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 1 ]);
         }
 
 
