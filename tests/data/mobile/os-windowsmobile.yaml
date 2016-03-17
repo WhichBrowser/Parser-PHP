@@ -706,3 +706,7 @@
     headers: 'User-Agent: LG-GT500s_TD/1.0 WinMobile/6.5 Release/1.21.2010 Browser/Polaris6.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'GT500 Puccini' } }
     readable: 'a LG GT500 Puccini running Windows Mobile 6.5'
+-
+    headers: 'User-Agent: HTC (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)'
+    readable: 'Mobile Internet Explorer 6.0 on Windows Mobile 6.5'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart } }

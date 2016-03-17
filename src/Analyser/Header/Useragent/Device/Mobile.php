@@ -389,7 +389,7 @@ trait Mobile
             'manufacturer'  => 'Hisense'
         ]);
 
-        $this->data->device->identifyModel('/HTC[\s_-]?([^\/\);]+)/ui', $ua, [
+        $this->data->device->identifyModel('/HTC[\s_-]?([^\s\/\(\);][^\/\(\);]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'HTC'
         ]);
