@@ -22,3 +22,11 @@
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPad6,7;FBMD/iPad;FBSN/iPhone OS;FBSV/9.1;FBSS/2; FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/1]'
     result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: 'iPad Pro' } }
     readable: 'Facebook on an Apple iPad Pro running iOS 9.1'
+-
+    headers: 'User-Agent: Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)'
+    readable: 'Pinterest 1.8.4 on a Sony Xperia Tablet Z running Android 4.3'
+    result: { browser: { name: Pinterest, version: 1.8.4, type: 'app:social' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Sony, model: 'Xperia Tablet Z' } }
+-
+    headers: 'User-Agent: Pinterest for Android/1.1.1 (endeavoru; 4.1.1)'
+    readable: 'Pinterest 1.1.1 on a HTC One X running Android 4.1.1'
+    result: { browser: { name: Pinterest, version: 1.1.1, type: 'app:social' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }

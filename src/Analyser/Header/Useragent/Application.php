@@ -114,6 +114,29 @@ trait Application
             }
         }
 
+        /* Pinterest */
+
+        if (preg_match('/^Pinterest for Android( Tablet)?\/([0-9\.]+) \(([^;]+); ([0-9\.]+)\)/iu', $ua, $match)) {
+            $this->data->browser->name = 'Pinterest';
+            $this->data->browser->version = new Version([ 'value' => $match[2] ]);
+            $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[4] ])
+            ]);
+
+            $this->data->device->model = $match[3];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = $match[1] == ' Tablet' ? Constants\DeviceType::TABLET : Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[3]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* Dr. Web Anti-Virus */
 
         if (preg_match('/Dr\.Web anti\-virus Light Version: ([0-9\.]+) Device model: (.*) Firmware version: ([0-9\.]+)/u', $ua, $match)) {
