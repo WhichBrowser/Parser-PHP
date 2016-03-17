@@ -14,3 +14,7 @@
     headers: 'User-Agent: MOT-A1600/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R542_G_11.61.33R'
     result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1600 } }
     readable: 'Opera Mobile 8.00 on a Motorola A1600 running EZX Linux'
+-
+    headers: 'User-Agent: MOTO-W760r/Mozilla/4.0 (compatible;MSIE 6.0;Linux W760r)/R63712_U_71.xx.yyI Profile/MIDP-2.0 Configuration/CLDC-1.1 Symphony 1.0'
+    readable: 'Symphony 1.0 on a Motorola W760r running Linux'
+    result: { browser: { name: Symphony, version: '1.0', type: browser }, os: { name: Linux }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: W760r } }

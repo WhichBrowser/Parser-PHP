@@ -2430,6 +2430,7 @@ trait Browser
                 [ 'name' => 'SEMC Browser',         'regexp' => '/SEMC-Browser\/([0-9.]*)/u' ],
                 [ 'name' => 'Sogou Mobile',         'regexp' => '/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
                 [ 'name' => 'Swing Browser',        'regexp' => '/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
+                [ 'name' => 'Symphony',             'regexp' => '/Symphony ([0-9.]+)$/u' ],
                 [ 'name' => 'WebLite',              'regexp' => '/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
 
                 /* Television browsers */
