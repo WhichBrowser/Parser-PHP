@@ -23,6 +23,28 @@ trait Application
 
     private function detectSpecificApplications($ua)
     {
+        /* Sony Updatecenter */
+
+        if (preg_match('/^(.*) Build\/.* com.sonyericsson.updatecenter\/[A-Z0-9\.]+$/iu', $ua, $match)) {
+            $this->data->browser->name = 'Sony Update Center';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::APP;
+
+            $this->data->os->reset([
+                'name'      => 'Android'
+            ]);
+
+            $this->data->device->model = $match[1];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* Samsung Mediahub */
 
         if (preg_match('/^Stamhub [^\/]+\/([^;]+);.*:([0-9\.]+)\/[^\/]+\/[^:]+:user\/release-keys$/iu', $ua, $match)) {

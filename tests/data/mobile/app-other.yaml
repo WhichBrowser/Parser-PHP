@@ -34,3 +34,7 @@
     headers: 'User-Agent: PlacesDll Win32/x4dXIL4zf4fEINN8j7e8GA:c5f40ce19e9659484ed40cba84c12227/3.5.481.8 (Windows Phone OS/8.0; NOKIA:Lumia 1320; de-DE)'
     result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 1320' } }
     readable: 'a Nokia Lumia 1320 running Windows Phone 8.0'
+-
+    headers: 'User-Agent: SonySO-02F Build/14.1.H.1.281 UEP/0.1 com.sonyericsson.updatecenter/2.0.3.A.0.2'
+    readable: 'Sony Update Center on a Sony Xperia Z1 f SO-02F running Android'
+    result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
