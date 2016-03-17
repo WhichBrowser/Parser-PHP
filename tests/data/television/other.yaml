@@ -1,7 +1,7 @@
 -
     headers: 'User-Agent: HbbTV/1.1.1 (+DL;TechnoTrend Goerler;S-855;3.1.8.24.04.20.devel;;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH;)'
-    result: { device: { type: television, manufacturer: 'TechnoTrend Goerler', model: S-855 } }
-    readable: 'a TechnoTrend Goerler S-855'
+    result: { device: { type: television, manufacturer: TechnoTrend, model: S-855 } }
+    readable: 'a TechnoTrend S-855'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (+PVR;Humax;HD FOX+;1.00.12;1.0)CE-HTML/1.0 ANTGalio/3.1.1.23.04.09'
     result: { browser: { name: 'ANT Galio', version: 3.1.1, type: browser }, device: { type: television, manufacturer: Humax, model: 'HD FOX+', series: 'Digital Receiver' } }

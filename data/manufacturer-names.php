@@ -29,6 +29,7 @@ Manufacturers::$TELEVISION = [
     'selevision'                                => 'Selevision',
     'smart'                                     => 'Smart',
     'Sky_worth'                                 => 'Skyworth',
+    'TechnoTrend Goerler'                       => 'TechnoTrend',
     'TechnoTrend Goerler/Kathrein'              => 'TechnoTrend',
     'TELEFUNKEN'                                => 'Telefunken',
     'THOM'                                      => 'Thomson',
