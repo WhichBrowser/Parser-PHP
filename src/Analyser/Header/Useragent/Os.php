@@ -1084,7 +1084,7 @@ trait Os
 
 
         if ($this->data->os->isFamily('Symbian')) {
-            if (preg_match('/Nokia([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
+            if (preg_match('/Nokia-?([^\/;\)]+)[\/|;|\)]/u', $ua, $match)) {
                 if ($match[1] != 'Browser') {
                     $this->data->device->manufacturer = 'Nokia';
                     $this->data->device->model = Data\DeviceModels::cleanup($match[1]);

@@ -194,3 +194,7 @@
     headers: 'User-Agent: Nokia/6600/1.0 (3.44.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     result: { os: { name: Series60, family: { name: Symbian, version: '7.0' }, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6600' } }
     readable: 'a Nokia 6600 running Series60 2.0'
+-
+    headers: 'User-Agent: Nokia-N8-00/Unknown_FVersion Encoding/UTF-8 Lang/ar Caps/223 Morange/6.1.1 CS60/6.11.58 S60/50 PI/bb8c926f183ad2d16ca6bf706c7c011f Domain/@voda_egypt'
+    readable: 'a Nokia N8-00 running Series60 6.11.58'
+    result: { os: { name: Series60, family: Symbian, version: 6.11.58 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
