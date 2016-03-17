@@ -38,3 +38,7 @@
     headers: 'User-Agent: SonySO-02F Build/14.1.H.1.281 UEP/0.1 com.sonyericsson.updatecenter/2.0.3.A.0.2'
     readable: 'Sony Update Center on a Sony Xperia Z1 f SO-02F running Android'
     result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
+-
+    headers: 'User-Agent: AiMeiTuan on a Samsung Galaxy S II HD LTE running Android 4.0.4'
+    readable: 'Android Browser on a Samsung Galaxy S II HD LTE running Android 4.0.4 running Android 4.0.4'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II HD LTE running Android 4.0.4' } }

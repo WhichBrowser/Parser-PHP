@@ -91,6 +91,29 @@ trait Application
             }
         }
 
+        /* AiMeiTuan */
+
+        if (preg_match('/^AiMeiTuan \/[^\-]+\-([0-9\.]+)\-(.*)\-[0-9]+x[0-9]+\-/iu', $ua, $match)) {
+            $this->data->browser->name = 'AiMeiTuan';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::APP;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[1] ])
+            ]);
+
+            $this->data->device->model = $match[2];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[2]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* Instagram */
 
         if (preg_match('/^Instagram ([0-9\.]+) Android \([0-9]+\/([0-9\.]+); [0-9]+dpi; [0-9]+x[0-9]+; [^;]+; ([^;]*);/iu', $ua, $match)) {
