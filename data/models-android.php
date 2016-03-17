@@ -477,6 +477,7 @@ DeviceModels::$ANDROID_MODELS = [
         'A1-840FHD'                                 => [ 'Acer', 'Iconia Tab 8 A1-840 FHD', DeviceType::TABLET ],
         'A1-841'                                    => [ 'Acer', 'Iconia Tab 8 A1-841', DeviceType::TABLET ],
         'A1-850'                                    => [ 'Acer', 'Iconia One 8 A1-850', DeviceType::TABLET ],
+        'A1-860'                                    => [ 'Acer', 'Iconia Tab 8 A1-860', DeviceType::TABLET ],
     ],
 
     'A3-A[0-9]{2,2}!!' => [
@@ -615,9 +616,13 @@ DeviceModels::$ANDROID_MODELS = [
     'AA3-600'                                   => [ 'Acer', 'Aspire A3', DeviceType::DESKTOP ],
 
     'Aspire!!' => [
+        'Aspire A1'                                 => [ 'Acer', 'Aspire A1', DeviceType::DESKTOP ],
         'Aspire ([0-9]{4,4}[A-Z]?)!'                => [ 'Acer', 'Aspire $1', DeviceType::DESKTOP ],
         'Aspire ([A-Z][A-Z0-9]-[0-9]{3,3}[A-Z]?)!'  => [ 'Acer', 'Aspire $1', DeviceType::DESKTOP ],
         'Aspire ([A-Z][0-9]{4,4}[A-Z]?)!'           => [ 'Acer', 'Aspire $1', DeviceType::DESKTOP ],
+        'Aspire ([A-Z]{2,2}[0-9]-[0-9]{3,3})!'      => [ 'Acer', 'Aspire $1', DeviceType::DESKTOP ],
+        'Aspire one'                                => [ 'Acer', 'Aspire One', DeviceType::DESKTOP ],
+        'Aspire one Pro'                            => [ 'Acer', 'Aspire One Pro', DeviceType::DESKTOP ],
     ],
 
     'C908'                                      => [ 'Acho', 'C908', DeviceType::TABLET ],
@@ -871,6 +876,7 @@ DeviceModels::$ANDROID_MODELS = [
     '4028[AEJS]!'                               => [ 'Alcatel', 'One Touch Pixi 3 (4.5)' ],
     'one ?touch 4029!'                          => [ 'Alcatel', 'One Touch S\'Pop' ],
     'one ?touch 4030!'                          => [ 'Alcatel', 'One Touch S\'Pop' ],
+    'one ?touch 4031!'                          => [ 'Alcatel', 'One Touch Flash Mini' ],
     'one ?touch 4032!'                          => [ 'Alcatel', 'One Touch Pop C2' ],
     '4032[ADEX]!'                               => [ 'Alcatel', 'One Touch Pop C2' ],
     'one ?touch 4033!'                          => [ 'Alcatel', 'One Touch Pop C3' ],
@@ -897,10 +903,12 @@ DeviceModels::$ANDROID_MODELS = [
     '5025[DEGX]!'                               => [ 'Alcatel', 'One Touch Pop 3' ],
     'one ?touch 5035!'                          => [ 'Alcatel', 'One Touch X\'Pop' ],
     'one ?touch 50(36|37)!'                     => [ 'Alcatel', 'One Touch Pop C5' ],
+    'ONETOUCH POPC5'                            => [ 'Alcatel', 'One Touch Pop C5' ],
     'one ?touch 50(38)!'                        => [ 'Alcatel', 'One Touch Pop D5' ],
     '5038[ADEX]!'                               => [ 'Alcatel', 'One Touch Pop D5' ],
     'one ?touch 5042!'                          => [ 'Alcatel', 'One Touch Pop 2 (4.5)' ],
     '5042[ADEFGTWXY]!'                          => [ 'Alcatel', 'One Touch Pop 2 (4.5)' ],
+    '5045[JX]!'                                 => [ 'Alcatel', 'One Touch Pixi 4 (5.0)' ],
     'one ?touch 5050!'                          => [ 'Alcatel', 'One Touch Pop S3' ],
     '5050[ASYX]!'                               => [ 'Alcatel', 'One Touch Pop S3' ],
     '5054[ADOSTX]!'                             => [ 'Alcatel', 'One Touch Pixi 3 (5.5)' ],
@@ -984,6 +992,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ONE TOUCH EVO7HD'                          => [ 'Alcatel', 'One Touch Evo 7 HD', DeviceType::TABLET ],
     'ONE TOUCH EVO8HD'                          => [ 'Alcatel', 'One Touch Evo 8 HD', DeviceType::TABLET ],
     'D820X'                                     => [ 'Alcatel', 'One Touch Hero 8', DeviceType::TABLET ],
+    'ONETOUCH POP 7 LTE'                        => [ 'Alcatel', 'One Touch POP7', DeviceType::TABLET ],
     'ONE ?TOUCH P310(A|X)!'                     => [ 'Alcatel', 'One Touch POP7', DeviceType::TABLET ],
     'ONE ?TOUCH P320(A|X)!'                     => [ 'Alcatel', 'One Touch POP8', DeviceType::TABLET ],
     'ONE ?TOUCH P321!'                          => [ 'Alcatel', 'One Touch POP8', DeviceType::TABLET ],
@@ -1329,6 +1338,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Archos 101b Copper'                        => [ 'Archos', '101b Copper', DeviceType::TABLET ],
         'Archos 50 Diamond'                         => [ 'Archos', '50 Diamond' ],
         'Archos Diamond S'                          => [ 'Archos', 'Diamond S' ],
+        'Archos Diamond Plus'                       => [ 'Archos', 'Diamond Plus' ],
         'Archos 40 Helium'                          => [ 'Archos', '40 Helium' ],
         'Archos 45 Helium 4G'                       => [ 'Archos', '45 Helium' ],
         'ARCHOS 45b Helium'                         => [ 'Archos', '45b Helium' ],
@@ -1358,6 +1368,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Archos 101b Neon'                          => [ 'Archos', '101b Neon', DeviceType::TABLET ],
         'Archos 101c Neon'                          => [ 'Archos', '101c Neon', DeviceType::TABLET ],
         'Archos 101d Neon'                          => [ 'Archos', '101d Neon', DeviceType::TABLET ],
+        'Archos 121 Neon'                           => [ 'Archos', '121 Neon', DeviceType::TABLET ],
         'Archos 50 Oxygen'                          => [ 'Archos', '50 Oxygen' ],
         'Archos 50b Oxygen'                         => [ 'Archos', '50b Oxygen' ],
         'Archos 50c Oxygen'                         => [ 'Archos', '50c Oxygen' ],
@@ -1406,6 +1417,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Archos 64 Xenon'                           => [ 'Archos', '64 Xenon' ],
         'Archos 70 Xenon'                           => [ 'Archos', '70 Xenon', DeviceType::TABLET ],
         'Archos 70b Xenon'                          => [ 'Archos', '70b Xenon', DeviceType::TABLET ],
+        'Archos 70c Xenon'                          => [ 'Archos', '70c Xenon', DeviceType::TABLET ],
         'Archos 79 Xenon'                           => [ 'Archos', '79 Xenon', DeviceType::TABLET ],
         'Archos 80 Xenon'                           => [ 'Archos', '80 Xenon', DeviceType::TABLET ],
         'Archos 80b Xenon'                          => [ 'Archos', '80b Xenon', DeviceType::TABLET ],
@@ -1414,6 +1426,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Archos 101 Xenon'                          => [ 'Archos', '101 Xenon', DeviceType::TABLET ],
         'Archos 101 Xenon v2'                       => [ 'Archos', '101b Xenon', DeviceType::TABLET ],
         'Archos 101c Xenon'                         => [ 'Archos', '101c Xenon', DeviceType::TABLET ],
+        'ARCHOS 101 Xenon Lite'                     => [ 'Archos', '101 Xenon Lite', DeviceType::TABLET ],
         'ARCHOS 80 CHILDPAD'                        => [ 'Archos', '80 Childpad', DeviceType::TABLET ],
         'ARCHOS 101 CHILDPAD'                       => [ 'Archos', '101 Childpad', DeviceType::TABLET ],
         'Archos Chefpad'                            => [ 'Archos', 'ChefPad', DeviceType::TABLET ],
@@ -1864,6 +1877,9 @@ DeviceModels::$ANDROID_MODELS = [
 
     'Endeavour!!' => [
         'Endeavour101'                              => [ 'Blaupunkt', 'Endeavour 101', DeviceType::TABLET ],
+        'Endeavour 101G'                            => [ 'Blaupunkt', 'Endeavour 101 G', DeviceType::TABLET ],
+        'Endeavour 101M'                            => [ 'Blaupunkt', 'Endeavour 101 M', DeviceType::TABLET ],
+        'Endeavour 700BN'                           => [ 'Blaupunkt', 'Endeavour 700 BN', DeviceType::TABLET ],
         'Endeavour 785'                             => [ 'Blaupunkt', 'Endeavour 785', DeviceType::TABLET ],
         'Endeavour 800NG'                           => [ 'Blaupunkt', 'Endeavour 800 NG', DeviceType::TABLET ],
         'Endeavour 1000WS'                          => [ 'Blaupunkt', 'Endeavour 1000 WS', DeviceType::TABLET ],
@@ -3861,6 +3877,7 @@ DeviceModels::$ANDROID_MODELS = [
         'GP-KEON'                                   => [ 'Geeksphone', 'Keon'],
         'GP-PEAK'                                   => [ 'Geeksphone', 'Peak'],
         'Geeksphone ZERO'                           => [ 'Geeksphone', 'ZERO'],
+        'Geeksphone ONE'                            => [ 'Geeksphone', 'ONE'],
     ],
 
     'Gemei!!' => [
@@ -4554,6 +4571,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Amaze HT-808'                              => [ 'Hi-Tech', 'Amaze HT-808' ],
         'AMAZE S200'                                => [ 'Hi-Tech', 'Amaze S200' ],
         'Hitech Amaze S200 3G'                      => [ 'Hi-Tech', 'Amaze S200' ],
+        'AMAZE S250'                                => [ 'Hi-Tech', 'Amaze S250' ],
         'Amaze S400'                                => [ 'Hi-Tech', 'Amaze S400' ],
         'Hitech S450'                               => [ 'Hi-Tech', 'Amaze S450' ],
         'Amaze S500'                                => [ 'Hi-Tech', 'Amaze S500' ],
@@ -4614,10 +4632,27 @@ DeviceModels::$ANDROID_MODELS = [
         'Slate 21 Pro'                              => [ 'HP', 'Slate 21 Pro', DeviceType::TABLET ],
         'HP SlateBook 10 x2 PC'                     => [ 'HP', 'SlateBook 10 x2', DeviceType::TABLET ],
         'HP SlateBook 14 PC'                        => [ 'HP', 'SlateBook 14 HD', DeviceType::TABLET ],
-        'HP Split 13 x2 PC'                         => [ 'HP', 'Split 13 x2', DeviceType::TABLET ],
         'HP Pro Slate 8'                            => [ 'HP', 'Pro Slate 8', DeviceType::TABLET ],
         'HP Pro Slate 10 EE G1'                     => [ 'HP', 'Pro Slate 10', DeviceType::TABLET ],
         'HP Pro Slate 12'                           => [ 'HP', 'Pro Slate 12', DeviceType::TABLET ],
+    ],
+
+    'HP!!' => [
+        'HP Compaq ([0-9]{4,4}[a-z])!'              => [ 'HP', 'Compaq $1', DeviceType::DESKTOP ],
+        'HP Compaq ([a-z]{2,2}[0-9]{4,4})!'         => [ 'HP', 'Compaq $1', DeviceType::DESKTOP ],
+        'HP Elite ([0-9]{4,4})!'                    => [ 'HP', 'Elite $1', DeviceType::DESKTOP ],
+        'HP EliteBook ([0-9]{4,4}[a-z])!'           => [ 'HP', 'EliteBook $1', DeviceType::DESKTOP ],
+        'HP EliteBook Revolve ([0-9]{3,3})!'        => [ 'HP', 'EliteBook Revolve $1', DeviceType::DESKTOP ],
+        'HP ENVY (.*) Notebook PC!'                 => [ 'HP', 'ENVY $1', DeviceType::DESKTOP ],
+        'HP ENVY Sleekbook (.*) PC!'                => [ 'HP', 'ENVY Sleekbook $1', DeviceType::DESKTOP ],
+        'HP (G[0-9]{2,4}) Notebook PC!'             => [ 'HP', '$1', DeviceType::DESKTOP ],
+        'HP Mini!'                                  => [ 'HP', 'Mini', DeviceType::DESKTOP ],
+        'HP Pavilion ([0-9]+)!'                     => [ 'HP', 'Pavilion $1', DeviceType::DESKTOP ],
+        'HP Pavilion ([a-z]{1,2} ?[0-9]+)!'         => [ 'HP', 'Pavilion $1', DeviceType::DESKTOP ],
+        'HP ProBook ([0-9]{4,4}[a-z])!'             => [ 'HP', 'ProBook $1', DeviceType::DESKTOP ],
+        'HP ProBook ([0-9]{3,3} G[0-9])!'           => [ 'HP', 'ProBook $1', DeviceType::DESKTOP ],
+        'HP Spectre ((?:[0-9]+ )?x2)!'              => [ 'HP', 'Spectre $1', DeviceType::DESKTOP ],
+        'HP Split ((?:[0-9]+ )?x2)!'                => [ 'HP', 'Split $1', DeviceType::DESKTOP ],
     ],
 
     'HP-TouchPad'                               => [ 'HP', 'TouchPad', DeviceType::TABLET ],
@@ -4684,6 +4719,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC Desire 526GPLUS dual sim'              => [ 'HTC', 'Desire 526G+' ],
         'HTC 0PL41!'                                => [ 'HTC', 'Desire 526G+' ],
         'HTC 0PL42!'                                => [ 'HTC', 'Desire 526G+' ],
+        'HTC Desire 530'                            => [ 'HTC', 'Desire 530' ],
         'HTC Desire 600'                            => [ 'HTC', 'Desire 600' ],
         'HTC Desire 600 dual sim'                   => [ 'HTC', 'Desire 600' ],
         'HTC PO491'                                 => [ 'HTC', 'Desire 600' ],
@@ -5362,7 +5398,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     '(HW-|HUAWEI )?(CHC|KII)!!' => [
         '(HW-|HUAWEI )?CHC-(U01|U03|U23)!'                              => [ 'Huawei', 'G Play Mini' ],
-        '(HW-|HUAWEI )?KII-(L03|L05|L21|L23)!'                          => [ 'Huawei', 'GR5' ],
+        '(HW-|HUAWEI )?KII-(L03|L05|L21|L22|L23)!'                      => [ 'Huawei', 'GR5' ],
     ],
 
     '(HW-|HUAWEI )?(ALE|D2|G6|G7|GRA|M100|P2|P6|P7|RIO|SC|Sophia)!!' => [
@@ -7538,7 +7574,7 @@ DeviceModels::$ANDROID_MODELS = [
         'LG-H7(40)!'                                => [ 'LG', 'G Vista 2' ],
         'LG-H7(78|79|88)!'                          => [ 'LG', 'AKA' ],
         'LG-H8(10|11|12|15|18|19)!'                 => [ 'LG', 'G4' ],
-        'LG-H8(50)!'                                => [ 'LG', 'G5' ],
+        'LG-H8(31|50)!'                             => [ 'LG', 'G5' ],
         'LG-H9(50|55|59)!'                          => [ 'LG', 'G Flex 2' ],
         'LG-H9(00|01|60|61|62|68)!'                 => [ 'LG', 'V10' ],
     ],
@@ -9019,6 +9055,8 @@ DeviceModels::$ANDROID_MODELS = [
     'D000-0000(01|07)-[A-Z][0-9]{2,2}!'         => [ 'NEC', 'LifeTouch S' ],
     'D000-000002-[W0][0-9]{2,2}!'               => [ 'NEC', 'LifeTouch W' ],
     'D000-0000(10|11)-N!'                       => [ 'NEC', 'LifeTouch Note' ],
+
+    'D000 000043'                               => [ 'NEC', 'NS8368', DeviceType::TELEVISION ],
 
     'N-0[0-9][A-Z]!!' => [
         'N-01D'                                     => [ 'NEC', 'MEDIAS PP N-01D', 'carrier' => 'DoCoMo' ],
