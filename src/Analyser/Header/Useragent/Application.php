@@ -23,6 +23,29 @@ trait Application
 
     private function detectSpecificApplications($ua)
     {
+        /* Samsung Mediahub */
+
+        if (preg_match('/^Stamhub [^\/]+\/([^;]+);.*:([0-9\.]+)\/[^\/]+\/[^:]+:user\/release-keys$/iu', $ua, $match)) {
+            $this->data->browser->name = 'Mediahub';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::APP_MEDIAPLAYER;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[2] ])
+            ]);
+
+            $this->data->device->model = $match[1];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* "Android Application" */
 
         if (preg_match('/^(.+) Android Application \([0-9]+, .+ v([0-9\.]+)\) - [a-z]+ (.*) [a-z]+ - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {

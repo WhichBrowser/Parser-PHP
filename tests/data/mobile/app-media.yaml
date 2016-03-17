@@ -1,0 +1,8 @@
+-
+    headers: 'User-Agent: stamhub 13082903.1.00.03/SM-N9005; 2013082903; 13082903.1.00.03; com.samsung.everglades.video; hlte; samsung/hltexx/hlte:4.3/JSS15J/N9005XXUBMJ1:user/release-keys'
+    readable: 'Mediahub on a Samsung Galaxy Note 3 running Android 4.3'
+    result: { browser: { name: Mediahub, type: 'app:mediaplayer' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 3' } }
+-
+    headers: 'User-Agent: stamhub 1.7.0(MD02, 1113513)/SGH-T999; 606; 1.7.0(MD02, 1113513); com.samsung.mediahub; d2tmo; samsung/d2tmo/d2tmo:4.1.2/JZO54K/T999UVDMD5:user/release-keys'
+    readable: 'Mediahub on a Samsung Galaxy S III running Android 4.1.2'
+    result: { browser: { name: Mediahub, type: 'app:mediaplayer' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
