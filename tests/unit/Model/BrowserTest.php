@@ -62,7 +62,7 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($browser->isDetected());
     }
 
-    public function testIsFamily() 
+    public function testIsFamily()
     {
         $browser = new Browser();
 
@@ -167,6 +167,16 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         $this->assertEquals([
             'name'      => 'Chrome',
             'version'   => '47'
+        ], $browser->toArray());
+
+        $browser->reset([
+            'name'      => 'TestBrowser',
+            'alias'     => 'Alias'
+        ]);
+
+        $this->assertEquals([
+            'name'      => 'TestBrowser',
+            'alias'     => 'Alias'
         ], $browser->toArray());
 
         $browser->reset([
