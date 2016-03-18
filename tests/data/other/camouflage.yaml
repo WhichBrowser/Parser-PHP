@@ -155,3 +155,9 @@
     engine: 20
     result: { browser: { name: Firefox, version: 15.0a1, type: browser }, engine: { name: Gecko, version: '15.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop }, camouflage: true }
     readable: 'an unknown browser that imitates Firefox Aurora 15.0a1 on Windows 7'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:48.0) Gecko/20100101 Firefox/48.0'
+    engine: 24
+    features: 95
+    readable: 'Firefox 48.0 on OS X El Capitan 10.11'
+    result: { browser: { name: Firefox, version: '48.0', type: browser }, engine: { name: Gecko, version: '48.0' }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }

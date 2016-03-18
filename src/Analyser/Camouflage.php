@@ -205,6 +205,11 @@ trait Camouflage
                 if (isset($this->data->engine->name) && $this->data->engine->name == 'EdgeHTML') {
                     $this->data->camouflage = false;
                 }
+
+                /* Firefox 48+ support certain Webkit features */
+                if ($this->options->engine & Constants\EngineType::GECKO) {
+                    $this->data->camouflage = false;
+                }
             }
 
             if ($this->options->engine & Constants\EngineType::CHROMIUM) {
