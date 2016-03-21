@@ -408,6 +408,7 @@ trait Application
                 [ 'name' => 'Instagram',            'regexp' => '/Instagram ([0-9.]+)/u' ],
                 [ 'name' => 'Sina Weibo',           'regexp' => '/weibo__([0-9.]*)/u' ],
                 [ 'name' => 'Twitter',              'regexp' => '/TwitterAndroid/u' ],
+                [ 'name' => 'Twitter',              'regexp' => '/Twitter for iPhone/u' ],
                 [ 'name' => 'WordPress',            'regexp' => '/wp-android\/([0-9.]*)/u' ],
             ],
 

@@ -30,3 +30,7 @@
     headers: 'User-Agent: Pinterest for Android/1.1.1 (endeavoru; 4.1.1)'
     readable: 'Pinterest 1.1.1 on a HTC One X running Android 4.1.1'
     result: { browser: { name: Pinterest, version: 1.1.1, type: 'app:social' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A4449d Twitter for iPhone'
+    readable: 'Twitter on an Apple iPhone running iOS 7.0'
+    result: { browser: { name: Twitter, type: 'app:social' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
