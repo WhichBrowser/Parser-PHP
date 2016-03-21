@@ -72,6 +72,8 @@ DeviceModels::$IOS_MODELS = [
     'iPad5,2'                                   => [ 'Apple', 'iPad mini 4', DeviceType::TABLET ],
     'iPad5,3'                                   => [ 'Apple', 'iPad Air 2', DeviceType::TABLET ],
     'iPad5,4'                                   => [ 'Apple', 'iPad Air 2', DeviceType::TABLET ],
-    'iPad6,7'                                   => [ 'Apple', 'iPad Pro', DeviceType::TABLET ],
-    'iPad6,8'                                   => [ 'Apple', 'iPad Pro', DeviceType::TABLET ],
+    'iPad6,3'                                   => [ 'Apple', 'iPad Pro (9.7″)', DeviceType::TABLET ],
+    'iPad6,4'                                   => [ 'Apple', 'iPad Pro (9.7″)', DeviceType::TABLET ],
+    'iPad6,7'                                   => [ 'Apple', 'iPad Pro (12.9″)', DeviceType::TABLET ],
+    'iPad6,8'                                   => [ 'Apple', 'iPad Pro (12.9″)', DeviceType::TABLET ],
 ];
