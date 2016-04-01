@@ -33,7 +33,7 @@ trait Bot
 
         /* Detect based on a predefined list or markers */
 
-        if ($bot = Data\Bots::identify($ua)) {
+        if ($bot = Data\Applications::identifyBot($ua)) {
             $this->data->browser = $bot;
             $this->data->os->reset();
             $this->data->engine->reset();

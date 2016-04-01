@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/bootstrap.php';
 
-use WhichBrowser\Data\Bots;
+use WhichBrowser\Data\Applications;
 
 $command = 'list';
 $types = [];
@@ -24,7 +24,7 @@ if (count($argv)) {
 
 if (in_array('all', $options)) {
 	$types = [
-		'browsers-bots'
+		'applications-bots'
 	];
 }
 
@@ -47,8 +47,8 @@ function command_list($type) {
 
     require_once __DIR__ . '/../data/' . $type . '.php';
 
-    if ($type == 'browsers-bots') {
-        $list = Bots::$BOTS;
+    if ($type == 'applications-bots') {
+        $list = Applications::$BOTS;
 
         $ids = [];
 
@@ -63,7 +63,7 @@ function command_list($type) {
         $file .= "\n";
         $file .= "namespace WhichBrowser\\Data;\n";
         $file .= "\n";
-        $file .= "Bots::\$BOTS_REGEX = '" . $regex . "';\n";
+        $file .= "Applications::\$BOTS_REGEX = '" . $regex . "';\n";
 
         file_put_contents(__DIR__ . '/../data/regexes/' . $type . '.php', $file);
     }
