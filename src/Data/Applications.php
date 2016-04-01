@@ -67,11 +67,7 @@ class Applications
                                 'channel'   => '',
                                 'type'      => $type,
                                 'version'   => isset($match[1]) && $match[1] ? new Version([ 'value' => $match[1], 'details' => isset($item['details']) ? $item['details'] : null ]) : null
-                            ],
-
-                            'device' => isset($item['type']) ? [
-                                'type'      => $item['type']
-                            ] : null
+                            ]
                         ];
                     }
                 }
