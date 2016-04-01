@@ -39,6 +39,7 @@ DeviceModels::$IOS_MODELS = [
     'iPhone7,2'                                 => [ 'Apple', 'iPhone 6', DeviceType::MOBILE ],
     'iPhone8,1'                                 => [ 'Apple', 'iPhone 6s', DeviceType::MOBILE ],
     'iPhone8,2'                                 => [ 'Apple', 'iPhone 6s Plus', DeviceType::MOBILE ],
+    'iPhone8,4'                                 => [ 'Apple', 'iPhone SE', DeviceType::MOBILE ],
     'iPod1,1'                                   => [ 'Apple', 'iPod touch', DeviceType::MEDIA ],
     'iPod2,1'                                   => [ 'Apple', 'iPod touch (2nd gen)', DeviceType::MEDIA ],
     'iPod3,1'                                   => [ 'Apple', 'iPod touch (3rd gen)', DeviceType::MEDIA ],
