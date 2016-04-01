@@ -7574,7 +7574,7 @@ DeviceModels::$ANDROID_MODELS = [
         'LG-H7(40)!'                                => [ 'LG', 'G Vista 2' ],
         'LG-H7(78|79|88)!'                          => [ 'LG', 'AKA' ],
         'LG-H8(10|11|12|15|18|19)!'                 => [ 'LG', 'G4' ],
-        'LG-H8(31|50)!'                             => [ 'LG', 'G5' ],
+        'LG-H8(30|31|48|50|60)!'                    => [ 'LG', 'G5' ],
         'LG-H9(50|55|59)!'                          => [ 'LG', 'G Flex 2' ],
         'LG-H9(00|01|60|61|62|68)!'                 => [ 'LG', 'V10' ],
     ],
@@ -7583,6 +7583,7 @@ DeviceModels::$ANDROID_MODELS = [
         'LG-K1(20|21|30)!'                          => [ 'LG', 'K4' ],
         'LG-K3(30|32|)!'                            => [ 'LG', 'K7' ],
         'LG-K4(10|20|30)!'                          => [ 'LG', 'K10' ],
+        'LG-K5(00)!'                                => [ 'LG', 'X Screen' ],
     ],
 
     'LG-KH5200'                                 => [ 'LG', 'Andro-1' ],
@@ -10981,6 +10982,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-G860!'                                  => [ 'Samsung', 'Galaxy S5 Sport' ],
         'SM-G870!'                                  => [ 'Samsung', 'Galaxy S5 Active' ],
         'SM-G890!'                                  => [ 'Samsung', 'Galaxy S6 Active' ],
+        'SM-G891!'                                  => [ 'Samsung', 'Galaxy S7 Active' ],
         'SM-G90[016]!'                              => [ 'Samsung', 'Galaxy S5' ],
         'SM-G903!'                                  => [ 'Samsung', 'Galaxy S5 Neo' ],
         'SM-G9092!'                                 => [ 'Samsung', 'Galaxy G9092' ],
@@ -11007,6 +11009,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-J500!'                                  => [ 'Samsung', 'Galaxy J5' ],
         'SM-J510!'                                  => [ 'Samsung', 'Galaxy J5 (2016)' ],
         'SM-J700!'                                  => [ 'Samsung', 'Galaxy J7' ],
+        'SM-J710!'                                  => [ 'Samsung', 'Galaxy J7 (2016)' ],
     ],
 
     'SM-N[0-9]{3,4}!!' => [
@@ -11213,6 +11216,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SC-02E'                                    => [ 'Samsung', 'GALAXY Note II SC-02E', 'carrier' => 'DoCoMo' ],
         'SC-02F'                                    => [ 'Samsung', 'GALAXY J SC-02F', 'carrier' => 'DoCoMo' ],
         'SC-02G'                                    => [ 'Samsung', 'GALAXY S5 Active SC-02G', 'carrier' => 'DoCoMo' ],
+        'SC-02H'                                    => [ 'Samsung', 'Galaxy S7 Edge SC-02H', 'carrier' => 'DoCoMo' ],
         'SC-03D'                                    => [ 'Samsung', 'GALAXY S II LTE SC-03D', 'carrier' => 'DoCoMo' ],
         'SC-03E'                                    => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
         'SC03E'                                     => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
