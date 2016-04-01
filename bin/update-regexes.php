@@ -24,7 +24,8 @@ if (count($argv)) {
 
 if (in_array('all', $options)) {
 	$types = [
-		'applications-bots'
+		'applications-bots',
+        'applications-browsers'
 	];
 }
 
@@ -64,6 +65,29 @@ function command_list($type) {
         $file .= "namespace WhichBrowser\\Data;\n";
         $file .= "\n";
         $file .= "Applications::\$BOTS_REGEX = '" . $regex . "';\n";
+
+        file_put_contents(__DIR__ . '/../data/regexes/' . $type . '.php', $file);
+    }
+
+    if ($type == 'applications-browsers') {
+        $list = Applications::$BROWSERS;
+
+        $ids = [];
+
+        foreach ($list as $t => $l) {
+            foreach ($l as $i => $item) {
+                $ids[] = $item['id'];
+            }
+        }
+
+        $ids = array_unique($ids);
+        $regex = '/(' . implode('|', $ids) . ')/i';
+
+        $file  = "<" . "?php\n";
+        $file .= "\n";
+        $file .= "namespace WhichBrowser\\Data;\n";
+        $file .= "\n";
+        $file .= "Applications::\$BROWSERS_REGEX = '" . $regex . "';\n";
 
         file_put_contents(__DIR__ . '/../data/regexes/' . $type . '.php', $file);
     }
