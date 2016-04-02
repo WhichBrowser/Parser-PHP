@@ -8,6 +8,10 @@ trait Ereader
 {
     private function detectEreader($ua)
     {
+        if (!preg_match('/(Kindle|Nook|Bookeen|Kobo|EBRD|PocketBook|Iriver)/ui', $ua)) {
+            return;
+        }
+
         $this->detectKindle($ua);
         $this->detectNook($ua);
         $this->detectBookeen($ua);
@@ -139,7 +143,7 @@ trait Ereader
     {
         if (preg_match('/PocketBook\/([0-9]+)/u', $ua, $match)) {
             $model = null;
- 
+
             switch ($match[1]) {
                 case '515':
                     $model = 'Mini';

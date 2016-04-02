@@ -8,6 +8,10 @@ trait Using
 {
     private function &detectUsing($ua)
     {
+        if (!preg_match('/(AdobeAIR|Awesomium|Embedded|bsalsa|Canvace|Ekioh|AtomShell|Electron|JavaFX|GFXe|luakit|Titanium|OpenWebKitSharp|Prism|Qt|Reqwireless|RhoSimulator|UWebKit|nw-tests|WebKit2)/ui', $ua)) {
+            return $this;
+        }
+
         $items = [
             [ 'name' => 'AdobeAIR',                         'regexp' => '/AdobeAIR\/([0-9.]*)/u' ],
             [ 'name' => 'Awesomium',                        'regexp' => '/Awesomium\/([0-9.]*)/u' ],
@@ -45,6 +49,8 @@ trait Using
                 if (isset($match[1]) && $match[1]) {
                     $this->data->browser->using->version = new Version([ 'value' => $match[1], 'details' => isset($items[$i]['details']) ? $items[$i]['details'] : null ]);
                 }
+
+                break;
             }
         }
 

@@ -8,9 +8,11 @@ trait Cars
 {
     private function detectCars($ua)
     {
-        if (preg_match('/Car/u', $ua)) {
-            $this->detectTesla($ua);
+        if (!preg_match('/Car/ui', $ua)) {
+            return;
         }
+
+        $this->detectTesla($ua);
     }
 
 

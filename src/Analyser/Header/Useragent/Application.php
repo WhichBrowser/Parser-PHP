@@ -335,6 +335,10 @@ trait Application
     {
         if ($data = Data\Applications::identifyOther($ua)) {
             $this->data->browser->set($data['browser']);
+            
+            if (!empty($data['device'])) {
+                $this->data->device->set($data['device']);
+            }
         }
     }
 }

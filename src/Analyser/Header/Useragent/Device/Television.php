@@ -348,7 +348,7 @@ trait Television
 
     private function detectSharpTelevision($ua)
     {
-        if (preg_match('/AQUOSBrowser/u', $ua) || preg_match('/AQUOS-(AS|DMP)/u', $ua)) {
+        if (preg_match('/(AQUOSBrowser|AQUOS-(AS|DMP))/u', $ua)) {
             $this->data->device->manufacturer = 'Sharp';
             $this->data->device->series = 'Aquos TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
@@ -398,6 +398,10 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
+        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
+            return;
+        }
+
         /* Orange La clé TV */
 
         if (preg_match('/lacleTV\//u', $ua)) {

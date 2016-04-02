@@ -288,32 +288,18 @@ class DeviceModels
 
         $s = preg_replace('/UCBrowser$/u', '', $s);
 
-        $s = preg_replace('/_TD$/u', '', $s);
-        $s = preg_replace('/_LTE$/u', '', $s);
-        $s = preg_replace('/_GPRS$/u', '', $s);
-        $s = preg_replace('/_BLEU$/u', '', $s);
-        $s = preg_replace('/_CMCC$/u', '', $s);
-        $s = preg_replace('/_CUCC$/u', '', $s);
-        $s = preg_replace('/-BREW.+$/u', '', $s);
-        $s = preg_replace('/ MIDP.+$/u', '', $s);
+        $s = preg_replace('/(_TD|_LTE|_GPRS|_BLEU|_CMCC|_CMCC_TD|_CUCC)$/u', '', $s);
+        $s = preg_replace('/(-BREW| MIDP).+$/u', '', $s);
         $s = preg_replace('/ AU-MIC.+$/u', '', $s);
-        $s = preg_replace('/ AU\.Browser$/u', '', $s);
-        $s = preg_replace('/ UP\.Browser$/u', '', $s);
+        $s = preg_replace('/ (AU|UP)\.Browser$/u', '', $s);
 
         $s = preg_replace('/_/u', ' ', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);
 
-        $s = preg_replace('/^tita on /u', '', $s);
         $s = preg_replace('/^De-Sensed /u', '', $s);
-        $s = preg_replace('/^ICS AOSP on /u', '', $s);
-        $s = preg_replace('/^Baidu Yi on /u', '', $s);
-        $s = preg_replace('/^Buildroid for /u', '', $s);
-        $s = preg_replace('/^Gingerbread on /u', '', $s);
-        $s = preg_replace('/^Android (on |for )/u', '', $s);
-        $s = preg_replace('/^Generic Android on /u', '', $s);
         $s = preg_replace('/^Full JellyBean( on )?/u', '', $s);
+        $s = preg_replace('/^(Android|Generic Android|Baidu Yi|Buildroid|Gingerbread|ICS AOSP|AOSPA?|tita) (on |for )/u', '', $s);
         $s = preg_replace('/^Full (AOSP on |Android on |Base for |Cappuccino on |MIPS Android on |Webdroid on |JellyBean on |Android)/u', '', $s);
-        $s = preg_replace('/^AOSPA? on /u', '', $s);
 
         $s = preg_replace('/^Acer( |-)?/iu', '', $s);
         $s = preg_replace('/^Iconia( Tab)? /u', '', $s);
@@ -340,8 +326,7 @@ class DeviceModels
         $s = preg_replace('/^(HTC.+)\s[v|V][0-9.]+$/u', '$1', $s);
         $s = preg_replace('/^(HTC)[-\/]/u', '$1', $s);
         $s = preg_replace('/^(HTC)([A-Z][0-9][0-9][0-9])/u', '$1 $2', $s);
-        $s = preg_replace('/^(Motorola[\s|-])/u', '', $s);
-        $s = preg_replace('/^(MOT-)/u', '', $s);
+        $s = preg_replace('/^(MOT-|Motorola[\s|-])/u', '', $s);
         $s = preg_replace('/^Moto([^\s])/u', '$1', $s);
         $s = preg_replace('/^(UTStar-)/u', '', $s);
 

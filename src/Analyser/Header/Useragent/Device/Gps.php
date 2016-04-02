@@ -8,6 +8,10 @@ trait Gps
 {
     private function detectGps($ua)
     {
+        if (!preg_match('/Nuvi/ui', $ua)) {
+            return;
+        }
+        
         $this->detectGarmin($ua);
     }
 

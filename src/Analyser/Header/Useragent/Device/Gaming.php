@@ -9,21 +9,14 @@ trait Gaming
 {
     private function detectGaming($ua)
     {
-        if (preg_match('/Nintendo/iu', $ua) || preg_match('/Nitro/iu', $ua)) {
-            $this->detectNintendo($ua);
+        if (!preg_match('/(Nintendo|Nitro|PlayStation|PS[0-9]|Sega|Dreamcast|Xbox)/ui', $ua)) {
+            return;
         }
 
-        if (preg_match('/PlayStation/iu', $ua) || preg_match('/PS[0-9]/u', $ua)) {
-            $this->detectPlaystation($ua);
-        }
-
-        if (preg_match('/Xbox/iu', $ua)) {
-            $this->detectXbox($ua);
-        }
-
-        if (preg_match('/Sega/iu', $ua) || preg_match('/Dreamcast/u', $ua)) {
-            $this->detectSega($ua);
-        }
+        $this->detectNintendo($ua);
+        $this->detectPlaystation($ua);
+        $this->detectXbox($ua);
+        $this->detectSega($ua);
     }
 
 

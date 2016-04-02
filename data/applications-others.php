@@ -7,18 +7,21 @@ use WhichBrowser\Constants;
 Applications::$OTHERS = [
 
     Constants\BrowserType::APP_MEDIAPLAYER => [
-        [ 'name' => 'iTunes',               'id'    => 'itunes',      'regexp' =>'/iTunes\/(?:xaa.)?([0-9.]*)/u' ],
-        [ 'name' => 'iTunes',               'id'    => 'itunes',      'regexp' =>'/iTunes-AppleTV\//u' ],
-        [ 'name' => 'QuickTime',            'id'    => 'qt',      'regexp' =>'/\(qtver=([0-9.]*);/u' ],
-        [ 'name' => 'Bluefish',             'id'    => 'bluefish',      'regexp' =>'/bluefish ([0-9.]*)/u' ],
-        [ 'name' => 'Nightingale',          'id'    => 'nightingale',      'regexp' =>'/Nightingale\/([0-9.]*)/u' ],
-        [ 'name' => 'Songbird',             'id'    => 'songbird',      'regexp' =>'/Songbird\/([0-9.]*)/u' ],
-        [ 'name' => 'Stagefright',          'id'    => 'stagefright',      'regexp' =>'/stagefright\/([0-9.]*)/u' ],
-        [ 'name' => 'SubStream',            'id'    => 'substream',      'regexp' =>'/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
-        [ 'name' => 'VLC',                  'id'    => 'vlc',      'regexp' =>'/VLC media player - version ([0-9.]*)/u' ],
-        [ 'name' => 'Windows Media Player', 'id'    => 'windows-media',      'regexp' =>'/Windows-Media-Player\/([0-9.]*)/u', 'details' => 1 ],
-        [ 'name' => 'CorePlayer',           'id'    => 'coreplayer',      'regexp' =>'/CorePlayer\/([0-9.]*)/u' ],
-        [ 'name' => 'FlyCast',              'id'    => 'flycast',      'regexp' =>'/FlyCast\/([0-9.]*)/u' ],
+        [ 'name' => 'iTunes',               'id'    => 'itunes',            'regexp' =>'/iTunes\/(?:xaa.)?([0-9.]*)/u' ],
+        [ 'name' => 'iTunes',               'id'    => 'itunes',            'regexp' =>'/iTunes-AppleTV\//u' ],
+        [ 'name' => 'QuickTime',            'id'    => 'qt',                'regexp' =>'/\(qtver=([0-9.]*);/u' ],
+        [ 'name' => 'Bluefish',             'id'    => 'bluefish',          'regexp' =>'/bluefish ([0-9.]*)/u' ],
+        [ 'name' => 'Nightingale',          'id'    => 'nightingale',       'regexp' =>'/Nightingale\/([0-9.]*)/u' ],
+        [ 'name' => 'Songbird',             'id'    => 'songbird',          'regexp' =>'/Songbird\/([0-9.]*)/u' ],
+        [ 'name' => 'Stagefright',          'id'    => 'stagefright',       'regexp' =>'/stagefright\/([0-9.]*)/u' ],
+        [ 'name' => 'SubStream',            'id'    => 'substream',         'regexp' =>'/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
+        [ 'name' => 'VLC',                  'id'    => 'vlc',               'regexp' =>'/VLC media player - version ([0-9.]*)/u' ],
+        [ 'name' => 'Windows Media Player', 'id'    => 'windows-media',     'regexp' =>'/Windows-Media-Player\/([0-9.]*)/u', 'details' => 1 ],
+        [ 'name' => 'CorePlayer',           'id'    => 'coreplayer',        'regexp' =>'/CorePlayer\/([0-9.]*)/u' ],
+        [ 'name' => 'FlyCast',              'id'    => 'flycast',           'regexp' =>'/FlyCast\/([0-9.]*)/u' ],
+        [ 'name' => 'Boxee',                'id'    => 'boxee',             'regexp' => '/Boxee(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::TELEVISION ],
+        [ 'name' => 'Kodi',                 'id'    => 'kodi',              'regexp' => '/^Kodi\/([0-9.]+)/u', 'details' => 2 ],
+        [ 'name' => 'XBMC',                 'id'    => 'xbmc',              'regexp' => '/^XBMC\/(?:PRE-)?([0-9.]+)/u', 'details' => 2 ],
     ],
 
     Constants\BrowserType::APP_EMAIL => [

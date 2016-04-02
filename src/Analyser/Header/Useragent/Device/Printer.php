@@ -8,6 +8,10 @@ trait Printer
 {
     private function detectPrinter($ua)
     {
+        if (!preg_match('/(TASKalfa|CanonIJCL|PrintSmart)/ui', $ua)) {
+            return;
+        }
+
         /* TASKalfa */
 
         if (preg_match('/TASKalfa ([0-9A-Z]+)/iu', $ua, $match)) {

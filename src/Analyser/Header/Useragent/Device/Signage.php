@@ -8,6 +8,10 @@ trait Signage
 {
     private function detectSignage($ua)
     {
+        if (!preg_match('/(BrightSign|ADAPI)/ui', $ua)) {
+            return;
+        }
+
         /* BrightSign */
 
         if (preg_match('/BrightSign\/[0-9\.]+(?:-[a-z0-9\-]+)? \(([^\)]+)/u', $ua, $match)) {

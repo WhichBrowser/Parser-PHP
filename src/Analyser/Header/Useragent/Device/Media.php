@@ -8,6 +8,10 @@ trait Media
 {
     private function detectMedia($ua)
     {
+        if (!preg_match('/(Archos|Zune|Walkman)/ui', $ua)) {
+            return;
+        }
+
         $this->detectArchos($ua);
         $this->detectZune($ua);
         $this->detectWalkman($ua);
