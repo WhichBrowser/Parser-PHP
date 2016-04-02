@@ -326,7 +326,7 @@ class DeviceModels
         $s = preg_replace('/^(HTC.+)\s[v|V][0-9.]+$/u', '$1', $s);
         $s = preg_replace('/^(HTC)[-\/]/u', '$1', $s);
         $s = preg_replace('/^(HTC)([A-Z][0-9][0-9][0-9])/u', '$1 $2', $s);
-        $s = preg_replace('/^(MOT-|Motorola[\s|-])/u', '', $s);
+        $s = preg_replace('/^(Motorola MOT-|MOT-|Motorola[\s|-])/u', '', $s);
         $s = preg_replace('/^Moto([^\s])/u', '$1', $s);
         $s = preg_replace('/^(UTStar-)/u', '', $s);
 
