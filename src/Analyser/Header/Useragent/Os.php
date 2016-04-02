@@ -405,22 +405,24 @@ trait Os
 
         /* COS */
 
-        if (preg_match('/COS[\/ ]?([0-9]\.[0-9.]+)/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-        } elseif (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-        } elseif (preg_match('/COS like Android/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
-            $this->data->os->version = null;
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-        } elseif (preg_match('/(COS like Android|COSBrowser\/|\(COS;|\(COS 998;)/ui', $ua, $match)) {
-            $this->data->os->name = 'COS';
-            $this->data->os->family = new Family([ 'name' => 'Android' ]);
+        if (preg_match('/(COS|Chinese Operating System)/ui', $ua)) {
+            if (preg_match('/COS[\/ ]?([0-9]\.[0-9.]+)/ui', $ua, $match)) {
+                $this->data->os->name = 'COS';
+                $this->data->os->family = new Family([ 'name' => 'Android' ]);
+                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            } elseif (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
+                $this->data->os->name = 'COS';
+                $this->data->os->family = new Family([ 'name' => 'Android' ]);
+                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            } elseif (preg_match('/COS like Android/ui', $ua, $match)) {
+                $this->data->os->name = 'COS';
+                $this->data->os->family = new Family([ 'name' => 'Android' ]);
+                $this->data->os->version = null;
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            } elseif (preg_match('/(COS like Android|COSBrowser\/|\(COS;|\(COS 998;)/ui', $ua, $match)) {
+                $this->data->os->name = 'COS';
+                $this->data->os->family = new Family([ 'name' => 'Android' ]);
+            }
         }
     }
 
@@ -1027,6 +1029,10 @@ trait Os
 
     private function detectSymbian($ua)
     {
+        if (!preg_match('/(Series|Symbian|S60|UIQ)/ui', $ua)) {
+            return;
+        }
+
         /* Series 80 */
 
         if (preg_match('/Series80\/([0-9.]*)/u', $ua, $match)) {
@@ -1122,6 +1128,10 @@ trait Os
 
     private function detectNokiaOs($ua)
     {
+        if (!preg_match('/(Series|MeeGo|Maemo|Geos)/ui', $ua)) {
+            return;
+        }
+
         /* Series 40 */
 
         if (preg_match('/Series40/u', $ua)) {
@@ -1450,6 +1460,10 @@ trait Os
 
     private function detectUnix($ua)
     {
+        if (!preg_match('/(UNIX|OSF|ULTRIX|HP-UX|SunOS|Solaris|AIX|IRIX|NEWS-OS|GENIX)/ui', $ua)) {
+            return;
+        }
+
         /* Unix */
 
         if (preg_match('/Unix/iu', $ua)) {
@@ -1984,14 +1998,18 @@ trait Os
 
     private function detectRemainingOperatingSystems($ua)
     {
+        if (!preg_match('/(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|QNX|VRE|SpreadTrum|EPOC|ThreadX)/ui', $ua)) {
+            return;
+        }
+        
         $patterns = [
             [ 'name' => 'BeOS',         'regexp' => [ '/BeOS/iu' ],                                         'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Haiku',        'regexp' => [ '/Haiku/iu' ],                                        'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'AmigaOS',      'regexp' => [ '/AmigaOS/iu', '/AmigaOS ?([0-9.]+)/iu' ],            'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'AmigaOS',      'regexp' => [ '/AmigaOS ?([0-9.]+)/iu', '/AmigaOS/iu' ],            'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'MorphOS',      'regexp' => [ '/MorphOS(?: ([0-9.]*))?/iu' ],                       'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'AROS',         'regexp' => [ '/AROS/iu' ],                                         'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'OpenVMS',      'regexp' => [ '/OpenVMS/iu', '/OpenVMS V([0-9.]+)/iu' ],            'type' => Constants\DeviceType::DESKTOP ],
-            [ 'name' => 'RISC OS',      'regexp' => [ '/RISC OS/iu', '/RISC OS(?:-NC)? ([0-9.]*)/iu' ],     'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'OpenVMS',      'regexp' => [ '/OpenVMS V([0-9.]+)/iu', '/OpenVMS/iu' ],            'type' => Constants\DeviceType::DESKTOP ],
+            [ 'name' => 'RISC OS',      'regexp' => [ '/RISC OS(?:-NC)? ([0-9.]*)/iu', '/RISC OS/iu' ],     'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Joli OS',      'regexp' => [ '/Joli OS\/([0-9.]*)/iu' ],                           'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'OS/2',         'regexp' => [ '/OS\/2;(?: (?:U; )?Warp ([0-9.]*))?/iu' ],           'type' => Constants\DeviceType::DESKTOP ],
             [ 'name' => 'Inferno',      'regexp' => [ '/Inferno/iu' ],                                      'type' => Constants\DeviceType::DESKTOP ],
@@ -2020,8 +2038,6 @@ trait Os
                 if (preg_match($patterns[$b]['regexp'][$r], $ua, $match)) {
                     $this->data->os->name = $patterns[$b]['name'];
 
-                    $this->data->os->name = $patterns[$b]['name'];
-
                     if (isset($match[1]) && $match[1]) {
                         $this->data->os->version = new Version([ 'value' => $match[1], 'details' => isset($patterns[$b]['details']) ? $patterns[$b]['details'] : null ]);
                     } else {
@@ -2031,6 +2047,8 @@ trait Os
                     if (isset($patterns[$b]['type'])) {
                         $this->data->device->type = $patterns[$b]['type'];
                     }
+
+                    break;
                 }
             }
         }
