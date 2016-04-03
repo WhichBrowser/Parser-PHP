@@ -10,6 +10,10 @@ trait Pda
 {
     private function detectPda($ua)
     {
+        if (!preg_match('/(CASIO|Palm|pdQ|COM|airboard|sharp|pda|POCKET-E|OASYS|NTT\/PI)/ui', $ua)) {
+            return;
+        }
+
         $this->detectCasio($ua);
         $this->detectPalm($ua);
         $this->detectSonyMylo($ua);
