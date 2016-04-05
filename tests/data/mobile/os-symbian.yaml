@@ -198,3 +198,7 @@
     headers: 'User-Agent: Nokia-N8-00/Unknown_FVersion Encoding/UTF-8 Lang/ar Caps/223 Morange/6.1.1 CS60/6.11.58 S60/50 PI/bb8c926f183ad2d16ca6bf706c7c011f Domain/@voda_egypt'
     readable: 'a Nokia N8-00 running Series60 6.11.58'
     result: { os: { name: Series60, family: Symbian, version: 6.11.58 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N8-00 } }
+-
+    headers: 'User-Agent: Doris/1.15 [en] (Symbian)'
+    readable: 'Doris 1.15'
+    result: { browser: { name: Doris, version: '1.15', type: browser }, os: { family: Symbian } }
