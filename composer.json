@@ -27,12 +27,12 @@
     "require-dev": {
         "symfony/yaml": "^2.7",
         "league/csv": "^8.0",
-        "squizlabs/php_codesniffer": "2.*",
         "phpunit/php-code-coverage": "^2.2|^3.0",
         "phpunit/PHPUnit": "^4.0",
         "satooshi/php-coveralls": "^0.6.1",
         "icomefromthenet/reverse-regex" : "dev-master",
-        "cache/array-adapter": "^0.3.0"
+        "cache/array-adapter": "^0.3.0",
+        "squizlabs/php_codesniffer": "2.5.*"
     },
 
     "autoload-dev": {
