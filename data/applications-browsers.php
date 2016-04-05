@@ -179,6 +179,9 @@ Applications::$BROWSERS = [
         /* Other browsers */
         [ 'name' => 'Wear Internet Browser','id'    => 'wib',      'regexp' =>'/WIB\/([0-9.]*)/u' ],
 
+        /* PDF renderers */
+        [ 'name' => 'Prince',               'id'    => 'prince',      'regexp' =>'/Prince\/([0-9.]*)/u' ],
+
         /* Unsorted */
         [ 'name' => 'Demobrowser',          'id'    => 'demobrowser',      'regexp' =>'/demobrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Dooble',               'id'    => 'dooble',      'regexp' =>'/Dooble(?:\/([0-9.]*))?/u' ],                                                          // see: http://dooble.sourceforge.net
