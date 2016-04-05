@@ -42,3 +42,7 @@
     headers: 'User-Agent: AiMeiTuan /samsung-4.0.4-SHV-E120S-1280x720-320-4.1.2-116-358362043662925-market'
     readable: 'AiMeiTuan on a Samsung Galaxy S II HD LTE running Android 4.0.4'
     result: { browser: { name: AiMeiTuan, type: app }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II HD LTE' } }
+-
+    headers: 'User-Agent: SonyLT25i Build/9.1.A.0.490 UpdateCenter/1.2'
+    readable: 'Sony Update Center on a Sony Xperia V running Android'
+    result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia V' } }

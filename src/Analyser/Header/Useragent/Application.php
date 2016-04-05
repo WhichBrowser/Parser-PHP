@@ -25,7 +25,7 @@ trait Application
     {
         /* Sony Updatecenter */
 
-        if (preg_match('/^(.*) Build\/.* com.sonyericsson.updatecenter\/[A-Z0-9\.]+$/iu', $ua, $match)) {
+        if (preg_match('/^(.*) Build\/.* (?:com.sonyericsson.updatecenter|UpdateCenter)\/[A-Z0-9\.]+$/iu', $ua, $match)) {
             $this->data->browser->name = 'Sony Update Center';
             $this->data->browser->version = null;
             $this->data->browser->type = Constants\BrowserType::APP;
@@ -335,7 +335,7 @@ trait Application
     {
         if ($data = Data\Applications::identifyOther($ua)) {
             $this->data->browser->set($data['browser']);
-            
+
             if (!empty($data['device'])) {
                 $this->data->device->set($data['device']);
             }

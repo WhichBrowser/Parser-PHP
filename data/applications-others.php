@@ -16,6 +16,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Stagefright',          'id'    => 'stagefright',       'regexp' =>'/stagefright\/([0-9.]*)/u' ],
         [ 'name' => 'SubStream',            'id'    => 'substream',         'regexp' =>'/SubStream\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'VLC',                  'id'    => 'vlc',               'regexp' =>'/VLC media player - version ([0-9.]*)/u' ],
+        [ 'name' => 'VLC',                  'id'    => 'vlc',               'regexp' =>'/VLC\/([0-9.]*)/u' ],
         [ 'name' => 'Windows Media Player', 'id'    => 'windows-media',     'regexp' =>'/Windows-Media-Player\/([0-9.]*)/u', 'details' => 1 ],
         [ 'name' => 'CorePlayer',           'id'    => 'coreplayer',        'regexp' =>'/CorePlayer\/([0-9.]*)/u' ],
         [ 'name' => 'FlyCast',              'id'    => 'flycast',           'regexp' =>'/FlyCast\/([0-9.]*)/u' ],
@@ -81,13 +82,20 @@ Applications::$OTHERS = [
         [ 'name' => 'Google+',              'id'    => 'googleplus',      'regexp' =>'/com.google.GooglePlus/u'  ],
         [ 'name' => 'Instagram',            'id'    => 'instagram',      'regexp' =>'/Instagram ([0-9.]+)/u' ],
         [ 'name' => 'Sina Weibo',           'id'    => 'weibo',      'regexp' =>'/weibo__([0-9.]*)/u' ],
+        [ 'name' => 'Tumblr',               'id'    => 'tumblr',      'regexp' =>'/Tumblr\/([0-9.]*)/u' ],
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/TwitterAndroid/u' ],
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/Twitter for iPhone/u' ],
         [ 'name' => 'WordPress',            'id'    => 'wp-android',      'regexp' =>'/wp-android\/([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_OFFICE => [
+        [ 'name' => 'LibreOffice',          'id'    => 'office',      'regexp' =>'/LibreOffice/u' ],
         [ 'name' => 'Microsoft Office',     'id'    => 'office',      'regexp' =>'/MSOffice ([0-9.]*)/u' ],
+        [ 'name' => 'Microsoft Office',     'id'    => 'office',      'regexp' =>'/Microsoft Office Mobile ?\/([0-9.]*)/u' ],
+        [ 'name' => 'Microsoft Excel',      'id'    => 'office',      'regexp' =>'/Microsoft Office Excel ([0-9.]*)/u' ],
+        [ 'name' => 'Microsoft OneNote',    'id'    => 'office',      'regexp' =>'/Microsoft Office OneNote ([0-9.]*)/u' ],
+        [ 'name' => 'Microsoft Word',       'id'    => 'office',      'regexp' =>'/Microsoft Office Word ([0-9.]*)/u' ],
+        [ 'name' => 'OpenOffice',           'id'    => 'office',      'regexp' =>'/OpenOffice\/([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_SEARCH => [
@@ -101,7 +109,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Adobe GoLive',         'id'    => 'golive',      'regexp' =>'/GoLive ([0-9.]*)/u' ],
         [ 'name' => 'Brackets',             'id'    => 'brackets',      'regexp' =>'/Brackets\/([0-9.]*)/u' ],
         [ 'name' => 'iWeb',                 'id'    => 'iweb',      'regexp' =>'/iWeb\/([0-9])/u' ],
-        [ 'name' => 'Microsoft FrontPage',  'id'    => 'frontpage',      'regexp' =>'/MS FrontPage ([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Microsoft FrontPage',  'id'    => 'frontpage',      'regexp' =>'/MS ?FrontPage[ \/]([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'W3C Amaya',            'id'    => 'amaya',      'regexp' =>'/amaya\/([0-9.]*)/u' ],
     ],
 
