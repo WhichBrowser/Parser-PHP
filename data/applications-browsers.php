@@ -122,6 +122,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'CuteBrowser',          'id'    => 'cute',      'regexp' =>'/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Digia @Web',           'id'    => 'digia',      'regexp' =>'/Digia @Web\/([0-9.]*)/u' ],
         [ 'name' => 'Dorado',               'id'    => 'dorado',      'regexp' =>'/Browser\/Dorado([0-9.]*)/u' ],
+        [ 'name' => 'Dorado',               'id'    => 'dorado',      'regexp' =>'/Dorado WAP-Browser\/([0-9.]*)/u' ],
         [ 'name' => 'Doris',                'id'    => 'doris',      'regexp' =>'/Doris\/([0-9.]*)/u' ],
         [ 'name' => 'Dorothy',              'id'    => 'doroty',      'regexp' =>'/Dorothy$/u' ],
         [ 'name' => 'EMOBILE Browser',      'id'    => 'www browser',      'regexp' =>'/WWW Browser\/ver([0-9.]*)/u' ],
@@ -224,6 +225,7 @@ Applications::$BROWSERS = [
     Constants\BrowserType::BROWSER_TEXT => [
         [ 'name' => 'CERN LineMode',        'id'    => 'linemode',      'regexp' =>'/CERN-LineMode\/([0-9.]*)/u' ],
         [ 'name' => 'Lynx',                 'id'    => 'lynx',      'regexp' =>'/Lynx\/([0-9.]*)/u' ],
+        [ 'name' => 'Lynx',                 'id'    => 'lynx',      'regexp' =>'/Lynx \(textmode\)/u' ],
         [ 'name' => 'ELinks',               'id'    => 'links',      'regexp' =>'/E[Ll]inks(?:\/| \()([0-9.]*[0-9])/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Links',                'id'    => 'links',      'regexp' =>'/Links \(([0-9.]*)/u' ],
         [ 'name' => 'w3m',                  'id'    => 'w3m',      'regexp' =>'/w3m\/([0-9.]*)/u' ],

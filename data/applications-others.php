@@ -94,6 +94,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Microsoft Office',     'id'    => 'office',      'regexp' =>'/Microsoft Office Mobile ?\/([0-9.]*)/u' ],
         [ 'name' => 'Microsoft Excel',      'id'    => 'office',      'regexp' =>'/Microsoft Office Excel ([0-9.]*)/u' ],
         [ 'name' => 'Microsoft OneNote',    'id'    => 'office',      'regexp' =>'/Microsoft Office OneNote ([0-9.]*)/u' ],
+        [ 'name' => 'Microsoft PowerPoint', 'id'    => 'office',      'regexp' =>'/Microsoft Office PowerPoint ([0-9.]*)/u' ],
         [ 'name' => 'Microsoft Word',       'id'    => 'office',      'regexp' =>'/Microsoft Office Word ([0-9.]*)/u' ],
         [ 'name' => 'OpenOffice',           'id'    => 'office',      'regexp' =>'/OpenOffice\/([0-9.]*)/u' ],
     ],
