@@ -21,13 +21,11 @@ class Wap
         $result = Data\DeviceProfiles::identify($header);
 
         if ($result) {
-            if ($result[0] && $result[1]) {
-                $this->data->device->manufacturer = $result[0];
-                $this->data->device->model = $result[1];
-                $this->data->device->identified |= Constants\Id::MATCH_PROF;
-            }
+            $this->data->device->manufacturer = $result[0];
+            $this->data->device->model = $result[1];
+            $this->data->device->identified |= Constants\Id::MATCH_PROF;
 
-            if ($result[2] && (!isset($this->data->os->name) || $this->data->os->name != $result[2])) {
+            if (!empty($result[2]) && (!isset($this->data->os->name) || $this->data->os->name != $result[2])) {
                 $this->data->os->name = $result[2];
                 $this->data->os->version = null;
 
@@ -35,7 +33,7 @@ class Wap
                 $this->data->engine->version = null;
             }
 
-            if ($result[3]) {
+            if (isset($result[3])) {
                 $this->data->device->type = $result[3];
             }
         }
