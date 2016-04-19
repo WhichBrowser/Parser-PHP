@@ -851,7 +851,7 @@ trait Os
                         $this->data->device->identified = Constants\Id::NONE;
                     }
 
-                    if ($this->data->device->manufacturer == 'Microsoft' && $this->data->device->model == 'XDeviceEmulator') {
+                    if ($this->data->device->model == 'XDeviceEmulator') {
                         $this->data->device->manufacturer = null;
                         $this->data->device->model = null;
                         $this->data->device->type = Constants\DeviceType::EMULATOR;
