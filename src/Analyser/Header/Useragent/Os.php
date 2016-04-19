@@ -1894,6 +1894,12 @@ trait Os
             $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
+
+        if (preg_match('/Lindows ([0-9.]+)/u', $ua, $match)) {
+            $this->data->os->name = 'Lindows';
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
     }
 
 
