@@ -43,7 +43,7 @@ class Browser extends NameVersion
         parent::reset();
 
         unset($this->channel);
-        unset($this->useing);
+        unset($this->using);
         unset($this->family);
 
         $this->stock = true;
