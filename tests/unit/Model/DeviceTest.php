@@ -10,6 +10,16 @@ use WhichBrowser\Model\Device;
  */
 class DeviceTest extends PHPUnit_Framework_TestCase
 {
+    public function testDefaults()
+    {
+        $device = new Device();
+
+        $this->assertEquals(true, $device->generic);
+        $this->assertEquals(Constants\Id::NONE, $device->identified);
+        $this->assertEquals('', $device->type);
+        $this->assertEquals('', $device->subtype);
+    }
+
     public function testEmpty()
     {
         $device = new Device();
@@ -46,6 +56,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('Microsoft', $device->getManufacturer());
         $this->assertEquals('Xbox One', $device->getModel());
+        $this->assertEquals(false, $device->generic);
     }
 
     public function testReset()
@@ -59,11 +70,17 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('Nintendo', $device->getManufacturer());
         $this->assertEquals('Wii', $device->getModel());
+        $this->assertEquals(false, $device->generic);
 
         $device->reset();
 
         $this->assertEquals('', $device->getManufacturer());
         $this->assertEquals('', $device->getModel());
+
+        $this->assertEquals(true, $device->generic);
+        $this->assertEquals(Constants\Id::NONE, $device->identified);
+        $this->assertEquals('', $device->type);
+        $this->assertEquals('', $device->subtype);
     }
 
     public function testResetWithDefaults()
@@ -73,10 +90,12 @@ class DeviceTest extends PHPUnit_Framework_TestCase
         $device->setIdentification([ 'model' => 'Wii' ]);
 
         $this->assertEquals('Wii', $device->getModel());
+        $this->assertEquals(false, $device->generic);
 
         $device->reset([ 'model' => 'Xbox One' ]);
 
         $this->assertEquals('Xbox One', $device->getModel());
+        $this->assertEquals(true, $device->generic);
     }
 
     public function testModelNoSeries()
@@ -93,6 +112,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('Nintendo', $device->manufacturer);
         $this->assertEquals('Wii', $device->model);
+        $this->assertEquals(false, $device->generic);
     }
 
     public function testSeriesNoModel()
@@ -109,6 +129,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('Kobo', $device->manufacturer);
         $this->assertEquals('eReader', $device->series);
+        $this->assertEquals(true, $device->generic);
     }
 
     public function testModelAndSeries()
@@ -127,6 +148,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Sony', $device->manufacturer);
         $this->assertEquals('PRS-T2', $device->model);
         $this->assertEquals('Reader', $device->series);
+        $this->assertEquals(false, $device->generic);
     }
 
     public function testCarrier()
@@ -141,6 +163,7 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('DoCoMo', $device->getCarrier());
         $this->assertEquals('DoCoMo', $device->carrier);
+        $this->assertEquals(false, $device->generic);
     }
 
 
@@ -155,9 +178,10 @@ class DeviceTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('', $device->getManufacturer());
         $this->assertEquals('Xbox One', $device->getModel());
+        $this->assertEquals(true, $device->generic);
     }
 
-    public function testToString() 
+    public function testToString()
     {
         $device = new Device();
 

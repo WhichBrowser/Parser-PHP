@@ -13,6 +13,33 @@ use WhichBrowser\Model\Version;
  */
 class BrowserTest extends PHPUnit_Framework_TestCase
 {
+    public function testDefaults()
+    {
+        $browser = new Browser();
+
+        $this->assertEquals(true, $browser->stock);
+        $this->assertEquals(false, $browser->hidden);
+        $this->assertEquals('', $browser->mode);
+        $this->assertEquals('', $browser->type);
+    }
+
+    public function testReset()
+    {
+        $browser = new Browser([
+            'stock'     => false,
+            'hidden'    => true,
+            'mode'      => 'xxxx',
+            'type'      => 'xxxx'
+        ]);
+
+        $browser->reset();
+
+        $this->assertEquals(true, $browser->stock);
+        $this->assertEquals(false, $browser->hidden);
+        $this->assertEquals('', $browser->mode);
+        $this->assertEquals('', $browser->type);
+    }
+
     public function testGetName()
     {
         $browser = new Browser();
