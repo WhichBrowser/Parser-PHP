@@ -100,8 +100,8 @@
     readable: 'Mobile Internet Explorer 11.0 on a Nokia Lumia 520 running Windows Phone 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 630) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0'
-    result: { browser: { name: Edge, version: '12', type: browser }, engine: { name: EdgeHTML, version: '12.0' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
-    readable: 'Edge 12 on a Nokia Lumia 630 running Windows Phone 10.0'
+    result: { browser: { name: Edge, version: '12', type: browser }, engine: { name: EdgeHTML, version: '12.0' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Lumia 630' } }
+    readable: 'Edge 12 on a Nokia Lumia 630 running Windows 10 Mobile'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; WebView/2.0; rv:11.0; IEMobile/11.0; NOKIA; Lumia 520) like Gecko'
     result: { engine: { name: Trident, version: '7.0' }, os: { name: 'Windows Phone', version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
@@ -1144,17 +1144,17 @@
     result: { browser: { name: 'Mobile Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: emulator } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 950 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586'
-    readable: 'Edge 13 on a Microsoft Lumia 950 XL running Windows Phone 10'
-    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Microsoft, model: 'Lumia 950 XL' } }
+    readable: 'Edge 13 on a Microsoft Lumia 950 XL running Windows 10 Mobile'
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Microsoft, model: 'Lumia 950 XL' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586'
-    readable: 'Edge 13 on a Microsoft Lumia 950 running Windows Phone 10'
-    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Microsoft, model: 'Lumia 950' } }
+    readable: 'Edge 13 on a Microsoft Lumia 950 running Windows 10 Mobile'
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Microsoft, model: 'Lumia 950' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586'
-    readable: 'Edge 13 on a Nokia Lumia 930 running Windows Phone 10'
-    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Nokia, model: 'Lumia 930' } }
+    readable: 'Edge 13 on a Nokia Lumia 930 running Windows 10 Mobile'
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Nokia, model: 'Lumia 930' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 730 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586'
-    readable: 'Edge 13 on a Nokia Lumia 730 running Windows Phone 10'
-    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Nokia, model: 'Lumia 730' } }
+    readable: 'Edge 13 on a Nokia Lumia 730 running Windows 10 Mobile'
+    result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: desktop, manufacturer: Nokia, model: 'Lumia 730' } }

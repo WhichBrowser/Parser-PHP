@@ -76,7 +76,7 @@ class OsTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($os->isDetected());
     }
 
-    public function testIsFamily() 
+    public function testIsFamily()
     {
         $os = new Os();
 
@@ -139,6 +139,16 @@ class OsTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertEquals('Windows XP', $os->toString());
+
+
+        $os->reset([
+            'name'      => 'Windows Phone',
+            'alias'     => 'Windows',
+            'edition'   => 'Mobile',
+            'version'   => new Version([ 'value' => '10.0', 'alias' => '10' ])
+        ]);
+
+        $this->assertEquals('Windows 10 Mobile', $os->toString());
     }
 
     public function testIdentifyVersion()
@@ -221,6 +231,23 @@ class OsTest extends PHPUnit_Framework_TestCase
             'version'   => [
                 'value'     => '5.1',
                 'alias'     => 'XP'
+            ]
+        ], $os->toArray());
+
+        $os->reset([
+            'name'      => 'Windows Phone',
+            'alias'     => 'Windows',
+            'edition'   => 'Mobile',
+            'version'   => new Version([ 'value' => '10.0', 'alias' => '10' ])
+        ]);
+
+        $this->assertEquals([
+            'name'      => 'Windows Phone',
+            'alias'     => 'Windows',
+            'edition'   => 'Mobile',
+            'version'   => [
+                'value'     => '10.0',
+                'alias'     => '10'
             ]
         ], $os->toArray());
 

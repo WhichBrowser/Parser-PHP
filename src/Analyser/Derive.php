@@ -334,6 +334,18 @@ trait Derive
             }
         }
 
+        /* Derive Windows 10 Mobile edition */
+
+        if ($this->data->os->name == 'Windows Phone') {
+            if (!empty($this->data->os->version)) {
+                if ($this->data->os->version->is('=', '10')) {
+                    $this->data->os->alias = 'Windows';
+                    $this->data->os->edition = 'Mobile';
+                    $this->data->os->version->alias = '10';
+                }
+            }
+        }
+
         /* Derive iOS and OS X aliases */
 
         if ($this->data->os->name == 'iOS') {

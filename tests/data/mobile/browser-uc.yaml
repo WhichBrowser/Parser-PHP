@@ -92,12 +92,12 @@
     readable: 'UC Browser 4.2 on a Nokia Lumia 920 running Windows Phone 8.1'
 -
     headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 10.0; xx; NOKIA; RM-978_1012) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 630' } }
-    readable: 'UC Browser 4.2 on a Nokia Lumia 630 running Windows Phone 10.0'
+    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Lumia 630' } }
+    readable: 'UC Browser 4.2 on a Nokia Lumia 630 running Windows 10 Mobile'
 -
     headers: 'User-Agent: UCWEB/2.0 (Windows; U; wds 10.0; xx; NOKIA; RM-984_1043) U2/1.0.0 UCBrowser/4.2.0.524 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }
-    readable: 'UC Browser 4.2 on a Nokia Lumia 830 running Windows Phone 10.0'
+    result: { browser: { name: 'UC Browser', version: '4.2', type: browser }, engine: { name: Trident }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Lumia 830' } }
+    readable: 'UC Browser 4.2 on a Nokia Lumia 830 running Windows 10 Mobile'
 -
     headers: 'User-Agent: UCWEB/2.0 (iOS; U; iPad OS 6_1_2; xx; iPad2,4) U2/1.0.0 UCBrowser/9.2.0.312 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, engine: { name: Gecko }, os: { name: iOS, version: 6.1.2 }, device: { type: tablet, manufacturer: Apple, model: 'iPad 2' } }
@@ -460,8 +460,8 @@
     readable: 'UC Browser 3.3 on a Nokia Lumia 630 running Windows Phone 8.1'
 -
     headers: 'X-UCBrowser-UA: pf(Windows);la(zh-CN);re(U2/1.0.0);dv(NOKIA RM-984_1043);pr(UCBrowser/3.3.0.358);ov(wds 10.0);pi(720*1280);ss(480*853);er(U);bt(YZ);nm(0);im(0);sr(0);nt(2);pm(0);'
-    result: { browser: { name: 'UC Browser', version: '3.3' }, os: { name: 'Windows Phone', version: '10.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 830' } }
-    readable: 'UC Browser 3.3 on a Nokia Lumia 830 running Windows Phone 10.0'
+    result: { browser: { name: 'UC Browser', version: '3.3' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: 'Lumia 830' } }
+    readable: 'UC Browser 3.3 on a Nokia Lumia 830 running Windows 10 Mobile'
 -
     headers: 'User-Agent: Opera/9.80 (Android; Opera Mini/7.28879/27.1662; U; xx) Presto/2.8.119 Version/11.10 UCBrowser/8.4.1.204/145/352/'
     result: { browser: { name: 'UC Browser', version: '8.4', type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart } }

@@ -11,6 +11,9 @@ class Os extends NameVersion
      */
     public $family;
 
+    /** @var string */
+    public $edition;
+
 
     /**
      * Set the properties to the default values
@@ -25,6 +28,7 @@ class Os extends NameVersion
         parent::reset();
 
         unset($this->family);
+        unset($this->edition);
 
         if (is_array($properties)) {
             $this->set($properties);
@@ -73,6 +77,20 @@ class Os extends NameVersion
 
 
     /**
+     * Get the name and version in a human readable format
+     *
+     * @return string
+     */
+
+    public function toString()
+    {
+        return trim($this->getName() .
+            (!empty($this->version) && !$this->version->hidden ? ' ' . $this->getVersion() : '')) .
+            (!empty($this->edition) ? ' ' . $this->edition : '');
+    }
+
+
+    /**
      * Get an array of all defined properties
      *
      * @internal
@@ -94,6 +112,10 @@ class Os extends NameVersion
 
         if (!empty($this->alias)) {
             $result['alias'] = $this->alias;
+        }
+
+        if (!empty($this->edition)) {
+            $result['edition'] = $this->edition;
         }
 
         if (!empty($this->version)) {
