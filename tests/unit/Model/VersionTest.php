@@ -14,6 +14,12 @@ class VersionTest extends PHPUnit_Framework_TestCase
     {
         $version = new Version([ 'value' => '40.0.2214' ]);
 
+        $this->assertFalse($version->is());
+        $this->assertFalse($version->is('39'));
+        $this->assertTrue($version->is('40'));
+
+        $version = new Version([ 'value' => '40.0.2214' ]);
+
         $this->assertTrue($version->is('=', '40'));
         $this->assertTrue($version->is('>=', '40'));
         $this->assertTrue($version->is('<=', '40'));
@@ -49,14 +55,26 @@ class VersionTest extends PHPUnit_Framework_TestCase
     {
         $version = new Version();
 
+        $version->value = '';
+        $this->assertEquals((object) [ 'major' => 0, 'minor' => 0, 'patch' => 0 ], $version->getParts());
+
         $version->value = '4';
-        $this->assertEquals((object) [ 'major' => 4, 'minor' => 0, 'patch' => 0 ], $version->getParts());        
+        $this->assertEquals((object) [ 'major' => 4, 'minor' => 0, 'patch' => 0 ], $version->getParts());
 
         $version->value = '4.1';
-        $this->assertEquals((object) [ 'major' => 4, 'minor' => 1, 'patch' => 0 ], $version->getParts());        
+        $this->assertEquals((object) [ 'major' => 4, 'minor' => 1, 'patch' => 0 ], $version->getParts());
 
-        $version->value = '4.1.1';
-        $this->assertEquals((object) [ 'major' => 4, 'minor' => 1, 'patch' => 1 ], $version->getParts());        
+        $version->value = '4.1.2';
+        $this->assertEquals((object) [ 'major' => 4, 'minor' => 1, 'patch' => 2 ], $version->getParts());
+
+        $version->value = '5';
+        $this->assertEquals((object) [ 'major' => 5, 'minor' => 0, 'patch' => 0 ], $version->getParts());
+
+        $version->value = '5.6';
+        $this->assertEquals((object) [ 'major' => 5, 'minor' => 6, 'patch' => 0 ], $version->getParts());
+
+        $version->value = '5.6.7';
+        $this->assertEquals((object) [ 'major' => 5, 'minor' => 6, 'patch' => 7 ], $version->getParts());
     }
 
     public function testGetMajor()
@@ -64,13 +82,13 @@ class VersionTest extends PHPUnit_Framework_TestCase
         $version = new Version();
 
         $version->value = '4';
-        $this->assertEquals(4, $version->getMajor());        
+        $this->assertEquals(4, $version->getMajor());
 
         $version->value = '4.1';
-        $this->assertEquals(4, $version->getMajor());        
+        $this->assertEquals(4, $version->getMajor());
 
         $version->value = '4.1.1';
-        $this->assertEquals(4, $version->getMajor());        
+        $this->assertEquals(4, $version->getMajor());
     }
 
     public function testGetMinor()
@@ -78,13 +96,13 @@ class VersionTest extends PHPUnit_Framework_TestCase
         $version = new Version();
 
         $version->value = '4';
-        $this->assertEquals(0, $version->getMinor());        
+        $this->assertEquals(0, $version->getMinor());
 
         $version->value = '4.1';
-        $this->assertEquals(1, $version->getMinor());        
+        $this->assertEquals(1, $version->getMinor());
 
         $version->value = '4.1.1';
-        $this->assertEquals(1, $version->getMinor());        
+        $this->assertEquals(1, $version->getMinor());
     }
 
     public function testGetPatch()
@@ -92,17 +110,23 @@ class VersionTest extends PHPUnit_Framework_TestCase
         $version = new Version();
 
         $version->value = '4';
-        $this->assertEquals(0, $version->getPatch());        
+        $this->assertEquals(0, $version->getPatch());
 
         $version->value = '4.1';
-        $this->assertEquals(0, $version->getPatch());        
+        $this->assertEquals(0, $version->getPatch());
 
         $version->value = '4.1.1';
-        $this->assertEquals(1, $version->getPatch());        
+        $this->assertEquals(1, $version->getPatch());
     }
 
     public function testToValue() {
         $version = new Version();
+
+        $version->value = '4';
+        $this->assertEquals(4, $this->invokeMethod($version, 'toValue'));
+
+        $version->value = '4.1';
+        $this->assertEquals(4.0001, $this->invokeMethod($version, 'toValue'));
 
         $version->value = '4.1.1';
         $this->assertEquals(4.00010001, $this->invokeMethod($version, 'toValue'));
@@ -149,7 +173,22 @@ class VersionTest extends PHPUnit_Framework_TestCase
 
         $version = new Version();
 
+        $version->set([ 'value' => '4.1.1', 'details' => 0 ]);
+        $this->assertEquals('4.1.1', $version->toString());
+
+        $version->set([ 'value' => '4.1.1', 'details' => 1 ]);
+        $this->assertEquals('4', $version->toString());
+
         $version->set([ 'value' => '4.1.1', 'details' => 2 ]);
+        $this->assertEquals('4.1', $version->toString());
+
+        $version->set([ 'value' => '4.1.1', 'details' => 3 ]);
+        $this->assertEquals('4.1.1', $version->toString());
+
+        $version->set([ 'value' => '4.1.1', 'details' => 4 ]);
+        $this->assertEquals('4.1.1', $version->toString());
+
+        $version->set([ 'value' => '4.1', 'details' => 3 ]);
         $this->assertEquals('4.1', $version->toString());
 
         $version->set([ 'value' => '4.1.1', 'details' => -1 ]);
@@ -158,11 +197,32 @@ class VersionTest extends PHPUnit_Framework_TestCase
         $version->set([ 'value' => '4.1.1', 'details' => -2 ]);
         $this->assertEquals('4', $version->toString());
 
+        $version->set([ 'value' => '4.1.1', 'details' => -3 ]);
+        $this->assertEquals('', $version->toString());
+
+        $version->set([ 'value' => '4.1.1', 'details' => -4 ]);
+        $this->assertEquals('', $version->toString());
+
 
         $version = new Version();
 
+        $version->set([ 'value' => '5.0.2.999', 'builds' => false ]);
+        $this->assertEquals('5.0.2.999', $version->toString());
+
+        $version->set([ 'value' => '5.0.2.1000', 'builds' => false ]);
+        $this->assertEquals('5.0.2', $version->toString());
+
         $version->set([ 'value' => '5.0.2.4428', 'builds' => false ]);
         $this->assertEquals('5.0.2', $version->toString());
+
+        $version->set([ 'value' => '5.0.4428', 'builds' => false ]);
+        $this->assertEquals('5.0', $version->toString());
+
+        $version->set([ 'value' => '5.4428', 'builds' => false ]);
+        $this->assertEquals('5', $version->toString());
+
+        $version->set([ 'value' => '4428', 'builds' => false ]);
+        $this->assertEquals('', $version->toString());
 
 
         $version = new Version();
@@ -210,7 +270,7 @@ class VersionTest extends PHPUnit_Framework_TestCase
             'nickname'  => 'El Capitan'
         ], $version->toArray());
     }
-    
+
 
     /**
      * Call protected/private method of a class.

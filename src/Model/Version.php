@@ -47,7 +47,7 @@ class Version extends Base
             if (count($arguments) == 1) {
                 $compare = $arguments[0];
             }
-            
+
             if (count($arguments) >= 2) {
                 $operator = $arguments[0];
                 $compare = $arguments[1];
@@ -94,9 +94,9 @@ class Version extends Base
         $parts = explode('.', $this->value);
 
         return (object) [
-            'major' => isset($parts[0]) ? intval($parts[0]) : 0,
-            'minor' => isset($parts[1]) ? intval($parts[1]) : 0,
-            'patch' => isset($parts[2]) ? intval($parts[2]) : 0,
+            'major' => !empty($parts[0]) ? intval($parts[0]) : 0,
+            'minor' => !empty($parts[1]) ? intval($parts[1]) : 0,
+            'patch' => !empty($parts[2]) ? intval($parts[2]) : 0,
         ];
     }
 
@@ -219,11 +219,11 @@ class Version extends Base
         if (!empty($this->value)) {
             if (preg_match("/([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?(?:\.([0-9]+))?(?:([ab])([0-9]+))?/", $this->value, $match)) {
                 $v = [ $match[1] ];
-                
+
                 if (array_key_exists(2, $match) && strlen($match[2])) {
                     $v[] = $match[2];
                 }
-                
+
                 if (array_key_exists(3, $match) && strlen($match[3])) {
                     $v[] = $match[3];
                 }
