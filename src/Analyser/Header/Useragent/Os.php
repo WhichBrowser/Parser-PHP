@@ -708,7 +708,7 @@ trait Os
                 }
             }
 
-            if (preg_match('/(Windows Phone|WPDesktop|ZuneWP7)/u', $ua)) {
+            if (preg_match('/(Windows Phone|Windows NT 1[0-9]\.[0-9]; ARM|WPDesktop|ZuneWP7)/u', $ua)) {
                 $this->data->os->name = 'Windows Phone';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
 
@@ -769,6 +769,20 @@ trait Os
                         $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
                     }
+                }
+
+                /* Windows Phone 10 Continuum */
+                if (preg_match('/Windows NT 1[0-9]\.[0-9]; ARM; ([^;\)\s][^;\)]*)\)/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                    $this->data->device->identified |= Constants\Id::PATTERN;
+
+                    $device = Data\DeviceModels::identify('wp', $match[1]);
+                    if ($device->identified) {
+                        $device->identified |= $this->data->device->identified;
+                        $this->data->device = $device;
+                    }
+
+                    $this->data->device->type = Constants\DeviceType::DESKTOP;
                 }
 
                 /* Third party browsers */
