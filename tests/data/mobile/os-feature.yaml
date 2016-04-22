@@ -68,8 +68,8 @@
     readable: 'Opera Mobile 10.10 on a Fly E154 running MRE'
 -
     headers: 'User-Agent: LG-LG840G/V100[TF013293005445552024363913344521363] Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG840G } }
-    readable: 'Obigo Q 7.3 on a LG840G'
+    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 840G } }
+    readable: 'Obigo Q 7.3 on a LG 840G'
 -
     headers: 'User-Agent: LG-T300/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: T300 } }
@@ -424,8 +424,8 @@
     readable: 'Obigo 1.1 on a Sony Ericsson T250a'
 -
     headers: 'User-Agent: LG-LG620G[TF012114009741104000000018032359160] Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG620G } }
-    readable: 'Obigo WAP 2.0 on a LG620G'
+    result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 620G } }
+    readable: 'Obigo WAP 2.0 on a LG 620G'
 -
     headers: 'User-Agent: LG/U900/v1.0'
     result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U900 } }
@@ -466,3 +466,47 @@
     headers: 'User-Agent: Nokia-2228 UP.Browser/6.3.0.8.c.1.104 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '2228' } }
     readable: 'Openwave 6.3 on a Nokia 2228'
+-
+    headers: 'User-Agent: LGECU320'
+    readable: 'a LG CU320'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: CU320 } }
+-
+    headers: 'User-Agent: LGECU400 UPLINK'
+    readable: 'a LG CU400'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: CU400 } }
+-
+    headers: 'User-Agent: LGE610/EAS-1.3'
+    readable: 'a LG 610'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: '610' } }
+-
+    headers: 'User-Agent: LGU400'
+    readable: 'a LG U400'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U400 } }
+-
+    headers: 'User-Agent: LGU8120'
+    readable: 'a LG U8120'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: U8120 } }
+-
+    headers: 'User-Agent: LG 245'
+    readable: 'a LG 245'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: '245' } }
+-
+    headers: 'User-Agent: LG265'
+    readable: 'a LG 265'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: '265' } }
+-
+    headers: 'User-Agent: LG 8600'
+    readable: 'a LG 8600'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: '8600' } }
+-
+    headers: 'User-Agent: LG9100'
+    readable: 'a LG 9100'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: '9100' } }
+-
+    headers: 'User-Agent: LGETU550'
+    readable: 'a LG TU550'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: TU550 } }
+-
+    headers: 'User-Agent: LGL600V'
+    readable: 'a LG L600V'
+    result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: L600V } }

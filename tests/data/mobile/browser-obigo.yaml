@@ -80,8 +80,8 @@
     readable: 'Obigo Q 7.1 on a LG GT505'
 -
     headers: 'User-Agent: LG-LG840G/V100[TF013293002398424476222117575039107] Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LG840G } }
-    readable: 'Obigo Q 7.3 on a LG840G'
+    result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 840G } }
+    readable: 'Obigo Q 7.3 on a LG 840G'
 -
     headers: 'User-Agent: LG/KC910i/V10a Browser/Obigo-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     result: { browser: { name: 'Obigo Q', version: '7.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'KC910i Renoir' } }

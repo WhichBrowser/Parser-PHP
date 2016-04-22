@@ -443,7 +443,7 @@ trait Mobile
             'manufacturer'  => 'Lephone'
         ]);
 
-        $this->data->device->identifyModel('/LG([A-Z]{2,2}[0-9]+)/ui', $ua, [
+        $this->data->device->identifyModel('/LGE?([A-Z]{2,2}[0-9]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'LG'
         ]);
@@ -453,7 +453,7 @@ trait Mobile
             'manufacturer'  => 'LG'
         ]);
 
-        $this->data->device->identifyModel('/LGE? ([A-Z]+[0-9]+)/u', $ua, [
+        $this->data->device->identifyModel('/LGE? ?([A-Z]*[0-9]+[A-Z]?)/u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'LG'
         ]);
