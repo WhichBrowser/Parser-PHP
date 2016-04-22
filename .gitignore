@@ -5,3 +5,4 @@ vendor/*
 package.json
 Gruntfile.js
 node_modules/*
+humbug*
