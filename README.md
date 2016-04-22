@@ -158,6 +158,19 @@ $result->os->version->is('<', '10.7.4');
 // false
 ```
 
+Options
+-------
+
+It is possible to set additional options by passing an array as the second parameter when creating the `Parser` object.
+
+### Disabling detection of bots
+
+In some cases you may want to disable the detection of bots. This allows the bot the deliberately fool WhichBrowser, so you can pick up the identity of useragent what the bot tries to mimic. This is especially handy when you want to use WhichBrowser to switch between different variants of your website and want to make sure crawlers see the right variant of the website. For example, a bot that mimics a mobile device will see the mobile variant of you site.
+
+```php
+$result = new WhichBrowser\Parser(getallheaders(), [ 'detectBots' => false ]);
+```
+
 Enable result caching
 ---------------------
 

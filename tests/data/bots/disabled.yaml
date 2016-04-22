@@ -1,0 +1,25 @@
+-
+    detectBots: false
+    headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0) Maxthon/4.4.5.3000 Firefox/38'
+    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
+    readable: 'Bing 1.1'
+-
+    detectBots: false
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b'
+    result: { browser: { name: Bing, version: '1.0' }, device: { type: bot } }
+    readable: 'Bing 1.0'
+-
+    detectBots: false
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    detectBots: false
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
+    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing 2.0'
+-
+    detectBots: false
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36'
+    result: { browser: { name: 'Google Page Speed' }, device: { type: bot } }
+    readable: 'Google Page Speed'

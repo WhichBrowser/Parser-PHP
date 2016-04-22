@@ -21,8 +21,13 @@ class Useragent
              ->detectBrowser($header)
              ->detectApplication($header)
              ->detectUsing($header)
-             ->detectEngine($header)
-             ->detectBot($header);
+             ->detectEngine($header);
+
+         /* Detect bots */
+
+        if (!isset($this->options->detectBots) || $this->options->detectBots === true) {
+            $this->detectBot($header);
+        }
 
         /* Refine some of the information */
 
