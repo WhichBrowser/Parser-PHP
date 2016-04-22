@@ -163,7 +163,7 @@ Enable result caching
 
 WhichBrowser supports PSR-6 compatible cache adapters for caching results between requests. Using a cache is especially useful if you use WhichBrowser on every page of your website and a user visits multiple pages. During the first visit the headers will be parsed and the result will be cached. Upon further visits, the cached results will be used, which is much faster than having to parse the headers again and again.
 
-There are adapters available for other types of caches, such as APC, Doctrine, Memcached, MongoDB, Redis and many more. The configuration of these adapters all differ from each other, but once configured, all you have to do is use the `setCache()` function to enable it's use by WhichBrowser. WhichBrowser has been tested to work with the adapters provided by [PHP Cache](http://php-cache.readthedocs.org/en/latest/). For a list of other packages that provide adapters see [Packagist](https://packagist.org/providers/psr/cache-implementation).
+There are adapters available for other types of caches, such as APC, Doctrine, Memcached, MongoDB, Redis and many more. The configuration of these adapters all differ from each other, but once configured, all you have to do is pass it as an option when creating the `Parser` object, or use the `setCache()` function to set it afterwards. WhichBrowser has been tested to work with the adapters provided by [PHP Cache](http://php-cache.readthedocs.org/en/latest/). For a list of other packages that provide adapters see [Packagist](https://packagist.org/providers/psr/cache-implementation).
 
 For example, if you want to enable a memcached based cache you need to install an extra composer package:
 
@@ -177,12 +177,23 @@ $client->addServer('localhost', 11211);
 
 $pool = new \Cache\Adapter\Memcached\MemcachedCachePool($client);
 
+$result = new WhichBrowser\Parser(getallheaders(), [ 'cache' => $pool ]);
+```
+
+or
+
+```php
+$client = new \Memcached();
+$client->addServer('localhost', 11211);
+
+$pool = new \Cache\Adapter\Memcached\MemcachedCachePool($client);
+
 $result = new WhichBrowser\Parser();
 $result->setCache($pool);
 $result->analyse(getallheaders());
 ```
 
-The `setCache()` function also supports an optional second parameter which specifies after how many seconds a cached result should be discarded. The default value is 900 seconds or 15 minutes. If you think WhichBrowser uses too much memory for caching, you should lower this value.
+You can also specify after how many seconds a cached result should be discarded. The default value is 900 seconds or 15 minutes. If you think WhichBrowser uses too much memory for caching, you should lower this value. You can do this by setting the `cacheExpires` option or passing it as a second parameter to the `setCache()` function.
 
 
 API reference

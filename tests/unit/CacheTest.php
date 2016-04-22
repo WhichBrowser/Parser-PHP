@@ -48,5 +48,10 @@ class CacheTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals($result, $parser->toArray());
         $this->assertEquals(true, $parser->cached);
+
+        $parser = new Parser("Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)", [ 'cache' => $pool ]);
+
+        $this->assertEquals($result, $parser->toArray());
+        $this->assertEquals(true, $parser->cached);
     }
 }

@@ -12,10 +12,10 @@ class AnalyserTest extends PHPUnit_Framework_TestCase
 {
     public function testCreatingAnalyserGetData()
     {
-        $analyser = new Analyser("Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)");
+        $analyser = new Analyser([ "User-Agent" => "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)" ]);
 
         $this->assertTrue($analyser instanceof \WhichBrowser\Analyser);
-        
+
         $analyser->analyse();
 
         $data = $analyser->getData();
@@ -25,10 +25,10 @@ class AnalyserTest extends PHPUnit_Framework_TestCase
 
     public function testCreatingAnalyserSetData()
     {
-        $analyser = new Analyser("Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)");
+        $analyser = new Analyser([ "User-Agent" => "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)" ]);
 
         $this->assertTrue($analyser instanceof \WhichBrowser\Analyser);
-        
+
         $input = new Main();
 
         $this->assertTrue($input instanceof \WhichBrowser\Model\Main);

@@ -79,15 +79,23 @@ trait Cache
      * @return  boolean         did we actually retrieve or analyse results
      */
 
-    private function analyseWithCache($headers)
+    private function analyseWithCache($headers, $options = [])
     {
+        if (isset($options['cache'])) {
+            if (isset($options['cacheExpires'])) {
+                $this->setCache($options['cache'], $options['cacheExpires']);
+            } else {
+                $this->setCache($options['cache']);
+            }
+        }
+
         if ($this->cache instanceof CacheItemPoolInterface) {
             $item = $this->cache->getItem('whichbrowser-' . md5(serialize($headers)));
 
             if ($item->isHit()) {
                 $this->applyCachedData($item->get());
             } else {
-                $analyser = new Analyser($headers);
+                $analyser = new Analyser($headers, $options);
                 $analyser->setdata($this);
                 $analyser->analyse();
 

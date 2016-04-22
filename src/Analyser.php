@@ -15,17 +15,10 @@ class Analyser
 
     private $headers = [];
 
-    public function __construct($options)
+    public function __construct($headers, $options = [])
     {
-        if (is_string($options)) {
-            $this->options = (object) [ 'headers' => [ 'User-Agent' => $options ] ];
-        } else {
-            $this->options = (object) (isset($options['headers']) ? $options : [ 'headers' => $options ]);
-        }
-
-        if (isset($this->options->headers)) {
-            $this->headers = $this->options->headers;
-        }
+        $this->headers = $headers;
+        $this->options = (object) $options;
     }
 
     public function setData(&$data)
