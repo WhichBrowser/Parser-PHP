@@ -81,7 +81,7 @@ trait Television
 
     private function detectLgTelevision($ua)
     {
-        if (preg_match('/LGSmartTV/u', $ua)) {
+        if (preg_match('/(LGSmartTV|LG smartTV)/u', $ua)) {
             $this->data->device->manufacturer = 'LG';
             $this->data->device->series = 'Smart TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
