@@ -510,3 +510,11 @@
     headers: 'User-Agent: LGL600V'
     readable: 'a LG L600V'
     result: { device: { type: mobile, subtype: feature, manufacturer: LG, model: L600V } }
+-
+    headers: 'User-Agent: R380 2.0 WAP1.1'
+    readable: 'an Ericsson R380'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ericsson, model: R380 } }
+-
+    headers: 'User-Agent: HAIER-N60'
+    readable: 'a Haier N60'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Haier, model: N60 } }

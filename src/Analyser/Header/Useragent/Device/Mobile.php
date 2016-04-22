@@ -249,7 +249,7 @@ trait Mobile
             return;
         }
 
-        if (!preg_match('/(T-Mobile|Danger|HPiPAQ|Acer|Amoi|AIRNESS|ASUS|BenQ|maui|ALCATEL|Bird|COOLPAD|CELKON|Coship|Cricket|DESAY|Diamond|dopod|Ericsson|FLY|GIONEE|HIKe|Hisense|HS|HTC|T[0-9]{4,4}|HUAWEI|Karbonn|KWC|KONKA|KTOUCH|K-Touch|Lenovo|Lephone|LG|Micromax|MOT|Nexian|NEC|NGM|OPPO|Panasonic|Pantech|Philips|Sanyo|Sam|SEC|SGH|SCH|SIE|Sony|SE|SHARP|Spice|Tecno|T-smart|TCL|Tiphone|Toshiba|UTStar|vk|Vodafone|Xiaomi|ZTE)/ui', $ua)) {
+        if (!preg_match('/(T-Mobile|Danger|HPiPAQ|Acer|Amoi|AIRNESS|ASUS|BenQ|maui|ALCATEL|Bird|COOLPAD|CELKON|Coship|Cricket|DESAY|Diamond|dopod|Ericsson|FLY|GIONEE|Haier|HIKe|Hisense|HS|HTC|T[0-9]{4,4}|HUAWEI|Karbonn|KWC|KONKA|KTOUCH|K-Touch|Lenovo|Lephone|LG|Micromax|MOT|Nexian|NEC|NGM|OPPO|Panasonic|Pantech|Philips|Sanyo|Sam|SEC|SGH|SCH|SIE|Sony|SE|SHARP|Spice|Tecno|T-smart|TCL|Tiphone|Toshiba|UTStar|vk|Vodafone|Xiaomi|ZTE|WAP)/ui', $ua)) {
             return;
         }
 
@@ -363,6 +363,11 @@ trait Mobile
             'manufacturer'  => 'Ericsson'
         ]);
 
+        $this->data->device->identifyModel('/^(R[0-9]{3,3}) [0-9\.]+ WAP/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Ericsson'
+        ]);
+
         $this->data->device->identifyModel('/FLY_]?([^\s\/]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Fly'
@@ -381,6 +386,11 @@ trait Mobile
         $this->data->device->identifyModel('/HIKe_([^\s]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'HIKe'
+        ]);
+
+        $this->data->device->identifyModel('/HAIER-([A-Z][0-9]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Haier'
         ]);
 
         $this->data->device->identifyModel('/Hisense[ -](?:HS-)?([^\s]+)/ui', $ua, [
