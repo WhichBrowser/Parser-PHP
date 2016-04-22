@@ -1,0 +1,8 @@
+-
+    headers: 'User-Agent: SIE-3118'
+    readable: 'a Siemens 3118'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Siemens, model: '3118' } }
+-
+    headers: 'User-Agent: SIE-6618'
+    readable: 'a Siemens 6618'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Siemens, model: '6618' } }
