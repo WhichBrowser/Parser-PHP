@@ -168,8 +168,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Spyglass',             'id'    => 'spyglass',      'regexp' =>'/Spyglass ([0-9.]+); OpenTV/u' ],
         [ 'name' => 'Oregan Browser',       'id'    => 'oregan',      'regexp' =>'/OreganMediaBrowser(?:\/([0-9.]*))?/u', 'details' => 2 ],
         [ 'name' => 'Viera Browser',        'id'    => 'viera',      'regexp' =>'/Viera\/([0-9.]*)/u' ],
-        [ 'name' => 'Zetakey',              'id'    => 'zetakey',      'regexp' =>'/Zetakey Webkit\/([0-9.]*)/u' ],
-        [ 'name' => 'Zetakey',              'id'    => 'zetakey',      'regexp' =>'/Zetakey\/([0-9.]*)/u' ],
+        [ 'name' => 'Zetakey',              'id'    => 'zetakey',      'regexp' =>'/Zetakey Webkit\/([0-9.]*)/u', 'type' => Constants\DeviceType::TELEVISION ],
+        [ 'name' => 'Zetakey',              'id'    => 'zetakey',      'regexp' =>'/Zetakey\/([0-9.]*)/u', 'type' => Constants\DeviceType::TELEVISION ],
 
         /* Gaming browsers */
         [ 'name' => 'Aplix',                'id'    => 'aplix',      'regexp' =>'/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
