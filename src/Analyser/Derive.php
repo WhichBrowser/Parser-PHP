@@ -42,11 +42,15 @@ trait Derive
         if ($this->data->device->type == 'mobile' && empty($this->data->device->subtype)) {
             $this->data->device->subtype = 'feature';
 
-            if (isset($this->data->os->family) && in_array($this->data->os->family->getName(), [ 'Android' ])) {
+            if (in_array($this->data->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Series80', 'Tizen', 'Ubuntu Touch', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
                 $this->data->device->subtype = 'smart';
             }
 
-            if (in_array($this->data->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Series80', 'Tizen', 'Ubuntu Touch', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
+            if (isset($this->data->os->name) && in_array($this->data->os->name, [ 'Windows Phone' ])) {
+                $this->data->device->subtype = 'smart';
+            }
+
+            if (isset($this->data->os->family) && in_array($this->data->os->family->getName(), [ 'Android' ])) {
                 $this->data->device->subtype = 'smart';
             }
         }
