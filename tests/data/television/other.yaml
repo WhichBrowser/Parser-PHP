@@ -590,3 +590,7 @@
     headers: 'User-Agent: Mozilla/5.0 AppleWebKit/KHTML, like Gecko Ranger/4.0.0.198M EC6108V8 Sunniwell; Resolution(PAL,720P,1080i)'
     readable: 'a Sunniwell STB'
     result: { engine: { name: Webkit }, device: { type: television, manufacturer: Sunniwell, series: STB } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Linux mips; Enseo/HD3300) AppleWebKit/537.36 (KHTML, like Gecko)  Safari/537.36'
+    readable: 'an Enseo HD3300 STB'
+    result: { engine: { name: Webkit, version: '537.36' }, device: { type: television, manufacturer: Enseo, model: HD3300, series: STB } }

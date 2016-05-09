@@ -414,7 +414,7 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
-        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|Sunniwell|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
+        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|Sunniwell|Enseo|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
             return;
         }
 
@@ -514,10 +514,25 @@ trait Television
             $this->data->device->generic = false;
         }
         
+        /* Sunniwell */
+        
         if (preg_match('/Sunniwell/u', $ua) && preg_match('/Resolution/u', $ua)) {
             $this->data->os->reset();
             
             $this->data->device->manufacturer = 'Sunniwell';
+            $this->data->device->series = 'STB';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
+        
+        /* Enseo */
+        
+        if (preg_match('/Enseo\/([A-Z0-9]+)/u', $ua, $match)) {
+            $this->data->os->reset();
+            
+            $this->data->device->manufacturer = 'Enseo';
+            $this->data->device->model = $match[1];
             $this->data->device->series = 'STB';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
