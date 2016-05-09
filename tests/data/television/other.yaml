@@ -582,3 +582,11 @@
     headers: 'User-Agent: Mozilla/5.0 (STB; Linux) AppleWebKit (KHTML, like Gecko) CISCO Webkit Browser CiscoBrowser/CI.0220 Qt48WebKit/0.38.1'
     readable: 'a Cisco MediaHighway'
     result: { engine: { name: Webkit, version: 0.38.1 }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+-
+    headers: 'User-Agent: Mozilla/5.0 AppleWebKit/KHTML, like Gecko Ranger/4.0.0.198M EC6108V9 Sunniwell; Resolution(PAL,720P,1080i)'
+    readable: 'a Sunniwell STB'
+    result: { engine: { name: Webkit }, device: { type: television, manufacturer: Sunniwell, series: STB } }
+-
+    headers: 'User-Agent: Mozilla/5.0 AppleWebKit/KHTML, like Gecko Ranger/4.0.0.198M EC6108V8 Sunniwell; Resolution(PAL,720P,1080i)'
+    readable: 'a Sunniwell STB'
+    result: { engine: { name: Webkit }, device: { type: television, manufacturer: Sunniwell, series: STB } }
