@@ -293,11 +293,15 @@ trait Television
             }
         }
 
-        if (preg_match('/Maple_([0-9][0-9][0-9][0-9])/u', $ua, $match)) {
+        if (preg_match('/Maple_?([0-9][0-9][0-9][0-9])/u', $ua, $match)) {
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->series = 'Smart TV ' . $match[1];
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+            
+            if (preg_match('/Linux\/(?:SmartTV)?\+([0-9]{4,4})/u', $ua, $match)) {
+                $this->data->device->series = 'Smart TV ' . $match[1];
+            }
         }
 
         if (preg_match('/Maple ([0-9]+\.[0-9]+)\.[0-9]+/u', $ua, $match)) {
