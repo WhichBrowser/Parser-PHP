@@ -294,3 +294,15 @@
     headers: 'User-Agent: Mozilla/5.0 (LG smartTV)'
     readable: 'a LG Smart TV'
     result: { device: { type: television, manufacturer: LG, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ PBRM/1.0 ( ;LGE ;STB-3000 ;00.00.00 ;0x00000001)'
+    readable: 'Pro:Centric on a LG STB-3000 webOS TV'
+    result: { browser: { name: 'Pro:Centric' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, model: STB-3000, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ PBRM/1.0 ( ;LGE ;32LY760H-ZA ;03.03.03 ;0x00000001)'
+    readable: 'Pro:Centric on a LG LY760H webOS TV'
+    result: { browser: { name: 'Pro:Centric' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, model: LY760H, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ PBRM/1.0 ( ;LGE ;WEBOS2 ;00.00.00 ;0x00000001)'
+    readable: 'Pro:Centric on a LG webOS TV'
+    result: { browser: { name: 'Pro:Centric' }, engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }

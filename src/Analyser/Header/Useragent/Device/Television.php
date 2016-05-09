@@ -164,6 +164,22 @@ trait Television
                 }
             }
         }
+
+        if (preg_match('/PBRM\//u', $ua)) {
+        	$this->data->browser->name = "Pro:Centric";
+        	$this->data->browser->version = null;
+        	
+            $this->data->device->manufacturer = 'LG';
+            $this->data->device->series = 'webOS TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            
+            if (preg_match('/PBRM\/[0-9.]+ \( ;LGE ;([^;]+) ;/u', $ua, $match)) {
+                if (strtoupper(substr($match[1], 0, 5)) != 'WEBOS') {
+                    $this->data->device->model = $match[1];
+                }
+            }            
+        }
     }
 
 
