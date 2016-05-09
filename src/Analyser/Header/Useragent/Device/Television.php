@@ -414,7 +414,7 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
-        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
+        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
             return;
         }
 
@@ -504,7 +504,7 @@ trait Television
 
         /* Cisco MediaHighway */
 
-        if (preg_match('/Media-Highway Evolution/u', $ua, $match)) {
+        if (preg_match('/(Media-Highway Evolution|CiscoBrowser\/CI)/u', $ua, $match)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Cisco';
@@ -513,7 +513,7 @@ trait Television
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->generic = false;
         }
-
+        
         /* Sony LocationFreeTV */
 
         if (preg_match('/LocationFreeTV\/([A-Z0-9\-]+)/u', $ua, $match)) {

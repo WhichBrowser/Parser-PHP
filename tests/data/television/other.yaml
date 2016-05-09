@@ -570,3 +570,15 @@
     headers: 'User-Agent: Mozilla/5.0 (Spyglass 3.0; OpenTV) Gecko/20081010  InettvBrowser/1.0 (F00001;OTV-IB24L;2.4;00000),gzip(gfe),gzip(gfe),gzip(gfe)'
     result: { browser: { name: Spyglass, version: '3.0', type: browser }, engine: { name: Gecko }, device: { type: television, series: OpenTV } }
     readable: 'Spyglass 3.0 on an OpenTV'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit (KHTML, like Gecko) CISCO Webkit Browser CiscoBrowser/CI.0221 Qt48WebKit/0.38.1'
+    readable: 'a Cisco MediaHighway'
+    result: { engine: { name: Webkit, version: 0.38.1 }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit (KHTML, like Gecko) Evolution CiscoBrowser/CI.28.12.01.dev2 Chrome'
+    readable: 'a Cisco MediaHighway'
+    result: { device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (STB; Linux) AppleWebKit (KHTML, like Gecko) CISCO Webkit Browser CiscoBrowser/CI.0220 Qt48WebKit/0.38.1'
+    readable: 'a Cisco MediaHighway'
+    result: { engine: { name: Webkit, version: 0.38.1 }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
