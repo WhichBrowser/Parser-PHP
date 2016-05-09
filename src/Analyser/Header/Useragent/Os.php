@@ -945,13 +945,16 @@ trait Os
         if (preg_match('/Tizen/u', $ua)) {
             $this->data->os->name = 'Tizen';
 
-            if (preg_match('/Tizen[\/ ]([0-9.]*[0-9])/u', $ua, $match)) {
+            if (preg_match('/Tizen[\/ ]?([0-9.]*[0-9])/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
             if (preg_match('/\(([^;]+); ([^\/]+)\//u', $ua, $match)) {
                 $falsepositive = false;
                 if (strtoupper($match[1]) == 'SMART-TV') {
+                    $falsepositive = true;
+                }
+                if ($match[1] == 'TV') {
                     $falsepositive = true;
                 }
                 if ($match[1] == 'Linux') {
@@ -1009,7 +1012,7 @@ trait Os
             }
 
 
-            if (preg_match('/\(SMART[ -]TV;/iu', $ua, $match)) {
+            if (preg_match('/\((SMART[ -])?TV;/iu', $ua, $match)) {
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
                 $this->data->device->manufacturer = 'Samsung';
                 $this->data->device->series = 'Smart TV';

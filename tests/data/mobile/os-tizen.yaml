@@ -172,8 +172,8 @@
     readable: 'Samsung Browser on a Samsung GT-I9500 prototype running Tizen 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0(Linux; Tizen2.2;sdk) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 Mobile Safari/537.3'
-    result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '537.3' }, os: { name: Tizen }, device: { type: mobile, subtype: smart } }
-    readable: 'Samsung Browser on Tizen'
+    result: { browser: { name: 'Samsung Browser' }, engine: { name: Webkit, version: '537.3' }, os: { name: Tizen, version: '2.2' }, device: { type: mobile, subtype: smart } }
+    readable: 'Samsung Browser on Tizen 2.2'
 -
     headers: 'User-Agent: Opera/9.80 (Tizen; Opera Mini/7.5.35847/35.5691; U; xx) Presto/2.8.119 Version/11.10'
     result: { browser: { name: 'Opera Mini', version: '7.5', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Tizen }, device: { type: mobile, subtype: smart } }
