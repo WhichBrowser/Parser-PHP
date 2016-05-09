@@ -166,9 +166,9 @@ trait Television
         }
 
         if (preg_match('/PBRM\//u', $ua)) {
-        	$this->data->browser->name = "Pro:Centric";
-        	$this->data->browser->version = null;
-        	
+            $this->data->browser->name = "Pro:Centric";
+            $this->data->browser->version = null;
+            
             $this->data->device->manufacturer = 'LG';
             $this->data->device->series = 'webOS TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
@@ -178,7 +178,7 @@ trait Television
                 if (strtoupper(substr($match[1], 0, 5)) != 'WEBOS') {
                     $this->data->device->model = $match[1];
                 }
-            }            
+            }
         }
     }
 
@@ -515,10 +515,10 @@ trait Television
         }
         
         if (preg_match('/Sunniwell/u', $ua) && preg_match('/Resolution/u', $ua)) {
-        	$this->data->os->reset();
-        	
-        	$this->data->device->manufacturer = 'Sunniwell';
-        	$this->data->device->series = 'STB';
+            $this->data->os->reset();
+            
+            $this->data->device->manufacturer = 'Sunniwell';
+            $this->data->device->series = 'STB';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->generic = false;
