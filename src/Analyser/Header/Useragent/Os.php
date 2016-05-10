@@ -213,6 +213,8 @@ trait Os
 
                 if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
+                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])? ([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
                 } elseif (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
