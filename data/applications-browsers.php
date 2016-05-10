@@ -22,6 +22,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Abrowser',             'id'    => 'abrowse',      'regexp' =>'/Abrowser\/([0-9.]*)/u' ],                                                             // unbranded version of Firefox
         [ 'name' => 'Acorn Browse',         'id'    => 'acorn',      'regexp' =>'/Acorn Browse ([0-9.]+)/u'  ],
         [ 'name' => 'Acorn Browse',         'id'    => 'acorn',      'regexp' =>'/Acorn Phoenix ([0-9.]+)/u'  ],
+        [ 'name' => 'Acoo Browser',         'id'    => 'acoo',       'regexp' =>'/Acoo Browser/u' ],
         [ 'name' => 'AOL Desktop',          'id'    => 'aol',      'regexp' =>'/AOL ([0-9.]*); AOLBuild/i' ],
         [ 'name' => 'AOL Browser',          'id'    => 'america',      'regexp' =>'/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
         [ 'name' => 'Arachne',              'id'    => 'arachne',      'regexp' =>'/xChaos_Arachne\/[0-9]\.([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],       // see: www.glennmcc.org
