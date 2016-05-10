@@ -211,8 +211,9 @@ trait Os
                 }
 
 
-
-                if (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
+                if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
+                    $this->data->device->model = $match[1];
+                } elseif (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
@@ -225,8 +226,6 @@ trait Os
                 } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
