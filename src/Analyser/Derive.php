@@ -308,7 +308,7 @@ trait Derive
 
         /* Derive the default browser on Tizen */
 
-        if ($this->data->os->name == 'Tizen' && !isset($this->data->browser->name) && $this->data->browser->stock && $this->data->device->type == Constants\DeviceType::MOBILE) {
+        if ($this->data->os->name == 'Tizen' && !isset($this->data->browser->name) && $this->data->browser->stock && in_array($this->data->device->type, [ Constants\DeviceType::MOBILE, Constants\DeviceType::APPLIANCE ])) {
             $this->data->browser->name = 'Samsung Browser';
         }
 

@@ -24,6 +24,7 @@ class DeviceType
     const WHITEBOARD = 'whiteboard';
     const DEVBOARD = 'devboard';
     const INFLIGHT = 'inflight';
+    const APPLIANCE = 'appliance';
     const GPS = 'gps';
     const CAR = 'car';
     const POS = 'pos';

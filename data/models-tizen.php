@@ -32,11 +32,11 @@ DeviceModels::$TIZEN_MODELS = [
 
     'NX300'                                     => [ 'Samsung', 'NX300', DeviceType::CAMERA ],
 
+    'FamilyHub'                                 => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+
     'hawkp'                                     => [ 'Samsung', '"Hawkp"', DeviceType::TELEVISION ],
 
     'xu3'                                       => [ 'Hardkernel', 'ODROID-XU3 developer board' ],
-
-//  'FamilyHub'                                 => [ 'Samsung', 'FamilyHub' ],
 
     'sdk'                                       => [ null, null, DeviceType::EMULATOR ],
     'Emulator'                                  => [ null, null, DeviceType::EMULATOR ],

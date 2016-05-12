@@ -15,6 +15,10 @@ DeviceModels::$TIZEN_INDEX = array (
   array (
     0 => 'Emulator',
   ),
+  '@FA' => 
+  array (
+    0 => 'FamilyHub',
+  ),
   '@GT' => 
   array (
     0 => 'GT-I8800!',
