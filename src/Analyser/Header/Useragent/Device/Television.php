@@ -164,6 +164,22 @@ trait Television
                 }
             }
         }
+
+        if (preg_match('/PBRM\//u', $ua)) {
+            $this->data->browser->name = "Pro:Centric";
+            $this->data->browser->version = null;
+            
+            $this->data->device->manufacturer = 'LG';
+            $this->data->device->series = 'webOS TV';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            
+            if (preg_match('/PBRM\/[0-9.]+ \( ;LGE ;([^;]+) ;/u', $ua, $match)) {
+                if (strtoupper(substr($match[1], 0, 5)) != 'WEBOS') {
+                    $this->data->device->model = $match[1];
+                }
+            }
+        }
     }
 
 
@@ -277,11 +293,15 @@ trait Television
             }
         }
 
-        if (preg_match('/Maple_([0-9][0-9][0-9][0-9])/u', $ua, $match)) {
+        if (preg_match('/Maple_?([0-9][0-9][0-9][0-9])/u', $ua, $match)) {
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->series = 'Smart TV ' . $match[1];
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+            
+            if (preg_match('/Linux\/(?:SmartTV)?\+([0-9]{4,4})/u', $ua, $match)) {
+                $this->data->device->series = 'Smart TV ' . $match[1];
+            }
         }
 
         if (preg_match('/Maple ([0-9]+\.[0-9]+)\.[0-9]+/u', $ua, $match)) {
@@ -398,7 +418,7 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
-        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
+        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|Sunniwell|Enseo|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
             return;
         }
 
@@ -488,7 +508,7 @@ trait Television
 
         /* Cisco MediaHighway */
 
-        if (preg_match('/Media-Highway Evolution/u', $ua, $match)) {
+        if (preg_match('/(Media-Highway Evolution|CiscoBrowser\/CI)/u', $ua, $match)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Cisco';
@@ -497,7 +517,32 @@ trait Television
             $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->generic = false;
         }
-
+        
+        /* Sunniwell */
+        
+        if (preg_match('/Sunniwell/u', $ua) && preg_match('/Resolution/u', $ua)) {
+            $this->data->os->reset();
+            
+            $this->data->device->manufacturer = 'Sunniwell';
+            $this->data->device->series = 'STB';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
+        
+        /* Enseo */
+        
+        if (preg_match('/Enseo\/([A-Z0-9]+)/u', $ua, $match)) {
+            $this->data->os->reset();
+            
+            $this->data->device->manufacturer = 'Enseo';
+            $this->data->device->model = $match[1];
+            $this->data->device->series = 'STB';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->generic = false;
+        }
+        
         /* Sony LocationFreeTV */
 
         if (preg_match('/LocationFreeTV\/([A-Z0-9\-]+)/u', $ua, $match)) {

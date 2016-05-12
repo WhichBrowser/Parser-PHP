@@ -134,3 +134,15 @@
     headers: 'User-Agent: Mozilla/5.0 (BDPlayer; BDP5G/1.0; like Gecko; NetFront/4.0) (avui/tv,960:540;avrt/html4;avvp/ssl;avvl/800;avmb/4000;avvm/f;avmt/all;avst/off;avkb/mc)'
     result: { browser: { name: NetFront, version: '4.0', type: browser }, device: { type: television } }
     readable: 'NetFront 4.0 on a television'
+-
+    headers: 'User-Agent: Mozilla/5.0 (U; Linux; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko)  Safari/535.20+'
+    readable: 'a Samsung Smart TV 2012'
+    result: { engine: { name: Webkit, version: '535.20' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2012' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( U; Linux/+2013; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko)  Safari/535.20+'
+    readable: 'a Samsung Smart TV 2013'
+    result: { engine: { name: Webkit, version: '535.20' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2013' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (TV; Linux; Tizen2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
+    readable: 'Samsung Browser 1.0 on a Samsung Smart TV running Tizen 2.3'
+    result: { browser: { name: 'Samsung Browser', version: '1.0' }, engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.3' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
