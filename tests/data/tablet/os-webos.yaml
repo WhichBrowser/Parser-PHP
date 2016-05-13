@@ -8,5 +8,5 @@
     readable: 'webOS Browser on a HP TouchPad running webOS 3.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; U; xx) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 011/07'
-    result: { browser: { name: 'webOS Browser', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS }, device: { type: tablet } }
-    readable: 'webOS Browser on webOS'
+    result: { browser: { name: 'webOS Browser', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS }, device: { type: tablet, manufacturer: HP, model: TouchPad } }
+    readable: 'webOS Browser on a HP TouchPad running webOS'

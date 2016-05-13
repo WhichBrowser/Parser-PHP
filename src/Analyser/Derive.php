@@ -338,6 +338,14 @@ trait Derive
             }
         }
 
+        /* Derive HP TouchPad based on webOS and tablet */
+
+        if ($this->data->os->name == 'webOS' && $this->data->device->type == Constants\DeviceType::TABLET) {
+            $this->data->device->manufacturer = 'HP';
+            $this->data->device->model = 'TouchPad';
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
         /* Derive Windows 10 Mobile edition */
 
         if ($this->data->os->name == 'Windows Phone') {
