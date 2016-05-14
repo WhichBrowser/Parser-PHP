@@ -50,6 +50,12 @@ trait Camouflage
 
             $this->data->device->type = 'mobile';
 
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+
             $this->data->features[] = 'foundDevice';
         }
 
