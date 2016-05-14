@@ -279,13 +279,21 @@ trait Os
             }
         }
 
-        if (preg_match('/\(Linux; (?:U; )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
-            $device = Data\DeviceModels::identify('android', $match[1]);
+        if (preg_match('/\(Linux; (?:([0-9.]+); )?(?:U; )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->model = $match[2];
+
+            $this->data->os->name = 'Android';
+
+            if (!empty($match[1])) {
+                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            }
+
+            $device = Data\DeviceModels::identify('android', $match[2]);
             if ($device->identified) {
                 $device->identified |= Constants\Id::PATTERN;
                 $device->identified |= $this->data->device->identified;
 
-                $this->data->os->name = 'Android';
                 $this->data->device = $device;
             }
         }
