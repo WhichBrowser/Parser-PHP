@@ -264,7 +264,7 @@ trait Mobile
             'model'         => 'Hiptop'
         ]);
 
-        $this->data->device->identifyModel('/HP(iPAQ[0-9]+)\//u', $ua, [
+        $this->data->device->identifyModel('/HP(iPAQ[0-9A-Za-z]+)\//u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'HP'
         ]);
