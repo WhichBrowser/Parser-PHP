@@ -229,15 +229,15 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: 3.2.1 }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
-    readable: 'Android Browser Dev on an Asus Eee Pad Transformer running Android 3.2.1'
+    readable: 'Android Browser on an Asus Eee Pad Transformer running Android 3.2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
-    readable: 'Android Browser Dev on an Asus Eee Pad Transformer running Android 3.2'
+    readable: 'Android Browser on an Asus Eee Pad Transformer running Android 3.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; ETBW11AA Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: 3.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: Tough } }
-    readable: 'Android Browser Dev on an Asus Tough running Android 3.2.1'
+    readable: 'Android Browser on an Asus Tough running Android 3.2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;+ HTC One S Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     readable: 'Chrome 18 on a HTC One S running Android 4.0.3'

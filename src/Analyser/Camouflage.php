@@ -90,6 +90,7 @@ trait Camouflage
         if (preg_match('/Linux Ventana; [a-z]{2}(?:-[a-z]{2})?; (.+) Build/u', $ua, $match)) {
             $this->data->browser->name = 'Android Browser';
             $this->data->browser->version = null;
+            $this->data->browser->channel = null;
             $this->data->browser->mode = 'desktop';
 
             $this->data->engine->name = 'Webkit';

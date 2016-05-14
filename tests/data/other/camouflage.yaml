@@ -10,7 +10,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
-    readable: 'Android Browser Dev on an Asus Eee Pad Transformer running Android 3.2'
+    readable: 'Android Browser on an Asus Eee Pad Transformer running Android 3.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/1.0.0.39 Safari/535.19'
     result: { browser: { name: Chrome, version: 1.0.0.39, type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop }, camouflage: true }
