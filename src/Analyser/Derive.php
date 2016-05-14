@@ -221,8 +221,8 @@ trait Derive
         if ($flag == Constants\Flag::ANDROIDTV) {
             $this->data->os->name = 'Android TV';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
-
             unset($this->data->device->flag);
+            unset($this->data->device->series);
         }
 
         if ($flag == Constants\Flag::ANDROIDWEAR) {
