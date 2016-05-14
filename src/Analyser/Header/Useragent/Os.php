@@ -211,9 +211,9 @@ trait Os
                 }
 
 
-                if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
+                if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
-                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?;? ([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
+                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?;? ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                     $this->data->device->model = $match[1];
