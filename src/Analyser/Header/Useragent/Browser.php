@@ -477,8 +477,10 @@ trait Browser
 
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
-            unset($this->data->os->name);
-            unset($this->data->os->version);
+            if (!$this->data->isOs('Android')) {
+                unset($this->data->os->name);
+                unset($this->data->os->version);
+            }
         }
 
         if ((preg_match('/Opera[\/\-\s]/iu', $ua) || preg_match('/Browser\/Opera/iu', $ua)) && !preg_match('/Opera Software/iu', $ua)) {
