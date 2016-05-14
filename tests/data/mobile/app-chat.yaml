@@ -54,3 +54,7 @@
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]'
     result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
     readable: 'Facebook Messenger on an Apple iPhone 6 Plus running iOS 8.1.2'
+-
+    headers: 'User-Agent: ICQ_Android/4.0.8 (Android; 16; 4.1.1; N7105XXALIJ; GT-N7105; tr-TR)'
+    readable: 'ICQ 4.0.8 on a Samsung Galaxy Note II running Android 4.1.1'
+    result: { browser: { name: ICQ, version: 4.0.8, type: 'app:chat' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note II' } }

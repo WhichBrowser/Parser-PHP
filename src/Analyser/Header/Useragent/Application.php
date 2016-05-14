@@ -329,6 +329,26 @@ trait Application
             }
         }
 
+        /* ICQ */
+
+        if (preg_match('/ICQ_Android\/([0-9\.]+) \(Android; [0-9]+; ([0-9\.]+); [^;]+; ([^;]+);/u', $ua, $match)) {
+            $this->data->browser->name = 'ICQ';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            $this->data->browser->type = Constants\BrowserType::APP_CHAT;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[2] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[3]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
     }
 
     private function detectRemainingApplications($ua)
