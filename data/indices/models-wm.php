@@ -315,8 +315,9 @@ DeviceModels::$WM_INDEX = array (
   array (
     0 => 'Palm500!',
     1 => 'Palm750',
-    2 => 'Palm Treo850e',
-    3 => 'PANTECH-C810',
+    2 => 'Palm850!',
+    3 => 'Palm Treo850e',
+    4 => 'PANTECH-C810',
   ),
   '@PP' => 
   array (

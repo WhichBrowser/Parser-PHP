@@ -718,3 +718,7 @@
     headers: 'User-Agent: (Opera) Vodafone/1.0/HPiPAQDataMessenger/1.00.00 Browser/Opera/9.5 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/15142; U; en)'
     readable: 'Opera Mobile 9.5 on a HP iPAQ Data Messenger running Windows Mobile'
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ Data Messenger' } }
+-
+    headers: 'User-Agent: Palm850/V0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88'
+    readable: 'UC Browser 7.7 on a Palm Treo Pro running Windows Mobile'
+    result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo Pro' } }
