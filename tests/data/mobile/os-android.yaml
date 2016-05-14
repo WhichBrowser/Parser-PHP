@@ -258,3 +258,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; GT-I7500) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2'
     readable: 'Android Browser on a Samsung Galaxy running Android 1.5'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '525.10' }, os: { name: Android, version: '1.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Galaxy } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; fr-fr; Android Edition Starnaute Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    readable: 'Android Browser on a SFR STARNAUTE running Android 2.2.2'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: SFR, model: STARNAUTE } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.2; fr-fr; Android Edition StarText Build/V1.0.0B06) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    readable: 'Android Browser on a SFR STARTEXT running Android 2.2.2'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: SFR, model: STARTEXT } }

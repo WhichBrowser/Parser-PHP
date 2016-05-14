@@ -213,7 +213,7 @@ trait Os
 
                 if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
-                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])? ([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
+                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?;? ([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
                     $this->data->device->model = $match[1];
                 } elseif (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                     $this->data->device->model = $match[1];
@@ -240,7 +240,7 @@ trait Os
                 }
 
                 /* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
-                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android') {
+                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android' && substr($this->data->device->model, 0, 15) != 'Android Edition') {
                     $this->data->device->model = null;
                 }
 

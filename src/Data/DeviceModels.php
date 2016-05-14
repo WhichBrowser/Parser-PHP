@@ -294,6 +294,7 @@ class DeviceModels
         $s = preg_replace('/ (AU|UP)\.Browser$/u', '', $s);
 
         $s = preg_replace('/_/u', ' ', $s);
+        $s = preg_replace('/^\*+/u', '', $s);
         $s = preg_replace('/^\s+|\s+$/u', '', $s);
 
         $s = preg_replace('/^De-Sensed /u', '', $s);
