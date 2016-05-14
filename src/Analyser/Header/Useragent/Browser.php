@@ -572,6 +572,10 @@ trait Browser
             if ($this->data->device->type == '') {
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
+
+            if (isset($this->data->browser->family)) {
+                unset($this->data->browser->family);
+            }
         }
 
         if (preg_match('/OPiOS\/([0-9.]*)/u', $ua, $match)) {
