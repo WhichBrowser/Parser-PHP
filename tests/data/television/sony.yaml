@@ -12,8 +12,8 @@
     readable: 'Chromium WebView 42 on a Sony Bravia Android TV (2015) running Android TV 5.0.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; BRAVIA 2015 Build/LGZ23.S49) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36 OPR/28.0.1754.0 OMI/4.4.22.20.E102586-1.98'
-    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 41 }, version: '4.4', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Sony, model: 'Bravia Android TV (2015)' } }
-    readable: 'Opera Devices 4.4 on a Sony Bravia Android TV (2015) running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 41 }, version: '4.4', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: 5.0.2 }, device: { type: television, manufacturer: Sony, model: 'Bravia Android TV (2015)' } }
+    readable: 'Opera Devices 4.4 on a Sony Bravia Android TV (2015) running Android TV 5.0.2'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l ; U; (SonyBDP/BDV11); en) Presto/2.6.33 Version/10.60'
     result: { browser: { name: 'Opera Devices', version: '2.8', type: browser }, engine: { name: Presto, version: 2.6.33 }, device: { type: television, manufacturer: Sony, series: 'Blu-ray Player' } }
@@ -298,3 +298,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.34.ALSAN3.3 HbbTV/1.1.1 (; Sony; N/A; v1.000; 2015;) sony.hbbtv.tv.2015HE'
     result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 35 }, version: '4.2', type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Sony } }
     readable: 'Opera Devices 4.2 on a Sony'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; SVP-DTV15 Build/LMP) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.13.63.Diamond.128'
+    readable: 'Opera Devices 4.2 on a Sony Bravia Android TV (2015) running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 35 }, version: '4.2', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Sony, model: 'Bravia Android TV (2015)' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; SVP-DTV15 Build/LMP) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.57 Safari/537.36 OPR/28.0.1754.0 OMI/4.4.22.4.E102586-1.45'
+    readable: 'Opera Devices 4.4 on a Sony Bravia Android TV (2015) running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 41 }, version: '4.4', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Sony, model: 'Bravia Android TV (2015)' } }

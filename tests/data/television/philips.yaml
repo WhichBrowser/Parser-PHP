@@ -1,7 +1,7 @@
 -
     headers: 'User-Agent: CE-HTML/1.0 NETTV/6.0.0 SmartTvA/3.0.0 (PhilipsTV, 6.1.1,) enMozilla/5.0 (Linux; QM152E Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.61 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.13.Sprinter.4'
-    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)', series: 'Net TV' } }
-    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) Net TV running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '5.1' }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)' } }
+    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) running Android TV 5.1'
 -
     headers: 'User-Agent: HbbTV/1.2.1 (;Philips;MT5580;;;) ANTGalio/3.3.0.26.04'
     result: { browser: { name: 'ANT Galio', version: 3.3.0, type: browser }, device: { type: television, manufacturer: Philips, model: MT5580, series: 'Digital Receiver' } }
@@ -220,13 +220,21 @@
     readable: 'Chromium WebView 46 on a Philips Android TV (2015) running Android TV 5.1'
 -
     headers: 'User-Agent: CE-HTML/1.0 NETTV/6.0.2 SmartTvA/3.0.0 (PhilipsTV, 6.1.1,) enMozilla/5.0 (Linux; QM151E Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.13.Sprinter.13'
-    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)', series: 'Net TV' } }
-    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) Net TV running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '5.1' }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)' } }
+    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) running Android TV 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1; QM152E Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
     result: { browser: { family: { name: Chrome, version: 47 }, type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '5.1' }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)' } }
     readable: 'a Philips Android TV (2015) running Android TV 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; QM152E Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.13.Sprinter.13'
-    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)' } }
-    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) running Android TV'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 44 }, version: '4.6', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '5.1' }, device: { type: television, manufacturer: Philips, model: 'Android TV (2015)' } }
+    readable: 'Opera Devices 4.6 on a Philips Android TV (2015) running Android TV 5.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Andr0id 5.1; QM163E Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36 OPR/32.0.2128.0 OMI/4.8.0.35.Sprinter.7'
+    readable: 'Opera Devices 4.8 on a Philips Android TV (2016) running Android TV 5.1'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 49 }, version: '4.8', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '5.1' }, device: { type: television, manufacturer: Philips, model: 'Android TV (2016)' } }
+-
+    headers: 'User-Agent: CE-HTML/1.0 NETTV/6.0.2 SmartTvA/3.0.0 (PhilipsTV, 6.1.1,) enMozilla/5.0 (Linux; Andr0id 6.0.1; PH7M_EU_5596 Build/MASTER) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36 OPR/32.0.2128.0 OMI/4.8.0.35.Sprinter.10'
+    readable: 'Opera Devices 4.8 on a Philips Android TV (2016) running Android TV 6.0.1'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 49 }, version: '4.8', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: 6.0.1 }, device: { type: television, manufacturer: Philips, model: 'Android TV (2016)' } }

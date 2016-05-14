@@ -166,3 +166,19 @@
     headers: 'User-Agent: SAMSUNG-SPHM610 AU-MIC-M610'
     result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SPHM610 } }
     readable: 'Obigo on a Samsung SPHM610'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; 4.3; NITROGEN6X Build/4.3_1.0.0-ga) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 Obigo/W20A.37'
+    readable: 'Obigo W 20A on a Boundary Devices Nitrogen6X running Android 4.3'
+    result: { browser: { name: 'Obigo W', family: { name: Chrome, version: 37 }, version: { alias: 20A }, type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: devboard, manufacturer: 'Boundary Devices', model: Nitrogen6X } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; 4.4.4; Nexus 7 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Safari/537.36 Obigo/W20A.42'
+    readable: 'Obigo W 20A on an Asus Nexus 7 running Android 4.4.4'
+    result: { browser: { name: 'Obigo W', family: { name: Chrome, version: 42 }, version: { alias: 20A }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: tablet, manufacturer: Asus, model: 'Nexus 7' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; 5.0.1; Nexus 5 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 Obigo/W20A.42'
+    readable: 'Obigo W 20A on a LG Nexus 5 running Android 5.0.1'
+    result: { browser: { name: 'Obigo W', family: { name: Chrome, version: 42 }, version: { alias: 20A }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; 5.1.1; Nexus 5 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 Obigo/W20A.42'
+    readable: 'Obigo W 20A on a LG Nexus 5 running Android 5.1.1'
+    result: { browser: { name: 'Obigo W', family: { name: Chrome, version: 42 }, version: { alias: 20A }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }

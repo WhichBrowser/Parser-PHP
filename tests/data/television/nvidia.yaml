@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Andr0id 6.0; SHIELD Andr0id TV Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36 OPR/32.0.2128.0 OMI/4.8.0.17.release'
+    readable: 'Opera Devices 4.8 on a Nvidia SHIELD Android TV running Android TV 6.0'
+    result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 49 }, version: '4.8', type: browser }, engine: { name: Blink }, os: { name: 'Android TV', family: Android, version: '6.0' }, device: { type: television, manufacturer: Nvidia, model: 'SHIELD Android TV' } }
