@@ -2358,6 +2358,7 @@ DeviceModels::$ANDROID_MODELS = [
         'ChangHong ?Z1!'                            => [ 'ChangHong', 'Z1' ],
         'ChanghongZ3t'                              => [ 'ChangHong', 'Z3t' ],
         'ChangHongZ9'                               => [ 'ChangHong', 'Z9' ],
+        'changhong TV'                              => [ 'ChangHong', null ],
     ],
 
     'CHER!!' => [
@@ -9362,6 +9363,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ONE A2001'                                 => [ 'OnePlus', '2' ],
     'ONE A2003'                                 => [ 'OnePlus', '2' ],
     'ONE A2005'                                 => [ 'OnePlus', '2' ],
+    'OnePlus2'                                  => [ 'OnePlus', '2' ],
     'ONE E1000'                                 => [ 'OnePlus', 'X' ],
     'ONE E1001'                                 => [ 'OnePlus', 'X' ],
     'ONE E1003'                                 => [ 'OnePlus', 'X' ],
@@ -10561,6 +10563,7 @@ DeviceModels::$ANDROID_MODELS = [
         'GT-I5700!'                             => [ 'Samsung', 'Galaxy Spica' ],
         'GT-I58(00|01)!'                        => [ 'Samsung', 'Galaxy Apollo' ],
         'GT-I6500!'                             => [ 'Samsung', 'Saturn' ],
+        'GT-I7500!'                             => [ 'Samsung', 'Galaxy' ],
         'GT-I777!'                              => [ 'Samsung', 'Singa' ],
         'GT-I8000!'                             => [ 'Samsung', 'Omnia 2' ],
         'GT-I8150!'                             => [ 'Samsung', 'Galaxy W' ],
