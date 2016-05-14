@@ -38,3 +38,7 @@
     headers: 'User-Agent: [FBAN/FB4A;FBAV/10.0.0.28.27;FBBV/2802760;FBDM/{density=3.0,width=1080,height=1776};FBLC/fr_CA;FBCR/VIRGIN;FBPN/com.facebook.katana;FBDV/Nexus 5;FBSV/4.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
     readable: 'Facebook on a LG Nexus 5 running Android 4.4.3'
     result: { browser: { name: Facebook, type: 'app:social' }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: [FBAN/PAAA;FBAV/1.7;FBDM/{density=2.0,width=720,height=1280};FBLC/es_ES;FB_FW/2;FBSN/Android;FBCR/FONIC;FBDV/GT-I9300;FBSV/4.1.2;]'
+    readable: 'Facebook Pages on a Samsung Galaxy S III running Android 4.1.2'
+    result: { browser: { name: 'Facebook Pages', type: 'app:social' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }

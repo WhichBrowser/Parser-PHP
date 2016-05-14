@@ -352,19 +352,27 @@ trait Application
 
         /* Facebook for Android */
 
-        if (preg_match('/^\[FBAN\/FB4A;.*FBDV\/([^;]+);.*FBSV\/([0-9\.]+);/u', $ua, $match)) {
-            $this->data->browser->name = 'Facebook';
-            $this->data->browser->version = null;
-            $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+        if (preg_match('/^\[FBAN\/(FB4A|PAAA);.*FBDV\/([^;]+);.*FBSV\/([0-9\.]+);/u', $ua, $match)) {
+            if ($match[1] == 'FB4A') {
+                $this->data->browser->name = 'Facebook';
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+            }
+
+            if ($match[1] == 'PAAA') {
+                $this->data->browser->name = 'Facebook Pages';
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+            }
 
             $this->data->os->reset([
                 'name'      => 'Android',
-                'version'   => new Version([ 'value' => $match[2] ])
+                'version'   => new Version([ 'value' => $match[3] ])
             ]);
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            $device = Data\DeviceModels::identify('android', $match[1]);
+            $device = Data\DeviceModels::identify('android', $match[2]);
             if ($device->identified) {
                 $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
