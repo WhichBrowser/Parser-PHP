@@ -660,7 +660,7 @@ trait Mobile
             'manufacturer'  => 'Toshiba'
         ]);
 
-        $this->data->device->identifyModel('/UTStar-([^\s\.;]+)/u', $ua, [
+        $this->data->device->identifyModel('/UTStar(?:com)?-([^\s\.\/;]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'UTStarcom'
         ]);

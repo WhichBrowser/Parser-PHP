@@ -522,3 +522,7 @@
     headers: 'User-Agent: SAGEM-myV-55/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 UP.Browser/6.2.2.6.d.3.100 (GUI) MMP/1.0'
     readable: 'Openwave 6.2 on a Sagem myV-55'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sagem, model: myV-55 } }
+-
+    headers: 'User-Agent: UTSTARCOM-GTX75/UC1.88 POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
+    readable: 'Polaris 6.00 on an UTStarcom GTX75'
+    result: { browser: { name: Polaris, version: '6.00', type: browser }, device: { type: mobile, subtype: feature, manufacturer: UTStarcom, model: GTX75 } }
