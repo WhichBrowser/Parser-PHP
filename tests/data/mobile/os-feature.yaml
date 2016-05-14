@@ -518,3 +518,7 @@
     headers: 'User-Agent: HAIER-N60'
     readable: 'a Haier N60'
     result: { device: { type: mobile, subtype: feature, manufacturer: Haier, model: N60 } }
+-
+    headers: 'User-Agent: SAGEM-myV-55/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 UP.Browser/6.2.2.6.d.3.100 (GUI) MMP/1.0'
+    readable: 'Openwave 6.2 on a Sagem myV-55'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sagem, model: myV-55 } }

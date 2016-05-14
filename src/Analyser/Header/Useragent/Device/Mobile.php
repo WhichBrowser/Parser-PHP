@@ -249,7 +249,7 @@ trait Mobile
             return;
         }
 
-        if (!preg_match('/(T-Mobile|Danger|HPiPAQ|Acer|Amoi|AIRNESS|ASUS|BenQ|maui|ALCATEL|Bird|COOLPAD|CELKON|Coship|Cricket|DESAY|Diamond|dopod|Ericsson|FLY|GIONEE|Haier|HIKe|Hisense|HS|HTC|T[0-9]{4,4}|HUAWEI|Karbonn|KWC|KONKA|KTOUCH|K-Touch|Lenovo|Lephone|LG|Micromax|MOT|Nexian|NEC|NGM|OPPO|Panasonic|Pantech|Philips|Sanyo|Sam|SEC|SGH|SCH|SIE|Sony|SE|SHARP|Spice|Tecno|T-smart|TCL|Tiphone|Toshiba|UTStar|vk|Vodafone|Xiaomi|ZTE|WAP)/ui', $ua)) {
+        if (!preg_match('/(T-Mobile|Danger|HPiPAQ|Acer|Amoi|AIRNESS|ASUS|BenQ|maui|ALCATEL|Bird|COOLPAD|CELKON|Coship|Cricket|DESAY|Diamond|dopod|Ericsson|FLY|GIONEE|Haier|HIKe|Hisense|HS|HTC|T[0-9]{4,4}|HUAWEI|Karbonn|KWC|KONKA|KTOUCH|K-Touch|Lenovo|Lephone|LG|Micromax|MOT|Nexian|NEC|NGM|OPPO|Panasonic|Pantech|Philips|Sagem|Sanyo|Sam|SEC|SGH|SCH|SIE|Sony|SE|SHARP|Spice|Tecno|T-smart|TCL|Tiphone|Toshiba|UTStar|vk|Vodafone|Xiaomi|ZTE|WAP)/ui', $ua)) {
             return;
         }
 
@@ -545,6 +545,11 @@ trait Mobile
 
                 return $model;
             }
+        ]);
+
+        $this->data->device->identifyModel('/SAGEM-([A-Z0-9\-]+)/ui', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Sagem'
         ]);
 
         $this->data->device->identifyModel('/Sanyo-([A-Z0-9]+)/ui', $ua, [
