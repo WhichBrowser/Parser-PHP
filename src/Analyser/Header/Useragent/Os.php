@@ -157,7 +157,7 @@ trait Os
     {
         /* Android */
 
-        if (preg_match('/Android/ui', $ua)) {
+        if (preg_match('/Andr[0o]id/ui', $ua)) {
             $falsepositive = false;
 
             /* Prevent the Mobile IE 11 Franken-UA from matching Android */
@@ -180,7 +180,7 @@ trait Os
                 $this->data->os->name = 'Android';
                 $this->data->os->version = new Version();
 
-                if (preg_match('/Android(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/ui', str_replace('-update', ',', $ua), $match)) {
+                if (preg_match('/Andr[0o]id(?: )?(?:AllPhone_|CyanogenMod_|OUYA )?(?:\/)?v?([0-9.]+)/ui', str_replace('-update', ',', $ua), $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
                 }
 
