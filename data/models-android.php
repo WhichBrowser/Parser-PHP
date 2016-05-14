@@ -64,6 +64,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Shark Bay Client platform'                 => [ 'Intel', 'Haswell based device', DeviceType::DEVBOARD ],
     'BP710A'                                    => [ 'Intel', 'Yukka Beach based device', DeviceType::DEVBOARD ],
     'yukkabeach'                                => [ 'Intel', 'Yukka Beach based device', DeviceType::DEVBOARD ],
+    'berlin'                                    => [ 'Marvell', 'Armada based device', DeviceType::DEVBOARD ],
     'berlin bg2!'                               => [ 'Marvell', 'Armada based device', DeviceType::DEVBOARD ],
     'berlin generic!'                           => [ 'Marvell', 'Armada based device', DeviceType::DEVBOARD ],
     'bg2 !'                                     => [ 'Marvell', 'Armada based device', DeviceType::DEVBOARD ],
@@ -11942,6 +11943,8 @@ DeviceModels::$ANDROID_MODELS = [
         'NSZ-GU1'                                   => [ 'Sony', 'BRAVIA Smart Stick NSZ-GU1', DeviceType::TELEVISION, Flag::GOOGLETV ],
     ],
 
+    'beetle'                                    => [ 'Sony', 'NSZ-GS7', DeviceType::TELEVISION, Flag::GOOGLETV ],
+    'magi'                                      => [ 'Sony', 'BRAVIA Smart Stick NSZ-GU1', DeviceType::TELEVISION, Flag::GOOGLETV ],
     'Internet TV'                               => [ 'Sony', 'Internet TV', DeviceType::TELEVISION, Flag::GOOGLETV ],
     'Internet TV Box'                           => [ 'Sony', 'Internet TV', DeviceType::TELEVISION, Flag::GOOGLETV ],
     'BRAVIA'                                    => [ 'Sony', 'Bravia W80', DeviceType::TELEVISION ],
