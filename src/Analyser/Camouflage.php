@@ -37,7 +37,7 @@ trait Camouflage
     private function &detectCamouflagedAndroidBrowser($ua)
     {
         if (preg_match('/Mac OS X 10_6_3; ([^;]+); [a-z]{2}(?:-[a-z]{2})?\)/u', $ua, $match)) {
-            $this->data->browser->name = '';
+            $this->data->browser->name = 'Android Browser';
             $this->data->browser->version = null;
             $this->data->browser->mode = 'desktop';
 
@@ -54,7 +54,7 @@ trait Camouflage
         }
 
         if (preg_match('/Mac OS X 10_5_7; [^\/\);]+\/([^\/\);]+)\//u', $ua, $match)) {
-            $this->data->browser->name = '';
+            $this->data->browser->name = 'Android Browser';
             $this->data->browser->version = null;
             $this->data->browser->mode = 'desktop';
 
