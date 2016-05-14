@@ -439,7 +439,7 @@ trait Os
 
     private function determineAndroidVersionBasedOnBuild($ua)
     {
-        if ($this->data->isOs('Linux') || $this->data->isOs('Android')) {
+        if ($this->data->isOs('Android')) {
             if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
                 $version = Data\BuildIds::identify($match[1]);
                 if ($version) {
@@ -450,10 +450,6 @@ trait Os
                     /* Special case for Android L */
                     if ($version->toFloat() == 5) {
                         $this->data->os->version = $version;
-                    }
-
-                    if (!$this->data->isOs('Android')) {
-                        $this->data->os->name = 'Android';
                     }
                 }
 
