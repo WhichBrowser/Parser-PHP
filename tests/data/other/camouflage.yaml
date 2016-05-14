@@ -161,3 +161,7 @@
     features: 95
     readable: 'Firefox 48.0 on OS X El Capitan 10.11'
     result: { browser: { name: Firefox, version: '48.0', type: browser }, engine: { name: Gecko, version: '48.0' }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; HTC/DesireHD/1.39.161.1) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17'
+    readable: 'a HTC Desire HD running Android'
+    result: { browser: { type: browser }, engine: { name: Webkit }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire HD' } }

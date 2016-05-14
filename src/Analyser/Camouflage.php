@@ -3,6 +3,7 @@
 namespace WhichBrowser\Analyser;
 
 use WhichBrowser\Constants;
+use WhichBrowser\Data;
 use WhichBrowser\Model\Version;
 
 trait Camouflage
@@ -48,6 +49,29 @@ trait Camouflage
             $this->data->engine->version = null;
 
             $this->data->device->type = 'mobile';
+
+            $this->data->features[] = 'foundDevice';
+        }
+
+        if (preg_match('/Mac OS X 10_5_7; [^\/\);]+\/([^\/\);]+)\//u', $ua, $match)) {
+            $this->data->browser->name = '';
+            $this->data->browser->version = null;
+            $this->data->browser->mode = 'desktop';
+
+            $this->data->os->name = 'Android';
+            $this->data->os->alias = null;
+            $this->data->os->version = null;
+
+            $this->data->engine->name = 'Webkit';
+            $this->data->engine->version = null;
+
+            $this->data->device->type = 'mobile';
+
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
 
             $this->data->features[] = 'foundDevice';
         }
