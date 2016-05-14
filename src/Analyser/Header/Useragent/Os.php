@@ -279,7 +279,7 @@ trait Os
             }
         }
 
-        if (preg_match('/\(Linux; ([^;]+) Build/u', $ua, $match)) {
+        if (preg_match('/\(Linux; (?:U; )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
             $device = Data\DeviceModels::identify('android', $match[1]);
             if ($device->identified) {
                 $device->identified |= Constants\Id::PATTERN;
