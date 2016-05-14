@@ -486,11 +486,11 @@ trait Browser
             $this->data->browser->name = 'Opera';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
 
-            if (preg_match('/Opera[\/| ]?([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Opera[\/| ]?([0-9.]+)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
-            if (preg_match('/Version\/([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Version\/([0-9.]+)/u', $ua, $match)) {
                 if (floatval($match[1]) >= 10) {
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
                 } else {
@@ -604,7 +604,7 @@ trait Browser
         if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS)/ui', $ua)) {
             return;
         }
-        
+
         if (preg_match('/Firefox/u', $ua)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox';
