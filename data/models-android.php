@@ -275,13 +275,18 @@ DeviceModels::$ANDROID_MODELS = [
 
     /* Android TV */
     'Nexus Player'                              => [ 'Asus', 'Nexus Player', DeviceType::TELEVISION, Flag::ANDROIDTV],
+    'SVP-DTV15'                                 => [ 'Sony', 'Bravia Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'BRAVIA 2015'                               => [ 'Sony', 'Bravia Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'BRAVIA 4K 2015'                            => [ 'Sony', 'Bravia Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV ],
+    'BRAVIA 4K GB'                              => [ 'Sony', 'Bravia Android TV (2016)', DeviceType::TELEVISION, Flag::ANDROIDTV ],
     'QV151E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'QM151E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'QM152E'                                    => [ 'Philips', 'Android TV (2015)', DeviceType::TELEVISION, Flag::ANDROIDTV],
+    'QM163E'                                    => [ 'Philips', 'Android TV (2016)', DeviceType::TELEVISION, Flag::ANDROIDTV],
+    'PH7M EU 5596'                              => [ 'Philips', 'Android TV (2016)', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'SHIELD Console'                            => [ 'Nvidia', 'SHIELD Android TV', DeviceType::TELEVISION, Flag::ANDROIDTV],
     'SHIELD Android TV'                         => [ 'Nvidia', 'SHIELD Android TV', DeviceType::TELEVISION, Flag::ANDROIDTV],
+    'SHIELD Andr0id TV'                         => [ 'Nvidia', 'SHIELD Android TV', DeviceType::TELEVISION, Flag::ANDROIDTV],
 
     /* Middleware and emulators */
     'BlueStacks!'                               => [ 'BlueStacks', 'App Player', DeviceType::DESKTOP ],
