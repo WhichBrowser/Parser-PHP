@@ -272,24 +272,24 @@
     readable: 'Opera Devices 3.2 on a Humax HD-FOX-C/DELTA Digital Receiver'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;IKEA LF1V358; en) Presto/2.10.250 Version/11.60'
-    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: IKEA, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.2 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: IKEA, model: LF1V358, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.2 on an IKEA LF1V358 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;PEAQ LF1V350; en) Presto/2.8.115 Version/11.10'
-    result: { browser: { name: 'Opera Devices', version: '3.0', type: browser }, engine: { name: Presto, version: 2.8.115 }, device: { type: television, manufacturer: PEAQ, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.0 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.0', type: browser }, engine: { name: Presto, version: 2.8.115 }, device: { type: television, manufacturer: PEAQ, model: LF1V350, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.0 on a PEAQ LF1V350 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;TCL LF1V349; en) Presto/2.8.115 Version/11.10'
-    result: { browser: { name: 'Opera Devices', version: '3.0', type: browser }, engine: { name: Presto, version: 2.8.115 }, device: { type: television, manufacturer: TCL, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.0 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.0', type: browser }, engine: { name: Presto, version: 2.8.115 }, device: { type: television, manufacturer: TCL, model: LF1V349, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.0 on a TCL LF1V349 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOM LF1V375; en) Presto/2.10.250 Version/11.60'
-    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Thomson, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.2 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Thomson, model: LF1V375, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.2 on a Thomson LF1V375 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V017; en) Presto/2.10.250 Version/11.60'
-    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Thomson, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.2 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.250 }, device: { type: television, manufacturer: Thomson, model: LF1V017, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.2 on a Thomson LF1V017 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; LOEWE; SL32x; LOH/0.3.5.0;;) CE-HTML/1.0 Config(L:ger,CC:DE) NETRANGEMMH) Presto/2.12.407 Version/12.50'
     result: { browser: { name: 'Opera Devices', version: '3.4', type: browser }, engine: { name: Presto, version: 2.12.407 }, device: { type: television, manufacturer: Loewe, model: 'Connect SL32', series: 'Smart TV' } }
@@ -412,8 +412,8 @@
     readable: 'Opera Devices 3.2 on a Humax HDR-1000S Digital Receiver'
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;TCL LF1V042; en) Presto/2.10.287 Version/12.00'
-    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: TCL, series: 'Smart TV' } }
-    readable: 'Opera Devices 3.2 on a television'
+    result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: TCL, model: LF1V042, series: 'Smart TV' } }
+    readable: 'Opera Devices 3.2 on a TCL LF1V042 Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux mips; U; xx) Presto/2.10.287 Version/12.00 DuneHD/1.0 (connect; 140223_0132_b6) CE-HTML/1.0 NETRANGEMMH'
     result: { browser: { name: 'Opera Devices', version: '3.2', type: browser }, engine: { name: Presto, version: 2.10.287 }, device: { type: television, manufacturer: 'Dune HD', model: Connect } }
