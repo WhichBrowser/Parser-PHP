@@ -291,6 +291,9 @@ trait Os
         }
 
         if (preg_match('/\(Linux; U; Linux Ventana; [^;]+; ([^;]+) Build/u', $ua, $match)) {
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->model = $match[1];
+
             $device = Data\DeviceModels::identify('android', $match[1]);
             if ($device->identified) {
                 $device->identified |= Constants\Id::PATTERN;
