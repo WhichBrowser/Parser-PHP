@@ -416,12 +416,12 @@ trait Os
 
         /* COS */
 
-        if (preg_match('/(COS|Chinese Operating System)/ui', $ua)) {
+        if (preg_match('/(COS|(China|Chinese) Operating System)/ui', $ua)) {
             if (preg_match('/COS[\/ ]?([0-9]\.[0-9.]+)/ui', $ua, $match)) {
                 $this->data->os->name = 'COS';
                 $this->data->os->family = new Family([ 'name' => 'Android' ]);
                 $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
-            } elseif (preg_match('/(?:\(|; )Chinese Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
+            } elseif (preg_match('/(?:\(|; )(?:China|Chinese) Operating System ([0-9]\.[0-9.]*);/ui', $ua, $match)) {
                 $this->data->os->name = 'COS';
                 $this->data->os->family = new Family([ 'name' => 'Android' ]);
                 $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);

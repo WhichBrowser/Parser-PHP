@@ -66,3 +66,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; COS1.0; zh_CN; HTC 802t Build/JRO03C) AppleWebKit/537.17 (KHTML, like Gecko) Browser/2.2.4 Version/4.0 Mobile Safari/537.17'
     result: { engine: { name: Webkit, version: '537.17' }, os: { name: COS, family: Android, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: One } }
     readable: 'a HTC One running COS 1.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; China Operating System 2.0; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    readable: 'a HTC Sensation running COS 2.0'
+    result: { engine: { name: Webkit, version: '534.30' }, os: { name: COS, family: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Sensation } }
