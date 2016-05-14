@@ -496,6 +496,11 @@ trait Mobile
             'manufacturer'  => 'Motorola'
         ]);
 
+        $this->data->device->identifyModel('/Moto([^\/\s_;r][^\/\s_;]*)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Motorola'
+        ]);
+
         $this->data->device->identifyModel('/Nexian([^\/_]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Nexian'

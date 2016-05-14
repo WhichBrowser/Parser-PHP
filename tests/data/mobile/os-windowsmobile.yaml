@@ -722,3 +722,7 @@
     headers: 'User-Agent: Palm850/V0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88'
     readable: 'UC Browser 7.7 on a Palm Treo Pro running Windows Mobile'
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo Pro' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 Sprint:MotoQ (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)'
+    readable: 'Pocket Internet Explorer 4.0.1 on a Motorola Q running Windows CE'
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: Q } }
