@@ -349,6 +349,27 @@ trait Application
                 $this->data->device = $device;
             }
         }
+
+        /* Facebook for Android */
+
+        if (preg_match('/^\[FBAN\/FB4A;.*FBDV\/([^;]+);.*FBSV\/([0-9\.]+);/u', $ua, $match)) {
+            $this->data->browser->name = 'Facebook';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[2] ])
+            ]);
+
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
     }
 
     private function detectRemainingApplications($ua)
