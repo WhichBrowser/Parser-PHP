@@ -688,8 +688,8 @@
     readable: 'Mobile Internet Explorer 6.0 on a Sprint PPC6700 running Windows Mobile'
 -
     headers: 'User-Agent: HTCS621-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)'
-    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature, manufacturer: HTC, model: S621 } }
-    readable: 'Pocket Internet Explorer 4.0.1 on a HTC S621 running Windows CE'
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S621 } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC S621 running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Trinity } }
@@ -724,5 +724,5 @@
     result: { browser: { name: 'UC Browser', version: '7.7', type: browser }, engine: { name: Gecko }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Treo Pro' } }
 -
     headers: 'User-Agent: Mozilla/4.0 Sprint:MotoQ (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)'
-    readable: 'Pocket Internet Explorer 4.0.1 on a Motorola Q running Windows CE'
-    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: Q } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a Motorola Q running Windows Mobile'
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Q } }

@@ -670,7 +670,12 @@ trait Os
                 }
             }
 
-            if (preg_match('/Microsoft Windows; PPC/u', $ua)) {
+            if (preg_match('/Microsoft Windows; (PPC|Smartphone)/u', $ua)) {
+                $this->data->os->name = 'Windows Mobile';
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }
+
+            if (preg_match('/Windows CE; (PPC|Smartphone)/u', $ua)) {
                 $this->data->os->name = 'Windows Mobile';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
