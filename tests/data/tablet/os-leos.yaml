@@ -1,0 +1,8 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; LeOS1.0; xx; lepad_001n Build/PQXU100.4.0073.021511) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.33 Safari/532.0'
+    readable: 'Chrome 3 on a Lenovo LePad running LeOS 1.0'
+    result: { browser: { name: Chrome, version: '3', type: browser }, engine: { name: Webkit, version: '532.0' }, os: { name: LeOS, family: Android, version: '1.0' }, device: { type: tablet, manufacturer: Lenovo, model: LePad } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; LeOS1.0; xx; lepad_001b Build/PQXU100.4.0097.042211) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.33 Safari/532.0'
+    readable: 'Chrome 3 on a Lenovo LePad running LeOS 1.0'
+    result: { browser: { name: Chrome, version: '3', type: browser }, engine: { name: Webkit, version: '532.0' }, os: { name: LeOS, family: Android, version: '1.0' }, device: { type: tablet, manufacturer: Lenovo, model: LePad } }

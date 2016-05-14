@@ -401,6 +401,33 @@ trait Os
             }
         }
 
+        /* LeOS */
+
+        if (preg_match('/LeOS/u', $ua)) {
+            $this->data->os->name = 'LeOS';
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
+
+            if (preg_match('/LeOS([0-9\.]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            $this->data->device->type = Constants\DeviceType::TABLET;
+
+            if (preg_match('/LeOS[0-9\.]+; [^;]+; (.*) Build/u', $ua, $match)) {
+                $this->data->device->model = $match[1];
+            }
+
+            if (isset($this->data->device->model) && $this->data->device->model) {
+                $this->data->device->identified |= Constants\Id::PATTERN;
+
+                $device = Data\DeviceModels::identify('android', $this->data->device->model);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+        }
+
         /* WoPhone */
 
         if (preg_match('/WoPhone/u', $ua)) {
