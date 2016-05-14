@@ -734,7 +734,7 @@ trait Os
                 }
 
                 /* Windows Phone 7 (buggy) */
-                if (preg_match('/Windows Phone OS [^;]+; Trident\/[^;]+; IEMobile\/[^;]+\) ([A-Z\s]+); ?([^\/,]+)/ui', $ua, $match)) {
+                if (preg_match('/Windows Phone OS [^;]+; Trident\/[^;]+; IEMobile\/[^;]+[\);] ([A-Z\s]+); ?([^\/,]+)/ui', $ua, $match)) {
                     $this->data->device->manufacturer = $match[1];
                     $this->data->device->model = $match[2];
                     $this->data->device->identified |= Constants\Id::PATTERN;
