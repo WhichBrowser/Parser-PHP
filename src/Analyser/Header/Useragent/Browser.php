@@ -495,8 +495,6 @@ trait Browser
             if (preg_match('/Version\/([0-9.]+)/u', $ua, $match)) {
                 if (floatval($match[1]) >= 10) {
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-                } else {
-                    $this->data->browser->version = null;
                 }
             }
 
