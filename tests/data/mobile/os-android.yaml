@@ -270,3 +270,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.6; tr_TR; GT-S5360 BUILD/GINGERBREAD) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     readable: 'Android Browser on a Samsung Galaxy Y running Android 2.3.6'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Y' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; 2.3.5; en-us; SAMSUNG-SGH-I927 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
+    readable: 'Android Browser on a Samsung Captivate Glide running Android 2.3.5'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Captivate Glide' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; 2.3.4; en-us; X500 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
+    readable: 'Android Browser on a ZTE X500 Score running Android 2.3.4'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'X500 Score' } }

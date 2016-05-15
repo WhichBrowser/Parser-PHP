@@ -280,7 +280,7 @@ trait Os
             }
         }
 
-        if (preg_match('/\(Linux; (?:([0-9.]+); )?(?:U; )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
+        if (preg_match('/\(Linux; (?:U; )?(?:([0-9.]+); )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
             $falsepositive = false;
 
             if ($match[2] == 'OpenTV') {
