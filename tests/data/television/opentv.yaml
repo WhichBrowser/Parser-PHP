@@ -1,15 +1,15 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0 compatible; Device Mosaic 5.0; OpenTV) InettvBrowser/1.0 (008045;DCH505;3.15;00000)'
-    readable: 'a Panasonic DCH505 Smart TV running OpenTV'
-    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: DCH505, series: 'Smart TV' } }
+    readable: 'Device Mosaic 5.0 on a Panasonic DCH505 Smart TV running OpenTV'
+    result: { browser: { name: 'Device Mosaic', family: Mosaic, version: '5.0', type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: DCH505, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0 compatible; Device Mosaic 5.0; OpenTV) InettvBrowser/1.0 (008045;MHD500;1.09;00000)'
-    readable: 'a Panasonic MHD500 Smart TV running OpenTV'
-    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: MHD500, series: 'Smart TV' } }
+    readable: 'Device Mosaic 5.0 on a Panasonic MHD500 Smart TV running OpenTV'
+    result: { browser: { name: 'Device Mosaic', family: Mosaic, version: '5.0', type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: MHD500, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0 compatible; Device Mosaic 5.2.2; OpenTV) InettvBrowser/2.2 (008045;PANATV1115;2.21;10000) TvpsExtInfo/A05B15 (7A050002020000BDF19E;22;F)'
-    readable: 'a Panasonic Smart TV running OpenTV'
-    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, series: 'Smart TV' } }
+    readable: 'Device Mosaic 5.2.2 on a Panasonic Smart TV running OpenTV'
+    result: { browser: { name: 'Device Mosaic', family: Mosaic, version: 5.2.2, type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, series: 'Smart TV' } }
 -
     headers: 'User-Agent: Mozilla/5.0 ( en-us; OpenTV Build/5.1.2) AppleWebKit/537.32 (KHTML, like Gecko)'
     readable: 'OpenTV 5.1.2'

@@ -867,6 +867,16 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
         }
+
+        if (preg_match('/Device Mosaic ([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Device Mosaic';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->family = new Family([ 'name' => 'Mosaic' ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->stock = false;
+
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+        }
     }
 
 
