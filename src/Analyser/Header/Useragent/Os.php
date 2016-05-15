@@ -281,21 +281,29 @@ trait Os
         }
 
         if (preg_match('/\(Linux; (?:([0-9.]+); )?(?:U; )?(?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?([^;]+) Build/u', $ua, $match)) {
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-            $this->data->device->model = $match[2];
+            $falsepositive = false;
 
-            $this->data->os->name = 'Android';
-
-            if (!empty($match[1])) {
-                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            if ($match[2] == 'OpenTV') {
+                $falsepositive = true;
             }
 
-            $device = Data\DeviceModels::identify('android', $match[2]);
-            if ($device->identified) {
-                $device->identified |= Constants\Id::PATTERN;
-                $device->identified |= $this->data->device->identified;
+            if (!$falsepositive) {
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->device->model = $match[2];
 
-                $this->data->device = $device;
+                $this->data->os->name = 'Android';
+
+                if (!empty($match[1])) {
+                    $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+                }
+
+                $device = Data\DeviceModels::identify('android', $match[2]);
+                if ($device->identified) {
+                    $device->identified |= Constants\Id::PATTERN;
+                    $device->identified |= $this->data->device->identified;
+
+                    $this->data->device = $device;
+                }
             }
         }
 
@@ -469,27 +477,19 @@ trait Os
     {
         if ($this->data->isOs('Android')) {
             if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
-                $falsepositive = false;
-
-                if ($match[1] == 'OpenTV') {
-                    $falsepositive = true;
-                }
-
-                if (!$falsepositive) {
-                    $version = Data\BuildIds::identify($match[1]);
-                    if ($version) {
-                        if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
-                            $this->data->os->version = $version;
-                        }
-
-                        /* Special case for Android L */
-                        if ($version->toFloat() == 5) {
-                            $this->data->os->version = $version;
-                        }
+                $version = Data\BuildIds::identify($match[1]);
+                if ($version) {
+                    if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
+                        $this->data->os->version = $version;
                     }
 
-                    $this->data->os->build = $match[1];
+                    /* Special case for Android L */
+                    if ($version->toFloat() == 5) {
+                        $this->data->os->version = $version;
+                    }
                 }
+
+                $this->data->os->build = $match[1];
             }
         }
     }

@@ -40,8 +40,8 @@
     result: { browser: { using: { name: Ekioh, version: 2.2.2.6 } }, engine: { name: Webkit, version: '534.51' }, os: { name: OpenTV }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; xx; OpenTV Build/5.1.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    readable: 'an unrecognized device (OpenTV) running OpenTV 5.1.2'
-    result: { engine: { name: Webkit, version: '533.1' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television, model: OpenTV } }
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '533.1' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Opentv5; Linux mips) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 OTVWebKit/1.0'
     readable: 'an unknown browser'
