@@ -62,3 +62,7 @@
     headers: 'User-Agent: Otvwebkit/1.0 (Linux BMIPS5000), BCM97356B2/OTV5.1.3 (Nagra OpenTV, DS1810TEL2-500, Wired)'
     readable: 'a NAGRA DS1810TEL2-500 Smart TV running OpenTV 5.1.3'
     result: { engine: { name: Webkit, version: '1.0' }, os: { name: OpenTV, version: 5.1.3 }, device: { type: television, manufacturer: NAGRA, model: DS1810TEL2-500, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (OpenTV 5.1.2; xx; Galaxy Nexus Build/ICL53F) AppleWebKit/537.32 (KHTML, like Gecko) Version/4.0'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '537.32' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
