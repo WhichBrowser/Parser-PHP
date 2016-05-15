@@ -27,6 +27,7 @@ trait Os
         $this->detectBada($ua);
         $this->detectBrew($ua);
         $this->detectQtopia($ua);
+        $this->detectOpenTV($ua);
         $this->detectRemainingOperatingSystems($ua);
 
         return $this;
@@ -468,19 +469,27 @@ trait Os
     {
         if ($this->data->isOs('Android')) {
             if (preg_match('/Build\/([^\);]+)/u', $ua, $match)) {
-                $version = Data\BuildIds::identify($match[1]);
-                if ($version) {
-                    if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
-                        $this->data->os->version = $version;
-                    }
+                $falsepositive = false;
 
-                    /* Special case for Android L */
-                    if ($version->toFloat() == 5) {
-                        $this->data->os->version = $version;
-                    }
+                if ($match[1] == 'OpenTV') {
+                    $falsepositive = true;
                 }
 
-                $this->data->os->build = $match[1];
+                if (!$falsepositive) {
+                    $version = Data\BuildIds::identify($match[1]);
+                    if ($version) {
+                        if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
+                            $this->data->os->version = $version;
+                        }
+
+                        /* Special case for Android L */
+                        if ($version->toFloat() == 5) {
+                            $this->data->os->version = $version;
+                        }
+                    }
+
+                    $this->data->os->build = $match[1];
+                }
             }
         }
     }
@@ -1494,6 +1503,35 @@ trait Os
         if (preg_match('/CrOS/u', $ua)) {
             $this->data->os->name = 'Chrome OS';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
+        }
+    }
+
+
+    /* Open TV */
+
+    private function detectOpenTV($ua)
+    {
+        if (preg_match('/OpenTV/ui', $ua, $match)) {
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+
+            $this->data->os->name = 'OpenTV';
+            $this->data->os->version = null;
+
+            if (preg_match('/OpenTV Build\/([0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            if (preg_match('/OpenTV ([0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            if (preg_match('/Opentv([0-9]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
+
+            if (preg_match('/OTV([0-9\.]+)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1] ]);
+            }
         }
     }
 

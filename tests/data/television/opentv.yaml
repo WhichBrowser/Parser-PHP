@@ -1,0 +1,64 @@
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0 compatible; Device Mosaic 5.0; OpenTV) InettvBrowser/1.0 (008045;DCH505;3.15;00000)'
+    readable: 'a Panasonic DCH505 Smart TV running OpenTV'
+    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: DCH505, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0 compatible; Device Mosaic 5.0; OpenTV) InettvBrowser/1.0 (008045;MHD500;1.09;00000)'
+    readable: 'a Panasonic MHD500 Smart TV running OpenTV'
+    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, model: MHD500, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0 compatible; Device Mosaic 5.2.2; OpenTV) InettvBrowser/2.2 (008045;PANATV1115;2.21;10000) TvpsExtInfo/A05B15 (7A050002020000BDF19E;22;F)'
+    readable: 'a Panasonic Smart TV running OpenTV'
+    result: { browser: { type: browser }, os: { name: OpenTV }, device: { type: television, manufacturer: Panasonic, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( en-us; OpenTV Build/5.1.2) AppleWebKit/537.32 (KHTML, like Gecko)'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '537.32' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( en-us; OpenTV Build/5.1.2) OTVWEBKIT-AppleWebKit/537.32 (KHTML, like Gecko)'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '537.32' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( Linux-OTV en-us; OpenTV Build/5.1.2) AppleWebKit/537.32 (KHTML, like Gecko)'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '537.32' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( Linux; xx; OpenTV Build/5.1.2) AppleWebKit/533.1 (KHTML, like Gecko)'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '533.1' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 ( otvwebkit; xx; OpenTV Build/5.1.2) otvwebkit/533.1 (KHTML, like Gecko)'
+    readable: 'OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '533.1' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux i686) AppleWebKit/534.51 (KHTML, like Gecko) Ekioh/2.2.2.6-opentv_r8986 Safari/534.51'
+    readable: 'Ekioh 2.2.2.6 on OpenTV'
+    result: { browser: { using: { name: Ekioh, version: 2.2.2.6 } }, engine: { name: Webkit, version: '534.51' }, os: { name: OpenTV }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux) AppleWebKit/534.51 (KHTML, like Gecko) Ekioh/2.2.2.6-opentv_r9086 Safari/534.51'
+    readable: 'Ekioh 2.2.2.6 on OpenTV'
+    result: { browser: { using: { name: Ekioh, version: 2.2.2.6 } }, engine: { name: Webkit, version: '534.51' }, os: { name: OpenTV }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; xx; OpenTV Build/5.1.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    readable: 'an unrecognized device (OpenTV) running OpenTV 5.1.2'
+    result: { engine: { name: Webkit, version: '533.1' }, os: { name: OpenTV, version: 5.1.2 }, device: { type: television, model: OpenTV } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Opentv5; Linux mips) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 OTVWebKit/1.0'
+    readable: 'an unknown browser'
+    result: { browser: { family: { name: Chrome, version: 25 }, type: browser }, engine: { name: Webkit, version: '537.32' }, os: { name: OpenTV, version: '5' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Opentv5; Linux mips) AppleWebKit/538.15 (KHTML, like Gecko) Version/8.0 Safari/538.15 OTVWebKit/1.1'
+    readable: 'OpenTV 5'
+    result: { engine: { name: Webkit, version: '538.15' }, os: { name: OpenTV, version: '5' }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Spyglass 3.0; OpenTV) Gecko/20081010  InettvBrowser/1.0 (F00001;OTV-IB24L;2.4;00000),gzip(gfe),gzip(gfe),gzip(gfe)'
+    readable: 'Spyglass 3.0 on a Smart TV running OpenTV'
+    result: { browser: { name: Spyglass, version: '3.0', type: browser }, engine: { name: Gecko }, os: { name: OpenTV }, device: { type: television, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: OpenTV otvwebkit 537'
+    readable: OpenTV
+    result: { os: { name: OpenTV }, device: { type: television } }
+-
+    headers: 'User-Agent: Otvwebkit/1.0 (Linux BMIPS5000), BCM97356B2/OTV5.1.3 (Nagra OpenTV, DS1810TEL2-500, Wired)'
+    readable: 'a NAGRA DS1810TEL2-500 Smart TV running OpenTV 5.1.3'
+    result: { engine: { name: Webkit, version: '1.0' }, os: { name: OpenTV, version: 5.1.3 }, device: { type: television, manufacturer: NAGRA, model: DS1810TEL2-500, series: 'Smart TV' } }

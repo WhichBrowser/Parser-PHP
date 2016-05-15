@@ -643,13 +643,6 @@ trait Television
             $this->data->device->generic = false;
         }
 
-        /* OpenTV */
-
-        if (preg_match('/OpenTV/u', $ua)) {
-            $this->data->device->series = 'OpenTV';
-            $this->data->device->type = Constants\DeviceType::TELEVISION;
-        }
-
         /* MediStream */
 
         if (preg_match('/MediStream/u', $ua)) {
@@ -796,6 +789,12 @@ trait Television
                             case 'LGwebOSTV':
                                 $this->data->device->series = 'webOS TV';
                                 break;
+                        }
+                    }
+
+                    if ($this->data->device->manufacturer == 'Panasonic') {
+                        if (substr($modelName, 0, 6) != 'PANATV') {
+                            $this->data->device->model = $modelName;
                         }
                     }
                 }

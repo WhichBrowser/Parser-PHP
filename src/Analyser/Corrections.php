@@ -176,7 +176,7 @@ trait Corrections
 
     private function hideOsOnDeviceTypeTelevision()
     {
-        if (isset($this->data->os->name) && !in_array($this->data->os->name, [ 'Aliyun OS', 'Tizen', 'Android', 'Android TV', 'FireOS', 'Google TV', 'Firefox OS' ])) {
+        if (isset($this->data->os->name) && !in_array($this->data->os->name, [ 'Aliyun OS', 'Tizen', 'Android', 'Android TV', 'FireOS', 'Google TV', 'Firefox OS', 'OpenTV' ])) {
             $this->data->os->reset();
         }
     }

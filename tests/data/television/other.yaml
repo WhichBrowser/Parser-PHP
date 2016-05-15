@@ -568,8 +568,8 @@
     readable: 'NetFront 3.1 on a Maspro Denkoh Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Spyglass 3.0; OpenTV) Gecko/20081010  InettvBrowser/1.0 (F00001;OTV-IB24L;2.4;00000),gzip(gfe),gzip(gfe),gzip(gfe)'
-    result: { browser: { name: Spyglass, version: '3.0', type: browser }, engine: { name: Gecko }, device: { type: television, series: OpenTV } }
-    readable: 'Spyglass 3.0 on an OpenTV'
+    result: { browser: { name: Spyglass, version: '3.0', type: browser }, engine: { name: Gecko }, os: { name: OpenTV }, device: { type: television, series: 'Smart TV' } }
+    readable: 'Spyglass 3.0 on a Smart TV running OpenTV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; ARM) AppleWebKit/533.21.1 (KHTML, like Gecko) Zetakey/3.3.1'
     readable: 'Zetakey 3.3.1 on a television'

@@ -23,6 +23,7 @@ Manufacturers::$TELEVISION = [
     'inverto'                                   => 'Inverto',
     'LOEWE'                                     => 'Loewe',
     'MEDION'                                    => 'Medion',
+    'Nagra OpenTV'                              => 'NAGRA',
     'PANASONIC'                                 => 'Panasonic',
     'Sagemcom_Broadband_SAS'                    => 'Sagemcom',
     'SERAPHIC'                                  => 'Seraphic',
