@@ -231,6 +231,13 @@ BuildIds::$ANDROID_BUILDS = [
     'MXC14G'        => '6.0.1',
     'MXC89F'        => '6.0.1',
     'M5C14J'        => '6.0.1',
+
+    'NPC56P'        => ['value' => '7.0', 'alias' => 'N'],
+    'NPC56W'        => ['value' => '7.0', 'alias' => 'N'],
+    'NPC56X'        => ['value' => '7.0', 'alias' => 'N'],
+    'NPC91K'        => ['value' => '7.0', 'alias' => 'N'],
+    'NRD21D'        => ['value' => '7.0', 'alias' => 'N'],
+    'NRD28C'        => ['value' => '7.0', 'alias' => 'N'],
 ];
 
 // Source: http://source.android.com/source/build-numbers.html

@@ -201,6 +201,10 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => '6', 'details' => 3, 'alias' => 'M' ]);
                 }
 
+                if (preg_match('/Android 6.0.99/u', $ua)) {
+                    $this->data->os->version = new Version([ 'value' => '7', 'details' => 3, 'alias' => 'N' ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::MOBILE;
 
                 if ($this->data->os->version->toFloat() >= 3) {
