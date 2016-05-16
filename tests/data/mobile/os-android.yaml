@@ -278,3 +278,35 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; 2.3.4; en-us; X500 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
     readable: 'Android Browser on a ZTE X500 Score running Android 2.3.4'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'X500 Score' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android L; xx; Nexus 5 Build/LPV79) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/533.1'
+    readable: 'UC Browser 9.9 on a LG Nexus 5 running Android L'
+    result: { browser: { name: 'UC Browser', version: '9.9', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.99; Build/LPV79) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2094.0 Mobile Safari/537.36'
+    readable: 'Chrome Dev 38.0.2094.0 on Android L'
+    result: { browser: { name: Chrome, version: 38.0.2094.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '5.0', alias: L } }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android M; xx; Nexus 5 Build/MPZ44Q) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30'
+    readable: 'UC Browser 10.6 on a LG Nexus 5 running Android M'
+    result: { browser: { name: 'UC Browser', version: '10.6', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android M; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0'
+    readable: 'Firefox Mobile 41.0 on Android M'
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '41.0' }, version: '41.0', type: browser }, engine: { name: Gecko, version: '41.0' }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.99; Build/MPZ44Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36'
+    readable: 'Chrome 42 on Android M'
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.99; Build/MPZ44Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36'
+    readable: 'Chrome 43 on Android M'
+    result: { browser: { name: Chrome, version: '43', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '6', alias: M } }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android N; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0'
+    readable: 'Firefox Mobile 45.0 on Android N'
+    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '45.0' }, version: '45.0', type: browser }, engine: { name: Gecko, version: '45.0' }, os: { name: Android, version: { value: '7', alias: 'N' } }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.99; Build/NPC91K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36'
+    readable: 'Chrome 50 on Android N'
+    result: { browser: { name: Chrome, version: '50', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '7', alias: 'N' } }, device: { type: mobile, subtype: smart } }

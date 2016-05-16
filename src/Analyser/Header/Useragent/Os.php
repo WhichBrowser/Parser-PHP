@@ -197,11 +197,15 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => '4.4', 'details' => 3 ]);
                 }
 
-                if (preg_match('/Android 5.[01].99/u', $ua)) {
+                if (preg_match('/Android (?:L|4.4.99);/u', $ua)) {
+                    $this->data->os->version = new Version([ 'value' => '5', 'details' => 3, 'alias' => 'L' ]);
+                }
+
+                if (preg_match('/Android (?:M|5.[01].99);/u', $ua)) {
                     $this->data->os->version = new Version([ 'value' => '6', 'details' => 3, 'alias' => 'M' ]);
                 }
 
-                if (preg_match('/Android 6.0.99/u', $ua)) {
+                if (preg_match('/Android (?:N|6.0.99);/u', $ua)) {
                     $this->data->os->version = new Version([ 'value' => '7', 'details' => 3, 'alias' => 'N' ]);
                 }
 
