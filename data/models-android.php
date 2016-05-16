@@ -5388,7 +5388,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?TAG-(AL00|CL00|TL00)!'                           => [ 'Huawei', 'Enjoy 5S' ],
     ],
 
-    '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|HN3|H30|H60|HOL|KIW|PE|PLK|SCL)!!' => [
+    '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|HN3|H30|H60|HOL|KIW|NEM|PE|PLK|SCL)!!' => [
         'H30 U10'                                                       => [ 'Huawei', 'Honor 3C' ],
         '(HW-|HUAWEI )?HN3-(U00|U01)!'                                  => [ 'Huawei', 'Honor 3' ],
         '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!'        => [ 'Huawei', 'Honor 3C' ],
@@ -5398,11 +5398,12 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?CHE-(TL00|TL00H)!'                               => [ 'Huawei', 'Honor 4X' ],
         '(HW-|HUAWEI )?Che1-(L04|CL10|CL20)!'                           => [ 'Huawei', 'Honor 4X' ],
         '(HW-|HUAWEI )?Che2-(L11|L12|L23|TL00|UL00)!'                   => [ 'Huawei', 'Honor 4X' ],
+        '(HW-|HUAWEI )?NEM-(TL00H)!'                                    => [ 'Huawei', 'Honor 5C' ],
         '(HW-|HUAWEI )?KIW-(AL10|CL00|L21|L22|L24|UL00|TL00|TL00H)!'    => [ 'Huawei', 'Honor 5X' ],
         '(HW-|HUAWEI )?H60-(J1|L01|L02|L03|L04|L11|L12|L21)!'           => [ 'Huawei', 'Honor 6' ],
         '(HW-|HUAWEI )?PE-(CL00|TL00|TL10|TL20|UL00)!'                  => [ 'Huawei', 'Honor 6 Plus' ],
         '(HW-|HUAWEI )?PLK-(L01|AL10|CL00|UL00|TL00|TL01H)!'            => [ 'Huawei', 'Honor 7' ],
-        '(HW-|HUAWEI )?ATH-(AL00|CL00|TL00|TL00H|ATH-UL00)!'            => [ 'Huawei', 'Honor 7i' ],
+        '(HW-|HUAWEI )?ATH-(AL00|CL00|TL00|TL00H|UL00)!'                => [ 'Huawei', 'Honor 7i' ],
         '(HW-|HUAWEI )?ATH-(UL01|UL06)!'                                => [ 'Huawei', 'Honor ShotX' ],
     ],
 
@@ -5411,7 +5412,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?KII-(L03|L05|L21|L22|L23)!'                      => [ 'Huawei', 'GR5' ],
     ],
 
-    '(HW-|HUAWEI )?(ALE|D2|G6|G7|GRA|M100|P2|P6|P7|RIO|SC|Sophia)!!' => [
+    '(HW-|HUAWEI )?(ALE|D2|EVA|G6|G7|GRA|M100|P2|P6|P7|RIO|SC|Sophia)!!' => [
         'HUAWEI D2'                                                     => [ 'Huawei', 'Ascend D2' ],
         '(HW-|HUAWEI )?D2-(0082|2010|5000|6070|6114)!'                  => [ 'Huawei', 'Ascend D2' ],
         '(HW-|HUAWEI )?G6-(C00|L11|L22|L33|T00|U00|U10|U34|U251)!'      => [ 'Huawei', 'Ascend G6' ],
@@ -5427,6 +5428,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?M100-(CL00|L09|TL00|UL00)!'                      => [ 'Huawei', 'P8' ],
         '(HW-|HUAWEI )?GRA-(CL00|CL10|L09|TL00|UL00|UL10)!'             => [ 'Huawei', 'P8' ],
         '(HW-|HUAWEI )?ALE-?(L02|L04|L21|L23|CL00|TL00|UL00)!'          => [ 'Huawei', 'P8 Lite' ],
+        '(HW-|HUAWEI )?EVA-?(AL00|AL10|DL00)!'                          => [ 'Huawei', 'P9' ],
     ],
 
     'Huawei P7 mini'                                => [ 'Huawei', 'Ascend P7 mini' ],
@@ -5472,6 +5474,8 @@ DeviceModels::$ANDROID_MODELS = [
         'Y635-(L01|L02|L03|L21|L22)!'               => [ 'Huawei', 'Ascend Y635' ],
     ],
 
+    'HUAWEI LUA-(L03|U23)!'                         => [ 'Huawei', 'Y3 II' ],
+    'HUAWEI CUN-(L03|U29)!'                         => [ 'Huawei', 'Y5 II' ],
     'HUAWEI SCC-U21'                                => [ 'Huawei', 'Y6' ],
 
     '(Huawei|Ascend|HW-)!!' => [
