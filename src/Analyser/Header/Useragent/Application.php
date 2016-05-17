@@ -248,6 +248,19 @@ trait Application
                 }
             }
 
+            if ($match[2] == 'WP7') {
+                $this->data->os->reset([
+                    'name'      => 'Windows Phone',
+                    'version'   => new Version([ 'value' => $match[3], 'details' => 2 ])
+                ]);
+
+                $device = Data\DeviceModels::identify('wp', $match[5]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
             if ($match[2] == 'S60Version') {
                 $this->data->os->reset([
                     'name'      => 'Series60',
