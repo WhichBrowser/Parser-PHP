@@ -80,8 +80,8 @@
     readable: 'Chromium 36.0.1985.125 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64); CentOS Linux release 7.1.1503 (Core)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: CentOS }, device: { type: desktop } }
-    readable: 'Chrome 33 on CentOS'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: CentOS, version: '7.1' }, device: { type: desktop } }
+    readable: 'Chrome 33 on CentOS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.121 Chrome/15.0.874.121 Safari/535.2'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 15 }, version: 15.0.874.121, type: browser }, engine: { name: Webkit, version: '535.2' }, os: { name: Ubuntu, version: '11.10' }, device: { type: desktop } }
@@ -112,12 +112,12 @@
     readable: 'Konqueror 4.9 on SUSE'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; Fedora release 18 (Spherical Cow)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
-    readable: 'Chrome 33 on Fedora'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Fedora, version: '18' }, device: { type: desktop } }
+    readable: 'Chrome 33 on Fedora 18'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; Fedora release 20 (Heisenbug)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.1 Safari/537.36'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: Fedora }, device: { type: desktop } }
-    readable: 'Maxthon 1.0.5 on Fedora'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: Fedora, version: '20' }, device: { type: desktop } }
+    readable: 'Maxthon 1.0.5 on Fedora 20'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/10.10 Chromium/17.0.963.26 Chrome/17.0.963.26 Safari/535.11'
     result: { browser: { name: Chromium, family: { name: Chrome, version: 17 }, version: 17.0.963.26, type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: Ubuntu, version: '10.10' }, device: { type: desktop } }
@@ -148,8 +148,8 @@
     readable: 'Konqueror 4.11 on Fedora 20'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Gentoo Base System release 2.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Gentoo }, device: { type: desktop } }
-    readable: 'Chrome 33 on Gentoo'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Gentoo, version: '2.2' }, device: { type: desktop } }
+    readable: 'Chrome 33 on Gentoo 2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:11.0) Gecko/2012314 Firefox/17.0.1 Slackware Linux'
     result: { browser: { name: Firefox, version: 17.0.1, type: browser }, engine: { name: Gecko, version: '11.0' }, os: { name: Slackware }, device: { type: desktop } }
@@ -312,8 +312,8 @@
     readable: 'Opera 12.02 on Gentoo'
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux i686; U; OpenSUSE 12.1; xx) Presto/2.10.229 Version/11.62'
-    result: { browser: { name: Opera, version: '11.62', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: SUSE }, device: { type: desktop } }
-    readable: 'Opera 11.62 on SUSE'
+    result: { browser: { name: Opera, version: '11.62', type: browser }, engine: { name: Presto, version: 2.10.229 }, os: { name: SUSE, version: '12.1' }, device: { type: desktop } }
+    readable: 'Opera 11.62 on SUSE 12.1'
 -
     headers: 'User-Agent: Opera/9.80 (X11; Linux x86_64; Debian) Presto/2.12.388 Version/12.12'
     result: { browser: { name: Opera, version: '12.12', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: Debian }, device: { type: desktop } }
@@ -334,3 +334,79 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.1; Lindows 3.01; DigExt)'
     readable: 'Lindows 3.01'
     result: { os: { name: Lindows, version: '3.01' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Antergos Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.3 Safari/537.36'
+    readable: 'Maxthon 1.0.5 on Antergos Linux'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: 'Antergos Linux' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Arch Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.0 Safari/537.36'
+    readable: 'Maxthon 1.0.5 on Arch Linux'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: 'Arch Linux' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; ArchLinux) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/33.0.1703.0 Chrome/33.0.1703.0 Safari/537.36'
+    readable: 'Chromium 33.0.1703.0 on Arch Linux'
+    result: { browser: { name: Chromium, family: { name: Chrome, version: 33 }, version: 33.0.1703.0, type: browser }, engine: { name: Blink }, os: { name: 'Arch Linux' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Black Lab Linux 6.0 SR1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.3 Safari/537.36'
+    readable: 'Maxthon 1.0.5 on Black Lab Linux 6.0'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: 'Black Lab Linux', version: '6.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; CentOS Linux release 7.0.1406 (Core)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.3 Safari/537.36'
+    readable: 'Maxthon 1.0.5 on CentOS 7.0'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: CentOS, version: '7.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Debian GNU/Linux 7.5 (wheezy)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Debian 7.5'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Debian, version: '7.5' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; elementary OS Freya) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on elementary OS Freya'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: 'elementary OS', version: { alias: Freya } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; elementary OS Luna) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.3 Safari/537.36'
+    readable: 'Maxthon 1.0.5 on elementary OS Luna'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.5, type: browser }, engine: { name: Blink }, os: { name: 'elementary OS', version: { alias: Luna } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Gentoo Base System release 2.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Gentoo 2.2'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Gentoo, version: '2.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Linux Mint 13 Maya) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1793.0 Maxthon/0.9.2.0 beta Safari/537.36'
+    readable: 'Maxthon 0.9.2 on Linux Mint 13'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 34 }, version: 0.9.2, type: browser }, engine: { name: Blink }, os: { name: 'Linux Mint', version: '13' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Linux Mint 16 Petra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.3.10 Safari/537.36'
+    readable: 'Maxthon 1.0.3 on Linux Mint 16'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 33 }, version: 1.0.3, type: browser }, engine: { name: Blink }, os: { name: 'Linux Mint', version: '16' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Linux Mint 16 Petra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Linux Mint 16'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: 'Linux Mint', version: '16' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Linux Mint 17.2 Rafaela) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Linux Mint 17.2'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: 'Linux Mint', version: '17.2' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Mageia 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Mageia 4'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Mageia, version: '4' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; openSUSE 12.3 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on SUSE 12.3'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: SUSE, version: '12.3' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; openSUSE 13.1 (Bottle) (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on SUSE 13.1'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: SUSE, version: '13.1' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Ubuntu 14.04.1 LTS) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Ubuntu 14.04'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Ubuntu, version: '14.04' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Ubuntu 13.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Ubuntu 13.10'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Ubuntu, version: '13.10' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Ubuntu 14.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
+    readable: 'Chrome 33 on Ubuntu 14.10'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Ubuntu, version: '14.10' }, device: { type: desktop } }

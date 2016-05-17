@@ -1819,10 +1819,33 @@ trait Os
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
+            if (preg_match('/Antergos Linux/u', $ua)) {
+                $this->data->os->name = 'Antergos Linux';
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
+            if (preg_match('/Arch ?Linux/u', $ua)) {
+                $this->data->os->name = 'Arch Linux';
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
+            if (preg_match('/Black Lab Linux/u', $ua)) {
+                $this->data->os->name = 'Black Lab Linux';
+                if (preg_match('/Black Lab Linux ([0-9\.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
             if (preg_match('/CentOS/u', $ua)) {
                 $this->data->os->name = 'CentOS';
                 if (preg_match('/CentOS\/[0-9\.\-]+el([0-9_]+)/u', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
+                }
+
+                if (preg_match('/CentOS Linux release ([0-9\.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
                 }
 
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
@@ -1834,6 +1857,19 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 }
 
+                if (preg_match('/Debian GNU\/Linux ([0-9\.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
+            if (preg_match('/elementary OS/u', $ua)) {
+                $this->data->os->name = 'elementary OS';
+                if (preg_match('/elementary OS ([A-Za-z]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'alias' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
@@ -1843,11 +1879,19 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]) ]);
                 }
 
+                if (preg_match('/Fedora release ([0-9\.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
             if (preg_match('/Gentoo/u', $ua)) {
                 $this->data->os->name = 'Gentoo';
+                if (preg_match('/Gentoo Base System release ([0-9\.]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
@@ -1869,6 +1913,15 @@ trait Os
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
+            if (preg_match('/Linux Mint/u', $ua)) {
+                $this->data->os->name = 'Linux Mint';
+                if (preg_match('/Linux Mint ([0-9\.]+)/iu', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+
             if (preg_match('/Mandriva Linux/u', $ua)) {
                 $this->data->os->name = 'Mandriva';
                 if (preg_match('/Mandriva Linux\/[0-9\.\-]+mdv([0-9]+)/u', $ua, $match)) {
@@ -1881,6 +1934,10 @@ trait Os
             if (preg_match('/Mageia/u', $ua)) {
                 $this->data->os->name = 'Mageia';
                 if (preg_match('/Mageia\/[0-9\.\-]+mga([0-9]+)/u', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                if (preg_match('/Mageia ([0-9\.]+)/iu', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 }
 
@@ -1929,6 +1986,10 @@ trait Os
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
                 }
 
+                if (preg_match('/openSUSE ([0-9\.]+)/iu', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             }
 
@@ -1945,6 +2006,10 @@ trait Os
                 $this->data->os->name = 'Ubuntu';
                 if (preg_match('/Ubuntu\/([0-9.]*)/u', $ua, $match)) {
                     $this->data->os->version = new Version([ 'value' => $match[1] ]);
+                }
+
+                if (preg_match('/Ubuntu ([0-9\.]+)/iu', $ua, $match)) {
+                    $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
                 }
 
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
