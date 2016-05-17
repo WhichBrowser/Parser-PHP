@@ -2045,6 +2045,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Bmobile AX745'                             => [ 'Bmobile', 'AX745' ],
         'Bmobile AX810'                             => [ 'Bmobile', 'AX810' ],
         'AX1020'                                    => [ 'Bmobile', 'AX1020' ],
+        'BMOBILE AX1020'                            => [ 'Bmobile', 'AX1020' ],
         'Bmobile AX1030'                            => [ 'Bmobile', 'AX1030' ],
         'AX1055'                                    => [ 'Bmobile', 'AX1055' ],
         'BMOBILE AX1060'                            => [ 'Bmobile', 'AX1060' ],
