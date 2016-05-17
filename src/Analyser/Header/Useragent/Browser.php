@@ -393,12 +393,14 @@ trait Browser
             $this->data->browser->name = 'Pocket Internet Explorer';
             $this->data->browser->version = new Version([ 'value' => '1.0' ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
         if (preg_match('/MSPIE ([0-9.]*)/u', $ua, $match)) {
-            $this->data->browser->name = 'Pocket Internet Explorer';
+            $this->data->browser->name = 'Pocket Internet Explorer2';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
         /* Microsoft Mobile Explorer */
@@ -407,6 +409,7 @@ trait Browser
             $this->data->browser->name = 'Microsoft Mobile Explorer';
             $this->data->browser->version = new Version([ 'value' => $match[1] . '.' . $match[2] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
 

@@ -16,5 +16,5 @@
     readable: 'Microsoft Mobile Explorer 2.0 on a Sony CMD-Z7'
 -
     headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; CellPhone; Benefon Q)'
-    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser } }
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser }, device: { type: mobile, subtype: feature } }
     readable: 'Microsoft Mobile Explorer 2.0'

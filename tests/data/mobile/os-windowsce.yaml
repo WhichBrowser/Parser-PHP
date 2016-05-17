@@ -52,9 +52,9 @@
     readable: 'Firefox Mobile Fennec 1.0a1 on Windows CE 5.2'
 -
     headers: 'User-Agent: Mozilla/1.1 (compatible; MSPIE 2.0; Windows CE)'
-    result: { browser: { name: 'Pocket Internet Explorer', version: '2.0', type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature } }
-    readable: 'Pocket Internet Explorer 2.0 on Windows CE'
+    result: { browser: { name: 'Pocket Internet Explorer2', version: '2.0', type: browser }, os: { name: 'Windows CE' }, device: { type: mobile, subtype: feature } }
+    readable: 'Pocket Internet Explorer2 2.0 on Windows CE'
 -
     headers: 'User-Agent: Microsoft Pocket Internet Explorer/0.6'
-    result: { browser: { name: 'Pocket Internet Explorer', version: '1.0', type: browser } }
+    result: { browser: { name: 'Pocket Internet Explorer', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
     readable: 'Pocket Internet Explorer 1.0'
