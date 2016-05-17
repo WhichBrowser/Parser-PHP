@@ -315,6 +315,17 @@ trait Os
             }
         }
 
+        if (preg_match('/Linux x86_64; ([^;\)]+)(?:; [a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?)?\) AppleWebKit\/534.24 \(KHTML, like Gecko\) Chrome\/11.0.696.34 Safari\/534.24/u', $ua, $match)) {
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= Constants\Id::PATTERN;
+                $device->identified |= $this->data->device->identified;
+
+                $this->data->os->name = 'Android';
+                $this->data->device = $device;
+            }
+        }
+
         if (preg_match('/\(Linux; U; Linux Ventana; [^;]+; ([^;]+) Build/u', $ua, $match)) {
             $this->data->device->type = Constants\DeviceType::MOBILE;
             $this->data->device->model = $match[1];

@@ -310,3 +310,19 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.99; Build/NPC91K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36'
     readable: 'Chrome 50 on Android N'
     result: { browser: { name: Chrome, version: '50', type: browser }, engine: { name: Blink }, os: { name: Android, version: { value: '7', alias: 'N' } }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; PadFone Infinity) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24'
+    readable: 'Chrome Dev 11.0.696.34 on an Asus PadFone Infinity running Android'
+    result: { browser: { name: Chrome, version: 11.0.696.34, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android }, device: { type: tablet, manufacturer: Asus, model: 'PadFone Infinity' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; HTC/Sensation/3.32.162.52; xx) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24'
+    readable: 'Chrome Dev 11.0.696.34 on a HTC Sensation running Android'
+    result: { browser: { name: Chrome, version: 11.0.696.34, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Sensation } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; HTC_DesireHD_Beats_X315e; de-de) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24'
+    readable: 'Chrome Dev 11.0.696.34 on a HTC Desire HD running Android'
+    result: { browser: { name: Chrome, version: 11.0.696.34, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Desire HD' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; ST26i-o) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24'
+    readable: 'Chrome Dev 11.0.696.34 on a Sony Xperia J running Android'
+    result: { browser: { name: Chrome, version: 11.0.696.34, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia J' } }
