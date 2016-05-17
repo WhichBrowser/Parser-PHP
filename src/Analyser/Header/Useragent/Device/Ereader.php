@@ -92,7 +92,7 @@ trait Ereader
 
     private function detectKobo($ua)
     {
-        if (preg_match('/Kobo Touch/u', $ua, $match)) {
+        if (preg_match('/Kobo (eReader|Touch)/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Kobo',
