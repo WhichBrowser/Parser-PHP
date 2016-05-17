@@ -250,3 +250,7 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021029 Phoenix/0.4'
     result: { browser: { name: Phoenix, version: '0.4', type: browser }, engine: { name: Gecko, version: 1.2b }, os: { name: Linux }, device: { type: desktop } }
     readable: 'Phoenix 0.4 on Linux'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Darwin i386; en-US; rv:1.9.1.4) Gecko/20100311 Shiretoko/3.5.5'
+    readable: 'Firefox Shiretoko 3.5.5 on Darwin'
+    result: { browser: { name: Firefox, version: 3.5.5, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Darwin }, device: { type: desktop } }

@@ -105,8 +105,13 @@ trait Os
 
         /* Darwin */
 
-        if (preg_match('/Darwin\/([0-9]+).[0-9]+/u', $ua, $match)) {
-            if (preg_match('/\((?:x86_64|i386|Power%20Macintosh)\)/u', $ua)) {
+        if (preg_match('/Darwin(?:\/([0-9]+).[0-9]+)?/u', $ua, $match)) {
+            if (preg_match('/\(X11;/u', $ua)) {
+                
+                /* Darwin */
+                $this->data->os->name = 'Darwin';
+                $this->data->device->type = Constants\DeviceType::DESKTOP;
+            } elseif (preg_match('/\((?:x86_64|i386|Power%20Macintosh)\)/u', $ua)) {
 
                 /* OS X */
                 $this->data->os->name = 'OS X';
