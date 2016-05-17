@@ -110,3 +110,7 @@
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV /T33010307.0203.399; TvwithVideoPlayer; SWReleaseVer=22.1.46.0; AVP=1; DT=br; like Gecko) NetFront/4.1'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 4.1 on a Toshiba Smart TV'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux ; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 en-CA;L6200 Version/4.0 Safari/531.2+'
+    readable: 'Espial 6.0.4 on a Toshiba Regza L6200 Smart TV'
+    result: { browser: { name: Espial, version: 6.0.4, type: browser }, engine: { name: Webkit, version: '531.2' }, device: { type: television, manufacturer: Toshiba, model: 'Regza L6200', series: 'Smart TV' } }

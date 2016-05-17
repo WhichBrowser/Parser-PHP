@@ -1428,9 +1428,9 @@ trait Browser
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
-            if (preg_match('/;L7200/u', $ua)) {
+            if (preg_match('/;(L6200|L7200)/u', $ua, $match)) {
                 $this->data->device->manufacturer = 'Toshiba';
-                $this->data->device->model = 'Regza L7200';
+                $this->data->device->model = 'Regza ' . $match[1];
                 $this->data->device->series = 'Smart TV';
                 $this->data->device->identified |= Constants\Id::MATCH_UA;
                 $this->data->device->generic = false;
