@@ -46,3 +46,11 @@
     headers: 'User-Agent: SonyLT25i Build/9.1.A.0.490 UpdateCenter/1.2'
     readable: 'Sony Update Center on a Sony Xperia V running Android'
     result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia V' } }
+-
+    headers: 'User-Agent: Dalvik/1.6.0(Linux; U; Android 4.2.2; C2105 Sony/15.3.A.0.26) SonySelectSDK/1.0.12 SonySelect/3.0.13'
+    readable: 'Sony Select SDK 1.0 on a Sony Xperia L running Android 4.2.2'
+    result: { browser: { using: { name: 'Sony Select SDK', version: '1.0' }, type: app }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia L' } }
+-
+    headers: 'User-Agent: Dalvik/1.6.0(Linux; U; Android 4.3; C6903 Sony/14.2.A.1.142) SonySelectSDK/1.0.17 mashup/0.2'
+    readable: 'Sony Select SDK 1.0 on a Sony Xperia Z1 running Android 4.3'
+    result: { browser: { using: { name: 'Sony Select SDK', version: '1.0' }, type: app }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1' } }

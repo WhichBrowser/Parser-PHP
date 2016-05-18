@@ -45,6 +45,27 @@ trait Application
             }
         }
 
+        /* Sony Select SDK */
+
+        if (preg_match('/Android [0-9\.]+; (.*) Sony\/.*SonySelectSDK\/([0-9\.]+)/iu', $ua, $match)) {
+            $this->data->browser->reset();
+            $this->data->browser->type = Constants\BrowserType::APP;
+            $this->data->browser->using = new \WhichBrowser\Model\Using([
+                'name' => 'Sony Select SDK',
+                'version' => new Version([ 'value' => $match[2], 'details' => 2 ])
+            ]);
+
+            $this->data->device->model = $match[1];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[1]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
+
         /* Samsung Mediahub */
 
         if (preg_match('/^Stamhub [^\/]+\/([^;]+);.*:([0-9\.]+)\/[^\/]+\/[^:]+:user\/release-keys$/iu', $ua, $match)) {
