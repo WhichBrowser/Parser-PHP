@@ -526,3 +526,7 @@
     headers: 'User-Agent: UTSTARCOM-GTX75/UC1.88 POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
     readable: 'Polaris 6.00 on an UTStarcom GTX75'
     result: { browser: { name: Polaris, version: '6.00', type: browser }, device: { type: mobile, subtype: feature, manufacturer: UTStarcom, model: GTX75 } }
+-
+    headers: 'User-Agent: PANTECH_GF500/(2005.04.26)Ver1.00/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'a Pantech GF500'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Pantech, model: GF500 } }
