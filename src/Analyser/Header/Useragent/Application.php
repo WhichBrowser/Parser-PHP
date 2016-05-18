@@ -137,7 +137,7 @@ trait Application
 
         /* Instagram */
 
-        if (preg_match('/^Instagram ([0-9\.]+) Android \([0-9]+\/([0-9\.]+); [0-9]+dpi; [0-9]+x[0-9]+; [^;]+; ([^;]*);/iu', $ua, $match)) {
+        if (preg_match('/^Instagram ([0-9\.]+) Android (?:IC )?\([0-9]+\/([0-9\.]+); [0-9]+dpi; [0-9]+x[0-9]+; [^;]+; ([^;]*);/iu', $ua, $match)) {
             $this->data->browser->name = 'Instagram';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;

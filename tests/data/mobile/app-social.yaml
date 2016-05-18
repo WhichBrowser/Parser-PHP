@@ -42,3 +42,7 @@
     headers: 'User-Agent: [FBAN/PAAA;FBAV/1.7;FBDM/{density=2.0,width=720,height=1280};FBLC/es_ES;FB_FW/2;FBSN/Android;FBCR/FONIC;FBDV/GT-I9300;FBSV/4.1.2;]'
     readable: 'Facebook Pages on a Samsung Galaxy S III running Android 4.1.2'
     result: { browser: { name: 'Facebook Pages', type: 'app:social' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+-
+    headers: 'User-Agent: Instagram 1.0.0 Android IC (10/2.3.4; 240dpi; 540x960; HTC/sprint; PG86100; shooter; shooter)'
+    readable: 'Instagram 1.0.0 on a HTC EVO 3D running Android 2.3.4'
+    result: { browser: { name: Instagram, version: 1.0.0, type: 'app:social' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
