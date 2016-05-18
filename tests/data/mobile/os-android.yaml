@@ -326,3 +326,7 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; ST26i-o) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24'
     readable: 'Chrome Dev 11.0.696.34 on a Sony Xperia J running Android'
     result: { browser: { name: Chrome, version: 11.0.696.34, type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia J' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; fr-fr; Android edition by sfr STARADDICT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    readable: 'Android Browser on a SFR STARADDICT running Android 2.3.5'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: SFR, model: STARADDICT } }

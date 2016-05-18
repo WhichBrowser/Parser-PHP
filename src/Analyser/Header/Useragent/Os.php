@@ -107,7 +107,7 @@ trait Os
 
         if (preg_match('/Darwin(?:\/([0-9]+).[0-9]+)?/u', $ua, $match)) {
             if (preg_match('/\(X11;/u', $ua)) {
-                
+
                 /* Darwin */
                 $this->data->os->name = 'Darwin';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
@@ -254,7 +254,7 @@ trait Os
                 }
 
                 /* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
-                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android' && substr($this->data->device->model, 0, 15) != 'Android Edition') {
+                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android' && strtolower(substr($this->data->device->model, 0, 15)) != 'android edition') {
                     $this->data->device->model = null;
                 }
 
