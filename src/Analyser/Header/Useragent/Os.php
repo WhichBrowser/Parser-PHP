@@ -652,6 +652,11 @@ trait Os
                 if (preg_match('/ IEMobile/u', $ua)) {
                     $this->data->os->name = 'Windows Mobile';
 
+                    if (preg_match('/ IEMobile\/9/u', $ua)) {
+                        $this->data->os->name = 'Windows Phone';
+                        $this->data->os->version = new Version([ 'value' => '7.5', 'details' => 2 ]);
+                    }
+
                     if (preg_match('/ IEMobile 8/u', $ua)) {
                         $this->data->os->version = new Version([ 'value' => '6.5', 'details' => 2 ]);
                     }
@@ -733,6 +738,22 @@ trait Os
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
+                    }
+                } else {
+                    if (empty($model) && preg_match('/Windows CE [^;]+; Trident\/[^;]+; IEMobile[\/ ][^;]+[\);] ([A-Z\s]+); ?([^\/\),]+)/ui', $ua, $match)) {
+                        $model = $match[2];
+                    }
+
+                    if (!empty($model)) {
+                        $this->data->device->model = $model;
+                        $this->data->device->identified |= Constants\Id::PATTERN;
+                        $this->data->os->name = 'Windows Phone';
+
+                        $device = Data\DeviceModels::identify('wp', $model);
+                        if ($device->identified) {
+                            $device->identified |= $this->data->device->identified;
+                            $this->data->device = $device;
+                        }
                     }
                 }
             }

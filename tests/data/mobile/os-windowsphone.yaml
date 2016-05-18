@@ -1170,3 +1170,7 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile 7.0; HTC; HD7 T9292)'
     readable: 'Mobile Internet Explorer 7.0 on a HTC HD7 running Windows Phone 7.0'
     result: { browser: { name: 'Mobile Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '3.1' }, os: { name: 'Windows Phone', version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD7 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Microsoft Windows CE 7.10.7720; Trident/5.0; IEMobile/9.0; SAMSUNG; OMNIA7)'
+    readable: 'Mobile Internet Explorer 9.0 on a Samsung Omnia 7 running Windows Phone 7.5'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '9.0', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia 7' } }
