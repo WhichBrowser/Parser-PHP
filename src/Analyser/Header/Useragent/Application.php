@@ -225,7 +225,7 @@ trait Application
 
         /* Groupon */
 
-        if (preg_match('/Groupon\/([0-9\.]+) \(Android ([0-9\.]+); [^\/]+ \/ ([^;]*);/u', $ua, $match)) {
+        if (preg_match('/Groupon\/([0-9\.]+) \(Android ([0-9\.]+); [^\/]+ \/ [A-Z][a-z]+ ([^;]*);/u', $ua, $match)) {
             $this->data->browser->name = 'Groupon';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::APP_SHOPPING;
@@ -236,6 +236,7 @@ trait Application
             ]);
 
             $this->data->device->type = Constants\DeviceType::MOBILE;
+            $this->data->device->model = $match[3];
 
             $device = Data\DeviceModels::identify('android', $match[3]);
             if ($device->identified) {
