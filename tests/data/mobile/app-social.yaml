@@ -46,3 +46,15 @@
     headers: 'User-Agent: Instagram 1.0.0 Android IC (10/2.3.4; 240dpi; 540x960; HTC/sprint; PG86100; shooter; shooter)'
     readable: 'Instagram 1.0.0 on a HTC EVO 3D running Android 2.3.4'
     result: { browser: { name: Instagram, version: 1.0.0, type: 'app:social' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
+-
+    headers: 'User-Agent: VKAndroidApp/3.3.2-249 (Android 4.2.2; SDK 17; armeabi-v7a; asus K00F; ru)'
+    readable: 'VK 3.3 on an Asus MeMO Pad 10 (ME102A) running Android 4.2.2'
+    result: { browser: { name: VK, version: '3.3', type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Asus, model: 'MeMO Pad 10 (ME102A)' } }
+-
+    headers: 'User-Agent: VKAndroidApp/3.2.1-196 (Android 4.2.2; SDK 17; armeabi-v7a; samsung GT-I9500; ru)'
+    readable: 'VK 3.2 on a Samsung Galaxy S4 running Android 4.2.2'
+    result: { browser: { name: VK, version: '3.2', type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
+-
+    headers: 'User-Agent: VKAndroidApp/3.4-288 (Android 3.2; SDK 13; armeabi-v7a; samsung GT-P7300; ru)'
+    readable: 'VK 3.4 on a Samsung Galaxy Tab 8.9 running Android 3.2'
+    result: { browser: { name: VK, version: '3.4', type: 'app:social' }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 8.9' } }

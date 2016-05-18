@@ -413,6 +413,29 @@ trait Application
                 $this->data->device = $device;
             }
         }
+
+        /* VK */
+
+        if (preg_match('/^VKAndroidApp\/([0-9\.]+)-[0-9]+ \(Android ([^;]+); SDK [^;]+; [^;]+; [a-z]+ ([^;]+);/iu', $ua, $match)) {
+            $this->data->browser->name = 'VK';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
+
+            $this->data->os->reset([
+                'name'      => 'Android',
+                'version'   => new Version([ 'value' => $match[2] ])
+            ]);
+
+            $this->data->device->model = $match[3];
+            $this->data->device->identified |= Constants\Id::PATTERN;
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+
+            $device = Data\DeviceModels::identify('android', $match[3]);
+            if ($device->identified) {
+                $device->identified |= $this->data->device->identified;
+                $this->data->device = $device;
+            }
+        }
     }
 
     private function detectRemainingApplications($ua)
