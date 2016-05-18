@@ -1706,6 +1706,7 @@ DeviceModels::$ANDROID_INDEX = array (
     10 => '(Fly )?IQ ?[0-9]{3,4}!!',
     11 => 'Flylife!!',
     12 => 'Fly Flylife Web 7.85 Slim',
+    13 => 'Flyer',
   ),
   '@FN' => 
   array (

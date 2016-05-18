@@ -5168,6 +5168,7 @@ DeviceModels::$ANDROID_MODELS = [
     'EVO 4G'                                    => [ 'HTC', 'EVO 4G' ],
     'Evo V 4G'                                  => [ 'HTC', 'EVO V 4G' ],
     'Explorer A310e'                            => [ 'HTC', 'Explorer' ],
+    'Flyer'                                     => [ 'HTC', 'Flyer', DeviceType::TABLET ],
     'photon'                                    => [ 'HTC', 'HD mini' ],
     'HD2'                                       => [ 'HTC', 'HD2' ],
     'NexusHD2'                                  => [ 'HTC', 'HD2' ],
