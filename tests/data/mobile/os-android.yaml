@@ -330,3 +330,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.5; fr-fr; Android edition by sfr STARADDICT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     readable: 'Android Browser on a SFR STARADDICT running Android 2.3.5'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: SFR, model: STARADDICT } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; de; TSB_CLOUD_COMPANION;TOSHIBA_AC_AND_AZ) AppleWebkit/533.1(KHTML, like Gecko) Version/4.0 Safari/533.1'
+    readable: 'Android Browser on a Toshiba Dynabook AZ running Android 2.2'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: desktop, manufacturer: Toshiba, model: 'Dynabook AZ' } }
