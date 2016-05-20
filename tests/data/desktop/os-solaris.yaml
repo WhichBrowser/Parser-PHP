@@ -52,7 +52,7 @@
     readable: 'Firefox 24.0 on Solaris'
 -
     headers: 'User-Agent: Opera/9.24 (X11; SunOS i86pc; U; en)'
-    result: { browser: { name: Opera, version: '9.24', type: browser }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.24', type: browser }, engine: { name: Presto }, os: { name: Solaris, family: UNIX }, device: { type: desktop } }
     readable: 'Opera 9.24 on Solaris'
 -
     headers: 'User-Agent: Opera/9.80 (X11; SunOS sun4u; U; xx) Presto/2.2 Version/10.11'

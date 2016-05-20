@@ -84,31 +84,31 @@
     readable: 'NetFront NX 3.0 on a Nintendo Wii U'
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 2047-7; en)'
-    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
     readable: 'Opera 9.30 on a Nintendo Wii'
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 3642; en)'
-    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
     readable: 'Opera 9.30 on a Nintendo Wii'
 -
     headers: 'User-Agent: Opera/9.30 (Nintendo Wii; U; ; 3642; ja)'
-    result: { browser: { name: Opera, version: '9.30', type: browser }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
+    result: { browser: { name: Opera, version: '9.30', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Wii } }
     readable: 'Opera 9.30 on a Nintendo Wii'
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; en-GB)'
-    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
     readable: 'Opera 9.50 on a Nintendo DSi'
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; en-US)'
-    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
     readable: 'Opera 9.50 on a Nintendo DSi'
 -
     headers: 'User-Agent: Opera/9.50 (Nintendo DSi; Opera/507; U; ja)'
-    result: { browser: { name: Opera, version: '9.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
+    result: { browser: { name: Opera, version: '9.50', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DSi } }
     readable: 'Opera 9.50 on a Nintendo DSi'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50 [ja]'
-    result: { browser: { name: Opera, version: '8.50', type: browser }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }
+    result: { browser: { name: Opera, version: '8.50', type: browser }, engine: { name: Presto }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: DS } }
     readable: 'Opera 8.50 on a Nintendo DS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/2.0.0.0.USA'

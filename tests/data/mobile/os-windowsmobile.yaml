@@ -8,11 +8,11 @@
     readable: 'a Coolpad F800 running Windows Mobile'
 -
     headers: 'User-Agent: HD2_T8585 Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
     readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'HD mini' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'HD mini' } }
     readable: 'Opera Mobile 9.7 on a HTC HD mini running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
@@ -20,19 +20,19 @@
     readable: 'UC Browser 7.8 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
     readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_HD2_T9193 Opera/9.7 (Windows NT 5.1; U; xx) V1.49.841.1 (71528)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
     readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_P3700 Opera/9.50 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch Diamond running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_3G Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'
@@ -48,11 +48,11 @@
     readable: 'UC Browser 7.7 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Opera/9.50 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond 2' } }
     readable: 'Opera Mobile 9.7 on a HTC Touch Diamond 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_HD_T8282'
@@ -60,11 +60,11 @@
     readable: 'a HTC Touch HD running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_HD_T8282 Opera/9.50 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch HD' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch HD' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch HD running Windows Mobile'
 -
     headers: 'User-Agent: HTC_Touch_Pro2_T7373 Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Pro 2' } }
     readable: 'Opera Mobile 9.7 on a HTC Touch Pro 2 running Windows Mobile'
 -
     headers: 'User-Agent: HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.2.0.116/31/351'
@@ -100,11 +100,11 @@
     readable: 'Mobile Internet Explorer 6.0 on an Acer Tempo F900 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
     readable: 'Opera Mobile 9.5 on a Sharp WILLCOM 03 WS020SH running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00'
-    result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; KDDI-TS01; Windows Phone 6.5.3.5)'
@@ -120,11 +120,11 @@
     readable: 'Mobile Internet Explorer 6.0 on a Motorola A3300c running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1938; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 9.5 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.5 (Windows NT 5.1; U; xx) SAMSUNG-GT-i8000'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
     readable: 'Opera Mobile 9.5 on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; xx) Presto/2.2.1'
@@ -140,7 +140,7 @@
     readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.70 (Windows NT 5.1; U; xx) TMO-US_LEO'
-    result: { browser: { name: Opera, version: '9.70', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.70', type: browser }, engine: { name: Presto }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Opera 9.70 on Windows XP'
 -
     headers: 'User-Agent: Opera/9.80 (Windows Mobile; Opera Mini/5.1.21561/31.1386; U; xx) Presto/2.8.119 Version/11.10'
@@ -156,7 +156,7 @@
     readable: 'Opera Mobile 10.00 on Windows Mobile'
 -
     headers: 'User-Agent: PPC; 240x320; HTC_Mega-T3333-Orange; OpVer 113.128.2.733 Opera/9.50 (Microsoft Windows 6.5; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch 2' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch 2 running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-B7350/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
@@ -164,7 +164,7 @@
     readable: 'UC Browser 8.2 on a Samsung B7350 OmniaPRO 4 running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; xx) Opera 9.5'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'I8000 Omnia II' } }
     readable: 'Opera Mobile 9.5 on a Samsung I8000 Omnia II running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-GT-i8000/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95'
@@ -180,7 +180,7 @@
     readable: 'UC Browser 7.8 on a Samsung i900 Omnia running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-SGH-i900/1.0 Opera 9.5'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i900 Omnia' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'i900 Omnia' } }
     readable: 'Opera Mobile 9.5 on a Samsung i900 Omnia running Windows Mobile'
 -
     headers: 'User-Agent: SonyEricssonM1i/R1BA Browser/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB8.2.0.116/31/999'
@@ -188,7 +188,7 @@
     readable: 'UC Browser 8.2 on a Sony Ericsson Aspen running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_HD2/3.14.162.5 (04666) Opera/9.7 (Windows NT 5.1; U; xx)'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
     readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: Windows CE; CE; IEMobile 8.12'
@@ -488,7 +488,7 @@
     readable: 'Mobile Internet Explorer 6.0 on an O2 XDA Diamond running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Xda_diamond Opera/9.50 (Windows NT 5.1; U; de)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: O2, model: 'XDA Diamond' } }
     readable: 'Opera Mobile 9.50 on an O2 XDA Diamond running Windows Mobile'
 -
     headers: 'User-Agent: Xda_nova; 240x320 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
@@ -516,7 +516,7 @@
     readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN running Windows Mobile'
 -
     headers: 'User-Agent: Vodafone/1.0/HTC_Diamond Opera/9.50 (Windows NT 5.1; U; de)'
-    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond' } }
     readable: 'Opera Mobile 9.50 on a HTC Touch Diamond running Windows Mobile'
 -
     headers: 'User-Agent: SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)'
@@ -717,7 +717,7 @@
 -
     headers: 'User-Agent: (Opera) Vodafone/1.0/HPiPAQDataMessenger/1.00.00 Browser/Opera/9.5 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/15142; U; en)'
     readable: 'Opera Mobile 9.5 on a HP iPAQ Data Messenger running Windows Mobile'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ Data Messenger' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HP, model: 'iPAQ Data Messenger' } }
 -
     headers: 'User-Agent: Palm850/V0100 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88'
     readable: 'UC Browser 7.7 on a Palm Treo Pro running Windows Mobile'

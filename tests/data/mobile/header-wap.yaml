@@ -64,9 +64,9 @@
     readable: 'NetFront 4.1 on a Samsung Primo'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i900/1.0 Opera 9.5', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SGH-i900.xml' }
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Omnia } }
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Omnia } }
     readable: 'Opera Mobile 9.5 on a Samsung Omnia running Windows Mobile'
 -
     headers: { User-Agent: 'dopodT8588/1.0 WindowsMobile/6.5 CEOS/5.2 release/5.0 Opera/9.7 WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1', X-Wap-Profile: 'http://www.htcmms.com.tw/gen/HTC_HD2_T8585-1.0.xml' }
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile', version: '6.5' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: HD2 } }
     readable: 'Opera Mobile 9.7 on a HTC HD2 running Windows Mobile 6.5'

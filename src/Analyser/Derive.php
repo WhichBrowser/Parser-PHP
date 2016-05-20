@@ -29,6 +29,7 @@ trait Derive
 
         if (isset($this->data->browser->name)) {
             $this->deriveTrident();
+            $this->derivePresto();
         }
 
         return $this;
@@ -56,6 +57,17 @@ trait Derive
         }
 
         return $this;
+    }
+
+
+    private function derivePresto()
+    {
+        if (($this->data->isBrowser('Opera') || $this->data->isBrowser('Opera Mobile')) && !$this->data->isEngine('Presto')) {
+            $version = $this->data->browser->getVersion();
+            if ($version >= 7 && $version < 13) {
+                $this->data->engine->reset([ 'name' => 'Presto' ]);
+            }
+        }
     }
 
 

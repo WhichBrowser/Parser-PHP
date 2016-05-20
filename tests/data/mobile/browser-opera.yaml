@@ -104,9 +104,9 @@
     readable: 'Opera Mobile 10.00 on a Sony Ericsson S003 running Brew'
 -
     headers: 'User-Agent: Opera/9.51 Beta (Microsoft Windows; PPC; Opera Mobi/1718; U; en)'
-    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 9.51 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.51 Beta (Microsoft Windows; PPC; 240x320; Opera Mobi/1718; U; en)'
-    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 9.51 on Windows Mobile'

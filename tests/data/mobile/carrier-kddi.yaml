@@ -20,27 +20,27 @@
     readable: 'Openwave 6.2 on an iida G9'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-TS3B) Opera 8.60 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: W51T, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: W51T, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Toshiba W51T'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-TS3J) Opera 8.60 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: W62T, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: W62T, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Toshiba W62T'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-SN3A) Opera 8.60 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W52S, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W52S, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Sony Ericsson W52S'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-SH34) Opera 8.60 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: W61SH, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: W61SH, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Sharp W61SH'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-MA33) Opera 8.60 [en]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: W61P, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: W61P, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Panasonic W61P'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; KDDI-CA3B) Opera 8.60 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: W62CA, carrier: au } }
+    result: { browser: { name: 'Opera Mobile', version: '8.60', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: W62CA, carrier: au } }
     readable: 'Opera Mobile 8.60 on a Casio W62CA'
 -
     headers: 'User-Agent: KDDI-W41SA UP.Browser/6.2.0.7.3.129'

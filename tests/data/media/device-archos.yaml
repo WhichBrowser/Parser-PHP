@@ -1,30 +1,30 @@
 -
     headers: 'User-Agent: Opera/8.5 (GOGI; Linux armv5tejl; U) [DE] Archos A704WIFI/SW1.7.53'
-    result: { browser: { name: Opera, version: '8.5', type: browser }, device: { type: media, manufacturer: Archos, model: '704 WiFi' } }
+    result: { browser: { name: Opera, version: '8.5', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '704 WiFi' } }
     readable: 'Opera 8.5 on an Archos 704 WiFi'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a605; en)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '605 WiFi' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '605 WiFi' } }
     readable: 'Opera 9.02 on an Archos 605 WiFi'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a705; en)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '705 WiFi' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '705 WiFi' } }
     readable: 'Opera 9.02 on an Archos 705 WiFi'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv5tejl; U; ARCHOS; GOGI; a605f; de)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '605f WiFi' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '605f WiFi' } }
     readable: 'Opera 9.02 on an Archos 605f WiFi'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6S; Version 1.1.1    (WMDRMPD: 10.1); en)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '5' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '5' } }
     readable: 'Opera 9.02 on an Archos 5'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6H; Version 1.7.11    (WMDRMPD: 10.1) ; de)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '5' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '5' } }
     readable: 'Opera 9.02 on an Archos 5'
 -
     headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6L; Version 1.6.53    (WMDRMPD: 10.1) ; es)'
-    result: { browser: { name: Opera, version: '9.02', type: browser }, device: { type: media, manufacturer: Archos, model: '7' } }
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '7' } }
     readable: 'Opera 9.02 on an Archos 7'
 -
     headers: 'User-Agent: ARCHOS; GOGI; A5S; Version 2.0.45 (WMDRMPD: 10.1)'

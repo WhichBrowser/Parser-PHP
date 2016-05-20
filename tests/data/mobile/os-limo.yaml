@@ -1,10 +1,10 @@
 -
     headers: 'User-Agent: SAMSUNG-GT-I6410-Vodafone/I6410BUJB7 Linux/X2/R1 Opera/9.6 SMS-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.6', type: browser }, os: { name: LiMo }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '360 M1' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.6', type: browser }, engine: { name: Presto }, os: { name: LiMo }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '360 M1' } }
     readable: 'Opera Mobile 9.6 on a Vodafone 360 M1 running LiMo'
 -
     headers: 'User-Agent: SAMSUNG-GT-I8320-Vodafone/I8320BUJC1 Linux/X2/R1 Opera/9.6 SMS-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.6', type: browser }, os: { name: LiMo }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '360 H1' } }
+    result: { browser: { name: 'Opera Mobile', version: '9.6', type: browser }, engine: { name: Presto }, os: { name: LiMo }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '360 H1' } }
     readable: 'Opera Mobile 9.6 on a Vodafone 360 H1 running LiMo'
 -
     headers: 'User-Agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-I9200/1.0; U; Linux/SLP/2.0; xx) AppleWebKit/534.4 (KHTML, like Gecko) Dolfin/2.0 Mobile'

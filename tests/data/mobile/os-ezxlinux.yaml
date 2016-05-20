@@ -1,18 +1,18 @@
 -
     headers: 'User-Agent: MOT-A1200e/1.0 LinuxOS/2.4.20 Release/1.31.2007 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.56.11R'
-    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
+    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, engine: { name: Presto }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200e } }
     readable: 'Opera Mobile 8.00 on a Motorola A1200e running EZX Linux'
 -
     headers: 'User-Agent: MOT-A1200r/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.52.08R'
-    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
+    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, engine: { name: Presto }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
     readable: 'Opera Mobile 8.00 on a Motorola A1200r running EZX Linux'
 -
     headers: 'User-Agent: MOT-A1200r/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R541_G_11.52.13R'
-    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
+    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, engine: { name: Presto }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1200r } }
     readable: 'Opera Mobile 8.00 on a Motorola A1200r running EZX Linux'
 -
     headers: 'User-Agent: MOT-A1600/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R542_G_11.61.33R'
-    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1600 } }
+    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, engine: { name: Presto }, os: { name: 'EZX Linux' }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A1600 } }
     readable: 'Opera Mobile 8.00 on a Motorola A1600 running EZX Linux'
 -
     headers: 'User-Agent: MOTO-W760r/Mozilla/4.0 (compatible;MSIE 6.0;Linux W760r)/R63712_U_71.xx.yyI Profile/MIDP-2.0 Configuration/CLDC-1.1 Symphony 1.0'

@@ -4,11 +4,11 @@
     readable: 'MicroB on Maemo'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; ; Linux armv5tejl; U) Opera 8.02 [de_DE] Maemo browser 0.4.34 N770/SU-18'
-    result: { browser: { name: 'Opera Mobile', version: '8.02', type: browser }, os: { name: Maemo }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N770 } }
+    result: { browser: { name: 'Opera Mobile', version: '8.02', type: browser }, engine: { name: Presto }, os: { name: Maemo }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N770 } }
     readable: 'Opera Mobile 8.02 on a Nokia N770 running Maemo'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv6l; Maemo; Opera Mobi/8; U; xx; rv:2.8.2.6) Gecko/20082202 Firefox/3.5.8 Opera 12.12'
-    result: { browser: { name: 'Opera Mobile', version: '12.12', type: browser }, engine: { name: Gecko, version: 2.8.2 }, os: { name: Maemo }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Opera Mobile', version: '12.12', type: browser }, engine: { name: Presto }, os: { name: Maemo }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 12.12 on Maemo'
 -
     headers: 'User-Agent: Mozilla/5.0 (Maemo; Linux armv7l; rv:10.0) Gecko/20100101 Firefox/10.0 Fennec/10.0'

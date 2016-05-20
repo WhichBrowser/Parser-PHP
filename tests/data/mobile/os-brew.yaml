@@ -40,11 +40,11 @@
     readable: 'UC Browser 7.6 on a Hisense E316 running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_U2801;U;REX/1.0;BREW/5.0.4.1;Profile/MIDP-2.0 Configuration/CLDC-1.1;128*160) Opera/9.70'
-    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U2801 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, engine: { name: Presto }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U2801 } }
     readable: 'Opera Mobile 9.70 on a Huawei U2801 running Brew 5.0.4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (HW-HUAWEI_U5200/;U;REX/1.0;BREW/5.0.4.1;Profile/MIDP-2.0 Configuration/CLDC-1.1;240*320) Opera/9.70'
-    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U5200 } }
+    result: { browser: { name: 'Opera Mobile', version: '9.70', type: browser }, engine: { name: Presto }, os: { name: Brew, version: 5.0.4.1 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U5200 } }
     readable: 'Opera Mobile 9.70 on a Huawei U5200 running Brew 5.0.4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-B309I/B309IGC14;U;REX/3.0;BREW/3.1.5;128*128) Ucweb/6.3'
