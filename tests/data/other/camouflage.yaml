@@ -5,8 +5,8 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MASBJS)'
     engine: 19
-    result: { browser: { name: 'Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
-    readable: 'an unknown browser that imitates Internet Explorer 7.0 on Windows 8.1'
+    result: { browser: { name: 'Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    readable: 'Internet Explorer 11.0 on Windows 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux Ventana; xx; Transformer TF101 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/8.0 Safari/534.13'
     result: { browser: { name: 'Android Browser', type: browser }, engine: { name: Webkit }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Asus, model: 'Eee Pad Transformer' } }
@@ -148,8 +148,8 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/8.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3)'
     engine: 20
-    result: { browser: { name: 'Internet Explorer', version: '7.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
-    readable: 'an unknown browser that imitates Internet Explorer 7.0 on Windows 8.1'
+    result: { browser: { name: 'Internet Explorer', version: '11.0', type: browser }, engine: { name: Trident, version: '8.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop }, camouflage: true }
+    readable: 'an unknown browser that imitates Internet Explorer 11.0 on Windows 8.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120427 Firefox/15.0a1'
     engine: 20

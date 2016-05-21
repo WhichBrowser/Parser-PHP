@@ -124,7 +124,7 @@ trait Engine
 
 
             if (isset($this->data->browser->version) && isset($this->data->browser->name) && $this->data->browser->name == 'Internet Explorer') {
-                if ($this->data->engine->version->toNumber() == 7 && $this->data->browser->version->toFloat() < 11) {
+                if ($this->data->engine->version->toNumber() >= 7 && $this->data->browser->version->toFloat() < 11) {
                     $this->data->browser->version = new Version([ 'value' => '11.0' ]);
                     $this->data->browser->mode = 'compat';
                 }
