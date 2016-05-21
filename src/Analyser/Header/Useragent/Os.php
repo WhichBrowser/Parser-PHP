@@ -1,4 +1,4 @@
-<?php
+©<?php
 
 namespace WhichBrowser\Analyser\Header\Useragent;
 
@@ -117,15 +117,17 @@ trait Os
                 $this->data->os->name = 'OS X';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
 
-                $version = Data\Darwin::getVersion('osx', $match[1]);
-                if ($version) {
-                    $this->data->os->version = new Version($version);
-                }
-
-                if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
-                    $version = Data\CFNetwork::getVersion('osx', $match[1]);
+                if (isset($match[1])) {
+                    $version = Data\Darwin::getVersion('osx', $match[1]);
                     if ($version) {
                         $this->data->os->version = new Version($version);
+                    }
+
+                    if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
+                        $version = Data\CFNetwork::getVersion('osx', $match[1]);
+                        if ($version) {
+                            $this->data->os->version = new Version($version);
+                        }
                     }
                 }
             } else {
@@ -134,15 +136,17 @@ trait Os
                 $this->data->os->name = 'iOS';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
 
-                $version = Data\Darwin::getVersion('ios', $match[1]);
-                if ($version) {
-                    $this->data->os->version = new Version($version);
-                }
-
-                if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
-                    $version = Data\CFNetwork::getVersion('ios', $match[1]);
+                if (isset($match[1])) {
+                    $version = Data\Darwin::getVersion('ios', $match[1]);
                     if ($version) {
                         $this->data->os->version = new Version($version);
+                    }
+
+                    if (preg_match('/CFNetwork\/([0-9\.]+)/u', $ua, $match)) {
+                        $version = Data\CFNetwork::getVersion('ios', $match[1]);
+                        if ($version) {
+                            $this->data->os->version = new Version($version);
+                        }
                     }
                 }
             }
