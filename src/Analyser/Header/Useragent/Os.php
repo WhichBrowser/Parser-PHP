@@ -53,6 +53,11 @@ trait Os
     {
         /* iOS */
 
+        if (preg_match('/\(iOS;/u', $ua)) {
+            $this->data->os->name = 'iOS';
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+        }
+
         if (preg_match('/(iPhone|iPad|iPod)/u', $ua) && !preg_match('/like iPhone/u', $ua)) {
             $this->data->os->name = 'iOS';
 
