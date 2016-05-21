@@ -526,7 +526,7 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
 
-            if (preg_match('/Opera Mini\/(?:att\/)?([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/Opera Mini\/(?:att\/)?([0-9.]+)/u', $ua, $match)) {
                 $this->data->browser->name = 'Opera Mini';
                 $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => (intval(substr(strrchr($match[1], '.'), 1)) > 99 ? -1 : null) ]);
                 $this->data->browser->mode = 'proxy';
@@ -1713,7 +1713,7 @@ trait Browser
 
     private function detectDesktopBrowsers($ua)
     {
-        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon)/ui', $ua)) {
+        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon|Browse)/ui', $ua)) {
             return;
         }
 
@@ -1800,6 +1800,15 @@ trait Browser
             if (isset($this->data->os->name) && $this->data->browser->version && $this->data->os->name == 'Windows' && $this->data->browser->version->toFloat() < 4) {
                 $this->data->browser->version->details = 1;
             }
+        }
+
+        /* Browse for Remix OS */
+
+        if (preg_match('/^Browse\/([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Browse';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
     }
 

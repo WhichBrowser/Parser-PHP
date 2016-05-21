@@ -1,4 +1,4 @@
-©<?php
+<?php
 
 namespace WhichBrowser\Analyser\Header\Useragent;
 
@@ -498,6 +498,27 @@ trait Os
                 $this->data->os->name = 'COS';
                 $this->data->os->family = new Family([ 'name' => 'Android' ]);
             }
+        }
+
+        /* RemixOS */
+
+        if (preg_match('/RemixOS/u', $ua)) {
+            $this->data->os->name = 'Remix OS';
+            $this->data->os->version = null;
+            $this->data->os->family = new Family([ 'name' => 'Android' ]);
+
+            if (preg_match('/RemixOS ([0-9]\.[0-9])/u', $ua, $match)) {
+                switch($match[1]) {
+                    case '5.1':
+                        $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                        break;
+                    case '6.0':
+                        $this->data->os->version = new Version([ 'value' => '2.0' ]);
+                        break;
+                }
+            }
+
+            $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
 

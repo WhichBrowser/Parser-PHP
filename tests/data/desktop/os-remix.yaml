@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: Browse/0.6 (Linux 3.10.0+; RemixOS 5.1.1; RemixOS SDK built for x86; en_us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.0.0 Desktop (Opera Mini/Compression)'
+    readable: 'Browse 0.6 on Remix OS 1.0'
+    result: { browser: { name: Browse, version: '0.6', type: browser }, engine: { name: Blink }, os: { name: 'Remix OS', family: Android, version: '1.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Browse/0.6 (Linux 3.10.0+; RemixOS 6.0; RemixOS SDK built for x86; en_us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.119 Desktop'
+    readable: 'Browse 0.6 on Remix OS 2.0'
+    result: { browser: { name: Browse, family: { name: Chrome, version: 44 }, version: '0.6', type: browser }, engine: { name: Blink }, os: { name: 'Remix OS', family: Android, version: '2.0' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Browse/0.6.mini (Linux 3.4.0+; RemixOS 6.0; Motorola Moto G 2014; en_us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.119 Desktop'
+    readable: 'Browse 0.6 on a Motorola Moto G (Google Edition, 2014) running Remix OS 2.0'
+    result: { browser: { name: Browse, family: { name: Chrome, version: 44 }, version: 0.6., type: browser }, engine: { name: Blink }, os: { name: 'Remix OS', family: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G (Google Edition, 2014)' } }
