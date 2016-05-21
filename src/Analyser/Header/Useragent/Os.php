@@ -508,7 +508,7 @@ trait Os
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
             if (preg_match('/RemixOS ([0-9]\.[0-9])/u', $ua, $match)) {
-                switch($match[1]) {
+                switch ($match[1]) {
                     case '5.1':
                         $this->data->os->version = new Version([ 'value' => '1.0' ]);
                         break;
