@@ -229,6 +229,12 @@ trait Browser
                     $this->data->browser->channel = null;
                     $this->data->browser->stock = true;
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+                    
+                    if (preg_match('/Mobile VR/', $ua)) {
+                        $this->data->device->manufacturer = 'Samsung';
+                        $this->data->device->model = 'Gear VR';
+                        $this->data->device->type = Constants\DeviceType::HEADSET;
+                    }
                 }
             } else {
                 $channel = Data\Chrome::getChannel('desktop', $version);
