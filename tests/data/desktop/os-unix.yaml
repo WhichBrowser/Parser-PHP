@@ -48,7 +48,7 @@
     readable: 'Links 2.8 on ULTRIX 4.5'
 -
     headers: 'User-Agent: Opera/6.11 (UNIX; U)  [en]'
-    result: { browser: { name: Opera, version: '6.11', type: browser }, os: { name: Unix }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.11', type: browser }, engine: { name: Electra }, os: { name: Unix }, device: { type: desktop } }
     readable: 'Opera 6.11 on Unix'
 -
     headers: 'User-Agent: Opera/7.10 (UNIX; U) [en]'

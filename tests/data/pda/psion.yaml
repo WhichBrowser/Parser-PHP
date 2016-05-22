@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/4.51 (compatible; Opera 3.62; EPOC; 640x240)'
-    result: { browser: { name: Opera, version: '3.62', type: browser }, os: { name: EPOC }, device: { type: pda } }
+    result: { browser: { name: Opera, version: '3.62', type: browser }, engine: { name: Electra }, os: { name: EPOC }, device: { type: pda } }
     readable: 'Opera 3.62 on EPOC'

@@ -148,15 +148,15 @@
     readable: 'Opera 10.00 on Windows XP'
 -
     headers: 'User-Agent: Opera/4.0 (Windows 98;US)  [en]'
-    result: { browser: { name: Opera, version: '4.0', type: browser }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '4.0', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
     readable: 'Opera 4.0 on Windows 98'
 -
     headers: 'User-Agent: Opera/4.03 (Windows NT 4.0; U)'
-    result: { browser: { name: Opera, version: '4.03', type: browser }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '4.03', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '4.0', alias: 'NT 4.0' } }, device: { type: desktop } }
     readable: 'Opera 4.03 on Windows NT 4.0'
 -
     headers: 'User-Agent: Opera/6.03 (Windows 98; U) [en]'
-    result: { browser: { name: Opera, version: '6.03', type: browser }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.03', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '4.1', alias: '98' } }, device: { type: desktop } }
     readable: 'Opera 6.03 on Windows 98'
 -
     headers: 'User-Agent: Opera/8.01 (Windows 98; U; xx)'
@@ -412,15 +412,15 @@
     readable: 'Opera 9.0 on Mac OS'
 -
     headers: 'User-Agent: Opera/6.0 (Macintosh; PPC; U)  [en]'
-    result: { browser: { name: Opera, version: '6.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.0', type: browser }, engine: { name: Electra }, os: { name: 'Mac OS' }, device: { type: desktop } }
     readable: 'Opera 6.0 on Mac OS'
 -
     headers: 'User-Agent: Opera/5.0 (Macintosh;US;PPC) TP  [en]'
-    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '5.0', type: browser }, engine: { name: Electra }, os: { name: 'Mac OS' }, device: { type: desktop } }
     readable: 'Opera 5.0 on Mac OS'
 -
     headers: 'User-Agent: Opera/5.0 (Macintosh;US;PPC)  [en]'
-    result: { browser: { name: Opera, version: '5.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '5.0', type: browser }, engine: { name: Electra }, os: { name: 'Mac OS' }, device: { type: desktop } }
     readable: 'Opera 5.0 on Mac OS'
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16'

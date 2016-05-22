@@ -148,7 +148,7 @@
     readable: 'a Samsung Omnia HD running Series60 3.0'
 -
     headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS) Opera 6.0  [de]./MOT-A925./P243'
-    result: { browser: { name: 'Opera Mobile', version: '6.0', type: browser }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A925 } }
+    result: { browser: { name: 'Opera Mobile', version: '6.0', type: browser }, engine: { name: Electra }, os: { name: UIQ, family: Symbian }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: A925 } }
     readable: 'Opera Mobile 6.0 on a Motorola A925 running UIQ'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola A1000;735b) Opera 7.50 [en]./A1000./1.0 UP.Link/6.3.1.15.0'

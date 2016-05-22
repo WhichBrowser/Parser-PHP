@@ -36,11 +36,11 @@
     readable: 'Internet Explorer 10.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/3.0 (Windows 2000; U) Opera 5.12  [de]'
-    result: { browser: { name: Opera, version: '5.12', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '5.12', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
     readable: 'Opera 5.12 on Windows 2000'
 -
     headers: 'User-Agent: Mozilla/3.0 (Windows 2000; U) Opera 6.03  [ja]'
-    result: { browser: { name: Opera, version: '6.03', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.03', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
     readable: 'Opera 6.03 on Windows 2000'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.0; Windows 2000)'
@@ -52,7 +52,7 @@
     readable: 'Internet Explorer 5.0 on Windows 2000'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]'
-    result: { browser: { name: Opera, version: '6.0', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.0', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
     readable: 'Opera 6.0 on Windows 2000'
 -
     headers: 'User-Agent: Opera/7.0 (Windows 2000; U) [en]'
@@ -64,7 +64,7 @@
     readable: 'Opera 3.0 on Windows 98'
 -
     headers: 'User-Agent: Opera/6.03 (Windows Me; U) [en]'
-    result: { browser: { name: Opera, version: '6.03', type: browser }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.03', type: browser }, engine: { name: Electra }, os: { name: Windows, version: { value: '4.9', alias: ME } }, device: { type: desktop } }
     readable: 'Opera 6.03 on Windows ME'
 -
     headers: 'User-Agent: Microsoft Internet Explorer/5.2 (Windows 4.0; )'

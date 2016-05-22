@@ -120,7 +120,7 @@
     readable: 'Konqueror 3.3 on OpenBSD 3.6'
 -
     headers: 'User-Agent: Opera/6.12 (OpenBSD 3.7; U)  [en]'
-    result: { browser: { name: Opera, version: '6.12', type: browser }, os: { name: OpenBSD, family: BSD, version: '3.7' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '6.12', type: browser }, engine: { name: Electra }, os: { name: OpenBSD, family: BSD, version: '3.7' }, device: { type: desktop } }
     readable: 'Opera 6.12 on OpenBSD 3.7'
 -
     headers: 'User-Agent: curl/7.14.1 (i386-portbld-freebsd4.7) libcurl/7.14.1 OpenSSL/0.9.8 zlib/1.1.3'
