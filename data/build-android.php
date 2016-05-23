@@ -236,6 +236,7 @@ BuildIds::$ANDROID_BUILDS = [
     'NPC56W'        => ['value' => '7.0', 'alias' => 'N'],
     'NPC56X'        => ['value' => '7.0', 'alias' => 'N'],
     'NPC91K'        => ['value' => '7.0', 'alias' => 'N'],
+    'NPD35K'        => ['value' => '7.0', 'alias' => 'N'],
     'NRD21D'        => ['value' => '7.0', 'alias' => 'N'],
     'NRD28C'        => ['value' => '7.0', 'alias' => 'N'],
 ];
