@@ -2,3 +2,7 @@
     headers: 'User-Agent: iTunes-AppleTV/4.1'
     result: { browser: { name: iTunes, type: 'app:mediaplayer' }, device: { type: television, manufacturer: Apple, model: AppleTV } }
     readable: 'iTunes on an AppleTV'
+-
+    headers: 'User-Agent: AppleCoreMedia/1.0.0.12F69 (Apple TV; U; CPU OS 8_3 like Mac OS X; en_us)'
+    readable: 'an AppleTV'
+    result: { device: { type: television, manufacturer: Apple, model: AppleTV } }

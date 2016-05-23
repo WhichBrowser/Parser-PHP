@@ -444,7 +444,7 @@ trait Television
 
     private function detectSettopboxes($ua)
     {
-        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|Sunniwell|Enseo|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|WebTV|OpenTV|MediStream)/ui', $ua)) {
+        if (!preg_match('/(lacleTV|LOEWE|KreaTV|ADB|Mstar|TechniSat|Technicolor|Highway|CiscoBrowser|Sunniwell|Enseo|LocationFreeTV|Winbox|DuneHD|Roku|AppleTV|Apple TV|WebTV|OpenTV|MediStream)/ui', $ua)) {
             return;
         }
 
@@ -647,7 +647,7 @@ trait Television
 
         /* AppleTV */
 
-        if (preg_match('/AppleTV/u', $ua)) {
+        if (preg_match('/Apple ?TV/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Apple';
