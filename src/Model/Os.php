@@ -14,6 +14,9 @@ class Os extends NameVersion
     /** @var string */
     public $edition;
 
+    /** @var boolean */
+    public $hidden = false;
+
 
     /**
      * Set the properties to the default values
@@ -29,6 +32,8 @@ class Os extends NameVersion
 
         unset($this->family);
         unset($this->edition);
+
+        $this->hidden = false;
 
         if (is_array($properties)) {
             $this->set($properties);
@@ -84,9 +89,10 @@ class Os extends NameVersion
 
     public function toString()
     {
-        return trim($this->getName() .
-            (!empty($this->version) && !$this->version->hidden ? ' ' . $this->getVersion() : '')) .
-            (!empty($this->edition) ? ' ' . $this->edition : '');
+        return $this->hidden == false ?
+            trim($this->getName() . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->getVersion() : '')) .
+            (!empty($this->edition) ? ' ' . $this->edition : '') :
+            '';
     }
 
 

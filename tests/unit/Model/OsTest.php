@@ -149,6 +149,14 @@ class OsTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertEquals('Windows 10 Mobile', $os->toString());
+
+
+        $os->reset([
+            'name'      => 'webOS',
+            'hidden'    => true
+        ]);
+
+        $this->assertEquals('', $os->toString());
     }
 
     public function testIdentifyVersion()
