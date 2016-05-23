@@ -16,6 +16,10 @@ DeviceModels::$BADA_INDEX = array (
     8 => 'GT- ?S8530!',
     9 => 'GT- ?S8600!',
   ),
+  '@SC' => 
+  array (
+    0 => 'SCH-F859!',
+  ),
   '@SH' => 
   array (
     0 => 'SHW-M410',

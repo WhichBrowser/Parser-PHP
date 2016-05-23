@@ -52,8 +52,8 @@
     readable: 'Dolfin 2.0 on a Samsung Wave running Bada 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
-    result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
-    readable: 'Dolfin 2.0 on a Samsung SCH-F859'
+    result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+    readable: 'Dolfin 2.0 on a Samsung Wave running Bada'
 -
     headers: 'User-Agent: SAMSUNG-GT-B2710/B2710POJK3 SHP/VPP/R5 Dolfin/2.0 QTV/5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B'
     result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Xcover 271' } }

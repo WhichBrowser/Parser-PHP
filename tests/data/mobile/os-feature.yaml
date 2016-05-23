@@ -180,8 +180,8 @@
     readable: 'Phantom 2.0 on a LG T395'
 -
     headers: 'User-Agent: Mozilla/5.0 (SCH-F859/F859DH02;U;NUCLEUS/2.1;Profile/MIDP-2.1 Configuration/CLDC-1.1;480*800;CTC/2.0) Dolfin/2.0'
-    result: { browser: { name: Dolfin, version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-F859 } }
-    readable: 'Dolfin 2.0 on a Samsung SCH-F859'
+    result: { browser: { name: Dolfin, version: '2.0', type: browser }, os: { name: Bada }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Wave } }
+    readable: 'Dolfin 2.0 on a Samsung Wave running Bada'
 -
     headers: 'User-Agent: Mozilla/5.0 (Vodafone/1.0/LG-GS290/V10c Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1) UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; Mozilla) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0'
     result: { browser: { name: 'Obigo Q', version: '7.3', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'GS290 Cookie Fresh' } }
