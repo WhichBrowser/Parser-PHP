@@ -1725,11 +1725,11 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->version = null;
 
-            if (preg_match('/OmniWeb\/v([0-9])[0-9][0-9]/u', $ua, $match)) {
+            if (preg_match('/OmniWeb\/v?([0-9])[0-9][0-9]/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 1 ]);
             }
 
-            if (preg_match('/OmniWeb\/([0-9\.]+)/u', $ua, $match)) {
+            if (preg_match('/OmniWeb\/([0-9]\.[0-9\.]+)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
             }
 

@@ -60,12 +60,12 @@
     result: { browser: { name: OmniWeb, type: browser }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; xx) AppleWebKit/533.21.1 (KHTML, like Gecko, Safari/533.19.4) Version/5.11.1 OmniWeb/622.18.0'
-    readable: 'OmniWeb 622.18.0 on Mac OS X 10.6'
-    result: { browser: { name: OmniWeb, version: 622.18.0, type: browser }, engine: { name: WebKit }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    readable: 'OmniWeb 6 on Mac OS X 10.6'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_3; xx) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11.2 OmniWeb/622.19.3.0'
-    readable: 'OmniWeb 622.19.3 on OS X Mavericks 10.9'
-    result: { browser: { name: OmniWeb, version: 622.19.3, type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    readable: 'OmniWeb 6 on OS X Mavericks 10.9'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; xx) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0.112941'
     readable: 'OmniWeb 6 on OS X'
