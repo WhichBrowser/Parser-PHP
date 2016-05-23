@@ -149,6 +149,14 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertEquals('Crosswalk Webview', $browser->toString());
+
+        $browser->reset([
+            'name'      => 'BlackBerry Browser',
+            'hidden'    => true
+        ]);
+
+        $this->assertEquals('', $browser->toString());
+
     }
 
     public function testIdentifyVersion()
