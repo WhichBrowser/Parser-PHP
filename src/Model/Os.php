@@ -89,10 +89,13 @@ class Os extends NameVersion
 
     public function toString()
     {
-        return $this->hidden == false ?
-            trim($this->getName() . (!empty($this->version) && !$this->version->hidden ? ' ' . $this->getVersion() : '')) .
-            (!empty($this->edition) ? ' ' . $this->edition : '') :
-            '';
+        if ($this->hidden) {
+            return '';
+        }
+        
+        return trim($this->getName() .
+            (!empty($this->version) && !$this->version->hidden ? ' ' . $this->getVersion() : '')) .
+            (!empty($this->edition) ? ' ' . $this->edition : '');
     }
 
 
