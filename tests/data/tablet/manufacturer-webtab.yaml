@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; nl-NL) AppleWebKit/534.3 (KHTML, like Gecko) WeTab-Browser Safari/534.3'
+    readable: 'WebTab Browser on a WeTab running MeeGo'
+    result: { browser: { name: 'WebTab Browser' }, engine: { name: Webkit, version: '534.3' }, os: { name: MeeGo }, device: { type: tablet, manufacturer: WeTab, model: WeTab } }
