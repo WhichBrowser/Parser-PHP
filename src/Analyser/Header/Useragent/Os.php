@@ -2240,7 +2240,7 @@ trait Os
 
     private function detectRemainingOperatingSystems($ua)
     {
-        if (!preg_match('/(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|QNX|VRE|SpreadTrum|EPOC|ThreadX)/ui', $ua)) {
+        if (!preg_match('/(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|Nucleus|QNX|VRE|SpreadTrum|EPOC|ThreadX)/ui', $ua)) {
             return;
         }
 
@@ -2263,6 +2263,9 @@ trait Os
             [ 'name' => 'MRE',          'regexp' => [ '/MRE\\\\/iu' ],                                      'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MRE',          'regexp' => [ '/MAUI[-_ ](?:Browser|Runtime)/iu' ],                 'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'MRE',          'regexp' => [ '/Browser\/MAUI/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MRE',          'regexp' => [ '/Nucleus RTOS\//iu' ],                               'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MRE',          'regexp' => [ '/\/Nucleus/iu' ],                                    'type' => Constants\DeviceType::MOBILE ],
+            [ 'name' => 'MRE',          'regexp' => [ '/Nucleus\//iu' ],                                    'type' => Constants\DeviceType::MOBILE ],
 
             [ 'name' => 'QNX',          'regexp' => [ '/QNX/iu' ],                                          'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],

@@ -132,8 +132,8 @@
     readable: 'Obigo 1.1 on a Sony Ericsson T250a'
 -
     headers: 'User-Agent: BIRD.F501/1.00 Nucleus RTOS/V1.11.19 MTK6227/05C_V24 Release/11.21.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0'
-    result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: F501 } }
-    readable: 'Obigo on a Bird F501'
+    result: { browser: { name: Obigo, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: F501 } }
+    readable: 'Obigo on a Bird F501 running MRE'
 -
     headers: 'User-Agent: Philips E210/Obigo Browser wap2.0'
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: E210 } }
@@ -152,12 +152,12 @@
     readable: 'Obigo 2.0 on a Philips X830'
 -
     headers: 'User-Agent: LENOVO-A210/S015 Nucleus/1.15 MTK/53 Release/09.01.2011 Browser/Obigo03C'
-    result: { browser: { name: Obigo, version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Lenovo, model: A210 } }
-    readable: 'Obigo 3C on a Lenovo A210'
+    result: { browser: { name: Obigo, version: { value: '3', alias: 3C }, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Lenovo, model: A210 } }
+    readable: 'Obigo 3C on a Lenovo A210 running MRE'
 -
     headers: 'User-Agent: BIRD S710_BLEU/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca'
-    result: { browser: { name: Obigo, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: S710 } }
-    readable: 'Obigo on a Bird S710'
+    result: { browser: { name: Obigo, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: S710 } }
+    readable: 'Obigo on a Bird S710 running MRE'
 -
     headers: 'User-Agent: LG-MG800d MIC/WAP2.0 MIDP-2.0/CLDC-1.1'
     result: { browser: { name: 'Obigo WAP', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: MG800d } }
