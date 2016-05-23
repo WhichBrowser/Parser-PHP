@@ -134,6 +134,11 @@ trait Television
                 $this->data->device->series = 'NetCast TV';
             } else {
                 $this->data->device->series = 'webOS TV';
+                
+                $this->data->os->reset([
+                    'name'   => 'webOS',
+                    'hidden' => true
+                ]);
             }
         }
 
@@ -144,6 +149,11 @@ trait Television
             $this->data->device->series = 'webOS TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+
+            $this->data->os->reset([
+                'name'   => 'webOS',
+                'hidden' => true
+            ]);
         }
 
         if (preg_match('/Web[O0]S; Linux\/SmartTV/u', $ua)) {
@@ -151,6 +161,11 @@ trait Television
             $this->data->device->series = 'webOS TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+
+            $this->data->os->reset([
+                'name'   => 'webOS',
+                'hidden' => true
+            ]);
         }
 
         if (preg_match('/webOS\.TV-([0-9]+)/u', $ua, $match)) {
@@ -164,6 +179,11 @@ trait Television
                     $this->data->device->model = $match[1];
                 }
             }
+
+            $this->data->os->reset([
+                'name'   => 'webOS',
+                'hidden' => true
+            ]);
         }
 
         if (preg_match('/PBRM\//u', $ua)) {
@@ -180,6 +200,11 @@ trait Television
                     $this->data->device->model = $match[1];
                 }
             }
+
+            $this->data->os->reset([
+                'name'   => 'webOS',
+                'hidden' => true
+            ]);
         }
     }
 
