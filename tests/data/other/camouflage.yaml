@@ -1,7 +1,7 @@
 -
     headers: 'User-Agent: MQBrowser/5.0 (iPhone; CPU iPhone OS 8.4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Safari/7534.48.3'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS, version: '8.4' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
-    readable: 'an unknown browser that imitates an Apple iPhone running iOS 8.4'
+    readable: 'an unknown browser that imitates Safari on an Apple iPhone running iOS 8.4'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MASBJS)'
     engine: 19
@@ -88,7 +88,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari/8536.25'
     result: { browser: { name: Safari, type: browser }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone }, camouflage: true }
-    readable: 'an unknown browser that imitates an Apple iPhone running iOS 8.1.2'
+    readable: 'an unknown browser that imitates Safari on an Apple iPhone running iOS 8.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko'
     engine: 16
@@ -99,7 +99,7 @@
     engine: 51
     features: 7
     result: { browser: { name: Safari, version: 4.0.4, type: browser }, engine: { name: Webkit, version: 531.21.10 }, os: { name: iOS, alias: 'iPhone OS', version: '3.2' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
-    readable: 'an unknown browser that imitates an Apple iPad running iPhone OS 3.2'
+    readable: 'an unknown browser that imitates Safari on an Apple iPad running iPhone OS 3.2'
 -
     headers: 'User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.6.7 Version/11.00'
     engine: 19
@@ -134,7 +134,7 @@
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3'
     engine: 52
     result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.1' }, device: { type: tablet, manufacturer: Apple, model: iPad }, camouflage: true }
-    readable: 'an unknown browser that imitates an Apple iPad running iOS 5.1'
+    readable: 'an unknown browser that imitates Safari on an Apple iPad running iOS 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko'
     engine: 16
