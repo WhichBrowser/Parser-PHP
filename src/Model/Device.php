@@ -39,6 +39,9 @@ class Device extends Base
     /** @var boolean */
     public $generic = true;
 
+    /** @var boolean */
+    public $hidden = false;
+
 
     /**
      * Set the properties to the default values
@@ -60,6 +63,7 @@ class Device extends Base
         $this->subtype = '';
         $this->identified = Constants\Id::NONE;
         $this->generic = true;
+        $this->hidden = false;
 
         if (is_array($properties)) {
             $this->set($properties);
@@ -175,6 +179,10 @@ class Device extends Base
 
     public function toString()
     {
+        if ($this->hidden) {
+            return '';
+        }
+        
         if ($this->identified) {
             $model = $this->getModel();
             $manufacturer = $this->getManufacturer();

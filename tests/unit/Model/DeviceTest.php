@@ -222,6 +222,14 @@ class DeviceTest extends PHPUnit_Framework_TestCase
         ]);
 
         $this->assertEquals('OUYA', $device->toString());
+        
+        $device->setIdentification([
+            'manufacturer'  =>  'Apple',
+            'model'         =>  'Macintosh',
+            'hidden'        =>  true
+        ]);
+
+        $this->assertEquals('', $device->toString());
     }
 
     public function testDetected()
