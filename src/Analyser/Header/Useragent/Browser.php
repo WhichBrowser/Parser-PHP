@@ -38,6 +38,7 @@ trait Browser
         $this->detectModernNetscape($ua);
         $this->detectMosaic($ua);
         $this->detectKonqueror($ua);
+        $this->detectOmniWeb($ua);
 
         /* Detect other various television browsers */
         $this->detectEspial($ua);
@@ -1710,6 +1711,44 @@ trait Browser
 
             if ($this->data->device->type == '') {
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
+            }
+        }
+    }
+    
+    
+    /* OmniWeb */
+
+    private function detectOmniWeb($ua)
+    {
+        if (preg_match('/OmniWeb/u', $ua)) {
+            $this->data->browser->name = 'OmniWeb';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = null;
+
+            if (preg_match('/OmniWeb\/v([0-9])[0-9][0-9]/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 1 ]);
+            }
+
+            if (preg_match('/OmniWeb\/([0-9\.]+)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            }
+
+            $this->data->device->reset([
+                'type' => Constants\DeviceType::DESKTOP
+            ]);
+            
+            if (!empty($this->data->browser->version)) {
+                if ($this->data->browser->version->is('<', 3)) {
+                    $this->data->os->name = 'NextStep';
+                    $this->data->os->version = null;
+                }
+                
+                if ($this->data->browser->version->is('>=', 4)) {
+                    if (empty($this->data->os->name) || $this->data->os->name != 'OS X') {
+                        $this->data->os->name = 'OS X';
+                        $this->data->os->version = null;
+                    }
+                }
             }
         }
     }

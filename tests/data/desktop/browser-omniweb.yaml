@@ -1,0 +1,92 @@
+-
+    headers: 'User-Agent: DoCoMo/1.0/SH505i/c20/TC/W24H12 OmniWeb/4.1.1-v424.6'
+    readable: 'OmniWeb 4.1.1 on OS X'
+    result: { browser: { name: OmniWeb, version: 4.1.1, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.12; Mac_PowerPC) OmniWeb/4.1.1-v424.6'
+    readable: 'OmniWeb 4.1.1 on OS X'
+    result: { browser: { name: OmniWeb, version: 4.1.1, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.2; Mac_PowerPC) OmniWeb/4.1.1-v424.6'
+    readable: 'OmniWeb 4.1.1 on OS X'
+    result: { browser: { name: OmniWeb, version: 4.1.1, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows 98). OmniWeb/v528'
+    readable: 'OmniWeb 5 on OS X'
+    result: { browser: { name: OmniWeb, version: '5', type: browser }, engine: { name: WebCore }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/4.1.1-v424.6'
+    readable: 'OmniWeb 4.1.1 on OS X'
+    result: { browser: { name: OmniWeb, version: 4.1.1, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/v496'
+    readable: 'OmniWeb 4 on OS X'
+    result: { browser: { name: OmniWeb, version: '4', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/4.0.5; Mac_PowerPC)'
+    readable: 'OmniWeb 4.0.5 on OS X'
+    result: { browser: { name: OmniWeb, version: 4.0.5, type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/4.1-v422; Mac_PowerPC)'
+    readable: 'OmniWeb 4.1 on OS X'
+    result: { browser: { name: OmniWeb, version: '4.1', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/4.2-v435.5; Mac_Intel )'
+    readable: 'OmniWeb 4.2 on OS X'
+    result: { browser: { name: OmniWeb, version: '4.2', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/4.2-v435.5; Mac_PowerPC)'
+    readable: 'OmniWeb 4.2 on OS X'
+    result: { browser: { name: OmniWeb, version: '4.2', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/5.1.1; Mac_PowerPC)'
+    readable: 'OmniWeb 5.1.1 on OS X'
+    result: { browser: { name: OmniWeb, version: 5.1.1, type: browser }, engine: { name: WebCore }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_10_2; xx) AppleWebKit/10600.3.18 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v625.0'
+    readable: 'OmniWeb 6 on OS X Yosemite 10.10'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_11_0; xx) AppleWebKit/11601.1.43 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v626.0'
+    readable: 'OmniWeb 6 on OS X El Capitan 10.11'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_9_2; xx) AppleWebKit/9537.75.14 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v624.0'
+    readable: 'OmniWeb 6 on OS X Mavericks 10.9'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.8 (KHTML, like Gecko) OmniWeb'
+    readable: 'OmniWeb on OS X Mavericks 10.9'
+    result: { browser: { name: OmniWeb, type: browser }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; xx) AppleWebKit/533.21.1 (KHTML, like Gecko, Safari/533.19.4) Version/5.11.1 OmniWeb/622.18.0'
+    readable: 'OmniWeb 622.18.0 on Mac OS X 10.6'
+    result: { browser: { name: OmniWeb, version: 622.18.0, type: browser }, engine: { name: WebKit }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_3; xx) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11.2 OmniWeb/622.19.3.0'
+    readable: 'OmniWeb 622.19.3 on OS X Mavericks 10.9'
+    result: { browser: { name: OmniWeb, version: 622.19.3, type: browser }, engine: { name: WebKit }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; xx) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0.112941'
+    readable: 'OmniWeb 6 on OS X'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/523 (KHTML, like Gecko, Safari/523.10) OmniWeb/v615.0.97558'
+    readable: 'OmniWeb 6 on OS X'
+    result: { browser: { name: OmniWeb, version: '6', type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/85 (KHTML, like Gecko) OmniWeb/v558.48'
+    readable: 'OmniWeb 5 on OS X'
+    result: { browser: { name: OmniWeb, version: '5', type: browser }, engine: { name: WebCore }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.2) Gecko/20010726 Netscape6/6.1 OmniWeb/4.1-v422'
+    readable: 'OmniWeb 4.1 on OS X'
+    result: { browser: { name: OmniWeb, version: '4.1', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Win98; en-US; rv:0.9.2) Gecko/20010726 Netscape 6/6.1 OmniWeb/4.1-v422'
+    readable: 'OmniWeb 4.1 on OS X'
+    result: { browser: { name: OmniWeb, version: '4.1', type: browser }, os: { name: 'OS X' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: OmniWeb/2.5 OWF/1.0'
+    readable: 'OmniWeb 2.5 on NextStep'
+    result: { browser: { name: OmniWeb, version: '2.5', type: browser }, os: { name: NextStep }, device: { type: desktop } }

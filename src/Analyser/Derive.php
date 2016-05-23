@@ -30,6 +30,7 @@ trait Derive
         if (isset($this->data->browser->name)) {
             $this->deriveTrident();
             $this->deriveOperaRenderingEngine();
+            $this->deriveOmniWebRenderingEngine();
         }
 
         return $this;
@@ -57,6 +58,26 @@ trait Derive
         }
 
         return $this;
+    }
+
+
+    private function deriveOmniWebRenderingEngine()
+    {
+        if ($this->data->isBrowser('OmniWeb')) {
+            $version = $this->data->browser->getVersion();
+            
+            if ($version < 5) {
+                $this->data->engine->reset();
+            }
+            
+            if ($version >= 5 && $version < 5.5 && !$this->data->isEngine('WebCore')) {
+                $this->data->engine->reset([ 'name' => 'WebCore' ]);
+            }
+
+            if ($version >= 5.5 && !$this->data->isEngine('WebKit')) {
+                $this->data->engine->reset([ 'name' => 'WebKit' ]);
+            }
+        }
     }
 
 
