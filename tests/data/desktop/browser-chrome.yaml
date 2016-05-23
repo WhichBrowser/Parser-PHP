@@ -1,10 +1,10 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0'
-    result: { browser: { name: Chrome, version: 4.0.202.0, type: browser }, engine: { name: Webkit, version: '532.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: 4.0.202.0, type: browser }, engine: { name: Webkit, version: '532.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Chrome Dev 4.0.202.0 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4'
-    result: { browser: { name: Chrome, version: '5', type: browser }, engine: { name: Webkit, version: '533.4' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: Chrome, version: '5', type: browser }, engine: { name: Webkit, version: '533.4' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Chrome 5 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.120 Safari/535.2'

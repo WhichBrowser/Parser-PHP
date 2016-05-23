@@ -396,6 +396,16 @@ trait Derive
             }
         }
 
+        /* Derive manufacturer and model based on MacOS or OS X */
+        
+        if ($this->data->os->name == 'OS X' || $this->data->os->name == 'MacOS') {
+            if (empty($this->data->device->model)) {
+                $this->data->device->manufacturer = 'Apple';
+                $this->data->device->model = 'Macintosh';
+                $this->data->device->hidden = true;
+            }
+        }
+
         /* Derive iOS and OS X aliases */
 
         if ($this->data->os->name == 'iOS') {

@@ -40,15 +40,15 @@
     readable: 'Raptr on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.4; rv:10.0.10) Gecko/20121024 Firefox/10.0.10 TenFourFox/7450'
-    result: { browser: { name: TenFourFox, family: { name: Firefox, version: 10.0.10 }, type: browser }, engine: { name: Gecko, version: 10.0.10 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop } }
+    result: { browser: { name: TenFourFox, family: { name: Firefox, version: 10.0.10 }, type: browser }, engine: { name: Gecko, version: 10.0.10 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'TenFourFox on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:5.0) Gecko/20110616 Firefox/5.0 TenFourFox/G5'
-    result: { browser: { name: TenFourFox, family: { name: Firefox, version: '5.0' }, type: browser }, engine: { name: Gecko, version: '5.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    result: { browser: { name: TenFourFox, family: { name: Firefox, version: '5.0' }, type: browser }, engine: { name: Gecko, version: '5.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'TenFourFox on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:38.0) Gecko/20100101 Firefox/38.0 TenFourFox/7400'
-    result: { browser: { name: TenFourFox, family: { name: Firefox, version: '38.0' }, type: browser }, engine: { name: Gecko, version: '38.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    result: { browser: { name: TenFourFox, family: { name: Firefox, version: '38.0' }, type: browser }, engine: { name: Gecko, version: '38.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'TenFourFox on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 7Star/1.45.0.407 Safari/537.36'
@@ -56,7 +56,7 @@
     readable: '7Star 1.45.0.407 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/43.8 Safari/537.36 Chrome/43.0.2357.132'
-    result: { browser: { name: Iridium, family: { name: Chrome, version: 43 }, version: '43.8', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Iridium, family: { name: Chrome, version: 43 }, version: '43.8', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Iridium 43.8 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/41.2 Safari/537.36 Chrome/41.0.2272.118'

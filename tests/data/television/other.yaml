@@ -84,7 +84,7 @@
     readable: 'a Technicolor DXI807FT'
 -
     headers: 'User-Agent: Kodi/14.0 (Macintosh; Intel Mac OS X 10_10_3) App_Bitness/64 Version/14.0-Git:2014-12-23-ad747d9-dirty'
-    result: { browser: { name: Kodi, version: '14.0', type: 'app:mediaplayer' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Kodi, version: '14.0', type: 'app:mediaplayer' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Kodi 14.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: LOEWE/TV HBBTV/1.0 CE-HTML/1.0 SL150/14.16.0'

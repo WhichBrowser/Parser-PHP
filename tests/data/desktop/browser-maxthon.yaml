@@ -32,27 +32,27 @@
     readable: 'Maxthon 3 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.22 (KHTML, like Gecko) Maxthon/4.1.2.1000 Chrome/25.0.1364.99 Safari/537.22'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.1.2, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.1.2, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.1.2 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.22 (KHTML, like Gecko) Maxthon/4.0.6.3000 Chrome/25.0.1364.99 Safari/537.22'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.0.6, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.0.6, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.0.6 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Maxthon/4.2.3'
-    result: { browser: { name: Maxthon, version: 4.2.3, type: browser }, engine: { name: Webkit, version: 537.77.4 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, version: 4.2.3, type: browser }, engine: { name: Webkit, version: 537.77.4 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.2.3 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.22 (KHTML, like Gecko) Maxthon/4.1.2.1000 Chrome/25.0.1364.99 Safari/537.22'
-    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.1.2, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 25 }, version: 4.1.2, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.1.2 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Maxthon/4.4.0'
-    result: { browser: { name: Maxthon, version: 4.4.0, type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, version: 4.4.0, type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.4.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Maxthon/4.5.0'
-    result: { browser: { name: Maxthon, version: 4.5.0, type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Maxthon, version: 4.5.0, type: browser }, engine: { name: Webkit, version: 537.78.2 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Maxthon 4.5.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/30.0.1599.101 Safari/537.36'

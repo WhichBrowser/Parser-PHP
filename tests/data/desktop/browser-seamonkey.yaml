@@ -1,22 +1,22 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:18.0) Gecko/20100101 Firefox/18.0 SeaMonkey/2.15.2'
-    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '18.0' }, version: 2.15.2, type: browser }, engine: { name: Gecko, version: '18.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: '18.0' }, version: 2.15.2, type: browser }, engine: { name: Gecko, version: '18.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 2.15.2 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:19.0) Gecko/19.0 SeaMonkey/2.16a1'
-    result: { browser: { name: SeaMonkey, version: 2.16a1, type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, version: 2.16a1, type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 2.16a1 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20110608 Firefox/4.0.1 SeaMonkey/2.1'
-    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: 4.0.1 }, version: '2.1', type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, family: { name: Firefox, version: 4.0.1 }, version: '2.1', type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 2.1 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:16.0) Gecko/20121012 SeaMonkey/2.13'
-    result: { browser: { name: SeaMonkey, version: '2.13', type: browser }, engine: { name: Gecko, version: '16.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, version: '2.13', type: browser }, engine: { name: Gecko, version: '16.0' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 2.13 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; xx; rv:1.8.1.17) Gecko/20080829 SeaMonkey/1.1.12'
-    result: { browser: { name: SeaMonkey, version: 1.1.12, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, version: 1.1.12, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 1.1.12 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 4.5; de; rv:1.8.1.11) Gecko/20071129 PmWFx/2.0.0.11'

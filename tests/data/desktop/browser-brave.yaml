@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.0.2 Chrome/47.0.2526.73 Electron/0.36.1 Safari/537.36'
-    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.1 }, family: { name: Chrome, version: 47 }, version: 0.0.2, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.1 }, family: { name: Chrome, version: 47 }, version: 0.0.2, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Brave 0.0.2 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.7 Chrome/47.0.2526.73 Electron/0.36.2 Safari/537.36'
-    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.2 }, family: { name: Chrome, version: 47 }, version: 0.7.7, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.2 }, family: { name: Chrome, version: 47 }, version: 0.7.7, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Brave 0.7.7 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.7 Chrome/47.0.2526.73 Electron/0.36.2 Safari/537.36'
-    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.2 }, family: { name: Chrome, version: 47 }, version: 0.7.7, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Brave, using: { name: Electron, version: 0.36.2 }, family: { name: Chrome, version: 47 }, version: 0.7.7, type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Brave 0.7.7 on OS X El Capitan 10.11'

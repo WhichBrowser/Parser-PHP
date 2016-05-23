@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Servo/1.0 Firefox/37.0'
-    result: { browser: { name: Firefox, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 37.0 on OS X Yosemite 10.10'

@@ -40,11 +40,11 @@
     readable: 'QQ Browser 8.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 QQBrowser/3.9.3952.400'
-    result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 45 }, version: '3.9', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 45 }, version: '3.9', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'QQ Browser 3.9 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.79 QQBrowser/1.4.0.2117 Safari/535.11'
-    result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 17 }, version: '1.4', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: 'QQ Browser', family: { name: Chrome, version: 17 }, version: '1.4', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'QQ Browser 1.4 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.87 Safari/537.36 QQBrowser/9.2.5006.400'

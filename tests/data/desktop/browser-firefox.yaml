@@ -8,23 +8,23 @@
     readable: 'Firefox BonEcho 2.0.0.20 on RISC OS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:19.0) Gecko/20121220 Firefox/19.0'
-    result: { browser: { name: Firefox, version: '19.0', type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '19.0', type: browser }, engine: { name: Gecko, version: '19.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 19.0 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20130102 Firefox/20.0'
-    result: { browser: { name: Firefox, version: '20.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: '20.0', type: browser }, engine: { name: Gecko, version: '20.0' }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 20.0 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; xx; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19'
-    result: { browser: { name: Firefox, version: 3.0.19, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 3.0.19, type: browser }, engine: { name: Gecko, version: 1.9.0 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 3.0.19 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; xx; rv:1.8.0.12) Gecko/20070508 Firefox/1.5.0.12'
-    result: { browser: { name: Firefox, version: 1.5.0.12, type: browser }, engine: { name: Gecko, version: 1.8.0 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 1.5.0.12, type: browser }, engine: { name: Gecko, version: 1.8.0 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 1.5.0.12 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; xx; rv:1.8.1.15) Gecko/20080623 Firefox/2.0.0.15'
-    result: { browser: { name: Firefox, version: 2.0.0.15, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: Firefox, version: 2.0.0.15, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Firefox 2.0.0.15 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (OS/2; U; Warp 3; xx; rv:1.8.1.17) Gecko/20080925 Firefox/2.0.0.17'

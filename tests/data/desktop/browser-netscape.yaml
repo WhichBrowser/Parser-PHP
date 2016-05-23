@@ -28,11 +28,11 @@
     readable: 'Netscape Navigator 3.0.4 on IRIX 5.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.10pre) Gecko/20071127 Firefox/2.0.0.10 Navigator/9.0.0.4'
-    result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.10 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.10 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Netscape Navigator 9.0.0 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1'
-    result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.8 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: 'Netscape Navigator', family: { name: Firefox, version: 2.0.0.8 }, version: 9.0.0, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Netscape Navigator 9.0.0 on OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; xx; rv:0.9.4.1) Gecko/20020508 Netscape6/6.2.3'

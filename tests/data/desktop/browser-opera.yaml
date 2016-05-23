@@ -16,39 +16,39 @@
     readable: 'Opera 8.50 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.44 Safari/537.36 OPR/24.0.1558.25 (Edition Next)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 37 }, version: '24.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 37 }, version: '24.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Next 24.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2101.0 Safari/537.36 OPR/25.0.1592.0 (Edition Developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 38 }, version: '25.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Developer 25.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2159.4 Safari/537.36 OPR/26.0.1646.0 (Edition developer)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 39 }, version: '26.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Developer 26.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.53 Safari/537.36 OPR/28.0.1750.31 (Edition beta)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 41 }, version: '28.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 41 }, version: '28.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Beta 28.0 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 32.0 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 OPR/19.0.1326.47'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 32 }, version: '19.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 19.0 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.49 Safari/537.36 OPR/16.0.1196.45 (Edition Next)'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 29 }, version: '16.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Next 16.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 OPR/18.0.1284.49'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 31 }, version: '18.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 18.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25'
-    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, family: { name: Chrome, version: 45 }, version: '32.0', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 32.0 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.180'
@@ -196,7 +196,7 @@
     readable: 'Opera 9.25 on Linux'
 -
     headers: 'User-Agent: Opera/9.26 (Macintosh; Intel Mac OS X; U; xx)'
-    result: { browser: { name: Opera, version: '9.26', type: browser }, engine: { name: Presto }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.26', type: browser }, engine: { name: Presto }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 9.26 on OS X'
 -
     headers: 'User-Agent: Opera/9.26 (Windows 95; U; xx)'
@@ -216,7 +216,7 @@
     readable: 'Opera 9.63 on Windows 2000'
 -
     headers: 'User-Agent: Opera/9.64 (Macintosh; PPC Mac OS X; U; xx) Presto/2.1.1'
-    result: { browser: { name: Opera, version: '9.64', type: browser }, engine: { name: Presto, version: 2.1.1 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '9.64', type: browser }, engine: { name: Presto, version: 2.1.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 9.64 on OS X'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv7l; U; xx) Presto/2.9.219 Version/12.00'
@@ -232,43 +232,43 @@
     readable: 'Opera 12.17 on Linux'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.10.5) Presto/2.12.388 Version/12.14'
-    result: { browser: { name: Opera, version: '12.14', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.14', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 12.14 on OS X Yosemite 10.10'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.5.8; U; Edition Next; xx) Presto/2.10.269 Version/12.00'
-    result: { browser: { name: Opera, version: '12.00', type: browser }, engine: { name: Presto, version: 2.10.269 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.00', type: browser }, engine: { name: Presto, version: 2.10.269 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Next 12.00 on Mac OS X 10.5'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; Edition Labs HTML5 Parser; xx) Presto/2.9.181 Version/12.00'
-    result: { browser: { name: Opera, version: '12.00', type: browser }, engine: { name: Presto, version: 2.9.181 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.00', type: browser }, engine: { name: Presto, version: 2.9.181 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Labs 12.00 on Mac OS X 10.6'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.7.3; U; Edition MacAppStore; xx) Presto/2.9.168 Version/11.51'
-    result: { browser: { name: Opera, version: '11.51', type: browser }, engine: { name: Presto, version: 2.9.168 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '11.51', type: browser }, engine: { name: Presto, version: 2.9.168 }, os: { name: 'OS X', version: { value: '10.7', nickname: Lion } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 11.51 on OS X Lion 10.7'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.8.2) Presto/2.12.388 Version/12.15'
-    result: { browser: { name: Opera, version: '12.15', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.15', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 12.15 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.8.2; Edition Next) Presto/2.12.388 Version/12.10'
-    result: { browser: { name: Opera, version: '12.10', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.10', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Next 12.10 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.8.2; Mac App Store Edition) Presto/2.12.388 Version/12.11'
-    result: { browser: { name: Opera, version: '12.11', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.11', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 12.11 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.8.4) Presto/2.12.388 Version/12.12'
-    result: { browser: { name: Opera, version: '12.12', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.12', type: browser }, engine: { name: Presto, version: 2.12.388 }, os: { name: 'OS X', version: { value: '10.8', nickname: 'Mountain Lion' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 12.12 on OS X Mountain Lion 10.8'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.9.2; U; Edition Next; xx) Presto/2.11.310 Version/12.50'
-    result: { browser: { name: Opera, version: '12.50', type: browser }, engine: { name: Presto, version: 2.11.310 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '12.50', type: browser }, engine: { name: Presto, version: 2.11.310 }, os: { name: 'OS X', version: { value: '10.9', nickname: Mavericks } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera Next 12.50 on OS X Mavericks 10.9'
 -
     headers: 'User-Agent: Opera/9.80 (Macintosh; PPC Mac OS X; U; xx) Presto/2.6.30 Version/10.60'
-    result: { browser: { name: Opera, version: '10.60', type: browser }, engine: { name: Presto, version: 2.6.30 }, os: { name: 'OS X' }, device: { type: desktop } }
+    result: { browser: { name: Opera, version: '10.60', type: browser }, engine: { name: Presto, version: 2.6.30 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Opera 10.60 on OS X'
 -
     headers: 'User-Agent: Opera/9.80 (Windows 98; U; xx) Presto/2.10.229 Version/11.62'
