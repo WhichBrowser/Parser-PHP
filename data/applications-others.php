@@ -109,7 +109,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Atom',                 'id'    => 'atom',      'regexp' =>'/Atom\/([0-9.]*)/u' ],
         [ 'name' => 'Adobe GoLive',         'id'    => 'golive',      'regexp' =>'/GoLive ([0-9.]*)/u' ],
         [ 'name' => 'Brackets',             'id'    => 'brackets',      'regexp' =>'/Brackets\/([0-9.]*)/u' ],
-        [ 'name' => 'iWeb',                 'id'    => 'iweb',      'regexp' =>'/iWeb\/([0-9])/u' ],
+        [ 'name' => 'iWeb',                 'id'    => 'iweb',      'regexp' =>'/(?:^| )iWeb\/([0-9])/u' ],
         [ 'name' => 'Microsoft FrontPage',  'id'    => 'frontpage',      'regexp' =>'/MS ?FrontPage[ \/]([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'W3C Amaya',            'id'    => 'amaya',      'regexp' =>'/amaya\/([0-9.]*)/u' ],
     ],
