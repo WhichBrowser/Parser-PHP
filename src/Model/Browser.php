@@ -122,7 +122,11 @@ class Browser extends NameVersion
 
     public function toString()
     {
-        $result = trim(($this->hidden === false ? $this->getName() . ' ' . (!empty($this->version) && !$this->version->hidden ? $this->getVersion() : '') : ''));
+        if ($this->hidden) {
+            return '';
+        }
+        
+        $result = trim($this->getName() . ' ' . (!empty($this->version) && !$this->version->hidden ? $this->getVersion() : ''));
 
         if (empty($result) && isset($this->using)) {
             return $this->using->toString();
