@@ -132,7 +132,7 @@
     readable: 'a Samsung Smart TV 2012'
 -
     headers: 'User-Agent: Mozilla/5.0 (BDPlayer; BDP5G/1.0; like Gecko; NetFront/4.0) (avui/tv,960:540;avrt/html4;avvp/ssl;avvl/800;avmb/4000;avvm/f;avmt/all;avst/off;avkb/mc)'
-    result: { browser: { name: NetFront, version: '4.0', type: browser }, device: { type: television } }
+    result: { browser: { name: NetFront, version: '4.0', type: browser }, engine: { name: NetFront }, device: { type: television } }
     readable: 'NetFront 4.0 on a television'
 -
     headers: 'User-Agent: Mozilla/5.0 (U; Linux; Maple2012) AppleWebKit/535.20+ (KHTML, like Gecko)  Safari/535.20+'

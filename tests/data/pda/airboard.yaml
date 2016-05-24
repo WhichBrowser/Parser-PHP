@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (LocationFreeTV; Airboard/LF-X5) NetFront/3.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: pda, manufacturer: Sony, model: 'Airboard LF-X5' } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sony, model: 'Airboard LF-X5' } }
     readable: 'NetFront 3.0 on a Sony Airboard LF-X5'
 -
     headers: 'User-Agent: Mozilla/3.0 airboard 1.0 (BrowserInfo Screen=800x600x64K;InputMethod=PEN;Page=1M;Category=Personal IT Television;CPU=R4000;Storage=8M;Product=SONY/airboard/IDT-LF1;HTML-Level=3.2;Language=ja.SJIS;)'

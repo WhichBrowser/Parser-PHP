@@ -1,124 +1,124 @@
 -
     headers: 'User-Agent: BIRD_T810_TD/T810_10A_V1.00 Threadx/4.0 Mocor/W11 Release/12.01.2011 Browser/NF4.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
-    result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: T810 } }
+    result: { browser: { name: NetFront, version: '4.0', type: browser }, engine: { name: NetFront }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Bird, model: T810 } }
     readable: 'NetFront 4.0 on a Bird T810 running ThreadX 4.0'
 -
     headers: 'User-Agent: GiONEE_TD200_TD/00.00 ThreadX_OS/04.00 SC8800G/G2 Release/03.25.2011 Browser/NF3.5 Profile/MIDP-2.1 Config/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: ThreadX, version: '04.00' }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: TD200 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: ThreadX, version: '04.00' }, device: { type: mobile, subtype: feature, manufacturer: Gionee, model: TD200 } }
     readable: 'NetFront 3.5 on a Gionee TD200 running ThreadX 04.00'
 -
     headers: 'User-Agent: K-Touch_T566_CMCC_TD/TBT910514_7470_V0801/10.25.2009 Browser/NF3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: K-Touch, model: T566 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: K-Touch, model: T566 } }
     readable: 'NetFront 3.5 on a K-Touch T566'
 -
     headers: 'User-Agent: PantechP6020/JXUS04022012 BMP/1.0.4 DeviceId/141026 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: 'Persuit II' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: 'Persuit II' } }
     readable: 'NetFront 4.1 on a Pantech Persuit II running Brew MP 1.0.4'
 -
     headers: 'User-Agent: SAMSUNG-GT-S3350/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 335' } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Ch@t 335' } }
     readable: 'NetFront 3.5 on a Samsung Ch@t 335'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5222R/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rex 80' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, os: { name: Touchwiz }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rex 80' } }
     readable: 'NetFront 4.2 on a Samsung Rex 80 running Touchwiz'
 -
     headers: 'User-Agent: SAMSUNG-SM-B780A/B780AUSNF5 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
     readable: 'NetFront 4.2 on a Samsung Rugby 4'
 -
     headers: 'User-Agent: SEC-SGHD840/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-D840 } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-D840 } }
     readable: 'NetFront 3.2 on a Samsung SGH-D840'
 -
     headers: 'User-Agent: SonyEricssonW200i/R4JA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W200i } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: W200i } }
     readable: 'NetFront 3.3 on a Sony Ericsson W200i'
 -
     headers: 'User-Agent: SonyEricssonZ770i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Z770i } }
     readable: 'NetFront 3.4 on a Sony Ericsson Z770i'
 -
     headers: 'User-Agent: UNTRUSTED/1.0/HS-T39_TD/1.0 Release/03.03.2011 Threadx/4.0 Mocor/W10 Browser/NF4.0 Profile/MIDP-2.0 Config/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: T39 } }
+    result: { browser: { name: NetFront, version: '4.0', type: browser }, engine: { name: NetFront }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Hisense, model: T39 } }
     readable: 'NetFront 4.0 on a Hisense T39 running ThreadX 4.0'
 -
     headers: 'User-Agent: SAMSUNG-GT-S5260/1.0 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B NetFront/3.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: Touchwiz, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: Touchwiz, version: '3.0' }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Star II' } }
     readable: 'NetFront 3.5 on a Samsung Star II running Touchwiz 3.0'
 -
     headers: 'User-Agent: HuaweiU9130/B047 Browser/NetFront/3.5 MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U9130 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: U9130 } }
     readable: 'NetFront 3.5 on a Huawei U9130'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone SCP-6600/US/1.0) NetFront/3.1 MMP/2.0'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
     readable: 'NetFront 3.1 on a Sanyo Katana'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone SCP-5500/US/1.0) NetFront/3.0 MMP/2.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: VM4500 } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: VM4500 } }
     readable: 'NetFront 3.0 on a Sanyo VM4500'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone PM-8200/US/1.0) NetFront/3.x MMP/2.0'
-    result: { browser: { name: NetFront, version: '3.', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: PM-8200 } }
+    result: { browser: { name: NetFront, version: '3.', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: PM-8200 } }
     readable: 'NetFront 3 on a Sanyo PM-8200'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone PLS6600KJ/US/1.0) NetFront/3.1 MMP/2.0'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Katana } }
     readable: 'NetFront 3.1 on a Sanyo Katana'
 -
     headers: 'User-Agent: Mozilla/4.0 (Standard; NF32SW/1.0) NetFront/3.2'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature } }
     readable: 'NetFront 3.2'
 -
     headers: 'User-Agent: Mozilla/4.08 NetFront/3.2 (Standard; NF32SW/2.0) [en]'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature } }
     readable: 'NetFront 3.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Standard; NF41SW/1.1; like Gecko;) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature } }
     readable: 'NetFront 4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux) AppleWebKit/533.3 (KHTML, like Gecko) WebkitBrowser/1.2 Safari/533.3 NetFront/3.4 (Custom3.00.1101.01201.)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Linux }, device: { type: mobile, subtype: feature } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, os: { name: Linux }, device: { type: mobile, subtype: feature } }
     readable: 'NetFront 3.4 on Linux'
 -
     headers: 'User-Agent: Amoi 8512/R28.0 NF-Browser/3.3'
-    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: '8512' } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Amoi, model: '8512' } }
     readable: 'NetFront 3.3 on an Amoi 8512'
 -
     headers: 'User-Agent: ZTE-F102 H3G/1.0 ACS-NF/3.4 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F102 } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F102 } }
     readable: 'NetFront 3.4 on a ZTE F102'
 -
     headers: 'User-Agent: Mozilla/3.0 (AveFront/2.6)'
-    result: { browser: { name: NetFront, version: '2.6', type: browser } }
+    result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront } }
     readable: 'NetFront 2.6'
 -
     headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
-    result: { browser: { name: NetFront, version: '2.6', type: browser } }
+    result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront } }
     readable: 'NetFront 2.6'
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.5 (BrowserInfo Screen=620x400x256; InputMethod=REMOCON, KEYBOARD; Page=3M; Product=Winbond/STB; HTML-Level=3.2; Category=STB; Language=en_US; CPU=PARISC; Storage=NO;)'
-    result: { browser: { name: NetFront, version: '2.5', type: browser }, device: { type: television } }
+    result: { browser: { name: NetFront, version: '2.5', type: browser }, engine: { name: NetFront }, device: { type: television } }
     readable: 'NetFront 2.5 on a television'
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.0 Screen=320x240x256; InputMethod=MOUSE,KEYBOARD; Page=512K; Product=Panasonic/POCKET-E1.0C01; HTML-Level=3.2; Language=ja.SJIS; Category=PDA; CPU=M32R; Storage=NO; DDIP=LOCATION'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda, manufacturer: Panasonic, model: POCKET・E } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Panasonic, model: POCKET・E } }
     readable: 'NetFront 2.0 on a Panasonic POCKET・E'
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.0 (BrowserInfo Screen=640x480x256; InputMethod=PEN,KEYBOARD; Page=2M; Product=NTT/Telesse1_1.0; HTML-Level=3.2; Language=ja.SJIS; Category=WebPhone; CPU=MPC823; Storage=NO;)'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: mobile, subtype: desktop, manufacturer: NTT, model: Teless } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: desktop, manufacturer: NTT, model: Teless } }
     readable: 'NetFront 2.0 on a NTT Teless'
 -
     headers: 'User-Agent: MOT-WX450/0.1.26B NetFront FullBrowser/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: WX450 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: WX450 } }
     readable: 'NetFront 3.5 on a Motorola WX450'
 -
     headers: 'User-Agent: SAMSUNG-SGH-E778/NetFront 3.2/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDA0NDAxMDUwMDY4OTEx'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E778 } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E778 } }
     readable: 'NetFront 3.2 on a Samsung SGH-E778'
 -
     headers: 'User-Agent: Samsung -B5702/B5702BMIJ1 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'NetFront 3.5 on a Samsung B5702'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: B5702 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: B5702 } }

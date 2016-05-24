@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Standard; Scheme:lsa CanonIJCL/1.1; like Gecko;) Mobile NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: printer, manufacturer: Canon, model: 'IJ Printer' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: printer, manufacturer: Canon, model: 'IJ Printer' } }
     readable: 'NetFront 4.1 on a Canon IJ Printer'

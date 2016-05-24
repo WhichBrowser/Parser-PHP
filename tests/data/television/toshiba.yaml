@@ -1,26 +1,26 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T32013713.0203.7DD; TVwithVideoPlayer; like Gecko) NetFront/4.1 DTVNetBrowser/2.2 (000039;T32013713;0203;7DD) InettvBrowser/2.2 (000039;T32013713;0203;7DD)'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 4.1 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T33010302.0203.3DD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T33010302;0203;3DD) InettvBrowser/2.2 (000039;T33010302;0203;3DD)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 3.4 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T38014006.0203.0DD; TVwithVideoPlayer; like Gecko) NetFront/4.1 DTVNetBrowser/2.2 (000039;T38014006;0203;0DD) InettvBrowser/2.2 (000039;T38014006;0203;0DD) YahooDTV/2.0 (Video=0x03;Audio=0x01;Screen=0x01;Device=0x00;Remote=0x10)'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 4.1 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T43011A02.0203.ADD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T43011A02;0203;ADD) InettvBrowser/2.2 (000039;T43011A02;0203;ADD)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 3.4 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/T45000006.0203.CDD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;T45011C06;0203;CDD) InettvBrowser/2.2 (000039;T45011C06;0203;CDD)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 3.4 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV/TXXXXXXXXX.0203.ADD; like Gecko) NetFront/3.4 DTVNetBrowser/2.2 (000039;TXXXXXXXXX;0203;ADD) InettvBrowser/2.2 (000039;TXXXXXXXXX;0203;ADD) YahooDTV/1.1 (Video=0x03;Audio=0x01;Screen=0x01;Device=0x00;Remote=0x10)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 3.4 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux mipsel; U; HbbTV/1.1.1 (; TOSHIBA; 40PX200; 0.7.3.0.; t12; ) ; Toshiba_TP/1.3.0 (+VIDEO_MP4+AUDIO_MPEG+AUDIO_MP4+VIDEO_X_MS_ASF+OFFLINEAPP) ; en) AppleWebKit/534.1 (KHTML, like Gecko)'
@@ -108,7 +108,7 @@
     readable: 'Opera Devices 2.8 on a Toshiba Regza SL863 Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TSBNetTV /T33010307.0203.399; TvwithVideoPlayer; SWReleaseVer=22.1.46.0; AVP=1; DT=br; like Gecko) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Toshiba, series: 'Smart TV' } }
     readable: 'NetFront 4.1 on a Toshiba Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Linux ; xx) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.0.4 en-CA;L6200 Version/4.0 Safari/531.2+'

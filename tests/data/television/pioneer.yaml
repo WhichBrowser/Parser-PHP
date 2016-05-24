@@ -4,5 +4,5 @@
     readable: 'Opera Devices 3.4 on a Pioneer BDP-160 Blu-ray Player'
 -
     headers: 'User-Agent: Mozilla/4.08 (Standard; NF32SW/2.0) NetFront/3.2 InettvBrowser/1.0(00E036;BD-V3;02;00)'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: television, manufacturer: Pioneer, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Pioneer, series: 'Smart TV' } }
     readable: 'NetFront 3.2 on a Pioneer Smart TV'

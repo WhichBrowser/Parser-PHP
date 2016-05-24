@@ -16,57 +16,57 @@
     readable: 'a Sharp Zaurus MI-E21'
 -
     headers: 'User-Agent: sharp wd browser/1.0[ja](MA10/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=MOUSE'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MA10' } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MA10' } }
     readable: 'NetFront 2.0 on a Sharp Mobile Shoin MA10'
 -
     headers: 'User-Agent: sharp wd browser/1.0[ja](MA10/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=MOUSE, KEYBOARD; Page=2.0M; Category=Home Mail Tool; CPU=sh3; Storage=NO; Product=SHARP/MA10;)'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MA10' } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MA10' } }
     readable: 'NetFront 2.0 on a Sharp Mobile Shoin MA10'
 -
     headers: 'User-Agent: sharp wd browser/1.0[ja](MR-1/1.0) AVE-Front/1.0 (BrowserInfo Screen=1024x768x16bit;)'
-    result: { browser: { name: NetFront, version: '1.0', type: browser }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MR-1' } }
+    result: { browser: { name: NetFront, version: '1.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin MR-1' } }
     readable: 'NetFront 1.0 on a Sharp Mobile Shoin MR-1'
 -
     headers: 'User-Agent: sharp wd browser/1.0[ja](VP2/1.0) AVE-Front/2.0(BrowserInfo Screen=800x600x256; InputMethod=PEN'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin VP2' } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin VP2' } }
     readable: 'NetFront 2.0 on a Sharp Mobile Shoin VP2'
 -
     headers: 'User-Agent: sharp wd browser/1.0[ja](WMC100/1.0) AVE-Front/2.0(BrowserInfo Screen=640x480x256; InputMethod=KEYBOARD; Page=1.8M; Category=WP; CPU=x86; Storage=3.8M; Product=SHARP/C100;)'
-    result: { browser: { name: NetFront, version: '2.0', type: browser }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin WMC100' } }
+    result: { browser: { name: NetFront, version: '2.0', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sharp, model: 'Mobile Shoin WMC100' } }
     readable: 'NetFront 2.0 on a Sharp Mobile Shoin WMC100'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C1000/1.0,Qtopia/1.5.4) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C1000' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C1000' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C1000 running Qtopia 1.5.4'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C3000/1.0,Qtopia/1.4.9) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.4.9 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3000' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.4.9 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3000' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C3000 running Qtopia 1.4.9'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C3100/1.0,Qtopia/1.5.5) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.5 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3100' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.5 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3100' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C3100 running Qtopia 1.5.5'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C3200/1.0,Qtopia/1.5.6) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.6 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3200' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.6 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C3200' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C3200 running Qtopia 1.5.6'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C860/1.0,Qtopia/1.5.4) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C860 running Qtopia 1.5.4'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; SL-C860/1.40,Qtopia/1.5.4) NetFront/3.1 480x640'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C860 running Qtopia 1.5.4'
 -
     headers: 'User-Agent: Mozilla/4.0 (PDA; SL-C760/1.0,Embedix/Qtopia/1.3.0) NetFront/3.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, os: { name: Qtopia, version: 1.3.0 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C760' } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.3.0 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C760' } }
     readable: 'NetFront 3.0 on a Sharp Zaurus SL-C760 running Qtopia 1.3.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (PDA; SL-C860/1.0,OpenPDA/Qtopia/1.3.2) NetFront/3.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, os: { name: Qtopia, version: 1.3.2 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.3.2 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C860' } }
     readable: 'NetFront 3.0 on a Sharp Zaurus SL-C860 running Qtopia 1.3.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; SL-C1000/1.0,Qtopia/1.5.4) NetFront/3.1'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C1000' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, os: { name: Qtopia, version: 1.5.4 }, device: { type: pda, manufacturer: Sharp, model: 'Zaurus SL-C1000' } }
     readable: 'NetFront 3.1 on a Sharp Zaurus SL-C1000 running Qtopia 1.5.4'

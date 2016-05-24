@@ -1,20 +1,20 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/2.2; like Gecko) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/1.3.1; like Gecko) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP;IR-S/1.8; like Gecko) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: printer } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP; 98/0100R200; like Gecko) NetFront/3.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: printer } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (MFP; 99/0100o100; like Gecko) NetFront/3.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: printer } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.5'

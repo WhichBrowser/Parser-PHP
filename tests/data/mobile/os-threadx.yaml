@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: HUAWEI T1201_TD/1.0 ThreadX_OS/04.00 SC8800H/S4 Release/6.17.2010 Browser/NetFont-3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: ThreadX, version: '04.00' }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: T1201 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: ThreadX, version: '04.00' }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: T1201 } }
     readable: 'NetFront 3.5 on a Huawei T1201 running ThreadX 04.00'
 -
     headers: 'User-Agent: PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0'

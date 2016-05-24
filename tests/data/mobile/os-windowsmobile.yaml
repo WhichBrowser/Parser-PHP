@@ -556,7 +556,7 @@
     readable: 'Pocket Internet Explorer 4.0.1 on an Asus Galaxy II running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; WMPRO1.0) NetFront/4.0'
-    result: { browser: { name: NetFront, version: '4.0', type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: NetFront, version: '4.0', type: browser }, engine: { name: NetFront }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'NetFront 4.0 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; i-mate JAMin PPC; 240x320; PPC; 240x320)'

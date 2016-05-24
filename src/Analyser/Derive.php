@@ -31,6 +31,7 @@ trait Derive
             $this->deriveTrident();
             $this->deriveOperaRenderingEngine();
             $this->deriveOmniWebRenderingEngine();
+            $this->deriveNetFrontRenderingEngine();
         }
 
         return $this;
@@ -100,6 +101,13 @@ trait Derive
         }
     }
 
+
+    private function deriveNetFrontRenderingEngine()
+    {
+        if ($this->data->isBrowser('NetFront') && !$this->data->isEngine('NetFront')) {
+            $this->data->engine->reset([ 'name' => 'NetFront' ]);
+        }
+    }
 
     private function deriveTrident()
     {

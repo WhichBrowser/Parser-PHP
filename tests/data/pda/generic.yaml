@@ -1,32 +1,32 @@
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; NF32PPC3AR/1.01) NetFront/3.2'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: pda } }
     readable: 'NetFront 3.2'
 -
     headers: 'User-Agent: Mozilla/4.08 (PDA; NF33PPC3AR/1.0) NetFront/3.3'
-    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, engine: { name: NetFront }, device: { type: pda } }
     readable: 'NetFront 3.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF35WMPRO/1.0; like Gecko) NetFront/3.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: 'Windows Mobile' }, device: { type: pda } }
     readable: 'NetFront 3.5 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (PDA; Windows CE/1.0.1) NetFront/3.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, os: { name: 'Windows CE' }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, os: { name: 'Windows CE' }, device: { type: pda } }
     readable: 'NetFront 3.0 on Windows CE'
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF34PPC/1.0; like Gecko) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, os: { name: 'Windows Mobile' }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, os: { name: 'Windows Mobile' }, device: { type: pda } }
     readable: 'NetFront 3.4 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF41WMPRO/1.0; like Gecko) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Windows Mobile' }, device: { type: pda } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Windows Mobile' }, device: { type: pda } }
     readable: 'NetFront 4.1 on Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/5.0 (PDA; NF35WMPRO/3.2; like Gecko) NetFront/3.5 T-01A_6.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Windows Mobile' }, device: { type: pda, manufacturer: Toshiba, model: T-01A, carrier: DoCoMo } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: 'Windows Mobile' }, device: { type: pda, manufacturer: Toshiba, model: T-01A, carrier: DoCoMo } }
     readable: 'NetFront 3.5 on a Toshiba T-01A running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.5 (Screen=640x390x256;Product=NTT/PI-2000_1.20; )'
-    result: { browser: { name: NetFront, version: '2.5', type: browser }, device: { type: pda, manufacturer: NTT, model: 'PetitWeb PI-2000' } }
+    result: { browser: { name: NetFront, version: '2.5', type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: NTT, model: 'PetitWeb PI-2000' } }
     readable: 'NetFront 2.5 on a NTT PetitWeb PI-2000'

@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Standard; NF41SW/1.1; like Gecko; TASKalfa 306ci) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: printer, manufacturer: Kyocera, model: 'TASKalfa 306ci' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: printer, manufacturer: Kyocera, model: 'TASKalfa 306ci' } }
     readable: 'NetFront 4.1 on a Kyocera TASKalfa 306ci'

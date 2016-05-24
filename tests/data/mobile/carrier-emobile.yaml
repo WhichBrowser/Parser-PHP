@@ -12,11 +12,11 @@
     readable: 'EMOBILE Browser 1.0 on an Inventec H31IA'
 -
     headers: 'User-Agent: Mozilla/5.0 (H11T; like Gecko; OpenBrowser) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
     readable: 'NetFront 3.4 on a Toshiba H11T'
 -
     headers: 'User-Agent: emobile/1.0.0 (H11T; like Gecko; Wireless) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Toshiba, model: H11T, carrier: EMOBILE } }
     readable: 'NetFront 3.4 on a Toshiba H11T'
 -
     headers: 'User-Agent: emobile/1.0.0 (H11T; Profile/MIDP-2.0 Configuration/CLDC-1.1 Local/ja UNTRUSTED/1.0)'

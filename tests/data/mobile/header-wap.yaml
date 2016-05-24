@@ -60,7 +60,7 @@
     readable: 'Opera Mini 5.1 on a Vodafone W1'
 -
     headers: { User-Agent: 'SAMSUNG-GT-S5610/S5610XXLI1 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-S5610_3G.rdf' }
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Primo } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Primo } }
     readable: 'NetFront 4.1 on a Samsung Primo'
 -
     headers: { User-Agent: 'SAMSUNG-SGH-i900/1.0 Opera 9.5', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/SGH-i900.xml' }

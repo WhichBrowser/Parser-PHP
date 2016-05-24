@@ -20,11 +20,11 @@
     readable: 'a Skyworth HC7620'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (; CUS:; MB70; 1.0; 1.0;) LOH; Opera; CE-HTML/1.0 NetFront/4.1 NETRANGEMMH'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, model: MB70 } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, model: MB70 } }
     readable: 'NetFront 4.1 on a MB70'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (; Vestel; MB70; 1.0; 1.0;) NetFront/4.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Vestel, model: MB70 } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Vestel, model: MB70 } }
     readable: 'NetFront 4.1 on a Vestel MB70'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;;;;;) NETRANGEMMH sraf_tv_browser webkitMozilla/5.0 (Unknown; Linux mips) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36'
@@ -48,7 +48,7 @@
     readable: 'NetFront NX 2.1 on a HyperPanel DTR7105'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr7105 02-AA-55-AA-58-3B;9.23.04;4.4.6;;) NetFront/4.1 CE-HTML Opera'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: HyperPanel, model: DTR7105 } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: HyperPanel, model: DTR7105 } }
     readable: 'NetFront 4.1 on a HyperPanel DTR7105'
 -
     headers: 'User-Agent: HbbTV/1.1.1 (;HyperPanel;dtr7105 02-AA-55-AA-58-3B;9.wr.33;4.5.2;) LOH; CE-HTML/1.0 NetFrontNX/2.1 NETRANGEMMH based on WebKit'
@@ -472,11 +472,11 @@
     readable: 'Internet Explorer 4.0 on a Microsoft WebTV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; Media-Highway Evolution/CI.0220(08.02.03); like Gecko; TV) NetFront/4.2'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
     readable: 'NetFront 4.2 on a Cisco MediaHighway'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; Media-Highway Evolution/CI.0244(05.01.05); like Gecko; TV) NetFront/3.5'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Cisco, model: MediaHighway } }
     readable: 'NetFront 3.5 on a Cisco MediaHighway'
 -
     headers: 'User-Agent: opera/9.80, DI384 TKC/0.5.20(Sagemcom_Broadband_SAS,DI384_UHD_TKC,Wired)'
@@ -560,11 +560,11 @@
     readable: 'an I-O Data Device Smart TV'
 -
     headers: 'User-Agent: Mozilla/4.08(DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(000024;JC-4000;000;000)'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Connect AS', series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: 'Connect AS', series: 'Smart TV' } }
     readable: 'NetFront 3.1 on a Connect AS Smart TV'
 -
     headers: 'User-Agent: Mozilla/4.08 (DTV;NetTV/1.0) NetFront/3.1 InettvBrowser/1.0(0050C9;010;001;000)'
-    result: { browser: { name: NetFront, version: '3.1', type: browser }, device: { type: television, manufacturer: 'Maspro Denkoh', series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: 'Maspro Denkoh', series: 'Smart TV' } }
     readable: 'NetFront 3.1 on a Maspro Denkoh Smart TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (Spyglass 3.0; OpenTV) Gecko/20081010  InettvBrowser/1.0 (F00001;OTV-IB24L;2.4;00000),gzip(gfe),gzip(gfe),gzip(gfe)'

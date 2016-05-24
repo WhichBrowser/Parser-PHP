@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (DigitalMediaPlayer; Walkman/NW-X1000 Series/1.00; like Gecko; wireless) NetFront/3.4'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: media, manufacturer: Sony, model: 'NW-X1000 Walkman' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: media, manufacturer: Sony, model: 'NW-X1000 Walkman' } }
     readable: 'NetFront 3.4 on a Sony NW-X1000 Walkman'

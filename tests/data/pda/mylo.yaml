@@ -4,5 +4,5 @@
     readable: 'Opera 8.02 on a Sony Mylo 1 running Qtopia'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux, Sony/COM2/1.01 [ja]; like Gecko/2007) Firefox/2'
-    result: { browser: { name: NetFront, type: browser }, device: { type: pda, manufacturer: Sony, model: 'Mylo 2' } }
+    result: { browser: { name: NetFront, type: browser }, engine: { name: NetFront }, device: { type: pda, manufacturer: Sony, model: 'Mylo 2' } }
     readable: 'NetFront on a Sony Mylo 2'

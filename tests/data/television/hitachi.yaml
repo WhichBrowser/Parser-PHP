@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Standard; NF34SW/1.1; like Gecko) NetFront/3.4 InettvBrowser/2.2C (000087;IP03-01;0100;0000)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: television, manufacturer: Hitachi, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Hitachi, series: 'Smart TV' } }
     readable: 'NetFront 3.4 on a Hitachi Smart TV'

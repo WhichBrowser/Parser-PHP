@@ -88,7 +88,7 @@
     readable: 'Openwave 6.2 on a LG PM225'
 -
     headers: 'User-Agent: LGE-VM510 NetFront/3.5.1 (GUI) MMP/2.0'
-    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VM510 } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: LG, model: VM510 } }
     readable: 'NetFront 3.5.1 on a LG VM510'
 -
     headers: 'User-Agent: LG_TB200_CMCC A2000pH/2.32.00 Release/9.14.2009 Browser/Teleca/Q7.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
@@ -240,7 +240,7 @@
     readable: 'Opera Mini 4.2 on a Pantech Impact'
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'GT-C3322 Duos' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'GT-C3322 Duos' } }
     readable: 'NetFront 4.1 on a Samsung GT-C3322 Duos'
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'
@@ -260,11 +260,11 @@
     readable: 'a Samsung G600'
 -
     headers: 'User-Agent: SAMSUNG-SGH-S390G/S390UD[TF359782046053567009990015123957215] NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'S390 TracFone' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'S390 TracFone' } }
     readable: 'NetFront 4.2 on a Samsung S390 TracFone'
 -
     headers: 'User-Agent: SAMSUNG-SGH-T189N/T189NUVMG1 SHP/VPP/R5 NetFront/4.2 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Freeform M' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Freeform M' } }
     readable: 'NetFront 4.2 on a Samsung Freeform M'
 -
     headers: 'User-Agent: SAMSUNG-SM-B360E Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35840/35.7561; U; xx) Presto/2.8.119 Version/11.10'
@@ -272,11 +272,11 @@
     readable: 'Opera Mini 8.0 on a Samsung SM-B360E'
 -
     headers: 'User-Agent: SAMSUNG-SM-B780A/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
     readable: 'NetFront 4.2 on a Samsung Rugby 4'
 -
     headers: 'User-Agent: SonyEricssonC510/R1FA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1 JavaPlatform/JP-8.4.3'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: C510 } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: C510 } }
     readable: 'NetFront 3.4 on a Sony Ericsson C510'
 -
     headers: 'User-Agent: SonyEricssonJ108i/R7EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonJ108i) U2/1.0.0 UCBrowser/9.4.0.342 U2/1.0.0 Mobile'
@@ -284,11 +284,11 @@
     readable: 'UC Browser 9.4 on a Sony Ericsson Cedar'
 -
     headers: 'User-Agent: SonyEricssonK790a/R1EG Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K790a } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K790a } }
     readable: 'NetFront 3.3 on a Sony Ericsson K790a'
 -
     headers: 'User-Agent: SonyEricssonK850i/R1EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K850i } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K850i } }
     readable: 'NetFront 3.4 on a Sony Ericsson K850i'
 -
     headers: 'User-Agent: TIANYU-KTOUCH/A930/Screen-240X320'
@@ -388,7 +388,7 @@
     readable: 'a Samsung SGH-X660'
 -
     headers: 'User-Agent: SEC-SGHE900/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E900 } }
+    result: { browser: { name: NetFront, version: '3.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-E900 } }
     readable: 'NetFront 3.2 on a Samsung SGH-E900'
 -
     headers: 'User-Agent: SCH-R410'
@@ -404,7 +404,7 @@
     readable: 'Openwave 6.2 on a Samsung SGH-X640'
 -
     headers: 'User-Agent: SAMSUNG-SGH-U700/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-U700 } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SGH-U700 } }
     readable: 'NetFront 3.4 on a Samsung SGH-U700'
 -
     headers: 'User-Agent: Motorola-w385 Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'

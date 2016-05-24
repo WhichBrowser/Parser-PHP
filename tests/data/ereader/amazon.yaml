@@ -1,14 +1,14 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Linux 2.6.10) NetFront/3.3 Kindle/1.0 (screen 600x800)'
-    result: { browser: { name: NetFront, version: '3.3', type: browser }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 1' } }
+    result: { browser: { name: NetFront, version: '3.3', type: browser }, engine: { name: NetFront }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 1' } }
     readable: 'NetFront 3.3 on an Amazon Kindle 1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.0 (screen 600x800)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 2' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 2' } }
     readable: 'NetFront 3.4 on an Amazon Kindle 2'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 600x800; rotate)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 2' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 2' } }
     readable: 'NetFront 3.4 on an Amazon Kindle 2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600X800; rotate)'

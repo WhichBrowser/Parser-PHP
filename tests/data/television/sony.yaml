@@ -292,7 +292,7 @@
     readable: 'Opera Devices 3.4 on a Sony BDP-S1200 Blu-ray Player'
 -
     headers: 'User-Agent: Mozilla/4.0 (NetworkAVTV; LocationFreeTV/LF-X5) NetFront/3.0'
-    result: { browser: { name: NetFront, version: '3.0', type: browser }, device: { type: television, manufacturer: Sony, model: 'LocationFreeTV LF-X5' } }
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Sony, model: 'LocationFreeTV LF-X5' } }
     readable: 'NetFront 3.0 on a Sony LocationFreeTV LF-X5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.34.ALSAN3.3 HbbTV/1.1.1 (; Sony; N/A; v1.000; 2015;) sony.hbbtv.tv.2015HE'

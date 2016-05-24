@@ -128,11 +128,11 @@
     readable: 'Espial 6.2.0 on a Sharp Aquos TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TVwithVideoPlayer) NetFront/4.1 AQUOSBrowser/1.0 InettvBrowser/2.2 (08001F;DTV06VSFC;0009;0001)'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Sharp, series: 'Aquos TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Sharp, series: 'Aquos TV' } }
     readable: 'NetFront 4.1 on a Sharp Aquos TV'
 -
     headers: 'User-Agent: Mozilla/5.0 (DTV; TVwithVideoPlayer) NetFront/4.1 InettvBrowser/2.2 (08001F;DTV04VSFC3;0001;0001)'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, device: { type: television, manufacturer: Sharp, series: 'Smart TV' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: television, manufacturer: Sharp, series: 'Smart TV' } }
     readable: 'NetFront 4.1 on a Sharp Smart TV'
 -
     headers: 'User-Agent: Opera/9.80 (Linux armv6l; U; en) Presto/2.8.115 Version/11.10 AQUOS-AS/1.0 LC-40LE835X'

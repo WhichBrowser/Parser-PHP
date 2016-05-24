@@ -12,19 +12,19 @@
     readable: 'QQ Browser Mini 3.1 on a ZTE R516 running Brew'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Kyocera; NetFront/4.1/AMB) Sprint E4255'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'DuraMax E4255' } }
     readable: 'NetFront 4.1 on a Kyocera DuraMax E4255 running Brew MP 1.0.2'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.2; U; xx; Sanyo; NetFront/3.5.1/AMB) Boost SCP6780'
-    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Innuendo } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.2 }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: Innuendo } }
     readable: 'NetFront 3.5.1 on a Sanyo Innuendo running Brew MP 1.0.2'
 -
     headers: 'User-Agent: Mozilla/4.0 (Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151-PLB'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
     readable: 'NetFront 4.1 on a Kyocera Coast S2151 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: Mozilla/4.0 (MobilePhone; Brew MP 1.0.4; U; xx; Kyocera; NetFront/4.1/AMB) Sprint S2151'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Kyocera, model: 'Coast S2151' } }
     readable: 'NetFront 4.1 on a Kyocera Coast S2151 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;xx)/400x240 Samsung SCH-U820'
@@ -72,27 +72,27 @@
     readable: 'Obigo Q 7 on Brew 3.1.5.189'
 -
     headers: 'User-Agent: NetFront/3.5.1 (BREW 5.0.1.2; U; xx; LG; NetFront/3.5.1/AMB) Sprint LN510 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 5.0.1.2 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Touch' } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, engine: { name: NetFront }, os: { name: Brew, version: 5.0.1.2 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Touch' } }
     readable: 'NetFront 3.5.1 on a LG Rumor Touch running Brew 5.0.1.2'
 -
     headers: 'User-Agent: NetFront/3.5.1(BREW 3.1.5; U; xx; SAMSUNG; NetFront/3.1.5/AMB) Sprint M550 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Exclaim } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, engine: { name: NetFront }, os: { name: Brew, version: 3.1.5 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Exclaim } }
     readable: 'NetFront 3.5.1 on a Samsung Exclaim running Brew 3.1.5'
 -
     headers: 'User-Agent: NetFront/3.5.1(BREW 5.0.2.1; U; xx; SAMSUNG; NetFront/3.5.1/WAP) PayLo M390-PLB'
-    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, os: { name: Brew, version: 5.0.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Array } }
+    result: { browser: { name: NetFront, version: 3.5.1, type: browser }, engine: { name: NetFront }, os: { name: Brew, version: 5.0.2.1 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: Array } }
     readable: 'NetFront 3.5.1 on a Samsung Array running Brew 5.0.2.1'
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Boost LG272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Reflex' } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: 'Rumor Reflex' } }
     readable: 'NetFront 4.2 on a LG Rumor Reflex running Brew MP 1.0.4'
 -
     headers: 'User-Agent: NetFront/4.2 (BMP 1.0.4; U; xx; LG; NetFront/4.2/AMB) Sprint LN272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.2', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: LG, model: LN272 } }
     readable: 'NetFront 4.2 on a LG LN272 running Brew MP 1.0.4'
 -
     headers: 'User-Agent: PantechP6030/JZUS09022013 BMP/1.0.4 DeviceId/141030 NetFront/4.1 OMC/1.5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '4.1', type: browser }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
+    result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.4 }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Reneu } }
     readable: 'NetFront 4.1 on a Pantech Reneu running Brew MP 1.0.4'
 -
     headers: 'User-Agent: PhilipsW715/Qualcomm Brew MP 1.0.3/WAP-2.0/MIDP-2.0/CLDC-1.1'
@@ -200,7 +200,7 @@
     readable: 'Opera Mini 7.1 on a Sanyo Incognito running Brew 3.1.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (REX; U; en-us; Sanyo; SCP-6750/US; NetFront/3.4/AMB)'
-    result: { browser: { name: NetFront, version: '3.4', type: browser }, os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: 'Katana Eclipse X' } }
+    result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, os: { name: REX }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: 'Katana Eclipse X' } }
     readable: 'NetFront 3.4 on a Sanyo Katana Eclipse X running REX'
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4'
@@ -216,7 +216,7 @@
     readable: 'Obigo W 10.1 on a LG Env Touch running Brew 3.1.5'
 -
     headers: 'User-Agent: MOT-EX132/1.0 REXL4/1.0 BrewMP/1.0.3 Release/6.15.2011 Browser/NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: NetFront, version: '3.5', type: browser }, os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, os: { name: 'Brew MP', version: 1.0.3 }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: EX132 } }
     readable: 'NetFront 3.5 on a Motorola EX132 running Brew MP 1.0.3'
 -
     headers: 'User-Agent: Mozilla/4.0 (BREW 3.1.5; U; en-us; Samsung; PLS_M330; POLARIS/6.1/WAP) MMP/2.0 Configuration/CLDC-1.1'
