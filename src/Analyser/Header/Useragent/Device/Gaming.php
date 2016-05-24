@@ -81,6 +81,10 @@ trait Gaming
             $this->data->os->reset();
             $this->data->os->identifyVersion('/Version\/([0-9.]*)/u', $ua);
 
+            $this->data->engine->set([
+                'name'          => 'WebKit'
+            ]);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Nintendo',
                 'model'         =>  '3DS',

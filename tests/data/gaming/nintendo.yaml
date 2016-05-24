@@ -8,35 +8,35 @@
     readable: 'NetFront NX 3.0 on a Nintendo New 3DS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS like iPhone) Version/1.7412.JP'
-    result: { os: { version: 1.7412. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7412. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7412'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; de) Version/1.7552.EU'
-    result: { os: { version: 1.7552. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7552. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7552'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7455.EU'
-    result: { os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7455'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7455.US'
-    result: { os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7455'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7567.EU'
-    result: { os: { version: 1.7567. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7567. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7567'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; ja) Version/1.7455.JP'
-    result: { os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7455. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7455'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; ; ja) Version/1.7498.JP'
-    result: { os: { version: 1.7498. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7498. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7498'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo 3DS; U; Factory Media Production; en) Version/1.7498.US'
-    result: { os: { version: 1.7498. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
+    result: { engine: { name: WebKit }, os: { version: 1.7498. }, device: { type: gaming, subtype: portable, manufacturer: Nintendo, model: 3DS } }
     readable: 'a Nintendo 3DS running 1.7498'
 -
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.10.9 NintendoBrowser/1.5.0.8047.EU'
