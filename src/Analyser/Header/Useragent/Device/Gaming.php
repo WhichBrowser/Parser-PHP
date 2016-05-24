@@ -113,6 +113,11 @@ trait Gaming
 
         if (preg_match('/PlayStation Portable/u', $ua)) {
             $this->data->os->reset();
+
+            $this->data->engine->set([
+                'name'          => 'NetFront'
+            ]);
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sony',
                 'model'         =>  'Playstation Portable',

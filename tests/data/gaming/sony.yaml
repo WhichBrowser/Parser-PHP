@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (PSP (PlayStation Portable); 2.00)'
-    result: { device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Portable' } }
+    result: { engine: { name: NetFront }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Portable' } }
     readable: 'a Sony Playstation Portable'
 -
     headers: 'User-Agent: Mozilla/5.0 (PLAYSTATION 3 4.10) AppleWebKit/531.22.8 (KHTML, like Gecko)'
