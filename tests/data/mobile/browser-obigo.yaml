@@ -182,3 +182,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; 5.1.1; Nexus 5 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 Obigo/W20A.42'
     readable: 'Obigo W 20A on a LG Nexus 5 running Android 5.1.1'
     result: { browser: { name: 'Obigo W', family: { name: Chrome, version: 42 }, version: { alias: 20A }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+-
+    headers: 'User-Agent: LG-ME850c MIC/1.1.14 MIDP-2.0/CLDC-1.1'
+    readable: 'Obigo 1.1 on a LG ME850c'
+    result: { browser: { name: Obigo, version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: ME850c } }

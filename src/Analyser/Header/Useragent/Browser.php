@@ -1314,7 +1314,7 @@ trait Browser
             return $result;
         };
 
-        if (preg_match('/(?:Obigo|Teleca|AU-MIC|MIC\/WAP)/ui', $ua)) {
+        if (preg_match('/(?:Obigo|Teleca|AU-MIC|MIC\/)/ui', $ua)) {
             $this->data->browser->name = 'Obigo';
             $this->data->browser->version = null;
             $this->data->browser->type = Constants\BrowserType::BROWSER;
