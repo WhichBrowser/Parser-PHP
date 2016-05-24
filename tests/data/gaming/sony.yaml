@@ -32,15 +32,15 @@
     readable: 'a Sony Playstation 3 running 4.55'
 -
     headers: 'User-Agent: Mozilla/5.0 (PLAYSTATION 3; 1.00)'
-    result: { os: { version: '1.00' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { engine: { name: NetFront }, os: { version: '1.00' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
     readable: 'a Sony Playstation 3 running 1.00'
 -
     headers: 'User-Agent: Mozilla/5.0 (PLAYSTATION 3; 2.00)'
-    result: { os: { version: '2.00' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { engine: { name: NetFront }, os: { version: '2.00' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
     readable: 'a Sony Playstation 3 running 2.00'
 -
     headers: 'User-Agent: Mozilla/5.0 (PLAYSTATION 3; 3.55)'
-    result: { os: { version: '3.55' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+    result: { engine: { name: NetFront }, os: { version: '3.55' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
     readable: 'a Sony Playstation 3 running 3.55'
 -
     headers: 'User-Agent: Mozilla/5.0 (PlayStation 3) SonyComputerEntertainmentEurope/531.3 (NCell) NuantiMeta/2.0'

@@ -159,6 +159,12 @@ trait Gaming
             $this->data->os->reset();
             $this->data->os->identifyVersion('/PLAYSTATION 3;? ([0-9.]*)/u', $ua);
 
+            if (preg_match('/PLAYSTATION 3; [123]/', $ua)) {
+                $this->data->engine->set([
+                    'name'          => 'NetFront'
+                ]);
+            }
+
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Sony',
                 'model'         =>  'Playstation 3',
