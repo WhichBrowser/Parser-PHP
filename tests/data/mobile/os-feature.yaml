@@ -104,11 +104,11 @@
     readable: 'a Motorola EX132 running REX'
 -
     headers: 'User-Agent: MOT-MOTOQA1/A2.01.11R Release/09.24.2008 OPERA/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mini', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
     readable: 'Opera Mini on a Motorola Karma QA1'
 -
     headers: 'User-Agent: MOT-RAZRV3xx/96.B0.0FR BER2.2 Mozilla/4.0 (compatible; MSIE 6.0; 11073256) Profile/MIDP-2.0 Configuration/CLDC-1.1  Opera 8.00 [en]'
-    result: { browser: { name: 'Opera Mini', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
+    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
     readable: 'Opera Mini on a Motorola RAZRV3xx'
 -
     headers: 'User-Agent: MOT-V3/0E.42.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
@@ -236,7 +236,7 @@
     readable: 'OneBrowser 3.1 on a Sony Ericsson Elm'
 -
     headers: 'User-Agent: PantechP7000/JDUS10052009; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.'
-    result: { browser: { name: 'Opera Mini', version: 4.2., type: browser }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Impact } }
+    result: { browser: { name: 'Opera Mini', version: 4.2., type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Impact } }
     readable: 'Opera Mini 4.2 on a Pantech Impact'
 -
     headers: 'User-Agent: SAMSUNG-GT-C3322/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
@@ -252,7 +252,7 @@
     readable: 'Opera Mini 7.1 on a Samsung GT-S5611'
 -
     headers: 'User-Agent: SAMSUNG-SGH-A667/A667UCLD4; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2'
-    result: { browser: { name: 'Opera Mini', version: '4.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'A667 Evergreen' } }
+    result: { browser: { name: 'Opera Mini', version: '4.2', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'A667 Evergreen' } }
     readable: 'Opera Mini 4.2 on a Samsung A667 Evergreen'
 -
     headers: 'User-Agent: SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0'

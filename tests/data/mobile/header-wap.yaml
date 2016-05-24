@@ -52,11 +52,11 @@
     readable: 'UC Browser 9.5 on a Nokia 208 running Series40'
 -
     headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.24702/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/Vodafone550.xml' }
-    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '550' } }
+    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '550' } }
     readable: 'Opera Mini 5.1 on a Vodafone 550'
 -
     headers: { User-Agent: 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.25137/29.3757; U; xx)', X-Wap-Profile: 'http://www.zte.com.cn/mobile/uaprof/W1.xml' }
-    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: W1 } }
+    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: W1 } }
     readable: 'Opera Mini 5.1 on a Vodafone W1'
 -
     headers: { User-Agent: 'SAMSUNG-GT-S5610/S5610XXLI1 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1', X-Wap-Profile: 'http://wap.samsungmobile.com/uaprof/GT-S5610_3G.rdf' }

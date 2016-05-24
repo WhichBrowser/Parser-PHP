@@ -64,27 +64,27 @@
     readable: 'Opera Mini 8.0 on a Samsung Wave running Bada'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.7144/hifi/tmobile/at; Nokia 6085; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6085' } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '6085' } }
     readable: 'Opera Mini 1.1 on a Nokia 6085'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.7231/hifi/tmobile/at; Motorola V3; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
     readable: 'Opera Mini 1.1 on a Motorola V3'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.4948/hifi/tmobile/at; SonyEricsson K550i; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K550i } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: K550i } }
     readable: 'Opera Mini 1.1 on a Sony Ericsson K550i'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.5005/hifi/tmobile/at; Nokia 5300; de; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, os: { name: Series40 }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '5300 XpressMusic' } }
     readable: 'Opera Mini 1.1 on a Nokia 5300 XpressMusic running Series40'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.3314/hifi/tmobile/cz; Siemens ME75; cs; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: ME75 } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Siemens, model: ME75 } }
     readable: 'Opera Mini 1.1 on a Siemens ME75'
 -
     headers: 'User-Agent: Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.3003/hifi/tmobile-motorola/at; Motorola V3i; en; U; ssr)'
-    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
+    result: { browser: { name: 'Opera Mini', version: '1.1', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3i } }
     readable: 'Opera Mini 1.1 on a Motorola V3i'
 -
     headers: 'User-Agent: Mozilla/5.0 Opera/9.80 (KDDI-SN3U; BREW; Opera Mobi; U; ja) Presto/2.4.18 Version/10.00'

@@ -83,7 +83,7 @@ trait Derive
 
     private function deriveOperaRenderingEngine()
     {
-        if (($this->data->isBrowser('Opera') || $this->data->isBrowser('Opera Mobile'))) {
+        if ($this->data->isBrowser('Opera') || $this->data->isBrowser('Opera Mobile')) {
             $version = $this->data->browser->getVersion();
             
             if ($version >= 3.5 && $version < 7 && !$this->data->isEngine('Electra')) {
@@ -93,6 +93,10 @@ trait Derive
             if ($version >= 7 && $version < 13 && !$this->data->isEngine('Presto')) {
                 $this->data->engine->reset([ 'name' => 'Presto' ]);
             }
+        }
+
+        if ($this->data->isBrowser('Opera Mini') && !$this->data->isOs('iOS') && !$this->data->isEngine('Presto')) {
+            $this->data->engine->reset([ 'name' => 'Presto' ]);
         }
     }
 
