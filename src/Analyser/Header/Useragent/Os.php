@@ -642,6 +642,8 @@ trait Os
                         $this->data->os->version = new Version([ 'value' => $match[1], 'alias' => 'NT ' . $match[1] ]);
                         break;
                 }
+                
+                $this->detectWindowsOemManufacturer($ua);
             }
 
 
@@ -1025,6 +1027,55 @@ trait Os
         } elseif (preg_match('/WMPRO/u', $ua)) {
             $this->data->os->name = 'Windows Mobile';
             $this->data->device->type = Constants\DeviceType::MOBILE;
+        }
+    }
+
+    private function detectWindowsOemManufacturer($ua) {        
+        $manufacturers = [
+            'MAAR'      => 'Acer',
+            'ASJB'      => 'Asus',
+            'ASU2'      => 'Asus',
+            'MAAU'      => 'Asus',
+            'NP06'      => 'Asus',
+            'NP07'      => 'Asus',
+            'NP08'      => 'Asus',
+            'NP09'      => 'Asus',
+            'CMNTDF'    => 'Compaq',
+            'CPDTDF'    => 'Compaq',
+            'CPNTDF'    => 'Compaq',
+            'MDDR'      => 'Dell',
+            'MDDC'      => 'Dell',
+            'MDDS'      => 'Dell',
+            'FSJB'      => 'Fujitsu',
+            'MAFS'      => 'Fujitsu',
+            'MAGW'      => 'Gateway',
+            'HPCMHP'    => 'HP',
+            'HPDTDF'    => 'HP',
+            'HPNTDF'    => 'HP',
+            'LCJB'      => 'Lenovo',
+            'LEN2'      => 'Lenovo',
+            'MALC'      => 'Lenovo',
+            'MALE'      => 'Lenovo',
+            'MALN'      => 'Lenovo',
+            'MAMD'      => 'Medion',
+            'MAMI'      => 'MSI',
+            'MAM3'      => 'MSI',
+            'MASM'      => 'Samsung',
+            'SMJB'      => 'Samsung',
+            'MASA'      => 'Sony',
+            'MASE'      => 'Sony',
+            'MASP'      => 'Sony',
+            'MATB'      => 'Toshiba',
+            'MATM'      => 'Toshiba',
+            'MATP'      => 'Toshiba',
+            'TAJB'      => 'Toshiba',
+            'TNJB'      => 'Toshiba',
+        ];
+        
+        $keys = array_keys($manufacturers);
+        
+        if (preg_match('/; (' . implode('|', $keys) . ')(?:JS)?[\);]/u', $ua, $match)) {
+            $this->data->device->manufacturer = $manufacturers[$match[1]];
         }
     }
 

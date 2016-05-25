@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; Avant Browser; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; CPDTDF; Avant Browser)'
-    result: { browser: { name: 'Avant Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Avant Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop, manufacturer: Compaq } }
     readable: 'Avant Browser on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; Avant Browser)'
