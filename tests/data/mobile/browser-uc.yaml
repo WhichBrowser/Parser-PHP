@@ -140,11 +140,11 @@
     readable: 'UC Browser 8.1 on a RIM BlackBerry Curve 9360 running BlackBerry OS'
 -
     headers: 'User-Agent: UCWEB/9.5.1.408 CFNetwork/609 Darwin/13.0.0'
-    result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, os: { name: iOS, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'UC Browser 9.5 on iOS 6.0'
 -
     headers: 'User-Agent: UCWEB/9.5.1.408 CFNetwork/672.0.8 Darwin/14.0.0'
-    result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'UC Browser 9.5 on iOS 7.0.3'
 -
     headers: 'User-Agent: jbed-fastbcc/UCWEB8.2.0.116/70/4171 UNTRUSTED/1.0'
@@ -164,7 +164,7 @@
     readable: 'UC Browser 7.8 on a HTC HD2 running Windows Mobile'
 -
     headers: 'User-Agent: IUC(U;iOS 6.1.3;Zh-cn;320*480;)/UCWEB8.9.0.238/44/997'
-    result: { browser: { name: 'UC Browser', version: '8.9', type: browser }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'UC Browser', version: '8.9', type: browser }, os: { name: iOS, version: 6.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'UC Browser 8.9 on iOS 6.1.3'
 -
     headers: 'User-Agent: J2ME/UCWEB7.0.3.45/139/7684'

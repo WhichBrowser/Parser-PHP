@@ -52,7 +52,7 @@
     readable: 'Midori on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; xx) AppleWebKit/532  (KHTML, like Gecko) Version/3.0 Mobile/1A538b Safari/419.3 Midori/0.4'
-    result: { browser: { name: Midori, version: '0.4', type: browser }, engine: { name: Webkit, version: '532' }, os: { name: iOS, alias: 'iPhone OS', version: '1.0' }, device: { type: desktop } }
+    result: { browser: { name: Midori, version: '0.4', type: browser }, engine: { name: Webkit, version: '532' }, os: { name: iOS, alias: 'iPhone OS', version: '1.0' }, device: { type: desktop, manufacturer: Apple } }
     readable: 'Midori 0.4 on iPhone OS 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx) AppleWebKit/525.1  (KHTML, like Gecko, Safari/525.1 ) midori/1.19'

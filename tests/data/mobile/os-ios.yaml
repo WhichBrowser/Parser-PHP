@@ -1,6 +1,6 @@
 -
     headers: 'User-Agent: CFNetwork/0.0.0 Darwin/0.0.0'
-    result: { os: { name: iOS }, device: { type: mobile, subtype: smart } }
+    result: { os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: iOS
 -
     headers: 'User-Agent: MQQBrowser/31 Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3'
@@ -48,27 +48,27 @@
     readable: 'QQ Browser 451 on an Apple iPhone 5 running iOS 7.0.2'
 -
     headers: 'User-Agent: Mercury/894 CFNetwork/711.1.16 Darwin/14.0.0'
-    result: { browser: { name: 'Mercury Browser', version: 8.9.4, type: browser }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Mercury Browser', version: 8.9.4, type: browser }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Mercury Browser 8.9.4 on iOS 8.1.1'
 -
     headers: 'User-Agent: MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0'
-    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: '8.1' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: '8.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Safari on iOS 8.1'
 -
     headers: 'User-Agent: MobileSafari/600.1.4 CFNetwork/711.1.16 Darwin/14.0.0'
-    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 8.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Safari on iOS 8.1.1'
 -
     headers: 'User-Agent: MobileSafari/7534.48.3 CFNetwork/548.0.4 Darwin/11.0.0'
-    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Safari on iOS 5.0.1'
 -
     headers: 'User-Agent: MobileSafari/9537.53 CFNetwork/672.1.13 Darwin/14.0.0'
-    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Safari on iOS 7.1'
 -
     headers: 'User-Agent: MobileSafari/9537.53 CFNetwork/672.1.15 Darwin/14.0.0'
-    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Safari, type: browser }, os: { name: iOS, version: 7.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Safari on iOS 7.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone 3GS; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/10B146 Safari/8536.25'
@@ -112,27 +112,27 @@
     readable: 'QQ Browser 5.0 on an Apple iPhone 5 running iOS 7.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A5274d Safari/7534.48.3'
-    result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.0' }, device: { type: emulator } }
+    result: { browser: { name: Safari, version: '5.1', type: browser }, engine: { name: Webkit, version: '534.46' }, os: { name: iOS, version: '5.0' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'Safari on an emulator running iOS 5.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_0 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A345 Safari/525.20'
-    result: { browser: { name: Safari, version: 3.1.1, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, alias: 'iPhone OS', version: '2.0' }, device: { type: emulator } }
+    result: { browser: { name: Safari, version: 3.1.1, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, alias: 'iPhone OS', version: '2.0' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'Safari on an emulator running iPhone OS 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_1 like Mac OS X; xx) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F135 Safari/525.20'
-    result: { browser: { name: Safari, version: 3.1.1, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, alias: 'iPhone OS', version: '2.1' }, device: { type: emulator } }
+    result: { browser: { name: Safari, version: 3.1.1, type: browser }, engine: { name: Webkit, version: 525.18.1 }, os: { name: iOS, alias: 'iPhone OS', version: '2.1' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'Safari on an emulator running iPhone OS 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 3_0 like Mac OS X; xx) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16'
-    result: { browser: { name: Safari, version: '4.0', type: browser }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, alias: 'iPhone OS', version: '3.0' }, device: { type: emulator } }
+    result: { browser: { name: Safari, version: '4.0', type: browser }, engine: { name: Webkit, version: '528.18' }, os: { name: iOS, alias: 'iPhone OS', version: '3.0' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'Safari on an emulator running iPhone OS 3.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 4_1 like Mac OS X; xx) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7'
-    result: { browser: { name: Safari, version: 4.0.5, type: browser }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.1' }, device: { type: emulator } }
+    result: { browser: { name: Safari, version: 4.0.5, type: browser }, engine: { name: Webkit, version: '532.9' }, os: { name: iOS, version: '4.1' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'Safari on an emulator running iOS 4.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 4_3 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F192'
-    result: { engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: '4.3' }, device: { type: emulator } }
+    result: { engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: '4.3' }, device: { type: emulator, manufacturer: Apple } }
     readable: 'an emulator running iOS 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3'
@@ -464,5 +464,5 @@
     readable: 'Safari on an Apple iPhone running iPhone OS 1.0'
 -
     headers: 'User-Agent: AtomicLite/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0'
-    result: { browser: { name: Atomic, version: 7.0.1, type: browser }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: Atomic, version: 7.0.1, type: browser }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Atomic 7.0.1 on iOS 7.1'

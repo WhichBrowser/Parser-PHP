@@ -1,26 +1,26 @@
 -
     headers: 'User-Agent: 360%20Browser/3.1 CFNetwork/459 Darwin/10.0.0d3'
-    result: { browser: { name: 'Qihoo 360 Browser', version: '3.1', type: browser }, os: { name: iOS, alias: 'iPhone OS', version: 3.1.3 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: '3.1', type: browser }, os: { name: iOS, alias: 'iPhone OS', version: 3.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 3.1 on iPhone OS 3.1.3'
 -
     headers: 'User-Agent: 360%20Browser/4.0 CFNetwork/485.12.7 Darwin/10.4.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: '4.0', type: browser }, os: { name: iOS, version: 4.2.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: '4.0', type: browser }, os: { name: iOS, version: 4.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 4.0 on iOS 4.2.1'
 -
     headers: 'User-Agent: 360%20Browser/5.3.1 CFNetwork/548.0.4 Darwin/11.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.1, type: browser }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.1, type: browser }, os: { name: iOS, version: 5.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.1 on iOS 5.0.1'
 -
     headers: 'User-Agent: 360%20Browser/5.3.2 CFNetwork/609.1.4 Darwin/13.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 6.1.2'
 -
     headers: 'User-Agent: 360%20Browser/5.3.2 CFNetwork/672.0.8 Darwin/14.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 7.0.3'
 -
     headers: 'User-Agent: 360%20Browser/5.3.2 CFNetwork/672.1.14 Darwin/14.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 7.1.1'
 -
     headers: 'User-Agent: CoolPad8020+_CMCC_TD/1.08 Linux/2.6.35 Android/2.3.5 Release/03.29.2012 Mozilla/5.0 AppleWebKit/533.1 Version/4.0 Mobile Safari/533.1; 360 Aphone Browser (6.4.3)'
@@ -128,7 +128,7 @@
     readable: 'Qihoo 360 Browser 6.8.9 on a Xiaomi Redmi 1S running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Safari/536.25 QHBrowser/2.0.3'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 2.0.3, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 2.0.3, type: browser }, engine: { name: Webkit, version: '536.26' }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 2.0.3 on iOS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; xx) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17; 360 Aphone Browser (6.4.3)'
@@ -188,13 +188,13 @@
     readable: 'Qihoo 360 Browser 3.2.2 on a ZTE U880 Blade running Android 2.2'
 -
     headers: 'User-Agent: 360%20Lite/5.3.2 CFNetwork/609.1.4 Darwin/13.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 6.1.2'
 -
     headers: 'User-Agent: 360%20Lite/5.3.2 CFNetwork/672.0.2 Darwin/14.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 7.0'
 -
     headers: 'User-Agent: 360%20Lite/5.3.2 CFNetwork/672.0.8 Darwin/14.0.0'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart } }
+    result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 7.0.3'

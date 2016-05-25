@@ -1,8 +1,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iOS; U; en) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0'
     readable: 'AdobeAIR 13.0 on iOS'
-    result: { browser: { using: { name: AdobeAIR, version: '13.0' } }, engine: { name: Webkit, version: 533.19.4 }, os: { name: iOS }, device: { type: mobile, subtype: smart } }
+    result: { browser: { using: { name: AdobeAIR, version: '13.0' } }, engine: { name: Webkit, version: 533.19.4 }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iOS; U; en-GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0'
     readable: 'AdobeAIR 13.0 on iOS'
-    result: { browser: { using: { name: AdobeAIR, version: '13.0' } }, engine: { name: Webkit, version: 533.19.4 }, os: { name: iOS }, device: { type: mobile, subtype: smart } }
+    result: { browser: { using: { name: AdobeAIR, version: '13.0' } }, engine: { name: Webkit, version: 533.19.4 }, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
