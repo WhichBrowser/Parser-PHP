@@ -84,5 +84,5 @@
     readable: 'SeaMonkey 1.1.15 on Ubuntu'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; ja-JP; rv:1.8.1.2pre) Gecko/20070111 SeaMonkey/1.1'
-    result: { browser: { name: SeaMonkey, version: '1.1', type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: SeaMonkey, version: '1.1', type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'SeaMonkey 1.1 on Mac OS'

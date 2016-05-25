@@ -8,7 +8,7 @@
     readable: 'Internet Explorer 2.0 on Windows 95'
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 2.1; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: '2.1', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '2.1', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Internet Explorer 2.1 on Mac OS'
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.01; Windows 95)'
@@ -28,15 +28,15 @@
     readable: 'Internet Explorer 4.0 on Windows 98'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: 4.0.1, type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: 4.0.1, type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Internet Explorer 4.0.1 on Mac OS'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: 4.0.1, type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: 4.0.1, type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Internet Explorer 4.0.1 on Mac OS'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.5; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: '4.5', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '4.5', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Internet Explorer 4.5 on Mac OS'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)'
@@ -44,7 +44,7 @@
     readable: 'Internet Explorer 5.0 on Solaris 10'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)'
-    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'Internet Explorer', version: '5.0', type: browser }, engine: { name: Tasman }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Internet Explorer 5.0 on Mac OS'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.12; Mac_PowerPC)'

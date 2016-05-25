@@ -92,5 +92,5 @@
     readable: 'NCSA Mosaic 2.0 on Windows'
 -
     headers: 'User-Agent: Mosaic/1.0r2 (Macintosh; I; 68040)'
-    result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '1.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop } }
+    result: { browser: { name: 'NCSA Mosaic', family: Mosaic, version: '1.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'NCSA Mosaic 1.0 on Mac OS'
