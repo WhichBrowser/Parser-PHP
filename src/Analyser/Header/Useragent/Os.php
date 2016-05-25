@@ -1417,6 +1417,12 @@ trait Os
             $this->data->device->generic = false;
         }
 
+        if (preg_match('/ (Pre|Pixi|TouchPad|P160UN?A?)\/[0-9\.]+$/u', $ua, $match)) {
+            $this->data->os->name = 'webOS';
+            $this->data->device->type = $match[1] == 'TouchPad' ? Constants\DeviceType::TABLET : Constants\DeviceType::MOBILE;
+            $this->data->device->generic = false;
+        }
+
         if ($this->data->isOs('webOS')) {
             if (preg_match('/Pre\/1.0/u', $ua)) {
                 $this->data->device->manufacturer = 'Palm';
