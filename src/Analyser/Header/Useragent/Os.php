@@ -232,63 +232,82 @@ trait Os
                 if ($this->data->os->version->toFloat() >= 4 && preg_match('/Mobile/u', $ua)) {
                     $this->data->device->type = Constants\DeviceType::MOBILE;
                 }
+                
+                $candidates = [];
 
+                if (preg_match('/Build/ui', $ua)) {
+                    
+                    /* Normal Android useragent strings */
+                    
+                    if (preg_match('/; [a-z][a-zA-Z][-_][a-zA-Z][a-zA-Z] ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    }
+                    
+                    if (preg_match('/Android [A-Za-z]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    }
 
-                if (preg_match('/[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; ([^;]*[^;\s])\s?;\s+(?:BUILD|Build|build)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/; [a-z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?;? ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/Eclair; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s])\s+[Bb]uild/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Android(_OS)?\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/;\s?([^;]+);\s?[0-9]+\*[0-9]+;\s?CTC\/2.0/u', $ua, $match)) {
-                    $this->data->device->model = $match[1];
-                } elseif (preg_match('/Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^)\/;]+)\)/u', $ua, $match)) {
-                    if (substr($match[1], 0, 3) != 'rv:' && !preg_match('/^[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?$/u', $match[1])) {
-                        $this->data->device->model = $match[1];
+                    if (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    }
+                } elseif (preg_match('/Release\//ui', $ua)) {
+                    
+                    /* WAP style useragent strings */
+
+                    if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                        $candidates[] = $match[1];
+                    } else if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Android(_OS)?\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                        $candidates[] = $match[1];
+                    } else if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                        $candidates[] = $match[1];
+                    }
+                } elseif (preg_match('/Mozilla\//ui', $ua)) {
+                    
+                    /* Old Android useragent strings */
+
+                    if (preg_match('/Linux; (?:U; )?Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^)\/;]+)\)/u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    } elseif (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    }
+                } else {
+                    
+                    /* Other applications */
+
+                    if (preg_match('/[34]G Explorer\/[0-9.]+ \(Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
+                        $candidates[] = $match[1];
+                    }
+                    
+                    if (preg_match('/GetJarSDK\/.*android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
+                        $candidates[] = $match[1];
                     }
                 }
 
-                /* Sometimes we get a model name that starts with Android, in that case it is a mismatch and we should ignore it */
-                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 7) == 'Android' && strtolower(substr($this->data->device->model, 0, 15)) != 'android edition') {
-                    $this->data->device->model = null;
-                }
+                $candidates = array_unique($candidates);
+                
+                for ($c = 0; $c < count($candidates); $c++) {
+                    if (preg_match('/^[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?$/u', $candidates[$c])) {
+                        unset($candidates[$c]);
+                        continue;
+                    }
 
-                /* Sometimes we get a model name that starts with "sprd-", in that case it delete that part */
-                if (isset($this->data->device->model) && substr($this->data->device->model, 0, 5) == 'sprd-') {
-                    $this->data->device->model = substr($this->data->device->model, 5);
+                    $candidates[$c] = preg_replace('/^[a-zA-Z][a-zA-Z][-_][a-zA-Z][a-zA-Z]\s+/u', '', $candidates[$c]);
+                    $candidates[$c] = preg_replace('/^sprd-/u', '', $candidates[$c]);
                 }
-
-                /* Sometimes we get version and API numbers and display size too */
-                if (isset($this->data->device->model) && preg_match('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', $this->data->device->model, $matches)) {
-                    $this->data->device->model = $matches[1];
-                }
-
-                /* Sometimes we get a model that is actually an old style useragent */
-                if (isset($this->data->device->model) && preg_match('/([^\/]+?)(?:\/[0-9\.]+)? (?:Android|Release)\//', $this->data->device->model, $matches)) {
-                    $this->data->device->model = $matches[1];
-                }
-
-                if (isset($this->data->device->model) && $this->data->device->model) {
+                
+                $candidates = array_unique($candidates);
+                
+                if (count($candidates)) {
+                    $this->data->device->model = $candidates[0];
                     $this->data->device->identified |= Constants\Id::PATTERN;
-
-                    $device = Data\DeviceModels::identify('android', $this->data->device->model);
-                    if ($device->identified) {
-                        $device->identified |= $this->data->device->identified;
-                        $this->data->device = $device;
+                    
+                    for ($c = 0; $c < count($candidates); $c++) {
+                        $device = Data\DeviceModels::identify('android', $candidates[$c]);
+                        if ($device->identified) {
+                            $device->identified |= $this->data->device->identified;
+                            $this->data->device = $device;
+                            break;
+                        }
                     }
                 }
 
