@@ -1052,6 +1052,7 @@ trait Os
             'HPCMHP'    => 'HP',
             'HPDTDF'    => 'HP',
             'HPNTDF'    => 'HP',
+            'MANM'      => 'Hyrican',
             'LCJB'      => 'Lenovo',
             'LEN2'      => 'Lenovo',
             'MALC'      => 'Lenovo',
