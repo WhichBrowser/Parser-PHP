@@ -1030,7 +1030,8 @@ trait Os
         }
     }
 
-    private function detectWindowsOemManufacturer($ua) {        
+    private function detectWindowsOemManufacturer($ua)
+    {
         $manufacturers = [
             'MAAR'      => 'Acer',
             'ASJB'      => 'Asus',
