@@ -9,10 +9,6 @@ trait Corrections
 {
     private function &applyCorrections()
     {
-        if (isset($this->data->device->model)) {
-            $this->hideDeviceModelIfMatchesLanguage();
-        }
-
         if (isset($this->data->browser->name) && isset($this->data->browser->using)) {
             $this->hideBrowserBasedOnUsing();
         }
@@ -53,13 +49,6 @@ trait Corrections
     {
         if ($this->data->browser->name == $this->data->browser->family->name) {
             unset($this->data->browser->family);
-        }
-    }
-
-    private function hideDeviceModelIfMatchesLanguage()
-    {
-        if (preg_match('/^[a-z][a-z]-[a-zA-Z][a-zA-Z]$/u', $this->data->device->model)) {
-            $this->data->device->model = null;
         }
     }
 
@@ -177,3 +166,4 @@ trait Corrections
         }
     }
 }
+
