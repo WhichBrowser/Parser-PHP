@@ -247,7 +247,7 @@ trait Os
                         $candidates[] = $match[1];
                     }
 
-                    if (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
+                    if (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s]);?\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Release\//ui', $ua)) {
@@ -287,6 +287,11 @@ trait Os
                 
                 for ($c = 0; $c < count($candidates); $c++) {
                     if (preg_match('/^[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?$/u', $candidates[$c])) {
+                        unset($candidates[$c]);
+                        continue;
+                    }
+
+                    if (preg_match('/^Android [0-9\.]+$/u', $candidates[$c])) {
                         unset($candidates[$c]);
                         continue;
                     }
