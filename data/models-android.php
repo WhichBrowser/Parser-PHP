@@ -2323,6 +2323,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Celkon A.R 45'                             => [ 'Celkon', 'AR45' ],
         'Celkon A.R 50'                             => [ 'Celkon', 'AR50' ],
         'Celkon C720'                               => [ 'Celkon', 'C720', DeviceType::TABLET ],
+        'CT-1'                                      => [ 'Celkon', 'CT1', DeviceType::TABLET ],
         'CELKON CT2'                                => [ 'Celkon', 'CT2', DeviceType::TABLET ],
         'Celkon CT3'                                => [ 'Celkon', 'CT3', DeviceType::TABLET ],
         'Celkon CT7'                                => [ 'Celkon', 'CT7', DeviceType::TABLET ],
@@ -2570,6 +2571,8 @@ DeviceModels::$ANDROID_MODELS = [
         'Ultimix 88'                                => [ 'Codegen', 'Ultimix 88', DeviceType::TABLET ],
         'Ultimix99'                                 => [ 'Codegen', 'Ultimix 99', DeviceType::TABLET ],
     ],
+
+    'BLADE LE 70'                               => [ 'COMMAX', 'BLADE LE 70', DeviceType::TABLET ],
 
     'Commodore!!' => [
         'Commodore  IS-7107C'                       => [ 'Commodore', 'IS-7107C', DeviceType::TABLET ],
@@ -3322,6 +3325,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Collo 2 DG120'                             => [ 'Doogee', 'Collo 2 DG120' ],
     'VOYAGER DG300'                             => [ 'Doogee', 'Voyager DG300' ],
     'VOYAGER2 DG310'                            => [ 'Doogee', 'Voyager 2 DG310' ],
+    'MINT-DG330'                                => [ 'Doogee', 'Mint DG330' ],
     'Discovery DG500'                           => [ 'Doogee', 'Discovery DG500' ],
     'TURBO DG2014'                              => [ 'Doogee', 'Turbo DG2014' ],
 
@@ -4365,6 +4369,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     '9300+'                                     => [ 'Hero', '9300+' ],
     'H2000+'                                    => [ 'Hero', 'H2000+' ],
+    'H7100'                                     => [ 'Hero', 'H7100' ],
     'H7500+'                                    => [ 'Hero', 'H7500+' ],
     'HERO H7500+'                               => [ 'Hero', 'H7500+' ],
     'H9500'                                     => [ 'Hero', 'H9500' ],
@@ -4833,6 +4838,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC Desire Q'                              => [ 'HTC', 'Desire Q' ],
         'HTC ?Desire ?S( |$)!'                      => [ 'HTC', 'Desire S' ],
         'HTC S510(b|e)!'                            => [ 'HTC', 'Desire S' ],
+        'HTC Passion S510e'                         => [ 'HTC', 'Desire S' ],
         'HTC Desire Saga'                           => [ 'HTC', 'Desire S' ],
         'HTC Saga'                                  => [ 'HTC', 'Desire S' ],
         'HTC DesireSV'                              => [ 'HTC', 'Desire SV' ],
@@ -4902,6 +4908,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC T92(98|99)!'                           => [ 'HTC', 'HD7' ],
         'HTC HD7S!'                                 => [ 'HTC', 'HD7s' ],
         'HTC T(93|98)99!'                           => [ 'HTC', 'HD7s' ],
+        'HTC HD Mini'                               => [ 'HTC', 'HD mini' ],
         'HTC HERO200'                               => [ 'HTC', 'Hero 200' ],               /* Sprint */
         'HTC Hero ?S!'                              => [ 'HTC', 'Hero S' ],             /* US Cellular */
         'HTC Hero!'                                 => [ 'HTC', 'Hero' ],
@@ -5066,6 +5073,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC 0P8B2!'                                => [ 'HTC', 'One Mini 2' ],
         'HTC M8MINx'                                => [ 'HTC', 'One Mini 2' ],
         'HTC One mini 2'                            => [ 'HTC', 'One Mini 2' ],
+        'htc memul'                                 => [ 'HTC', 'One Mini 2' ],
         'HTC Raider!'                               => [ 'HTC', 'Raider 4G' ],
         'HTC Holiday'                               => [ 'HTC', 'Raider 4G' ],
         'HTC X710(a|e|s)!'                          => [ 'HTC', 'Raider 4G' ],
@@ -5246,7 +5254,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Z715e'                                     => [ 'HTC', 'Sensation XE' ],
     'T9199h'                                    => [ 'HTC', 'T9199h' ],
 
-    '(HTC|PC|USCC)?ADR[0-9]{4,4}!!' => [
+    '(HTC|PCD|USCC)?ADR[0-9]{4,4}!!' => [
         'ADR6200'                                   => [ 'HTC', 'Droid Eris' ],
         'ADR6225'                                   => [ 'HTC', 'Wildfire 6225' ],
         'HTCADR6290US'                              => [ 'HTC', 'One V' ],
@@ -5549,6 +5557,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Huawei U8500'                              => [ 'Huawei', 'IDEOS X2' ],
         'Huawei ?U8520!'                            => [ 'Huawei', 'U8520 Duplex' ],
         'Huawei ?U8650!'                            => [ 'Huawei', 'Sonic' ],
+        'Huawei U8651'                              => [ 'Huawei', 'Prism' ],
         'Huawei U8652'                              => [ 'Huawei', 'Sonic' ],
         'Huawei U8661'                              => [ 'Huawei', 'Sonic+' ],
         'Huawei U8665'                              => [ 'Huawei', 'Fusion 2' ],
@@ -6538,6 +6547,7 @@ DeviceModels::$ANDROID_MODELS = [
     'KIOTO 793'                                 => [ 'KIOTO', '793' ],
     'D91'                                       => [ 'KK', 'D91', DeviceType::TABLET ],
     'K080'                                      => [ 'Kobo', 'K080', DeviceType::EREADER ],
+    'Vox'                                       => [ 'Kobo', 'Vox', DeviceType::EREADER ],
     'M1050S'                                    => [ 'KOCASO', 'M1050S', DeviceType::TABLET ],
     'SX9701W'                                   => [ 'KOCASO', 'SX9701W', DeviceType::TABLET ],
 
@@ -6580,6 +6590,8 @@ DeviceModels::$ANDROID_MODELS = [
         'Koobe S7 Easy tablet'                      => [ 'Koobe', 'S7 Easy tablet', DeviceType::TABLET ],
         'Koobe X8 Slim Quadrum tablet'              => [ 'Koobe', 'X8 Slim Quadrum tablet', DeviceType::TABLET ],
     ],
+    
+    'KORIDY H16'                                => [ 'Koridy', 'H16' ],
 
     'KPT!!' => [
         'KPT A5'                                    => [ 'KPT', 'A5' ],
@@ -7020,6 +7032,7 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'P5'                                        => [ 'Lemon', 'P5' ],
+    'LEMON P7'                                  => [ 'Lemon', 'P7' ],
     'P105'                                      => [ 'Lemon', 'P105' ],
 
     'Lenco!!' => [
@@ -7097,6 +7110,8 @@ DeviceModels::$ANDROID_MODELS = [
         'YOGA Tablet 2 Pro-1380L'                   => [ 'Lenovo', 'Yoga Tablet 2 Pro 1380L', DeviceType::TABLET ],
     ],
 
+    'Lenovo YT3-X90L'                           => [ 'Lenovo', 'Yoga Tablet 3 Pro', DeviceType::TABLET ],
+
     '(Lenovo )?(Tab ?)?(2 ?)?[AS](7|8|10)!!' => [
         'Lenovo A7'                                 => [ 'Lenovo', 'Tab A7', DeviceType::TABLET ],
         'Lenovo A7-60HC'                            => [ 'Lenovo', 'Tab A7', DeviceType::TABLET ],
@@ -7134,13 +7149,11 @@ DeviceModels::$ANDROID_MODELS = [
     'lepad 001b'                                => [ 'Lenovo', 'LePad', DeviceType::TABLET ],
     'lepad 001n'                                => [ 'Lenovo', 'LePad', DeviceType::TABLET ],
 
-    '(Lenovo|Lephone)!!' => [
-        '(Lenovo |Lephone )?3GC101!'                => [ 'Lenovo', 'LePhone 3GC101' ],
-        '(Lenovo |Lephone )?3GW100!'                => [ 'Lenovo', 'LePhone 3GW100' ],
-        '(Lenovo |Lephone )?3GW101!'                => [ 'Lenovo', 'LePhone 3GW101' ],
-        '(Lenovo )?S1[- ]37AH0!'                    => [ 'Lenovo', 'LePhone S1' ],
-        '(Lenovo )?S2[- ]38A(H0|T0)!'               => [ 'Lenovo', 'LePhone S2' ],
-    ],
+    '(Lenovo |Lephone )?3GC101!'                => [ 'Lenovo', 'LePhone 3GC101' ],
+    '(Lenovo |Lephone )?3GW100!'                => [ 'Lenovo', 'LePhone 3GW100' ],
+    '(Lenovo |Lephone )?3GW101!'                => [ 'Lenovo', 'LePhone 3GW101' ],
+    '(Lenovo )?S1[- ]37AH0!'                    => [ 'Lenovo', 'LePhone S1' ],
+    '(Lenovo )?S2[- ]38A(H0|T0)!'               => [ 'Lenovo', 'LePhone S2' ],
 
     'Lenovo!!' => [
         'Lenovo A1000'                              => [ 'Lenovo', 'A1000' ],
@@ -7863,7 +7876,8 @@ DeviceModels::$ANDROID_MODELS = [
     'AS870 4G'                                  => [ 'LG', 'Optimus F5' ],
     'AS985'                                     => [ 'LG', 'G3' ],
     'E900'                                      => [ 'LG', 'Optimus 7' ],
-    'GT540'                                     => [ 'LG', 'Optimus GT540' ],
+    'GT540'                                     => [ 'LG', 'Optimus' ],
+    'GT540f'                                    => [ 'LG', 'Optimus' ],
     'GW620'                                     => [ 'LG', 'Eve' ],
     'KU9500'                                    => [ 'LG', 'Optimus Z' ],
 
@@ -8043,6 +8057,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     'MID[0-9]!!' => [
         'MID05V2'                                   => [ 'Manta', 'Power Tab', DeviceType::TABLET ],
+        'MID06N'                                    => [ 'Manta', 'Power Tab X', DeviceType::TABLET ],
         'MID701'                                    => [ 'Manta', 'Power Tab Basic', DeviceType::TABLET ],
         'MID704'                                    => [ 'Manta', 'Power Tab 7', DeviceType::TABLET ],
         'MID705'                                    => [ 'Manta', 'Power Tab', DeviceType::TABLET ],
@@ -8820,6 +8835,7 @@ DeviceModels::$ANDROID_MODELS = [
         'XT901'                                     => [ 'Motorola', 'Electrify M' ],
         'XT905'                                     => [ 'Motorola', 'RAZR M' ],
         'XT907'                                     => [ 'Motorola', 'Droid RAZR M' ],
+        'XT908'                                     => [ 'Motorola', 'RAZR MAXX' ],
         'XT910!'                                    => [ 'Motorola', 'RAZR' ],
         'XT912!'                                    => [ 'Motorola', 'Droid RAZR' ],
         'XT9(14|15|16|18)!'                         => [ 'Motorola', 'Droid RAZR D1' ],
@@ -9345,6 +9361,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ADM816HC'                                  => [ 'Odys', 'Neo X', DeviceType::TABLET ],
     'ADM712HC'                                  => [ 'Odys', 'Neo X7', DeviceType::TABLET ],
     'ODYS-NOON'                                 => [ 'Odys', 'Noon', DeviceType::TABLET ],
+    'PEDI'                                      => [ 'Odys', 'Pedi', DeviceType::TABLET ],
     'ODYS-Q'                                    => [ 'Odys', 'Q', DeviceType::TABLET ],
     'ODYS Space'                                => [ 'Odys', 'Space', DeviceType::TABLET ],
     'ODYS Space TKI BRR233v7'                   => [ 'Odys', 'Space', DeviceType::TABLET ],
@@ -9362,6 +9379,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Xelio 10 Pro'                              => [ 'Odys', 'Xelio 10 Pro', DeviceType::TABLET ],
     'Xelio10Pro'                                => [ 'Odys', 'Xelio 10 Pro', DeviceType::TABLET ],
     'ODYS-Xpress'                               => [ 'Odys', 'Xpress', DeviceType::TABLET ],
+    'XPRESS PRO'                                => [ 'Odys', 'Xpress Pro', DeviceType::TABLET ],
     'ODYS Xtreme'                               => [ 'Odys', 'Xtreme', DeviceType::TABLET ],
     'Olivetti Olipad 100'                       => [ 'Olivetti', 'Olipad 100', DeviceType::TABLET ],
     'OP110'                                     => [ 'Olivetti', 'Olipad 110', DeviceType::TABLET ],
@@ -10043,6 +10061,7 @@ DeviceModels::$ANDROID_MODELS = [
         'MIDC410PR'                                 => [ 'Polaroid', 'MIDC410', DeviceType::TABLET ],
         'MIDC430'                                   => [ 'Polaroid', 'MIDC430', DeviceType::TABLET ],
         'MIDC497'                                   => [ 'Polaroid', 'MIDC497', DeviceType::TABLET ],
+        'MIDC700PR001'                              => [ 'Polaroid', 'MIDC700', DeviceType::TABLET ],
         'MIDC801'                                   => [ 'Polaroid', 'MIDC801', DeviceType::TABLET ],
         'MIDC802'                                   => [ 'Polaroid', 'MIDC802', DeviceType::TABLET ],
         'MIDC901'                                   => [ 'Polaroid', 'MIDC901', DeviceType::TABLET ],
@@ -11528,6 +11547,7 @@ DeviceModels::$ANDROID_MODELS = [
     'X-treme PQ15'                              => [ 'Sigma Mobile', 'X-treme PQ15' ],
     'X-tremePQ22'                               => [ 'Sigma Mobile', 'X-treme PQ22' ],
     'Blackphone 2'                              => [ 'Silent Circle', 'Blackphone 2' ],
+    'SP-120'                                    => [ 'Simvalley', 'SP-120' ],
     'simvalley SP-142'                          => [ 'Simvalley', 'SP-142' ],
     'V5U-simvalley SP-142'                      => [ 'Simvalley', 'SP-142' ],
     'SPX-5'                                     => [ 'Simvalley', 'SPX-5' ],
@@ -11600,6 +11620,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     'SmartQ!!' => [
         'SmartQ G7'                                 => [ 'SmartQ', 'G7', DeviceType::TABLET ],
+        'SmartQR10'                                 => [ 'SmartQ', 'R10', DeviceType::TABLET ],
         'SmartQT7'                                  => [ 'SmartQ', 'T7', DeviceType::TABLET ],
         'SmartQT10'                                 => [ 'SmartQ', 'T10', DeviceType::TABLET ],
         'SmartQT12'                                 => [ 'SmartQ', 'T12', DeviceType::TABLET ],
@@ -12173,6 +12194,7 @@ DeviceModels::$ANDROID_MODELS = [
     'M1001'                                     => [ 'Superpad', 'M1001', DeviceType::TABLET ],
 
     'SC-!!' => [
+        'SC-71MID'                                  => [ 'Supersonic', 'Matrix SC-71MID', DeviceType::TABLET ],
         'SC-72J'                                    => [ 'Supersonic', 'Matrix SC-72J', DeviceType::TABLET ],
         'SC-72JB'                                   => [ 'Supersonic', 'Matrix SC-72JB', DeviceType::TABLET ],
         'SC-72MID'                                  => [ 'Supersonic', 'Matrix SC-72MID', DeviceType::TABLET ],
@@ -12847,6 +12869,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Folio 100'                                 => [ 'Toshiba', 'Folio 100', DeviceType::TABLET ],
     'folio100'                                  => [ 'Toshiba', 'Folio 100', DeviceType::TABLET ],
     'THRiVE'                                    => [ 'Toshiba', 'THRiVE', DeviceType::TABLET ],
+    'Hikari-iFrame!'                            => [ 'Toshiba', 'Hikari iFrame', DeviceType::TABLET, 'carrier' => 'NTT' ],
 
     'Satellite!!' => [
         'Satellite ([A-Z][0-9]{3,3}[A-Z]?)!'        => [ 'Toshiba', 'Satellite $1', DeviceType::DESKTOP ],
@@ -13071,6 +13094,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ViewPad 97Q'                               => [ 'ViewSonic', 'ViewPad 97q', DeviceType::TABLET ],
     'ViewPad 100Q'                              => [ 'ViewSonic', 'ViewPad 100q', DeviceType::TABLET ],
     'ViewPad 100N Pro'                          => [ 'ViewSonic', 'ViewPad 100n Pro', DeviceType::TABLET ],
+    'ViewPad 701N'                              => [ 'ViewSonic', 'ViewPad 701n', DeviceType::TABLET ],
     'ZiiLABS ViewBook 730'                      => [ 'ViewSonic', 'ViewBook VB730', DeviceType::TABLET ],
     'ViewSonic VB733'                           => [ 'ViewSonic', 'ViewPad VB733', DeviceType::TABLET ],
     'VSD220'                                    => [ 'ViewSonic', 'VSD220 Smart Display', DeviceType::MONITOR ],
@@ -14046,6 +14070,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ZTE V769M'                                 => [ 'ZTE', 'LEO Q2' ],
     'Z777'                                      => [ 'ZTE', 'Z777 Grand X' ],
     'ZTE Z777'                                  => [ 'ZTE', 'Z777 Grand X' ],
+    'ZTE V779M'                                 => [ 'ZTE', 'V779M' ],
     'ZTE C N780'                                => [ 'ZTE', 'N780' ],
     'Z787'                                      => [ 'ZTE', 'Z787' ],
     'ZTE Z787'                                  => [ 'ZTE', 'Z787' ],
@@ -14088,6 +14113,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ZTE U807N'                                 => [ 'ZTE', 'U807' ],
     'ZTE V807'                                  => [ 'ZTE', 'V807 Blade C' ],
     'ZTE U808'                                  => [ 'ZTE', 'U808' ],
+    'ZTE V808'                                  => [ 'ZTE', 'V808' ],
     'ZTE U809'                                  => [ 'ZTE', 'U809' ],
     'ZTE V809'                                  => [ 'ZTE', 'V809 Blade C2' ],
     'E810'                                      => [ 'ZTE', 'E810' ],
@@ -14481,6 +14507,7 @@ DeviceModels::$ANDROID_MODELS = [
         'i-mobile IQ X3A'                           => [ 'i-Mobile', 'iQ X3A' ],
         'i-mobile IQ BIG'                           => [ 'i-Mobile', 'iQ Big' ],
         'i-mobile IQX BLIZ!'                        => [ 'i-Mobile', 'iQ X Bliz' ],
+        'i-mobile IQX OKU!'                         => [ 'i-Mobile', 'iQ X Oku' ],
         'i-mobile IQ 1068'                          => [ 'i-Mobile', 'iQ 1068' ],
         'i-STYLE 1'                                 => [ 'i-Mobile', 'i-Style 1' ],
         'i-mobile i-STYLE 1'                        => [ 'i-Mobile', 'i-Style 1' ],
@@ -14583,6 +14610,7 @@ DeviceModels::$ANDROID_MODELS = [
     'MS4A'                                      => [ 'Мегафон', '4G Turbo' ],
     'MegaFon SIM+'                              => [ 'Мегафон', 'Sim+' ],
     'MT7A'                                      => [ 'Мегафон', 'Login', DeviceType::TABLET ],
+    'MS3A'                                      => [ 'Мегафон', 'Login 2', DeviceType::TABLET ],
     'MegaFon Login 3'                           => [ 'Мегафон', 'Login 3', DeviceType::TABLET ],
 
     'M9000'                                     => [ 'MobiFone', 'M9000' ],
@@ -14834,6 +14862,8 @@ DeviceModels::$ANDROID_MODELS = [
         'TURKCELL TURBO T50'                        => [ 'Turkcell', 'Turbo T50' ],
         'TURKCELL T60'                              => [ 'Turkcell', 'T60' ],
     ],
+
+    'RP-UDM01A'                                 => [ 'Verico', 'Uni Pad' ],
 
     'QMV7A'                                     => [ 'Verizon', 'Ellipsis 7', DeviceType::TABLET ],
     'QMV7B'                                     => [ 'Verizon', 'Ellipsis 7', DeviceType::TABLET ],
