@@ -70,7 +70,7 @@ class DeviceModels
             case 'touchwiz':
                 return self::identifyList(self::$TOUCHWIZ_INDEX, self::$TOUCHWIZ_MODELS, $model);
             case 'wm':
-                return self::identifyList(self::$WM_INDEX, self::$WM_MODELS, $model);
+                return self::identifyWindowsMobile($model);
             case 'wp':
                 return self::identifyList(self::$WP_INDEX, self::$WP_MODELS, $model);
             case 's30plus':
@@ -88,6 +88,12 @@ class DeviceModels
         require_once __DIR__ . '/../../data/models-feature.php';
         require_once __DIR__ . '/../../data/indices/models-feature.php';
         return self::identifyList(self::$FEATURE_INDEX, self::$FEATURE_MODELS, $model);
+    }
+    
+    public static function identifyWindowsMobile($model)
+    {
+        $model = preg_replace('/^(HTC|SAMSUNG|SHARP|Toshiba)\//u', '', $model);
+        return self::identifyList(self::$WM_INDEX, self::$WM_MODELS, $model);
     }
 
     public static function identifyIOS($model)
@@ -280,8 +286,9 @@ class DeviceModels
 
     public static function cleanup($s = '')
     {
+        // var_dump($s);
+
         $s = preg_replace('/^phone\//', '', $s);
-        $s = preg_replace('/^(HTC|SAMSUNG|SHARP|Toshiba)\//u', '', $s);
         $s = preg_replace('/^(\/|; |;)/u', '', $s);
         $s = preg_replace('/\/[^\/]+$/u', '', $s);
         $s = preg_replace('/\/[^\/]+ Android\/.*/u', '', $s);
