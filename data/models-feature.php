@@ -39,6 +39,7 @@ DeviceModels::$FEATURE_MODELS = [
     'GT-C3222'                                  => [ 'Samsung', 'Ch@t 322' ],
     'GT-C3322'                                  => [ 'Samsung', 'GT-C3322 Duos' ],
     'GT-C3500'                                  => [ 'Samsung', 'Ch@t 350' ],
+    'GT-C5010!'                                 => [ 'Samsung', 'C5010 Squash' ],
     'GT-E1282!'                                 => [ 'Samsung', 'Guru' ],
     'GT-E2152'                                  => [ 'Samsung', 'GT-E2152 Duos' ],
     'GT-E2220'                                  => [ 'Samsung', 'Ch@t 220' ],

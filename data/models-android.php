@@ -6885,6 +6885,8 @@ DeviceModels::$ANDROID_MODELS = [
         'Lark FreeMe X2 7 ver.2'                    => [ 'Lark', 'FreeMe X2 7', DeviceType::TABLET ],
     ],
 
+    'Flair P8'                                  => [ 'Lava', 'Flair P8' ],
+
     'Iris!!' => [
         'Iris78W'                                   => [ 'Lava', 'Iris 78w' ],
         'iris 250'                                  => [ 'Lava', 'Iris 250' ],
@@ -8861,9 +8863,11 @@ DeviceModels::$ANDROID_MODELS = [
         'XT1565'                                    => [ 'Motorola', 'Droid MAXX 2' ],
         'XT15(70|72)!'                              => [ 'Motorola', 'Moto X Style' ],
         'XT1575'                                    => [ 'Motorola', 'Moto X Pure Edition' ],
-//      'XT1578'                                    => [ 'Motorola', '"Clark"' ],
+        'XT1578'                                    => [ 'Motorola', '"Clark"' ],
         'XT15(80|81)!'                              => [ 'Motorola', 'Moto X Force' ],
         'XT1585'                                    => [ 'Motorola', 'Droid Turbo 2' ],
+        'XT1650'                                    => [ 'Motorola', 'Moto X4' ],
+        'XT17(00|06)!'                              => [ 'Motorola', 'Moto E (2016)' ],
     ],
 
     'Atrix 2'                                   => [ 'Motorola', 'ATRIX 2' ],
@@ -10104,6 +10108,7 @@ DeviceModels::$ANDROID_MODELS = [
     'PSPT350'                                   => [ 'Polaroid', 'PSPT350' ],
     'Polaroid PSPT401'                          => [ 'Polaroid', 'Turbo 401' ],
     'Polaroid PSPC505'                          => [ 'Polaroid', 'Cosmo 505' ],
+    'Polaroid P4005A'                           => [ 'Polaroid', 'P4005A' ],
 
     'PROV!!' => [
         'PROV350'                                   => [ 'Polaroid', 'PROV350' ],
@@ -10980,6 +10985,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A710!'                                  => [ 'Samsung', 'Galaxy A7 (2016)' ],
         'SM-A800!'                                  => [ 'Samsung', 'Galaxy A8' ],
         'SM-A900!'                                  => [ 'Samsung', 'Galaxy A9 (2016)' ],
+        'SM-A910!'                                  => [ 'Samsung', 'Galaxy A9 Pro' ],
     ],
 
     'SM-C[0-9]{3,3}!!' => [
@@ -11064,8 +11070,8 @@ DeviceModels::$ANDROID_MODELS = [
 
     'SM-J[0-9]{3,3}!!' => [
         'SM-J100!'                                  => [ 'Samsung', 'Galaxy J1' ],
-        'SM-J105!'                                  => [ 'Samsung', 'Galaxy J1 Mini' ],                              // Not released yet
-        'SM-J110!'                                  => [ 'Samsung', 'Galaxy J1 Ace' ],
+        'SM-J105!'                                  => [ 'Samsung', 'Galaxy J1 Mini' ],
+        'SM-J11[01]!'                               => [ 'Samsung', 'Galaxy J1 Ace' ],
         'SM-J120!'                                  => [ 'Samsung', 'Galaxy J1 (2016)' ],
         'SM-J200!'                                  => [ 'Samsung', 'Galaxy J2' ],
         'SM-J3(10|20)!'                             => [ 'Samsung', 'Galaxy J3' ],
@@ -11116,7 +11122,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-T2519'                                  => [ 'Samsung', 'Galaxy Tab Q' ],
         'SM-T255[68S]!'                             => [ 'Samsung', 'Galaxy Tab Q' ],
         'SM-T23[012579]!'                           => [ 'Samsung', 'Galaxy Tab 4 7.0', DeviceType::TABLET ],
-        'SM-T28[5]!'                                => [ 'Samsung', 'Galaxy Tab E 7.0', DeviceType::TABLET ],
+        'SM-T28[05]!'                               => [ 'Samsung', 'Galaxy Tab A 7.0', DeviceType::TABLET ],
         'SM-T31[0125]!'                             => [ 'Samsung', 'Galaxy Tab 3 8.0', DeviceType::TABLET ],
         'SM-T32[015]!'                              => [ 'Samsung', 'Galaxy Tab Pro 8.4', DeviceType::TABLET ],
         'SM-T33[01257]!'                            => [ 'Samsung', 'Galaxy Tab 4 8.0', DeviceType::TABLET ],
@@ -11130,6 +11136,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-T53[023]!'                              => [ 'Samsung', 'Galaxy Tab 4 10.1', DeviceType::TABLET ],
         'SM-T53[157]!'                              => [ 'Samsung', 'Galaxy Tab 4 10.0', DeviceType::TABLET ],
         'SM-T55[015]!'                              => [ 'Samsung', 'Galaxy Tab A 9.7', DeviceType::TABLET ],
+        'SM-T58[5]!'                                => [ 'Samsung', 'Galaxy Tab A 10.1', DeviceType::TABLET ],
         'SM-T56[0127]!'                             => [ 'Samsung', 'Galaxy Tab E 9.6', DeviceType::TABLET ],
         'SM-T67[07]!'                               => [ 'Samsung', 'Galaxy View', DeviceType::TABLET ],
         'SM-T70[057]!'                              => [ 'Samsung', 'Galaxy Tab S 8.4', DeviceType::TABLET ],
@@ -11845,6 +11852,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SO-04EM'                                   => [ 'Sony', 'Xperia feat. HATSUNE MIKU SO-04E', 'carrier' => 'DoCoMo' ],
         'SO-04F'                                    => [ 'Sony', 'Xperia A2 SO-04F', 'carrier' => 'DoCoMo' ],                     // Altair
         'SO-04G'                                    => [ 'Sony', 'Xperia A4 SO-04G', 'carrier' => 'DoCoMo' ],
+        'SO-04H'                                    => [ 'Sony', 'Xperia X Performance SO-04H', 'carrier' => 'DoCoMo' ],
         'SO-05D'                                    => [ 'Sony', 'Xperia SX SO-05D', 'carrier' => 'DoCoMo' ],                     // Komachi
         'SO-05F'                                    => [ 'Sony', 'Xperia Tablet Z2 SO-05F', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // Castor
         'SO-05G'                                    => [ 'Sony', 'Xperia Tablet Z4 SO-05G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // ...
@@ -12466,7 +12474,10 @@ DeviceModels::$ANDROID_MODELS = [
         'TECNO H5'                                  => [ 'Tecno', 'H5' ],
         'TECNO H6'                                  => [ 'Tecno', 'H6' ],
         'TECNO H7'                                  => [ 'Tecno', 'H7' ],
+        'TECNO-J5'                                  => [ 'Tecno', 'J5' ],
         'TECNO-J7'                                  => [ 'Tecno', 'J7' ],
+        'TECNO J7'                                  => [ 'Tecno', 'J7' ],
+        'TECNO-J8'                                  => [ 'Tecno', 'J8' ],
         'TECNO L3'                                  => [ 'Tecno', 'L3' ],
         'TECNO-L5'                                  => [ 'Tecno', 'L5' ],
         'TECNO L7'                                  => [ 'Tecno', 'L7' ],
@@ -13141,6 +13152,9 @@ DeviceModels::$ANDROID_MODELS = [
         'vivo V1'                                   => [ 'Vivo', 'V1' ],
         'vivo V1Max'                                => [ 'Vivo', 'V1 Max' ],
         'vivo V2'                                   => [ 'Vivo', 'V2' ],
+        'vivo V3'                                   => [ 'Vivo', 'V3' ],
+        'vivo V3Max'                                => [ 'Vivo', 'V3 Max' ],
+        'vivo V3Max A'                              => [ 'Vivo', 'V3 Max A' ],
         'vivo X1'                                   => [ 'Vivo', 'X1' ],
         'vivo X1S'                                  => [ 'Vivo', 'X1S' ],
         'vivo X1St'                                 => [ 'Vivo', 'X1S' ],
@@ -13184,6 +13198,8 @@ DeviceModels::$ANDROID_MODELS = [
         'vivo PD1415A'                              => [ 'Vivo', 'X6A' ],
         'vivo X6D'                                  => [ 'Vivo', 'X6D' ],
         'vivo X6L'                                  => [ 'Vivo', 'X6L' ],
+        'vivo X6S A'                                => [ 'Vivo', 'X6S A' ],
+        'vivo X6SPlus A'                            => [ 'Vivo', 'X6S Plus A' ],
         'vivo PD1515BA'                             => [ 'Vivo', 'X6S Plus A' ],
         'vivo Xplay'                                => [ 'Vivo', 'Xplay' ],
         'vivo X510t'                                => [ 'Vivo', 'Xplay' ],
@@ -13194,6 +13210,7 @@ DeviceModels::$ANDROID_MODELS = [
         'vivo Xplay3S A'                            => [ 'Vivo', 'Xplay 3S' ],
         'vivo Xplay5A'                              => [ 'Vivo', 'Xplay 5A' ],
         'vivo Xplay5S'                              => [ 'Vivo', 'Xplay 5S' ],
+        'vivo PD1516A'                              => [ 'Vivo', 'Xplay 5S' ],
         'vivo X710F'                                => [ 'Vivo', 'Xshot' ],
         'vivo X710L'                                => [ 'Vivo', 'Xshot' ],
         'vivo Xshot'                                => [ 'Vivo', 'Xshot' ],
@@ -13230,6 +13247,7 @@ DeviceModels::$ANDROID_MODELS = [
         'vivo Y28L'                                 => [ 'Vivo', 'Y28L' ],
         'vivo Y29L'                                 => [ 'Vivo', 'Y29L' ],
         'vivo Y31'                                  => [ 'Vivo', 'Y31' ],
+        'vivo Y31A'                                 => [ 'Vivo', 'Y31A' ],
         'vivo Y31i'                                 => [ 'Vivo', 'Y31i' ],
         'vivo Y33'                                  => [ 'Vivo', 'Y33' ],
         'vivo Y35'                                  => [ 'Vivo', 'Y35' ],
