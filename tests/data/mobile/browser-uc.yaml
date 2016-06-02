@@ -496,8 +496,8 @@
     readable: 'UC Browser 10.2 on a Motorola Droid Bionic running Android'
 -
     headers: 'User-Agent: UCWEB/2.0 (MIDP-2.0; U; xx; XT897) U2/1.0.0 UCBrowser/9.9.2.467  U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '9.9', type: browser }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Photon Q' } }
-    readable: 'UC Browser 9.9 on a Motorola Photon Q running Android'
+    result: { browser: { name: 'UC Browser', version: '9.9', type: browser }, engine: { name: Gecko }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'PHOTON Q' } }
+    readable: 'UC Browser 9.9 on a Motorola PHOTON Q running Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.2; zh-CN Build/JZO54K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.5.1.381 U3/0.8.0 Mobile Safari/533.1'
     result: { browser: { name: 'UC Browser', version: '9.5', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart } }

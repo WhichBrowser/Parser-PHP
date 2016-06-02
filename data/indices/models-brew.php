@@ -17,6 +17,10 @@ DeviceModels::$BREW_INDEX = array (
   array (
     0 => 'E4255',
   ),
+  '@EX' => 
+  array (
+    0 => 'EX200!',
+  ),
   '@HS' => 
   array (
     0 => 'HS-E316!',

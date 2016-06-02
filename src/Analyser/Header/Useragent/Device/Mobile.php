@@ -248,7 +248,7 @@ trait Mobile
         if (isset($this->data->device->manufacturer)) {
             return;
         }
-
+        
         if (!preg_match('/(T-Mobile|Danger|HPiPAQ|Acer|Amoi|AIRNESS|ASUS|BenQ|maui|ALCATEL|Bird|COOLPAD|CELKON|Coship|Cricket|DESAY|Diamond|dopod|Ericsson|FLY|GIONEE|Haier|HIKe|Hisense|HS|HTC|T[0-9]{4,4}|HUAWEI|Karbonn|KWC|KONKA|KTOUCH|K-Touch|Lenovo|Lephone|LG|Micromax|MOT|Nexian|NEC|NGM|OPPO|Panasonic|Pantech|Philips|Sagem|Sanyo|Sam|SEC|SGH|SCH|SIE|Sony|SE|SHARP|Spice|Tecno|T-smart|TCL|Tiphone|Toshiba|UTStar|vk|Vodafone|Xiaomi|ZTE|WAP)/ui', $ua)) {
             return;
         }
@@ -590,7 +590,7 @@ trait Mobile
             'manufacturer'  => 'Siemens'
         ]);
 
-        $this->data->device->identifyModel('/SIE-([0-9]{4,4})/ui', $ua, [
+        $this->data->device->identifyModel('/SIE-([0-9]{4,4}|[A-Z]{4,4})/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Siemens'
         ]);
@@ -610,7 +610,7 @@ trait Mobile
             'manufacturer'  => 'Sony Ericsson'
         ]);
 
-        $this->data->device->identifyModel('/SonyEricsson ?([^\/\);]+)/iu', $ua, [
+        $this->data->device->identifyModel('/SonyE?ricsson ?([^\/\);]+)/iu', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Sony Ericsson',
             'model'         => function ($model) {

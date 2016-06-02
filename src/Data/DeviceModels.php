@@ -313,7 +313,7 @@ class DeviceModels
         $s = preg_replace('/^Iconia( Tab)? /u', '', $s);
         $s = preg_replace('/^ASUS ?/u', '', $s);
         $s = preg_replace('/^Ainol /u', '', $s);
-        $s = preg_replace('/^CoolpadCoolpad/iu', 'Coolpad', $s);
+        $s = preg_replace('/^Coolpad-?Coolpad/iu', 'Coolpad', $s);
         $s = preg_replace('/^Coolpad ?/iu', 'Coolpad ', $s);
         $s = preg_replace('/^Alcatel[_ ]OT[_-](.*)/iu', 'One Touch $1', $s);
         $s = preg_replace('/^ALCATEL /u', '', $s);

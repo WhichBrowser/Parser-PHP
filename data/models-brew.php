@@ -9,6 +9,7 @@ DeviceModels::$BREW_MODELS = [
     'HUAWEI U5200!'                             => [ 'Huawei', 'U5200' ],
     'E4255'                                     => [ 'Kyocera', 'DuraMax E4255' ],
     'S2151!'                                    => [ 'Kyocera', 'Coast S2151' ],
+    'EX200!'                                    => [ 'Motorola', 'EX200' ],
     'M260!'                                     => [ 'Samsung', 'Factor' ],
     'M390!'                                     => [ 'Samsung', 'Array' ],
     'M550!'                                     => [ 'Samsung', 'Exclaim' ],
