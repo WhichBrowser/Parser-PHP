@@ -1078,6 +1078,8 @@ trait Os
         
         if (preg_match('/; (' . implode('|', $keys) . ')(?:JS)?[\);]/u', $ua, $match)) {
             $this->data->device->manufacturer = $manufacturers[$match[1]];
+            $this->data->device->hidden = true;
+            $this->data->device->identified |= Constants\Id::INFER;
         }
     }
 
