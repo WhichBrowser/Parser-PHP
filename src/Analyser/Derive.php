@@ -414,6 +414,7 @@ trait Derive
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
                 $this->data->device->model = 'Macintosh';
+                $this->data->device->identified |= Constants\Id::INFER;
                 $this->data->device->hidden = true;
             }
         }
@@ -423,6 +424,7 @@ trait Derive
         if ($this->data->os->name == 'iOS') {
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
+                $this->data->device->identified |= Constants\Id::INFER;
                 $this->data->device->hidden = true;
             }
         }
