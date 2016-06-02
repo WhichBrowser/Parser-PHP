@@ -744,6 +744,7 @@ trait Mobile
             'KO'    => 'Kokusai',
             'LC'    => 'Longcheer',
             'NK'    => 'Nokia',
+            'NM'    => 'Nokia',
             'KE'    => 'KES',
             'SA'    => 'Sanyo',
             'SC'    => 'Samsung',
