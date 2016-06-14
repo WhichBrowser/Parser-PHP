@@ -101,8 +101,8 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]), 'details' => 2 ]);
             }
 
-            if (preg_match('/;os=Mac (10[0-9\.]*)/u', $ua, $match)) {
-                $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            if (preg_match('/;os=Mac (10[0-9[\.,]*)/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => str_replace(',', '.', $match[1]), 'details' => 2 ]);
             }
 
             $this->data->device->type = Constants\DeviceType::DESKTOP;

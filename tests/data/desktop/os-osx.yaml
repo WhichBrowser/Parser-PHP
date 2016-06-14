@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: QuickTime/7.6 (qtver=7.6;cpu=IA32;os=Mac 10,5,7)'
-    result: { browser: { name: QuickTime, version: '7.6', type: 'app:mediaplayer' }, os: { name: 'OS X', version: { value: '10', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'QuickTime 7.6 on OS X El Capitan 10'
+    result: { browser: { name: QuickTime, version: '7.6', type: 'app:mediaplayer' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'QuickTime 7.6 on Mac OS X 10.5'
