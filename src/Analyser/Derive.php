@@ -445,6 +445,10 @@ trait Derive
                     $this->data->os->alias = 'Mac OS X';
                 }
 
+                if ($this->data->os->version->is('>=', '10.12')) {
+                    $this->data->os->alias = 'macOS';
+                }
+
                 if ($this->data->os->version->is('10.7')) {
                     $this->data->os->version->nickname = 'Lion';
                 }
@@ -463,6 +467,10 @@ trait Derive
 
                 if ($this->data->os->version->is('10.11')) {
                     $this->data->os->version->nickname = 'El Capitan';
+                }
+
+                if ($this->data->os->version->is('10.12')) {
+                    $this->data->os->version->nickname = 'Sierra';
                 }
             }
         }
