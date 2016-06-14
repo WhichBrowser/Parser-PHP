@@ -232,17 +232,17 @@ trait Os
                 if ($this->data->os->version->toFloat() >= 4 && preg_match('/Mobile/u', $ua)) {
                     $this->data->device->type = Constants\DeviceType::MOBILE;
                 }
-                
+
                 $candidates = [];
 
                 if (preg_match('/Build/ui', $ua)) {
-                    
+
                     /* Normal Android useragent strings */
-                    
+
                     if (preg_match('/; [a-z][a-zA-Z][-_][a-zA-Z][a-zA-Z] ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
-                    
+
                     if (preg_match('/Android [A-Za-z]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?) Build\/([^\/]*)\//u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
@@ -251,7 +251,7 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Release\//ui', $ua)) {
-                    
+
                     /* WAP style useragent strings */
 
                     if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
@@ -262,7 +262,7 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Mozilla\//ui', $ua)) {
-                    
+
                     /* Old Android useragent strings */
 
                     if (preg_match('/Linux; (?:U; )?Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^)\/;]+)\)/u', $ua, $match)) {
@@ -271,20 +271,20 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } else {
-                    
+
                     /* Other applications */
 
                     if (preg_match('/[34]G Explorer\/[0-9.]+ \(Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
-                    
+
                     if (preg_match('/GetJarSDK\/.*android\/[0-9.]+ \([^;]+; [^;]+; ([^\)]+)\)$/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
                 }
 
                 $candidates = array_unique($candidates);
-                
+
                 for ($c = 0; $c < count($candidates); $c++) {
                     if (preg_match('/^[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?$/u', $candidates[$c])) {
                         unset($candidates[$c]);
@@ -300,13 +300,13 @@ trait Os
                     $candidates[$c] = preg_replace('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', '\\1', $candidates[$c]);
                     $candidates[$c] = preg_replace('/^sprd-/u', '', $candidates[$c]);
                 }
-                
+
                 $candidates = array_unique($candidates);
-                
+
                 if (count($candidates)) {
                     $this->data->device->model = $candidates[0];
                     $this->data->device->identified |= Constants\Id::PATTERN;
-                    
+
                     for ($c = 0; $c < count($candidates); $c++) {
                         $device = Data\DeviceModels::identify('android', $candidates[$c]);
                         if ($device->identified) {
@@ -642,7 +642,7 @@ trait Os
                         $this->data->os->version = new Version([ 'value' => $match[1], 'alias' => 'NT ' . $match[1] ]);
                         break;
                 }
-                
+
                 $this->detectWindowsOemManufacturer($ua);
             }
 
@@ -1073,9 +1073,9 @@ trait Os
             'TAJB'      => 'Toshiba',
             'TNJB'      => 'Toshiba',
         ];
-        
+
         $keys = array_keys($manufacturers);
-        
+
         if (preg_match('/; (' . implode('|', $keys) . ')(?:JS)?[\);]/u', $ua, $match)) {
             $this->data->device->manufacturer = $manufacturers[$match[1]];
             $this->data->device->hidden = true;

@@ -66,11 +66,11 @@ trait Derive
     {
         if ($this->data->isBrowser('OmniWeb')) {
             $version = $this->data->browser->getVersion();
-            
+
             if ($version < 5) {
                 $this->data->engine->reset();
             }
-            
+
             if ($version >= 5 && $version < 5.5 && !$this->data->isEngine('WebCore')) {
                 $this->data->engine->reset([ 'name' => 'WebCore' ]);
             }
@@ -86,7 +86,7 @@ trait Derive
     {
         if ($this->data->isBrowser('Opera') || $this->data->isBrowser('Opera Mobile')) {
             $version = $this->data->browser->getVersion();
-            
+
             if ($version >= 3.5 && $version < 7 && !$this->data->isEngine('Electra')) {
                 $this->data->engine->reset([ 'name' => 'Electra' ]);
             }
@@ -409,7 +409,7 @@ trait Derive
         }
 
         /* Derive manufacturer and model based on MacOS or OS X */
-        
+
         if ($this->data->os->name == 'OS X' || $this->data->os->name == 'Mac OS') {
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
@@ -420,7 +420,7 @@ trait Derive
         }
 
         /* Derive manufacturer and model based on MacOS or OS X */
-        
+
         if ($this->data->os->name == 'iOS') {
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
