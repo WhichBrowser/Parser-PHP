@@ -1195,6 +1195,10 @@ trait Browser
                 $this->data->device->type = Constants\DeviceType::TELEVISION;
             }
 
+            if (preg_match('/VCC/u', $ua)) {
+                $this->data->device->type = Constants\DeviceType::CAR;
+            }
+
             if (preg_match('/Kindle/u', $ua)) {
                 $this->data->device->type = Constants\DeviceType::EREADER;
             }
