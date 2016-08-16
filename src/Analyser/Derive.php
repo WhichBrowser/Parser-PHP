@@ -131,11 +131,11 @@ trait Derive
 
     private function deriveFirefoxOS()
     {
-        if ($this->data->browser->name == 'Firefox Mobile' && !isset($this->data->os->name)) {
+        if (in_array($this->data->browser->name, [ 'Firefox Mobile', 'Servo Nightly Build' ]) && !isset($this->data->os->name)) {
             $this->data->os->name = 'Firefox OS';
         }
 
-        if (isset($this->data->os->name) && $this->data->os->name == 'Firefox OS') {
+        if (isset($this->data->os->name) && $this->data->os->name == 'Firefox OS' && $this->data->engine->name == 'Gecko') {
             switch ($this->data->engine->getVersion()) {
                 case '18.0':
                     $this->data->os->version = new Version([ 'value' => '1.0.1' ]);

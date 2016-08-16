@@ -716,6 +716,11 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
+        if (preg_match('/Servo\/1.0 Firefox\/37.0/u', $ua)) {
+            $this->data->browser->name = 'Servo Nightly Build';
+            $this->data->browser->version = null;
+        }
+
 
         /* Set the browser family */
 

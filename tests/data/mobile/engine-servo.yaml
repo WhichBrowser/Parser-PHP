@@ -1,8 +1,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Android; Mobile; rv:37.0) Servo/1.0 Firefox/37.0'
-    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
-    readable: 'Firefox Mobile 37.0 on Android'
+    result: { browser: { name: 'Servo Nightly Build', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: Android }, device: { type: mobile, subtype: smart } }
+    readable: 'Servo Nightly Build on Android'
 -
     headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:37.0) Servo/1.0 Firefox/37.0'
-    result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '37.0' }, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'Firefox OS' }, device: { type: mobile, subtype: smart } }
-    readable: 'Firefox Mobile 37.0 on Firefox OS'
+    result: { browser: { name: 'Servo Nightly Build', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'Firefox OS' }, device: { type: mobile, subtype: smart } }
+    readable: 'Servo Nightly Build on Firefox OS'

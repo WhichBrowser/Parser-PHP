@@ -1,4 +1,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Servo/1.0 Firefox/37.0'
-    result: { browser: { name: Firefox, version: '37.0', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'Firefox 37.0 on OS X Yosemite 10.10'
+    result: { browser: { name: 'Servo Nightly Build', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Servo Nightly Build on OS X Yosemite 10.10'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:37.0) Servo/1.0 Firefox/37.0'
+    readable: 'Servo Nightly Build on Linux'
+    result: { browser: { name: 'Servo Nightly Build', type: browser }, engine: { name: Servo, version: '1.0' }, os: { name: Linux }, device: { type: desktop } }
