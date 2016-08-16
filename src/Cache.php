@@ -90,7 +90,7 @@ trait Cache
         }
 
         if ($this->cache instanceof CacheItemPoolInterface) {
-            $item = $this->cache->getItem('whichbrowser-' . md5(serialize($headers)));
+            $item = $this->cache->getItem('whichbrowser_' . md5(serialize($headers)));
 
             if ($item->isHit()) {
                 $this->applyCachedData($item->get());
