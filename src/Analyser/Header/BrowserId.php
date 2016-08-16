@@ -11,6 +11,10 @@ class BrowserId
 {
     public function __construct($header, &$data)
     {
+        if ($header == 'XMLHttpRequest') {
+            return;
+        }
+
         $this->data =& $data;
 
         /* The X-Requested-With header is send by the WebView, so our browser name is Chrome it is probably the Chromium WebView which is sometimes misidentified. */
