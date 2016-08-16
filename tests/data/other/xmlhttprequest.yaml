@@ -1,0 +1,4 @@
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36', X-Requested-With: XMLHttpRequest }
+    readable: 'Chrome 52 on OS X El Capitan 10.11'
+    result: { browser: { name: Chrome, version: '52', type: browser }, engine: { name: Blink }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
