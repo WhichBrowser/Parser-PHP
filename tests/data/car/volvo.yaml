@@ -1,0 +1,9 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (VCC; 1.0; like Gecko) NetFront/4.2'
+    readable: 'NetFront 4.2'
+    result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: car } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.02 Bork-edition [en]'
+    useragent: 'Mozilla/5.0 (VCC; 1.0; like Gecko) NetFront/4.2'
+    readable: 'Opera 7.02 on Windows 2000'
+    result: { browser: { name: Opera, version: '7.02', type: browser }, engine: { name: Presto }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
