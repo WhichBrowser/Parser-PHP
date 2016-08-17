@@ -67,6 +67,7 @@ DeviceModels::$FEATURE_MODELS = [
     'SGH-D880'                                  => [ 'Samsung', 'D880 Duos' ],
     'SGH-G600'                                  => [ 'Samsung', 'G600' ],
     'SGH-J700V'                                 => [ 'Samsung', 'J700' ],
+    'SGH-S150G'                                 => [ 'Samsung', 'S150 TracFone' ],
     'SGH-S390G'                                 => [ 'Samsung', 'S390 TracFone' ],
     'SGH-T189N'                                 => [ 'Samsung', 'Freeform M'],
     'SGHX660V'                                  => [ 'Samsung', 'X660' ],

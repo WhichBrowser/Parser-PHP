@@ -140,6 +140,7 @@ DeviceModels::$SYMBIAN_MODELS = [
     '6680'                                      => [ 'Nokia', '6680', 'flag' => Flag::S60 ],
     '6681'                                      => [ 'Nokia', '6681', 'flag' => Flag::S60 ],
     '6700s'                                     => [ 'Nokia', '6700 slide', 'flag' => Flag::S60 ],
+    '6700s-1c'                                  => [ 'Nokia', '6700 slide', 'flag' => Flag::S60 ],
     '6708'                                      => [ 'Nokia', '6708', 'flag' => Flag::UIQ ],
     '6710s'                                     => [ 'Nokia', '6710 Navigator', 'flag' => Flag::S60 ],
     '6720c!'                                    => [ 'Nokia', '6720 classic', 'flag' => Flag::S60 ],
