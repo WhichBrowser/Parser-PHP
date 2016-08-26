@@ -530,3 +530,11 @@
     headers: 'User-Agent: PANTECH_GF500/(2005.04.26)Ver1.00/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'a Pantech GF500'
     result: { device: { type: mobile, subtype: feature, manufacturer: Pantech, model: GF500 } }
+-
+    headers: 'User-Agent: ZTE-T54(Brazil_VIVO)/1.0 NetFront/3.5 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    readable: 'NetFront 3.5 on a ZTE T54'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: T54 } }
+-
+    headers: 'User-Agent: ZTE-R54(South_Africa_MTN)/1.0 NetFront/3.5 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    readable: 'NetFront 3.5 on a ZTE R54'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: R54 } }

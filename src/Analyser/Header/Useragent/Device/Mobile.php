@@ -690,7 +690,7 @@ trait Mobile
         ]);
 
 
-        $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/\)]+)/ui', $ua, [
+        $this->data->device->identifyModel('/ZTE[-_\s]?([^\s\/\(\)]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'ZTE',
             'model'         => function ($model) {
