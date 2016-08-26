@@ -28,8 +28,8 @@
     result: { browser: { name: ET1, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
 -
     headers: 'User-Agent: ET1 Android Application - HTC HTC Wildfire S A510e orange_es'
-    readable: 'Android Browser on a HTC Wildfire S running Android'
-    result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Wildfire S' } }
+    readable: 'ET1 on a HTC Wildfire S running Android'
+    result: { browser: { name: ET1, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Wildfire S' } }
 -
     headers: 'User-Agent: ET1 Android Application - Desire_A8181 Build/FRF91  - FFFFFFFF-E289-5878-FFFF-FFFFFFEBBF74'
     readable: 'ET1 on a HTC Desire running Android 2.2'

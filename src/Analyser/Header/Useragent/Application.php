@@ -92,7 +92,7 @@ trait Application
         /* "Android Application" */
 
         if (preg_match('/Android Application/iu', $ua)) {
-            if (preg_match('/^(.+) Android Application \([0-9]+, .+ v[0-9\.]+\) - [a-z]+ (.*) [a-z]+ - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {
+            if (preg_match('/^(.+) Android Application \([0-9]+, .+ v[0-9\.]+\) - [a-z]+ (.*) [a-z_]+ - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {
                 $this->data->browser->name = $match[1];
                 $this->data->browser->version = null;
                 $this->data->browser->type = Constants\BrowserType::APP;
@@ -137,7 +137,7 @@ trait Application
                 }
             }
 
-            if (preg_match('/^(.+) Android Application - [a-z]+ (.*) [a-z]+$/iu', $ua, $match)) {
+            if (preg_match('/^(.+) Android Application - [a-z]+ (.*) [a-z_]+$/iu', $ua, $match)) {
                 $this->data->browser->name = $match[1];
                 $this->data->browser->version = null;
                 $this->data->browser->type = Constants\BrowserType::APP;
