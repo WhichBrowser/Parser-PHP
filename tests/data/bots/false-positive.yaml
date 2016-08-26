@@ -1,0 +1,8 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; S308 Build/CUBOT) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/71.0.0.17.73;]'
+    readable: 'Facebook on a Cubot S308 running Android 4.2.2'
+    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Cubot, model: S308 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; CUBOT S108 Build/CUBOT) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/55.0.0.18.66;]'
+    readable: 'Facebook on a Cubot S108 running Android 4.2.2'
+    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Cubot, model: S108 } }

@@ -22,7 +22,7 @@ trait Bot
 
         /* Detect bots based on common markers */
 
-        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua)) {
+        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
