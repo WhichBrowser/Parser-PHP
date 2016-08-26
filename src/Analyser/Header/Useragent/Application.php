@@ -91,24 +91,70 @@ trait Application
 
         /* "Android Application" */
 
-        if (preg_match('/^(.+) Android Application \([0-9]+, .+ v([0-9\.]+)\) - [a-z]+ (.*) [a-z]+ - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {
-            $this->data->browser->name = $match[1];
-            $this->data->browser->version = null;
-            $this->data->browser->type = Constants\BrowserType::APP;
+        if (preg_match('/Android Application/iu', $ua)) {
+            if (preg_match('/^(.+) Android Application \([0-9]+, .+ v[0-9\.]+\) - [a-z]+ (.*) [a-z]+ - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {
+                $this->data->browser->name = $match[1];
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::APP;
 
-            $this->data->os->reset([
-                'name'      => 'Android',
-                'version'   => new Version([ 'value' => $match[2] ])
-            ]);
+                $this->data->os->reset([
+                    'name'      => 'Android'
+                ]);
 
-            $this->data->device->model = $match[3];
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->type = Constants\DeviceType::MOBILE;
+                $this->data->device->model = $match[2];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+                $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            $device = Data\DeviceModels::identify('android', $match[3]);
-            if ($device->identified) {
-                $device->identified |= $this->data->device->identified;
-                $this->data->device = $device;
+                $device = Data\DeviceModels::identify('android', $match[2]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if (preg_match('/^(.+) Android Application - (.*) Build\/(.+)  - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$/iu', $ua, $match)) {
+                $this->data->browser->name = $match[1];
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::APP;
+
+                $this->data->os->reset([
+                    'name'      => 'Android'
+                ]);
+
+                $version = Data\BuildIds::identify($match[3]);
+                if ($version) {
+                    $this->data->os->version = $version;
+                }
+
+                $this->data->device->model = $match[2];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $device = Data\DeviceModels::identify('android', $match[2]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
+            }
+
+            if (preg_match('/^(.+) Android Application - [a-z]+ (.*) [a-z]+$/iu', $ua, $match)) {
+                $this->data->browser->name = $match[1];
+                $this->data->browser->version = null;
+                $this->data->browser->type = Constants\BrowserType::APP;
+
+                $this->data->os->reset([
+                    'name'      => 'Android'
+                ]);
+
+                $this->data->device->model = $match[2];
+                $this->data->device->identified |= Constants\Id::PATTERN;
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $device = Data\DeviceModels::identify('android', $match[2]);
+                if ($device->identified) {
+                    $device->identified |= $this->data->device->identified;
+                    $this->data->device = $device;
+                }
             }
         }
 

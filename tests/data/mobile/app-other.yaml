@@ -12,16 +12,28 @@
     readable: 'Google Earth 7.1 on a HTC Sensation XE running Android 4.0.3'
 -
     headers: 'User-Agent: XCON Android Application (16, xcon v2.2.2) - LGE LG-E460 lge - FFFFFFFF-CD6E-390A-B636-8CB346AAE71C'
-    result: { browser: { name: XCON, type: app }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L5 II' } }
-    readable: 'XCON on a LG Optimus L5 II running Android 2.2.2'
+    result: { browser: { name: XCON, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L5 II' } }
+    readable: 'XCON on a LG Optimus L5 II running Android'
 -
     headers: 'User-Agent: XPOR Android Application (12, xpor v2.0) - motorola MB525 MOTO - FFFFFFFF-CC93-8438-FFFF-FFFFB4F77635'
-    result: { browser: { name: XPOR, type: app }, os: { name: Android, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY } }
-    readable: 'XPOR on a Motorola DEFY running Android 2.0'
+    result: { browser: { name: XPOR, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY } }
+    readable: 'XPOR on a Motorola DEFY running Android'
 -
     headers: 'User-Agent: ET1 Android Application (16, et1 v2.2.2) - samsung GT-S7390 samsung - 00000000-2D69-D71B-CE09-19FA5FA5A961'
-    result: { browser: { name: ET1, type: app }, os: { name: Android, version: 2.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Trend Lite' } }
-    readable: 'ET1 on a Samsung Galaxy Trend Lite running Android 2.2.2'
+    result: { browser: { name: ET1, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Trend Lite' } }
+    readable: 'ET1 on a Samsung Galaxy Trend Lite running Android'
+-
+    headers: 'User-Agent: ET1 Android Application - samsung GT-I9100 samsung'
+    readable: 'ET1 on a Samsung Galaxy S II running Android'
+    result: { browser: { name: ET1, type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
+-
+    headers: 'User-Agent: ET1 Android Application - HTC HTC Wildfire S A510e orange_es'
+    readable: 'Android Browser on a HTC Wildfire S running Android'
+    result: { browser: { name: 'Android Browser' }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Wildfire S' } }
+-
+    headers: 'User-Agent: ET1 Android Application - Desire_A8181 Build/FRF91  - FFFFFFFF-E289-5878-FFFF-FFFFFFEBBF74'
+    readable: 'ET1 on a HTC Desire running Android 2.2'
+    result: { browser: { name: ET1, type: app }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Desire } }
 -
     headers: 'User-Agent: PlacesDll Win32/SWchBvQ89wHhZhZGPH7ADQ:WVUjTbxpusEz-rl7htSN/3.2.315.8 (Windows Phone OS/8.0; NOKIA:Lumia 925; de-DE)'
     result: { os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 925' } }
