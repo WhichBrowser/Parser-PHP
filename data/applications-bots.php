@@ -166,7 +166,7 @@ Applications::$BOTS = [
     [ 'name' => 'PagesInventory ',              'id'    => 'pages',      'regexp' => '/PagesInventory/u' ],
     [ 'name' => 'Picsearch bot',                'id'    => 'psbot',      'regexp' => '/psbot-page/u' ],
     [ 'name' => 'Pingdom',                      'id'    => 'pingdom',      'regexp' => '/Pingdom.com_bot_version_([0-9.]*)/u' ],
-    [ 'name' => 'Pinterest',                    'id'    => 'pinterest',      'regexp' => '/Pinterest\/([0-9.]*)/u' ],
+    [ 'name' => 'Pinterest',                    'id'    => 'pinterest',      'regexp' => '/Pinterest\/([0-9.]+)( \(+|$)/u' ],
     [ 'name' => 'PostRank',                     'id'    => 'postrank',      'regexp' => '/PostRank\/([0-9.]*)/u' ],
     [ 'name' => 'PowerMapper',                  'id'    => 'crawler',      'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'feed',      'regexp' => '/R6_FeedFetcher/u' ],

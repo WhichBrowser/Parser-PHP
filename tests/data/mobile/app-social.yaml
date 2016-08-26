@@ -31,6 +31,26 @@
     readable: 'Pinterest 1.1.1 on a HTC One X running Android 4.1.1'
     result: { browser: { name: Pinterest, version: 1.1.1, type: 'app:social' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I9190 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [Pinterest/Android]'
+    readable: 'Pinterest on a Samsung Galaxy S4 Mini running Android 4.2.2'
+    result: { browser: { name: Pinterest, version: Android, type: 'app:social' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4 Mini' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [Pinterest/iOS]'
+    readable: 'Pinterest on an Apple iPhone running iOS 9.1'
+    result: { browser: { name: Pinterest, version: iOS, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Safari/537.36 [Pinterest/Android]'
+    readable: 'Pinterest on an Amazon Fire HDX 8.9" (2014) running FireOS 4.5'
+    result: { browser: { name: Pinterest, using: 'Amazon WebView', version: Android, type: 'app:social' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HDX 8.9" (2014)' } }
+-
+    headers: 'User-Agent: Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0'
+    readable: 'Pinterest on iOS 6.1.2'
+    result: { browser: { name: Pinterest, type: 'app:social' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
+-
+    headers: 'User-Agent: Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0'
+    readable: 'Pinterest on iOS 7.1.1'
+    result: { browser: { name: Pinterest, type: 'app:social' }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
+-
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A4449d Twitter for iPhone'
     readable: 'Twitter on an Apple iPhone running iOS 7.0'
     result: { browser: { name: Twitter, type: 'app:social' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
