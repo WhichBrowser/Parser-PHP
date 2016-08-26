@@ -545,11 +545,6 @@ trait Browser
 
             if ($this->data->browser->name == 'Opera' && $this->data->device->type == Constants\DeviceType::MOBILE) {
                 $this->data->browser->name = 'Opera Mobile';
-
-                if (preg_match('/BER/u', $ua)) {
-                    $this->data->browser->name = 'Opera Mini';
-                    $this->data->browser->version = null;
-                }
             }
 
             if (preg_match('/InettvBrowser/u', $ua)) {

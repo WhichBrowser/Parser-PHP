@@ -104,12 +104,12 @@
     readable: 'a Motorola EX132 running REX'
 -
     headers: 'User-Agent: MOT-MOTOQA1/A2.01.11R Release/09.24.2008 OPERA/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
-    readable: 'Opera Mini on a Motorola Karma QA1'
+    result: { browser: { name: 'Opera Mobile', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'Karma QA1' } }
+    readable: 'Opera Mobile on a Motorola Karma QA1'
 -
     headers: 'User-Agent: MOT-RAZRV3xx/96.B0.0FR BER2.2 Mozilla/4.0 (compatible; MSIE 6.0; 11073256) Profile/MIDP-2.0 Configuration/CLDC-1.1  Opera 8.00 [en]'
-    result: { browser: { name: 'Opera Mini', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
-    readable: 'Opera Mini on a Motorola RAZRV3xx'
+    result: { browser: { name: 'Opera Mobile', version: '8.00', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: RAZRV3xx } }
+    readable: 'Opera Mobile 8.00 on a Motorola RAZRV3xx'
 -
     headers: 'User-Agent: MOT-V3/0E.42.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     result: { browser: { name: 'Motorola Internet Browser', version: 2.2.1, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: V3 } }
