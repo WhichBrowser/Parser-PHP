@@ -104,20 +104,20 @@
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Videocon_V1388N_Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'a Videocon V1388N'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Videocon, model: V1388N } }
 -
     headers: 'User-Agent: Videocon_V.styleCurve_Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'a Videocon V.styleCurve'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Videocon, model: V.styleCurve } }
 -
     headers: 'User-Agent: Videocon_V1390W_Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'a Videocon V1390W'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Videocon, model: V1390W } }
 -
     headers: 'User-Agent: Videocon_V1514_Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'a Videocon V1514'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Videocon, model: V1514 } }
 -
     headers: 'User-Agent: WAP Browser Karbonn K58/1.0.0'
     readable: 'a Karbonn K58'
@@ -152,5 +152,5 @@
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Videocon_V1570_Maui Wap Browser/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    readable: 'MAUI WAP 1.0'
-    result: { browser: { name: 'MAUI WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP 1.0 on a Videocon V1570'
+    result: { browser: { name: 'MAUI WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Videocon, model: V1570 } }
