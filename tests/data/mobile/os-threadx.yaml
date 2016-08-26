@@ -4,8 +4,8 @@
     readable: 'NetFront 3.5 on a Huawei T1201 running ThreadX 04.00'
 -
     headers: 'User-Agent: PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0'
-    result: { browser: { name: Dorado, version: '1.0', type: browser }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: X2300 } }
-    readable: 'Dorado 1.0 on a Philips X2300 running ThreadX 4.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: X2300 } }
+    readable: 'Dorado WAP 1.0 on a Philips X2300 running ThreadX 4.0'
 -
     headers: { User-Agent: 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.33867/35.3088; U; xx) Presto/2.8.119 Version/11.10', X-OperaMini-Phone: '? # ?', X-OperaMini-Phone-UA: 'PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0', X-OperaMini-Features: 'advanced, httpping, routing, folding, file_system', Device-Stock-UA: 'PhilipsX2300/W1245_V12 ThreadX_OS/4.0 MOCOR/W12 Release/11.08.2012 Browser/Dorado1.0' }
     result: { browser: { name: 'Opera Mini', version: '4.5', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: ThreadX, version: '4.0' }, device: { type: mobile, subtype: feature, manufacturer: Philips, model: X2300 } }

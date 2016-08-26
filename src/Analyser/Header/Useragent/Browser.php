@@ -20,6 +20,9 @@ trait Browser
         $this->detectEdge($ua);
         $this->detectOpera($ua);
 
+        /* Detect WAP browsers */
+        $this->detectWapBrowsers($ua);
+
         /* Detect other various mobile browsers */
         $this->detectNokiaBrowser($ua);
         $this->detectSilk($ua);
@@ -230,7 +233,7 @@ trait Browser
                     $this->data->browser->channel = null;
                     $this->data->browser->stock = true;
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-                    
+
                     if (preg_match('/Mobile VR/', $ua)) {
                         $this->data->device->manufacturer = 'Samsung';
                         $this->data->device->model = 'Gear VR';
@@ -1723,8 +1726,8 @@ trait Browser
             }
         }
     }
-    
-    
+
+
     /* OmniWeb */
 
     private function detectOmniWeb($ua)
@@ -1745,13 +1748,13 @@ trait Browser
             $this->data->device->reset([
                 'type' => Constants\DeviceType::DESKTOP
             ]);
-            
+
             if (!empty($this->data->browser->version)) {
                 if ($this->data->browser->version->is('<', 3)) {
                     $this->data->os->name = 'NextStep';
                     $this->data->os->version = null;
                 }
-                
+
                 if ($this->data->browser->version->is('>=', 4)) {
                     if (empty($this->data->os->name) || $this->data->os->name != 'OS X') {
                         $this->data->os->name = 'OS X';
@@ -2315,6 +2318,40 @@ trait Browser
             if (!empty($data['device'])) {
                 $this->data->device->set($data['device']);
             }
+        }
+    }
+
+    private function detectWapBrowsers($ua)
+    {
+        if (!preg_match('/(Dorado|MAUI)/ui', $ua, $match)) {
+            return;
+        }
+
+        if (preg_match('/Browser\/Dorado([0-9.]*)/ui', $ua, $match)) {
+            $this->data->browser->name = 'Dorado WAP';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+        }
+
+        if (preg_match('/Dorado WAP-Browser\/([0-9.]*)/ui', $ua, $match)) {
+            $this->data->browser->name = 'Dorado WAP';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+        }
+
+        if (preg_match('/MAUI[ _]WAP[ _]Browser(?:\/([0-9.]*))?/ui', $ua, $match)) {
+            $this->data->browser->name = 'MAUI WAP';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (isset($match[1])) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+
+        }
+
+        if (preg_match('/WAP Browser\/MAUI/ui', $ua, $match)) {
+            $this->data->browser->name = 'MAUI WAP';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
     }
 }

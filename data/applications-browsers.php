@@ -121,8 +121,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Cornowser',            'id'    => 'cornowser',      'regexp' =>'/Cornowser\/([0-9.]*)/u' ],
         [ 'name' => 'CuteBrowser',          'id'    => 'cute',      'regexp' =>'/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Digia @Web',           'id'    => 'digia',      'regexp' =>'/Digia @Web\/([0-9.]*)/u' ],
-        [ 'name' => 'Dorado',               'id'    => 'dorado',      'regexp' =>'/Browser\/Dorado([0-9.]*)/u' ],
-        [ 'name' => 'Dorado',               'id'    => 'dorado',      'regexp' =>'/Dorado WAP-Browser\/([0-9.]*)/u' ],
         [ 'name' => 'Doris',                'id'    => 'doris',      'regexp' =>'/Doris\/([0-9.]*)/u' ],
         [ 'name' => 'Dorothy',              'id'    => 'doroty',      'regexp' =>'/Dorothy$/u' ],
         [ 'name' => 'EMOBILE Browser',      'id'    => 'www browser',      'regexp' =>'/WWW Browser\/ver([0-9.]*)/u' ],

@@ -8,12 +8,12 @@
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Dorado WAP-Browser/1.0.0'
-    readable: 'Dorado 1.0.0'
-    result: { browser: { name: Dorado, version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Dorado WAP-Browser/1.0.0/powerplay/2'
-    readable: 'Dorado 1.0.0'
-    result: { browser: { name: Dorado, version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: E-tel V50 WAP-Browser/1.0.0/powerplay/2'
     readable: 'an unknown browser'
@@ -24,12 +24,12 @@
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Earth_A2_Maui Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Earth_Colors_Maui Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: FOX_Sly_Wap Browser/1.0.0'
     readable: 'an unknown browser'
@@ -40,8 +40,8 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Fly, model: DS107D } }
 -
     headers: 'User-Agent: G4040_MAUI WAP Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Karbonn K123 WAP Browser/1.0.0'
     readable: 'a Karbonn K123'
@@ -52,28 +52,28 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Karbonn, model: K180 } }
 -
     headers: 'User-Agent: KarbonnK334Shine Dorado WAP-Browser/1.0.0'
-    readable: 'Dorado 1.0.0'
-    result: { browser: { name: Dorado, version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: LAVA.ARC28S. Dorado WAP-Browser/1.0.0'
-    readable: 'Dorado 1.0.0'
-    result: { browser: { name: Dorado, version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: LAVA.ARC28S.MAUI WAP Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Lemon B479_Wap Browser'
     readable: 'an unknown browser'
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Lemon B369_Maui Wap Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MAUI WAP Browser; MT6228)'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; WAP Browser; MTK6225)'
     readable: 'an unknown browser'
@@ -92,8 +92,8 @@
     result: { device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: SANSUI_S55T_Maui Wap Browser/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP 1.0'
+    result: { browser: { name: 'MAUI WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Spice_M-5900/WapBrowserProfile'
     readable: 'an unknown browser'
@@ -132,21 +132,25 @@
     result: { device: { type: mobile, subtype: feature, manufacturer: Karbonn, model: K75 } }
 -
     headers: 'User-Agent: WAP_Browser_Karbonn_K725 (MRE/3.1.00(1536);MAUI/nn_K725_V006;BDATE/2014/05/08 15:46;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/WAP_Browser_Karbonn_K725;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/00'
-    readable: MRE
-    result: { os: { name: MRE }, device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP on MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: WAP_Browser_Karbonn_Kphone1 (MRE/3.1.00(1536);MAUI/NN_KPHONE1_NWKPD_MT6260_V006_20130928_1729;BDATE/2013/11/20 16:28;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/WAP_Browser_Karbonn_Kphone1;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/'
-    readable: MRE
-    result: { os: { name: MRE }, device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP on MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Zen M39/MAUI WAP Browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: ZEN M5 Metal Dorado WAP-Browser/1.0.0'
-    readable: 'Dorado 1.0.0'
-    result: { browser: { name: Dorado, version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Ziox_ZX26_wap_browser'
     readable: 'an unknown browser'
     result: { device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Videocon_V1570_Maui Wap Browser/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'MAUI WAP 1.0'
+    result: { browser: { name: 'MAUI WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
