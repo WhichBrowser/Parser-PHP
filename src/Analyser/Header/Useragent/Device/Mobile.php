@@ -418,7 +418,7 @@ trait Mobile
             'manufacturer'  => 'Huawei'
         ]);
 
-        $this->data->device->identifyModel('/Karbonn ([^\s]+)/ui', $ua, [
+        $this->data->device->identifyModel('/Karbonn ([a-z0-9]+(?: ?Star| ?Plus|\+)?)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Karbonn'
         ]);
