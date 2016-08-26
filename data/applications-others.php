@@ -69,7 +69,7 @@ Applications::$OTHERS = [
 
     Constants\BrowserType::APP_CHAT => [
         [ 'name' => 'Facebook Messenger',   'id'    => 'messenger',      'regexp' =>'/FBAN\/MessengerForiOS/u' ],
-        [ 'name' => 'Kik',                  'id'    => 'kik',      'regexp' =>'/Kik\/([0-9.]*)/u' ],
+        [ 'name' => 'Kik',                  'id'    => 'kik',      'regexp' =>'/Kik\/([0-9.]*?)(\.0)?\.[0-9]{3,4}/u' ],
         [ 'name' => 'WeChat',               'id'    => 'messenger',      'regexp' =>'/MicroMessenger\/([0-9.]*)/u' ],
         [ 'name' => 'Yahoo Messenger',      'id'    => 'yahoo',      'regexp' =>'/YahooMobile\/1.0 \(im; ([0-9.]+)\)/u', 'details' => 3 ],
         [ 'name' => 'Yammer',               'id'    => 'yammer',      'regexp' =>'/Yammer\/([0-9.]*)/u', 'details' => 2 ],
