@@ -538,3 +538,19 @@
     headers: 'User-Agent: ZTE-R54(South_Africa_MTN)/1.0 NetFront/3.5 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     readable: 'NetFront 3.5 on a ZTE R54'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: R54 } }
+-
+    headers: 'User-Agent: Vodafone541/2.0 Profile V010 06/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q03C'
+    readable: 'Obigo Q 3C on a Vodafone 541'
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '541' } }
+-
+    headers: 'User-Agent: Vodafone_555_Blue/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+    readable: 'Obigo Q 5A on a Vodafone 555'
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '555' } }
+-
+    headers: 'User-Agent: Vodafone_Chat_655W/010 06/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A'
+    readable: 'Obigo Q 5A on a Vodafone 655'
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '655' } }
+-
+    headers: 'User-Agent: Vodafone-553/VF 553- MTK 6235- V02c- December 032010- Vodafone- ITGR Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'Obigo Q 3C on a Vodafone 553'
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '553' } }

@@ -679,6 +679,11 @@ trait Mobile
             }
         ]);
 
+        $this->data->device->identifyModel('/Vodafone(?:[ _-]Chat)?[ _-]?([0-9]+)/u', $ua, [
+            'type'          => Constants\DeviceType::MOBILE,
+            'manufacturer'  => 'Vodafone'
+        ]);
+
         $this->data->device->identifyModel('/Vodafone\/[0-9.]+\/(v[0-9]+)[^\/]*\//u', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Vodafone'
