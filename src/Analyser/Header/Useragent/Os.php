@@ -1249,8 +1249,37 @@ trait Os
 
     private function detectSymbian($ua)
     {
-        if (!preg_match('/(Series|Symbian|S60|UIQ)/ui', $ua)) {
+        if (!preg_match('/(EPOC|Series|Symbian|S60|UIQ)/ui', $ua)) {
             return;
+        }
+
+        /* EPOC */
+
+        if (preg_match('/EPOC(?:32)?[;\-\)]/u', $ua, $match)) {
+            $this->data->os->name = 'EPOC';
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
+            $this->data->device->type = Constants\DeviceType::PDA;
+
+            if (preg_match('/Crystal\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->os->name = 'Series80';
+                $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                $this->data->os->family->version = new Version([ 'value' => $match[1] ]);
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $this->data->device->manufacturer = 'Nokia';
+                $this->data->device->model = '9210';
+                $this->data->device->identified |= Constants\Id::PATTERN;
+            }
+
+            if (preg_match('/Nokia\/Series-9200/u', $ua)) {
+                $this->data->os->name = 'Series80';
+                $this->data->os->version = new Version([ 'value' => '1.0' ]);
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+
+                $this->data->device->manufacturer = 'Nokia';
+                $this->data->device->model = '9210i';
+                $this->data->device->identified |= Constants\Id::PATTERN;
+            }
         }
 
         /* Series 80 */
@@ -2356,8 +2385,6 @@ trait Os
             [ 'name' => 'QNX',          'regexp' => [ '/QNX/iu' ],                                          'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'VRE',          'regexp' => [ '/\(VRE;/iu' ],                                       'type' => Constants\DeviceType::MOBILE ],
             [ 'name' => 'SpreadTrum',   'regexp' => [ '/\(SpreadTrum;/iu' ],                                'type' => Constants\DeviceType::MOBILE ],
-
-            [ 'name' => 'EPOC',         'regexp' => [ '/EPOC;/iu' ],                                        'type' => Constants\DeviceType::PDA ],
 
             [ 'name' => 'ThreadX',      'regexp' => [ '/ThreadX(?:_OS)?\/([0-9.]*)/iu' ] ],
         ];
