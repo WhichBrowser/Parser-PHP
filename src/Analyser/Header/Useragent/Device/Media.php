@@ -49,7 +49,7 @@ trait Media
 
         /* Generation 6 without Android */
 
-        if (preg_match('/ARCHOS; GOGI; G6([SHL]);/u', $ua, $match)) {
+        if (preg_match('/ARCHOS; GOGI; G6-?(S|H|L|3GP);/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Archos',
@@ -57,6 +57,9 @@ trait Media
             ]);
 
             switch ($match[1]) {
+                case '3GP':
+                    $this->data->device->model = '5 3G+';
+                    break;
                 case 'S':
                 case 'H':
                     $this->data->device->model = '5';

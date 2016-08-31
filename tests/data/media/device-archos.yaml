@@ -30,3 +30,7 @@
     headers: 'User-Agent: ARCHOS; GOGI; A5S; Version 2.0.45 (WMDRMPD: 10.1)'
     readable: 'Android Browser on an Archos 5 running Android 1.6'
     result: { browser: { name: 'Android Browser' }, os: { name: Android, version: '1.6' }, device: { type: media, manufacturer: Archos, model: '5' } }
+-
+    headers: 'User-Agent: Opera/9.02 (Linux armv7l; U; ARCHOS; GOGI; G6-3GP; Version 1.7.11    (WMDRMPD: 10.1); xx)'
+    readable: 'Opera 9.02 on an Archos 5 3G+'
+    result: { browser: { name: Opera, version: '9.02', type: browser }, engine: { name: Presto }, device: { type: media, manufacturer: Archos, model: '5 3G+' } }
