@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/3.x (I-Opener 1.1; Netpliance)'
+    readable: 'a Netpliance i-Opener'
+    result: { device: { type: desktop, manufacturer: Netpliance, model: i-Opener } }
