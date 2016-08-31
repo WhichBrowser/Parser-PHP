@@ -276,8 +276,8 @@
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Captivate Glide' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; 2.3.4; en-us; X500 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1'
-    readable: 'Android Browser on a ZTE X500 Score running Android 2.3.4'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'X500 Score' } }
+    readable: 'Android Browser on a ZTE Score running Android 2.3.4'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: Score } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android L; xx; Nexus 5 Build/LPV79) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/533.1'
     readable: 'UC Browser 9.9 on a LG Nexus 5 running Android L'

@@ -23,6 +23,7 @@ DeviceModels::$BLACKBERRY_MODELS = [
     '9220'      => 'Curve',
     '9300'      => 'Curve',
     '9310'      => 'Curve',
+    '9315'      => 'Curve',
     '9320'      => 'Curve',
     '9330'      => 'Curve',
     '9350'      => 'Curve',

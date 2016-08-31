@@ -196,8 +196,8 @@
     readable: 'a RIM BlackBerry Curve 9310 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9315; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1098 Mobile Safari/534.11+'
-    result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry 9315' } }
-    readable: 'a RIM BlackBerry 9315 running BlackBerry OS 7.1'
+    result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9315' } }
+    readable: 'a RIM BlackBerry Curve 9315 running BlackBerry OS 7.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9320; xx) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.398 Mobile Safari/534.11+'
     result: { browser: { name: 'BlackBerry Browser' }, engine: { name: Webkit, version: '534.11' }, os: { name: 'BlackBerry OS', version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: RIM, model: 'BlackBerry Curve 9320' } }

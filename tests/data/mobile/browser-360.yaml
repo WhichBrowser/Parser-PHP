@@ -184,8 +184,8 @@
     readable: 'Qihoo 360 Browser 6.1.0 on a ZTE U950 running Android 4.0'
 -
     headers: 'User-Agent: ZTE-TU880_TD/1.0 Linux/2.6.32 Android/2.2 Release/5.25.2011 Browser/AppleWebKit/533.1; 360browser(securitypay,securityinstalled); 360 Aphone Browser (3.2.2)'
-    result: { browser: { name: 'Qihoo 360 Browser', version: 3.2.2, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'U880 Blade' } }
-    readable: 'Qihoo 360 Browser 3.2.2 on a ZTE U880 Blade running Android 2.2'
+    result: { browser: { name: 'Qihoo 360 Browser', version: 3.2.2, type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: '2.2' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: Blade } }
+    readable: 'Qihoo 360 Browser 3.2.2 on a ZTE Blade running Android 2.2'
 -
     headers: 'User-Agent: 360%20Lite/5.3.2 CFNetwork/609.1.4 Darwin/13.0.0'
     result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }

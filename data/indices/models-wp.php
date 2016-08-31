@@ -483,6 +483,10 @@ DeviceModels::$WP_INDEX = array (
   array (
     0 => 'W2-(T00|T01|U00)!',
   ),
+  '@W4' => 
+  array (
+    0 => 'W4',
+  ),
   '@WI' => 
   array (
     0 => 'WIN HD LTE',
@@ -502,7 +506,8 @@ DeviceModels::$WP_INDEX = array (
     14 => 'Win1',
     15 => 'Win-Q900S',
     16 => 'Win Q1000',
-    17 => 'Windows!',
+    17 => 'WinQ1000',
+    18 => 'Windows!',
   ),
   '@XX' => 
   array (

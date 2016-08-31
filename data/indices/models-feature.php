@@ -102,6 +102,12 @@ DeviceModels::$FEATURE_INDEX = array (
   array (
     0 => 'KU990i',
   ),
+  '@LG' => 
+  array (
+    0 => 'LG-KU380',
+    1 => 'LG-KU580',
+    2 => 'LG-KU990',
+  ),
   '@LI' => 
   array (
     0 => 'Lightpipe',
@@ -154,15 +160,19 @@ DeviceModels::$FEATURE_INDEX = array (
     3 => 'SGH-A927',
     4 => 'SGH-A997',
     5 => 'SGH-D880',
-    6 => 'SGH-G600',
-    7 => 'SGH-J700V',
-    8 => 'SGH-S150G',
-    9 => 'SGH-S390G',
-    10 => 'SGH-T189N',
-    11 => 'SGHX660V',
-    12 => 'SGH-Z107!',
-    13 => 'SGH-Z130!',
-    14 => 'SGH-Z500!',
+    6 => 'SGH-E250i',
+    7 => 'SGH-E250V',
+    8 => 'SGH-G600',
+    9 => 'SGH-J700i',
+    10 => 'SGH-J700V',
+    11 => 'SGH-M200',
+    12 => 'SGH-S150G',
+    13 => 'SGH-S390G',
+    14 => 'SGH-T189N',
+    15 => 'SGHX660V',
+    16 => 'SGH-Z107!',
+    17 => 'SGH-Z130!',
+    18 => 'SGH-Z500!',
   ),
   '@SM' => 
   array (

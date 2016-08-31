@@ -56,8 +56,8 @@
     readable: 'UC Browser 9.3 on a Samsung Galaxy Spica running Android 2.2.2'
 -
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.3.6; xx; ZTE U788) U2/1.0.0 UCBrowser/8.8.1.258 U2/1.0.0 Mobile'
-    result: { browser: { name: 'UC Browser', version: '8.8', type: browser }, engine: { name: Gecko }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'U788 Kis' } }
-    readable: 'UC Browser 8.8 on a ZTE U788 Kis running Android 2.3.6'
+    result: { browser: { name: 'UC Browser', version: '8.8', type: browser }, engine: { name: Gecko }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: U788 } }
+    readable: 'UC Browser 8.8 on a ZTE U788 running Android 2.3.6'
 -
     headers: 'User-Agent: UCWEB/2.0 (Linux; U; Adr 2.3.7; xx; HTC Desire) U2/1.0.0 UCBrowser/9.2.3.324 U2/1.0.0 Mobile'
     result: { browser: { name: 'UC Browser', version: '9.2', type: browser }, engine: { name: Gecko }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: Desire } }
