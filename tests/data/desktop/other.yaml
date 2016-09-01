@@ -10,3 +10,7 @@
     headers: 'User-Agent: VMS_Mosaic/3.8-1 (Motif;OpenVMS V7.3-2 DEC 3000 - M700)  libwww/2.12_Mosaic'
     result: { browser: { name: 'VMS Mosaic', family: Mosaic, version: '3.8', type: browser }, os: { name: OpenVMS, version: '7.3' }, device: { type: desktop } }
     readable: 'VMS Mosaic 3.8 on OpenVMS 7.3'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 ASW/1.51.2220.53'
+    readable: 'Avast SafeZone 1.51 on Windows 10'
+    result: { browser: { name: 'Avast SafeZone', family: { name: Chrome, version: 51 }, version: '1.51', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
