@@ -12,8 +12,8 @@
     result: { os: { name: Series80, family: Symbian, version: '2.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '9500' } }
 -
     headers: 'User-Agent: EPOC32-WTL/2.2 Crystal/6.0 STNC-WTL/6.0(611)'
-    readable: 'STNC Browser on a Nokia 9210 running Series80 1.0'
-    result: { browser: { name: 'STNC Browser', type: browser }, os: { name: Series80, family: { name: Symbian, version: '6.0' }, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '9210' } }
+    readable: 'STNC HitchHiker on a Nokia 9210 running Series80 1.0'
+    result: { browser: { name: 'STNC HitchHiker', type: browser }, os: { name: Series80, family: { name: Symbian, version: '6.0' }, version: '1.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '9210' } }
 -
     headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; EPOC) Opera 6.0  [de]Nokia/Series-9200'
     readable: 'Opera Mobile 6.0 on a Nokia 9210i running Series80 1.0'
