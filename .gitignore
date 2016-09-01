@@ -8,3 +8,4 @@ node_modules/*
 humbug*
 build/*
 .vscode
+.DS_Store
