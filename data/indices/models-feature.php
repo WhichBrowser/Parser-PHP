@@ -3,6 +3,10 @@
 namespace WhichBrowser\Data;
 
 DeviceModels::$FEATURE_INDEX = array (
+  '@AM' => 
+  array (
+    0 => 'Amstrad Gamma',
+  ),
   '@BE' => 
   array (
     0 => 'Benefon Q',
@@ -33,10 +37,6 @@ DeviceModels::$FEATURE_INDEX = array (
   '@F1' => 
   array (
     0 => 'F100[ai]?$!',
-  ),
-  '@GA' => 
-  array (
-    0 => 'Gamma',
   ),
   '@GM' => 
   array (
@@ -160,6 +160,10 @@ DeviceModels::$FEATURE_INDEX = array (
     2 => 'SCH-W169',
     3 => 'SCH-W279',
   ),
+  '@SE' => 
+  array (
+    0 => 'Sendo Wap',
+  ),
   '@SG' => 
   array (
     0 => 'SGH-A667',
@@ -209,6 +213,10 @@ DeviceModels::$FEATURE_INDEX = array (
   '@W2' => 
   array (
     0 => 'W20i?$!',
+  ),
+  '@WI' => 
+  array (
+    0 => 'WIDETEL WCX150',
   ),
   '@WT' => 
   array (

@@ -18,3 +18,19 @@
     headers: 'User-Agent: Mozilla/1.22 (compatible; MMEF20; CellPhone; Benefon Q)'
     result: { browser: { name: 'Microsoft Mobile Explorer', version: '2.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Benefon, model: Q } }
     readable: 'Microsoft Mobile Explorer 2.0 on a Benefon Q'
+-
+    headers: 'User-Agent: MobileExplorer/3.00 (Mozilla/1.22; compatible; MMEF300; WIDETEL; WCX150)'
+    readable: 'Microsoft Mobile Explorer 3.0 on a Widetel WCX150'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Widetel, model: WCX150 } }
+-
+    headers: 'User-Agent: MobileExplorer/3.00 (Mozilla/1.22; compatible; MMEF300; Amstrad; Gamma)'
+    readable: 'Microsoft Mobile Explorer 3.0 on an Amstrad E-m@iler Plus'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, device: { type: desktop, manufacturer: Amstrad, model: 'E-m@iler Plus' } }
+-
+    headers: 'User-Agent: MobileExplorer/3.00 (MMEF300; Sendo; Wap)'
+    readable: 'Microsoft Mobile Explorer 3.0 on a Sendo Z100'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Sendo, model: Z100 } }
+-
+    headers: 'User-Agent: MobileExplorer/3.00 (MMEF300; WIDETEL; WCX150)'
+    readable: 'Microsoft Mobile Explorer 3.0 on a Widetel WCX150'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Widetel, model: WCX150 } }

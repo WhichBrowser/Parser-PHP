@@ -421,8 +421,8 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
-            if (preg_match('/MMEF[0-9]+; [^;]+; ([^\)\/]+)/u', $ua, $match)) {
-                $device = Data\DeviceModels::identify('feature', $match[1]);
+            if (preg_match('/MMEF[0-9]+; ([^;]+); ([^\)\/]+)/u', $ua, $match)) {
+                $device = Data\DeviceModels::identify('feature', $match[1] == 'CellPhone' ? $match[2] : $match[1] . ' ' . $match[2]);
                 if ($device->identified) {
                     $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;

@@ -5,7 +5,7 @@ namespace WhichBrowser\Data;
 use WhichBrowser\Constants\DeviceType;
 
 DeviceModels::$FEATURE_MODELS = [
-    'Gamma'                                     => [ 'Amstrad', 'E-m@iler Plus', DeviceType::DESKTOP ],
+    'Amstrad Gamma'                             => [ 'Amstrad', 'E-m@iler Plus', DeviceType::DESKTOP ],
     'Benefon Q'                                 => [ 'Benefon', 'Q' ],
     'EF71'                                      => [ 'BenQ-Siemens', 'EF71' ],
     'Lightpipe'                                 => [ 'Kyocera', 'E1100 Neo' ],
@@ -90,6 +90,7 @@ DeviceModels::$FEATURE_MODELS = [
     'SM-B780(A|W)!'                             => [ 'Samsung', 'Rugby 4' ],
     'S7350'                                     => [ 'Samsung', 'S7350 Ultra S' ],
     'sam-r560'                                  => [ 'Samsung', 'Messenger II R560' ],
+    'Sendo Wap'                                 => [ 'Sendo', 'Z100' ],
     'CK13[ai]?$!'                               => [ 'Sony Ericsson', 'txt' ],
     'CK15[ai]?$!'                               => [ 'Sony Ericsson', 'txt Pro' ],
     'F100[ai]?$!'                               => [ 'Sony Ericsson', 'Jalou' ],
@@ -109,4 +110,5 @@ DeviceModels::$FEATURE_MODELS = [
     'GT-I6410!'                                 => [ 'Vodafone', '360 M1' ],
     'GT-I8320!'                                 => [ 'Vodafone', '360 H1' ],
     'GT-I8330!'                                 => [ 'Vodafone', '360 H2' ],
+    'WIDETEL WCX150'                            => [ 'Widetel', 'WCX150' ],
 ];
