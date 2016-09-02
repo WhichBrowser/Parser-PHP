@@ -2355,7 +2355,7 @@ trait Os
 
     private function detectRemainingOperatingSystems($ua)
     {
-        if (!preg_match('/(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|Nucleus|QNX|VRE|SpreadTrum|EPOC|ThreadX)/ui', $ua)) {
+        if (!preg_match('/(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|Nucleus|QNX|VRE|SpreadTrum|ThreadX)/ui', $ua)) {
             return;
         }
 

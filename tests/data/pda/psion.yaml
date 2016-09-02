@@ -2,3 +2,19 @@
     headers: 'User-Agent: Mozilla/4.51 (compatible; Opera 3.62; EPOC; 640x240)'
     result: { browser: { name: Opera, version: '3.62', type: browser }, engine: { name: Electra }, os: { name: EPOC, family: Symbian }, device: { type: pda } }
     readable: 'Opera 3.62 on EPOC'
+-
+    headers: 'User-Agent: Psion Cpw/1.00f(S5) War/1.00f'
+    readable: 'WAP Browser on a Psion Series 5mx running EPOC'
+    result: { browser: { name: 'WAP Browser', type: browser }, os: { name: EPOC, family: Symbian }, device: { type: pda, manufacturer: Psion, model: 'Series 5mx' } }
+-
+    headers: 'User-Agent: Psion Cpw/1.00f(RV) War/1.00f'
+    readable: 'WAP Browser on a Psion Revo running EPOC'
+    result: { browser: { name: 'WAP Browser', type: browser }, os: { name: EPOC, family: Symbian }, device: { type: pda, manufacturer: Psion, model: Revo } }
+-
+    headers: 'User-Agent: Psion Cpw/1.00f(S7) War/1.00f'
+    readable: 'WAP Browser on a Psion Series 7 running EPOC'
+    result: { browser: { name: 'WAP Browser', type: browser }, os: { name: EPOC, family: Symbian }, device: { type: pda, manufacturer: Psion, model: 'Series 7' } }
+-
+    headers: 'User-Agent: EPOC32-WTL/1.1'
+    readable: EPOC
+    result: { os: { name: EPOC, family: Symbian }, device: { type: pda } }

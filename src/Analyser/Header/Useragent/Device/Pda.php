@@ -4,18 +4,20 @@ namespace WhichBrowser\Analyser\Header\Useragent\Device;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\Model\Family;
 use WhichBrowser\Model\Version;
 
 trait Pda
 {
     private function detectPda($ua)
     {
-        if (!preg_match('/(CASIO|Palm|pdQ|COM|airboard|sharp|pda|POCKET-E|OASYS|NTT\/PI)/ui', $ua)) {
+        if (!preg_match('/(CASIO|Palm|Psion|pdQ|COM|airboard|sharp|pda|POCKET-E|OASYS|NTT\/PI)/ui', $ua)) {
             return;
         }
 
         $this->detectCasio($ua);
         $this->detectPalm($ua);
+        $this->detectPsion($ua);
         $this->detectSonyMylo($ua);
         $this->detectSonyAirboard($ua);
         $this->detectSharpZaurus($ua);
@@ -119,6 +121,39 @@ trait Pda
             $this->data->device->manufacturer = 'Kyocera';
             $this->data->device->model = 'QCP-6035';
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+    }
+
+
+    /* PSION */
+
+    private function detectPsion($ua)
+    {
+        if (preg_match('/Psion Cpw\//iu', $ua, $match)) {
+            $this->data->browser->name = 'WAP Browser';
+            $this->data->browser->version = null;
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            $this->data->os->name = 'EPOC';
+            $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
+
+            $this->data->device->manufacturer = 'Psion';
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+            $this->data->device->type = Constants\DeviceType::PDA;
+
+            if (preg_match('/\(([A-Z0-9]+)\)/u', $ua, $match)) {
+                switch ($match[1]) {
+                    case 'S5':
+                        $this->data->device->model = 'Series 5mx';
+                        break;
+                    case 'S7':
+                        $this->data->device->model = 'Series 7';
+                        break;
+                    case 'RV':
+                        $this->data->device->model = 'Revo';
+                        break;
+                }
+            }
         }
     }
 
