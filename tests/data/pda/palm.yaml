@@ -90,3 +90,11 @@
     headers: 'User-Agent: Mozilla/4.0 (PDA; PalmOS/sony/model grnd/Revision:1.1.30(en)) NetFront/3.0'
     result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, os: { name: 'Palm OS' }, device: { type: pda, manufacturer: Sony, model: 'CLIÉ PEG-NZ90' } }
     readable: 'NetFront 3.0 on a Sony CLIÉ PEG-NZ90 running Palm OS'
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; PalmOS) PLink 2.0'
+    readable: 'PocketLink 2.0 on Palm OS'
+    result: { browser: { name: PocketLink, version: '2.0', type: browser }, os: { name: 'Palm OS' }, device: { type: pda } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; PalmOS) PLink 2.56b'
+    readable: 'PocketLink 2.56 on Palm OS'
+    result: { browser: { name: PocketLink, version: '2.56', type: browser }, os: { name: 'Palm OS' }, device: { type: pda } }
