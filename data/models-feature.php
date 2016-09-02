@@ -2,7 +2,11 @@
 
 namespace WhichBrowser\Data;
 
+use WhichBrowser\Constants\DeviceType;
+
 DeviceModels::$FEATURE_MODELS = [
+    'Gamma'                                     => [ 'Amstrad', 'E-m@iler Plus', DeviceType::DESKTOP ],
+    'Benefon Q'                                 => [ 'Benefon', 'Q' ],
     'EF71'                                      => [ 'BenQ-Siemens', 'EF71' ],
     'Lightpipe'                                 => [ 'Kyocera', 'E1100 Neo' ],
     'K612'                                      => [ 'Kyocera', 'K612 Strobe' ],

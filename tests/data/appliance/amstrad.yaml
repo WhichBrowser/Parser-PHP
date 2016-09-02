@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: MobileExplorer/3.00 (Mozilla/1.22; compatible; MMEF300; Amstrad; Gamma)'
+    readable: 'Microsoft Mobile Explorer 3.0 on an Amstrad E-m@iler Plus'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, device: { type: desktop, manufacturer: Amstrad, model: 'E-m@iler Plus' } }

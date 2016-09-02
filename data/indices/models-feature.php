@@ -3,6 +3,10 @@
 namespace WhichBrowser\Data;
 
 DeviceModels::$FEATURE_INDEX = array (
+  '@BE' => 
+  array (
+    0 => 'Benefon Q',
+  ),
   '@CK' => 
   array (
     0 => 'CK13[ai]?$!',
@@ -29,6 +33,10 @@ DeviceModels::$FEATURE_INDEX = array (
   '@F1' => 
   array (
     0 => 'F100[ai]?$!',
+  ),
+  '@GA' => 
+  array (
+    0 => 'Gamma',
   ),
   '@GM' => 
   array (
