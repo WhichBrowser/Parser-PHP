@@ -5197,8 +5197,9 @@ DeviceModels::$ANDROID_INDEX = array (
   array (
     0 => 'SGH-[EILNMS][0-9]{3,4}!!',
     1 => 'SGH-T[0-9]{3,3}!!',
-    2 => 'SGH-W2013!',
-    3 => 'SGP[ST0-9][0-9]{2,2}!!',
+    2 => 'SGH-U468!',
+    3 => 'SGH-W2013!',
+    4 => 'SGP[ST0-9][0-9]{2,2}!!',
   ),
   '@SH' => 
   array (

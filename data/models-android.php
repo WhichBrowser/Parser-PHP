@@ -11415,6 +11415,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SGH-T999!'                                 => [ 'Samsung', 'Galaxy S III' ],
     ],
 
+    'SGH-U468!'                                 => [ 'Samsung', 'Galaxy S4' ],
     'SGH-W2013!'                                => [ 'Samsung', 'SGH-W2013' ],
 
     'SHV-E[0-9]{3,3}!!' => [
@@ -11474,12 +11475,16 @@ DeviceModels::$ANDROID_MODELS = [
     'SM-A[0-9]{3,3}!!' => [
         'SM-A300!'                                  => [ 'Samsung', 'Galaxy A3' ],
         'SM-A310!'                                  => [ 'Samsung', 'Galaxy A3 (2016)' ],
+        'SM-A320!'                                  => [ 'Samsung', 'Galaxy A3 (2017)' ],
         'SM-A430!'                                  => [ 'Samsung', 'Galaxy A4' ],
         'SM-A500!'                                  => [ 'Samsung', 'Galaxy A5' ],
         'SM-A510!'                                  => [ 'Samsung', 'Galaxy A5 (2016)' ],
+        'SM-A520!'                                  => [ 'Samsung', 'Galaxy A5 (2017)' ],
         'SM-A700!'                                  => [ 'Samsung', 'Galaxy A7' ],
         'SM-A710!'                                  => [ 'Samsung', 'Galaxy A7 (2016)' ],
+        'SM-A720!'                                  => [ 'Samsung', 'Galaxy A7 (2017)' ],
         'SM-A800!'                                  => [ 'Samsung', 'Galaxy A8' ],
+        'SM-A810!'                                  => [ 'Samsung', 'Galaxy A8 (2016)' ],
         'SM-A900!'                                  => [ 'Samsung', 'Galaxy A9 (2016)' ],
         'SM-A910!'                                  => [ 'Samsung', 'Galaxy A9 Pro' ],
     ],
@@ -11489,6 +11494,8 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-C11[15]!'                               => [ 'Samsung', 'Galaxy K Zoom' ],
         'SM-C500!'                                  => [ 'Samsung', 'Galaxy C5' ],
         'SM-C700!'                                  => [ 'Samsung', 'Galaxy C7' ],
+        'SM-C701!'                                  => [ 'Samsung', 'Galaxy C7 Pro' ],
+        'SM-C900!'                                  => [ 'Samsung', 'Galaxy C9' ],
     ],
 
     'SM-E[0-9]{3,3}!!' => [
@@ -11506,6 +11513,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-G130HN'                                 => [ 'Samsung', 'Galaxy Young 2 Duos' ],
         'SM-G130M'                                  => [ 'Samsung', 'Galaxy Young 2 Duos' ],
         'SM-G1(50|55)!'                             => [ 'Samsung', 'Galaxy Folder' ],
+        'SM-G160!'                                  => [ 'Samsung', 'Galaxy Folder 2' ],
         'SM-G310H'                                  => [ 'Samsung', 'Galaxy Ace 4' ],
         'SM-G310HN'                                 => [ 'Samsung', 'Galaxy Ace Style' ],
         'SM-G310R5'                                 => [ 'Samsung', 'GreatCall Touch 3' ],
@@ -11536,11 +11544,15 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-G389!'                                  => [ 'Samsung', 'Galaxy Xcover 3 VE' ],
         'SM-G420!'                                  => [ 'Samsung', 'SM-G420' ],                                // Unknown
         'SM-G430!'                                  => [ 'Samsung', 'SM-G430' ],                                // Unknown
+        'SM-G485!'                                  => [ 'Samsung', 'SM-G485' ],                                // Unknown
         'SM-G510!'                                  => [ 'Samsung', 'Galaxy Core Max' ],
         'SM-G530!'                                  => [ 'Samsung', 'Galaxy Grand Prime' ],
         'SM-G531!'                                  => [ 'Samsung', 'Galaxy Grand Prime VE' ],
+        'SM-G532!'                                  => [ 'Samsung', 'Galaxy Grand Prime+' ],
         'SM-G550!'                                  => [ 'Samsung', 'Galaxy On5' ],
+        'SM-G570!'                                  => [ 'Samsung', 'Galaxy J5 Prime' ],
         'SM-G600!'                                  => [ 'Samsung', 'Galaxy On7' ],
+        'SM-G610!'                                  => [ 'Samsung', 'Galaxy J7 Prime' ],
         'SM-G710!'                                  => [ 'Samsung', 'Galaxy Grand 2' ],
         'SM-G720!'                                  => [ 'Samsung', 'Galaxy Grand 3' ],
         'SM-G730!'                                  => [ 'Samsung', 'Galaxy S III Mini' ],
@@ -11571,7 +11583,7 @@ DeviceModels::$ANDROID_MODELS = [
     'SM-J[0-9]{3,3}!!' => [
         'SM-J100!'                                  => [ 'Samsung', 'Galaxy J1' ],
         'SM-J105!'                                  => [ 'Samsung', 'Galaxy J1 Mini' ],
-//      'SM-J106!'
+        'SM-J106!'                                  => [ 'Samsung', 'Galaxy J1 Mini Prime' ],
         'SM-J11[01]!'                               => [ 'Samsung', 'Galaxy J1 Ace' ],
         'SM-J120!'                                  => [ 'Samsung', 'Galaxy J1 (2016)' ],
         'SM-J200!'                                  => [ 'Samsung', 'Galaxy J2' ],
@@ -11601,11 +11613,15 @@ DeviceModels::$ANDROID_MODELS = [
     'SM-P[0-9]{3,3}!!' => [
         'SM-P35[015]!'                              => [ 'Samsung', 'Galaxy Tab A Plus 8.0', DeviceType::TABLET ],
         'SM-P55[015]!'                              => [ 'Samsung', 'Galaxy Tab A Plus 9.7', DeviceType::TABLET ],
+        'SM-P58[05]!'                               => [ 'Samsung', 'Galaxy Tab A 10.1 with S Pen (2016)', DeviceType::TABLET ],
         'SM-P60[01257]!'                            => [ 'Samsung', 'Galaxy Note 10.1 (2014)', DeviceType::TABLET ],
         'SM-P90[01257]!'                            => [ 'Samsung', 'Galaxy Note Pro', DeviceType::TABLET ],
     ],
 
     'SM-S[0-9]{3,3}!!' => [
+        'SM-S120VL'                                 => [ 'Samsung', 'Galaxy Luna' ],
+        'SM-S320VL'                                 => [ 'Samsung', 'Galaxy Sky' ],
+        'SM-S550TL'                                 => [ 'Samsung', 'Galaxy On5' ],
         'SM-S765C'                                  => [ 'Samsung', 'Galaxy Ace Style' ],
         'SM-S766C'                                  => [ 'Samsung', 'Galaxy Stardust' ],
         'SM-S777C'                                  => [ 'Samsung', 'Galaxy J1' ],
@@ -11613,7 +11629,9 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-S820L'                                  => [ 'Samsung', 'Galaxy Core Prime' ],
         'SM-S890L'                                  => [ 'Samsung', 'Galaxy S4 Mini' ],
         'SM-S902L'                                  => [ 'Samsung', 'Galaxy S5' ],
+        'SM-S903VL'                                 => [ 'Samsung', 'Galaxy S5' ],
         'SM-S906L'                                  => [ 'Samsung', 'Galaxy S6' ],
+        'SM-S907VL'                                 => [ 'Samsung', 'Galaxy S6' ],
         'SM-S920L'                                  => [ 'Samsung', 'Galaxy Grand Prime' ],
         'SM-S975L'                                  => [ 'Samsung', 'Galaxy S4' ],
         'SM-S978L'                                  => [ 'Samsung', 'Galaxy E5' ],
@@ -11636,20 +11654,21 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-T36[05]!'                               => [ 'Samsung', 'Galaxy Tab Active 8.0', DeviceType::TABLET ],
         'SM-T37[57]!'                               => [ 'Samsung', 'Galaxy Tab E 8.0', DeviceType::TABLET ],
         'SM-T520CC'                                 => [ 'Samsung', 'Galaxy Tab Pro 10.1 Chef Collection', DeviceType::TABLET ],
-        'SM-T52[05]!'                               => [ 'Samsung', 'Galaxy Tab Pro 10.1', DeviceType::TABLET ],
+        'SM-T52[057]!'                              => [ 'Samsung', 'Galaxy Tab Pro 10.1', DeviceType::TABLET ],
         'SM-T530NU'                                 => [ 'Samsung', 'Galaxy Tab 4 Nook 10.1', DeviceType::TABLET ],
         'SM-T53[023]!'                              => [ 'Samsung', 'Galaxy Tab 4 10.1', DeviceType::TABLET ],
         'SM-T53[157]!'                              => [ 'Samsung', 'Galaxy Tab 4 10.0', DeviceType::TABLET ],
         'SM-T55[015]!'                              => [ 'Samsung', 'Galaxy Tab A 9.7', DeviceType::TABLET ],
-        'SM-T58[05]!'                               => [ 'Samsung', 'Galaxy Tab A 10.1 (2016)', DeviceType::TABLET ],
+        'SM-T58[057]!'                              => [ 'Samsung', 'Galaxy Tab A 10.1 (2016)', DeviceType::TABLET ],
         'SM-T56[0127]!'                             => [ 'Samsung', 'Galaxy Tab E 9.6', DeviceType::TABLET ],
         'SM-T67[07]!'                               => [ 'Samsung', 'Galaxy View', DeviceType::TABLET ],
         'SM-T70[057]!'                              => [ 'Samsung', 'Galaxy Tab S 8.4', DeviceType::TABLET ],
         'SM-T71[05]!'                               => [ 'Samsung', 'Galaxy Tab S2 8.0', DeviceType::TABLET ],
         'SM-T71[39]!'                               => [ 'Samsung', 'Galaxy Tab S2 8.0 (2016)', DeviceType::TABLET ],
         'SM-T80[0157]!'                             => [ 'Samsung', 'Galaxy Tab S 10.5', DeviceType::TABLET ],
-        'SM-T81[0579]!'                             => [ 'Samsung', 'Galaxy Tab S2 9.7', DeviceType::TABLET ],
+        'SM-T81[057]!'                              => [ 'Samsung', 'Galaxy Tab S2 9.7', DeviceType::TABLET ],
         'SM-T81[39]!'                               => [ 'Samsung', 'Galaxy Tab S2 9.7 (2016)', DeviceType::TABLET ],
+        'SM-T81[8]!'                                => [ 'Samsung', 'Galaxy Tab S2 Plus 9.7', DeviceType::TABLET ],
         'SM-T90[05]!'                               => [ 'Samsung', 'Galaxy Tab Pro 12.2', DeviceType::TABLET ],
     ],
 
@@ -11659,6 +11678,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-W2014'                                  => [ 'Samsung', 'Galaxy W2014' ],
         'SM-W2015'                                  => [ 'Samsung', 'Galaxy Golden 2' ],
         'SM-W2016'                                  => [ 'Samsung', 'Galaxy Golden 3' ],
+        'SM-W2017'                                  => [ 'Samsung', 'Veyron' ],
     ],
 
     'SPH-D[0-9]{3,3}!!' => [
