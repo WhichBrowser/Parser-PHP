@@ -12285,7 +12285,9 @@ DeviceModels::$ANDROID_MODELS = [
         'F32(15)!'                                  => [ 'Sony', 'Xperia XA Ultra' ],
         'F33(11|13)!'                               => [ 'Sony', 'Xperia E5' ],
         'F51(21|22)!'                               => [ 'Sony', 'Xperia X' ],
+        'F53(21)!'                                  => [ 'Sony', 'Xperia X Compact' ],
         'F81(31|32)!'                               => [ 'Sony', 'Xperia X Performance' ],
+        'F83(31|32)!'                               => [ 'Sony', 'Xperia XZ' ],
     ],
 
     'E[0-9]{2,2}[a-z]!!' => [
@@ -12390,12 +12392,14 @@ DeviceModels::$ANDROID_MODELS = [
         'SO-01F'                                    => [ 'Sony', 'Xperia Z1 SO-01F', 'carrier' => 'DoCoMo' ],                     // Honami
         'SO-01G'                                    => [ 'Sony', 'Xperia Z3 SO-01G', 'carrier' => 'DoCoMo' ],                     // ...
         'SO-01H'                                    => [ 'Sony', 'Xperia Z5 SO-01H', 'carrier' => 'DoCoMo' ],                     // ...
+        'SO-01J'                                    => [ 'Sony', 'Xperia XZ SO-01J', 'carrier' => 'DoCoMo' ],                     // ...
         'SO-02C'                                    => [ 'Sony Ericsson', 'Xperia acro SO-02C', 'carrier' => 'DoCoMo' ],              // Azusa
         'SO-02D'                                    => [ 'Sony Ericsson', 'Xperia NX SO-02D', 'carrier' => 'DoCoMo' ],                // Nozomi
         'SO-02E'                                    => [ 'Sony', 'Xperia Z SO-02E', 'carrier' => 'DoCoMo' ],                          // Yuga
         'SO-02F'                                    => [ 'Sony', 'Xperia Z1 f SO-02F', 'carrier' => 'DoCoMo' ],                        // Itsuki
         'SO-02G'                                    => [ 'Sony', 'Xperia Z3 Compact SO-02G', 'carrier' => 'DoCoMo' ],             // ...
         'SO-02H'                                    => [ 'Sony', 'Xperia Z5 Compact SO-02H', 'carrier' => 'DoCoMo' ],             // ...
+        'SO-02J'                                    => [ 'Sony', 'Xperia X Compact SO-02J', 'carrier' => 'DoCoMo' ],             // ...
         'SO-03C'                                    => [ 'Sony Ericsson', 'Xperia ray SO-03C', 'carrier' => 'DoCoMo' ],               // Urushi
         'SO-03D'                                    => [ 'Sony Ericsson', 'Xperia acro HD SO-03D', 'carrier' => 'DoCoMo' ],           // Hikari
         'SO-03E'                                    => [ 'Sony', 'Xperia Tablet Z SO-03E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],       // Pollux
