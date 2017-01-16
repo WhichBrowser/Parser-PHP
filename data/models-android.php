@@ -245,6 +245,10 @@ DeviceModels::$ANDROID_MODELS = [
 
     /* Pixel Devices */
     'Pixel C'                                   => [ 'Google', 'Pixel C', DeviceType::TABLET ],
+    'Pixel'                                     => [ 'Google', 'Pixel' ],
+    'Google Pixel'                              => [ 'Google', 'Pixel' ],
+    'Pixel XL'                                  => [ 'Google', 'Pixel XL' ],
+    'Google Pixel XL'                           => [ 'Google', 'Pixel XL' ],
 
     /* Google Edition */
     'HTC One'                                   => [ 'HTC', 'One (Google Edition)' ],
