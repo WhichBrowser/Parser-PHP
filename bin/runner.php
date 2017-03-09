@@ -55,11 +55,11 @@ switch ($command) {
             $coverage->start('Testrunner');
         }
 
-        $result = Testrunner::compare($files);
+        $result = Testrunner::compare($files, true);
 
         if (in_array('coverage', $options)) {
             $coverage->stop();
-            
+
             $writer = new PHP_CodeCoverage_Report_Clover;
             $writer->process($coverage, 'runner.xml');
 
