@@ -963,7 +963,7 @@ trait Os
 
                 /* Desktop mode of WP 8.1 */
                 if (preg_match('/WPDesktop;\s*([^;\)]*)(?:;\s*([^;\)]*))?(?:;\s*([^;\)]*))?\) like Gecko/u', $ua, $match)) {
-                    if (preg_match("/^[A-Z]+$/", $match[1])) {
+                    if (preg_match("/^[A-Z]+$/", $match[1]) && isset($match[2])) {
                         $this->data->device->manufacturer = $match[1];
                         $this->data->device->model = $match[2];
                     } else {
