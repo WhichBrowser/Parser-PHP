@@ -10,3 +10,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G935F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile VR Safari/537.36'
     readable: 'Samsung Internet 4.0 on a Samsung Gear VR running Android 6.0.1'
     result: { browser: { name: 'Samsung Internet', version: '4.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: headset, manufacturer: Samsung, model: 'Gear VR' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G920F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/3.1.0 SamsungBrowser/4.0 Chrome/57.0.2987.146 Mobile VR Safari/537.36'
+    readable: 'Oculus Internet 3.1 on a Samsung Gear VR running Android 6.0.1'
+    result: { browser: { name: 'Oculus Internet', version: '3.1', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: headset, manufacturer: Samsung, model: 'Gear VR' } }
