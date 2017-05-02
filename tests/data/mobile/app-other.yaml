@@ -66,3 +66,11 @@
     headers: 'User-Agent: Dalvik/1.6.0(Linux; U; Android 4.3; C6903 Sony/14.2.A.1.142) SonySelectSDK/1.0.17 mashup/0.2'
     readable: 'Sony Select SDK 1.0 on a Sony Xperia Z1 running Android 4.3'
     result: { browser: { using: { name: 'Sony Select SDK', version: '1.0' }, type: app }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; MI 4LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 AlipayDefined(nt:WIFI,ws:360|640|3.0) AliApp(AP/8.6.0.042102) AlipayClient/8.6.0.042102'
+    readable: 'AliPay 8.6.0 on a Xiaomi Mi 4 running Android 4.4.4'
+    result: { browser: { name: AliPay, using: { name: 'Chromium WebView', version: '33' }, version: 8.6.0, type: app }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Mi 4' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 ChannelId(11) Nebula PSDType(1) AlipayDefined(nt:WIFI,ws:375|647|2.0) AliApp(AP/10.0.3.020920) AlipayClient/10.0.3.020920 Alipay Language/zh-Hans'
+    readable: 'AliPay 10.0.3 on an Apple iPhone running iOS 10.2.1'
+    result: { browser: { name: AliPay, version: 10.0.3, type: app }, engine: { name: Webkit, version: 602.4.6 }, os: { name: iOS, version: 10.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
