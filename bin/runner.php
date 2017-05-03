@@ -55,7 +55,7 @@ switch ($command) {
             $coverage->start('Testrunner');
         }
 
-        $result = Testrunner::compare($files, true);
+        $result = Testrunner::compare($files, false);
 
         if (in_array('coverage', $options)) {
             $coverage->stop();
@@ -80,7 +80,7 @@ switch ($command) {
         break;
 
     case 'compare':
-        $result = Testrunner::compare($files, true);
+        $result = Testrunner::compare($files, false);
 
         if (!$result) {
             echo "\033[0;31mTestrunner failed, please look at runner.log for the details!\033[0m\n\n";
