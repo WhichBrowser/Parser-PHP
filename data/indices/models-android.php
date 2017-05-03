@@ -878,7 +878,7 @@ DeviceModels::$ANDROID_INDEX = array (
     13 => 'AT1G*',
     14 => 'AT7E',
     15 => 'ATP515CKIT',
-    16 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    16 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     17 => 'aTab9.7 IPS',
     18 => 'AT735',
     19 => 'Atrix 2',
@@ -1069,11 +1069,12 @@ DeviceModels::$ANDROID_INDEX = array (
     5 => '(BLU|DASH|LIFE|NEO|STUDIO|VIVO)!!',
     6 => 'Blaze S180',
     7 => 'BLADE LE 70',
-    8 => '(BLF-)?lephone!!',
-    9 => 'Blackphone 2',
-    10 => 'BLOOM',
-    11 => 'BLACK',
-    12 => '(ZTE )?Blade!!',
+    8 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    9 => '(BLF-)?lephone!!',
+    10 => 'Blackphone 2',
+    11 => 'BLOOM',
+    12 => 'BLACK',
+    13 => '(ZTE )?Blade!!',
   ),
   '@BM' => 
   array (
@@ -1235,7 +1236,7 @@ DeviceModels::$ANDROID_INDEX = array (
     9 => 'Casper VIA!!',
     10 => 'CAT!!',
     11 => 'Candy TV',
-    12 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    12 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     13 => '(HW-|HUAWEI )?(LUA|CUN|SCC|CAM|LYO)!!',
     14 => '(HW-|HUAWEI )?CAZ-(AL10|TL10)!',
     15 => 'calgary',
@@ -1268,7 +1269,7 @@ DeviceModels::$ANDROID_INDEX = array (
     11 => 'Cherry w500',
     12 => 'CHUWI!!',
     13 => 'CHONG!!',
-    14 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    14 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     15 => '(HW-|HUAWEI )?(CHC|TAG|KII)!!',
     16 => 'chagall',
   ),
@@ -1955,7 +1956,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@FR' => 
   array (
     0 => 'Freelander I20',
-    1 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     2 => '(MODECOM )?FreeTAB!!',
   ),
   '@FS' => 
@@ -2349,11 +2350,11 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@H3' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
   ),
   '@H6' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
   ),
   '@H7' => 
   array (
@@ -2455,12 +2456,12 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@HN' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
   ),
   '@HO' => 
   array (
     0 => 'HOSIN!!',
-    1 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     2 => 'Honor3c2G-T',
     3 => 'HOMESYNCT2WIFI',
   ),
@@ -2513,7 +2514,7 @@ DeviceModels::$ANDROID_INDEX = array (
     8 => 'HUAWEI GEM-703L',
     9 => '(HUAWEI )?(CRR|LON|MATE|MHA|MT1|MT2|MT7|M200|NXT|Z100)!!',
     10 => '(HW-|HUAWEI )?(TIT|TAG|NCE)!!',
-    11 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    11 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     12 => '(HW-|HUAWEI )?(CHC|TAG|KII)!!',
     13 => '(HW-|HUAWEI )?(ALE|D2|DAV|EVA|G6|G7|GRA|M100|P2|P6|P7|PRA|RIO|SC|Sophia|VIE|VNS|WAS)!!',
     14 => '(HW-|HUAWEI )?(LUA|CUN|SCC|CAM|LYO)!!',
@@ -2534,7 +2535,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@HW' => 
   array (
     0 => '(HW-|HUAWEI )?(TIT|TAG|NCE)!!',
-    1 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     2 => '(HW-|HUAWEI )?(CHC|TAG|KII)!!',
     3 => '(HW-|HUAWEI )?(ALE|D2|DAV|EVA|G6|G7|GRA|M100|P2|P6|P7|PRA|RIO|SC|Sophia|VIE|VNS|WAS)!!',
     4 => '(HW-|HUAWEI )?(LUA|CUN|SCC|CAM|LYO)!!',
@@ -2882,7 +2883,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@KI' => 
   array (
     0 => 'Kindle Fire',
-    1 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     2 => '(HW-|HUAWEI )?(CHC|TAG|KII)!!',
     3 => 'KIOTO 793',
     4 => 'KITE',
@@ -2894,7 +2895,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@KN' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
   ),
   '@KO' => 
   array (
@@ -3839,7 +3840,7 @@ DeviceModels::$ANDROID_INDEX = array (
     30 => '(BLU|DASH|LIFE|NEO|STUDIO|VIVO)!!',
     31 => 'NexusHD2',
     32 => 'Nexus HD2',
-    33 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    33 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     34 => 'Neon7',
     35 => 'Neon9',
     36 => '(NetTab|NT-)!!',
@@ -3927,7 +3928,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@NM' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     1 => '(NMP|MBR|XDK|XDS|XMP)\\-!!',
   ),
   '@NO' => 
@@ -4595,7 +4596,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@PE' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     1 => 'PEDI',
     2 => 'Penta!!',
     3 => 'Pentagram!!',
@@ -4719,7 +4720,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@PL' => 
   array (
     0 => 'PLE-703L',
-    1 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     2 => 'Planet II v2',
     3 => 'PLANET',
     4 => 'Playboy PB-S3',
@@ -5398,7 +5399,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@SC' => 
   array (
-    0 => '(HW-|HUAWEI |HONOR )?(ATH|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
+    0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!',
     1 => '(HW-|HUAWEI )?(ALE|D2|DAV|EVA|G6|G7|GRA|M100|P2|P6|P7|PRA|RIO|SC|Sophia|VIE|VNS|WAS)!!',
     2 => '(HW-|HUAWEI )?(LUA|CUN|SCC|CAM|LYO)!!',
     3 => 'SCH-[iI][0-9]{3,3}!!',
