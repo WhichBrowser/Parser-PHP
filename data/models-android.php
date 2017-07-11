@@ -5878,7 +5878,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?NCE-(AL00|AL10)!'                                => [ 'Huawei', 'Enjoy 6' ],
     ],
 
-    '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!' => [
+    '(HW-|HUAWEI |HONOR )?(ATH|BLN|CHE|CHM|EDI|FRD|HN3|H30|H60|HOL|KIW|NEM|NMO|PE|PLK|SCL|KNT|CAM)!!' => [
         'H30 U10'                                                       => [ 'Huawei', 'Honor 3C' ],
         '(HW-|HUAWEI )?HN3-(U00|U01)!'                                  => [ 'Huawei', 'Honor 3' ],
         '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!'        => [ 'Huawei', 'Honor 3C' ],
@@ -5888,7 +5888,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?CHE-(TL00|TL00H)!'                               => [ 'Huawei', 'Honor 4X' ],
         '(HW-|HUAWEI )?Che1-(L04|CL10|CL20)!'                           => [ 'Huawei', 'Honor 4X' ],
         '(HW-|HUAWEI )?Che2-(L11|L12|L23|TL00|UL00)!'                   => [ 'Huawei', 'Honor 4X' ],
-        '(HW-|HUAWEI )?NEM-(AL10|L21|L22|L51|TL00|TL00H|UL10)!'                           => [ 'Huawei', 'Honor 5C' ],
+        '(HW-|HUAWEI )?NEM-(AL10|L21|L22|L51|TL00|TL00H|UL10)!'         => [ 'Huawei', 'Honor 5C' ],
         '(HW-|HUAWEI )?NMO-(L23|L31)!'                                  => [ 'Huawei', 'Honor 5C' ],
         '(HW-|HUAWEI )?KIW-(AL10|CL00|L21|L22|L24|UL00|TL00|TL00H)!'    => [ 'Huawei', 'Honor 5X' ],
         '(HW-|HUAWEI )?H60-(J1|L01|L02|L03|L04|L11|L12|L21)!'           => [ 'Huawei', 'Honor 6' ],
@@ -5899,6 +5899,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?FRD-(AL00|AL10|DL00|L02|L04|L09|L14|L19)!'       => [ 'Huawei', 'Honor 8' ],
         '(HW-|HUAWEI )?ATH-(UL01|UL06)!'                                => [ 'Huawei', 'Honor ShotX' ],
         '(HW-|HUAWEI )?KNT-(AL10|AL20|TL10|UL10)!'                      => [ 'Huawei', 'Honor V8' ],
+        '(HW-|HUAWEI )?EDI-(AL10)!'                                     => [ 'Huawei', 'Honor Note 8' ],
     ],
 
     '(HW-|HUAWEI )?(CHC|TAG|KII)!!' => [
@@ -8601,6 +8602,8 @@ DeviceModels::$ANDROID_MODELS = [
         'LG-SU880'                                  => [ 'LG', 'Optimus EX' ],
     ],
 
+    'LG-TP260'                                  => [ 'LG', 'K20 Plus' ],
+
     'LG-SU-760'                                 => [ 'LG', 'Optimus 3D' ],
     'LGUK410'                                   => [ 'LG', 'G Pad 7.0', DeviceType::TABLET ],
     'LG-UK495'                                  => [ 'LG', 'G Pad F 8.0', DeviceType::TABLET ],
@@ -9144,6 +9147,7 @@ DeviceModels::$ANDROID_MODELS = [
         'MEDION E4005'                              => [ 'Medion', 'E4005' ],
         'MEDION E4502'                              => [ 'Medion', 'E4502' ],
         'MEDION E4503'                              => [ 'Medion', 'E4503' ],
+        'MEDION E4504'                              => [ 'Medion', 'E4504' ],
         'MEDION E4506'                              => [ 'Medion', 'E4506' ],
         'LIFETAB E7310'                             => [ 'Medion', 'Lifetab E7310', DeviceType::TABLET ],
         'LIFETAB E7312'                             => [ 'Medion', 'Lifetab E7312', DeviceType::TABLET ],
@@ -9914,6 +9918,7 @@ DeviceModels::$ANDROID_MODELS = [
     '(Moto)?E2$!'                               => [ 'Motorola', 'Moto E (2015)' ],
     '(Moto)?E2\(4G-LTE\)$!'                     => [ 'Motorola', 'Moto E (2015)' ],
     'surnia'                                    => [ 'Motorola', 'Moto E (2015)' ],
+    'Moto E (4) Plus'                           => [ 'Motorola', 'Moto E4 Plus' ],
     '(Moto)?G3$!'                               => [ 'Motorola', 'Moto G (2015)' ],
     '(Moto)?G3-TE$!'                            => [ 'Motorola', 'Moto G (2015)' ],
     'MOTOROLA MOTOG'                            => [ 'Motorola', 'Moto G' ],
@@ -15427,6 +15432,7 @@ DeviceModels::$ANDROID_MODELS = [
     '2014216 TD-LTE'                            => [ 'Xiaomi', 'Mi 4' ],
     'Mi-4c'                                     => [ 'Xiaomi', 'Mi 4' ],
     'Mi 4i'                                     => [ 'Xiaomi', 'Mi 4i' ],
+    'XIAOMI MI 4W'                              => [ 'Xiaomi', 'Mi 4W' ],
     'MI 5'                                      => [ 'Xiaomi', 'Mi 5' ],
     'Xiaomi M5'                                 => [ 'Xiaomi', 'Mi 5' ],
     'MI 5s'                                     => [ 'Xiaomi', 'Mi 5S' ],
