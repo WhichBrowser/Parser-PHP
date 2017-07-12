@@ -1,19 +1,35 @@
 <img src="https://api.whichbrowser.net/whichbrowser.svg" width="400">
 
-This is an extremely complicated and almost completely useless browser sniffing library written in PHP. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
+This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
-[![Build Status](https://travis-ci.org/WhichBrowser/Parser.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
-[![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser?branch=master)
+
+WhichBrowser/Parser-PHP
+=======================
+
+The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7 and HHVM.
+
+[![Build Status](https://travis-ci.org/WhichBrowser/Parser-PHP.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
+[![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
 [![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
 [![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/whichbrowserlib.svg?style=social)](https://twitter.com/whichbrowserlib)
 
-If you are looking for the JavaScript API for WhichBrowser, please go to the [WhichBrowser/Server](https://github.com/WhichBrowser/Server) project.
+Also available:
+
+- [WhichBrowser/Parser-JavaScript](https://github.com/WhichBrowser/Parser-JavaScript)<br>
+  A JavaScript version of WhichBrowser for use with Node.js on the server
+
+- [WhichBrowser/Server](https://github.com/WhichBrowser/Parser-JavaScript)<br>
+  A server written in PHP that provides a JavaScript API for use in the browser
 
 ---
 
-**But why *almost completely useless* and not completely useless?**  
+
+About WhichBrowser
+------------------
+
+**But why *almost completely useless* and not completely useless?**
 Well, there is always an exception to the rule. There are valid reasons to do browser sniffing: to improve the user experience or to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.
 
 **Why is it extremely complicated?**  

@@ -1,7 +1,7 @@
 
 # Pull requests
 
-This project does continuous integration with [Travis](https://travis-ci.org/WhichBrowser/Parser/) and [Coveralls](https://coveralls.io/github/WhichBrowser/Parser). This means that every pull request must have the proper PSR-2 code standards and working unit tests. Please make sure your pull request passes all tests before submitting it.
+This project does continuous integration with [Travis](https://travis-ci.org/WhichBrowser/Parser-PHP/) and [Coveralls](https://coveralls.io/github/WhichBrowser/Parser-PHP). This means that every pull request must have the proper PSR-2 code standards and working unit tests. Please make sure your pull request passes all tests before submitting it.
 
 To test your coding style run:
 
