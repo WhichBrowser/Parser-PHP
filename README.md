@@ -20,7 +20,7 @@ Also available:
 - [WhichBrowser/Parser-JavaScript](https://github.com/WhichBrowser/Parser-JavaScript)<br>
   A JavaScript version of WhichBrowser for use with Node.js on the server
 
-- [WhichBrowser/Server](https://github.com/WhichBrowser/Parser-JavaScript)<br>
+- [WhichBrowser/Server](https://github.com/WhichBrowser/Server)<br>
   A server written in PHP that provides a JavaScript API for use in the browser
 
 ---
