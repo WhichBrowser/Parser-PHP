@@ -51,6 +51,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Comodo IceDragon',     'id'    => 'dragon',      'regexp' =>'/IceDragon\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Conkeror',             'id'    => 'conkeror',      'regexp' =>'/[Cc]onkeror\/([0-9.]*)/u' ],
         [ 'name' => 'CoolNovo',             'id'    => 'coolnovo',      'regexp' =>'/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Crusta',               'id'    => 'crusta',      'regexp' =>'/Crusta\/([0-9.]*)/u' ],
         [ 'name' => 'Cunaguaro',            'id'    => 'cunaguaro',      'regexp' =>'/Cunaguaro\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Cyberfox',             'id'    => 'cyberfox',      'regexp' =>'/Cyberfox\/([0-9.]*)/u', 'details' => 2 ],                                             // see: https://cyberfox.8pecxstudios.com
         [ 'name' => 'Daedalus',             'id'    => 'daedalus',      'regexp' =>'/Daedalus ([0-9.]*)/u', 'details' => 2 ],
