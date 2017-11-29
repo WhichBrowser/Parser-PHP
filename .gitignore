@@ -1,6 +1,7 @@
 runner.log
 runner.xml
 composer.lock
+package-lock.json
 vendor/*
 package.json
 Gruntfile.js
