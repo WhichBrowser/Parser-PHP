@@ -214,3 +214,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/602.1.32 (KHTML, like Gecko) Version/10.0 Safari/602.1.32'
     readable: 'Safari 10.0 on macOS Sierra 10.12'
     result: { browser: { name: Safari, version: '10.0', type: browser }, engine: { name: Webkit, version: 602.1.32 }, os: { name: 'OS X', alias: macOS, version: { value: '10.12', nickname: Sierra } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/603.1.13 (KHTML, like Gecko) Version/10.1 Safari/603.1.13'
+    readable: 'Safari 10.1 on macOS High Sierra 10.13'
+    result: { browser: { name: Safari, version: '10.1', type: browser }, engine: { name: Webkit, version: 603.1.13 }, os: { name: 'OS X', alias: macOS, version: { value: '10.13', nickname: High Sierra } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
