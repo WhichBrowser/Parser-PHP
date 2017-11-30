@@ -84,7 +84,7 @@ trait Os
                     }
                 }
 
-                if (preg_match('/(iPad|iPhone|iPod)[0-9],[0-9][0-9]?/u', $ua, $match)) {
+                if (preg_match('/(iPad|iPhone|iPod)1?[0-9],[0-9][0-9]?/u', $ua, $match)) {
                     $device = Data\DeviceModels::identify('ios', $match[0]);
 
                     if ($device) {
