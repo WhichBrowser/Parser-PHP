@@ -78,3 +78,7 @@
     headers: 'User-Agent: VKAndroidApp/3.4-288 (Android 3.2; SDK 13; armeabi-v7a; samsung GT-P7300; ru)'
     readable: 'VK 3.4 on a Samsung Galaxy Tab 8.9 running Android 3.2'
     result: { browser: { name: VK, version: '3.4', type: 'app:social' }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 8.9' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 [FBAN/FBIOS;FBAV/145.0.0.59.86;FBBV/74951375;FBDV/iPad6,11;FBMD/iPad;FBSN/iOS;FBSV/11.0.3;FBSS/2;FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/5;FBRV/0]'
+    readable: 'Facebook on an Apple iPad (5th gen) running iOS 11.0.3'
+    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: 11.0.3 }, device: { type: tablet, manufacturer: Apple, model: 'iPad (5th gen)' } }
