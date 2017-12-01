@@ -30,3 +30,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; WebView/3.0; SAMSUNG; GT-I8750) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586'
     result: { browser: { name: Edge, version: '13', type: browser }, engine: { name: EdgeHTML, version: '13.10586' }, os: { name: 'Windows Phone', alias: Windows, edition: Mobile, version: { value: '10.0', alias: '10' } }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Ativ S' } }
     readable: 'Edge 13 on a Samsung Ativ S running Windows 10 Mobile'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel XL Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.0 Mobile Safari/537.36 EdgA/41.1.35.1'
+    readable: 'Edge on a Google Pixel XL running Android 8.0'
+    result: { browser: { name: Edge, family: { name: Chrome, version: 58 }, version: '41', type: browser }, engine: { name: Blink }, os: { name: Android, version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Google, model: 'Pixel XL' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Safari/603.2.4 EdgiOS/41.1.35.1'
+    readable: 'Edge on an Apple iPhone running iOS 10.3.2'
+    result: { browser: { name: Edge, version: '41', type: browser }, engine: { name: Webkit, version: 603.2.4 }, os: { name: iOS, version: 10.3.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
