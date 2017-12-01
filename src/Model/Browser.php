@@ -172,7 +172,7 @@ class Browser extends NameVersion
             $result['type'] = $this->type;
         }
 
-        if (isset($result['version']) && !count($result['version'])) {
+        if (isset($result['version']) && empty($result['version'])) {
             unset($result['version']);
         }
 

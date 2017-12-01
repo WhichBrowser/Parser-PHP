@@ -348,19 +348,19 @@ class Main
             'device'    => $this->device->toArray()
         ];
 
-        if (!count($result['browser'])) {
+        if (empty($result['browser'])) {
             unset($result['browser']);
         }
 
-        if (!count($result['engine'])) {
+        if (empty($result['engine'])) {
             unset($result['engine']);
         }
 
-        if (!count($result['os'])) {
+        if (empty($result['os'])) {
             unset($result['os']);
         }
 
-        if (!count($result['device'])) {
+        if (empty($result['device'])) {
             unset($result['device']);
         }
 

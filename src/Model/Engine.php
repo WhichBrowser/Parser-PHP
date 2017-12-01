@@ -26,7 +26,7 @@ class Engine extends NameVersion
             $result['version'] = $this->version->toArray();
         }
 
-        if (isset($result['version']) && !count($result['version'])) {
+        if (isset($result['version']) && empty($result['version'])) {
             unset($result['version']);
         }
 
