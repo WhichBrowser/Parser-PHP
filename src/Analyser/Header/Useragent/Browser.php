@@ -688,6 +688,11 @@ trait Browser
                         $device->identified |= $this->data->device->identified;
                         $this->data->os->reset([ 'name' => 'Firefox OS' ]);
                         $this->data->device = $device;
+
+                        if (preg_match('/Kai(OS)?\/([0-9.]+)/', $ua, $match)) {
+                            $this->data->os->reset([ 'name' => 'KaiOS' ]);
+                            $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);                            
+                        }
                     }
                 }
             }

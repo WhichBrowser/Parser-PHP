@@ -106,6 +106,12 @@ trait Corrections
                 'family' => isset($this->data->browser->family) ? $this->data->browser->family : null
             ]);
         }
+
+        if ($this->data->os->name == 'KaiOS' && $this->data->browser->name == 'Firefox Mobile') {
+            $this->data->browser->reset([
+                'family' => isset($this->data->browser->family) ? $this->data->browser->family : null
+            ]);
+        }
     }
 
     private function hideBrowserOnDeviceTypeGaming()

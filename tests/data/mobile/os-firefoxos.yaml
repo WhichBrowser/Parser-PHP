@@ -82,3 +82,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:34.0) Gecko/34.0 Firefox/34.0'
     result: { browser: { name: 'Firefox Mobile', family: { name: Firefox, version: '34.0' }, version: '34.0', type: browser }, engine: { name: Gecko, version: '34.0' }, os: { name: 'Firefox OS', version: '2.1' }, device: { type: mobile, subtype: smart } }
     readable: 'Firefox Mobile 34.0 on Firefox OS 2.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; ALCATEL4044M; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0'
+    readable: 'an Alcatel Go Flip running KaiOS'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'Go Flip' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; ALCATEL4044N; rv:37.0) Gecko/37.0 Firefox/37.0 Kai/1.0'
+    readable: 'an Alcatel Go Flip running KaiOS'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'Go Flip' } }

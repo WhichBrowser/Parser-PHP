@@ -15,6 +15,7 @@ DeviceModels::$FIREFOXOS_MODELS = [
     'ALCATELOneTouch4022!'                      => [ 'Alcatel', 'One Touch Pixi 3 (3.5)' ],
     'ALCATELOneTouch4023!'                      => [ 'Alcatel', 'One Touch Pixi 3 (3.5)' ],
     'ALCATELOneTouch6015X!'                     => [ 'Alcatel', 'One Touch Fire E' ],
+    'ALCATEL4044[MNOVW]!'                       => [ 'Alcatel', 'Go Flip' ],
     'HUAWEI Ascend Y300-F1'                     => [ 'Huawei', 'Ascend Y300 F1' ],
     'HUAWEIY300-F1'                             => [ 'Huawei', 'Ascend Y300 F1' ],
     'LG-D3(00|01)!'                             => [ 'LG', 'Fireweb' ],
