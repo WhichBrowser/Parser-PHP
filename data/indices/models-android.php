@@ -2887,7 +2887,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@KE' => 
   array (
-    0 => 'KENEKSI',
+    0 => 'KENEKSI!!',
   ),
   '@KF' => 
   array (

@@ -7274,7 +7274,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     'MT791'                                     => [ 'Keen High', 'MT791' ],
 
-    'KENEKSI' => [
+    'KENEKSI!!' => [
         'KENEKSI FIRE'                              => [ 'KENEKSI', 'Fire' ],
         'KENEKSI-Fire'                              => [ 'KENEKSI', 'Fire' ],
         'KENEKSI-Norma'                             => [ 'KENEKSI', 'Norma' ],

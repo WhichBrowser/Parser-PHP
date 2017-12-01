@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; KENEKSI Build/JDQ39; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.1.4.16005AP'
+    readable: 'Puffin 6.1.4 on a KENEKSI running Android 4.2.2'
+    result: { browser: { name: Puffin, family: { name: Chrome, version: 42 }, version: 6.1.4, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, model: KENEKSI } }
