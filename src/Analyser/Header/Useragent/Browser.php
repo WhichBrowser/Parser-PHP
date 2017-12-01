@@ -691,7 +691,7 @@ trait Browser
 
                         if (preg_match('/Kai(OS)?\/([0-9.]+)/', $ua, $match)) {
                             $this->data->os->reset([ 'name' => 'KaiOS', 'version' => new Version([ 'value' => $match[2] ]) ]);
-                            $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);                            
+                            $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);
                         }
                     }
                 }
