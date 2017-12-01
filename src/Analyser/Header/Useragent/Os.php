@@ -20,6 +20,7 @@ trait Os
         $this->detectChromeos($ua);
         $this->detectBlackberry($ua);
         $this->detectWebos($ua);
+        $this->detectKaiOS($ua);
         $this->detectSymbian($ua);
         $this->detectNokiaOs($ua);
         $this->detectTizen($ua);
@@ -1548,6 +1549,17 @@ trait Os
             }
 
             $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+    }
+
+
+    /* Kai OS */
+
+    private function detectKaiOS($ua)
+    {
+        if (preg_match('/Kai(OS)?\/([0-9.]+)/i', $ua, $match)) {
+            $this->data->os->reset([ 'name' => 'KaiOS', 'version' => new Version([ 'value' => $match[2] ]) ]);
+            $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);
         }
     }
 

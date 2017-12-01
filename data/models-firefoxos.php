@@ -15,7 +15,6 @@ DeviceModels::$FIREFOXOS_MODELS = [
     'ALCATELOneTouch4022!'                      => [ 'Alcatel', 'One Touch Pixi 3 (3.5)' ],
     'ALCATELOneTouch4023!'                      => [ 'Alcatel', 'One Touch Pixi 3 (3.5)' ],
     'ALCATELOneTouch6015X!'                     => [ 'Alcatel', 'One Touch Fire E' ],
-    'ALCATEL4044[MNOVW]!'                       => [ 'Alcatel', 'Go Flip' ],
     'HUAWEI Ascend Y300-F1'                     => [ 'Huawei', 'Ascend Y300 F1' ],
     'HUAWEIY300-F1'                             => [ 'Huawei', 'Ascend Y300 F1' ],
     'LG-D3(00|01)!'                             => [ 'LG', 'Fireweb' ],
@@ -29,4 +28,15 @@ DeviceModels::$FIREFOXOS_MODELS = [
     'Open C'                                    => [ 'ZTE', 'Open C' ],
     'OPENC2'                                    => [ 'ZTE', 'Open C2' ],
     'OPEN2'                                     => [ 'ZTE', 'Open II' ],
+
+    'ALCATEL4044[MNOVW]!'                       => [ 'Alcatel', 'Go Flip' ],
+    '.LYF\/.F30C!'                              => [ 'Jio', 'JioPhone F30C' ],
+    '.LYF\/.F101K!'                             => [ 'Jio', 'JioPhone F101K' ],
+    'LYF\/F30C!'                                => [ 'Jio', 'JioPhone F30C' ],
+    'LYF\/F41T!'                                => [ 'Jio', 'JioPhone F41T' ],
+    'LYF\/F50Y!'                                => [ 'Jio', 'JioPhone F50Y' ],
+    'LYF\/F61F!'                                => [ 'Jio', 'JioPhone F61F' ],
+    'LYF\/F81E!'                                => [ 'Jio', 'JioPhone F81E' ],
+    'LYF\/F90M!'                                => [ 'Jio', 'JioPhone F90M' ],
+    'LYF\/F101K!'                               => [ 'Jio', 'JioPhone F101K' ],
 ];

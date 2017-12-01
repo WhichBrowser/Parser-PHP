@@ -3,6 +3,11 @@
 namespace WhichBrowser\Data;
 
 DeviceModels::$FIREFOXOS_INDEX = array (
+  '@' => 
+  array (
+    0 => '.LYF\\/.F30C!',
+    1 => '.LYF\\/.F101K!',
+  ),
   '@AL' => 
   array (
     0 => 'ALCATEL ONE TOUCH FIRE',
@@ -27,6 +32,16 @@ DeviceModels::$FIREFOXOS_INDEX = array (
   array (
     0 => 'LG-D3(00|01)!',
     1 => 'LGL25',
+  ),
+  '@LY' => 
+  array (
+    0 => 'LYF\\/F30C!',
+    1 => 'LYF\\/F41T!',
+    2 => 'LYF\\/F50Y!',
+    3 => 'LYF\\/F61F!',
+    4 => 'LYF\\/F81E!',
+    5 => 'LYF\\/F90M!',
+    6 => 'LYF\\/F101K!',
   ),
   '@MA' => 
   array (

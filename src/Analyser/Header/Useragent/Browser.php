@@ -686,12 +686,10 @@ trait Browser
                     $device = Data\DeviceModels::identify('firefoxos', $match[1]);
                     if ($device->identified) {
                         $device->identified |= $this->data->device->identified;
-                        $this->data->os->reset([ 'name' => 'Firefox OS' ]);
                         $this->data->device = $device;
 
-                        if (preg_match('/Kai(OS)?\/([0-9.]+)/', $ua, $match)) {
-                            $this->data->os->reset([ 'name' => 'KaiOS', 'version' => new Version([ 'value' => $match[2] ]) ]);
-                            $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);
+                        if (!$this->data->isOs('KaiOS')) {
+                            $this->data->os->reset([ 'name' => 'Firefox OS' ]);
                         }
                     }
                 }
