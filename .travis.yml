@@ -16,8 +16,8 @@ before_script:
   - composer update --prefer-source
 
   # Install suggested cache/array-adapter on supported versions of PHP
-  - composer require cache/array-adapter --ignore-platform-reqs --dev
-
+  - composer require --ignore-platform-reqs --dev cache/array-adapter
+  
   # Set memory limit to 2 MB
   - if [[ $TRAVIS_PHP_VERSION != hhvm* ]]; then echo "memory_limit=2048M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini; fi
   
