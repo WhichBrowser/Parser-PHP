@@ -11,12 +11,12 @@ use Cache\Adapter\PHPArray\ArrayCachePool;
  */
 class CacheTest extends PHPUnit_Framework_TestCase
 {
-    /**
-     * @requires PHP 5.5
-     */
-
     public function testCreatingParserWithoutArgumentsAndCallAnalyse()
     {
+        if (!class_exists('Cache\Adapter\PHPArray\ArrayCachePool')) {
+            return;
+        }
+
         function countCachedItems($pool) {
             $items = 0;
 
