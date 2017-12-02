@@ -26,7 +26,6 @@
 
     "require-dev": {
         "symfony/yaml": "^2.7",
-        "league/csv": "^8.0",
         "phpdocumentor/reflection-docblock": "^2.0",
         "phpunit/php-code-coverage": "^2.2|^3.0",
         "phpunit/PHPUnit": "^4.0",
