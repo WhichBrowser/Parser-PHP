@@ -27,7 +27,4 @@ script:
   - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then vendor/bin/phpunit --coverage-clover phpunit.xml; fi
 
 after_script:
-  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
-  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then php ocular.phar code-coverage:upload --format=php-clover runner.xml; fi
-  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then php ocular.phar code-coverage:upload --format=php-clover phpunit.xml; fi
   - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then travis_retry php vendor/bin/coveralls -v; fi
