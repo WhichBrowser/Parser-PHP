@@ -842,6 +842,7 @@ DeviceModels::$ANDROID_MODELS = [
     'A564R'                                     => [ 'Alcatel', 'One Touch Pop Icon' ],
     'A564C'                                     => [ 'Alcatel', 'One Touch Pop Icon' ],
     'A570BL'                                    => [ 'Alcatel', 'One Touch Pixi Avion' ],
+    'A571VL'                                    => [ 'Alcatel', 'One Touch Pixi Avion' ],
     'A573VC'                                    => [ 'Alcatel', 'One Touch Pixi Bond' ],
     'A621BL'                                    => [ 'Alcatel', 'One Touch Pixi Glory' ],
     'A621R'                                     => [ 'Alcatel', 'One Touch Pop 3 (5.5)' ],
