@@ -24,6 +24,10 @@
         }
     },
 
+    "suggest": {
+        "cache/array-adapter": "Allows testing of the caching functionality"
+    },
+
     "require-dev": {
         "symfony/yaml": "^2.7",
         "phpdocumentor/reflection-docblock": "^2.0",
@@ -33,7 +37,6 @@
         "doctrine/common" : "<2.8",
         "doctrine/instantiator" : "<1.1",
         "icomefromthenet/reverse-regex" : "dev-master",
-        "cache/array-adapter": "^0.4",
         "squizlabs/php_codesniffer": "2.5.*"
     },
 
