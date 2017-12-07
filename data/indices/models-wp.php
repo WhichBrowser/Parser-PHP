@@ -87,6 +87,8 @@ DeviceModels::$WP_INDEX = array (
   '@AL' => 
   array (
     0 => 'Allegro',
+    1 => 'Alpha Neon',
+    2 => 'ALPHA PRIME 5',
   ),
   '@AN' => 
   array (
@@ -100,7 +102,8 @@ DeviceModels::$WP_INDEX = array (
   ),
   '@BI' => 
   array (
-    0 => 'Billy 4.7',
+    0 => 'Billy 4',
+    1 => 'Billy 4.7',
   ),
   '@BP' => 
   array (
@@ -213,7 +216,9 @@ DeviceModels::$WP_INDEX = array (
   ),
   '@ID' => 
   array (
-    0 => 'id[0-9]{3,3}!!',
+    0 => 'IDOL 4 PRO',
+    1 => 'IDOL 4S with Windows 10',
+    2 => 'id[0-9]{3,3}!!',
   ),
   '@IM' => 
   array (
@@ -228,6 +233,7 @@ DeviceModels::$WP_INDEX = array (
   '@IQ' => 
   array (
     0 => 'IQ400W',
+    1 => 'IQ500W',
   ),
   '@IR' => 
   array (
@@ -260,9 +266,13 @@ DeviceModels::$WP_INDEX = array (
   array (
     0 => '(Lumia ?|Nokia ?)?[0-9]{3,4}!!',
   ),
+  '@M1' => 
+  array (
+    0 => 'M1010',
+  ),
   '@M2' => 
   array (
-    0 => 'M220',
+    0 => 'M220!',
   ),
   '@M3' => 
   array (
@@ -290,9 +300,10 @@ DeviceModels::$WP_INDEX = array (
   array (
     0 => 'MOBILE Alpha Luxe',
     1 => 'MOBILE Alpha Style',
-    2 => 'Mondrian',
-    3 => '((7 )?Mozart|.*T86(97|98))!',
-    4 => 'MouseComputer MADOSMA Q501',
+    2 => 'MOBILE Alpha View',
+    3 => 'Mondrian',
+    4 => '((7 )?Mozart|.*T86(97|98))!',
+    5 => 'MouseComputer MADOSMA Q501',
   ),
   '@MW' => 
   array (
@@ -321,11 +332,13 @@ DeviceModels::$WP_INDEX = array (
   '@ON' => 
   array (
     0 => 'ONE TOUCH 5040X',
+    1 => 'ONIX AWP4-215',
   ),
   '@PC' => 
   array (
     0 => 'PC93100',
     1 => 'PC40100',
+    2 => 'PC40200',
   ),
   '@PD' => 
   array (
@@ -355,7 +368,9 @@ DeviceModels::$WP_INDEX = array (
   ),
   '@QS' => 
   array (
-    0 => 'QSMART DREAM W473',
+    0 => 'QSMART STORM W408',
+    1 => 'QSMART DREAM W473',
+    2 => 'QSMART STORM W510',
   ),
   '@QU' => 
   array (
@@ -390,10 +405,12 @@ DeviceModels::$WP_INDEX = array (
   '@SE' => 
   array (
     0 => 'SeaRay',
+    1 => 'Semaphore',
   ),
   '@SG' => 
   array (
-    0 => 'SGH-[IT][0-9]{3,3}!!',
+    0 => 'SG 7',
+    1 => 'SGH-[IT][0-9]{3,3}!!',
   ),
   '@SM' => 
   array (
@@ -413,6 +430,10 @@ DeviceModels::$WP_INDEX = array (
     0 => 'Surround',
     1 => 'Surface Phone',
   ),
+  '@T6' => 
+  array (
+    0 => 'T698',
+  ),
   '@TA' => 
   array (
     0 => 'Taylor',
@@ -428,7 +449,8 @@ DeviceModels::$WP_INDEX = array (
   ),
   '@TH' => 
   array (
-    0 => 'Thunder 450W',
+    0 => 'Thunder 340W',
+    1 => 'Thunder 450W',
   ),
   '@TI' => 
   array (
@@ -475,13 +497,14 @@ DeviceModels::$WP_INDEX = array (
   ),
   '@W1' => 
   array (
-    0 => 'W10',
-    1 => 'W1-(C00|U00|U34)!',
-    2 => 'W121',
+    0 => 'W1i',
+    1 => 'W10',
+    2 => 'W1-(C00|U00|U34)!',
+    3 => 'W121',
   ),
   '@W2' => 
   array (
-    0 => 'W2-(T00|T01|U00)!',
+    0 => 'W2-(T00|T01|U00|U051)!',
   ),
   '@W4' => 
   array (
@@ -495,19 +518,24 @@ DeviceModels::$WP_INDEX = array (
     3 => 'WIN JR LTE',
     4 => 'WIN JR W410a',
     5 => 'WIN JR W410i',
-    6 => 'WIN JR W410u',
-    7 => 'WIN 400',
-    8 => 'WINJOY',
-    9 => 'WinWin',
-    10 => 'Windows Phone 8X by HTC!',
-    11 => 'WindowsPhone8Xby',
-    12 => 'Windows Phone 8S by HTC!',
-    13 => 'WindowsPhone8Sby',
-    14 => 'Win1',
-    15 => 'Win-Q900S',
-    16 => 'Win Q1000',
-    17 => 'WinQ1000',
-    18 => 'Windows!',
+    6 => 'WIN JR W410l',
+    7 => 'WIN JR W410u',
+    8 => 'WIN 400',
+    9 => 'WINJOY',
+    10 => 'WinWin',
+    11 => 'Windows Phone 8X by HTC!',
+    12 => 'WindowsPhone8Xby',
+    13 => 'Windows Phone 8S by HTC!',
+    14 => 'WindowsPhone8Sby',
+    15 => 'Win1',
+    16 => 'Win-Q900S',
+    17 => 'Win Q1000',
+    18 => 'WinQ1000',
+    19 => 'Windows!',
+  ),
+  '@WP' => 
+  array (
+    0 => 'WP 4.7',
   ),
   '@XX' => 
   array (
