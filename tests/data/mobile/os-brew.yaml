@@ -112,16 +112,16 @@
     readable: 'Opera Mini 5.1 on a Pantech Jest 2 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 320X240 ZTE F-450', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'ZTE F-450', X-OperaMini-Phone: 'ZTE # F-450' }
-    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F-450 } }
-    readable: 'Opera Mini 5.1 on a ZTE F-450 running Brew'
+    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: Adamant } }
+    readable: 'Opera Mini 5.1 on a ZTE Adamant running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2338; U; xx) Presto/2.8.119 400X240 LG VN271', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'LG VN271', X-OperaMini-Phone: 'LG # VN271' }
     result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: LG, model: Extravert } }
     readable: 'Opera Mini 5.1 on a LG Extravert running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/5.1/27.2354; U; xx) Presto/2.8.119 320X240 ZTE F-450', X-OperaMini-Features: 'advanced, download', X-OperaMini-Phone-UA: 'ZTE F-450', X-OperaMini-Phone: 'ZTE # F-450' }
-    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: F-450 } }
-    readable: 'Opera Mini 5.1 on a ZTE F-450 running Brew'
+    result: { browser: { name: 'Opera Mini', version: '5.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: ZTE, model: Adamant } }
+    readable: 'Opera Mini 5.1 on a ZTE Adamant running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.0/27.2354; U; xx) Presto/2.8.119 240X320 Casio C781', X-OperaMini-Features: 'advanced, download, file_system, folding', X-OperaMini-Phone-UA: 'Casio C781', X-OperaMini-Phone: 'Casio # C781' }
     result: { browser: { name: 'Opera Mini', version: 6.0.0, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Casio, model: C781 } }
@@ -156,8 +156,8 @@
     readable: 'Opera Mini 6.0.3 on a Samsung Intensity III running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X320 Samsung SCH-U680', X-OperaMini-Phone: 'Samsung # SCH-U680', X-OperaMini-Phone-UA: 'Samsung SCH-U680', X-OperaMini-Features: 'advanced, download, file_system, folding' }
-    result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SCH-U680 } }
-    readable: 'Opera Mini 6.0.3 on a Samsung SCH-U680 running Brew'
+    result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Convoy 3' } }
+    readable: 'Opera Mini 6.0.3 on a Samsung Convoy 3 running Brew'
 -
     headers: { User-Agent: 'Opera/9.80 (BREW; Opera Mini/6.0.3/27.2354; U; xx) Presto/2.8.119 240X400 Pantech CDM8999', X-OperaMini-Features: 'advanced, download, file_system, touch, folding', X-OperaMini-Phone: 'Pantech # CDM8999', X-OperaMini-Phone-UA: 'Pantech CDM8999' }
     result: { browser: { name: 'Opera Mini', version: 6.0.3, type: browser }, engine: { name: Presto, version: 2.8.119 }, os: { name: Brew }, device: { type: mobile, subtype: feature, manufacturer: Pantech, model: Crux } }
