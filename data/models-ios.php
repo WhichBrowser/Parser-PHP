@@ -79,6 +79,7 @@ DeviceModels::$IOS_MODELS = [
     'iPad4,6'                                   => [ 'Apple', 'iPad mini 2', DeviceType::TABLET ],
     'iPad4,7'                                   => [ 'Apple', 'iPad mini 3', DeviceType::TABLET ],
     'iPad4,8'                                   => [ 'Apple', 'iPad mini 3', DeviceType::TABLET ],
+    'iPad4,9'                                   => [ 'Apple', 'iPad mini 3', DeviceType::TABLET ],
     'iPad5,1'                                   => [ 'Apple', 'iPad mini 4', DeviceType::TABLET ],
     'iPad5,2'                                   => [ 'Apple', 'iPad mini 4', DeviceType::TABLET ],
     'iPad5,3'                                   => [ 'Apple', 'iPad Air 2', DeviceType::TABLET ],
