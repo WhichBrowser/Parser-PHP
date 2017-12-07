@@ -18,8 +18,10 @@ DeviceModels::$TIZEN_MODELS = [
     'SM-Z130!'                                  => [ 'Samsung', 'Z1' ],
     'TIZEN SM-Z130!'                            => [ 'Samsung', 'Z1' ],
     'SM-Z200!'                                  => [ 'Samsung', 'Z2' ],
+    'SM-Z250!'                                  => [ 'Samsung', '"Pride"' ],
     'SM-Z300!'                                  => [ 'Samsung', 'Z3' ],
     'TIZEN SM-Z300!'                            => [ 'Samsung', 'Z3' ],
+    'SM-Z400!'                                  => [ 'Samsung', 'Z4' ],
     'SM-Z500!'                                  => [ 'Samsung', 'SM-Z500' ],
     'SM-Z700!'                                  => [ 'Samsung', 'SM-Z700' ],
     'SM-Z900!'                                  => [ 'Samsung', 'Z' ],
@@ -31,11 +33,16 @@ DeviceModels::$TIZEN_MODELS = [
 
     'SM-G870F0'                                 => [ 'Samsung', 'Galaxy S5 Active' ],
 
+    'SM-R360!'                                  => [ 'Samsung', 'Gear Fit2', DeviceType::WATCH ],
+    'SM-R600!'                                  => [ 'Samsung', 'Gear Sport', DeviceType::WATCH ],
     'SM-R720!'                                  => [ 'Samsung', 'Gear S2', DeviceType::WATCH ],
     'SM-R730!'                                  => [ 'Samsung', 'Gear S2', DeviceType::WATCH ],
+    'SM-R732!'                                  => [ 'Samsung', 'Gear S2 Classic', DeviceType::WATCH ],
+    'SM-R735!'                                  => [ 'Samsung', 'Gear S2 Classic', DeviceType::WATCH ],
     'SM-R750!'                                  => [ 'Samsung', 'Gear S', DeviceType::WATCH ],
     'SM-R760!'                                  => [ 'Samsung', 'Gear S3', DeviceType::WATCH ],
     'SM-R765!'                                  => [ 'Samsung', 'Gear S3', DeviceType::WATCH ],
+    'SM-R770!'                                  => [ 'Samsung', 'Gear S3 Classic', DeviceType::WATCH ],
 
     'NX300'                                     => [ 'Samsung', 'NX300', DeviceType::CAMERA ],
 
