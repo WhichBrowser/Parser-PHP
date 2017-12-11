@@ -154,3 +154,11 @@
     headers: 'User-Agent: HbbTV/1.2.1 (+DRM;Samsung;SmartTV2017;T-KTMDEUC-1147.1;;)+TVPLUS+SmartHubLink Chrome'
     readable: 'a Samsung Smart TV'
     result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: HbbTV/1.2.1 (;Samsung;SmartTV2014;T-GFPDEUC-1210.3;;) WebKit'
+    readable: 'a Samsung Smart TV 2014'
+    result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2014' } }
+-
+    headers: 'User-Agent: HbbTV/1.4.1 (+DRM+TVPLUS;Samsung;SmartTV2017;T-KTMDEUC-0318.24;;) Chrome'
+    readable: 'a Samsung Smart TV 2017'
+    result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2017' } }
