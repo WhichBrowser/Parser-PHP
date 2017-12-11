@@ -606,3 +606,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Andr0id 4.4.2; BHX-UH200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 OPR/32.0.2070.0 OMI/4.7.0.34.release'
     readable: 'Opera Devices 4.7 on a B box B tv UHD BHX-UH200 running Android 4.4.2'
     result: { browser: { name: 'Opera Devices', family: { name: Chrome, version: 48 }, version: '4.7', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: television, manufacturer: 'B box', model: 'B tv UHD BHX-UH200' } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (+PVR; Ocean Blue Software; ; 0.1; ;)'
+    readable: 'a television'
+    result: { device: { type: television } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (; ST; FLTk3D; 1.0; 1.0;) NetFront/3.5'
+    readable: 'NetFront 3.5 on a television'
+    result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: television } }

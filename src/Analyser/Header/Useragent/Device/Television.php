@@ -874,7 +874,7 @@ trait Television
                 $found = true;
             }
 
-            if (in_array($vendorName, [ 'Access', 'ANT', 'EMSYS', 'Em-Sys', 'Opera', 'Opera Software', 'Seraphic', 'Vendor' ])) {
+            if (in_array($vendorName, [ 'Access', 'ANT', 'EMSYS', 'Em-Sys', 'Ocean Blue Software', 'Opera', 'Opera Software', 'Seraphic', 'ST', 'Vendor' ])) {
                 $found = false;
             }
 
