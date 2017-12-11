@@ -962,6 +962,12 @@ trait Television
                                 break;
                             default:
                                 $this->data->device->model = $modelName;
+        
+                                if (substr($modelName, 0, 4) == 'DIGA') {
+                                    $this->data->device->series = 'Diga';
+                                    $this->data->device->model = null;
+                                }
+
                                 break;
                         }
 

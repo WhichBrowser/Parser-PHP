@@ -166,3 +166,7 @@
     headers: 'User-Agent: HbbTV/1.4.1 (+DRM;Panasonic;SmartTV2018mid;0.002;2401-0003 0008-0000;SmartTV2018;)'
     readable: 'a Panasonic Viera 2018'
     result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2018' } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (+PVR;Panasonic;DIGA WebKit M8158;3.300;;)'
+    readable: 'a Panasonic Diga'
+    result: { device: { type: television, manufacturer: Panasonic, series: Diga } }
