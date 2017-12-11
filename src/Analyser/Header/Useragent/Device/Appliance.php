@@ -34,7 +34,7 @@ trait Appliance
 
     private function detectWebLight($ua)
     {
-        if (preg_match('/KOMATSU.*WebLight/u', $ua)) {
+        if (preg_match('/KOMATSU.*WL\//u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'KOMATSU',

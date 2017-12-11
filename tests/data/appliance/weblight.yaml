@@ -2,3 +2,7 @@
     headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
     readable: 'NetFront 2.6 on a KOMATSU WebLight'
     result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront }, device: { type: desktop, manufacturer: KOMATSU, model: WebLight } }
+-
+    headers: 'User-Agent: Mozilla/3.0 KOMATSU WL/3.0'
+    readable: 'Netscape Navigator 3.0 on a KOMATSU WebLight'
+    result: { browser: { name: 'Netscape Navigator', version: '3.0', type: browser }, device: { type: desktop, manufacturer: KOMATSU, model: WebLight } }
