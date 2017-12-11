@@ -96,8 +96,8 @@
     readable: 'NetFront 2.6'
 -
     headers: 'User-Agent: Mozilla/3.0 KOMATSU (AveFront/2.6 WebLight) WL/3.0 V2.45ohi M=11E2A2499945'
-    result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront } }
-    readable: 'NetFront 2.6'
+    result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront }, device: { type: desktop, manufacturer: KOMATSU, model: WebLight } }
+    readable: 'NetFront 2.6 on a KOMATSU WebLight'
 -
     headers: 'User-Agent: Mozilla/3.0N AVE-Front/2.5 (BrowserInfo Screen=620x400x256; InputMethod=REMOCON, KEYBOARD; Page=3M; Product=Winbond/STB; HTML-Level=3.2; Category=STB; Language=en_US; CPU=PARISC; Storage=NO;)'
     result: { browser: { name: NetFront, version: '2.5', type: browser }, engine: { name: NetFront }, device: { type: television } }

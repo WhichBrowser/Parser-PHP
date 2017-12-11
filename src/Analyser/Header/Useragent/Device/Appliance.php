@@ -9,6 +9,7 @@ trait Appliance
     private function detectAppliance($ua)
     {
         $this->detectIOpener($ua);
+        $this->detectWebLight($ua);
     }
 
 
@@ -24,6 +25,20 @@ trait Appliance
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Netpliance',
                 'model'         =>  'i-Opener',
+                'type'          =>  Constants\DeviceType::DESKTOP
+            ]);
+        }
+    }
+
+    /* KOMATSU WebLight */
+
+    private function detectWebLight($ua)
+    {
+        if (preg_match('/KOMATSU.*WebLight/u', $ua)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'KOMATSU',
+                'model'         =>  'WebLight',
                 'type'          =>  Constants\DeviceType::DESKTOP
             ]);
         }
