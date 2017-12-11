@@ -159,6 +159,10 @@
     readable: 'a Panasonic Viera 2017'
     result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2017' } }
 -
+    headers: 'User-Agent: HbbTV/1.4.1 (;Panasonic;VIERA 2017;3.142;3501-0003 0002-0000;) PanasonicSDK/2017'
+    readable: 'a Panasonic Viera 2017'
+    result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2017' } }
+-
     headers: 'User-Agent: HbbTV/1.4.1 (+DRM;Panasonic;SmartTV2018mid;0.002;2401-0003 0008-0000;SmartTV2018;)'
     readable: 'a Panasonic Viera 2018'
     result: { device: { type: television, manufacturer: Panasonic, series: 'Viera 2018' } }
