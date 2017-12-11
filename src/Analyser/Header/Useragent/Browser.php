@@ -1311,7 +1311,7 @@ trait Browser
 
         /* Netfront NX */
 
-        if (preg_match('/NX\/([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/NX[\/ ]([0-9.]+)/u', $ua, $match)) {
             $this->data->browser->name = 'NetFront NX';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;

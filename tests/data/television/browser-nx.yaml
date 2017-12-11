@@ -34,3 +34,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; xx;) AppleWebKit/534(KHTML, like Gecko) NX/2.0 (DTV; HTML; R1.0;)  InettvBrowser/2.2 (00E064;UA46FS7000;0001;0001) TvpsExtInfo/A31002 (6A31AA40155FBC8EDC1468E7309DB736;22;T)'
     result: { browser: { name: 'NetFront NX', version: '2.0', type: browser }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
     readable: 'NetFront NX 2.0 on a Samsung Smart TV'
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (;Access;NetFront NX 3;;;) Netfont webkit'
+    readable: 'NetFront NX 3 on a television'
+    result: { browser: { name: 'NetFront NX', version: '3', type: browser }, device: { type: television } }
+-
+    headers: 'User-Agent: HbbTV/1.1.1 (;Access;NetFront NX 3;;;)'
+    readable: 'NetFront NX 3 on a television'
+    result: { browser: { name: 'NetFront NX', version: '3', type: browser }, device: { type: television } }
