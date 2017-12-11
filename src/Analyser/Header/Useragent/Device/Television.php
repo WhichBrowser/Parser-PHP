@@ -951,6 +951,12 @@ trait Television
                             case 'Viera2015.mid':
                                 $this->data->device->series = 'Viera 2015';
                                 break;
+                            case 'VIERA 2016':
+                                $this->data->device->series = 'Viera 2016';
+                                break;
+                            case 'VIERA 2017':
+                                $this->data->device->series = 'Viera 2017';
+                                break;
                             default:
                                 $this->data->device->model = $modelName;
                                 break;
