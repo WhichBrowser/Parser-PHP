@@ -146,3 +146,11 @@
     headers: 'User-Agent: Mozilla/5.0 (TV; Linux; Tizen2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
     readable: 'Samsung Browser 1.0 on a Samsung Smart TV running Tizen 2.3'
     result: { browser: { name: 'Samsung Browser', version: '1.0' }, engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.3' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
+-
+    headers: 'User-Agent: HbbTV/1.2.1 (+DRM;Samsung;SmartTV2016;T-JZMDEUC-1201.6;;) WebKit'
+    readable: 'a Samsung Smart TV 2016'
+    result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2016' } }
+-
+    headers: 'User-Agent: HbbTV/1.2.1 (+DRM;Samsung;SmartTV2017;T-KTMDEUC-1147.1;;)+TVPLUS+SmartHubLink Chrome'
+    readable: 'a Samsung Smart TV'
+    result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }

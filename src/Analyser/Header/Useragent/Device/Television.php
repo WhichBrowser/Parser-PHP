@@ -917,6 +917,12 @@ trait Television
                             case 'SmartTV2015':
                                 $this->data->device->series = 'Smart TV 2015';
                                 break;
+                            case 'SmartTV2016':
+                                $this->data->device->series = 'Smart TV 2016';
+                                break;
+                            case 'SmartTV2017':
+                                $this->data->device->series = 'Smart TV 2017';
+                                break;
                             case 'OTV-SMT-E5015':
                                 $this->data->device->model = 'Olleh SkyLife Smart Settopbox';
                                 unset($this->data->device->series);
