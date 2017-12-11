@@ -87,6 +87,7 @@ DeviceModels::$FEATURE_MODELS = [
     'SGH-Z500!'                                 => [ 'Samsung', 'Z500' ],
     'SM-B313E'                                  => [ 'Samsung', 'Metro 313' ],
     'SM-B350E'                                  => [ 'Samsung', 'Metro 350' ],
+    'SM-B360E'                                  => [ 'Samsung', 'Metro 360' ],
     'SM-B780(A|W)!'                             => [ 'Samsung', 'Rugby 4' ],
     'S7350'                                     => [ 'Samsung', 'S7350 Ultra S' ],
     'sam-r560'                                  => [ 'Samsung', 'Messenger II R560' ],

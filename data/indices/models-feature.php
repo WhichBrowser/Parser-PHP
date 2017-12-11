@@ -190,7 +190,8 @@ DeviceModels::$FEATURE_INDEX = array (
   array (
     0 => 'SM-B313E',
     1 => 'SM-B350E',
-    2 => 'SM-B780(A|W)!',
+    2 => 'SM-B360E',
+    3 => 'SM-B780(A|W)!',
   ),
   '@TE' => 
   array (

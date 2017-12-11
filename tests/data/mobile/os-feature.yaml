@@ -268,8 +268,8 @@
     readable: 'NetFront 4.2 on a Samsung Freeform M'
 -
     headers: 'User-Agent: SAMSUNG-SM-B360E Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35840/35.7561; U; xx) Presto/2.8.119 Version/11.10'
-    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: SM-B360E } }
-    readable: 'Opera Mini 8.0 on a Samsung SM-B360E'
+    result: { browser: { name: 'Opera Mini', version: '8.0', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Metro 360' } }
+    readable: 'Opera Mini 8.0 on a Samsung Metro 360'
 -
     headers: 'User-Agent: SAMSUNG-SM-B780A/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '4.2', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: 'Rugby 4' } }
