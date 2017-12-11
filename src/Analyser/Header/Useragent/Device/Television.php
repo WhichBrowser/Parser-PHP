@@ -306,7 +306,7 @@ trait Television
 
     private function detectSamsungTelevision($ua)
     {
-        if (preg_match('/(SMART-TV|SmartHub)/u', $ua)) {
+        if (preg_match('/(SMART-TV;|SmartHub;)/u', $ua)) {
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->series = 'Smart TV';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
