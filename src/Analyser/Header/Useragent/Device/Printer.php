@@ -8,7 +8,7 @@ trait Printer
 {
     private function detectPrinter($ua)
     {
-        if (!preg_match('/(TASKalfa|CanonIJCL|PrintSmart|EpsonHello)/ui', $ua)) {
+        if (!preg_match('/(TASKalfa|CanonIJCL|IR-S|PrintSmart|EpsonHello)/ui', $ua)) {
             return;
         }
 
@@ -29,6 +29,16 @@ trait Printer
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Canon',
                 'model'         =>  'IJ Printer',
+                'type'          =>  Constants\DeviceType::PRINTER
+            ]);
+        }
+
+        /* Canon iR S */
+
+        if (preg_match('/IR-S/iu', $ua, $match)) {
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Canon',
+                'model'         =>  'imageRUNNER',
                 'type'          =>  Constants\DeviceType::PRINTER
             ]);
         }
