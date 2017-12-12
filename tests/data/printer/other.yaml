@@ -18,3 +18,11 @@
     headers: 'User-Agent: Mozilla/5.0 (MFP; 99/0100o100; like Gecko) NetFront/3.5'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: printer } }
     readable: 'NetFront 3.5'
+-
+    headers: 'User-Agent: Mozilla/5.0  AppleWebKit/537.21 (KHTML, like Gecko)   Safari/537.21 EpsonHello/1.0(device_id:TFQY010390)'
+    readable: 'an Epson Hello'
+    result: { engine: { name: Webkit, version: '537.21' }, device: { type: printer, manufacturer: Epson, model: Hello } }
+-
+    headers: 'User-Agent: Mozilla/5.0  AppleWebKit/537.21 (KHTML, like Gecko)   Safari/537.21 EpsonHello/1.0(uuid:303030303030303000)'
+    readable: 'an Epson Hello'
+    result: { engine: { name: Webkit, version: '537.21' }, device: { type: printer, manufacturer: Epson, model: Hello } }

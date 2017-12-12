@@ -8,7 +8,7 @@ trait Printer
 {
     private function detectPrinter($ua)
     {
-        if (!preg_match('/(TASKalfa|CanonIJCL|PrintSmart)/ui', $ua)) {
+        if (!preg_match('/(TASKalfa|CanonIJCL|PrintSmart|EpsonHello)/ui', $ua)) {
             return;
         }
 
@@ -39,6 +39,16 @@ trait Printer
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'HP',
                 'model'         =>  'Web PrintSmart',
+                'type'          =>  Constants\DeviceType::PRINTER
+            ]);
+        }
+
+        /* Epson Hello */
+
+        if (preg_match('/EpsonHello\//iu', $ua, $match)) {
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Epson',
+                'model'         =>  'Hello',
                 'type'          =>  Constants\DeviceType::PRINTER
             ]);
         }
