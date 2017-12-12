@@ -491,7 +491,7 @@ trait Mobile
             }
         ]);
 
-        $this->data->device->identifyModel('/Motorola[_ ]([^\/_;]+)/ui', $ua, [
+        $this->data->device->identifyModel('/Motorola[_ ]([^\/_;\)]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Motorola'
         ]);

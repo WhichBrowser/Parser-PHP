@@ -498,3 +498,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; XT611 Build/V4.570) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'MOTOSMART Flip' } }
     readable: 'Android Browser on a Motorola MOTOSMART Flip running Android 2.3.7'
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Motorola ROKR E2) MOT-ROKR E2/R564_G_12.00.20R Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera 8.50 [zh-tw]'
+    readable: 'Opera Mobile 8.50 on a Motorola ROKR E2'
+    result: { browser: { name: 'Opera Mobile', version: '8.50', type: browser }, engine: { name: Presto }, device: { type: mobile, subtype: feature, manufacturer: Motorola, model: 'ROKR E2' } }
