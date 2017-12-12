@@ -214,3 +214,11 @@
     headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE5.0; Symbian OS); Opera 6.02 [de]'
     readable: 'Opera Mobile 6.02'
     result: { browser: { name: 'Opera Mobile', version: '6.02', type: browser }, engine: { name: Electra }, os: { family: Symbian }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Opera/9.80; S60 SymbOS; Opera Mobi/SYB-1104061449 ) AppleWebKit/535.1 (KHTML, like Gecko) Firefox/6.0/7.4.1.8 Mobile Safari/535.1'
+    readable: 'Opera Mobile 9.80 on Series60'
+    result: { browser: { name: 'Opera Mobile', version: '9.80', type: browser }, engine: { name: Presto }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Opera/9.80; S60 SymbOS; Opera Mobi/SYB-1107071606 ) AppleWebKit/535.1 (KHTML, like Gecko) Version/11.10/.. Mobile Safari/535.1 3gpp-gba'
+    readable: 'Opera Mobile 11.10 on Series60'
+    result: { browser: { name: 'Opera Mobile', version: '11.10', type: browser }, engine: { name: Presto }, os: { name: Series60, family: Symbian }, device: { type: mobile, subtype: smart } }

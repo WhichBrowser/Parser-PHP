@@ -1301,7 +1301,7 @@ trait Os
             $this->data->device->type = Constants\DeviceType::MOBILE;
         }
 
-        if (preg_match('/Series[ ]?60/u', $ua) || preg_match('/S60[V\/;]/u', $ua)) {
+        if (preg_match('/Series[ ]?60/u', $ua) || preg_match('/S60[V\/;]/u', $ua) || preg_match('/S60 Symb/u', $ua)) {
             $this->data->os->name = 'Series60';
             $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
             $this->data->device->type = Constants\DeviceType::MOBILE;
