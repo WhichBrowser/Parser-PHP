@@ -150,3 +150,7 @@
     headers: 'User-Agent: Mozilla/4.5 (compatible; iCab Pre2.3; Macintosh; I; PPC)'
     readable: 'iCab 2.3 on Mac OS'
     result: { browser: { name: iCab, version: '2.3', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/4/5 (compatible; iCab 2.9.8; Macintosh; U; 68K)'
+    readable: 'iCab 2.9.8 on Mac OS'
+    result: { browser: { name: iCab, version: 2.9.8, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
