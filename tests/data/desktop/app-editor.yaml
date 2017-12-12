@@ -14,3 +14,15 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) iWeb/304'
     result: { browser: { name: iWeb, version: '3', type: 'app:editor' }, engine: { name: Webkit, version: 600.1.25 }, os: { name: 'OS X', version: { value: '10.10', nickname: Yosemite } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'iWeb 3 on OS X Yosemite 10.10'
+-
+    headers: 'User-Agent: Mozilla/4.0 (IBM WebSphere Homepage Builder V12.0/Version 12.0.4.0)'
+    readable: 'IBM WebSphere Homepage Builder 12.0'
+    result: { browser: { name: 'IBM WebSphere Homepage Builder', version: '12.0', type: 'app:editor' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (IBM WebSphere Homepage Builder V7.0/Version 7.0.1.0)'
+    readable: 'IBM WebSphere Homepage Builder 7.0'
+    result: { browser: { name: 'IBM WebSphere Homepage Builder', version: '7.0', type: 'app:editor' } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (IBM WebSphere Homepage Builder V10.0/Version 10.0.3.0)'
+    readable: 'IBM WebSphere Homepage Builder 10.0'
+    result: { browser: { name: 'IBM WebSphere Homepage Builder', version: '10.0', type: 'app:editor' } }

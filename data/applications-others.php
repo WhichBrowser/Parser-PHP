@@ -114,6 +114,7 @@ Applications::$OTHERS = [
         [ 'name' => 'iWeb',                 'id'    => 'iweb',      'regexp' =>'/(?:^| )iWeb\/([0-9])/u' ],
         [ 'name' => 'Microsoft FrontPage',  'id'    => 'frontpage',      'regexp' =>'/MS ?FrontPage[ \/]([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'W3C Amaya',            'id'    => 'amaya',      'regexp' =>'/amaya\/([0-9.]*)/u' ],
+        [ 'name' => 'IBM WebSphere Homepage Builder', 'id' => 'websphere', 'regexp' =>'/IBM WebSphere Homepage Builder V([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_DOWNLOAD => [
