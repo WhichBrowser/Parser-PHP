@@ -50,7 +50,7 @@ trait Engine
         if (preg_match('/CoralWebkit/iu', $ua, $match)) {
             $this->data->engine->version = null;
         }
-}
+    }
 
 
     /* KHTML */
