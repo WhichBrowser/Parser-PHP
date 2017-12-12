@@ -813,6 +813,7 @@ trait Television
                                 $this->data->device->series = 'NetCast TV 2012';
                                 break;
                             case 'LGwebOSTV':
+                            case 'webOSTV3_0':
                                 $this->data->device->series = 'webOS TV';
                                 break;
                         }
@@ -894,6 +895,8 @@ trait Television
                             case 'GLOBAL-PLAT4':
                                 $this->data->device->series = 'NetCast TV 2013';
                                 break;
+                            case 'WEBOS1':
+                            case 'WEBOS2.0':
                             case 'WEBOS3':
                                 $this->data->device->series = 'webOS TV';
                                 break;

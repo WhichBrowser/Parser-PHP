@@ -310,3 +310,15 @@
     headers: 'User-Agent: Mozilla/5.0 (DirectFB; Linux; ko-KR) AppleWebKit/534.26 (KHTML, like Gecko) Version/5.0 Safari/534.26'
     readable: 'a LG NetCast TV 2012'
     result: { engine: { name: Webkit, version: '534.26' }, device: { type: television, manufacturer: LG, series: 'NetCast TV 2012' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ HbbTV/1.2.1 (+DRM; LGE; WEBOS1; 05.05.35; 1M14;)'
+    readable: 'a LG webOS TV'
+    result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ HbbTV/1.2.1 (+DRM; LGE; WEBOS2.0; 04.00.90; HE_DTV_W15M;)'
+    readable: 'a LG webOS TV'
+    result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ Hybridcast/1.0(;00E091;webOSTV3_0;2;2;)0'
+    readable: 'a LG webOS TV'
+    result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
