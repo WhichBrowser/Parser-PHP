@@ -166,8 +166,14 @@ trait Ereader
                 case '630':
                     $model = 'Sense';
                     break;
+                case '631':
+                    $model = 'Touch HD';
+                    break;
                 case '640':
                     $model = 'Aqua';
+                    break;
+                case '641':
+                    $model = 'Aqua 2';
                     break;
                 case '650':
                     $model = 'Ultra';

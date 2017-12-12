@@ -42,3 +42,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; en_US) AppleWebKit/534.34 PocketBook/801 (screen 600x800; FW W801.4.1.886)'
     result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Color Lux' } }
     readable: 'a PocketBook Color Lux'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebKit/534.34 PocketBook/631 (screen 1072x1448; FW U631.5.16.579) Mobile'
+    readable: 'a PocketBook Touch HD'
+    result: { engine: { name: Webkit, version: '534.34' }, device: { type: ereader, manufacturer: PocketBook, model: 'Touch HD' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux like Android; en_US) AppleWebkit/538.1 PocketBook/641 (screen 758x1024; FW U641.5.18.72) Mobile'
+    readable: 'a PocketBook Aqua 2'
+    result: { engine: { name: Webkit, version: '538.1' }, device: { type: ereader, manufacturer: PocketBook, model: 'Aqua 2' } }
