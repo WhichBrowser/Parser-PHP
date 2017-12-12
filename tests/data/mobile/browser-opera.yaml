@@ -110,3 +110,15 @@
     headers: 'User-Agent: Opera/9.51 Beta (Microsoft Windows; PPC; 240x320; Opera Mobi/1718; U; en)'
     result: { browser: { name: 'Opera Mobile', version: '9.51', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
     readable: 'Opera Mobile 9.51 on Windows Mobile'
+-
+    headers: 'User-Agent: GT-C3595 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33398/34.2003; U; xx) Presto/2.8.119 Version/11.10'
+    readable: 'Opera Mini 7.1 on a Samsung GT-C3595'
+    result: { browser: { name: 'Opera Mini', version: '7.1', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-C3595 } }
+-
+    headers: 'User-Agent: GT-E3300 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29644/35.6822; U; xx) Presto/2.8.119 Version/11.10'
+    readable: 'Opera Mini 4.4 on a Samsung GT-E3300'
+    result: { browser: { name: 'Opera Mini', version: '4.4', type: browser }, engine: { name: Presto, version: 2.8.119 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-E3300 } }
+-
+    headers: 'User-Agent: GT-E3309 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29644/37.8773; U; es) Presto/2.12.423 Version/12.16'
+    readable: 'Opera Mini 4.4 on a Samsung GT-E3309'
+    result: { browser: { name: 'Opera Mini', version: '4.4', type: browser }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-E3309 } }
