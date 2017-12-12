@@ -410,3 +410,11 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; Ubuntu 14.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Safari/537.36'
     readable: 'Chrome 33 on Ubuntu 14.10'
     result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Ubuntu, version: '14.10' }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; elementary OS Luna i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1495.0 Maxthon/0.9.1.0 beta Safari/537.36'
+    readable: 'Maxthon 0.9.1 on elementary OS Luna'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 28 }, version: 0.9.1, type: browser }, engine: { name: Blink }, os: { name: 'elementary OS', version: { alias: Luna } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; elementary OS Luna x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1495.0 Maxthon/0.9.1.0 beta Safari/537.36'
+    readable: 'Maxthon 0.9.1 on elementary OS Luna'
+    result: { browser: { name: Maxthon, family: { name: Chrome, version: 28 }, version: 0.9.1, type: browser }, engine: { name: Blink }, os: { name: 'elementary OS', version: { alias: Luna } }, device: { type: desktop } }
