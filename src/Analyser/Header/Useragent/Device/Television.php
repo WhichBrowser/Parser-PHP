@@ -418,7 +418,7 @@ trait Television
             $this->data->device->type = Constants\DeviceType::TELEVISION;
             $this->data->device->identified |= Constants\Id::MATCH_UA;
 
-            if (preg_match('/Panasonic\.tv\.(?:mid\.)?([0-9]+)/u', $ua, $match)) {
+            if (preg_match('/Panasonic\.tv\.(?:mid\.|pro4\.)?([0-9]+)/u', $ua, $match)) {
                 $this->data->device->series = 'Viera ' . $match[1];
             }
 

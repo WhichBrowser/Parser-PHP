@@ -170,3 +170,7 @@
     headers: 'User-Agent: HbbTV/1.1.1 (+PVR;Panasonic;DIGA WebKit M8158;3.300;;)'
     readable: 'a Panasonic Diga'
     result: { device: { type: television, manufacturer: Panasonic, series: Diga } }
+-
+    headers: 'User-Agent: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.tv.pro4.2013)'
+    readable: 'a Panasonic Viera 2013'
+    result: { engine: { name: Webkit, version: '420' }, device: { type: television, manufacturer: Panasonic, series: 'Viera 2013' } }
