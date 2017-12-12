@@ -118,3 +118,23 @@
     headers: 'User-Agent: Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.53 (KHTML, like Gecko) NWF/2.0.0.38696.USA'
     result: { browser: { name: 'Nintendo Web Framework', version: '2.0', type: browser }, engine: { name: Webkit, version: '534.53' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: 'Wii U' } }
     readable: 'Nintendo Web Framework 2.0 on a Nintendo Wii U'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nintendo Switch; LoginApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.9 NintendoBrowser/5.1.0.13341'
+    readable: 'a Nintendo Switch'
+    result: { engine: { name: Webkit, version: '601.6' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Switch } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.10 NintendoBrowser/5.1.0.13343'
+    readable: 'a Nintendo Switch'
+    result: { engine: { name: Webkit, version: '601.6' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Switch } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nintendo Switch; ShopN) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.10 NintendoBrowser/5.1.0.13343'
+    readable: 'a Nintendo Switch'
+    result: { engine: { name: Webkit, version: '601.6' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Switch } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nintendo Switch; WebApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.2 NintendoBrowser/5.1.0.12653'
+    readable: 'a Nintendo Switch'
+    result: { engine: { name: Webkit, version: '601.6' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Switch } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Nintendo Switch; WebApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14935'
+    readable: 'a Nintendo Switch'
+    result: { engine: { name: Webkit, version: '601.6' }, device: { type: gaming, subtype: console, manufacturer: Nintendo, model: Switch } }

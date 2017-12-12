@@ -27,6 +27,18 @@ trait Gaming
 
     private function detectNintendo($ua)
     {
+        /* Switch */
+
+        if (preg_match('/Nintendo Switch/u', $ua)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Nintendo',
+                'model'         =>  'Switch',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        }
+
         /* Wii */
 
         if (preg_match('/Nintendo Wii/u', $ua)) {
