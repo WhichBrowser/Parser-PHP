@@ -36,6 +36,7 @@ DeviceModels::$FEATURE_MODELS = [
     'P9020'                                     => [ 'Pantech', 'Pursuit' ],
     'P9050'                                     => [ 'Pantech', 'Laser' ],
     'PM-8200'                                   => [ 'Sanyo', 'PM-8200' ],
+    'SCP-5300'                                  => [ 'Sanyo', 'SCP-5300' ],
     'SCP-5500'                                  => [ 'Sanyo', 'VM4500' ],
     'SCP-6600'                                  => [ 'Sanyo', 'Katana' ],
     'PLS6600KJ'                                 => [ 'Sanyo', 'Katana' ],

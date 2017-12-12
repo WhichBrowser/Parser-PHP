@@ -126,3 +126,7 @@
     headers: 'User-Agent: GT-E3210/E3213KDDKD2 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'NetFront 4.1 on a Samsung GT-E3210'
     result: { browser: { name: NetFront, version: '4.1', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-E3210 } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (MobilePhone SCP-5300/1.0) NetFront/3.0 MMP/2.0'
+    readable: 'NetFront 3.0 on a Sanyo SCP-5300'
+    result: { browser: { name: NetFront, version: '3.0', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sanyo, model: SCP-5300 } }
