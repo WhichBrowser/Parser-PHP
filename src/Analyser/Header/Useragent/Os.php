@@ -160,7 +160,7 @@ trait Os
 
         /* Mac OS */
 
-        if (preg_match('/\(Macintosh;/u', $ua) && !preg_match('/OS X/u', $ua)) {
+        if (preg_match('/(; |\()Macintosh;/u', $ua) && !preg_match('/OS X/u', $ua)) {
             $this->data->os->name = 'Mac OS';
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }

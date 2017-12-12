@@ -140,13 +140,13 @@
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.5 (compatible; iCab 2.7.1; Macintosh; I; PPC)'
-    readable: 'iCab 2.7.1'
-    result: { browser: { name: iCab, version: 2.7.1, type: browser } }
+    readable: 'iCab 2.7.1 on Mac OS'
+    result: { browser: { name: iCab, version: 2.7.1, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/4.5 (compatible; iCab 2.9.8; Macintosh; U; PPC)'
-    readable: 'iCab 2.9.8'
-    result: { browser: { name: iCab, version: 2.9.8, type: browser } }
+    readable: 'iCab 2.9.8 on Mac OS'
+    result: { browser: { name: iCab, version: 2.9.8, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/4.5 (compatible; iCab Pre2.3; Macintosh; I; PPC)'
-    readable: 'iCab 2.3'
-    result: { browser: { name: iCab, version: '2.3', type: browser } }
+    readable: 'iCab 2.3 on Mac OS'
+    result: { browser: { name: iCab, version: '2.3', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
