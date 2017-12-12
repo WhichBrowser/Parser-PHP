@@ -1332,7 +1332,8 @@ trait Os
 
         if (preg_match('/Symbian/u', $ua)) {
             $this->data->os->family = new Family([ 'name' => 'Symbian' ]);
-
+            $this->data->device->type = Constants\DeviceType::MOBILE;
+            
             if (preg_match('/SymbianOS\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->os->family->version = new Version([ 'value' => $match[1] ]);
             }

@@ -28,7 +28,7 @@
     readable: 'Nokia Browser 8.3.1 on a Vertu Constellation T running Series60 5.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; xx) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
-    result: { engine: { name: Webkit, version: '413' }, os: { family: { name: Symbian, version: '9.1' } } }
+    result: { engine: { name: Webkit, version: '413' }, os: { family: { name: Symbian, version: '9.1' } }, device: { type: mobile, subtype: feature } }
     readable: 'an unknown browser based on Webkit 413'
 -
     headers: 'User-Agent: Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 Nokia6710s/031.020; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1'
@@ -201,4 +201,16 @@
 -
     headers: 'User-Agent: Doris/1.15 [en] (Symbian)'
     readable: 'Doris 1.15'
-    result: { browser: { name: Doris, version: '1.15', type: browser }, os: { family: Symbian } }
+    result: { browser: { name: Doris, version: '1.15', type: browser }, os: { family: Symbian }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS) Opera 6.02 [en]'
+    readable: 'Opera Mobile 6.02'
+    result: { browser: { name: 'Opera Mobile', version: '6.02', type: browser }, engine: { name: Electra }, os: { family: Symbian }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS) Opera 6.20 [en]'
+    readable: 'Opera Mobile 6.20'
+    result: { browser: { name: 'Opera Mobile', version: '6.20', type: browser }, engine: { name: Electra }, os: { family: Symbian }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/4.1 (compatible; MSIE5.0; Symbian OS); Opera 6.02 [de]'
+    readable: 'Opera Mobile 6.02'
+    result: { browser: { name: 'Opera Mobile', version: '6.02', type: browser }, engine: { name: Electra }, os: { family: Symbian }, device: { type: mobile, subtype: feature } }
