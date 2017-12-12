@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; snom760-SIP 8.8.2.16 2010.06 OCS)'
+    readable: 'a SNOM 760 IP Telephone'
+    result: { device: { type: mobile, subtype: desktop, manufacturer: SNOM, model: '760 IP Telephone' } }
