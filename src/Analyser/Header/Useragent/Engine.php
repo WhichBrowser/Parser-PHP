@@ -46,7 +46,11 @@ trait Engine
         if (preg_match('/AppleWebkit\(like Gecko\)/iu', $ua, $match)) {
             $this->data->engine->name = 'Webkit';
         }
-    }
+
+        if (preg_match('/CoralWebkit/iu', $ua, $match)) {
+            $this->data->engine->version = null;
+        }
+}
 
 
     /* KHTML */

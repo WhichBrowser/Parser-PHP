@@ -17,16 +17,16 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Canon Ewloe-S;IR-S/3.0.0) CoralWebkit/2.0.0(KHTML, like Gecko)'
     readable: 'a Canon imageRUNNER'
-    result: { engine: { name: Webkit, version: 2.0.0 }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
+    result: { engine: { name: Webkit }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Canon Madriu-S;IR-S/3.0.0) CoralWebkit/2.0.0(KHTML, like Gecko)'
     readable: 'a Canon imageRUNNER'
-    result: { engine: { name: Webkit, version: 2.0.0 }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
+    result: { engine: { name: Webkit }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
 -
     headers: 'User-Agent: Mozilla/5.0 (558122f6ec4c4a7cb95fbee81d5c96e1-02-00;IR-S/3.3.0) CoralWebkit/2.24.0 (KHTML, like Gecko)'
     readable: 'a Canon imageRUNNER'
-    result: { engine: { name: Webkit, version: 2.24.0 }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
+    result: { engine: { name: Webkit }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
 -
     headers: 'User-Agent: Mozilla/5.0 (3d9f0c0ffffe40c198b18c7bde9e4b03-01-00;IR-S/3.0.0) CoralWebkit/2.9.2(KHTML, like Gecko)'
     readable: 'a Canon imageRUNNER'
-    result: { engine: { name: Webkit, version: 2.9.2 }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
+    result: { engine: { name: Webkit }, device: { type: printer, manufacturer: Canon, model: imageRUNNER } }
