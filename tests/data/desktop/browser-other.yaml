@@ -138,3 +138,15 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727); Windows NT 5.1; Trident/4.0; Maxthon; .NET CLR 2.0.50727; .NET CLR 1.1.4322; InfoPath.2)'
     readable: 'Acoo Browser on Windows XP'
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; iCab 2.7.1; Macintosh; I; PPC)'
+    readable: 'iCab 2.7.1'
+    result: { browser: { name: iCab, version: 2.7.1, type: browser } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; iCab 2.9.8; Macintosh; U; PPC)'
+    readable: 'iCab 2.9.8'
+    result: { browser: { name: iCab, version: 2.9.8, type: browser } }
+-
+    headers: 'User-Agent: Mozilla/4.5 (compatible; iCab Pre2.3; Macintosh; I; PPC)'
+    readable: 'iCab 2.3'
+    result: { browser: { name: iCab, version: '2.3', type: browser } }
