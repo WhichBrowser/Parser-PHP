@@ -190,3 +190,15 @@
     headers: 'User-Agent: Mozilla/3.0 AVE-Front/2.6 (BrowserInfo Screen=640x448x16M; InputMethod=CONTROLER, MOUSE, REMOCON; Page=12M; Category=GAME; Product=SUNSOFT/EnjoyMagic; HTML-Level=3.2; Language=ja.SJIS; Storage=NO;)'
     result: { browser: { name: NetFront, version: '2.6', type: browser }, engine: { name: NetFront }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 2' } }
     readable: 'NetFront 2.6 on a Sony Playstation 2'
+-
+    headers: 'User-Agent: Mozilla/5.0 (PS3; Leanback Shell) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/19.0.1048.0 LeanbackShell/01.00.01.73 QA Safari/535.22 Sony PS3/ (PS3, , no, CH)'
+    readable: 'Chrome Dev 19.0.1048.0 on a Sony Playstation 3'
+    result: { browser: { name: Chrome, version: 19.0.1048.0, type: browser }, engine: { name: Webkit, version: '535.22' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PS4; Leanback Shell) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.70 LeanbackShell/2.3D Gold build cf8a43c-2016329 Safari/537.22 Sony Playstation4/ (PS4,, en, US)'
+    readable: 'Chrome 25 on a Sony Playstation 4'
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 4' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PS3; PPU 4.2.0) AppleWebKit/537.21+ (KHTML, like Gecko) AmazonSpark/0.1.0'
+    readable: 'a Sony Playstation 3'
+    result: { engine: { name: Webkit, version: '537.21' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }

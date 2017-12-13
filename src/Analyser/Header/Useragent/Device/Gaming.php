@@ -196,7 +196,7 @@ trait Gaming
 
         /* PlayStation 4 */
 
-        if (preg_match('/PlayStation 4/ui', $ua)) {
+        if (preg_match('/PlayStation 4/ui', $ua) || preg_match('/\(PS4/u', $ua)) {
             $this->data->os->reset();
             $this->data->os->identifyVersion('/PlayStation 4 ([0-9.]*)/u', $ua);
 
