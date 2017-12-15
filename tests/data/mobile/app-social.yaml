@@ -40,8 +40,8 @@
     result: { browser: { name: Pinterest, version: iOS, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Safari/537.36 [Pinterest/Android]'
-    readable: 'Pinterest on an Amazon Fire HDX 8.9" (2014) running FireOS 4.5'
-    result: { browser: { name: Pinterest, using: 'Amazon WebView', version: Android, type: 'app:social' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HDX 8.9" (2014)' } }
+    readable: 'Pinterest on an Amazon Fire HDX 8.9 (2014) running FireOS 4.5'
+    result: { browser: { name: Pinterest, using: 'Amazon WebView', version: Android, type: 'app:social' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HDX 8.9 (2014)' } }
 -
     headers: 'User-Agent: Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0'
     readable: 'Pinterest on iOS 6.1.2'

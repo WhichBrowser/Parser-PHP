@@ -220,8 +220,8 @@
     readable: 'UC Browser 10.0 on a Nokia X2 running Nokia X Platform'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWI Build/KTU84M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.576 U3/0.8.0 Mobile Safari/534.30'
-    result: { browser: { name: 'UC Browser', version: '10.4', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX' } }
-    readable: 'UC Browser 10.4 on an Amazon Kindle Fire HDX running FireOS 4.5'
+    result: { browser: { name: 'UC Browser', version: '10.4', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HDX (2013)' } }
+    readable: 'UC Browser 10.4 on an Amazon Kindle Fire HDX (2013) running FireOS 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; SD4930UR Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.7.0.636 U3/0.8.0 Mobile Safari/534.30'
     result: { browser: { name: 'UC Browser', version: '10.7', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }

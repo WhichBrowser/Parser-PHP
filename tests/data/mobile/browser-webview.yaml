@@ -8,8 +8,8 @@
     readable: 'Crosswalk WebView 3 on a ZTE Geek running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFARWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3;0'
-    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6' } }
-    readable: 'Amazon WebView on an Amazon Fire HD 6 running FireOS 4.5'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 6 (2014)' } }
+    readable: 'Amazon WebView on an Amazon Fire HD 6 (2014) running FireOS 4.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36'
     result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink }, os: { name: FireOS, family: Android }, device: { type: mobile, subtype: smart, manufacturer: Amazon, model: 'Fire Phone' } }
@@ -20,8 +20,8 @@
     readable: 'Chromium WebView 30 on a LG Nexus 5 running Android 4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; KFTBWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.51020.2250.0238 Safari/537.36'
-    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 10' } }
-    readable: 'Amazon WebView on an Amazon Fire HD 10 running FireOS 5'
+    result: { browser: { using: 'Amazon WebView' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HD 10 (2015)' } }
+    readable: 'Amazon WebView on an Amazon Fire HD 10 (2015) running FireOS 5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36'
     result: { browser: { using: { name: 'Chromium WebView', version: '43' } }, engine: { name: Blink }, os: { name: Android, version: 5.1.1 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }

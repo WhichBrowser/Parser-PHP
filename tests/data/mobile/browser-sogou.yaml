@@ -8,8 +8,8 @@
     readable: 'Sogou Mobile 3.1 on a HTC Incredible S running Android 2.3.5'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; KFTT Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/2.6.3'
-    result: { browser: { name: 'Sogou Mobile', version: '2.6', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD' } }
-    readable: 'Sogou Mobile 2.6 on an Amazon Kindle Fire HD running FireOS 2'
+    result: { browser: { name: 'Sogou Mobile', version: '2.6', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: FireOS, family: Android, version: '2' }, device: { type: tablet, manufacturer: Amazon, model: 'Kindle Fire HD (2012)' } }
+    readable: 'Sogou Mobile 2.6 on an Amazon Kindle Fire HD (2012) running FireOS 2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; xx; Lenovo A390t Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.5.1'
     result: { browser: { name: 'Sogou Mobile', version: '3.5', type: browser }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: A390 } }
