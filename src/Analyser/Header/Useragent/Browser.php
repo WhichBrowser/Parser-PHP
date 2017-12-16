@@ -2022,6 +2022,13 @@ trait Browser
 
         /* 360 Phone Browser */
 
+        if (preg_match('/360 (?:Aphone|Android Phone) Browser/u', $ua, $match)) {
+            $this->data->browser->name = 'Qihoo 360 Browser';
+            $this->data->browser->family = null;
+            $this->data->browser->channel = '';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
         if (preg_match('/360 (?:Aphone|Android Phone) Browser \((?:Version |V)?([0-9.]*)(?:beta)?\)/u', $ua, $match)) {
             $this->data->browser->name = 'Qihoo 360 Browser';
             $this->data->browser->family = null;

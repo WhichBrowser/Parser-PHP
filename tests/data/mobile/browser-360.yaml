@@ -198,3 +198,7 @@
     headers: 'User-Agent: 360%20Lite/5.3.2 CFNetwork/672.0.8 Darwin/14.0.0'
     result: { browser: { name: 'Qihoo 360 Browser', version: 5.3.2, type: browser }, os: { name: iOS, version: 7.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Qihoo 360 Browser 5.3.2 on iOS 7.0.3'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X820 Build/FEXCNFN5902605092S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36; 360browser(securitypay,securityinstalled); 360(android,uppayplugin); 360 Aphone Browser'
+    readable: 'Qihoo 360 Browser on a LeEco Le Max 2 X820 running Android 6.0.1'
+    result: { browser: { name: 'Qihoo 360 Browser', using: { name: 'Chromium WebView', version: '49' }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le Max 2 X820' } }
