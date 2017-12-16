@@ -6004,7 +6004,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?TRT-(AL00|L21|L53|LX1|LX2|LX3|TL10)!'            => [ 'Huawei', 'Enjoy 7 Plus' ],
     ],
 
-    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|DUK|EDI|FRD|HN3|H30|H60|HOL|KIW|LDD-NEM|NMO|PE|PLK|SCL|KNT|CAM|STF)!!' => [
+    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|DUK|EDI|FRD|HN3|H30|H60|HOL|KIW|LDD|NEM|NMO|PE|PLK|SCL|KNT|CAM|STF)!!' => [
         'H30 U10'                                                       => [ 'Huawei', 'Honor 3C' ],
         '(HW-|HUAWEI )?HN3-(U00|U01)!'                                  => [ 'Huawei', 'Honor 3' ],
         '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!'        => [ 'Huawei', 'Honor 3C' ],
@@ -7887,6 +7887,15 @@ DeviceModels::$ANDROID_MODELS = [
     'LEAGOOLG13'                                => [ 'LEAGOOL', 'G13' ],
 
     'Le 1S'                                     => [ 'LeEco', 'Le 1s X500' ],
+    'Le 1 Pro'                                  => [ 'LeEco', 'Le 1 Pro X800' ],
+    'Le 2'                                      => [ 'LeEco', 'Le 2 X520' ],
+    'Le 2 Pro'                                  => [ 'LeEco', 'Le 2 Pro X620' ],
+    'Le Max'                                    => [ 'LeEco', 'Le Max X900' ],
+
+    'X527'                                      => [ 'LeEco', 'Le 2 X527' ],
+    'LEX720'                                    => [ 'LeEco', 'Le 3 Pro X720' ],
+    'LEX820'                                    => [ 'LeEco', 'Le Max 2 X820' ],
+
     'Le X500'                                   => [ 'LeEco', 'Le 1s X500' ],
     'Le X501'                                   => [ 'LeEco', 'Le 1s X501' ],
     'Le X506'                                   => [ 'LeEco', 'Le 1s X506' ],
@@ -7899,18 +7908,42 @@ DeviceModels::$ANDROID_MODELS = [
     'Le X528'                                   => [ 'LeEco', 'Le 2 X528' ],
     'Le X620'                                   => [ 'LeEco', 'Le 2 Pro X620' ],
     'Le X621'                                   => [ 'LeEco', 'Le 2 Pro X621' ],
+    'Le X622'                                   => [ 'LeEco', 'Le S3 X622' ],
     'Le X625'                                   => [ 'LeEco', 'Le 2 Pro X625' ],
-    'LEX720'                                    => [ 'LeEco', 'Le 3 Pro X720' ],
     'Le X820'                                   => [ 'LeEco', 'Le Max 2 X820' ],
-    'LEX820'                                    => [ 'LeEco', 'Le Max 2 X820' ],
     'Le X821'                                   => [ 'LeEco', 'Le Max 2 X821' ],
     'Le X822'                                   => [ 'LeEco', 'Le Max 2 X822' ],
     'Le X829'                                   => [ 'LeEco', 'Le Max 2 X829' ],
     'Le X829M'                                  => [ 'LeEco', 'Le Max 2 X829' ],
     'Le X920'                                   => [ 'LeEco', 'Le Max 3 X920' ],
 
-    'X527'                                      => [ 'LeEco', 'Le 2 X527' ],
+    'LETV Letv X500'                            => [ 'LeEco', 'Le 1s X500' ],
+    'LeTv 1s'                                   => [ 'LeEco', 'Le 1s X500' ],
 
+    'Letv X500'                                 => [ 'LeEco', 'Le 1s X500' ],
+    'Letv X501'                                 => [ 'LeEco', 'Le 1s X501' ],
+    'Letv X502'                                 => [ 'LeEco', 'Le 1s X502' ],
+    'Letv X507'                                 => [ 'LeEco', 'Le 1s X507' ],
+    'Letv X520'                                 => [ 'LeEco', 'Le 2 X520' ],
+    'Letv X600'                                 => [ 'LeEco', 'Le 1 X600' ],
+    'Letv X900'                                 => [ 'LeEco', 'Le Max X900' ],
+    'Letv X910'                                 => [ 'LeEco', 'Le Max Pro X910' ],
+
+    'Letv Max4-70'                              => [ 'LeEco', 'Max4-70', DeviceType::TABLET ],
+
+    'Letv C1S'                                  => [ 'LeEco', 'LeTV Box C1S', DeviceType::TELEVISION ],
+    'Letv U2'                                   => [ 'LeEco', 'LeTV Box U2', DeviceType::TELEVISION ],
+
+    'Letv S40 Air'                              => [ 'LeEco', 'LeTV S40 Air', DeviceType::TELEVISION ],
+    'Letv S40 Air L'                            => [ 'LeEco', 'LeTV S40 Air L', DeviceType::TELEVISION ],
+    'Letv S50 Air'                              => [ 'LeEco', 'LeTV S50 Air', DeviceType::TELEVISION ],
+    'Letv X3-40'                                => [ 'LeEco', 'LeTV X3-40', DeviceType::TELEVISION ],
+    'Letv X3-50 UHD'                            => [ 'LeEco', 'LeTV X3-50', DeviceType::TELEVISION ],
+    'Letv X3-55'                                => [ 'LeEco', 'LeTV X3-55', DeviceType::TELEVISION ],
+    'Letv X3-55 Pro'                            => [ 'LeEco', 'LeTV X3-55 Pro', DeviceType::TELEVISION ],
+    'Letv X3-65'                                => [ 'LeEco', 'LeTV X3-65', DeviceType::TELEVISION ],
+    'LeTVX60'                                   => [ 'LeEco', 'LeTV X60', DeviceType::TELEVISION ],
+    
     'leepoo!!' => [
         'leepoo i500'                               => [ 'Leepoo', 'i500' ],
         'leepoo i580'                               => [ 'Leepoo', 'i580' ],
@@ -8372,6 +8405,7 @@ DeviceModels::$ANDROID_MODELS = [
         'MFC045FR'                                  => [ 'Lexibook', 'TabTab', DeviceType::TABLET ],
     ],
 
+    'Le Pan Mini'                               => [ 'Le Pan', 'Mini', DeviceType::TABLET ],
     'Le Pan TC802A'                             => [ 'Le Pan', 'Mini', DeviceType::TABLET ],
     'TC970'                                     => [ 'Le Pan', 'TC970', DeviceType::TABLET ],
     'TC970 (Wi-Fi)'                             => [ 'Le Pan', 'TC970', DeviceType::TABLET ],
