@@ -131,6 +131,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'EUI Browser',          'id'    => 'eui',      'regexp' =>'/EUI Browser\/[^0-9\s]*([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Go.Web',               'id'    => 'go\.web',      'regexp' =>'/Go\.Web\/([0-9.]*)/u' ],                                                              // used on early Blackberry, by GoAmerica
         [ 'name' => 'Helium',               'id'    => 'helium',      'regexp' =>'/HeliumMobileBrowser\/([0-9.]*)/u' ],
+        [ 'name' => 'Huohou Browser',       'id'    => 'huohoubrowser',      'regexp' =>'/HuohouBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCabMobile\/([0-9.]*)/u' ],
         [ 'name' => 'iLunascape',           'id'    => 'lunascape',      'regexp' =>'/iLunascape\/([0-9.]*)/u', 'details' => 3 ],                                           // see: http://www.lunascape.tv
         [ 'name' => 'InternetSurfboard',    'id'    => 'surfboard',      'regexp' =>'/InternetSurfboard\/([0-9.]*)/u' ],
