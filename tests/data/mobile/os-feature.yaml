@@ -594,3 +594,15 @@
     headers: 'User-Agent: Ziox_Z223_wap_browser/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'SEMC Browser 4.0.3 on a Ziox Z223'
     result: { browser: { name: 'SEMC Browser', version: 4.0.3, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Ziox, model: Z223 } }
+-
+    headers: "User-Agent: YUANDA60D_11B_HW (­\_) B1166AC_T91_BY2_L1_2014V1.0_02 Release/2014.07.04 WAP Browser/MAUI Profile/  Q03C1-2.40 en-US"
+    readable: 'Obigo Q 3C on a Yuanda 60D running MRE'
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Yuanda, model: 60D } }
+-
+    headers: 'User-Agent: YUANDA60A_COSMOS_11B_HW (MRE/3.1.00(2560);MAUI/11B.W13.08.MP.V3.F1;BDATE/2015/04/02 10:27;LCD/320480;CHIP/MT6260;KEY/Reduced;TOUCH/1;CAMERA/0;SENSOR/0;DEV/YUANDA60A_COSMOS_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;IN'
+    readable: 'MAUI WAP on a Yuanda 60A running MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Yuanda, model: 60A } }
+-
+    headers: 'User-Agent: YUANDA50_12864_COSMOS_11B_HW (MRE/3.1.00(2560);MAUI/TD_G4_V2_W6_APHONE.V1.0;BDATE/2014/10/28 14:31;LCD/272480;CHIP/MT6260;KEY/Reduced;TOUCH/1;CAMERA/0;SENSOR/0;DEV/YUANDA50_12864_COSMOS_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;'
+    readable: 'MAUI WAP on a Yuanda 50 running MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Yuanda, model: '50' } }
