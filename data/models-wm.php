@@ -277,6 +277,7 @@ DeviceModels::$WM_MODELS = [
     'MDA Vario!'                                => [ 'T-Mobile', 'MDA Vario' ],
 
     'XV6175!'                                   => [ 'Verizon', 'Ozone XV6175' ],
+    'XV6850!'                                   => [ 'Verizon', 'Touch Pro XV6850' ],
     'XV6875!'                                   => [ 'Verizon', 'Touch Pro2 XV6875' ],
     'XV6900'                                    => [ 'Verizon', 'Touch XV6900' ],
     'XV6975'                                    => [ 'Verizon', 'Imagio XV6975' ],

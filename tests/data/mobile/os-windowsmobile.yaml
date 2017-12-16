@@ -726,3 +726,7 @@
     headers: 'User-Agent: Mozilla/4.0 Sprint:MotoQ (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)'
     readable: 'Pocket Internet Explorer 4.0.1 on a Motorola Q running Windows Mobile'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: Q } }
+-
+    headers: 'User-Agent: XV6850 Opera/9.50 (Windows NT 5.1; U; en)'
+    readable: 'Opera Mobile 9.50 on a Verizon Touch Pro XV6850 running Windows Mobile'
+    result: { browser: { name: 'Opera Mobile', version: '9.50', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Verizon, model: 'Touch Pro XV6850' } }
