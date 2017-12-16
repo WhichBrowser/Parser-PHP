@@ -148,8 +148,8 @@
     result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: 'M5 Metal' } }
 -
     headers: 'User-Agent: Ziox_ZX26_wap_browser'
-    readable: 'an unknown browser'
-    result: { device: { type: mobile, subtype: feature } }
+    readable: 'a Ziox ZX26'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ziox, model: ZX26 } }
 -
     headers: 'User-Agent: Videocon_V1570_Maui Wap Browser/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'MAUI WAP 1.0 on a Videocon V1570'

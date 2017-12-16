@@ -578,3 +578,19 @@
     headers: 'User-Agent: ZEN X10-MAUI WAP Browser'
     readable: 'MAUI WAP on a Zen X10'
     result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: X10 } }
+-
+    headers: 'User-Agent: Ziox_ZX336_wap_browser'
+    readable: 'a Ziox ZX336'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ziox, model: ZX336 } }
+-
+    headers: 'User-Agent: Ziox_ZX304 WAP-Browser/1.0.0'
+    readable: 'a Ziox ZX304'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ziox, model: ZX304 } }
+-
+    headers: 'User-Agent: Ziox_Ziox_Z203_Wap Browser'
+    readable: 'a Ziox Z203'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Ziox, model: Z203 } }
+-
+    headers: 'User-Agent: Ziox_Z223_wap_browser/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'SEMC Browser 4.0.3 on a Ziox Z223'
+    result: { browser: { name: 'SEMC Browser', version: 4.0.3, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Ziox, model: Z223 } }
