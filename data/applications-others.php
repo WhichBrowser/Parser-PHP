@@ -106,6 +106,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Baidu Hao123',         'id'    => 'hao123',      'regexp' =>'/hao123\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Google Search',        'id'    => 'gsa',      'regexp' =>'/GSA\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'NAVER',                'id'    => 'naver',      'regexp' =>'/NAVER\(inapp; search; [0-9]+; ([0-9.]*)\)/u' ],
+        [ 'name' => 'Yandex Search',        'id'    => 'yandex',      'regexp' =>'/YandexSearch\/([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_EDITOR => [
