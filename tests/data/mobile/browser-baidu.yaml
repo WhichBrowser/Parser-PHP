@@ -30,3 +30,7 @@
     headers: { User-Agent: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 625)', Baidu-Flyflow: 'Microsoft Windows CE 8.10.14219.0;4.0.30508.0;NOKIA;RM-941_eu_belarus_russia_215;d0be80b1a6380df0429cef6d36f56a9b318115fe;1.0.3.3' }
     result: { browser: { name: 'Baidu Browser', type: browser }, engine: { name: Trident, version: '5.0' }, os: { name: 'Windows Phone', version: '7.5' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 625' } }
     readable: 'Baidu Browser on a Nokia Lumia 625 running Windows Phone 7.5'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5801607142S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 browser/7.8.12.0 (; P1 6.0)'
+    readable: 'Baidu Browser 7.8.12.0 on a LeEco Le 2 Pro X620 running Android 6.0'
+    result: { browser: { name: 'Baidu Browser', using: { name: 'Chromium WebView', version: '48' }, version: 7.8.12.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 Pro X620' } }
