@@ -122,6 +122,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Blazer',               'id'    => 'blazer',      'regexp' =>'/Blazer\/([0-9.]*)/u' ],
         [ 'name' => 'CM Browser',           'id'    => 'acheetahi',      'regexp' =>'/ACHEETAHI\//u' ],
         [ 'name' => 'Cornowser',            'id'    => 'cornowser',      'regexp' =>'/Cornowser\/([0-9.]*)/u' ],
+        [ 'name' => 'Cool Market',          'id'    => 'coolmarket',      'regexp' =>'/CoolMarket\/([0-9.]*)/u' ],
         [ 'name' => 'CuteBrowser',          'id'    => 'cute',      'regexp' =>'/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Digia @Web',           'id'    => 'digia',      'regexp' =>'/Digia @Web\/([0-9.]*)/u' ],
         [ 'name' => 'Doris',                'id'    => 'doris',      'regexp' =>'/Doris\/([0-9.]*)/u' ],
