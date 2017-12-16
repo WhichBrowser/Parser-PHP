@@ -1128,6 +1128,15 @@ trait Browser
             unset($this->data->browser->channel);
         }
 
+        if (preg_match('/UCLite\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'UC Browser';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            unset($this->data->browser->channel);
+        }
+
         /* U2 is the Proxy service used by UC Browser on low-end phones */
         if (preg_match('/U2\//u', $ua)) {
             $this->data->browser->stock = false;

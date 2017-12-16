@@ -538,3 +538,23 @@
     headers: 'User-Agent: UCWEB/2.0(Java; U; MIDP-2.0; en-us; samsung sch-i910) U2/1.0.0 UCBrowser/8.7.1.234 U2/1.0.0 Mobile UNTRUSTED/1.0'
     result: { browser: { name: 'UC Browser', version: '8.7', type: browser }, engine: { name: Gecko }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: sch-i910 } }
     readable: 'UC Browser 8.7 on a Samsung sch-i910'
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; xx) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5 UCLite/11.6.3.5'
+    readable: 'UC Browser 11.6 on an Apple iPhone running iOS 4.3.2'
+    result: { browser: { name: 'UC Browser', version: '11.6', type: browser }, engine: { name: Webkit, version: 533.17.9 }, os: { name: iOS, version: 4.3.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0.1; xx; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCLite/11.6.2.4 Mobile Safari/537.36'
+    readable: 'UC Browser 11.6 on a Xiaomi Redmi 4A running Android 6.0.1'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 40 }, version: '11.6', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi 4A' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0; xx; Le X620 Build/HEXCNFN5902605181S) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCLite/11.6.0.2 Mobile Safari/537.36'
+    readable: 'UC Browser 11.6 on a LeEco Le 2 Pro X620 running Android 6.0'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 40 }, version: '11.6', type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 Pro X620' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; vivo X5V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCLite/11.5.2.1 Mobile Safari/537.36'
+    readable: 'UC Browser 11.5 on a Vivo X5V running Android 4.4.4'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 40 }, version: '11.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Vivo, model: X5V } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 7.0; xx; SM-G9308 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCLite/11.6.4.6 Mobile Safari/537.36'
+    readable: 'UC Browser 11.6 on a Samsung Galaxy S7 running Android 7.0'
+    result: { browser: { name: 'UC Browser', family: { name: Chrome, version: 40 }, version: '11.6', type: browser }, engine: { name: Blink }, os: { name: Android, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S7' } }
