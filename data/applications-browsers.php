@@ -120,6 +120,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Baidu Browser',        'id'    => 'bidu',      'regexp' =>'/BIDUBrowser[ \/]([0-9.]*)/u' ],
         [ 'name' => 'Baidu Browser',        'id'    => 'baidu',      'regexp' =>'/BaiduHD\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Blazer',               'id'    => 'blazer',      'regexp' =>'/Blazer\/([0-9.]*)/u' ],
+        [ 'name' => 'CM Browser',           'id'    => 'acheetahi',      'regexp' =>'/ACHEETAHI\//u' ],
         [ 'name' => 'Cornowser',            'id'    => 'cornowser',      'regexp' =>'/Cornowser\/([0-9.]*)/u' ],
         [ 'name' => 'CuteBrowser',          'id'    => 'cute',      'regexp' =>'/CuteBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Digia @Web',           'id'    => 'digia',      'regexp' =>'/Digia @Web\/([0-9.]*)/u' ],
