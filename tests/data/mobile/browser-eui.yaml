@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0.1;en_us; Le X829 Build/FEXCNFN5902811088S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/??????1.4.1.47'
+    readable: 'EUI Browser 1.4 on a LeEco Le Max 2 X829 running Android 6.0.1'
+    result: { browser: { name: 'EUI Browser', family: { name: Chrome, version: 49 }, version: '1.4', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le Max 2 X829' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0.1;zh_cn; Le X829 Build/FIXNAOP5801911101S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.0.0 Mobile Safari/537.36 EUI Browser/5.8.019S'
+    readable: 'EUI Browser 5.8 on a LeEco Le Max 2 X829 running Android 6.0.1'
+    result: { browser: { name: 'EUI Browser', using: { name: 'Chromium WebView', version: '49' }, version: '5.8', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le Max 2 X829' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0.1;zh_cn; Le X820 Build/FEXCNFN5601405314S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.0.0 Mobile Safari/537.36 EUI Browser/6.0'
+    readable: 'EUI Browser 6.0 on a LeEco Le Max 2 X820 running Android 6.0.1'
+    result: { browser: { name: 'EUI Browser', using: { name: 'Chromium WebView', version: '49' }, version: '6.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le Max 2 X820' } }
