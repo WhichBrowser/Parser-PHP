@@ -1096,5 +1096,5 @@
     readable: 'Android Browser on a Samsung SCH-I679 running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; SM-G3568V Build/KOT49H) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 light/1.0 baiduboxapp/6.9 (Baidu; P1 4.4.2)'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.24' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Mini' } }
-    readable: 'Android Browser on a Samsung Galaxy Core Mini running Android 4.4.2'
+    result: { browser: { name: 'Baidu Browser', version: '6.9', type: browser }, engine: { name: Webkit, version: '534.24' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Mini' } }
+    readable: 'Baidu Browser 6.9 on a Samsung Galaxy Core Mini running Android 4.4.2'
