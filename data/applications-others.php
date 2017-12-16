@@ -123,6 +123,7 @@ Applications::$OTHERS = [
 
     Constants\BrowserType::APP_DOWNLOAD => [
         [ 'name' => 'Download Manager',     'id'    => 'download',      'regexp' =>'/AndroidDownloadManager\//u' ],
+        [ 'name' => 'Tanso Download Manager',     'id'    => 'tansodl',      'regexp' =>'/TansoDL/u' ],
     ],
 
     Constants\BrowserType::APP_GAME => [
