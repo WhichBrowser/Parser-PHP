@@ -554,3 +554,27 @@
     headers: 'User-Agent: Vodafone-553/VF 553- MTK 6235- V02c- December 032010- Vodafone- ITGR Obigo/Q03C Profile/MIDP-2.0 Configuration/CLDC-1.1'
     readable: 'Obigo Q 3C on a Vodafone 553'
     result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '553' } }
+-
+    headers: 'User-Agent: ZEN M8/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'a Zen M8'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Zen, model: M8 } }
+-
+    headers: 'User-Agent: ZEN P9 /Q03C MAUI-browser/MIDP-2.0Configuration/CLDC-1.1'
+    readable: 'Obigo Q 3C on a Zen P9 running MRE'
+    result: { browser: { name: 'Obigo Q', version: { value: '3', alias: 3C }, type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: P9 } }
+-
+    headers: 'User-Agent: ZEN M72* Wap Browser'
+    readable: 'a Zen M72'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Zen, model: M72 } }
+-
+    headers: 'User-Agent: ZEN M72_MAUI WAP Browser'
+    readable: 'MAUI WAP on a Zen M72'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: M72 } }
+-
+    headers: 'User-Agent: ZEN P46 Elite/MAUI WAP Browser'
+    readable: 'MAUI WAP on a Zen P46 Elite'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: 'P46 Elite' } }
+-
+    headers: 'User-Agent: ZEN X10-MAUI WAP Browser'
+    readable: 'MAUI WAP on a Zen X10'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: X10 } }

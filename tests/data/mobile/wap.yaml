@@ -140,12 +140,12 @@
     result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature } }
 -
     headers: 'User-Agent: Zen M39/MAUI WAP Browser'
-    readable: 'MAUI WAP'
-    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'MAUI WAP on a Zen M39'
+    result: { browser: { name: 'MAUI WAP', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: M39 } }
 -
     headers: 'User-Agent: ZEN M5 Metal Dorado WAP-Browser/1.0.0'
-    readable: 'Dorado WAP 1.0'
-    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature } }
+    readable: 'Dorado WAP 1.0 on a Zen M5 Metal'
+    result: { browser: { name: 'Dorado WAP', version: '1.0', type: browser }, device: { type: mobile, subtype: feature, manufacturer: Zen, model: 'M5 Metal' } }
 -
     headers: 'User-Agent: Ziox_ZX26_wap_browser'
     readable: 'an unknown browser'
