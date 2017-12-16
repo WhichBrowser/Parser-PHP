@@ -1944,7 +1944,7 @@ trait Browser
 
         /* Dolphin HD */
 
-        if (preg_match('/Dolphin(?:HDCN)?\/(?:INT|CN)?-?([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/Dolphin(?:HD|Browser)?(?:INT|CN)?\/(?:INT|CN)?-?([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Dolphin';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
