@@ -40,6 +40,7 @@ Applications::$OTHERS = [
     Constants\BrowserType::APP_NEWS => [
         [ 'name' => 'Daum',                 'id'    => 'daum',      'regexp' =>'/DaumApps\/([0-9.]*)/u' ],
         [ 'name' => 'Daum',                 'id'    => 'daum',      'regexp' =>'/daumcafe\/([0-9.]*)/u' ],
+        [ 'name' => 'Flipboard',            'id'    => 'flipboard',      'regexp' =>'/Flipboard\/([0-9.]+)/u' ],
     ],
 
     Constants\BrowserType::APP_FEEDREADER => [
