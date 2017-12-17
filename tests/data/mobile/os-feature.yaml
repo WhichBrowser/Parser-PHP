@@ -630,3 +630,11 @@
     headers: 'User-Agent: WAP Browser Wynncom W541/1.0.0'
     readable: 'a Wynncom W541'
     result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W541 } }
+-
+    headers: 'User-Agent: VSUN60A_11B_HW (MRE/3.1.00(1536);MAUI/_Platinum_A6_v07_indian;BDATE/2014/03/12 15:22;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/VSUN60A_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SPICEI2'
+    readable: 'MAUI WAP on a Vsun 60A running MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Vsun, model: 60A } }
+-
+    headers: 'User-Agent: VSUN50_FTE_11B_HW (MRE/3.0.00(512);MAUI/C11_S523_20130704;BDATE/2013/07/10 12:55;LCD/240320;CHIP/MT6250;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/VSUN50_FTE_11B_HW;WAP Browser/MAUI ();GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SPICEI2I/005;GAMELOFT/0'
+    readable: 'MAUI WAP on a Vsun 50 running MRE'
+    result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Vsun, model: '50' } }
