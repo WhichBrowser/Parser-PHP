@@ -694,7 +694,7 @@ trait Mobile
             'manufacturer'  => 'Vodafone'
         ]);
 
-        $this->data->device->identifyModel('/^Wynncom[\-\s]([A-Z0-9\s]+\+?)/ui', $ua, [
+        $this->data->device->identifyModel('/Wynncom[\-\s]([A-Z0-9\s]+\+?)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Wynncom'
         ]);

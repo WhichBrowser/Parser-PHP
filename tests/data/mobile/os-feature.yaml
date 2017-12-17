@@ -626,3 +626,7 @@
     headers: 'User-Agent: Wynncom JV S3 Slim-Browser/1.0.0/powerplay/2'
     readable: 'a Wynncom JV S3 Slim'
     result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: 'JV S3 Slim' } }
+-
+    headers: 'User-Agent: WAP Browser Wynncom W541/1.0.0'
+    readable: 'a Wynncom W541'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W541 } }
