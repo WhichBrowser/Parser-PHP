@@ -684,7 +684,7 @@ trait Mobile
             'manufacturer'  => 'Videocon'
         ]);
 
-        $this->data->device->identifyModel('/Vodafone(?:[ _-]Chat)?[ _-]?([0-9]+)/u', $ua, [
+        $this->data->device->identifyModel('/Vodafone(?:[ _-]Chat)?[ _-]?([0-9]+)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Vodafone'
         ]);

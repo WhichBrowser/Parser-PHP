@@ -118,3 +118,7 @@
     headers: 'User-Agent: SoftBank/1.0/830SHp/SHJ001/SN359424020396056 Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: NetFront, version: '3.4', type: browser }, engine: { name: NetFront }, device: { type: mobile, subtype: feature, manufacturer: Sharp, model: 830SH, carrier: Softbank } }
     readable: 'NetFront 3.4 on a Sharp 830SH'
+-
+    headers: 'User-Agent: Vodafone/1.0/0vodafone810/B626 Browser/Obigo-browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJA/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'Obigo Q 5A on a Vodafone 810'
+    result: { browser: { name: 'Obigo Q', version: { value: '5', alias: 5A }, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Vodafone, model: '810' } }
