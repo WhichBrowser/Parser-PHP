@@ -606,3 +606,23 @@
     headers: 'User-Agent: YUANDA50_12864_COSMOS_11B_HW (MRE/3.1.00(2560);MAUI/TD_G4_V2_W6_APHONE.V1.0;BDATE/2014/10/28 14:31;LCD/272480;CHIP/MT6260;KEY/Reduced;TOUCH/1;CAMERA/0;SENSOR/0;DEV/YUANDA50_12864_COSMOS_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;'
     readable: 'MAUI WAP on a Yuanda 50 running MRE'
     result: { browser: { name: 'MAUI WAP', type: browser }, os: { name: MRE }, device: { type: mobile, subtype: feature, manufacturer: Yuanda, model: '50' } }
+-
+    headers: 'User-Agent: Wynncom W704/2.6 Profile/MIDP-2.0Configuration/CLDC-1.1'
+    readable: 'a Wynncom W704'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W704 } }
+-
+    headers: 'User-Agent: Wynncom W601; Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'a Wynncom W601'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W601 } }
+-
+    headers: 'User-Agent: Wynncom W550+/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    readable: 'a Wynncom W550+'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W550+ } }
+-
+    headers: 'User-Agent: Wynncom W106-Browser/1.0.0/powerplay/2'
+    readable: 'a Wynncom W106'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: W106 } }
+-
+    headers: 'User-Agent: Wynncom JV S3 Slim-Browser/1.0.0/powerplay/2'
+    readable: 'a Wynncom JV S3 Slim'
+    result: { device: { type: mobile, subtype: feature, manufacturer: Wynncom, model: 'JV S3 Slim' } }
