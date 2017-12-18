@@ -118,6 +118,10 @@ DeviceModels::$WP_INDEX = array (
   array (
     0 => 'CETUS',
   ),
+  '@CH' => 
+  array (
+    0 => 'CHERRY-MOBILE Alpha Luxe',
+  ),
   '@DO' => 
   array (
     0 => 'DolphinCT50',

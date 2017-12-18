@@ -35,6 +35,7 @@ DeviceModels::$WP_MODELS = [
     'Alpha Neon'                                => [ 'Cherry Mobile', 'Alpha Neon' ],
     'ALPHA PRIME 5'                             => [ 'Cherry Mobile', 'Alpha Prime 5' ],
     'MOBILE Alpha Luxe'                         => [ 'Cherry Mobile', 'Alpha Luxe' ],
+    'CHERRY-MOBILE Alpha Luxe'                  => [ 'Cherry Mobile', 'Alpha Luxe' ],
     'MOBILE Alpha Style'                        => [ 'Cherry Mobile', 'Alpha Style' ],
     'MOBILE Alpha View'                         => [ 'Cherry Mobile', 'Alpha View' ],
     'PKT-407'                                   => [ 'Condor', 'Griffe W1' ],
