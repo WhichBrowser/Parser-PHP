@@ -223,6 +223,7 @@ DeviceModels::$WP_MODELS = [
         'RM-9(41|42|43)!'                           => [ 'Nokia', 'Lumia 625' ],
         'RM-9(76|77|78|79)!'                        => [ 'Nokia', 'Lumia 630' ],
         'RM-9(74|75)!'                              => [ 'Nokia', 'Lumia 635' ],
+        'RM-1078!'                                  => [ 'Nokia', 'Lumia 635' ],
         'RM-1027!'                                  => [ 'Nokia', 'Lumia 636' ],
         'RM-1010!'                                  => [ 'Nokia', 'Lumia 638' ],
         'RM-10(72|74|75|77)!'                       => [ 'Microsoft', 'Lumia 640' ],
