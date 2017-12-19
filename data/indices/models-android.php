@@ -1676,7 +1676,11 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@DW' => 
   array (
-    0 => 'DW-UBT7W',
+    0 => 'DW-PS3G5',
+    1 => 'DW-UBT7W',
+    2 => 'DW-UBT7SC*',
+    3 => 'DW-UBT27Cz',
+    4 => 'DW-UBT23G7',
   ),
   '@DY' => 
   array (
@@ -2012,9 +2016,14 @@ DeviceModels::$ANDROID_INDEX = array (
     24 => 'Flylife!!',
     25 => 'Fly Flylife Web 7.85 Slim',
     26 => 'Flyer',
-    27 => 'FlairE3',
-    28 => 'Flair P8',
-    29 => 'Flair Z1',
+    27 => 'Flair E1',
+    28 => 'Flair E2',
+    29 => 'FlairE3',
+    30 => 'Flair P1',
+    31 => 'Flair P1i',
+    32 => 'Flair P8',
+    33 => 'Flair S1',
+    34 => 'Flair Z1',
   ),
   '@FN' => 
   array (
@@ -2382,9 +2391,11 @@ DeviceModels::$ANDROID_INDEX = array (
     22 => 'GOA',
     23 => 'GO504',
     24 => 'GO778',
-    25 => 'GO980',
-    26 => 'GO984',
-    27 => 'Gomobile GO1001',
+    25 => 'GO960',
+    26 => 'GO963',
+    27 => 'GO980',
+    28 => 'GO984',
+    29 => 'Gomobile GO1001',
   ),
   '@GP' => 
   array (
@@ -2969,9 +2980,10 @@ DeviceModels::$ANDROID_INDEX = array (
   array (
     0 => 'Karbonn!!',
     1 => '(Karbonn|Titanium)!!',
-    2 => '(KAZAM|Thunder|Tornado|Trooper)!!',
-    3 => '(KATBL|Agora)!!',
-    4 => 'Kavak Y625-U03',
+    2 => 'Karbonn Aura 9',
+    3 => '(KAZAM|Thunder|Tornado|Trooper)!!',
+    4 => '(KATBL|Agora)!!',
+    5 => 'Kavak Y625-U03',
   ),
   '@KB' => 
   array (
@@ -5491,8 +5503,9 @@ DeviceModels::$ANDROID_INDEX = array (
   '@RC' => 
   array (
     0 => '(AC|BC|LC|MT|RC|QS|VM|TS|OC)[0-9]{4,4}[A-Z]!!',
-    1 => 'RCT6773W22B',
-    2 => 'RCT6973W43',
+    1 => 'RCT6203W46',
+    2 => 'RCT6773W22B',
+    3 => 'RCT6973W43',
   ),
   '@RE' => 
   array (
@@ -5592,6 +5605,7 @@ DeviceModels::$ANDROID_INDEX = array (
     2 => 'RoverPad 3W T71D',
     3 => 'ROAR',
     4 => 'Roar A50',
+    5 => 'Roar V25',
   ),
   '@RP' => 
   array (
