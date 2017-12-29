@@ -148,6 +148,10 @@ trait Mobile
         }
 
         if (preg_match('/(?:SAMSUNG; )?SAMSUNG ?[-\/]?([^;\/\)_,]+)/ui', $ua, $match)) {
+            if ($match[1] === 'Browser') {
+                return;
+            }
+
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
             $this->data->device->identifier = $match[0];
