@@ -29,4 +29,5 @@ class DeviceType
     const CAR = 'car';
     const POS = 'pos';
     const BOT = 'bot';
+    const PROJECTOR = 'projector';
 }
