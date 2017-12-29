@@ -266,6 +266,7 @@ trait Browser
                 $this->data->device->manufacturer = 'Samsung';
                 $this->data->device->model = 'DeX';
                 $this->data->device->identifier = '';
+                $this->data->device->identified |= Constants\Id::PATTERN;
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             } else {
                 $channel = Data\Chrome::getChannel('desktop', $version);
