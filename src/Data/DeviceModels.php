@@ -295,7 +295,7 @@ class DeviceModels
 
         $s = preg_replace('/UCBrowser$/u', '', $s);
 
-        $s = preg_replace('/(_TD|_LTE|_GPRS|_BLEU|_CMCC|_CMCC_TD|_CUCC)$/u', '', $s);
+        $s = preg_replace('/(_TD-LTE|_TD|_LTE|_GPRS|_BLEU|_CMCC|_CMCC_TD|_CUCC)$/u', '', $s);
         $s = preg_replace('/(-BREW| MIDP).+$/u', '', $s);
         $s = preg_replace('/ AU-MIC.+$/u', '', $s);
         $s = preg_replace('/ (AU|UP)\.Browser$/u', '', $s);

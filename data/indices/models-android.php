@@ -94,8 +94,9 @@ DeviceModels::$ANDROID_INDEX = array (
     0 => '1501-A02',
     1 => '1501 M02',
     2 => '1501-M02',
-    3 => '1505-A01',
-    4 => '1505-A02',
+    3 => '1503-A01',
+    4 => '1505-A01',
+    5 => '1505-A02',
   ),
   '@16' => 
   array (
@@ -117,16 +118,8 @@ DeviceModels::$ANDROID_INDEX = array (
   '@20' => 
   array (
     0 => '201M',
-    1 => 2013061,
-    2 => '2014216 TD-LTE',
-    3 => '20141(12)!',
-    4 => '20148(11|12|13|17|18|19|21)!',
-    5 => '20145(02)!',
-    6 => 2013122,
-    7 => 2014715,
-    8 => '(Xiaomi )?20130(22|23)!',
-    9 => '20140(11)!',
-    10 => '20145(01)!',
+    1 => '(Xiaomi )?20!!',
+    2 => '(Xiaomi |HM)?20!!',
   ),
   '@2P' => 
   array (
@@ -850,6 +843,7 @@ DeviceModels::$ANDROID_INDEX = array (
     13 => 'Aquila SE 090-0508',
     14 => '(Intex )?Aqua!!',
     15 => 'AQUOS!!',
+    16 => 'aqua',
   ),
   '@AR' => 
   array (
@@ -1315,6 +1309,7 @@ DeviceModels::$ANDROID_INDEX = array (
     15 => '(HW-|HUAWEI )?CAN-(L01|L11|L12)!',
     16 => 'calgary',
     17 => 'Captivate-I897',
+    18 => 'capricorn',
   ),
   '@CC' => 
   array (
@@ -1346,6 +1341,7 @@ DeviceModels::$ANDROID_INDEX = array (
     14 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|DUK|DLI|EDI|FRD|HN3|H30|H60|HOL|KIW|LDD|NEM|NMO|PE|PLK|RNE|SCL|KNT|CAM|STF)!!',
     15 => '(HW-|HUAWEI )?(BLL|CHC|TAG|KII)!!',
     16 => 'chagall',
+    17 => 'chiron',
   ),
   '@CI' => 
   array (
@@ -2006,6 +2002,10 @@ DeviceModels::$ANDROID_INDEX = array (
     0 => 'FDT!!',
     1 => 'FDR-A01w',
   ),
+  '@FE' => 
+  array (
+    0 => 'ferrari',
+  ),
   '@FH' => 
   array (
     0 => 'FHMD001',
@@ -2204,6 +2204,7 @@ DeviceModels::$ANDROID_INDEX = array (
     7 => 'GEM-702L',
     8 => 'GEM-703L',
     9 => 'GETAWAY',
+    10 => 'gemini',
   ),
   '@GF' => 
   array (
@@ -2490,6 +2491,10 @@ DeviceModels::$ANDROID_INDEX = array (
     19 => 'GTablet',
     20 => 'GtabComb',
   ),
+  '@GU' => 
+  array (
+    0 => 'gucci',
+  ),
   '@GV' => 
   array (
     0 => 'GVON 898',
@@ -2595,28 +2600,9 @@ DeviceModels::$ANDROID_INDEX = array (
   array (
     0 => 'HMP8100 ATV 93',
     1 => 'HMP8100 ATV INT',
-    2 => 'HM 1',
-    3 => 'HM 1A',
-    4 => 'HM 1AC',
-    5 => 'HM 1S',
-    6 => 'HM 1SLTE',
-    7 => 'HM 1SC',
-    8 => 'HM 1SLTETD',
-    9 => 'HM 1STD',
-    10 => 'HM 1SW',
-    11 => 'HM 2',
-    12 => 'HM 2LTE!',
-    13 => 'HM 2A!',
-    14 => 'HM NOTE',
-    15 => 'HM Note 4G!',
-    16 => 'HM NOTE LTE',
-    17 => 'HM NOTE 1LTE!',
-    18 => 'HM NOTE 1TD',
-    19 => 'HM Note1 TD',
-    20 => 'HM NOTE 1S!',
-    21 => 'HM NOTE 1W',
-    22 => 'HM NOTE1W',
-    23 => 'HM Note 2',
+    2 => '(Xiaomi )?(Redmi|RedRice|HM)!!',
+    3 => '(Xiaomi )?(Redmi|HM)[ \\-]?Note!!',
+    4 => '(Xiaomi |HM)?20!!',
   ),
   '@HN' => 
   array (
@@ -3053,6 +3039,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@KE' => 
   array (
     0 => 'KENEKSI!!',
+    1 => 'kenzo',
   ),
   '@KF' => 
   array (
@@ -3160,19 +3147,20 @@ DeviceModels::$ANDROID_INDEX = array (
     10 => 'LAP250U',
     11 => 'LAP255U',
     12 => 'LaVieTab!!',
-    13 => 'LA-I Dual core',
-    14 => 'LA-M3',
-    15 => 'LA1-L',
-    16 => 'LA2-E',
-    17 => 'LA2-E1',
-    18 => 'LA2-L',
-    19 => 'LA2-T',
-    20 => 'LA2-T1',
-    21 => 'LA2-W',
-    22 => 'LA2-W1',
-    23 => 'LA3-W',
-    24 => 'LA3S',
-    25 => 'LA5-W',
+    13 => 'land',
+    14 => 'LA-I Dual core',
+    15 => 'LA-M3',
+    16 => 'LA1-L',
+    17 => 'LA2-E',
+    18 => 'LA2-E1',
+    19 => 'LA2-L',
+    20 => 'LA2-T',
+    21 => 'LA2-T1',
+    22 => 'LA2-W',
+    23 => 'LA2-W1',
+    24 => 'LA3-W',
+    25 => 'LA3S',
+    26 => 'LA5-W',
   ),
   '@LC' => 
   array (
@@ -3380,9 +3368,11 @@ DeviceModels::$ANDROID_INDEX = array (
     4 => 'Life',
     5 => 'Liberty Tab G100',
     6 => 'Live ?With ?Walkman!',
-    7 => 'Light Tab',
-    8 => 'Light Tab 2',
-    9 => 'Light Tab 2W',
+    7 => 'libra',
+    8 => 'lithium',
+    9 => 'Light Tab',
+    10 => 'Light Tab 2',
+    11 => 'Light Tab 2W',
   ),
   '@LL' => 
   array (
@@ -3597,6 +3587,10 @@ DeviceModels::$ANDROID_INDEX = array (
     10 => 'Maxtron!!',
     11 => 'magi',
     12 => 'MagicBox',
+    13 => '(Xiaomi )?(MI )?MAX$!',
+    14 => '(Xiaomi )?(MI )?MAX 2$!',
+    15 => 'markf',
+    16 => 'markw',
   ),
   '@MB' => 
   array (
@@ -3707,67 +3701,17 @@ DeviceModels::$ANDROID_INDEX = array (
     32 => 'Mi438S',
     33 => '(CSL[- ])?(Spice[- ]?)?Mi(-| )?[0-9]{3,3}!!',
     34 => 'miTab!!',
-    35 => 'Mi A1',
-    36 => 'MI-ONE',
-    37 => 'MI-ONEC1',
-    38 => 'MI-ONE C1',
-    39 => 'MI-ONE Plus!',
-    40 => 'mione plus',
-    41 => 'MI ONE plus',
-    42 => 'MI-ONEPlus',
-    43 => 'MI 1S',
-    44 => 'MI 1SC',
-    45 => 'MI1/1s',
-    46 => 'MI-TWO',
-    47 => 'MI-TWOPlus',
-    48 => 'MI2',
-    49 => 'MI 2',
-    50 => 'MI 2C',
-    51 => 'MI 2A!',
-    52 => 'MI2A',
-    53 => 'MI 2S',
-    54 => 'MI 2SC',
-    55 => 'MI 2/2S',
-    56 => 'Mi3',
-    57 => 'MI-Three',
-    58 => 'MI-ThreePlus',
-    59 => 'MI 3',
-    60 => 'MI 3C',
-    61 => 'MI 3W',
-    62 => 'Mi3W',
-    63 => 'MI 4',
-    64 => 'MI 4LTE',
-    65 => 'MI 4W',
-    66 => 'MI 4C',
-    67 => 'Mi-4c',
-    68 => 'Mi4c',
-    69 => 'Mi 4i',
-    70 => 'MI 4S',
-    71 => 'MI 5',
-    72 => 'MI 5C',
-    73 => 'MI 5s',
-    74 => 'MI 5s Plus',
-    75 => 'MI 5X',
-    76 => 'MI 6',
-    77 => 'MI MAX',
-    78 => 'MI MAX 2',
-    79 => 'MI MIX',
-    80 => 'MIX',
-    81 => 'MIX 2',
-    82 => 'MI NOTE LTE',
-    83 => 'Mi Note 2',
-    84 => 'MI NOTE Pro',
-    85 => 'Mi Note 3',
-    86 => 'MI PAD',
-    87 => 'MI PAD 2',
-    88 => 'MI PAD 3',
-    89 => 'MiBOX iCNTV',
-    90 => 'MiBOX1S',
-    91 => 'MiBOX2',
-    92 => 'MIBOX3',
-    93 => 'MiBOX3S',
-    94 => 'MiTV4',
-    95 => '(ZTE )?(Grand|Mimosa)!!',
+    35 => '(Xiaomi )?(Xiaomi|Xiaomi M|MI)!!',
+    36 => '(Xiaomi|Xiaomi Mi|MI) Note!!',
+    37 => '(Xiaomi )?(MI )?MAX$!',
+    38 => '(Xiaomi )?(MI )?MAX 2$!',
+    39 => '(Xiaomi )?(MI )?MIX$!',
+    40 => '(Xiaomi )?(MI )?MIX 2$!',
+    41 => 'mido',
+    42 => '(Xiaomi|Xiaomi Mi|MI) Pad!!',
+    43 => '(Xiaomi|Xiaomi Mi|MI)Box!!',
+    44 => '(Xiaomi|Xiaomi Mi|MI)TV!!',
+    45 => '(ZTE )?(Grand|Mimosa)!!',
   ),
   '@MK' => 
   array (
@@ -3843,12 +3787,13 @@ DeviceModels::$ANDROID_INDEX = array (
     46 => 'MOB-5045',
     47 => 'Mobii 7',
     48 => 'MoFing',
-    49 => 'MO-01J',
-    50 => 'Movistar Express',
-    51 => 'Movistar Link',
-    52 => 'Movistar Motion',
-    53 => 'Movistar Prime',
-    54 => 'MOVE',
+    49 => 'mocha',
+    50 => 'MO-01J',
+    51 => 'Movistar Express',
+    52 => 'Movistar Link',
+    53 => 'Movistar Motion',
+    54 => 'Movistar Prime',
+    55 => 'MOVE',
   ),
   '@MP' => 
   array (
@@ -4124,7 +4069,8 @@ DeviceModels::$ANDROID_INDEX = array (
     1 => 'NaviPad TM-7055HD 3G',
     2 => 'NaviPad TM-7855 3G',
     3 => 'NaviPad TM-7858 3G (revision 1)',
-    4 => 'NATCOM N8302',
+    4 => 'natrium',
+    5 => 'NATCOM N8302',
   ),
   '@NB' => 
   array (
@@ -4256,6 +4202,8 @@ DeviceModels::$ANDROID_INDEX = array (
     1 => 'NID 7010',
     2 => 'Nibiru H1',
     3 => 'nine i7400',
+    4 => 'nikeh',
+    5 => 'nikel',
   ),
   '@NM' => 
   array (
@@ -4445,8 +4393,9 @@ DeviceModels::$ANDROID_INDEX = array (
     5 => 'Omap5sevm',
     6 => 'OMS TTD',
     7 => 'OMS1 6',
-    8 => 'Omega 5.0',
-    9 => 'Omega 5.5',
+    8 => 'omega',
+    9 => 'Omega 5.0',
+    10 => 'Omega 5.5',
   ),
   '@ON' => 
   array (
@@ -5371,8 +5320,9 @@ DeviceModels::$ANDROID_INDEX = array (
     146 => 'Primo Walpad 8',
     147 => 'Primo Walpad 8W',
     148 => 'Proton Lite',
-    149 => 'Prism',
-    150 => 'Prism II',
+    149 => 'prada',
+    150 => 'Prism',
+    151 => 'Prism II',
   ),
   '@PS' => 
   array (
@@ -5633,30 +5583,9 @@ DeviceModels::$ANDROID_INDEX = array (
     4 => 'Readboy!!',
     5 => 'ReederA8R',
     6 => 'reeder A8i Quad 2',
-    7 => 'Redmi',
-    8 => 'Redmi 1S',
-    9 => 'Redmi 2',
-    10 => 'Redmi 3',
-    11 => 'Redmi 3S',
-    12 => 'Redmi 3X',
-    13 => 'Redmi 4',
-    14 => 'Redmi 4A',
-    15 => 'Redmi 4X',
-    16 => 'Redmi 4 Prime',
-    17 => 'Redmi 5',
-    18 => 'Redmi 5 Plus',
-    19 => 'REDMI NOTE',
-    20 => 'Redmi Note 4G (LTE)',
-    21 => 'Redmi Note 2',
-    22 => 'Redmi Note 3',
-    23 => 'Redmi Note 3 Pro',
-    24 => 'Redmi Note 4',
-    25 => 'Redmi Note 4X',
-    26 => 'Redmi Pro',
-    27 => 'RedRice',
-    28 => 'Redmi Y1',
-    29 => 'Redmi Y1 Lite',
-    30 => 'REVVLPLUS C3701A',
+    7 => '(Xiaomi )?(Redmi|RedRice|HM)!!',
+    8 => '(Xiaomi )?(Redmi|HM)[ \\-]?Note!!',
+    9 => 'REVVLPLUS C3701A',
   ),
   '@RH' => 
   array (
@@ -5729,6 +5658,7 @@ DeviceModels::$ANDROID_INDEX = array (
     3 => 'ROAR',
     4 => 'Roar A50',
     5 => 'Roar V25',
+    6 => 'rolex',
   ),
   '@RP' => 
   array (
@@ -5822,10 +5752,12 @@ DeviceModels::$ANDROID_INDEX = array (
     7 => 'Sansui Cosmic SP ([0-9]+)!',
     8 => 'SANSUI ETAB ([0-9]+) ?VP!',
     9 => 'Satellite!!',
-    10 => 'San Remo Mini',
-    11 => 'San Francisco',
-    12 => 'San Francisco for',
-    13 => 'San Francisco II',
+    10 => 'sagit',
+    11 => 'santoni',
+    12 => 'San Remo Mini',
+    13 => 'San Francisco',
+    14 => 'San Francisco for',
+    15 => 'San Francisco II',
   ),
   '@SB' => 
   array (
@@ -5849,6 +5781,7 @@ DeviceModels::$ANDROID_INDEX = array (
     13 => 'SC[LTV][23][0-9]!!',
     14 => 'Scroll!!',
     15 => 'SC-!!',
+    16 => 'scorpio',
   ),
   '@SD' => 
   array (
@@ -6448,6 +6381,7 @@ DeviceModels::$ANDROID_INDEX = array (
     4 => 'TI320-DU',
     5 => 'TI320-DU TV',
     6 => 'TizzBird!!',
+    7 => 'tiffany',
   ),
   '@TL' => 
   array (
@@ -6647,6 +6581,10 @@ DeviceModels::$ANDROID_INDEX = array (
   array (
     0 => '(CUBE ?)?(K8|U1|U2|U3|U5|U6|U8|U9)[0-9]?GT!!',
     1 => 'U9[0-9]{3,3}!!',
+  ),
+  '@UG' => 
+  array (
+    0 => 'ugglite',
   ),
   '@UL' => 
   array (
@@ -7475,23 +7413,24 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@XI' => 
   array (
-    0 => 'Xiaomi M1',
-    1 => 'Xiaomi MI-2S',
-    2 => 'xiaomi M3',
-    3 => 'Xiaomi Mi 4',
-    4 => 'xiaomi M4',
-    5 => 'XIAOMI MI 4W',
-    6 => 'Xiaomi M5',
-    7 => 'Xiaomi Mi5',
-    8 => 'Xiaomi Redmi',
-    9 => 'Xiaomi Redmi 1s',
-    10 => 'Xiaomi Redmi One S',
-    11 => 'Xiaomi Redmi 3',
-    12 => 'Xiaomi Redmi 4A',
-    13 => 'Xiaomi Note 4G',
-    14 => 'Xiaomi Note2',
-    15 => 'Xiaomi Redmi Note 3',
-    16 => '(Xiaomi )?20130(22|23)!',
+    0 => 'Xiaomi',
+    1 => '(Xiaomi )?(Xiaomi|Xiaomi M|MI)!!',
+    2 => '(Xiaomi|Xiaomi Mi|MI) Note!!',
+    3 => '(Xiaomi )?(MI )?MAX$!',
+    4 => '(Xiaomi )?(MI )?MAX 2$!',
+    5 => '(Xiaomi )?(MI )?MIX$!',
+    6 => '(Xiaomi )?(MI )?MIX 2$!',
+    7 => '(Xiaomi )?20!!',
+    8 => '(Xiaomi )?(Redmi|RedRice|HM)!!',
+    9 => '(Xiaomi )?(Redmi|HM)[ \\-]?Note!!',
+    10 => '(Xiaomi |HM)?20!!',
+    11 => 'Xiaomi MDT2!',
+    12 => 'Xiaomi MCT1!',
+    13 => 'Xiaomi MAT136!',
+    14 => 'Xiaomi MBT6A5!',
+    15 => '(Xiaomi|Xiaomi Mi|MI) Pad!!',
+    16 => '(Xiaomi|Xiaomi Mi|MI)Box!!',
+    17 => '(Xiaomi|Xiaomi Mi|MI)TV!!',
   ),
   '@XL' => 
   array (

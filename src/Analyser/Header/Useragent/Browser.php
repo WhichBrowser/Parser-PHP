@@ -1915,8 +1915,25 @@ trait Browser
 
     private function detectMobileBrowsers($ua)
     {
-        if (!preg_match('/(Ninesky|Skyfire|Dolphin|QQ|360|QHBrowser|Mercury|iBrowser|Puffin|MiniB|MxNitro|Sogou|Xiino|Palmscape|WebPro|Vision)/ui', $ua)) {
+        if (!preg_match('/(Ninesky|Skyfire|Dolphin|QQ|360|QHBrowser|Mercury|iBrowser|Puffin|MiniB|MxNitro|Sogou|Xiino|Palmscape|WebPro|Vision|MiuiBrowser)/ui', $ua)) {
             return;
+        }
+
+        /* Xiaomi MIUI Browser */
+
+        if (preg_match('/MiuiBrowser\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'MIUI Browser';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (!$this->data->os->isFamily('Android')) {
+                $this->data->os->reset();
+                $this->data->os->name = 'Android';
+
+                $this->data->device->manufacturer = 'Xiaomi';
+                $this->data->device->model = null;
+                $this->data->device->type = Constants\DeviceType::MOBILE;
+            }
         }
 
         /* NineSky */

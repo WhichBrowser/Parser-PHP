@@ -708,11 +708,6 @@ trait Mobile
             'manufacturer'  => 'Wynncom'
         ]);
 
-        $this->data->device->identifyModel('/Xiaomi[_]?([^\s]+)/ui', $ua, [
-            'type'          => Constants\DeviceType::MOBILE,
-            'manufacturer'  => 'Xiaomi'
-        ]);
-
         $this->data->device->identifyModel('/^YUANDA([0-9]+[A-Z]?)/ui', $ua, [
             'type'          => Constants\DeviceType::MOBILE,
             'manufacturer'  => 'Yuanda'

@@ -149,7 +149,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'mib',      'regexp' =>'/MIB([0-9.]+)\//u' ],
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'cmcs',      'regexp' =>'/Browser\/CMCS([0-9.]*)/u' ],
         [ 'name' => 'Motorola WebKit',      'id'    => 'motorola',      'regexp' =>'/MotorolaWebKit(?:\/([0-9.]*))?/u', 'details' => 3 ],
-        [ 'name' => 'MIUI Browser',         'id'    => 'miui',      'regexp' =>'/MiuiBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'NetFront Life Browser', 'id'    => 'netfrontlife',      'regexp' =>'/NetFrontLifeBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'OneBrowser',           'id'    => 'onebrowser',      'regexp' =>'/OneBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'PocketLink',           'id'    => 'plink',      'regexp' =>'/PLink ([0-9.]+)/iu', 'details' => 2 ],
