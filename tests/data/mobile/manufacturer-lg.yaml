@@ -152,8 +152,8 @@
     readable: 'Chrome 18 on a LG Optimus Black running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; LG-L160L Build/IML74K) AppleWebkit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: L160L } }
-    readable: 'Chrome 18 on a LG L160L running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LTE2' } }
+    readable: 'Chrome 18 on a LG Optimus LTE2 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; LG-LG730 Build/IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Venice } }

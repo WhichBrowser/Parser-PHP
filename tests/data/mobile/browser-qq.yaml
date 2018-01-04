@@ -4,8 +4,8 @@
     readable: 'QQ Browser 6.2 on a Meizu MX4 Pro running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; xx; m1 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025483 Mobile Safari/533.1 V1_AND_SQ_6.2.0_320_YYB_D QQ/6.2.0.2655 NetType/WIFI WebP/0.3.0 Pixel/768'
-    result: { browser: { name: 'QQ Browser', version: '6.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, model: m1 } }
-    readable: 'QQ Browser 6.2 on a m1 running Android 4.4.4'
+    result: { browser: { name: 'QQ Browser', version: '6.2', type: browser }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: M1 } }
+    readable: 'QQ Browser 6.2 on a Meizu M1 running Android 4.4.4'
 -
     headers: 'User-Agent: MQQBrowser/2.0 (Nokia5730;SymbianOS/9.1 Series60/3.0)'
     result: { browser: { name: 'QQ Browser', version: '2.0', type: browser }, os: { name: Series60, family: { name: Symbian, version: '9.1' }, version: '3.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '5730 XpressMusic' } }
