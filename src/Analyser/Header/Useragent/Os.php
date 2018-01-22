@@ -184,6 +184,11 @@ trait Os
                 $falsepositive = true;
             }
 
+            /* Prevent Windows 10 IoT Core from matching Android */
+            if (preg_match('/Windows IoT/u', $ua)) {
+                $falsepositive = true;
+            }
+
             /* Prevent from OSes that claim to be 'like' Android from matching */
             if (preg_match('/like Android/u', $ua)) {
                 $falsepositive = true;
@@ -645,6 +650,13 @@ trait Os
                 }
 
                 $this->detectWindowsOemManufacturer($ua);
+            }
+
+
+            /* Windows 10 IoT Core */
+
+            if (preg_match('/Windows IoT (1[0-9]\.[0-9]);/u', $ua, $match)) {
+                $this->data->os->version = new Version([ 'value' => $match[1], 'alias' => '10 IoT Core' ]);
             }
 
 

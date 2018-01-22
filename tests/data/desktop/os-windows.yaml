@@ -82,3 +82,7 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Win32);'
     result: { browser: { name: 'Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: Windows }, device: { type: desktop } }
     readable: 'Internet Explorer 6.0 on Windows'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows IoT 10.0; Android 6.0.1; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36 Edge/16.17035'
+    readable: 'Edge 16 on Windows 10 IoT Core'
+    result: { browser: { name: Edge, version: '16', type: browser }, engine: { name: EdgeHTML, version: '16.17035' }, os: { name: Windows, version: { value: '10.0', alias: '10 IoT Core' } }, device: { type: desktop } }
