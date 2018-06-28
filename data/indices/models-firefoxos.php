@@ -22,6 +22,7 @@ DeviceModels::$FIREFOXOS_INDEX = array (
     9 => 'ALCATELOneTouch4023!',
     10 => 'ALCATELOneTouch6015X!',
     11 => 'ALCATEL4044[MNOTVW]!',
+    12 => 'ALCATEL4044C!',
   ),
   '@HU' => 
   array (

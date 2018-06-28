@@ -1,0 +1,52 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; ALCATEL4044M; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0'
+    readable: 'an Alcatel Go Flip running KaiOS 1.0'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'Go Flip' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; ALCATEL4044N; rv:37.0) Gecko/37.0 Firefox/37.0 Kai/1.0'
+    readable: 'an Alcatel Go Flip running KaiOS 1.0'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: 'Go Flip' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; LYF/F101K/LYF_F101K-000-01-26-181117; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0'
+    readable: 'a JioPhone F101K running KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Jio, model: 'JioPhone F101K' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; LYF/F41T/LYF-F41T-000-01-0A-140917; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0'
+    readable: 'a JioPhone F41T running KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Jio, model: 'JioPhone F41T' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; LYF/F61F/LYF-F61F-000-01-14-131117_i; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0'
+    readable: 'a JioPhone F61F running KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Jio, model: 'JioPhone F61F' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; LYF/F90M/LYF-F90M-000-02-21-131117; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0'
+    readable: 'a JioPhone F90M running KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Jio, model: 'JioPhone F90M' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; $LYF/$F30C/$LYF_F30C-000-09-00-270917; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0'
+    readable: 'a JioPhone F30C running KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature, manufacturer: Jio, model: 'JioPhone F30C' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0'
+    readable: 'KaiOS 1.0'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '1.0' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KaiOS/2.0'
+    readable: 'KaiOS 2.0'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.0' }, device: { type: mobile, subtype: feature } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5'
+    readable: 'KaiOS 2.5'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.5' }, device: { type: mobile, subtype: feature } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5', X-Wap-Profile: 'http://useragentprofile.hmdglobal.com/uaprof/Nokia33103Gr100.xml' }
+    readable: 'a Nokia 3310 3G running KaiOS 2.5'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.5' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '3310 3G' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5', X-Wap-Profile: 'http://useragentprofile.hmdglobal.com/uaprof/Nokia88104Gr100.xml' }
+    readable: 'a Nokia 8810 4G running KaiOS 2.5'
+    result: { browser: { family: { name: Firefox, version: '48.0' } }, engine: { name: Gecko, version: '48.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '2.5' }, device: { type: mobile, subtype: feature, manufacturer: Nokia, model: '8810 4G' } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Mobile; ALCATEL4044C; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0', X-Wap-Profile: 'http://www-ccpp.tcl-ta.com/files/4044C.xml' }
+    readable: 'an Alcatel QUICKFLIP running KaiOS 1.0'
+    result: { browser: { family: { name: Firefox, version: '37.0' } }, engine: { name: Gecko, version: '37.0' }, os: { name: KaiOS, family: 'Firefox OS', version: '1.0' }, device: { type: mobile, subtype: feature, manufacturer: Alcatel, model: QUICKFLIP } }

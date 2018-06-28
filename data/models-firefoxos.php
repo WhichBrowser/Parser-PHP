@@ -30,6 +30,7 @@ DeviceModels::$FIREFOXOS_MODELS = [
     'OPEN2'                                     => [ 'ZTE', 'Open II' ],
 
     'ALCATEL4044[MNOTVW]!'                      => [ 'Alcatel', 'Go Flip' ],
+    'ALCATEL4044C!'                             => [ 'Alcatel', 'QUICKFLIP' ],
     '.LYF\/.F30C!'                              => [ 'Jio', 'JioPhone F30C' ],
     '.LYF\/.F101K!'                             => [ 'Jio', 'JioPhone F101K' ],
     'LYF\/F30C!'                                => [ 'Jio', 'JioPhone F30C' ],
