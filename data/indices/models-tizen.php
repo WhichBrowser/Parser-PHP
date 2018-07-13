@@ -42,6 +42,20 @@ DeviceModels::$TIZEN_INDEX = array (
   array (
     0 => 'NX300',
   ),
+  '@RF' => 
+  array (
+    0 => 'RF10M9995!',
+    1 => 'RF23M8590!',
+    2 => 'RF265BEAE!',
+    3 => 'RF28M9580!',
+    4 => 'RF56M9540!',
+    5 => 'RF85K9993!',
+    6 => 'RF85M95A2!',
+  ),
+  '@RH' => 
+  array (
+    0 => 'RH81M8090!',
+  ),
   '@SC' => 
   array (
     0 => 'SC-03F',
@@ -83,6 +97,7 @@ DeviceModels::$TIZEN_INDEX = array (
     19 => 'SM-R760!',
     20 => 'SM-R765!',
     21 => 'SM-R770!',
+    22 => 'SM-R805!',
   ),
   '@TI' => 
   array (

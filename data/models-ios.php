@@ -94,4 +94,6 @@ DeviceModels::$IOS_MODELS = [
     'iPad7,2'                                   => [ 'Apple', 'iPad Pro (12.9″, 2nd gen)', DeviceType::TABLET ],
     'iPad7,3'                                   => [ 'Apple', 'iPad Pro (10.5″)', DeviceType::TABLET ],
     'iPad7,4'                                   => [ 'Apple', 'iPad Pro (10.5″)', DeviceType::TABLET ],
+    'iPad7,5'                                   => [ 'Apple', 'iPad (9.7″, 6th gen)', DeviceType::TABLET ],
+    'iPad7,6'                                   => [ 'Apple', 'iPad (9.7″, 6th gen)', DeviceType::TABLET ],
 ];

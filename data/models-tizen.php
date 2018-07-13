@@ -43,10 +43,20 @@ DeviceModels::$TIZEN_MODELS = [
     'SM-R760!'                                  => [ 'Samsung', 'Gear S3', DeviceType::WATCH ],
     'SM-R765!'                                  => [ 'Samsung', 'Gear S3', DeviceType::WATCH ],
     'SM-R770!'                                  => [ 'Samsung', 'Gear S3 Classic', DeviceType::WATCH ],
+    'SM-R805!'                                  => [ 'Samsung', 'Gear S4', DeviceType::WATCH ],
 
     'NX300'                                     => [ 'Samsung', 'NX300', DeviceType::CAMERA ],
 
     'FamilyHub'                                 => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF10M9995!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF23M8590!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF265BEAE!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF28M9580!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF56M9540!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF85K9993!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RF85M95A2!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+    'RH81M8090!'                                => [ 'Samsung', 'Family Hub', DeviceType::APPLIANCE ],
+
 
     'hawkp'                                     => [ 'Samsung', '"Hawkp"', DeviceType::TELEVISION ],
 
