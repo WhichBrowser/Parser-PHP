@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Pacific Build/N2G48H) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/4.6.0.114370170 SamsungBrowser/4.0 Chrome/61.0.3163.141 Mobile VR Safari/537.36'
+    readable: 'Oculus Browser 4.6 on an Oculus Go running Android 7.1.2'
+    result: { browser: { name: 'Oculus Browser', version: '4.6', type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.2 }, device: { type: headset, manufacturer: Oculus, model: Go } }

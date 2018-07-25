@@ -253,6 +253,12 @@ trait Browser
                         $this->data->device->model = 'Gear VR';
                         $this->data->device->type = Constants\DeviceType::HEADSET;
                     }
+
+                    if (preg_match('/Pacific/', $ua)) {
+                        $this->data->device->manufacturer = 'Oculus';
+                        $this->data->device->model = 'Go';
+                        $this->data->device->type = Constants\DeviceType::HEADSET;
+                    }
                 }
             } elseif (isset($this->data->os->name) && $this->data->os->name == 'Linux' && preg_match('/SamsungBrowser\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->name = "Samsung Internet";
