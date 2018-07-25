@@ -243,7 +243,7 @@ trait Browser
 
                 /* Oculus Chromium based browsers */
                 if (preg_match('/OculusBrowser\/([0-9.]*)/u', $ua, $match)) {
-                    $this->data->browser->name = "Oculus Internet";
+                    $this->data->browser->name = "Oculus Browser";
                     $this->data->browser->channel = null;
                     $this->data->browser->stock = true;
                     $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
