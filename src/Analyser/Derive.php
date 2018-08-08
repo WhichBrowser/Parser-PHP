@@ -476,6 +476,10 @@ trait Derive
                 if ($this->data->os->version->is('10.13')) {
                     $this->data->os->version->nickname = 'High Sierra';
                 }
+
+                if ($this->data->os->version->is('10.14')) {
+                    $this->data->os->version->nickname = 'Mojave';
+                }
             }
         }
     }
