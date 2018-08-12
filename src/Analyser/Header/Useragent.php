@@ -6,9 +6,10 @@ class Useragent
 {
     use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Application, Useragent\Using, Useragent\Engine, Useragent\Bot;
 
-    public function __construct($header, &$data)
+    public function __construct($header, &$data, &$options)
     {
         $this->data =& $data;
+        $this->options =& $options;
 
         /* Make sure we do not have a duplicate concatenated useragent string */
   

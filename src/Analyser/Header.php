@@ -82,7 +82,7 @@ trait Header
 
     private function analyseUserAgent($header)
     {
-        new Header\Useragent($header, $this->data);
+        new Header\Useragent($header, $this->data, $this->options);
     }
 
     private function analyseBaiduHeader($header)
