@@ -75,6 +75,7 @@ Chrome::$DESKTOP = [
     '66.0.3359' => 'stable',
     '67.0.3396' => 'stable',
     '68.0.3440' => 'stable',
+    '69.0.3497' => 'stable',
 ];
 
 Chrome::$MOBILE = [
@@ -122,4 +123,5 @@ Chrome::$MOBILE = [
     '66.0.3359' => 'stable',
     '67.0.3396' => 'stable',
     '68.0.3440' => 'stable',
+    '69.0.3497' => 'stable',
 ];
