@@ -49,6 +49,7 @@ DeviceModels::$IOS_MODELS = [
     'iPhone10,3'                                => [ 'Apple', 'iPhone X', DeviceType::MOBILE ],
     'iPhone10,4'                                => [ 'Apple', 'iPhone 8', DeviceType::MOBILE ],
     'iPhone10,5'                                => [ 'Apple', 'iPhone 8 Plus', DeviceType::MOBILE ],
+    'iPhone10,6'                                => [ 'Apple', 'iPhone X', DeviceType::MOBILE ],
     'iPhone11,2'                                => [ 'Apple', 'iPhone XS', DeviceType::MOBILE ],
     'iPhone11,4'                                => [ 'Apple', 'iPhone XS Max', DeviceType::MOBILE ],
     'iPhone11,6'                                => [ 'Apple', 'iPhone XS Max', DeviceType::MOBILE ],
