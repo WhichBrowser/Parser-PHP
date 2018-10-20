@@ -399,6 +399,9 @@ The `type` property can contain any value from the following list:
 * car
 * pos
 * bot
+* devboard
+* gps
+* watch
 
 If the `type` is "mobile", the `subtype` property can contain any value from the following list:
 
