@@ -277,6 +277,7 @@ Applications::$BOTS = [
     [ 'name' => 'Borland Delphi',               'id'    => 'indy',      'regexp' => '/Indy Library/u' ],
     [ 'name' => 'Wget',                         'id'    => 'wget',      'regexp' => '/Wget\/([0-9.]*)/u' ],
     [ 'name' => 'Curl',                         'id'    => 'curl',      'regexp' => '/^curl\/([0-9.]*)/u' ],
+    [ 'name' => 'zgrab',                        'id'    => 'zgrab',      'regexp' => '/^zgrab\/([0-9.]*)/u' ],
 
     [ 'name' => 'Go',                           'id'    => 'package',      'regexp' => '/Go [0-9\.]+ package http/u' ],
     [ 'name' => 'Java',                         'id'    => 'java',      'regexp' => '/^Java\/([0-9.]*)/u' ],
