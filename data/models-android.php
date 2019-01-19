@@ -1777,8 +1777,8 @@ DeviceModels::$ANDROID_MODELS = [
     'K00S'                                      => [ 'Asus', 'MeMO Pad HD 7 (ME175KG)', DeviceType::TABLET ],
     'K00U'                                      => [ 'Asus', 'MeMO Pad HD 7 (ME173XX)', DeviceType::TABLET ],
     'K011'                                      => [ 'Asus', 'MeMO Pad 8 (ME181C)', DeviceType::TABLET ],
-    'AST21'                                     => [ 'Asus', 'MeMO Pad 8 AST21', DeviceType::TABLET, 'carrier' => 'au' ],
-    'K015'                                      => [ 'Asus', 'MeMO Pad 8 AST21', DeviceType::TABLET, 'carrier' => 'au' ],
+    'AST21'                                     => [ 'Asus', 'MeMO Pad 8 AST21', DeviceType::TABLET, 'carrier' => 'au' ],
+    'K015'                                      => [ 'Asus', 'MeMO Pad 8 AST21', DeviceType::TABLET, 'carrier' => 'au' ],
     'K01H'                                      => [ 'Asus', 'MeMO Pad 8 (ME581C)', DeviceType::TABLET ],
     'K00L'                                      => [ 'Asus', 'MeMO Pad HD 8 (ME180A)', DeviceType::TABLET ],
     'K00F'                                      => [ 'Asus', 'MeMO Pad 10 (ME102A)', DeviceType::TABLET ],
@@ -2650,10 +2650,10 @@ DeviceModels::$ANDROID_MODELS = [
 
     'Carpad T5'                                 => [ 'Carpad', 'T5' ],
     'Carpad T61 2g'                             => [ 'Carpad', 'T61' ],
-    'CAL21'                                     => [ 'Casio', 'GzOne Type-L CAL21', 'carrier' => 'au' ],
+    'CAL21'                                     => [ 'Casio', 'GzOne Type-L CAL21', 'carrier' => 'au' ],
     'CA201SP'                                   => [ 'Casio', 'GzOne CA-201SP' ],
     'CA-201L'                                   => [ 'Casio', 'GzOne CA-201L' ],
-    'IS11CA'                                    => [ 'Casio', 'GzOne Commando IS11CA', 'carrier' => 'au' ],
+    'IS11CA'                                    => [ 'Casio', 'GzOne Commando IS11CA', 'carrier' => 'au' ],
     'C771'                                      => [ 'Casio', 'GzOne Commando' ],
     'C811 4G'                                   => [ 'Casio', 'GzOne Commando 811' ],
     'VX-100'                                    => [ 'Casio', 'VX-100 EPOS Terminal', DeviceType::POS ],
@@ -3629,9 +3629,9 @@ DeviceModels::$ANDROID_MODELS = [
 
     'Mini 3iG'                                  => [ 'Dell', 'Aero' ],
     'BizSmartPhone'                             => [ 'Dell', 'Biz SmartPhone' ],
-    '001DL'                                     => [ 'Dell', 'STREAK 001DL', DeviceType::TABLET, 'carrier' => 'Softbank' ],
-    '101DL'                                     => [ 'Dell', 'STREAK PRO 101DL', DeviceType::TABLET, 'carrier' => 'Softbank' ],
-    'GS01'                                      => [ 'Dell', 'STREAK PRO GS01', DeviceType::TABLET, 'carrier' => 'EMOBILE' ],
+    '001DL'                                     => [ 'Dell', 'STREAK 001DL', DeviceType::TABLET, 'carrier' => 'Softbank' ],
+    '101DL'                                     => [ 'Dell', 'STREAK PRO 101DL', DeviceType::TABLET, 'carrier' => 'Softbank' ],
+    'GS01'                                      => [ 'Dell', 'STREAK PRO GS01', DeviceType::TABLET, 'carrier' => 'EMOBILE' ],
     'streak7'                                   => [ 'Dell', 'Streak 7', DeviceType::TABLET ],
     'CS-1A13'                                   => [ 'Dell', 'Wyse Cloud Connect', DeviceType::TELEVISION ],
 
@@ -4432,58 +4432,58 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     '[0-9]0[0-9]F!!' => [
-        '101F'                                      => [ 'Fujitsu', 'ARROWS A 101F', 'carrier' => 'Softbank' ],
-        '201F'                                      => [ 'Fujitsu', 'ARROWS A 201F', 'carrier' => 'Softbank' ],
-        '202F'                                      => [ 'Fujitsu', 'ARROWS A 202F', 'carrier' => 'Softbank' ],
-        '301F'                                      => [ 'Fujitsu', 'ARROWS A 301F', 'carrier' => 'Softbank' ],
+        '101F'                                      => [ 'Fujitsu', 'ARROWS A 101F', 'carrier' => 'Softbank' ],
+        '201F'                                      => [ 'Fujitsu', 'ARROWS A 201F', 'carrier' => 'Softbank' ],
+        '202F'                                      => [ 'Fujitsu', 'ARROWS A 202F', 'carrier' => 'Softbank' ],
+        '301F'                                      => [ 'Fujitsu', 'ARROWS A 301F', 'carrier' => 'Softbank' ],
     ],
 
     'ISW?[0-9]{2,2}F!!' => [
-        'ISW11F'                                    => [ 'Fujitsu', 'ARROWS Z ISW11F', 'carrier' => 'au' ],
-        'ISW13F'                                    => [ 'Fujitsu', 'ARROWS Z ISW13F', 'carrier' => 'au' ],
-        'IS12F'                                     => [ 'Fujitsu', 'ARROWS ES IS12F', 'carrier' => 'au' ],
+        'ISW11F'                                    => [ 'Fujitsu', 'ARROWS Z ISW11F', 'carrier' => 'au' ],
+        'ISW13F'                                    => [ 'Fujitsu', 'ARROWS Z ISW13F', 'carrier' => 'au' ],
+        'IS12F'                                     => [ 'Fujitsu', 'ARROWS ES IS12F', 'carrier' => 'au' ],
     ],
 
     'F-[0-9]{2,2}[A-Z]!!' => [
-        'F-01D'                                     => [ 'Fujitsu', 'ARROWS Tab LTE F-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'F-01F'                                     => [ 'Fujitsu', 'ARROWS NX F-01F', 'carrier' => 'DoCoMo' ],
-        'F-01H'                                     => [ 'Fujitsu', 'arrows Fit F-01H', 'carrier' => 'DoCoMo' ],
-        'F-01J'                                     => [ 'Fujitsu', 'arrows NX F-01J', 'carrier' => 'DoCoMo' ],
-        'F-01K'                                     => [ 'Fujitsu', 'arrows NX F-01K', 'carrier' => 'DoCoMo' ],
-        'F-02E'                                     => [ 'Fujitsu', 'ARROWS X F-02E', 'carrier' => 'DoCoMo' ],
-        'F-02F'                                     => [ 'Fujitsu', 'ARROWS Tab F-02F', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'F-02G'                                     => [ 'Fujitsu', 'ARROWS NX F-02G', 'carrier' => 'DoCoMo' ],
-        'F-02H'                                     => [ 'Fujitsu', 'arrows NX F-02H', 'carrier' => 'DoCoMo' ],
-        'F-02K'                                     => [ 'Fujitsu', 'ARROWS Tab F-02K', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'F-03D'                                     => [ 'Fujitsu', 'ARROWS Kiss F-03D', 'carrier' => 'DoCoMo' ],
-        'F-03E'                                     => [ 'Fujitsu', 'ARROWS Kiss with JILL STUART F-03E', 'carrier' => 'DoCoMo' ],
+        'F-01D'                                     => [ 'Fujitsu', 'ARROWS Tab LTE F-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'F-01F'                                     => [ 'Fujitsu', 'ARROWS NX F-01F', 'carrier' => 'DoCoMo' ],
+        'F-01H'                                     => [ 'Fujitsu', 'arrows Fit F-01H', 'carrier' => 'DoCoMo' ],
+        'F-01J'                                     => [ 'Fujitsu', 'arrows NX F-01J', 'carrier' => 'DoCoMo' ],
+        'F-01K'                                     => [ 'Fujitsu', 'arrows NX F-01K', 'carrier' => 'DoCoMo' ],
+        'F-02E'                                     => [ 'Fujitsu', 'ARROWS X F-02E', 'carrier' => 'DoCoMo' ],
+        'F-02F'                                     => [ 'Fujitsu', 'ARROWS Tab F-02F', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'F-02G'                                     => [ 'Fujitsu', 'ARROWS NX F-02G', 'carrier' => 'DoCoMo' ],
+        'F-02H'                                     => [ 'Fujitsu', 'arrows NX F-02H', 'carrier' => 'DoCoMo' ],
+        'F-02K'                                     => [ 'Fujitsu', 'ARROWS Tab F-02K', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'F-03D'                                     => [ 'Fujitsu', 'ARROWS Kiss F-03D', 'carrier' => 'DoCoMo' ],
+        'F-03E'                                     => [ 'Fujitsu', 'ARROWS Kiss with JILL STUART F-03E', 'carrier' => 'DoCoMo' ],
         'F-03F'                                     => [ 'Fujitsu', 'F-03F', 'carrier' => 'Disney Mobile' ],
-        'F-03G'                                     => [ 'Fujitsu', 'ARROWS Tab F-03G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'F-03H'                                     => [ 'Fujitsu', 'arrows SV F-03H', 'carrier' => 'DoCoMo' ],
-        'F-03K'                                     => [ 'Fujitsu', 'me F-03K', 'carrier' => 'DoCoMo' ],
-        'F-04E'                                     => [ 'Fujitsu', 'ARROWS V F-04E', 'carrier' => 'DoCoMo' ],
-        'F-04F'                                     => [ 'Fujitsu', 'Business Smartphone F-04F', 'carrier' => 'DoCoMo' ],
-        'F-04G'                                     => [ 'Fujitsu', 'ARROWS NX F-04G', 'carrier' => 'DoCoMo' ],
-        'F-04H'                                     => [ 'Fujitsu', 'ARROWS Tab F-04H', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'F-04J'                                     => [ 'Fujitsu', 'らくらくスマートフォン4 F-04J', 'carrier' => 'DoCoMo' ],
-        'F-04K'                                     => [ 'Fujitsu', 'ARROWS Be F-04K', 'carrier' => 'DoCoMo' ],
-        'F-05D'                                     => [ 'Fujitsu', 'ARROWS X LTE F-05D', 'carrier' => 'DoCoMo' ],
-        'F-05E'                                     => [ 'Fujitsu', 'ARROWS Tab F-05E', 'carrier' => 'DoCoMo' ],
-        'F-05F'                                     => [ 'Fujitsu', 'ARROWS NX F-05F', 'carrier' => 'DoCoMo' ],
-        'F-05G'                                     => [ 'Fujitsu', 'ARROWS F-05G', 'carrier' => 'DoCoMo' ],
-        'F-05J'                                     => [ 'Fujitsu', 'ARROWS Be F-05J', 'carrier' => 'DoCoMo' ],
-        'F-06E'                                     => [ 'Fujitsu', 'ARROWS NX F-06E', 'carrier' => 'DoCoMo' ],
-        'F-06F'                                     => [ 'Fujitsu', 'Easy Smartphone 3 F-06F', 'carrier' => 'DoCoMo' ],
-        'F-07D'                                     => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
+        'F-03G'                                     => [ 'Fujitsu', 'ARROWS Tab F-03G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'F-03H'                                     => [ 'Fujitsu', 'arrows SV F-03H', 'carrier' => 'DoCoMo' ],
+        'F-03K'                                     => [ 'Fujitsu', 'me F-03K', 'carrier' => 'DoCoMo' ],
+        'F-04E'                                     => [ 'Fujitsu', 'ARROWS V F-04E', 'carrier' => 'DoCoMo' ],
+        'F-04F'                                     => [ 'Fujitsu', 'Business Smartphone F-04F', 'carrier' => 'DoCoMo' ],
+        'F-04G'                                     => [ 'Fujitsu', 'ARROWS NX F-04G', 'carrier' => 'DoCoMo' ],
+        'F-04H'                                     => [ 'Fujitsu', 'ARROWS Tab F-04H', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'F-04J'                                     => [ 'Fujitsu', 'らくらくスマートフォン4 F-04J', 'carrier' => 'DoCoMo' ],
+        'F-04K'                                     => [ 'Fujitsu', 'ARROWS Be F-04K', 'carrier' => 'DoCoMo' ],
+        'F-05D'                                     => [ 'Fujitsu', 'ARROWS X LTE F-05D', 'carrier' => 'DoCoMo' ],
+        'F-05E'                                     => [ 'Fujitsu', 'ARROWS Tab F-05E', 'carrier' => 'DoCoMo' ],
+        'F-05F'                                     => [ 'Fujitsu', 'ARROWS NX F-05F', 'carrier' => 'DoCoMo' ],
+        'F-05G'                                     => [ 'Fujitsu', 'ARROWS F-05G', 'carrier' => 'DoCoMo' ],
+        'F-05J'                                     => [ 'Fujitsu', 'ARROWS Be F-05J', 'carrier' => 'DoCoMo' ],
+        'F-06E'                                     => [ 'Fujitsu', 'ARROWS NX F-06E', 'carrier' => 'DoCoMo' ],
+        'F-06F'                                     => [ 'Fujitsu', 'Easy Smartphone 3 F-06F', 'carrier' => 'DoCoMo' ],
+        'F-07D'                                     => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
         'F-07E'                                     => [ 'Fujitsu', 'F-07E', 'carrier' => 'Disney Mobile' ],
         'F-08D'                                     => [ 'Fujitsu', 'F-08D', 'carrier' => 'Disney Mobile' ],
-        'F-08E'                                     => [ 'Fujitsu', 'Easy Smartphone 2 F-08E', 'carrier' => 'DoCoMo' ],
-        'F-09D'                                     => [ 'Fujitsu', 'ANTEPRIMA F-09D', 'carrier' => 'DoCoMo' ],
-        'F-09E'                                     => [ 'Fujitsu', 'Easy Smartphone Premium F-09E', 'carrier' => 'DoCoMo' ],
-        'F-10D'                                     => [ 'Fujitsu', 'ARROWS X F-10D', 'carrier' => 'DoCoMo' ],
-        'F-11D'                                     => [ 'Fujitsu', 'ARROWS Me F-11D', 'carrier' => 'DoCoMo' ],
-        'F-12C'                                     => [ 'Fujitsu', 'GLOBE-TROTTER F-12C', 'carrier' => 'DoCoMo' ],
-        'F-12D'                                     => [ 'Fujitsu', 'Easy Smartphone F-12D', 'carrier' => 'DoCoMo' ],
+        'F-08E'                                     => [ 'Fujitsu', 'Easy Smartphone 2 F-08E', 'carrier' => 'DoCoMo' ],
+        'F-09D'                                     => [ 'Fujitsu', 'ANTEPRIMA F-09D', 'carrier' => 'DoCoMo' ],
+        'F-09E'                                     => [ 'Fujitsu', 'Easy Smartphone Premium F-09E', 'carrier' => 'DoCoMo' ],
+        'F-10D'                                     => [ 'Fujitsu', 'ARROWS X F-10D', 'carrier' => 'DoCoMo' ],
+        'F-11D'                                     => [ 'Fujitsu', 'ARROWS Me F-11D', 'carrier' => 'DoCoMo' ],
+        'F-12C'                                     => [ 'Fujitsu', 'GLOBE-TROTTER F-12C', 'carrier' => 'DoCoMo' ],
+        'F-12D'                                     => [ 'Fujitsu', 'Easy Smartphone F-12D', 'carrier' => 'DoCoMo' ],
     ],
 
     'f12[a-z]{3,3}!!' => [
@@ -4492,18 +4492,18 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'FJ[LT][0-9]{2,2}!!' => [
-        'FJL21'                                     => [ 'Fujitsu', 'ARROWS ef FJL21', 'carrier' => 'au' ],
-        'FJL22'                                     => [ 'Fujitsu', 'ARROWS Z FJL22', 'carrier' => 'au' ],
-        'FJT21'                                     => [ 'Fujitsu', 'ARROWS Tab FJT21', DeviceType::TABLET, 'carrier' => 'au' ],
+        'FJL21'                                     => [ 'Fujitsu', 'ARROWS ef FJL21', 'carrier' => 'au' ],
+        'FJL22'                                     => [ 'Fujitsu', 'ARROWS Z FJL22', 'carrier' => 'au' ],
+        'FJT21'                                     => [ 'Fujitsu', 'ARROWS Tab FJT21', DeviceType::TABLET, 'carrier' => 'au' ],
     ],
 
     'SZJ-JS101'                                 => [ 'Fujitsu', 'SZJ-JS101' ],
 
     'FHMD001'                                   => [ 'Fujitsu', 'FHMD001', DeviceType::HEADSET ],
 
-    'F-074'                                     => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
-    'FJJB091'                                   => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
-    'EM01F'                                     => [ 'Fujitsu', 'ARROWS S EM01F', 'carrier' => 'EMOBILE' ],
+    'F-074'                                     => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
+    'FJJB091'                                   => [ 'Fujitsu', 'ARROWS μ F-07D', 'carrier' => 'DoCoMo' ],
+    'EM01F'                                     => [ 'Fujitsu', 'ARROWS S EM01F', 'carrier' => 'EMOBILE' ],
     'M01'                                       => [ 'Fujitsu', 'ARROWS M01' ],
     'M02'                                       => [ 'Fujitsu', 'ARROWS M02' ],
     'RM02'                                      => [ 'Fujitsu', 'ARROWS M02' ],
@@ -5570,8 +5570,8 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC Bravo C'                               => [ 'HTC', 'Desire' ],
         'HTC eris'                                  => [ 'HTC', 'Desire' ],
         'HTC A81(81|83)!'                           => [ 'HTC', 'Desire' ],
-        'HTC ?X06HTII!'                             => [ 'HTC', 'Desire X06HTII', 'carrier' => 'Softbank' ],
-        'HTC ?X06HT!'                               => [ 'HTC', 'Desire X06HT', 'carrier' => 'Softbank' ],
+        'HTC ?X06HTII!'                             => [ 'HTC', 'Desire X06HTII', 'carrier' => 'Softbank' ],
+        'HTC ?X06HT!'                               => [ 'HTC', 'Desire X06HT', 'carrier' => 'Softbank' ],
         'HTC Desire CDMA'                           => [ 'HTC', 'Desire' ],
         'HTC PLS7373ADR'                            => [ 'HTC', 'Detail' ],
         'HTC 603e'                                  => [ 'HTC', 'E1' ],
@@ -5946,7 +5946,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Incredible 4G LTE'                         => [ 'HTC', 'Incredible' ],
     'Inspire 4G'                                => [ 'HTC', 'Inspire 4G' ],
     'Legend'                                    => [ 'HTC', 'Legend' ],
-    'Docomo HT-03A'                             => [ 'HTC', 'Magic HT-03A', 'carrier' => 'DoCoMo' ],
+    'Docomo HT-03A'                             => [ 'HTC', 'Magic HT-03A', 'carrier' => 'DoCoMo' ],
     'One S'                                     => [ 'HTC', 'One S' ],
     'One X'                                     => [ 'HTC', 'One X' ],
     'One X+'                                    => [ 'HTC', 'One X+' ],
@@ -6057,25 +6057,25 @@ DeviceModels::$ANDROID_MODELS = [
     'M7CDTU'                                    => [ 'HTC', 'One' ],
 
     '[SX06][0-9]{2,2}HT!!' => [
-        'S31HT'                                     => [ 'HTC', 'Aria S31HT', 'carrier' => 'EMOBILE' ],
-        'X06HT'                                     => [ 'HTC', 'Desire X06HT', 'carrier' => 'Softbank' ],
-        '001HT'                                     => [ 'HTC', 'Desire HD 001HT', 'carrier' => 'Softbank' ],
-        '601HT'                                     => [ 'HTC', 'U11 601HT', 'carrier' => 'Softbank' ],
+        'S31HT'                                     => [ 'HTC', 'Aria S31HT', 'carrier' => 'EMOBILE' ],
+        'X06HT'                                     => [ 'HTC', 'Desire X06HT', 'carrier' => 'Softbank' ],
+        '001HT'                                     => [ 'HTC', 'Desire HD 001HT', 'carrier' => 'Softbank' ],
+        '601HT'                                     => [ 'HTC', 'U11 601HT', 'carrier' => 'Softbank' ],
     ],
 
     'ISW[0-9]{2,2}HT!!' => [
-        'ISW11HT!'                                  => [ 'HTC', 'EVO WiMAX ISW11HT', 'carrier' => 'au' ],
-        'ISW12HT!'                                  => [ 'HTC', 'EVO 3D ISW12HT', 'carrier' => 'au' ],
-        'ISW13HT!'                                  => [ 'HTC', 'J ISW13HT', 'carrier' => 'au' ],
+        'ISW11HT!'                                  => [ 'HTC', 'EVO WiMAX ISW11HT', 'carrier' => 'au' ],
+        'ISW12HT!'                                  => [ 'HTC', 'EVO 3D ISW12HT', 'carrier' => 'au' ],
+        'ISW13HT!'                                  => [ 'HTC', 'J ISW13HT', 'carrier' => 'au' ],
     ],
 
     '(HTC )?HT[LV][0-9]{2,2}!!' => [
-        'HTL21!'                                    => [ 'HTC', 'J Butterfly HTL21', 'carrier' => 'au' ],
-        'HTL22'                                     => [ 'HTC', 'J One HTL22', 'carrier' => 'au' ],
-        'HTC HTL22'                                 => [ 'HTC', 'J One HTL22', 'carrier' => 'au' ],
-        'HTL23!'                                    => [ 'HTC', 'J Butterfly HTL23', 'carrier' => 'au' ],
-        'HTV31!'                                    => [ 'HTC', 'J Butterfly HTV31', 'carrier' => 'au' ],
-        'HTV32!'                                    => [ 'HTC', '10 HTV32', 'carrier' => 'au' ],
+        'HTL21!'                                    => [ 'HTC', 'J Butterfly HTL21', 'carrier' => 'au' ],
+        'HTL22'                                     => [ 'HTC', 'J One HTL22', 'carrier' => 'au' ],
+        'HTC HTL22'                                 => [ 'HTC', 'J One HTL22', 'carrier' => 'au' ],
+        'HTL23!'                                    => [ 'HTC', 'J Butterfly HTL23', 'carrier' => 'au' ],
+        'HTV31!'                                    => [ 'HTC', 'J Butterfly HTV31', 'carrier' => 'au' ],
+        'HTV32!'                                    => [ 'HTC', '10 HTV32', 'carrier' => 'au' ],
     ],
 
     'GT-T9500'                                  => [ 'HTM', 'GT-T9500' ],
@@ -6554,21 +6554,21 @@ DeviceModels::$ANDROID_MODELS = [
 
     '[0-9AS][0-9]{2,2}HW!!' => [
         'A01HW'                                     => [ 'Huawei', 'A01HW', DeviceType::TABLET, 'carrier' => 'EMOBILE' ],
-        'S31HW'                                     => [ 'Huawei', 'Pocket WiFi S S31HW', 'carrier' => 'EMOBILE' ],
-        'S41HW'                                     => [ 'Huawei', 'Pocket WiFi S II S41HW', 'carrier' => 'EMOBILE' ],
-        'S42HW'                                     => [ 'Huawei', 'smart bar S42HW', 'carrier' => 'EMOBILE' ],
-        '007HW'                                     => [ 'Huawei', 'Vision 007HW', 'carrier' => 'Softbank' ],
-        '201HW'                                     => [ 'Huawei', 'STREAM 201HW', 'carrier' => 'Softbank' ],
+        'S31HW'                                     => [ 'Huawei', 'Pocket WiFi S S31HW', 'carrier' => 'EMOBILE' ],
+        'S41HW'                                     => [ 'Huawei', 'Pocket WiFi S II S41HW', 'carrier' => 'EMOBILE' ],
+        'S42HW'                                     => [ 'Huawei', 'smart bar S42HW', 'carrier' => 'EMOBILE' ],
+        '007HW'                                     => [ 'Huawei', 'Vision 007HW', 'carrier' => 'Softbank' ],
+        '201HW'                                     => [ 'Huawei', 'STREAM 201HW', 'carrier' => 'Softbank' ],
         '204HW'                                     => [ 'Huawei', '204HW', 'carrier' => 'Softbank' ],
-        '301HW'                                     => [ 'Huawei', 'Pocket WiFi 301HW', 'carrier' => 'Softbank' ],
-        '302HW'                                     => [ 'Huawei', 'STREAM S 302HW', 'carrier' => 'Y! Mobile' ],
-        '402HW'                                     => [ 'Huawei', 'MediaPad 10 Link+ 402HW', DeviceType::TABLET, 'carrier' => 'Softbank' ],
-        '403HW'                                     => [ 'Huawei', 'MediaPad M1 8.0 403HW', DeviceType::TABLET, 'carrier' => 'Y! Mobile' ],
-        '503HW'                                     => [ 'Huawei', 'LUMIERE 503HW', 'carrier' => 'Y! Mobile' ],
-        '605HW'                                     => [ 'Huawei', 'MediaPad T2 Pro 605HW', DeviceType::TABLET, 'carrier' => 'Softbank' ],
-        '606HW'                                     => [ 'Huawei', 'MediaPad T2 Pro 606HW', DeviceType::TABLET, 'carrier' => 'Y! Mobile' ],
-        '608HW'                                     => [ 'Huawei', 'nova lite 608HW', 'carrier' => 'Y! Mobile' ],
-        '704HW'                                     => [ 'Huawei', 'nova lite 2 704HW', 'carrier' => 'Softbank' ],
+        '301HW'                                     => [ 'Huawei', 'Pocket WiFi 301HW', 'carrier' => 'Softbank' ],
+        '302HW'                                     => [ 'Huawei', 'STREAM S 302HW', 'carrier' => 'Y! Mobile' ],
+        '402HW'                                     => [ 'Huawei', 'MediaPad 10 Link+ 402HW', DeviceType::TABLET, 'carrier' => 'Softbank' ],
+        '403HW'                                     => [ 'Huawei', 'MediaPad M1 8.0 403HW', DeviceType::TABLET, 'carrier' => 'Y! Mobile' ],
+        '503HW'                                     => [ 'Huawei', 'LUMIERE 503HW', 'carrier' => 'Y! Mobile' ],
+        '605HW'                                     => [ 'Huawei', 'MediaPad T2 Pro 605HW', DeviceType::TABLET, 'carrier' => 'Softbank' ],
+        '606HW'                                     => [ 'Huawei', 'MediaPad T2 Pro 606HW', DeviceType::TABLET, 'carrier' => 'Y! Mobile' ],
+        '608HW'                                     => [ 'Huawei', 'nova lite 608HW', 'carrier' => 'Y! Mobile' ],
+        '704HW'                                     => [ 'Huawei', 'nova lite 2 704HW', 'carrier' => 'Softbank' ],
     ],
 
     'CM980'                                     => [ 'Huawei', 'Evolution II' ],
@@ -6663,12 +6663,12 @@ DeviceModels::$ANDROID_MODELS = [
 
     'GS02'                                      => [ 'Huawei', 'GS02', 'carrier' => 'EMOBILE' ],
     'GS03'                                      => [ 'Huawei', 'GS03', 'carrier' => 'EMOBILE' ],
-    'GL07S'                                     => [ 'Huawei', 'STREAM X GL07S', 'carrier' => 'EMOBILE' ],
-    'HW-01E'                                    => [ 'Huawei', 'Ascend HW-01E', 'carrier' => 'DoCoMo' ],
-    'HW-01K'                                    => [ 'Huawei', 'P20 Pro HW-01K', 'carrier' => 'DoCoMo' ],
-    'HW-03E'                                    => [ 'Huawei', 'Ascend D2 HW-03E', 'carrier' => 'DoCoMo' ],
-    'HWT31'                                     => [ 'Huawei', 'Qua tab 02 HWT31', 'carrier' => 'au' ],
-    'HWV32'                                     => [ 'Huawei', 'P20 lite HWV32', 'carrier' => 'au' ],
+    'GL07S'                                     => [ 'Huawei', 'STREAM X GL07S', 'carrier' => 'EMOBILE' ],
+    'HW-01E'                                    => [ 'Huawei', 'Ascend HW-01E', 'carrier' => 'DoCoMo' ],
+    'HW-01K'                                    => [ 'Huawei', 'P20 Pro HW-01K', 'carrier' => 'DoCoMo' ],
+    'HW-03E'                                    => [ 'Huawei', 'Ascend D2 HW-03E', 'carrier' => 'DoCoMo' ],
+    'HWT31'                                     => [ 'Huawei', 'Qua tab 02 HWT31', 'carrier' => 'au' ],
+    'HWV32'                                     => [ 'Huawei', 'P20 lite HWV32', 'carrier' => 'au' ],
     'H710VL'                                    => [ 'Huawei', 'Sensa' ],
     'H715BL'                                    => [ 'Huawei', 'Sensa LTE' ],
     'H866C'                                     => [ 'Huawei', 'Ascend Y H866C' ],
@@ -6935,13 +6935,13 @@ DeviceModels::$ANDROID_MODELS = [
     'CT1006'                                    => [ 'IdeaUSA', 'CT1006', DeviceType::TABLET ],
 
     'INFOBAR!!' => [
-        'INFOBAR A01'                               => [ 'iida', 'INFOBAR A01', 'carrier' => 'au' ],               // by Sharp
-        'INFOBAR A01-2'                             => [ 'iida', 'INFOBAR A01', 'carrier' => 'au' ],               // by Sharp
-        'INFOBAR C01'                               => [ 'iida', 'INFOBAR C01', 'carrier' => 'au' ],               // by Sharp
+        'INFOBAR A01'                               => [ 'iida', 'INFOBAR A01', 'carrier' => 'au' ],               // by Sharp
+        'INFOBAR A01-2'                             => [ 'iida', 'INFOBAR A01', 'carrier' => 'au' ],               // by Sharp
+        'INFOBAR C01'                               => [ 'iida', 'INFOBAR C01', 'carrier' => 'au' ],               // by Sharp
     ],
 
-    'HTX21'                                     => [ 'iida', 'INFOBAR A02', 'carrier' => 'au' ],                   // by HTC
-    'KYV33'                                     => [ 'iida', 'INFOBAR A03', 'carrier' => 'au' ],                   // by Kyocera
+    'HTX21'                                     => [ 'iida', 'INFOBAR A02', 'carrier' => 'au' ],                   // by HTC
+    'KYV33'                                     => [ 'iida', 'INFOBAR A03', 'carrier' => 'au' ],                   // by Kyocera
 
 
     'IMO!!' => [
@@ -7793,22 +7793,22 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'Kyobo mirasol eReader'                     => [ 'Kyobo', 'eReader', DeviceType::EREADER ],
-    'ISW11K'                                    => [ 'Kyocera', 'DIGNO ISW11K', 'carrier' => 'au' ],
+    'ISW11K'                                    => [ 'Kyocera', 'DIGNO ISW11K', 'carrier' => 'au' ],
 
     'KYL[0-9]{2,2}!!' => [
-        'KYL21'                                     => [ 'Kyocera', 'DIGNO S KYL21', 'carrier' => 'au' ],
-        'KYL22'                                     => [ 'Kyocera', 'DIGNO M KYL22', 'carrier' => 'au' ],
+        'KYL21'                                     => [ 'Kyocera', 'DIGNO S KYL21', 'carrier' => 'au' ],
+        'KYL22'                                     => [ 'Kyocera', 'DIGNO M KYL22', 'carrier' => 'au' ],
     ],
 
     'KC-01'                                     => [ 'Kyocera', 'KC-01' ],
     'KC-S301AE'                                 => [ 'Kyocera', 'S301' ],
     'KC-S701'                                   => [ 'Kyocera', 'TORQUE' ],
     'KCP01K'                                    => [ 'Kyocera', 'LUCE' ],
-    'SKT01'                                     => [ 'Kyocera', 'TORQUE SKT01' ],
+    'SKT01'                                     => [ 'Kyocera', 'TORQUE SKT01' ],
 
-    'WX04K'                                     => [ 'Kyocera', 'DIGNO Dual WX04K', 'carrier' => 'Willcom' ],
-    'WX06K'                                     => [ 'Kyocera', 'HONEY BEE WX06K', 'carrier' => 'Willcom' ],
-    'WX10K'                                     => [ 'Kyocera', 'DIGNO Dual 2 WX10K', 'carrier' => 'Willcom' ],
+    'WX04K'                                     => [ 'Kyocera', 'DIGNO Dual WX04K', 'carrier' => 'Willcom' ],
+    'WX06K'                                     => [ 'Kyocera', 'HONEY BEE WX06K', 'carrier' => 'Willcom' ],
+    'WX10K'                                     => [ 'Kyocera', 'DIGNO Dual 2 WX10K', 'carrier' => 'Willcom' ],
     'JC-KSP8000'                                => [ 'Kyocera', 'Echo' ],
     'KSP8000'                                   => [ 'Kyocera', 'Echo' ],
     'Event'                                     => [ 'Kyocera', 'Event' ],
@@ -7858,23 +7858,23 @@ DeviceModels::$ANDROID_MODELS = [
     'M9300'                                     => [ 'Kyocera', 'Echo' ],
 
     'KY[FLTYV][0-9]{2,2}!!' => [
-        'KYF31'                                     => [ 'Kyocera', 'GRATINA KYF31', 'carrier' => 'au' ],
-        'KYF37'                                     => [ 'Kyocera', 'GRATINA KYF37', 'carrier' => 'au' ],
-        'KYL23'                                     => [ 'Kyocera', 'miraie KYL23', 'carrier' => 'au' ],
+        'KYF31'                                     => [ 'Kyocera', 'GRATINA KYF31', 'carrier' => 'au' ],
+        'KYF37'                                     => [ 'Kyocera', 'GRATINA KYF37', 'carrier' => 'au' ],
+        'KYL23'                                     => [ 'Kyocera', 'miraie KYL23', 'carrier' => 'au' ],
         'KYY21'                                     => [ 'Kyocera', 'URBANO L01', 'carrier' => 'au' ],
         'KYY22'                                     => [ 'Kyocera', 'URBANO L02', 'carrier' => 'au' ],
         'KYY23'                                     => [ 'Kyocera', 'URBANO L03', 'carrier' => 'au' ],
         'KYY24'                                     => [ 'Kyocera', 'TORQUE G01', 'carrier' => 'au' ],
         'KYV31'                                     => [ 'Kyocera', 'URBANO V01', 'carrier' => 'au' ],
-        'KYV32'                                     => [ 'Kyocera', 'BASIO KYV32', 'carrier' => 'au' ],
+        'KYV32'                                     => [ 'Kyocera', 'BASIO KYV32', 'carrier' => 'au' ],
         'KYV34'                                     => [ 'Kyocera', 'URBANO V02', 'carrier' => 'au' ],
         'KYV35'                                     => [ 'Kyocera', 'TORQUE G02', 'carrier' => 'au' ],
-        'KYV36'                                     => [ 'Kyocera', 'DIGNO rafre KYV36', 'carrier' => 'au' ],
+        'KYV36'                                     => [ 'Kyocera', 'DIGNO rafre KYV36', 'carrier' => 'au' ],
         'KYV37'                                     => [ 'Kyocera', 'Qua phone', 'carrier' => 'au' ],
-        'KYV38'                                     => [ 'Kyocera', 'URBANO V03 KYV38', 'carrier' => 'au' ],
-        'KYV40'                                     => [ 'Kyocera', 'rafre KYV40', 'carrier' => 'au' ],
-        'KYV40U'                                    => [ 'Kyocera', 'DIGNO W KYV40U', 'carrier' => 'UQ mobile' ],
-        'KYV41'                                     => [ 'Kyocera', 'TORQUE G03 KYV41', 'carrier' => 'au' ],
+        'KYV38'                                     => [ 'Kyocera', 'URBANO V03 KYV38', 'carrier' => 'au' ],
+        'KYV40'                                     => [ 'Kyocera', 'rafre KYV40', 'carrier' => 'au' ],
+        'KYV40U'                                    => [ 'Kyocera', 'DIGNO W KYV40U', 'carrier' => 'UQ mobile' ],
+        'KYV41'                                     => [ 'Kyocera', 'TORQUE G03 KYV41', 'carrier' => 'au' ],
         'KYV42'                                     => [ 'Kyocera', 'Qua phone QX', 'carrier' => 'au' ],
         'KYT31'                                     => [ 'Kyocera', 'Qua tab', DeviceType::TABLET, 'carrier' => 'au' ],
         'KYT33'                                     => [ 'Kyocera', 'Qua tab QZ10', DeviceType::TABLET, 'carrier' => 'au' ],
@@ -7883,14 +7883,14 @@ DeviceModels::$ANDROID_MODELS = [
     'URBANO PROGRESSO'                          => [ 'Kyocera', 'URBANO PROGRESSO', 'carrier' => 'au' ],
 
     '[0-9]0[0-9]KC?!!' => [
-        '101K'                                      => [ 'Kyocera', 'HONEY BEE 101K', 'carrier' => 'Softbank' ],
-        '201K'                                      => [ 'Kyocera', 'HONEY BEE 201K', 'carrier' => 'Softbank' ],
-        '202K'                                      => [ 'Kyocera', 'DIGNO R 202K', 'carrier' => 'Softbank' ],
-        '302KC'                                     => [ 'Kyocera', 'DIGNO T 302KC', 'carrier' => 'EMOBILE' ],
-        '404KC'                                     => [ 'Kyocera', 'DIGNO C 404KC', 'carrier' => 'Y! Mobile' ],
-        '503KC'                                     => [ 'Kyocera', 'DIGNO E 503KC', 'carrier' => 'Y! Mobile' ],
-        '602KC'                                     => [ 'Kyocera', 'DIGNO G 602KC', 'carrier' => 'Softbank' ],
-        '704KC'                                     => [ 'Kyocera', 'DIGNO J 704KC', 'carrier' => 'Softbank' ],
+        '101K'                                      => [ 'Kyocera', 'HONEY BEE 101K', 'carrier' => 'Softbank' ],
+        '201K'                                      => [ 'Kyocera', 'HONEY BEE 201K', 'carrier' => 'Softbank' ],
+        '202K'                                      => [ 'Kyocera', 'DIGNO R 202K', 'carrier' => 'Softbank' ],
+        '302KC'                                     => [ 'Kyocera', 'DIGNO T 302KC', 'carrier' => 'EMOBILE' ],
+        '404KC'                                     => [ 'Kyocera', 'DIGNO C 404KC', 'carrier' => 'Y! Mobile' ],
+        '503KC'                                     => [ 'Kyocera', 'DIGNO E 503KC', 'carrier' => 'Y! Mobile' ],
+        '602KC'                                     => [ 'Kyocera', 'DIGNO G 602KC', 'carrier' => 'Softbank' ],
+        '704KC'                                     => [ 'Kyocera', 'DIGNO J 704KC', 'carrier' => 'Softbank' ],
     ],
 
     'K\-?Touch!!' => [
@@ -8699,8 +8699,8 @@ DeviceModels::$ANDROID_MODELS = [
 
     'LenovoTV 40S9'                             => [ 'Lenovo', 'TV 40S9', DeviceType::TELEVISION ],
     'LenovoTV 50S52'                            => [ 'Lenovo', 'TV 50S52', DeviceType::TELEVISION ],
-    '501LV'                                     => [ 'Lenovo', 'Tab2 501LV', 'carrier' => 'Softbank' ],
-    '602LV'                                     => [ 'Lenovo', 'Tab3 602LV', 'carrier' => 'Softbank' ],
+    '501LV'                                     => [ 'Lenovo', 'Tab2 501LV', 'carrier' => 'Softbank' ],
+    '602LV'                                     => [ 'Lenovo', 'Tab3 602LV', 'carrier' => 'Softbank' ],
 
     'ZUK Z1'                                    => [ 'Lenovo', 'ZUK Z1' ],
     'ZUK Z2'                                    => [ 'Lenovo', 'ZUK Z2' ],
@@ -9360,21 +9360,21 @@ DeviceModels::$ANDROID_MODELS = [
     'KU9500'                                    => [ 'LG', 'Optimus Z' ],
 
     'LG[LSTV][0-9]{2,2}!!' => [
-        'LGL21'                                     => [ 'LG', 'Optimus G LGL21', 'carrier' => 'au' ],
-        'LGL22'                                     => [ 'LG', 'isai LGL22', 'carrier' => 'au' ],
-        'LGL23'                                     => [ 'LG', 'G Flex LGL23', 'carrier' => 'au' ],
-        'LGL24'                                     => [ 'LG', 'isai FL LGL24', 'carrier' => 'au' ],
-        'LGL25'                                     => [ 'LG', 'Fx0 LGL25', 'carrier' => 'au' ],
-        'LGS01'                                     => [ 'LG', 'Wine Smart LGS01', 'carrier' => 'J:COM' ],
-        'LGV31'                                     => [ 'LG', 'isai VL LGV31', 'carrier' => 'au' ],
-        'LGV32'                                     => [ 'LG', 'isai vivid LGV32', 'carrier' => 'au' ],
-        'LGV33'                                     => [ 'LG', 'Qua phone PX LGV33', 'carrier' => 'au' ],
-        'LGV34'                                     => [ 'LG', 'isai Beat LGV34', 'carrier' => 'au' ],
-        'LGV35'                                     => [ 'LG', 'isai V30+ LGV35', 'carrier' => 'au' ],
-        'LGT01'                                     => [ 'LG', 'G Pad 8.0 L LGT01', 'carrier' => 'J:COM', DeviceType::TABLET ],
-        'LGT02'                                     => [ 'LG', 'G Pad 8.0 III LGT02', 'carrier' => 'J:COM', DeviceType::TABLET ],
-        'LGT31'                                     => [ 'LG', 'Qua tab PX LGT31', 'carrier' => 'au', DeviceType::TABLET ],
-        'LGT32'                                     => [ 'LG', 'Qua tab PZ LGT32', 'carrier' => 'au', DeviceType::TABLET ],
+        'LGL21'                                     => [ 'LG', 'Optimus G LGL21', 'carrier' => 'au' ],
+        'LGL22'                                     => [ 'LG', 'isai LGL22', 'carrier' => 'au' ],
+        'LGL23'                                     => [ 'LG', 'G Flex LGL23', 'carrier' => 'au' ],
+        'LGL24'                                     => [ 'LG', 'isai FL LGL24', 'carrier' => 'au' ],
+        'LGL25'                                     => [ 'LG', 'Fx0 LGL25', 'carrier' => 'au' ],
+        'LGS01'                                     => [ 'LG', 'Wine Smart LGS01', 'carrier' => 'J:COM' ],
+        'LGV31'                                     => [ 'LG', 'isai VL LGV31', 'carrier' => 'au' ],
+        'LGV32'                                     => [ 'LG', 'isai vivid LGV32', 'carrier' => 'au' ],
+        'LGV33'                                     => [ 'LG', 'Qua phone PX LGV33', 'carrier' => 'au' ],
+        'LGV34'                                     => [ 'LG', 'isai Beat LGV34', 'carrier' => 'au' ],
+        'LGV35'                                     => [ 'LG', 'isai V30+ LGV35', 'carrier' => 'au' ],
+        'LGT01'                                     => [ 'LG', 'G Pad 8.0 L LGT01', 'carrier' => 'J:COM', DeviceType::TABLET ],
+        'LGT02'                                     => [ 'LG', 'G Pad 8.0 III LGT02', 'carrier' => 'J:COM', DeviceType::TABLET ],
+        'LGT31'                                     => [ 'LG', 'Qua tab PX LGT31', 'carrier' => 'au', DeviceType::TABLET ],
+        'LGT32'                                     => [ 'LG', 'Qua tab PZ LGT32', 'carrier' => 'au', DeviceType::TABLET ],
     ],
 
     'LU2300'                                    => [ 'LG', 'Optimus Q' ],
@@ -9426,29 +9426,29 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'L-0[0-9][A-Z]!!' => [
-        'L-01D'                                     => [ 'LG', 'Optimus LTE L-01D', 'carrier' => 'DoCoMo' ],
-        'L-01E'                                     => [ 'LG', 'Optimus G L-01E', 'carrier' => 'DoCoMo' ],
-        'L-01F'                                     => [ 'LG', 'G2 L-01F', 'carrier' => 'DoCoMo' ],
-        'L-01J'                                     => [ 'LG', 'V20 PRO L-01J', 'carrier' => 'DoCoMo' ],
-        'L-01K'                                     => [ 'LG', 'V30+ L-01K', 'carrier' => 'DoCoMo' ],
-        'L-02D'                                     => [ 'LG', 'PRADA phone L-02D', 'carrier' => 'DoCoMo' ],
-        'L-02E'                                     => [ 'LG', 'Optimus LIFE L-02E', 'carrier' => 'DoCoMo' ],
-        'L-02F'                                     => [ 'LG', 'WiFi STATION L-02F', 'carrier' => 'DoCoMo' ],
-        'L-02K'                                     => [ 'LG', 'JOJO L-02K', 'carrier' => 'DoCoMo' ],
-        'L-03K'                                     => [ 'LG', 'style L-03K', 'carrier' => 'DoCoMo' ],
-        'L-04C'                                     => [ 'LG', 'Optimus chat L-04C', 'carrier' => 'DoCoMo' ],
-        'L-04E'                                     => [ 'LG', 'Optimus G Pro L-04E', 'carrier' => 'DoCoMo' ],
-        'L-05D'                                     => [ 'LG', 'Optimus it L-05D', 'carrier' => 'DoCoMo' ],
-        'L-05E'                                     => [ 'LG', 'Optimus it L-05E', 'carrier' => 'DoCoMo' ],
-        'L-06C'                                     => [ 'LG', 'Optimus Pad L-06C', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'L-06D'                                     => [ 'LG', 'Optimus Vu L-06D', 'carrier' => 'DoCoMo' ],
-        'L-06DJOJO'                                 => [ 'LG', 'JOJO L-06D', 'carrier' => 'DoCoMo' ],
-        'L-07C'                                     => [ 'LG', 'Optimus bright L-07C', 'carrier' => 'DoCoMo' ],
+        'L-01D'                                     => [ 'LG', 'Optimus LTE L-01D', 'carrier' => 'DoCoMo' ],
+        'L-01E'                                     => [ 'LG', 'Optimus G L-01E', 'carrier' => 'DoCoMo' ],
+        'L-01F'                                     => [ 'LG', 'G2 L-01F', 'carrier' => 'DoCoMo' ],
+        'L-01J'                                     => [ 'LG', 'V20 PRO L-01J', 'carrier' => 'DoCoMo' ],
+        'L-01K'                                     => [ 'LG', 'V30+ L-01K', 'carrier' => 'DoCoMo' ],
+        'L-02D'                                     => [ 'LG', 'PRADA phone L-02D', 'carrier' => 'DoCoMo' ],
+        'L-02E'                                     => [ 'LG', 'Optimus LIFE L-02E', 'carrier' => 'DoCoMo' ],
+        'L-02F'                                     => [ 'LG', 'WiFi STATION L-02F', 'carrier' => 'DoCoMo' ],
+        'L-02K'                                     => [ 'LG', 'JOJO L-02K', 'carrier' => 'DoCoMo' ],
+        'L-03K'                                     => [ 'LG', 'style L-03K', 'carrier' => 'DoCoMo' ],
+        'L-04C'                                     => [ 'LG', 'Optimus chat L-04C', 'carrier' => 'DoCoMo' ],
+        'L-04E'                                     => [ 'LG', 'Optimus G Pro L-04E', 'carrier' => 'DoCoMo' ],
+        'L-05D'                                     => [ 'LG', 'Optimus it L-05D', 'carrier' => 'DoCoMo' ],
+        'L-05E'                                     => [ 'LG', 'Optimus it L-05E', 'carrier' => 'DoCoMo' ],
+        'L-06C'                                     => [ 'LG', 'Optimus Pad L-06C', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'L-06D'                                     => [ 'LG', 'Optimus Vu L-06D', 'carrier' => 'DoCoMo' ],
+        'L-06DJOJO'                                 => [ 'LG', 'JOJO L-06D', 'carrier' => 'DoCoMo' ],
+        'L-07C'                                     => [ 'LG', 'Optimus bright L-07C', 'carrier' => 'DoCoMo' ],
     ],
 
     '[0-9]0[0-9]LG!!' => [
         '401LG'                                     => [ 'LG', '401LG', 'carrier' => 'Softbank' ],                // Unknown
-        '402LG'                                     => [ 'LG', 'Spray 402LG', 'carrier' => 'Y! Mobile' ],
+        '402LG'                                     => [ 'LG', 'Spray 402LG', 'carrier' => 'Y! Mobile' ],
     ],
 
     'DM-01G'                                    => [ 'LG', 'DM-01G', 'carrier' => 'Disney Mobile' ],
@@ -9505,7 +9505,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Optimusx4'                                 => [ 'LG', 'Optimus X4' ],
     ],
 
-    'IS11LG'                                    => [ 'LG', 'Optimus X IS11LG', 'carrier' => 'au' ],
+    'IS11LG'                                    => [ 'LG', 'Optimus X IS11LG', 'carrier' => 'au' ],
     'Vortex'                                    => [ 'LG', 'Vortex' ],
     'LDK-ICK v1.4'                              => [ 'LG', 'Esteem' ],
     'Prada 3.0'                                 => [ 'LG', 'PRADA 3.0' ],
@@ -10666,9 +10666,9 @@ DeviceModels::$ANDROID_MODELS = [
     'Xoom Wifi'                                 => [ 'Motorola', 'XOOM WiFi', DeviceType::TABLET ],
     'Xoom LTE'                                  => [ 'Motorola', 'XOOM 4G LTE', DeviceType::TABLET ],
     'Xoom 3G'                                   => [ 'Motorola', 'XOOM 3G', DeviceType::TABLET ],
-    '201M'                                      => [ 'Motorola', 'RAZR M 201M', 'carrier' => 'Softbank' ],
-    'ISW11M'                                    => [ 'Motorola', 'PHOTON ISW11M', 'carrier' => 'au' ],
-    'IS12M'                                     => [ 'Motorola', 'RAZR IS12M', 'carrier' => 'au' ],
+    '201M'                                      => [ 'Motorola', 'RAZR M 201M', 'carrier' => 'Softbank' ],
+    'ISW11M'                                    => [ 'Motorola', 'PHOTON ISW11M', 'carrier' => 'au' ],
+    'IS12M'                                     => [ 'Motorola', 'RAZR IS12M', 'carrier' => 'au' ],
     'MOTOROLA RAZR'                             => [ 'Motorola', 'RAZR' ],
     'MOTWX435KT'                                => [ 'Motorola', 'TRIUMPH' ],
     'X3-Ice MIUI XT720 Memorila Classics'       => [ 'Motorola', 'Milestone' ],
@@ -10846,24 +10846,24 @@ DeviceModels::$ANDROID_MODELS = [
     'D000 000043'                               => [ 'NEC', 'NS8368', DeviceType::TELEVISION ],
 
     'N-0[0-9][A-Z]!!' => [
-        'N-01D'                                     => [ 'NEC', 'MEDIAS PP N-01D', 'carrier' => 'DoCoMo' ],
-        'N-02E'                                     => [ 'NEC', 'MEDIAS U N-02E', 'carrier' => 'DoCoMo' ],
+        'N-01D'                                     => [ 'NEC', 'MEDIAS PP N-01D', 'carrier' => 'DoCoMo' ],
+        'N-02E'                                     => [ 'NEC', 'MEDIAS U N-02E', 'carrier' => 'DoCoMo' ],
         'N-03E'                                     => [ 'NEC', 'N-03E', 'carrier' => 'Disney Mobile' ],
-        'N-04C'                                     => [ 'NEC', 'MEDIAS N-04C', 'carrier' => 'DoCoMo' ],
-        'N-04D'                                     => [ 'NEC', 'MEDIAS LTE N-04D', 'carrier' => 'DoCoMo' ],
-        'N-04E'                                     => [ 'NEC', 'MEDIAS X N-04E', 'carrier' => 'DoCoMo' ],
-        'N-05D'                                     => [ 'NEC', 'MEDIAS ES N-05D', 'carrier' => 'DoCoMo' ],
-        'N-05E'                                     => [ 'NEC', 'MEDIAS W N-05E', 'carrier' => 'DoCoMo' ],
-        'N-06C'                                     => [ 'NEC', 'MEDIAS WP N-06C', 'carrier' => 'DoCoMo' ],
-        'N-06D'                                     => [ 'NEC', 'MEDIAS Tab N-06D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'N-06E'                                     => [ 'NEC', 'MEDIAS X N-06E', 'carrier' => 'DoCoMo' ],
-        'N-07D'                                     => [ 'NEC', 'MEDIAS X N-07D', 'carrier' => 'DoCoMo' ],
-        'N-08D'                                     => [ 'NEC', 'MEDIAS Tab UL N-08D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'N-04C'                                     => [ 'NEC', 'MEDIAS N-04C', 'carrier' => 'DoCoMo' ],
+        'N-04D'                                     => [ 'NEC', 'MEDIAS LTE N-04D', 'carrier' => 'DoCoMo' ],
+        'N-04E'                                     => [ 'NEC', 'MEDIAS X N-04E', 'carrier' => 'DoCoMo' ],
+        'N-05D'                                     => [ 'NEC', 'MEDIAS ES N-05D', 'carrier' => 'DoCoMo' ],
+        'N-05E'                                     => [ 'NEC', 'MEDIAS W N-05E', 'carrier' => 'DoCoMo' ],
+        'N-06C'                                     => [ 'NEC', 'MEDIAS WP N-06C', 'carrier' => 'DoCoMo' ],
+        'N-06D'                                     => [ 'NEC', 'MEDIAS Tab N-06D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'N-06E'                                     => [ 'NEC', 'MEDIAS X N-06E', 'carrier' => 'DoCoMo' ],
+        'N-07D'                                     => [ 'NEC', 'MEDIAS X N-07D', 'carrier' => 'DoCoMo' ],
+        'N-08D'                                     => [ 'NEC', 'MEDIAS Tab UL N-08D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
     ],
 
-    'NEC-0912'                                  => [ 'NEC', 'MEDIAS U N-02E', 'carrier' => 'DoCoMo' ],
-    'IS11N'                                     => [ 'NEC', 'MEDIAS BR IS11N', 'carrier' => 'au' ],
-    '101N'                                      => [ 'NEC', 'MEDIAS CH 101N', 'carrier' => 'Softbank' ],
+    'NEC-0912'                                  => [ 'NEC', 'MEDIAS U N-02E', 'carrier' => 'DoCoMo' ],
+    'IS11N'                                     => [ 'NEC', 'MEDIAS BR IS11N', 'carrier' => 'au' ],
+    '101N'                                      => [ 'NEC', 'MEDIAS CH 101N', 'carrier' => 'Softbank' ],
     'NEC-101S'                                  => [ 'NEC', 'MEDIAS 101S' ],
     'NECTEL-101S'                               => [ 'NEC', 'MEDIAS 101S' ],
     'NEC-101T'                                  => [ 'NEC', 'MEDIAS 101T' ],
@@ -11489,20 +11489,20 @@ DeviceModels::$ANDROID_MODELS = [
 
     'P-0[0-9][A-Z]!!' => [
         'P-01D'                                     => [ 'Panasonic', 'P-01D', 'carrier' => 'DoCoMo' ],
-        'P-02D'                                     => [ 'Panasonic', 'LUMIX Phone P-02D', 'carrier' => 'DoCoMo' ],
-        'P-02E'                                     => [ 'Panasonic', 'ELUGA X P-02E', 'carrier' => 'DoCoMo' ],
-        'P-03E'                                     => [ 'Panasonic', 'ELUGA P P-03E', 'carrier' => 'DoCoMo' ],
+        'P-02D'                                     => [ 'Panasonic', 'LUMIX Phone P-02D', 'carrier' => 'DoCoMo' ],
+        'P-02E'                                     => [ 'Panasonic', 'ELUGA X P-02E', 'carrier' => 'DoCoMo' ],
+        'P-03E'                                     => [ 'Panasonic', 'ELUGA P P-03E', 'carrier' => 'DoCoMo' ],
         'P-04D'                                     => [ 'Panasonic', 'P-04D', 'carrier' => 'DoCoMo' ],
         'P-05D'                                     => [ 'Panasonic', 'P-05D', 'carrier' => 'Disney Mobile' ],
-        'P-06D'                                     => [ 'Panasonic', 'ELUGA V P-06D', 'carrier' => 'DoCoMo' ],
+        'P-06D'                                     => [ 'Panasonic', 'ELUGA V P-06D', 'carrier' => 'DoCoMo' ],
         'P-07C'                                     => [ 'Panasonic', 'P-07C', 'carrier' => 'DoCoMo' ],
-        'P-07D'                                     => [ 'Panasonic', 'ELUGA power P-07D', 'carrier' => 'DoCoMo' ],
-        'P-08D'                                     => [ 'Panasonic', 'ELUGA Live P-08D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'P-07D'                                     => [ 'Panasonic', 'ELUGA power P-07D', 'carrier' => 'DoCoMo' ],
+        'P-08D'                                     => [ 'Panasonic', 'ELUGA Live P-08D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
     ],
 
-    '003P'                                      => [ 'Panasonic', 'Sweety 003P', 'carrier' => 'Softbank' ],
-    '101P'                                      => [ 'Panasonic', 'LUMIX Phone 101P', 'carrier' => 'Softbank' ],
-    '102P'                                      => [ 'Panasonic', 'ELUGA dL1 102P', 'carrier' => 'Softbank' ],
+    '003P'                                      => [ 'Panasonic', 'Sweety 003P', 'carrier' => 'Softbank' ],
+    '101P'                                      => [ 'Panasonic', 'LUMIX Phone 101P', 'carrier' => 'Softbank' ],
+    '102P'                                      => [ 'Panasonic', 'ELUGA dL1 102P', 'carrier' => 'Softbank' ],
 
     'DMC-CM1'                                   => [ 'Panasonic', 'Lumix DMC-CM1', DeviceType::CAMERA ],
     'dL1'                                       => [ 'Panasonic', 'Eluga dL1' ],
@@ -11664,9 +11664,9 @@ DeviceModels::$ANDROID_MODELS = [
         'PantechP9090!'                             => [ 'Pantech', 'Magnus' ],
     ],
 
-    'IS06'                                      => [ 'Pantech', 'SIRIUS α IS06', 'carrier' => 'au' ],
-    'PTL21'                                     => [ 'Pantech', 'Vega PTL21', 'carrier' => 'au' ],
-    'IS11PT'                                    => [ 'Pantech', 'Mirach IS11PT', 'carrier' => 'au' ],
+    'IS06'                                      => [ 'Pantech', 'SIRIUS α IS06', 'carrier' => 'au' ],
+    'PTL21'                                     => [ 'Pantech', 'Vega PTL21', 'carrier' => 'au' ],
+    'IS11PT'                                    => [ 'Pantech', 'Mirach IS11PT', 'carrier' => 'au' ],
     'EIS01PT'                                   => [ 'Pantech', 'EIS01PT', 'carrier' => 'au' ],
 
     'FC6100'                                    => [ 'Parrot', 'FC6100', DeviceType::CAR ],
@@ -12917,8 +12917,8 @@ DeviceModels::$ANDROID_MODELS = [
         'SGH-I9000'                                 => [ 'Samsung', 'Galaxy S' ],
         'SGH-I9300'                                 => [ 'Samsung', 'Galaxy S III' ],
         'SGH-L710'                                  => [ 'Samsung', 'Galaxy S III' ],
-        'SGH-N014!'                                 => [ 'Samsung', 'GALAXY Tab 10.1 LTE SC-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SGH-N075!'                                 => [ 'Samsung', 'GALAXY J SC-02F', 'carrier' => 'DoCoMo' ],
+        'SGH-N014!'                                 => [ 'Samsung', 'GALAXY Tab 10.1 LTE SC-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SGH-N075!'                                 => [ 'Samsung', 'GALAXY J SC-02F', 'carrier' => 'DoCoMo' ],
         'SGH-M819!'                                 => [ 'Samsung', 'Galaxy Mega 6.3' ],
         'SGH-M909!'                                 => [ 'Samsung', 'Galaxy S III' ],
         'SGH-M919!'                                 => [ 'Samsung', 'Galaxy S4' ],
@@ -13394,57 +13394,57 @@ DeviceModels::$ANDROID_MODELS = [
     'HOMESYNCT2WIFI'                            => [ 'Samsung', 'Galaxy HomeSync', DeviceType::TELEVISION ],
 
     'SC-?0[0-9][A-Z]!!' => [
-        'SC-01C'                                    => [ 'Samsung', 'GALAXY Tab SC-01C', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SC-01D'                                    => [ 'Samsung', 'GALAXY Tab 10.1 LTE SC-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SC-01E'                                    => [ 'Samsung', 'GALAXY Tab 7.7 Plus SC-01E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SC-01F'                                    => [ 'Samsung', 'GALAXY Note 3 SC-01F', 'carrier' => 'DoCoMo' ],
-        'SC-01G'                                    => [ 'Samsung', 'GALAXY Note Edge SC-01G', 'carrier' => 'DoCoMo' ],
-        'SC-01H'                                    => [ 'Samsung', 'GALAXY Active neo SC-01H', 'carrier' => 'DoCoMo' ],
-        'SC-01K'                                    => [ 'Samsung', 'GALAXY Note 8 SC-01K', 'carrier' => 'DoCoMo' ],
-        'SC-02B'                                    => [ 'Samsung', 'GALAXY S SC-02B', 'carrier' => 'DoCoMo' ],
-        'SC-02C'                                    => [ 'Samsung', 'GALAXY S II SC-02C', 'carrier' => 'DoCoMo' ],
-        'SC-02D'                                    => [ 'Samsung', 'GALAXY Tab 7.0 Plus SC-02D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SC-02E'                                    => [ 'Samsung', 'GALAXY Note II SC-02E', 'carrier' => 'DoCoMo' ],
-        'SC-02F'                                    => [ 'Samsung', 'GALAXY J SC-02F', 'carrier' => 'DoCoMo' ],
-        'SC-02G'                                    => [ 'Samsung', 'GALAXY S5 Active SC-02G', 'carrier' => 'DoCoMo' ],
-        'SC-02H'                                    => [ 'Samsung', 'Galaxy S7 Edge SC-02H', 'carrier' => 'DoCoMo' ],
-        'SC-02J'                                    => [ 'Samsung', 'Galaxy S8 SC-02J', 'carrier' => 'DoCoMo' ],
-        'SC-02K'                                    => [ 'Samsung', 'Galaxy S9 SC-02K', 'carrier' => 'DoCoMo' ],
-        'SC-03D'                                    => [ 'Samsung', 'GALAXY S II LTE SC-03D', 'carrier' => 'DoCoMo' ],
-        'SC-03E'                                    => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
-        'SC03E'                                     => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
-        'SC-03G'                                    => [ 'Samsung', 'GALAXY Tab S 8.4 SC-03G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SC-03J'                                    => [ 'Samsung', 'GALAXY S8+ SC-03J', 'carrier' => 'DoCoMo' ],
-        'SC-03K'                                    => [ 'Samsung', 'GALAXY S9+ SC-03K', 'carrier' => 'DoCoMo' ],
+        'SC-01C'                                    => [ 'Samsung', 'GALAXY Tab SC-01C', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SC-01D'                                    => [ 'Samsung', 'GALAXY Tab 10.1 LTE SC-01D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SC-01E'                                    => [ 'Samsung', 'GALAXY Tab 7.7 Plus SC-01E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SC-01F'                                    => [ 'Samsung', 'GALAXY Note 3 SC-01F', 'carrier' => 'DoCoMo' ],
+        'SC-01G'                                    => [ 'Samsung', 'GALAXY Note Edge SC-01G', 'carrier' => 'DoCoMo' ],
+        'SC-01H'                                    => [ 'Samsung', 'GALAXY Active neo SC-01H', 'carrier' => 'DoCoMo' ],
+        'SC-01K'                                    => [ 'Samsung', 'GALAXY Note 8 SC-01K', 'carrier' => 'DoCoMo' ],
+        'SC-02B'                                    => [ 'Samsung', 'GALAXY S SC-02B', 'carrier' => 'DoCoMo' ],
+        'SC-02C'                                    => [ 'Samsung', 'GALAXY S II SC-02C', 'carrier' => 'DoCoMo' ],
+        'SC-02D'                                    => [ 'Samsung', 'GALAXY Tab 7.0 Plus SC-02D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SC-02E'                                    => [ 'Samsung', 'GALAXY Note II SC-02E', 'carrier' => 'DoCoMo' ],
+        'SC-02F'                                    => [ 'Samsung', 'GALAXY J SC-02F', 'carrier' => 'DoCoMo' ],
+        'SC-02G'                                    => [ 'Samsung', 'GALAXY S5 Active SC-02G', 'carrier' => 'DoCoMo' ],
+        'SC-02H'                                    => [ 'Samsung', 'Galaxy S7 Edge SC-02H', 'carrier' => 'DoCoMo' ],
+        'SC-02J'                                    => [ 'Samsung', 'Galaxy S8 SC-02J', 'carrier' => 'DoCoMo' ],
+        'SC-02K'                                    => [ 'Samsung', 'Galaxy S9 SC-02K', 'carrier' => 'DoCoMo' ],
+        'SC-03D'                                    => [ 'Samsung', 'GALAXY S II LTE SC-03D', 'carrier' => 'DoCoMo' ],
+        'SC-03E'                                    => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
+        'SC03E'                                     => [ 'Samsung', 'GALAXY S III α SC-03E', 'carrier' => 'DoCoMo' ],
+        'SC-03G'                                    => [ 'Samsung', 'GALAXY Tab S 8.4 SC-03G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SC-03J'                                    => [ 'Samsung', 'GALAXY S8+ SC-03J', 'carrier' => 'DoCoMo' ],
+        'SC-03K'                                    => [ 'Samsung', 'GALAXY S9+ SC-03K', 'carrier' => 'DoCoMo' ],
         'SC-04D'                                    => [ 'Samsung', 'GALAXY NEXUS SC-04D', 'carrier' => 'DoCoMo' ],
-        'SC-04E'                                    => [ 'Samsung', 'GALAXY S4 SC-04E', 'carrier' => 'DoCoMo' ],
-        'SC-04F'                                    => [ 'Samsung', 'GALAXY S5 SC-04F', 'carrier' => 'DoCoMo' ],
-        'SC-04G'                                    => [ 'Samsung', 'GALAXY S6 Edge SC-04G', 'carrier' => 'DoCoMo' ],
-        'SC-04J'                                    => [ 'Samsung', 'GALAXY Feel SC-04J', 'carrier' => 'DoCoMo' ],
-        'SC-05D'                                    => [ 'Samsung', 'GALAXY Note SC-05D', 'carrier' => 'DoCoMo' ],
-        'SC-05G'                                    => [ 'Samsung', 'GALAXY S6 SC-05G', 'carrier' => 'DoCoMo' ],
-        'SC-06D'                                    => [ 'Samsung', 'GALAXY S III SC-06D', 'carrier' => 'DoCoMo' ],
+        'SC-04E'                                    => [ 'Samsung', 'GALAXY S4 SC-04E', 'carrier' => 'DoCoMo' ],
+        'SC-04F'                                    => [ 'Samsung', 'GALAXY S5 SC-04F', 'carrier' => 'DoCoMo' ],
+        'SC-04G'                                    => [ 'Samsung', 'GALAXY S6 Edge SC-04G', 'carrier' => 'DoCoMo' ],
+        'SC-04J'                                    => [ 'Samsung', 'GALAXY Feel SC-04J', 'carrier' => 'DoCoMo' ],
+        'SC-05D'                                    => [ 'Samsung', 'GALAXY Note SC-05D', 'carrier' => 'DoCoMo' ],
+        'SC-05G'                                    => [ 'Samsung', 'GALAXY S6 SC-05G', 'carrier' => 'DoCoMo' ],
+        'SC-06D'                                    => [ 'Samsung', 'GALAXY S III SC-06D', 'carrier' => 'DoCoMo' ],
     ],
 
     'SC[LTV][23][0-9]!!' => [
-        'SCL21'                                     => [ 'Samsung', 'GALAXY S III Progre SCL21', 'carrier' => 'au' ],
-        'SCL22'                                     => [ 'Samsung', 'GALAXY Note 3 SCL22', 'carrier' => 'au' ],
-        'SCL23'                                     => [ 'Samsung', 'GALAXY S5 SCL23', 'carrier' => 'au' ],
-        'SCL24'                                     => [ 'Samsung', 'GALAXY Note Edge SCL24', 'carrier' => 'au' ],
-        'SCT21'                                     => [ 'Samsung', 'GALAXY Tab S SCT21', DeviceType::TABLET, 'carrier' => 'au' ],
-        'SCV31'                                     => [ 'Samsung', 'GALAXY S6 Edge SCV31', 'carrier' => 'au' ],
-        'SCV32'                                     => [ 'Samsung', 'GALAXY A8 SCV32', 'carrier' => 'au' ],
-        'SCV33'                                     => [ 'Samsung', 'GALAXY S7 edge Injustice Edition SCV33', 'carrier' => 'au' ],
-        'SCV35'                                     => [ 'Samsung', 'GALAXY S8+ SCV35', 'carrier' => 'au' ],
-        'SCV36'                                     => [ 'Samsung', 'GALAXY S8 SCV36', 'carrier' => 'au' ],
-        'SCV37'                                     => [ 'Samsung', 'GALAXY Note8 SCV37', 'carrier' => 'au' ],
+        'SCL21'                                     => [ 'Samsung', 'GALAXY S III Progre SCL21', 'carrier' => 'au' ],
+        'SCL22'                                     => [ 'Samsung', 'GALAXY Note 3 SCL22', 'carrier' => 'au' ],
+        'SCL23'                                     => [ 'Samsung', 'GALAXY S5 SCL23', 'carrier' => 'au' ],
+        'SCL24'                                     => [ 'Samsung', 'GALAXY Note Edge SCL24', 'carrier' => 'au' ],
+        'SCT21'                                     => [ 'Samsung', 'GALAXY Tab S SCT21', DeviceType::TABLET, 'carrier' => 'au' ],
+        'SCV31'                                     => [ 'Samsung', 'GALAXY S6 Edge SCV31', 'carrier' => 'au' ],
+        'SCV32'                                     => [ 'Samsung', 'GALAXY A8 SCV32', 'carrier' => 'au' ],
+        'SCV33'                                     => [ 'Samsung', 'GALAXY S7 edge Injustice Edition SCV33', 'carrier' => 'au' ],
+        'SCV35'                                     => [ 'Samsung', 'GALAXY S8+ SCV35', 'carrier' => 'au' ],
+        'SCV36'                                     => [ 'Samsung', 'GALAXY S8 SCV36', 'carrier' => 'au' ],
+        'SCV37'                                     => [ 'Samsung', 'GALAXY Note8 SCV37', 'carrier' => 'au' ],
     ],
 
-    'ISW11SC'                                   => [ 'Samsung', 'GALAXY S II WiMAX ISW11SC', 'carrier' => 'au' ],
+    'ISW11SC'                                   => [ 'Samsung', 'GALAXY S II WiMAX ISW11SC', 'carrier' => 'au' ],
 
     '40[0-9]SC!!' => [
-        '403SC'                                     => [ 'Samsung', 'GALAXY Tab 4 7.0 403SC', DeviceType::TABLET, 'carrier' => 'Softbank' ],
-        '404SC'                                     => [ 'Samsung', 'GALAXY S6 Edge 404SC', 'carrier' => 'Softbank' ],
+        '403SC'                                     => [ 'Samsung', 'GALAXY Tab 4 7.0 403SC', DeviceType::TABLET, 'carrier' => 'Softbank' ],
+        '404SC'                                     => [ 'Samsung', 'GALAXY S6 Edge 404SC', 'carrier' => 'Softbank' ],
     ],
 
     'printer-tablet'                            => [ 'Samsung', 'ProXpress', DeviceType::PRINTER ],
@@ -13513,14 +13513,14 @@ DeviceModels::$ANDROID_MODELS = [
 
     '[4567A]0[0-9]SH!!' => [
         '401SH'                                     => [ 'Sharp', '401SH', 'carrier' => 'Softbank' ],
-        '402SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL X 402SH', 'carrier' => 'Softbank' ],
-        '403SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 2 403SH', 'carrier' => 'Softbank' ],
-        '404SH'                                     => [ 'Sharp', 'AQUOS Xx 404SH', 'carrier' => 'Softbank' ],
-        '502SH'                                     => [ 'Sharp', 'AQUOS Xx2 502SH', 'carrier' => 'Softbank' ],
-        '503SH'                                     => [ 'Sharp', 'AQUOS Xx2 mini 503SH', 'carrier' => 'Softbank' ],
-        '603SH'                                     => [ 'Sharp', 'AQUOS Xx3 mini 603SH', 'carrier' => 'Softbank' ],
-        '701SH'                                     => [ 'Sharp', 'AQUOS R compact 701SH', 'carrier' => 'Softbank' ],
-        'A01SH'                                     => [ 'Sharp', 'GALAPAGOS A01SH', 'carrier' => 'Y! Mobile' ],
+        '402SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL X 402SH', 'carrier' => 'Softbank' ],
+        '403SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 2 403SH', 'carrier' => 'Softbank' ],
+        '404SH'                                     => [ 'Sharp', 'AQUOS Xx 404SH', 'carrier' => 'Softbank' ],
+        '502SH'                                     => [ 'Sharp', 'AQUOS Xx2 502SH', 'carrier' => 'Softbank' ],
+        '503SH'                                     => [ 'Sharp', 'AQUOS Xx2 mini 503SH', 'carrier' => 'Softbank' ],
+        '603SH'                                     => [ 'Sharp', 'AQUOS Xx3 mini 603SH', 'carrier' => 'Softbank' ],
+        '701SH'                                     => [ 'Sharp', 'AQUOS R compact 701SH', 'carrier' => 'Softbank' ],
+        'A01SH'                                     => [ 'Sharp', 'GALAPAGOS A01SH', 'carrier' => 'Y! Mobile' ],
     ],
 
     'IS0[0-9]!!' => [
@@ -13530,13 +13530,13 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'ISW?1[0-9]SH!!' => [
-        'IS11SH'                                    => [ 'Sharp', 'AQUOS PHONE IS11SH', 'carrier' => 'au' ],
-        'IS12SH'                                    => [ 'Sharp', 'AQUOS PHONE IS12SH', 'carrier' => 'au' ],
-        'IS13SH'                                    => [ 'Sharp', 'AQUOS PHONE IS13SH', 'carrier' => 'au' ],
-        'IS14SH'                                    => [ 'Sharp', 'AQUOS PHONE IS14SH', 'carrier' => 'au' ],
-        'IS15SH'                                    => [ 'Sharp', 'AQUOS PHONE SL IS15SH', 'carrier' => 'au' ],
-        'ISW16SH'                                   => [ 'Sharp', 'AQUOS PHONE SERIE ISW16SH', 'carrier' => 'au' ],
-        'IS17SH'                                    => [ 'Sharp', 'AQUOS PHONE CL IS17SH', 'carrier' => 'au' ],
+        'IS11SH'                                    => [ 'Sharp', 'AQUOS PHONE IS11SH', 'carrier' => 'au' ],
+        'IS12SH'                                    => [ 'Sharp', 'AQUOS PHONE IS12SH', 'carrier' => 'au' ],
+        'IS13SH'                                    => [ 'Sharp', 'AQUOS PHONE IS13SH', 'carrier' => 'au' ],
+        'IS14SH'                                    => [ 'Sharp', 'AQUOS PHONE IS14SH', 'carrier' => 'au' ],
+        'IS15SH'                                    => [ 'Sharp', 'AQUOS PHONE SL IS15SH', 'carrier' => 'au' ],
+        'ISW16SH'                                   => [ 'Sharp', 'AQUOS PHONE SERIE ISW16SH', 'carrier' => 'au' ],
+        'IS17SH'                                    => [ 'Sharp', 'AQUOS PHONE CL IS17SH', 'carrier' => 'au' ],
     ],
 
     'EB-A71GJ'                                  => [ 'Sharp', 'EB-A71GJ', DeviceType::TABLET ],
@@ -13546,100 +13546,100 @@ DeviceModels::$ANDROID_MODELS = [
     'RW107'                                     => [ 'Sharp', 'RW-T107', DeviceType::TABLET ],
 
     'SBM[0-9]0[0-9]SH!!' => [
-        'SBM003SH'                                  => [ 'Sharp', 'GALAPAGOS 003SH', 'carrier' => 'Softbank' ],
-        'SBM005SH'                                  => [ 'Sharp', 'GALAPAGOS 005SH', 'carrier' => 'Softbank' ],
+        'SBM003SH'                                  => [ 'Sharp', 'GALAPAGOS 003SH', 'carrier' => 'Softbank' ],
+        'SBM005SH'                                  => [ 'Sharp', 'GALAPAGOS 005SH', 'carrier' => 'Softbank' ],
         'SBM006SH'                                  => [ 'Sharp', 'AQUOS PHONE 006SH', 'carrier' => 'Softbank' ],
-        'SBM007SH'                                  => [ 'Sharp', 'AQUOS PHONE THE HYBRID 007SH', 'carrier' => 'Softbank' ],
-        'SBM007SHJ'                                 => [ 'Sharp', 'AQUOS PHONE THE HYBRID 007SH J', 'carrier' => 'Softbank' ],
+        'SBM007SH'                                  => [ 'Sharp', 'AQUOS PHONE THE HYBRID 007SH', 'carrier' => 'Softbank' ],
+        'SBM007SHJ'                                 => [ 'Sharp', 'AQUOS PHONE THE HYBRID 007SH J', 'carrier' => 'Softbank' ],
         'SBM007SHK'                                 => [ 'Sharp', '007SH KT', 'carrier' => 'Softbank' ],
-        'SBM009SH'                                  => [ 'Sharp', 'AQUOS PHONE THE PREMIUM 009SH', 'carrier' => 'Softbank' ],
-        'SBM009SHY'                                 => [ 'Sharp', 'Yahoo! Phone 009SH Y', 'carrier' => 'Softbank' ],
-        'SBM101SH'                                  => [ 'Sharp', 'AQUOS PHONE THE HYBRID 101SH', 'carrier' => 'Softbank' ],
-        'SBM102SH'                                  => [ 'Sharp', 'AQUOS PHONE 102SH', 'carrier' => 'Softbank' ],
-        'SBM102SH2'                                 => [ 'Sharp', 'AQUOS PHONE 102SH II', 'carrier' => 'Softbank' ],
-        'SBM103SH'                                  => [ 'Sharp', 'AQUOS PHONE 103SH', 'carrier' => 'Softbank' ],
-        'SBM104SH'                                  => [ 'Sharp', 'AQUOS PHONE 104SH', 'carrier' => 'Softbank' ],
-        'SBM106SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 106SH', 'carrier' => 'Softbank' ],
-        'SBM107SH'                                  => [ 'Sharp', 'PANTONE 5 107SH', 'carrier' => 'Softbank' ],
-        'SBM107SHB'                                 => [ 'Sharp', 'AQUOS PHONE 107SH B', 'carrier' => 'Softbank' ],
-        'SBM200SH'                                  => [ 'Sharp', 'PANTONE 6 200SH', 'carrier' => 'Softbank' ],
-        'SBM203SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 203SH', 'carrier' => 'Softbank' ],
-        'SBM204SH'                                  => [ 'Sharp', 'シンプルスマホ 204SH', 'carrier' => 'Softbank' ],
-        'SBM205SH'                                  => [ 'Sharp', 'AQUOS PHONE ss 205SH', 'carrier' => 'Softbank' ],
-        'SBM206SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 206SH', 'carrier' => 'Softbank' ],
-        'SBM302SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 302SH', 'carrier' => 'Softbank' ],
-        'SBM303SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx mini 303SH', 'carrier' => 'Softbank' ],
-        'SBM305SH'                                  => [ 'Sharp', 'AQUOS CRYSTAL 305SH', 'carrier' => 'Softbank' ],
-        'SBM306SH'                                  => [ 'Sharp', 'AQUOS CRYSTAL 306SH' ],                                          // The U.S. Sprint version (now part of Softbank)
+        'SBM009SH'                                  => [ 'Sharp', 'AQUOS PHONE THE PREMIUM 009SH', 'carrier' => 'Softbank' ],
+        'SBM009SHY'                                 => [ 'Sharp', 'Yahoo! Phone 009SH Y', 'carrier' => 'Softbank' ],
+        'SBM101SH'                                  => [ 'Sharp', 'AQUOS PHONE THE HYBRID 101SH', 'carrier' => 'Softbank' ],
+        'SBM102SH'                                  => [ 'Sharp', 'AQUOS PHONE 102SH', 'carrier' => 'Softbank' ],
+        'SBM102SH2'                                 => [ 'Sharp', 'AQUOS PHONE 102SH II', 'carrier' => 'Softbank' ],
+        'SBM103SH'                                  => [ 'Sharp', 'AQUOS PHONE 103SH', 'carrier' => 'Softbank' ],
+        'SBM104SH'                                  => [ 'Sharp', 'AQUOS PHONE 104SH', 'carrier' => 'Softbank' ],
+        'SBM106SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 106SH', 'carrier' => 'Softbank' ],
+        'SBM107SH'                                  => [ 'Sharp', 'PANTONE 5 107SH', 'carrier' => 'Softbank' ],
+        'SBM107SHB'                                 => [ 'Sharp', 'AQUOS PHONE 107SH B', 'carrier' => 'Softbank' ],
+        'SBM200SH'                                  => [ 'Sharp', 'PANTONE 6 200SH', 'carrier' => 'Softbank' ],
+        'SBM203SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 203SH', 'carrier' => 'Softbank' ],
+        'SBM204SH'                                  => [ 'Sharp', 'シンプルスマホ 204SH', 'carrier' => 'Softbank' ],
+        'SBM205SH'                                  => [ 'Sharp', 'AQUOS PHONE ss 205SH', 'carrier' => 'Softbank' ],
+        'SBM206SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 206SH', 'carrier' => 'Softbank' ],
+        'SBM302SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx 302SH', 'carrier' => 'Softbank' ],
+        'SBM303SH'                                  => [ 'Sharp', 'AQUOS PHONE Xx mini 303SH', 'carrier' => 'Softbank' ],
+        'SBM305SH'                                  => [ 'Sharp', 'AQUOS CRYSTAL 305SH', 'carrier' => 'Softbank' ],
+        'SBM306SH'                                  => [ 'Sharp', 'AQUOS CRYSTAL 306SH' ],                                          // The U.S. Sprint version (now part of Softbank)
     ],
 
     '(3|5|6|7)0[0-9]SH!!' => [
-        '304SH'                                     => [ 'Sharp', 'AQUOS Xx 304SH', 'carrier' => 'Softbank' ],
-        '305SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 305SH', 'carrier' => 'Softbank' ],
-        '306SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 306SH' ],                                          // The U.S. Sprint version (now part of Softbank)
-        '506SH'                                     => [ 'Sharp', 'AQUOS Xx3 506SH', 'carrier' => 'Softbank' ],
-        '507SH'                                     => [ 'Sharp', 'Android One 507SH', 'carrier' => 'Y! Mobile' ],
-        '509SH'                                     => [ 'Sharp', 'シンプルスマホ3 509SH', 'carrier' => 'Softbank' ],
-        '605SH'                                     => [ 'Sharp', 'AQUOS R 605SH', 'carrier' => 'Softbank' ],
-        '606SH'                                     => [ 'Sharp', 'AQUOS ea 606SH', 'carrier' => 'Softbank' ],
-        '706SH'                                     => [ 'Sharp', 'AQUOS R2 706SH', 'carrier' => 'Softbank' ],
+        '304SH'                                     => [ 'Sharp', 'AQUOS Xx 304SH', 'carrier' => 'Softbank' ],
+        '305SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 305SH', 'carrier' => 'Softbank' ],
+        '306SH'                                     => [ 'Sharp', 'AQUOS CRYSTAL 306SH' ],                                          // The U.S. Sprint version (now part of Softbank)
+        '506SH'                                     => [ 'Sharp', 'AQUOS Xx3 506SH', 'carrier' => 'Softbank' ],
+        '507SH'                                     => [ 'Sharp', 'Android One 507SH', 'carrier' => 'Y! Mobile' ],
+        '509SH'                                     => [ 'Sharp', 'シンプルスマホ3 509SH', 'carrier' => 'Softbank' ],
+        '605SH'                                     => [ 'Sharp', 'AQUOS R 605SH', 'carrier' => 'Softbank' ],
+        '606SH'                                     => [ 'Sharp', 'AQUOS ea 606SH', 'carrier' => 'Softbank' ],
+        '706SH'                                     => [ 'Sharp', 'AQUOS R2 706SH', 'carrier' => 'Softbank' ],
     ],
 
-    'SH01D'                                     => [ 'Sharp', 'AQUOS PHONE SH-01D', 'carrier' => 'DoCoMo' ],
+    'SH01D'                                     => [ 'Sharp', 'AQUOS PHONE SH-01D', 'carrier' => 'DoCoMo' ],
     'DM-01H'                                    => [ 'Sharp', 'DM-01H', 'carrier' => 'Disney Mobile' ],
     'DM-01J'                                    => [ 'Sharp', 'DM-01J', 'carrier' => 'Disney Mobile' ],
 
-    'SH-M01'                                    => [ 'Sharp', 'AQUOS SH-M01' ],
-    'SH-M02'                                    => [ 'Sharp', 'AQUOS SH-M02' ],
-    'SH-M02-EVA20'                              => [ 'Sharp', 'AQUOS SH-M02' ],
-    'SH-M03'                                    => [ 'Sharp', 'AQUOS mini SH-M03' ],
-    'SH-M07'                                    => [ 'Sharp', 'AQUOS sense plus SH-M07' ],
-    'SH-RM02'                                   => [ 'Sharp', 'AQUOS SH-RM02' ],
+    'SH-M01'                                    => [ 'Sharp', 'AQUOS SH-M01' ],
+    'SH-M02'                                    => [ 'Sharp', 'AQUOS SH-M02' ],
+    'SH-M02-EVA20'                              => [ 'Sharp', 'AQUOS SH-M02' ],
+    'SH-M03'                                    => [ 'Sharp', 'AQUOS mini SH-M03' ],
+    'SH-M07'                                    => [ 'Sharp', 'AQUOS sense plus SH-M07' ],
+    'SH-RM02'                                   => [ 'Sharp', 'AQUOS SH-RM02' ],
 
     'SH-[01][0-9][A-Z]!!' => [
-        'SH-01D'                                    => [ 'Sharp', 'AQUOS PHONE SH-01D', 'carrier' => 'DoCoMo' ],
-        'SH-01E'                                    => [ 'Sharp', 'AQUOS PHONE si SH-01E', 'carrier' => 'DoCoMo' ],
-        'SH-01EVW'                                  => [ 'Sharp', 'Vivienne Westwood SH-01EVW', 'carrier' => 'DoCoMo' ],
-        'SH-01F'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01F', 'carrier' => 'DoCoMo' ],
+        'SH-01D'                                    => [ 'Sharp', 'AQUOS PHONE SH-01D', 'carrier' => 'DoCoMo' ],
+        'SH-01E'                                    => [ 'Sharp', 'AQUOS PHONE si SH-01E', 'carrier' => 'DoCoMo' ],
+        'SH-01EVW'                                  => [ 'Sharp', 'Vivienne Westwood SH-01EVW', 'carrier' => 'DoCoMo' ],
+        'SH-01F'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01F', 'carrier' => 'DoCoMo' ],
         'SH-01FDQ'                                  => [ 'Sharp', 'SH-01F DRAGON QUEST', 'carrier' => 'DoCoMo' ],
-        'SH-01G'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01G', 'carrier' => 'DoCoMo' ],
-        'SH-01H'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01H', 'carrier' => 'DoCoMo' ],
-        'SH-01J'                                    => [ 'Sharp', 'AQUOS ケータイ SH-01J', 'carrier' => 'DoCoMo' ],
-        'SH-01K'                                    => [ 'Sharp', 'AQUOS sense SH-01K', 'carrier' => 'DoCoMo' ],
-        'SH-02D'                                    => [ 'Sharp', 'AQUOS PHONE slider SH-02D', 'carrier' => 'DoCoMo' ],
-        'SH-02E'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-02E', 'carrier' => 'DoCoMo' ],
-        'SH-02F'                                    => [ 'Sharp', 'AQUOS PHONE EX SH-02F', 'carrier' => 'DoCoMo' ],
+        'SH-01G'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01G', 'carrier' => 'DoCoMo' ],
+        'SH-01H'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-01H', 'carrier' => 'DoCoMo' ],
+        'SH-01J'                                    => [ 'Sharp', 'AQUOS ケータイ SH-01J', 'carrier' => 'DoCoMo' ],
+        'SH-01K'                                    => [ 'Sharp', 'AQUOS sense SH-01K', 'carrier' => 'DoCoMo' ],
+        'SH-02D'                                    => [ 'Sharp', 'AQUOS PHONE slider SH-02D', 'carrier' => 'DoCoMo' ],
+        'SH-02E'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-02E', 'carrier' => 'DoCoMo' ],
+        'SH-02F'                                    => [ 'Sharp', 'AQUOS PHONE EX SH-02F', 'carrier' => 'DoCoMo' ],
         'SH-02G'                                    => [ 'Sharp', 'SH-02G', 'carrier' => 'Disney Mobile' ],
-        'SH-02H'                                    => [ 'Sharp', 'AQUOS Compact SH-02H', 'carrier' => 'DoCoMo' ],
-        'SH-02J'                                    => [ 'Sharp', 'AQUOS EVER SH-02J', 'carrier' => 'DoCoMo' ],
-        'SH-03C'                                    => [ 'Sharp', 'LYNX 3D SH-03C', 'carrier' => 'DoCoMo' ],
-        'SH-03F'                                    => [ 'Sharp', 'スマートフォン for ジュニア2 SH-03F', 'carrier' => 'DoCoMo' ],
-        'SH-03G'                                    => [ 'Sharp', 'AQUOS ZETA SH-03G', 'carrier' => 'DoCoMo' ],
+        'SH-02H'                                    => [ 'Sharp', 'AQUOS Compact SH-02H', 'carrier' => 'DoCoMo' ],
+        'SH-02J'                                    => [ 'Sharp', 'AQUOS EVER SH-02J', 'carrier' => 'DoCoMo' ],
+        'SH-03C'                                    => [ 'Sharp', 'LYNX 3D SH-03C', 'carrier' => 'DoCoMo' ],
+        'SH-03F'                                    => [ 'Sharp', 'スマートフォン for ジュニア2 SH-03F', 'carrier' => 'DoCoMo' ],
+        'SH-03G'                                    => [ 'Sharp', 'AQUOS ZETA SH-03G', 'carrier' => 'DoCoMo' ],
         'SH-03H'                                    => [ 'Sharp', 'SH-03H', 'carrier' => 'DoCoMo' ],
-        'SH-03J'                                    => [ 'Sharp', 'AQUOS R SH-03J', 'carrier' => 'DoCoMo' ],
-        'SH-03K'                                    => [ 'Sharp', 'AQUOS R2 SH-03K', 'carrier' => 'DoCoMo' ],
-        'SH-04D'                                    => [ 'Sharp', 'Q-pot.Phone SH-04D', 'carrier' => 'DoCoMo' ],
-        'SH-04E'                                    => [ 'Sharp', 'AQUOS PHONE EX SH-04E', 'carrier' => 'DoCoMo' ],
-        'SH-04F'                                    => [ 'Sharp', 'AQUOS ZETA SH-04F', 'carrier' => 'DoCoMo' ],
-        'SH-04G'                                    => [ 'Sharp', 'AQUOS EVER SH-04G', 'carrier' => 'DoCoMo' ],
-        'SH-04H'                                    => [ 'Sharp', 'AQUOS ZETA SH-04H', 'carrier' => 'DoCoMo' ],
-        'SH-05E'                                    => [ 'Sharp', 'スマートフォン for ジュニア SH-05E', 'carrier' => 'DoCoMo' ],
+        'SH-03J'                                    => [ 'Sharp', 'AQUOS R SH-03J', 'carrier' => 'DoCoMo' ],
+        'SH-03K'                                    => [ 'Sharp', 'AQUOS R2 SH-03K', 'carrier' => 'DoCoMo' ],
+        'SH-04D'                                    => [ 'Sharp', 'Q-pot.Phone SH-04D', 'carrier' => 'DoCoMo' ],
+        'SH-04E'                                    => [ 'Sharp', 'AQUOS PHONE EX SH-04E', 'carrier' => 'DoCoMo' ],
+        'SH-04F'                                    => [ 'Sharp', 'AQUOS ZETA SH-04F', 'carrier' => 'DoCoMo' ],
+        'SH-04G'                                    => [ 'Sharp', 'AQUOS EVER SH-04G', 'carrier' => 'DoCoMo' ],
+        'SH-04H'                                    => [ 'Sharp', 'AQUOS ZETA SH-04H', 'carrier' => 'DoCoMo' ],
+        'SH-05E'                                    => [ 'Sharp', 'スマートフォン for ジュニア SH-05E', 'carrier' => 'DoCoMo' ],
         'SH-05F'                                    => [ 'Sharp', 'SH-05F', 'carrier' => 'Disney Mobile' ],
-        'SH-05G'                                    => [ 'Sharp', 'AQUOS PAD SH-05G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SH-06D'                                    => [ 'Sharp', 'AQUOS PHONE SH-06D', 'carrier' => 'DoCoMo' ],
+        'SH-05G'                                    => [ 'Sharp', 'AQUOS PAD SH-05G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SH-06D'                                    => [ 'Sharp', 'AQUOS PHONE SH-06D', 'carrier' => 'DoCoMo' ],
         'SH-06DNERV'                                => [ 'Sharp', 'SH-06D NERV', 'carrier' => 'DoCoMo' ],
-        'SH-06E'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-06E', 'carrier' => 'DoCoMo' ],
-        'SH-06F'                                    => [ 'Sharp', 'AQUOS PAD SH-06F', 'carrier' => 'DoCoMo' ],
-        'SH-06G'                                    => [ 'Sharp', 'AQUOS SH-06G', 'carrier' => 'DoCoMo' ],
-        'SH-07C'                                    => [ 'Sharp', 'GALAPAGOS SH-07C', 'carrier' => 'DoCoMo' ],
-        'SH-07D'                                    => [ 'Sharp', 'AQUOS PHONE st SH-07D', 'carrier' => 'DoCoMo' ],
-        'SH-07E'                                    => [ 'Sharp', 'AQUOS PHONE si SH-07E', 'carrier' => 'DoCoMo' ],
-        'SH-08E'                                    => [ 'Sharp', 'AQUOS PAD SH-08E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
-        'SH-09D'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-09D', 'carrier' => 'DoCoMo' ],
-        'SH-10B'                                    => [ 'Sharp', 'LYNX SH-10B', 'carrier' => 'DoCoMo' ],
-        'SH-10D'                                    => [ 'Sharp', 'AQUOS PHONE sv SH-10D', 'carrier' => 'DoCoMo' ],
-        'SH-12C'                                    => [ 'Sharp', 'AQUOS PHONE SH-12C', 'carrier' => 'DoCoMo' ],
-        'SH-13C'                                    => [ 'Sharp', 'AQUOS PHONE f SH-13C', 'carrier' => 'DoCoMo' ],
+        'SH-06E'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-06E', 'carrier' => 'DoCoMo' ],
+        'SH-06F'                                    => [ 'Sharp', 'AQUOS PAD SH-06F', 'carrier' => 'DoCoMo' ],
+        'SH-06G'                                    => [ 'Sharp', 'AQUOS SH-06G', 'carrier' => 'DoCoMo' ],
+        'SH-07C'                                    => [ 'Sharp', 'GALAPAGOS SH-07C', 'carrier' => 'DoCoMo' ],
+        'SH-07D'                                    => [ 'Sharp', 'AQUOS PHONE st SH-07D', 'carrier' => 'DoCoMo' ],
+        'SH-07E'                                    => [ 'Sharp', 'AQUOS PHONE si SH-07E', 'carrier' => 'DoCoMo' ],
+        'SH-08E'                                    => [ 'Sharp', 'AQUOS PAD SH-08E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
+        'SH-09D'                                    => [ 'Sharp', 'AQUOS PHONE ZETA SH-09D', 'carrier' => 'DoCoMo' ],
+        'SH-10B'                                    => [ 'Sharp', 'LYNX SH-10B', 'carrier' => 'DoCoMo' ],
+        'SH-10D'                                    => [ 'Sharp', 'AQUOS PHONE sv SH-10D', 'carrier' => 'DoCoMo' ],
+        'SH-12C'                                    => [ 'Sharp', 'AQUOS PHONE SH-12C', 'carrier' => 'DoCoMo' ],
+        'SH-13C'                                    => [ 'Sharp', 'AQUOS PHONE f SH-13C', 'carrier' => 'DoCoMo' ],
     ],
 
     '(SHP-)?(SHARP )?SH[0-9]{2,3}!!' => [
@@ -13677,31 +13677,31 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'SH[FLTV][0-9]{2,2}!!' => [
-        'SHF31'                                     => [ 'Sharp', 'AQUOS K SHF31', 'carrier' => 'au' ],
-        'SHF32'                                     => [ 'Sharp', 'AQUOS K SHF32', 'carrier' => 'au' ],
-        'SHF33'                                     => [ 'Sharp', 'AQUOS K SHF33', 'carrier' => 'au' ],
-        'SHL21'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL21', 'carrier' => 'au' ],
-        'SHL22'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL22', 'carrier' => 'au' ],
-        'SHL23'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL23', 'carrier' => 'au' ],
-        'SHL24'                                     => [ 'Sharp', 'AQUOS PHONE SERIE mini SHL24', 'carrier' => 'au' ],
-        'SHL25'                                     => [ 'Sharp', 'AQUOS SERIE SHL25', 'carrier' => 'au' ],
-        'SHT21'                                     => [ 'Sharp', 'AQUOS PAD SHT21', DeviceType::TABLET, 'carrier' => 'au' ],
-        'SHT22'                                     => [ 'Sharp', 'AQUOS PAD SHT22', DeviceType::TABLET, 'carrier' => 'au' ],
-        'SHV31'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV31', 'carrier' => 'au' ],
-        'SHV32'                                     => [ 'Sharp', 'AQUOS SERIE SHV32', 'carrier' => 'au' ],
-        'SHV33'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV33', 'carrier' => 'au' ],
-        'SHV34'                                     => [ 'Sharp', 'AQUOS SERIE SHV34', 'carrier' => 'au' ],
-        'SHV35'                                     => [ 'Sharp', 'AQUOS U SHV35', 'carrier' => 'au' ],
-        'SHV36'                                     => [ 'Sharp', 'BASIO2 SHV36', 'carrier' => 'au' ],
-        'SHV37'                                     => [ 'Sharp', 'AQUOS U SHV37', 'carrier' => 'au' ],
-        'SHV38'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV38', 'carrier' => 'au' ],
-        'SHV39'                                     => [ 'Sharp', 'AQUOS R SHV39', 'carrier' => 'au' ],
-        'SHV40'                                     => [ 'Sharp', 'AQUOS sense SHV40', 'carrier' => 'au' ],
-        'SHV41'                                     => [ 'Sharp', 'AQUOS R compact SHV41', 'carrier' => 'au' ],
-        'SHV42'                                     => [ 'Sharp', 'AQUOS R2 SHV42', 'carrier' => 'au' ],
+        'SHF31'                                     => [ 'Sharp', 'AQUOS K SHF31', 'carrier' => 'au' ],
+        'SHF32'                                     => [ 'Sharp', 'AQUOS K SHF32', 'carrier' => 'au' ],
+        'SHF33'                                     => [ 'Sharp', 'AQUOS K SHF33', 'carrier' => 'au' ],
+        'SHL21'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL21', 'carrier' => 'au' ],
+        'SHL22'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL22', 'carrier' => 'au' ],
+        'SHL23'                                     => [ 'Sharp', 'AQUOS PHONE SERIE SHL23', 'carrier' => 'au' ],
+        'SHL24'                                     => [ 'Sharp', 'AQUOS PHONE SERIE mini SHL24', 'carrier' => 'au' ],
+        'SHL25'                                     => [ 'Sharp', 'AQUOS SERIE SHL25', 'carrier' => 'au' ],
+        'SHT21'                                     => [ 'Sharp', 'AQUOS PAD SHT21', DeviceType::TABLET, 'carrier' => 'au' ],
+        'SHT22'                                     => [ 'Sharp', 'AQUOS PAD SHT22', DeviceType::TABLET, 'carrier' => 'au' ],
+        'SHV31'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV31', 'carrier' => 'au' ],
+        'SHV32'                                     => [ 'Sharp', 'AQUOS SERIE SHV32', 'carrier' => 'au' ],
+        'SHV33'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV33', 'carrier' => 'au' ],
+        'SHV34'                                     => [ 'Sharp', 'AQUOS SERIE SHV34', 'carrier' => 'au' ],
+        'SHV35'                                     => [ 'Sharp', 'AQUOS U SHV35', 'carrier' => 'au' ],
+        'SHV36'                                     => [ 'Sharp', 'BASIO2 SHV36', 'carrier' => 'au' ],
+        'SHV37'                                     => [ 'Sharp', 'AQUOS U SHV37', 'carrier' => 'au' ],
+        'SHV38'                                     => [ 'Sharp', 'AQUOS SERIE mini SHV38', 'carrier' => 'au' ],
+        'SHV39'                                     => [ 'Sharp', 'AQUOS R SHV39', 'carrier' => 'au' ],
+        'SHV40'                                     => [ 'Sharp', 'AQUOS sense SHV40', 'carrier' => 'au' ],
+        'SHV41'                                     => [ 'Sharp', 'AQUOS R compact SHV41', 'carrier' => 'au' ],
+        'SHV42'                                     => [ 'Sharp', 'AQUOS R2 SHV42', 'carrier' => 'au' ],
     ],
-    'WX04SH'                                    => [ 'Sharp', 'AQUOS PHONE es WX04SH', 'carrier' => 'Willcom' ],
-    'WX05SH'                                    => [ 'Sharp', 'AQUOS PHONE ef WX05SH', 'carrier' => 'Willcom' ],
+    'WX04SH'                                    => [ 'Sharp', 'AQUOS PHONE es WX04SH', 'carrier' => 'Willcom' ],
+    'WX05SH'                                    => [ 'Sharp', 'AQUOS PHONE ef WX05SH', 'carrier' => 'Willcom' ],
     'SHARP-ADS1'                                => [ 'Sharp', 'FX Plus' ],
 
     'TG-L800S'                                  => [ 'Sharp', 'Luna' ],
@@ -14039,89 +14039,89 @@ DeviceModels::$ANDROID_MODELS = [
     'XM50t'                                     => [ 'Sony', 'Xperia T2 Ultra' ],                   // Tianchi
     'Z1i'                                       => [ 'Sony Ericsson', 'Xperia Play' ],              // Zeus
 
-    'S51SE'                                     => [ 'Sony Ericsson', 'mini S51SE', 'carrier' => 'EMOBILE' ],              // Smultron
+    'S51SE'                                     => [ 'Sony Ericsson', 'mini S51SE', 'carrier' => 'EMOBILE' ],              // Smultron
 
     'IS[0-9]{2,2}S!!' => [
-        'IS11S'                                     => [ 'Sony Ericsson', 'Xperia acro IS11S', 'carrier' => 'au' ],              // Akane
-        'IS12S'                                     => [ 'Sony Ericsson', 'Xperia acro HD IS12S', 'carrier' => 'au' ],           // Hayate
+        'IS11S'                                     => [ 'Sony Ericsson', 'Xperia acro IS11S', 'carrier' => 'au' ],              // Akane
+        'IS12S'                                     => [ 'Sony Ericsson', 'Xperia acro HD IS12S', 'carrier' => 'au' ],           // Hayate
     ],
 
     'SO-0[0-9][A-Z]!!' => [
-        'SO-01B'                                    => [ 'Sony Ericsson', 'Xperia SO-01B', 'carrier' => 'DoCoMo' ],               // Rachael
-        'SO-01C'                                    => [ 'Sony Ericsson', 'Xperia arc SO-01C', 'carrier' => 'DoCoMo' ],               // Anzu
-        'SO-01D'                                    => [ 'Sony Ericsson', 'Xperia PLAY SO-01D', 'carrier' => 'DoCoMo' ],              // Zeus
-        'SO-01E'                                    => [ 'Sony', 'Xperia AX SO-01E', 'carrier' => 'DoCoMo' ],                     // Tsubasa
-        'SO-01F'                                    => [ 'Sony', 'Xperia Z1 SO-01F', 'carrier' => 'DoCoMo' ],                     // Honami
-        'SO-01G'                                    => [ 'Sony', 'Xperia Z3 SO-01G', 'carrier' => 'DoCoMo' ],                     // ...
-        'SO-01H'                                    => [ 'Sony', 'Xperia Z5 SO-01H', 'carrier' => 'DoCoMo' ],                     // ...
-        'SO-01J'                                    => [ 'Sony', 'Xperia XZ SO-01J', 'carrier' => 'DoCoMo' ],                     // ...
-        'SO-01K'                                    => [ 'Sony', 'Xperia XZ1 SO-01K', 'carrier' => 'DoCoMo' ],                     // ...
-        'SO-02C'                                    => [ 'Sony Ericsson', 'Xperia acro SO-02C', 'carrier' => 'DoCoMo' ],              // Azusa
-        'SO-02D'                                    => [ 'Sony Ericsson', 'Xperia NX SO-02D', 'carrier' => 'DoCoMo' ],                // Nozomi
-        'SO-02E'                                    => [ 'Sony', 'Xperia Z SO-02E', 'carrier' => 'DoCoMo' ],                          // Yuga
-        'SO-02F'                                    => [ 'Sony', 'Xperia Z1 f SO-02F', 'carrier' => 'DoCoMo' ],                        // Itsuki
-        'SO-02G'                                    => [ 'Sony', 'Xperia Z3 Compact SO-02G', 'carrier' => 'DoCoMo' ],             // ...
-        'SO-02H'                                    => [ 'Sony', 'Xperia Z5 Compact SO-02H', 'carrier' => 'DoCoMo' ],             // ...
-        'SO-02J'                                    => [ 'Sony', 'Xperia X Compact SO-02J', 'carrier' => 'DoCoMo' ],             // ...
-        'SO-02K'                                    => [ 'Sony', 'Xperia XZ1 Compact SO-02K', 'carrier' => 'DoCoMo' ],             // ...
-        'SO-03C'                                    => [ 'Sony Ericsson', 'Xperia ray SO-03C', 'carrier' => 'DoCoMo' ],               // Urushi
-        'SO-03D'                                    => [ 'Sony Ericsson', 'Xperia acro HD SO-03D', 'carrier' => 'DoCoMo' ],           // Hikari
-        'SO-03E'                                    => [ 'Sony', 'Xperia Tablet Z SO-03E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],       // Pollux
-        'SO-03F'                                    => [ 'Sony', 'Xperia Z2 SO-03F', 'carrier' => 'DoCoMo' ],                     // Sirius
-        'SO-03G'                                    => [ 'Sony', 'Xperia Z4 SO-03G', 'carrier' => 'DoCoMo' ],
-        'SO-03H'                                    => [ 'Sony', 'Xperia Z5 Premium SO-03H', 'carrier' => 'DoCoMo' ],
-        'SO-03J'                                    => [ 'Sony', 'Xperia XZs SO-03J', 'carrier' => 'DoCoMo' ],
-        'SO-03K'                                    => [ 'Sony', 'Xperia XZ2 SO-03K', 'carrier' => 'DoCoMo' ],
-        'SO-04D'                                    => [ 'Sony', 'Xperia GX SO-04D', 'carrier' => 'DoCoMo' ],                     // Hayabusa
-        'SO-04E'                                    => [ 'Sony', 'Xperia A SO-04E', 'carrier' => 'DoCoMo' ],                          // Dogo
-        'SO-04EM'                                   => [ 'Sony', 'Xperia feat. HATSUNE MIKU SO-04E', 'carrier' => 'DoCoMo' ],
-        'SO-04F'                                    => [ 'Sony', 'Xperia A2 SO-04F', 'carrier' => 'DoCoMo' ],                     // Altair
-        'SO-04G'                                    => [ 'Sony', 'Xperia A4 SO-04G', 'carrier' => 'DoCoMo' ],
-        'SO-04H'                                    => [ 'Sony', 'Xperia X Performance SO-04H', 'carrier' => 'DoCoMo' ],
-        'SO-04J'                                    => [ 'Sony', 'Xperia XZ Premium SO-04J', 'carrier' => 'DoCoMo' ],
-        'SO-05D'                                    => [ 'Sony', 'Xperia SX SO-05D', 'carrier' => 'DoCoMo' ],                     // Komachi
-        'SO-05F'                                    => [ 'Sony', 'Xperia Tablet Z2 SO-05F', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // Castor
-        'SO-05G'                                    => [ 'Sony', 'Xperia Tablet Z4 SO-05G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // ...
-        'SO-05K'                                    => [ 'Sony', 'Xperia XZ2 Compact SO-05K', 'carrier' => 'DoCoMo' ],
+        'SO-01B'                                    => [ 'Sony Ericsson', 'Xperia SO-01B', 'carrier' => 'DoCoMo' ],               // Rachael
+        'SO-01C'                                    => [ 'Sony Ericsson', 'Xperia arc SO-01C', 'carrier' => 'DoCoMo' ],               // Anzu
+        'SO-01D'                                    => [ 'Sony Ericsson', 'Xperia PLAY SO-01D', 'carrier' => 'DoCoMo' ],              // Zeus
+        'SO-01E'                                    => [ 'Sony', 'Xperia AX SO-01E', 'carrier' => 'DoCoMo' ],                     // Tsubasa
+        'SO-01F'                                    => [ 'Sony', 'Xperia Z1 SO-01F', 'carrier' => 'DoCoMo' ],                     // Honami
+        'SO-01G'                                    => [ 'Sony', 'Xperia Z3 SO-01G', 'carrier' => 'DoCoMo' ],                     // ...
+        'SO-01H'                                    => [ 'Sony', 'Xperia Z5 SO-01H', 'carrier' => 'DoCoMo' ],                     // ...
+        'SO-01J'                                    => [ 'Sony', 'Xperia XZ SO-01J', 'carrier' => 'DoCoMo' ],                     // ...
+        'SO-01K'                                    => [ 'Sony', 'Xperia XZ1 SO-01K', 'carrier' => 'DoCoMo' ],                     // ...
+        'SO-02C'                                    => [ 'Sony Ericsson', 'Xperia acro SO-02C', 'carrier' => 'DoCoMo' ],              // Azusa
+        'SO-02D'                                    => [ 'Sony Ericsson', 'Xperia NX SO-02D', 'carrier' => 'DoCoMo' ],                // Nozomi
+        'SO-02E'                                    => [ 'Sony', 'Xperia Z SO-02E', 'carrier' => 'DoCoMo' ],                          // Yuga
+        'SO-02F'                                    => [ 'Sony', 'Xperia Z1 f SO-02F', 'carrier' => 'DoCoMo' ],                        // Itsuki
+        'SO-02G'                                    => [ 'Sony', 'Xperia Z3 Compact SO-02G', 'carrier' => 'DoCoMo' ],             // ...
+        'SO-02H'                                    => [ 'Sony', 'Xperia Z5 Compact SO-02H', 'carrier' => 'DoCoMo' ],             // ...
+        'SO-02J'                                    => [ 'Sony', 'Xperia X Compact SO-02J', 'carrier' => 'DoCoMo' ],             // ...
+        'SO-02K'                                    => [ 'Sony', 'Xperia XZ1 Compact SO-02K', 'carrier' => 'DoCoMo' ],             // ...
+        'SO-03C'                                    => [ 'Sony Ericsson', 'Xperia ray SO-03C', 'carrier' => 'DoCoMo' ],               // Urushi
+        'SO-03D'                                    => [ 'Sony Ericsson', 'Xperia acro HD SO-03D', 'carrier' => 'DoCoMo' ],           // Hikari
+        'SO-03E'                                    => [ 'Sony', 'Xperia Tablet Z SO-03E', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],       // Pollux
+        'SO-03F'                                    => [ 'Sony', 'Xperia Z2 SO-03F', 'carrier' => 'DoCoMo' ],                     // Sirius
+        'SO-03G'                                    => [ 'Sony', 'Xperia Z4 SO-03G', 'carrier' => 'DoCoMo' ],
+        'SO-03H'                                    => [ 'Sony', 'Xperia Z5 Premium SO-03H', 'carrier' => 'DoCoMo' ],
+        'SO-03J'                                    => [ 'Sony', 'Xperia XZs SO-03J', 'carrier' => 'DoCoMo' ],
+        'SO-03K'                                    => [ 'Sony', 'Xperia XZ2 SO-03K', 'carrier' => 'DoCoMo' ],
+        'SO-04D'                                    => [ 'Sony', 'Xperia GX SO-04D', 'carrier' => 'DoCoMo' ],                     // Hayabusa
+        'SO-04E'                                    => [ 'Sony', 'Xperia A SO-04E', 'carrier' => 'DoCoMo' ],                          // Dogo
+        'SO-04EM'                                   => [ 'Sony', 'Xperia feat. HATSUNE MIKU SO-04E', 'carrier' => 'DoCoMo' ],
+        'SO-04F'                                    => [ 'Sony', 'Xperia A2 SO-04F', 'carrier' => 'DoCoMo' ],                     // Altair
+        'SO-04G'                                    => [ 'Sony', 'Xperia A4 SO-04G', 'carrier' => 'DoCoMo' ],
+        'SO-04H'                                    => [ 'Sony', 'Xperia X Performance SO-04H', 'carrier' => 'DoCoMo' ],
+        'SO-04J'                                    => [ 'Sony', 'Xperia XZ Premium SO-04J', 'carrier' => 'DoCoMo' ],
+        'SO-05D'                                    => [ 'Sony', 'Xperia SX SO-05D', 'carrier' => 'DoCoMo' ],                     // Komachi
+        'SO-05F'                                    => [ 'Sony', 'Xperia Tablet Z2 SO-05F', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // Castor
+        'SO-05G'                                    => [ 'Sony', 'Xperia Tablet Z4 SO-05G', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // ...
+        'SO-05K'                                    => [ 'Sony', 'Xperia XZ2 Compact SO-05K', 'carrier' => 'DoCoMo' ],
         'SO-07D'                                    => [ 'Sony', 'SO-07D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],  // ...
     ],
 
     'SO[LTV][0-9]{2,2}!!' => [
-        'SOL21'                                     => [ 'Sony', 'Xperia VL SOL21', 'carrier' => 'au' ],                     // Surf
-        'SOL22'                                     => [ 'Sony', 'Xperia UL SOL22', 'carrier' => 'au' ],                     // Gaga
-        'SOL23'                                     => [ 'Sony', 'Xperia Z1 SOL23', 'carrier' => 'au' ],                     // Honami
-        'SOL24'                                     => [ 'Sony', 'Xperia Z Ultra SOL24', 'carrier' => 'au' ],                    // Togari
-        'SOL25'                                     => [ 'Sony', 'Xperia ZL2 SOL25', 'carrier' => 'au' ],                        // Canopus
-        'SOL26'                                     => [ 'Sony', 'Xperia Z3 SOL26', 'carrier' => 'au' ],                     // ...
-        'SOT21'                                     => [ 'Sony', 'Xperia Tablet Z2 SOT21', DeviceType::TABLET, 'carrier' => 'au' ],  // Castor
-        'SOT31'                                     => [ 'Sony', 'Xperia Tablet Z4 SOT31', DeviceType::TABLET, 'carrier' => 'au' ],  // Castor
-        'SOV31'                                     => [ 'Sony', 'Xperia Z4 SOV31', 'carrier' => 'au' ],                     // ...
-        'SOV32'                                     => [ 'Sony', 'Xperia Z5 SOV32', 'carrier' => 'au' ],                     // ...
-        'SOV33'                                     => [ 'Sony', 'Xperia X Performance SOV33', 'carrier' => 'au' ],                     // ...
-        'SOV34'                                     => [ 'Sony', 'Xperia XZ SOV34', 'carrier' => 'au' ],                     // ...
-        'SOV35'                                     => [ 'Sony', 'Xperia XZs SOV35', 'carrier' => 'au' ],                     // ...
-        'SOV36'                                     => [ 'Sony', 'Xperia XZ1 SOV36', 'carrier' => 'au' ],                     // ...
-        'SOV37'                                     => [ 'Sony', 'Xperia XZ2 SOV37', 'carrier' => 'au' ],                     // ...
+        'SOL21'                                     => [ 'Sony', 'Xperia VL SOL21', 'carrier' => 'au' ],                     // Surf
+        'SOL22'                                     => [ 'Sony', 'Xperia UL SOL22', 'carrier' => 'au' ],                     // Gaga
+        'SOL23'                                     => [ 'Sony', 'Xperia Z1 SOL23', 'carrier' => 'au' ],                     // Honami
+        'SOL24'                                     => [ 'Sony', 'Xperia Z Ultra SOL24', 'carrier' => 'au' ],                    // Togari
+        'SOL25'                                     => [ 'Sony', 'Xperia ZL2 SOL25', 'carrier' => 'au' ],                        // Canopus
+        'SOL26'                                     => [ 'Sony', 'Xperia Z3 SOL26', 'carrier' => 'au' ],                     // ...
+        'SOT21'                                     => [ 'Sony', 'Xperia Tablet Z2 SOT21', DeviceType::TABLET, 'carrier' => 'au' ],  // Castor
+        'SOT31'                                     => [ 'Sony', 'Xperia Tablet Z4 SOT31', DeviceType::TABLET, 'carrier' => 'au' ],  // Castor
+        'SOV31'                                     => [ 'Sony', 'Xperia Z4 SOV31', 'carrier' => 'au' ],                     // ...
+        'SOV32'                                     => [ 'Sony', 'Xperia Z5 SOV32', 'carrier' => 'au' ],                     // ...
+        'SOV33'                                     => [ 'Sony', 'Xperia X Performance SOV33', 'carrier' => 'au' ],                     // ...
+        'SOV34'                                     => [ 'Sony', 'Xperia XZ SOV34', 'carrier' => 'au' ],                     // ...
+        'SOV35'                                     => [ 'Sony', 'Xperia XZs SOV35', 'carrier' => 'au' ],                     // ...
+        'SOV36'                                     => [ 'Sony', 'Xperia XZ1 SOV36', 'carrier' => 'au' ],                     // ...
+        'SOV37'                                     => [ 'Sony', 'Xperia XZ2 SOV37', 'carrier' => 'au' ],                     // ...
     ],
 
     '40[0-9]SO!!' => [
-        '401SO'                                     => [ 'Sony', 'Xperia Z3 401SO', 'carrier' => 'Softbank' ],                     // ...
-        '402SO'                                     => [ 'Sony', 'Xperia Z4 402SO', 'carrier' => 'Softbank' ],                     // ...
+        '401SO'                                     => [ 'Sony', 'Xperia Z3 401SO', 'carrier' => 'Softbank' ],                     // ...
+        '402SO'                                     => [ 'Sony', 'Xperia Z4 402SO', 'carrier' => 'Softbank' ],                     // ...
     ],
 
     '50[0-9]SO!!' => [
-        '501SO'                                     => [ 'Sony', 'Xperia Z5 501SO', 'carrier' => 'Softbank' ],                     // ...
-        '502SO'                                     => [ 'Sony', 'Xperia X Performance 502SO', 'carrier' => 'Softbank' ],                     // ...
+        '501SO'                                     => [ 'Sony', 'Xperia Z5 501SO', 'carrier' => 'Softbank' ],                     // ...
+        '502SO'                                     => [ 'Sony', 'Xperia X Performance 502SO', 'carrier' => 'Softbank' ],                     // ...
     ],
 
     '60[0-9]SO!!' => [
-        '601SO'                                     => [ 'Sony', 'Xperia XZ 601SO', 'carrier' => 'Softbank' ],                     // ...
-        '602SO'                                     => [ 'Sony', 'Xperia XZs 602SO', 'carrier' => 'Softbank' ],                     // ...
+        '601SO'                                     => [ 'Sony', 'Xperia XZ 601SO', 'carrier' => 'Softbank' ],                     // ...
+        '602SO'                                     => [ 'Sony', 'Xperia XZs 602SO', 'carrier' => 'Softbank' ],                     // ...
     ],
 
     '70[0-9]SO!!' => [
-        '701SO'                                     => [ 'Sony', 'Xperia XZ1 701SO', 'carrier' => 'Softbank' ],                     // ...
-        '702SO'                                     => [ 'Sony', 'Xperia XZ2 702SO', 'carrier' => 'Softbank' ],                     // ...
+        '701SO'                                     => [ 'Sony', 'Xperia XZ1 701SO', 'carrier' => 'Softbank' ],                     // ...
+        '702SO'                                     => [ 'Sony', 'Xperia XZ2 702SO', 'carrier' => 'Softbank' ],                     // ...
     ],
 
     'Xperia!!' => [
@@ -15338,11 +15338,11 @@ DeviceModels::$ANDROID_MODELS = [
     'TSB CLOUD COMPANION;TOSHIBA AC AND AZ'     => [ 'Toshiba', 'Dynabook AZ', 'desktop' ],
     'TOSHIBA AC AND AZ'                         => [ 'Toshiba', 'Dynabook AZ', 'desktop' ],
     'TOSHIBA FOLIO AND A'                       => [ 'Toshiba', 'Folio 100', DeviceType::TABLET ],
-    'T-01C'                                     => [ 'Toshiba', 'REGZA Phone T-01C', 'carrier' => 'DoCoMo' ],
-    'T-01D'                                     => [ 'Toshiba', 'REGZA Phone T-01D', 'carrier' => 'DoCoMo' ],
-    'T-02D'                                     => [ 'Toshiba', 'REGZA Phone T-02D', 'carrier' => 'DoCoMo' ],
-    'IS04'                                      => [ 'Toshiba', 'REGZA Phone IS04', 'carrier' => 'au' ],
-    'IS11T'                                     => [ 'Toshiba', 'REGZA Phone IS11T', 'carrier' => 'au' ],
+    'T-01C'                                     => [ 'Toshiba', 'REGZA Phone T-01C', 'carrier' => 'DoCoMo' ],
+    'T-01D'                                     => [ 'Toshiba', 'REGZA Phone T-01D', 'carrier' => 'DoCoMo' ],
+    'T-02D'                                     => [ 'Toshiba', 'REGZA Phone T-02D', 'carrier' => 'DoCoMo' ],
+    'IS04'                                      => [ 'Toshiba', 'REGZA Phone IS04', 'carrier' => 'au' ],
+    'IS11T'                                     => [ 'Toshiba', 'REGZA Phone IS11T', 'carrier' => 'au' ],
     'AT1S0'                                     => [ 'Toshiba', 'Regza AT1S0' ],
     'AT7-A'                                     => [ 'Toshiba', 'Excite AT7-A', DeviceType::TABLET ],
     'AT7-B'                                     => [ 'Toshiba', 'Excite AT7-B', DeviceType::TABLET ],
@@ -17868,14 +17868,14 @@ DeviceModels::$ANDROID_MODELS = [
 
     'ZTE W1010'                                 => [ 'ZTE', 'Axon Watch', DeviceType::WATCH ],
 
-    '003Z'                                      => [ 'ZTE', 'Libero 003Z', 'carrier' => 'Softbank' ],
-    '008Z'                                      => [ 'ZTE', 'シンプルスマートフォン 008Z', 'carrier' => 'Softbank' ],
-    '009Z'                                      => [ 'ZTE', 'STAR7 009Z', 'carrier' => 'Softbank' ],
-    '402ZT'                                     => [ 'ZTE', 'Blade Q+ 402ZT', 'carrier' => 'Softbank' ],
-    '502ZT'                                     => [ 'ZTE', 'Spro 2 502ZT', DeviceType::PROJECTOR, 'carrier' => 'Softbank' ],
-    '602ZT'                                     => [ 'ZTE', 'Libero 2 602ZT', 'carrier' => 'Softbank' ],
-    'MO-01J'                                    => [ 'ZTE', 'MONO MO-01J', 'carrier' => 'DoCoMo' ],
-    'MO-01K'                                    => [ 'ZTE', 'MONO MO-01K', 'carrier' => 'DoCoMo' ],
+    '003Z'                                      => [ 'ZTE', 'Libero 003Z', 'carrier' => 'Softbank' ],
+    '008Z'                                      => [ 'ZTE', 'シンプルスマートフォン 008Z', 'carrier' => 'Softbank' ],
+    '009Z'                                      => [ 'ZTE', 'STAR7 009Z', 'carrier' => 'Softbank' ],
+    '402ZT'                                     => [ 'ZTE', 'Blade Q+ 402ZT', 'carrier' => 'Softbank' ],
+    '502ZT'                                     => [ 'ZTE', 'Spro 2 502ZT', DeviceType::PROJECTOR, 'carrier' => 'Softbank' ],
+    '602ZT'                                     => [ 'ZTE', 'Libero 2 602ZT', 'carrier' => 'Softbank' ],
+    'MO-01J'                                    => [ 'ZTE', 'MONO MO-01J', 'carrier' => 'DoCoMo' ],
+    'MO-01K'                                    => [ 'ZTE', 'MONO MO-01K', 'carrier' => 'DoCoMo' ],
 
     'ZA400'                                     => [ 'Zonda', 'Mini Colors ZA400' ],
     'ZA402'                                     => [ 'Zonda', 'Scratch ZA402' ],
