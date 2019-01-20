@@ -10,3 +10,6 @@ humbug*
 build/*
 .vscode
 .DS_Store
+*.log
+coveralls.json
+runner.xml

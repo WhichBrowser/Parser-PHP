@@ -10,6 +10,10 @@
             "name": "Niels Leenheer",
             "email": "niels@leenheer.nl",
             "role": "Developer"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/WhichBrowser/Parser-PHP/graphs/contributors"
         }
     ],
 
@@ -32,13 +36,13 @@
         "symfony/yaml": ">=2.8",
         "phpunit/php-code-coverage": "^2.2|^3.0",
         "phpunit/PHPUnit": "^4.0|^5.0",
-        "satooshi/php-coveralls": "^1.0",
+        "php-coveralls/php-coveralls": "^2.1",
         "icomefromthenet/reverse-regex" : "0.0.6.3",
         "squizlabs/php_codesniffer": "2.5.*"
     },
 
     "autoload-dev": {
-       "psr-4": {
+        "psr-4": {
             "WhichBrowserTest\\":  "tests/unit"
         },
 
