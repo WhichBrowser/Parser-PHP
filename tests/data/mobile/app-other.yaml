@@ -48,8 +48,8 @@
     readable: 'a Nokia Lumia 1320 running Windows Phone 8.0'
 -
     headers: 'User-Agent: SonySO-02F Build/14.1.H.1.281 UEP/0.1 com.sonyericsson.updatecenter/2.0.3.A.0.2'
-    readable: 'Sony Update Center on a Sony Xperia Z1 f SO-02F running Android'
-    result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
+    readable: 'Sony Update Center on a Sony Xperia Z1 f SO-02F running Android'
+    result: { browser: { name: 'Sony Update Center', type: app }, os: { name: Android }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1 f SO-02F', carrier: DoCoMo } }
 -
     headers: 'User-Agent: AiMeiTuan /samsung-4.0.4-SHV-E120S-1280x720-320-4.1.2-116-358362043662925-market'
     readable: 'AiMeiTuan on a Samsung Galaxy S II HD LTE running Android 4.0.4'

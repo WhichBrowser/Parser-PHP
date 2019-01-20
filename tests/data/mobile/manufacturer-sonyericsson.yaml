@@ -1,7 +1,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 2.3.7; SO-02D Build/6.1.A.2.55) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia NX SO-02D', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a Sony Ericsson Xperia NX SO-02D running Android 2.3.7'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia NX SO-02D', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia NX SO-02D running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3;  LT15i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Arc' } }
@@ -40,16 +40,16 @@
     readable: 'Chrome 18 on a Sony Ericsson Live with Walkman running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; IS12S Build/6.1.D.0.170) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro HD IS12S', carrier: au } }
-    readable: 'Chrome 18 on a Sony Ericsson Xperia acro HD IS12S running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro HD IS12S', carrier: au } }
+    readable: 'Chrome 18 on a Sony Ericsson Xperia acro HD IS12S running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; MK16a Build/4.1.B.0.587) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Pro' } }
     readable: 'Chrome 18 on a Sony Ericsson Xperia Pro running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SO-02C Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.8 Mobile Safari/537.22'
-    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro SO-02C', carrier: DoCoMo } }
-    readable: 'Chrome 25 on a Sony Ericsson Xperia acro SO-02C running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia acro SO-02C', carrier: DoCoMo } }
+    readable: 'Chrome 25 on a Sony Ericsson Xperia acro SO-02C running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ST17a Build/4.1.B.0.587) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: 'Sony Ericsson', model: 'Xperia Active' } }

@@ -24,20 +24,20 @@
     readable: 'a Toshiba H11T'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S11HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: EMONSTER S11HT, carrier: EMOBILE } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER S11HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: EMONSTER S11HT, carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER S11HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S12HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER lite S12HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER lite S12HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) S21HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond S21HT', carrier: EMOBILE } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond S21HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Touch Diamond S21HT', carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Touch Diamond S21HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) S22HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Dual Diamond S22HT', carrier: EMOBILE } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC Dual Diamond S22HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Dual Diamond S22HT', carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC Dual Diamond S22HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U; ja) S21HT'
     result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S21HT, carrier: EMOBILE } }
