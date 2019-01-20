@@ -24,8 +24,8 @@
     readable: 'Jig Browser 8.1.6 on a Sharp 934SH'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.0; SN3F)'
-    result: { browser: { name: 'Jig Browser', version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re W63S, carrier: au } }
-    readable: 'Jig Browser 1.0.0 on a Sony Ericsson re W63S'
+    result: { browser: { name: 'Jig Browser', version: 1.0.0, type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: re W63S, carrier: au } }
+    readable: 'Jig Browser 1.0.0 on a Sony Ericsson re W63S'
 -
     headers: 'User-Agent: Mozilla/4.0 (jig browser web; 1.0.4; 706P)'
     result: { browser: { name: 'Jig Browser', version: 1.0.4, type: browser }, device: { type: mobile, subtype: feature, manufacturer: Panasonic, model: 706P, carrier: Softbank } }

@@ -12,8 +12,8 @@
     readable: 'Openwave 6.2 on a Sharp SH005'
 -
     headers: 'User-Agent: KDDI-SN3I UP.Browser/6.2_7.2.7.1.K.2.123 (GUI) MMP/2.0'
-    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Premier3 SOY01, carrier: au } }
-    readable: 'Openwave 6.2 on a Sony Ericsson Premier3 SOY01'
+    result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: 'Sony Ericsson', model: Premier3 SOY01, carrier: au } }
+    readable: 'Openwave 6.2 on a Sony Ericsson Premier3 SOY01'
 -
     headers: 'User-Agent: KDDI-SN3K UP.Browser/6.2.0.7.3.129 (GUI) MMP/2.0'
     result: { browser: { name: Openwave, version: '6.2', type: browser }, device: { type: mobile, subtype: feature, manufacturer: iida, model: G9, carrier: au } }

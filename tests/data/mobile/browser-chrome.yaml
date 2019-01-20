@@ -40,12 +40,12 @@
     readable: 'Chrome 30 on an Asus Transformer Pad 300 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-10D Build/V20R47F) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.33 Mobile Safari/537.22'
-    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS X F-10D', carrier: DoCoMo } }
-    readable: 'Chrome 25 on a Fujitsu ARROWS X F-10D running Android 4.0.3'
+    result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS X F-10D', carrier: DoCoMo } }
+    readable: 'Chrome 25 on a Fujitsu ARROWS X F-10D running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; F-11D Build/V21R36A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.74 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
-    readable: 'Chrome 27 on a Fujitsu ARROWS Me F-11D running Android 4.0.3'
+    result: { browser: { name: Chrome, version: '27', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Me F-11D', carrier: DoCoMo } }
+    readable: 'Chrome 27 on a Fujitsu ARROWS Me F-11D running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; FZ-A1B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36'
     result: { browser: { name: Chrome, version: '31', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Panasonic, model: 'Toughpad FZ-A1' } }
@@ -64,20 +64,20 @@
     readable: 'Chrome 38 on a HTC Raider 4G running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW12HT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
-    readable: 'Chrome 42 on a HTC EVO 3D ISW12HT running Android 4.0.3'
+    result: { browser: { name: Chrome, version: '42', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D ISW12HT', carrier: au } }
+    readable: 'Chrome 42 on a HTC EVO 3D ISW12HT running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; ISW13F Build/V77R60B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
-    readable: 'Chrome 38 on a Fujitsu ARROWS Z ISW13F running Android 4.0.3'
+    result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Fujitsu, model: 'ARROWS Z ISW13F', carrier: au } }
+    readable: 'Chrome 38 on a Fujitsu ARROWS Z ISW13F running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Lenovo S880 Build/IML74K) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22'
     result: { browser: { name: Chrome, version: '25', type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Lenovo, model: S880 } }
     readable: 'Chrome 25 on a Lenovo S880 running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; SC-02C Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
-    readable: 'Chrome 33 on a Samsung GALAXY S II SC-02C running Android 4.0.3'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II SC-02C', carrier: DoCoMo } }
+    readable: 'Chrome 33 on a Samsung GALAXY S II SC-02C running Android 4.0.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.3; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36'
     result: { browser: { name: Chrome, version: '38', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.3 }, device: { type: tablet, manufacturer: Sony, model: 'Tablet S' } }

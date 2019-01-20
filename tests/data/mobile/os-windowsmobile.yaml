@@ -100,8 +100,8 @@
     readable: 'Mobile Internet Explorer 6.0 on an Acer Tempo F900 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]'
-    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
-    readable: 'Opera Mobile 9.5 on a Sharp WILLCOM 03 WS020SH running Windows Mobile'
+    result: { browser: { name: 'Opera Mobile', version: '9.5', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'WILLCOM 03 WS020SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.5 on a Sharp WILLCOM 03 WS020SH running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00'
     result: { browser: { name: 'Opera Mobile', version: '10.00', type: browser }, engine: { name: Presto }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart } }
@@ -132,12 +132,12 @@
     readable: 'Opera Mobile 9.7 on Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
-    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
-    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Opera/9.70 (Windows NT 5.1; U; xx) TMO-US_LEO'
     result: { browser: { name: Opera, version: '9.70', type: browser }, engine: { name: Presto }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
@@ -456,12 +456,12 @@
     readable: 'Mobile Internet Explorer 6.0 on a Toshiba TG01 running Windows Mobile 6.5'
 -
     headers: 'User-Agent: Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1'
-    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
-    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
+    result: { browser: { name: 'Opera Mobile', version: '9.7', type: browser }, engine: { name: Presto, version: 2.2.1 }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Sharp, model: 'W-ZERO3 [es] WS007SH', carrier: Willcom } }
+    readable: 'Opera Mobile 9.7 on a Sharp W-ZERO3 [es] WS007SH running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) S12HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER lite S12HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EMONSTER lite S12HT', carrier: EMOBILE } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC EMONSTER lite S12HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Smartphone; 240x320; SPV E650; OpVer 22.114.2.733'
     result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Orange, model: 'SPV E650' } }
@@ -536,20 +536,20 @@
     readable: 'Mobile Internet Explorer 6.0 on a Palm Treo 750 running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) HTC/X03HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S730 X03HT, carrier: Softbank } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC S730 X03HT running Windows Mobile 6.1'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.1' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S730 X03HT, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S730 X03HT running Windows Mobile 6.1'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) HTC/X02HT'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S630 X02HT, carrier: Softbank } }
-    readable: 'Mobile Internet Explorer 6.0 on a HTC S630 X02HT running Windows Mobile 6.0'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile', version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: S630 X02HT, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a HTC S630 X02HT running Windows Mobile 6.0'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; HTC/X01HT; PPC; 240x320)'
-    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN X01HT, carrier: Softbank } }
-    readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN X01HT running Windows Mobile'
+    result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: TyTN X01HT, carrier: Softbank } }
+    readable: 'Pocket Internet Explorer 4.0.1 on a HTC TyTN X01HT running Windows Mobile'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Toshiba/X01T)'
-    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: G900 X01T, carrier: Softbank } }
-    readable: 'Mobile Internet Explorer 6.0 on a Toshiba G900 X01T running Windows Mobile'
+    result: { browser: { name: 'Mobile Internet Explorer', version: '6.0', type: browser }, engine: { name: Trident }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Toshiba, model: G900 X01T, carrier: Softbank } }
+    readable: 'Mobile Internet Explorer 6.0 on a Toshiba G900 X01T running Windows Mobile'
 -
     headers: 'User-Agent: ASUS-GalaxyII/1.0 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; ASUS-GalaxyII)'
     result: { browser: { name: 'Pocket Internet Explorer', version: 4.0.1, type: browser }, os: { name: 'Windows Mobile' }, device: { type: mobile, subtype: smart, manufacturer: Asus, model: 'Galaxy II' } }

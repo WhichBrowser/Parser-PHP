@@ -156,8 +156,8 @@
     readable: 'Chrome 31 on a Samsung Galaxy S Duos running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; ISW11SC Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II WiMAX ISW11SC', carrier: au } }
-    readable: 'Chrome 18 on a Samsung GALAXY S II WiMAX ISW11SC running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S II WiMAX ISW11SC', carrier: au } }
+    readable: 'Chrome 18 on a Samsung GALAXY S II WiMAX ISW11SC running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SAMSUNG-SGH-I437 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Express' } }
@@ -176,8 +176,8 @@
     readable: 'Chrome 18 on a Samsung Galaxy S Blaze running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SC-05D Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY Note SC-05D', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a Samsung GALAXY Note SC-05D running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY Note SC-05D', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a Samsung GALAXY Note SC-05D running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SCH-I200 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Stellar' } }
@@ -200,8 +200,8 @@
     readable: 'Chrome Dev 28.0.1500.64 on a Samsung Galaxy S II Duos running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SCL21 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III Progre SCL21', carrier: au } }
-    readable: 'Chrome 18 on a Samsung GALAXY S III Progre SCL21 running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III Progre SCL21', carrier: au } }
+    readable: 'Chrome 18 on a Samsung GALAXY S III Progre SCL21 running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; SGH-I757M Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Skyrocket HD' } }
@@ -244,8 +244,8 @@
     readable: 'Chrome 18 on a Samsung Galaxy Premier running Android 4.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.1; SC-03E Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III α SC-03E', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a Samsung GALAXY S III α SC-03E running Android 4.1.1'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY S III α SC-03E', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a Samsung GALAXY S III α SC-03E running Android 4.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.1.2;  GT-S5282 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'
     result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Star' } }
@@ -540,8 +540,8 @@
     readable: 'Samsung Internet 1.5 on a Samsung Galaxy Note 3 running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; xx; SAMSUNG SC-02F Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36'
-    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY J SC-02F', carrier: DoCoMo } }
-    readable: 'Samsung Internet 1.5 on a Samsung GALAXY J SC-02F running Android 4.3'
+    result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GALAXY J SC-02F', carrier: DoCoMo } }
+    readable: 'Samsung Internet 1.5 on a Samsung GALAXY J SC-02F running Android 4.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.3; xx; SAMSUNG SM-G310R5 Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: 'Samsung Internet', version: '1.5', type: browser }, engine: { name: Blink }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'GreatCall Touch 3' } }

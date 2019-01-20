@@ -104,24 +104,24 @@
     readable: 'Chrome 18 on a LG Optimus Sol running Android 2.3.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; IS11LG Build/IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus X IS11LG', carrier: au } }
-    readable: 'Chrome 18 on a LG Optimus X IS11LG running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus X IS11LG', carrier: au } }
+    readable: 'Chrome 18 on a LG Optimus X IS11LG running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; L-01D Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LTE L-01D', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a LG Optimus LTE L-01D running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LTE L-01D', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a LG Optimus LTE L-01D running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; L-02E Build/IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LIFE L-02E', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a LG Optimus LIFE L-02E running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus LIFE L-02E', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a LG Optimus LIFE L-02E running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; L-05D Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus it L-05D', carrier: DoCoMo } }
-    readable: 'Chrome 18 on a LG Optimus it L-05D running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '18', type: browser }, engine: { name: Webkit, version: '535.19' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus it L-05D', carrier: DoCoMo } }
+    readable: 'Chrome 18 on a LG Optimus it L-05D running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; L-06D Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus Vu L-06D', carrier: DoCoMo } }
-    readable: 'Chrome 33 on a LG Optimus Vu L-06D running Android 4.0.4'
+    result: { browser: { name: Chrome, version: '33', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus Vu L-06D', carrier: DoCoMo } }
+    readable: 'Chrome 33 on a LG Optimus Vu L-06D running Android 4.0.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; LG E400 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.128 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: '36', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus L3' } }
@@ -308,8 +308,8 @@
     readable: 'Chrome Dev 26.0.1410.58 on a LG Enact running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; L-05E Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
-    result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus it L-05E', carrier: DoCoMo } }
-    readable: 'Chrome 34 on a LG Optimus it L-05E running Android 4.2.2'
+    result: { browser: { name: Chrome, version: '34', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus it L-05E', carrier: DoCoMo } }
+    readable: 'Chrome 34 on a LG Optimus it L-05E running Android 4.2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.2; Optimusx4 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36'
     result: { browser: { name: Chrome, version: 28.0.1500.94, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus X4' } }
@@ -496,8 +496,8 @@
     readable: 'Chrome 43 on a LG Lancet running Android 5.1.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.1; LGV32 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'isai vivid LGV32', carrier: au } }
-    readable: 'LG Browser on a LG isai vivid LGV32 running Android 5.1'
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'isai vivid LGV32', carrier: au } }
+    readable: 'LG Browser on a LG isai vivid LGV32 running Android 5.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; en-; LG GW620 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '528.5' }, os: { name: Android, version: '1.5' }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'GW620 Eve' } }
@@ -592,8 +592,8 @@
     readable: 'Android Browser on a LG Andro-1 running Android 2.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; xx; L-07C Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus bright L-07C', carrier: DoCoMo } }
-    readable: 'Android Browser on a LG Optimus bright L-07C running Android 2.3.3'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Optimus bright L-07C', carrier: DoCoMo } }
+    readable: 'Android Browser on a LG Optimus bright L-07C running Android 2.3.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; ru-; LG-LS855 Build/CTMod 3.80) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Marquee } }
@@ -672,8 +672,8 @@
     readable: 'Android Browser on a LG Optimus Logic running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; L-02D Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'PRADA phone L-02D', carrier: DoCoMo } }
-    readable: 'Android Browser on a LG PRADA phone L-02D running Android 2.3.7'
+    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'PRADA phone L-02D', carrier: DoCoMo } }
+    readable: 'Android Browser on a LG PRADA phone L-02D running Android 2.3.7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; xx; LG-LS696 Build/ZVF.GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '533.1' }, os: { name: Android, version: 2.3.7 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Elite } }
@@ -812,8 +812,8 @@
     readable: 'LG Browser on a LG Lucky running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LGL24 Build/KVT49L.LGL2410a) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'isai FL LGL24', carrier: au } }
-    readable: 'LG Browser on a LG isai FL LGL24 running Android 4.4.2'
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'isai FL LGL24', carrier: au } }
+    readable: 'LG Browser on a LG isai FL LGL24 running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.2; xx; LGL31L/V100 Build/KOT49I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.2 Chrome/30.0.1599.103 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Access } }
@@ -844,8 +844,8 @@
     readable: 'LG Browser on a LG Optimus Fuel running Android 4.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U;Android 4.4.2; 402LG Build/KOT49I.402LG07n) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36'
-    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Spray 402LG, carrier: 'Y! Mobile' } }
-    readable: 'LG Browser on a LG Spray 402LG running Android 4.4.2'
+    result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: Spray 402LG, carrier: 'Y! Mobile' } }
+    readable: 'LG Browser on a LG Spray 402LG running Android 4.4.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U;Android 4.4.2; LG-F440L Build/KOT49I.F440L07a) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36'
     result: { browser: { name: 'LG Browser', type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'ice cream smart' } }
