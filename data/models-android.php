@@ -13065,6 +13065,10 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-E700!'                                  => [ 'Samsung', 'Galaxy E7' ],
     ],
 
+    'SM-F[0-9]{3,3}!!' => [
+        'SM-F900!'                                  => [ 'Samsung', 'Galaxy Fold' ],
+    ],
+
     'SM-G[0-9]{3,3}!!' => [
         'SM-G110!'                                  => [ 'Samsung', 'Galaxy Pocket 2' ],
         'SM-G130BT'                                 => [ 'Samsung', 'Galaxy Young 2' ],
