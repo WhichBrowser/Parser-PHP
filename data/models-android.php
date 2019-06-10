@@ -260,6 +260,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Pixel C'                                   => [ 'Google', 'Pixel C', DeviceType::TABLET ],
     'Pixel'                                     => [ 'Google', 'Pixel' ],
     'Google Pixel'                              => [ 'Google', 'Pixel' ],
+    'Pixel XL'                                  => [ 'Google', 'Pixel XL' ],
     'Pixel 2'                                   => [ 'Google', 'Pixel 2' ],
     'Google Pixel 2'                            => [ 'Google', 'Pixel 2' ],
     'Pixel 2XL'                                 => [ 'Google', 'Pixel 2 XL' ],
