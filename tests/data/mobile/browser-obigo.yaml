@@ -186,3 +186,7 @@
     headers: 'User-Agent: LG-ME850c MIC/1.1.14 MIDP-2.0/CLDC-1.1'
     readable: 'Obigo 1.1 on a LG ME850c'
     result: { browser: { name: Obigo, version: '1.1', type: browser }, device: { type: mobile, subtype: feature, manufacturer: LG, model: ME850c } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 9; Nokia 1 Build/PQ2A.190405.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36'
+    readable: 'Chromium WebView 66 on a Nokia 1 running Android 9'
+    result: { browser: { using: { name: 'Chromium WebView', version: '66' } }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '1' } }

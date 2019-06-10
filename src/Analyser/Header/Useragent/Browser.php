@@ -1418,7 +1418,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/(Q)0?([0-9][A-Z])/u', $ua, $match)) {
+        if (preg_match('/[^A-Z](Q)0?([0-9][A-Z])/u', $ua, $match)) {
             $this->data->browser->name = 'Obigo ' . $match[1];
             $this->data->browser->version = new Version($processObigoVersion($match[2]));
             $this->data->browser->type = Constants\BrowserType::BROWSER;
