@@ -505,7 +505,7 @@ trait Browser
 
     private function detectOpera($ua)
     {
-        if (!preg_match('/(OPR|OMI|Opera|OPiOS|Coast|Oupeng)/ui', $ua)) {
+        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng)/ui', $ua)) {
             return;
         }
 
@@ -641,6 +641,16 @@ trait Browser
             $this->data->browser->name = 'Opera Mini';
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
+        if (preg_match('/OPT\/([0-9]\.[0-9.]+)?/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Opera Touch';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (isset($match[1])) {
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            }
         }
 
         if (preg_match('/Coast\/([0-9.]*)/u', $ua, $match)) {
