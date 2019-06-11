@@ -15,8 +15,8 @@ trait Browser
         /* Detect major browsers */
         $this->detectSafari($ua);
         $this->detectExplorer($ua);
-        $this->detectFirefox($ua);
         $this->detectChrome($ua);
+        $this->detectFirefox($ua);
         $this->detectEdge($ua);
         $this->detectOpera($ua);
 
@@ -663,7 +663,7 @@ trait Browser
 
     private function detectFirefox($ua)
     {
-        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS)/ui', $ua)) {
+        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
             return;
         }
 
@@ -763,6 +763,12 @@ trait Browser
 
         if (preg_match('/FxiOS\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Firefox';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
+        if (preg_match('/Focus\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Firefox Focus';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
