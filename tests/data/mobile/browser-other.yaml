@@ -46,3 +46,19 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 6.0.1; xx; ONEPLUS A3000 Build/MXB48T) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCPro/1.0.0.860 Mobile Safari/537.36'
     readable: 'TinY 1.0.0.860 on an OnePlus 3 running Android 6.0.1'
     result: { browser: { name: TinY, family: { name: Chrome, version: 40 }, version: 1.0.0.860, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: OnePlus, model: '3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; vivo X9 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.2.0.5'
+    readable: 'Vivo Browser 6.2.0.5 on a Vivo X9 running Android 8.1.0'
+    result: { browser: { name: 'Vivo Browser', using: { name: 'Chromium WebView', version: '62' }, version: 6.2.0.5, type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.1.0 }, device: { type: mobile, subtype: smart, manufacturer: Vivo, model: X9 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; vivo X6Plus A Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.1.1.1'
+    readable: 'Vivo Browser 6.1.1.1 on a Vivo X6 Plus A running Android 5.0.2'
+    result: { browser: { name: 'Vivo Browser', using: { name: 'Chromium WebView', version: '62' }, version: 6.1.1.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Vivo, model: 'X6 Plus A' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo Y66 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.0.5.1'
+    readable: 'Vivo Browser 6.0.5.1 on a Vivo Y66 running Android 6.0.1'
+    result: { browser: { name: 'Vivo Browser', using: { name: 'Chromium WebView', version: '62' }, version: 6.0.5.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Vivo, model: Y66 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; vivo Y31 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36 VivoBrowser/5.2.21'
+    readable: 'Vivo Browser 5.2.21 on a Vivo Y31 running Android 5.0.2'
+    result: { browser: { name: 'Vivo Browser', family: { name: Chrome, version: 38 }, version: 5.2.21, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Vivo, model: Y31 } }
