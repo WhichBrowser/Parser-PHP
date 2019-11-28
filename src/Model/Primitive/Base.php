@@ -76,6 +76,6 @@ class Base
             }
         }
 
-        return implode($lines, ", ");
+        return implode(", ", $lines);
     }
 }
