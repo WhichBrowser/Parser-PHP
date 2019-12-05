@@ -6,7 +6,7 @@ This is an extremely complicated and almost completely useless browser sniffing 
 WhichBrowser/Parser-PHP
 =======================
 
-The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7 and HHVM.
+The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7.
 
 [![Build Status](https://travis-ci.org/WhichBrowser/Parser-PHP.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
 [![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
@@ -58,7 +58,7 @@ The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Min
 Requirements
 -----------------
 
-WhichBrowser requires with PHP 5.4 or higher and supports PHP 7 and HHVM. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
+WhichBrowser requires with PHP 5.4 or higher and supports PHP 7. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
 
 
 How to install it
