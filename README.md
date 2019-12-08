@@ -478,6 +478,8 @@ An object of the `WhichBrowser\Model\Version` class is used for the `version` pr
   a string containing the original version number.
 * `alias`  
   a string containing an alias for the version number, ie. 'XP' for Windows '5.1'.
+* `nickname`  
+  a string containing a nickname for the version number, ie. 'Mojave' for OS X '10.14'.
 * `details`  
   an integer containing the number of digits of the version number that should be printed.
 
