@@ -270,6 +270,8 @@ DeviceModels::$ANDROID_MODELS = [
     'Pixel 3 XL'                                => [ 'Google', 'Pixel 3 XL' ],
     'Pixel 3a'                                  => [ 'Google', 'Pixel 3a' ],
     'Pixel 3a XL'                               => [ 'Google', 'Pixel 3a XL' ],
+    'Pixel 4'                                   => [ 'Google', 'Pixel 4' ],
+    'Pixel 4 XL'                                => [ 'Google', 'Pixel 4 XL' ],
 
     /* Google Edition */
     'HTC One'                                   => [ 'HTC', 'One (Google Edition)' ],
@@ -1319,9 +1321,8 @@ DeviceModels::$ANDROID_MODELS = [
     'KFGIWI'                                    => [ 'Amazon', 'Fire HD 8 (2016)', DeviceType::TABLET, Flag::FIREOS ],                     // xth generation 8" HD (1280 x 800)
     'KFDOWI'                                    => [ 'Amazon', 'Fire HD 8 (2017)', DeviceType::TABLET, Flag::FIREOS ],                     // xth generation 8" HD (1280 x 800)
     'KFSUWI'                                    => [ 'Amazon', 'Fire HD 10 (2017)', DeviceType::TABLET, Flag::FIREOS ],                    // 5th generation 10" HD (1280 x 800)
-    // 'KFSLWI'
-    // 'KFBJWI'
-    // 'KFHDX'
+    'KFMAWI'                                    => [ 'Amazon', 'Fire HD 8 (2018)', DeviceType::TABLET, Flag::FIREOS ],
+    'KFMUWI'                                    => [ 'Amazon', 'Fire 7 (2019)', DeviceType::TABLET, Flag::FIREOS ],
     'SD4930UR'                                  => [ 'Amazon', 'Fire Phone', DeviceType::MOBILE, Flag::FIREOS ],
     'AFTB'                                      => [ 'Amazon', 'Fire TV', DeviceType::TELEVISION, Flag::FIREOS ],
     'AFTS'                                      => [ 'Amazon', 'Fire TV (2015)', DeviceType::TELEVISION, Flag::FIREOS ],
@@ -5876,6 +5877,7 @@ DeviceModels::$ANDROID_MODELS = [
         'HTC 2Q4D200'                               => [ 'HTC', 'U11 Plus'],
         'HTC 2Q3F2'                                 => [ 'HTC', 'U11 Plus'],
         'HTC 2Q3F3'                                 => [ 'HTC', 'U11 Plus'],
+        'HTC U12+'                                  => [ 'HTC', 'U12+'],
         'HTC Velocity!'                             => [ 'HTC', 'Velocity 4G'],
         'HTCVelocity 4G'                            => [ 'HTC', 'Velocity 4G'],
         'HTC Vivid'                                 => [ 'HTC', 'Vivid'],
@@ -9399,6 +9401,7 @@ DeviceModels::$ANDROID_MODELS = [
     'LM-G715!'                                  => [ 'LG', 'G7 ThinQ' ],
     'LM-Q610!'                                  => [ 'LG', 'Q7' ],
     'LM-Q710!'                                  => [ 'LG', 'Q Stylus+' ],
+    'LM-Q720!'                                  => [ 'LG', 'Stylo 5' ],
     'LM-V350!'                                  => [ 'LG', 'V35 ThinQ' ],
     'LM-X210!'                                  => [ 'LG', 'Aristo 2' ],
     'LM-X410!'                                  => [ 'LG', 'X4' ],
@@ -10689,9 +10692,11 @@ DeviceModels::$ANDROID_MODELS = [
     '(Moto)?E2\(4G-LTE\)$!'                     => [ 'Motorola', 'Moto E (2015)' ],
     'surnia'                                    => [ 'Motorola', 'Moto E (2015)' ],
     'Motorola MotoE2!'                          => [ 'Motorola', 'Moto E2' ],
+    'Moto E4'                                   => [ 'Motorola', 'Moto E4' ],
     'Moto E (4)'                                => [ 'Motorola', 'Moto E4' ],
     'Moto E (4) Plus'                           => [ 'Motorola', 'Moto E4 Plus' ],
     'moto e5 cruise'                            => [ 'Motorola', 'Moto E5 Cruise' ],
+    'moto e5 play'                              => [ 'Motorola', 'Moto E5 Play' ],
     '(Moto)?G3$!'                               => [ 'Motorola', 'Moto G (2015)' ],
     '(Moto)?G3-TE$!'                            => [ 'Motorola', 'Moto G (2015)' ],
     'MOTOROLA MOTOG'                            => [ 'Motorola', 'Moto G' ],
@@ -11265,6 +11270,10 @@ DeviceModels::$ANDROID_MODELS = [
     'ONEPLUS A5000'                             => [ 'OnePlus', '5' ],
     'ONEPLUS A5010'                             => [ 'OnePlus', '5T' ],
     'ONEPLUS A6000'                             => [ 'OnePlus', '6' ],
+    'ONEPLUS A6003'                             => [ 'OnePlus', '6' ],
+    'ONEPLUS A6010'                             => [ 'OnePlus', '6T' ],
+    'ONEPLUS A6013'                             => [ 'OnePlus', '6T' ],
+    'HD1910'                                    => [ 'OnePlus', '7T' ],
     'ONE E1000'                                 => [ 'OnePlus', 'X' ],
     'ONE E1001'                                 => [ 'OnePlus', 'X' ],
     'ONE E1003'                                 => [ 'OnePlus', 'X' ],
@@ -11320,6 +11329,7 @@ DeviceModels::$ANDROID_MODELS = [
     'PBFT00'                                    => [ 'Oppo', 'A7' ],
     'OPPO PBFT00'                               => [ 'Oppo', 'A7' ],
     'PBBM00'                                    => [ 'Oppo', 'A7x' ],
+    'CPH1937'                                   => [ 'Oppo', 'A9 2020' ],
     'OPPO A30'                                  => [ 'Oppo', 'A30' ],
     'A31'                                       => [ 'Oppo', 'A31' ],
     'OPPO A31'                                  => [ 'Oppo', 'A31' ],
@@ -13171,6 +13181,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A205!'                                  => [ 'Samsung', 'Galaxy A20' ],
         'SM-A300!'                                  => [ 'Samsung', 'Galaxy A3' ],
         'SM-A305!'                                  => [ 'Samsung', 'Galaxy A30' ],
+        'SM-A307!'                                  => [ 'Samsung', 'Galaxy A30s' ],
         'SM-A310!'                                  => [ 'Samsung', 'Galaxy A3 (2016)' ],
         'SM-A320!'                                  => [ 'Samsung', 'Galaxy A3 (2017)' ],
         'SM-A405!'                                  => [ 'Samsung', 'Galaxy A40' ],
@@ -13179,6 +13190,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A460!'                                  => [ 'Samsung', 'SM-A460' ],
         'SM-A500!'                                  => [ 'Samsung', 'Galaxy A5' ],
         'SM-A505!'                                  => [ 'Samsung', 'Galaxy A50' ],
+        'SM-A507!'                                  => [ 'Samsung', 'Galaxy A50s' ],
         'SM-A510!'                                  => [ 'Samsung', 'Galaxy A5 (2016)' ],
         'SM-A520!'                                  => [ 'Samsung', 'Galaxy A5 (2017)' ],
         'SM-A530!'                                  => [ 'Samsung', 'Galaxy A8 (2018)' ],
@@ -13375,6 +13387,8 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-N935!'                                  => [ 'Samsung', 'Galaxy Note FE' ],
         'SM-N95[05]!'                               => [ 'Samsung', 'Galaxy Note 8' ],
         'SM-N960!'                                  => [ 'Samsung', 'Galaxy Note 9' ],
+        'SM-N970!'                                  => [ 'Samsung', 'Galaxy Note 10' ],
+        'SM-N975!'                                  => [ 'Samsung', 'Galaxy Note 10+' ],
     ],
 
     'SM-P[0-9]{3,3}!!' => [
@@ -13453,6 +13467,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-T81[8]!'                                => [ 'Samsung', 'Galaxy Tab S2 Plus 9.7', DeviceType::TABLET ],
         'SM-T82[057]!'                              => [ 'Samsung', 'Galaxy Tab S3 9.7', DeviceType::TABLET ],
         'SM-T83[057]!'                              => [ 'Samsung', 'Galaxy Tab S4 10.5', DeviceType::TABLET ],
+        'SM-T86[057]!'                              => [ 'Samsung', 'Galaxy Tab S6 10.5', DeviceType::TABLET ],
         'SM-T90[05]!'                               => [ 'Samsung', 'Galaxy Tab Pro 12.2', DeviceType::TABLET ],
     ],
 
@@ -13596,6 +13611,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SC-01H'                                    => [ 'Samsung', 'GALAXY Active neo SC-01H', 'carrier' => 'DoCoMo' ],
         'SC-01K'                                    => [ 'Samsung', 'GALAXY Note 8 SC-01K', 'carrier' => 'DoCoMo' ],
         'SC-01L'                                    => [ 'Samsung', 'GALAXY Note9 SC-01L', 'carrier' => 'DoCoMo' ],
+        'SC-01M'                                    => [ 'Samsung', 'GALAXY Note10+ SC-01M', 'carrier' => 'DoCoMo' ],
         'SC-02B'                                    => [ 'Samsung', 'GALAXY S SC-02B', 'carrier' => 'DoCoMo' ],
         'SC-02C'                                    => [ 'Samsung', 'GALAXY S II SC-02C', 'carrier' => 'DoCoMo' ],
         'SC-02D'                                    => [ 'Samsung', 'GALAXY Tab 7.0 Plus SC-02D', DeviceType::TABLET, 'carrier' => 'DoCoMo' ],
@@ -16701,9 +16717,18 @@ DeviceModels::$ANDROID_MODELS = [
         '(Xiaomi )?(Xiaomi|Xiaomi M|MI)[ \-]?5s Plus$!'                 => [ 'Xiaomi', 'Mi 5s Plus' ],
         '(Xiaomi )?(Xiaomi|Xiaomi M|MI)[ \-]?5x$!'                      => [ 'Xiaomi', 'Mi 5x' ],
         '(Xiaomi )?(Xiaomi|Xiaomi M|MI)[ \-]?6$!'                       => [ 'Xiaomi', 'Mi 6' ],
+        '(Xiaomi )?(Xiaomi|Xiaomi M|MI)[ \-]?6X$!'                      => [ 'Xiaomi', 'Mi 6X' ],
         '(Xiaomi )?(Xiaomi|Xiaomi M|MI)[ \-]?A1$!'                      => [ 'Xiaomi', 'Mi A1' ],
     ],
 
+    'MI 8'                                                              => [ 'Xiaomi', 'Mi 8' ],
+    'MI 8 SE'                                                           => [ 'Xiaomi', 'Mi 8 SE' ],
+    'MI 8 UD'                                                           => [ 'Xiaomi', 'Mi 8 UD' ],
+    'MI 8 Lite'                                                         => [ 'Xiaomi', 'Mi 8 Lite' ],
+    'MI 9'                                                              => [ 'Xiaomi', 'Mi 9' ],
+    'Mi 9T Pro'                                                         => [ 'Xiaomi', 'Mi 9T Pro' ],
+    'Mi9 Pro 5G'                                                        => [ 'Xiaomi', 'Mi 9 Pro' ],
+    
     '(Xiaomi|Xiaomi Mi|MI) Note!!' => [
         '(Xiaomi|Xiaomi Mi|MI) Note (LTE|4G)$!'                         => [ 'Xiaomi', 'Mi Note' ],
         '(Xiaomi|Xiaomi Mi|MI) Note ?2!'                                => [ 'Xiaomi', 'Mi Note 2' ],
@@ -16714,6 +16739,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     '(Xiaomi )?(MI )?MAX$!'                                             => [ 'Xiaomi', 'Mi Max' ],
     '(Xiaomi )?(MI )?MAX 2$!'                                           => [ 'Xiaomi', 'Mi Max 2' ],
+    '(Xiaomi )?(MI )?MAX 3$!'                                           => [ 'Xiaomi', 'Mi Max 3' ],
     '(Xiaomi )?(MI )?MIX$!'                                             => [ 'Xiaomi', 'Mi MIX' ],
     '(Xiaomi )?(MI )?MIX 2$!'                                           => [ 'Xiaomi', 'Mi MIX 2' ],
     '(Xiaomi )?(MI )?MIX 2S$!'                                          => [ 'Xiaomi', 'Mi MIX 2S' ],
@@ -16745,9 +16771,15 @@ DeviceModels::$ANDROID_MODELS = [
         '(Xiaomi )?(Redmi|HM) ?5$!'                                     => [ 'Xiaomi', 'Redmi 5' ],
         '(Xiaomi )?(Redmi|HM) ?5 Plus!'                                 => [ 'Xiaomi', 'Redmi 5 Plus' ],
         '(Xiaomi )?(Redmi|HM) ?5A!'                                     => [ 'Xiaomi', 'Redmi 5A' ],
+        '(Xiaomi )?(Redmi|HM) ?6A!'                                     => [ 'Xiaomi', 'Redmi 6A' ],
+        '(Xiaomi )?(Redmi|HM) ?6 Pro!'                                  => [ 'Xiaomi', 'Redmi 6 Pro' ],
+        '(Xiaomi )?(Redmi|HM) ?7A!'                                     => [ 'Xiaomi', 'Redmi 7A' ],
+        '(Xiaomi )?(Redmi|HM) ?8$!'                                     => [ 'Xiaomi', 'Redmi 8' ],
+        '(Xiaomi )?Redmi[ \-]K20 Pro!'                                  => [ 'Xiaomi', 'Redmi K20 Pro' ],
         '(Xiaomi )?Redmi[ \-]S2$!'                                      => [ 'Xiaomi', 'Redmi S2' ],
         '(Xiaomi )?Redmi[ \-]Y1$!'                                      => [ 'Xiaomi', 'Redmi Y1' ],
         '(Xiaomi )?Redmi[ \-]Y1 Lite!'                                  => [ 'Xiaomi', 'Redmi Y1 Lite' ],
+        '(Xiaomi )?Redmi[ \-]Go$!'                                      => [ 'Xiaomi', 'Redmi Go' ],
     ],
 
     '(Xiaomi )?(Redmi|HM)[ \-]?Note!!' => [
@@ -16760,6 +16792,9 @@ DeviceModels::$ANDROID_MODELS = [
         '(Xiaomi )?Redmi[ \-]Note ?5$!'                                 => [ 'Xiaomi', 'Redmi Note 5' ],
         '(Xiaomi )?Redmi[ \-]Note ?5A!'                                 => [ 'Xiaomi', 'Redmi Note 5A' ],
         '(Xiaomi )?Redmi[ \-]Note 5 Pro!'                               => [ 'Xiaomi', 'Redmi Note 5 Pro' ],
+        '(Xiaomi )?Redmi[ \-]Note 7$!'                                  => [ 'Xiaomi', 'Redmi Note 7' ],
+        '(Xiaomi )?Redmi[ \-]Note 7 Pro!'                               => [ 'Xiaomi', 'Redmi Note 7 Pro' ],
+        '(Xiaomi )?Redmi[ \-]Note 8$!'                                  => [ 'Xiaomi', 'Redmi Note 8' ],
     ],
 
     '(Xiaomi |HM)?20!!' => [
