@@ -15,8 +15,8 @@ trait Browser
         /* Detect major browsers */
         $this->detectSafari($ua);
         $this->detectExplorer($ua);
-        $this->detectFirefox($ua);
         $this->detectChrome($ua);
+        $this->detectFirefox($ua);
         $this->detectEdge($ua);
         $this->detectOpera($ua);
 
@@ -491,6 +491,13 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[2], 'details' => 1, 'hidden' => true ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
+
+        if (preg_match('/Edg\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Edge';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 1 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
     }
 
 
@@ -498,7 +505,7 @@ trait Browser
 
     private function detectOpera($ua)
     {
-        if (!preg_match('/(OPR|OMI|Opera|OPiOS|Coast|Oupeng)/ui', $ua)) {
+        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng)/ui', $ua)) {
             return;
         }
 
@@ -636,6 +643,16 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
+        if (preg_match('/OPT\/([0-9]\.[0-9.]+)?/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Opera Touch';
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (isset($match[1])) {
+                $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            }
+        }
+
         if (preg_match('/Coast\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Coast by Opera';
@@ -656,7 +673,7 @@ trait Browser
 
     private function detectFirefox($ua)
     {
-        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS)/ui', $ua)) {
+        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
             return;
         }
 
@@ -756,6 +773,12 @@ trait Browser
 
         if (preg_match('/FxiOS\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->name = 'Firefox';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
+        if (preg_match('/Focus\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Firefox Focus';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
@@ -1411,7 +1434,7 @@ trait Browser
             }
         }
 
-        if (preg_match('/(Q)0?([0-9][A-Z])/u', $ua, $match)) {
+        if (preg_match('/[^A-Z](Q)0?([0-9][A-Z])/u', $ua, $match)) {
             $this->data->browser->name = 'Obigo ' . $match[1];
             $this->data->browser->version = new Version($processObigoVersion($match[2]));
             $this->data->browser->type = Constants\BrowserType::BROWSER;
