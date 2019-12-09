@@ -146,6 +146,7 @@ Applications::$BOTS = [
     [ 'name' => 'Livedoor',                     'id'    => 'livedoor',      'regexp' => '/livedoor/u' ],
     [ 'name' => 'LTX71',                        'id'    => 'ltx71',      'regexp' => '/ltx71/u' ],
     [ 'name' => 'Magpie RSS',                   'id'    => 'magpie',      'regexp' => '/MagpieRSS\/([0-9.]*)/u' ],
+    [ 'name' => 'Majestic',                     'id'    => 'majestic',      'regexp' => '/MJ12bot\/([0-9.]*)/u' ],
     [ 'name' => 'Mapian News Bot',              'id'    => 'mapion',      'regexp' => '/mapion-news-bot\/([0-9.]*)/u' ],
     [ 'name' => 'Microsoft Social Streams',     'id'    => 'socialstreams',      'regexp' => '/Microsoft MSN SocialStreams Bot/u' ],
     [ 'name' => 'Mixi',                         'id'    => 'mixi',      'regexp' => '/mixi-check\/([0-9.]*)/u' ],
@@ -172,6 +173,7 @@ Applications::$BOTS = [
     [ 'name' => 'PowerMapper',                  'id'    => 'crawler',      'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'feed',      'regexp' => '/R6_FeedFetcher/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'comment',      'regexp' => '/R6_CommentReader/u' ],
+    [ 'name' => 'Moz',                          'id'    => 'comment',      'regexp' => '/rogerBot/u' ],
     [ 'name' => 'RssBar',                       'id'    => 'rssbar',      'regexp' => '/RssBar\/([0-9.]*)/u' ],
     [ 'name' => 'ROI Hunter',                   'id'    => 'hunter',      'regexp' => '/ROI Hunter/u' ],
     [ 'name' => 'QuerySeekerSpider',            'id'    => 'spider',      'regexp' => '/QuerySeekerSpider(?:\/([0-9.]*))?/u' ],
@@ -280,6 +282,7 @@ Applications::$BOTS = [
 
     [ 'name' => 'Go',                           'id'    => 'package',      'regexp' => '/Go [0-9\.]+ package http/u' ],
     [ 'name' => 'Java',                         'id'    => 'java',      'regexp' => '/^Java\/([0-9.]*)/u' ],
+    [ 'name' => 'Java',                         'id'    => 'java',      'regexp' => '/^httpunit\/([0-9.]*)/u' ],
     [ 'name' => 'Perl',                         'id'    => 'simple',      'regexp' => '/LWP::Simple\//u' ],
     [ 'name' => 'Perl',                         'id'    => 'libwww',      'regexp' => '/libwww-perl\//u' ],
     [ 'name' => 'Perl',                         'id'    => 'lwp',      'regexp' => '/lwp-trivial\//u' ],
