@@ -383,6 +383,14 @@
     result: { browser: { name: 'FAST Web Crawler', version: '3.8' }, device: { type: bot } }
     readable: 'FAST Web Crawler 3.8'
 -
+    headers: 'User-Agent: Python-urllib/3.8'
+    result: { browser: { name: Python, version: '3.8' }, device: { type: bot } }
+    readable: 'Python 3.8'
+-
+    headers: 'User-Agent: python-requests/2.22.0'
+    result: { browser: { name: Python, version: '2.22.0' }, device: { type: bot } }
+    readable: 'Python 2.22.0'
+-
     headers: 'User-Agent: Scrapy/0.24.6 (+http://scrapy.org)'
     result: { browser: { name: Scrapy, version: 0.24.6 }, device: { type: bot } }
     readable: 'Scrapy 0.24.6'
