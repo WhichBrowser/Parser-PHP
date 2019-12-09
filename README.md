@@ -385,20 +385,29 @@ The `type` property can contain any value from the following list:
 
 * desktop
 * mobile
+* pda
+* dect
 * tablet
 * gaming
-* headset
 * ereader
 * media
+* headset
+* watch
 * emulator
 * television
 * monitor
 * camera
+* printer
 * signage
 * whiteboard
+* devboard
+* inflight
+* appliance
+* gps
 * car
 * pos
 * bot
+* projector
 
 If the `type` is "mobile", the `subtype` property can contain any value from the following list:
 
