@@ -122,3 +122,27 @@
     headers: 'User-Agent: GT-E3309 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29644/37.8773; U; es) Presto/2.12.423 Version/12.16'
     readable: 'Opera Mini 4.4 on a Samsung GT-E3309'
     result: { browser: { name: 'Opera Mini', version: '4.4', type: browser }, engine: { name: Presto, version: 2.12.423 }, device: { type: mobile, subtype: feature, manufacturer: Samsung, model: GT-E3309 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 9; SM-N950F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36 OPT/1.17.66'
+    readable: 'Opera Touch 1.17 on a Samsung Galaxy Note 8 running Android 9'
+    result: { browser: { name: 'Opera Touch', family: { name: Chrome, version: 74 }, version: '1.17', type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note 8' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; Nokia 8 Sirocco Build/OPR1.170623.026) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 OPT/1.11.42'
+    readable: 'Opera Touch 1.11 on a Nokia 8 Sirocco running Android 8.1.0'
+    result: { browser: { name: 'Opera Touch', family: { name: Chrome, version: 70 }, version: '1.11', type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.1.0 }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '8 Sirocco' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/4'
+    readable: 'Opera Touch on an Apple iPad running iOS 12.2'
+    result: { browser: { name: 'Opera Touch', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: iOS, version: '12.2' }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/4 Mobile/15E148'
+    readable: 'Opera Touch on an Apple iPhone running iOS 12.3'
+    result: { browser: { name: 'Opera Touch', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: iOS, version: '12.3' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/2 Mobile/16C50'
+    readable: 'Opera Touch on an Apple iPad running iOS 12.1.1'
+    result: { browser: { name: 'Opera Touch', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: iOS, version: 12.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/74 Mobile/15G77'
+    readable: 'Opera Touch on an Apple iPhone running iOS 11.4.1'
+    result: { browser: { name: 'Opera Touch', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: iOS, version: 11.4.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }

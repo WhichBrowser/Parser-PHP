@@ -30,3 +30,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/14.11111'
     result: { browser: { name: Edge, version: '14', type: browser }, engine: { name: EdgeHTML, version: '14.11111' }, os: { name: Windows, version: { value: '10.1', alias: '10' } }, device: { type: desktop } }
     readable: 'Edge 14 on Windows 10'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3763.0 Safari/537.36 Edg/75.0.131.0'
+    readable: 'Edge 75 on Windows 10'
+    result: { browser: { name: Edge, family: { name: Chrome, version: 75 }, version: '75', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3782.0 Safari/537.36 Edg/76.0.152.0'
+    readable: 'Edge 76 on macOS Mojave 10.14'
+    result: { browser: { name: Edge, family: { name: Chrome, version: 76 }, version: '76', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '10.14', nickname: Mojave } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }

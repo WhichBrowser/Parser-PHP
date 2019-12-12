@@ -6,9 +6,9 @@ This is an extremely complicated and almost completely useless browser sniffing 
 WhichBrowser/Parser-PHP
 =======================
 
-The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7 and HHVM.
+The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7.
 
-[![Build Status](https://travis-ci.org/WhichBrowser/Parser-PHP.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser)
+[![Build Status](https://travis-ci.org/WhichBrowser/Parser-PHP.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser-PHP)
 [![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
 [![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
 [![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
@@ -58,7 +58,7 @@ The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Min
 Requirements
 -----------------
 
-WhichBrowser requires with PHP 5.4 or higher and supports PHP 7 and HHVM. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
+WhichBrowser requires with PHP 5.4 or higher and supports PHP 7. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
 
 
 How to install it
@@ -385,20 +385,29 @@ The `type` property can contain any value from the following list:
 
 * desktop
 * mobile
+* pda
+* dect
 * tablet
 * gaming
-* headset
 * ereader
 * media
+* headset
+* watch
 * emulator
 * television
 * monitor
 * camera
+* printer
 * signage
 * whiteboard
+* devboard
+* inflight
+* appliance
+* gps
 * car
 * pos
 * bot
+* projector
 
 If the `type` is "mobile", the `subtype` property can contain any value from the following list:
 
@@ -478,6 +487,8 @@ An object of the `WhichBrowser\Model\Version` class is used for the `version` pr
   a string containing the original version number.
 * `alias`  
   a string containing an alias for the version number, ie. 'XP' for Windows '5.1'.
+* `nickname`  
+  a string containing a nickname for the version number, ie. 'Mojave' for OS X '10.14'.
 * `details`  
   an integer containing the number of digits of the version number that should be printed.
 
