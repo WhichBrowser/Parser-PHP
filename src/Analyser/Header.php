@@ -39,6 +39,13 @@ trait Header
         }
         
 
+        /* Analyse the Client Hint header */
+
+        if ($header = $this->getHeader('Sec-CH-UA')) {
+            $this->analyseClientHints();
+        }
+
+        
         /* Analyse browser specific headers */
 
         if ($header = $this->getHeader('X-OperaMini-Phone')) {
@@ -83,6 +90,11 @@ trait Header
     private function analyseUserAgent($header)
     {
         new Header\Useragent($header, $this->data, $this->options);
+    }
+
+    private function analyseClientHints()
+    {
+        new Header\ClientHints($this->headers, $this->data);
     }
 
     private function analyseBaiduHeader($header)

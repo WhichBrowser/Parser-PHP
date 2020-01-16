@@ -62,3 +62,11 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16'
     result: { browser: { name: Chrome, version: '10', type: browser }, engine: { name: Webkit, version: '534.16' }, os: { name: Linux }, device: { type: desktop } }
     readable: 'Chrome 10 on Linux'
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36', Sec-CH-UA: 'Google Chrome 81' }
+    readable: 'Chrome 81 on Windows 10'
+    result: { browser: { name: Chrome, version: '81', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
+    headers: { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36', Sec-CH-UA: 'Google Chrome 81', Sec-CH-UA-Platform: 'Mac OS X' }
+    readable: 'Chrome 81 on macOS'
+    result: { browser: { name: Chrome, version: '81', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
