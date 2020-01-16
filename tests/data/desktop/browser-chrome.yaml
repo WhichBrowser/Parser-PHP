@@ -67,6 +67,6 @@
     readable: 'Chrome 81 on Windows 10'
     result: { browser: { name: Chrome, version: '81', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
-    headers: { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36', Sec-CH-UA: 'Google Chrome 81', Sec-CH-UA-Platform: 'Mac OS X' }
-    readable: 'Chrome 81 on macOS'
-    result: { browser: { name: Chrome, version: '81', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    headers: { User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36', Sec-CH-UA: 'Google Chrome 81.0.4029.0', Sec-CH-UA-Platform: 'Mac OS X' }
+    readable: 'Chrome Dev 81.0.4029.0 on macOS'
+    result: { browser: { name: Chrome, version: 81.0.4029.0, type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
