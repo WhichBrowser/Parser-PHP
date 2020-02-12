@@ -13312,6 +13312,7 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'SM-F[0-9]{3,3}!!' => [
+        'SM-F700!'                                  => [ 'Samsung', 'Galaxy Z Flip' ],
         'SM-F900!'                                  => [ 'Samsung', 'Galaxy Fold' ],
     ],
 
@@ -13409,11 +13410,11 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-G973!'                                  => [ 'Samsung', 'Galaxy S10' ],
         'SM-G975!'                                  => [ 'Samsung', 'Galaxy S10 Plus' ],
         'SM-G977!'                                  => [ 'Samsung', 'Galaxy S10 5G' ],
-        'SM-G980!'                                  => [ 'Samsung', 'Galaxy S11e' ],
-        'SM-G981!'                                  => [ 'Samsung', 'Galaxy S11e' ],
-        'SM-G985!'                                  => [ 'Samsung', 'Galaxy S11' ],
-        'SM-G986!'                                  => [ 'Samsung', 'Galaxy S11 5G' ],
-        'SM-G988!'                                  => [ 'Samsung', 'Galaxy S11 Plus' ],
+        'SM-G980!'                                  => [ 'Samsung', 'Galaxy S20' ],
+        'SM-G981!'                                  => [ 'Samsung', 'Galaxy S20' ],
+        'SM-G985!'                                  => [ 'Samsung', 'Galaxy S20+' ],
+        'SM-G986!'                                  => [ 'Samsung', 'Galaxy S20+' ],
+        'SM-G988!'                                  => [ 'Samsung', 'Galaxy S20 Ultra' ],
     ],
 
     'SM-I9500'                                      => [ 'Samsung', 'Galaxy S4' ],
