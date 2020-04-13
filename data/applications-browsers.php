@@ -306,10 +306,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Bunjalloo',              'id'  => 'bunjalloo',     'regexp' => '/Bunjalloo\/([0-9.]*)/u' ],                                                                 // browser for the Nintento DS
         [ 'name' => 'Nintendo Web Framework', 'id'  => 'nwf',           'regexp' => '/NWF\/([0-9.]*)/u', 'details' => 2 ],                                                       // browser for the Sega Dreamcast
         [ 'name' => 'Nuanti Meta',            'id'  => 'nuanti',        'regexp' => '/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                           // browser for the Playstation
-        [ 'name' => 'PlayStation',            'id'  => 'playstation',   'regexp' => '/PlayStation Vita ([0-9.]*)/u' ],                                                           // browser for the Playstation   
-        [ 'name' => 'PlayStation',            'id'  => 'playstation',   'regexp' => '/PlayStation ([0-9.]*)/u' ],                                                                // browser for the Playstation
-        [ 'name' => 'PlayStation',            'id'  => 'playstation',   'regexp' => '/PlayStation Portable\)\; ([0-9.]*)/u' ],                                                   // browser for the Playstation
-        [ 'name' => 'PlayStation',            'id'  => 'playstation',   'regexp' => '/PlayStation Portable\)\;\; ([0-9.]*)/u' ],                                                 // browser for the Playstation
 
         /* Other browsers */
         [ 'name' => 'Wear Internet Browser','id'    => 'wib',         'regexp' => '/WIB\/([0-9.]*)/u' ],
