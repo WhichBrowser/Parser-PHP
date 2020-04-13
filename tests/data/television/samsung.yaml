@@ -103,6 +103,7 @@
     result: { browser: { name: 'NetFront NX', version: '2.0', type: browser }, engine: { name: Webkit, version: '534' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
     readable: 'NetFront NX 2.0 on a Samsung Smart TV'
 -
+
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 5.1.00277 Navi'
     result: { browser: { family: { name: Firefox, version: 2.5.0 }, type: browser }, engine: { name: Gecko, version: 1.8.1 }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2010' } }
     readable: 'a Samsung Smart TV 2010'
@@ -166,3 +167,7 @@
     headers: 'User-Agent: HbbTV/1.4.1 (+DRM+MEDIA360;Samsung;SmartTV2017;T-KTMDEUC-0902.31;;)+SmartHubLink Chrome'
     readable: 'a Samsung Smart TV 2017'
     result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2017' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (SMART-TV; Linux; Tizen 2.2) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1'
+    result: { browser: { name: 'Webkit based browser', type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.2' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
+    readable: 'Webkit based browser on a Samsung Smart TV running Tizen 2.2'

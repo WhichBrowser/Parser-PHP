@@ -322,3 +322,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ Hybridcast/1.0(;00E091;webOSTV3_0;2;2;)0'
     readable: 'a LG webOS TV'
     result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.31 SmartTV/7.5'
+    readable: 'NetCast Browser 7.5 on a LG webOS TV'
+    result: { browser: { name: NetCast Browser, family: { name: Chrome, version: 38.0.2125.122 }, version: 7.5, type: browser }, engine: { name: Blink }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }

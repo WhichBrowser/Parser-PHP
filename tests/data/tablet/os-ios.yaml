@@ -2,3 +2,7 @@
     headers: 'User-Agent: FeeddlerRSS 2.4 (iPad; iPhone OS 5.1.1; en_US)'
     result: { browser: { name: Feeddler, version: '2.4', type: 'app:feedreader' }, os: { name: iOS, version: 5.1.1 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
     readable: 'Feeddler 2.4 on an Apple iPad running iOS 5.1.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 Version/10.3 Safari/8536.25 Mobicip/1882608256'
+    result: { browser: { name: Mobicip, version: '1882608256', type: 'browser' }, engine: { name: Webkit }, os: { name: iOS, version: 10.3.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    readable: 'Mobicip 1882608256 on an Apple iPad running iOS 10.3.3'
