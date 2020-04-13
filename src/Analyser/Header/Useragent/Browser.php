@@ -67,8 +67,6 @@ trait Browser
     }
 
 
-
-
     /* Safari */
 
     private function detectSafari($ua)
@@ -121,7 +119,6 @@ trait Browser
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
-
 
 
     /* Chrome */
@@ -557,7 +554,6 @@ trait Browser
             }
 
             if (preg_match('/Version\/([0-9.]+)/u', $ua, $match)) {
-
                 if (floatval($match[1]) >= 10) {
                     $this->data->browser->version = new Version([ 'value' => $match[1] ]);
                 }
