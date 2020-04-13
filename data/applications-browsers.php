@@ -311,11 +311,6 @@ Applications::$BROWSERS = [
 
         /* PDF renderers */
         [ 'name' => 'Prince',               'id'    => 'prince',      'regexp' => '/Prince\/([0-9.]*)/u' ],
-        
-        /* E readers */
-        [ 'name' => 'Kindle Browser',       'id'    => 'kindle',      'regexp' => '/ Kindle\/([0-9.]*)/u', 'type' => Constants\DeviceType::EREADER ],
-        [ 'name' => 'Kindle Browser',       'id'    => 'kindle',      'regexp' => '/ Kindle SkipStone ([0-9.]*)/u', 'type' => Constants\DeviceType::EREADER ],
-        [ 'name' => 'Kindle Browser',       'id'    => 'kindle',      'regexp' => '/Kindle Fire Build\/([0-9.A-Z]*)/u', 'type' => Constants\DeviceType::EREADER ],
 
         /* Car browers */
         [ 'name' => 'Tesla Browser',        'id'    => 'tesla',      'regexp' => '/QtCarBrowser/u', 'type' => Constants\DeviceType::CAR ],                                      // see: https://teslamotorsclub.com/tmc/forums/model-s-user-interface.113/
