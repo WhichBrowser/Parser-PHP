@@ -170,7 +170,3 @@
     headers: 'User-Agent: Mozilla/5.0 (SMART-TV; Linux; Tizen 2.2) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1'
     result: { browser: { name: 'Webkit based browser', type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Tizen, version: '2.2' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV' } }
     readable: 'Webkit based browser on a Samsung Smart TV running Tizen 2.2'
--
-    headers: 'User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00077'
-    result: { browser: { name: 'Maple', version: 6.0.00077, type: browser }, engine: { name: Gecko, version: '1.8.1.11' }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2011' } }
-    readable: 'Maple 6.0.00077 on a Samsung Smart TV 2011'

@@ -294,7 +294,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Freebox Browser',      'id'    => 'freebox',       'regexp' => '/ Mail Free\/([0-9.]*)/u', 'type' => Constants\DeviceType::TELEVISION ],                    // see: https://www.free.fr/freebox
         [ 'name' => 'Isis',                 'id'    => 'browserserver', 'regexp' => '/BrowserServer/u' ],
         [ 'name' => 'Isis',                 'id'    => 'isis',          'regexp' => '/ISIS\/([0-9.]*)/u', 'details' => 2 ],
-        [ 'name' => 'Maple',                'id'    => 'maple',         'regexp' => '/ Maple ([0-9.]*)/u', 'type' => Constants\DeviceType::TELEVISION ],                         // see: https://www.samsung.com/
         [ 'name' => 'Oregan Browser',       'id'    => 'oregan',        'regexp' => '/OreganMediaBrowser(?:\/([0-9.]*))?/u', 'details' => 2 ],
         [ 'name' => 'Spyglass',             'id'    => 'spyglass',      'regexp' => '/Spyglass ([0-9.]+); OpenTV/u' ],
         [ 'name' => 'Viera Browser',        'id'    => 'viera',         'regexp' => '/Viera\/([0-9.]*)/u' ],
