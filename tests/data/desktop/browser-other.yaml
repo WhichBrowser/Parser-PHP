@@ -245,7 +245,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36 JuziBrowser'
     readable: 'Juzi Browser on Windows 10'
-    result: { browser: { name: 'Juzi Browser', family: { name: Chrome, version: 48.0.2564.103 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } 
+    result: { browser: { name: 'Juzi Browser', family: { name: Chrome, version: 48.0.2564.103 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070215 K-Ninja/2.1.1'
     readable: 'K-Ninja 2.1.1 on Windows XP'
