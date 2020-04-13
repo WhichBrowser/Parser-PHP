@@ -70,3 +70,71 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; OPPO R7 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/4.6.5.3'
     readable: 'Oppo Browser 4.6.5.3 on an Oppo R7 running Android 4.4.4'
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI-M570/001.00 WAP/OBIGO/Q05A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36 AlohaBrowser/1.2.1.3'
+    readable: 'Aloha Browser 1.2.1.3 on an Huawei M570 running Android 7.0'
+    result: { browser: { name: 'Aloha Browser', family: { name: Chrome, version: 63.0.3239.111 }, version: 1.2.1.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.0 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 CoRom/30.0.1599.101'
+    readable: 'CoRom Browser 30.0.1599.101 on an Oppo F5 running Android 7.1.1'
+    result: { browser: { name: 'CoRom Browser', family: { name: Chrome, version: 30.0.1599.101 }, version: 30.0.1599.101, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: F5 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Safari/9537.53 DiigoBrowser'
+    result: { browser: { name: Diigo Browser, type: browser }, os: { name: iOS, version: 11.3 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    readable: 'Diigo Browser on an Apple iPad running iOS 11.3'
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 (Ecosia ios@4.0.10.813) Safari/604'
+    result: { browser: { name: Ecosia Browser, version: 4.0.10.813, type: browser }, os: { name: iOS, version: 9.3.5 }, device: { type: tablet, manufacturer: Apple, model: iPad } }
+    readable: 'Ecosia Browser 4.0.10.813 on an Apple iPad running iOS 9.3.5'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI-M570/001.00 WAP/OBIGO/Q05A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Safari/537.36 Fluid/0.9.6'
+    readable: 'Fluid Browser 0.9.6 on an Huawei M570 running Android 7.0'
+    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 63.0.3239.111 }, version: 0.9.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.0 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 FluidApp Version/1920 Safari/537.36'
+    readable: 'Fluid Browser 1920 on an Oppo F5 running Android 7.1.1'
+    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 30.0.1599.101 }, version: 19201, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: F5 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; PBAM00 Build/OPM1.171019.026) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 HeyTapBrowser/10.7.2.1'
+    readable: 'HeyTap Browser 10.7.2.1 on an Oppo A5 running Android 8.1.0'
+    result: { browser: { name: 'HeyTap Browser', family: { name: Chrome, version: 70.0.3538.80 }, version: 10.7.2.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.1.0 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: A5 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; A5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.81 Mobile Iron Safari/537.36'
+    readable: 'SRWare Iron 61.0.3163.81 on an Oppo A5 running Android 6.0'
+    result: { browser: { name: 'SRWare Iron', family: { name: Chrome, version: 70.0.3538.80 }, version: 61.0.3163.81, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: A5 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0.2; Le X507 Build/DHXOSOP5501405251S) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 Epic/1.0'
+    readable: 'Epic Browser 1.0 on a LeEco Le 1s X507 running Android 5.0.2'
+    result: { browser: { name: 'Epic Browser', version: 1.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 1s X507' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; pl-pl; Redmi 6A Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/Mint Browser/3.3.1'
+    readable: 'Mint Browser 3.3.1 on a Xiaomi Redmi 6A running Android 9'
+    result: { browser: { name: 'Mint Browser', version: 3.3.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: 9 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi 6A' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 10; en-us; GM1910 Build/QKQ1.190716.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OnePlusBrowser/30.5.0.9'
+    readable: 'OnePlus Browser 3.3.1 on a OnePlus 7 Pro running Android 10'
+    result: { browser: { name: 'OnePlus Browser', family: { name: Chrome, version: 53.0.2785.134 }, version: 30.5.0.9, type: browser }, engine: { name: Blink }, os: { name: Android, version: 10 }, device: { type: mobile, subtype: smart, manufacturer: OnePlus, model: '7 Pro' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; HM-G552-FL Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Start/52.0.2743.98 Chrome/52.0.2743.98 Mobile Safari/537.36'
+    readable: 'START Internet Browser 52.0.2743.98 on a HM-G552-FL running Android 6.0'
+    result: { browser: { name: 'START Internet Browser', family: { name: Chrome, version: 52.0.2743.98 }, version: 52.0.2743.98, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0 }, device: { type: mobile, subtype: smart, model: HM-G552-FL } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android 6.0; HUAWEI ALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 SurfBrowser/3.0'
+    readable: 'Surf Browser 3.0 on a Huawei ALE-L21 running Android 6.0'
+    result: { browser: { name: 'Surf Browser', family: { name: Chrome, version: 30.0.0.0 }, version: 3.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: ALE-L21 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; th; vivo 1915) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Tenta/3.1.6 Build/2162 Safari/537.36'
+    readable: 'Tenta Browser 3.1.6 on a Vivo 1915 running Android 9'
+    result: { browser: { name: 'Tenta Browser', family: { name: Chrome, version: 64.0.3282.137 }, version: 3.1.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: 9 }, device: { type: mobile, subtype: smart, model: Vivo 1915 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G928F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 wkbrowser 4.0.8 421'
+    readable: 'WK Browser 4.0.8 421 on a Samsung Galaxy S6 Edge+ running Android 7.0'
+    result: { browser: { name: 'WK Browser', family: { name: Chrome, version: 61.0.3163.98 }, version: 4.0.8 421, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.0 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S6 Edge+' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android 8.0.0; SM-G950F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 YaaniBrowser/4.2.0.186 (Turkcell-TR) Mobile Safari/537.36'
+    readable: 'Yaani Browser 4.0.8 421 on a Samsung Galaxy S8 running Android 8.0.0'
+    result: { browser: { name: 'Yaani Browser', family: { name: Chrome, version: 54.0.2840.9 }, version: 4.0.8 421, type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.0.0 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S8' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; SM-J510H Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.204 Mobile Safari/537.36 TNSBrowser/25.01'
+    readable: 'K.Browser 25.01 on a Samsung Galaxy S8 running Android 7.1.1'
+    result: { browser: { name: 'K.Browser', family: { name: Chrome, version: 64.0.3282.204 }, version: 25.01, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy J5 (2016)', identifier: 'SM-J510H' } }

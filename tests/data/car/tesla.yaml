@@ -6,3 +6,11 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) QtCarBrowser Safari/533.3'
     result: { engine: { name: Webkit, version: '533.3' }, device: { type: car, manufacturer: Tesla, model: 'Model S' } }
     readable: 'a Tesla Model S'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) QtCarBrowser Safari/533.3'
+    result: { browser: { name: 'Tesla Browser', type: browser }, engine: { name: Webkit, version: '533.3' }, device: { type: car, manufacturer: Tesla, model: 'Model S' } }
+    readable: 'Tesla Browser on a Tesla Model S'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2110.0 TeslaBrowser/1.0.0.4863 Safari/537.36'
+    result: { browser: { name: 'Tesla Browser', family: { name: Chrome, version: 38.0.2110.0 }, version: 1.0.0.4863, type: browser }, engine: { name: Webkit }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: car, manufacturer: Tesla, model: 'Model S' } }
+    readable: 'Tesla Browser on a Tesla Model S'

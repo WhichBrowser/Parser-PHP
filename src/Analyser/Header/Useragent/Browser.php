@@ -673,7 +673,7 @@ trait Browser
 
     private function detectFirefox($ua)
     {
-        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
+        if (!preg_match('/(Firefox|Lorentz|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
             return;
         }
 
@@ -738,7 +738,7 @@ trait Browser
         }
 
 
-        if (preg_match('/(GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho)/u', $ua, $match)) {
+        if (preg_match('/(Lorentz|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho)/u', $ua, $match)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox';
             $this->data->browser->channel = str_replace('GranParadiso', 'Gran Paradiso', $match[1]);
@@ -1596,6 +1596,10 @@ trait Browser
         if (preg_match('/wOSBrowser/u', $ua)) {
             $this->data->browser->name = 'webOS Browser';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+
+            if (preg_match('/wOSBrowser\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
 
             if ($this->data->os->name != 'webOS') {
                 $this->data->os->name = 'webOS';

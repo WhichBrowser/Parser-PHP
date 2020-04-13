@@ -22,3 +22,16 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+'
     result: { engine: { name: Webkit, version: '531.2' }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 3 or later' } }
     readable: 'an Amazon Kindle 3 or later'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko,Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600×800; rotate)'
+    result: { browser: { name: Kindle Browser, version: 3.0, type: browser }, engine: { name: Webkit, version: '528.5' }, device: { type: ereader, manufacturer: Amazon, model: 'Kindle 3' } }
+    readable: 'Kindle Browser 3.0 on an Amazon Kindle 3'
+-
+
+
+
+
+
+
+
+

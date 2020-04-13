@@ -202,3 +202,7 @@
     headers: 'User-Agent: Mozilla/5.0 (PS3; PPU 4.2.0) AppleWebKit/537.21+ (KHTML, like Gecko) AmazonSpark/0.1.0'
     readable: 'a Sony Playstation 3'
     result: { engine: { name: Webkit, version: '537.21' }, device: { type: gaming, subtype: console, manufacturer: Sony, model: 'Playstation 3' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (PlayStation Vita 3.20) AppleWebKit/537.73 (KHTML, like Gecko)'
+    result:  { browser: { name: 'PlayStation' }, version: 3.20, type: browser }, { engine: { name: Webkit, version: '537.73' }, os: { version: '3.20' }, device: { type: gaming, subtype: portable, manufacturer: Sony, model: 'Playstation Vita' } }
+    readable: 'PlayStation 3.20 a Sony Playstation Vita running 3.20'
