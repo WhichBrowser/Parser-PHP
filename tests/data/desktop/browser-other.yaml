@@ -288,7 +288,7 @@
     readable: 'Shiira on Mac OS X'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML like Gecko) OpenWebKitSharp'
-    result: { browser: { name: 'Open WebKit Sharp' }, using: { name: OpenWebKitSharp }, type: browser }, engine: { name: Webkit }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Open WebKit Sharp', using: { name: OpenWebKitSharp }, type: browser }, engine: { name: Webkit }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Open WebKit Sharp on Windows 7'
 -
     headers: 'User-Agent: PrivacyBrowser/1.0'
