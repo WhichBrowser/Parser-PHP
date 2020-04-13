@@ -292,7 +292,7 @@
     readable: 'Open WebKit Sharp on Windows 7'
 -
     headers: 'User-Agent: PrivacyBrowser/1.0'
-    result: { browser: { name: 'Privacy Browser' }, version: 1.0, type: browser } }
+    result: { browser: { name: 'Privacy Browser' }, version: 1.0, type: browser }
     readable: 'Privacy Browser 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.63 Safari/537.36 Qiyu/1.2.3.3'
