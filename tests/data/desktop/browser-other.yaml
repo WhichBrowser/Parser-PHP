@@ -385,7 +385,7 @@
 -
     headers: 'User-Agent: Mozilla/5 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
     readable: 'BrowseX 2.0.0 on Windows'
-    result: { browser: { name: 'BrowseX', version: 2.0.0, type: browser }, os: { name: Windows } }, device: { type: desktop } }
+    result: { browser: { name: 'BrowseX', version: 2.0.0, type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 CCleaner/75.1.103.145'
     result: { browser: { name: 'CCleaner Browser', family: { name: Chrome, version: 75.0.3770.142 }, version: 75.1.103.145, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
