@@ -146,7 +146,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Odyssey',              'id'    => 'owb',         'regexp' => '/OWB\/([0-9.]*)/u' ],
         [ 'name' => 'Orca',                 'id'    => 'orca',        'regexp' => '/Orca\/([0-9.]*)/u' ],
         [ 'name' => 'Oregano',              'id'    => 'oregano',     'regexp' => '/Oregano ([0-9.]*)/u' ],                                                                // see: http://www.xat.nl/en/riscos/sw/oregano/
-        [ 'name' => 'Open WebKit Sharp',    'id'    => 'openwebkit',  'regexp' => '/OpenWebKitSharp/u', 'type' => Constants\DeviceType::DESKTOP ],                         // see: https://global.sharp/aquos/en/androidtv/
         [ 'name' => 'Otter',                'id'    => 'otter',       'regexp' => '/Otter(?: Browser)?\/([0-9.]*)/u' ],                                                    // see: https://otter-browser.org
         [ 'name' => 'Pale Moon',            'id'    => 'palemoon',    'regexp' => '/Pale[mM]oon\/([0-9.]*)/u' ],                                                           // see: https://www.palemoon.org
         [ 'name' => 'Pirate Browser',       'id'    => 'pirate',      'regexp' => '/PB([0-9.a-z]*) Mozilla/u' ],                                                           // see: https://en.wikipedia.org/wiki/PirateBrowser

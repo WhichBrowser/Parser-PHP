@@ -287,10 +287,6 @@
     result: { browser: { name: Shiira, type: browser }, engine: { name: Webkit }, os: { name: 'OS X' }, device: { manufacturer: Apple, model: Macintosh, type: desktop } }
     readable: 'Shiira on Mac OS X'
 -
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML like Gecko) OpenWebKitSharp'
-    result: { browser: { name: 'Open WebKit Sharp', using: { name: OpenWebKitSharp }, type: browser }, engine: { name: Webkit }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'Open WebKit Sharp on Windows 7'
--
     headers: 'User-Agent: PrivacyBrowser/1.0'
     result: { browser: { name: 'Privacy Browser' }, version: 1.0, type: browser }
     readable: 'Privacy Browser 1.0'
