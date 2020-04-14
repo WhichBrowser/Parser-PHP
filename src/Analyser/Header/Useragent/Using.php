@@ -8,7 +8,7 @@ trait Using
 {
     private function &detectUsing($ua)
     {
-        if (!preg_match('/(AdobeAIR|Awesomium|Embedded|bsalsa|Canvace|Ekioh|AtomShell|Electron|JavaFX|GFXe|luakit|Titanium|OpenWebKitSharp|Prism|Qt|Reqwireless|RhoSimulator|UWebKit|nw-tests|WebKit2)/ui', $ua)) {
+        if (!preg_match('/(AdobeAIR|Awesomium|Embedded|bsalsa|Canvace|Ekioh|AtomShell|Electron|JavaFX|GFXe|luakit|Titanium|Maple|OpenWebKitSharp|Prism|Qt|Reqwireless|RhoSimulator|UWebKit|nw-tests|WebKit2)/ui', $ua)) {
             return $this;
         }
 
@@ -26,6 +26,7 @@ trait Using
             [ 'name' => 'GFXe',                             'regexp' => '/GFXe\/([0-9.]*)/u' ],
             [ 'name' => 'LuaKit',                           'regexp' => '/luakit/u' ],
             [ 'name' => 'Titanium',                         'regexp' => '/Titanium\/([0-9.]*)/u' ],
+            [ 'name' => 'Maple',                            'regexp' => '/ Maple ([0-9.]*)/u' ],
             [ 'name' => 'OpenWebKitSharp',                  'regexp' => '/OpenWebKitSharp/u' ],
             [ 'name' => 'Prism',                            'regexp' => '/Prism\/([0-9.]*)/u' ],
             [ 'name' => 'Qt',                               'regexp' => '/Qt\/([0-9.]*)/u' ],
