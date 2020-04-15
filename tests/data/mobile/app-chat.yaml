@@ -82,3 +82,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X526 Build/IIXOSOP5801910121S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36 Wire/0.564.2.20'
     readable: 'Wire 0.564.2.20 on a LeEco Le 2 X526 running Android 6.0.1'
     result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/259.0.0.37.118;FBBV/207629286;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/13.3.1;FBSS/3;FBCR/;FBID/phone;FBLC/zh-Hant_GB;FBOP/0]'
+    result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 605.1.15 }, os: { name: iOS, version: 13.3.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 7 Plus' } }
+    readable: 'Facebook Messenger on an Apple iPhone 7 Plus running iOS 13.3.1'
