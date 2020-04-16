@@ -170,7 +170,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Sielo Browser',        'id'    => 'sielo',       'regexp' => '/ Sielo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/SieloBrowser/sielo-legacy
         [ 'name' => 'SiteKiosk',            'id'    => 'sitekiosk',   'regexp' => '/SiteKiosk ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.provisio.com/web/us/products/windows-kiosk-software-sitekiosk
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' => '/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
-        [ 'name' => 'Sputnik Browser',      'id'    => 'sputnik',     'regexp' => '/SputnikBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],               // see: https://browser.sputnik.ru/
+        [ 'name' => 'Sputnik',              'id'    => 'sputnik',     'regexp' => '/SputnikBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],               // see: https://browser.sputnik.ru/
+        [ 'name' => 'Sputnik',              'id'    => 'sputnik',     'regexp' => '/Sputnik\/([0-9.]*)/iu', 'details' => 3 ],
         [ 'name' => 'SRWare Iron',          'id'    => 'irondesktop', 'regexp' => '/Chrome\/([0-9.]*) Iron/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.srware.net/iron/
         [ 'name' => 'SRWare Iron',          'id'    => 'irondesktop', 'regexp' => '/ Iron\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://www.srware.net/iron/
         [ 'name' => 'Stainless',            'id'    => 'stainless',   'regexp' => '/Stainless\/([0-9.]*)/u' ],                                                             // see: http://www.stainlessapp.com
@@ -336,7 +337,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'SlimBrowser',          'id'    => 'slim',        'regexp' => '/SlimBrowser(?:\/([0-9.]*))?/u' ],
         [ 'name' => 'SMBrowser',            'id'    => 'smbrowser',   'regexp' => '/SMBrowser/u' ],
         [ 'name' => 'Snowshoe',             'id'    => 'snowshoe',    'regexp' => '/Snowshoe\/([0-9.]*)/u', 'details' => 2 ],
-        [ 'name' => 'Sputnik',              'id'    => 'sputnik',     'regexp' => '/Sputnik\/([0-9.]*)/iu', 'details' => 3 ],
         [ 'name' => 'Surf',                 'id'    => 'surf',        'regexp' => '/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'TaoBrowser',           'id'    => 'tao',         'regexp' => '/TaoBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TaomeeBrowser',        'id'    => 'tao',         'regexp' => '/TaomeeBrowser\/([0-9.]*)/u', 'details' => 2 ],

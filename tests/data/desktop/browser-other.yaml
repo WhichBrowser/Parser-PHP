@@ -312,8 +312,8 @@
     result: { browser: { name: 'SlimJet Browser', family: { name: Chrome, version: 66.0.3359.117 }, version: 19.0.2.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 SputnikBrowser/4.1.2810.0 (GOST) Safari/537.36'
-    readable: 'Sputnik Browser 4.1.2810.0 on Windows 10'
-    result: { browser: { name: 'Sputnik Browser', family: { name: Chrome, version: 64.0.3282.140 }, version: 4.1.2810.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Sputnik 4.1.2810.0 on Windows 10'
+    result: { browser: { name: 'Sputnik', family: { name: Chrome, version: 64.0.3282.140 }, version: 4.1.2810.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) Sunrise/1.7.4 like Safari/4525.22'
     result: { browser: { name: 'Sunrise Browser', version: 1.7.4, type: browser }, engine: { name: Webkit, version: '4525.22' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4.11' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
