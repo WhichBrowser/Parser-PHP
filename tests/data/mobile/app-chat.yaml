@@ -82,3 +82,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X526 Build/IIXOSOP5801910121S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36 Wire/0.564.2.20'
     readable: 'Wire 0.564.2.20 on a LeEco Le 2 X526 running Android 6.0.1'
     result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 KAKAOTALK 5.9.2'
+    readable: 'KakaoTalk 5.9.2 on a Apple iPhone running iOS 10.1.1'
+    result: { browser: { name: KakaoTalk, version: 5.9.2, type: 'app:chat' }, engine: { name: Webkit, version: 602.2.14 }, os: { name: IOS, version: 10.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
