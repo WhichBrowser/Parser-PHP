@@ -168,5 +168,5 @@
     result: { device: { type: television, manufacturer: Samsung, series: 'Smart TV 2017' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00077'
-    result: { browser: { using: { name: Maple, version: 6.0.00077 }, family: { name: Firefox, version: 2.5.0 }, type: browser }, engine: { name: Gecko, version: 1.8.1.11 }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2011' } }
+    result: { browser: { using: { name: Maple, version: 6.0.00077 }, family: { name: Firefox, version: 2.5.0 }, type: browser }, engine: { name: Gecko, version: 1.8.1 }, device: { type: television, manufacturer: Samsung, series: 'Smart TV 2011' } }
     readable: 'Maple 6.0.00077 on a Samsung Smart TV 2011'
