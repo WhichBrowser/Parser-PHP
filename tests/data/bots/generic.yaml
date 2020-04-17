@@ -516,5 +516,5 @@
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
     headers: 'User-Agent: Facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https: //devtalk.kakao.com/t/scrap/33984'
-    readable: 'xxx'
-    result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+    readable: 'KakaoTalk Crawler 1.0'
+    result: { browser: {name: 'KakaoTalk Crawler', version: '1.0' }, device: { type: bot } }
