@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.10.1 Chrome/61.0.3163.140 Crusta/1.4.3 Safari/537.36'
-    readable: 'xxx'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Crusta 1.4.3 on Linux'
+    result: { browser: { name: Crusta, using: { name: Qt, version: 5.10.1 }, family: { name: Chrome, version: 61 }, version: 1.4.3, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
