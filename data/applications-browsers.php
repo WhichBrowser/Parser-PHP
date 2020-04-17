@@ -129,7 +129,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Lovense',              'id'    => 'lovense',     'regexp' => '/Lovense\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://www.lovense.com/cam-model/guides/pc-phone
         [ 'name' => 'Luakit',               'id'    => 'luakit',      'regexp' => '/WebKitGTK\+\/([0-9.]*) luakit/u', 'type' => Constants\DeviceType::DESKTOP ],           // see: https://luakit.github.io/
         [ 'name' => 'Lunascape',            'id'    => 'lunascape',   'regexp' => '/ Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],                                        // see: http://www.lunascape.tv
-        [ 'name' => 'Naenara',              'id'    => 'naenara',     'regexp' => '/NaenaraBrowser\/([0-9.]*)/u', 'details' => 2 ],                                        // Firefox based browser used with Red Star OS
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',   'regexp' => '/MxBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',   'regexp' => '/MxBrowser-iPhone\/([0-9.]*)/u' ],
         [ 'name' => 'Min Browser',          'id'    => 'min',         'regexp' => '/ min\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                         // see: https://minbrowser.github.io/min/
@@ -138,6 +137,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'mlbrowser',            'id'    => 'mlbrowser',   'regexp' => '/mlbrowser/u' ],                                                                        // see: https://github.com/Topguy/mlbrowser
         [ 'name' => 'MultiZilla',           'id'    => 'multizilla',  'regexp' => '/MultiZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                   // see: https://sourceforge.net/projects/multizilla/
         [ 'name' => 'Mypal Browser',        'id'    => 'mypal',       'regexp' => '/ Mypal\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/Feodor2/Mypal
+        [ 'name' => 'Naenara',              'id'    => 'naenara',     'regexp' => '/NaenaraBrowser\/([0-9.]*)/u', 'details' => 2 ],                                        // Firefox based browser used with Red Star OS
         [ 'name' => 'NetPositive',          'id'    => 'netpositive', 'regexp' => '/NetPositive\/([0-9.]*)/u' ],
         [ 'name' => 'NetCast Browser',      'id'    => 'netcast',     'regexp' => '/ SmartTV\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: http://webostv.developer.lge.com/discover/netcast/overview/
         [ 'name' => 'NTENT Browser',        'id'    => 'ntent',       'regexp' => '/NTENTBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                 // see: https://en.wikipedia.org/wiki/NTENT
