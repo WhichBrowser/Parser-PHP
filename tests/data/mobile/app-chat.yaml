@@ -82,3 +82,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X526 Build/IIXOSOP5801910121S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36 Wire/0.564.2.20'
     readable: 'Wire 0.564.2.20 on a LeEco Le 2 X526 running Android 6.0.1'
     result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2;LG-F320S) AppleWebKit/537.36 (KHTML, like Gecko) Zalo/1.0 Safari/537.36'
+    readable: 'xxx'
+    result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
