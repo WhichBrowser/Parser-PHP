@@ -85,4 +85,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 KAKAOTALK 5.9.2'
     readable: 'KakaoTalk 5.9.2 on an Apple iPhone running iOS 10.1.1'
-    result: { browser: { name: KakaoTalk, version: 5.9.2, type: 'app:chat' }, engine: { name: Webkit, version: 602.2.14 }, os: { name: IOS, version: 10.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    result: { browser: { name: KakaoTalk, version: 5.9.2, type: 'app:chat' }, engine: { name: Webkit, version: 602.2.14}, os: { name: iOS, version: 10.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple ,model: iPhone } }
