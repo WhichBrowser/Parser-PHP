@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Safari/419.3 Cheshire/1.0.ALPHA'
     result: { browser: { name: Cheshire, version: '1.0.ALPHA', type: browser }, engine: { name: Webkit, version: '418.9' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'Cheshire on Mac OS X 10.4'
+    readable: 'Cheshire 1.0 on Mac OS X 10.4'
