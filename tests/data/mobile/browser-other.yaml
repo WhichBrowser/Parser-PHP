@@ -72,5 +72,5 @@
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; A5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.81 Mobile Iron Safari/537.36'
-    readable: 'SRWare Iron 61.0.3163.81 on an Oppo A5 running Android 6.0'
-    result: { browser: { name: 'SRWare Iron', family: { name: Chrome, version: 70 }, version: 61.0.3163.81, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: A5 } }
+    readable: 'SRWare Iron 61.0.3163.81 on a ZTE Blade running Android 6.0'
+    result: { browser: { name: 'SRWare Iron', family: { name: Chrome, version: 61 }, version: 61.0.3163.81, type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: Blade } }
