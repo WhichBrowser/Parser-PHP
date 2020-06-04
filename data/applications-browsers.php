@@ -93,6 +93,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'SaaYaa Explorer',      'id'    => 'saayaa',      'regexp' =>'/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sleipnir',             'id'    => 'sleipnir',      'regexp' =>'/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'SRWare Iron',          'id'    => 'irondesktop', 'regexp' => '/Chrome\/([0-9.]*) Iron/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.srware.net/iron/
+        [ 'name' => 'SRWare Iron',          'id'    => 'irondesktop', 'regexp' => '/ Iron\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://www.srware.net/iron/
         [ 'name' => 'Stainless',            'id'    => 'stainless',      'regexp' =>'/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
         [ 'name' => 'SunChrome',            'id'    => 'sunchrome',      'regexp' =>'/SunChrome\/([0-9.]*)/u' ],
         [ 'name' => 'Superbird',            'id'    => 'superbird',      'regexp' =>'/Super[Bb]ird\/([0-9.]*)/u', 'details' => 2 ],
@@ -165,6 +167,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'SEMC Browser',         'id'    => 'semc',      'regexp' =>'/SEMC-Browser\/([0-9.]*)/u' ],
         [ 'name' => 'STNC HitchHiker' ,     'id'    => 'stnc',      'regexp' =>'/STNC-WTL\/[0-9.]*/u' ],
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'SRWare Iron',          'id'    => 'ironmobile',    'regexp' => '/Chrome\/([0-9.]*) Mobile Iron/u', 'type' => Constants\DeviceType::MOBILE ],           // see: https://www.srware.net/iron/
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
