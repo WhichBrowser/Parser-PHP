@@ -70,3 +70,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; OPPO R7 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/4.6.5.3'
     readable: 'Oppo Browser 4.6.5.3 on an Oppo R7 running Android 4.4.4'
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 CoRom/30.0.1599.101'
+    readable: 'CoRom Browser 30.0.1599.101 on an Oppo F5 running Android 7.1.1'
+    result: { browser: { name: 'CoRom Browser', family: { name: Chrome, version: 30 }, version: 30.0.1599.101, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: F5 } }
