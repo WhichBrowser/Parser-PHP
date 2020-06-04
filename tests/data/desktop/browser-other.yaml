@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/46.0 Chrome/40.0.2214.96 Safari/537.36'
     readable: 'Coc Coc 46.0 on Windows 10'
-    result: { browser: { name: Coc Coc, version: 46.0, type: browser }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: 'Coc Coc', family: { name: Chrome, version: 40 }, version: '46.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
