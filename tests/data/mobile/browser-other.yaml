@@ -70,3 +70,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; OPPO R7 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/4.6.5.3'
     readable: 'Oppo Browser 4.6.5.3 on an Oppo R7 running Android 4.4.4'
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI-M570/001.00 WAP/OBIGO/Q05A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36 AlohaBrowser/1.2.1.3'
+    readable: 'Aloha Browser 1.2.1.3 on an Huawei M570 running Android 7.0'
+    result: { browser: { name: 'Aloha Browser', family: { name: Chrome, version: 63.0.3239.111 }, version: 1.2.1.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.0 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }

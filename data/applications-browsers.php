@@ -111,6 +111,7 @@ Applications::$BROWSERS = [
         [ 'name' => '2345 Browser',         'id'    => '2345',      'regexp' =>'/Mb2345Browser\/([0-9.]*)/u' ],
         [ 'name' => '3G Explorer',          'id'    => '3g explorer',      'regexp' =>'/3G Explorer\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => '4G Explorer',          'id'    => '4g explorer',      'regexp' =>'/4G Explorer\/([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => 'Aloha Browser',        'id'    => 'aloha',         'regexp' => '/AlohaBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                 // see: https://alohabrowser.com/
         [ 'name' => 'Atomic',               'id'    => 'atomiclite',      'regexp' =>'/AtomicLite\/([0-9.]*)/u' ],                                                           // see: http://atomicwebbrowser.com
         [ 'name' => 'AU',                   'id'    => 'au',      'regexp' =>'/(?:^| )AU(?:.Browser)?\/([0-9.]+)/u' ],
         [ 'name' => 'Awakening',            'id'    => 'awakening',      'regexp' =>'/Awakening Browser\/([0-9.]*)/u', 'details' => 2 ],
