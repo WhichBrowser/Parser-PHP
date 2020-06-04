@@ -60,6 +60,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Headless Chrome',      'id'    => 'headless',    'regexp' => '/HeadlessChrome\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],               // see: https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCab(?: J)?[\/ ](?:Pre)?([0-9.]*)/u' ],
         [ 'name' => 'Iceape',               'id'    => 'iceape',      'regexp' =>'/Iceape\/([0-9.]*)/u' ],
