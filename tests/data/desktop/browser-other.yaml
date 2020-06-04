@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X PPC Mac OS X 10.4; en-US; rv:1.0.1) Gecko/20030111 Chimera/0.6'
-    result: { browser: { name: Chimera, version: 0.6, type: browser }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'Chimera 0.6 on Mac OS X 10.5'
+    result: { browser: { name: Chimera, version: '0.6', type: browser }, engine: { name: Gecko, version: 1.0.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Chimera 0.6 on Mac OS X 10.4'
