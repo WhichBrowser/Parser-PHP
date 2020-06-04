@@ -130,6 +130,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Dorothy',              'id'    => 'doroty',      'regexp' =>'/Dorothy$/u' ],
         [ 'name' => 'EMOBILE Browser',      'id'    => 'www browser',      'regexp' =>'/WWW Browser\/ver([0-9.]*)/u' ],
         [ 'name' => 'EUI Browser',          'id'    => 'eui',      'regexp' =>'/EUI Browser\/[^0-9\s]*([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Fluid Browser',        'id'    => 'fluid',         'regexp' => '/ Fluid\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://apps.apple.com/us/app/fluid-browser/id1077036385?mt=12
+        [ 'name' => 'Fluid Browser',        'id'    => 'fluid',         'regexp' => '/FluidApp Version\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],             // see: https://fluidbrowser.com/
         [ 'name' => 'Go.Web',               'id'    => 'go\.web',      'regexp' =>'/Go\.Web\/([0-9.]*)/u' ],                                                              // used on early Blackberry, by GoAmerica
         [ 'name' => 'Helium',               'id'    => 'helium',      'regexp' =>'/HeliumMobileBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Huohou Browser',       'id'    => 'huohoubrowser',      'regexp' =>'/HuohouBrowser\/([0-9.]*)/u' ],
