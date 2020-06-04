@@ -617,4 +617,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) Navigateur web/1.0 Version/7.0 Safari/538.1'
     readable: 'Freebox Browser 1.0 on a television'
-    result: { browser: { name: Freebox Browser, version: '1.0', type: browser }, device: { type: television } }
+    result: { browser: { name: Freebox Browser, version: '1.0', type: browser }, engine: { name: Webkit, version: '538.1' }, device: { type: television } }
