@@ -44,6 +44,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Camino',               'id'    => 'camino',      'regexp' =>'/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
         [ 'name' => 'Charon',               'id'    => 'charon',      'regexp' =>'/Charon/' ],                                                                           // see: http://www.vitanuova.com/inferno/man/1/charon.html
+        [ 'name' => 'Chedot',               'id'    => 'chedot',      'regexp' => '/ Chedot\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://landing.chedot.com/
         [ 'name' => 'ChromePlus',           'id'    => 'chromeplus',      'regexp' =>'/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'CometBird',            'id'    => 'cometbird',      'regexp' =>'/CometBird\/([0-9.]*)/u' ],                                                            // see: http://www.cometbird.com
         [ 'name' => 'Comodo Dragon',        'id'    => 'comodo',      'regexp' =>'/Comodo_Dragon\/([0-9.]*)/u', 'details' => 2 ],
