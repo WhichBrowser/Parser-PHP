@@ -72,9 +72,9 @@
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI-M570/001.00 WAP/OBIGO/Q05A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Safari/537.36 Fluid/0.9.6'
-    readable: 'Fluid Browser 0.9.6 on an Huawei M570 running Android 7.0'
-    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 63 }, version: 0.9.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.0 }, device: { type: mobile, subtype: feature, manufacturer: Huawei, model: M570 } }
+    readable: 'Fluid Browser 0.9.6 on a Huawei M570 running Android 7.0'
+    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 63 }, version: 0.9.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: M570 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 FluidApp Version/1920 Safari/537.36'
     readable: 'Fluid Browser 1920 on an Oppo F5 running Android 7.1.1'
-    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 30 }, version: 19201, type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: F5 } }
+    result: { browser: { name: 'Fluid Browser', family: { name: Chrome, version: 53 }, version: '1920', type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: F5 } }
