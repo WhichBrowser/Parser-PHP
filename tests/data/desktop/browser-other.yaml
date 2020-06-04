@@ -162,3 +162,4 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 1stBrowser/45.0.2454.171 Safari/537.36'
     result: { browser: { name: '1st Browser', family: { name: Chrome, version: 49 }, version: 45.0.2454.171, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: '1st Browser 45.0.2454.171 on Windows 7'
+x
