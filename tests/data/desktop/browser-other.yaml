@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; pt) Chrome/37.0.2049.0 (KHTML, like Gecko) Version/4.0 APUSBrowser/1.1.111 Safari/'
-    result: { browser: { name: 'APUS Browser', family: { name: Chrome, version: 37.0.2049.0 }, version: 1.1.111, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'APUS Browser', family: { name: Chrome, version: 37 }, version: 1.1.111, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'APUS Browser 1.1.111 on Windows XP'
