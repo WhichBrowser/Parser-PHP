@@ -162,4 +162,3 @@
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1; Crazy Browser 2.0.1)'
     result: { browser: { name: 'Crazy Browser', version: 2.0.1, type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Crazy Browser 2.0.1 on Windows XP'
-x
