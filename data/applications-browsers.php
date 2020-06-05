@@ -129,6 +129,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Doris',                'id'    => 'doris',      'regexp' =>'/Doris\/([0-9.]*)/u' ],
         [ 'name' => 'Dorothy',              'id'    => 'doroty',      'regexp' =>'/Dorothy$/u' ],
         [ 'name' => 'EMOBILE Browser',      'id'    => 'www browser',      'regexp' =>'/WWW Browser\/ver([0-9.]*)/u' ],
+        [ 'name' => 'Epic Browser',         'id'    => 'epic',          'regexp' => '/ Epic\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                        // see: https://en.wikipedia.org/wiki/Epic_(web_browser)
         [ 'name' => 'EUI Browser',          'id'    => 'eui',      'regexp' =>'/EUI Browser\/[^0-9\s]*([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Go.Web',               'id'    => 'go\.web',      'regexp' =>'/Go\.Web\/([0-9.]*)/u' ],                                                              // used on early Blackberry, by GoAmerica
         [ 'name' => 'Helium',               'id'    => 'helium',      'regexp' =>'/HeliumMobileBrowser\/([0-9.]*)/u' ],
