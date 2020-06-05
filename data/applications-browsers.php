@@ -70,6 +70,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Kazehakase',           'id'    => 'kazehakase',      'regexp' =>'/Kazehakase\/([0-9.]*)/u' ],                                                           // see: http://kazehakase.osdn.jp
         [ 'name' => 'KChrome',              'id'    => 'kchrome',      'regexp' =>'/KChrome\/([0-9.]*)/u', 'details' => 3 ],                                              // see: http://www.kchrome.com
         [ 'name' => 'K-Meleon',             'id'    => 'meleon',      'regexp' =>'/K-Meleon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: http://kmeleonbrowser.org
+        [ 'name' => 'Klondike',             'id'    => 'klondike',    'regexp' => '/Klondike\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'LieBao',               'id'    => 'lbbrowser',      'regexp' =>'/LBBROWSER/u' ],                                                                       // see: http://www.liebao.cn
         [ 'name' => 'Lobo',                 'id'    => 'lobo',      'regexp' =>'/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://sourceforge.net/projects/xamj/files/Lobo%20Browser/
         [ 'name' => 'Lunascape',            'id'    => 'lunascape',      'regexp' =>'/ Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],                                        // see: http://www.lunascape.tv
