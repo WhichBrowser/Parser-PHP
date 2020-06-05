@@ -4,8 +4,8 @@
     readable: 'Midori 0.5 on FreeBSD 11'
 -
     headers: 'User-Agent: Mozilla/5.0 (OpenBSD i386) AppleWebKit/538.1+ (KHTML, like Gecko) WebKitGTK+/2.2.3 luakit/0d5f4'
-    result: { browser: { using: LuaKit }, engine: { name: Webkit, version: '538.1' }, os: { name: OpenBSD, family: BSD } }
-    readable: 'LuaKit on OpenBSD'
+    result: { browser: { name: Luakit, using: LuaKit, version: 2.2.3, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: OpenBSD, family: BSD }, device: { type: desktop }}
+    readable: 'Luakit 2.2.3 on OpenBSD'    
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11'
     result: { browser: { name: Chrome, version: '17', type: browser }, engine: { name: Webkit, version: '535.11' }, os: { name: FreeBSD, family: BSD }, device: { type: desktop } }
