@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0 Light/44.0'
-    readable: 'x'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Light Browser 44.0 on Windows 10'
+    result: { browser: { name: 'Light Browser', family: { name: Firefox, version: '44.0' }, version: '44.0', type: browser }, engine: { name: Gecko, version: '44.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
