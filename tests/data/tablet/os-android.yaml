@@ -9,4 +9,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 8.1; T8_T106 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/69.0.3440.40 Safari/537.36'
     readable: 'Kiwi Browser 69.0.3440.40 on a T8_T106 running Android 4.4.2'
-    result: { browser: { name: 'Kiwi Browser', family: { name: Chrome, version: 69.0.3440.40 }, version: 69.0.3440.40, type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.1 }, device: { type: tablet, model: T8_T106 } }
+    result: { browser: { name: 'Kiwi Browser', family: { name: Chrome, version: 69 }, version: 69.0.3440.40, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, model: T8_T106 } }
