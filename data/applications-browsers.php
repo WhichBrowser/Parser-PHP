@@ -139,6 +139,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'iSurf',                'id'    => 'isurf',      'regexp' =>'/iSurf version \/v([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Jig Browser',          'id'    => 'jig browser',      'regexp' =>'/jig browser(?: web| core|9i?)?;? ?([0-9.]+)?/u', 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Jumanji',              'id'    => 'jumanji',      'regexp' =>'/jumanji/u' ],                                                                         // see: jumanji browser ubuntu
+        [ 'name' => 'Juzi Browser',         'id'    => 'juzi',        'regexp' => '/JuziBrowser/iu', 'type' => Constants\DeviceType::DESKTOP ],                            // see: http://www.123juzi.com/
         [ 'name' => 'Kiosk',                'id'    => 'kiosk',      'regexp' =>'/Kiosk\/([0-9.]*)/u' ],                                                                // see: http://www.kioskbrowser.net
         [ 'name' => 'LeBrowser',            'id'    => 'lebrowser',      'regexp' =>'/LeBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'LieBaoFast',           'id'    => 'liebao',      'regexp' =>'/LieBaoFast\/([0-9.]*)/u' ],                                                           // see: http://www.liebao.cn
