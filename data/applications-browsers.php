@@ -171,6 +171,12 @@ Applications::$BROWSERS = [
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
         [ 'name' => 'WebLite',              'id'    => 'weblite',      'regexp' =>'/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
 
+        /* Car browers */
+        [ 'name' => 'Tesla Browser',        'id'    => 'tesla',      'regexp' => '/QtCarBrowser/u', 'type' => Constants\DeviceType::CAR ],                                      // see: https://teslamotorsclub.com/tmc/forums/model-s-user-interface.113/
+        [ 'name' => 'Tesla Browser',        'id'    => 'tesla',      'regexp' => '/TeslaBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::CAR ],                           // see: https://www.tesla.com/
+        [ 'name' => 'Tesla Browser',        'id'    => 'tesla',      'regexp' => '/ Tesla\/([0-9.]*)/u', 'type' => Constants\DeviceType::CAR ],                                 // see: https://www.tesla.com/
+        [ 'name' => 'Tesla Browser',        'id'    => 'tesla',      'regexp' => '/ Tesla/u', 'type' => Constants\DeviceType::CAR ],                                            // see: https://www.tesla.com/
+
         /* Television browsers */
         [ 'name' => 'AltiBrowser',          'id'    => 'alti',      'regexp' =>'/AltiBrowser\/([0-9.]*)/i' ],
         [ 'name' => 'Aplix',                'id'    => 'aplix',      'regexp' =>'/Aplix_SANYO_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
