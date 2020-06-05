@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a'
-    readable: 'x'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'MultiZilla 1.6.1.0 on Windows XP'
+    result: { browser: { name: MultiZilla, version: 1.6.1.0, type: browser }, engine: { name: Gecko }, os: { name: Windows, version: { value: '5.1', alias: XP }, device: { type: desktop } }
