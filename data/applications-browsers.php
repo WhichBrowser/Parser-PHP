@@ -140,6 +140,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Jig Browser',          'id'    => 'jig browser',      'regexp' =>'/jig browser(?: web| core|9i?)?;? ?([0-9.]+)?/u', 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Jumanji',              'id'    => 'jumanji',      'regexp' =>'/jumanji/u' ],                                                                         // see: jumanji browser ubuntu
         [ 'name' => 'Kiosk',                'id'    => 'kiosk',      'regexp' =>'/Kiosk\/([0-9.]*)/u' ],                                                                // see: http://www.kioskbrowser.net
+        [ 'name' => 'Kiwi Browser',         'id'    => 'kiwi',          'regexp' => '/Kiwi Chrome\/([0-9.A-Z]*)/u' ],                                                       // see: https://kiwibrowser.com
         [ 'name' => 'LeBrowser',            'id'    => 'lebrowser',      'regexp' =>'/LeBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'LieBaoFast',           'id'    => 'liebao',      'regexp' =>'/LieBaoFast\/([0-9.]*)/u' ],                                                           // see: http://www.liebao.cn
         [ 'name' => 'MaCross Mobile',       'id'    => 'macross',      'regexp' =>'/MaCross\/([0-9.]*)/u' ],
