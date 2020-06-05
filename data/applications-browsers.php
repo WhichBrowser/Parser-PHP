@@ -136,6 +136,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCabMobile\/([0-9.]*)/u' ],
         [ 'name' => 'iLunascape',           'id'    => 'lunascape',      'regexp' =>'/iLunascape\/([0-9.]*)/u', 'details' => 3 ],                                           // see: http://www.lunascape.tv
         [ 'name' => 'InternetSurfboard',    'id'    => 'surfboard',      'regexp' =>'/InternetSurfboard\/([0-9.]*)/u' ],
+        [ 'name' => 'Iron',                 'id'    => 'iron',        'regexp' => '/Iron\/([0-9.]*)/u', 'details' => 2 ],                                                  // see: http://www.srware.net/en/software_srware_iron.php
         [ 'name' => 'iSurf',                'id'    => 'isurf',      'regexp' =>'/iSurf version \/v([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Jig Browser',          'id'    => 'jig browser',      'regexp' =>'/jig browser(?: web| core|9i?)?;? ?([0-9.]+)?/u', 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Jumanji',              'id'    => 'jumanji',      'regexp' =>'/jumanji/u' ],                                                                         // see: jumanji browser ubuntu
