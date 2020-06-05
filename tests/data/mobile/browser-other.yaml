@@ -73,4 +73,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; pl-pl; Redmi 6A Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/Mint Browser/3.3.1'
     readable: 'Mint Browser 3.3.1 on a Xiaomi Redmi 6A running Android 9'
-    result: { browser: { name: 'Mint Browser', version: 3.3.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: 9 }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi 6A' } }
+    result: { browser: { name: 'Mint Browser', family: { name: Chrome, version: 61 }, version: 3.3.1, type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, manufacturer: Xiaomi, model: 'Redmi 6A' } }
