@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 Nichrome/self/40'
-    result: { browser: { name: 'Tungsten Browser', family: { name: Chrome, version: 44 }, version: '2.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'Tungsten Browser', family: { name: Chrome, version: 40 }, version: '40', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Nichrome 40 on Windows 10'
