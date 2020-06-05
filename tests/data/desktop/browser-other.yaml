@@ -162,4 +162,3 @@
     headers: 'User-Agent: Klondike/1.50 (WSP Win32) (Google WAP Proxy/1.0)'
     readable: 'Klondike 1.50 on Windows'
     result: { browser: { name:Klondike, version: '1.50', type: browser }, os: { name: Windows }, device: { type: desktop } }
-x
