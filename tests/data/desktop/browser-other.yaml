@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Klondike/1.50 (WSP Win32) (Google WAP Proxy/1.0)'
-    readable: 'x'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Klondike 1.50 on Windows'
+    result: { browser: { name:Klondike, version: '1.50', type: browser }, os: { name: Windows }, device: { type: desktop } }
