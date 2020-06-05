@@ -8,7 +8,7 @@
     readable: 'Tesla Browser on a Tesla Model S'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2110.0 TeslaBrowser/1.0.0.4863 Safari/537.36'
-    result: { browser: { name: 'Tesla Browser', family: { name: Chrome, version: 38 }, version: 1.0.0.4863, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' }, device: { type: car } }
+    result: { browser: { name: 'Tesla Browser', family: { name: Chrome, version: 38 }, version: 1.0.0.4863, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: car } }
     readable: 'Tesla Browser 1.0.0.4863 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; GNU/Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/75.0.3770.100 Chrome/75.0.3770.100 Safari/537.36 Tesla/2019.32.11-bac8c51'
