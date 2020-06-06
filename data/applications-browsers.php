@@ -151,6 +151,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Motorola WebKit',      'id'    => 'motorola',      'regexp' =>'/MotorolaWebKit(?:\/([0-9.]*))?/u', 'details' => 3 ],
         [ 'name' => 'NetFront Life Browser', 'id'    => 'netfrontlife',      'regexp' =>'/NetFrontLifeBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'OneBrowser',           'id'    => 'onebrowser',      'regexp' =>'/OneBrowser\/([0-9.]*)/u' ],
+        [ 'name' => 'OnePlus Browser',      'id'    => 'oneplus',       'regexp' => '/OnePlusBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],               // see: https://www.oneplus.com/
         [ 'name' => 'PocketLink',           'id'    => 'plink',      'regexp' =>'/PLink ([0-9.]+)/iu', 'details' => 2 ],
         [ 'name' => 'Polaris',              'id'    => 'polaris',      'regexp' =>'/Polaris[\/ ]v?([0-9.]*)/iu', 'details' => 2 ],
         [ 'name' => 'Polaris',              'id'    => 'polaris',      'regexp' =>'/POLARIS([0-9.]+)/u', 'details' => 2 ],
