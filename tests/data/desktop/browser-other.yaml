@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) PrivacyBrowser/1.0'
     readable: 'Privacy Browser 1.0 on Windows 10'
-    result: { browser: { name: 'Privacy Browser', version: '1.0', type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' }, device: { type: desktop } }
+    result: { browser: { name: 'Privacy Browser', version: '1.0', type: browser }, engine: { name: Webkit, version: '537.36' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
