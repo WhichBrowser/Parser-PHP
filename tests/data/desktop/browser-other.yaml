@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 SlimerJS/0.9.5'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'SlimerJS 0.9.5 on Ubuntu'
+    result: { browser: { name: SlimerJS, version: 0.9.5, type: browser }, engine: { name: Gecko, version: '36.0' }, os: { name: Ubuntu }, device: { type: desktop } }
