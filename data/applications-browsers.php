@@ -167,6 +167,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
+        [ 'name' => 'Tenta Browser',        'id'    => 'tenta',         'regexp' => '/ Tenta\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://play.google.com/store/apps/details?id=com.tenta.android&hl=en
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
         [ 'name' => 'WebLite',              'id'    => 'weblite',      'regexp' =>'/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
