@@ -162,4 +162,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) QuickLook/5.0'
     readable: 'Quick Look 5.0 on OS X El Capitan 10.11'
     result: { browser: { name: 'Quick Look', version: '5.0', type: browser }, engine: { name: Webkit, version: 601.6.17 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-x
