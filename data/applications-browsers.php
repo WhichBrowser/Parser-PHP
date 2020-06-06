@@ -165,6 +165,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'SEMC Browser',         'id'    => 'semc',      'regexp' =>'/SEMC-Browser\/([0-9.]*)/u' ],
         [ 'name' => 'STNC HitchHiker' ,     'id'    => 'stnc',      'regexp' =>'/STNC-WTL\/[0-9.]*/u' ],
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Sunrise Browser',      'id'    => 'sunrise',     'regexp' => '/ Sunrise\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: http://www.sunrisebrowser.com/
+        [ 'name' => 'Sunrise Browser',      'id'    => 'sunrise',     'regexp' => '/SunriseBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],               // see: http://www.sunrisebrowser.com/
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
