@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/522.11.1 (KHTML, like Gecko) Shiira Safari/125'
-    readable: 'x'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Shiira on OS X'
+    result: { browser: { name: Shiira, type: browser }, engine: { name: Webkit, version: 522.11.1 }, os: { name: 'OS X'}, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
