@@ -168,6 +168,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
+        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.ur-browser.com/
+        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                          // see: https://www.ur-browser.com/
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
         [ 'name' => 'WebLite',              'id'    => 'weblite',      'regexp' =>'/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
 
