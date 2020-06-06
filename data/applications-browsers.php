@@ -45,6 +45,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
         [ 'name' => 'Charon',               'id'    => 'charon',      'regexp' =>'/Charon/' ],                                                                           // see: http://www.vitanuova.com/inferno/man/1/charon.html
         [ 'name' => 'ChromePlus',           'id'    => 'chromeplus',      'regexp' =>'/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Classilla Browser',    'id'    => 'classilla',   'regexp' => '/Classilla\/([0-9.A-Z]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ], // see: http://www.floodgap.com/software/classilla/
         [ 'name' => 'CometBird',            'id'    => 'cometbird',      'regexp' =>'/CometBird\/([0-9.]*)/u' ],                                                            // see: http://www.cometbird.com
         [ 'name' => 'Comodo Dragon',        'id'    => 'comodo',      'regexp' =>'/Comodo_Dragon\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Comodo Dragon',        'id'    => 'dragon',      'regexp' =>'/Dragon\/([0-9.]*)/u', 'details' => 2 ],
