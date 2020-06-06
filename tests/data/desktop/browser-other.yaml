@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) Sunrise/1.7.4 like Safari/4525.22'
-    result: { browser: { name: 'Sunrise Browser', version: 1.7.4, type: browser }, engine: { name: Webkit, version: '4525.22' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4.11' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'Sunrise Browser 1.7.4 on Mac OS X 10.4.11'
+    result: { browser: { name: 'Sunrise Browser', version: 1.7.4, type: browser }, engine: { name: Webkit, version: '525.18' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Sunrise Browser 1.7.4 on Mac OS X 10.4'
