@@ -162,3 +162,4 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.63 Safari/537.36 Qiyu/1.6.0.0'
     result: { browser: { name: 'Qiyu Browser', family: { name: Chrome, version: 51 }, version: 1.6.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
     readable: 'Qiyu Browser 1.6.0.0 on Windows 10'
+z
