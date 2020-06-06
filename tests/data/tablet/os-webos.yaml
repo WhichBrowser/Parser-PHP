@@ -2,9 +2,9 @@
     headers: 'User-Agent: Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; xx) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.68 Safari/534.6 TouchPad/1.0'
     result: { browser: { name: 'webOS Browser', version: '234.68', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '3.0' }, device: { type: tablet, manufacturer: HP, model: TouchPad } }
     readable: 'webOS Browser 234.68 on a HP TouchPad running webOS 3.0'
--	
+-
     headers: 'User-Agent: Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; xx) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0'	
-    result: { browser: { name: 'webOS Browser', version: '234.68', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '3.0' }, device: { type: tablet, manufacturer: HP, model: TouchPad } }	
+    result: { browser: { name: 'webOS Browser', version: '234.68', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: webOS, version: '3.0' }, device: { type: tablet, manufacturer: HP, model: TouchPad } }
     readable: 'webOS Browser 234.68 on a HP TouchPad running webOS 3.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; U; xx) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 011/07'
