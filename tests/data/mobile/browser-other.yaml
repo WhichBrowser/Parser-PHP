@@ -72,5 +72,5 @@
     result: { browser: { name: 'Oppo Browser', family: { name: Chrome, version: 53 }, version: 4.6.5.3, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.4.4 }, device: { type: mobile, subtype: smart, manufacturer: Oppo, model: R7 } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Android 6.0; HUAWEI ALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 SurfBrowser/3.0'
-    readable: 'Surf 3.0 on a Huawei ALE-L21 running Android 6.0'
-    result: { browser: { name: 'Surf', family: { name: Chrome, version: 30 }, version: 3.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0 }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: ALE-L21 } }
+    readable: 'Surf 3.0 on a Huawei P8 Lite running Android 6.0'
+    result: { browser: { name: 'Surf', using: { name: 'Chromium WebView', version: '30' }, version: 3.0, type: browser }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'P8 Lite' } }
