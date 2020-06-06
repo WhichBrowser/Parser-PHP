@@ -1601,6 +1601,10 @@ trait Browser
                 $this->data->os->name = 'webOS';
             }
 
+            if (preg_match('/wOSBrowser\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            }
+
             if (isset($this->data->device->manufacturer) && $this->data->device->manufacturer == 'Apple') {
                 unset($this->data->device->manufacturer);
                 unset($this->data->device->model);
