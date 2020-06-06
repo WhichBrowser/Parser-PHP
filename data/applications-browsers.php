@@ -166,6 +166,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'STNC HitchHiker' ,     'id'    => 'stnc',      'regexp' =>'/STNC-WTL\/[0-9.]*/u' ],
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/SurfBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                  // see: https://en.wikipedia.org/wiki/Surf_(web_browser)
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
@@ -231,7 +233,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Wyzo',                 'id'    => 'wyzo',      'regexp' =>'/Wyzo\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Yelang',               'id'    => 'yelang',      'regexp' =>'/Yelang\/([0-9.]*)/u', 'details' => 3 ],                           // see: wellgo.org
         [ 'name' => 'YRC Weblink',          'id'    => 'yrcweb',      'regexp' =>'/YRCWeblink\/([0-9.]*)/u' ],
-        [ 'name' => '冲浪浏览器',             'id'    => 'surf',      'regexp' =>'/CMSurfClient-Android/u' ],
+        [ 'name' => '冲浪浏览器',             'id'    => 'surfchina',   'regexp' => '/CMSurfClient-Android/u' ],
     ],
 
     Constants\BrowserType::BROWSER_TEXT => [
