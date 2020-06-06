@@ -87,6 +87,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Pale Moon',            'id'    => 'palemoon',      'regexp' =>'/Pale[mM]oon\/([0-9.]*)/u' ],                                                          // see: https://www.palemoon.org
         [ 'name' => 'Qihoo 360',            'id'    => 'qihu',      'regexp' =>'/QIHU THEWORLD/u' ],
         [ 'name' => 'QtWeb',                'id'    => 'qtweb',      'regexp' =>'/QtWeb Internet Browser\/([0-9.]*)/u' ],
+        [ 'name' => 'Quick Look',           'id'    => 'quicklook',   'regexp' => '/QuickLook\/([0-9.]*)/u' ],                                                             // see: https://en.wikipedia.org/wiki/Quick_Look
         [ 'name' => 'QupZilla',             'id'    => 'qupzilla',      'regexp' =>'/QupZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'rekonq',               'id'    => 'rekonq',      'regexp' =>'/rekonq(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Ryouko',               'id'    => 'ryouko',      'regexp' =>'/Ryouko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://github.com/foxhead128/ryouko
