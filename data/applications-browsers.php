@@ -104,6 +104,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Web Explorer Browser', 'id'    => 'webexplorer', 'regexp' => '/WebExplorer\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://webexplorerbrasil.com/
+        [ 'name' => 'Web Explorer Browser', 'id'    => 'webexplorer', 'regexp' => '/Web Explorer\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Yandex Browser',       'id'    => 'yabrowser',      'regexp' =>'/YaBrowser\/([0-9.]*)/u', 'details' => 2 ],
 
         /* Mobile browsers */
