@@ -84,5 +84,5 @@
     result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0.10586.713; osmeta 8.3.47029472) AppleWebKit/602.1.1 (KHTML, like Gecko) Version/9.0 Safari/602.1.1 osmeta/8.3.47029472 Build/47029472 [FBAN/FBW;FBAV/75.0.0.50.22;FBBV/47052341;FBRV/0;FBDV/WindowsDevice;FBMD/Aspire one 1-431;FBSN/Windows;FBSV/10.0.10586.753;FBSS/1;FBCR/;FBID/desktop;FBLC/en_GB;FBOP/45]'
-    result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
-    readable: 'Facebook Messenger on an Apple iPhone 6 Plus running iOS 8.1.2'
+    result: { browser: { name: Facebook, version: 10.0.10586.753, type: 'app:social' }, engine: { name: Webkit, version: 602.1.1 }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Facebook 10.0.10586.753 on Windows 10'
