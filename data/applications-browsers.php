@@ -104,6 +104,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'WinWAP Browser',       'id'    => 'winwap',      'regexp' => '/WinWAP\/([0-9]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://www.winwap.com/mobile_applications/winwap_browser.php
+        [ 'name' => 'WinWAP Browser',       'id'    => 'winwap',      'regexp' => '/WinWAP-SPBE\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Yandex Browser',       'id'    => 'yabrowser',      'regexp' =>'/YaBrowser\/([0-9.]*)/u', 'details' => 2 ],
 
         /* Mobile browsers */
