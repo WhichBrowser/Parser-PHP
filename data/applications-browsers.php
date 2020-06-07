@@ -27,6 +27,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'AOL Browser',          'id'    => 'america',      'regexp' =>'/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
         [ 'name' => 'Arachne',              'id'    => 'arachne',      'regexp' =>'/xChaos_Arachne\/[0-9]\.([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],       // see: www.glennmcc.org
         [ 'name' => 'Arora',                'id'    => 'arora',      'regexp' =>'/[Aa]rora\/([0-9.]*)/u' ],                                                             // see: www.arora-browser.org
+        [ 'name' => 'Arctic Fox',           'id'    => 'arcfox',      'regexp' => '/ArcticFox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: https://github.com/wicknix/Arctic-Fox
         [ 'name' => 'AWeb',                 'id'    => 'aweb',      'regexp' =>'/Amiga-AWeb(?:\/([0-9.]*))?/u' ],
         [ 'name' => 'AvantGo',              'id'    => 'avant',      'regexp' =>'/AvantGo ([0-9.]+)/u' ],
         [ 'name' => 'Avant Browser',        'id'    => 'avant',      'regexp' =>'/Avant Browser/u' ],
