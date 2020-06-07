@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Degdegan/72.4.206 Chrome/66.4.3359.206 Safari/537.36'
-    result: { browser: { name: 'Deg-degan', using: { name: Electron, version: 2.0.2 }, family: { name: Chrome, version: 66.4.3359.206 }, version: 72.4.206, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'Deg-degani 72.4.206 on Windows 7'
+    result: { browser: { name: 'Deg-degan', family: { name: Chrome, version: 66 }, version: 72.4.206, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Deg-degan 72.4.206 on Windows 7'
