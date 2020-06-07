@@ -71,6 +71,7 @@ Applications::$OTHERS = [
     Constants\BrowserType::APP_CHAT => [
         [ 'name' => 'Facebook Messenger',   'id'    => 'messenger',      'regexp' =>'/FBAN\/MessengerForiOS/u' ],
         [ 'name' => 'Facebook Messenger',   'id'    => 'messenger',      'regexp' =>'/FB_IAB\/MESSENGER/u' ],
+        [ 'name' => 'Rocket Chat',          'id'    => 'rocketchat',       'regexp' => '/Rocket\.Chat\+\/([0-9.]*)/u' ],
         [ 'name' => 'Kik',                  'id'    => 'kik',      'regexp' =>'/Kik\/([0-9.]*?)(\.0)?\.[0-9]{3,4}/u' ],
         [ 'name' => 'WeChat',               'id'    => 'messenger',      'regexp' =>'/MicroMessenger\/([0-9.]*)/u' ],
         [ 'name' => 'Wire',                 'id'    => 'wire',      'regexp' =>'/Wire\/([0-9.]*)/u' ],
