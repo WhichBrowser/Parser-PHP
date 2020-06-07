@@ -159,6 +159,6 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20111108 Firefox/8.0 Alienforce/8.0'
-    result: { browser: { name: 'Alienforce', version: 8.0, type: browser }, engine: { name: Gecko, version: '8.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'Alienforce 8.0 on Windows 7'
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20111108 Firefox/8.0 Alienforce/8.0.1'
+    result: { browser: { name: 'Alienforce', family: { name: Firefox, version: '8.0' }, version: 8.0.1, type: browser }, engine: { name: Gecko, version: '8.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Alienforce 8.0.1 on Windows 7'
