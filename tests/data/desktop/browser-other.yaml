@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: BriskBard/1.0 (Windows 10) BriskBard/1.0'
-    readable: 'Brisk Bard 1.0 on Windows 10'
-    result: { browser: { name: 'Brisk Bard', version: 1.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Brisk Bard 1.0 on Windows'
+    result: { browser: { name: 'Brisk Bard', version: '1.0', type: browser }, engine: { name: Blink }, os: { name: Windows }, device: { type: desktop } }
