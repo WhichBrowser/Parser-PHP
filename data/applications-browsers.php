@@ -60,7 +60,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
-        [ 'name' => 'IBM WebExplorer',      'id'    => 'webexplorer', 'regexp' => '/WebExplorer\/(?:v[0-9.]*|[0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://webexplorerbrasil.com/
+        [ 'name' => 'IBM WebExplorer',      'id'    => 'webexplorer', 'regexp' => '/WebExplorer\/(v[0-9.]*|[0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://webexplorerbrasil.com/
         [ 'name' => 'IBM WebExplorer',      'id'    => 'webexplorer', 'regexp' => '/Web Explorer\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCab(?: J)?[\/ ](?:Pre)?([0-9.]*)/u' ],
