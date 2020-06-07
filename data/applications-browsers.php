@@ -102,6 +102,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'The World',            'id'    => 'theworld',      'regexp' =>'/TheWorld(?: ([0-9.]*))?/u' ],
         [ 'name' => 'Tungsten Browser',     'id'    => 'tungsten',      'regexp' =>'/TungstenBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'VMware Browser',       'id'    => 'vmware',      'regexp' => '/Air[Ww]atch Browser v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Yandex Browser',       'id'    => 'yabrowser',      'regexp' =>'/YaBrowser\/([0-9.]*)/u', 'details' => 2 ],

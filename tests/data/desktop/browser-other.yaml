@@ -158,3 +158,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Safari/605.1.15 (Airwatch Browser v7.9)'
+    result: { browser: { name: 'VMware Browser', version: 7.9, type: browser }, engine: { name: Webkit, version: '605.1.15' }, os: { name: 'OS X', nickname: 'El Capitan', version: '10.11.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'VMware Browser 7.9 on Mac OS X 10.11.5'
