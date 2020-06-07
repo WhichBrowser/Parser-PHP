@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: BriskBard/1.0 (Windows 10) BriskBard/1.0'
     readable: 'Brisk Bard 1.0 on Windows'
-    result: { browser: { name: 'Brisk Bard', version: '1.0', type: browser }, engine: { name: Blink }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: 'Brisk Bard', version: '1.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
