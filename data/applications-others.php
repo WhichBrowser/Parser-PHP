@@ -79,9 +79,11 @@ Applications::$OTHERS = [
     ],
 
     Constants\BrowserType::APP_SOCIAL => [
-        [ 'name' => 'Facebook',             'id'    => 'fbios',      'regexp' =>'/FBAN\/FBIOS/u' ],
-        [ 'name' => 'Facebook',             'id'    => 'fb4a',      'regexp' =>'/FBAN\/FB4A/u' ],
-        [ 'name' => 'Facebook',             'id'    => 'fb4a',      'regexp' =>'/FB_IAB\/FB4A/u' ],
+        [ 'name' => 'Facebook',             'id'    => 'fbios',            'regexp' => '/FBAN\/FBIOS/u' ],
+        [ 'name' => 'Facebook',             'id'    => 'fb4a',             'regexp' => '/FBAN\/FB4A/u' ],
+        [ 'name' => 'Facebook',             'id'    => 'fb4a',             'regexp' => '/FB_IAB\/FB4A/u' ],
+        [ 'name' => 'Facebook',             'id'    => 'fbsv',             'regexp' => '/FBSV\/([0-9.]*)/u' ],
+        [ 'name' => 'Facebook',             'id'    => 'fbav',             'regexp' => '/FBAV\/([0-9.]*)/u' ],
         [ 'name' => 'Google+',              'id'    => 'googleplus',      'regexp' =>'/com.google.GooglePlus/u'  ],
         [ 'name' => 'Instagram',            'id'    => 'instagram',      'regexp' =>'/Instagram ([0-9.]+)/u' ],
         [ 'name' => 'Pinterest',            'id'    => 'pinterest',      'regexp' =>'/\[Pinterest\/(Android|iOS)\]/u' ],
