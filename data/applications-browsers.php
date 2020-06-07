@@ -58,6 +58,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Doga Rhodonit',        'id'    => 'rhodonit',      'regexp' =>'/DogaRhodonit/u' ],
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Freeu Browser',        'id'    => 'freeu',       'regexp' => '/ Free[Uu]\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: https://play.google.com/store/apps/details?id=com.freeuvpn.android&hl=en
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
