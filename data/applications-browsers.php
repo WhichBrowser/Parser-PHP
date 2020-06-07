@@ -36,7 +36,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Baidu Browser',        'id'    => 'flyflow',      'regexp' =>'/FlyFlow\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Baidu Browser',        'id'    => 'bdbrowser',      'regexp' =>'/bdbrowser\/([0-9.]*)/i' ],
         [ 'name' => 'Baidu Browser',        'id'    => 'bdbrowser',      'regexp' =>'/bdbrowser_i18n\/([0-9.]*)/i' ],
-        [ 'name' => 'Baidu Spark',          'id'    => 'bdspark',      'regexp' =>'/(BDSpark|Spark)\/([0-9.x]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Baidu Spark',          'id'    => 'bdspark',      'regexp' =>'/(?:BD| )Spark\/([0-9]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Beamrise',             'id'    => 'beamrise',      'regexp' =>'/Beamrise\/([0-9.]*)/u' ],                                                             // see: http://beamrise.com
         [ 'name' => 'Black Wren',           'id'    => 'blackwren',      'regexp' =>'/BlackWren\/([0-9.]*)/u', 'details' => 2 ],                                            // see: https://github.com/conmarap/jetbrowser
         [ 'name' => 'Brave',                'id'    => 'brave',      'regexp' =>'/brave\/([0-9.]*)/u' ],
