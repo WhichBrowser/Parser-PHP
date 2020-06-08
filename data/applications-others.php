@@ -132,6 +132,7 @@ Applications::$OTHERS = [
         [ 'name' => 'EA Origin',            'id'    => 'origin',      'regexp' =>'/Origin\/([0-9.]*)/u' ],
         [ 'name' => 'SecondLife',           'id'    => 'secondlife',      'regexp' =>'/SecondLife\/([0-9.]*)/u' ],
         [ 'name' => 'Valve Steam',          'id'    => 'valve',      'regexp' =>'/Valve Steam/u' ],
+        [ 'name' => 'Valve Steam',          'id'    => 'valve',            'regexp' => '/GameOverlay\/([0-9.]*)/u' ],
         [ 'name' => 'Raptr',                'id'    => 'raptr',      'regexp' =>'/Raptr/u' ],
     ],
 
