@@ -74,4 +74,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; SM-J510H Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.204 Mobile Safari/537.36 TNSBrowser/25.01'
     readable: 'K.Browser 25.01 on a Samsung Galaxy J5 (2016) running Android 7.1.1'
     result: { browser: { name: 'K.Browser', family: { name: Chrome, version: 64 }, version: '25.01', type: browser }, engine: { name: Blink }, os: { name: Android, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy J5 (2016)' } }
-x
