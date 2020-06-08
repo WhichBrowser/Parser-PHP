@@ -61,6 +61,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'ICE Browser',          'id'    => 'icebrow',     'regexp' => '/ICEbrowser\/v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.icesoft.org/java/home.jsf
+        [ 'name' => 'ICE Browser',          'id'    => 'icebrow',     'regexp' => '/ICE Browser\/v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCab(?: J)?[\/ ](?:Pre)?([0-9.]*)/u' ],
         [ 'name' => 'Iceape',               'id'    => 'iceape',      'regexp' =>'/Iceape\/([0-9.]*)/u' ],
         [ 'name' => 'IceCat',               'id'    => 'icecat',      'regexp' =>'/IceCat[ \/]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                   // see: https://www.gnu.org/software/gnuzilla/
