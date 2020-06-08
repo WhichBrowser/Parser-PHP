@@ -12,5 +12,5 @@
     readable: 'Android Browser on an OUYA running Android 4.1.2'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 10.0; en-US; Valve Steam GameOverlay/1513371133; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36'
-    result: { browser: { name: 'Android Browser' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: gaming, subtype: console, manufacturer: OUYA, model: OUYA } }
-    readable: 'x'
+    result: { browser: { name: 'Valve Steam', family: { name: Chrome, version: 62 }, version: '1513371133', type: 'app:game' }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Valve Steam 1513371133 on Windows 10'
