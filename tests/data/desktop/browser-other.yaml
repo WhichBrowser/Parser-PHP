@@ -158,3 +158,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko Strata/4.4.1.1402'
+    result: { browser: { name: 'Kirix Strata', version: 4.4.1.1402, type: browser }, engine: { name: Gecko, version: 1.9.1.3 }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
+    readable: 'Kirix Strata 4.4.1.1402 on Windows XP'
