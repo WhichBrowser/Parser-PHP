@@ -154,6 +154,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'PocketLink',           'id'    => 'plink',      'regexp' =>'/PLink ([0-9.]+)/iu', 'details' => 2 ],
         [ 'name' => 'Polaris',              'id'    => 'polaris',      'regexp' =>'/Polaris[\/ ]v?([0-9.]*)/iu', 'details' => 2 ],
         [ 'name' => 'Polaris',              'id'    => 'polaris',      'regexp' =>'/POLARIS([0-9.]+)/u', 'details' => 2 ],
+        [ 'name' => 'Pure Browser',         'id'    => 'pure',      'regexp' =>'/PureBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Openwave',             'id'    => 'openwave',      'regexp' =>'/Open[Ww]ave\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Openwave',             'id'    => 'openwave',      'regexp' =>'/Openwave Mobile Browser ([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'Openwave',             'id'    => 'openwave',      'regexp' =>'/Browser\/OpenWave([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::MOBILE ],

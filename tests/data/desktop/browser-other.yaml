@@ -158,3 +158,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0 PureBrowser/60.9.0'
+    result: { browser: { name: 'Pure Browser', family: { name: Firefox, version: 60 }, version: 60.9.0, type: browser }, engine: { name: Gecko, version: '69.0' }, os: { name: Linux }, device: { type: desktop } }
+    readable: 'x'
