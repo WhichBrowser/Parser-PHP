@@ -56,6 +56,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Daedalus',             'id'    => 'daedalus',      'regexp' =>'/Daedalus ([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Dillo',                'id'    => 'dillo',      'regexp' =>'/Dillo\/([0-9.]*)/u' ],                                                                // see: http://www.dillo.org
         [ 'name' => 'Doga Rhodonit',        'id'    => 'rhodonit',      'regexp' =>'/DogaRhodonit/u' ],
+        [ 'name' => 'Edbrowse',             'id'    => 'edbrowse',      'regexp' =>'/Edbrowse\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],

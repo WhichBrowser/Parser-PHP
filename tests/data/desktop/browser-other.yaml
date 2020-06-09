@@ -158,3 +158,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: edbrowse/3.1.2-1'
+    readable: 'Edbrowse 3.1.2 on Mac OS'
+    result: { browser: { name: Edbrowse, version: '3.1.2', type: browser }, device: { type: desktop } }
