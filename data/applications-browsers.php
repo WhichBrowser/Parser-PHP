@@ -32,6 +32,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Avant Browser',        'id'    => 'avant',      'regexp' =>'/Avant Browser/u' ],
         [ 'name' => 'Avant Browser',        'id'    => 'avant',      'regexp' =>'/Avant TriCore/u' ],
         [ 'name' => 'Avast SafeZone',       'id'    => 'asw',      'regexp' =>'/ASW\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'AVG Secure Browser',   'id'    => 'avg',      'regexp' =>'/ AVG\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                            // see: https://www.avg.com/secure-browser
         [ 'name' => 'Aviator',              'id'    => 'aviator',      'regexp' =>'/Aviator\/([0-9.]*)/u', 'details' => 1 ],                                              // see: https://github.com/WhiteHatSecurity/Aviator
         [ 'name' => 'Baidu Browser',        'id'    => 'flyflow',      'regexp' =>'/FlyFlow\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Baidu Browser',        'id'    => 'bdbrowser',      'regexp' =>'/bdbrowser\/([0-9.]*)/i' ],
