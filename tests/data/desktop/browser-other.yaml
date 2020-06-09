@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Multi-Browser 10.1 (www.multibrowser.de); .NET CLR 1.1.4322)'
-    result: { browser: { name: 'Multi-Browser XP', version: '10.1', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Multi-Browser XP', version: '10.1', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Multi-Browser XP 10.1 on Windows XP'
