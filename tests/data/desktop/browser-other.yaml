@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Hydra Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'
-    result: { browser: { name: '115 Browser', family: { name: Chrome, version: 31 }, version: 5.1.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'Hydra Browser', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Hydra Browser on Windows XP'
