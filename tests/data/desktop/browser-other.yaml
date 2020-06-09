@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-pl) AppleWebKit/312.8 (KHTML, like Gecko, Safari) DeskBrowse/1.0'
-    readable: 'DeskBrowse 1.0 on Mac OS'
-    result: { browser: { name: DeskBrowse, version: 1.0, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'DeskBrowse 1.0 on OS X'
+    result: { browser: { name: DeskBrowse, version: '1.0', type: browser }, engine: { name: Webkit, version: '312.8' }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
