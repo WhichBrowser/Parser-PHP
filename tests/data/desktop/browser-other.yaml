@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008120120 Blackbird/0.9991'
-    result: { browser: { name: 'Blackbird', version: '0.9991', type: browser }, engine: { name: Blink, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'Blackbird', version: '0.9991', type: browser }, engine: { name: Gecko, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Blackbird 0.9991 on Windows XP'
