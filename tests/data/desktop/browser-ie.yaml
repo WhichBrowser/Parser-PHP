@@ -16,8 +16,8 @@
     readable: 'Internet Explorer 3.0.1 on Windows 95'
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.02; Update a; AOL 3.0; Windows 95)'
-    result: { browser: { name: 'Internet Explorer', version: 3.0.2, type: browser }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
-    readable: 'Internet Explorer 3.0.2 on Windows 95'
+    result: { browser: { name: 'AOL Desktop', version: 3.0, type: browser }, os: { name: Windows, version: { value: '4.0', alias: '95' } }, device: { type: desktop } }
+    readable: 'AOL Desktop on Windows 95'
 -
     headers: 'User-Agent: Mozilla/2.0 (compatible; MSIE 3.0; Windows 3.1)'
     result: { browser: { name: 'Internet Explorer', version: '3.0', type: browser }, os: { name: Windows, version: '3.1' }, device: { type: desktop } }
