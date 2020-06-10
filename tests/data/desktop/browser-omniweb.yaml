@@ -12,8 +12,8 @@
     result: { browser: { name: OmniWeb, version: 4.1.1, type: browser }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows 98). OmniWeb/v528'
-    readable: 'OmniWeb 5 on OS X'
-    result: { browser: { name: OmniWeb, version: '5', type: browser }, engine: { name: WebCore }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'OmniWeb 528 on OS X'
+    result: { browser: { name: OmniWeb, version: '528', type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/4.1.1-v424.6'
     readable: 'OmniWeb 4.1.1 on OS X'
@@ -21,7 +21,7 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/v496'
     readable: 'OmniWeb 496 on OS X'
-    result: { browser: { name: OmniWeb, version: '496', type: browser }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: OmniWeb, version: '496', type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/4.0.5; Mac_PowerPC)'
     readable: 'OmniWeb 4.0.5 on OS X'
@@ -41,7 +41,7 @@
 -
     headers: 'User-Agent: Mozilla/4.5 (compatible; OmniWeb/5.1.1; Mac_PowerPC)'
     readable: 'OmniWeb 5.1.1 on OS X'
-    result: { browser: { name: OmniWeb, version: 5.1.1, type: browser }, engine: { name: WebCore }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: OmniWeb, version: 5.1.1, type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_10_2; xx) AppleWebKit/10600.3.18 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v625.0'
     readable: 'OmniWeb 625.0 on OS X Yosemite 10.10'

@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/420+ (KHTML, like Gecko, Safari/420) OmniWeb/v607.17'
-    readable: 'OmniWeb 607.17 on Mac OS'
-    result: { browser: { name: OmniWeb, version: 607.17, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'OmniWeb 607.17 on OS X'
+    result: { browser: { name: OmniWeb, version: '607.17', type: browser }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
