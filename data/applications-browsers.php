@@ -90,6 +90,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'QupZilla',             'id'    => 'qupzilla',      'regexp' =>'/QupZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'rekonq',               'id'    => 'rekonq',      'regexp' =>'/rekonq(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Ryouko',               'id'    => 'ryouko',      'regexp' =>'/Ryouko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://github.com/foxhead128/ryouko
+        [ 'name' => 'Sylera',               'id'    => 'sylera',      'regexp' =>'/Sylera\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // Needs to be discovered before SeaMonkey Browser, see: https://ja.wikipedia.org/wiki/Sylera
         [ 'name' => 'SaaYaa Explorer',      'id'    => 'saayaa',      'regexp' =>'/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sleipnir',             'id'    => 'sleipnir',      'regexp' =>'/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
