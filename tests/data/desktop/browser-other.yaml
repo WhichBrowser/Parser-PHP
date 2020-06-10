@@ -162,4 +162,3 @@
     headers: 'User-Agent: TulipChain/6.03 (http://ostermiller.org/tulipchain/) Java/1.4.2_05 (http://java.sun.com/) Windows_XP/5.1 RPT-HTTPClient/0.3-3'
     readable: 'Tulip Chain 6.03 on Windows'
     result: { browser: { name: 'Tulip Chain', version: '6.03', type: browser }, os: { name: Windows }, device: { type: desktop } }
-l
