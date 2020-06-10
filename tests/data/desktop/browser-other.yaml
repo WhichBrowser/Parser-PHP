@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; JuziBrowser) like Gecko'
-    result: { browser: { name: Beamrise, family: { name: Chrome, version: 29 }, version: 29.3.0.6900, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'x on Windows 7'
+    result: { browser: { name: 'Orange Browser', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
+    readable: 'Orange Browser on Windows 8.1'
