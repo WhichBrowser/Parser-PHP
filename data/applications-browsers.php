@@ -74,6 +74,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Lobo',                 'id'    => 'lobo',      'regexp' =>'/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://sourceforge.net/projects/xamj/files/Lobo%20Browser/
         [ 'name' => 'Lunascape',            'id'    => 'lunascape',      'regexp' =>'/ Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],                                        // see: http://www.lunascape.tv
         [ 'name' => 'Naenara',              'id'    => 'naenara',      'regexp' =>'/NaenaraBrowser\/([0-9.]*)/u', 'details' => 2 ],                                       // Firefox based browser used with Red Star OS
+        [ 'name' => 'NetCaptor',            'id'    => 'netcaptor',      'regexp' =>'/NetCaptor ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://en.wikipedia.org/wiki/NetCaptor
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',      'regexp' =>'/MxBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',      'regexp' =>'/MxBrowser-iPhone\/([0-9.]*)/u' ],
         [ 'name' => 'MixShark',             'id'    => 'mixshark',      'regexp' =>'/MixShark\/([0-9.]*)/u' ],                                                             // see: http://terbaddo.free.fr/mixshark.php
