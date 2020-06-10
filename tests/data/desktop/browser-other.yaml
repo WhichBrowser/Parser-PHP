@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Villanova/1.9.2.12 Polarity/3.0.0 Firefox/4.0'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Polarity 3.0.0 on Windows 7'
+    result: { browser: { name: Polarity, family: { name: Firefox, version: '4.0' }, version: 3.0.0, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
