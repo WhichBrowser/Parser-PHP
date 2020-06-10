@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7) Gecko/20070919 Swiftweasel/2.0.0.7'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Swiftweasel 2.0.0.7 on Linux'
+    result: { browser: { name: Swiftweasel, version: 2.0.0.7, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
