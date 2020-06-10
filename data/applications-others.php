@@ -142,5 +142,6 @@ Applications::$OTHERS = [
         [ 'name' => 'Google Desktop',       'id'    => 'google',      'regexp' =>'/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Leechcraft',           'id'    => 'leechcraft',      'regexp' =>'/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2 ],
         [ 'name' => 'Lotus Expeditor',      'id'    => 'expeditor',      'regexp' =>'/Gecko Expeditor ([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => 'Open Live Writer',     'id'    => 'openlive',      'regexp' =>'/Open Live Writer ([0-9.]*)/u', 'details' => 3 ],        
     ]
 ];

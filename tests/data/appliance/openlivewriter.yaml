@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; Open Live Writer 1.0)'
+    readable: 'Open Live Writer 1.0 on Windows 7'
+    result: { browser: { name: 'Microsoft Mobile Explorer', version: '3.0', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop, manufacturer: Compaq } }
