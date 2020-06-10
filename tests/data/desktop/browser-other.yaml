@@ -158,3 +158,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; Open Live Writer 1.0)'
+    readable: 'Open Live Writer 1.0 on Windows 7'
+    result: { browser: { name: 'Open Live Writer', version: '1.0', type: browser }, engine: { name: Trident, version: '11.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
