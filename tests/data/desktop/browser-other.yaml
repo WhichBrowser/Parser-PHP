@@ -162,4 +162,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; JuziBrowser) like Gecko'
     result: { browser: { name: 'Orange Browser', type: browser }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: desktop } }
     readable: 'Orange Browser on Windows 8.1'
-x
