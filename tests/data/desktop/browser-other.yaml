@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; JyxoToolbar1.0; SV1; UltraBrowser 11.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322)'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'UltraBrowser 11.0 on Windows XP'
+    result: { browser: { name: UltraBrowser, version: '11.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
