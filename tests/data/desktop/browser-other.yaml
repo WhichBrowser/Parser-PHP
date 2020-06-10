@@ -162,4 +162,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0 TO-Browser/TOB7.68.0.201_01'
     readable: 't-online.de 7.68.0.201 on Windows 10'
     result: { browser: { name: t-online.de, family: { name: Firefox, version: '68.0' }, version: 7.68.0.201, type: browser }, engine: { name: Gecko, version: '68.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
-x
