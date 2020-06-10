@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/420+ (KHTML, like Gecko, Safari/420) OmniWeb/v607.17'
     readable: 'OmniWeb 607.17 on OS X'
-    result: { browser: { name: OmniWeb, version: '607.17', type: browser }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: OmniWeb, version: '607.17', type: browser }, engine: { name: WebKit }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
