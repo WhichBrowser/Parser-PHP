@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) Patriott::Browser/1.0.0 Safari/533.3'
-    result: { browser: { name: '115 Chrome', family: { name: Chrome, version: 21 }, version: 1.0.3, type: browser }, engine: { name: Webkit, version: '537.1' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: '115 Chrome 1.0.3 on Windows 7'
+    result: { browser: { name: 'Patriott Browser', version: 1.0.0, type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Patriott Browser 1.0.0 on Windows 7'
