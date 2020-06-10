@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4a) Gecko/20030411 Phoenix/0.5'
-    result: { browser: { name: '115 Browser', family: { name: Chrome, version: 31 }, version: 5.1.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
-    readable: '115 Browser 5.1.6 on Windows XP'
+    result: { browser: { name: Phoenix, version: '0.5', type: browser }, engine: { name: Gecko, version: 1.4a }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Phoenix 0.5 on Windows XP'
