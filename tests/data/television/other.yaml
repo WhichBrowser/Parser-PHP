@@ -617,4 +617,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Netbox/3.5 R92; Linux 2.2)'
     readable: 'Netbox 3.5 on a television'
-    result: { browser: { name: Netbox, version: '3.5', type: browser }, engine: { name: Linux }, device: { type: television } }
+    result: { browser: { name: Netbox, version: '3.5', type: browser }, device: { type: television } }
