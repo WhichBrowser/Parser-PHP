@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.571.0 Safari/534.12 ZipZap 3.1'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'ZipZap 3.1 on Windows 7'
+    result: { browser: { name: ZipZap, family: { name: Chrome, version: 9 }, version: '3.1', type: browser }, engine: { name: Webkit, version: '534.12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
