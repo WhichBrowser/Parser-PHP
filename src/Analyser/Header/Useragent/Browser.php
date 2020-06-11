@@ -350,7 +350,7 @@ trait Browser
 
         /* Baidu Spark Browser */
 
-        if (preg_match('/(BDSpark|Spark)\/([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/\s(BDSpark|Spark)\/([0-9.]*)/u', $ua, $match)) {
             $this->data->browser->using = new Using([ 'name' => 'Chrome', 'version' => new Version([ 'value' => $match[2], 'details' => 1 ]) ]);
 
             $this->data->browser->type = Constants\BrowserType::BROWSER;
