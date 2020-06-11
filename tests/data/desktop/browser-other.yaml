@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:52.9) Gecko/20100101 Goanna/3.4 Firefox/52.9 ArcticFox/27.9.15'
-    result: { browser: { name: 'Arctic Fox', version: 27.9.15, type: browser }, engine: { name: Goanna, version: 3.4 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: 'Arctic Fox', using: { name: Firefox, version: '27' }, version: 27.9.15, type: browser }, engine: { name: Goanna, version: '3.4' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6'}, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Arctic Fox 27.9.15 on Mac OS X 10.6'
