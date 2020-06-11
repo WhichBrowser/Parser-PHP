@@ -522,7 +522,3 @@
     headers: 'User-Agent: rogerbot/1.0 (http://www.moz.com/dp/rogerbot, rogerbot-crawler@moz.com)'
     readable: 'Moz 1.0'
     result: { browser: { name: Moz, version: '1.0' }, device: { type: bot } }
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)'
-    readable: 'Moz 1.0'
-    result: { browser: { name: Moz, version: '1.0' }, device: { type: bot } }
