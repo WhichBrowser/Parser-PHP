@@ -788,6 +788,17 @@ trait Browser
             $this->data->browser->version = null;
         }
 
+        /* Arctic Fox Browser */
+
+        if (preg_match('/ArcticFox\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->using = new Using([ 'name' => 'Firefox', 'version' => new Version([ 'value' => $match[1], 'details' => 1 ]) ]);
+
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Arctic Fox';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->channel = null;
+        }
 
         /* Set the browser family */
 
