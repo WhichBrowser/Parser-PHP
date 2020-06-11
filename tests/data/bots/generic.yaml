@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)'
+    readable: 'Buck 2.2'
+    result: { browser: { name: Buck, version: '2.2' }, device: { type: bot } }
