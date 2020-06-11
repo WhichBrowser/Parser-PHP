@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)'
+    readable: 'Majestic 1.4.8'
+    result: { browser: { name: Majestic, version: '1.4.8' }, device: { type: bot } }
