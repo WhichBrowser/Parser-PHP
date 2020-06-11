@@ -614,3 +614,7 @@
     headers: 'User-Agent: HbbTV/1.1.1 (; ST; FLTk3D; 1.0; 1.0;) NetFront/3.5'
     readable: 'NetFront 3.5 on a television'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: television } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Netbox/3.5 R92; Linux 2.2)'
+    readable: 'Netbox 3.5 on a television'
+    result: { browser: { name: Netbox, version: '3.5', type: browser }, engine: { name: Linux }, device: { type: television } }
