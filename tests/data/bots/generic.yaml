@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +http://go.mail.ru/help/robots)'
+    readable: 'Mail.ru Bot 2.0'
+    result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
