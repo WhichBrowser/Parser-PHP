@@ -348,6 +348,18 @@ trait Browser
             $this->data->browser->channel = null;
         }
 
+        /* Seznam Browser */
+
+        if (preg_match('/SznProhlizec\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->using = new Using([ 'name' => 'Chrome', 'version' => new Version([ 'value' => $match[1], 'details' => 1 ]) ]);
+
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Seznam Browser';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->channel = null;
+        }
+
         /* Set the browser family */
 
         if ($this->data->isBrowser('Chrome') || $this->data->isBrowser('Chromium')) {
