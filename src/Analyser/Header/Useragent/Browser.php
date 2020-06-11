@@ -464,6 +464,17 @@ trait Browser
             }
         }
 
+        /* Miurcosoft Open Live Writer */
+
+        if (preg_match('/Open Live Writer ([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->using = new Using([ 'name' => 'Internet Explorer', 'version' => new Version([ 'value' => $match[1], 'details' => 1 ]) ]);
+
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Open Live Writer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->channel = null;
+        }
 
         /* Set the browser family */
 
