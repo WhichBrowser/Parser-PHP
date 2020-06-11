@@ -160,5 +160,5 @@
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3390.0 Xvast/1.1.0.3 Safari/537.36'
-    readable: 'iCab 3.0.3 on Mac OS'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Xvast 1.1.0.3 on Windows 8'
+    result: { browser: { name: Xvast, family: { name: Chrome, version: 67 }, version: 1.1.0.3, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
