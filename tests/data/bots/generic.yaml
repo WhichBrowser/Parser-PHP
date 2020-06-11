@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DomainCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/example.com)'
+    readable: 'DomainCrawler 3.0'
+    result: { browser: { name: DomainCrawler, version: '3.0' }, device: { type: bot } }
