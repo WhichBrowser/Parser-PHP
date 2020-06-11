@@ -161,4 +161,4 @@
 -
     headers: 'User-Agent: Vimprobable/0.9.20.5'
     readable: 'Vimprobable 0.9.20.5'
-    result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Vimprobable, version: '0.9.20.5', type: browser }, device: { type: desktop } }
