@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)'
+    readable: 'Semrush 6'
+    result: { browser: { name: Semrush, version: '6' }, device: { type: bot } }
