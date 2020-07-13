@@ -1843,7 +1843,7 @@ trait Browser
 
     private function detectDesktopBrowsers($ua)
     {
-        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon|Browse)/ui', $ua)) {
+        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon|Browse|Flow)/ui', $ua)) {
             return;
         }
 
@@ -1939,6 +1939,21 @@ trait Browser
             $this->data->browser->channel = '';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
+        /* Browse for Flow */
+
+        if (preg_match('/ Flow\/([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Flow';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            unset($this->data->browser->family);
+
+            if (preg_match('/EkiohFlow\/[0-9\.]+M/u', $ua)) {
+                $this->data->browser->name = 'Flow Nightly Build';
+                $this->data->browser->version = null;
+            }
         }
     }
 
