@@ -187,6 +187,7 @@ Applications::$BOTS = [
     [ 'name' => 'SilverReader',                 'id'    => 'reader',      'regexp' => '/SilverReader\/([0-9.]*)/u' ],
     [ 'name' => 'SimplePie',                    'id'    => 'simplepie',      'regexp' => '/SimplePie\/([0-9.]*)/u' ],
     [ 'name' => 'Site24x7',                     'id'    => 'site24',      'regexp' => '/Site24x7/u' ],
+    [ 'name' => 'Slackbot Link Checker',        'id'    => 'slack',      'regexp' => '/Slackbot-LinkExpanding ([0-9.]*)/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/sogou spider/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou pic spider\/([0-9.]*)/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou inst spider\/([0-9.]*)/u' ],
