@@ -28,28 +28,28 @@
     readable: 'WhatsApp 2.11.139 on a HTC Incredible S running Android 4.0.4'
 -
     headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.1.2 Device/samsung-GT-S5310'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Pocket Neo' } }
+    readable: 'WhatsApp 2.11 on a Samsung Galaxy Pocket Neo running Android 4.1.2'    
+-
+    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.0.4 Device/Motorola-MB526'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY+ } }
+    readable: 'WhatsApp 2.11 on a Motorola DEFY+ running Android 4.0.4'
+-
+    headers: 'User-Agent: WhatsApp/2.11.107 S60Version/3.1 Device/Nokia-E51-(02.1)'
     result: { browser: { name: WhatsApp, version: 2.11.107, type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E51 } }
     readable: 'WhatsApp 2.11.107 on a Nokia E51 running Series60 3.1'
 -
-    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.0.4 Device/Motorola-MB526'
+    headers: 'User-Agent: WhatsApp/2.11.236 S60Version/3.2 Device/Nokia-6650-(02.01)'
     result: { browser: { name: WhatsApp, version: 2.11.236, type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6650' } }
     readable: 'WhatsApp 2.11.236 on a Nokia 6650 running Series60 3.2'
 -
-    headers: 'User-Agent: WhatsApp/2.11.107 S60Version/3.1 Device/Nokia-E51-(02.1)'
-    result: { browser: { name: WhatsApp, version: 2.11.356, type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
-    readable: 'WhatsApp 2.11.356 on a Samsung Omnia W running Windows Phone 7.10'
--
-    headers: 'User-Agent: WhatsApp/2.11.236 S60Version/3.2 Device/Nokia-6650-(02.01)'
-    result: { browser: { name: WhatsApp, version: 2.11.282, type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
-    readable: 'WhatsApp 2.11.282 on a Nokia Lumia 520 running Windows Phone 8.0'
--
     headers: 'User-Agent: WhatsApp/2.11.356 WP7/7.10.8107 Device/SAMSUNG-GT-I8350-H23.15.0.8'
-    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
-    readable: 'WhatsApp 2.11 on a Samsung Omnia W running Windows Phone 7.10'    
+    result: { browser: { name: WhatsApp, version: 2.11.356, type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
+    readable: 'WhatsApp 2.11.356 on a Samsung Omnia W running Windows Phone 7.10'    
 -
     headers: 'User-Agent: WhatsApp/2.11.282 WP7/8.0.10328.0 Device/NOKIA-RM-914_eu_euro2_341-H1.0.0.0'
-    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
-    readable: 'WhatsApp 2.11 on a Nokia Lumia 520 running Windows Phone 8.0'
+    result: { browser: { name: WhatsApp, version: 2.11.282, type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+    readable: 'WhatsApp 2.11.282 on a Nokia Lumia 520 running Windows Phone 8.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]'
     result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
