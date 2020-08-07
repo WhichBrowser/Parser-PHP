@@ -516,5 +516,5 @@
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
-    readable: 'xxx 0.2'
-    result: { browser: { name: xx, version: '0.2' }, device: { type: bot } }
+    readable: 'Yelp Spider 1.0'
+    result: { browser: { name: 'Yelp Spider', version: '1.0' }, device: { type: bot } }
