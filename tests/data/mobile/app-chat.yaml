@@ -21,7 +21,7 @@
 -
     headers: 'User-Agent: WhatsApp/2.11.164 Android/4_2_2 Device/samsung-GT-I9152'
     result: { browser: { name: WhatsApp, version: 2.11.164, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Mega 5.8 Plus' } }
-    readable: 'WhatsApp 2.11.164 on a Samsung Galaxy Mega 5.8 Plus running Android 4.2.2'    
+    readable: 'WhatsApp 2.11.164 on a Samsung Galaxy Mega 5.8 Plus running Android 4.2.2'
 -
     headers: 'User-Agent: WhatsApp/2.11.139 Android/4.0.4 Device/HTC-HTC_Incredible_S'
     result: { browser: { name: WhatsApp, version: 2.11.139, type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Incredible S' } }
@@ -29,7 +29,7 @@
 -
     headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.1.2 Device/samsung-GT-S5310'
     result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Pocket Neo' } }
-    readable: 'WhatsApp 2.11 on a Samsung Galaxy Pocket Neo running Android 4.1.2'    
+    readable: 'WhatsApp 2.11 on a Samsung Galaxy Pocket Neo running Android 4.1.2'
 -
     headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.0.4 Device/Motorola-MB526'
     result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY+ } }
@@ -45,7 +45,7 @@
 -
     headers: 'User-Agent: WhatsApp/2.11.356 WP7/7.10.8107 Device/SAMSUNG-GT-I8350-H23.15.0.8'
     result: { browser: { name: WhatsApp, version: 2.11.356, type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
-    readable: 'WhatsApp 2.11.356 on a Samsung Omnia W running Windows Phone 7.10'    
+    readable: 'WhatsApp 2.11.356 on a Samsung Omnia W running Windows Phone 7.10'
 -
     headers: 'User-Agent: WhatsApp/2.11.282 WP7/8.0.10328.0 Device/NOKIA-RM-914_eu_euro2_341-H1.0.0.0'
     result: { browser: { name: WhatsApp, version: 2.11.282, type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
