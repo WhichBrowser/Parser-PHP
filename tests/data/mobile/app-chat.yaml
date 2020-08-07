@@ -85,7 +85,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) WhatsApp/2.2017.6 Chrome/76.0.3809.146 Electron/6.1.9 Safari/537.36'
     result: { browser: { name: WhatsApp, using: { name: Electron, version: 6.1.9 }, family: { name: Chrome, version: 76 }, version: 2.2017.6, type: 'app:chat' }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
-    readable: 'WhatsApp 2.2017.6 on Windows 10'    
+    readable: 'WhatsApp 2.2017.6 on Windows 10'
 -
     headers: 'User-Agent: WhatsApp/2.19.360 A'
     result: { browser: { name: WhatsApp, version: 2.19.360, type: 'app:chat' } }
