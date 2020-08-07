@@ -86,3 +86,7 @@
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [FBAN/FBIOS;FBAV/147.0.0.46.81;FBBV/76961488;FBDV/iPhone10,4;FBMD/iPhone;FBSN/iOS;FBSV/11.0;FBSS/2;FBCR/KPNNL;FBID/phone;FBLC/nl_NL;FBOP/5;FBRV/'
     readable: 'Facebook on an Apple iPhone 8 running iOS 11.0'
     result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: '11.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 8' } }
+-
+    headers: 'User-Agent: YelpWebView/1.5 Android/6.0.1 YelpApp/9.9.0 (x-screen-scale 1.0;)'
+    readable: 'xxx'
+    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: '11.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 8' } }
