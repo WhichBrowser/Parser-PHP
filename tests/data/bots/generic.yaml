@@ -518,3 +518,4 @@
     headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
     readable: 'Yelp Spider 1.0'
     result: { browser: { name: 'Yelp Spider', version: '1.0' }, device: { type: bot } }
+failed test
