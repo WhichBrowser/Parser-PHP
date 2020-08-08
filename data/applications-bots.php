@@ -91,6 +91,7 @@ Applications::$BOTS = [
     [ 'name' => 'FeedValidator',                'id'    => 'validator',      'regexp' => '/FeedValidator\/([0-9.]*)/u' ],
     [ 'name' => 'FeedZirra',                    'id'    => 'feed',      'regexp' => '/feedzirra/u' ],
     [ 'name' => 'Fever',                        'id'    => 'fever',      'regexp' => '/Fever\/([0-9.]*)/u' ],
+    [ 'name' => 'Florienzh',                    'id'    => 'florienzh',      'regexp' => '/Florienzh\/([0-9.]*)/u' ],
     [ 'name' => 'Friendica',                    'id'    => 'friendica',      'regexp' => '/Friendica/u' ],
     [ 'name' => 'FTRF: Friendly Robot',         'id'    => 'robot',      'regexp' => '/FTRF: Friendly robot\/([0-9.]*)/u' ],
     [ 'name' => 'Genieo Web Filter',            'id'    => 'genieo',      'regexp' => '/Genieo\/([0-9.]*)/u' ],

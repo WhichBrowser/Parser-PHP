@@ -514,3 +514,7 @@
     headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Florienzh/1.0'
+    readable: 'Florienzh 1.0'
+    result: { browser: { name: Florienzh, version: '1.0' }, device: { type: bot } }
