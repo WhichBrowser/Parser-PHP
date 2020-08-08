@@ -518,4 +518,3 @@
     headers: 'User-Agent: Voat.co OpenGraph Parser'
     readable: 'Voat'
     result: { browser: { name: Voat }, device: { type: bot } }
-reset
