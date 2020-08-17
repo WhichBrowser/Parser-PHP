@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Voat.co OpenGraph Parser'
+    readable: 'Voat'
+    result: { browser: { name: Voat }, device: { type: bot } }
+-
     headers: 'User-Agent: PocketImageCache/1.0'
     readable: 'Pocket 1.0'
     result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
