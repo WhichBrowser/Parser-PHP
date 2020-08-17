@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)'
+    readable: 'Discord 2.0'
+    result: { browser: { name: Discord, version: '2.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Voat.co OpenGraph Parser'
     readable: 'Voat'
     result: { browser: { name: Voat }, device: { type: bot } }
