@@ -74,7 +74,9 @@ Applications::$OTHERS = [
         [ 'name' => 'KakaoTalk',            'id'    => 'kakao',           'regexp' => '/KAKAOTALK ([0-9.]*)/u' ],
         [ 'name' => 'KakaoTalk',            'id'    => 'kakao',           'regexp' => '/KAKAOTALK/u' ],
         [ 'name' => 'Kik',                  'id'    => 'kik',      'regexp' =>'/Kik\/([0-9.]*?)(\.0)?\.[0-9]{3,4}/u' ],
+        [ 'name' => 'Slack',                'id'    => 'slack',            'regexp' => '/ Slack_SSB\/([0-9.]*)/u' ],
         [ 'name' => 'WeChat',               'id'    => 'messenger',      'regexp' =>'/MicroMessenger\/([0-9.]*)/u' ],
+        [ 'name' => 'WhatsApp',             'id'    => 'whatsapp',      'regexp' =>'/WhatsApp\/([0-9.]*)/u' ],
         [ 'name' => 'Wire',                 'id'    => 'wire',      'regexp' =>'/Wire\/([0-9.]*)/u' ],
         [ 'name' => 'Yahoo Messenger',      'id'    => 'yahoo',      'regexp' =>'/YahooMobile\/1.0 \(im; ([0-9.]+)\)/u', 'details' => 3 ],
         [ 'name' => 'Yammer',               'id'    => 'yammer',      'regexp' =>'/Yammer\/([0-9.]*)/u', 'details' => 2 ],
@@ -93,6 +95,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/TwitterAndroid/u' ],
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/Twitter for iPhone/u' ],
         [ 'name' => 'WordPress',            'id'    => 'wp-android',      'regexp' =>'/wp-android\/([0-9.]*)/u' ],
+        [ 'name' => 'Yelp',                 'id'    => 'yelp',      'regexp' =>'/YelpApp\/([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_OFFICE => [
