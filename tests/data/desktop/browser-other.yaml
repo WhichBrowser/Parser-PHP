@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: BriskBard/1.0 (Windows 10) BriskBard/1.0'
+    readable: 'Brisk Bard 1.0 on Windows'
+    result: { browser: { name: 'Brisk Bard', version: '1.0', type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
     readable: 'BrowseX 2.0.0 on Windows'
     result: { browser: { name: 'BrowseX', version: 2.0.0, type: browser }, os: { name: Windows }, device: { type: desktop } }
