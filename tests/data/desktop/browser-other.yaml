@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 CCleaner/75.1.103.145'
+    result: { browser: { name: 'CCleaner Browser', family: { name: Chrome, version: 75.0.3770.142 }, version: 75.1.103.145, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'CCleaner Browser 75.1.103.145 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) chimlac_browser/1.0 Chrome/57.0.2987.110 Safari/537.36'
     result: { browser: { name: 'Chim Lac', family: { name: Chrome, version: 57.0.2987.110 }, version: 1.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Chim Lac 1.0 on Windows 7'
