@@ -108,6 +108,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Tencent Traveler',     'id'    => 'tencent',      'regexp' =>'/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TenFourFox',           'id'    => 'tenfourfox',      'regexp' =>'/TenFourFox\//u' ],
         [ 'name' => 'The World',            'id'    => 'theworld',      'regexp' =>'/TheWorld(?: ([0-9.]*))?/u' ],
+        [ 'name' => 'Tulip Chain',          'id'    => 'tulip',      'regexp' =>'/TulipChain\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://ostermiller.org/tulipchain/
         [ 'name' => 'Tungsten Browser',     'id'    => 'tungsten',      'regexp' =>'/TungstenBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
