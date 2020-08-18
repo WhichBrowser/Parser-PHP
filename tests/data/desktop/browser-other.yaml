@@ -139,6 +139,10 @@
     readable: 'Acoo Browser on Windows XP'
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 AVG/70.1.682.112'
+    result: { browser: { name: 'AVG Secure Browser', family: { name: Chrome, version: 70 }, version: 70.1.682.112, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'AVG Secure Browser 70.1.682.112 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; WinNT; en; rv:1.0.2) Gecko/20030311 Beonex/0.8.2-stable'
     result: { browser: { name: Beonex, version: 0.8.2, type: browser }, engine: { name: Gecko, version: 1.0.2 }, os: { name: Windows }, device: { type: desktop } }
     readable: 'Beonex 0.8.2 on Windows'
