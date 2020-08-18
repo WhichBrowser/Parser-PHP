@@ -80,6 +80,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'iRider Browser',       'id'    => 'irider',      'regexp' =>'/iRider ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Iridium',              'id'    => 'iridium',      'regexp' =>'/Iridium\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
         [ 'name' => 'Iron',                 'id'    => 'iron',      'regexp' =>'/Iron\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
+        [ 'name' => 'Kapiko',               'id'    => 'kapiko',      'regexp' => '/ Kapiko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://sites.google.com/site/kapikoproject/
         [ 'name' => 'Kazehakase',           'id'    => 'kazehakase',      'regexp' =>'/Kazehakase\/([0-9.]*)/u' ],                                                           // see: http://kazehakase.osdn.jp
         [ 'name' => 'KChrome',              'id'    => 'kchrome',      'regexp' =>'/KChrome\/([0-9.]*)/u', 'details' => 3 ],                                              // see: http://www.kchrome.com
         [ 'name' => 'K-Meleon',             'id'    => 'meleon',      'regexp' =>'/K-Meleon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: http://kmeleonbrowser.org
