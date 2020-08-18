@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
+    readable: 'Yelp Spider 1.0'
+    result: { browser: { name: 'Yelp Spider', version: '1.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
     readable: 'Slackbot Link Checker 1.0'
     result: { browser: { name: 'Slackbot Link Checker', version: '1.0' }, device: { type: bot } }

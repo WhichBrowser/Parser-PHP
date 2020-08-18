@@ -273,6 +273,8 @@ Applications::$BOTS = [
 
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/u' ],
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/u' ],
+    
+    [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
 
     /* Generic bots */
     [ 'name' => 'Apache Httpd',                 'id'    => 'httpclient',      'regexp' => '/Apache-HttpClient(?:\/([0-9.]*))?/u' ],
