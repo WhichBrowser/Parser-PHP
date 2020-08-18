@@ -198,3 +198,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.50747 OPRGX/60.0.3255.50747'
     result: { browser: { name: 'Opera GX', family: { name: Chrome, version: 73 }, version: '60.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Opera GX 60.0 on Windows 7'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.571.0 Safari/534.12 ZipZap 3.1'
+    readable: 'ZipZap 3.1 on Windows 7'
+    result: { browser: { name: ZipZap, family: { name: Chrome, version: 9 }, version: '3.1', type: browser }, engine: { name: Webkit, version: '534.12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }

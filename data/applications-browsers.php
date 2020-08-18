@@ -114,6 +114,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Yandex Browser',       'id'    => 'yabrowser',      'regexp' =>'/YaBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'ZipZap',               'id'    => 'zipzap',      'regexp' =>'/ZipZap ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                             // see: http://www.zipzaphome.com/
 
         /* Mobile browsers */
         [ 'name' => '1Browser',             'id'    => '1password',      'regexp' =>'/1Password\/([0-9.]*)/u' ],
