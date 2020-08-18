@@ -81,7 +81,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'NetPositive',          'id'    => 'netpositive',      'regexp' =>'/NetPositive\/([0-9.]*)/u' ],
         [ 'name' => 'Origyn',               'id'    => 'origyn',      'regexp' =>'/Origyn Web Browser/u' ],
         [ 'name' => 'Odyssey',              'id'    => 'owb',      'regexp' =>'/OWB\/([0-9.]*)/u' ],
-        [ 'name' => 'Open Live Writer',     'id'    => 'openlive',      'regexp' =>'/Open Live Writer ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],             // see: http://openlivewriter.org/  
+        [ 'name' => 'Open Live Writer',     'id'    => 'live',      'regexp' =>'/Open Live Writer ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],             // see: http://openlivewriter.org/  
         [ 'name' => 'Orca',                 'id'    => 'orca',      'regexp' =>'/Orca\/([0-9.]*)/u' ],
         [ 'name' => 'Oregano',              'id'    => 'oregano',      'regexp' =>'/Oregano ([0-9.]*)/u' ],                                                               // see: http://www.xat.nl/en/riscos/sw/oregano/
         [ 'name' => 'Otter',                'id'    => 'otter',      'regexp' =>'/Otter(?: Browser)?\/([0-9.]*)/u' ],                                                   // see: https://otter-browser.org
