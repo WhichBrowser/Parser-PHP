@@ -69,6 +69,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Deg-degan',            'id'    => 'degan',       'regexp' => '/Degdegan\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Demeter',              'id'    => 'demeter',      'regexp' =>'/Demeter\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'DeskBrowse',           'id'    => 'deskbrowse',      'regexp' =>'/DeskBrowse\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Diigo Browser',        'id'    => 'diigo',         'regexp' => '/DiigoBrowser/u', 'type' => Constants\DeviceType::MOBILE ],                            // see: https://apps.apple.com/us/app/diigo-annotator-for-safari/id933773981
         [ 'name' => 'Dillo',                'id'    => 'dillo',      'regexp' =>'/Dillo\/([0-9.]*)/u' ],                                                                // see: http://www.dillo.org
         [ 'name' => 'DocZilla',             'id'    => 'doczilla',      'regexp' =>'/DocZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Doga Rhodonit',        'id'    => 'rhodonit',      'regexp' =>'/DogaRhodonit/u' ],
