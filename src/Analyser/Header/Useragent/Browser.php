@@ -505,7 +505,7 @@ trait Browser
 
     private function detectOpera($ua)
     {
-        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng|OPRGX)/ui', $ua)) {
+        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng|OPRGX|MMS)/ui', $ua)) {
             return;
         }
 
@@ -667,6 +667,13 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
 
+        if (preg_match('/\sMMS\/([0-9.]*)$/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Opera Neon';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+      
         if (preg_match('/OPRGX\/([0-9.]*)$/u', $ua, $match)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Opera GX';
