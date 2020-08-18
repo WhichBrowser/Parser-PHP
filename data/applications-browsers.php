@@ -101,6 +101,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'LBrowser',             'id'    => 'lbrowser',      'regexp' =>'/LBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'LieBao',               'id'    => 'lbbrowser',      'regexp' =>'/LBBROWSER/u' ],                                                                       // see: http://www.liebao.cn
         [ 'name' => 'Lobo',                 'id'    => 'lobo',      'regexp' =>'/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://sourceforge.net/projects/xamj/files/Lobo%20Browser/
+        [ 'name' => 'Lolifox',              'id'    => 'lolifox',     'regexp' => '/lolifox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://ja.wikipedia.org/wiki/Lolifox
         [ 'name' => 'Lovense',              'id'    => 'lovense',     'regexp' => '/Lovense\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://www.lovense.com/cam-model/guides/pc-phone
         [ 'name' => 'Lunascape',            'id'    => 'lunascape',      'regexp' =>'/ Lunascape[\/| ]([0-9.]*)/u', 'details' => 3 ],                                        // see: http://www.lunascape.tv
         [ 'name' => 'Naenara',              'id'    => 'naenara',      'regexp' =>'/NaenaraBrowser\/([0-9.]*)/u', 'details' => 2 ],                                       // Firefox based browser used with Red Star OS

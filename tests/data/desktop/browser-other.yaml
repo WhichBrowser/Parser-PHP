@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070224 lolifox/0.3.2'
+    readable: 'Lolifox 0.3.2 on Windows XP'
+    result: { browser: { name: Lolifox, version: 0.3.2, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a'
     readable: 'MultiZilla 1.6.1.0 on Windows XP'
     result: { browser: { name: MultiZilla, version: 1.6.1.0, type: browser }, engine: { name: Gecko }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
