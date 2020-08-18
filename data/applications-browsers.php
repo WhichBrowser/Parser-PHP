@@ -41,6 +41,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Beamrise',             'id'    => 'beamrise',      'regexp' =>'/Beamrise\/([0-9.]*)/u' ],                                                             // see: http://beamrise.com
         [ 'name' => 'Beonex',               'id'    => 'beonex',      'regexp' =>'/Beonex\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://www.beonex.com/
         [ 'name' => 'Black Wren',           'id'    => 'blackwren',      'regexp' =>'/BlackWren\/([0-9.]*)/u', 'details' => 2 ],                                            // see: https://github.com/conmarap/jetbrowser
+        [ 'name' => 'Bolt Browser',         'id'    => 'bolt',        'regexp' => '/ Bolt\/([0-9.]*)/i', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://www.boltbrowser.com/
         [ 'name' => 'Blackbird',            'id'    => 'blackbird',      'regexp' =>'/Blackbird\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.blackbirdbrowser.com/
         [ 'name' => 'Brave',                'id'    => 'brave',      'regexp' =>'/brave\/([0-9.]*)/u' ],
         [ 'name' => 'Brisk Bard',           'id'    => 'brisk',       'regexp' => '/BriskBard\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: https://www.briskbard.com/index.php?lang=en
