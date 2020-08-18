@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Klondike/1.50 (WSP Win32) (Google WAP Proxy/1.0)'
+    readable: 'Klondike 1.50 on Windows'
+    result: { browser: { name:Klondike, version: '1.50', type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0 Light/44.0'
     readable: 'Light 44.0 on Windows 10'
     result: { browser: { name: 'Light', family: { name: Firefox, version: '44.0' }, version: '44.0', type: browser }, engine: { name: Gecko, version: '44.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }

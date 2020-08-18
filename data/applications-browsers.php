@@ -96,8 +96,9 @@ Applications::$BROWSERS = [
         [ 'name' => 'Kapiko',               'id'    => 'kapiko',      'regexp' => '/ Kapiko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://sites.google.com/site/kapikoproject/
         [ 'name' => 'Kazehakase',           'id'    => 'kazehakase',      'regexp' =>'/Kazehakase\/([0-9.]*)/u' ],                                                           // see: http://kazehakase.osdn.jp
         [ 'name' => 'KChrome',              'id'    => 'kchrome',      'regexp' =>'/KChrome\/([0-9.]*)/u', 'details' => 3 ],                                              // see: http://www.kchrome.com
-        [ 'name' => 'K-Meleon',             'id'    => 'meleon',      'regexp' =>'/K-Meleon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: http://kmeleonbrowser.org
+        [ 'name' => 'Klondike',             'id'    => 'klondike',    'regexp' => '/Klondike\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Kylo',                 'id'    => 'kylo',        'regexp' => '/ Kylo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://kylo.tv/
+        [ 'name' => 'K-Meleon',             'id'    => 'meleon',      'regexp' =>'/K-Meleon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: http://kmeleonbrowser.org
         [ 'name' => 'LBrowser',             'id'    => 'lbrowser',      'regexp' =>'/LBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'LieBao',               'id'    => 'lbbrowser',      'regexp' =>'/LBBROWSER/u' ],                                                                       // see: http://www.liebao.cn
         [ 'name' => 'Light',                'id'    => 'light',       'regexp' => '/ Light\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://en.wikipedia.org/wiki/Light_(web_browser)
