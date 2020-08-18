@@ -234,6 +234,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
         [ 'name' => 'WebLite',              'id'    => 'weblite',      'regexp' =>'/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
+        [ 'name' => 'WK Browser',           'id'    => 'wk',            'regexp' => '/wkbrowser ([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                     // see: https://github.com/keanulee/WKBrowser
         [ 'name' => 'Yaani Browser',        'id'    => 'yaani',         'regexp' => '/YaaniBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                 // see: https://www.yaani.com.tr/
 
         /* Television browsers */
