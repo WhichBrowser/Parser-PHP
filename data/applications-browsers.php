@@ -136,6 +136,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Sielo Browser',        'id'    => 'sielo',       'regexp' => '/ Sielo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/SieloBrowser/sielo-legacy
         [ 'name' => 'SiteKiosk',            'id'    => 'sitekiosk',   'regexp' => '/SiteKiosk ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.provisio.com/web/us/products/windows-kiosk-software-sitekiosk
         [ 'name' => 'Sleipnir',             'id'    => 'sleipnir',      'regexp' =>'/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => 'Slimjet',              'id'    => 'slimjet',     'regexp' => '/ Slimjet\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.slimjet.com/
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sparrow',              'id'    => 'sparrow',      'regexp' =>'/Sparrow\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Stainless',            'id'    => 'stainless',      'regexp' =>'/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
