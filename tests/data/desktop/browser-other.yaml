@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 Kinza/6.1.6'
+    readable: 'Kinza 6.1.6 on Windows 10'
+    result: { browser: { name: Kinza, family: { name: Chrome, version: 80.0.3987.149 }, version: 6.1.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) 37abc/1.6.5.14 Chrome/44.0.2403.130 Safari/537.36'
     result: { browser: { name: '37abc Browser', family: { name: Chrome, version: 44.0.2403.130 }, version: 1.6.5.14, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: '37abc Browser 1.6.5.14 on Windows 7'
