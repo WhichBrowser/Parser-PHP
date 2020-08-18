@@ -73,6 +73,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'DocZilla',             'id'    => 'doczilla',      'regexp' =>'/DocZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Doga Rhodonit',        'id'    => 'rhodonit',      'regexp' =>'/DogaRhodonit/u' ],
         [ 'name' => 'DPlus Browser',        'id'    => 'dplus',      'regexp' =>'/ DPlus ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Elements Browser',     'id'    => 'elements',    'regexp' => '/Elements Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
         [ 'name' => 'Falkon',               'id'    => 'falkon',      'regexp' => '/ Falkon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://www.falkon.org/
         [ 'name' => 'FlameSky',             'id'    => 'flamesky',    'regexp' => '/FlameSky\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://github.com/flameskyofficial/flamesky

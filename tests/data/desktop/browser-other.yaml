@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.14.3282.140 Elements Browser/1.1.14 Safari/537.36'
+    readable: 'Elements Browser 1.1.14 on Windows 10'
+    result: { browser: { name: 'Elements Browser', family: { name: Chrome, version: 64 }, version: 1.1.14, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Icedove/45.6.0'
     result: { browser: { name: Icedove, version: 45.6.0, type: browser }, engine: { name: Gecko, version: '45.0' }, os: { name: Linux }, device: { type: desktop } }
     readable: 'Icedove 45.6.0 on Linux'
