@@ -26,6 +26,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Acoo Browser',         'id'    => 'acoo',       'regexp' =>'/Acoo Browser/u' ],
         [ 'name' => 'AOL Desktop',          'id'    => 'aol',      'regexp' =>'/AOL ([0-9.]*); AOLBuild/i' ],
         [ 'name' => 'AOL Browser',          'id'    => 'america',      'regexp' =>'/America Online Browser (?:[0-9.]*); rev([0-9.]*);/i' ],
+        [ 'name' => 'APUS Browser',         'id'    => 'apus',        'regexp' => '/APUSBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.apusapps.com/en/browser/
         [ 'name' => 'Arachne',              'id'    => 'arachne',      'regexp' =>'/xChaos_Arachne\/[0-9]\.([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],       // see: www.glennmcc.org
         [ 'name' => 'Arora',                'id'    => 'arora',      'regexp' =>'/[Aa]rora\/([0-9.]*)/u' ],                                                             // see: www.arora-browser.org
         [ 'name' => 'AWeb',                 'id'    => 'aweb',      'regexp' =>'/Amiga-AWeb(?:\/([0-9.]*))?/u' ],
