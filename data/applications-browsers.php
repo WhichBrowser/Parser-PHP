@@ -85,18 +85,26 @@ Applications::$BROWSERS = [
         [ 'name' => 'Oregano',              'id'    => 'oregano',      'regexp' =>'/Oregano ([0-9.]*)/u' ],                                                               // see: http://www.xat.nl/en/riscos/sw/oregano/
         [ 'name' => 'Otter',                'id'    => 'otter',      'regexp' =>'/Otter(?: Browser)?\/([0-9.]*)/u' ],                                                   // see: https://otter-browser.org
         [ 'name' => 'Pale Moon',            'id'    => 'palemoon',      'regexp' =>'/Pale[mM]oon\/([0-9.]*)/u' ],                                                          // see: https://www.palemoon.org
+        [ 'name' => 'Polarity',             'id'    => 'polarity',      'regexp' =>'/Polarity\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Qihoo 360',            'id'    => 'qihu',      'regexp' =>'/QIHU THEWORLD/u' ],
         [ 'name' => 'QtWeb',                'id'    => 'qtweb',      'regexp' =>'/QtWeb Internet Browser\/([0-9.]*)/u' ],
         [ 'name' => 'QupZilla',             'id'    => 'qupzilla',      'regexp' =>'/QupZilla\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'rekonq',               'id'    => 'rekonq',      'regexp' =>'/rekonq(?:\/([0-9.]*))?/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Ryouko',               'id'    => 'ryouko',      'regexp' =>'/Ryouko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://github.com/foxhead128/ryouko
+        [ 'name' => 'Sylera',               'id'    => 'sylera',      'regexp' =>'/Sylera\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // Needs to be discovered before SeaMonkey Browser, see: https://ja.wikipedia.org/wiki/Sylera
         [ 'name' => 'SaaYaa Explorer',      'id'    => 'saayaa',      'regexp' =>'/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sleipnir',             'id'    => 'sleipnir',      'regexp' =>'/Sleipnir\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Stainless',            'id'    => 'stainless',      'regexp' =>'/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
         [ 'name' => 'SunChrome',            'id'    => 'sunchrome',      'regexp' =>'/SunChrome\/([0-9.]*)/u' ],
+        [ 'name' => 'Sundance',             'id'    => 'sundance',      'regexp' =>'/Sundance\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Sundial',              'id'    => 'sundial',      'regexp' =>'/Sundial\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://www.sundialbrowser.com/
         [ 'name' => 'Superbird',            'id'    => 'superbird',      'regexp' =>'/Super[Bb]ird\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Swiftweasel',          'id'    => 'swiftweasel',      'regexp' =>'/Swiftweasel\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],            // see: http://swiftweasel.tuxfamily.org/
+        [ 'name' => 'Swiftfox',             'id'    => 'swiftfox',      'regexp' =>'/Swiftfox/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing(?:\(And\))?\/([0-9.]*)/u', 'details' => 3 ],                                    // see: http://swing-browser.com
+        [ 'name' => 't-online.de',          'id'    => 'to-browser',      'regexp' =>'/TO-Browser\/TOB([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://www.t-online.de/computer/browser/
+        [ 'name' => 't-online.de',          'id'    => 'to-browser',      'regexp' =>'/TO-Browser/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'Tencent Traveler',     'id'    => 'tencent',      'regexp' =>'/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TenFourFox',           'id'    => 'tenfourfox',      'regexp' =>'/TenFourFox\//u' ],
         [ 'name' => 'The World',            'id'    => 'theworld',      'regexp' =>'/TheWorld(?: ([0-9.]*))?/u' ],
