@@ -59,6 +59,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => 'GlobalMojo',           'id'    => 'globalmojo',      'regexp' =>'/GlobalMojo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'GreenBrowser',         'id'    => 'greenbrowser',      'regexp' =>'/GreenBrowser/u', 'type' => Constants\DeviceType::DESKTOP ],       
         [ 'name' => 'Hydra Browser',        'id'    => 'hydra',      'regexp' =>'/Hydra Browser/u', 'type' => Constants\DeviceType::DESKTOP ],
