@@ -100,6 +100,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Kylo',                 'id'    => 'kylo',        'regexp' => '/ Kylo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://kylo.tv/
         [ 'name' => 'LBrowser',             'id'    => 'lbrowser',      'regexp' =>'/LBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'LieBao',               'id'    => 'lbbrowser',      'regexp' =>'/LBBROWSER/u' ],                                                                       // see: http://www.liebao.cn
+        [ 'name' => 'Light',                'id'    => 'light',       'regexp' => '/ Light\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://en.wikipedia.org/wiki/Light_(web_browser)
         [ 'name' => 'Lobo',                 'id'    => 'lobo',      'regexp' =>'/Lobo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: http://sourceforge.net/projects/xamj/files/Lobo%20Browser/
         [ 'name' => 'Lolifox',              'id'    => 'lolifox',     'regexp' => '/lolifox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://ja.wikipedia.org/wiki/Lolifox
         [ 'name' => 'Lovense',              'id'    => 'lovense',     'regexp' => '/Lovense\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://www.lovense.com/cam-model/guides/pc-phone
