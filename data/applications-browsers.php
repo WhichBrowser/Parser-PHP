@@ -60,6 +60,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'GreenBrowser',         'id'    => 'greenbrowser',      'regexp' =>'/GreenBrowser/u', 'type' => Constants\DeviceType::DESKTOP ],       
         [ 'name' => 'Hydra Browser',        'id'    => 'hydra',      'regexp' =>'/Hydra Browser/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCab(?: J)?[\/ ](?:Pre)?([0-9.]*)/u' ],

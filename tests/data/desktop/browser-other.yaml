@@ -139,6 +139,14 @@
     readable: 'Acoo Browser on Windows XP'
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; GreenBrowser)'
+    result: { browser: { name: 'GreenBrowser', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'GreenBrowser on Windows XP'
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Hydra Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'
+    result: { browser: { name: 'Hydra Browser', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Hydra Browser on Windows XP'
+-
     headers: 'User-Agent: Mozilla/4.5 (compatible; iCab 2.7.1; Macintosh; I; PPC)'
     readable: 'iCab 2.7.1 on Mac OS'
     result: { browser: { name: iCab, version: 2.7.1, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
@@ -162,10 +170,6 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; iRider 2.21.1108; FDM)'
     result: { browser: { name: 'iRider Browser', version: 2.21.1108, type: browser },os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'iRider Browser 2.21.1108 on Windows XP'
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Hydra Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'
-    result: { browser: { name: 'Hydra Browser', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
-    readable: 'Hydra Browser on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20071115 Firefox/2.0.0.6 LBrowser/2.0.0.6'
     result: { browser: { name: LBrowser, family: { name: Firefox, version: 2.0.0.6 }, version: 2.0.0.6, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
