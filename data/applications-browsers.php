@@ -67,6 +67,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'DPlus Browser',        'id'    => 'dplus',      'regexp' =>'/ DPlus ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Framafox',             'id'    => 'framafox',    'regexp' => '/Framafox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://framakey.org/telecharger/applications-portables-libres#internet
         [ 'name' => 'Freeu Browser',        'id'    => 'freeu',       'regexp' => '/ Free[Uu]\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: https://play.google.com/store/apps/details?id=com.freeuvpn.android&hl=en
         [ 'name' => 'Galeon',               'id'    => 'galeon',      'regexp' =>'/Galeon\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'GlobalMojo',           'id'    => 'globalmojo',      'regexp' =>'/GlobalMojo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
