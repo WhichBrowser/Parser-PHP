@@ -220,7 +220,7 @@
     readable: '37abc Browser 1.6.5.14 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.5.2526.111 Amigo/47.5.2526.111 MRCHROME SOC Safari/537.36'
-    result: { browser: { name: 'Amigo Browser', family: { name: Chrome, version: 47.5.2526.111 }, version: 47.5.2526.111, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Amigo Browser', family: { name: Chrome, version: 47 }, version: 47.5.2526.111, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Amigo Browser 47.5.2526.111 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; pt) Chrome/37.0.2049.0 (KHTML, like Gecko) Version/4.0 APUSBrowser/1.1.111 Safari/'
