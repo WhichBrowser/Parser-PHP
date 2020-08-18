@@ -125,6 +125,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Patriott Browser',     'id'    => 'patriott',      'regexp' =>'/Patriott\:\:Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],        // see: 	http://madgroup.x10.mx/patriott1.php
         [ 'name' => 'Perk',                 'id'    => 'perk',      'regexp' =>'/ Perk\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                         // see: http://www.perk.com/
         [ 'name' => 'Polarity',             'id'    => 'polarity',      'regexp' =>'/Polarity\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Privacy Browser',      'id'    => 'privacy',     'regexp' => '/PrivacyBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],               // see: https://www.stoutner.com/privacy-browser/
         [ 'name' => 'Qihoo 360',            'id'    => 'qihu',      'regexp' =>'/QIHU THEWORLD/u' ],
         [ 'name' => 'Qiyu Browser',         'id'    => 'qiyu',        'regexp' => '/Qiyu\/([0-9.]*)/i', 'type' => Constants\DeviceType::DESKTOP ],                         // see: https://apps.apple.com/cn/app/qi-yu-liu-lan-qi/id959447103
         [ 'name' => 'QtWeb',                'id'    => 'qtweb',      'regexp' =>'/QtWeb Internet Browser\/([0-9.]*)/u' ],
