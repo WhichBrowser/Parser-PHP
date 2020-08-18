@@ -94,6 +94,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',      'regexp' =>'/MxBrowser-iPhone\/([0-9.]*)/u' ],
         [ 'name' => 'MixShark',             'id'    => 'mixshark',      'regexp' =>'/MixShark\/([0-9.]*)/u' ],                                                             // see: http://terbaddo.free.fr/mixshark.php
         [ 'name' => 'mlbrowser',            'id'    => 'mlbrowser',      'regexp' =>'/mlbrowser/u' ],                                                                       // see: https://github.com/Topguy/mlbrowser
+        [ 'name' => 'Mypal Browser',        'id'    => 'mypal',       'regexp' => '/ Mypal\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/Feodor2/Mypal
         [ 'name' => 'Multi-Browser XP',     'id'    => 'multixp',      'regexp' =>'/Multi-Browser ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],  
         [ 'name' => 'NetPositive',          'id'    => 'netpositive',      'regexp' =>'/NetPositive\/([0-9.]*)/u' ],
         [ 'name' => 'Origyn',               'id'    => 'origyn',      'regexp' =>'/Origyn Web Browser/u' ],
