@@ -217,6 +217,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Jumanji',              'id'    => 'jumanji',      'regexp' =>'/jumanji/u' ],                                                                         // see: jumanji browser ubuntu
         [ 'name' => 'K.Browser',            'id'    => 'tnsbrowser',      'regexp' => '/TNSBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                   // see: https://play.google.com/store/apps/details?id=com.tnsua.browser
         [ 'name' => 'Kiosk',                'id'    => 'kiosk',      'regexp' =>'/Kiosk\/([0-9.]*)/u' ],                                                                // see: http://www.kioskbrowser.net
+        [ 'name' => 'Kiwi Browser',         'id'    => 'kiwi',          'regexp' => '/Kiwi Chrome\/([0-9.A-Z]*)/u' ],                                                       // see: https://kiwibrowser.com
         [ 'name' => 'LeBrowser',            'id'    => 'lebrowser',      'regexp' =>'/LeBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'LieBaoFast',           'id'    => 'liebao',      'regexp' =>'/LieBaoFast\/([0-9.]*)/u' ],                                                           // see: http://www.liebao.cn
         [ 'name' => 'MaCross Mobile',       'id'    => 'macross',      'regexp' =>'/MaCross\/([0-9.]*)/u' ],
