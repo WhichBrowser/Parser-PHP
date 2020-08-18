@@ -203,6 +203,10 @@
     result: { browser: { name: 'Opera GX', family: { name: Chrome, version: 73 }, version: '60.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Opera GX 60.0 on Windows 7'
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3390.0 Xvast/1.1.0.3 Safari/537.36'
+    readable: 'Xvast 1.1.0.3 on Windows 8'
+    result: { browser: { name: Xvast, family: { name: Chrome, version: 67 }, version: 1.1.0.3, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.571.0 Safari/534.12 ZipZap 3.1'
     readable: 'ZipZap 3.1 on Windows 7'
     result: { browser: { name: ZipZap, family: { name: Chrome, version: 9 }, version: '3.1', type: browser }, engine: { name: Webkit, version: '534.12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
