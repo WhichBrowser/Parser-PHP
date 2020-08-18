@@ -61,6 +61,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Comodo Dragon',        'id'    => 'dragon',      'regexp' =>'/Dragon\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Comodo IceDragon',     'id'    => 'dragon',      'regexp' =>'/IceDragon\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Conkeror',             'id'    => 'conkeror',      'regexp' =>'/[Cc]onkeror\/([0-9.]*)/u' ],
+        [ 'name' => 'Coc Coc',              'id'    => 'coc',      'regexp' => '/coc_coc_browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://coccoc.com/en/
         [ 'name' => 'CoolNovo',             'id'    => 'coolnovo',      'regexp' =>'/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Corom Browser',        'id'    => 'corom',         'regexp' => '/ CoRom\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://apkpure.com/corom-browser-for-android/com.coccoc.corom
         [ 'name' => 'Crazy Browser',        'id'    => 'crazy',       'regexp' => '/Crazy Browser ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
