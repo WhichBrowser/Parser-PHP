@@ -15,6 +15,7 @@ Applications::$BROWSERS = [
         [ 'name' => '2345 Explorer',        'id'    => '2345',      'regexp' =>'/2345Explorer\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => '2345 Explorer',        'id'    => '2345',      'regexp' =>'/2345Explorer v([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => '2345 Chrome',          'id'    => '2345',      'regexp' =>'/2345chrome v([0-9.]*)/u', 'details' => 3 ],
+        [ 'name' => '37abc Browser',        'id'    => '37abc',       'regexp' => '/ 37abc\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => '360 Extreme Explorer', 'id'    => 'qihu',      'regexp' =>'/QIHU 360EE/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => '1st Browser',          'id'    => '1stbrowser',  'regexp' => '/1stBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => '360 Safe Explorer',    'id'    => 'qihu',      'regexp' =>'/QIHU 360SE/u', 'type' => Constants\DeviceType::DESKTOP ],
