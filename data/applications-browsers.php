@@ -216,6 +216,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'MaCross Mobile',       'id'    => 'macross',      'regexp' =>'/MaCross\/([0-9.]*)/u' ],
         [ 'name' => 'Mammoth',              'id'    => 'mammoth',      'regexp' =>'/Mammoth\/([0-9.]*)/u' ],                                                              // see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
         [ 'name' => 'mCent Browser',        'id'    => 'mcent',      'regexp' =>'/mCent\/([0-9.]*)/u' ],
+        [ 'name' => 'Mint Browser',              'id'    => 'mint',          'regexp' => '/XiaoMi\/Mint Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],         // see: http://www.mintbrowser.com/
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'mib',      'regexp' =>'/MIB\/([0-9.]*)/u' ],
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'mib',      'regexp' =>'/MIB([0-9.]+)\//u' ],
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'cmcs',      'regexp' =>'/Browser\/CMCS([0-9.]*)/u' ],
