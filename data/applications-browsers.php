@@ -74,6 +74,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Doga Rhodonit',        'id'    => 'rhodonit',      'regexp' =>'/DogaRhodonit/u' ],
         [ 'name' => 'DPlus Browser',        'id'    => 'dplus',      'regexp' =>'/ DPlus ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'EudoraWeb',            'id'    => 'eudoraweb',      'regexp' =>'/EudoraWeb ([0-9.]*)/u' ],
+        [ 'name' => 'Falkon',               'id'    => 'falkon',      'regexp' => '/ Falkon\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://www.falkon.org/
         [ 'name' => 'FlameSky',             'id'    => 'flamesky',    'regexp' => '/FlameSky\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://github.com/flameskyofficial/flamesky
         [ 'name' => 'Flock',                'id'    => 'flock',      'regexp' =>'/Flock\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Framafox',             'id'    => 'framafox',    'regexp' => '/Framafox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://framakey.org/telecharger/applications-portables-libres#internet
