@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 AviraScout/17.6.3071.2851'
+    readable: 'Avira Scout 17.6.3071.2851 on Windows 10'
+    result: { browser: { name: 'Avira Scout', family: { name: Chrome, version: 59 }, version: 17.6.3071.2851, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.9) Gecko/20100101 Goanna/4.5 Firefox/68.9 Basilisk/20200311'
     readable: 'Basilisk 20200311 on Windows 10'
     result: { browser: { name: Basilisk, family: { name: Firefox, version: '68.9' }, version: '20200311', type: browser }, engine: { name: Goanna, version: '4.5' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
