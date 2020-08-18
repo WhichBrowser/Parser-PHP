@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34'
+    readable: 'Cloudflare Always Online 1.0'
+    result: { browser: { name: 'Cloudflare Always Online', version: '1.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)'
     readable: 'Moz 1.1'
     result: { browser: { name: Moz, version: '1.1' }, device: { type: bot } }
