@@ -139,6 +139,10 @@
     readable: 'Acoo Browser on Windows XP'
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Demeter/1.0.9 Safari/125'
+    readable: 'Demeter 1.0.9 on Mac OS X 10.5'
+    result: { browser: { name: Demeter, version: 1.0.9, type: browser }, engine: { name: Webkit, version: 525.27.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.5' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-pl) AppleWebKit/312.8 (KHTML, like Gecko, Safari) DeskBrowse/1.0'
     readable: 'DeskBrowse 1.0 on OS X'
     result: { browser: { name: DeskBrowse, version: '1.0', type: browser }, engine: { name: Webkit, version: '312.8' }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
