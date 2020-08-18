@@ -158,3 +158,43 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; iCab 3.0.3; Macintosh; U; PPC Mac OS)'
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: TulipChain/6.03 (http://ostermiller.org/tulipchain/) Java/1.4.2_05 (http://java.sun.com/) Windows_XP/5.1 RPT-HTTPClient/0.3-3'
+    readable: 'Tulip Chain 6.03 on Windows'
+    result: { browser: { name: 'Tulip Chain', version: '6.03', type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0 TO-Browser/TOB7.68.0.201_01'
+    readable: 't-online.de 7.68.0.201 on Windows 10'
+    result: { browser: { name: t-online.de, family: { name: Firefox, version: '68.0' }, version: 7.68.0.201, type: browser }, engine: { name: Gecko, version: '68.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Villanova/1.9.2.12 Polarity/3.0.0 Firefox/4.0'
+    readable: 'Polarity 3.0.0 on Windows 7'
+    result: { browser: { name: Polarity, family: { name: Firefox, version: '4.0' }, version: 3.0.0, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.1.9) Gecko/20071110 Sylera/3.0.20 SeaMonkey/1.1.6'
+    readable: 'Sylera 3.0.20 on Windows 7'
+    result: { browser: { name: Sylera, version: 3.0.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0(Compatible; Windows; U; en-US;) Sundance/0.9.0.33'
+    readable: 'Sundance 0.9.0.33 on Windows'
+    result: { browser: { name: Sundance, version: 0.9.0.33, type: browser }, os: { name: Windows }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7) Gecko/20070919 Swiftweasel/2.0.0.7'
+    readable: 'Swiftweasel 2.0.0.7 on Linux'
+    result: { browser: { name: Swiftweasel, version: 2.0.0.7, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20110610 Firefox/4.0.1 Sundial/4.0.1_1.0'
+    readable: 'Sundial 4.0.1 on Windows 7'
+    result: { browser: { name: Sundial, family: { name: Firefox, version: 4.0.1 }, version: 4.0.1, type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } },device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061025 Firefox/2.0 (Swiftfox)'
+    readable: 'Swiftfox on Linux'
+    result: { browser: { name: Swiftfox, family: { name: Firefox, version: '2.0' }, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36 MMS/1.0.2531.0'
+    result: { browser: { name: 'Opera Neon', family: { name: Chrome, version: 53 }, version: '1.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Opera Neon 1.0 on Windows 10'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.50747 OPRGX/60.0.3255.50747'
+    result: { browser: { name: 'Opera GX', family: { name: Chrome, version: 73 }, version: '60.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Opera GX 60.0 on Windows 7'
