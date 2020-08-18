@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) Patriott::Browser/1.0.0 Safari/533.3'
+    result: { browser: { name: 'Patriott Browser', version: 1.0.0, type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Patriott Browser 1.0.0 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22 Perk/3.6.0.0'
     result: { browser: { name: Perk, family: { name: Chrome, version: 25 }, version: 3.6.0.0, type: browser }, engine: { name: Webkit, version: '537.22' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
     readable: 'Perk 3.6.0.0 on Windows 8'
