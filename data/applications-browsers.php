@@ -43,6 +43,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Black Wren',           'id'    => 'blackwren',      'regexp' =>'/BlackWren\/([0-9.]*)/u', 'details' => 2 ],                                            // see: https://github.com/conmarap/jetbrowser
         [ 'name' => 'Blackbird',            'id'    => 'blackbird',      'regexp' =>'/Blackbird\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.blackbirdbrowser.com/
         [ 'name' => 'Brave',                'id'    => 'brave',      'regexp' =>'/brave\/([0-9.]*)/u' ],
+        [ 'name' => 'BrowseX',              'id'    => 'browsex',     'regexp' => '/BrowseX \(([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://dev.pdqi.com/fossil/browsex/doc/tip/index.html
         [ 'name' => 'Byffox',               'id'    => 'byffox',      'regexp' =>'/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Camino',               'id'    => 'camino',      'regexp' =>'/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
