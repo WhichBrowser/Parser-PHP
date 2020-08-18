@@ -48,6 +48,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Brave',                'id'    => 'brave',      'regexp' =>'/brave\/([0-9.]*)/u' ],
         [ 'name' => 'Brisk Bard',           'id'    => 'brisk',       'regexp' => '/BriskBard\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                    // see: https://www.briskbard.com/index.php?lang=en
         [ 'name' => 'BrowseX',              'id'    => 'browsex',     'regexp' => '/BrowseX \(([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://dev.pdqi.com/fossil/browsex/doc/tip/index.html
+        [ 'name' => 'Browzar',              'id'    => 'browzar',     'regexp' => '/Browzar/u', 'type' => Constants\DeviceType::DESKTOP ],                                 // see: http://browzar.com/
         [ 'name' => 'Byffox',               'id'    => 'byffox',      'regexp' =>'/Byffox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Camino',               'id'    => 'camino',      'regexp' =>'/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
