@@ -16,6 +16,7 @@ trait Engine
         $this->detectPresto($ua);
         $this->detectTrident($ua);
         $this->detectEdgeHTMLUseragent($ua);
+        $this->detectFlow($ua);
 
         return $this;
     }
@@ -169,6 +170,16 @@ trait Engine
         if (preg_match('/Edge\/([0-9.]*)/u', $ua, $match)) {
             $this->data->engine->name = 'EdgeHTML';
             $this->data->engine->version = new Version([ 'value' => $match[1], 'hidden' => true ]);
+        }
+    }
+
+    /* Flow */
+
+    private function detectFlow($ua)
+    {
+        if (preg_match('/EkiohFlow\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->engine->name = 'EkiohFlow';
+            $this->data->engine->version = new Version([ 'value' => $match[1] ]);
         }
     }
 }
