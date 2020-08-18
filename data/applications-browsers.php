@@ -97,8 +97,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'SunChrome',            'id'    => 'sunchrome',      'regexp' =>'/SunChrome\/([0-9.]*)/u' ],
         [ 'name' => 'Superbird',            'id'    => 'superbird',      'regexp' =>'/Super[Bb]ird\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing(?:\(And\))?\/([0-9.]*)/u', 'details' => 3 ],                                    // see: http://swing-browser.com
-        [ 'name' => 't-online.de',          'id'    => 'tonline',      'regexp' =>'/TO-Browser\/TOB([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://www.t-online.de/computer/browser/
-        [ 'name' => 't-online.de',          'id'    => 'tonline',      'regexp' =>'/TO-Browser/u', 'type' => Constants\DeviceType::DESKTOP ], 
+        [ 'name' => 't-online.de',          'id'    => 'to-browser',      'regexp' =>'/TO-Browser\/TOB([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://www.t-online.de/computer/browser/
+        [ 'name' => 't-online.de',          'id'    => 'to-browser',      'regexp' =>'/TO-Browser/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'Tencent Traveler',     'id'    => 'tencent',      'regexp' =>'/TencentTraveler ([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TenFourFox',           'id'    => 'tenfourfox',      'regexp' =>'/TenFourFox\//u' ],
         [ 'name' => 'The World',            'id'    => 'theworld',      'regexp' =>'/TheWorld(?: ([0-9.]*))?/u' ],
