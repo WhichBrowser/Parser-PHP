@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.1.9) Gecko/20071110 Sylera/3.0.20 SeaMonkey/1.1.6'
+    readable: 'Sylera 3.0.20 on Windows 7'
+    result: { browser: { name: Sylera, version: 3.0.20, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0(Compatible; Windows; U; en-US;) Sundance/0.9.0.33'
     readable: 'Sundance 0.9.0.33 on Windows'
     result: { browser: { name: Sundance, version: 0.9.0.33, type: browser }, os: { name: Windows }, device: { type: desktop } }
