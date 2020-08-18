@@ -52,6 +52,7 @@ Applications::$BOTS = [
     [ 'name' => 'BoardReader',                  'id'    => 'boardreader',      'regexp' => '/BoardReader\/([0-9.]*)/u' ],
     [ 'name' => 'Browsershots',                 'id'    => 'browsershots',      'regexp' => '/Browsershots/u' ],
     [ 'name' => 'BUbiNG',                       'id'    => 'bubing',      'regexp' => '/BUbiNG/u' ],
+    [ 'name' => 'Buck',                         'id'    => 'buck',      'regexp' => '/Buck\/([0-9.]*)/u' ],
     [ 'name' => 'Butterfly',                    'id'    => 'butterfly',      'regexp' => '/Butterfly\/([0-9.]*)/u' ],
     [ 'name' => 'Bytespider',                   'id'    => 'bytespider',      'regexp' => '/Bytespider/u' ],
     [ 'name' => 'CiteSeerX',                    'id'    => 'heritrix',      'regexp' => '/heritrix\/([0-9.]*)/u' ],
