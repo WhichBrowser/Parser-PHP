@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: FlameSky/5.0.0.0 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.2987.110 Safari/537.36'
+    result: { browser: { name: 'FlameSky', family: { name: Chrome, version: 64.0.2987.110 }, version: 5.0.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'FlameSky 5.0.0.0 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:43.0) Gecko/20100101 Firefox/43.0 Framafox/43.0.1'
     result: { browser: { name: 'Framafox', family: { name: Firefox, version: '43.0' }, version: 43.0.1, type: browser }, engine: { name: Gecko, version: '43.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Framafox 43.0.1 on Windows 7'
