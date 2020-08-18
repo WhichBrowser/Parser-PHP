@@ -251,6 +251,10 @@
     readable: 'Sparrow 0.1 on Windows 7'
     result: { browser: { name: Sparrow, family: { name: Chrome, version: 64 }, version: '0.1', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Station/1.57.1 Chrome/76.0.3809.131 Safari/537.36'
+    readable: 'Station Browser 1.57.1 on Windows 10'
+    result: { browser: { name: 'Station Browser', family: { name: Chrome, version: 76 }, version: 1.57.1, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: TulipChain/6.03 (http://ostermiller.org/tulipchain/) Java/1.4.2_05 (http://java.sun.com/) Windows_XP/5.1 RPT-HTTPClient/0.3-3'
     readable: 'Tulip Chain 6.03 on Windows'
     result: { browser: { name: 'Tulip Chain', version: '6.03', type: browser }, os: { name: Windows }, device: { type: desktop } }
