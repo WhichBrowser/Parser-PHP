@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Whale/2.7.97.12 Safari/537.36'
+    readable: 'Whale Browser 2.7.97.12 on Windows 10'
+    result: { browser: { name: 'Whale Browser', family: { name: Chrome, version: 80 }, version: 2.7.97.12, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: WinWAP/4.1 (Win32) WinWAP-X/4.1.0.192'
     readable: 'WinWAP Browser 4 on Windows'
     result: { browser: { name: 'WinWAP Browser', version: 4, type: browser }, os: { name: Windows }, device: { type: desktop } }
