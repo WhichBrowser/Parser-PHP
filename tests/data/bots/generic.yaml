@@ -518,3 +518,47 @@
     headers: 'User-Agent: Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)'
     readable: 'Buck 2.2'
     result: { browser: { name: Buck, version: '2.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)'
+    readable: 'Netcraft Survey Bot 1.0'
+    result: { browser: { name: 'Netcraft Survey Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DomainCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/example.com)'
+    readable: 'DomainCrawler 3.0'
+    result: { browser: { name: DomainCrawler, version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +http://go.mail.ru/help/robots)'
+    readable: 'Mail.ru Bot 2.0'
+    result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)'
+    readable: 'Bytespider'
+    result: { browser: { name: Bytespider }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
+    readable: 'Yelp Spider 1.0'
+    result: { browser: { name: 'Yelp Spider', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
+    readable: 'Slackbot Link Checker 1.0'
+    result: { browser: { name: 'Slackbot Link Checker', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Florienzh/1.0'
+    readable: 'Florienzh 1.0'
+    result: { browser: { name: Florienzh, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)'
+    readable: 'Discord 2.0'
+    result: { browser: { name: Discord, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Voat.co OpenGraph Parser'
+    readable: 'Voat'
+    result: { browser: { name: Voat }, device: { type: bot } }
+-
+    headers: 'User-Agent: PocketImageCache/1.0'
+    readable: 'Pocket 1.0'
+    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
+    readable: 'Pocket 2.0'
+    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
