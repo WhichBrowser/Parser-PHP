@@ -211,6 +211,10 @@
     result: { browser: { name: 'Opera GX', family: { name: Chrome, version: 73 }, version: '60.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Opera GX 60.0 on Windows 7'
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1pre) Gecko/20090629 Vonkeror/1.0'
+    readable: 'Vonkeror 1.0 on Windows XP'
+    result: { browser: { name: Vonkeror, version: '1.0', type: browser }, engine: { name: Gecko, version: 1.9.1pre }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; JyxoToolbar1.0; SV1; UltraBrowser 11.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322)'
     readable: 'UltraBrowser 11.0 on Windows XP'
     result: { browser: { name: UltraBrowser, version: '11.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
