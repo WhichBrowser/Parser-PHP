@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.0; NetCaptor 6.5.0RC1)'
+    result: { browser: { name: NetCaptor, version: 6.5.0, type: browser }, os: { name: Windows, version: { value: '5.0', alias: 2000 } }, device: { type: desktop } }
+    readable: 'NetCaptor 6.5.0 on Windows 2000'
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; Open Live Writer 1.0)'
     readable: 'Open Live Writer 1.0 on Windows 7'
     result: { browser: { name: 'Open Live Writer', using: { name: 'Internet Explorer', version: '11.0' }, version: '1.0', type: browser }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
