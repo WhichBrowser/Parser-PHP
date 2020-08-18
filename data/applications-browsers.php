@@ -163,6 +163,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Xvast',                'id'    => 'xvast',      'regexp' =>'/Xvast\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                            // see: http://www.xvast.com/
         [ 'name' => 'Yandex Browser',       'id'    => 'yabrowser',      'regexp' =>'/YaBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Zvu Browser',          'id'    => 'zvu',         'regexp' => '/ Zvu\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                         // see: http://zvu.com/
         [ 'name' => 'ZipZap',               'id'    => 'zipzap',      'regexp' =>'/ZipZap ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                             // see: http://www.zipzaphome.com/
 
         /* Mobile browsers */

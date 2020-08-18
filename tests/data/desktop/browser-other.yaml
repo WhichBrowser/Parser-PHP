@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20130204 Zvu/18.0.1'
+    result: { browser: { name: 'Zvu Browser', version: 18.0.1, type: browser }, engine: { name: Gecko, version: '18.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Zvu Browser 18.0.1 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.0.0 Chrome/56.0.2924.122 Safari/537.36'
     result: { browser: { name: 'Falkon', family: { name: Chrome, version: 56.0.2924.122 }, version: 3.0.0, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
     readable: 'Falkon 3.0.0 on Linux'
