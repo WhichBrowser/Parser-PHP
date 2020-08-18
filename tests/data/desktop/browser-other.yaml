@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) min/1.2.2 Chrome/49.0.2623.75 Electron/0.37.1 Safari/537.36'
+    result: { browser: { name: 'Min Browser', using: { name: Electron, version: 0.37.1 }, family: { name: Chrome, version: 49.0.2623.75 }, version: 1.2.2, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Min Browser 1.2.2 on Windows 7'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/532.4 (KHTML, like Gecko) MiniBrowser/3.0 Safari/532.4'
     result: { browser: { name: 'Mini Browser', version: '3.0', type: browser }, engine: { name: Webkit, version: '532.4' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Mini Browser 3.0 on Windows 7'

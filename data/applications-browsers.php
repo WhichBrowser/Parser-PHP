@@ -92,6 +92,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Madfox',               'id'    => 'madfox',      'regexp' =>'/Madfox\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ], 
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',      'regexp' =>'/MxBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Maxthon',              'id'    => 'mxbrowser',      'regexp' =>'/MxBrowser-iPhone\/([0-9.]*)/u' ],
+        [ 'name' => 'Min Browser',          'id'    => 'min',         'regexp' => '/ min\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                         // see: https://minbrowser.github.io/min/
         [ 'name' => 'Mini Browser',         'id'    => 'mini',        'regexp' => '/ MiniBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://dmkho.tripod.com/mb/index.html
         [ 'name' => 'MixShark',             'id'    => 'mixshark',      'regexp' =>'/MixShark\/([0-9.]*)/u' ],                                                             // see: http://terbaddo.free.fr/mixshark.php
         [ 'name' => 'mlbrowser',            'id'    => 'mlbrowser',      'regexp' =>'/mlbrowser/u' ],                                                                       // see: https://github.com/Topguy/mlbrowser
