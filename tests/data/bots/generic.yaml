@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: DomainCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/example.com)'
+    readable: 'DomainCrawler 3.0'
+    result: { browser: { name: DomainCrawler, version: '3.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +http://go.mail.ru/help/robots)'
     readable: 'Mail.ru Bot 2.0'
     result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
