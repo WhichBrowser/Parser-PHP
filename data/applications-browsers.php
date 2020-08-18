@@ -114,6 +114,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Mypal Browser',        'id'    => 'mypal',       'regexp' => '/ Mypal\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/Feodor2/Mypal
         [ 'name' => 'Multi-Browser XP',     'id'    => 'multixp',      'regexp' =>'/Multi-Browser ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],  
         [ 'name' => 'NetPositive',          'id'    => 'netpositive',      'regexp' =>'/NetPositive\/([0-9.]*)/u' ],
+        [ 'name' => 'Nichrome',             'id'    => 'nichrome',    'regexp' => '/Nichrome\/self\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Origyn',               'id'    => 'origyn',      'regexp' =>'/Origyn Web Browser/u' ],
         [ 'name' => 'Odyssey',              'id'    => 'owb',      'regexp' =>'/OWB\/([0-9.]*)/u' ],
         [ 'name' => 'Open Live Writer',     'id'    => 'live',      'regexp' =>'/Open Live Writer ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],             // see: http://openlivewriter.org/  
