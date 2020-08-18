@@ -47,6 +47,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Camino',               'id'    => 'camino',      'regexp' =>'/Camino\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
         [ 'name' => 'Charon',               'id'    => 'charon',      'regexp' =>'/Charon/' ],                                                                           // see: http://www.vitanuova.com/inferno/man/1/charon.html
+        [ 'name' => 'Chim Lac',             'id'    => 'chimlac',     'regexp' => '/chimlac_browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://chimlac.com.vn/
         [ 'name' => 'ChromePlus',           'id'    => 'chromeplus',      'regexp' =>'/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Colibri',              'id'    => 'colibri',     'regexp' => '/Colibri\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://colibri.opqr.co/
         [ 'name' => 'Columbus',             'id'    => 'columbus',      'regexp' =>'/Columbus\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
