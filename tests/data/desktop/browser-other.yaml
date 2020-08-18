@@ -162,3 +162,11 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061025 Firefox/2.0 (Swiftfox)'
     readable: 'Swiftfox on Linux'
     result: { browser: { name: Swiftfox, family: { name: Firefox, version: '2.0' }, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36 MMS/1.0.2531.0'
+    result: { browser: { name: 'Opera Neon', family: { name: Chrome, version: 53 }, version: '1.0.2531.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Opera Neon 1.0.2531.0 on Windows 10'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.50747 OPRGX/60.0.3255.50747'
+    result: { browser: { name: 'Opera GX', family: { name: Chrome, version: 73 }, version: '60.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'Opera GX 60.0 on Windows 7'
