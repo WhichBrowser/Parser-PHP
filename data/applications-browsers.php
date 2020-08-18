@@ -53,6 +53,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'CCleaner Browser',     'id'    => 'ccleaner',    'regexp' => '/CCleaner\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.ccleaner.com/ccleaner/browser
         [ 'name' => 'Charon',               'id'    => 'charon',      'regexp' =>'/Charon/' ],                                                                           // see: http://www.vitanuova.com/inferno/man/1/charon.html
         [ 'name' => 'Chim Lac',             'id'    => 'chimlac',     'regexp' => '/chimlac_browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://chimlac.com.vn/
+        [ 'name' => 'Chimera',              'id'    => 'chimera',     'regexp' => '/ Chimera\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'ChromePlus',           'id'    => 'chromeplus',      'regexp' =>'/ChromePlus(?:\/([0-9.]*))?$/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Colibri',              'id'    => 'colibri',     'regexp' => '/Colibri\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://colibri.opqr.co/
         [ 'name' => 'Columbus',             'id'    => 'columbus',      'regexp' =>'/Columbus\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],

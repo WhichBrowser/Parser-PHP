@@ -207,6 +207,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X PPC Mac OS X 10.4; en-US; rv:1.0.1) Gecko/20030111 Chimera/0.6'
+    result: { browser: { name: Chimera, version: '0.6', type: browser }, engine: { name: Gecko, version: 1.0.1 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Chimera 0.6 on Mac OS X 10.4'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/46.0 Chrome/40.0.2214.96 Safari/537.36'
     readable: 'Coc Coc 46.0 on Windows 10'
     result: { browser: { name: 'Coc Coc', family: { name: Chrome, version: 40 }, version: '46.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
