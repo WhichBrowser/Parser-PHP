@@ -92,6 +92,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/TwitterAndroid/u' ],
         [ 'name' => 'Twitter',              'id'    => 'twitter',      'regexp' =>'/Twitter for iPhone/u' ],
         [ 'name' => 'WordPress',            'id'    => 'wp-android',      'regexp' =>'/wp-android\/([0-9.]*)/u' ],
+        [ 'name' => 'Yelp',                 'id'    => 'yelp',      'regexp' =>'/YelpApp\/([0-9.]*)/u' ],
     ],
 
     Constants\BrowserType::APP_OFFICE => [
