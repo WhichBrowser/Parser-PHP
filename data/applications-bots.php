@@ -65,6 +65,7 @@ Applications::$BOTS = [
     [ 'name' => 'Daumoa',                       'id'    => 'daumoa',      'regexp' => '/Daumoa ([0-9.]*)/u' ],
     [ 'name' => 'Digg',                         'id'    => 'digg',      'regexp' => '/Digg Deeper\/v([0-9.]*)/u' ],
     [ 'name' => 'Digg',                         'id'    => 'digg',      'regexp' => '/Digg\/([0-9.]*)/u' ],
+    [ 'name' => 'Discord',                      'id'    => 'discord',      'regexp' => '/Discordbot\/([0-9.]*)/u' ],
     [ 'name' => 'Domain Re-Animator',           'id'    => 'domain',      'regexp' => '/Domain Re-Animator Bot/u' ],
     [ 'name' => 'Exabot Thumbnails',            'id'    => 'exabot',      'regexp' => '/Exabot-Thumbnails/u' ],
     [ 'name' => 'ExactSeek',                    'id'    => 'exactseek',      'regexp' => '/ExactSeek Crawler/u' ],
@@ -92,6 +93,7 @@ Applications::$BOTS = [
     [ 'name' => 'FeedValidator',                'id'    => 'validator',      'regexp' => '/FeedValidator\/([0-9.]*)/u' ],
     [ 'name' => 'FeedZirra',                    'id'    => 'feed',      'regexp' => '/feedzirra/u' ],
     [ 'name' => 'Fever',                        'id'    => 'fever',      'regexp' => '/Fever\/([0-9.]*)/u' ],
+    [ 'name' => 'Florienzh',                    'id'    => 'florienzh',      'regexp' => '/Florienzh\/([0-9.]*)/u' ],
     [ 'name' => 'Friendica',                    'id'    => 'friendica',      'regexp' => '/Friendica/u' ],
     [ 'name' => 'FTRF: Friendly Robot',         'id'    => 'robot',      'regexp' => '/FTRF: Friendly robot\/([0-9.]*)/u' ],
     [ 'name' => 'Genieo Web Filter',            'id'    => 'genieo',      'regexp' => '/Genieo\/([0-9.]*)/u' ],
@@ -169,6 +171,8 @@ Applications::$BOTS = [
     [ 'name' => 'Picsearch bot',                'id'    => 'psbot',      'regexp' => '/psbot-page/u' ],
     [ 'name' => 'Pingdom',                      'id'    => 'pingdom',      'regexp' => '/Pingdom.com_bot_version_([0-9.]*)/u' ],
     [ 'name' => 'Pinterest',                    'id'    => 'pinterest',      'regexp' => '/Pinterest\/([0-9.]+)( \(+|$)/u' ],
+    [ 'name' => 'Pocket',                       'id'    => 'pocket',      'regexp' => '/PocketImageCache\/([0-9.]+)/u' ],
+    [ 'name' => 'Pocket',                       'id'    => 'pocket',      'regexp' => '/PocketParser\/([0-9.]+)/u' ],
     [ 'name' => 'PostRank',                     'id'    => 'postrank',      'regexp' => '/PostRank\/([0-9.]*)/u' ],
     [ 'name' => 'PowerMapper',                  'id'    => 'crawler',      'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'feed',      'regexp' => '/R6_FeedFetcher/u' ],
@@ -188,6 +192,7 @@ Applications::$BOTS = [
     [ 'name' => 'SilverReader',                 'id'    => 'reader',      'regexp' => '/SilverReader\/([0-9.]*)/u' ],
     [ 'name' => 'SimplePie',                    'id'    => 'simplepie',      'regexp' => '/SimplePie\/([0-9.]*)/u' ],
     [ 'name' => 'Site24x7',                     'id'    => 'site24',      'regexp' => '/Site24x7/u' ],
+    [ 'name' => 'Slackbot Link Checker',        'id'    => 'slack',      'regexp' => '/Slackbot-LinkExpanding ([0-9.]*)/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/sogou spider/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou pic spider\/([0-9.]*)/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou inst spider\/([0-9.]*)/u' ],
@@ -209,6 +214,7 @@ Applications::$BOTS = [
     [ 'name' => 'TLSProber',                    'id'    => 'tlsprober',      'regexp' => '/TLSProber\/([0-9.]*)/u' ],
     [ 'name' => 'Typhoeus',                     'id'    => 'typhoeus',      'regexp' => '/Typhoeus/u' ],
     [ 'name' => 'Vagabondo',                    'id'    => 'vagabondo',      'regexp' => '/Vagabondo\/([0-9.]*)/u' ],
+    [ 'name' => 'Voat',                         'id'    => 'voat',      'regexp' => '/Voat\.co OpenGraph Parser/u' ],
     [ 'name' => 'Voilabot',                     'id'    => 'voila',      'regexp' => '/Voila[Bb]ot/u' ],
     [ 'name' => 'VocusBot',                     'id'    => 'vocus',      'regexp' => '/VocusBot ([0-9.]*)/u' ],
     [ 'name' => 'Vodafone mCrawler',            'id'    => 'mcrawler',      'regexp' => '/Vodafone mCrawler/u' ],
@@ -268,6 +274,8 @@ Applications::$BOTS = [
 
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/u' ],
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/u' ],
+    
+    [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
 
     /* Generic bots */
     [ 'name' => 'Apache Httpd',                 'id'    => 'httpclient',      'regexp' => '/Apache-HttpClient(?:\/([0-9.]*))?/u' ],
