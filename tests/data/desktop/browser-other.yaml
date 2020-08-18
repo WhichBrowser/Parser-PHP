@@ -139,6 +139,10 @@
     readable: 'Acoo Browser on Windows XP'
     result: { browser: { name: 'Acoo Browser', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008120120 Blackbird/0.9991'
+    result: { browser: { name: 'Blackbird', version: '0.9991', type: browser }, engine: { name: Gecko, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'Blackbird 0.9991 on Windows XP'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) Columbus/1.2.1.0 Safari/533.3'
     result: { browser: { name: Columbus, version: 1.2.1.0, type: browser }, engine: { name: Webkit, version: '533.3' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Columbus 1.2.1.0 on Windows 7'
