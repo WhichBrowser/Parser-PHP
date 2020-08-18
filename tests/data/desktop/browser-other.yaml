@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7) Gecko/20070919 Swiftweasel/2.0.0.7'
+    readable: 'Swiftweasel 2.0.0.7 on Linux'
+    result: { browser: { name: Swiftweasel, version: 2.0.0.7, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20110610 Firefox/4.0.1 Sundial/4.0.1_1.0'
     readable: 'Sundial 4.0.1 on Windows 7'
     result: { browser: { name: Sundial, family: { name: Firefox, version: 4.0.1 }, version: 4.0.1, type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } },device: { type: desktop } }
