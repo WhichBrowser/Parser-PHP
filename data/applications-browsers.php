@@ -327,7 +327,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Snowshoe',             'id'    => 'snowshoe',      'regexp' =>'/Snowshoe\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Sputnik',              'id'    => 'sputnik',      'regexp' =>'/Sputnik\/([0-9.]*)/iu', 'details' => 3 ],
         [ 'name' => 'Surf',                 'id'    => 'surf',      'regexp' =>'/Surf\/([0-9.]*)/u' ],
-        [ 'name' => 'TaoBrowser',           'id'    => 'tao',      'regexp' =>'/TaoBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Taobao Browser',       'id'    => 'tao',      'regexp' =>'/TaoBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TaomeeBrowser',        'id'    => 'tao',      'regexp' =>'/TaomeeBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TazWeb',               'id'    => 'taz',      'regexp' =>'/TazWeb/u' ],
         [ 'name' => 'Uzbl',                 'id'    => 'uzbl',      'regexp' =>'/^Uzbl/u' ],
