@@ -158,6 +158,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Usejump',              'id'    => 'usejump',      'regexp' =>'/Usejump\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Vimprobable',          'id'    => 'vimprobable',      'regexp' =>'/Vimprobable\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'VMware Workspace ONE', 'id'    => 'airwatch',      'regexp' => '/Air[Ww]atch Browser v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Vonkeror',             'id'    => 'vonkeror',      'regexp' =>'/Vonkeror\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Voyager',              'id'    => 'voyager',      'regexp' =>'/AmigaVoyager\/([0-9.]*)/u' ],
         [ 'name' => 'Waterfox',             'id'    => 'waterfox',      'regexp' =>'/Waterfox\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
