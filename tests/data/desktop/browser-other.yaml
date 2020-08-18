@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.16817 Safari/537.36 Sparrow/0.1'
+    readable: 'Sparrow 0.1 on Windows 7'
+    result: { browser: { name: Sparrow, family: { name: Chrome, version: 64 }, version: '0.1', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: TulipChain/6.03 (http://ostermiller.org/tulipchain/) Java/1.4.2_05 (http://java.sun.com/) Windows_XP/5.1 RPT-HTTPClient/0.3-3'
     readable: 'Tulip Chain 6.03 on Windows'
     result: { browser: { name: 'Tulip Chain', version: '6.03', type: browser }, os: { name: Windows }, device: { type: desktop } }
