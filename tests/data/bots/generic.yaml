@@ -515,6 +515,10 @@
     readable: 'Pinterest 0.2'
     result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)'
+    readable: 'Semrush 6'
+    result: { browser: { name: Semrush, version: '6' }, device: { type: bot } }
+-
     headers: 'User-Agent: Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)'
     readable: 'Buck 2.2'
     result: { browser: { name: Buck, version: '2.2' }, device: { type: bot } }
