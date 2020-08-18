@@ -159,6 +159,10 @@
     readable: 'iCab 3.0.3 on Mac OS'
     result: { browser: { name: iCab, version: 3.0.3, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; iRider 2.21.1108; FDM)'
+    result: { browser: { name: 'iRider Browser', version: 2.21.1108, type: browser },os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'iRider Browser 2.21.1108 on Windows XP'
+-
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20071115 Firefox/2.0.0.6 LBrowser/2.0.0.6'
     result: { browser: { name: LBrowser, family: { name: Firefox, version: 2.0.0.6 }, version: 2.0.0.6, type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: Linux }, device: { type: desktop } }
     readable: 'LBrowser 2.0.0.6 on Linux'
