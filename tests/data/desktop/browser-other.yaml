@@ -229,11 +229,11 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36 Slimjet/19.0.2.0'
     result: { browser: { name: 'Slimjet', family: { name: Chrome, version: 66 }, version: 19.0.2.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
-    readable: 'SlimJet 19.0.2.0 on Windows 10'
+    readable: 'Slimjet 19.0.2.0 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Safari/605.1.15 (Airwatch Browser v7.9)'
     result: { browser: { name: 'VMware Workspace ONE', version: '7.9', type: browser }, engine: { name: Webkit, version: '605.1.15' }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'VMware Browser 7.9 on OS X El Capitan 10.11'
+    readable: 'VMware Workspace ONE 7.9 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Whale/2.7.97.12 Safari/537.36'
     readable: 'Whale Browser 2.7.97.12 on Windows 10'
