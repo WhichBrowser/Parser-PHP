@@ -76,6 +76,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'CoolNovo',             'id'    => 'coolnovo',      'regexp' =>'/(?:CoolNovo|CoolNovoChromePlus)\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Corom Browser',        'id'    => 'corom',         'regexp' => '/ CoRom\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://apkpure.com/corom-browser-for-android/com.coccoc.corom
         [ 'name' => 'Crazy Browser',        'id'    => 'crazy',       'regexp' => '/Crazy Browser ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Crusta',               'id'    => 'crusta',      'regexp' => '/ Crusta\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/Tarptaeya/Crusta
         [ 'name' => 'Cunaguaro',            'id'    => 'cunaguaro',      'regexp' =>'/Cunaguaro\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Cyberdog',             'id'    => 'cyberdog',      'regexp' =>'/Cyberdog\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Cyberfox',             'id'    => 'cyberfox',      'regexp' =>'/Cyberfox\/([0-9.]*)/u', 'details' => 2 ],                                             // see: https://cyberfox.8pecxstudios.com
