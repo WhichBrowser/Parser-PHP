@@ -239,6 +239,10 @@
     readable: 'UltraBrowser 11.0 on Windows XP'
     result: { browser: { name: UltraBrowser, version: '11.0', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/532.4 (KHTML, like Gecko) Usejump/0.10.5 Safari/532.4'
+    readable: 'Usejump 0.10 on Windows 7'
+    result: { browser: { name: Usejump, version: '0.10', type: browser }, engine: { name: Webkit, version: '532.4' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
     headers: 'User-Agent: Vimprobable/0.9.20.5'
     readable: 'Vimprobable 0.9.20.5'
     result: { browser: { name: Vimprobable, version: '0.9.20.5', type: browser }, device: { type: desktop } }
