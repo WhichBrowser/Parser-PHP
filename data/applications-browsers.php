@@ -59,6 +59,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Cyberdog',             'id'    => 'cyberdog',      'regexp' =>'/Cyberdog\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Cyberfox',             'id'    => 'cyberfox',      'regexp' =>'/Cyberfox\/([0-9.]*)/u', 'details' => 2 ],                                             // see: https://cyberfox.8pecxstudios.com
         [ 'name' => 'Daedalus',             'id'    => 'daedalus',      'regexp' =>'/Daedalus ([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Deg-degan',            'id'    => 'degan',       'regexp' => '/Degdegan\/([0-9.]*)/u', 'details' => 3, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Demeter',              'id'    => 'demeter',      'regexp' =>'/Demeter\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'DeskBrowse',           'id'    => 'deskbrowse',      'regexp' =>'/DeskBrowse\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Dillo',                'id'    => 'dillo',      'regexp' =>'/Dillo\/([0-9.]*)/u' ],                                                                // see: http://www.dillo.org
