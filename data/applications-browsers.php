@@ -52,6 +52,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Canure',               'id'    => 'canure',      'regexp' =>'/Canure\/([0-9.]*)/u', 'details' => 3 ],                                               // see: http://canure.weebly.com/index.html
         [ 'name' => 'CCleaner Browser',     'id'    => 'ccleaner',    'regexp' => '/CCleaner\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.ccleaner.com/ccleaner/browser
         [ 'name' => 'Charon',               'id'    => 'charon',      'regexp' =>'/Charon/' ],                                                                           // see: http://www.vitanuova.com/inferno/man/1/charon.html
+        [ 'name' => 'Chedot',               'id'    => 'chedot',      'regexp' => '/ Chedot\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://landing.chedot.com/
         [ 'name' => 'Cheshire',             'id'    => 'cheshire',    'regexp' => '/ Cheshire\/([0-9.A-Z]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Chim Lac',             'id'    => 'chimlac',     'regexp' => '/chimlac_browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],              // see: https://chimlac.com.vn/
         [ 'name' => 'Chimera',              'id'    => 'chimera',     'regexp' => '/ Chimera\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
