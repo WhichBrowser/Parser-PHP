@@ -431,5 +431,5 @@
     readable: 'Opera 12.16 on Windows 8'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36 JuziBrowser'
-    readable: 'Juzi Browser on Windows 10'
-    result: { browser: { name: 'Juzi Browser', family: { name: Chrome, version: 48 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'Orange Browser on Windows 10'
+    result: { browser: { name: 'Orange Browser', family: { name: Chrome, version: 48 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
