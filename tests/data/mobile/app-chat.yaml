@@ -106,3 +106,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2;LG-F320S) AppleWebKit/537.36 (KHTML, like Gecko) Zalo/1.0 Safari/537.36'
     readable: 'Zalo 1.0 on a LG G2 running Android 4.4.2'
     result: { browser: { name: Zalo, version: '1.0', type: 'app:chat' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+-
+    headers: 'User-Agent: Zalo-win32-24v294'
+    readable: 'Zalo 1.0 on a LG G2 running Android 4.4.2'
+    result: { browser: { name: Zalo, version: '1.0', type: 'app:chat' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
