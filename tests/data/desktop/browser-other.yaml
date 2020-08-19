@@ -556,5 +556,5 @@
     readable: 'SalamWeb 3.0.1.592 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36'
-    result: { browser: { name: 'SalamWeb', family: { name: Chrome, version: 75.0.3770.101 }, version: 3.0.1.592, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'SalamWeb on Windows 7'
