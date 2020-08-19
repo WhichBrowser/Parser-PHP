@@ -108,8 +108,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'IceCat',               'id'    => 'icecat',      'regexp' =>'/IceCat[ \/]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                   // see: https://www.gnu.org/software/gnuzilla/
         [ 'name' => 'Icedove',              'id'    => 'icedove',     'regexp' => '/ Icedove\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://wiki.debian.org/Icedove
         [ 'name' => 'Iceweasel',            'id'    => 'iceweasel',      'regexp' =>'/Iceweasel\/([0-9.]*)/iu', 'type' => Constants\DeviceType::DESKTOP ],
-        [ 'name' => 'ICE Browser',          'id'    => 'icebrow',     'regexp' => '/ICEbrowser\/v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.icesoft.org/java/home.jsf
-        [ 'name' => 'ICE Browser',          'id'    => 'icebrow',     'regexp' => '/ICE Browser\/v([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'ICE Browser',          'id'    => 'icebrow',     'regexp' => '/ICE[ ]browser\/[v ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.icesoft.org/java/home.jsf
         [ 'name' => 'iRider Browser',       'id'    => 'irider',      'regexp' =>'/iRider ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Iridium',              'id'    => 'iridium',      'regexp' =>'/Iridium\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
         [ 'name' => 'Iron',                 'id'    => 'iron',      'regexp' =>'/Iron\/([0-9.]*)/u', 'details' => 2 ],                                                 // see: http://www.srware.net/en/software_srware_iron.php
