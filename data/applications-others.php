@@ -72,6 +72,8 @@ Applications::$OTHERS = [
         [ 'name' => 'Facebook Messenger',   'id'    => 'messenger',      'regexp' =>'/FBAN\/MessengerForiOS/u' ],
         [ 'name' => 'Facebook Messenger',   'id'    => 'messenger',      'regexp' =>'/FB_IAB\/MESSENGER/u' ],
         [ 'name' => 'Kik',                  'id'    => 'kik',      'regexp' =>'/Kik\/([0-9.]*?)(\.0)?\.[0-9]{3,4}/u' ],
+        [ 'name' => 'Line',                 'id'    => 'line',            'regexp' => '/ Line\/([0-9.]*)/u' ],
+        [ 'name' => 'Slack',                'id'    => 'slack',            'regexp' => '/ Slack_SSB\/([0-9.]*)/u' ],
         [ 'name' => 'Viber',                'id'    => 'viber',            'regexp' => '/Viber\/([0-9.]*)/u' ],
         [ 'name' => 'WeChat',               'id'    => 'messenger',      'regexp' =>'/MicroMessenger\/([0-9.]*)/u' ],
         [ 'name' => 'Wire',                 'id'    => 'wire',      'regexp' =>'/Wire\/([0-9.]*)/u' ],
