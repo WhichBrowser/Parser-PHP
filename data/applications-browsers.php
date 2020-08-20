@@ -161,6 +161,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Ryouko',               'id'    => 'ryouko',      'regexp' =>'/Ryouko\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: https://github.com/foxhead128/ryouko
         [ 'name' => 'Sylera',               'id'    => 'sylera',      'regexp' =>'/Sylera\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // Needs to be discovered before SeaMonkey Browser, see: https://ja.wikipedia.org/wiki/Sylera
         [ 'name' => 'SaaYaa Explorer',      'id'    => 'saayaa',      'regexp' =>'/SaaYaa/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'SalamWeb',             'id'    => 'salam',       'regexp' => '/SalamWeb\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://salamweb.com/
+        [ 'name' => 'SalamWeb',             'id'    => 'salam',       'regexp' => '/Salam Browser/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Shiira',               'id'    => 'shiira',      'regexp' => '/Shiira/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sielo Browser',        'id'    => 'sielo',       'regexp' => '/ Sielo\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                       // see: https://github.com/SieloBrowser/sielo-legacy
         [ 'name' => 'SiteKiosk',            'id'    => 'sitekiosk',   'regexp' => '/SiteKiosk ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.provisio.com/web/us/products/windows-kiosk-software-sitekiosk
@@ -168,6 +170,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Slimjet',              'id'    => 'slimjet',     'regexp' => '/ Slimjet\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.slimjet.com/
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sparrow',              'id'    => 'sparrow',      'regexp' =>'/Sparrow\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Sputnik',              'id'    => 'sputnik',     'regexp' => '/SputnikBrowser\/([0-9.]*)/u' ],                                                         // see: https://browser.sputnik.ru/
         [ 'name' => 'Stainless',            'id'    => 'stainless',      'regexp' =>'/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
         [ 'name' => 'Station Browser',      'id'    => 'station',     'regexp' => '/ Station\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://getstation.com/
         [ 'name' => 'SunChrome',            'id'    => 'sunchrome',      'regexp' =>'/SunChrome\/([0-9.]*)/u' ],
