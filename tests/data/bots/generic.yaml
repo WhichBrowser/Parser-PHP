@@ -587,10 +587,6 @@
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: httpunit/1.x'
-    readable: 'x'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
--
     headers: 'User-Agent: httpunit/1.5'
-    readable: 'x'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Java 1.5'
+    result: { browser: { name: Java, version: '1.5' }, device: { type: bot } }
