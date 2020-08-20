@@ -550,3 +550,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.571.0 Safari/534.12 ZipZap 3.1'
     readable: 'ZipZap 3.1 on Windows 7'
     result: { browser: { name: ZipZap, family: { name: Chrome, version: 9 }, version: '3.1', type: browser }, engine: { name: Webkit, version: '534.12' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) SalamWeb/3.0.1.592 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Safari/537.36'
+    result: { browser: { name: 'SalamWeb', family: { name: Chrome, version: 75.0.3770.101 }, version: 3.0.1.592, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'SalamWeb 3.0.1.592 on Windows 7'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36'
+    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'SalamWeb on Windows 7'
