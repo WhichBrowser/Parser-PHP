@@ -1,88 +1,120 @@
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/vfnl;FBID/phone;FBLC/nl_NL;FBOP/5'
-    result: { browser: { name: Facebook, version: 46.0.0.54.156, type: 'app:social' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6' } }
-    readable: 'Facebook 46.0.0.54 on an Apple iPhone 6 running iOS 8.1.3'
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D14 Yammer/6.5.10.4304 (iPhone8,1; iPhone OS 9.2.1; fr_BE; xx; Scale/2.00)'
+    result: { browser: { name: Yammer, version: '6.5', type: 'app:chat' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: 9.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6s' } }
+    readable: 'Yammer 6.5 on an Apple iPhone 6s running iOS 9.2.1'
 -
-    headers: 'User-Agent: Instagram 6.0.1 (iPhone3,3; iPhone OS 7_1; en_US; en) AppleWebKit/420+'
-    result: { browser: { name: Instagram, version: 6.0.1, type: 'app:social' }, engine: { name: Webkit, version: '420' }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4' } }
-    readable: 'Instagram 6.0.1 on an Apple iPhone 4 running iOS 7.1'
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Messenger; 1.5.1) (SCH-I500; Samsung; SCH-I500; 2.3.5/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.5.1, type: 'app:chat' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Fascinate } }
+    readable: 'Yahoo Messenger 1.5.1 on a Samsung Fascinate running Android 2.3.5'
 -
-    headers: 'User-Agent: Instagram 5.0.7 Android (17/4.2.2; 240dpi; 480x800; samsung; SM-G350; cs02; hawaii_ss_cs02; de_DE)'
-    result: { browser: { name: Instagram, version: 5.0.7, type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Core Plus' } }
-    readable: 'Instagram 5.0.7 on a Samsung Galaxy Core Plus running Android 4.2.2'
+    headers: 'User-Agent: YahooMobileMessenger/1.0 (Android Messenger; 1.8.3) (SHW-M340K; samsung; SHW-M340K; 2.3.6/GINGERBREAD)'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.3, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
+    readable: 'Yahoo Messenger 1.8.3 on a Samsung Galaxy M Style running Android 2.3.6'
 -
-    headers: 'User-Agent: Instagram 3.4.0 Android (10/2.3.6; 240dpi; 480x800; samsung; SCH-R760; SCH-R760; smdkc210; en_US)'
-    result: { browser: { name: Instagram, version: 3.4.0, type: 'app:social' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II' } }
-    readable: 'Instagram 3.4.0 on a Samsung Galaxy S II running Android 2.3.6'
+    headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 2.3.6; ONE_TOUCH_991D_ALDE Build/GINGERBREAD_MR1);'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Alcatel, model: 'One Touch 991' } }
+    readable: 'Yahoo Messenger 1.8.4 on an Alcatel One Touch 991 running Android 2.3.6'
 -
-    headers: 'User-Agent: Instagram 1.1.3 Android (10/2.3.6; 240dpi; 480x800; samsung; SAMSUNG-SGH-I727; SGH-I727; qcom; en_US)'
-    result: { browser: { name: Instagram, version: 1.1.3, type: 'app:social' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S II Skyrocket' } }
-    readable: 'Instagram 1.1.3 on a Samsung Galaxy S II Skyrocket running Android 2.3.6'
+    headers: 'User-Agent: YahooMobile/1.0 (im; 1.8.4.15957); (Linux; U; Android 4.2.2; ARCHOS 79XE Build/Unknown);'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.4, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: media, manufacturer: Archos, model: 79XE } }
+    readable: 'Yahoo Messenger 1.8.4 on an Archos 79XE running Android 4.2.2'
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPad6,7;FBMD/iPad;FBSN/iPhone OS;FBSV/9.1;FBSS/2; FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/1]'
-    result: { browser: { name: Facebook, version: 46.0.0.54.156, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: 'iPad Pro (12.9″)' } }
-    readable: 'Facebook 46.0.0.54 on an Apple iPad Pro (12.9″) running iOS 9.1'
+    headers: 'User-Agent: WhatsApp/2.11.164 Android/4_2_2 Device/samsung-GT-I9152'
+    result: { browser: { name: WhatsApp, version: 2.11.164, type: 'app:chat' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Mega 5.8 Plus' } }
+    readable: 'WhatsApp 2.11.164 on a Samsung Galaxy Mega 5.8 Plus running Android 4.2.2'
 -
-    headers: 'User-Agent: Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)'
-    readable: 'Pinterest 1.8.4 on a Sony Xperia Tablet Z running Android 4.3'
-    result: { browser: { name: Pinterest, version: 1.8.4, type: 'app:social' }, os: { name: Android, version: '4.3' }, device: { type: tablet, manufacturer: Sony, model: 'Xperia Tablet Z' } }
+    headers: 'User-Agent: WhatsApp/2.11.139 Android/4.0.4 Device/HTC-HTC_Incredible_S'
+    result: { browser: { name: WhatsApp, version: 2.11.139, type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'Incredible S' } }
+    readable: 'WhatsApp 2.11.139 on a HTC Incredible S running Android 4.0.4'
 -
-    headers: 'User-Agent: Pinterest for Android/1.1.1 (endeavoru; 4.1.1)'
-    readable: 'Pinterest 1.1.1 on a HTC One X running Android 4.1.1'
-    result: { browser: { name: Pinterest, version: 1.1.1, type: 'app:social' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'One X' } }
+    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.1.2 Device/samsung-GT-S5310'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Pocket Neo' } }
+    readable: 'WhatsApp 2.11 on a Samsung Galaxy Pocket Neo running Android 4.1.2'
 -
-    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I9190 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [Pinterest/Android]'
-    readable: 'Pinterest on a Samsung Galaxy S4 Mini running Android 4.2.2'
-    result: { browser: { name: Pinterest, version: Android, type: 'app:social' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4 Mini' } }
+    headers: 'User-Agent: WhatsApp+/2.11.83 Android/4.0.4 Device/Motorola-MB526'
+    result: { browser: { name: WhatsApp, version: '2.11', type: 'app:chat' }, os: { name: Android, version: 4.0.4 }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: DEFY+ } }
+    readable: 'WhatsApp 2.11 on a Motorola DEFY+ running Android 4.0.4'
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [Pinterest/iOS]'
-    readable: 'Pinterest on an Apple iPhone running iOS 9.1'
-    result: { browser: { name: Pinterest, version: iOS, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    headers: 'User-Agent: WhatsApp/2.11.107 S60Version/3.1 Device/Nokia-E51-(02.1)'
+    result: { browser: { name: WhatsApp, version: 2.11.107, type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.1' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: E51 } }
+    readable: 'WhatsApp 2.11.107 on a Nokia E51 running Series60 3.1'
 -
-    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Safari/537.36 [Pinterest/Android]'
-    readable: 'Pinterest on an Amazon Fire HDX 8.9 (2014) running FireOS 4.5'
-    result: { browser: { name: Pinterest, using: 'Amazon WebView', version: Android, type: 'app:social' }, engine: { name: Blink }, os: { name: FireOS, family: Android, version: '4.5' }, device: { type: tablet, manufacturer: Amazon, model: 'Fire HDX 8.9 (2014)' } }
+    headers: 'User-Agent: WhatsApp/2.11.236 S60Version/3.2 Device/Nokia-6650-(02.01)'
+    result: { browser: { name: WhatsApp, version: 2.11.236, type: 'app:chat' }, os: { name: Series60, family: Symbian, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: '6650' } }
+    readable: 'WhatsApp 2.11.236 on a Nokia 6650 running Series60 3.2'
 -
-    headers: 'User-Agent: Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0'
-    readable: 'Pinterest on iOS 6.1.2'
-    result: { browser: { name: Pinterest, type: 'app:social' }, os: { name: iOS, version: 6.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
+    headers: 'User-Agent: WhatsApp/2.11.356 WP7/7.10.8107 Device/SAMSUNG-GT-I8350-H23.15.0.8'
+    result: { browser: { name: WhatsApp, version: 2.11.356, type: 'app:chat' }, os: { name: 'Windows Phone', version: '7.10' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Omnia W' } }
+    readable: 'WhatsApp 2.11.356 on a Samsung Omnia W running Windows Phone 7.10'
 -
-    headers: 'User-Agent: Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0'
-    readable: 'Pinterest on iOS 7.1.1'
-    result: { browser: { name: Pinterest, type: 'app:social' }, os: { name: iOS, version: 7.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
+    headers: 'User-Agent: WhatsApp/2.11.282 WP7/8.0.10328.0 Device/NOKIA-RM-914_eu_euro2_341-H1.0.0.0'
+    result: { browser: { name: WhatsApp, version: 2.11.282, type: 'app:chat' }, os: { name: 'Windows Phone', version: '8.0' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: 'Lumia 520' } }
+    readable: 'WhatsApp 2.11.282 on a Nokia Lumia 520 running Windows Phone 8.0'
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A4449d Twitter for iPhone'
-    readable: 'Twitter on an Apple iPhone running iOS 7.0'
-    result: { browser: { name: Twitter, type: 'app:social' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]'
+    result: { browser: { name: 'Facebook Messenger', type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6 Plus' } }
+    readable: 'Facebook Messenger on an Apple iPhone 6 Plus running iOS 8.1.2'
 -
-    headers: 'User-Agent: [FBAN/FB4A;FBAV/10.0.0.28.27;FBBV/2802760;FBDM/{density=3.0,width=1080,height=1776};FBLC/fr_CA;FBCR/VIRGIN;FBPN/com.facebook.katana;FBDV/Nexus 5;FBSV/4.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
-    readable: 'Facebook 10.0.0.28 on a LG Nexus 5 running Android 4.4.3'
-    result: { browser: { name: Facebook, version: 10.0.0.28.27, type: 'app:social' }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+    headers: 'User-Agent: ICQ_Android/4.0.8 (Android; 16; 4.1.1; N7105XXALIJ; GT-N7105; tr-TR)'
+    readable: 'ICQ 4.0.8 on a Samsung Galaxy Note II running Android 4.1.1'
+    result: { browser: { name: ICQ, version: 4.0.8, type: 'app:chat' }, os: { name: Android, version: 4.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy Note II' } }
 -
-    headers: 'User-Agent: [FBAN/PAAA;FBAV/1.7;FBDM/{density=2.0,width=720,height=1280};FBLC/es_ES;FB_FW/2;FBSN/Android;FBCR/FONIC;FBDV/GT-I9300;FBSV/4.1.2;]'
-    readable: 'Facebook 1.7 on a Samsung Galaxy S III running Android 4.1.2'
-    result: { browser: { name: Facebook, version: '1.7', type: 'app:social' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III' } }
+    headers: 'User-Agent: Kik/8.2.1.326 (Android 4.1.2) Mozilla/5.0 (Linux; U; Android 4.1.2; en-za; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    readable: 'Kik 8.2.1 on a Samsung Galaxy S III Mini running Android 4.1.2'
+    result: { browser: { name: Kik, version: 8.2.1, type: 'app:chat' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: 4.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S III Mini' } }
 -
-    headers: 'User-Agent: Instagram 1.0.0 Android IC (10/2.3.4; 240dpi; 540x960; HTC/sprint; PG86100; shooter; shooter)'
-    readable: 'Instagram 1.0.0 on a HTC EVO 3D running Android 2.3.4'
-    result: { browser: { name: Instagram, version: 1.0.0, type: 'app:social' }, os: { name: Android, version: 2.3.4 }, device: { type: mobile, subtype: smart, manufacturer: HTC, model: 'EVO 3D' } }
+    headers: 'User-Agent: Kik/8.7.0.1643 (Android 5.0.2) Mozilla/5.0 (Linux; Android 5.0.2; C6903 Build/14.5.A.0.270; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.117 Mobile Safari/537.36'
+    readable: 'Kik 8.7 on a Sony Xperia Z1 running Android 5.0.2'
+    result: { browser: { name: Kik, using: { name: 'Chromium WebView', version: '44' }, version: '8.7', type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 5.0.2 }, device: { type: mobile, subtype: smart, manufacturer: Sony, model: 'Xperia Z1' } }
 -
-    headers: 'User-Agent: VKAndroidApp/3.3.2-249 (Android 4.2.2; SDK 17; armeabi-v7a; asus K00F; ru)'
-    readable: 'VK 3.3 on an Asus MeMO Pad 10 (ME102A) running Android 4.2.2'
-    result: { browser: { name: VK, version: '3.3', type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: tablet, manufacturer: Asus, model: 'MeMO Pad 10 (ME102A)' } }
+    headers: 'User-Agent: Kik/9.1.0.3591 (Android 4.3) Mozilla/5.0 (Linux; U; Android 4.3; en-us; G630-U20 Build/HuaweiG630-U20) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    readable: 'Kik 9.1 on a Huawei Ascend G630 running Android 4.3'
+    result: { browser: { name: Kik, version: '9.1', type: 'app:chat' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.3' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Ascend G630' } }
 -
-    headers: 'User-Agent: VKAndroidApp/3.2.1-196 (Android 4.2.2; SDK 17; armeabi-v7a; samsung GT-I9500; ru)'
-    readable: 'VK 3.2 on a Samsung Galaxy S4 running Android 4.2.2'
-    result: { browser: { name: VK, version: '3.2', type: 'app:social' }, os: { name: Android, version: 4.2.2 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S4' } }
+    headers: 'User-Agent: Kik/9.10.0.5037 (Android 6.0.1) Mozilla/5.0 (Linux; Android 6.0.1; SM-G920F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36'
+    readable: 'Kik 9.10 on a Samsung Galaxy S6 running Android 6.0.1'
+    result: { browser: { name: Kik, using: { name: 'Chromium WebView', version: '48' }, version: '9.10', type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S6' } }
 -
-    headers: 'User-Agent: VKAndroidApp/3.4-288 (Android 3.2; SDK 13; armeabi-v7a; samsung GT-P7300; ru)'
-    readable: 'VK 3.4 on a Samsung Galaxy Tab 8.9 running Android 3.2'
-    result: { browser: { name: VK, version: '3.4', type: 'app:social' }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 8.9' } }
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Le X509 Build/DHXOSOP5801911241S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/134.0.0.18.91;]'
+    readable: 'Facebook Messenger on a LeEco Le 1s X509 running Android 6.0'
+    result: { browser: { name: 'Facebook Messenger', using: { name: 'Chromium WebView', version: '49' }, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: '6.0' }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 1s X509' } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 [FBAN/FBIOS;FBAV/145.0.0.59.86;FBBV/74951375;FBDV/iPad6,11;FBMD/iPad;FBSN/iOS;FBSV/11.0.3;FBSS/2;FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/5;FBRV/0]'
-    readable: 'Facebook 145.0.0.59 on an Apple iPad (5th gen) running iOS 11.0.3'
-    result: { browser: { name: Facebook, version: 145.0.0.59.86, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: 11.0.3 }, device: { type: tablet, manufacturer: Apple, model: 'iPad (5th gen)' } }
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X526 Build/IIXOSOP5801910121S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36 Wire/0.564.2.20'
+    readable: 'Wire 0.564.2.20 on a LeEco Le 2 X526 running Android 6.0.1'
+    result: { browser: { name: Wire, family: { name: Chrome, version: 56 }, version: 0.564.2.20, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [FBAN/FBIOS;FBAV/147.0.0.46.81;FBBV/76961488;FBDV/iPhone10,4;FBMD/iPhone;FBSN/iOS;FBSV/11.0;FBSS/2;FBCR/KPNNL;FBID/phone;FBLC/nl_NL;FBOP/5;FBRV/'
-    readable: 'Facebook 147.0.0.46 on an Apple iPhone 8 running iOS 11.0'
-    result: { browser: { name: Facebook, version: 147.0.0.46.81, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: '11.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 8' } }
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Line/9.8.0'
+    result: { browser: { name: 'Line', version: 9.8.0, type: 'app:chat' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone' } }
+    readable: 'Line 9.8.0 on an Apple iPhone running iOS 8.1.2'
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 KAKAOTALK 5.9.2'
+    readable: 'KakaoTalk 5.9.2 on an Apple iPhone running iOS 10.1.1'
+    result: { browser: { name: KakaoTalk, version: 5.9.2, type: 'app:chat' }, engine: { name: Webkit, version: 602.2.14}, os: { name: iOS, version: 10.1.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple ,model: iPhone } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) AtomShell/2.3.1 Chrome/52.0.2743.82 Electron/1.3.8 Safari/537.36 Slack_SSB/2.3.1'
+    readable: 'Slack 2.3.1 on macOS Sierra 10.12'
+    result: { browser: { name: Slack, using: { name: Electron, version: 2.3.1 }, family: { name: Chrome, version: 52 }, version: 2.3.1, type: 'app:chat' }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '10.12', nickname: Sierra } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) WhatsApp/2.2017.6 Chrome/76.0.3809.146 Electron/6.1.9 Safari/537.36'
+    result: { browser: { name: WhatsApp, using: { name: Electron, version: 6.1.9 }, family: { name: Chrome, version: 76 }, version: 2.2017.6, type: 'app:chat' }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'WhatsApp 2.2017.6 on Windows 10'
+-
+    headers: 'User-Agent: WhatsApp/2.19.360 A'
+    result: { browser: { name: WhatsApp, version: 2.19.360, type: 'app:chat' } }
+    readable: 'WhatsApp 2.19.360'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.4.2;LG-F320S) AppleWebKit/537.36 (KHTML, like Gecko) Zalo/1.0 Safari/537.36'
+    readable: 'Zalo 1.0 on a LG G2 running Android 4.4.2'
+    result: { browser: { name: Zalo, version: '1.0', type: 'app:chat' }, engine: { name: Webkit, version: '537.36' }, os: { name: Android, version: 4.4.2 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: G2 } }
+-
+    headers: 'User-Agent: Zalo-win32-24v294'
+    readable: 'Zalo 24'
+    result: { browser: { name: Zalo, version: '24', type: 'app:chat' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Le X526 Build/IIXOSOP5801910121S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36 Viber'
+    readable: 'Viber on a LeEco Le 2 X526 running Android 6.0.1'
+    result: { browser: { name: Viber, family: { name: Chrome, version: 56 }, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: LeEco, model: 'Le 2 X526' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G950F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.79 Mobile Safari/537.36 Viber/12.0.0.4'
+    readable: 'Viber on a Samsung Galaxy S8 running Android 9'
+    result: { browser: { name: Viber, using: { name: 'Chromium WebView', version: '79' }, type: 'app:chat' }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S8' } }
