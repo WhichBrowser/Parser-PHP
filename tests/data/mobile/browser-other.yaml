@@ -107,6 +107,14 @@
     readable: 'Realme Browser 35.5.0.8 on a RMX1941 running Android 9'
     result: { browser: { name: 'Realme Browser', family: { name: Chrome, version: 53 }, version: 35.5.0.8, type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, model: RMX1941 } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 (Ecosia ios@4.0.10.813) Safari/604'
+    result: { browser: { name: Ecosia Browser, version: 4.0.10.813, type: browser }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: 9.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPad } }
+    readable: 'Ecosia Browser 4.0.10.813 on an Apple iPad running iOS 9.3.5'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 9; FIG-LX3 Build/HUAWEIFIG-L23) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.128 Mobile Safari/537.36 (Ecosia android@69.0.3497.128)'
+    result: { browser: { name: 'Ecosia Browser', family: { name: Chrome, version: 69 }, version: 69.0.3497.128, type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'P Smart' } }
+    readable: 'Ecosia Browser 69.0.3497.128 on a Huawei P Smart running Android 9'
+-
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 Version/10.3 Safari/8536.25 Mobicip/1882608256'
     result: { browser: { name: Mobicip, type: 'browser' }, engine: { name: Webkit, version: 603.3.8 }, os: { name: iOS, version: 10.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPad } }
     readable: 'Mobicip on an Apple iPad running iOS 10.3.3'
