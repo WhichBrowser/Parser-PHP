@@ -170,6 +170,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Slimjet',              'id'    => 'slimjet',     'regexp' => '/ Slimjet\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://www.slimjet.com/
         [ 'name' => 'Sogou Explorer',       'id'    => 'metasr',      'regexp' =>'/SE 2.X MetaSr/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sparrow',              'id'    => 'sparrow',      'regexp' =>'/Sparrow\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
+        [ 'name' => 'Sputnik',              'id'    => 'sputnik',     'regexp' => '/SputnikBrowser\/([0-9.]*)/u' ],                                                         // see: https://browser.sputnik.ru/
         [ 'name' => 'Stainless',            'id'    => 'stainless',      'regexp' =>'/Stainless\/([0-9.]*)/u' ],                                                            // see: http://www.stainlessapp.com
         [ 'name' => 'Station Browser',      'id'    => 'station',     'regexp' => '/ Station\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                     // see: https://getstation.com/
         [ 'name' => 'SunChrome',            'id'    => 'sunchrome',      'regexp' =>'/SunChrome\/([0-9.]*)/u' ],
