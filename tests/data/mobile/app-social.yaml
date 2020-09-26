@@ -90,4 +90,3 @@
     headers: 'User-Agent: YelpWebView/1.5 Android/6.0.1 YelpApp/9.9.0 (x-screen-scale 1.0;)'
     readable: 'Yelp 9.9.0 on Android 6.0.1'
     result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
-c
