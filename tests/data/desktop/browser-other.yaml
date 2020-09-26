@@ -574,3 +574,4 @@
     headers: 'User-Agent: ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)'
     result: { browser: { name: 'ICE Browser', version: '5', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'ICE Browser 5 on Windows XP'
+c
