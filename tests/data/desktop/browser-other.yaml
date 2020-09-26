@@ -566,3 +566,4 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Secure/52.0.2743.230 Chrome/52.0.2743.116 Safari/537.36'
     result: { browser: { name: 'Avast Secure', using: { name: Chrome, version: '52' }, version: 52.0.2743.230, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Avast Secure 52.0.2743.230 on Windows 7'
+x
