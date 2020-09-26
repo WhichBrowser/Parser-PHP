@@ -1,7 +1,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/vfnl;FBID/phone;FBLC/nl_NL;FBOP/5'
-    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6' } }
-    readable: 'Facebook on an Apple iPhone 6 running iOS 8.1.3'
+    result: { browser: { name: Facebook, version: 46.0.0.54.156, type: 'app:social' }, engine: { name: Webkit, version: 600.1.4 }, os: { name: iOS, version: 8.1.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6' } }
+    readable: 'Facebook 46.0.0.54 on an Apple iPhone 6 running iOS 8.1.3'
 -
     headers: 'User-Agent: Instagram 6.0.1 (iPhone3,3; iPhone OS 7_1; en_US; en) AppleWebKit/420+'
     result: { browser: { name: Instagram, version: 6.0.1, type: 'app:social' }, engine: { name: Webkit, version: '420' }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 4' } }
@@ -20,8 +20,8 @@
     readable: 'Instagram 1.1.3 on a Samsung Galaxy S II Skyrocket running Android 2.3.6'
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/46.0.0.54.156;FBBV/18972819;FBDV/iPad6,7;FBMD/iPad;FBSN/iPhone OS;FBSV/9.1;FBSS/2; FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/1]'
-    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: 'iPad Pro (12.9″)' } }
-    readable: 'Facebook on an Apple iPad Pro (12.9″) running iOS 9.1'
+    result: { browser: { name: Facebook, version: 46.0.0.54.156, type: 'app:social' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: '9.1' }, device: { type: tablet, manufacturer: Apple, model: 'iPad Pro (12.9″)' } }
+    readable: 'Facebook 46.0.0.54 on an Apple iPad Pro (12.9″) running iOS 9.1'
 -
     headers: 'User-Agent: Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)'
     readable: 'Pinterest 1.8.4 on a Sony Xperia Tablet Z running Android 4.3'
@@ -56,8 +56,8 @@
     result: { browser: { name: Twitter, type: 'app:social' }, engine: { name: Webkit, version: 537.51.1 }, os: { name: iOS, version: '7.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: [FBAN/FB4A;FBAV/10.0.0.28.27;FBBV/2802760;FBDM/{density=3.0,width=1080,height=1776};FBLC/fr_CA;FBCR/VIRGIN;FBPN/com.facebook.katana;FBDV/Nexus 5;FBSV/4.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
-    readable: 'Facebook on a LG Nexus 5 running Android 4.4.3'
-    result: { browser: { name: Facebook, type: 'app:social' }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
+    readable: 'Facebook 10.0.0.28 on a LG Nexus 5 running Android 4.4.3'
+    result: { browser: { name: Facebook, version: 10.0.0.28.27, type: 'app:social' }, os: { name: Android, version: 4.4.3 }, device: { type: mobile, subtype: smart, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: [FBAN/PAAA;FBAV/1.7;FBDM/{density=2.0,width=720,height=1280};FBLC/es_ES;FB_FW/2;FBSN/Android;FBCR/FONIC;FBDV/GT-I9300;FBSV/4.1.2;]'
     readable: 'Facebook Pages on a Samsung Galaxy S III running Android 4.1.2'
@@ -80,12 +80,12 @@
     result: { browser: { name: VK, version: '3.4', type: 'app:social' }, os: { name: Android, version: '3.2' }, device: { type: tablet, manufacturer: Samsung, model: 'Galaxy Tab 8.9' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 [FBAN/FBIOS;FBAV/145.0.0.59.86;FBBV/74951375;FBDV/iPad6,11;FBMD/iPad;FBSN/iOS;FBSV/11.0.3;FBSS/2;FBCR/;FBID/tablet;FBLC/nl_NL;FBOP/5;FBRV/0]'
-    readable: 'Facebook on an Apple iPad (5th gen) running iOS 11.0.3'
-    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: 11.0.3 }, device: { type: tablet, manufacturer: Apple, model: 'iPad (5th gen)' } }
+    readable: 'Facebook 145.0.0.59 on an Apple iPad (5th gen) running iOS 11.0.3'
+    result: { browser: { name: Facebook, version: 145.0.0.59.86, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: 11.0.3 }, device: { type: tablet, manufacturer: Apple, model: 'iPad (5th gen)' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [FBAN/FBIOS;FBAV/147.0.0.46.81;FBBV/76961488;FBDV/iPhone10,4;FBMD/iPhone;FBSN/iOS;FBSV/11.0;FBSS/2;FBCR/KPNNL;FBID/phone;FBLC/nl_NL;FBOP/5;FBRV/'
-    readable: 'Facebook on an Apple iPhone 8 running iOS 11.0'
-    result: { browser: { name: Facebook, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: '11.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 8' } }
+    readable: 'Facebook 147.0.0.46 on an Apple iPhone 8 running iOS 11.0'
+    result: { browser: { name: Facebook, version: 147.0.0.46.81, type: 'app:social' }, engine: { name: Webkit, version: 604.1.38 }, os: { name: iOS, version: '11.0' }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 8' } }
 -
     headers: 'User-Agent: YelpWebView/1.5 Android/6.0.1 YelpApp/9.9.0 (x-screen-scale 1.0;)'
     readable: 'Yelp 9.9.0 on Android 6.0.1'
