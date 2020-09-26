@@ -568,9 +568,9 @@
     readable: 'ICE Browser 6 on Windows XP'
 -
     headers: 'User-Agent: ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)'
-    result: { browser: { name: 'ICE Browser', version: 6, type: browser }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'ICE Browser', version: '5.05', type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
+    readable: 'ICE Browser 5.05 on Windows 2000'
 -
     headers: 'User-Agent: ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)'
-    result: { browser: { name: 'ICE Browser', version: 6, type: browser }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'ICE Browser', version: '5', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    readable: 'ICE Browser 5 on Windows XP'
