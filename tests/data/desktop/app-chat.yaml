@@ -1,0 +1,12 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Rocket.Chat+/2.9.0 Chrome/58.0.3029.110 Electron/1.7.6 Safari/537.36'
+    result: { browser: { name: Yammer, version: '6.5', type: 'app:chat' }, engine: { name: Webkit, version: 601.1.46 }, os: { name: iOS, version: 9.2.1 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 6s' } }
+    readable: 'x'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Rocket.Chat/2.17.7 Chrome/78.0.3904.130 Electron/7.1.10 Safari/537.36'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.5.1, type: 'app:chat' }, os: { name: Android, version: 2.3.5 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: Fascinate } }
+    readable: 'x'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Rocket.Chat/2.17.11 Chrome/78.0.3904.130 Electron/7.1.14 Safari/537.36'
+    result: { browser: { name: 'Yahoo Messenger', version: 1.8.3, type: 'app:chat' }, os: { name: Android, version: 2.3.6 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy M Style' } }
+    readable: 'x'
