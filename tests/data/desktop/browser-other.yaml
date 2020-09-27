@@ -574,4 +574,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android/2.1.0 ; xx) AppleWebKit/533.1 Spark/fzz Safari/533.1 Version/4.0 Pre/1.1; Mobile; AppleWebKit/533.1; Android2.3.7; Android; Version/4.0; Safari/533.1'
     readable: 'a Palm Pre Plus running webOS 2.1.0'
     result: { engine: { name: Webkit, version: '533.1' }, os: { name: webOS, version: 2.1.0 }, device: { type: mobile, subtype: smart, manufacturer: Palm, model: 'Pre Plus' } }
-x
