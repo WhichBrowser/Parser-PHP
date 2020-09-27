@@ -479,6 +479,19 @@ trait Browser
             }
         }
 
+        /* Microsoft Open Live Writer */
+
+        if (preg_match('/Open Live Writer ([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Open Live Writer';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->channel = null;
+
+            if (preg_match('/MSIE ([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->using = new Using([ 'name' => 'Internet Explorer', 'version' => new Version([ 'value' => $match[1] ]) ]);
+            }
+        }
 
         /* Set the browser family */
 
@@ -520,7 +533,7 @@ trait Browser
 
     private function detectOpera($ua)
     {
-        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng)/ui', $ua)) {
+        if (!preg_match('/(OPR|OMI|Opera|OPiOS|OPT|Coast|Oupeng|OPRGX|MMS)/ui', $ua)) {
             return;
         }
 
@@ -681,6 +694,20 @@ trait Browser
             $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
+
+        if (preg_match('/\sMMS\/([0-9.]*)$/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Opera Neon';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+      
+        if (preg_match('/OPRGX\/([0-9.]*)$/u', $ua, $match)) {
+            $this->data->browser->stock = false;
+            $this->data->browser->name = 'Opera GX';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
     }
 
 
@@ -688,7 +715,7 @@ trait Browser
 
     private function detectFirefox($ua)
     {
-        if (!preg_match('/(Firefox|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
+        if (!preg_match('/(Firefox|Lorentz|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho|Fennec|Phoenix|Firebird|Minimo|FxiOS|Focus)/ui', $ua)) {
             return;
         }
 
@@ -752,8 +779,7 @@ trait Browser
             }
         }
 
-
-        if (preg_match('/(GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho)/u', $ua, $match)) {
+        if (preg_match('/(Lorentz|GranParadiso|Namoroka|Shiretoko|Minefield|BonEcho)/u', $ua, $match)) {
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox';
             $this->data->browser->channel = str_replace('GranParadiso', 'Gran Paradiso', $match[1]);
@@ -1858,7 +1884,7 @@ trait Browser
 
     private function detectDesktopBrowsers($ua)
     {
-        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon|Browse)/ui', $ua)) {
+        if (!preg_match('/(WebPositive|WebExplorer|WorldWideweb|Midori|Maxthon|Browse|Flow)/ui', $ua)) {
             return;
         }
 
@@ -1954,6 +1980,21 @@ trait Browser
             $this->data->browser->channel = '';
             $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+
+        /* Browse for Flow */
+
+        if (preg_match('/ Flow\/([0-9.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Flow';
+            $this->data->browser->channel = '';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+            unset($this->data->browser->family);
+
+            if (preg_match('/EkiohFlow\/[0-9\.]+M/u', $ua)) {
+                $this->data->browser->name = 'Flow Nightly Build';
+                $this->data->browser->version = null;
+            }
         }
     }
 
