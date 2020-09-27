@@ -568,5 +568,5 @@
     result: { browser: { name: 'UR Browser', family: { name: Chrome, version: 58 }, version: 55.1.2883.70, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51'
-    readable: 'x'
-    result: { browser: { name: 'UR Browser', family: { name: Chrome, version: 58 }, version: 55.1.2883.70, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    readable: 'UR Browser 51.0.2704.51 on Windows 8'
+    result: { browser: { name: 'UR Browser', family: { name: Chrome, version: 55 }, version: 51.0.2704.51, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
