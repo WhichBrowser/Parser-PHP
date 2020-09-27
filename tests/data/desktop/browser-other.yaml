@@ -568,5 +568,5 @@
     readable: 'Sunrise Browser 1.7.4 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/125.5.7 (KHTML, like Gecko) SunriseBrowser/0.853'
-    result: { browser: { name: 'Sunrise Browser', version: 1.7.4, type: browser }, engine: { name: Webkit, version: '525.18' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
-    readable: 'x'
+    result: { browser: { name: 'Sunrise Browser', version: '0.853', type: browser }, engine: { name: Webkit, version: 125.5.7 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Sunrise Browser 0.853 on OS X'
