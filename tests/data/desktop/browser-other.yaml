@@ -564,9 +564,9 @@
     readable: 'SalamWeb on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; en-US; mimic; rv:9.3.0) Gecko/20120117 Firefox/3.6.25 Classilla/CFM'
-    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'Classilla Browser', family: { name: Firefox, version: 3.6.25 }, version: CFM, type: browser }, engine: { name: Gecko, version: 9.3.0 }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Classilla Browser on Mac OS'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC; en-US; mimic; rv:9.3.0) Clecko/20120101 Classilla/CFM'
-    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
-    readable: 'x'
+    result: { browser: { name: 'Classilla Browser', version: CFM, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    readable: 'Classilla Browser on Mac OS'
