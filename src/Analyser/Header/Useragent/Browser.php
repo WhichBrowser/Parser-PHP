@@ -1627,7 +1627,7 @@ trait Browser
                 $this->data->os->name = 'webOS';
             }
 
-            if (preg_match('/wOSBrowser\/([0-9.]*)/u', $ua, $match)) {
+            if (preg_match('/ hpwOS\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
 
