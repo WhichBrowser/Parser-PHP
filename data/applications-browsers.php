@@ -177,6 +177,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Sundance',             'id'    => 'sundance',      'regexp' =>'/Sundance\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Sundial',              'id'    => 'sundial',      'regexp' =>'/Sundial\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://www.sundialbrowser.com/
         [ 'name' => 'Superbird',            'id'    => 'superbird',      'regexp' =>'/Super[Bb]ird\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/SurfBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                  // see: https://en.wikipedia.org/wiki/Surf_(web_browser)
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'Swiftweasel',          'id'    => 'swiftweasel',      'regexp' =>'/Swiftweasel\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],            // see: http://swiftweasel.tuxfamily.org/
         [ 'name' => 'Swiftfox',             'id'    => 'swiftfox',      'regexp' =>'/Swiftfox/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing(?:\(And\))?\/([0-9.]*)/u', 'details' => 3 ],                                    // see: http://swing-browser.com
@@ -277,8 +279,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'STNC HitchHiker' ,     'id'    => 'stnc',      'regexp' =>'/STNC-WTL\/[0-9.]*/u' ],
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
-        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/SurfBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                  // see: https://en.wikipedia.org/wiki/Surf_(web_browser)
-        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'Tenta Browser',        'id'    => 'tenta',         'regexp' => '/ Tenta\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://play.google.com/store/apps/details?id=com.tenta.android&hl=en
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
@@ -348,7 +348,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Wyzo',                 'id'    => 'wyzo',      'regexp' =>'/Wyzo\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Yelang',               'id'    => 'yelang',      'regexp' =>'/Yelang\/([0-9.]*)/u', 'details' => 3 ],                           // see: wellgo.org
         [ 'name' => 'YRC Weblink',          'id'    => 'yrcweb',      'regexp' =>'/YRCWeblink\/([0-9.]*)/u' ],
-        [ 'name' => '冲浪浏览器',             'id'    => 'surfchina',   'regexp' => '/CMSurfClient-Android/u' ],
+        [ 'name' => '冲浪浏览器',             'id'    => 'surfchina',      'regexp' =>'/CMSurfClient-Android/u' ],
     ],
 
     Constants\BrowserType::BROWSER_TEXT => [
