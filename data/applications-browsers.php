@@ -188,6 +188,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Tulip Chain',          'id'    => 'tulip',      'regexp' =>'/TulipChain\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                      // see: http://ostermiller.org/tulipchain/
         [ 'name' => 'Tungsten Browser',     'id'    => 'tungsten',      'regexp' =>'/TungstenBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'UltraBrowser',         'id'    => 'ultrab',      'regexp' =>'/UltraBrowser ([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: http://www.ultrabrowser.com/
+        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.ur-browser.com/
+        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                          // see: https://www.ur-browser.com/
         [ 'name' => 'Usejump',              'id'    => 'usejump',      'regexp' =>'/Usejump\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Vimprobable',          'id'    => 'vimprobable',      'regexp' =>'/Vimprobable\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Vivaldi',              'id'    => 'vivaldi',      'regexp' =>'/Vivaldi\/([0-9.]*)/u', 'details' => 2 ],
@@ -280,8 +282,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'Tenta Browser',        'id'    => 'tenta',         'regexp' => '/ Tenta\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://play.google.com/store/apps/details?id=com.tenta.android&hl=en
         [ 'name' => 'TinY',                 'id'    => 'ucpro',      'regexp' =>'/ucpro\/([0-9.]+)/iu' ],
-        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                  // see: https://www.ur-browser.com/
-        [ 'name' => 'UR Browser',           'id'    => 'ur',          'regexp' => '/ UR\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                          // see: https://www.ur-browser.com/
         [ 'name' => 'Vivo Browser',         'id'    => 'vivo',      'regexp' =>'/VivoBrowser\/([0-9.]+)/iu' ],
         [ 'name' => 'WebLite',              'id'    => 'weblite',      'regexp' =>'/WebLite\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
         [ 'name' => 'WK Browser',           'id'    => 'wk',            'regexp' => '/wkbrowser ([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                     // see: https://github.com/keanulee/WKBrowser
