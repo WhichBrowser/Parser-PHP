@@ -570,4 +570,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 Alienforce3.0/9.0.1'
     result: { browser: { name: Alienforce, family: { name: Firefox, version: 9.0.1 }, version: '3.0', type: browser }, engine: { name: Gecko, version: 9.0.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Alienforce 3.0 on Windows 7'
-x
