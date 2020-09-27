@@ -271,10 +271,6 @@
     result: { os: { name: Series60, family: Symbian, version: '2.8' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N72 } }
     readable: 'a Nokia N72 running Series60 2.8'
 -
-    headers: 'User-Agent: NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.0) Clecko/20120116 Classilla/CFM'
-    result: { os: { name: Series60, family: Symbian, version: '2.8' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: N90 } }
-    readable: 'a Nokia N90 running Series60 2.8'
--
     headers: 'User-Agent: NokiaX5-00_TD/CMCC SymbianOS/9.3 Series60/3.2 Release/11.1026.019; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413'
     result: { engine: { name: Webkit, version: '413' }, os: { name: Series60, family: { name: Symbian, version: '9.3' }, version: '3.2' }, device: { type: mobile, subtype: smart, manufacturer: Nokia, model: X5-00 } }
     readable: 'a Nokia X5-00 running Series60 3.2'
