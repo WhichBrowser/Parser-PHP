@@ -615,6 +615,10 @@
     readable: 'NetFront 3.5 on a television'
     result: { browser: { name: NetFront, version: '3.5', type: browser }, engine: { name: NetFront }, device: { type: television } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Netbox/3.5 R92; Linux 2.2)'
+    readable: 'Netbox 3.5 on a television'
+    result: { browser: { name: Netbox, version: '3.5', type: browser }, device: { type: television } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) Navigateur web/1.0 Version/7.0 Safari/538.1'
     readable: 'Freebox Browser 1.0 on a television'
     result: { browser: { name: Freebox Browser, version: '1.0', type: browser }, engine: { name: Webkit, version: '538.1' }, device: { type: television } }
