@@ -485,25 +485,10 @@ trait Application
 
         /* Rocket Chat */
 
-        if (preg_match('/Rocket\.Chat\+:?\/([0-9.]*)/iu', $ua, $match)) {
+        if (preg_match('/Rocket\.Chat\+:?\/([0-9.]*)/iu', $ua, $result)) {
             $this->data->browser->name = 'Rocket Chat';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->version = result[1] ?? '';
             $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
-
-            $this->data->os->reset([
-                'name'      => 'Android',
-                'version'   => new Version([ 'value' => $match[2] ])
-            ]);
-
-            $this->data->device->model = $match[3];
-            $this->data->device->identified |= Constants\Id::PATTERN;
-            $this->data->device->type = Constants\DeviceType::MOBILE;
-
-            $device = Data\DeviceModels::identify('android', $match[3]);
-            if ($device->identified) {
-                $device->identified |= $this->data->device->identified;
-                $this->data->device = $device;
-            }
         }
     }
 
