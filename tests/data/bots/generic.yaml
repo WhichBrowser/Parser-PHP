@@ -588,5 +588,5 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)'
-    readable: 'HubSpot'
-    result: { browser: { name: HubSpot }, device: { type: bot } }
+    readable: 'HubSpot Crawler'
+    result: { browser: { name: 'HubSpot Crawler' }, device: { type: bot } }
