@@ -137,6 +137,7 @@ Applications::$BOTS = [
     [ 'name' => 'htdig',                        'id'    => 'htdig',      'regexp' => '/htdig\/([0-9.]*)/u' ],
     [ 'name' => 'HTTPMon',                      'id'    => 'httpmon',      'regexp' => '/HTTPMon\/([0-9.]*)/u' ],
     [ 'name' => 'HubPages',                     'id'    => 'hubpages',      'regexp' => '/HubPages V([0-9.]*)/u' ],
+    [ 'name' => 'HubSpot',                      'id'    => 'hubspot',      'regexp' => '/hubspot\.com/u' ],
     [ 'name' => 'iAsk Spider',                  'id'    => 'spider',      'regexp' => '/iaskspider\/([0-9.]*)/u' ],
     [ 'name' => 'iAsk Spider',                  'id'    => 'spider',      'regexp' => '/iaskspider2/u' ],
     [ 'name' => 'Ichiro',                       'id'    => 'ichiro',      'regexp' => '/ichiro\/([0-9.]*)/u' ],
