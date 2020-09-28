@@ -589,8 +589,8 @@
 -
     headers: 'User-Agent: OdklBot/1.0 (share@odnoklassniki.ru)'
     readable: 'OdklBot 1.0'
-    result: { browser: { name: OdklBot, version: '2.0' }, device: { type: bot } }
+    result: { browser: { name: OdklBot, version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)'
     readable: 'OdklBot 1.0'
-    result: { browser: { name: OdklBot, version: '2.0' }, device: { type: bot } }
+    result: { browser: { name: OdklBot, version: '1.0' }, device: { type: bot } }
