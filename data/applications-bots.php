@@ -199,6 +199,7 @@ Applications::$BOTS = [
     [ 'name' => 'Seznam Email Proxy',           'id'    => 'seznam',      'regexp' => '/SeznamEmailProxy/u' ],
     [ 'name' => 'Seznam Zbozi.cz',              'id'    => 'seznam',      'regexp' => '/Seznam-Zbozi-robot/u' ],
     [ 'name' => 'ShopWiki',                     'id'    => 'shopwiki',      'regexp' => '/ShopWiki\/([0-9.]*)/u' ],
+    [ 'name' => 'SkypeUriPreview',              'id'    => 'skype',      'regexp' => '/SkypeUriPreview Preview\/([0-9.]*)/u' ],
     [ 'name' => 'SilverReader',                 'id'    => 'reader',      'regexp' => '/SilverReader\/([0-9.]*)/u' ],
     [ 'name' => 'SimplePie',                    'id'    => 'simplepie',      'regexp' => '/SimplePie\/([0-9.]*)/u' ],
     [ 'name' => 'Site24x7',                     'id'    => 'site24',      'regexp' => '/Site24x7/u' ],

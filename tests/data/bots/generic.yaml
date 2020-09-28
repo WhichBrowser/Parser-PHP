@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
+    readable: 'SkypeUriPreview 0.5'
+    result: { browser: { name: SkypeUriPreview, version: '0.5' }, device: { type: bot } }
