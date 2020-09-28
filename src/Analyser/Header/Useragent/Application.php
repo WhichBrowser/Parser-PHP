@@ -486,6 +486,7 @@ trait Application
         /* Rocket Chat */
 
         if (preg_match('/Rocket\.Chat\+:?\/([0-9.]*)/iu', $ua, $result)) {
+            $this->data->browser->reset();
             $this->data->browser->name = 'Rocket Chat';
             $this->data->browser->version = $result[1] ?? '';
             $this->data->browser->type = Constants\BrowserType::APP_SOCIAL;
