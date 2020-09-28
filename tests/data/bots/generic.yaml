@@ -586,3 +586,11 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-MetaTagFetcher/0.3 (+https://medium.com/)'
+    readable: 'Medium Bot 0.3'
+    result: { browser: { name: 'Medium Bot', version: '0.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-ProxyFetcher/0.1 (+https://medium.com/)'
+    readable: 'Medium Bot 0.1'
+    result: { browser: { name: 'Medium Bot', version: '0.1' }, device: { type: bot } }
