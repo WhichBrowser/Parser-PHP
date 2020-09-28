@@ -30,6 +30,17 @@ trait Bot
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
+        
+        /* Detect bots based on HTTPUnit */
+        
+        if (preg_match('/httpunit\/([0-9.]*)/iu', $ua)) {
+            $this->data->browser->reset();
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
 
         /* Detect based on a predefined list or markers */
 
