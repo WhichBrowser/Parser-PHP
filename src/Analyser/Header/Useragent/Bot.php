@@ -31,14 +31,16 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
         
-        /* Detect bots based on HTTPUnit */
+        /* Detect bots based on HttpUnit */
         
-        if (preg_match('/httpunit\/([0-9.]*)/iu', $ua)) {
+        if (preg_match('/httpunit\/([0-9.]*)/iu', $ua, $result)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
             $this->data->device->reset();
-
+            
+            $this->data->browser->name = 'HttpUnit';
+            $this->data->browser->version = $result[1] ?? '';
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
