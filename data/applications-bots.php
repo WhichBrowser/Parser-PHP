@@ -112,6 +112,7 @@ Applications::$BOTS = [
     [ 'name' => 'Googlebot Video',              'id'    => 'google',      'regexp' => '/Googlebot-Video\/([0-9.]*)/u' ],
     [ 'name' => 'Google Ads Bot',               'id'    => 'google',      'regexp' => '/AdsBot-Google/u' ],
     [ 'name' => 'Google Adsense Snapshot',      'id'    => 'google',      'regexp' => '/Adsense-Snapshot-Google/u' ],
+    [ 'name' => 'SnapChat',                     'id'    => 'snapchat',      'regexp' => '/snapchat\-proxy/u' ], // This needs to be listed before Google App Engine
     [ 'name' => 'Google App Engine',            'id'    => 'google',      'regexp' => '/AppEngine-Google/u' ],
     [ 'name' => 'Google Web Preview',           'id'    => 'google',      'regexp' => '/Google Web Preview/u' ],
     [ 'name' => 'Google Page Speed',            'id'    => 'google',      'regexp' => '/Google Page Speed Insights/u' ],
@@ -203,7 +204,6 @@ Applications::$BOTS = [
     [ 'name' => 'SimplePie',                    'id'    => 'simplepie',      'regexp' => '/SimplePie\/([0-9.]*)/u' ],
     [ 'name' => 'Site24x7',                     'id'    => 'site24',      'regexp' => '/Site24x7/u' ],
     [ 'name' => 'Slackbot Link Checker',        'id'    => 'slack',      'regexp' => '/Slackbot-LinkExpanding ([0-9.]*)/u' ],
-    [ 'name' => 'SnapChat',                     'id'    => 'snapchat',      'regexp' => '/snapchat\-proxy/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/sogou spider/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou pic spider\/([0-9.]*)/u' ],
     [ 'name' => 'Sogou Web Spider',             'id'    => 'sogou',      'regexp' => '/Sogou inst spider\/([0-9.]*)/u' ],
