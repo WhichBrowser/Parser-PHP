@@ -588,5 +588,5 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; PlurkBot/1.0; +https://www.plurk.com/) Firefox/61.0'
-    readable: 'Plurk 1.0'
-    result: { browser: { name: Plurk, version: '1.0' }, device: { type: bot } }
+    readable: 'Plurk Bot 1.0'
+    result: { browser: { name: 'Plurk Bot', version: '1.0' }, device: { type: bot } }
