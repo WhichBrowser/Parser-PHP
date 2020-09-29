@@ -592,5 +592,5 @@
     result: { browser: { name: HootSuite, version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: HootSuite Image proxy (hosting@hootsuite.com)'
-    readable: 'Pocket 2.0'
+    readable: 'HootSuite'
     result: { browser: { name: HootSuite }, device: { type: bot } }
