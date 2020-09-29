@@ -586,3 +586,11 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; U; Hootsuite-WebFeed/1.0; mailto:abuse@hootsuite.com)'
+    readable: 'HootSuite 1.0'
+    result: { browser: { name: HootSuite, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: HootSuite Image proxy (hosting@hootsuite.com)'
+    readable: 'Pocket 2.0'
+    result: { browser: { name: HootSuite }, device: { type: bot } }

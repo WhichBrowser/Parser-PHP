@@ -134,6 +134,8 @@ Applications::$BOTS = [
     [ 'name' => 'Hatena Pagetitle',             'id'    => 'hatena',      'regexp' => '/Hatena Pagetitle Agent\/([0-9.]*)/u' ],
     [ 'name' => 'HeartRails Capture',           'id'    => 'capture',      'regexp' => '/HeartRails_Capture\/([0-9.]*)/u' ],
     [ 'name' => 'Heureka Feed',                 'id'    => 'heureka',      'regexp' => '/Heurekabot-Feed/u' ],
+    [ 'name' => 'HootSuite',                    'id'    => 'hootsuite',      'regexp' => '/Hootsuite-WebFeed\/([0-9\.]*)/u' ],
+    [ 'name' => 'HootSuite',                    'id'    => 'hootsuite',      'regexp' => '/HootSuite Image proxy/u' ],
     [ 'name' => 'htdig',                        'id'    => 'htdig',      'regexp' => '/htdig\/([0-9.]*)/u' ],
     [ 'name' => 'HTTPMon',                      'id'    => 'httpmon',      'regexp' => '/HTTPMon\/([0-9.]*)/u' ],
     [ 'name' => 'HubPages',                     'id'    => 'hubpages',      'regexp' => '/HubPages V([0-9.]*)/u' ],
