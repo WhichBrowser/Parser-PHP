@@ -42,7 +42,7 @@ trait Derive
 
     private function &deriveDeviceSubType()
     {
-        if ($this->data->device->type == 'mobile' && empty($this->data->device->subtype)) {
+        if ($this->data->device->type === 'mobile' && empty($this->data->device->subtype)) {
             $this->data->device->subtype = 'feature';
 
             if (in_array($this->data->os->getName(), [ 'Android', 'Bada', 'BlackBerry', 'BlackBerry OS', 'Firefox OS', 'iOS', 'iPhone OS', 'Kin OS', 'Maemo', 'MeeGo', 'Palm OS', 'Sailfish', 'Series60', 'Series80', 'Tizen', 'Ubuntu Touch', 'Windows Mobile', 'Windows Phone', 'webOS' ])) {
@@ -135,7 +135,7 @@ trait Derive
             $this->data->os->name = 'Firefox OS';
         }
 
-        if (isset($this->data->os->name) && $this->data->os->name == 'Firefox OS' && $this->data->engine->name == 'Gecko') {
+        if (isset($this->data->os->name) && $this->data->os->name === 'Firefox OS' && $this->data->engine->name === 'Gecko') {
             switch ($this->data->engine->getVersion()) {
                 case '18.0':
                     $this->data->os->version = new Version([ 'value' => '1.0.1' ]);
@@ -171,11 +171,11 @@ trait Derive
 
     private function deriveOperaDevices()
     {
-        if ($this->data->browser->name == 'Opera' && $this->data->device->type == Constants\DeviceType::TELEVISION) {
+        if ($this->data->browser->name === 'Opera' && $this->data->device->type === Constants\DeviceType::TELEVISION) {
             $this->data->browser->name = 'Opera Devices';
             $this->data->browser->version = null;
 
-            if ($this->data->engine->getName() == 'Presto') {
+            if ($this->data->engine->getName() === 'Presto') {
                 $data = [
                     '2.12'  => '3.4',
                     '2.11'  => '3.3',
@@ -209,7 +209,7 @@ trait Derive
     {
         $flag = $this->data->device->flag;
 
-        if ($flag == Constants\Flag::NOKIAX) {
+        if ($flag === Constants\Flag::NOKIAX) {
             $this->data->os->name = 'Nokia X Platform';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -217,7 +217,7 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($flag == Constants\Flag::FIREOS) {
+        if ($flag === Constants\Flag::FIREOS) {
             $this->data->os->name = 'FireOS';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -260,7 +260,7 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($flag == Constants\Flag::GOOGLETV) {
+        if ($flag === Constants\Flag::GOOGLETV) {
             $this->data->os->name = 'Google TV';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
 
@@ -268,14 +268,14 @@ trait Derive
             unset($this->data->device->flag);
         }
 
-        if ($flag == Constants\Flag::ANDROIDTV) {
+        if ($flag === Constants\Flag::ANDROIDTV) {
             $this->data->os->name = 'Android TV';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             unset($this->data->device->flag);
             unset($this->data->device->series);
         }
 
-        if ($flag == Constants\Flag::ANDROIDWEAR) {
+        if ($flag === Constants\Flag::ANDROIDWEAR) {
             $this->data->os->name = 'Android Wear';
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             unset($this->data->os->version);
@@ -287,14 +287,14 @@ trait Derive
             }
         }
 
-        if ($flag == Constants\Flag::GOOGLEGLASS) {
+        if ($flag === Constants\Flag::GOOGLEGLASS) {
             $this->data->os->family = new Family([ 'name' => 'Android' ]);
             unset($this->data->os->name);
             unset($this->data->os->version);
             unset($this->data->device->flag);
         }
 
-        if ($flag == Constants\Flag::UIQ) {
+        if ($flag === Constants\Flag::UIQ) {
             unset($this->data->device->flag);
 
             if (!$this->data->isOs('UIQ')) {
@@ -303,7 +303,7 @@ trait Derive
             }
         }
 
-        if ($flag == Constants\Flag::S60) {
+        if ($flag === Constants\Flag::S60) {
             unset($this->data->device->flag);
 
             if (!$this->data->isOs('Series60')) {
@@ -312,7 +312,7 @@ trait Derive
             }
         }
 
-        if ($flag == Constants\Flag::MOAPS) {
+        if ($flag === Constants\Flag::MOAPS) {
             unset($this->data->device->flag);
             $this->data->os->name = 'MOAP(S)';
             unset($this->data->os->version);
@@ -323,64 +323,64 @@ trait Derive
     {
         /* Derive the default browser on Windows Mobile */
 
-        if ($this->data->os->name == 'Windows Mobile' && $this->data->isBrowser('Internet Explorer')) {
+        if ($this->data->os->name === 'Windows Mobile' && $this->data->isBrowser('Internet Explorer')) {
             $this->data->browser->name = 'Mobile Internet Explorer';
         }
 
         /* Derive the default browser on Android */
 
-        if ($this->data->os->name == 'Android' && !isset($this->data->browser->using) && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'Android' && !isset($this->data->browser->using) && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'Android Browser';
         }
 
         /* Derive the default browser on Google TV */
 
-        if ($this->data->os->name == 'Google TV' && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'Google TV' && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'Chrome';
         }
 
         /* Derive the default browser on BlackBerry */
 
-        if ($this->data->os->name == 'BlackBerry' && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'BlackBerry' && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'BlackBerry Browser';
             $this->data->browser->hidden = true;
         }
 
-        if ($this->data->os->name == 'BlackBerry OS' && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'BlackBerry OS' && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'BlackBerry Browser';
             $this->data->browser->hidden = true;
         }
 
-        if ($this->data->os->name == 'BlackBerry Tablet OS' && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'BlackBerry Tablet OS' && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'BlackBerry Browser';
             $this->data->browser->hidden = true;
         }
 
         /* Derive the default browser on Tizen */
 
-        if ($this->data->os->name == 'Tizen' && !isset($this->data->browser->name) && $this->data->browser->stock && in_array($this->data->device->type, [ Constants\DeviceType::MOBILE, Constants\DeviceType::APPLIANCE ])) {
+        if ($this->data->os->name === 'Tizen' && !isset($this->data->browser->name) && $this->data->browser->stock && in_array($this->data->device->type, [ Constants\DeviceType::MOBILE, Constants\DeviceType::APPLIANCE ])) {
             $this->data->browser->name = 'Samsung Browser';
         }
 
         /* Derive the default browser on Aliyun OS */
 
-        if ($this->data->os->name == 'Aliyun OS' && !isset($this->data->browser->using) && !isset($this->data->browser->name) && $this->data->browser->stock) {
+        if ($this->data->os->name === 'Aliyun OS' && !isset($this->data->browser->using) && !isset($this->data->browser->name) && $this->data->browser->stock) {
             $this->data->browser->name = 'Aliyun Browser';
         }
 
-        if ($this->data->os->name == 'Aliyun OS' && $this->data->browser->isUsing('Chrome Content Shell')) {
+        if ($this->data->os->name === 'Aliyun OS' && $this->data->browser->isUsing('Chrome Content Shell')) {
             $this->data->browser->name = 'Aliyun Browser';
             $this->data->browser->using = null;
             $this->data->browser->stock = true;
         }
 
-        if ($this->data->os->name == 'Aliyun OS' && $this->data->browser->stock) {
+        if ($this->data->os->name === 'Aliyun OS' && $this->data->browser->stock) {
             $this->data->browser->hidden = true;
         }
 
         /* Derive OS/2 nickname */
 
-        if ($this->data->os->name == 'OS/2') {
+        if ($this->data->os->name === 'OS/2') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('>', '2')) {
                     $this->data->os->version->nickname = 'Warp';
@@ -390,7 +390,7 @@ trait Derive
 
         /* Derive HP TouchPad based on webOS and tablet */
 
-        if ($this->data->os->name == 'webOS' && $this->data->device->type == Constants\DeviceType::TABLET) {
+        if ($this->data->os->name === 'webOS' && $this->data->device->type === Constants\DeviceType::TABLET) {
             $this->data->device->manufacturer = 'HP';
             $this->data->device->model = 'TouchPad';
             $this->data->device->identified |= Constants\Id::MATCH_UA;
@@ -398,7 +398,7 @@ trait Derive
 
         /* Derive Windows 10 Mobile edition */
 
-        if ($this->data->os->name == 'Windows Phone') {
+        if ($this->data->os->name === 'Windows Phone') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('=', '10')) {
                     $this->data->os->alias = 'Windows';
@@ -410,7 +410,7 @@ trait Derive
 
         /* Derive manufacturer and model based on MacOS or OS X */
 
-        if ($this->data->os->name == 'OS X' || $this->data->os->name == 'Mac OS') {
+        if ($this->data->os->name === 'OS X' || $this->data->os->name === 'Mac OS') {
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
                 $this->data->device->model = 'Macintosh';
@@ -421,7 +421,7 @@ trait Derive
 
         /* Derive manufacturer and model based on MacOS or OS X */
 
-        if ($this->data->os->name == 'iOS') {
+        if ($this->data->os->name === 'iOS') {
             if (empty($this->data->device->model)) {
                 $this->data->device->manufacturer = 'Apple';
                 $this->data->device->identified |= Constants\Id::INFER;
@@ -431,7 +431,7 @@ trait Derive
 
         /* Derive iOS and OS X aliases */
 
-        if ($this->data->os->name == 'iOS') {
+        if ($this->data->os->name === 'iOS') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('<', '4')) {
                     $this->data->os->alias = 'iPhone OS';
@@ -439,7 +439,7 @@ trait Derive
             }
         }
 
-        if ($this->data->os->name == 'OS X') {
+        if ($this->data->os->name === 'OS X') {
             if (!empty($this->data->os->version)) {
                 if ($this->data->os->version->is('<', '10.7')) {
                     $this->data->os->alias = 'Mac OS X';
