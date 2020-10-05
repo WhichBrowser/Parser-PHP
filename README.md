@@ -154,7 +154,7 @@ Or access parts of these properties directly:
 $result->browser->name;
 // Chrome
 
-$result->browser->name . ' ' . $result->browser->version.toString();
+$result->browser->name . ' ' . $result->browser->version->toString();
 // Chrome 27
 
 $result->browser->version->value;
