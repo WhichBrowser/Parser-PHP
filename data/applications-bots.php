@@ -218,6 +218,7 @@ Applications::$BOTS = [
     [ 'name' => 'StatusCake Error Detector',    'id'    => 'detector',      'regexp' => '/StatusCake Error Detector/iu' ],
     [ 'name' => 'Summify',                      'id'    => 'summify',      'regexp' => '/Summify\/([0-9.]*)/u' ],
     [ 'name' => 'TelegramBot',                  'id'    => 'telegram',      'regexp' => '/TelegramBot/u' ],
+    [ 'name' => 'Tumblr',                       'id'    => 'tumblr',      'regexp' =>'/Tumblr\/([0-9.]*)/u' ],
     [ 'name' => 'Twisted PageGetter',           'id'    => 'twisted',      'regexp' => '/Twisted PageGetter/u' ],
     [ 'name' => 'Twitterbot',                   'id'    => 'twitter',      'regexp' => '/Twitterbot\/([0-9.]*)/u' ],
     [ 'name' => 'Tiny Tiny RSS',                'id'    => 'tiny',      'regexp' => '/Tiny Tiny RSS\/([0-9.]*)/u' ],

@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Tumblr/14.0.835.186'
+    readable: 'Tumblr 14.0.835.186'
+    result: { browser: { name: Tumblr, version: '14.0.835.186' }, device: { type: bot } }
