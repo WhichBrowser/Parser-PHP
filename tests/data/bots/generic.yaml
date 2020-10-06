@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: 8LEGS'
+    readable: '80legs'
+    result: { browser: { name: 80legs }, device: { type: bot } }
