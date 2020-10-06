@@ -586,3 +586,11 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: okhttp/3.4.1'
+    readable: 'OkHttp 3.4.1'
+    result: { browser: { name: OkHttp, version: '3.4.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AbtestCenter-okhttp/1.0'
+    readable: 'OkHttp 1.0'
+    result: { browser: { name: OkHttp, version: '1.0' }, device: { type: bot } }
