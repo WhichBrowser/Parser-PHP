@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/177.0.3560.1 Safari/537.36 WaiMao_Browser/40.256.139.10 (MyChrome.CN)'
+    readable: 'MyChrome CN'
+    result: { browser: { name: 'MyChrome CN' }, device: { type: bot } }
