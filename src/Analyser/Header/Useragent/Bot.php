@@ -45,7 +45,6 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
-
         /* Detect based on a predefined list or markers */
 
         if ($bot = Data\Applications::identifyBot($ua)) {
