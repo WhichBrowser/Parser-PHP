@@ -32,7 +32,8 @@ trait Bot
         }
 
         /* Detect Go Http Client */
-        if (preg_match('/Go-http-client\/([0-9.]*)/u', $ua, $result)) {
+
+        if (preg_match('/Go-http-client\/([0-9.]*)/iu', $ua, $result)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
