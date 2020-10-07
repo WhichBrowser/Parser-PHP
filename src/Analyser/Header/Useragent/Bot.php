@@ -34,10 +34,13 @@ trait Bot
         /* Detect Go Http Client */
         if (preg_match('/Go-http-client\/([0-9.]*)/u', $ua, $result)) {
             $this->data->browser->reset();
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+            
             $this->data->browser->name = 'Go Http Client';
             $this->data->browser->version = $result[1] ?? '';
 
-            $this->data->device->reset();
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
