@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\Model\Version;
 
 trait Bot
 {
@@ -30,6 +31,20 @@ trait Bot
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
+
+        /* Detect fake browser chinese bot */
+
+        if (preg_match('/(WaiMao_Browser|MyChrome\.CN)/u', $ua, $match)) {
+            $this->data->browser->reset();
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+
+            $this->data->browser->name = 'MyChrome CN';
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
 
         /* Detect based on a predefined list or markers */
 
