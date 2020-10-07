@@ -298,7 +298,6 @@ Applications::$BOTS = [
     [ 'name' => 'Curl',                         'id'    => 'curl',      'regexp' => '/^curl\/([0-9.]*)/u' ],
 
     [ 'name' => 'Go',                           'id'    => 'package',      'regexp' => '/Go [0-9\.]+ package http/u' ],
-    [ 'name' => 'Go Http Client',               'id'    => 'gohttpclient', 'regexp' => '/Go-http-client\/([0-9.]*)/u' ],
     [ 'name' => 'Go Http Client',               'id'    => 'gohttpclient', 'regexp' => '/go-httpclient v([0-9.]*)/u' ],
     [ 'name' => 'Java',                         'id'    => 'java',      'regexp' => '/^Java\/([0-9.]*)/u' ],
     [ 'name' => 'Perl',                         'id'    => 'simple',      'regexp' => '/LWP::Simple\//u' ],
