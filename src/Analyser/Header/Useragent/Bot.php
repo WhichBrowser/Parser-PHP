@@ -35,12 +35,10 @@ trait Bot
 
         if (preg_match('/node-fetch\/([0-9.]*)/u', $ua, $result)) {
             $this->data->browser->reset();
-            $this->data->os->reset();
-            $this->data->engine->reset();
             $this->data->device->reset();
 
             $this->data->browser->name = 'Node Fetch';
-            //$this->data->browser->version = $result[1] ?? '';
+            $this->data->browser->version = $result[1];
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
