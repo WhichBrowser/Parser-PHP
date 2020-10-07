@@ -40,7 +40,7 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->browser->name = 'Node Fetch';
-            $this->data->browser->version = $result[1] ?? '';
+            //$this->data->browser->version = $result[1] ?? '';
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
