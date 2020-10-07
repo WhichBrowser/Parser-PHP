@@ -37,6 +37,7 @@ trait Bot
             $this->data->browser->name = 'Go Http Client';
             $this->data->browser->version = $result[1] ?? '';
 
+            $this->data->device->reset();
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
