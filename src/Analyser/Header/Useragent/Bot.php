@@ -42,6 +42,12 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
+        /* Detect Go Http Client */
+        if (preg_match('/Go-http-client\/([0-9.]*)/u', $ua, $result)) {
+            $this->data->browser->name = 'Go Http Client';
+            $this->data->browser->version = $result[1] ?? '';
+        }
+
         return $this;
     }
 }
