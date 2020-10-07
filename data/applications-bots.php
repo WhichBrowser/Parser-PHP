@@ -173,6 +173,7 @@ Applications::$BOTS = [
     [ 'name' => 'NewsGator',                    'id'    => 'newsgator',      'regexp' => '/NewsGatorOnline\/([0-9.]*)/u' ],
     [ 'name' => 'NewsGator FetchLinks',         'id'    => 'newsgator',      'regexp' => '/NewsGator FetchLinks extension\/([0-9.]*)/u' ],
     [ 'name' => 'Nimbostratus',                 'id'    => 'nimbostratus',      'regexp' => '/Nimbostratus-Bot\/v([0-9.]*)/u' ],
+    [ 'name' => 'Node Fetch',                   'id'    => 'nodefetch',      'regexp' => '/node-fetch\/([0-9.]*)/u' ],
     [ 'name' => 'OpenWebSpider',                'id'    => 'spider',      'regexp' => '/OpenWebSpider v([0-9.]*)/u' ],
     [ 'name' => 'OrangeBot',                    'id'    => 'orange',      'regexp' => '/OrangeBot-Collector\/([0-9.]*)/u' ],
     [ 'name' => 'OrangeBot',                    'id'    => 'orange',      'regexp' => '/OrangeBot-Mobile/u' ],
@@ -299,7 +300,6 @@ Applications::$BOTS = [
 
     [ 'name' => 'Go',                           'id'    => 'package',      'regexp' => '/Go [0-9\.]+ package http/u' ],
     [ 'name' => 'Java',                         'id'    => 'java',      'regexp' => '/^Java\/([0-9.]*)/u' ],
-    [ 'name' => 'Node Fetch',                   'id'    => 'nodefetch',      'regexp' => '/node-fetch\/([0-9.]*)/u' ],
     [ 'name' => 'Perl',                         'id'    => 'simple',      'regexp' => '/LWP::Simple\//u' ],
     [ 'name' => 'Perl',                         'id'    => 'libwww',      'regexp' => '/libwww-perl\//u' ],
     [ 'name' => 'Perl',                         'id'    => 'lwp',      'regexp' => '/lwp-trivial\//u' ],
