@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\Model\Version;
 
 trait Bot
 {
