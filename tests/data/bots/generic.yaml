@@ -586,3 +586,11 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 PTST/200730.210757'
+    readable: 'WebPageTest 200730.210757'
+    result: { browser: { name: WebPageTest, version: '200730.210757' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 PTST 200730.21064'
+    readable: 'WebPageTest 200730.21064'
+    result: { browser: { name: WebPageTest, version: '200730.21064' }, device: { type: bot } }

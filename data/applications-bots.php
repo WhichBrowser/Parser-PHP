@@ -242,6 +242,8 @@ Applications::$BOTS = [
     [ 'name' => 'Wayback Archive',              'id'    => 'wayback',      'regexp' => '/waybackarchive.org\/([0-9.]*)/u' ],
     [ 'name' => 'WebbCrawler',                  'id'    => 'crawler',      'regexp' => '/WebbCrawler ([0-9.]*)/u' ],
     [ 'name' => 'WebIndexer',                   'id'    => 'webindexer',      'regexp' => '/WebIndexer\//u' ],
+    [ 'name' => 'WebPageTest',                  'id'    => 'webpagetest',      'regexp' => '/ PTST\/([0-9.]*)/u' ],
+    [ 'name' => 'WebPageTest',                  'id'    => 'webpagetest',      'regexp' => '/ PTST ([0-9.]*)/u' ],
     [ 'name' => 'WordPress',                    'id'    => 'wordpress',      'regexp' => '/WordPress\/([0-9.]*)/u' ],
     [ 'name' => 'WordPress.com',                'id'    => 'wordpress',      'regexp' => '/WordPress\.com; http/u' ],
     [ 'name' => 'WordPress Jetpack',            'id'    => 'wordpress',      'regexp' => '/Jetpack by WordPress\.com/u' ],
