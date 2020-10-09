@@ -158,6 +158,7 @@ Applications::$BOTS = [
     [ 'name' => 'Microsoft Social Streams',     'id'    => 'socialstreams',      'regexp' => '/Microsoft MSN SocialStreams Bot/u' ],
     [ 'name' => 'Mixi',                         'id'    => 'mixi',      'regexp' => '/mixi-check\/([0-9.]*)/u' ],
     [ 'name' => 'MnoGoSearch',                  'id'    => 'mnogo',      'regexp' => '/MnoGoSearch\/([0-9.]*)/u' ],
+    [ 'name' => 'MojeekBot',                    'id'    => 'mojeek',      'regexp' => '/MojeekBot\/([0-9.]*)/u' ],
     [ 'name' => 'Monitor.us',                   'id'    => 'monitor',      'regexp' => '/monitor.us/u' ],
     [ 'name' => 'Moz',                          'id'    => 'dotbot',         'regexp' => '/DotBot\/([0-9.]*)/i' ],
     [ 'name' => 'Moz',                          'id'    => 'rogerbot',         'regexp' => '/rogerbot\/([0-9.]*)/i' ],
