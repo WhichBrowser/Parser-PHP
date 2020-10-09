@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\Model\Version;
 
 trait Bot
 {
@@ -27,6 +28,18 @@ trait Bot
             $this->data->os->reset();
             $this->data->engine->reset();
             $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect British Library */
+
+        if (preg_match('/uk_lddc_bot\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->reset();
+            $this->data->device->reset();
+
+            $this->data->browser->name = 'British Library';
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
