@@ -69,6 +69,7 @@ Applications::$BOTS = [
     [ 'name' => 'DomainCrawler',                'id'    => 'domaincrawl',      'regexp' => '/DomainCrawler\/([0-9.]*)/u' ],
     [ 'name' => 'Discord',                      'id'    => 'discord',      'regexp' => '/Discordbot\/([0-9.]*)/u' ],
     [ 'name' => 'Domain Re-Animator',           'id'    => 'domain',      'regexp' => '/Domain Re-Animator Bot/u' ],
+    [ 'name' => 'Evc-batch',                    'id'    => 'evcbatch',      'regexp' => '/evc-batch\/([0-9.]*)/u' ],
     [ 'name' => 'Exabot Thumbnails',            'id'    => 'exabot',      'regexp' => '/Exabot-Thumbnails/u' ],
     [ 'name' => 'ExactSeek',                    'id'    => 'exactseek',      'regexp' => '/ExactSeek Crawler/u' ],
     [ 'name' => 'Ezooms Crawler',               'id'    => 'ezooms',      'regexp' => '/Ezooms\/([0-9.]*)/u' ],
