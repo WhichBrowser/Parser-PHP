@@ -590,3 +590,7 @@
     headers: 'User-Agent: Mozilla/5.0 (iodc; odysseus 24842-138-041020155614-449; +https://iodc.co.uk)'
     readable: 'Iodc'
     result: { browser: { name: Iodc }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; IODC-Odysseus Survey 46182-100-271115114504-101; +https://iodc.co.uk)'
+    readable: 'Iodc'
+    result: { browser: { name: Iodc }, device: { type: bot } }
