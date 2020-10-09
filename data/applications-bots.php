@@ -12,6 +12,7 @@ Applications::$BOTS = [
     [ 'name' => 'Adaxas',                       'id'    => 'adaxas',      'regexp' => '/Adaxas Spider/u' ],
     [ 'name' => 'AddThis.com',                  'id'    => 'addthis',      'regexp' => '/AddThis.com/u' ],
     [ 'name' => 'ADmantX',                      'id'    => 'admantx',      'regexp' => '/ADmantX Platform Semantic Analyzer/u' ],
+    [ 'name' => 'Adsbot',                       'id'    => 'adsbot',      'regexp' => '/Adsbot\/([0-9.]*)/u' ], // Not to be mixed up with Google Adsbot
     [ 'name' => 'AhrefsBot',                    'id'    => 'ahrefsbot',      'regexp' => '/AhrefsBot.Feeds v([0-9.]*)/u' ],
     [ 'name' => 'AhrefsBot',                    'id'    => 'ahrefsbot',      'regexp' => '/AhrefsBot\/([0-9.]*)/u' ],
     [ 'name' => 'Alexa',                        'id'    => 'archiver',      'regexp' => '/ia_archiver/u' ],
