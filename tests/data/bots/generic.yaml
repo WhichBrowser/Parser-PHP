@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    readable: 'Datanyze'
+    result: { browser: { name: Datanyze }, device: { type: bot } }
