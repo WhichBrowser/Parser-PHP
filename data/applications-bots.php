@@ -169,6 +169,7 @@ Applications::$BOTS = [
     [ 'name' => 'NewsBlur',                     'id'    => 'newsblur',      'regexp' => '/NewsBlur Feed Fetcher/u' ],
     [ 'name' => 'NewsBlur',                     'id'    => 'newsblur',      'regexp' => '/NewsBlur Feed Finder/u' ],
     [ 'name' => 'NewsBlur',                     'id'    => 'newsblur',      'regexp' => '/NewsBlur Page Fetcher/u' ],
+    [ 'name' => 'netEstate NE Crawler',         'id'    => 'netestate',     'regexp' => '/netEstate NE Crawler/u' ],
     [ 'name' => 'NewsGator',                    'id'    => 'newsgator',      'regexp' => '/NewsGator\/([0-9.]*)/u' ],
     [ 'name' => 'NewsGator',                    'id'    => 'newsgator',      'regexp' => '/NewsGatorOnline\/([0-9.]*)/u' ],
     [ 'name' => 'NewsGator FetchLinks',         'id'    => 'newsgator',      'regexp' => '/NewsGator FetchLinks extension\/([0-9.]*)/u' ],
