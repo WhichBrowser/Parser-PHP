@@ -586,3 +586,11 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 YisouSpider/5.0 Safari/537.36'
+    readable: 'YisouSpider 5.0'
+    result: { browser: { name: YisouSpider, version: '5.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: YisouSpider'
+    readable: 'YisouSpider'
+    result: { browser: { name: YisouSpider }, device: { type: bot } }
