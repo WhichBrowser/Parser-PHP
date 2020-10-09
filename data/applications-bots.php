@@ -246,6 +246,7 @@ Applications::$BOTS = [
     [ 'name' => 'WordPress.com',                'id'    => 'wordpress',      'regexp' => '/WordPress\.com; http/u' ],
     [ 'name' => 'WordPress Jetpack',            'id'    => 'wordpress',      'regexp' => '/Jetpack by WordPress\.com/u' ],
     [ 'name' => 'WWW Mechanize',                'id'    => 'mechanize',      'regexp' => '/WWW-Mechanize\/([0-9.]*)/u' ],
+    [ 'name' => 'Xenu Link Sleuth',             'id'    => 'xenu',      'regexp' => '/Xenu Link Sleuth\/([0-9.]*)/u' ],
     [ 'name' => 'Xerka WebBot',                 'id'    => 'xerka',      'regexp' => '/Xerka WebBot v([0-9.]*)/u' ],
     [ 'name' => 'XML Sitemaps Generator',       'id'    => 'sitemap',      'regexp' => '/XML-Sitemaps\/([0-9.]*)/u' ],
     [ 'name' => 'XMLSitemapGenerator',          'id'    => 'sitemap',      'regexp' => '/XmlSitemapGenerator/u' ],
