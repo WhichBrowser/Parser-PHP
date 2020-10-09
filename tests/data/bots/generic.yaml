@@ -586,3 +586,7 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iodc; odysseus 24842-138-041020155614-449; +https://iodc.co.uk)'
+    readable: 'Iodc'
+    result: { browser: { name: Iodc }, device: { type: bot } }
