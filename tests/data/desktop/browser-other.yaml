@@ -562,3 +562,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36'
     result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'SalamWeb on Windows 7'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; th; vivo 1915) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Tenta/3.1.6 Build/2162 Safari/537.36'
+    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    readable: 'x'
