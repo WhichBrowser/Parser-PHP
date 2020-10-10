@@ -22,11 +22,16 @@ trait Bot
 
         /* Detect bots based on common markers */
 
-        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
+        if (preg_match('/(?:Bot|Robot|Spider|Crawler|compatible)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
             $this->data->device->reset();
+
+            /* Detect Blogger Bot */
+            if (preg_match('/blogger\.com/u', $ua, $match) {
+                $this->data->browser->name = 'Blogger Bot';
+            }
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
