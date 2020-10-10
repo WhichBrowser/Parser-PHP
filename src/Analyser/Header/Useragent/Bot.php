@@ -35,6 +35,17 @@ trait Bot
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
+        
+        /* Detect bots based on `compatible;` to advoid false positives */
+
+        if (preg_match('/compatible;/u', $ua, $match)) {
+            /* Detect Blogger Bot */
+            if (preg_match('/blogger\.com/u', $ua, $match)) {
+                $this->data->browser->name = 'Blogger Bot';
+            }
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
 
         /* Detect based on a predefined list or markers */
 
