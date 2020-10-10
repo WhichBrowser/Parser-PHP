@@ -586,3 +586,15 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikFaviconBot/1.2; +http://corp.sputnik.ru/webmaster)'
+    readable: 'SputnikFaviconBot 1.2'
+    result: { browser: { name: SputnikFaviconBot, version: '1.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'SputnikBot 2.3'
+    result: { browser: { name: SputnikBot, version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikImageBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'SputnikImageBot 2.3'
+    result: { browser: { name: SputnikImageBot, version: '2.3' }, device: { type: bot } }
