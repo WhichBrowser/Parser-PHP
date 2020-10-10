@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)'
-    readable: 'IGmail Image Proxy'
-    result: { browser: { name: 'Gmail Image Proxy', type: 'app:meil' } }
+    readable: 'Gmail Image Proxy on Windows XP'
+    result: { browser: { name: 'Gmail Image Proxy', family: { name: Firefox, version: '11.0' }, type: 'app:email' }, engine: { name: Gecko, version: '11.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }

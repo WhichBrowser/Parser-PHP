@@ -35,7 +35,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Lotus Notes',          'id'    => 'lotus',      'regexp' =>'/Lotus-Notes\/([0-9.]*)/u', 'details' => 2, 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'Postbox',              'id'    => 'postbox',      'regexp' =>'/Postbox[\/ ]([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'The Bat!',             'id'    => 'bat',      'regexp' =>'/The Bat! ([0-9.]*)/u', 'details' => 3 ],
-        [ 'name' => 'Yahoo Mail',           'id'    => 'yahoo',      'regexp' =>'/YahooMobile\/1.0 \(mail; ([0-9.]+)\)/u', 'details' => 3 ], 
+        [ 'name' => 'Yahoo Mail',           'id'    => 'yahoo',      'regexp' =>'/YahooMobile\/1.0 \(mail; ([0-9.]+)\)/u', 'details' => 3 ],
     ],
 
     Constants\BrowserType::APP_NEWS => [
