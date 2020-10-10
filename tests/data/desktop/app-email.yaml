@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)'
+    readable: 'IGmail Image Proxy'
+    result: { browser: { name: 'Gmail Image Proxy', type: 'app:meil' } }
