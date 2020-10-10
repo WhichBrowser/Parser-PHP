@@ -29,7 +29,7 @@ trait Bot
             $this->data->device->reset();
 
             /* Detect Blogger Bot */
-            if (preg_match('/blogger\.com/u', $ua, $match) {
+            if (preg_match('/blogger\.com/u', $ua, $match)) {
                 $this->data->browser->name = 'Blogger Bot';
             }
 
