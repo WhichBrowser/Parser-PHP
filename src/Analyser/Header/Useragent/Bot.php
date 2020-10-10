@@ -28,11 +28,6 @@ trait Bot
             $this->data->engine->reset();
             $this->data->device->reset();
 
-            /* Detect Blogger Bot */
-            if (preg_match('/blogger\.com/u', $ua, $match)) {
-                $this->data->browser->name = 'Blogger Bot';
-            }
-
             $this->data->device->type = Constants\DeviceType::BOT;
         }
         
