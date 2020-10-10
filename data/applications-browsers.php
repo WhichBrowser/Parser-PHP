@@ -226,6 +226,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'Digia @Web',           'id'    => 'digia',      'regexp' =>'/Digia @Web\/([0-9.]*)/u' ],
         [ 'name' => 'Doris',                'id'    => 'doris',      'regexp' =>'/Doris\/([0-9.]*)/u' ],
         [ 'name' => 'Dorothy',              'id'    => 'doroty',      'regexp' =>'/Dorothy$/u' ],
+        [ 'name' => 'Ecosia Browser',       'id'    => 'ecosia',        'regexp' => '/Ecosia\sandroid\@([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],              // see: https://play.google.com/store/apps/details?id=com.ecosia.android
+        [ 'name' => 'Ecosia Browser',       'id'    => 'ecosia',        'regexp' => '/Ecosia\sios\@([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                  // see: https://apps.apple.com/us/app/ecosia/id670881887
         [ 'name' => 'EMOBILE Browser',      'id'    => 'www browser',      'regexp' =>'/WWW Browser\/ver([0-9.]*)/u' ],
         [ 'name' => 'Epic Browser',         'id'    => 'epic',          'regexp' => '/ Epic\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                        // see: https://en.wikipedia.org/wiki/Epic_(web_browser)
         [ 'name' => 'EUI Browser',          'id'    => 'eui',      'regexp' =>'/EUI Browser\/[^0-9\s]*([0-9.]*)/u', 'details' => 2 ],
@@ -248,6 +250,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Mammoth',              'id'    => 'mammoth',      'regexp' =>'/Mammoth\/([0-9.]*)/u' ],                                                              // see: https://itunes.apple.com/cn/app/meng-ma-liu-lan-qi/id403760998?mt=8
         [ 'name' => 'mCent Browser',        'id'    => 'mcent',      'regexp' =>'/mCent\/([0-9.]*)/u' ],
         [ 'name' => 'Mint Browser',              'id'    => 'mint',          'regexp' => '/XiaoMi\/Mint Browser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],         // see: http://www.mintbrowser.com/
+        [ 'name' => 'Mobicip',                   'id'    => 'mobicip',       'regexp' => '/ Mobicip\//u', 'type' => Constants\DeviceType::MOBILE ],                     // see: https://www.mobicip.com/
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'mib',      'regexp' =>'/MIB\/([0-9.]*)/u' ],
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'mib',      'regexp' =>'/MIB([0-9.]+)\//u' ],
         [ 'name' => 'Motorola Internet Browser', 'id'    => 'cmcs',      'regexp' =>'/Browser\/CMCS([0-9.]*)/u' ],
