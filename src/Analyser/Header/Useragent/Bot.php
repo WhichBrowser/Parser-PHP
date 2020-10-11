@@ -35,20 +35,21 @@ trait Bot
         /* Detect Seznam bots */
 
         if (preg_match('/Seznam|HomePage/iu', $ua, $match)) {
+
+            /* SeznamBot Test (place before normal SeznamBot) */
+            } elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
+                $this->data->browser->name = 'SeznamBot Test';
+                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
+
+                $this->data->device->type = Constants\DeviceType::BOT;
+
             /* SeznamBot */
             if (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
                 $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot';
-                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-
-                $this->data->device->type = Constants\DeviceType::BOT;
-
-            /* SeznamBot Test */
-            } elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
-                $this->data->browser->reset();
-                $this->data->device->reset();
-                $this->data->browser->name = 'SeznamBot Test';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
                 $this->data->device->type = Constants\DeviceType::BOT;
@@ -90,11 +91,10 @@ trait Bot
                 $this->data->device->type = Constants\DeviceType::BOT;
 
             /* SeznamReadLaterBot */
-            } elseif (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
+            } elseif (preg_match('/SeznamReadLaterBot/u', $ua, $match)) {
                 $this->data->browser->reset();
                 $this->data->device->reset();
                 $this->data->browser->name = 'SeznamReadLaterBot';
-                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
                 $this->data->device->type = Constants\DeviceType::BOT;
 

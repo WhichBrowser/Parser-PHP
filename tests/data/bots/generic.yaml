@@ -628,5 +628,5 @@
     result: { browser: { name: SeznamReadLaterBot }, device: { type: bot } }
 -
     headers: 'User-Agent: SklikBot/2.0 (sklik@firma.seznam.cz;+http://napoveda.sklik.cz/)'
-    readable: 'Seznam 2.0'
-    result: { browser: { name: Seznam, version: '2.0' }, device: { type: bot } }
+    readable: 'SeznamBot 2.0'
+    result: { browser: { name: SeznamBot, version: '2.0' }, device: { type: bot } }
