@@ -34,11 +34,10 @@ trait Bot
         /* Detect Seznam bots */
 
         if (preg_match('/Seznam|HomePage/iu', $ua, $match)) {
-            $this->data->browser->reset();
-            $this->data->device->reset();
-
             /* SeznamBot */
             if (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -47,6 +46,8 @@ trait Bot
 
             /* SeznamBot Test */
             elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot Test';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -55,6 +56,8 @@ trait Bot
 
             /* SklikBot */
             elseif (preg_match('/SklikBot\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -63,6 +66,8 @@ trait Bot
 
             /* Seznam HomePageBot Rss Reader */
             elseif (preg_match('/HomePage(Bot)? Rss Reader ([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'Seznam HomePageBot Rss Reader';
                 $this->data->browser->version = new Version([ 'value' => $match[2] ]);
 
@@ -71,6 +76,8 @@ trait Bot
 
             /* Seznam HomePageBot Downloader */
             elseif (preg_match('/HomePageBot downloader ([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'Seznam HomePageBot Downloader';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -79,6 +86,8 @@ trait Bot
 
             /* Seznam Screenshot Generator */
             elseif (preg_match('/Seznam screenshot-generator ([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'Seznam Screenshot Generator';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -87,6 +96,8 @@ trait Bot
 
             /* SeznamReadLaterBot */
             elseif (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'SeznamReadLaterBot';
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
 
@@ -95,6 +106,8 @@ trait Bot
 
             /* Seznam Email Proxy */
             elseif (preg_match('/SeznamEmailProxy/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'Seznam Email Proxy';
 
                 $this->data->device->type = Constants\DeviceType::BOT;
@@ -102,6 +115,8 @@ trait Bot
 
             /* Seznam Zbozi.cz */
             elseif (preg_match('/Seznam-Zbozi-robot/u', $ua, $match)) {
+                $this->data->browser->reset();
+                $this->data->device->reset();
                 $this->data->browser->name = 'Seznam Zbozi.cz';
 
                 $this->data->device->type = Constants\DeviceType::BOT;
