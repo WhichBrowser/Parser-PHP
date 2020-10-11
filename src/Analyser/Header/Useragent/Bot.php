@@ -43,7 +43,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* SeznamBot Test */
             elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -53,7 +52,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* SklikBot */
             elseif (preg_match('/SklikBot\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -63,7 +61,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* Seznam HomePageBot Rss Reader */
             elseif (preg_match('/HomePage(Bot)? Rss Reader ([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -73,7 +70,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* Seznam HomePageBot Downloader */
             elseif (preg_match('/HomePageBot downloader ([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -83,7 +79,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* Seznam Screenshot Generator */
             elseif (preg_match('/Seznam screenshot-generator ([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -93,7 +88,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* SeznamReadLaterBot */
             elseif (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -103,7 +97,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* Seznam Email Proxy */
             elseif (preg_match('/SeznamEmailProxy/u', $ua, $match)) {
                 $this->data->browser->reset();
@@ -112,7 +105,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
             }
-
             /* Seznam Zbozi.cz */
             elseif (preg_match('/Seznam-Zbozi-robot/u', $ua, $match)) {
                 $this->data->browser->reset();
