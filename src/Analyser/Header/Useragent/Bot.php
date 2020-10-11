@@ -36,7 +36,7 @@ trait Bot
 
         if (preg_match('/Seznam|HomePage/iu', $ua, $match)) {
             /* SeznamBot Test (place before normal SeznamBot) */
-            } elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
+            if (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
                 $this->data->browser->reset();
                 $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot Test';
@@ -45,7 +45,7 @@ trait Bot
                 $this->data->device->type = Constants\DeviceType::BOT;
 
             /* SeznamBot */
-            if (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
+            } elseif (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();
                 $this->data->device->reset();
                 $this->data->browser->name = 'SeznamBot';
