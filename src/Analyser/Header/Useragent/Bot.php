@@ -53,15 +53,6 @@ trait Bot
 
                 $this->data->device->type = Constants\DeviceType::BOT;
 
-            /* Fallback caught any old SeznamBot */
-            } elseif (preg_match('/SeznamBot/u', $ua, $match)) {
-                $this->data->browser->reset();
-                $this->data->device->reset();
-                $this->data->browser->name = 'SeznamBot';
-                $this->data->browser->version = new Version([ 'value' => $match[1] ]);
-
-                $this->data->device->type = Constants\DeviceType::BOT;
-
             /* SklikBot */
             } elseif (preg_match('/SklikBot\/([0-9.]*)/u', $ua, $match)) {
                 $this->data->browser->reset();

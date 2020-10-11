@@ -587,10 +587,6 @@
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
-    headers: 'Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)'
-    readable: 'SeznamBot 3.2'
-    result: { browser: { name: SeznamBot, version: '3.2' }, device: { type: bot } }
--
     headers: 'User-Agent: Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)'
     readable: 'SeznamBot 3.2'
     result: { browser: { name: SeznamBot, version: '3.2' }, device: { type: bot } }
