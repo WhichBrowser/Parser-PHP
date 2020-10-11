@@ -35,7 +35,6 @@ trait Bot
         /* Detect Seznam bots */
 
         if (preg_match('/Seznam|HomePage/iu', $ua, $match)) {
-
             /* SeznamBot Test (place before normal SeznamBot) */
             } elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
                 $this->data->browser->reset();
