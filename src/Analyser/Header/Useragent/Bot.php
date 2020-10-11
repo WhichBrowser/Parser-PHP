@@ -112,7 +112,7 @@ trait Bot
                 $this->data->browser->name = 'Seznam Zbozi.cz';
 
                 $this->data->device->type = Constants\DeviceType::BOT;
-            }            
+            }
         }
 
         /* Detect based on a predefined list or markers */
