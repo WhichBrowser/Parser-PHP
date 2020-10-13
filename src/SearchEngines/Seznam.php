@@ -16,6 +16,9 @@ class Seznam
 
     /** @var string */
     public $bot;
+    
+    /** @var string default set to false */
+    public $found = false;
 
     /**
      * Detect Seznam search engine bots
@@ -31,52 +34,60 @@ class Seznam
             $this->name = 'SeznamBot Test';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* SeznamBot */
         } elseif (preg_match('/SeznamBot\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'SeznamBot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* SklikBot */
         } elseif (preg_match('/SklikBot\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'SeznamBot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* Seznam HomePageBot Rss Reader */
         } elseif (preg_match('/HomePage(Bot)? Rss Reader ([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Seznam HomePageBot Rss Reader';
             $this->version = new Version([ 'value' => $match[2] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* Seznam HomePageBot Downloader */
         } elseif (preg_match('/HomePageBot downloader ([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Seznam HomePageBot Downloader';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* Seznam Screenshot Generator */
         } elseif (preg_match('/Seznam screenshot-generator ([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Seznam Screenshot Generator';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* SeznamReadLaterBot */
         } elseif (preg_match('/SeznamReadLaterBot/u', $ua, $match)) {
             $this->name = 'SeznamReadLaterBot';
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* Seznam Email Proxy */
         } elseif (preg_match('/SeznamEmailProxy/u', $ua, $match)) {
             $this->name = 'Seznam Email Proxy';
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
 
         /* Seznam Zbozi.cz */
         } elseif (preg_match('/Seznam-Zbozi-robot/u', $ua, $match)) {
             $this->name = 'Seznam Zbozi.cz';
-
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
         }
 
         return;

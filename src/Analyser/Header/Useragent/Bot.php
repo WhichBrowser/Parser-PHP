@@ -36,10 +36,13 @@ trait Bot
 
         if (preg_match('/Seznam|HomePage/iu', $ua, $match)) {
             $Seznam = new Seznam($ua);
-        
-            $this->data->browser->name = $Seznam->name;
-            $this->data->browser->version = $Seznam->version;
-            $this->data->device->type = $Seznam->bot;
+            
+            // Only run if the class found a regex match
+            if ($this->found == true) {
+                $this->data->browser->name = $Seznam->name ?? '';
+                $this->data->browser->version = $Seznam->version ?? '';
+                $this->data->device->type = $Seznam->bot ?? '';
+            }
         }
 
         /* Detect based on a predefined list or markers */
