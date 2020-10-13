@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Yandex;
 
 trait Bot
 {
@@ -29,6 +30,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect yandex search engine bots */
+
+        if (preg_match('/yandex/u', $ua, $match)) {
+            $Yandex = new Yandex($ua);
+
+            // Only run if the class found a regex match
+            if ($Yandex->found == true) {
+                $this->data->browser->name = $Yandex->name ?? '';
+                $this->data->browser->version = $Yandex->version ?? '';
+                $this->data->device->type = $Yandex->bot ?? '';
+            }
         }
 
         /* Detect based on a predefined list or markers */

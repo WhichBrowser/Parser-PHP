@@ -586,3 +586,43 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Mobile Bot 3.0'
+    result: { browser: { name: 'Yandex Mobile Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Accessibility Bot 3.0'
+    result: { browser: { name: 'Yandex Accessibility Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Media 3.0'
+    result: { browser: { name: 'Yandex Media', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)'
+    readable: 'YandexVideo 3.0'
+    result: { browser: { name: 'Yandex Video', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)'
+    readable: 'Yandex Bot Mirror Detector 3.0'
+    result: { browser: { name: 'Yandex Bot Mirror Detector', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106'
+    readable: 'YandexVideoParser 1.0'
+    result: { browser: { name: 'Yandex Video Parser', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPagechecker/2.0; +http://yandex.com/bots)'
+    readable: 'Yandex Page Checker 2.0'
+    result: { browser: { name: 'Yandex Page Checker', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots'
+    readable: 'Yandex DirectD yn 1.0'
+    result: { browser: { name: 'Yandex Direct Dyn', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexRCA/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex RCA 1.0'
+    result: { browser: { name: 'Yandex RCA', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexCatalog/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Catalog 3.0'
+    result: { browser: { name: 'Yandex Catalog', version: '3.0' }, device: { type: bot } }
