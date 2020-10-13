@@ -600,7 +600,7 @@
     result: { browser: { name: 'Yandex Media', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)'
-    readable: 'YandexVideo 3.0'
+    readable: 'Yandex Video 3.0'
     result: { browser: { name: 'Yandex Video', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)'
@@ -608,7 +608,7 @@
     result: { browser: { name: 'Yandex Bot Mirror Detector', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106'
-    readable: 'YandexVideoParser 1.0'
+    readable: 'Yandex Video Parser 1.0'
     result: { browser: { name: 'Yandex Video Parser', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPagechecker/2.0; +http://yandex.com/bots)'
@@ -616,7 +616,7 @@
     result: { browser: { name: 'Yandex Page Checker', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots'
-    readable: 'Yandex DirectD yn 1.0'
+    readable: 'Yandex Direct Dyn 1.0'
     result: { browser: { name: 'Yandex Direct Dyn', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexRCA/1.0; +http://yandex.com/bots)'
