@@ -38,7 +38,7 @@ trait Bot
             $Seznam = new Seznam($ua);
             
             // Only run if the class found a regex match
-            if ($this->found == true) {
+            if ($Seznam->found == true) {
                 $this->data->browser->name = $Seznam->name ?? '';
                 $this->data->browser->version = $Seznam->version ?? '';
                 $this->data->device->type = $Seznam->bot ?? '';
