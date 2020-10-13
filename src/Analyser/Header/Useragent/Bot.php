@@ -34,7 +34,7 @@ trait Bot
 
         /* Detect yandex search engine bots */
 
-        if (preg_match('/yandex/u', $ua, $match)) {
+        if (preg_match('/yandex/iu', $ua, $match)) {
             $Yandex = new Yandex($ua);
 
             // Only run if the class found a regex match
