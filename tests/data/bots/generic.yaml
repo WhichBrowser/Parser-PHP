@@ -586,3 +586,23 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)'
+    readable: 'Sogou Web Spider 4.0'
+    result: { browser: { name: 'Sogou Web Spider', version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 KHTML Version/6.0 Mobile/10A5376e Safari/8536.25(compatible;Sogou mobile spider/2.0;url) zh-cn'
+    readable: 'Sogou Mobile Spider 2.0'
+    result: { browser: { name: 'Sogou Mobile Spider', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Sogou Pic Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)'
+    readable: 'Sogou Pic Spider 3.0'
+    result: { browser: { name: 'Sogou Pic Spider', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Sogou inst spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm'
+    readable: 'Sogou Inst Spider 4.0'
+    result: { browser: { name: 'Sogou Inst Spider', version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Sogou News Spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)'
+    readable: 'Sogou News Spider 4.0'
+    result: { browser: { name: 'Sogou News Spider', version: '4.0' }, device: { type: bot } }
