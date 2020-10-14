@@ -61,6 +61,8 @@ Applications::$BOTS = [
     [ 'name' => 'Comodo',                       'id'    => 'comodo',      'regexp' => '/Comodo Spider ([0-9.]*)/u' ],
     [ 'name' => 'CommaFeed',                    'id'    => 'commafeed',      'regexp' => '/CommaFeed\/([0-9.]*)/u' ],
     [ 'name' => 'CommonCrawl',                  'id'    => 'cbot',      'regexp' => '/CCBot\/([0-9.]*)/u' ],
+    [ 'name' => 'Coccocbot Web',                'id'    => 'coccoc',      'regexp' => '/coccocbot-web\/([0-9.]*)/u' ],
+    [ 'name' => 'Coccocbot Image',              'id'    => 'coccoc',      'regexp' => '/coccocbot-image\/([0-9.]*)/u' ],
     [ 'name' => 'Data Hotel Watchdog',          'id'    => 'watchdog',      'regexp' => '/Data-Hotel-Watchdog\/([0-9.]*)/u' ],
     [ 'name' => 'DataparkSearch',               'id'    => 'datasearch',      'regexp' => '/DataparkSearch\/([0-9.]*)/u' ],
     [ 'name' => 'Daumoa',                       'id'    => 'daumoa',      'regexp' => '/Daumoa ([0-9.]*)/u' ],
