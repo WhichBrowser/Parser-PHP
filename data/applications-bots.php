@@ -19,6 +19,8 @@ Applications::$BOTS = [
     [ 'name' => 'Analytics SEO',                'id'    => 'curious',      'regexp' => '/Curious George - www.analyticsseo.com\/crawler/u' ],
     [ 'name' => 'Amazon CloudFront',            'id'    => 'cloudfront',      'regexp' => '/Amazon CloudFront/u' ],
     [ 'name' => 'Amorank Spider',               'id'    => 'amorank',      'regexp' => '/AmorankSpider\/([0-9.]*)/u' ],
+    [ 'name' => 'Apple Bot',                    'id'    => 'apple',      'regexp' => '/Applebot\/([0-9.]*)/u' ],
+    [ 'name' => 'Apple News Bot',               'id'    => 'apple',      'regexp' => '/AppleNewsBot/u' ],
     [ 'name' => 'ArchiveBot',                   'id'    => 'archive',      'regexp' => '/ArchiveTeam ArchiveBot/u' ],
     [ 'name' => 'Archive.org',                  'id'    => 'archive',      'regexp' => '/archive.org_bot(?:\/([0-9.]*))?/u' ],
     [ 'name' => 'Archive.org',                  'id'    => 'archive',      'regexp' => '/special_archiver(?:\/([0-9.]*))?/u' ],

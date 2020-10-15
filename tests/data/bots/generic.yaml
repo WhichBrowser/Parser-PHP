@@ -586,3 +586,15 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)'
+    readable: 'Apple Bot 0.1'
+    result: { browser: { name: 'Apple Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Applebot/0.3; +http://www.apple.com/go/applebot)'
+    readable: 'Apple Bot 0.3'
+    result: { browser: { name: 'Apple Bot', version: '0.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AppleNewsBot'
+    readable: 'AppleNewsBot'
+    result: { browser: { name: 'AppleNewsBot' }, device: { type: bot } }
