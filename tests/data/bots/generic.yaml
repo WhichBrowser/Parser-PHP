@@ -586,3 +586,15 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot/0.1 (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot 0.1'
+    result: { browser: { name: 'Picsearch Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-page (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-image (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
