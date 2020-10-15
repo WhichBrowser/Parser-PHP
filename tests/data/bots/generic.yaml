@@ -596,5 +596,5 @@
     result: { browser: { name: 'Apple Bot', version: '0.3' }, device: { type: bot } }
 -
     headers: 'User-Agent: AppleNewsBot'
-    readable: 'AppleNewsBot'
-    result: { browser: { name: 'AppleNewsBot' }, device: { type: bot } }
+    readable: 'Apple News Bot'
+    result: { browser: { name: 'Apple News Bot' }, device: { type: bot } }
