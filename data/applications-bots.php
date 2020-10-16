@@ -43,6 +43,7 @@ Applications::$BOTS = [
     [ 'name' => 'Bing',                         'id'    => 'msmobot',      'regexp' => '/MSMOBOT/u' ],
     [ 'name' => 'Bing Preview',                 'id'    => 'bing',      'regexp' => '/BingPreview\/([0-9.]*)/u' ],
     [ 'name' => 'BlogBridge',                   'id'    => 'blogbridge',      'regexp' => '/BlogBridge ([0-9.]*)/u' ],
+    [ 'name' => 'Blogger Bot',                  'id'    => 'blogger',      'regexp' => '/blogger\.com\)/u' ],
     [ 'name' => 'Bloglines',                    'id'    => 'bloglines',      'regexp' => '/Bloglines\/([0-9.]*)/u' ],
     [ 'name' => 'Bloglovin',                    'id'    => 'bloglovin',      'regexp' => '/Bloglovin\/([0-9.]*)/u' ],
     [ 'name' => 'BlogPulse',                    'id'    => 'blogpulse',      'regexp' => '/BlogPulse \(ISSpider-([0-9.]*)/u' ],
