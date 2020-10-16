@@ -29,22 +29,8 @@ class Qwantify
      */
     public function __construct($ua)
     {
-        /* Qwantify Bot 1 */
-        if (preg_match('/Qwantify Bot ([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Qwantify Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Qwantify Bot 2 */
-        } elseif (preg_match('/Qwantify\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Qwantify Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
         /* Qwantify News Bot */
-        } elseif (preg_match('/Qwant-news\/([0-9.]*)/u', $ua, $match)) {
+        if (preg_match('/Qwant-news\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Qwantify News Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
@@ -80,6 +66,20 @@ class Qwantify
         /* Qwant Research Bot */
         } elseif (preg_match('/Qwant Research Bot\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Qwant Research Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Qwantify Bot 1 (place at end) */
+        } elseif (preg_match('/Qwantify Bot ([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Qwantify Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Qwantify Bot 2 (place at end) */
+        } elseif (preg_match('/Qwantify\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Qwantify Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
