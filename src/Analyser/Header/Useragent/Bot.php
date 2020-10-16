@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Qwantify;
 
 trait Bot
 {
@@ -29,6 +30,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect qwantify search engine bots */
+
+        if (preg_match('/qwant/iu', $ua, $match)) { // News bot only uses `qwant` and not `qwantify`
+            $Qwantify = new Qwantify($ua);
+
+            // Only run if the class found a regex match
+            if ($Qwantify->found == true) {
+                $this->data->browser->name = $Qwantify->name ?? '';
+                $this->data->browser->version = $Qwantify->version ?? '';
+                $this->data->device->type = $Qwantify->bot ?? '';
+            }
         }
 
         /* Detect based on a predefined list or markers */

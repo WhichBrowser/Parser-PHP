@@ -586,3 +586,35 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Qwantify Bot 1.0'
+    readable: 'Qwantify Bot 1.0'
+    result: { browser: { name: 'Qwantify Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)'
+    readable: 'Qwantify Bot 2.4'
+    result: { browser: { name: 'Qwantify Bot', version: '2.4' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwant-news/2.0; +https://www.qwant.com/)'
+    readable: 'Qwantify News Bot 2.0'
+    result: { browser: { name: 'Qwantify News Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantify/Bleriot/1.1; +https://help.qwant.com/bot)'
+    readable: 'Qwantify Bleriot Bot 1.1'
+    result: { browser: { name: 'Qwantify Bleriot Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantify/ai4eu/1.1; +https://help.qwant.com/bot;)'
+    readable: 'Qwantify Ai4eu Bot 1.1'
+    result: { browser: { name: 'Qwantify Ai4eu Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantify/Mermoz/0.1; +https://www.qwant.com/; +https://www.github.com/QwantResearch/mermoz)'
+    readable: 'Qwantify Mermoz Bot 0.1'
+    result: { browser: { name: 'Qwantify Mermoz Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantify/vR; +https://www.qwant.com/)'
+    readable: 'Qwantify Vr Bot'
+    result: { browser: { name: 'Qwantify Vr Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwant Research Bot/1.0; +https://www.qwant.com/)'
+    readable: 'Qwant Research Bot 1.0'
+    result: { browser: { name: 'Qwant Research Bot', version: '1.0' }, device: { type: bot } }
