@@ -612,5 +612,5 @@
     result: { browser: { name: 'Baiduspider Bookmark Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C;Baiduspider-ads)AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    readable: 'Baiduspider Adverts Bot'
-    result: { browser: { name: 'Baiduspider Adverts Bot' }, device: { type: bot } }
+    readable: 'Baiduspider Adverts Bot on a Samsung Galaxy Note II running Android 4.1'
+    result: { browser: { name: 'Baiduspider Adverts Bot' }, engine: { name: Webkit, version: '534.30' }, os: { name: Android, version: '4.1' }, device: { type: bot, manufacturer: Samsung, model: 'Galaxy Note II' } }
