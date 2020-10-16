@@ -71,14 +71,6 @@
     result: { browser: { name: BacklinkCrawler }, device: { type: bot } }
     readable: BacklinkCrawler
 -
-    headers: 'User-Agent: Baiduspider ( http://www.baidu.com/search/spider.htm)'
-    result: { browser: { name: Baiduspider }, device: { type: bot } }
-    readable: Baiduspider
--
-    headers: 'User-Agent: Baiduspider+(+http://www.baidu.com/search/spider_jp.html)'
-    result: { browser: { name: Baiduspider }, device: { type: bot } }
-    readable: Baiduspider
--
     headers: 'User-Agent: Bloglovin/1.0 (http://www.bloglovin.com; 1 subscribers)'
     result: { browser: { name: Bloglovin, version: '1.0' }, device: { type: bot } }
     readable: 'Bloglovin 1.0'
@@ -374,10 +366,6 @@
     headers: 'User-Agent: Mozilla/5.0 AppleWebKit/537.4 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.4'
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
     readable: 'Googlebot 2.1'
--
-    headers: 'User-Agent: Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html)'
-    result: { browser: { name: Baiduspider, version: '2.0' }, device: { type: bot } }
-    readable: 'Baiduspider 2.0'
 -
     headers: 'User-Agent: Opera/30.0.1835.59 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/29.16  AppleWebKit/599.0+ (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 FAST-WebCrawler/3.8'
     result: { browser: { name: 'FAST Web Crawler', version: '3.8' }, device: { type: bot } }
