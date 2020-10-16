@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Baidu;
 
 trait Bot
 {
@@ -29,6 +30,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect baidu search engine bots */
+
+        if (preg_match('/Baiduspider/iu', $ua, $match)) {
+            $Baidu = new Baidu($ua);
+
+            // Only run if the class found a regex match
+            if ($Baidu->found == true) {
+                $this->data->browser->name = $Baidu->name ?? '';
+                $this->data->browser->version = $Baidu->version ?? '';
+                $this->data->device->type = $Baidu->bot ?? '';
+            }
         }
 
         /* Detect based on a predefined list or markers */
