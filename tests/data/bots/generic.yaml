@@ -584,8 +584,8 @@
     result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)'
-    readable: 'Yahoo! Slurp Bot'
-    result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
+    readable: 'Yahoo! Slurp Bot on an Apple iPhone running iOS 7.1'
+    result: { browser: { name: 'Yahoo! Slurp Bot' }, os: { name: iOS, version: '7.1' }, device: { type: bot, manufacturer: Apple, model: iPhone } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! DE Slurp; http://help.yahoo.com/help/us/ysearch/slurp)'
     readable: 'Yahoo! Slurp Bot'
@@ -612,12 +612,12 @@
     result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH902i (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)'
-    readable: 'Yahoo! Japan Bot 1.0'
-    result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yahoo! Japan Bot 1.0 on a Sharp SH902i'
+    result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot, manufacturer: Sharp, model: SH902i, carrier: DoCoMo } }
 -
     headers: 'User-Agent: YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; http://search.yahoo.com/)'
-    readable: 'Yahoo! Seeker Testing Bot  3.9'
-    result: { browser: { name: 'Yahoo! Seeker Testing Bot ', version: '3.9' }, device: { type: bot } }
+    readable: 'Yahoo! Seeker Testing Bot 3.9'
+    result: { browser: { name: 'Yahoo! Seeker Testing Bot', version: '3.9' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)'
     readable: 'Yahoo! Link Preview Bot'
@@ -644,5 +644,5 @@
     result: { browser: { name: 'Inktomi Slurp', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Slurp/2.0 (slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
-    readable: 'Inktomi Slurp 2.0'
-    result: { browser: { name: 'Inktomi Slurp', version: '2.0' }, device: { type: bot } }
+    readable: 'Inktomi Slurp'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }

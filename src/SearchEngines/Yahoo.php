@@ -29,8 +29,16 @@ class Yahoo
      */
     public function __construct($ua)
     {
+
+        /* Yahoo! Slurp China Bot (needs to be placed before `Yahoo! Slurp Bot`) */
+        if (preg_match('/Yahoo\! Slurp China\/?([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Yahoo! Slurp China Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Yahoo! Slurp Bot 1 */
-        if (preg_match('/Yahoo\! Slurp\/?([0-9.]*)/u', $ua, $match)) {
+        } elseif (preg_match('/Yahoo\! Slurp\/?([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Yahoo! Slurp Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
@@ -39,13 +47,6 @@ class Yahoo
         /* Yahoo! Slurp Bot 2 */
         } elseif (preg_match('/Yahoo\! DE Slurp\/?([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Yahoo! Slurp Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Yahoo! Slurp China Bot */
-        } elseif (preg_match('/Yahoo\! Slurp China\/?([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Yahoo! Slurp China Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;

@@ -261,7 +261,7 @@ Applications::$BOTS = [
     [ 'name' => 'Yandex News',                  'id'    => 'yandex',      'regexp' => '/YandexNews\/([0-9.]*)/u' ],
     [ 'name' => 'Yandex Newslinks',             'id'    => 'yandex',      'regexp' => '/YandexNewslinks(?:\/([0-9.]*))?/u' ],
 
-    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/iu' ],     // ua tests show upper and lower case
+    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/slurp\@inktomi/u' ],
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/iu' ], // ua tests show upper and lower case
     
     [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
