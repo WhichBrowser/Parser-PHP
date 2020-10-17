@@ -58,7 +58,7 @@ class Yahoo
             $this->found = true;
 
         /* Yahoo! Japan Bot */
-        } elseif (preg_match('/Y!J-([a-zA-Z]+)\/([0-9.]*)/u', $ua, $match)) {
+        } elseif (preg_match('/Y\!J-([a-zA-Z]+)\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Yahoo! Japan Bot';
             $this->version = new Version([ 'value' => $match[2] ]);
             $this->bot = Constants\DeviceType::BOT;
