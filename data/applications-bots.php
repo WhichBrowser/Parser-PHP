@@ -260,30 +260,9 @@ Applications::$BOTS = [
     [ 'name' => 'Yandex Metrika',               'id'    => 'yandex',      'regexp' => '/YandexMetrika\/([0-9.]*)/u' ],
     [ 'name' => 'Yandex News',                  'id'    => 'yandex',      'regexp' => '/YandexNews\/([0-9.]*)/u' ],
     [ 'name' => 'Yandex Newslinks',             'id'    => 'yandex',      'regexp' => '/YandexNewslinks(?:\/([0-9.]*))?/u' ],
-    [ 'name' => 'Yahoo! Ad Monitoring',         'id'    => 'yahoo',      'regexp' => '/Yahoo Ad monitoring/u' ],
-    [ 'name' => 'Yahoo! Blogs',                 'id'    => 'yahoo',      'regexp' => '/Yahoo-Blogs\/v([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Cache System',          'id'    => 'yahoo',      'regexp' => '/YahooCacheSystem/u' ],
-    [ 'name' => 'Yahoo! Feed Seeker',           'id'    => 'yahoo',      'regexp' => '/YahooFeedSeeker\/([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Feed Seeker',           'id'    => 'yahoo',      'regexp' => '/YahooFeedSeeker Testing\/([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Image',                 'id'    => 'yahoo',      'regexp' => '/Yahoo-MMCrawler\/([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Link Expander',         'id'    => 'yahoo',      'regexp' => '/Yahoo:LinkExpander/u' ],
-    [ 'name' => 'Yahoo! Link Preview',          'id'    => 'yahoo',      'regexp' => '/Yahoo Link Preview/u' ],
-    [ 'name' => 'Yahoo! Video',                 'id'    => 'yahoo',      'regexp' => '/Yahoo-MMAudVid\/([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Mindset',               'id'    => 'yahoo',      'regexp' => '/Yahoo\! Mindset/u' ],
-    [ 'name' => 'Yahoo! Product Search',        'id'    => 'yahoo',      'regexp' => '/YahooSeeker\/ProductSearch([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Slurp',                 'id'    => 'yahoo',      'regexp' => '/Yahoo\! Slurp\/([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Slurp',                 'id'    => 'yahoo',      'regexp' => '/Yahoo\! Slurp/u' ],
-    [ 'name' => 'Yahoo! Seeker',                'id'    => 'yahoo',      'regexp' => '/YahooSeeker(?:\/([0-9.]*))?/u' ],
-    [ 'name' => 'Yahoo! Seeker',                'id'    => 'yahoo',      'regexp' => '/YahooSeeker-Testing\/v([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Seeker',                'id'    => 'yahoo',      'regexp' => '/yahooseeker-jp-mobile/u' ],
-    [ 'name' => 'Yahoo! Site Checker',          'id'    => 'y\!j',      'regexp' => '/Y\!J SiteChecker/u' ],
-    [ 'name' => 'Yahoo! Pipes',                 'id'    => 'yahoo',      'regexp' => '/Yahoo Pipes ([0-9.]*)/u' ],
-    [ 'name' => 'Yahoo! Video Search',          'id'    => 'yahoo',      'regexp' => '/YahooVideoSearch/u' ],
-    [ 'name' => 'Yahoo! Japan',                 'id'    => 'yahoo',      'regexp' => '/Yahoo\! Japan/u' ],
-    [ 'name' => 'Yahoo! Japan',                 'id'    => 'y\!j',      'regexp' => '/(^|\(compatible; )Y\!J-/u' ],
 
-    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/u' ],
-    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/u' ],
+    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/iu' ],     // ua tests show upper and lower case
+    [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/iu' ], // ua tests show upper and lower case
     
     [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
 
