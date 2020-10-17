@@ -593,7 +593,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)'
     readable: 'Yahoo! Slurp Bot 3.0'
-    result: { browser: { name: 'Yahoo! Slurp Bot', version: '3.0' }, device: { type: bot } }    
+    result: { browser: { name: 'Yahoo! Slurp Bot', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)'
     readable: 'Yahoo! Slurp China Bot'
