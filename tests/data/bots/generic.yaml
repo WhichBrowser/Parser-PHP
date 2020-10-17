@@ -591,9 +591,9 @@
     readable: 'Yahoo! Slurp Bot'
     result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp) NOT Firefox/3.5'
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)'
     readable: 'Yahoo! Slurp Bot 3.0'
-    result: { browser: { name: 'Yahoo! Slurp Bot', version: '3.0' }, device: { type: bot } }
+    result: { browser: { name: 'Yahoo! Slurp Bot', version: '3.0' }, device: { type: bot } }    
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)'
     readable: 'Yahoo! Slurp China Bot'
@@ -617,7 +617,7 @@
 -
     headers: 'User-Agent: YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; http://search.yahoo.com/)'
     readable: 'Yahoo! Seeker Testing Bot 3.9'
-    result: { browser: { name: 'Yahoo! Seeker Testing Bot', version: '3.9' }, device: { type: bot } }
+    result: { browser: { name: 'Yahoo! Seeker Testing Bot', version: '3.9', type: browser }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)'
     readable: 'Yahoo! Link Preview Bot'
