@@ -640,8 +640,8 @@
     result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
 -
     headers: 'User-Agent: slurp, yahoo! slurp, slurp/2.0, inktomi slurp, slurp.so/1.0'
-    readable: 'Inktomi Slurp 2.0'
-    result: { browser: { name: 'Inktomi Slurp', version: '2.0' }, device: { type: bot } }
+    readable: 'Inktomi Slurp 1.0'
+    result: { browser: { name: 'Inktomi Slurp', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Slurp/2.0 (slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
     readable: 'Inktomi Slurp'
