@@ -29,7 +29,6 @@ class Yahoo
      */
     public function __construct($ua)
     {
-
         /* Yahoo! Slurp China Bot (needs to be placed before `Yahoo! Slurp Bot`) */
         if (preg_match('/Yahoo\! Slurp China\/?([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Yahoo! Slurp China Bot';
