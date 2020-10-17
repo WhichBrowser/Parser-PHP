@@ -34,7 +34,7 @@ trait Bot
 
         /* Detect yahoo search engine bots */
 
-        if (preg_match('/yahoo/iu', $ua, $match)) {
+        if (preg_match('/(yahoo|Y\!J)/iu', $ua, $match)) {
             $Yahoo = new Yahoo($ua);
 
             // Only run if the class found a regex match
