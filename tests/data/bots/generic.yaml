@@ -588,60 +588,60 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)'
-    readable: 'Yahoo! Slurp Bot'
-    result: { browser: { 'Yahoo! Slurp Bot' }, device: { type: bot } }
+    readable: 'Yahoo Slurp Bot'
+    result: { browser: { 'Yahoo Slurp Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp) .default/1560563738-0'
-    readable: 'Yahoo! Slurp Bot'
-    result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
+    readable: 'Yahoo Slurp Bot'
+    result: { browser: { name: 'Yahoo Slurp Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)'
-    readable: 'Yahoo! Slurp Bot'
-    result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
+    readable: 'Yahoo Slurp Bot'
+    result: { browser: { name: 'Yahoo Slurp Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! DE Slurp; http://help.yahoo.com/help/us/ysearch/slurp)'
-    readable: 'Yahoo! Slurp Bot'
-    result: { browser: { name: 'Yahoo! Slurp Bot' }, device: { type: bot } }
+    readable: 'Yahoo Slurp Bot'
+    result: { browser: { name: 'Yahoo Slurp Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp) NOT Firefox/3.5'
-    readable: 'Yahoo! Slurp Bot 3.0'
-    result: { browser: { name: 'Yahoo! Slurp Bot', version: '3.0' }, device: { type: bot } }
+    readable: 'Yahoo Slurp Bot 3.0'
+    result: { browser: { name: 'Yahoo Slurp Bot', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)'
-    readable: 'Yahoo! Slurp China Bot'
-    result: { browser: { name: 'Yahoo! Slurp China Bot' }, device: { type: bot } }
+    readable: 'Yahoo Slurp China Bot'
+    result: { browser: { name: 'Yahoo Slurp China Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: YahooCacheSystem;+YahooWebServiceClient'
-    readable: 'Yahoo! Cache System Bot'
-    result: { browser: { name: 'Yahoo! Cache System Bot' }, device: { type: bot } }
+    readable: 'Yahoo Cache System Bot'
+    result: { browser: { name: 'Yahoo Cache System Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Y!J-BRW/1.0 (https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716)'
-    readable: 'Yahoo! Japan Bot 1.0'
-    result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yahoo Japan Bot 1.0'
+    result: { browser: { name: 'Yahoo Japan Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Y!J-ASR/1.0 crawler (https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)'
-    readable: 'Yahoo! Japan Bot 1.0'
-    result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yahoo Japan Bot 1.0'
+    result: { browser: { name: 'Yahoo Japan Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: DoCoMo/2.0 SH902i (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)'
-    readable: 'Yahoo! Japan Bot 1.0'
-    result: { browser: { name: 'Yahoo! Japan Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yahoo Japan Bot 1.0'
+    result: { browser: { name: 'Yahoo Japan Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; http://search.yahoo.com/)'
-    readable: 'Yahoo! Seeker Testing Bot  3.9'
-    result: { browser: { name: 'Yahoo! Seeker Testing Bot ', version: '3.9' }, device: { type: bot } }
+    readable: 'Yahoo Seeker Testing Bot  3.9'
+    result: { browser: { name: 'Yahoo Seeker Testing Bot ', version: '3.9' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)'
-    readable: 'Yahoo! Link Preview Bot'
-    result: { browser: { name: 'Yahoo! Link Preview Bot' }, device: { type: bot } }
+    readable: 'Yahoo Link Preview Bot'
+    result: { browser: { name: 'Yahoo Link Preview Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html'
-    readable: 'Yahoo! Mail Proxy Bot'
-    result: { browser: { name: 'Yahoo! Mail Proxy Bot' }, device: { type: bot } }
+    readable: 'Yahoo Mail Proxy Bot'
+    result: { browser: { name: 'Yahoo Mail Proxy Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Yahoo-MMCrawler/4.0; mailto:vertical-crawl-support@yahoo-inc.com)'
-    readable: 'Yahoo! Image Bot 4.0'
-    result: { browser: { name: 'Yahoo! Image Bot', version: '4.0' }, device: { type: bot } }    
+    readable: 'Yahoo Image Bot 4.0'
+    result: { browser: { name: 'Yahoo Image Bot', version: '4.0' }, device: { type: bot } }    
 -
     headers: 'User-Agent: Mozilla/5.0 (Slurp/cat; slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
     readable: 'Inktomi Slurp'
