@@ -66,7 +66,7 @@ class Yahoo
         /* Yahoo! Seeker Testing Bot 1 */
         } elseif (preg_match('/YahooSeeker(?:\/([0-9.]*))?/u', $ua, $match)) {
             $this->name = 'Yahoo! Seeker Testing Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->version = new Version([ 'value' => $match[1] ]) ?? '';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
