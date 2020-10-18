@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Bing;
 
 trait Bot
 {
@@ -29,6 +30,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect bing search engine bots */
+
+        if (preg_match('/(bing|msnbot)/iu', $ua, $match)) {
+            $Bing = new Bing($ua);
+
+            // Only run if the class found a regex match
+            if ($Bing->found == true) {
+                $this->data->browser->name = $Bing->name ?? '';
+                $this->data->browser->version = $Bing->version ?? '';
+                $this->data->device->type = $Bing->bot ?? '';
+            }
         }
 
         /* Detect based on a predefined list or markers */
