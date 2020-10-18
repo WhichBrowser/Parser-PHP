@@ -528,65 +528,65 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Bot 2.0'
+    result: { browser: { name: 'Bing Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.345.0 Mobile Safari/537.36 Edg/80.0.345.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Mobile Bot 2.0'
+    result: { browser: { name: 'Bing Mobile Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; adidxbot/2.0; http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing AdIdx Bot 2.0'
+    result: { browser: { name: 'Bing AdIdx Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing AdIdx Bot 2.0'
+    result: { browser: { name: 'Bing AdIdx Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; BingPreview/1.0b) like Gecko'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Preview Bot 1.0 on Windows 8.1'
+    result: { browser: { name: 'Bing Preview Bot', version: '1.0' }, engine: { name: Trident, version: '7.0' }, os: { name: Windows, version: { value: '6.3', alias: '8.1' }}, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Preview Bot 1.0 on Windows 7'
+    result: { browser: { name: 'Bing Preview Bot', version: '1.0' }, engine: { name: Webkit, version: '534' }, os: { name: Windows, version: { value: '6.1', alias: '7' }}, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (seoanalyzer; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Seo Analyser Bot'
+    result: { browser: { name: 'Bing Seo Analyser Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; http://www.bing.com/bingbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Mobile Bot 2.0'
+    result: { browser: { name: 'Bing Mobile Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Bing Msnbot Media Bot 1.1'
+    result: { browser: { name: 'Bing Msnbot Media Bot', version: '1.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: msnbot/2.0b (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: librabot/2.0 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: MSNBOT_Mobile MSMOBOT Mozilla/2.0 (compatible; MSIE 4.02; Windows CE; Default)/1.1 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: msnbot-Products/1.0 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: renlifangbot/1.0 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: lanshanbot/1.0 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: MJ12bot/1.1 (+http://search.msn.com/msnbot.htm)'
-    readable: 'Pocket 2.0'
-    result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+    readable: 'Fake Bing Bot'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
