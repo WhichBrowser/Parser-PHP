@@ -592,5 +592,5 @@
     result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/42.0.2311.152 Safari/537.36 (BingLocalSearch)'
-    readable: 'x'
-    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
+    readable: 'Bing Local Search Bot on Windows 8.1'
+    result: { browser: { name: 'Bing Local Search Bot', family: { name: Chrome, version: 42 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.3', alias: '8.1' } }, device: { type: bot } }
