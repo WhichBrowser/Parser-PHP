@@ -1,12 +1,4 @@
 -
-    headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0)  Maxthon/4.0'
-    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
-    readable: 'Bing 1.1'
--
-    headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0) Maxthon/4.4.5.3000 Firefox/38'
-    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
-    readable: 'Bing 1.1'
--
     headers: 'User-Agent: 360spider-image'
     result: { browser: { name: 360spider }, device: { type: bot } }
     readable: 360spider
@@ -251,10 +243,6 @@
     result: { browser: { name: 'Google Web Preview' }, device: { type: bot } }
     readable: 'Google Web Preview'
 -
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.11067 BingPreview/1.0b'
-    result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
-    readable: 'Bing Preview 1.0'
--
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1; 360Spider'
     result: { browser: { name: 360spider }, device: { type: bot } }
     readable: 360spider
@@ -267,17 +255,9 @@
     result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
     readable: 'Google App Engine'
 -
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/538.14 (KHTML, like Gecko) BingPreview/1.0b'
-    result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
-    readable: 'Bing Preview 1.0'
--
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~chengzhoukun)'
     result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
     readable: 'Google App Engine'
--
-    headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Nokia; Lumia 520) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0 BingPreview/1.0b'
-    result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
-    readable: 'Bing Preview 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36'
     result: { browser: { name: 'Google Page Speed' }, device: { type: bot } }
@@ -303,14 +283,6 @@
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
     readable: 'Googlebot 2.1'
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0) BingPreview/1.0b'
-    result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
-    readable: 'Bing Preview 1.0'
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0;  WOW64;  Trident/6.0;  BingPreview/1.0b)'
-    result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
-    readable: 'Bing Preview 1.0'
--
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) CrawlerProcess (http://www.PowerMapper.com) /5.10.736.0'
     result: { browser: { name: PowerMapper, version: 5.10.736.0 }, device: { type: bot } }
     readable: 'PowerMapper 5.10.736.0'
@@ -331,18 +303,6 @@
     result: { browser: { name: 'Yahoo! Slurp', version: '3.0' }, device: { type: bot } }
     readable: 'Yahoo! Slurp 3.0'
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; bingbot/2.0 +http://www.bing.com/bingbot.htm)'
-    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
-    readable: 'Bing 2.0'
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; )"'
-    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
-    readable: 'Bing 2.0'
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; bingbot/2.1; +http://www.bing.com/bingbot.htm)'
-    result: { browser: { name: Bing, version: '2.1' }, device: { type: bot } }
-    readable: 'Bing 2.1'
--
     headers: 'User-Agent: Mozilla/5.0 (compatible; heritrix/1.14.4 +http://netarkivet.dk/webcrawler/)'
     result: { browser: { name: CiteSeerX, version: 1.14.4 }, device: { type: bot } }
     readable: 'CiteSeerX 1.14.4'
@@ -362,10 +322,6 @@
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
     readable: 'Googlebot 2.1'
--
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
-    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
-    readable: 'Bing 2.0'
 -
     headers: 'User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/27.0.1453 Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
@@ -435,18 +391,6 @@
     result: { browser: { name: 'Mapian News Bot', version: '1.0' }, device: { type: bot } }
     readable: 'Mapian News Bot 1.0'
 -
-    headers: 'User-Agent: msnbot-NewsBlogs/2.0b (+http://search.msn.com/msnbot.htm)'
-    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
-    readable: 'Bing 2.0'
--
-    headers: 'User-Agent: msnbot/1.1 ( http://search.msn.com/msnbot.htm)'
-    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
-    readable: 'Bing 1.1'
--
-    headers: 'User-Agent: msnbot/2.0b ( http://search.msn.com/msnbot.htm)'
-    result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
-    readable: 'Bing 2.0'
--
     headers: 'User-Agent: Mozilla/3.0 (compatible; Indy Library)'
     result: { browser: { name: 'Borland Delphi' }, device: { type: bot } }
     readable: 'Borland Delphi'
@@ -494,10 +438,6 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; XML Sitemaps Generator; http://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0'
     result: { browser: { name: 'XML Sitemaps Generator', version: '1.0' }, device: { type: bot } }
     readable: 'XML Sitemaps Generator 1.0'
--
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b'
-    result: { browser: { name: Bing, version: '1.0' }, device: { type: bot } }
-    readable: 'Bing 1.0'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;) Daumoa 4.0'
     result: { browser: { name: Daumoa, version: '4.0' }, device: { type: bot } }
