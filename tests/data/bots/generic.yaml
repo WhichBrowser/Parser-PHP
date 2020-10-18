@@ -590,3 +590,7 @@
     headers: 'User-Agent: MJ12bot/1.1 (+http://search.msn.com/msnbot.htm)'
     readable: 'Fake Bing Bot'
     result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/42.0.2311.152 Safari/537.36 (BingLocalSearch)'
+    readable: 'x'
+    result: { browser: { name: 'Fake Bing Bot' }, device: { type: bot } }

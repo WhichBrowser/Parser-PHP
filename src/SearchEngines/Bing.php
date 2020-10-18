@@ -62,6 +62,12 @@ class Bing
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
+        /* Bing Local Search Bot */
+        } elseif (preg_match('/BingLocalSearch/u', $ua, $match)) {
+            $this->name = 'Bing Local Search Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Detect mobile bots (place third to last) */
         } elseif (preg_match('/Mobile/iu', $ua, $match)) {
             /* Bing Mobile Bot */
