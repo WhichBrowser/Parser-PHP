@@ -29,8 +29,14 @@ class Bing
      */
     public function __construct($ua)
     {
-        /* Detect `fake` and `dead` bots before real bots */
-        if (preg_match('/(librabot|MSIE\s(2|3|4|5|6|7|8|9|10)|msnbot\-(Products|Academic|UDiscovery|NewsBlogs)|renlifangbot|lanshanbot|msrabot|livebot\-searchsense|MJ12bot)/iu', $ua, $match)) {
+        /* Detect `fake` and `dead` bots before real bots 1 */
+        if (preg_match('/(^bingbot|msnbot\/(0|1)|bingbot\/([0-9.]+)\s|\;bingbot|MoziMozilla|Baiduspider|librabot|MSIE\s(2|3|4|5|6|7|8|9|10)|msnbot\-(Products|Academic|UDiscovery|NewsBlogs)|renlifangbot|lanshanbot|msrabot|livebot\-searchsense|MJ12bot)/iu', $ua, $match)) {
+            $this->name = 'Fake Bing Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Detect `fake` and `dead` bots before real bots 2 (real `bingbot` is all lower case) */
+        } elseif (preg_match('/Bingbot\([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Fake Bing Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
