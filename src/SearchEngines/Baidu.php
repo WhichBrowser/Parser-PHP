@@ -30,7 +30,7 @@ class Baidu
     public function __construct($ua)
     {
         /* Detect `fake` and `dead` bots before real bots */
-        if (preg_match('/(\\x|\=|\+\+|\;\+|0\(|MSIE\s(2|3|4|5|6|7|8|9|10)|Baiduspider\+|bing|google)/iu', $ua, $match)) {
+        if (preg_match('/(\x5cx|\=|\+\+|\;\+|0\(|MSIE\s(2|3|4|5|6|7|8|9|10)|Baiduspider\+|bing|google)/iu', $ua, $match)) {
             $this->name = 'Fake Baiduspider Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
