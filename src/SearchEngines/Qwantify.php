@@ -30,7 +30,7 @@ class Qwantify
     public function __construct($ua)
     {
         /* Detect `fake` and `dead` bots before real bots */
-        if (preg_match('/qwantbot/iu', $ua, $match)) {
+        if (preg_match('/(MSIE\s(2|3|4|5|6|7|8|9|10)|qwantbot)/iu', $ua, $match)) {
             $this->name = 'Fake Qwantify Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
