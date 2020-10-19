@@ -633,7 +633,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Ad Monitoring https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html) gt354235tg4'
     readable: 'Yahoo! Ad Monitoring'
-    result: { browser: name: 'Yahoo! Ad Monitoring' }, device: { type: bot } }
+    result: { browser: { name: 'Yahoo! Ad Monitoring' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html) hj764h56ehy6'
     readable: 'Yahoo! Ad Monitoring on an Apple iPhone running iOS 7.1'
