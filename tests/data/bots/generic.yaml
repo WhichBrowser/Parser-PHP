@@ -666,3 +666,15 @@
     headers: 'User-Agent: Slurp/2.0 (slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
     readable: 'Inktomi Slurp'
     result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
+-
+    headers: 'User-Agent: yahoo/Nutch-1.2 (yahoo; yahoo.com)'
+    readable: 'Fake Yahoo! Bot'
+    result: { browser: { name: 'Fake Yahoo! Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: YahooBot/1.0'
+    readable: 'Fake Yahoo! Bot'
+    result: { browser: { name: 'Fake Yahoo! Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp;http://help.yahoo.com/help/us/ysearch/slurp)'
+    readable: 'Fake Yahoo! Bot'
+    result: { browser: { name: 'Fake Yahoo! Bot' }, device: { type: bot } }

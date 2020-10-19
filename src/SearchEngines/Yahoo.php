@@ -30,7 +30,7 @@ class Yahoo
     public function __construct($ua)
     {
         /* Detect `fake` and `dead` bots before real bots */
-        if (preg_match('/(siteexplorer|Slingstone|MMAudVid|Mindset|SiteChecker|MSIE\s(2|3|4|5|6|7|8|9|10)|Yahoo(FeedSeeker|YSMcm|VideoSearch)|Yahoo\sPipes)/iu', $ua, $match)) {
+        if (preg_match('/(siteexplorer|Slingstone|MMAudVid|Mindset|SiteChecker|MSIE\s(2|3|4|5|6|7|8|9|10)|Yahoo(FeedSeeker|YSMcm|VideoSearch)|Yahoo\sPipes|Nutch|Yahoo\s?Bot|Slurp\;http)/iu', $ua, $match)) {
             $this->name = 'Fake Yahoo! Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
