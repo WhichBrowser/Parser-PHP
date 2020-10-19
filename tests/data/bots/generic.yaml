@@ -639,6 +639,18 @@
     readable: 'x'
     result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
 -
+    headers: 'User-Agent: YahooVideoSearch 1.3'
+    readable: 'x'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Pipes 2.0; +http://developer.yahoo.com/yql/provider) Gecko/20090729 Firefox/3.5.2'
+    readable: 'x'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
+-
+    headers: 'User-Agent: YahooFeedSeeker/2.0+(compatible;+Mozilla+4.0;+MSIE+5.5;+http://publisher.yahoo.com/rssguide)'
+    readable: 'x'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
+-
     headers: 'User-Agent: Mozilla/5.0 (Slurp/cat; slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
     readable: 'Inktomi Slurp'
     result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
