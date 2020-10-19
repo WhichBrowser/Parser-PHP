@@ -32,6 +32,17 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
+        /* Detect based on a predefined list or markers */
+
+        if ($bot = Data\Applications::identifyBot($ua)) {
+            $this->data->browser = $bot;
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
         /* Detect yandex search engine bots */
 
         if (preg_match('/yandex/iu', $ua, $match)) {
@@ -43,17 +54,6 @@ trait Bot
                 $this->data->browser->version = $Yandex->version ?? '';
                 $this->data->device->type = $Yandex->bot ?? '';
             }
-        }
-
-        /* Detect based on a predefined list or markers */
-
-        if ($bot = Data\Applications::identifyBot($ua)) {
-            $this->data->browser = $bot;
-            $this->data->os->reset();
-            $this->data->engine->reset();
-            $this->data->device->reset();
-
-            $this->data->device->type = Constants\DeviceType::BOT;
         }
 
         return $this;
