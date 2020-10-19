@@ -29,8 +29,14 @@ class Yahoo
      */
     public function __construct($ua)
     {
+        /* Detect `fake` and `dead` bots before real bots */
+        if (preg_match('/(siteexplorer|Slingstone|MMAudVid|Mindset|SiteChecker|MSIE\s(2|3|4|5|6|7|8|9|10)|Yahoo(FeedSeeker|YSMcm|VideoSearch)|Yahoo\sPipes)/iu', $ua, $match)) {
+            $this->name = 'Fake Yahoo! Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Yahoo! Slurp China Bot (needs to be placed before `Yahoo! Slurp Bot`) */
-        if (preg_match('/Yahoo\! Slurp China\/?([0-9.]*)/u', $ua, $match)) {
+        } elseif (preg_match('/Yahoo\! Slurp China\/?([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Yahoo! Slurp China Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
@@ -80,6 +86,12 @@ class Yahoo
         } elseif (preg_match('/YahooSeeker(?:\/([0-9.]*))?/u', $ua, $match)) {
             $this->name = 'Yahoo! Seeker Testing Bot';
             $this->version = new Version([ 'value' => $match[1] ]) ?? '';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Yahoo! Ad Monitoring */
+        } elseif (preg_match('/Yahoo Ad Monitoring/iu', $ua, $match)) {
+            $this->name = 'Yahoo! Ad Monitoring';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 

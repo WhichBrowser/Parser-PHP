@@ -629,7 +629,15 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Yahoo-MMCrawler/4.0; mailto:vertical-crawl-support@yahoo-inc.com)'
     readable: 'Yahoo! Image Bot 4.0'
-    result: { browser: { name: 'Yahoo! Image Bot', version: '4.0' }, device: { type: bot } }    
+    result: { browser: { name: 'Yahoo! Image Bot', version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Yahoo Ad Monitoring https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html) gt354235tg4'
+    readable: 'x'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html) hj764h56ehy6'
+    readable: 'x'
+    result: { browser: { name: 'Inktomi Slurp' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Slurp/cat; slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
     readable: 'Inktomi Slurp'
