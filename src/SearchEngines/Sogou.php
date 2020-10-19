@@ -29,38 +29,70 @@ class Sogou
      */
     public function __construct($ua)
     {
-        /* Sogou Web Spider */
-        if (preg_match('/Sogou web spider\/([0-9.]*)/iu', $ua, $match)) {
-            $this->name = 'Sogou Web Spider';
-            $this->version = new Version([ 'value' => $match[1] ]);
+        /* Detect `fake` and `dead` bots before real bots */
+        if (preg_match('/(MSIE\s(2|3|4|5|6|7|8|9|10)|sogou\sspider$|Sogou\sPic\sAgent$|Sogou-Test-Spider|Sogou\s(blog|head|Orion)|New-Sogou)/iu', $ua, $match)) {
+            $this->name = 'Fake Sogou Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Sogou Mobile Spider */
-        } elseif (preg_match('/Sogou mobile spider\/([0-9.]*)/iu', $ua, $match)) {
-            $this->name = 'Sogou Mobile Spider';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Sogou Pic Spider */
+        /* Sogou Image Bot */
         } elseif (preg_match('/Sogou Pic Spider\/([0-9.]*)/iu', $ua, $match)) {
-            $this->name = 'Sogou Pic Spider';
+            $this->name = 'Sogou Image Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Sogou Inst Spider */
-        } elseif (preg_match('/Sogou inst spider\/([0-9.]*)/iu', $ua, $match)) {
-            $this->name = 'Sogou Inst Spider';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Sogou News Spider */
+        /* Sogou News Bot */
         } elseif (preg_match('/Sogou News Spider\/([0-9.]*)/iu', $ua, $match)) {
-            $this->name = 'Sogou News Spider';
+            $this->name = 'Sogou News Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Sogou Video Bot */
+        } elseif (preg_match('/Sogou Video Spider\/([0-9.]*)/iu', $ua, $match)) {
+            $this->name = 'Sogou Video Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Sogou Push Bot */
+        } elseif (preg_match('/Sogou Push Spider\/([0-9.]*)/iu', $ua, $match)) {
+            $this->name = 'Sogou Push Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Sogou Mobile Bot 1 */
+        } elseif (preg_match('/Sogou mobile spider\/([0-9.]*)/iu', $ua, $match)) {
+            $this->name = 'Sogou Mobile Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Sogou Mobile Bot 2 */
+        } elseif (preg_match('/Sogou wap spider/iu', $ua, $match)) {
+            $this->name = 'Sogou Mobile Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+            
+        /* Sogou Bot 1 */
+        } elseif (preg_match('/Sogou inst spider\/([0-9.]*)/iu', $ua, $match)) {
+            $this->name = 'Sogou Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+            
+        /* Sogou Bot 2 */
+        } elseif (preg_match('/Sogou web spider\/([0-9.]*)/iu', $ua, $match)) {
+            $this->name = 'Sogou Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Sogou Bot 3 */
+        } elseif (preg_match('/Sogou spider/iu', $ua, $match)) {
+            $this->name = 'Sogou Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
         }
