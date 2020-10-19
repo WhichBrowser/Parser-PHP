@@ -32,6 +32,17 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
+        /* Detect based on a predefined list or markers */
+
+        if ($bot = Data\Applications::identifyBot($ua)) {
+            $this->data->browser = $bot;
+            $this->data->os->reset();
+            $this->data->engine->reset();
+            $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
         /* Detect qwantify search engine bots */
 
         if (preg_match('/qwant/iu', $ua, $match)) { // News bot only uses `qwant` and not `qwantify`
@@ -43,17 +54,6 @@ trait Bot
                 $this->data->browser->version = $Qwantify->version ?? '';
                 $this->data->device->type = $Qwantify->bot ?? '';
             }
-        }
-
-        /* Detect based on a predefined list or markers */
-
-        if ($bot = Data\Applications::identifyBot($ua)) {
-            $this->data->browser = $bot;
-            $this->data->os->reset();
-            $this->data->engine->reset();
-            $this->data->device->reset();
-
-            $this->data->device->type = Constants\DeviceType::BOT;
         }
 
         return $this;

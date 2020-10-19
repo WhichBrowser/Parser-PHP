@@ -618,3 +618,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; Qwant Research Bot/1.0; +https://www.qwant.com/)'
     readable: 'Qwant Research Bot 1.0'
     result: { browser: { name: 'Qwant Research Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Qwantbot/1.0; +https://qwantbot.net/)'
+    readable: 'Fake Qwantify Bot'
+    result: { browser: { name: 'Fake Qwantify Bot' }, device: { type: bot } }

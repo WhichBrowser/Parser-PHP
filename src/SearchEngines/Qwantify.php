@@ -29,8 +29,14 @@ class Qwantify
      */
     public function __construct($ua)
     {
+        /* Detect `fake` and `dead` bots before real bots */
+        if (preg_match('/qwantbot/iu', $ua, $match)) {
+            $this->name = 'Fake Qwantify Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Qwantify News Bot */
-        if (preg_match('/Qwant-news\/([0-9.]*)/u', $ua, $match)) {
+        } elseif (preg_match('/Qwant-news\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Qwantify News Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
