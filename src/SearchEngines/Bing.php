@@ -36,7 +36,7 @@ class Bing
             $this->found = true;
 
         /* Detect `fake` and `dead` bots before real bots 2 (real `bingbot` is all lower case) */
-        } elseif (preg_match('/Bingbot\([0-9.]*)/u', $ua, $match)) {
+        } elseif (preg_match('/Bingbot\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Fake Bing Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
