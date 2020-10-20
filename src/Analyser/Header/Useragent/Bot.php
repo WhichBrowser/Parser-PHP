@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Mailru;
 
 trait Bot
 {
@@ -40,6 +41,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect mail.ru search engine bots */
+
+        if (preg_match('/mail\.ru/u', $ua, $match)) {
+            $Mailru = new Mailru($ua);
+
+            // Only run if the class found a regex match
+            if ($Mailru->found == true) {
+                $this->data->browser->name = $Mailru->name ?? '';
+                $this->data->browser->version = $Mailru->version ?? '';
+                $this->data->device->type = $Mailru->bot ?? '';
+            }
         }
 
         return $this;

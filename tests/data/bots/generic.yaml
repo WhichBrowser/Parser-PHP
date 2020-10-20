@@ -551,10 +551,6 @@
     readable: 'DomainCrawler 3.0'
     result: { browser: { name: DomainCrawler, version: '3.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +http://go.mail.ru/help/robots)'
-    readable: 'Mail.ru Bot 2.0'
-    result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
--
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)'
     readable: 'Bytespider'
     result: { browser: { name: Bytespider }, device: { type: bot } }
@@ -586,3 +582,27 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Fast/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Fast Bot 2.0'
+    result: { browser: { name: 'Mail.ru Fast Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Image Bot 2.0'
+    result: { browser: { name: 'Mail.ru Image Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Video/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Video Bot 2.0'
+    result: { browser: { name: 'Mail.ru Video Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Robots.txt Bot 2.0'
+    result: { browser: { name: 'Mail.ru Robots.txt Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Mail/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Mail Bot 2.0'
+    result: { browser: { name: 'Mail.ru Mail Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +https: //help.mail.ru/webmaster/indexing/robots)'
+    readable: 'Mail.ru Bot 2.0'
+    result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
