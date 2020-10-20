@@ -370,6 +370,16 @@ Applications::$BOTS = [
     [ 'name' => 'Zgrab',                        'id'    => 'zgrab',      'regexp' => '/zgrab\//u' ],
     [ 'name' => 'ZmEu',                         'id'    => 'zmeu',      'regexp' => '/ZmEu/u' ],
 
+    /* Fake bots */
+    [ 'name' => 'Fake Naver Bot',               'id'    => 'fake',      'regexp' => '/NaverBot/iu' ],
+    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/^acebookexternalhit/u' ],
+    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/facebookscraper/u' ],
+    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/Facebot /u' ],
+    [ 'name' => 'Fake Archive.org Bot',         'id'    => 'fake',      'regexp' => '/^archive.org_bot/u' ],
+    [ 'name' => 'Fake Ahrefs Bot',              'id'    => 'fake',      'regexp' => '/^AhrefsBot/u' ],
+    [ 'name' => 'Fake LinkedIn Bot',            'id'    => 'fake',      'regexp' => '/LinkedInBot$/u' ],    
+    [ 'name' => 'Fake CloudFlare Bot',          'id'    => 'fake',      'regexp' => '/\;\+http\:\/\/www\.cloudflare/u' ],  
+    
     /* Generic bots */
     [ 'name' => 'Apache Httpd',                 'id'    => 'httpclient',      'regexp' => '/Apache-HttpClient(?:\/([0-9.]*))?/u' ],
     [ 'name' => 'Apache Jakarta',               'id'    => 'httpclient',      'regexp' => '/Jakarta Commons-HttpClient(?:\/([0-9.]*))?/u' ],
