@@ -587,42 +587,162 @@
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)'
-    readable: 'Yandex Mobile Bot 3.0'
-    result: { browser: { name: 'Yandex Mobile Bot', version: '3.0' }, device: { type: bot } }
--
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)'
     readable: 'Yandex Accessibility Bot 3.0'
     result: { browser: { name: 'Yandex Accessibility Bot', version: '3.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)'
-    readable: 'Yandex Media 3.0'
-    result: { browser: { name: 'Yandex Media', version: '3.0' }, device: { type: bot } }
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexAdNet/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Ad Net Bot 1.0'
+    result: { browser: { name: 'Yandex Ad Net Bot', version: '1.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)'
-    readable: 'Yandex Video 3.0'
-    result: { browser: { name: 'Yandex Video', version: '3.0' }, device: { type: bot } }
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; +http://yandex.com/bots)'
+    readable: 'Yandex Blogs Bot 0.99'
+    result: { browser: { name: 'Yandex Blogs Bot', version: '0.99' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Bot 3.0'
+    result: { browser: { name: 'Yandex Bot', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)'
-    readable: 'Yandex Bot Mirror Detector 3.0'
-    result: { browser: { name: 'Yandex Bot Mirror Detector', version: '3.0' }, device: { type: bot } }
+    readable: 'Yandex Mirror Detector Bot 3.0'
+    result: { browser: { name: 'Yandex Mirror Detector Bot', version: '3.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106'
-    readable: 'Yandex Video Parser 1.0'
-    result: { browser: { name: 'Yandex Video Parser', version: '1.0' }, device: { type: bot } }
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexCalendar/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Calendar Bot 1.0'
+    result: { browser: { name: 'Yandex Calendar Bot', version: '1.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPagechecker/2.0; +http://yandex.com/bots)'
-    readable: 'Yandex Page Checker 2.0'
-    result: { browser: { name: 'Yandex Page Checker', version: '2.0' }, device: { type: bot } }
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexDirect/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Direct Bot 3.0'
+    result: { browser: { name: 'Yandex Direct Bot', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots'
-    readable: 'Yandex Direct Dyn 1.0'
-    result: { browser: { name: 'Yandex Direct Dyn', version: '1.0' }, device: { type: bot } }
+    readable: 'Yandex Direct Dyn Bot 1.0'
+    result: { browser: { name: 'Yandex Direct Dyn Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Favicons Bot 1.0'
+    result: { browser: { name: 'Yandex Favicons Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)'
+    readable: 'Ya Direct Fetcher Bot 1.0'
+    result: { browser: { name: 'Ya Direct Fetcher Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexForDomain/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex For Domain Bot 1.0'
+    result: { browser: { name: 'Yandex For Domain Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Images Bot 3.0'
+    result: { browser: { name: 'Yandex Images Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexImageResizer/ 2.0; +http://yandex.com/bots)'
+    readable: 'Yandex Image Resizer Bot 2.0'
+    result: { browser: { name: 'Yandex Image Resizer Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexBot/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Bot 3.0'
+    result: { browser: { name: 'Yandex Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMarket/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Market Bot 1.0'
+    result: { browser: { name: 'Yandex Market Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMarket/2.0; +http://yandex.com/bots)'
+    readable: 'Yandex Market Bot 2.0'
+    result: { browser: { name: 'Yandex Market Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Media Bot 3.0'
+    result: { browser: { name: 'Yandex Media Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01)'
+    readable: 'Yandex Metrika Bot 2.0'
+    result: { browser: { name: 'Yandex Metrika Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)'
+    readable: 'Yandex Metrika Bot 2.0'
+    result: { browser: { name: 'Yandex Metrika Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMetrika/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Metrika Bot 3.0'
+    result: { browser: { name: 'Yandex Metrika Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMetrika/4.0; +http://yandex.com/bots)'
+    readable: 'Yandex Metrika Bot 4.0'
+    result: { browser: { name: 'Yandex Metrika Bot', version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexMobileScreenShotBot/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Mobile Screen Shot Bot 1.0'
+    result: { browser: { name: 'Yandex Mobile Screen Shot Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)'
+    readable: 'Yandex News Bot 4.0'
+    result: { browser: { name: 'Yandex News Bot', version: '4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexOntoDB/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Onto DB Bot 1.0'
+    result: { browser: { name: 'Yandex Onto DB Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexOntoDBAPI/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Onto DB API Bot 1.0'
+    result: { browser: { name: 'Yandex Onto DB API Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Pagechecker Bot 1.0'
+    result: { browser: { name: 'Yandex Pagechecker Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPartner/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Partner Bot 3.0'
+    result: { browser: { name: 'Yandex Partner Bot', version: '3.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexRCA/1.0; +http://yandex.com/bots)'
-    readable: 'Yandex RCA 1.0'
-    result: { browser: { name: 'Yandex RCA', version: '1.0' }, device: { type: bot } }
+    readable: 'Yandex RCA Bot 1.0'
+    result: { browser: { name: 'Yandex RCA Bot', version: '1.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexCatalog/3.0; +http://yandex.com/bots)'
-    readable: 'Yandex Catalog 3.0'
-    result: { browser: { name: 'Yandex Catalog', version: '3.0' }, device: { type: bot } }
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexSearchShop/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Search Shop Bot 1.0'
+    result: { browser: { name: 'Yandex Search Shop Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)'
+    readable: 'Yandex Sitelinks Bot'
+    result: { browser: { name: 'Yandex Sitelinks Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexSpravBot/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Sprav Bot 1.0'
+    result: { browser: { name: 'Yandex Sprav Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexTracker/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Tracker Bot 1.0'
+    result: { browser: { name: 'Yandex Tracker Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexTurbo/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Turbo Bot 1.0'
+    result: { browser: { name: 'Yandex Turbo Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVertis/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Vertis Bot 3.0'
+    result: { browser: { name: 'Yandex Vertis Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVerticals/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Verticals Bot 1.0'
+    result: { browser: { name: 'Yandex Verticals Botx', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Video Bot 3.0'
+    result: { browser: { name: 'Yandex Video Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)'
+    readable: 'Yandex Video Parser Bot 1.0'
+    result: { browser: { name: 'Yandex Video Parser Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)'
+    readable: 'Yandex Webmaster Bot 2.0'
+    result: { browser: { name: 'Yandex Webmaster Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 (compatible; YandexScreenshotBot/3.0; +http://yandex.com/bots)'
+    readable: 'Yandex Screenshot Bot 3.0'
+    result: { browser: { name: 'Yandex Screenshot Bot', version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) (compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36'
+    readable: 'Fake Yandex Bot'
+    result: { browser: { name: 'Fake Yandex Bot' }, device: { type: bot } }
