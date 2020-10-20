@@ -635,7 +635,7 @@
     readable: 'Yandex Images Bot 3.0'
     result: { browser: { name: 'Yandex Images Bot', version: '3.0' }, device: { type: bot } }
 -
-    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexImageResizer/ 2.0; +http://yandex.com/bots)'
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)'
     readable: 'Yandex Image Resizer Bot 2.0'
     result: { browser: { name: 'Yandex Image Resizer Bot', version: '2.0' }, device: { type: bot } }
 -
@@ -688,8 +688,8 @@
     result: { browser: { name: 'Yandex Onto DB API Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)'
-    readable: 'Yandex Pagechecker Bot 1.0'
-    result: { browser: { name: 'Yandex Pagechecker Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yandex Page Checker Bot 1.0'
+    result: { browser: { name: 'Yandex Page Checker Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexPartner/3.0; +http://yandex.com/bots)'
     readable: 'Yandex Partner Bot 3.0'
@@ -725,7 +725,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVerticals/1.0; +http://yandex.com/bots)'
     readable: 'Yandex Verticals Bot 1.0'
-    result: { browser: { name: 'Yandex Verticals Botx', version: '1.0' }, device: { type: bot } }
+    result: { browser: { name: 'Yandex Verticals Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)'
     readable: 'Yandex Video Bot 3.0'
