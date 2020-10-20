@@ -286,9 +286,9 @@ class Yandex
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Ya Direct Fetcher */
+        /* Yandex Direct Fetcher */
         } elseif (preg_match('/YaDirectFetcher\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Ya Direct Fetcher Bot';
+            $this->name = 'Yandex Direct Fetcher Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;

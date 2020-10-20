@@ -624,8 +624,8 @@
     result: { browser: { name: 'Yandex Favicons Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)'
-    readable: 'Ya Direct Fetcher Bot 1.0'
-    result: { browser: { name: 'Ya Direct Fetcher Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Yandex Direct Fetcher Bot 1.0'
+    result: { browser: { name: 'Yandex Direct Fetcher Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; YandexForDomain/1.0; +http://yandex.com/bots)'
     readable: 'Yandex For Domain Bot 1.0'
