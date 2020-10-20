@@ -4,12 +4,11 @@ namespace WhichBrowser\Data;
 
 Applications::$BOTS = [
     /* Fake bots (detect fake ones first) */
-    [ 'name' => 'Fake Naver Bot',               'id'    => 'fake',      'regexp' => '/NaverBot/iu' ],
     [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/^acebookexternalhit/u' ],
     [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/facebookscraper/u' ],
     [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/Facebot /u' ],
     [ 'name' => 'Fake Archive.org Bot',         'id'    => 'fake',      'regexp' => '/^archive.org_bot/u' ],
-    [ 'name' => 'Fake Ahrefs Bot',              'id'    => 'fake',      'regexp' => '/^AhrefsBot/u' ],
+    [ 'name' => 'Fake Ahrefs Bot',              'id'    => 'fake',      'regexp' => '/^AhrefsBot$/u' ],
     [ 'name' => 'Fake LinkedIn Bot',            'id'    => 'fake',      'regexp' => '/LinkedInBot$/u' ],    
     [ 'name' => 'Fake CloudFlare Bot',          'id'    => 'fake',      'regexp' => '/\;\+http\:\/\/www\.cloudflare/u' ],  
     
@@ -116,7 +115,6 @@ Applications::$BOTS = [
     [ 'name' => 'Ezooms Crawler',               'id'    => 'ezooms',      'regexp' => '/Ezooms\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookplatform\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookexternalhit\/([0-9.]*)/u' ],
-    [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookscraper\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/FacebookSecurity\/([0-9.]*)/u' ],
     [ 'name' => 'FAST Crawler',                 'id'    => 'fast',      'regexp' => '/FAST Crawler ([0-9.]*)/u' ],
     [ 'name' => 'FAST Crawler',                 'id'    => 'fast',      'regexp' => '/FastCrawler3/u' ],
