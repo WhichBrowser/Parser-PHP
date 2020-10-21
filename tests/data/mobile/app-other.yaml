@@ -77,8 +77,8 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Google Earth/7.1.8.3036 Safari/534.34'
     readable: 'Google Earth 7.1 on Windows 8'
-    result: { browser: { name: 'Google Earth', version: 7.1, type: app }, engine: { name: Webkit, version: '534.34' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: bot } }
+    result: { browser: { name: 'Google Earth', version: 7.1, type: app }, engine: { name: Webkit, version: '534.34' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Google Earth Pro/7.3.2.5491 Safari/538.1'
     readable: 'Google Earth Pro 7.3 on Windows 8'
-    result: { browser: { name: 'Google Earth Pro Bot', version: 7.3, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: bot } }
+    result: { browser: { name: 'Google Earth Pro Bot', version: 7.3, type: app }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
