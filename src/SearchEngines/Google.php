@@ -83,7 +83,7 @@ class Google
         /* Google News Bot */
         } elseif (preg_match('/Googlebot-News\/?([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Google News Bot';
-            $this->version = new Version([ 'value' => $match[1] ]) ? '';
+            $this->version = new Version([ 'value' => $match[1] ]) ?? '';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
