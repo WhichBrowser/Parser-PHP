@@ -34,7 +34,7 @@ class Google
          * This filters a small amount of fake bots to properly
          * check for fake bots use a reverse dns lookup.
          */
-        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|MSIE\s(2|3|4|5|6|7|8|9|10)|googlebot\.com|^googlebot$|guuggle|googloe|googIe|Amiga|Atari|Commodore|iPod|LCARS|https:\/\/www\.google)/iu', $ua, $match)) {
+        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|googlebot\.com|^googlebot$|guuggle|googloe|googIe|Amiga|Atari|Commodore|iPod|LCARS|https:\/\/www\.google)/iu', $ua, $match)) {
             $this->name = 'Fake Google Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
@@ -198,6 +198,18 @@ class Google
         } elseif (preg_match('/Google-YouTubeSample\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Google YouTube Sample Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Google Shopping Bot */
+        } elseif (preg_match('/google-xrawler/u', $ua, $match)) {
+            $this->name = 'Google Shopping Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Google Shopping Quality Bot */
+        } elseif (preg_match('/Google-Shopping-Quality/u', $ua, $match)) {
+            $this->name = 'Google Shopping Quality Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
