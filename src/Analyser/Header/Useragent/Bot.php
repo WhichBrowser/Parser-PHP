@@ -4,6 +4,7 @@ namespace WhichBrowser\Analyser\Header\Useragent;
 
 use WhichBrowser\Constants;
 use WhichBrowser\Data;
+use WhichBrowser\SearchEngines\Google;
 
 trait Bot
 {
@@ -40,6 +41,19 @@ trait Bot
             $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect google search engine bots */
+
+        if (preg_match('/google/iu', $ua, $match)) {
+            $Google = new Google($ua);
+
+            // Only run if the class found a regex match
+            if ($Google->found == true) {
+                $this->data->browser->name = $Google->name ?? '';
+                $this->data->browser->version = $Google->version ?? '';
+                $this->data->device->type = $Google->bot ?? '';
+            }
         }
 
         return $this;
