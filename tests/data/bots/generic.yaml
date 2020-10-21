@@ -199,10 +199,6 @@
     result: { browser: { name: 'Google Play Newsstand' }, device: { type: bot } }
     readable: 'Google Play Newsstand'
 -
-    headers: 'User-Agent: Googlebot (gocrawl v0.4)'
-    result: { browser: { name: Gocrawl, version: '0.4' }, device: { type: bot } }
-    readable: 'Gocrawl 0.4'
--
     headers: 'User-Agent: Googlebot-Image/1.0'
     result: { browser: { name: 'Googlebot Image', version: '1.0' }, device: { type: bot } }
     readable: 'Googlebot Image 1.0'
