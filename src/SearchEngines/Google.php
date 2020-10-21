@@ -207,27 +207,6 @@ class Google
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Google Earth Pro 1 (App) */
-        } elseif (preg_match('/Google Earth Pro\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google Earth Pro Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::APP;
-            $this->found = true;
-
-        /* Google Earth 2 (App) */
-        } elseif (preg_match('/Google Earth\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google Earth Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::APP;
-            $this->found = true;
-
-        /* Google Desktop (App) */
-        } elseif (preg_match('/Google Desktop\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google Desktop';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::APP;
-            $this->found = true;
-
         /* Google Mobile Bot 1 (place third to last) */
         } elseif (preg_match('/Googlebot-Mobile\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Google Mobile Bot';
