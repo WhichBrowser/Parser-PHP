@@ -81,4 +81,4 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Google Earth Pro/7.3.2.5491 Safari/538.1'
     readable: 'Google Earth Pro 7.3 on Windows 8'
-    result: { browser: { name: 'Google Earth Pro Bot', version: 7.3, type: app }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
+    result: { browser: { name: 'Google Earth Pro', version: 7.3, type: app }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
