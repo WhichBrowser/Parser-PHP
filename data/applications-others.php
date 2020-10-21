@@ -148,6 +148,7 @@ Applications::$OTHERS = [
     Constants\BrowserType::APP => [
         [ 'name' => 'AliPay',               'id'    => 'alipay',      'regexp' =>'/AlipayClient\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Cooliris',             'id'    => 'cooliris',      'regexp' =>'/Cooliris\/([0-9.]*)/u' ],
+        [ 'name' => 'Google Earth Pro',     'id'    => 'google',      'regexp' =>'/Google Earth Pro\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Google Earth',         'id'    => 'google',      'regexp' =>'/Google Earth\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Google Desktop',       'id'    => 'google',      'regexp' =>'/Google Desktop\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Leechcraft',           'id'    => 'leechcraft',      'regexp' =>'/Leechcraft(?:\/([0-9.]*))?/u', 'details' => 2 ],

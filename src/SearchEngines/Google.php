@@ -34,7 +34,7 @@ class Google
          * This filters a small amount of fake bots to properly
          * check for fake bots use a reverse dns lookup.
          */
-        if (preg_match('/(\x5cx|\(\s|\s\;|\=|\+\+|\;\+|\;http|0\(|MSIE\s(2|3|4|5|6|7|8|9|10)|googlebot\.com|^googlebot$|guuggle|googloe|googIe|Amiga|Atari|Commodore|iPod|LCARS|https:\/\/www\.google)/iu', $ua, $match)) {
+        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|MSIE\s(2|3|4|5|6|7|8|9|10)|googlebot\.com|^googlebot$|guuggle|googloe|googIe|Amiga|Atari|Commodore|iPod|LCARS|https:\/\/www\.google)/iu', $ua, $match)) {
             $this->name = 'Fake Google Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
@@ -144,20 +144,6 @@ class Google
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Google Earth Pro Bot 1 */
-        } elseif (preg_match('/Google Earth Pro\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google Earth Pro Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Google Earth Bot 2 */
-        } elseif (preg_match('/Google Earth\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google Earth Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
         /* Google Image Proxy Bot */
         } elseif (preg_match('/GoogleImageProxy/u', $ua, $match)) {
             $this->name = 'Google Image Proxy Bot';
@@ -179,13 +165,6 @@ class Google
         /* Google Adsense Snapshot Bot */
         } elseif (preg_match('/Adsense-Snapshot-Google/u', $ua, $match)) {
             $this->name = 'Google Adsense Snapshot Bot';
-            $this->bot = Constants\DeviceType::BOT;
-            $this->found = true;
-
-        /* Google FeedBurner Bot */
-        } elseif (preg_match('/FeedBurner\/([0-9.]*)/u', $ua, $match)) {
-            $this->name = 'Google FeedBurner Bot';
-            $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
@@ -226,6 +205,27 @@ class Google
         } elseif (preg_match('/AppEngine-Google/u', $ua, $match)) {
             $this->name = 'Google App Engine Bot';
             $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Google Earth Pro 1 (App) */
+        } elseif (preg_match('/Google Earth Pro\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Google Earth Pro Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::APP;
+            $this->found = true;
+
+        /* Google Earth 2 (App) */
+        } elseif (preg_match('/Google Earth\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Google Earth Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::APP;
+            $this->found = true;
+
+        /* Google Desktop (App) */
+        } elseif (preg_match('/Google Desktop\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Google Desktop';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::APP;
             $this->found = true;
 
         /* Google Mobile Bot 1 (place third to last) */

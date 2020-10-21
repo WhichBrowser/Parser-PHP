@@ -448,161 +448,161 @@
     result: { browser: { name: 'Google Search App Bot', version: '88.1.284108841' }, device: { type: bot } }
 -
     headers: 'User-Agent: APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google APIs Bot'
+    result: { browser: { name: 'Google APIs Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mediapartners-Google'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google AdSense Bot'
+    result: { browser: { name: 'Google AdSense Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Ads Mobile Bot'
+    result: { browser: { name: 'Google Ads Mobile Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Ads Mobile Bot'
+    result: { browser: { name: 'Google Ads Mobile Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: AdsBot-Google (+http://www.google.com/adsbot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Ads Bot'
+    result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Googlebot-Image/1.0'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Image Bot 1.0'
+    result: { browser: { name: 'Google Image Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Googlebot-News'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google News Bot'
+    result: { browser: { name: 'Google News Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Googlebot-Video/1.0'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Video Bot 1.0'
+    result: { browser: { name: 'Google Video Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: AdsBot-Google-Mobile-Apps'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Mobile Apps Bot'
+    result: { browser: { name: 'Google Mobile Apps Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Feedfetcher Bot'
+    result: { browser: { name: 'Google Feedfetcher Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Read Aloud Bot'
+    result: { browser: { name: 'Google Read Aloud Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Duplex Bot 1.0 on a Google Pixel 2 running Android 8.0'
+    result: { browser: { name: 'Google Duplex Bot', family: { name: Chrome, version: 74 }, version: '1.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: '8.0' }, device: { type: bot, manufacturer: Google, model: 'Pixel 2' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/49.0.2623.75 Safari/537.36 Google Favicon'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Favicon Bot on Linux'
+    result: { browser: { name: 'Google Favicon Bot', family: { name: Chrome, version: 49 }, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Web Light Bot Dev on a LG Nexus 5 running Android 4.2.1'
+    result: { browser: { name: 'Google Web Light Bot', family: { name: Chrome, version: 38 }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.1 }, device: { type: bot, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Bot 2.1'
+    result: { browser: { name: 'Google Bot', version: '2.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.78 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Mobile Bot 2.1'
+    result: { browser: { name: 'Google Mobile Bot', version: '2.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Mobile Bot 2.1'
+    result: { browser: { name: 'Google Mobile Bot', version: '2.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Web Light Bot Dev on a LG Nexus 5 running Android 4.2.1'
+    result: { browser: { name: 'Google Web Light Bot', family: { name: Chrome, version: 38 }, type: browser }, engine: { name: Blink }, os: { name: Android, version: 4.2.1 }, device: { type: bot, manufacturer: LG, model: 'Nexus 5' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/85.0.4183.140 Safari/537.36'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Web Preview Bot Dev on Linux'
+    result: { browser: { name: 'Google Web Preview Bot', family: { name: Chrome, version: 85 }, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Google-Site-Verification/1.0)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Site Verification Bot 1.0'
+    result: { browser: { name: 'Google Site Verification Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: AppEngine-Google; (+http://code.google.com/appengine; appid: e~finscience-1253)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
--
-    headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Google Earth/7.1.8.3036 Safari/534.34'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
--
-    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Google Earth Pro/7.3.2.5491 Safari/538.1'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google App Engine Bot'
+    result: { browser: { name: 'Google App Engine Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 3 subscribers; feed-id=17583705103843181935)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Feedfetcher Bot'
+    result: { browser: { name: 'Google Feedfetcher Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Image Proxy Bot on Windows XP'
+    result: { browser: { name: 'Google Image Proxy Bot', family: { name: Firefox, version: '11.0' }, type: browser }, engine: { name: Gecko, version: '11.0' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/41.0.2272.118 Safari/537.36'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Page Speed Insights Bot on Linux'
+    result: { browser: { name: 'Google Page Speed Insights Bot', family: { name: Chrome, version: 41 }, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Ads Mobile Bot'
+    result: { browser: { name: 'Google Ads Mobile Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Read Aloud Bot'
+    result: { browser: { name: 'Google Read Aloud Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +https://search.google.com/structured-data/testing-tool)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Structured Data Testing Tool Bot'
+    result: { browser: { name: 'Google Structured Data Testing Tool Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/41.0.2272.118 Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Web Preview Analytics Bot'
+    result: { browser: { name: 'Google Web Preview Analytics Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mediapartners-Google/2.1'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google AdSense Bot 2.1'
+    result: { browser: { name: 'Google AdSense Bot', version: '2.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Adsense-Snapshot-Google'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Adsense Snapshot Bot'
+    result: { browser: { name: 'Google Adsense Snapshot Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: FeedBurner/1.0 (http://www.FeedBurner.com)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google FeedBurner Bot 1.0'
+    result: { browser: { name: 'Google FeedBurner Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Google-Sitemaps/1.0'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Sitemaps Bot 1.0'
+    result: { browser: { name: 'Google Sitemaps Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Google-FontAnalysis/1.0; +http://www.google.com/webfonts)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Font Analysis Bot 1.0'
+    result: { browser: { name: 'Google Font Analysis Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Googlebot-richsnippets'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Rich Snippets Bot'
+    result: { browser: { name: 'Google Rich Snippets Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: GoogleProducer; (+http://goo.gl/7y4SX)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google Play Newsstand Bot'
+    result: { browser: { name: 'Google Play Newsstand Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Google-YouTubeSample/1.0'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Google YouTube Sample Bot 1.0'
+    result: { browser: { name: 'Google YouTube Sample Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +https://www.google.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Fake Google Bot'
+    result: { browser: { name: 'Fake Google Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1 +http://www.googlebot.com/bot.html)'
-    readable: 'Pocket 1.0'
-    result: { browser: { name: Pocket, version: '1.0' }, device: { type: bot } }
+    readable: 'Fake Google Bot'
+    result: { browser: { name: 'Fake Google Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (N; Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Google Earth/7.1.8.3036 Safari/534.34'
+    readable: 'Google Earth 7.1.8.3036 on Windows 8'
+    result: { browser: { name: 'Google Earth', version: 7.1.8.3036, type: app }, engine: { name: Webkit, version: '534.34' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Google Earth Pro/7.3.2.5491 Safari/538.1'
+    readable: 'Google Earth Pro 7.3.2.5491 on Windows 8'
+    result: { browser: { name: 'Google Earth Pro Bot', version: 7.3.2.5491, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: bot } }
