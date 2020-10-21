@@ -606,8 +606,3 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36(compatible; Google-Shopping-Quality +http://www.google.com/merchants/tos/extend/US/tos.html)'
     readable: 'Google Shopping Quality Bot'
     result: { browser: { name: 'Google Shopping Quality Bot' }, device: { type: bot } }
-
-
-
-
-
