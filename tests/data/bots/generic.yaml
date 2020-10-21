@@ -606,3 +606,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36(compatible; Google-Shopping-Quality +http://www.google.com/merchants/tos/extend/US/tos.html)'
     readable: 'Google Shopping Quality Bot'
     result: { browser: { name: 'Google Shopping Quality Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MTC19V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36 (compatible; validator.amp.dev)'
+    readable: 'AMP HTML Validator Tool Bot'
+    result: { browser: { name: 'AMP HTML Validator Tool Bot' }, device: { type: bot } }
