@@ -100,7 +100,6 @@ Applications::$BOTS = [
     [ 'name' => 'FTRF: Friendly Robot',         'id'    => 'robot',      'regexp' => '/FTRF: Friendly robot\/([0-9.]*)/u' ],
     [ 'name' => 'Genieo Web Filter',            'id'    => 'genieo',      'regexp' => '/Genieo\/([0-9.]*)/u' ],
     [ 'name' => 'GNIP',                         'id'    => 'fetchor',      'regexp' => '/UnwindFetchor\/([0-9.]*)/u' ],
-    [ 'name' => 'Gocrawl',                      'id'    => 'google',      'regexp' => '/Googlebot \(gocrawl v([0-9.]*)\)/u' ],
     [ 'name' => 'GomezAgent',                   'id'    => 'gomez',      'regexp' => '/GomezAgent ([0-9.]+)/u' ],
     [ 'name' => 'Goo',                          'id'    => 'ichiro',      'regexp' => '/ichiro\/mobile goo/u' ],
     [ 'name' => 'Goo Blog Search',              'id'    => 'gooblog',      'regexp' => '/gooblog\/([0-9.]*)/u' ],
