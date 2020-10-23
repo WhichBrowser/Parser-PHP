@@ -45,7 +45,7 @@ trait Bot
 
         /* Detect facebook bots */
 
-        if (preg_match('/facebook/u', $ua, $match)) {
+        if (preg_match('/(facebook|cortex|adreview)/iu', $ua, $match)) {
             $Facebook = new Facebook($ua);
 
             // Only run if the class found a regex match

@@ -35,23 +35,37 @@ class Facebook
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Facebook External Hit Bot */
+        /* Facebook External Hit */
         } elseif (preg_match('/facebookexternalhit\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Facebook External Hit Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Facebook Platform Bot */
+        /* Facebook Platform */
         } elseif (preg_match('/facebookplatform\/([0-9.]*)/u', $ua, $match)) {
             $this->name = 'Facebook Platform Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
-        /* Facebook External UA Bot */
+        /* Facebook External UA */
         } elseif (preg_match('/facebookexternalua/u', $ua, $match)) {
             $this->name = 'Facebook External UA Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Facebook Ad Review */
+        } elseif (preg_match('/adreview\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Facebook Ad Review Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+        
+        /* Facebook Cortex */
+        } elseif (preg_match('/cortex\/([0-9.]*)/u', $ua, $match)) {
+            $this->name = 'Facebook Cortex Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
         }
