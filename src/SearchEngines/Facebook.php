@@ -29,7 +29,7 @@ class Facebook
      */
     public function __construct($ua)
     {
-        /* Detect `fake` and `dead` bots before real bots 1 */
+        /* Detect `fake` and `dead` bots before real bots */
         if (preg_match('/(^acebookexternalhit|MSIE\s(2|3|4|5|6|7|8|9|10)|scrap|share|Security|Facebot|Facebook\/|facebook\.(net|info)|facebook\s?bot)/iu', $ua, $match)) {
             $this->name = 'Fake Facebook Bot';
             $this->bot = Constants\DeviceType::BOT;
