@@ -112,6 +112,7 @@ Applications::$BOTS = [
     [ 'name' => 'Ezooms Crawler',               'id'    => 'ezooms',      'regexp' => '/Ezooms\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookplatform\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookexternalhit\/([0-9.]*)/u' ],
+    [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/facebookscraper\/([0-9.]*)/u' ],
     [ 'name' => 'Facebook',                     'id'    => 'facebook',      'regexp' => '/FacebookSecurity\/([0-9.]*)/u' ],
     [ 'name' => 'FAST Crawler',                 'id'    => 'fast',      'regexp' => '/FAST Crawler ([0-9.]*)/u' ],
     [ 'name' => 'FAST Crawler',                 'id'    => 'fast',      'regexp' => '/FastCrawler3/u' ],

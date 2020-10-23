@@ -414,6 +414,10 @@
     headers: 'User-Agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'
     result: { browser: { name: Facebook, version: '1.1' }, device: { type: bot } }
     readable: 'Facebook 1.1'
+-	
+    headers: 'User-Agent: facebookscraper/1.0( http://www.facebook.com/sharescraper_help.php)'	
+    result: { browser: { name: Facebook, version: '1.0' }, device: { type: bot } }	
+    readable: 'Facebook 1.0'
 -
     headers: 'User-Agent: grub-client-1.5.3; (grub-client-1.5.3; Crawl your own stuff with http://grub.org)'
     result: { browser: { name: Grub, version: 1.5.3 }, device: { type: bot } }
