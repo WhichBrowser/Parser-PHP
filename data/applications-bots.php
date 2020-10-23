@@ -4,9 +4,6 @@ namespace WhichBrowser\Data;
 
 Applications::$BOTS = [
     /* Fake bots (detect fake ones first) */
-    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/^acebookexternalhit/u' ],
-    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/facebookscraper/u' ],
-    [ 'name' => 'Fake Facebook Bot',            'id'    => 'fake',      'regexp' => '/Facebot /u' ],
     [ 'name' => 'Fake Archive.org Bot',         'id'    => 'fake',      'regexp' => '/^archive.org_bot/u' ],
     [ 'name' => 'Fake Ahrefs Bot',              'id'    => 'fake',      'regexp' => '/^AhrefsBot$/u' ],
     [ 'name' => 'Fake LinkedIn Bot',            'id'    => 'fake',      'regexp' => '/LinkedInBot$/u' ],    
