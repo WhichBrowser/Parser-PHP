@@ -29,8 +29,15 @@ class Seznam
      */
     public function __construct($ua)
     {
+        /* Detect `fake` and `dead` bots before real bots */
+        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|seznambots?\.(com|net|info|cz)|seznam\.(com|net|info)|Seznam\sBot)/iu', $ua, $match)) {
+            $this->name = 'Fake Seznam Bot';
+            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Seznam Test (place before normal SeznamBot) */
-        if (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
+        } elseif (preg_match('/SeznamBot\/([0-9.]*)-test/u', $ua, $match)) {
             $this->name = 'Seznam Test Bot';
             $this->version = new Version([ 'value' => $match[1] ]);
             $this->bot = Constants\DeviceType::BOT;
