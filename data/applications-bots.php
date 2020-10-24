@@ -146,7 +146,7 @@ Applications::$BOTS = [
     [ 'name' => 'Livedoor',                     'id'    => 'livedoor',      'regexp' => '/livedoor/u' ],
     [ 'name' => 'LTX71',                        'id'    => 'ltx71',      'regexp' => '/ltx71/u' ],
     [ 'name' => 'Magpie RSS',                   'id'    => 'magpie',      'regexp' => '/MagpieRSS\/([0-9.]*)/u' ],
-    [ 'name' => 'Majestic',                     'id'    => 'majestic',      'regexp' => '/MJ12bot\/v([0-9.]*)/u' ],
+    [ 'name' => 'Majestic MJ12 Bot',            'id'    => 'majestic',      'regexp' => '/MJ12bot\/v([0-9.]*)/u' ],
     [ 'name' => 'Mapian News Bot',              'id'    => 'mapion',      'regexp' => '/mapion-news-bot\/([0-9.]*)/u' ],
     [ 'name' => 'Microsoft Social Streams',     'id'    => 'socialstreams',      'regexp' => '/Microsoft MSN SocialStreams Bot/u' ],
     [ 'name' => 'Mixi',                         'id'    => 'mixi',      'regexp' => '/mixi-check\/([0-9.]*)/u' ],
