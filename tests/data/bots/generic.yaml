@@ -47,10 +47,6 @@
     result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
     readable: 'Google Ads Bot'
 -
-    headers: 'User-Agent: AhrefsBot.Feeds v0.1; http://ahrefs.com/'
-    result: { browser: { name: AhrefsBot, version: '0.1' }, device: { type: bot } }
-    readable: 'AhrefsBot 0.1'
--
     headers: 'User-Agent: AmorankSpider/0.1; +http://amorank.com/webcrawler.html'
     result: { browser: { name: 'Amorank Spider', version: '0.1' }, device: { type: bot } }
     readable: 'Amorank Spider 0.1'
