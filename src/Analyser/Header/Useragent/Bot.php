@@ -44,7 +44,7 @@ trait Bot
 
         /* Detect petal and aspiegel bots */
 
-        if (preg_match('/(PetalBot|/Aspiegel)/iu', $ua, $match)) {
+        if (preg_match('/(PetalBot|Aspiegel)/iu', $ua, $match)) {
             $this->data->browser->reset();
             $this->data->device->reset();
 
