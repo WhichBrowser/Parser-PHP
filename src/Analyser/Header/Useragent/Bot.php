@@ -42,6 +42,17 @@ trait Bot
             $this->data->device->type = Constants\DeviceType::BOT;
         }
 
+        /* Detect petal and aspiegel bots */
+
+        if (preg_match('/(PetalBot|/Aspiegel)/iu', $ua, $match)) {
+            $this->data->browser->reset();
+            $this->data->device->reset();
+
+            $this->data->browser->name = 'Petal Bot';
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
         return $this;
     }
 }
