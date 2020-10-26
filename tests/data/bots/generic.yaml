@@ -584,25 +584,25 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; Netcraft Web Server Survey)'
-    readable: 'Netcraft Bot'
-    result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
+    readable: 'Netcraft Web Server Survey Bot'
+    result: { browser: { name: 'Netcraft Web Server Survey Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)'
-    readable: 'Netcraft Survey Bot 1.0'
-    result: { browser: { name: 'Netcraft Survey Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Netcraft Survey Agent Bot 1.0'
+    result: { browser: { name: 'Netcraft Survey Agent Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: NETCRAFT'
     readable: 'Netcraft Bot'
     result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)'
-    readable: 'Netcraft Bot'
-    result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Netcraft SSL Server Survey - contact info@netcraft.com'
-    readable: 'Netcraft Bot'
-    result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Netcraft SSL Server Survey'
-    readable: 'Netcraft Bot'
-    result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
