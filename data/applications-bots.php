@@ -232,7 +232,7 @@ Applications::$BOTS = [
     [ 'name' => 'Vodafone mCrawler',            'id'    => 'mcrawler',      'regexp' => '/Vodafone mCrawler/u' ],
     [ 'name' => 'W3Bot',                        'id'    => 'w3bot',      'regexp' => '/W3Bot ([0-9.]*)/u' ],
     [ 'name' => 'W3C CSS Validator',            'id'    => 'jigsaw',      'regexp' => '/Jigsaw\/([0-9.]*)/u' ],
-    [ 'name' => 'W3C Internationalization Checker', 'id'    => 'w3c',      'regexp' => '/W3C_I18n-Checker\/([0-9.]*)/u' ],
+    [ 'name' => 'W3C Internationalization Checker',     'id'    => 'w3c',      'regexp' => '/W3C_I18n-Checker\/([0-9.]*)/u' ],
     [ 'name' => 'W3C Line Mode',                'id'    => 'w3c',      'regexp' => '/W3CLineMode\/([0-9.]*)/u' ],
     [ 'name' => 'W3C Link Checker',             'id'    => 'w3c',      'regexp' => '/W3C-checklink\/([0-9.]*)/u' ],
     [ 'name' => 'W3C Markup Validator',         'id'    => 'w3c',      'regexp' => '/W3C_Validator\/([0-9.]*)/u' ],
