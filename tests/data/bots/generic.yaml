@@ -588,12 +588,12 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'
-    readable: 'DuckDuckBot Https 1.1'
-    result: { browser: { name: 'DuckDuckBot Https', version: '1.1' }, device: { type: bot } }
+    readable: 'DuckDuckGo Https Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Https Bot', version: '1.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)'
-    readable: 'DuckDuckBot 1.1'
-    result: { browser: { name: DuckDuckBot, version: '1.1' }, device: { type: bot } }
+    readable: 'DuckDuckGo Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Bot', version: '1.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)'
     readable: 'DuckDuckGo Favicons Bot 1.0'
