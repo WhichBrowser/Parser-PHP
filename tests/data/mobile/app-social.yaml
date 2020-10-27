@@ -90,3 +90,15 @@
     headers: 'User-Agent: YelpWebView/1.5 Android/6.0.1 YelpApp/9.9.0 (x-screen-scale 1.0;)'
     readable: 'Yelp 9.9.0 on Android 6.0.1'
     result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Pinterest for iOS/6.71 (iPhone9,3; 11.4.1)'
+    readable: 'Yelp 9.9.0 on Android 6.0.1'
+    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Pinterest for Android/6.37.0 (j7xelte; 6.0.1)'
+    readable: 'Yelp 9.9.0 on Android 6.0.1'
+    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+-
+    headers: 'User-Agent: Pinterest for Android Tablet/7.7.7 (SGP511; 4.4.2) 1'
+    readable: 'Yelp 9.9.0 on Android 6.0.1'
+    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }

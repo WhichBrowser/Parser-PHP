@@ -499,14 +499,6 @@
     result: { browser: { name: JamesBOT }, device: { type: bot } }
     readable: JamesBOT
 -
-    headers: 'User-Agent: Pinterest/0.1'
-    readable: 'Pinterest 0.1'
-    result: { browser: { name: Pinterest, version: '0.1' }, device: { type: bot } }
--
-    headers: 'User-Agent: Pinterest/0.2 (+http://www.pinterest.com/)'
-    readable: 'Pinterest 0.2'
-    result: { browser: { name: Pinterest, version: '0.2' }, device: { type: bot } }
--
     headers: 'User-Agent: Facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https: //devtalk.kakao.com/t/scrap/33984'
     readable: 'KakaoTalk Bot 1.0'
     result: { browser: { name: 'KakaoTalk Bot', version: '1.0' }, device: { type: bot } }
@@ -998,3 +990,27 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: Pinterest/0.1'
+    readable: 'Pinterest Bot 0.1'
+    result: { browser: { name: 'Pinterest Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Pinterest/0.2 (+https://www.pinterest.com/bot.html)'
+    readable: 'Pinterest Bot 0.2'
+    result: { browser: { name: 'Pinterest Bot', version: '0.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)'
+    readable: 'Pinterest Bot 1.0'
+    result: { browser: { name: 'Pinterest Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Pinterestbot/1.0; http://www.pinterest.com/bot.html)'
+    readable: 'Pinterest Bot 1.0'
+    result: { browser: { name: 'Pinterest Bot', version: '1.0' }, device: { type: bot } }
+-	
+    headers: 'User-Agent: Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0'	
+    readable: 'Pinterest Bot 3.3.3'	
+    result: { browser: { name: 'Pinterest Bot', version: 3.3.3 }, device: { type: bot } }
+-	
+    headers: 'User-Agent: Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0'	
+    readable: 'Pinterest Bot 4.1.3'	
+    result: { browser: { name: 'Pinterest Bot', version: 4.1.3 }, device: { type: bot } }
