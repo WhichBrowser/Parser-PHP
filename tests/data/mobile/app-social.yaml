@@ -92,13 +92,13 @@
     result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
 -
     headers: 'User-Agent: Pinterest for iOS/6.71 (iPhone9,3; 11.4.1)'
-    readable: 'Yelp 9.9.0 on Android 6.0.1'
-    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+    readable: 'Pinterest 6.71 on an Apple iPhone 7 running iOS'
+    result: { browser: { name: Pinterest, version: '6.71', type: 'app:social'}, os: { name: iOS }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 7' } }    
 -
     headers: 'User-Agent: Pinterest for Android/6.37.0 (j7xelte; 6.0.1)'
-    readable: 'Yelp 9.9.0 on Android 6.0.1'
-    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+    readable: 'Pinterest 6.37.0 on a j7xelte running Android 6.0.1'
+    result: { browser: { name: Pinterest, version: 6.37.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, model: j7xelte } }
 -
     headers: 'User-Agent: Pinterest for Android Tablet/7.7.7 (SGP511; 4.4.2) 1'
-    readable: 'Yelp 9.9.0 on Android 6.0.1'
-    result: { browser: { name: Yelp, version: 9.9.0, type: 'app:social' }, os: { name: Android, version: 6.0.1 }, device: { type: tablet } }
+    readable: 'Pinterest 7.7.7 on a Sony Xperia Tablet Z2 running Android 4.4.2'
+    result: { browser: { name: Pinterest, version: 7.7.7, type: 'app:social' }, os: { name: Android, version: 4.4.2 }, device: { type: tablet, manufacturer: Sony, model: 'Xperia Tablet Z2' } }
