@@ -588,5 +588,5 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
-    readable: 'MxToolbox Beta7'
+    readable: 'MxToolbox 7'
     result: { browser: { name: MxToolbox, version: 'Beta7' }, device: { type: bot } }
