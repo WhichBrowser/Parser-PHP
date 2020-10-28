@@ -164,6 +164,7 @@ Applications::$BOTS = [
     [ 'name' => 'Monitor.us',                   'id'    => 'monitor',      'regexp' => '/monitor.us/u' ],
     [ 'name' => 'Moz',                          'id'    => 'dotbot',         'regexp' => '/DotBot\/([0-9.]*)/i' ],
     [ 'name' => 'Moz',                          'id'    => 'rogerbot',         'regexp' => '/rogerbot\/([0-9.]*)/i' ],
+    [ 'name' => 'MxToolbox',                    'id'    => 'mxtoolbox',      'regexp' => '/MxToolbox\/([a-zA-Z0-9.]*)/u' ],
     [ 'name' => 'Naver Yeti',                   'id'    => 'yeti',      'regexp' => '/Yeti\/([0-9.]*)/u' ],
     [ 'name' => 'Netcraft Survey Bot',          'id'    => 'netcraft',      'regexp' => '/Netcraft Web Server Survey/u' ],
     [ 'name' => 'Netcraft Survey Bot',          'id'    => 'netcraft',      'regexp' => '/NetcraftSurveyAgent\/([0-9.]*)/u' ],

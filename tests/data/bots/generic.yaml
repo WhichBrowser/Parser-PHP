@@ -598,3 +598,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)'
     readable: 'DuckDuckGo Favicons Bot 1.0'
     result: { browser: { name: 'DuckDuckGo Favicons Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
+    readable: 'MxToolbox Beta7'
+    result: { browser: { name: MxToolbox, version: 'Beta7' }, device: { type: bot } }
