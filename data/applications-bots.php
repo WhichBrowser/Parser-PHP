@@ -239,6 +239,7 @@ Applications::$BOTS = [
     [ 'name' => 'W3C Robot',                    'id'    => 'w3c',      'regexp' => '/W3CRobot\/([0-9.]*)/u' ],
     [ 'name' => 'W3C Unified Validator',        'id'    => 'w3c',      'regexp' => '/W3C_Unicorn\/([0-9.]*)/u' ],
     [ 'name' => 'W3C Validator.nu',             'id'    => 'validator',      'regexp' => '/Validator.nu\//u' ],
+    [ 'name' => 'Wappalyzer',                   'id'    => 'wappalyzer',      'regexp' => '/Wappalyzer/u' ],    
     [ 'name' => 'Wayback Archive',              'id'    => 'wayback',      'regexp' => '/waybackarchive.org\/([0-9.]*)/u' ],
     [ 'name' => 'WebbCrawler',                  'id'    => 'crawler',      'regexp' => '/WebbCrawler ([0-9.]*)/u' ],
     [ 'name' => 'WebIndexer',                   'id'    => 'webindexer',      'regexp' => '/WebIndexer\//u' ],
