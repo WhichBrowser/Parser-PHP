@@ -593,7 +593,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Wappalyzer)'
     readable: 'Wappalyzer'
-    result: { browser: { name: Wappalyzer }, device: { type: bot } }-
+    result: { browser: { name: Wappalyzer }, device: { type: bot } }
 -
     headers: 'User-Agent: Wappalyzer'
     readable: 'Wappalyzer'
