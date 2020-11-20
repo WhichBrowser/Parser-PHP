@@ -213,6 +213,12 @@ class Google
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
 
+        /* Snapchat - This needs to be listed before Google App Engine */
+        } elseif (preg_match('/snapchat\-proxy/u', $ua, $match)) {
+            $this->name = 'Snapchat Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
         /* Google App Engine Bot */
         } elseif (preg_match('/AppEngine-Google/u', $ua, $match)) {
             $this->name = 'Google App Engine Bot';

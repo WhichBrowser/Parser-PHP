@@ -610,3 +610,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MTC19V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36 (compatible; validator.amp.dev)'
     readable: 'AMP HTML Validator Tool Bot'
     result: { browser: { name: 'AMP HTML Validator Tool Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy)'
+    readable: 'Snapchat Bot'
+    result: { browser: { name: 'Snapchat Bot' }, device: { type: bot } }
