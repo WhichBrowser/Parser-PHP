@@ -642,3 +642,7 @@
     headers: 'User-Agent: Netcraft SSL Server Survey'
     readable: 'Netcraft SSL Server Survey Bot'
     result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Embed PHP library'
+    readable: 'Embed PHP Library'
+    result: { browser: { name: 'Embed PHP Library' }, device: { type: bot } }
