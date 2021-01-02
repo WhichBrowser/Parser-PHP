@@ -37,4 +37,4 @@ jobs:
         run: php bin/runner.php --show check
 
       - name: Run unit tests
-        run: vendor/bin/phpunit
+        run: vendor/bin/phpunit --no-coverage tests/unit

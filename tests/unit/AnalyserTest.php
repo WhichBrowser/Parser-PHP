@@ -1,14 +1,14 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Analyser;
 use WhichBrowser\Model\Main;
 
 /**
  * @covers WhichBrowser\Analyser
  */
-class AnalyserTest extends PHPUnit_Framework_TestCase
+class AnalyserTest extends TestCase
 {
     public function testCreatingAnalyserGetData()
     {

@@ -1,7 +1,7 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Model\Primitive\Base;
 use WhichBrowser\Model\Family;
 use WhichBrowser\Model\Using;
@@ -10,7 +10,7 @@ use WhichBrowser\Model\Version;
 /**
  * @covers WhichBrowser\Model\Primitive\Base
  */
-class BaseTest extends PHPUnit_Framework_TestCase
+class BaseTest extends TestCase
 {
     public function testConstructor()
     {
