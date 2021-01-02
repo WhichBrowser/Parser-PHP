@@ -674,3 +674,7 @@
     headers: 'User-Agent: SearchAtlas.com SEO Crawler'
     readable: 'Search Atlas Bot'
     result: { browser: { name: 'Search Atlas Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Dataprovider.com)'
+    readable: 'Dataprovider Bot'
+    result: { browser: { name: 'Dataprovider Bot' }, device: { type: bot } }
