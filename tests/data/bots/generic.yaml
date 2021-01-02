@@ -509,7 +509,7 @@
 -
     headers: 'User-Agent: Facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https: //devtalk.kakao.com/t/scrap/33984'
     readable: 'KakaoTalk Bot 1.0'
-    result: { browser: {name: 'KakaoTalk Bot', version: '1.0' }, device: { type: bot } }
+    result: { browser: { name: 'KakaoTalk Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34'
     readable: 'Cloudflare Always Online 1.0'
@@ -525,7 +525,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)'
     readable: 'Nimbostratus 1.3.2'
-    result: { browser: { name: Nimbostratus, version: '1.3.2' }, device: { type: bot } }
+    result: { browser: { name: Nimbostratus, version: 1.3.2 }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)'
     readable: 'Semrush 6'
@@ -544,7 +544,7 @@
     result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)'
-    readable: 'Bytespider'
+    readable: Bytespider
     result: { browser: { name: Bytespider }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
@@ -564,7 +564,7 @@
     result: { browser: { name: Discord, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Voat.co OpenGraph Parser'
-    readable: 'Voat'
+    readable: Voat
     result: { browser: { name: Voat }, device: { type: bot } }
 -
     headers: 'User-Agent: PocketImageCache/1.0'
@@ -576,15 +576,15 @@
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Wappalyzer; https://www.wappalyzer.com)'
-    readable: 'Wappalyzer'
+    readable: Wappalyzer
     result: { browser: { name: Wappalyzer }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Wappalyzer)'
-    readable: 'Wappalyzer'
+    readable: Wappalyzer
     result: { browser: { name: Wappalyzer }, device: { type: bot } }
 -
     headers: 'User-Agent: Wappalyzer'
-    readable: 'Wappalyzer'
+    readable: Wappalyzer
     result: { browser: { name: Wappalyzer }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36'
@@ -592,16 +592,16 @@
     result: { browser: { name: BuiltWith, version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: TrustedSite Crawler'
-    readable: 'TrustedSite'
+    readable: TrustedSite
     result: { browser: { name: TrustedSite }, device: { type: bot } }
 -
     headers: 'User-Agent: IDG/UK (http://spaziodati.eu/)'
-    readable: 'SpazioDati'
+    readable: SpazioDati
     result: { browser: { name: SpazioDati }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
     readable: 'MxToolbox 7'
-    result: { browser: { name: MxToolbox, version: 'Beta7' }, device: { type: bot } }
+    result: { browser: { name: MxToolbox, version: Beta7 }, device: { type: bot } }
 -
     headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
     readable: 'Common Crawl Bot 2.0'
@@ -713,7 +713,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)'
     readable: 'Majestic MJ12 Bot 1.4.8'
-    result: { browser: { name: 'Majestic MJ12 Bot', version: '1.4.8' }, device: { type: bot } }
+    result: { browser: { name: 'Majestic MJ12 Bot', version: 1.4.8 }, device: { type: bot } }
 -
     headers: 'User-Agent: mj12bot'
     readable: 'Majestic MJ12 Bot'
