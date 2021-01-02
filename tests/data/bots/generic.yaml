@@ -602,3 +602,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36'
     readable: 'BuiltWith 1.0'
     result: { browser: { name: BuiltWith, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: TrustedSite Crawler'
+    readable: 'TrustedSite'
+    result: { browser: { name: TrustedSite }, device: { type: bot } }
