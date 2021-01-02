@@ -189,6 +189,7 @@ Applications::$BOTS = [
     [ 'name' => 'PowerMapper',                  'id'    => 'crawler',      'regexp' => '/CrawlerProcess \(http:\/\/www\.PowerMapper\.com\) \/([0-9.]*)/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'feed',      'regexp' => '/R6_FeedFetcher/u' ],
     [ 'name' => 'Radian 6',                     'id'    => 'comment',      'regexp' => '/R6_CommentReader/u' ],
+    [ 'name' => 'Reddit Bot',                   'id'    => 'reddit',      'regexp' => '/redditbot\/([0-9.]*)/u' ],
     [ 'name' => 'RssBar',                       'id'    => 'rssbar',      'regexp' => '/RssBar\/([0-9.]*)/u' ],
     [ 'name' => 'ROI Hunter',                   'id'    => 'hunter',      'regexp' => '/ROI Hunter/u' ],
     [ 'name' => 'QuerySeekerSpider',            'id'    => 'spider',      'regexp' => '/QuerySeekerSpider(?:\/([0-9.]*))?/u' ],
