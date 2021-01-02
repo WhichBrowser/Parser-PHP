@@ -710,3 +710,11 @@
     headers: 'User-Agent: serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)'
     readable: 'Serp Stat 1.0'
     result: { browser: { name: 'Serp Stat', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)'
+    readable: 'Majestic MJ12 Bot 1.4.8'
+    result: { browser: { name: 'Majestic MJ12 Bot', version: '1.4.8' }, device: { type: bot } }
+-
+    headers: 'User-Agent: mj12bot'
+    readable: 'Majestic MJ12 Bot'
+    result: { browser: { name: 'Majestic MJ12 Bot' }, device: { type: bot } }

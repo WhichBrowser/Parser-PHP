@@ -163,6 +163,8 @@ Applications::$BOTS = [
     [ 'name' => 'Livedoor',                     'id'    => 'livedoor',      'regexp' => '/livedoor/u' ],
     [ 'name' => 'LTX71',                        'id'    => 'ltx71',      'regexp' => '/ltx71/u' ],
     [ 'name' => 'Magpie RSS',                   'id'    => 'magpie',      'regexp' => '/MagpieRSS\/([0-9.]*)/u' ],
+    [ 'name' => 'Majestic MJ12 Bot',            'id'    => 'mj12bot',      'regexp' => '/MJ12bot\/v([0-9.]*)/u' ],
+    [ 'name' => 'Majestic MJ12 Bot',            'id'    => 'mj12bot',      'regexp' => '/mj12bot/u' ],
     [ 'name' => 'Mapian News Bot',              'id'    => 'mapion',      'regexp' => '/mapion-news-bot\/([0-9.]*)/u' ],
     [ 'name' => 'Mail.ru Bot',                  'id'    => 'mail\.ru',      'regexp' => '/Mail\.RU_Bot\/Img\/([0-9.]*)/i' ],
     [ 'name' => 'Mail.ru Bot',                  'id'    => 'mail\.ru',      'regexp' => '/Mail\.RU_Bot\/([0-9.]*)/i' ],
