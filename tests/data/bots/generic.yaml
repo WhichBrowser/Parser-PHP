@@ -91,10 +91,6 @@
     result: { browser: { name: Browsershots }, device: { type: bot } }
     readable: Browsershots
 -
-    headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
-    result: { browser: { name: CommonCrawl, version: '2.0' }, device: { type: bot } }
-    readable: 'CommonCrawl 2.0'
--
     headers: 'User-Agent: Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)'
     result: { browser: { name: Cliqzbot, version: '0.1' }, device: { type: bot } }
     readable: 'Cliqzbot 0.1'
@@ -614,3 +610,11 @@
     headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
     readable: 'MxToolbox 7'
     result: { browser: { name: MxToolbox, version: 'Beta7' }, device: { type: bot } }
+-
+    headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
+    readable: 'Common Crawl Bot 2.0'
+    result: { browser: { name: 'Common Crawl Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: CCResearchBot/1.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT'
+    readable: 'Common Crawl Research Bot 1.0'
+    result: { browser: { name: 'Common Crawl Research Bot', version: '1.0' }, device: { type: bot } }
