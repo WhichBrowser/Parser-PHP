@@ -610,3 +610,7 @@
     headers: 'User-Agent: IDG/UK (http://spaziodati.eu/)'
     readable: 'SpazioDati'
     result: { browser: { name: SpazioDati }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
+    readable: 'MxToolbox 7'
+    result: { browser: { name: MxToolbox, version: 'Beta7' }, device: { type: bot } }
