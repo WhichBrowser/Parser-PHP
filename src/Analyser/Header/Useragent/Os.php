@@ -98,11 +98,11 @@ trait Os
         elseif (preg_match('/Mac OS X/u', $ua) || preg_match('/;os=Mac/u', $ua)) {
             $this->data->os->name = 'OS X';
 
-            if (preg_match('/Mac OS X (10[0-9\._]*)/u', $ua, $match)) {
+            if (preg_match('/Mac OS X (1[0-9][0-9\._]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => str_replace('_', '.', $match[1]), 'details' => 2 ]);
             }
 
-            if (preg_match('/;os=Mac (10[0-9[\.,]*)/u', $ua, $match)) {
+            if (preg_match('/;os=Mac (1[0-9][0-9[\.,]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => str_replace(',', '.', $match[1]), 'details' => 2 ]);
             }
 
