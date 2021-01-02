@@ -35,8 +35,8 @@ jobs:
         uses: actions/cache@v2
         with:  
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
-          restore-keys: ${{ runner.os }}-composer-
+          key: ${{ matrix.php-versions }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ matrix.php-versions }}-composer-
 
       - name: Install dependencies
         run: composer install --prefer-dist
