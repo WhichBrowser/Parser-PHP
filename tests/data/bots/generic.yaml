@@ -606,3 +606,7 @@
     headers: 'User-Agent: TrustedSite Crawler'
     readable: 'TrustedSite'
     result: { browser: { name: TrustedSite }, device: { type: bot } }
+-
+    headers: 'User-Agent: IDG/UK (http://spaziodati.eu/)'
+    readable: 'SpazioDati'
+    result: { browser: { name: SpazioDati }, device: { type: bot } }

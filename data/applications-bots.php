@@ -213,6 +213,7 @@ Applications::$BOTS = [
     [ 'name' => 'Soso Web Spider',              'id'    => 'soso',      'regexp' => '/Sosospider\/([0-9.]*)/u' ],
     [ 'name' => 'Soso Web Spider',              'id'    => 'soso',      'regexp' => '/Sosospider/u' ],
     [ 'name' => 'Soso Image Spider',            'id'    => 'soso',      'regexp' => '/Sosoimagespider/u' ],
+    [ 'name' => 'SpazioDati',                   'id'    => 'spaziodati',      'regexp' => '/spaziodati/u' ],
     [ 'name' => 'SPDYCheck',                    'id'    => 'spdycheck',      'regexp' => '/SPDYCheck SPDY Protocol Tester/iu' ],
     [ 'name' => 'Spinn3r',                      'id'    => 'spinn',      'regexp' => '/Spinn3r ([0-9.]*)/iu' ],
     [ 'name' => 'Spiderlytics',                 'id'    => 'spider',      'regexp' => '/Spiderlytics\/([0-9.]*)/iu' ],
