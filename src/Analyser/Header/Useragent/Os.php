@@ -93,9 +93,9 @@ trait Os
                     }
                 }
             }
-        } /* OS X */
-
-        elseif (preg_match('/Mac OS X/u', $ua) || preg_match('/;os=Mac/u', $ua)) {
+        } elseif (preg_match('/Mac OS X/u', $ua) || preg_match('/;os=Mac/u', $ua)) {
+            /* OS X */
+            
             $this->data->os->name = 'OS X';
 
             if (preg_match('/Mac OS X (1[0-9][0-9\._]*)/u', $ua, $match)) {
@@ -113,12 +113,10 @@ trait Os
 
         if (preg_match('/Darwin(?:\/([0-9]+).[0-9]+)?/u', $ua, $match)) {
             if (preg_match('/\(X11;/u', $ua)) {
-
                 /* Darwin */
                 $this->data->os->name = 'Darwin';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             } elseif (preg_match('/\((?:x86_64|i386|Power%20Macintosh)\)/u', $ua)) {
-
                 /* OS X */
                 $this->data->os->name = 'OS X';
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
@@ -137,7 +135,6 @@ trait Os
                     }
                 }
             } else {
-
                 /* iOS */
                 $this->data->os->name = 'iOS';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
@@ -242,7 +239,6 @@ trait Os
                 $candidates = [];
 
                 if (preg_match('/Build/ui', $ua)) {
-
                     /* Normal Android useragent strings */
 
                     if (preg_match('/; [a-z][a-zA-Z][-_][a-zA-Z][a-zA-Z] ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {
@@ -257,7 +253,6 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Release\//ui', $ua)) {
-
                     /* WAP style useragent strings */
 
                     if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
@@ -268,7 +263,6 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Mozilla\//ui', $ua)) {
-
                     /* Old Android useragent strings */
 
                     if (preg_match('/Linux; (?:U; )?Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^)\/;]+)\)/u', $ua, $match)) {
@@ -277,7 +271,6 @@ trait Os
                         $candidates[] = $match[1];
                     }
                 } else {
-
                     /* Other applications */
 
                     if (preg_match('/[34]G Explorer\/[0-9.]+ \(Linux;Android [0-9.]+,([^\)]+)\)/u', $ua, $match)) {
@@ -2417,7 +2410,6 @@ trait Os
         $count = count($patterns);
         for ($b = 0; $b < $count; $b++) {
             for ($r = 0; $r < count($patterns[$b]['regexp']); $r++) {
-
                 if (preg_match($patterns[$b]['regexp'][$r], $ua, $match)) {
                     $this->data->os->name = $patterns[$b]['name'];
 

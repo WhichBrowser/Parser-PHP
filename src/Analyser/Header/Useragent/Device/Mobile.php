@@ -78,7 +78,6 @@ trait Mobile
         }
 
         if (preg_match('/Nokia[- \/]?([^\/\);]+)/ui', $ua, $match)) {
-
             if ($match[1] == 'Browser') {
                 return;
             }
@@ -1149,7 +1148,7 @@ trait Mobile
         }
     }
 
-    function identifyBasedOnIdentifier()
+    private function identifyBasedOnIdentifier()
     {
         if ($this->data->device->identified & Constants\Id::MATCH_UA) {
             return;
@@ -1182,10 +1181,9 @@ trait Mobile
         }
     }
 
-    function identifyBasedOnIdUsingOs($id)
+    private function identifyBasedOnIdUsingOs($id)
     {
         switch ($this->data->os->getFamily()) {
-
             case 'Android':
                 $device = Data\DeviceModels::identify('android', $id);
                 if ($device->identified) {
@@ -1236,7 +1234,7 @@ trait Mobile
         }
     }
 
-    function identifyBasedOnId($id)
+    private function identifyBasedOnId($id)
     {
         if ($this->data->device->type != 'mobile') {
             return;

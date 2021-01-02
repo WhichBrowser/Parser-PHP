@@ -185,7 +185,6 @@ trait Browser
 
                 /* Samsung Chromium based browsers */
                 if (isset($this->data->device->manufacturer) && $this->data->device->manufacturer == 'Samsung') {
-
                     /* Version 1.0 */
                     if ($version == '18.0.1025.308' && preg_match('/Version\/1.0/u', $ua)) {
                         $this->data->browser->name = "Samsung Internet";
@@ -2484,7 +2483,6 @@ trait Browser
             if (isset($match[1])) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             }
-
         }
 
         if (preg_match('/WAP Browser\/MAUI/ui', $ua, $match)) {
