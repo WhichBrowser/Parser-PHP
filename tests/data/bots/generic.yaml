@@ -646,3 +646,11 @@
     headers: 'User-Agent: Embed PHP library'
     readable: 'Embed PHP Library'
     result: { browser: { name: 'Embed PHP Library' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)'
+    readable: 'Blex Bot 1.0'
+    result: { browser: { name: 'Blex Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; BLEXBotTest/1.0; +http://webmeup.com/crawler.html)'
+    readable: 'Blex Test Bot 1.0'
+    result: { browser: { name: 'Blex Test Bot', version: '1.0' }, device: { type: bot } }
