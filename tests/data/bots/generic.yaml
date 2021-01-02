@@ -658,3 +658,7 @@
     headers: 'User-Agent: DomainStatsBot/1.0 (https://domainstats.com/pages/our-bot)'
     readable: 'Domain Stats Bot 1.0'
     result: { browser: { name: 'Domain Stats Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SEOkicks-Robot; +http://www.seokicks.de/robot.html)'
+    readable: 'SEOkicks Bot'
+    result: { browser: { name: 'SEOkicks Bot' }, device: { type: bot } }

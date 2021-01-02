@@ -204,6 +204,7 @@ Applications::$BOTS = [
     [ 'name' => 'Scrapy',                       'id'    => 'scrapy',      'regexp' => '/Scrapy\/([0-9.]*)/u' ],
     [ 'name' => 'ScreenerBot',                  'id'    => 'crawler',      'regexp' => '/ScreenerBot Crawler Beta ([0-9.]*)/u' ],
     [ 'name' => 'Semrush',                      'id'    => 'semrush',      'regexp' => '/SemrushBot\/([0-9.]*)/u' ],
+    [ 'name' => 'SEOkicks Bot',                 'id'    => 'seokicks',      'regexp' => '/SEOkicks/u' ],
     [ 'name' => 'Server Density',               'id'    => 'monitor',      'regexp' => '/Server Density Service Monitoring/u' ],
     [ 'name' => 'Seznam bot',                   'id'    => 'seznam',      'regexp' => '/SeznamBot|SklikBot|Seznam screenshot-generator/u' ],
     [ 'name' => 'Seznam Email Proxy',           'id'    => 'seznam',      'regexp' => '/SeznamEmailProxy/u' ],
