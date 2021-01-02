@@ -71,6 +71,7 @@ Applications::$BOTS = [
     [ 'name' => 'Digg',                         'id'    => 'digg',      'regexp' => '/Digg Deeper\/v([0-9.]*)/u' ],
     [ 'name' => 'Digg',                         'id'    => 'digg',      'regexp' => '/Digg\/([0-9.]*)/u' ],
     [ 'name' => 'DomainCrawler',                'id'    => 'domaincrawl',      'regexp' => '/DomainCrawler\/([0-9.]*)/u' ],
+    [ 'name' => 'Domain Stats Bot',             'id'    => 'domainstats',      'regexp' => '/DomainStatsBot\/([0-9.]*)/u' ],
     [ 'name' => 'Discord',                      'id'    => 'discord',      'regexp' => '/Discordbot\/([0-9.]*)/u' ],
     [ 'name' => 'Domain Re-Animator',           'id'    => 'domain',      'regexp' => '/Domain Re-Animator Bot/u' ],
     [ 'name' => 'Embed PHP Library',            'id'    => 'embed',      'regexp' => '/Embed PHP library/iu' ],
