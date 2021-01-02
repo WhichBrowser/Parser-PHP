@@ -161,6 +161,7 @@ Applications::$BOTS = [
     [ 'name' => 'Mapian News Bot',              'id'    => 'mapion',      'regexp' => '/mapion-news-bot\/([0-9.]*)/u' ],
     [ 'name' => 'Mail.ru Bot',                  'id'    => 'mail\.ru',      'regexp' => '/Mail\.RU_Bot\/Img\/([0-9.]*)/i' ],
     [ 'name' => 'Mail.ru Bot',                  'id'    => 'mail\.ru',      'regexp' => '/Mail\.RU_Bot\/([0-9.]*)/i' ],
+    [ 'name' => 'Mega Index Bot',               'id'    => 'megaindex',      'regexp' => '/MegaIndex\.ru\/([0-9.]*)/u' ],
     [ 'name' => 'Microsoft Social Streams',     'id'    => 'socialstreams',      'regexp' => '/Microsoft MSN SocialStreams Bot/u' ],
     [ 'name' => 'Mixi',                         'id'    => 'mixi',      'regexp' => '/mixi-check\/([0-9.]*)/u' ],
     [ 'name' => 'MnoGoSearch',                  'id'    => 'mnogo',      'regexp' => '/MnoGoSearch\/([0-9.]*)/u' ],

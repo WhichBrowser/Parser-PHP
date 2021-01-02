@@ -662,3 +662,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; SEOkicks-Robot; +http://www.seokicks.de/robot.html)'
     readable: 'SEOkicks Bot'
     result: { browser: { name: 'SEOkicks Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)'
+    readable: 'Mega Index Bot 2.0'
+    result: { browser: { name: 'Mega Index Bot', version: '2.0' }, device: { type: bot } }
