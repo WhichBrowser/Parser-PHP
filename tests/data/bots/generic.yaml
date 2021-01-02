@@ -706,3 +706,7 @@
     headers: 'User-Agent: AhrefsBot.Feeds v0.1; http://ahrefs.com/'
     readable: 'Ahrefs Feeds Bot 0.1'
     result: { browser: { name: 'Ahrefs Feeds Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)'
+    readable: 'Serp Stat 1.0'
+    result: { browser: { name: 'Serp Stat', version: '1.0' }, device: { type: bot } }
