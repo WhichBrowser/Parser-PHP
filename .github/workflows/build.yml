@@ -1,4 +1,4 @@
-name: Testrunner
+name: Build
 
 on:
   push:
