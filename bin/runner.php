@@ -5,7 +5,7 @@ include_once __DIR__ . '/bootstrap.php';
 use WhichBrowser\Testrunner;
 use WhichBrowser\Tests;
 
-set_error_handler(function ($errno, $errstr, $errfile, $errline, array $errcontext) {
+set_error_handler(function ($errno, $errstr, $errfile, $errline) {
     // error was suppressed with the @-operator
     if (0 === error_reporting()) {
         return false;
