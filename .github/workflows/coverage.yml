@@ -21,6 +21,7 @@ jobs:
         with:
           php-version: '7.4'
           ini-values: memory_limit=2048M
+          coverage: pcov
     
       - name: Get composer cache directory
         id: composer-cache
