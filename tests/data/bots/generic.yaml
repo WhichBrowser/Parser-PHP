@@ -790,3 +790,11 @@
     headers: 'User-Agent: node-fetch/1.0 (+https://github.com/bitinn/node-fetch)'
     readable: 'Node Fetch 1.0'
     result: { browser: { name: 'Node Fetch', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Go-http-client/1.1'
+    readable: 'Go Http Client 1.1'
+    result: { browser: { name: 'Go Http Client', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: go-httpclient v0.5.1'
+    readable: 'Go Http Client 0.5.1'
+    result: { browser: { name: 'Go Http Client', version: '0.5.1' }, device: { type: bot } }

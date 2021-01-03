@@ -334,6 +334,8 @@ Applications::$BOTS = [
     [ 'name' => 'Apache Nutch',                 'id'    => 'nutch',      'regexp' => '/Nutch(?:CVS|Org)\/([0-9.]*)/u' ],
     [ 'name' => 'Apache Synapse',               'id'    => 'synapse',      'regexp' => '/compatible; Synapse/u' ],
     [ 'name' => 'Borland Delphi',               'id'    => 'indy',      'regexp' => '/Indy Library/u' ],
+    [ 'name' => 'Go Http Client',               'id'    => 'go',      'regexp' => '/Go-http-client\/([0-9.]*)/u' ],
+    [ 'name' => 'Go Http Client',               'id'    => 'go',      'regexp' => '/go-httpclient v([0-9.]*)/u' ],
     [ 'name' => 'Node Fetch',                   'id'    => 'node',      'regexp' => '/node-fetch\/([0-9.]*)/u' ],
     [ 'name' => 'Wget',                         'id'    => 'wget',      'regexp' => '/Wget\/([0-9.]*)/u' ],
     [ 'name' => 'Curl',                         'id'    => 'curl',      'regexp' => '/^curl\/([0-9.]*)/u' ],
