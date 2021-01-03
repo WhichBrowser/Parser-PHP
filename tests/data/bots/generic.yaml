@@ -826,3 +826,7 @@
     headers: 'User-Agent: netEstate NE Crawler (+http://www.website-datenbank.de/)'
     readable: 'netEstate NE Crawler'
     result: { browser: { name: 'netEstate NE Crawler' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Gofeed/1.0'
+    readable: 'Gofeed 1.0'
+    result: { browser: { name: Gofeed, version: '1.0' }, device: { type: bot } }
