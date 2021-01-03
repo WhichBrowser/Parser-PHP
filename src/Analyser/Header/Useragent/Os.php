@@ -106,6 +106,10 @@ trait Os
                 $this->data->os->version = new Version([ 'value' => str_replace(',', '.', $match[1]), 'details' => 2 ]);
             }
 
+            if ($this->data->os->version && $this->data->os->version->is('10.16')) {
+                $this->data->os->version = new Version([ 'value' => '11.0', 'details' => 2 ]);
+            }
+
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
 

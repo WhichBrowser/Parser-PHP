@@ -226,3 +226,11 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15'
     readable: 'Safari 13.0 on macOS Catalina 10.15'
     result: { browser: { name: Safari, version: '13.0', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15'
+    readable: 'Safari 14.0 on macOS Big Sur 11.0'
+    result: { browser: { name: Safari, version: '14.0', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: 'OS X', alias: macOS, version: { value: '11.0', nickname: 'Big Sur' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15'
+    readable: 'Safari 14.0.1 on macOS Catalina 10.15'
+    result: { browser: { name: Safari, version: 14.0.1, type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
