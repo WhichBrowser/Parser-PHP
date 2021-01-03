@@ -754,3 +754,15 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)'
     readable: 'TinEye Bot 1.31'
     result: { browser: { name: 'TinEye Bot', version: '1.31' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot/0.1 (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot 0.1'
+    result: { browser: { name: 'Picsearch Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-page (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-image (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
