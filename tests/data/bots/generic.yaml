@@ -802,3 +802,15 @@
     headers: 'User-Agent: bl.uk_lddc_bot/3.4.0-20200518 (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)'
     readable: 'British Library 3.4.0'
     result: { browser: { name: 'British Library', version: '3.4.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikFaviconBot/1.2; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Favicon Bot 1.2'
+    result: { browser: { name: 'Sputnik Favicon Bot', version: '1.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Bot 2.3'
+    result: { browser: { name: 'Sputnik Bot', version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikImageBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Image Bot 2.3'
+    result: { browser: { name: 'Sputnik Image Bot', version: '2.3' }, device: { type: bot } }
