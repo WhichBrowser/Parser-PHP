@@ -814,3 +814,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikImageBot/2.3; +http://corp.sputnik.ru/webmaster)'
     readable: 'Sputnik Image Bot 2.3'
     result: { browser: { name: 'Sputnik Image Bot', version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DMCA.com Page Protection Crawling Service'
+    readable: 'DMCA'
+    result: { browser: { name: DMCA }, device: { type: bot } }

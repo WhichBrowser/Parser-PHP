@@ -85,6 +85,7 @@ Applications::$BOTS = [
     [ 'name' => 'Domain Stats Bot',             'id'    => 'domainstats',      'regexp' => '/DomainStatsBot\/([0-9.]*)/u' ],
     [ 'name' => 'Discord',                      'id'    => 'discord',      'regexp' => '/Discordbot\/([0-9.]*)/u' ],
     [ 'name' => 'Domain Re-Animator',           'id'    => 'domain',      'regexp' => '/Domain Re-Animator Bot/u' ],
+    [ 'name' => 'DMCA',                         'id'    => 'dmca',      'regexp' => '/DMCA\.com Page Protection Crawling Service/u' ],
     [ 'name' => 'DuckDuckGo Bot',               'id'    => 'duckduck',      'regexp' => '/DuckDuckBot\/([0-9.]*)/u' ],
     [ 'name' => 'DuckDuckGo Https Bot',         'id'    => 'duckduck',      'regexp' => '/DuckDuckBot-Https\/([0-9.]*)/u' ],
     [ 'name' => 'DuckDuckGo Favicons Bot',      'id'    => 'duckduck',      'regexp' => '/DuckDuckGo-Favicons-Bot\/([0-9.]*)/u' ],
