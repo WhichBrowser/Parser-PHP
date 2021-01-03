@@ -742,3 +742,7 @@
     headers: 'User-Agent: AppleNewsBot'
     readable: 'Apple News Bot'
     result: { browser: { name: 'Apple News Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: 	Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)'
+    readable: 'Gowikibot 1.0'
+    result: { browser: { name: Gowikibot, version: '1.0' }, device: { type: bot } }

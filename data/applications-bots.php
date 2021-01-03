@@ -143,6 +143,7 @@ Applications::$BOTS = [
     [ 'name' => 'Google Wireless Transcoder',   'id'    => 'google',      'regexp' => '/Google Wireless Transcoder/u' ],
     [ 'name' => 'Google Play Newsstand',        'id'    => 'google',      'regexp' => '/GoogleProducer/u' ],
     [ 'name' => 'Google YouTube Sample',        'id'    => 'google',      'regexp' => '/Google-YouTubeSample\/([0-9.]*)/u' ],
+    [ 'name' => 'Gowikibot',                    'id'    => 'gowiki',      'regexp' => '/Gowikibot\/([0-9.]*)/u' ],
     [ 'name' => 'Grammarly',                    'id'    => 'grammarly',      'regexp' => '/Grammarly\/([0-9.]*)/u' ],
     [ 'name' => 'Grub',                         'id'    => 'grub',      'regexp' => '/grub-client-([0-9.]*)/u' ],
     [ 'name' => 'Hatena Antenna',               'id'    => 'hatena',      'regexp' => '/Hatena Antenna\/([0-9.]*)/u' ],
