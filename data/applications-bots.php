@@ -57,6 +57,7 @@ Applications::$BOTS = [
     [ 'name' => 'Blogtrottr',                   'id'    => 'blogtrot',      'regexp' => '/Blogtrottr\/([0-9.]*)/u' ],
     [ 'name' => 'Blogshares',                   'id'    => 'blogshares',      'regexp' => '/Blogshares/u' ],
     [ 'name' => 'BoardReader',                  'id'    => 'boardreader',      'regexp' => '/BoardReader\/([0-9.]*)/u' ],
+    [ 'name' => 'British Library',              'id'    => 'lddc',      'regexp' => '/uk_lddc_bot\/([0-9.]*)/u' ],
     [ 'name' => 'Browsershots',                 'id'    => 'browsershots',      'regexp' => '/Browsershots/u' ],
     [ 'name' => 'BUbiNG',                       'id'    => 'bubing',      'regexp' => '/BUbiNG/u' ],
     [ 'name' => 'Buck',                         'id'    => 'buck',      'regexp' => '/Buck\/([0-9.]*)/u' ],

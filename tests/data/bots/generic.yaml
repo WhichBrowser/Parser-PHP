@@ -798,3 +798,7 @@
     headers: 'User-Agent: go-httpclient v0.5.1'
     readable: 'Go Http Client 0.5.1'
     result: { browser: { name: 'Go Http Client', version: '0.5.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: bl.uk_lddc_bot/3.4.0-20200518 (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)'
+    readable: 'British Library 3.4.0'
+    result: { browser: { name: 'British Library', version: '3.4.0' }, device: { type: bot } }
