@@ -774,3 +774,15 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; YioopBot; +https://www.yioop.com/bot.php)'
     readable: 'Yioop Bot'
     result: { browser: { name: 'Yioop Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'
+    readable: 'DuckDuckGo Https Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Https Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)'
+    readable: 'DuckDuckGo Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)'
+    readable: 'DuckDuckGo Favicons Bot 1.0'
+    result: { browser: { name: 'DuckDuckGo Favicons Bot', version: '1.0' }, device: { type: bot } }
