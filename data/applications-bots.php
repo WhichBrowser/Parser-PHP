@@ -194,6 +194,7 @@ Applications::$BOTS = [
     [ 'name' => 'Netcraft Web Server Survey Bot', 'id'  => 'netcraft',      'regexp' => '/Netcraft Web Server Survey/u' ],
     [ 'name' => 'Netcraft SSL Server Survey Bot', 'id'  => 'netcraft',      'regexp' => '/Netcraft SSL Server Survey/u' ],
     [ 'name' => 'Netcraft Bot',                   'id'  => 'netcraft',      'regexp' => '/Netcraft/iu' ],
+    [ 'name' => 'netEstate NE Crawler',         'id'    => 'netestate',     'regexp' => '/netEstate NE Crawler/u' ],
     [ 'name' => 'Netvibes',                     'id'    => 'netvibes',      'regexp' => '/Netvibes/u' ],
     [ 'name' => 'NewsBlur',                     'id'    => 'newsblur',      'regexp' => '/NewsBlur Favicon Fetcher/u' ],
     [ 'name' => 'NewsBlur',                     'id'    => 'newsblur',      'regexp' => '/NewsBlur Feed Fetcher/u' ],

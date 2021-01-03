@@ -822,3 +822,7 @@
     headers: 'User-Agent: Made by ZmEu @ WhiteHat Team – http://www.whitehat.ro'
     readable: 'ZmEu'
     result: { browser: { name: ZmEu }, device: { type: bot } }
+-
+    headers: 'User-Agent: netEstate NE Crawler (+http://www.website-datenbank.de/)'
+    readable: 'netEstate NE Crawler'
+    result: { browser: { name: 'netEstate NE Crawler' }, device: { type: bot } }
