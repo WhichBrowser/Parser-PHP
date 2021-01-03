@@ -786,3 +786,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)'
     readable: 'DuckDuckGo Favicons Bot 1.0'
     result: { browser: { name: 'DuckDuckGo Favicons Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: node-fetch/1.0 (+https://github.com/bitinn/node-fetch)'
+    readable: 'Node Fetch 1.0'
+    result: { browser: { name: 'Node Fetch', version: '1.0' }, device: { type: bot } }
