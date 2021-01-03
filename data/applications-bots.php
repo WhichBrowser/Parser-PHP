@@ -250,6 +250,8 @@ Applications::$BOTS = [
     [ 'name' => 'Twisted PageGetter',           'id'    => 'twisted',      'regexp' => '/Twisted PageGetter/u' ],
     [ 'name' => 'Twitterbot',                   'id'    => 'twitter',      'regexp' => '/Twitterbot\/([0-9.]*)/u' ],
     [ 'name' => 'Tiny Tiny RSS',                'id'    => 'tiny',      'regexp' => '/Tiny Tiny RSS\/([0-9.]*)/u' ],
+    [ 'name' => 'TinEye Bot',                   'id'    => 'tineye',      'regexp' => '/TinEye\/([0-9.]*)/u' ],
+    [ 'name' => 'TinEye Bot',                   'id'    => 'tineye',      'regexp' => '/TinEye-bot\/([0-9.]*)/u' ],
     [ 'name' => 'TLSProber',                    'id'    => 'tlsprober',      'regexp' => '/TLSProber\/([0-9.]*)/u' ],
     [ 'name' => 'TrustedSite',                  'id'    => 'trustedsite',      'regexp' => '/TrustedSite/u' ],
     [ 'name' => 'Typhoeus',                     'id'    => 'typhoeus',      'regexp' => '/Typhoeus/u' ],

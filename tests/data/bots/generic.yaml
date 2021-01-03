@@ -746,3 +746,11 @@
     headers: 'User-Agent: 	Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)'
     readable: 'Gowikibot 1.0'
     result: { browser: { name: Gowikibot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 TinEye/1.0 (via http://www.tineye.com/)'
+    readable: 'TinEye Bot 1.0'
+    result: { browser: { name: 'TinEye Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)'
+    readable: 'TinEye Bot 1.31'
+    result: { browser: { name: 'TinEye Bot', version: '1.31' }, device: { type: bot } }
