@@ -515,6 +515,18 @@
     readable: 'Cloudflare Always Online 1.0'
     result: { browser: { name: 'Cloudflare Always Online', version: '1.0' }, device: { type: bot } }
 -
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.130 Safari/537.36 (compatible; Cloudflare SpeedTest/1.0; +https://blog.cloudflare.com/new-speed-page/)'
+    readable: 'Cloudflare SpeedTest 1.0'
+    result: { browser: { name: 'Cloudflare SpeedTest', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Cloudflare Diagnostics'
+    readable: 'Cloudflare Diagnostics'
+    result: { browser: { name: 'Cloudflare Diagnostics' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Cloudflare-AMP/1.0; +https://amp.cloudflare.com/doc/fetcher.html) AppleWebKit/534.34'
+    readable: 'Cloudflare AMP 1.0'
+    result: { browser: { name: 'Cloudflare AMP', version: '1.0' }, device: { type: bot } }
+-
     headers: 'User-Agent: Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)'
     readable: 'Moz 1.1'
     result: { browser: { name: Moz, version: '1.1' }, device: { type: bot } }
