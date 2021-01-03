@@ -818,3 +818,7 @@
     headers: 'User-Agent: DMCA.com Page Protection Crawling Service'
     readable: 'DMCA'
     result: { browser: { name: DMCA }, device: { type: bot } }
+-
+    headers: 'User-Agent: Made by ZmEu @ WhiteHat Team – http://www.whitehat.ro'
+    readable: 'ZmEu'
+    result: { browser: { name: ZmEu }, device: { type: bot } }
