@@ -65,6 +65,7 @@ Applications::$BOTS = [
     [ 'name' => 'Butterfly',                    'id'    => 'butterfly',      'regexp' => '/Butterfly\/([0-9.]*)/u' ],
     [ 'name' => 'Bytespider',                   'id'    => 'bytespider',      'regexp' => '/Bytespider/u' ],
     [ 'name' => 'CiteSeerX',                    'id'    => 'heritrix',      'regexp' => '/heritrix\/([0-9.]*)/u' ],
+    [ 'name' => 'Clarabot',                     'id'    => 'clarabot',      'regexp' => '/Clarabot\/([0-9.]*)/u' ],
     [ 'name' => 'Cliqzbot',                     'id'    => 'cliqz',      'regexp' => '/Cliqzbot\/([0-9.]*)/u' ],
     [ 'name' => 'Cloudflare Always Online',     'id'    => 'cloudflare',      'regexp' => '/CloudFlare-AlwaysOnline\/([0-9.]*)/u' ],
     [ 'name' => 'Cloudflare AMP',               'id'    => 'cloudflare',      'regexp' => '/Cloudflare-AMP\/([0-9.]*)/u' ],
