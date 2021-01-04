@@ -649,7 +649,7 @@ trait Television
                 '4400'  => '4',
                 '4620'  => 'Premiere',
                 '4630'  => 'Premiere+',
-                '4640'  => 'Ultra', 
+                '4640'  => 'Ultra',
                 '4660'  => 'Ultra',
                 '4661'  => 'Ultra',
                 '4662'  => 'Ultra LT',
@@ -694,8 +694,7 @@ trait Television
                     if (is_array($models[$model])) {
                         $this->data->device->manufacturer = $models[$model][0];
                         $this->data->device->model = $models[$model][1];
-                    }
-                    else {
+                    } else {
                         $this->data->device->model = $models[$model];
                     }
 
