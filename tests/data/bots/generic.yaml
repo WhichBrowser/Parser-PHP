@@ -850,3 +850,7 @@
     headers: 'User-Agent: Seeker v.1 http://LookSeek.com/seeker/'
     readable: 'LookSeek 1'
     result: { browser: { name: LookSeek, version: '1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; vuhuvBot/1.0; +http://vuhuv.com/bot.html)'
+    readable: 'VuhuvBot 1.0'
+    result: { browser: { name: VuhuvBot, version: '1.0' }, device: { type: bot } }
