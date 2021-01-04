@@ -171,6 +171,7 @@ Applications::$BOTS = [
     [ 'name' => 'KakaoTalk Bot',                'id'    => 'kakao',              'regexp' => '/kakaotalk-scrap\/([0-9.]*)/u' ],
     [ 'name' => 'Kouio',                        'id'    => 'kouio',      'regexp' => '/kouio.com/u' ],
     [ 'name' => 'Larbin',                       'id'    => 'larbin',      'regexp' => '/[Ll]arbin[\/_]([0-9.]*)/u' ],
+    [ 'name' => 'LetsearchBot',                 'id'    => 'letsearch',      'regexp' => '/LetsearchBot\/([0-9.]*)/u' ],
     [ 'name' => 'Linkedin Bot',                 'id'    => 'linkedin',      'regexp' => '/LinkedInBot\/([0-9.]*)/u' ],
     [ 'name' => 'Linkpad Bot',                  'id'    => 'linkpad',      'regexp' => '/LinkpadBot\/([0-9.]*)/u' ],
     [ 'name' => 'Linkdex Bot',                  'id'    => 'linkdex',      'regexp' => '/linkdexbot-mobile\/([0-9.]*)/u' ],

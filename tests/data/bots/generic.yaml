@@ -842,3 +842,7 @@
     headers: 'User-Agent: YisouSpider'
     readable: 'Yisou Spider'
     result: { browser: { name: 'Yisou Spider' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; LetsearchBot/1.0; +https://letsearch.ru/bots)'
+    readable: 'LetsearchBot 1.0'
+    result: { browser: { name: LetsearchBot, version: '1.0' }, device: { type: bot } }
