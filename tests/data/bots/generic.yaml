@@ -954,3 +954,11 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; blogger.com)'
     readable: 'Blogger Bot'
     result: { browser: { name: 'Blogger Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-MetaTagFetcher/0.3 (+https://medium.com/)'
+    readable: 'Medium Bot 0.3'
+    result: { browser: { name: 'Medium Bot', version: '0.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-ProxyFetcher/0.1 (+https://medium.com/)'
+    readable: 'Medium Bot 0.1'
+    result: { browser: { name: 'Medium Bot', version: '0.1' }, device: { type: bot } }
