@@ -990,3 +990,7 @@
     headers: 'User-Agent: httpunit/1.5'
     readable: 'HttpUnit 1.5'
     result: { browser: { name: HttpUnit, version: '1.5' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon'
+    readable: 'Google Favicon'
+    result: { browser: { name: 'Google Favicon' }, device: { type: bot } }
