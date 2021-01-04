@@ -143,7 +143,7 @@ trait Header
         foreach ($this->headers as $k => $v) {
             if (strtolower($h) == strtolower($k)) {
                 /* And return the first 1024 bytes */
-                return substr($v, 0, 1024);
+                return htmlentities(substr(trim($v), 0, 1024), ENT_QUOTES, 'UTF-8', true);
             }
         }
     }
