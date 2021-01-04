@@ -52,6 +52,7 @@ Applications::$BOTS = [
     [ 'name' => 'Blex Bot',                     'id'    => 'blex',      'regexp' => '/BLEXBot\/([0-9.]*)/u' ],
     [ 'name' => 'Blex Test Bot',                'id'    => 'blex',      'regexp' => '/BLEXBotTest\/([0-9.]*)/u' ],
     [ 'name' => 'BlogBridge',                   'id'    => 'blogbridge',      'regexp' => '/BlogBridge ([0-9.]*)/u' ],
+    [ 'name' => 'Blogger Bot',                  'id'    => 'blogger',      'regexp' => '/blogger\.com\)/u' ],
     [ 'name' => 'Bloglines',                    'id'    => 'bloglines',      'regexp' => '/Bloglines\/([0-9.]*)/u' ],
     [ 'name' => 'Bloglovin',                    'id'    => 'bloglovin',      'regexp' => '/Bloglovin\/([0-9.]*)/u' ],
     [ 'name' => 'BlogPulse',                    'id'    => 'blogpulse',      'regexp' => '/BlogPulse \(ISSpider-([0-9.]*)/u' ],

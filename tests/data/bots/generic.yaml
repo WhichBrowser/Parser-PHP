@@ -950,3 +950,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; PlurkBot/1.0; +https://www.plurk.com/) Firefox/61.0'
     readable: 'Plurk Bot 1.0'
     result: { browser: { name: 'Plurk Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; blogger.com)'
+    readable: 'Blogger Bot'
+    result: { browser: { name: 'Blogger Bot' }, device: { type: bot } }
