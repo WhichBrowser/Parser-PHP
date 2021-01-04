@@ -232,6 +232,7 @@ Applications::$BOTS = [
     [ 'name' => 'Scrapy',                       'id'    => 'scrapy',      'regexp' => '/Scrapy\/([0-9.]*)/u' ],
     [ 'name' => 'ScreenerBot',                  'id'    => 'crawler',      'regexp' => '/ScreenerBot Crawler Beta ([0-9.]*)/u' ],
     [ 'name' => 'Search Atlas Bot',             'id'    => 'searchatlas',      'regexp' => '/SearchAtlas/iu' ],
+    [ 'name' => 'Seekport Crawler',             'id'    => 'seekport',      'regexp' => '/Seekport Crawler/u' ],
     [ 'name' => 'Semrush',                      'id'    => 'semrush',      'regexp' => '/SemrushBot\/([0-9.]*)/u' ],
     [ 'name' => 'Serp Stat',                    'id'    => 'serpstat',      'regexp' => '/serpstatbot\/([0-9.]*)/u' ],
     [ 'name' => 'SEOkicks Bot',                 'id'    => 'seokicks',      'regexp' => '/SEOkicks/u' ],
