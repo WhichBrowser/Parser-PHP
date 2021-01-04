@@ -232,6 +232,7 @@ Applications::$BOTS = [
     [ 'name' => 'Picsearch Bot',                'id'    => 'psbot',      'regexp' => '/psbot-image/u' ],
     [ 'name' => 'Pingdom',                      'id'    => 'pingdom',      'regexp' => '/Pingdom.com_bot_version_([0-9.]*)/u' ],
     [ 'name' => 'Pinterest',                    'id'    => 'pinterest',      'regexp' => '/Pinterest\/([0-9.]+)( \(+|$)/u' ],
+    [ 'name' => 'Plurk Bot',                    'id'    => 'plurk',      'regexp' => '/PlurkBot\/([0-9\.]*)/u' ],
     [ 'name' => 'Pocket',                       'id'    => 'pocket',      'regexp' => '/PocketImageCache\/([0-9.]+)/u' ],
     [ 'name' => 'Pocket',                       'id'    => 'pocket',      'regexp' => '/PocketParser\/([0-9.]+)/u' ],
     [ 'name' => 'PostRank',                     'id'    => 'postrank',      'regexp' => '/PostRank\/([0-9.]*)/u' ],
