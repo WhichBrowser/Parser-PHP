@@ -926,3 +926,7 @@
     headers: 'User-Agent: AbtestCenter-okhttp/1.0'
     readable: 'OkHttp 1.0'
     result: { browser: { name: OkHttp, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
+    readable: 'Skype Url Preview 0.5'
+    result: { browser: { name: 'Skype Url Preview', version: '0.5' }, device: { type: bot } }
