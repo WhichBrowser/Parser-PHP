@@ -994,3 +994,7 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon'
     readable: 'Google Favicon'
     result: { browser: { name: 'Google Favicon' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
+    readable: Zgrab
+    result: { browser: { name: Zgrab }, device: { type: bot } }

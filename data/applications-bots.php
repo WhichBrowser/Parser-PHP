@@ -367,6 +367,7 @@ Applications::$BOTS = [
     [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
     [ 'name' => 'Yioop Bot',                    'id'    => 'yioop',     'regexp' => '/YioopBot/u' ],
     [ 'name' => 'Yisou Spider',                 'id'    => 'yisou',    'regexp' => '/YisouSpider\/?([0-9.]*)/u' ],
+    [ 'name' => 'Zgrab',                        'id'    => 'zgrab',      'regexp' => '/zgrab\//u' ],
     [ 'name' => 'ZmEu',                         'id'    => 'zmeu',      'regexp' => '/ZmEu/u' ],
 
     /* Generic bots */
