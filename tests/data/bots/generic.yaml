@@ -962,3 +962,7 @@
     headers: 'User-Agent: Mediumbot-ProxyFetcher/0.1 (+https://medium.com/)'
     readable: 'Medium Bot 0.1'
     result: { browser: { name: 'Medium Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)'
+    readable: 'HubSpot Crawler'
+    result: { browser: { name: 'HubSpot Crawler' }, device: { type: bot } }
