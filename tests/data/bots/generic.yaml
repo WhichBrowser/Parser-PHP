@@ -974,3 +974,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)'
     readable: 'OdklBot 1.0'
     result: { browser: { name: OdklBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)'
+    readable: 'Daum 4.1'
+    result: { browser: { name: Daum, version: '4.1' }, device: { type: bot } }
