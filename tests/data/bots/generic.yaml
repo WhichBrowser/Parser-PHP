@@ -932,7 +932,7 @@
     result: { browser: { name: 'Skype Url Preview', version: '0.5' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; BuzzSumo; +http://www.buzzsumo.com/bot.html)'
-    readable: 'BuzzSumo'
+    readable: BuzzSumo
     result: { browser: { name: BuzzSumo }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; U; Hootsuite-WebFeed/1.0; mailto:abuse@hootsuite.com)'
@@ -940,7 +940,7 @@
     result: { browser: { name: HootSuite, version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: HootSuite Image proxy (hosting@hootsuite.com)'
-    readable: 'HootSuite'
+    readable: HootSuite
     result: { browser: { name: HootSuite }, device: { type: bot } }
 -
     headers: 'User-Agent: MindsMediaProxy/3.0 (+http://www.minds.com/)'
@@ -980,7 +980,7 @@
     result: { browser: { name: Daum, version: '4.1' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)'
-    readable: 'vkShare'
+    readable: vkShare
     result: { browser: { name: vkShare }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.0 Safari/537.36 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)'
