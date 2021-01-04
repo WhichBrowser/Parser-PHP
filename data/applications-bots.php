@@ -219,6 +219,8 @@ Applications::$BOTS = [
     [ 'name' => 'OrangeBot',                    'id'    => 'orange',      'regexp' => '/OrangeBot-Collector\/([0-9.]*)/u' ],
     [ 'name' => 'OrangeBot',                    'id'    => 'orange',      'regexp' => '/OrangeBot-Mobile/u' ],
     [ 'name' => 'PagesInventory ',              'id'    => 'pages',      'regexp' => '/PagesInventory/u' ],
+    [ 'name' => 'Petal Bot',                    'id'    => 'petal',      'regexp' => '/PetalBot/u' ],
+    [ 'name' => 'Petal Bot',                    'id'    => 'aspiegel',      'regexp' => '/Aspiegel/u' ],
     [ 'name' => 'Picsearch Bot',                'id'    => 'psbot',      'regexp' => '/psbot\/([0-9.]*)/u' ],
     [ 'name' => 'Picsearch Bot',                'id'    => 'psbot',      'regexp' => '/psbot-page/u' ],
     [ 'name' => 'Picsearch Bot',                'id'    => 'psbot',      'regexp' => '/psbot-image/u' ],
