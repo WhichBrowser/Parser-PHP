@@ -918,3 +918,11 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
     readable: 'Datanyze'
     result: { browser: { name: Datanyze }, device: { type: bot } }
+-
+    headers: 'User-Agent: okhttp/3.4.1'
+    readable: 'OkHttp 3.4.1'
+    result: { browser: { name: OkHttp, version: '3.4.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AbtestCenter-okhttp/1.0'
+    readable: 'OkHttp 1.0'
+    result: { browser: { name: OkHttp, version: '1.0' }, device: { type: bot } }
