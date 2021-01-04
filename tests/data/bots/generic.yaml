@@ -846,3 +846,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; LetsearchBot/1.0; +https://letsearch.ru/bots)'
     readable: 'LetsearchBot 1.0'
     result: { browser: { name: LetsearchBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Seeker v.1 http://LookSeek.com/seeker/'
+    readable: 'LookSeek 1'
+    result: { browser: { name: LookSeek, version: '1' }, device: { type: bot } }

@@ -177,6 +177,7 @@ Applications::$BOTS = [
     [ 'name' => 'Linkdex Bot',                  'id'    => 'linkdex',      'regexp' => '/linkdexbot-mobile\/([0-9.]*)/u' ],
     [ 'name' => 'Linkdex Bot',                  'id'    => 'linkdex',      'regexp' => '/linkdex.com\/v([0-9.]*)/u' ],
     [ 'name' => 'Livedoor',                     'id'    => 'livedoor',      'regexp' => '/livedoor/u' ],
+    [ 'name' => 'LookSeek',                     'id'    => 'seeker',      'regexp' => '/Seeker v\.([0-9.]*)/u' ],    
     [ 'name' => 'LTX71',                        'id'    => 'ltx71',      'regexp' => '/ltx71/u' ],
     [ 'name' => 'Magpie RSS',                   'id'    => 'magpie',      'regexp' => '/MagpieRSS\/([0-9.]*)/u' ],
     [ 'name' => 'Majestic MJ12 Bot',            'id'    => 'mj12bot',      'regexp' => '/MJ12bot\/v([0-9.]*)/u' ],
