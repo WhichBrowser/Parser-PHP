@@ -870,3 +870,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; Clarabot/1.4; +http://www.clarabot.info/bots)'
     readable: 'Clarabot 1.4'
     result: { browser: { name: Clarabot, version: '1.4' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MojeekBot/0.9; +https://www.mojeek.com/bot.html)'
+    readable: 'MojeekBot 0.9'
+    result: { browser: { name: MojeekBot, version: '0.9' }, device: { type: bot } }
