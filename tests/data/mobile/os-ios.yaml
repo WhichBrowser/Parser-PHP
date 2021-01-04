@@ -466,3 +466,7 @@
     headers: 'User-Agent: AtomicLite/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0'
     result: { browser: { name: Atomic, version: 7.0.1, type: browser }, os: { name: iOS, version: '7.1' }, device: { type: mobile, subtype: smart, manufacturer: Apple } }
     readable: 'Atomic 7.0.1 on iOS 7.1'
+-
+    headers: 'User-Agent: (iPhone; iOS 13.1.2; Scale/2.00; iPhone9,3)'
+    readable: 'an Apple iPhone 7 running iOS 13.1.2'
+    result: { os: { name: iOS, version: 13.1.2 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: 'iPhone 7' } }
