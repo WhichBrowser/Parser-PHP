@@ -81,6 +81,7 @@ Applications::$BOTS = [
     [ 'name' => 'Common Crawl Bot',             'id'    => 'cbot',      'regexp' => '/CCBot\/([0-9.]*)/u' ],
     [ 'name' => 'Common Crawl Research Bot',    'id'    => 'cresearch',      'regexp' => '/CCResearchBot\/([0-9.]*)/u' ],
     [ 'name' => 'Data Hotel Watchdog',          'id'    => 'watchdog',      'regexp' => '/Data-Hotel-Watchdog\/([0-9.]*)/u' ],
+    [ 'name' => 'Datanyze',                     'id'    => 'datanyze',      'regexp' => '/Datanyze/u' ],
     [ 'name' => 'DataparkSearch',               'id'    => 'datasearch',      'regexp' => '/DataparkSearch\/([0-9.]*)/u' ],
     [ 'name' => 'Dataprovider Bot',             'id'    => 'dataprovider',      'regexp' => '/Dataprovider/u' ],
     [ 'name' => 'Daumoa',                       'id'    => 'daumoa',      'regexp' => '/Daumoa ([0-9.]*)/u' ],

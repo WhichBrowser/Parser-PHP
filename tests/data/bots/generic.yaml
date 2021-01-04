@@ -914,3 +914,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; IODC-Odysseus Survey 46182-100-271115114504-101; +https://iodc.co.uk)'
     readable: 'Iodc'
     result: { browser: { name: Iodc }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    readable: 'Datanyze'
+    result: { browser: { name: Datanyze }, device: { type: bot } }
