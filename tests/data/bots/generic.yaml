@@ -882,3 +882,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; Adsbot/3.1)'
     readable: 'Adsbot 3.1'
     result: { browser: { name: Adsbot, version: '3.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)'
+    readable: 'Barkrowler 0.9'
+    result: { browser: { name: Barkrowler, version: '0.9' }, device: { type: bot } }

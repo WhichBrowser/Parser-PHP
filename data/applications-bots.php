@@ -38,6 +38,7 @@ Applications::$BOTS = [
     [ 'name' => 'Baiduspider',                  'id'    => 'baidu',      'regexp' => '/baiduspider-mobile-gate/u' ],
     [ 'name' => 'Baiduspider',                  'id'    => 'baidu',      'regexp' => '/\+http:\/\/www.baidu.com\/search\/spider.html/u' ],
     [ 'name' => 'Baiduspider',                  'id'    => 'baidu',      'regexp' => '/BaiduImagespider/u' ],
+    [ 'name' => 'Barkrowler',                   'id'    => 'barkrowler',      'regexp' => '/Barkrowler\/([0-9.]*)/u' ],
     [ 'name' => 'BazQux',                       'id'    => 'bazqux',      'regexp' => '/BazQux\/([0-9.]*)/u' ],
     [ 'name' => 'Bing',                         'id'    => 'bingbot',      'regexp' => '/bingbot\/([0-9.]*)/u' ],
     [ 'name' => 'Bing',                         'id'    => 'msnbot',      'regexp' => '/msnbot\/([0-9.]*)/u' ],
