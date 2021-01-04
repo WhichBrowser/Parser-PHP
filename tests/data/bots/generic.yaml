@@ -986,3 +986,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.0 Safari/537.36 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)'
     readable: 'Line Bot 1.1'
     result: { browser: { name: 'Line Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: httpunit/1.5'
+    readable: 'HttpUnit 1.5'
+    result: { browser: { name: HttpUnit, version: '1.5' }, device: { type: bot } }
