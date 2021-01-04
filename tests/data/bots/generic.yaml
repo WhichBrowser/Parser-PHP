@@ -743,7 +743,7 @@
     readable: 'Apple News Bot'
     result: { browser: { name: 'Apple News Bot' }, device: { type: bot } }
 -
-    headers: 'User-Agent: 	Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)'
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)'
     readable: 'Gowikibot 1.0'
     result: { browser: { name: Gowikibot, version: '1.0' }, device: { type: bot } }
 -
@@ -797,11 +797,11 @@
 -
     headers: 'User-Agent: go-httpclient v0.5.1'
     readable: 'Go Http Client 0.5.1'
-    result: { browser: { name: 'Go Http Client', version: '0.5.1' }, device: { type: bot } }
+    result: { browser: { name: 'Go Http Client', version: 0.5.1 }, device: { type: bot } }
 -
     headers: 'User-Agent: bl.uk_lddc_bot/3.4.0-20200518 (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)'
     readable: 'British Library 3.4.0'
-    result: { browser: { name: 'British Library', version: '3.4.0' }, device: { type: bot } }
+    result: { browser: { name: 'British Library', version: 3.4.0 }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikFaviconBot/1.2; +http://corp.sputnik.ru/webmaster)'
     readable: 'Sputnik Favicon Bot 1.2'
@@ -816,11 +816,11 @@
     result: { browser: { name: 'Sputnik Image Bot', version: '2.3' }, device: { type: bot } }
 -
     headers: 'User-Agent: DMCA.com Page Protection Crawling Service'
-    readable: 'DMCA'
+    readable: DMCA
     result: { browser: { name: DMCA }, device: { type: bot } }
 -
     headers: 'User-Agent: Made by ZmEu @ WhiteHat Team – http://www.whitehat.ro'
-    readable: 'ZmEu'
+    readable: ZmEu
     result: { browser: { name: ZmEu }, device: { type: bot } }
 -
     headers: 'User-Agent: netEstate NE Crawler (+http://www.website-datenbank.de/)'
@@ -877,7 +877,7 @@
 -
     headers: 'User-Agent: Xenu Link Sleuth/1.3.9 beta'
     readable: 'Xenu Link Sleuth 1.3.9'
-    result: { browser: { name: 'Xenu Link Sleuth', version: '1.3.9' }, device: { type: bot } }
+    result: { browser: { name: 'Xenu Link Sleuth', version: 1.3.9 }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Adsbot/3.1)'
     readable: 'Adsbot 3.1'
@@ -908,20 +908,20 @@
     result: { browser: { name: 'Petal Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (iodc; odysseus 24842-138-041020155614-449; +https://iodc.co.uk)'
-    readable: 'Iodc'
+    readable: Iodc
     result: { browser: { name: Iodc }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; IODC-Odysseus Survey 46182-100-271115114504-101; +https://iodc.co.uk)'
-    readable: 'Iodc'
+    readable: Iodc
     result: { browser: { name: Iodc }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
-    readable: 'Datanyze'
+    readable: Datanyze
     result: { browser: { name: Datanyze }, device: { type: bot } }
 -
     headers: 'User-Agent: okhttp/3.4.1'
     readable: 'OkHttp 3.4.1'
-    result: { browser: { name: OkHttp, version: '3.4.1' }, device: { type: bot } }
+    result: { browser: { name: OkHttp, version: 3.4.1 }, device: { type: bot } }
 -
     headers: 'User-Agent: AbtestCenter-okhttp/1.0'
     readable: 'OkHttp 1.0'
