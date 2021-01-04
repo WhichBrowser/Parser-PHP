@@ -886,3 +886,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)'
     readable: 'Barkrowler 0.9'
     result: { browser: { name: Barkrowler, version: '0.9' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)'
+    readable: 'VelenPublicWebCrawler 1.0'
+    result: { browser: { name: VelenPublicWebCrawler, version: '1.0' }, device: { type: bot } }

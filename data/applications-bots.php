@@ -279,6 +279,7 @@ Applications::$BOTS = [
     [ 'name' => 'TrustedSite',                  'id'    => 'trustedsite',      'regexp' => '/TrustedSite/u' ],
     [ 'name' => 'Typhoeus',                     'id'    => 'typhoeus',      'regexp' => '/Typhoeus/u' ],
     [ 'name' => 'Vagabondo',                    'id'    => 'vagabondo',      'regexp' => '/Vagabondo\/([0-9.]*)/u' ],
+    [ 'name' => 'VelenPublicWebCrawler',        'id'    => 'velen',      'regexp' => '/VelenPublicWebCrawler\/([0-9.]*)/u' ],
     [ 'name' => 'Voat',                         'id'    => 'voat',      'regexp' => '/Voat\.co OpenGraph Parser/u' ],
     [ 'name' => 'Voilabot',                     'id'    => 'voila',      'regexp' => '/Voila[Bb]ot/u' ],
     [ 'name' => 'VocusBot',                     'id'    => 'vocus',      'regexp' => '/VocusBot ([0-9.]*)/u' ],
