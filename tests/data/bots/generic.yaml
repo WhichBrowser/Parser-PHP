@@ -978,3 +978,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)'
     readable: 'Daum 4.1'
     result: { browser: { name: Daum, version: '4.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)'
+    readable: 'vkShare'
+    result: { browser: { name: vkShare }, device: { type: bot } }
