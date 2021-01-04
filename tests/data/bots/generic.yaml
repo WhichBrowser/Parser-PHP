@@ -942,3 +942,7 @@
     headers: 'User-Agent: HootSuite Image proxy (hosting@hootsuite.com)'
     readable: 'HootSuite'
     result: { browser: { name: HootSuite }, device: { type: bot } }
+-
+    headers: 'User-Agent: MindsMediaProxy/3.0 (+http://www.minds.com/)'
+    readable: 'Minds 3.0'
+    result: { browser: { name: Minds, version: '3.0' }, device: { type: bot } }
