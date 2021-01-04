@@ -242,7 +242,7 @@ trait Os
 
                 $candidates = [];
 
-                if (preg_match('/Build/ui', $ua)) {
+                if (preg_match('/Build/ui', $ua) && (!preg_match('/AppleWebKit.*Build/ui', $ua) || preg_match('/Build.*AppleWebKit/ui', $ua))) {
                     /* Normal Android useragent strings */
 
                     if (preg_match('/; [a-z][a-zA-Z][-_][a-zA-Z][a-zA-Z] ([^;]*[^;\s])\s+(?:BUILD|Build|build)/u', $ua, $match)) {

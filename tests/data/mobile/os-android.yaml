@@ -342,3 +342,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; arm; Android 6.0.1; NX549J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 YaBrowser/20.9.3.85.00 SA/3 Mobile Safari/537.36'
     readable: 'Yandex Browser 20.9 on a ZTE Nubia Z11 Mini S running Android 6.0.1'
     result: { browser: { name: 'Yandex Browser', family: { name: Chrome, version: 85 }, version: '20.9', type: browser }, engine: { name: Blink }, os: { name: Android, version: 6.0.1 }, device: { type: mobile, subtype: smart, manufacturer: ZTE, model: 'Nubia Z11 Mini S' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; th; vivo 1915) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Tenta/3.1.6 Build/2162 Safari/537.36'
+    readable: 'Tenta Browser 3.1.6 on a vivo 1915 running Android 9'
+    result: { browser: { name: 'Tenta Browser', family: { name: Chrome, version: 64 }, version: 3.1.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, model: 'vivo 1915' } }
