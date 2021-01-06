@@ -123,7 +123,7 @@ trait Gaming
 
     /* Sony PlayStation */
 
-    private function detectPlayStation($ua)
+    private function detectPlaystation($ua)
     {
         /* PlayStation Portable */
 
@@ -144,7 +144,7 @@ trait Gaming
 
         /* PlayStation Vita */
 
-        if (preg_match('/PlayStation Vita/iu', $ua)) {
+        if (preg_match('/PlayStation Vita/ui', $ua)) {
             $this->data->os->reset();
             $this->data->os->identifyVersion('/PlayStation Vita ([0-9.]*)/u', $ua);
 
@@ -163,7 +163,7 @@ trait Gaming
 
         /* PlayStation 2 */
 
-        if (preg_match('/PlayStation2/u', $ua) || preg_match('/\(PS2/u', $ua)) {
+        if (preg_match('/PlayStation2/ui', $ua) || preg_match('/\(PS2/u', $ua)) {
             $this->data->os->reset();
 
             $this->data->device->setIdentification([
