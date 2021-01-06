@@ -211,7 +211,6 @@ trait Gaming
     private function detectXbox($ua)
     {
         /* Xbox One */
-
         if (preg_match('/Xbox One\)/u', $ua, $match)) {
             if ($this->data->isOs('Windows Phone', '=', '10')) {
                 $this->data->os->name = 'Windows';
@@ -230,7 +229,6 @@ trait Gaming
             ]);
 
         /* Xbox Series X */
-
         } elseif (preg_match('/Xbox Series X\)$/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
@@ -241,7 +239,6 @@ trait Gaming
             ]);
         
         /* Xbox 360 */
-
         } elseif (preg_match('/Xbox\)$/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
