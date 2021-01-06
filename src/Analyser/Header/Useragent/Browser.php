@@ -381,7 +381,7 @@ trait Browser
             if (preg_match('/IEMobile/u', $ua) || preg_match('/Windows CE/u', $ua) || preg_match('/Windows Phone/u', $ua) || preg_match('/WP7/u', $ua) || preg_match('/WPDesktop/u', $ua)) {
                 $this->data->browser->name = 'Mobile Internet Explorer';
 
-                if (isset($this->data->device->model) && ($this->data->device->model == 'Xbox 360' || $this->data->device->model == 'Xbox One')) {
+                if (isset($this->data->device->model) && ($this->data->device->model == 'Xbox 360' || $this->data->device->model == 'Xbox One' || $this->data->device->model == 'Xbox Series X')) {
                     $this->data->browser->name = 'Internet Explorer';
                 }
             }
