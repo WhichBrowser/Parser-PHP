@@ -229,7 +229,7 @@ trait Gaming
             ]);
 
         /* Xbox Series X */
-        } elseif (preg_match('/Xbox Series X\)$/u', $ua, $match)) {
+        } elseif (preg_match('/Xbox Series X\)/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Microsoft',
