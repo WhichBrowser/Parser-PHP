@@ -303,7 +303,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Aplix',                'id'    => 'aplix',      'regexp' =>'/Aplix_SEGASATURN_browser\/([0-9](?:.[0-9.]+)?)/u' ],                                    // browser for the Sega Saturn
         [ 'name' => 'Bunjalloo',            'id'    => 'bunjalloo',      'regexp' =>'/Bunjalloo\/([0-9.]*)/u' ],                                                            // browser for the Nintento DS
         [ 'name' => 'Nintendo Web Framework', 'id'    => 'nwf',      'regexp' =>'/NWF\/([0-9.]*)/u', 'details' => 2 ],                                                        // browser for the Sega Dreamcast
-        [ 'name' => 'Nuanti Meta',          'id'    => 'nuanti',      'regexp' =>'/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the Playstation
+        [ 'name' => 'Nuanti Meta',          'id'    => 'nuanti',      'regexp' =>'/Nuanti(?:Meta)?\/([0-9.]*)/u' ],                                                      // browser for the PlayStation
 
         /* Other browsers */
         [ 'name' => 'Wear Internet Browser','id'    => 'wib',      'regexp' =>'/WIB\/([0-9.]*)/u' ],
