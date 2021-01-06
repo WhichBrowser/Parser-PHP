@@ -210,18 +210,6 @@ trait Gaming
 
     private function detectXbox($ua)
     {
-        /* Xbox 360 */
-
-        if (preg_match('/Xbox\)$/u', $ua, $match)) {
-            $this->data->os->reset();
-            $this->data->device->setIdentification([
-                'manufacturer'  =>  'Microsoft',
-                'model'         =>  'Xbox 360',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
-            ]);
-        }
-
         /* Xbox One */
 
         if (preg_match('/Xbox One\)/u', $ua, $match)) {
@@ -240,15 +228,25 @@ trait Gaming
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
-        }
 
         /* Xbox Series X */
 
-        if (preg_match('/Xbox Series X\)$/u', $ua, $match)) {
+        } elseif (preg_match('/Xbox Series X\)$/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Microsoft',
                 'model'         =>  'Xbox Series X',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        
+        /* Xbox 360 */
+
+        } elseif (preg_match('/Xbox\)$/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Microsoft',
+                'model'         =>  'Xbox 360',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
