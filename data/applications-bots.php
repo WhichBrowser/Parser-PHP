@@ -297,6 +297,7 @@ Applications::$BOTS = [
     [ 'name' => 'TLSProber',                    'id'    => 'tlsprober',      'regexp' => '/TLSProber\/([0-9.]*)/u' ],
     [ 'name' => 'TrustedSite',                  'id'    => 'trustedsite',      'regexp' => '/TrustedSite/u' ],
     [ 'name' => 'Typhoeus',                     'id'    => 'typhoeus',      'regexp' => '/Typhoeus/u' ],
+    [ 'name' => 'UptimeRobot',                  'id'    => 'uptime',        'regexp' => '/UptimeRobot\/([0-9.]*)/u' ],   
     [ 'name' => 'Vagabondo',                    'id'    => 'vagabondo',      'regexp' => '/Vagabondo\/([0-9.]*)/u' ],
     [ 'name' => 'VelenPublicWebCrawler',        'id'    => 'velen',      'regexp' => '/VelenPublicWebCrawler\/([0-9.]*)/u' ],
     [ 'name' => 'vkShare',                      'id'    => 'vkshare',      'regexp' => '/vkShare/u' ],

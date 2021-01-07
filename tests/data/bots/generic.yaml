@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)'
+    readable: 'UptimeRobot 2.0'
+    result: { browser: { name: UptimeRobot, version: '2.0' }, device: { type: bot } }
