@@ -998,3 +998,23 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: PycURL/7.43.0.2 libcurl/7.47.0 OpenSSL/1.0.2g zlib/1.2.8 libidn/1.32 librtmp/2.3'
+    readable: Zgrab
+    result: { browser: { name: Curl }, device: { type: bot } }
+-
+    headers: 'User-Agent: libcurl/7.54.1 r-curl/2.8.1 httr/1.3.1'
+    readable: Zgrab
+    result: { browser: { name: Curl }, device: { type: bot } }
+-
+    headers: 'User-Agent: PycURL/7.19.5'
+    readable: Zgrab
+    result: { browser: { name: Curl }, device: { type: bot } }
+-
+    headers: 'User-Agent: libcurl-agent/1.0'
+    readable: Zgrab
+    result: { browser: { name: Curl }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; pycurl)'
+    readable: Zgrab
+    result: { browser: { name: Curl }, device: { type: bot } }
