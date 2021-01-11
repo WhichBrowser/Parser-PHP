@@ -383,8 +383,8 @@ Applications::$BOTS = [
     [ 'name' => 'OkHttp',                       'id'    => 'okhttp',      'regexp' => '/okhttp\/([0-9.]*)/u' ],
     [ 'name' => 'Node Fetch',                   'id'    => 'node',      'regexp' => '/node-fetch\/([0-9.]*)/u' ],
     [ 'name' => 'Wget',                         'id'    => 'wget',      'regexp' => '/Wget\/([0-9.]*)/u' ],
+    [ 'name' => 'PycURL',                       'id'    => 'curl',      'regexp' => '/pycurl\/?([0-9.]*)/ui' ],
     [ 'name' => 'Curl',                         'id'    => 'curl',      'regexp' => '/curl\/([0-9.]*)/ui' ],
-    [ 'name' => 'Curl',                         'id'    => 'curl',      'regexp' => '/pycurl/ui' ],
     [ 'name' => 'Libcurl Agent',                'id'    => 'curl',      'regexp' => '/libcurl-agent\/([0-9.]*)/ui' ],
 
     [ 'name' => 'Go',                           'id'    => 'package',      'regexp' => '/Go [0-9\.]+ package http/u' ],

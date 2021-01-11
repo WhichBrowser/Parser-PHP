@@ -1016,5 +1016,5 @@
     result: { browser: { name: 'Libcurl Agent', version: 1.0 }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; pycurl)'
-    readable: Curl
-    result: { browser: { name: Curl }, device: { type: bot } }
+    readable: PycURL
+    result: { browser: { name: PycURL }, device: { type: bot } }
