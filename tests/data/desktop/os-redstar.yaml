@@ -6,3 +6,7 @@
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; ko-KP, en; rv:1.8.1.8) Gecko/20090718 《붉은별》/2.5 NaenaraBrowser/2.0.0.8'
     result: { browser: { name: Naenara, version: '2.0', type: browser }, engine: { name: Gecko, version: 1.8.1 }, os: { name: 'Red Star', version: '2.5' }, device: { type: desktop } }
     readable: 'Naenara 2.0 on Red Star 2.5'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; ko-KP, en; rv:2.0.1.3) Gecko/20130765 RedStar/3.0 NaenaraBrowser/3.1'
+    result: { browser: { name: Naenara, version: '3.1', type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: 'Red Star', version: '3.0' }, device: { type: desktop } }
+    readable: 'Naenara 3.1 on Red Star 3.0'
