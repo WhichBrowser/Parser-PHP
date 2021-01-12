@@ -20,7 +20,7 @@ trait Tablet
         if (preg_match('/WeTab-Browser /ui', $ua, $match)) {
             $this->data->device->manufacturer = 'WeTab';
             $this->data->device->model = 'WeTab';
-            $this->data->device->identified = Constants\Id::MATCH_UA;
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
             $this->data->device->type = Constants\DeviceType::TABLET;
 
             $this->data->browser->name = 'WebTab Browser';
