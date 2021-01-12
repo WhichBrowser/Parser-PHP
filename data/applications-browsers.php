@@ -347,7 +347,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Wyzo',                 'id'    => 'wyzo',      'regexp' =>'/Wyzo\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Yelang',               'id'    => 'yelang',      'regexp' =>'/Yelang\/([0-9.]*)/u', 'details' => 3 ],                           // see: wellgo.org
         [ 'name' => 'YRC Weblink',          'id'    => 'yrcweb',      'regexp' =>'/YRCWeblink\/([0-9.]*)/u' ],
-        [ 'name' => '冲浪浏览器',             'id'    => 'surf',      'regexp' =>'/CMSurfClient-Android/u' ],
+        [ 'name' => 'Surf Chinese browser', 'id'    => 'surf',      'regexp' =>'/CMSurfClient-Android/u' ],
     ],
 
     Constants\BrowserType::BROWSER_TEXT => [
@@ -363,7 +363,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'PhantomJS',            'id'    => 'phantom',      'regexp' =>'/PhantomJS\/([0-9.]*)/u' ],
         [ 'name' => 'Nimbus',               'id'    => 'nimbus',      'regexp' =>'/Nimbus\/([0-9.]*)/u' ],
         [ 'name' => 'McAfee Web Gateway',   'id'    => 'Webwasher',      'regexp' =>'/Webwasher\/([0-9.]*)/u' ],
-        [ 'name' => 'Open Sankoré',         'id'    => 'sankore',      'regexp' =>'/Open-Sankore\/([0-9.]*)/u', 'type' => Constants\DeviceType::WHITEBOARD ],
+        [ 'name' => 'Open Sankore',         'id'    => 'sankore',      'regexp' =>'/Open-Sankore\/([0-9.]*)/u', 'type' => Constants\DeviceType::WHITEBOARD ],
         [ 'name' => 'Adapi',                'id'    => 'adapi',      'regexp' =>'/ ADAPI\/([0-9.]*)/u', 'hidden' => true, 'type' => Constants\DeviceType::SIGNAGE ],
         [ 'name' => 'BrightSign',           'id'    => 'brightsign',      'regexp' =>'/BrightSign\/([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
         [ 'name' => 'Coship MMCP',          'id'    => 'coship',      'regexp' =>'/Coship_MMCP_([0-9.]*)/u', 'type' => Constants\DeviceType::SIGNAGE ],
