@@ -10037,8 +10037,8 @@ DeviceProfiles::$PROFILES = [
     'http://www.zte.com.cn/mobile/uaprof/Z993.xml'                                                        => [ 'ZTE', 'Z993 Prelude', 'Android', DeviceType::MOBILE ],
     'http://www.zte.com.cn/mobile/uaprof/Z995.xml'                                                        => [ 'ZTE', 'Z995 Overture', 'Android', DeviceType::MOBILE ],
     'http://www.zte.com.cn/mobile/uaprof/Z998.xml'                                                        => [ 'ZTE', 'Z998', 'Android', DeviceType::MOBILE ],
-    'http://www.zte.com.cn/mobile/uaprof/MS4A.xml'                                                        => [ 'Мегафон', '4G Turbo', 'Android', DeviceType::MOBILE ],
-    'http://www-ccpp.tcl-ta.com/files/MS3B.xml'                                                           => [ 'Мегафон', 'Optima', 'Android', DeviceType::MOBILE ],
-    'http://downloadmirror.intel.com/20932/eng/SP-A20i_UA_Profile.xml'                                    => [ 'Мегафон', 'SP-A20i Mint', 'Android', DeviceType::MOBILE ],
-    'http://www.zte.com.cn/mobile/uaprof/MegaFon_SP-A5.xml'                                               => [ 'Мегафон', 'SP-A5', 'Android', DeviceType::MOBILE ],
+    'http://www.zte.com.cn/mobile/uaprof/MS4A.xml'                                                        => [ 'MegaFon', '4G Turbo', 'Android', DeviceType::MOBILE ],
+    'http://www-ccpp.tcl-ta.com/files/MS3B.xml'                                                           => [ 'MegaFon', 'Optima', 'Android', DeviceType::MOBILE ],
+    'http://downloadmirror.intel.com/20932/eng/SP-A20i_UA_Profile.xml'                                    => [ 'MegaFon', 'SP-A20i Mint', 'Android', DeviceType::MOBILE ],
+    'http://www.zte.com.cn/mobile/uaprof/MegaFon_SP-A5.xml'                                               => [ 'MegaFon', 'SP-A5', 'Android', DeviceType::MOBILE ],
 ];
