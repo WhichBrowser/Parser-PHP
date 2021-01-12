@@ -19,10 +19,6 @@ trait Gaming
         $this->detectSega($ua);
     }
 
-
-
-
-
     /* Nintendo Wii and DS */
 
     private function detectNintendo($ua)
@@ -32,10 +28,10 @@ trait Gaming
         if (preg_match('/Nintendo Switch/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'Switch',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'Switch',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -44,10 +40,10 @@ trait Gaming
         if (preg_match('/Nintendo Wii/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'Wii',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'Wii',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -56,10 +52,10 @@ trait Gaming
         if (preg_match('/Nintendo Wii ?U/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'Wii U',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'Wii U',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -68,10 +64,10 @@ trait Gaming
         if (preg_match('/Nintendo DS/u', $ua) || preg_match('/Nitro.*Opera/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'DS',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'DS',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
         }
 
@@ -80,10 +76,10 @@ trait Gaming
         if (preg_match('/Nintendo DSi/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'DSi',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'DSi',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
         }
 
@@ -98,10 +94,10 @@ trait Gaming
             ]);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  '3DS',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => '3DS',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
         }
 
@@ -112,14 +108,13 @@ trait Gaming
             $this->data->os->identifyVersion('/Version\/([0-9.]*[0-9])/u', $ua);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Nintendo',
-                'model'         =>  'New 3DS',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Nintendo',
+                'model'         => 'New 3DS',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
         }
     }
-
 
     /* Sony PlayStation */
 
@@ -135,10 +130,10 @@ trait Gaming
             ]);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation Portable',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Sony',
+                'model'         => 'Playstation Portable',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
         }
 
@@ -149,10 +144,10 @@ trait Gaming
             $this->data->os->identifyVersion('/PlayStation Vita ([0-9.]*)/u', $ua);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation Vita',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::PORTABLE
+                'manufacturer'  => 'Sony',
+                'model'         => 'Playstation Vita',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::PORTABLE
             ]);
 
             if (preg_match('/VTE\//u', $ua)) {
@@ -167,10 +162,10 @@ trait Gaming
             $this->data->os->reset();
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation 2',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Sony',
+                'model'         => 'Playstation 2',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -187,10 +182,10 @@ trait Gaming
             }
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation 3',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Sony',
+                'model'         => 'Playstation 3',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -201,14 +196,13 @@ trait Gaming
             $this->data->os->identifyVersion('/PlayStation 4 ([0-9.]*)/u', $ua);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  'Playstation 4',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Sony',
+                'model'         => 'Playstation 4',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
     }
-
 
     /* Microsoft Xbox */
 
@@ -219,10 +213,10 @@ trait Gaming
         if (preg_match('/Xbox\)$/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Microsoft',
-                'model'         =>  'Xbox 360',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Microsoft',
+                'model'         => 'Xbox 360',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -239,14 +233,13 @@ trait Gaming
             }
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Microsoft',
-                'model'         =>  'Xbox One',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Microsoft',
+                'model'         => 'Xbox One',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
     }
-
 
     /* Sega */
 
@@ -257,10 +250,10 @@ trait Gaming
         if (preg_match('/SEGASATURN/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sega',
-                'model'         =>  'Saturn',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Sega',
+                'model'         => 'Saturn',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
 
@@ -269,10 +262,10 @@ trait Gaming
         if (preg_match('/Dreamcast/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sega',
-                'model'         =>  'Dreamcast',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+                'manufacturer'  => 'Sega',
+                'model'         => 'Dreamcast',
+                'type'          => Constants\DeviceType::GAMING,
+                'subtype'       => Constants\DeviceSubType::CONSOLE
             ]);
         }
     }

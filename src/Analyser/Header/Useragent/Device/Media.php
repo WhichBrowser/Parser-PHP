@@ -18,9 +18,6 @@ trait Media
         $this->detectWalkman($ua);
     }
 
-
-
-
     /* Archos Generation 4, 5 and 6 */
 
     private function detectArchos($ua)
@@ -30,9 +27,9 @@ trait Media
         if (preg_match('/Archos A([67]04)WIFI\//u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Archos',
-                'model'         =>  $match[1] . ' WiFi',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Archos',
+                'model'         => $match[1] . ' WiFi',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
         }
 
@@ -41,9 +38,9 @@ trait Media
         if (preg_match('/ARCHOS; GOGI; a([67]05f?);/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Archos',
-                'model'         =>  $match[1] . ' WiFi',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Archos',
+                'model'         => $match[1] . ' WiFi',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
         }
 
@@ -52,8 +49,8 @@ trait Media
         if (preg_match('/ARCHOS; GOGI; G6-?(S|H|L|3GP);/u', $ua, $match)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Archos',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Archos',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
 
             switch ($match[1]) {
@@ -81,13 +78,12 @@ trait Media
             ]);
 
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Archos',
-                'model'         =>  '5',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Archos',
+                'model'         => '5',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
         }
     }
-
 
     /* Microsoft Zune */
 
@@ -96,13 +92,12 @@ trait Media
         if (preg_match('/Microsoft ZuneHD/u', $ua)) {
             $this->data->os->reset();
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Microsoft',
-                'model'         =>  'Zune HD',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Microsoft',
+                'model'         => 'Zune HD',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
         }
     }
-
 
     /* Sony Walkman */
 
@@ -110,9 +105,9 @@ trait Media
     {
         if (preg_match('/Walkman\/(NW-[A-Z0-9]+)/u', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Sony',
-                'model'         =>  $match[1] . ' Walkman',
-                'type'          =>  Constants\DeviceType::MEDIA
+                'manufacturer'  => 'Sony',
+                'model'         => $match[1] . ' Walkman',
+                'type'          => Constants\DeviceType::MEDIA
             ]);
         }
     }

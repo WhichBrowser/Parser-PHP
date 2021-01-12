@@ -16,20 +16,19 @@ trait Printer
 
         if (preg_match('/TASKalfa ([0-9A-Z]+)/iu', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Kyocera',
-                'model'         =>  'TASKalfa ' . $match[1],
-                'type'          =>  Constants\DeviceType::PRINTER
+                'manufacturer'  => 'Kyocera',
+                'model'         => 'TASKalfa ' . $match[1],
+                'type'          => Constants\DeviceType::PRINTER
             ]);
         }
-
 
         /* Canon IJ */
 
         if (preg_match('/CanonIJCL/iu', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Canon',
-                'model'         =>  'IJ Printer',
-                'type'          =>  Constants\DeviceType::PRINTER
+                'manufacturer'  => 'Canon',
+                'model'         => 'IJ Printer',
+                'type'          => Constants\DeviceType::PRINTER
             ]);
         }
 
@@ -37,9 +36,9 @@ trait Printer
 
         if (preg_match('/IR-S/iu', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Canon',
-                'model'         =>  'imageRUNNER',
-                'type'          =>  Constants\DeviceType::PRINTER
+                'manufacturer'  => 'Canon',
+                'model'         => 'imageRUNNER',
+                'type'          => Constants\DeviceType::PRINTER
             ]);
         }
 
@@ -47,9 +46,9 @@ trait Printer
 
         if (preg_match('/HP Web PrintSmart/iu', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'HP',
-                'model'         =>  'Web PrintSmart',
-                'type'          =>  Constants\DeviceType::PRINTER
+                'manufacturer'  => 'HP',
+                'model'         => 'Web PrintSmart',
+                'type'          => Constants\DeviceType::PRINTER
             ]);
         }
 
@@ -57,9 +56,9 @@ trait Printer
 
         if (preg_match('/EpsonHello\//iu', $ua, $match)) {
             $this->data->device->setIdentification([
-                'manufacturer'  =>  'Epson',
-                'model'         =>  'Hello',
-                'type'          =>  Constants\DeviceType::PRINTER
+                'manufacturer'  => 'Epson',
+                'model'         => 'Hello',
+                'type'          => Constants\DeviceType::PRINTER
             ]);
         }
     }
