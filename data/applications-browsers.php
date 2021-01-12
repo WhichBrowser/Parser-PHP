@@ -277,6 +277,8 @@ Applications::$BROWSERS = [
         [ 'name' => 'SEMC Browser',         'id'    => 'semc',      'regexp' =>'/SEMC-Browser\/([0-9.]*)/u' ],
         [ 'name' => 'STNC HitchHiker' ,     'id'    => 'stnc',      'regexp' =>'/STNC-WTL\/[0-9.]*/u' ],
         [ 'name' => 'Sogou Mobile',         'id'    => 'sogou',      'regexp' =>'/SogouMobileBrowser\/([0-9.]*)/u', 'details' => 2 ],
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/SurfBrowser\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],
+        [ 'name' => 'Surf',                 'id'    => 'surf',          'regexp' => '/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'Swing Browser',        'id'    => 'swing',      'regexp' =>'/Swing\(And\)\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Symphony',             'id'    => 'symphony',      'regexp' =>'/Symphony ([0-9.]+)$/u' ],
         [ 'name' => 'Tenta Browser',        'id'    => 'tenta',         'regexp' => '/ Tenta\/([0-9.]*)/u', 'type' => Constants\DeviceType::MOBILE ],                       // see: https://play.google.com/store/apps/details?id=com.tenta.android&hl=en
@@ -333,7 +335,6 @@ Applications::$BROWSERS = [
         [ 'name' => 'SMBrowser',            'id'    => 'smbrowser',      'regexp' =>'/SMBrowser/u' ],
         [ 'name' => 'Snowshoe',             'id'    => 'snowshoe',      'regexp' =>'/Snowshoe\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'Sputnik',              'id'    => 'sputnik',      'regexp' =>'/Sputnik\/([0-9.]*)/iu', 'details' => 3 ],
-        [ 'name' => 'Surf',                 'id'    => 'surf',      'regexp' =>'/Surf\/([0-9.]*)/u' ],
         [ 'name' => 'Taobao Browser',       'id'    => 'tao',      'regexp' =>'/TaoBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TaomeeBrowser',        'id'    => 'tao',      'regexp' =>'/TaomeeBrowser\/([0-9.]*)/u', 'details' => 2 ],
         [ 'name' => 'TazWeb',               'id'    => 'taz',      'regexp' =>'/TazWeb/u' ],
@@ -347,7 +348,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'Wyzo',                 'id'    => 'wyzo',      'regexp' =>'/Wyzo\/([0-9.]*)/u', 'details' => 3 ],
         [ 'name' => 'Yelang',               'id'    => 'yelang',      'regexp' =>'/Yelang\/([0-9.]*)/u', 'details' => 3 ],                           // see: wellgo.org
         [ 'name' => 'YRC Weblink',          'id'    => 'yrcweb',      'regexp' =>'/YRCWeblink\/([0-9.]*)/u' ],
-        [ 'name' => 'Surf Chinese browser', 'id'    => 'surf',      'regexp' =>'/CMSurfClient-Android/u' ],
+        [ 'name' => 'Surf Chinese browser', 'id'    => 'surfchina',      'regexp' =>'/CMSurfClient-Android/u' ],
     ],
 
     Constants\BrowserType::BROWSER_TEXT => [
