@@ -48,14 +48,14 @@ trait Mobile
                 case 'One':
                     $this->data->device->manufacturer = 'Microsoft';
                     $this->data->device->model = 'Kin ONE';
-                    $this->data->device->identified = Constants\Id::MATCH_UA;
+                    $this->data->device->identified |= Constants\Id::MATCH_UA;
                     $this->data->device->generic = false;
                     break;
 
                 case 'Two':
                     $this->data->device->manufacturer = 'Microsoft';
                     $this->data->device->model = 'Kin TWO';
-                    $this->data->device->identified = Constants\Id::MATCH_UA;
+                    $this->data->device->identified |= Constants\Id::MATCH_UA;
                     $this->data->device->generic = false;
                     break;
             }
@@ -78,14 +78,14 @@ trait Mobile
             $this->data->device->manufacturer = 'Nokia';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
             $this->data->device->identifier = $match[0];
-            $this->data->device->identified = Constants\Id::PATTERN;
+            $this->data->device->identified |= Constants\Id::PATTERN;
             $this->data->device->generic = false;
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 $device = Data\DeviceModels::identify('asha', $this->data->device->model);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
                     if (!isset($this->data->os->name) || $this->data->os->name != 'Nokia Asha Platform') {
@@ -102,7 +102,7 @@ trait Mobile
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 $device = Data\DeviceModels::identify('s40', $this->data->device->model);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
                     if (!isset($this->data->os->name) || $this->data->os->name != 'Series40') {
@@ -115,7 +115,7 @@ trait Mobile
             if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
                 $device = Data\DeviceModels::identify('symbian', $this->data->device->model);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
                     if (!isset($this->data->os->name) || $this->data->os->name != 'Series60') {
@@ -146,14 +146,14 @@ trait Mobile
             $this->data->device->manufacturer = 'Samsung';
             $this->data->device->model = Data\DeviceModels::cleanup($match[1]);
             $this->data->device->identifier = $match[0];
-            $this->data->device->identified = Constants\Id::PATTERN;
+            $this->data->device->identified |= Constants\Id::PATTERN;
             $this->data->device->generic = false;
             $this->data->device->type = Constants\DeviceType::MOBILE;
 
             if ($this->data->isOS('Bada')) {
                 $device = Data\DeviceModels::identify('bada', $this->data->device->model);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
             }
@@ -161,7 +161,7 @@ trait Mobile
             if ($this->data->isOS('Series60')) {
                 $device = Data\DeviceModels::identify('symbian', $this->data->device->model);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
             }
@@ -172,7 +172,7 @@ trait Mobile
 
                     $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
                     if ($device->identified) {
-                        $device->identified = $this->data->device->identified;
+                        $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
                         $this->data->os->name = 'Touchwiz';
 
@@ -192,7 +192,7 @@ trait Mobile
 
                     $device = Data\DeviceModels::identify('bada', $this->data->device->model);
                     if ($device->identified) {
-                        $device->identified = $this->data->device->identified;
+                        $device->identified |= $this->data->device->identified;
                         $this->data->device = $device;
                         $this->data->os->name = 'Bada';
 
@@ -207,7 +207,7 @@ trait Mobile
                     } else {
                         $device = Data\DeviceModels::identify('touchwiz', $this->data->device->model);
                         if ($device->identified) {
-                            $device->identified = $this->data->device->identified;
+                            $device->identified |= $this->data->device->identified;
                             $this->data->device = $device;
                             $this->data->os->name = 'Touchwiz';
 
@@ -881,7 +881,7 @@ trait Mobile
                 $this->data->device->manufacturer = $ids[$manufacturer];
             }
 
-            $this->data->device->identified = Constants\Id::PATTERN;
+            $this->data->device->identified |= Constants\Id::PATTERN;
 
             /* Set flags for MOAP */
 
@@ -928,7 +928,7 @@ trait Mobile
                 $this->data->device->manufacturer = $ids[$manufacturer];
             }
 
-            $this->data->device->identified = Constants\Id::PATTERN;
+            $this->data->device->identified |= Constants\Id::PATTERN;
             return;
         }
 
@@ -973,13 +973,13 @@ trait Mobile
 
                     $device = Data\DeviceModels::identify('kddi', $model);
                     if ($device->identified) {
-                        $device->identified = $this->data->device->identified;
+                        $device->identified |= $this->data->device->identified;
                         $device->carrier = 'au';
                         $this->data->device = $device;
                     }
                 }
 
-                $this->data->device->identified = Constants\Id::PATTERN;
+                $this->data->device->identified |= Constants\Id::PATTERN;
                 return;
             }
         }
@@ -1173,7 +1173,7 @@ trait Mobile
             case 'Android':
                 $device = Data\DeviceModels::identify('android', $id);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
                 break;
@@ -1181,7 +1181,7 @@ trait Mobile
             case 'Brew':
                 $device = Data\DeviceModels::identify('brew', $id);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
                 break;
@@ -1189,7 +1189,7 @@ trait Mobile
             case 'Symbian':
                 $device = Data\DeviceModels::identify('symbian', $id);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
                 break;
@@ -1199,7 +1199,7 @@ trait Mobile
             case 'Windows Mobile':
                 $device = Data\DeviceModels::identify('wm', $id);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
 
                     if (!$this->data->isOs('Windows Mobile')) {
@@ -1213,7 +1213,7 @@ trait Mobile
             default:
                 $device = Data\DeviceModels::identify('feature', $id);
                 if ($device->identified) {
-                    $device->identified = $this->data->device->identified;
+                    $device->identified |= $this->data->device->identified;
                     $this->data->device = $device;
                 }
                 break;
@@ -1229,7 +1229,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('brew', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
 
                 if (!in_array($this->data->os->name, [ 'Brew', 'Brew MP' ])) {
@@ -1241,7 +1241,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('bada', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->name = 'Bada';
             }
@@ -1250,7 +1250,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('touchwiz', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->name = 'Touchwiz';
             }
@@ -1259,7 +1259,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('symbian', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->reset([
                     'family' => new Family([ 'name' => 'Symbian' ])
@@ -1270,7 +1270,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('wm', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
                 $this->data->os->name = 'Windows Mobile';
             }
@@ -1279,7 +1279,7 @@ trait Mobile
         if (!($this->data->device->identified & Constants\Id::MATCH_UA)) {
             $device = Data\DeviceModels::identify('feature', $id);
             if ($device->identified) {
-                $device->identified = $this->data->device->identified;
+                $device->identified |= $this->data->device->identified;
                 $this->data->device = $device;
             }
         }
