@@ -31,7 +31,7 @@ trait Application
             $this->data->browser->type = Constants\BrowserType::APP;
 
             $this->data->os->reset([
-                'name'      => 'Android'
+                'name' => 'Android'
             ]);
 
             $this->data->device->model = $match[1];
