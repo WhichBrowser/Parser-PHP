@@ -2454,12 +2454,12 @@ trait Browser
         
         if (preg_match('/^Railgun\/([0-9\.]+)/u', $ua, $match)) {
             $this->data->browser->name = 'Cloudflare Railgun';
-            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 3 ]);
+            $this->data->browser->version = new Version([ 'value' => $match[1] ]);
             $this->data->browser->mode = 'proxy';
             $this->data->browser->channel = '';
-            $this->data->browser->type = Constants\BrowserType::APP;
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
         }
-    } 
+    }
 
     private function detectRemainingBrowsers($ua)
     {
