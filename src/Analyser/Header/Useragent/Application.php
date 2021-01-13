@@ -23,6 +23,16 @@ trait Application
 
     private function detectSpecificApplications($ua)
     {
+        /* Cloudflare Railgun */
+        
+        if (preg_match('/^Railgun\/([0-9\.]+)/u', $ua, $match)) {
+            $this->data->browser->name = 'Cloudflare Railgun';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->mode = 'proxy';
+            $this->data->browser->channel = '';
+            $this->data->browser->type = Constants\BrowserType::APP;
+        }
+        
         /* Sony Updatecenter */
 
         if (preg_match('/^(.*) Build\/.* (?:com.sonyericsson.updatecenter|UpdateCenter)\/[A-Z0-9\.]+$/iu', $ua, $match)) {

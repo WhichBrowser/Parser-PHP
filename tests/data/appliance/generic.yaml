@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: Railgun/5.3.3'
+    result: { browser: { name: Bing, version: 5.3.3 }, device: { type: bot } }
+    readable: 'Cloudflare Railgun 5.3.3'
