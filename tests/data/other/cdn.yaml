@@ -1,4 +1,4 @@
 -
     headers: 'User-Agent: Railgun/5.3.3'
-    result: { browser: { name: Bing, version: 5.3.3, type: browser } }
+    result: { browser: { name: 'Cloudflare Railgun', version: 5.3.3, type: browser } }
     readable: 'Cloudflare Railgun 5.3.3'
