@@ -62,11 +62,11 @@ trait Header
         }
         
         if ($header = $this->getHeader('X-Bolt-Phone-UA')) {
-            $this->analyseBaiduHeader($header);
+            $this->analyseBoltHeader($header);
         }
         
         if ($header = $this->getHeader('X-Skyfire-Phone')) {
-            $this->analyseBaiduHeader($header);
+            $this->analyseSkyfireHeader($header);
         }
 
         /* Analyse Android WebView browser ids */
@@ -95,6 +95,16 @@ trait Header
     private function analyseBaiduHeader($header)
     {
         new Header\Baidu($header, $this->data);
+    }
+
+    private function analyseBoltHeader($header)
+    {
+        new Header\Bolt($header, $this->data);
+    }
+
+    private function analyseSkyfireHeader($header)
+    {
+        new Header\Skyfire($header, $this->data);
     }
 
     private function analyseOperaMiniPhone($header)
