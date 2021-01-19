@@ -61,6 +61,13 @@ trait Header
             $this->analyseBaiduHeader($header);
         }
         
+        if ($header = $this->getHeader('X-Bolt-Phone-UA')) {
+            $this->analyseBaiduHeader($header);
+        }
+        
+        if ($header = $this->getHeader('X-Skyfire-Phone')) {
+            $this->analyseBaiduHeader($header);
+        }
 
         /* Analyse Android WebView browser ids */
 
