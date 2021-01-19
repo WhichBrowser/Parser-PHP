@@ -8,8 +8,8 @@ class Bolt
     {
         $this->data =& $data;
 
-        if (!isset($this->data->browser->name) || $this->data->browser->name != 'Baidu Browser') {
-            $this->data->browser->name = 'Baidu Browser';
+        if (!isset($this->data->browser->name) || $this->data->browser->name != 'Bolt Browser') {
+            $this->data->browser->name = 'Bolt Browser';
             $this->data->browser->version = null;
             $this->data->browser->stock = false;
         }
