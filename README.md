@@ -264,7 +264,7 @@ Is used to query the `name` and `version` property of the `engine` object. This 
 Is used to query the `name` and `version` property of the `os` object. This function works in exactly the same way as `isBrowser`.
 
 `isDetected()`  
-Is there actually some browser detected, for did we fail to detect anything?
+Is there actually some browser detected, or did we fail to detect anything?
 
 `toString()`  
 Get a human readable representation of the detected browser, including operating system and device information.
