@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: HuaweiWebCatBot/6.0) (To acquire the allowed html pages as reliable information of URL categorization in the automatic process for Huawei Web Categorization.; https://isecurity.huawei.com/; sec at huawei dot com)'
+    readable: 'Huawei Web Cat Bot 6.0'
+    result: { browser: { name: 'Huawei Web Cat Bot', version: '6.0' }, device: { type: bot } }
