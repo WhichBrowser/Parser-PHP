@@ -26,7 +26,8 @@ trait Bot
         if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
             $this->data->browser->reset();
             $this->data->os->reset();
-            $this->version = new Version([ 'value' => $match[1] ]);
+            $this->data->engine->reset();
+            $this->data->device->reset();
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
