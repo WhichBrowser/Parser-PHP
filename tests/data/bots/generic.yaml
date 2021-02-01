@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: AHC/2.0'
+    readable: 'Async Http Client 2.0'
+    result: { browser: { name: 'Async Http Client', version: '2.0' }, device: { type: bot } }
