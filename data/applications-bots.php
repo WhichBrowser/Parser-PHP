@@ -369,6 +369,7 @@ Applications::$BOTS = [
     [ 'name' => 'Yisou Spider',                 'id'    => 'yisou',    'regexp' => '/YisouSpider\/?([0-9.]*)/u' ],
     [ 'name' => 'Zgrab',                        'id'    => 'zgrab',      'regexp' => '/zgrab\//u' ],
     [ 'name' => 'ZmEu',                         'id'    => 'zmeu',      'regexp' => '/ZmEu/u' ],
+    [ 'name' => 'ZoomInfo Bot',                 'id'    => 'zoominfo',      'regexp' => '/ZoominfoBot/u' ],
 
     /* Generic bots */
     [ 'name' => 'Apache Httpd',                 'id'    => 'httpclient',      'regexp' => '/Apache-HttpClient(?:\/([0-9.]*))?/u' ],
