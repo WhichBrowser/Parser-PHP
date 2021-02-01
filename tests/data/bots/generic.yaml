@@ -124,16 +124,16 @@
     readable: 'Flamingo Search'
 -
     headers: 'User-Agent: Google-Sitemaps/1.0'
-    result: { browser: { name: 'Google Sitemaps', version: '1.0' }, device: { type: bot } }
-    readable: 'Google Sitemaps 1.0'
+    result: { browser: { name: 'Google Sitemaps Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Google Sitemaps Bot 1.0'
 -
     headers: 'User-Agent: Googlebot-Image/1.0'
-    result: { browser: { name: 'Googlebot Image', version: '1.0' }, device: { type: bot } }
-    readable: 'Googlebot Image 1.0'
+    result: { browser: { name: 'Googlebot Image Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Googlebot Image Bot 1.0'
 -
     headers: 'User-Agent: Googlebot-Video/1.0'
-    result: { browser: { name: 'Googlebot Video', version: '1.0' }, device: { type: bot } }
-    readable: 'Googlebot Video 1.0'
+    result: { browser: { name: 'Googlebot Video Bot', version: '1.0' }, device: { type: bot } }
+    readable: 'Googlebot Video Bot 1.0'
 -
     headers: 'User-Agent: Mediapartners-Google'
     result: { browser: { name: 'Google Mediapartners' }, device: { type: bot } }
@@ -952,8 +952,8 @@
     result: { browser: { name: 'Google Web Preview Analytics Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mediapartners-Google/2.1'
-    readable: 'Google AdSense Bot 2.1'
-    result: { browser: { name: 'Google AdSense Bot', version: '2.1' }, device: { type: bot } }
+    readable: 'Google AdSense Bot'
+    result: { browser: { name: 'Google AdSense Bot' }, device: { type: bot } }
 -
     headers: 'User-Agent: Adsense-Snapshot-Google'
     readable: 'Google Adsense Snapshot Bot'
