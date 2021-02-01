@@ -99,6 +99,7 @@ Applications::$BOTS = [
     [ 'name' => 'DuckDuckGo Https Bot',         'id'    => 'duckduck',      'regexp' => '/DuckDuckBot-Https\/([0-9.]*)/u' ],
     [ 'name' => 'DuckDuckGo Favicons Bot',      'id'    => 'duckduck',      'regexp' => '/DuckDuckGo-Favicons-Bot\/([0-9.]*)/u' ],
     [ 'name' => 'Embed PHP Library',            'id'    => 'embed',      'regexp' => '/Embed PHP library/iu' ],
+    [ 'name' => 'Embarcadero URI Client',       'id'    => 'embarcadero',      'regexp' => '/Embarcadero URI Client\/([0-9.]+)/iu' ],
     [ 'name' => 'Evc-batch',                    'id'    => 'evc',      'regexp' => '/evc-batch\/([0-9.]*)/u' ],
     [ 'name' => 'Exabot Thumbnails',            'id'    => 'exabot',      'regexp' => '/Exabot-Thumbnails/u' ],
     [ 'name' => 'ExactSeek',                    'id'    => 'exactseek',      'regexp' => '/ExactSeek Crawler/u' ],

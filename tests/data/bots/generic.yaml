@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: Embarcadero URI Client/1.0'
+    readable: 'Embarcadero URI Client 1.0'
+    result: { browser: { name: 'Embarcadero URI Client', version: '1.0' }, device: { type: bot } }
