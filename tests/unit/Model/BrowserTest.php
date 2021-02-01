@@ -1,7 +1,7 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Constants;
 use WhichBrowser\Model\Browser;
 use WhichBrowser\Model\Family;
@@ -11,7 +11,7 @@ use WhichBrowser\Model\Version;
 /**
  * @covers WhichBrowser\Model\Browser
  */
-class BrowserTest extends PHPUnit_Framework_TestCase
+class BrowserTest extends TestCase
 {
     public function testDefaults()
     {

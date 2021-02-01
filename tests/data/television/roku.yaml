@@ -18,3 +18,19 @@
     headers: 'User-Agent: Roku/DVP-5.5 (095.05E02025A)'
     result: { device: { type: television, manufacturer: Roku, model: 'Streaming Stick' } }
     readable: 'a Roku Streaming Stick'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 Roku/DVP-8.10 (468.10E04145A)'
+    readable: 'a Roku'
+    result: { browser: { family: { name: Chrome, version: 70 }, type: browser }, engine: { name: Blink }, device: { type: television, manufacturer: Roku } }
+-
+    headers: 'User-Agent: Roku/DVP-9.10 (519.10E04111A)'
+    readable: 'a Roku Express'
+    result: { device: { type: television, manufacturer: Roku, model: Express } }
+-
+    headers: 'User-Agent: Roku4640X/DVP-7.70 (297.70E04154A)'
+    readable: 'a Roku Ultra'
+    result: { device: { type: television, manufacturer: Roku, model: Ultra } }
+-
+    headers: 'User-Agent: Roku/DVP-9.30 (309.30E04182A)'
+    readable: 'a TCL 4K Roku TV'
+    result: { device: { type: television, manufacturer: TCL, model: '4K Roku TV' } }

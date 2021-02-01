@@ -1,14 +1,14 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Constants;
 use WhichBrowser\Model\Device;
 
 /**
  * @covers WhichBrowser\Model\Device
  */
-class DeviceTest extends PHPUnit_Framework_TestCase
+class DeviceTest extends TestCase
 {
     public function testDefaults()
     {

@@ -1,4 +1,4 @@
-service_name: travis-ci
+service_name: github-actions
 
 coverage_clover: 
   - runner.xml

@@ -1,13 +1,13 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Parser;
 
 /**
  * @covers WhichBrowser\Parser
  */
-class ParserTest extends PHPUnit_Framework_TestCase
+class ParserTest extends TestCase
 {
     public function testCreatingParserWithString()
     {

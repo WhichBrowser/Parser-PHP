@@ -1,0 +1,50 @@
+name: build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        php-versions: ['7.0', '7.1', '7.2', '7.3', '7.4', '8.0']
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+          ini-values: memory_limit=2048M
+    
+      - name: Get composer cache directory
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:  
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ matrix.php-versions }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ matrix.php-versions }}-composer-
+
+      - name: Install dependencies
+        run: composer install --prefer-dist
+        
+      - name: Check code standards
+        run: vendor/bin/phpcs --standard=PSR1,PSR2 -n src
+
+      - name: Run useragent string tests
+        run: php bin/runner.php --show check
+
+      - name: Run unit tests
+        run: vendor/bin/phpunit --no-coverage tests/unit

@@ -1,4 +1,12 @@
 -
+    headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0)  Maxthon/4.0'
+    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
+    readable: 'Bing 1.1'
+-
+    headers: 'User-Agent: (Windows NT 10.0; Googlebot Googlebot-Image/1.0 msnbot-media/1.1 facebookexternalhit/1.1 Trident/7.0) Maxthon/4.4.5.3000 Firefox/38'
+    result: { browser: { name: Bing, version: '1.1' }, device: { type: bot } }
+    readable: 'Bing 1.1'
+-
     headers: 'User-Agent: 360spider-image'
     result: { browser: { name: 360spider }, device: { type: bot } }
     readable: 360spider
@@ -23,13 +31,29 @@
     result: { browser: { name: AddThis.com }, device: { type: bot } }
     readable: AddThis.com
 -
-    headers: 'User-Agent: AhrefsBot.Feeds v0.1; http://ahrefs.com/'
-    result: { browser: { name: AhrefsBot, version: '0.1' }, device: { type: bot } }
-    readable: 'AhrefsBot 0.1'
+    headers: 'User-Agent: AdsBot-Google ( http://www.google.com/adsbot.html)'
+    result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
+    readable: 'Google Ads Bot'
+-
+    headers: 'User-Agent: AdsBot-Google (+http://www.google.com/adsbot.html)'
+    result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
+    readable: 'Google Ads Bot'
+-
+    headers: 'User-Agent: AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari'
+    result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
+    readable: 'Google Ads Bot'
+-
+    headers: 'User-Agent: AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36'
+    result: { browser: { name: 'Google Ads Bot' }, device: { type: bot } }
+    readable: 'Google Ads Bot'
 -
     headers: 'User-Agent: AmorankSpider/0.1; +http://amorank.com/webcrawler.html'
     result: { browser: { name: 'Amorank Spider', version: '0.1' }, device: { type: bot } }
     readable: 'Amorank Spider 0.1'
+-
+    headers: 'User-Agent: AppEngine-Google; (+http://code.google.com/appengine; appid: xbmacx)'
+    result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
+    readable: 'Google App Engine'
 -
     headers: 'User-Agent: ArchiveTeam ArchiveBot/20140807.01 (wpull 0.37a1) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36'
     result: { browser: { name: ArchiveBot }, device: { type: bot } }
@@ -63,10 +87,6 @@
     result: { browser: { name: Browsershots }, device: { type: bot } }
     readable: Browsershots
 -
-    headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
-    result: { browser: { name: CommonCrawl, version: '2.0' }, device: { type: bot } }
-    readable: 'CommonCrawl 2.0'
--
     headers: 'User-Agent: Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)'
     result: { browser: { name: Cliqzbot, version: '0.1' }, device: { type: bot } }
     readable: 'Cliqzbot 0.1'
@@ -87,9 +107,17 @@
     result: { browser: { name: 'Data Hotel Watchdog', version: '1.1' }, device: { type: bot } }
     readable: 'Data Hotel Watchdog 1.1'
 -
+    headers: 'User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: 'Googlebot Mobile', version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot Mobile 2.1'
+-
     headers: 'User-Agent: DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://help.goo.ne.jp/help/article/1142/)'
     result: { browser: { name: Goo }, device: { type: bot } }
     readable: Goo
+-
+    headers: 'User-Agent: DoCoMo/2.0 SH905i(c100;TB;W24H16) (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: 'Google Mediapartners', version: '2.1' }, device: { type: bot } }
+    readable: 'Google Mediapartners 2.1'
 -
     headers: 'User-Agent: ExactSeek Crawler (nutch 1.4)/Nutch-1.4 (ExactSeek Crawler; http://www.exactseek.com)'
     result: { browser: { name: ExactSeek }, device: { type: bot } }
@@ -119,9 +147,21 @@
     result: { browser: { name: FeedWrangler, version: '1.0' }, device: { type: bot } }
     readable: 'FeedWrangler 1.0'
 -
+    headers: 'User-Agent: FeedBurner/1.0 (http://www.FeedBurner.com)'
+    result: { browser: { name: 'Google FeedBurner', version: '1.0' }, device: { type: bot } }
+    readable: 'Google FeedBurner 1.0'
+-
+    headers: 'User-Agent: FeedFetcher-Google; ( http://www.google.com/feedfetcher.html)'
+    result: { browser: { name: 'Google Feedfetcher' }, device: { type: bot } }
+    readable: 'Google Feedfetcher'
+-
     headers: 'User-Agent: Feedbin - 9 subscribers'
     result: { browser: { name: Feedbin }, device: { type: bot } }
     readable: Feedbin
+-
+    headers: 'User-Agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 19 subscribers; feed-id=13965549748850348809)'
+    result: { browser: { name: 'Google Feedfetcher' }, device: { type: bot } }
+    readable: 'Google Feedfetcher'
 -
     headers: 'User-Agent: FeedlyApp/1.0 (http://www.feedly.com)'
     result: { browser: { name: Feedly, version: '1.0' }, device: { type: bot } }
@@ -143,6 +183,46 @@
     result: { browser: { name: 'Flamingo Search' }, device: { type: bot } }
     readable: 'Flamingo Search'
 -
+    headers: 'User-Agent: Google-Sitemaps/1.0'
+    result: { browser: { name: 'Google Sitemaps', version: '1.0' }, device: { type: bot } }
+    readable: 'Google Sitemaps 1.0'
+-
+    headers: 'User-Agent: GoogleProducer; (+http://goo.gl/7y4SX)'
+    result: { browser: { name: 'Google Play Newsstand' }, device: { type: bot } }
+    readable: 'Google Play Newsstand'
+-
+    headers: 'User-Agent: Googlebot (gocrawl v0.4)'
+    result: { browser: { name: Gocrawl, version: '0.4' }, device: { type: bot } }
+    readable: 'Gocrawl 0.4'
+-
+    headers: 'User-Agent: Googlebot-Image/1.0'
+    result: { browser: { name: 'Googlebot Image', version: '1.0' }, device: { type: bot } }
+    readable: 'Googlebot Image 1.0'
+-
+    headers: 'User-Agent: Googlebot-News'
+    result: { browser: { name: 'Google News' }, device: { type: bot } }
+    readable: 'Google News'
+-
+    headers: 'User-Agent: Googlebot-Video/1.0'
+    result: { browser: { name: 'Googlebot Video', version: '1.0' }, device: { type: bot } }
+    readable: 'Googlebot Video 1.0'
+-
+    headers: 'User-Agent: Googlebot/2.1 ( http://www.googlebot.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    headers: 'User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    headers: 'User-Agent: Googlebot/2.1(+http://www.googlebot.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    headers: 'User-Agent: Mediapartners-Google'
+    result: { browser: { name: 'Google Mediapartners' }, device: { type: bot } }
+    readable: 'Google Mediapartners'
+-
     headers: 'User-Agent: MetaFeedly/1.0 (http://www.feedly.com)'
     result: { browser: { name: Feedly, version: '1.0' }, device: { type: bot } }
     readable: 'Feedly 1.0'
@@ -150,6 +230,18 @@
     headers: 'User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)'
     result: { browser: { name: 'Ask Jeeves' }, device: { type: bot } }
     readable: 'Ask Jeeves'
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Google Wireless Transcoder;)'
+    result: { browser: { name: 'Google Wireless Transcoder' }, device: { type: bot } }
+    readable: 'Google Wireless Transcoder'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Android; Mobile; rv:29.0) Gecko/29.0 Firefox/29.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~oldecreator)'
+    result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
+    readable: 'Google App Engine'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.4 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.4'
+    result: { browser: { name: 'Google Web Preview' }, device: { type: bot } }
+    readable: 'Google Web Preview'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.11067 BingPreview/1.0b'
     result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
@@ -159,13 +251,37 @@
     result: { browser: { name: 360spider }, device: { type: bot } }
     readable: 360spider
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1626.1 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~hex-plus)'
+    result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
+    readable: 'Google App Engine'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko AppEngine-Google; (+http://code.google.com/appengine; appid: s~oowsxs)'
+    result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
+    readable: 'Google App Engine'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/538.14 (KHTML, like Gecko) BingPreview/1.0b'
     result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
     readable: 'Bing Preview 1.0'
 -
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~chengzhoukun)'
+    result: { browser: { name: 'Google App Engine' }, device: { type: bot } }
+    readable: 'Google App Engine'
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Nokia; Lumia 520) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0 BingPreview/1.0b'
     result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
     readable: 'Bing Preview 1.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36'
+    result: { browser: { name: 'Google Page Speed' }, device: { type: bot } }
+    readable: 'Google Page Speed'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36 GoogleBot/2.1'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36'
+    result: { browser: { name: 'Google Web Preview' }, device: { type: bot } }
+    readable: 'Google Web Preview'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; xx; rv:1.9.2.18) Gecko/20110622 HeartRails_Capture/1.0.5 (+http://capture.heartrails.com/) Namoroka/3.6.18'
     result: { browser: { name: 'HeartRails Capture', version: 1.0.5 }, device: { type: bot } }
@@ -174,6 +290,10 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/webcrawler.html) Gecko/2008032620'
     result: { browser: { name: 80legs, version: '0.83' }, device: { type: bot } }
     readable: '80legs 0.83'
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) ASProxy/5.5b5'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0) BingPreview/1.0b'
     result: { browser: { name: 'Bing Preview', version: '1.0' }, device: { type: bot } }
@@ -223,9 +343,29 @@
     result: { browser: { name: Archive.org }, device: { type: bot } }
     readable: Archive.org
 -
+    headers: 'User-Agent: Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13'
+    result: { browser: { name: 'Google Web Preview' }, device: { type: bot } }
+    readable: 'Google Web Preview'
+-
+    headers: 'User-Agent: Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14'
+    result: { browser: { name: 'Google Wireless Transcoder' }, device: { type: bot } }
+    readable: 'Google Wireless Transcoder'
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
     headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
     result: { browser: { name: Bing, version: '2.0' }, device: { type: bot } }
     readable: 'Bing 2.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/27.0.1453 Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 AppleWebKit/537.4 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.4'
+    result: { browser: { name: Googlebot, version: '2.1' }, device: { type: bot } }
+    readable: 'Googlebot 2.1'
 -
     headers: 'User-Agent: Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html)'
     result: { browser: { name: Baiduspider, version: '2.0' }, device: { type: bot } }
@@ -369,11 +509,23 @@
 -
     headers: 'User-Agent: Facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https: //devtalk.kakao.com/t/scrap/33984'
     readable: 'KakaoTalk Bot 1.0'
-    result: { browser: {name: 'KakaoTalk Bot', version: '1.0' }, device: { type: bot } }
+    result: { browser: { name: 'KakaoTalk Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34'
     readable: 'Cloudflare Always Online 1.0'
     result: { browser: { name: 'Cloudflare Always Online', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.130 Safari/537.36 (compatible; Cloudflare SpeedTest/1.0; +https://blog.cloudflare.com/new-speed-page/)'
+    readable: 'Cloudflare SpeedTest 1.0'
+    result: { browser: { name: 'Cloudflare SpeedTest', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Cloudflare Diagnostics'
+    readable: 'Cloudflare Diagnostics'
+    result: { browser: { name: 'Cloudflare Diagnostics' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Cloudflare-AMP/1.0; +https://amp.cloudflare.com/doc/fetcher.html) AppleWebKit/534.34'
+    readable: 'Cloudflare AMP 1.0'
+    result: { browser: { name: 'Cloudflare AMP', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)'
     readable: 'Moz 1.1'
@@ -385,7 +537,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)'
     readable: 'Nimbostratus 1.3.2'
-    result: { browser: { name: Nimbostratus, version: '1.3.2' }, device: { type: bot } }
+    result: { browser: { name: Nimbostratus, version: 1.3.2 }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)'
     readable: 'Semrush 6'
@@ -394,10 +546,6 @@
     headers: 'User-Agent: Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)'
     readable: 'Buck 2.2'
     result: { browser: { name: Buck, version: '2.2' }, device: { type: bot } }
--
-    headers: 'User-Agent: Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)'
-    readable: 'Netcraft Survey Bot 1.0'
-    result: { browser: { name: 'Netcraft Survey Bot', version: '1.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: DomainCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/example.com)'
     readable: 'DomainCrawler 3.0'
@@ -408,7 +556,7 @@
     result: { browser: { name: 'Mail.ru Bot', version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)'
-    readable: 'Bytespider'
+    readable: Bytespider
     result: { browser: { name: Bytespider }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)'
@@ -428,7 +576,7 @@
     result: { browser: { name: Discord, version: '2.0' }, device: { type: bot } }
 -
     headers: 'User-Agent: Voat.co OpenGraph Parser'
-    readable: 'Voat'
+    readable: Voat
     result: { browser: { name: Voat }, device: { type: bot } }
 -
     headers: 'User-Agent: PocketImageCache/1.0'
@@ -438,6 +586,418 @@
     headers: 'User-Agent: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)'
     readable: 'Pocket 2.0'
     result: { browser: { name: Pocket, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Wappalyzer; https://www.wappalyzer.com)'
+    readable: Wappalyzer
+    result: { browser: { name: Wappalyzer }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Wappalyzer)'
+    readable: Wappalyzer
+    result: { browser: { name: Wappalyzer }, device: { type: bot } }
+-
+    headers: 'User-Agent: Wappalyzer'
+    readable: Wappalyzer
+    result: { browser: { name: Wappalyzer }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36'
+    readable: 'BuiltWith 1.0'
+    result: { browser: { name: BuiltWith, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: TrustedSite Crawler'
+    readable: TrustedSite
+    result: { browser: { name: TrustedSite }, device: { type: bot } }
+-
+    headers: 'User-Agent: IDG/UK (http://spaziodati.eu/)'
+    readable: SpazioDati
+    result: { browser: { name: SpazioDati }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)'
+    readable: 'MxToolbox 7'
+    result: { browser: { name: MxToolbox, version: Beta7 }, device: { type: bot } }
+-
+    headers: 'User-Agent: CCBot/2.0 (http://commoncrawl.org/faq/)'
+    readable: 'Common Crawl Bot 2.0'
+    result: { browser: { name: 'Common Crawl Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: CCResearchBot/1.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT'
+    readable: 'Common Crawl Research Bot 1.0'
+    result: { browser: { name: 'Common Crawl Research Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)'
+    readable: 'Reddit Bot 1.0'
+    result: { browser: { name: 'Reddit Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; Netcraft Web Server Survey)'
+    readable: 'Netcraft Web Server Survey Bot'
+    result: { browser: { name: 'Netcraft Web Server Survey Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)'
+    readable: 'Netcraft Survey Agent Bot 1.0'
+    result: { browser: { name: 'Netcraft Survey Agent Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: NETCRAFT'
+    readable: 'Netcraft Bot'
+    result: { browser: { name: 'Netcraft Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)'
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Netcraft SSL Server Survey - contact info@netcraft.com'
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Netcraft SSL Server Survey'
+    readable: 'Netcraft SSL Server Survey Bot'
+    result: { browser: { name: 'Netcraft SSL Server Survey Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Embed PHP library'
+    readable: 'Embed PHP Library'
+    result: { browser: { name: 'Embed PHP Library' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)'
+    readable: 'Blex Bot 1.0'
+    result: { browser: { name: 'Blex Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; BLEXBotTest/1.0; +http://webmeup.com/crawler.html)'
+    readable: 'Blex Test Bot 1.0'
+    result: { browser: { name: 'Blex Test Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DomainStatsBot/1.0 (https://domainstats.com/pages/our-bot)'
+    readable: 'Domain Stats Bot 1.0'
+    result: { browser: { name: 'Domain Stats Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SEOkicks-Robot; +http://www.seokicks.de/robot.html)'
+    readable: 'SEOkicks Bot'
+    result: { browser: { name: 'SEOkicks Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)'
+    readable: 'Mega Index Bot 2.0'
+    result: { browser: { name: 'Mega Index Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; LinkpadBot/2.3; +http://linkpad.org/robot/)'
+    readable: 'Linkpad Bot 2.3'
+    result: { browser: { name: 'Linkpad Bot', version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: SearchAtlas.com SEO Crawler'
+    readable: 'Search Atlas Bot'
+    result: { browser: { name: 'Search Atlas Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Dataprovider.com)'
+    readable: 'Dataprovider Bot'
+    result: { browser: { name: 'Dataprovider Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs Bot 7.0'
+    result: { browser: { name: 'Ahrefs Bot', version: '7.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs Bot 6.1'
+    result: { browser: { name: 'Ahrefs Bot', version: '6.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/2.0; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs Bot 2.0'
+    result: { browser: { name: 'Ahrefs Bot', version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/7.0; News; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs News Bot 7.0'
+    result: { browser: { name: 'Ahrefs News Bot', version: '7.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs News Bot 5.2'
+    result: { browser: { name: 'Ahrefs News Bot', version: '5.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsBot/7.0; SA; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs SA Bot 7.0'
+    result: { browser: { name: 'Ahrefs SA Bot', version: '7.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/)'
+    readable: 'Ahrefs Site Audit Bot 6.1'
+    result: { browser: { name: 'Ahrefs Site Audit Bot', version: '6.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AhrefsBot.Feeds v0.1; http://ahrefs.com/'
+    readable: 'Ahrefs Feeds Bot 0.1'
+    result: { browser: { name: 'Ahrefs Feeds Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)'
+    readable: 'Serp Stat 1.0'
+    result: { browser: { name: 'Serp Stat', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)'
+    readable: 'Majestic MJ12 Bot 1.4.8'
+    result: { browser: { name: 'Majestic MJ12 Bot', version: 1.4.8 }, device: { type: bot } }
+-
+    headers: 'User-Agent: mj12bot'
+    readable: 'Majestic MJ12 Bot'
+    result: { browser: { name: 'Majestic MJ12 Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)'
+    readable: 'Apple Bot 0.1'
+    result: { browser: { name: 'Apple Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Applebot/0.3; +http://www.apple.com/go/applebot)'
+    readable: 'Apple Bot 0.3'
+    result: { browser: { name: 'Apple Bot', version: '0.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: AppleNewsBot'
+    readable: 'Apple News Bot'
+    result: { browser: { name: 'Apple News Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)'
+    readable: 'Gowikibot 1.0'
+    result: { browser: { name: Gowikibot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 TinEye/1.0 (via http://www.tineye.com/)'
+    readable: 'TinEye Bot 1.0'
+    result: { browser: { name: 'TinEye Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)'
+    readable: 'TinEye Bot 1.31'
+    result: { browser: { name: 'TinEye Bot', version: '1.31' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot/0.1 (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot 0.1'
+    result: { browser: { name: 'Picsearch Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-page (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: psbot-image (+http://www.picsearch.com/bot.html)'
+    readable: 'Picsearch Bot'
+    result: { browser: { name: 'Picsearch Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0 (IndeedBot 1.1)'
+    readable: 'IndeedBot 1.1'
+    result: { browser: { name: IndeedBot, version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; YioopBot; +https://www.yioop.com/bot.php)'
+    readable: 'Yioop Bot'
+    result: { browser: { name: 'Yioop Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'
+    readable: 'DuckDuckGo Https Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Https Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)'
+    readable: 'DuckDuckGo Bot 1.1'
+    result: { browser: { name: 'DuckDuckGo Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)'
+    readable: 'DuckDuckGo Favicons Bot 1.0'
+    result: { browser: { name: 'DuckDuckGo Favicons Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: node-fetch/1.0 (+https://github.com/bitinn/node-fetch)'
+    readable: 'Node Fetch 1.0'
+    result: { browser: { name: 'Node Fetch', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Go-http-client/1.1'
+    readable: 'Go Http Client 1.1'
+    result: { browser: { name: 'Go Http Client', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: go-httpclient v0.5.1'
+    readable: 'Go Http Client 0.5.1'
+    result: { browser: { name: 'Go Http Client', version: 0.5.1 }, device: { type: bot } }
+-
+    headers: 'User-Agent: bl.uk_lddc_bot/3.4.0-20200518 (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)'
+    readable: 'British Library 3.4.0'
+    result: { browser: { name: 'British Library', version: 3.4.0 }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikFaviconBot/1.2; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Favicon Bot 1.2'
+    result: { browser: { name: 'Sputnik Favicon Bot', version: '1.2' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Bot 2.3'
+    result: { browser: { name: 'Sputnik Bot', version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; SputnikImageBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    readable: 'Sputnik Image Bot 2.3'
+    result: { browser: { name: 'Sputnik Image Bot', version: '2.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: DMCA.com Page Protection Crawling Service'
+    readable: DMCA
+    result: { browser: { name: DMCA }, device: { type: bot } }
+-
+    headers: 'User-Agent: Made by ZmEu @ WhiteHat Team – http://www.whitehat.ro'
+    readable: ZmEu
+    result: { browser: { name: ZmEu }, device: { type: bot } }
+-
+    headers: 'User-Agent: netEstate NE Crawler (+http://www.website-datenbank.de/)'
+    readable: 'netEstate NE Crawler'
+    result: { browser: { name: 'netEstate NE Crawler' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Gofeed/1.0'
+    readable: 'Gofeed 1.0'
+    result: { browser: { name: Gofeed, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: istellabot/t.1.13'
+    readable: 'Istellabot 1.13'
+    result: { browser: { name: Istellabot, version: '1.13' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 YisouSpider/5.0 Safari/537.36'
+    readable: 'Yisou Spider 5.0'
+    result: { browser: { name: 'Yisou Spider', version: '5.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: YisouSpider'
+    readable: 'Yisou Spider'
+    result: { browser: { name: 'Yisou Spider' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; LetsearchBot/1.0; +https://letsearch.ru/bots)'
+    readable: 'LetsearchBot 1.0'
+    result: { browser: { name: LetsearchBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Seeker v.1 http://LookSeek.com/seeker/'
+    readable: 'LookSeek 1'
+    result: { browser: { name: LookSeek, version: '1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; vuhuvBot/1.0; +http://vuhuv.com/bot.html)'
+    readable: 'VuhuvBot 1.0'
+    result: { browser: { name: VuhuvBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)'
+    readable: 'Seekport Crawler'
+    result: { browser: { name: 'Seekport Crawler' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)'
+    readable: 'Coccocbot Web 1.0'
+    result: { browser: { name: 'Coccocbot Web', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; coccocbot-image/1.0; +http://help.coccoc.com/searchengine)'
+    readable: 'Coccocbot Image 1.0'
+    result: { browser: { name: 'Coccocbot Image', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Clarabot/1.4; +http://www.clarabot.info/bots)'
+    readable: 'Clarabot 1.4'
+    result: { browser: { name: Clarabot, version: '1.4' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; MojeekBot/0.9; +https://www.mojeek.com/bot.html)'
+    readable: 'MojeekBot 0.9'
+    result: { browser: { name: MojeekBot, version: '0.9' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Xenu Link Sleuth/1.3.9 beta'
+    readable: 'Xenu Link Sleuth 1.3.9'
+    result: { browser: { name: 'Xenu Link Sleuth', version: 1.3.9 }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Adsbot/3.1)'
+    readable: 'Adsbot 3.1'
+    result: { browser: { name: Adsbot, version: '3.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)'
+    readable: 'Barkrowler 0.9'
+    result: { browser: { name: Barkrowler, version: '0.9' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)'
+    readable: 'VelenPublicWebCrawler 1.0'
+    result: { browser: { name: VelenPublicWebCrawler, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; evc-batch/2.0)'
+    readable: 'Evc-batch 2.0'
+    result: { browser: { name: Evc-batch, version: '2.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
+    readable: 'Petal Bot'
+    result: { browser: { name: 'Petal Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)'
+    readable: 'Petal Bot'
+    result: { browser: { name: 'Petal Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: (compatible;PetalBot;+https://aspiegel.com/petalbot)'
+    readable: 'Petal Bot'
+    result: { browser: { name: 'Petal Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (iodc; odysseus 24842-138-041020155614-449; +https://iodc.co.uk)'
+    readable: Iodc
+    result: { browser: { name: Iodc }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; IODC-Odysseus Survey 46182-100-271115114504-101; +https://iodc.co.uk)'
+    readable: Iodc
+    result: { browser: { name: Iodc }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    readable: Datanyze
+    result: { browser: { name: Datanyze }, device: { type: bot } }
+-
+    headers: 'User-Agent: okhttp/3.4.1'
+    readable: 'OkHttp 3.4.1'
+    result: { browser: { name: OkHttp, version: 3.4.1 }, device: { type: bot } }
+-
+    headers: 'User-Agent: AbtestCenter-okhttp/1.0'
+    readable: 'OkHttp 1.0'
+    result: { browser: { name: OkHttp, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
+    readable: 'Skype Url Preview 0.5'
+    result: { browser: { name: 'Skype Url Preview', version: '0.5' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; BuzzSumo; +http://www.buzzsumo.com/bot.html)'
+    readable: BuzzSumo
+    result: { browser: { name: BuzzSumo }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; U; Hootsuite-WebFeed/1.0; mailto:abuse@hootsuite.com)'
+    readable: 'HootSuite 1.0'
+    result: { browser: { name: HootSuite, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: HootSuite Image proxy (hosting@hootsuite.com)'
+    readable: HootSuite
+    result: { browser: { name: HootSuite }, device: { type: bot } }
+-
+    headers: 'User-Agent: MindsMediaProxy/3.0 (+http://www.minds.com/)'
+    readable: 'Minds 3.0'
+    result: { browser: { name: Minds, version: '3.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; PlurkBot/1.0; +https://www.plurk.com/) Firefox/61.0'
+    readable: 'Plurk Bot 1.0'
+    result: { browser: { name: 'Plurk Bot', version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; blogger.com)'
+    readable: 'Blogger Bot'
+    result: { browser: { name: 'Blogger Bot' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-MetaTagFetcher/0.3 (+https://medium.com/)'
+    readable: 'Medium Bot 0.3'
+    result: { browser: { name: 'Medium Bot', version: '0.3' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mediumbot-ProxyFetcher/0.1 (+https://medium.com/)'
+    readable: 'Medium Bot 0.1'
+    result: { browser: { name: 'Medium Bot', version: '0.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)'
+    readable: 'HubSpot Crawler'
+    result: { browser: { name: 'HubSpot Crawler' }, device: { type: bot } }
+-
+    headers: 'User-Agent: OdklBot/1.0 (share@odnoklassniki.ru)'
+    readable: 'OdklBot 1.0'
+    result: { browser: { name: OdklBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)'
+    readable: 'OdklBot 1.0'
+    result: { browser: { name: OdklBot, version: '1.0' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)'
+    readable: 'Daum 4.1'
+    result: { browser: { name: Daum, version: '4.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)'
+    readable: vkShare
+    result: { browser: { name: vkShare }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.0 Safari/537.36 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)'
+    readable: 'Line Bot 1.1'
+    result: { browser: { name: 'Line Bot', version: '1.1' }, device: { type: bot } }
+-
+    headers: 'User-Agent: httpunit/1.5'
+    readable: 'HttpUnit 1.5'
+    result: { browser: { name: HttpUnit, version: '1.5' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon'
+    readable: 'Google Favicon'
+    result: { browser: { name: 'Google Favicon' }, device: { type: bot } }
+-
+    headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
+    readable: Zgrab
+    result: { browser: { name: Zgrab }, device: { type: bot } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4143.7 Safari/537.36 Chrome-Lighthouse'
     readable: 'Google Lighthouse Bot'

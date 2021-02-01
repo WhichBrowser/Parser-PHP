@@ -6,9 +6,9 @@ This is an extremely complicated and almost completely useless browser sniffing 
 WhichBrowser/Parser-PHP
 =======================
 
-The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 5.4 or higher, including PHP 7.
+The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 7.0 or higher, including PHP 8.
 
-[![Build Status](https://travis-ci.org/WhichBrowser/Parser-PHP.svg?branch=master)](https://travis-ci.org/WhichBrowser/Parser-PHP)
+![Build](https://github.com/WhichBrowser/Parser-PHP/workflows/Build/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
 [![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
 [![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
@@ -58,7 +58,7 @@ The useragent header looks like Opera 11.10 on Linux, but we know it's Opera Min
 Requirements
 -----------------
 
-WhichBrowser requires with PHP 5.4 or higher and supports PHP 7. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
+WhichBrowser requires with PHP 7.0 or higher and supports PHP 8. WhichBrowser is compatible with the PSR-4 autoloading standard and follows PSR-1 and PSR-2 coding style.
 
 
 How to install it
@@ -264,7 +264,7 @@ Is used to query the `name` and `version` property of the `engine` object. This 
 Is used to query the `name` and `version` property of the `os` object. This function works in exactly the same way as `isBrowser`.
 
 `isDetected()`  
-Is there actually some browser detected, for did we fail to detect anything?
+Is there actually some browser detected, or did we fail to detect anything?
 
 `toString()`  
 Get a human readable representation of the detected browser, including operating system and device information.

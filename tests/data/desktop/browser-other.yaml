@@ -148,7 +148,7 @@
     readable: 'Beonex 0.8.2 on Windows'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008120120 Blackbird/0.9991'
-    result: { browser: { name: 'Blackbird', version: '0.9991', type: browser }, engine: { name: Gecko, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Blackbird, version: '0.9991', type: browser }, engine: { name: Gecko, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Blackbird 0.9991 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) Columbus/1.2.1.0 Safari/533.3'
@@ -157,7 +157,7 @@
 -
     headers: 'User-Agent: Cyberdog/2.0 (Macintosh; PPC)'
     readable: 'Cyberdog 2.0 on Mac OS'
-    result: { browser: { name: Cyberdog, version: 2.0, type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Cyberdog, version: '2.0', type: browser }, os: { name: 'Mac OS' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Demeter/1.0.9 Safari/125'
     readable: 'Demeter 1.0.9 on Mac OS X 10.5'
@@ -169,18 +169,18 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; DPlus 0.5)'
     readable: 'DPlus Browser 0.5'
-    result: { browser: { name: DPlus Browser, version: '0.5', type: browser }, device: { type: desktop } }
+    result: { browser: { name: 'DPlus Browser', version: '0.5', type: browser }, device: { type: desktop } }
 -
     headers: 'User-Agent: DocZilla/2.7 (Windows; U; Windows NT 5.1; en-US; rv:2.7.0) Gecko/20050706 CiTEC Information'
     result: { browser: { name: DocZilla, version: '2.7', type: browser }, engine: { name: Gecko, version: 2.7.0 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'DocZilla 2.7 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.5) Gecko/20091105 Firefox/3.5.5 compat GlobalMojo/1.5.5 GlobalMojoExt/1.5'
-    result: { browser: { name: GlobalMojo, family: { name: Firefox, version: 3.5.5 }, version: '1.5.5', type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: GlobalMojo, family: { name: Firefox, version: 3.5.5 }, version: 1.5.5, type: browser }, engine: { name: Gecko, version: 1.9.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'GlobalMojo 1.5.5 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; GreenBrowser)'
-    result: { browser: { name: 'GreenBrowser', type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: GreenBrowser, type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'GreenBrowser on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Hydra Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'
@@ -213,10 +213,10 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 Kinza/6.1.6'
     readable: 'Kinza 6.1.6 on Windows 10'
-    result: { browser: { name: Kinza, family: { name: Chrome, version: 80.0.3987.149 }, version: 6.1.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Kinza, family: { name: Chrome, version: 80 }, version: 6.1.6, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) 37abc/1.6.5.14 Chrome/44.0.2403.130 Safari/537.36'
-    result: { browser: { name: '37abc Browser', family: { name: Chrome, version: 44.0.2403.130 }, version: 1.6.5.14, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: '37abc Browser', family: { name: Chrome, version: 44 }, version: 1.6.5.14, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: '37abc Browser 1.6.5.14 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.5.2526.111 Amigo/47.5.2526.111 MRCHROME SOC Safari/537.36'
@@ -236,7 +236,7 @@
     result: { browser: { name: Basilisk, family: { name: Firefox, version: '68.9' }, version: '20200311', type: browser }, engine: { name: Goanna, version: '4.5' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Browzar)'
-    result: { browser: { name: 'Browzar', type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Browzar, type: browser }, engine: { name: Trident, version: '4.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Browzar on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/47.0.2526.106 Safari/537.36 Cent/1.6.10.21'
@@ -252,7 +252,7 @@
     result: { browser: { name: Chedot, family: { name: Chrome, version: 76 }, version: 9.1.1, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Safari/419.3 Cheshire/1.0.ALPHA'
-    result: { browser: { name: Cheshire, version: '1.0.ALPHA', type: browser }, engine: { name: Webkit, version: '418.9' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Cheshire, version: 1.0.ALPHA, type: browser }, engine: { name: Webkit, version: '418.9' }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.4' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Cheshire 1.0 on Mac OS X 10.4'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X PPC Mac OS X 10.4; en-US; rv:1.0.1) Gecko/20030111 Chimera/0.6'
@@ -277,15 +277,15 @@
 -
     headers: 'User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)'
     readable: 'KKMAN 3.0 on Windows Vista'
-    result: { browser: { name: 'KKMAN', version: '3.0', type: browser }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
+    result: { browser: { name: KKMAN, version: '3.0', type: browser }, os: { name: Windows, version: { value: '6.0', alias: Vista } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Klondike/1.50 (WSP Win32) (Google WAP Proxy/1.0)'
     readable: 'Klondike 1.50 on Windows'
-    result: { browser: { name:Klondike, version: '1.50', type: browser }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: Klondike, version: '1.50', type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0 Light/44.0'
     readable: 'Light 44.0 on Windows 10'
-    result: { browser: { name: 'Light', family: { name: Firefox, version: '44.0' }, version: '44.0', type: browser }, engine: { name: Gecko, version: '44.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Light, family: { name: Firefox, version: '44.0' }, version: '44.0', type: browser }, engine: { name: Gecko, version: '44.0' }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070224 lolifox/0.3.2'
     readable: 'Lolifox 0.3.2 on Windows XP'
@@ -305,7 +305,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/522.11.1 (KHTML, like Gecko) Shiira Safari/125'
     readable: 'Shiira on OS X'
-    result: { browser: { name: Shiira, type: browser }, engine: { name: Webkit, version: 522.11.1 }, os: { name: 'OS X'}, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Shiira, type: browser }, engine: { name: Webkit, version: 522.11.1 }, os: { name: 'OS X' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 10; en-us; GM1910 Build/QKQ1.190716.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OnePlusBrowser/30.5.0.9'
     readable: 'OnePlus Browser 30.5.0.9 on an OnePlus 7 Pro running Android 10'
@@ -324,11 +324,11 @@
     result: { browser: { name: 'Quick Look', version: '5.0', type: browser }, engine: { name: Webkit, version: 601.6.17 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36 Slimjet/19.0.2.0'
-    result: { browser: { name: 'Slimjet', family: { name: Chrome, version: 66 }, version: 19.0.2.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Slimjet, family: { name: Chrome, version: 66 }, version: 19.0.2.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
     readable: 'Slimjet 19.0.2.0 on Windows 10'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Safari/605.1.15 (Airwatch Browser v7.9)'
-    result: { browser: { name: 'VMware Workspace ONE', version: '7.9', type: browser }, engine: { name: Webkit, version: '605.1.15' }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: 'VMware Workspace ONE', version: '7.9', type: browser }, engine: { name: Webkit, version: 605.1.15 }, os: { name: 'OS X', version: { value: '10.11', nickname: 'El Capitan' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'VMware Workspace ONE 7.9 on OS X El Capitan 10.11'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Whale/2.7.97.12 Safari/537.36'
@@ -337,7 +337,7 @@
 -
     headers: 'User-Agent: WinWAP/4.1 (Win32) WinWAP-X/4.1.0.192'
     readable: 'WinWAP Browser 4 on Windows'
-    result: { browser: { name: 'WinWAP Browser', version: 4, type: browser }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: 'WinWAP Browser', version: '4', type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G928F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 wkbrowser 4.0.8 421'
     readable: 'WK Browser 4.0.8 on a Samsung Galaxy S6 Edge+ running Android 7.0'
@@ -345,22 +345,22 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Android 8.0.0; SM-G950F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 YaaniBrowser/4.2.0.186 (Turkcell-TR) Mobile Safari/537.36'
     readable: 'Yaani Browser 4.2.0.186 on a Samsung Galaxy S8 running Android 8.0.0'
-    result: { browser: { name: 'Yaani Browser',family: { name: Chrome, version: 54 }, version: 4.2.0.186, type: browser }, engine: { name: Blink }, os: { name: Android, version: '8.0.0' }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S8' } }
+    result: { browser: { name: 'Yaani Browser', family: { name: Chrome, version: 54 }, version: 4.2.0.186, type: browser }, engine: { name: Blink }, os: { name: Android, version: 8.0.0 }, device: { type: mobile, subtype: smart, manufacturer: Samsung, model: 'Galaxy S8' } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20130204 Zvu/18.0.1'
     result: { browser: { name: 'Zvu Browser', version: 18.0.1, type: browser }, engine: { name: Gecko, version: '18.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Zvu Browser 18.0.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.0.0 Chrome/56.0.2924.122 Safari/537.36'
-    result: { browser: { name: 'Falkon', family: { name: Chrome, version: 56.0.2924.122 }, version: 3.0.0, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
+    result: { browser: { name: Falkon, family: { name: Chrome, version: 56 }, version: 3.0.0, type: browser }, engine: { name: Blink }, os: { name: Linux }, device: { type: desktop } }
     readable: 'Falkon 3.0.0 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:25.3) Gecko/20150425 BlackHawk/25.3.1'
-    result: { browser: { name: 'Black Hawk', version: 25.3.1, type: browser }, engine: { name: Gecko, version: 25.3 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Black Hawk', version: 25.3.1, type: browser }, engine: { name: Gecko, version: '25.3' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Black Hawk 25.3.1 on Windows 7'
--   
+-
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.514) AppleWebKit/534.6 (KHTML, like Gecko) Version/5.0 Safari/534.6.3'
-    result: { browser: { name: 'Bolt Browser', version: '2.514', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
+    result: { browser: { name: 'Bolt Browser', version: '2.514', type: browser }, engine: { name: Webkit, version: '534.6' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Bolt Browser 2.514 on Windows XP'
 -
     headers: 'User-Agent: BriskBard/1.0 (Windows 10) BriskBard/1.0'
@@ -369,22 +369,22 @@
 -
     headers: 'User-Agent: Mozilla/5 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
     readable: 'BrowseX 2.0.0 on Windows'
-    result: { browser: { name: 'BrowseX', version: 2.0.0, type: browser }, os: { name: Windows }, device: { type: desktop } }
+    result: { browser: { name: BrowseX, version: 2.0.0, type: browser }, os: { name: Windows }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 CCleaner/75.1.103.145'
-    result: { browser: { name: 'CCleaner Browser', family: { name: Chrome, version: 75.0.3770.142 }, version: 75.1.103.145, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'CCleaner Browser', family: { name: Chrome, version: 75 }, version: 75.1.103.145, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'CCleaner Browser 75.1.103.145 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) chimlac_browser/1.0 Chrome/57.0.2987.110 Safari/537.36'
-    result: { browser: { name: 'Chim Lac', family: { name: Chrome, version: 57.0.2987.110 }, version: 1.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Chim Lac', family: { name: Chrome, version: 57 }, version: '1.0', type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Chim Lac 1.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Colibri/1.5.1 Chrome/61.0.3163.100 Electron/2.0.2 Safari/537.36'
-    result: { browser: { name: 'Colibri', using: { name: Electron, version: 2.0.2 }, family: { name: Chrome, version: 61.0.3163.100 }, version: 1.5.1, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Colibri, using: { name: Electron, version: 2.0.2 }, family: { name: Chrome, version: 61 }, version: 1.5.1, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Colibri 1.5.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Degdegan/72.4.206 Chrome/66.4.3359.206 Safari/537.36'
-    result: { browser: { name: 'Deg-degan', family: { name: Chrome, version: 66 }, version: 72.4.206, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Deg-degan, family: { name: Chrome, version: 66 }, version: 72.4.206, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Deg-degan 72.4.206 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100411 Lorentz/3.6.3 GTB7.0'
@@ -392,11 +392,11 @@
     result: { browser: { name: Firefox, version: 3.6.3, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: 'OS X', alias: 'Mac OS X', version: '10.6' }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
 -
     headers: 'User-Agent: FlameSky/5.0.0.0 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.2987.110 Safari/537.36'
-    result: { browser: { name: 'FlameSky', family: { name: Chrome, version: 64.0.2987.110 }, version: 5.0.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: FlameSky, family: { name: Chrome, version: 64 }, version: 5.0.0.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'FlameSky 5.0.0.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:43.0) Gecko/20100101 Firefox/43.0 Framafox/43.0.1'
-    result: { browser: { name: 'Framafox', family: { name: Firefox, version: '43.0' }, version: 43.0.1, type: browser }, engine: { name: Gecko, version: '43.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: Framafox, family: { name: Firefox, version: '43.0' }, version: 43.0.1, type: browser }, engine: { name: Gecko, version: '43.0' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Framafox 43.0.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.69 Freeu/61.0.3163.69 MRCHROME SOC Safari/537.36'
@@ -404,19 +404,19 @@
     readable: 'Freeu Browser 61.0.3163.69 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36 Hola/1.142.604'
-    result: { browser: { name: 'Hola Browser', family: { name: Chrome, version: 74.0.3729.157 }, version: 1.142.604, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Hola Browser', family: { name: Chrome, version: 74 }, version: 1.142.604, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Hola Browser 1.142.604 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'
-    result: { browser: { name: 'Kapiko', family: { name: Firefox, version: '3.0' }, version: '3.0', type: browser }, engine: { name: Gecko, version: 1.9 }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
+    result: { browser: { name: Kapiko, family: { name: Firefox, version: '3.0' }, version: '3.0', type: browser }, engine: { name: Gecko, version: '1.9' }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Kapiko 3.0 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100222 Firefox/3.6 Kylo/0.8.4.74873'
-    result: { browser: { name: 'Kylo', family: { name: Firefox, version: '3.6' }, version: 0.8.4.74873, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: Windows, version: { value: '5.1', alias: 'XP' } }, device: { type: desktop } }
+    result: { browser: { name: Kylo, family: { name: Firefox, version: '3.6' }, version: 0.8.4.74873, type: browser }, engine: { name: Gecko, version: 1.9.2 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Kylo 0.8.4.74873 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) min/1.2.2 Chrome/49.0.2623.75 Electron/0.37.1 Safari/537.36'
-    result: { browser: { name: 'Min Browser', using: { name: Electron, version: 0.37.1 }, family: { name: Chrome, version: 49.0.2623.75 }, version: 1.2.2, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Min Browser', using: { name: Electron, version: 0.37.1 }, family: { name: Chrome, version: 49 }, version: 1.2.2, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Min Browser 1.2.2 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/532.4 (KHTML, like Gecko) MiniBrowser/3.0 Safari/532.4'
@@ -428,7 +428,7 @@
     readable: 'Mypal Browser 28.8.4 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) qutebrowser/0.9.1 Safari/538.1'
-    result: { browser: { name: 'Qute Browser', version: 0.9.1, type: browser }, engine: { name: Webkit, version: 538.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: 'Qute Browser', version: 0.9.1, type: browser }, engine: { name: Webkit, version: '538.1' }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'Qute Browser 0.9.1 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Sielo/1.16.07 Chrome/65.0.3325.151 Safari/537.36'
@@ -436,11 +436,11 @@
     result: { browser: { name: 'Sielo Browser', family: { name: Chrome, version: 65 }, version: 1.16.07, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.2', alias: '8' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; SiteKiosk 7.0 Build 248)'
-    result: { browser: { name: 'SiteKiosk', version: '7.0', type: browser }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: SiteKiosk, version: '7.0', type: browser }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'SiteKiosk 7.0 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; iRider 2.21.1108; FDM)'
-    result: { browser: { name: 'iRider Browser', version: 2.21.1108, type: browser },os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: 'iRider Browser', version: 2.21.1108, type: browser }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'iRider Browser 2.21.1108 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20071115 Firefox/2.0.0.6 LBrowser/2.0.0.6'
@@ -448,7 +448,7 @@
     readable: 'LBrowser 2.0.0.6 on Linux'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20051001 Firefox/1.0.7 Madfox/0.3.2u3'
-    result: { browser: { name: 'Madfox', family: { name: Firefox, version: '1.0.7' }, version: 0.3.2, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
+    result: { browser: { name: Madfox, family: { name: Firefox, version: 1.0.7 }, version: 0.3.2, type: browser }, engine: { name: Gecko, version: 1.7.12 }, os: { name: Windows, version: { value: '5.1', alias: XP } }, device: { type: desktop } }
     readable: 'Madfox 0.3.2 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; SV1; Multi-Browser 10.1 (www.multibrowser.de); .NET CLR 1.1.4322)'
@@ -456,7 +456,7 @@
     readable: 'Multi-Browser XP 10.1 on Windows XP'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.0; NetCaptor 6.5.0RC1)'
-    result: { browser: { name: NetCaptor, version: 6.5.0, type: browser }, os: { name: Windows, version: { value: '5.0', alias: 2000 } }, device: { type: desktop } }
+    result: { browser: { name: NetCaptor, version: 6.5.0, type: browser }, os: { name: Windows, version: { value: '5.0', alias: '2000' } }, device: { type: desktop } }
     readable: 'NetCaptor 6.5.0 on Windows 2000'
 -
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; Open Live Writer 1.0)'
@@ -513,7 +513,7 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20110610 Firefox/4.0.1 Sundial/4.0.1_1.0'
     readable: 'Sundial 4.0.1 on Windows 7'
-    result: { browser: { name: Sundial, family: { name: Firefox, version: 4.0.1 }, version: 4.0.1, type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } },device: { type: desktop } }
+    result: { browser: { name: Sundial, family: { name: Firefox, version: 4.0.1 }, version: 4.0.1, type: browser }, engine: { name: Gecko, version: 2.0.1 }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061025 Firefox/2.0 (Swiftfox)'
     readable: 'Swiftfox on Linux'
@@ -541,7 +541,7 @@
 -
     headers: 'User-Agent: Vimprobable/0.9.20.5'
     readable: 'Vimprobable 0.9.20.5'
-    result: { browser: { name: Vimprobable, version: '0.9.20.5', type: browser }, device: { type: desktop } }
+    result: { browser: { name: Vimprobable, version: 0.9.20.5, type: browser }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3390.0 Xvast/1.1.0.3 Safari/537.36'
     readable: 'Xvast 1.1.0.3 on Windows 8'
@@ -553,12 +553,16 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 SputnikBrowser/4.1.2810.0 (GOST) Safari/537.36'
     readable: 'Sputnik 4.1.2810.0 on Windows 10'
-    result: { browser: { name: 'Sputnik', family: { name: Chrome, version: 64 }, version: 4.1.2810.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
+    result: { browser: { name: Sputnik, family: { name: Chrome, version: 64 }, version: 4.1.2810.0, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '10.0', alias: '10' } }, device: { type: desktop } }
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) SalamWeb/3.0.1.592 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Safari/537.36'
-    result: { browser: { name: 'SalamWeb', family: { name: Chrome, version: 75.0.3770.101 }, version: 3.0.1.592, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
+    result: { browser: { name: SalamWeb, family: { name: Chrome, version: 75 }, version: 3.0.1.592, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'SalamWeb 3.0.1.592 on Windows 7'
 -
     headers: 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36'
     result: { browser: { name: SalamWeb, family: { name: Chrome, version: 51 }, type: browser }, engine: { name: Blink }, os: { name: Windows, version: { value: '6.1', alias: '7' } }, device: { type: desktop } }
     readable: 'SalamWeb on Windows 7'
+-
+    headers: 'User-Agent: Mozilla/5.0 Chrome/10.0.613.0 Safari/534.15 Zombie.js/5.0.7'
+    result: { browser: { name: Zombie.js, family: { name: Chrome, version: 10 }, version: 5.0.7, type: browser }, device: { type: desktop } }
+    readable: 'Zombie.js 5.0.7'

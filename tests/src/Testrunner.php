@@ -8,7 +8,9 @@ class Testrunner
 {
     public static function compare($files, $skipManufacturers = false)
     {
-        @unlink('runner.log');
+        if (file_exists('runner.log')) {
+            @unlink('runner.log');
+        }
 
         $result = true;
 
