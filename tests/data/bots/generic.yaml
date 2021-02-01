@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: 	Jetty/9.4.15.v20190215'
+    readable: 'Jetty 9.4.15'
+    result: { browser: { name: Jetty, version: '9.4.15' }, device: { type: bot } }
