@@ -40,6 +40,12 @@ class Google
             $this->found = true;
 
         /* Google APIs Bot */
+        } elseif (preg_match('/Google-SMTP-STS/u', $ua, $match)) {
+            $this->name = 'Google MTA-STS Bot';
+            $this->bot = Constants\DeviceType::BOT;
+            $this->found = true;
+
+        /* Google APIs Bot */
         } elseif (preg_match('/APIs-Google/u', $ua, $match)) {
             $this->name = 'Google APIs Bot';
             $this->bot = Constants\DeviceType::BOT;
