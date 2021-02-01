@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: SafeDNSBot (https://www.safedns.com/searchbot)'
+    readable: 'SafeDNS Bot'
+    result: { browser: { name: 'SafeDNS Bot' }, device: { type: bot } }

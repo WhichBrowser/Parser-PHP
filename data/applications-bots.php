@@ -252,6 +252,7 @@ Applications::$BOTS = [
     [ 'name' => 'ROI Hunter',                   'id'    => 'hunter',      'regexp' => '/ROI Hunter/u' ],
     [ 'name' => 'QuerySeekerSpider',            'id'    => 'spider',      'regexp' => '/QuerySeekerSpider(?:\/([0-9.]*))?/u' ],
     [ 'name' => 'Quora Link Preview',           'id'    => 'quora',      'regexp' => '/Quora Link Preview\/([0-9.]*)/u' ],
+    [ 'name' => 'SafeDNS Bot',                  'id'    => 'safedns',      'regexp' => '/SafeDNSBot/u' ],
     [ 'name' => 'SafeSearch Microdata',         'id'    => 'safesearch',      'regexp' => '/SafeSearch microdata crawler/u' ],
     [ 'name' => 'Scrapy',                       'id'    => 'scrapy',      'regexp' => '/Scrapy\/([0-9.]*)/u' ],
     [ 'name' => 'ScreenerBot',                  'id'    => 'crawler',      'regexp' => '/ScreenerBot Crawler Beta ([0-9.]*)/u' ],
