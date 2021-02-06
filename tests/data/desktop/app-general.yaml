@@ -1,0 +1,4 @@
+-
+    headers: 'User-Agent: PostmanRuntime/7.26.10'
+    readable: 'Postman 7.26.10'
+    result: { browser: { name: Postman, version: 7.26.10, type: 'app:mediaplayer' }, device: { type: desktop } }
