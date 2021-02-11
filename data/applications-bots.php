@@ -3,6 +3,7 @@
 namespace WhichBrowser\Data;
 
 Applications::$BOTS = [
+    [ 'name' => '80legs',                       'id'    => '008',      'regexp' => '/8LEGS/iu' ],
     [ 'name' => '80legs',                       'id'    => '008',      'regexp' => '/(?:^|\s)008\/([0-9.]*)/u' ],
     [ 'name' => '360spider',                    'id'    => '360',      'regexp' => '/360Spider/u' ],
     [ 'name' => '360spider',                    'id'    => '360',      'regexp' => '/360spider-image/u' ],

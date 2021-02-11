@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: 8LEGS'
+    readable: '80legs'
+    result: { browser: { name: 80legs }, device: { type: bot } }
