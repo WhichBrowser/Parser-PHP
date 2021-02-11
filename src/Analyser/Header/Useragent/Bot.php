@@ -22,11 +22,19 @@ trait Bot
 
         /* Detect bots based on common markers */
 
-        if (preg_match('/(?:Bot|Robot|Spider|Crawler|80?LEGS)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
+        if (preg_match('/(?:Bot|Robot|Spider|Crawler)([\/\);]|$)/iu', $ua) && !preg_match('/CUBOT/iu', $ua)) {
             $this->data->browser->reset();
             $this->data->os->reset();
             $this->data->engine->reset();
             $this->data->device->reset();
+
+            $this->data->device->type = Constants\DeviceType::BOT;
+        }
+
+        /* Detect 80legs bots based on url in the UA string */
+
+        if (preg_match('/80?legs/iu', $ua)) {
+            $this->data->browser->name = '80legs';
 
             $this->data->device->type = Constants\DeviceType::BOT;
         }
