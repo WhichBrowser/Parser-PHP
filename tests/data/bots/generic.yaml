@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: Cloudflare-SSLDetector'
+    readable: 'Cloudflare SSL Detector'
+    result: { browser: { name: 'Cloudflare SSL Detector' }, device: { type: bot } }

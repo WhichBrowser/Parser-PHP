@@ -76,6 +76,7 @@ Applications::$BOTS = [
     [ 'name' => 'Cloudflare Diagnostics',       'id'    => 'cloudflare',      'regexp' => '/Cloudflare Diagnostics/u' ],
     [ 'name' => 'Cloudflare Diagnostics',       'id'    => 'cloudflare',      'regexp' => '/Cloudflare-Diagnostics/u' ],
     [ 'name' => 'Cloudflare SpeedTest',         'id'    => 'cloudflare',      'regexp' => '/Cloudflare SpeedTest\/([0-9.]*)/u' ],
+    [ 'name' => 'Cloudflare SSL Detector',      'id'    => 'cloudflare',      'regexp' => '/Cloudflare-SSLDetector/u' ],
     [ 'name' => 'Coccocbot Web',                'id'    => 'coccoc',      'regexp' => '/coccocbot-web\/([0-9.]*)/u' ],
     [ 'name' => 'Coccocbot Image',              'id'    => 'coccoc',      'regexp' => '/coccocbot-image\/([0-9.]*)/u' ],
     [ 'name' => 'Comodo',                       'id'    => 'comodo',      'regexp' => '/Comodo Spider ([0-9.]*)/u' ],
