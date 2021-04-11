@@ -1001,4 +1001,4 @@
 -
     headers: 'User-Agent: GRequests/0.10'
     readable: 'GRequests 0.10'
-    result: { browser: { name: GRequests, version '0.10' }, device: { type: bot } }
+    result: { browser: { name: GRequests, version: '0.10' }, device: { type: bot } }
