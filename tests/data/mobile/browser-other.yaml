@@ -120,6 +120,6 @@
     readable: 'Mobicip on an Apple iPad running iOS 10.3.3'
 -
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; YAL-L21; HMSCore 5.2.0.318; GMSCore 21.09.15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.6.305 Mobile Safari/537.36'
-    result: { browser: { name: Mobicip, type: 'browser' }, engine: { name: Webkit, version: 603.3.8 }, os: { name: iOS, version: 10.3.3 }, device: { type: mobile, subtype: smart, manufacturer: Apple, model: iPad } }
-    readable: 'xxxxx'
-  
+    result: { browser: { name: 'Huawei Browser', family: { name: Chrome, version: 83 }, version: 11.0.6.305, type: browser }, engine: { name: Blink }, os: { name: Android, version: '10'}, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: Browser } }
+    readable: 'Huawei Browser 11.0.6.305 on a Huawei Browser running Android 10'
+ 
