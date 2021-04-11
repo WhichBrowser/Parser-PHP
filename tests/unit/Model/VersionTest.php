@@ -1,14 +1,14 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Constants;
 use WhichBrowser\Model\Version;
 
 /**
  * @covers WhichBrowser\Model\Version
  */
-class VersionTest extends PHPUnit_Framework_TestCase
+class VersionTest extends TestCase
 {
     public function testIs()
     {

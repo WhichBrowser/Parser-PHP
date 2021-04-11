@@ -1,7 +1,7 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Constants;
 use WhichBrowser\Model\Family;
 use WhichBrowser\Model\Version;
@@ -9,7 +9,7 @@ use WhichBrowser\Model\Version;
 /**
  * @covers WhichBrowser\Model\Family
  */
-class FamilyTest extends PHPUnit_Framework_TestCase
+class FamilyTest extends TestCase
 {
     public function testGetName()
     {

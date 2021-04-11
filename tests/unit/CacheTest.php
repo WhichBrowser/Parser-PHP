@@ -1,7 +1,7 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Parser;
 use Cache\Adapter\PHPArray\ArrayCachePool;
 
@@ -9,7 +9,7 @@ use Cache\Adapter\PHPArray\ArrayCachePool;
  * @covers WhichBrowser\Cache
  * @covers WhichBrowser\Parser::analyse
  */
-class CacheTest extends PHPUnit_Framework_TestCase
+class CacheTest extends TestCase
 {
     public function testCreatingParserWithoutArgumentsAndCallAnalyse()
     {

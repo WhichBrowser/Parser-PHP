@@ -10,3 +10,4 @@ humbug*
 build/*
 .vscode
 .DS_Store
+.phpunit.result.cache

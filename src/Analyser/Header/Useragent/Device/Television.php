@@ -610,29 +610,96 @@ trait Television
 
         /* Roku  */
 
-        if (preg_match('/^Roku\/DVP-(?:[0-9A-Z]+-)?[0-9\.]+ \(([0-9]{2,2})/u', $ua, $match)) {
+        if (preg_match('/Roku(?:([0-9]+)[A-Z]+)?\/DVP-(?:([0-9]+)[A-Z]+-)?[0-9\.]+/u', $ua, $match)) {
+            $this->data->os->reset();
+
+            $this->data->device->manufacturer = 'Roku';
+            $this->data->device->type = Constants\DeviceType::TELEVISION;
+            
+            $models = [
+                '2000'  => 'HD',
+                '2050'  => 'XD',
+                '2100'  => 'XDS',
+                '2400'  => 'LT',
+                '2450'  => 'LT',
+                '2500'  => 'HD',
+                '2700'  => 'LT',
+                '2710'  => '1 SE',
+                '2720'  => '2',
+                '3000'  => '2 HD',
+                '3050'  => '2 XD',
+                '3100'  => '2 XS',
+                '3400'  => 'Streaming Stick, MHL',
+                '3420'  => 'Streaming Stick, MHL',
+                '3500'  => 'Streaming Stick, HDMI',
+                '3600'  => 'Streaming Stick',
+                '3700'  => 'Express',
+                '3710'  => 'Express+',
+                '3800'  => 'Streaming Stick',
+                '3810'  => 'Streaming Stick+',
+                '3900'  => 'Express',
+                '3910'  => 'Express+',
+                '3920'  => 'Premiere',
+                '3921'  => 'Premiere+',
+                '3930'  => 'Express',
+                '3931'  => 'Express+',
+                '4200'  => '3',
+                '4210'  => '2',
+                '4230'  => '3',
+                '4400'  => '4',
+                '4620'  => 'Premiere',
+                '4630'  => 'Premiere+',
+                '4640'  => 'Ultra',
+                '4660'  => 'Ultra',
+                '4661'  => 'Ultra',
+                '4662'  => 'Ultra LT',
+                '4670'  => 'Ultra',
+                '4800'  => 'Ultra',
+            ];
+
+            if (!empty($match[1]) || !empty($match[2])) {
+                $model = !empty($match[1]) ? $match[1] : $match[2];
+                
+                if (isset($models[$model])) {
+                    $this->data->device->model = $models[$model];
+                    $this->data->device->generic = false;
+                }
+            }
+
+            $this->data->device->identified |= Constants\Id::MATCH_UA;
+        }
+
+        if (preg_match('/Roku\/DVP-[0-9\.]+ \(([0-9A-Z]{2,2})[0-9]+\./u', $ua, $match)) {
             $this->data->os->reset();
 
             $this->data->device->manufacturer = 'Roku';
             $this->data->device->type = Constants\DeviceType::TELEVISION;
 
-            switch ($match[1]) {
-                case '02':
-                    $this->data->device->model = '2 XS';
+            $models = [
+                '02'    => '2 XS',
+                '03'    => 'LT',
+                '04'    => '3',
+                '07'    => 'LT',
+                '09'    => 'Streaming Stick',
+                '29'    => 'Ultra',
+                '30'    => [ 'TCL', '4K Roku TV' ],
+                '51'    => 'Express',
+                'AE'    => 'Express',
+            ];
+
+            if (!empty($match[1])) {
+                $model = $match[1];
+
+                if (isset($models[$model])) {
+                    if (is_array($models[$model])) {
+                        $this->data->device->manufacturer = $models[$model][0];
+                        $this->data->device->model = $models[$model][1];
+                    } else {
+                        $this->data->device->model = $models[$model];
+                    }
+
                     $this->data->device->generic = false;
-                    break;
-                case '04':
-                    $this->data->device->model = '3';
-                    $this->data->device->generic = false;
-                    break;
-                case '07':
-                    $this->data->device->model = 'LT';
-                    $this->data->device->generic = false;
-                    break;
-                case '09':
-                    $this->data->device->model = 'Streaming Stick';
-                    $this->data->device->generic = false;
-                    break;
+                }
             }
 
             $this->data->device->identified |= Constants\Id::MATCH_UA;
@@ -1058,7 +1125,6 @@ trait Television
 
 
         if (isset($this->data->device->model) && isset($this->data->device->manufacturer)) {
-
             if ($this->data->device->manufacturer == 'Dune HD') {
                 if (preg_match('/tv([0-9]+[a-z]?)/u', $this->data->device->model, $match)) {
                     $this->data->device->model = 'TV-' . strtoupper($match[1]);

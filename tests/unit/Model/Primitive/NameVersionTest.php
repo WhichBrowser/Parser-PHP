@@ -1,14 +1,14 @@
 <?php
 namespace WhichBrowserTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use WhichBrowser\Model\Primitive\NameVersion;
 use WhichBrowser\Model\Version;
 
 /**
  * @covers WhichBrowser\Model\Primitive\NameVersion
  */
-class NameVersionTest extends PHPUnit_Framework_TestCase
+class NameVersionTest extends TestCase
 {
     public function testGetName()
     {

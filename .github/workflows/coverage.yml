@@ -1,0 +1,49 @@
+name: coverage
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+          ini-values: memory_limit=2048M
+          coverage: pcov
+    
+      - name: Get composer cache directory
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:  
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: coverage-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: coverage-composer-
+
+      - name: Install dependencies
+        run: composer install --prefer-dist
+        
+      - name: Run useragent string tests
+        run: php bin/runner.php --coverage --show check 
+
+      - name: Run unit tests
+        run: vendor/bin/phpunit --coverage-clover phpunit.xml tests/unit
+
+      - name: Upload coverage results to Coveralls
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: vendor/bin/php-coveralls -v

@@ -1,12 +1,12 @@
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) EkiohFlow/5.10.0.32202 Flow/5.10.0 (like Gecko Firefox/62.0 rv:62.0)'
-    result: { browser: { name: 'Flow', version: '5.10.0', type: browser }, engine: { name: EkiohFlow, version: 5.10.0.32202 }, os: { name: 'OS X', alias: 'macOS', version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Flow, version: 5.10.0, type: browser }, engine: { name: EkiohFlow, version: 5.10.0.32202 }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Flow 5.10.0 on macOS Catalina 10.15'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) EkiohFlow/5.9.4.32015 Flow/5.9.4 (like Gecko Firefox/53.0 rv:53.0)'
-    result: { browser: { name: 'Flow', version: '5.9.4', type: browser }, engine: { name: EkiohFlow, version: 5.9.4.32015 }, os: { name: 'OS X', alias: 'macOS', version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: Flow, version: 5.9.4, type: browser }, engine: { name: EkiohFlow, version: 5.9.4.32015 }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Flow 5.9.4 on macOS Catalina 10.15'
 -
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) EkiohFlow/5.9.4.32015M Flow/5.9.4 (like Gecko Firefox/53.0 rv:53.0)'
-    result: { browser: { name: 'Flow Nightly Build', type: browser }, engine: { name: EkiohFlow, version: 5.9.4.32015 }, os: { name: 'OS X', alias: 'macOS', version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+    result: { browser: { name: 'Flow Nightly Build', type: browser }, engine: { name: EkiohFlow, version: 5.9.4.32015 }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Flow Nightly Build on macOS Catalina 10.15'
