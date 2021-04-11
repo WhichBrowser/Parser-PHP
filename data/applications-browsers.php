@@ -101,6 +101,7 @@ Applications::$BROWSERS = [
         [ 'name' => 'GNOME Web',            'id'    => 'epiphany',      'regexp' =>'/Epiphany\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'GreenBrowser',         'id'    => 'greenbrowser',      'regexp' =>'/GreenBrowser/u', 'type' => Constants\DeviceType::DESKTOP ],       
         [ 'name' => 'Hola Browser',         'id'    => 'hola',        'regexp' => '/ Hola\/([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],                        // see: https://play.google.com/store/apps/details?id=org.hola&hl=en
+        [ 'name' => 'Huawei Browser',       'id'    => 'huawei',      'regexp' =>'HuaweiBrowser\/([0-9.]*)/u' ],
         [ 'name' => 'Hydra Browser',        'id'    => 'hydra',      'regexp' =>'/Hydra Browser/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'IBrowse',              'id'    => 'ibrowse',      'regexp' =>'/IBrowse[\/ ]([0-9.]*)/u', 'type' => Constants\DeviceType::DESKTOP ],
         [ 'name' => 'iCab',                 'id'    => 'icab',      'regexp' =>'/iCab(?: J)?[\/ ](?:Pre)?([0-9.]*)/u' ],
