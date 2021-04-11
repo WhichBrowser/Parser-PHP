@@ -379,6 +379,7 @@ Applications::$BOTS = [
     [ 'name' => 'Borland Delphi',               'id'    => 'indy',      'regexp' => '/Indy Library/u' ],
     [ 'name' => 'Go Http Client',               'id'    => 'go',      'regexp' => '/Go-http-client\/([0-9.]*)/u' ],
     [ 'name' => 'Go Http Client',               'id'    => 'go',      'regexp' => '/go-httpclient v([0-9.]*)/u' ],
+    [ 'name' => 'GRequests',                    'id'    => 'grequests',      'regexp' => '/GRequests\/([0-9.]*)/u' ],
     [ 'name' => 'HttpUnit',                     'id'    => 'httpunit',      'regexp' => '/httpunit\/([0-9.]*)/u' ],
     [ 'name' => 'OkHttp',                       'id'    => 'okhttp',      'regexp' => '/okhttp\/([0-9.]*)/u' ],
     [ 'name' => 'Node Fetch',                   'id'    => 'node',      'regexp' => '/node-fetch\/([0-9.]*)/u' ],

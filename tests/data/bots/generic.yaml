@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: GRequests/0.10'
+    readable: 'GRequests 0.10'
+    result: { browser: { name: GRequests, version '0.10' }, device: { type: bot } }
