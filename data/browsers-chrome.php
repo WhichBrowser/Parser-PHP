@@ -91,6 +91,9 @@ Chrome::$DESKTOP = [
     '85.0.4183' => 'stable',
     '86.0.4240' => 'stable',
     '87.0.4280' => 'stable',
+    '88.0.4324' => 'stable',
+    '89.0.4389' => 'stable',
+    '90.0.4430' => 'stable',
 ];
 
 Chrome::$MOBILE = [
@@ -155,4 +158,7 @@ Chrome::$MOBILE = [
     '85.0.4183' => 'stable',
     '86.0.4240' => 'stable',
     '87.0.4280' => 'stable',
+    '88.0.4324' => 'stable',
+    '89.0.4389' => 'stable',
+    '90.0.4430' => 'stable',
 ];
