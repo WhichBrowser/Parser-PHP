@@ -91,7 +91,7 @@ trait Pda
 
             if (preg_match('/PalmSource\/([^;]+)/u', $ua, $match)) {
                 $this->data->device->model = $match[1];
-                $this->data->device->identified |= Constants\Id::PATTERN;
+                $this->data->device->identified = Constants\Id::PATTERN;
             }
 
             if (isset($this->data->device->model) && $this->data->device->model) {

@@ -1104,7 +1104,6 @@ trait Television
             return;
         }
 
-
         if (isset($this->data->device->model) && isset($this->data->device->manufacturer)) {
             if ($this->data->device->manufacturer === 'Dune HD') {
                 if (preg_match('/tv([0-9]+[a-z]?)/u', $this->data->device->model, $match)) {
