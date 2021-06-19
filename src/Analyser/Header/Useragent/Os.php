@@ -34,19 +34,12 @@ trait Os
         return $this;
     }
 
-
     private function &refineOperatingSystem($ua)
     {
         $this->determineAndroidVersionBasedOnBuild($ua);
 
         return $this;
     }
-
-
-
-
-
-
 
     /* Darwin */
 
@@ -170,7 +163,6 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
-
 
     /* Android */
 
@@ -580,7 +572,6 @@ trait Os
         }
     }
 
-
     /* Windows */
 
     private function detectWindows($ua)
@@ -653,13 +644,11 @@ trait Os
                 $this->detectWindowsOemManufacturer($ua);
             }
 
-
             /* Windows 10 IoT Core */
 
             if (preg_match('/Windows IoT (1[0-9]\.[0-9]);/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1], 'alias' => '10 IoT Core' ]);
             }
-
 
             /* Windows */
 
@@ -690,7 +679,6 @@ trait Os
                         break;
                 }
             }
-
 
             /* Windows Mobile and Windows Phone */
 
@@ -838,7 +826,6 @@ trait Os
                 $this->data->os->name = 'Windows Mobile';
                 $this->data->device->type = Constants\DeviceType::MOBILE;
             }
-
 
             /* Detect models in common places */
 
@@ -1097,7 +1084,6 @@ trait Os
         }
     }
 
-
     /* Jolla Sailfish */
 
     private function detectSailfish($ua)
@@ -1123,7 +1109,6 @@ trait Os
             }
         }
     }
-
 
     /* Bada */
 
@@ -1154,7 +1139,6 @@ trait Os
             }
         }
     }
-
 
     /* Tizen */
 
@@ -1258,7 +1242,6 @@ trait Os
         }
     }
 
-
     /* Symbian */
 
     private function detectSymbian($ua)
@@ -1351,7 +1334,6 @@ trait Os
                 $this->data->os->family->version = new Version([ 'value' => $match[1] ]);
             }
         }
-
 
         if ($this->data->os->isFamily('Symbian')) {
             if (preg_match('/Nokia-?([^\/;\)\s]+)[\s|\/|;|\)]/u', $ua, $match)) {
@@ -1498,7 +1480,6 @@ trait Os
         }
     }
 
-
     /* WebOS */
 
     private function detectWebos($ua)
@@ -1566,7 +1547,6 @@ trait Os
         }
     }
 
-
     /* Kai OS */
 
     private function detectKaiOS($ua)
@@ -1576,7 +1556,6 @@ trait Os
             $this->data->os->family = new Family([ 'name' => 'Firefox OS' ]);
         }
     }
-
 
     /* BlackBerry */
 
@@ -1699,7 +1678,6 @@ trait Os
         }
     }
 
-
     /* Chrome OS */
 
     private function detectChromeos($ua)
@@ -1721,7 +1699,6 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
-
 
     /* Open TV */
 
@@ -1751,7 +1728,6 @@ trait Os
         }
     }
 
-
     /* Qtopia */
 
     private function detectQtopia($ua)
@@ -1764,7 +1740,6 @@ trait Os
             }
         }
     }
-
 
     /* Unix */
 
@@ -2014,7 +1989,6 @@ trait Os
             $this->data->os->family = new Family([ 'name' => 'BSD' ]);
         }
     }
-
 
     /* Linux */
 
@@ -2284,7 +2258,6 @@ trait Os
         }
     }
 
-
     /* Brew */
 
     private function detectBrew($ua)
@@ -2381,7 +2354,6 @@ trait Os
             }
         }
     }
-
 
     /* Remaining operating systems */
 
