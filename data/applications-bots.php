@@ -3,13 +3,6 @@
 namespace WhichBrowser\Data;
 
 Applications::$BOTS = [
-    /* Fake bots (detect fake ones first) */
-    [ 'name' => 'Fake Archive.org Bot',         'id'    => 'fake',      'regexp' => '/^archive.org_bot/u' ],
-    [ 'name' => 'Fake Ahrefs Bot',              'id'    => 'fake',      'regexp' => '/^AhrefsBot$/u' ],
-    [ 'name' => 'Fake LinkedIn Bot',            'id'    => 'fake',      'regexp' => '/LinkedInBot$/u' ],    
-    [ 'name' => 'Fake CloudFlare Bot',          'id'    => 'fake',      'regexp' => '/\;\+http\:\/\/www\.cloudflare/u' ],  
-    
-    /* Real bots */
     [ 'name' => '80legs',                       'id'    => '008',      'regexp' => '/(?:^|\s)008\/([0-9.]*)/u' ],
     [ 'name' => '360spider',                    'id'    => '360',      'regexp' => '/360Spider/u' ],
     [ 'name' => '360spider',                    'id'    => '360',      'regexp' => '/360spider-image/u' ],
