@@ -12,12 +12,7 @@ Applications::$BOTS = [
     [ 'name' => 'Adaxas',                       'id'    => 'adaxas',      'regexp' => '/Adaxas Spider/u' ],
     [ 'name' => 'AddThis.com',                  'id'    => 'addthis',      'regexp' => '/AddThis.com/u' ],
     [ 'name' => 'ADmantX',                      'id'    => 'admantx',      'regexp' => '/ADmantX Platform Semantic Analyzer/u' ],
-    [ 'name' => 'Adsbot',                       'id'    => 'adsbot',      'regexp' => '/Adsbot\/([0-9.]*)/u' ],                     // Not to be mixed up with Google Adsbot
-    [ 'name' => 'Ahrefs Feeds Bot',             'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\.Feeds v([0-9.]*)/u' ],
-    [ 'name' => 'Ahrefs Site Audit Bot',        'id'    => 'ahrefs',      'regexp' => '/AhrefsSiteAudit\/([0-9.]*)/u' ],
-    [ 'name' => 'Ahrefs News Bot',              'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)\; News/u' ],
-    [ 'name' => 'Ahrefs SA Bot',                'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)\; SA/u' ],
-    [ 'name' => 'Ahrefs Bot',                   'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)/u' ],    
+    [ 'name' => 'Adsbot',                       'id'    => 'adsbot',      'regexp' => '/Adsbot\/([0-9.]*)/u' ],                     // Not to be mixed up with Google Adsbot   
     [ 'name' => 'Alexa',                        'id'    => 'archiver',      'regexp' => '/ia_archiver/u' ],
     [ 'name' => 'AltaVista',                    'id'    => 'altavista',      'regexp' => '/AltaVista Intranet V([0-9.]*)/u' ],
     [ 'name' => 'Analytics SEO',                'id'    => 'curious',      'regexp' => '/Curious George - www.analyticsseo.com\/crawler/u' ],

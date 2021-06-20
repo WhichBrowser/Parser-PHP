@@ -998,3 +998,7 @@
     headers: 'User-Agent: Mozilla/5.0 zgrab/0.x'
     readable: Zgrab
     result: { browser: { name: Zgrab }, device: { type: bot } }
+-
+    headers: 'User-Agent: AhrefsBot'
+    readable: 'Fake Ahrefs Bot'
+    result: { browser: { name: 'Fake Ahrefs Bot' }, device: { type: bot } }
