@@ -34,7 +34,7 @@ class Google
          * This filters a small amount of fake bots to properly
          * check for fake bots use a reverse dns lookup.
          */
-        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|googlebot\.com|^googlebot$|guuggle|googloe|googIe|Amiga|Atari|Commodore|iPod|LCARS|https:\/\/www\.google)/iu', $ua, $match)) {
+        if (preg_match('/(\x5cx|\(\s|\s\;|\+\+|\;\+|\;http|0\(|googlebot\.com|^googlebot$|guuggle|googloe|googIe|https:\/\/www\.google)/iu', $ua, $match)) {
             $this->name = 'Fake Google Bot';
             $this->bot = Constants\DeviceType::BOT;
             $this->found = true;
