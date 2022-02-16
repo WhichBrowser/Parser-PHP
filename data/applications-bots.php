@@ -15,8 +15,8 @@ Applications::$BOTS = [
     [ 'name' => 'Adsbot',                       'id'    => 'adsbot',      'regexp' => '/Adsbot\/([0-9.]*)/u' ],                     // Not to be mixed up with Google Adsbot
     [ 'name' => 'Ahrefs Feeds Bot',             'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\.Feeds v([0-9.]*)/u' ],
     [ 'name' => 'Ahrefs Site Audit Bot',        'id'    => 'ahrefs',      'regexp' => '/AhrefsSiteAudit\/([0-9.]*)/u' ],
-    [ 'name' => 'Ahrefs News Bot',              'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)\; News/u' ],
-    [ 'name' => 'Ahrefs SA Bot',                'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)\; SA/u' ],
+    [ 'name' => 'Ahrefs News Bot',              'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*); News/u' ],
+    [ 'name' => 'Ahrefs SA Bot',                'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*); SA/u' ],
     [ 'name' => 'Ahrefs Bot',                   'id'    => 'ahrefs',      'regexp' => '/AhrefsBot\/([0-9.]*)/u' ],    
     [ 'name' => 'Alexa',                        'id'    => 'archiver',      'regexp' => '/ia_archiver/u' ],
     [ 'name' => 'AltaVista',                    'id'    => 'altavista',      'regexp' => '/AltaVista Intranet V([0-9.]*)/u' ],
@@ -364,7 +364,7 @@ Applications::$BOTS = [
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\/([0-9.]*)/u' ],
     [ 'name' => 'Inktomi Slurp',                'id'    => 'slurp',      'regexp' => '/Slurp\.so\/([0-9.]*)/u' ],
     
-    [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider\-([0-9.]*)/u' ],
+    [ 'name' => 'Yelp Spider',                  'id'    => 'yelp',      'regexp' => '/yelpspider-([0-9.]*)/u' ],
     [ 'name' => 'Yioop Bot',                    'id'    => 'yioop',     'regexp' => '/YioopBot/u' ],
     [ 'name' => 'Yisou Spider',                 'id'    => 'yisou',    'regexp' => '/YisouSpider\/?([0-9.]*)/u' ],
     [ 'name' => 'Zgrab',                        'id'    => 'zgrab',      'regexp' => '/zgrab\//u' ],
