@@ -83,7 +83,7 @@ Applications::$OTHERS = [
         [ 'name' => 'Wire',                 'id'    => 'wire',      'regexp' =>'/Wire\/([0-9.]*)/u' ],
         [ 'name' => 'Yahoo Messenger',      'id'    => 'yahoo',      'regexp' =>'/YahooMobile\/1.0 \(im; ([0-9.]+)\)/u', 'details' => 3 ],
         [ 'name' => 'Yammer',               'id'    => 'yammer',      'regexp' =>'/Yammer\/([0-9.]*)/u', 'details' => 2 ],
-        [ 'name' => 'Zalo',                 'id'    => 'zalo',           'regexp' => '/Zalo\-win32\-([0-9.]*)/u' ],
+        [ 'name' => 'Zalo',                 'id'    => 'zalo',           'regexp' => '/Zalo-win32-([0-9.]*)/u' ],
         [ 'name' => 'Zalo',                 'id'    => 'zalo',           'regexp' => '/ Zalo\/([0-9.]*)/u' ],
     ],
 
