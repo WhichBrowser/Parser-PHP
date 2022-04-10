@@ -66,3 +66,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36'
     result: { browser: { name: Chrome, version: '87', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '11.0', nickname: 'Big Sur' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
     readable: 'Chrome 87 on macOS Big Sur 11.0'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    readable: 'Chrome 100 on macOS Catalina 10.15'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '10.15', nickname: Catalina } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
