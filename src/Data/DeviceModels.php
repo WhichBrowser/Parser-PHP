@@ -262,7 +262,7 @@ class DeviceModels
 
     public static function applyMatches($model, $original, $pattern)
     {
-        if (strpos($model, '$') !== false && substr($pattern, -1) == "!") {
+        if (!is_null($model) && strpos($model, '$') !== false && substr($pattern, -1) == "!") {
             if (preg_match('/^' . substr($pattern, 0, -1) . '/iu', $original, $matches)) {
                 foreach ($matches as $k => $v) {
                     $model = str_replace('$' . $k, $v, $model);
