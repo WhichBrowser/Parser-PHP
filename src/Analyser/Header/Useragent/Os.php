@@ -260,6 +260,10 @@ trait Os
                     if (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s]);?\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
+                } elseif (preg_match('/\(Linux; Android [0-9\.]+; ([^\/]+)\) AppleWebKit/u', $ua, $match)) {
+                    /* New style minimal Android useragent string */
+
+                    $candidates[] = $match[1];
                 } elseif (preg_match('/Release\//ui', $ua)) {
                     /* WAP style useragent strings */
 

@@ -346,3 +346,23 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; U; Android 9; th; vivo 1915) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Tenta/3.1.6 Build/2162 Safari/537.36'
     readable: 'Tenta Browser 3.1.6 on a vivo 1915 running Android 9'
     result: { browser: { name: 'Tenta Browser', family: { name: Chrome, version: 64 }, version: 3.1.6, type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart, model: 'vivo 1915' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(60)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36'
+    readable: 'Chrome 100 on a Motorola Moto G60 running Android 11'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '11' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G60' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(60)s) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36'
+    readable: 'Chrome 100 on a Motorola Moto G60s running Android 11'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '11' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G60s' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 4a (5G)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36'
+    readable: 'Chrome 100 on a Google Pixel 4a 5G running Android 11'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '11' }, device: { type: mobile, subtype: smart, manufacturer: Google, model: 'Pixel 4a 5G' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; moto e(6i) Build/QOHS30.280-7-9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36'
+    readable: 'Chrome 99 on a Motorola Moto E6i running Android 10'
+    result: { browser: { name: Chrome, version: '99', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto E6i' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(9) play) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36'
+    readable: 'Chrome 100 on a Motorola Moto G9 Play running Android 11'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '11' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G9 Play' } }
