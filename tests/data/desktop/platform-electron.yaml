@@ -38,3 +38,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Electron/12.0.6 Safari/537.36'
     readable: 'Electron 12.0.6 on macOS Big Sur 11.3'
     result: { browser: { using: { name: Electron, version: 12.0.6 }, family: { name: Chrome, version: 89 }, type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '11.3', nickname: 'Big Sur' } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12_3_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Electron/12.0.9 Safari/537.36'
+    readable: 'Electron 12.0.9 on macOS Monterey 12.3'
+    result: { browser: { using: { name: Electron, version: 12.0.9 }, family: { name: Chrome, version: 89 }, type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '12.3', nickname: Monterey } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
