@@ -272,9 +272,11 @@ DeviceModels::$ANDROID_MODELS = [
     'Pixel 3a XL'                               => [ 'Google', 'Pixel 3a XL' ],
     'Pixel 4'                                   => [ 'Google', 'Pixel 4' ],
     'Pixel 4a'                                  => [ 'Google', 'Pixel 4a' ],
+    'Pixel 4a (5G)'                             => [ 'Google', 'Pixel 4a 5G' ],
     'Pixel 4 XL'                                => [ 'Google', 'Pixel 4 XL' ],
     'Pixel 5'                                   => [ 'Google', 'Pixel 5' ],
     'Pixel 6'                                   => [ 'Google', 'Pixel 6' ],
+    'Pixel 6 Pro'                               => [ 'Google', 'Pixel 6 Pro' ],
 
     /* Google Edition */
     'HTC One'                                   => [ 'HTC', 'One (Google Edition)' ],
@@ -1003,6 +1005,7 @@ DeviceModels::$ANDROID_MODELS = [
     '5024[D]!'                                  => [ 'Alcatel', '1S' ],
     '5025[DEGX]!'                               => [ 'Alcatel', 'One Touch Pop 3' ],
     '5027[B]!'                                  => [ 'Alcatel', 'One Touch Dawn' ],
+    '5030[F]!'                                  => [ 'Alcatel', '1SE' ],
     '5033[ADJOX]!'                              => [ 'Alcatel', '1' ],
     '5034[D]!'                                  => [ 'Alcatel', '3L' ],
     'one ?touch 5035!'                          => [ 'Alcatel', 'One Touch X\'Pop' ],
@@ -1033,6 +1036,7 @@ DeviceModels::$ANDROID_MODELS = [
     '5058[I]!'                                  => [ 'Alcatel', '3X' ],
     '5059[ADJTXY]!'                             => [ 'Alcatel', '1X' ],
     '5060[D]!'                                  => [ 'Alcatel', '5V' ],
+    '5061[U]!'                                  => [ 'Alcatel', '3X' ],
     '5065[ADJNWX]!'                             => [ 'Alcatel', 'One Touch Pixi 3 (5)' ],
     '5070[DJX]!'                                => [ 'Alcatel', 'One Touch Pop Star' ],
     '5080[A]!'                                  => [ 'Alcatel', 'Shine Lite' ],
@@ -1777,6 +1781,8 @@ DeviceModels::$ANDROID_MODELS = [
     'PadFone X'                                 => [ 'Asus', 'PadFone X', DeviceType::TABLET ],
     'PadFone X mini'                            => [ 'Asus', 'PadFone X mini (PF450CL)', DeviceType::TABLET ],
     'ETBW11AA'                                  => [ 'Asus', 'Tough' ],
+    'I003DD'                                    => [ 'Asus', 'ROG Phone 3' ],
+    'I006D'                                     => [ 'Asus', 'Zenfone 8 Mini' ],
     'K00C'                                      => [ 'Asus', 'Transformer Pad Infinity', DeviceType::TABLET ],
     'K010'                                      => [ 'Asus', 'Transformer Pad TF103', DeviceType::TABLET ],
     'K010E'                                     => [ 'Asus', 'Transformer Pad TF103', DeviceType::TABLET ],
@@ -2245,6 +2251,8 @@ DeviceModels::$ANDROID_MODELS = [
     'BBF100-[0-9]!'                             => [ 'BlackBerry', 'KEY2' ],
 
     'BV8000Pro'                                 => [ 'Blackview', 'BV8000 Pro' ],
+    'BV9100'                                    => [ 'Blackview', 'BV9100' ],
+    'BV9600E'                                   => [ 'Blackview', 'BV9600E' ],
     'P2Lite'                                    => [ 'Blackview', 'P2 Lite' ],
     
     'Endeavour!!' => [
@@ -2588,6 +2596,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Aquaris U Lite'                            => [ 'bq', 'Aquaris U Lite' ],
         'Aquaris U Plus'                            => [ 'bq', 'Aquaris U Plus' ],
         'Aquaris X'                                 => [ 'bq', 'Aquaris X' ],
+        'Aquaris X2'                                => [ 'bq', 'Aquaris X2' ],
         'Aquaris X5'                                => [ 'bq', 'Aquaris X5' ],
         'Aquaris X5 Plus'                           => [ 'bq', 'Aquaris X5 Plus' ],
         'bq Curie'                                  => [ 'bq', 'Curie', DeviceType::TABLET ],
@@ -2701,9 +2710,12 @@ DeviceModels::$ANDROID_MODELS = [
     'B15'                                       => [ 'CAT', 'B15' ],
     'B15Q'                                      => [ 'CAT', 'B15Q' ],
     'S30'                                       => [ 'CAT', 'S30' ],
+    'S31'                                       => [ 'CAT', 'S31' ],
     'S40'                                       => [ 'CAT', 'S40' ],
+    'S42'                                       => [ 'CAT', 'S42' ],
     'S50'                                       => [ 'CAT', 'S50' ],
     'S50c'                                      => [ 'CAT', 'S50c' ],
+    'S52'                                       => [ 'CAT', 'S52' ],
     'S61'                                       => [ 'CAT', 'S61' ],
     'S62 Pro'                                   => [ 'CAT', 'S62 Pro' ],
 
@@ -3471,6 +3483,7 @@ DeviceModels::$ANDROID_MODELS = [
 
     'S222'                                      => [ 'Cubot', 'S222' ],
     'S308'                                      => [ 'Cubot', 'S308' ],
+    'KINGKONG MINI2'                            => [ 'Cubot', 'King Kong Mini 2' ],
 
     '(CUBE ?)?(K8|U1|U2|U3|U5|U6|U8|U9)[0-9]?GT!!' => [
         'CUBE K8GT'                                 => [ 'Cube', 'K8GT', DeviceType::TABLET ],
@@ -3939,6 +3952,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Discovery2-DG500C'                         => [ 'Doogee', 'Discovery 2 DG500C' ],
     'DG750 Iron Bone'                           => [ 'Doogee', 'Iron Bone DG750' ],
     'TURBO DG2014'                              => [ 'Doogee', 'Turbo DG2014' ],
+    'S96Pro'                                    => [ 'Doogee', 'S96 Pro' ],
 
     'DOOV!!' => [
         'DOOV C1'                                   => [ 'DOOV', 'C1' ],
@@ -3992,6 +4006,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Doro 824'                                  => [ 'Doro', 'Liberto 824' ],
     '825 T-Mobile'                              => [ 'Doro', 'Liberto 825' ],
     'Doro PhoneEasy 745'                        => [ 'Doro', 'PhoneEasy 745' ],
+    'DSB-0220'                                  => [ 'Doro', '8080' ],
     'M975'                                      => [ 'Double Power', 'M975', DeviceType::TABLET ],
     'TD-1010'                                   => [ 'Double Power', 'TD-1010', DeviceType::TABLET ],
     'Tablet-P27'                                => [ 'DracoTek', 'P27 Tablet', DeviceType::TABLET ],
@@ -4281,6 +4296,7 @@ DeviceModels::$ANDROID_MODELS = [
     'FP1U'                                      => [ 'Fairphone', '1' ],
     'FP2'                                       => [ 'Fairphone', '2' ],
     'FP3'                                       => [ 'Fairphone', '3' ],
+    'FP4'                                       => [ 'Fairphone', '4' ],
 
     'FDT!!' => [
         'FDT C838'                                  => [ 'FDT', 'C838' ],
@@ -4725,7 +4741,12 @@ DeviceModels::$ANDROID_MODELS = [
         'Gigaset QV1030'                            => [ 'Gigaset', 'QV1030', DeviceType::TABLET ],
     ],
 
+    'GS110'                                     => [ 'Gigaset', 'GS110' ],
     'GS190'                                     => [ 'Gigaset', 'GS190' ],
+    'GS270 plus'                                => [ 'Gigaset', 'GS270 Plus' ],
+    'E940-2795-00'                              => [ 'Gigaset', 'GS4' ],
+    'E940-2796-00'                              => [ 'Gigaset', 'GS4' ],
+
     '80-1'                                      => [ 'Gigaset', 'Maxwell 10', DeviceType::DECT ],
     'SL930'                                     => [ 'Gigaset', 'SL930', DeviceType::DECT ],
 
@@ -6132,6 +6153,9 @@ DeviceModels::$ANDROID_MODELS = [
     'Huawei MediaPad T1 7.0 3G'                 => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
     'Huawei MediaPad T1 8.0 4G'                 => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
     'Huawei MediaPad T1 10 4G'                  => [ 'Huawei', 'MediaPad T1', DeviceType::TABLET ],
+    
+    'SHT-W09'                                   => [ 'Huawei', 'MediaPad M5', DeviceType::TABLET ],
+    'AGS2-W09'                                  => [ 'Huawei', 'MediaPad T5', DeviceType::TABLET ],
 
     'MediaPad!!' => [
         'MediaPad'                                  => [ 'Huawei', 'MediaPad', DeviceType::TABLET ],
@@ -6249,7 +6273,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?JKM-(AL00|AL00a|AL00b|LX1|LX2|LX3|TL00)!'        => [ 'Huawei', 'Enjoy 9 Plus' ],
     ],
 
-    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JMM|JSN|LRA|KIW|LLD|NEM|NMO|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!' => [
+    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!' => [
         'H30 U10'                                                       => [ 'Huawei', 'Honor 3C' ],
         '(HW-|HUAWEI )?HN3-(U00|U01)!'                                  => [ 'Huawei', 'Honor 3' ],
         '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!'        => [ 'Huawei', 'Honor 3C' ],
@@ -6272,6 +6296,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?BND-(AL00|AL10|L21|L24|L31|L34|TL10)!'           => [ 'Huawei', 'Honor 7X' ],
         '(HW-|HUAWEI )?DUA-(AL00|TL00)!'                                => [ 'Huawei', 'Honor 7 Play' ],
         '(HW-|HUAWEI )?FRD-(AL00|AL10|DL00|L02|L04|L09|L14|L19)!'       => [ 'Huawei', 'Honor 8' ],
+        '(HW-|HUAWEI )?JAT-(L41|LX1|LX3)!'                              => [ 'Huawei', 'Honor 8A Pro' ],
         '(HW-|HUAWEI )?BKK-(AL00|AL10|L21|LX2)!'                        => [ 'Huawei', 'Honor 8C' ],
         '(HW-|HUAWEI )?JSN-(AL00|AL00a|L21|L22|L23|L42|TL00)!'          => [ 'Huawei', 'Honor 8X' ],
         '(HW-|HUAWEI )?ATH-(UL01|UL06)!'                                => [ 'Huawei', 'Honor ShotX' ],
@@ -6291,6 +6316,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?PCT-(AL10|L29|TL10)!'                            => [ 'Huawei', 'Honor V20' ],
         '(HW-|HUAWEI )?OXF-(AN10)!'                                     => [ 'Huawei', 'Honor V30 Pro' ],
         '(HW-|HUAWEI )?TNY-(AL00)!'                                     => [ 'Huawei', 'Honor Magic 2' ],
+        '(HW-|HUAWEI )?COR-(AL10|L29)!'                                 => [ 'Huawei', 'Honor Play' ],
         '(HW-|HUAWEI )?HDN-(L09|W09)!'                                  => [ 'Huawei', 'Honor WaterPlay', DeviceType::TABLET ],
     ],
 
@@ -6301,7 +6327,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?BLL-(L21|L22|L23)!'                              => [ 'Huawei', 'GR5 (2017)' ],
     ],
 
-    '(HW-|HUAWEI )?(ALE|ANE|CLT|D2|DAV|ELE|EML|EVA|FIG|G6|G7|GRA|MAR|M100|P2|P6|P7|PRA|RIO|SC|Sophia|STK|VIE|VKY|VNS|VOG|VTR|WAS)!!' => [
+    '(HW-|HUAWEI )?(ALE|ANE|CLT|D2|DAV|ELE|EML|EVA|FIG|G6|G7|GRA|JNY|MAR|M100|P2|P6|P7|PRA|RIO|SC|Sophia|STK|VIE|VKY|VNS|VOG|VTR|WAS)!!' => [
         'HUAWEI D2'                                                     => [ 'Huawei', 'Ascend D2' ],
         '(HW-|HUAWEI )?D2-(0082|2010|5000|6070|6114)!'                  => [ 'Huawei', 'Ascend D2' ],
         '(HW-|HUAWEI )?G6-(C00|L11|L22|L33|T00|U00|U10|U34|U251)!'      => [ 'Huawei', 'Ascend G6' ],
@@ -6326,19 +6352,20 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?WAS-?(AL00|L03T|LX1|LX1A|LX2|LX2J|LX3|TL10)!'    => [ 'Huawei', 'P10 Lite' ],
         '(HW-|HUAWEI )?VKY-?(AL00|L09|L29|TL00)!'                       => [ 'Huawei', 'P10 Plus' ],
         '(HW-|HUAWEI )?FIG-?(AL00|AL10|LA1|LX1|LX3|TL00)!'              => [ 'Huawei', 'P Smart' ],
-        '(HW-|HUAWEI )?STK-?(L22|LX1|LX3)!'                             => [ 'Huawei', 'P Smart Z' ],
+        '(HW-|HUAWEI )?STK-?(L21|L22|LX1|LX3)!'                         => [ 'Huawei', 'P Smart Z' ],
         '(HW-|HUAWEI )?EML-?(AL00|L09|L29|TL00)!'                       => [ 'Huawei', 'P20' ],
         '(HW-|HUAWEI )?ANE-?(AL00|L21|LX1|LX2|LX2J|LX3)!'               => [ 'Huawei', 'P20 Lite' ],
         '(HW-|HUAWEI )?CLT-?(AL00|AL01|L04|L09|L29|L39|TL00|TL01)!'     => [ 'Huawei', 'P20 Pro' ],
         '(HW-|HUAWEI )?ELE-?(AL00|L04|L09|L29|TL00)!'                   => [ 'Huawei', 'P30' ],
         '(HW-|HUAWEI )?VOG-?(AL00|AL10|L04|L09|L29|TL00)!'              => [ 'Huawei', 'P30 Pro' ],
         '(HW-|HUAWEI )?MAR-?(LX1B)!'                                    => [ 'Huawei', 'P30 Lite' ],
+        '(HW-|HUAWEI )?JNY-?(LX1)!'                                     => [ 'Huawei', 'P40 Lite' ],
     ],
 
     'Rock-(AL00|CL00|L01|L03)!'                                     => [ 'Huawei', 'Ascend G7' ],
     'HUAWEI A168-(AL10|DL09|L09|L29)!'                              => [ 'Huawei', 'P9' ],
 
-    '(HW-|HUAWEI )?(CRO|LUA|CUN|SCC|SCU|CAM|LDN|LYO|MYA)!!' => [
+    '(HW-|HUAWEI )?(ART|CRO|LUA|CUN|DUB|SCC|SCU|CAM|LDN|LYO|MYA)!!' => [
         '(HW-|HUAWEI )?CRO-(L02|L03|L22|U00)!'                          => [ 'Huawei', 'Y3 (2017)' ],
         '(HW-|HUAWEI )?LUA-(L01|L02|L03|L13|L21|L22|L23|U02|U03|U22|U23)!'  => [ 'Huawei', 'Y3 II' ],
         '(HW-|HUAWEI )?CUN-(AL00|L01|L02|L03|L21|L22|L23|L33|TL00|U29)!'   => [ 'Huawei', 'Y5 II' ],
@@ -6348,12 +6375,15 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?CAM-(L01|L03|L11|L21|L23|L32|AL00|CL00|TL00|UL00)!'   => [ 'Huawei', 'Y6 II' ],
         '(HW-|HUAWEI )?LYO-(L01|L02|L21)!'                              => [ 'Huawei', 'Y6 II Compact' ],
         '(HW-|HUAWEI )?LDN-(AL00|L01|L21|LX2|LX3|TL00)!'                => [ 'Huawei', 'Y7 Prime (2018)' ],
+        '(HW-|HUAWEI )?DUB-(LX1|LX3)!'                                  => [ 'Huawei', 'Y7 Prime (2019)' ],
+        '(HW-|HUAWEI )?ART-(L29)!'                                      => [ 'Huawei', 'Y7p' ],
     ],
 
     '(HW-|HUAWEI )?CAZ-(AL10|TL10|TL20)!'           => [ 'Huawei', 'Nova' ],
     '(HW-|HUAWEI )?CAN-(L01|L11|L12)!'              => [ 'Huawei', 'Nova' ],
     '(HW-|HUAWEI )?MLA-(L01|L03|L11|L12|L13)!'      => [ 'Huawei', 'Nova Plus' ],
     '(HW-|HUAWEI )?DIG-(AL00|L01|L03|L21|TL10)!'    => [ 'Huawei', 'Nova Smart' ],
+    '(HW-|HUAWEI )?PIC-(LX9)!'                      => [ 'Huawei', 'Nova 2' ],
     '(HW-|HUAWEI )?BAC-(AL00|L03|L21|L22|TL00)!'    => [ 'Huawei', 'Nova 2 Plus' ],
     '(HW-|HUAWEI )?HWI-(AL00|TL00)!'                => [ 'Huawei', 'Nova 2S' ],
     '(HW-|HUAWEI )?PAR-(AL00|LX1|LX1M|LX9|TL00)!'   => [ 'Huawei', 'Nova 3' ],
@@ -7147,6 +7177,8 @@ DeviceModels::$ANDROID_MODELS = [
         'Infinix X801'                              => [ 'Infinix', 'Joypad 8S X801', DeviceType::TABLET ],
         'Infinix X1000'                             => [ 'Infinix', 'Joypad 10 X1000', DeviceType::TABLET ],
     ],
+
+    'S5 Pro'                                        => [ 'Infinix', 'S5 Pro' ],
 
     'IN[0-9]{3,3}!!' => [
         'IN260'                                     => [ 'InFocus', 'IN260' ],
@@ -8462,7 +8494,13 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'Lenovo TB-7304F'                           => [ 'Lenovo', 'Tab 7 Essential', DeviceType::TABLET ], 
+    'Lenovo TB-8705F'                           => [ 'Lenovo', 'Tab M8', DeviceType::TABLET ], 
+    'Lenovo TB-J606F'                           => [ 'Lenovo', 'Tab P11', DeviceType::TABLET ], 
     'Lenovo TB-J616F'                           => [ 'Lenovo', 'Tab P11', DeviceType::TABLET ], 
+    'Lenovo TB-X104F'                           => [ 'Lenovo', 'Tab E10', DeviceType::TABLET ], 
+    'Lenovo TB-X306F'                           => [ 'Lenovo', 'Tab M10 HD', DeviceType::TABLET ], 
+    'Lenovo TB-X505F'                           => [ 'Lenovo', 'Tab M10', DeviceType::TABLET ], 
+    'Lenovo TB-X605F'                           => [ 'Lenovo', 'Tab M10', DeviceType::TABLET ], 
     'Lenovo TB-X606F'                           => [ 'Lenovo', 'Tab M11 FHD Plus', DeviceType::TABLET ], 
     'Lenovo TB-X103F'                           => [ 'Lenovo', 'Tab 10', DeviceType::TABLET ],
     'TB-X103F'                                  => [ 'Lenovo', 'Tab 10', DeviceType::TABLET ],
@@ -8654,6 +8692,7 @@ DeviceModels::$ANDROID_MODELS = [
         'Lenovo K50-t3s'                            => [ 'Lenovo', 'K3 Note' ],
         'Lenovo K50-T5'                             => [ 'Lenovo', 'K3 Note' ],
         'Lenovo K50t5'                              => [ 'Lenovo', 'K3 Note' ],
+        'Lenovo K520'                               => [ 'Lenovo', 'S5' ],
         'Lenovo K6'                                 => [ 'Lenovo', 'K6' ],
         'Lenovo N300'                               => [ 'Lenovo', 'N300', DeviceType::DESKTOP ],
         'Lenovo N308'                               => [ 'Lenovo', 'N308', DeviceType::DESKTOP ],
@@ -9443,8 +9482,12 @@ DeviceModels::$ANDROID_MODELS = [
     'LM-G810!'                                  => [ 'LG', 'G8s ThinQ' ],
     'LM-G820!'                                  => [ 'LG', 'G8 ThinQ' ],
     'LM-G900!'                                  => [ 'LG', 'Velvet' ],
+    'LM-G910!'                                  => [ 'LG', 'Velvet 4G' ],
+    'LM-K200!'                                  => [ 'LG', 'K22' ],
+    'LM-K420!'                                  => [ 'LG', 'K42' ],
     'LM-Q610!'                                  => [ 'LG', 'Q7' ],
     'LM-Q617!'                                  => [ 'LG', 'Q7 BTS Edition' ],
+    'LM-Q630!'                                  => [ 'LG', 'K61' ],
     'LM-Q710!'                                  => [ 'LG', 'Q Stylus+' ],
     'LM-Q720!'                                  => [ 'LG', 'Stylo 5' ],
     'LM-Q725!'                                  => [ 'LG', 'Q7 Plus' ],
@@ -9942,6 +9985,8 @@ DeviceModels::$ANDROID_MODELS = [
         'LIFETAB E10312'                            => [ 'Medion', 'Lifetab E10312', DeviceType::TABLET ],
         'LIFETAB E10316'                            => [ 'Medion', 'Lifetab E10316', DeviceType::TABLET ],
         'LIFETAB E10320'                            => [ 'Medion', 'Lifetab E10320', DeviceType::TABLET ],
+        'LIFETAB E1070X'                            => [ 'Medion', 'Lifetab E1070X', DeviceType::TABLET ],
+        'LIFETAB E1071X'                            => [ 'Medion', 'Lifetab E1071X', DeviceType::TABLET ],
         'LIFETAB P733X'                             => [ 'Medion', 'Lifetab P733X', DeviceType::TABLET ],
         'LIFETAB P831X'                             => [ 'Medion', 'Lifetab P831X', DeviceType::TABLET ],
         'LIFETAB P831X.2'                           => [ 'Medion', 'Lifetab P831X', DeviceType::TABLET ],
@@ -9972,6 +10017,8 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'P1050X'                                    => [ 'Medion', 'Lifetab P1050X', DeviceType::TABLET ],
+    'P1060X'                                    => [ 'Medion', 'Lifetab P1060X', DeviceType::TABLET ],
+    'X1030X'                                    => [ 'Medion', 'Lifetab X1030X', DeviceType::TABLET ],
 
     'MEEG!!' => [
         'MEEG 101'                                  => [ 'MEEG', '101' ],
@@ -10703,11 +10750,17 @@ DeviceModels::$ANDROID_MODELS = [
 
     'motorola one'                              => [ 'Motorola', 'One' ],
     'motorola one action'                       => [ 'Motorola', 'One Action' ],
+    'motorola one fusion+'                      => [ 'Motorola', 'One Fusion+' ],
+    'motorola one hyper'                        => [ 'Motorola', 'One Hyper' ],
     'motorola one macro'                        => [ 'Motorola', 'One Macro' ],
     'motorola one power'                        => [ 'Motorola', 'One Power' ],
     'motorola one vision'                       => [ 'Motorola', 'One Vision' ],
     'motorola one zoom'                         => [ 'Motorola', 'One Zoom' ],
 
+    'motorola edge'                             => [ 'Motorola', 'Edge' ],
+    'motorola edge plus'                        => [ 'Motorola', 'Edge Plus' ],
+    'motorola edge 20'                          => [ 'Motorola', 'Edge 20' ],
+    'motorola edge 20 lite'                     => [ 'Motorola', 'Edge 20 Lite' ],
     'motorola edge 20 pro'                      => [ 'Motorola', 'Edge 20 Pro' ],
 
     'Atrix 2'                                   => [ 'Motorola', 'ATRIX 2' ],
@@ -10767,8 +10820,15 @@ DeviceModels::$ANDROID_MODELS = [
     'Moto E4'                                   => [ 'Motorola', 'Moto E4' ],
     'Moto E (4)'                                => [ 'Motorola', 'Moto E4' ],
     'Moto E (4) Plus'                           => [ 'Motorola', 'Moto E4 Plus' ],
+    'moto e5'                                   => [ 'Motorola', 'Moto E5' ],
     'moto e5 cruise'                            => [ 'Motorola', 'Moto E5 Cruise' ],
     'moto e5 play'                              => [ 'Motorola', 'Moto E5 Play' ],
+    'moto e5 plus'                              => [ 'Motorola', 'Moto E5 Plus' ],
+    'moto e(6i)'                                => [ 'Motorola', 'Moto E6i' ],
+    'moto e6 play'                              => [ 'Motorola', 'Moto E6 Play' ],
+    'moto e(6) plus'                            => [ 'Motorola', 'Moto E6 Plus' ],
+    'moto e(7i) power'                          => [ 'Motorola', 'Moto E7i Power' ],
+    'moto e20'                                  => [ 'Motorola', 'Moto E20' ],
     '(Moto)?G3$!'                               => [ 'Motorola', 'Moto G (2015)' ],
     '(Moto)?G3-TE$!'                            => [ 'Motorola', 'Moto G (2015)' ],
     'Moto G 2015'                               => [ 'Motorola', 'Moto G (2015)' ],
@@ -10779,6 +10839,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Moto G Turbo'                              => [ 'Motorola', 'Moto G Turbo' ],
     'moto g 5G'                                 => [ 'Motorola', 'Moto G 5G' ],
     'moto g 5G plus'                            => [ 'Motorola', 'Moto G 5G Plus' ],
+    'moto g pro'                                => [ 'Motorola', 'Moto G Pro' ],
     'Moto G4'                                   => [ 'Motorola', 'Moto G4' ],
     'Moto G (4'                                 => [ 'Motorola', 'Moto G4' ],
     'Moto G (4)'                                => [ 'Motorola', 'Moto G4' ],
@@ -10804,11 +10865,20 @@ DeviceModels::$ANDROID_MODELS = [
     'moto g(7) power'                           => [ 'Motorola', 'Moto G7 Power' ],
     'moto g(7) supra'                           => [ 'Motorola', 'Moto G7 Supra' ],
     'moto g(8'                                  => [ 'Motorola', 'Moto G8' ],
+    'moto g(8) plus'                            => [ 'Motorola', 'Moto G8 Plus' ],
     'moto g(8) power'                           => [ 'Motorola', 'Moto G8 Power' ],
+    'moto g(9) play'                            => [ 'Motorola', 'Moto G9 Play' ],
     'moto g(9) plus'                            => [ 'Motorola', 'Moto G9 Plus' ],
     'moto g(9) power'                           => [ 'Motorola', 'Moto G9 Power' ],
+    'moto g(10)'                                => [ 'Motorola', 'Moto G10' ],
+    'moto g(20)'                                => [ 'Motorola', 'Moto G20' ],
+    'moto g(30)'                                => [ 'Motorola', 'Moto G30' ],
+    'moto g(60)'                                => [ 'Motorola', 'Moto G60' ],
+    'moto g(60)s'                               => [ 'Motorola', 'Moto G60s' ],
+    'moto g(100)'                               => [ 'Motorola', 'Moto G100' ],
     'Moto Z (2)'                                => [ 'Motorola', 'Moto Z2' ],
     'Moto Z2 Play'                              => [ 'Motorola', 'Moto Z2 Play' ],
+    'Moto Z3 Play'                              => [ 'Motorola', 'Moto Z3 Play' ],
     'Moto X Pro'                                => [ 'Motorola', 'Moto X Pro' ],
     'moto x4'                                   => [ 'Motorola', 'Moto X4' ],
     'roiX'                                      => [ 'Motorola', 'Droid X' ],
@@ -11371,7 +11441,7 @@ DeviceModels::$ANDROID_MODELS = [
     'ONEPLUS A6003'                             => [ 'OnePlus', '6' ],
     'ONEPLUS A6010'                             => [ 'OnePlus', '6T' ],
     'ONEPLUS A6013'                             => [ 'OnePlus', '6T' ],
-    'HD190[01]!'                                => [ 'OnePlus', '7T' ],
+    'HD190[013]!'                               => [ 'OnePlus', '7T' ],
     'HD191[03]!'                                => [ 'OnePlus', '7T Pro' ],
     'GM190[0135]!'                              => [ 'OnePlus', '7' ],
     'GM191[01357]!'                             => [ 'OnePlus', '7 Pro' ],
@@ -11381,6 +11451,7 @@ DeviceModels::$ANDROID_MODELS = [
     'LE2101'                                    => [ 'OnePlus', '9T' ],
     'LE211[135]!'                               => [ 'OnePlus', '9' ],
     'LE212[01357]!'                             => [ 'OnePlus', '9 Pro' ],
+    'NE2213'                                    => [ 'OnePlus', '10 Pro' ],
     'ONE E1000'                                 => [ 'OnePlus', 'X' ],
     'ONE E1001'                                 => [ 'OnePlus', 'X' ],
     'ONE E1003'                                 => [ 'OnePlus', 'X' ],
@@ -11388,6 +11459,9 @@ DeviceModels::$ANDROID_MODELS = [
     'AC2003'                                    => [ 'OnePlus', 'Nord' ],
     'DN2103'                                    => [ 'OnePlus', 'Nord 2' ],
     'EB2103'                                    => [ 'OnePlus', 'Nord CE' ],
+    'IV2201'                                    => [ 'OnePlus', 'Nord CE 2' ],
+    'BE2029'                                    => [ 'OnePlus', 'Nord N10' ],
+    'BE2013'                                    => [ 'OnePlus', 'Nord N100' ],
     'ONDA MID'                                  => [ 'Onda', 'MID', DeviceType::TABLET ],
     'ONDA A9 Core4'                             => [ 'Onda', 'A9 Quad Core', DeviceType::TABLET ],
     'ONDA VI10'                                 => [ 'Onda', 'VI10', DeviceType::TABLET ],
@@ -11496,27 +11570,44 @@ DeviceModels::$ANDROID_MODELS = [
     'CPH1859'                                   => [ 'Oppo', 'F7 Youth' ],
     'CPH1881'                                   => [ 'Oppo', 'F9' ],
     'CPH1823'                                   => [ 'Oppo', 'F9 Pro' ],
+    'CPH1837'                                   => [ 'Oppo', 'A3' ],
+    'CPH1877'                                   => [ 'Oppo', 'RX17 Pro' ],
+    'CPH1893'                                   => [ 'Oppo', 'RX17 Neo' ],
     'CPH1907'                                   => [ 'Oppo', 'Reno 2' ],
+    'CPH1911'                                   => [ 'Oppo', 'F11' ],
+    'CPH1917'                                   => [ 'Oppo', 'Reno' ],
+    'CPH1919'                                   => [ 'Oppo', 'Reno 10x Zoom' ],
     'CPH1931'                                   => [ 'Oppo', 'A5 (2020)' ],
+    'CPH1951'                                   => [ 'Oppo', 'Reno 2Z' ],
     'CPH1969'                                   => [ 'Oppo', 'F11 Pro' ],
+    'CPH2005'                                   => [ 'Oppo', 'Find X2 Lite' ],
+    'CPH2009'                                   => [ 'Oppo', 'Find X2 Neo' ],
     'CPH2021'                                   => [ 'Oppo', 'A91' ],
+    'CPH2023'                                   => [ 'Oppo', 'Find X2' ],
+    'CPH2025'                                   => [ 'Oppo', 'Find X2 Pro' ],
     'CPH2043'                                   => [ 'Oppo', 'Reno 3' ],
+    'CPH2065'                                   => [ 'Oppo', 'Reno 4Z' ],
     'CPH2067'                                   => [ 'Oppo', 'A72' ],
+    'CPH2069'                                   => [ 'Oppo', 'A52' ],
     'CPH2089'                                   => [ 'Oppo', 'Reno 4 Pro' ],
     'CPH2091'                                   => [ 'Oppo', 'Reno 4' ],
     'CPH2127'                                   => [ 'Oppo', 'A53' ],
     'CPH2135'                                   => [ 'Oppo', 'A53s' ],
     'CPH2145'                                   => [ 'Oppo', 'Find X3 Lite' ],
     'CPH2161'                                   => [ 'Oppo', 'A73' ],
+    'CPH2173'                                   => [ 'Oppo', 'Find X3 Pro' ],
     'CPH2185'                                   => [ 'Oppo', 'A15' ],
     'CPH2195'                                   => [ 'Oppo', 'A54' ],
     'CPH2197'                                   => [ 'Oppo', 'A74' ],
     'CPH2207'                                   => [ 'Oppo', 'Find X3 Neo' ],
     'CPH2211'                                   => [ 'Oppo', 'A94' ],
     'CPH2219'                                   => [ 'Oppo', 'A74' ],
+    'CPH2247'                                   => [ 'Oppo', 'Reno 6 Pro' ],
     'CPH2251'                                   => [ 'Oppo', 'Reno 6' ],
     'CPH2269'                                   => [ 'Oppo', 'A16' ],
     'CPH2273'                                   => [ 'Oppo', 'A54s' ],
+    'CPH2307'                                   => [ 'Oppo', 'Find X5' ],
+    'CPH2371'                                   => [ 'Oppo', 'Reno 7' ],
     'Find 5'                                    => [ 'Oppo', 'Find 5' ],
     'X903'                                      => [ 'Oppo', 'Find Me X903' ],
     'X903S'                                     => [ 'Oppo', 'Find X903S' ],
@@ -13309,7 +13400,9 @@ DeviceModels::$ANDROID_MODELS = [
 
     'SM-A[0-9]{3,3}!!' => [
         'SM-A015!'                                  => [ 'Samsung', 'Galaxy A01' ],
+        'SM-A022!'                                  => [ 'Samsung', 'Galaxy A02' ],
         'SM-A025!'                                  => [ 'Samsung', 'Galaxy A02s' ],
+        'SM-A037!'                                  => [ 'Samsung', 'Galaxy A03s' ],
         'SM-A102!'                                  => [ 'Samsung', 'Galaxy A10e' ],
         'SM-A105!'                                  => [ 'Samsung', 'Galaxy A10' ],
         'SM-A107!'                                  => [ 'Samsung', 'Galaxy A10s' ],
@@ -13322,6 +13415,8 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A207!'                                  => [ 'Samsung', 'Galaxy A20s' ],
         'SM-A215!'                                  => [ 'Samsung', 'Galaxy A21' ],
         'SM-A217!'                                  => [ 'Samsung', 'Galaxy A21s' ],
+        'SM-A225!'                                  => [ 'Samsung', 'Galaxy A22' ],
+        'SM-A226!'                                  => [ 'Samsung', 'Galaxy A22 5G' ],
         'SM-A260!'                                  => [ 'Samsung', 'Galaxy A2 Core' ],
         'SM-A300!'                                  => [ 'Samsung', 'Galaxy A3' ],
         'SM-A305!'                                  => [ 'Samsung', 'Galaxy A30' ],
@@ -13348,6 +13443,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A526!'                                  => [ 'Samsung', 'Galaxy A52 5G' ],
         'SM-A528!'                                  => [ 'Samsung', 'Galaxy A52s 5G' ],
         'SM-A530!'                                  => [ 'Samsung', 'Galaxy A8 (2018)' ],
+        'SM-A536!'                                  => [ 'Samsung', 'Galaxy A53' ],
         'SM-A600!'                                  => [ 'Samsung', 'Galaxy A6 (2018)' ],
         'SM-A6050!'                                 => [ 'Samsung', 'Galaxy A9 Star Lite' ],
         'SM-A605!'                                  => [ 'Samsung', 'Galaxy A6+ (2018)' ],
@@ -13366,6 +13462,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-A810!'                                  => [ 'Samsung', 'Galaxy A8 (2016)' ],
         'SM-A850!'                                  => [ 'Samsung', 'Galaxy Alpha' ],
         'SM-A900!'                                  => [ 'Samsung', 'Galaxy A9 (2016)' ],
+        'SM-A908!'                                  => [ 'Samsung', 'Galaxy A90 5G' ],
         'SM-A910!'                                  => [ 'Samsung', 'Galaxy A9 Pro' ],
         'SM-A920!'                                  => [ 'Samsung', 'Galaxy A9 (2018)' ],
     ],
@@ -13393,6 +13490,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-F900!'                                  => [ 'Samsung', 'Galaxy Fold' ],
         'SM-F910!'                                  => [ 'Samsung', 'Galaxy Z Fold2' ],
         'SM-F916!'                                  => [ 'Samsung', 'Galaxy Z Fold2 5G' ],
+        'SM-F926!'                                  => [ 'Samsung', 'Galaxy Z Fold3 5G' ],
     ],
 
     'SM-G[0-9]{3,3}!!' => [
@@ -13435,11 +13533,13 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-G388!'                                  => [ 'Samsung', 'Galaxy Xcover 3' ],
         'SM-G389!'                                  => [ 'Samsung', 'Galaxy Xcover 3 VE' ],
         'SM-G390!'                                  => [ 'Samsung', 'Galaxy Xcover 4' ],
+        'SM-G398!'                                  => [ 'Samsung', 'Galaxy Xcover 4s' ],
         'SM-G420!'                                  => [ 'Samsung', 'SM-G420' ],                                // Unknown
         'SM-G430!'                                  => [ 'Samsung', 'SM-G430' ],                                // Unknown
         'SM-G480!'                                  => [ 'Samsung', 'Galaxy S8' ],
         'SM-G485!'                                  => [ 'Samsung', 'Galaxy S8+' ],
         'SM-G510!'                                  => [ 'Samsung', 'Galaxy Core Max' ],
+        'SM-G525!'                                  => [ 'Samsung', 'Galaxy Xcover 5' ],
         'SM-G530!'                                  => [ 'Samsung', 'Galaxy Grand Prime' ],
         'SM-G531!'                                  => [ 'Samsung', 'Galaxy Grand Prime VE' ],
         'SM-G532!'                                  => [ 'Samsung', 'Galaxy Grand Prime+' ],
@@ -13545,13 +13645,18 @@ DeviceModels::$ANDROID_MODELS = [
     'SM-M[0-9]{3,4}!!' => [
         'SM-M105!'                                  => [ 'Samsung', 'Galaxy M10' ],
         'SM-M205!'                                  => [ 'Samsung', 'Galaxy M20' ],
+        'SM-M215!'                                  => [ 'Samsung', 'Galaxy M21' ],
+        'SM-M225!'                                  => [ 'Samsung', 'Galaxy M22' ],
         'SM-M305!'                                  => [ 'Samsung', 'Galaxy M30' ],
         'SM-M315!'                                  => [ 'Samsung', 'Galaxy M31' ],
+        'SM-M515!'                                  => [ 'Samsung', 'Galaxy M51' ],
+        'SM-M526!'                                  => [ 'Samsung', 'Galaxy M52' ],
     ],
 
     'SM-N[0-9]{3,4}!!' => [
         'SM-N750[025789][QV]?!'                     => [ 'Samsung', 'Galaxy Note 3 Neo' ],
         'SM-N750[LS]?!'                             => [ 'Samsung', 'Galaxy Note 3 Neo' ],
+        'SM-N770!'                                  => [ 'Samsung', 'Galaxy Note 10 Lite' ],
         'SM-N8000'                                  => [ 'Samsung', 'Galaxy Note 800', DeviceType::TABLET ],
         'SM-N900[0256789]?!'                        => [ 'Samsung', 'Galaxy Note 3' ],
         'SM-N900!'                                  => [ 'Samsung', 'Galaxy Note 3' ],
@@ -13566,6 +13671,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-N970!'                                  => [ 'Samsung', 'Galaxy Note 10' ],
         'SM-N975!'                                  => [ 'Samsung', 'Galaxy Note 10+' ],
         'SM-N976!'                                  => [ 'Samsung', 'Galaxy Note 10+ 5G' ],
+        'SM-N980!'                                  => [ 'Samsung', 'Galaxy Note 20' ],
         'SM-N981!'                                  => [ 'Samsung', 'Galaxy Note 20 5G' ],
         'SM-N986!'                                  => [ 'Samsung', 'Galaxy Note 20 Ultra 5G' ],
     ],
@@ -13575,7 +13681,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-P55[015]!'                              => [ 'Samsung', 'Galaxy Tab A Plus 9.7', DeviceType::TABLET ],
         'SM-P58[058]!'                              => [ 'Samsung', 'Galaxy Tab A 10.1 with S Pen (2016)', DeviceType::TABLET ],
         'SM-P60[01257]!'                            => [ 'Samsung', 'Galaxy Note 10.1 (2014)', DeviceType::TABLET ],
-        'SM-P61[0]!'                                => [ 'Samsung', 'Galaxy Tab S6 Lite', DeviceType::TABLET ],
+        'SM-P61[05]!'                               => [ 'Samsung', 'Galaxy Tab S6 Lite', DeviceType::TABLET ],
         'SM-P90[01257]!'                            => [ 'Samsung', 'Galaxy Note Pro', DeviceType::TABLET ],
     ],
 
@@ -13600,6 +13706,7 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-S902L'                                  => [ 'Samsung', 'Galaxy S5' ],
         'SM-S903VL'                                 => [ 'Samsung', 'Galaxy S5' ],
         'SM-S906L'                                  => [ 'Samsung', 'Galaxy S6' ],
+        'SM-S906B'                                  => [ 'Samsung', 'Galaxy S22+' ],
         'SM-S907VL'                                 => [ 'Samsung', 'Galaxy S6' ],
         'SM-S908B'                                  => [ 'Samsung', 'Galaxy S22 Ultra' ],
         'SM-S920L'                                  => [ 'Samsung', 'Galaxy Grand Prime' ],
@@ -13612,11 +13719,12 @@ DeviceModels::$ANDROID_MODELS = [
         'SM-T11[36]!'                               => [ 'Samsung', 'Galaxy Tab 3V 7.0', DeviceType::TABLET ],
         'SM-T2105'                                  => [ 'Samsung', 'Galaxy Tab 3 Kids', DeviceType::TABLET ],
         'SM-T21[01257]!'                            => [ 'Samsung', 'Galaxy Tab 3 7.0', DeviceType::TABLET ],
+        'SM-T220!'                                  => [ 'Samsung', 'Galaxy Tab A7 Lite', DeviceType::TABLET ],
         'SM-T2519'                                  => [ 'Samsung', 'Galaxy Tab Q' ],
         'SM-T255[68S]!'                             => [ 'Samsung', 'Galaxy Tab Q' ],
         'SM-T23[012579]!'                           => [ 'Samsung', 'Galaxy Tab 4 7.0', DeviceType::TABLET ],
         'SM-T28[057]!'                              => [ 'Samsung', 'Galaxy Tab A 7.0', DeviceType::TABLET ],
-        'SM-T29[0]!'                                => [ 'Samsung', 'Galaxy Tab A 8.0 (2019)', DeviceType::TABLET ],
+        'SM-T29[05]!'                               => [ 'Samsung', 'Galaxy Tab A 8.0 (2019)', DeviceType::TABLET ],
         'SM-T30[7]!'                                => [ 'Samsung', 'Galaxy Tab A 8.4 (2020)', DeviceType::TABLET ],
         'SM-T31[0125]!'                             => [ 'Samsung', 'Galaxy Tab 3 8.0', DeviceType::TABLET ],
         'SM-T32[0125]!'                             => [ 'Samsung', 'Galaxy Tab Pro 8.4', DeviceType::TABLET ],
@@ -13662,6 +13770,8 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'SM-X200'                                   => [ 'Samsung', 'Galaxy Tab A8 10.5', DeviceType::TABLET ],
+    'SM-X205'                                   => [ 'Samsung', 'Galaxy Tab A8 10.5', DeviceType::TABLET ],
+    'SM-X900'                                   => [ 'Samsung', 'Galaxy Tab S8 Ultra', DeviceType::TABLET ],
 
     'SM-V700'                                   => [ 'Samsung', 'Galaxy Gear', DeviceType::WATCH ],
 
@@ -14000,6 +14110,7 @@ DeviceModels::$ANDROID_MODELS = [
     'DM-01H'                                    => [ 'Sharp', 'DM-01H', 'carrier' => 'Disney Mobile' ],
     'DM-01J'                                    => [ 'Sharp', 'DM-01J', 'carrier' => 'Disney Mobile' ],
 
+    'SH-C02'                                    => [ 'Sharp', 'AQUOS V SH-C02' ],
     'SH-M01'                                    => [ 'Sharp', 'AQUOS SH-M01' ],
     'SH-M02'                                    => [ 'Sharp', 'AQUOS SH-M02' ],
     'SH-M02-EVA20'                              => [ 'Sharp', 'AQUOS SH-M02' ],
@@ -14375,22 +14486,33 @@ DeviceModels::$ANDROID_MODELS = [
         'H83(14|24)!'                               => [ 'Sony', 'Xperia XZ2 Compact' ],
         'H84(16)!'                                  => [ 'Sony', 'Xperia XZ3' ],
         'H84(41)!'                                  => [ 'Sony', 'Xperia XZ1 Compact' ],
+        'H94(36|93)!'                               => [ 'Sony', 'Xperia XZ3' ],
     ],
 
     'I[0-9]{4,4}!!' => [
         'I31(13|23)!'                               => [ 'Sony', 'Xperia 10' ],
         'I32(13|23)!'                               => [ 'Sony', 'Xperia 10 Plus' ],
+        'I33(12)!'                                  => [ 'Sony', 'Xperia L3' ],
         'I41(13|93)!'                               => [ 'Sony', 'Xperia 10' ],
         'I42(13|93)!'                               => [ 'Sony', 'Xperia 10 Plus' ],
+        'I43(12|32)!'                               => [ 'Sony', 'Xperia L3' ],
     ],
 
     'J[0-9]{4,4}!!' => [
+        'J81(10|70)!'                               => [ 'Sony', 'Xperia 1' ],
         'J82(10|70)!'                               => [ 'Sony', 'Xperia 5' ],
+        'J91(10)!'                                  => [ 'Sony', 'Xperia 1' ],
         'J92(10|60)!'                               => [ 'Sony', 'Xperia 5' ],
     ],
 
+    'XQ-AT51'                                       => [ 'Sony', 'Xperia 1 II' ],
+    'XQ-BC52'                                       => [ 'Sony', 'Xperia 1 III' ],
     'XQ-AS52'                                       => [ 'Sony', 'Xperia 5 II' ],
     'XQ-AU52'                                       => [ 'Sony', 'Xperia 10 II' ],
+    'XQ-BT52'                                       => [ 'Sony', 'Xperia 10 III' ],
+    'XQ-AD52'                                       => [ 'Sony', 'Xperia L4' ],
+    'XQ-BE52'                                       => [ 'Sony', 'Xperia Pro-I' ],
+    
 
     'E[0-9]{2,2}[a-z]!!' => [
         'E10(a|i|iv)!'                              => [ 'Sony Ericsson', 'Xperia X10 Mini' ],          // Robyn
@@ -15918,6 +16040,7 @@ DeviceModels::$ANDROID_MODELS = [
     ],
 
     'A6S'                                       => [ 'TWM', 'Amazing A6S' ],
+    'Armor 9'                                   => [ 'Ulefone', 'Armor 9' ],
     'Be Touch 2'                                => [ 'Ulefone', 'Be Touch 2' ],
     'Ulefone Be Touch2'                         => [ 'Ulefone', 'Be Touch 2' ],
     'Note 9P'                                   => [ 'Ulefone', 'Note 9P' ],
@@ -15952,6 +16075,8 @@ DeviceModels::$ANDROID_MODELS = [
         'UMI ZERO'                                  => [ 'UMI', 'Zero' ],
     ],
 
+    'A11 Pro Max'                               => [ 'UMI', 'A11 Pro Max' ],
+    'BISON GT'                                  => [ 'UMI', 'Bison GT' ],
     'eMAX mini'                                 => [ 'UMI', 'eMax mini' ],
     'Plus E'                                    => [ 'UMI', 'Plus E' ],
     'Jelly2'                                    => [ 'Unihertz', 'Jelly 2' ],
@@ -16750,6 +16875,7 @@ DeviceModels::$ANDROID_MODELS = [
     'SUBLIM'                                    => [ 'Wiko', 'Sublim' ],
     'SUNSET'                                    => [ 'Wiko', 'Sunset' ],
     'SUNSET2'                                   => [ 'Wiko', 'Sunset 2' ],
+    'View2 Go'                                  => [ 'Wiko', 'View2 Go' ],
     'WAX'                                       => [ 'Wiko', 'Wax' ],
     'Wileyfox Spark'                            => [ 'Wileyfox', 'Spark' ],
     'Wileyfox Spark +'                          => [ 'Wileyfox', 'Spark +' ],
@@ -16954,9 +17080,13 @@ DeviceModels::$ANDROID_MODELS = [
     'MI 8 UD'                                                           => [ 'Xiaomi', 'Mi 8 UD' ],
     'MI 8 Lite'                                                         => [ 'Xiaomi', 'Mi 8 Lite' ],
     'MI 9'                                                              => [ 'Xiaomi', 'Mi 9' ],
+    'Mi 9 Lite'                                                         => [ 'Xiaomi', 'Mi 9 Lite' ],
+    'Mi9 Pro 5G'                                                        => [ 'Xiaomi', 'Mi 9 Pro' ],
+    'Mi 9 SE'                                                           => [ 'Xiaomi', 'Mi 9 SE' ],
     'Mi 9T'                                                             => [ 'Xiaomi', 'Mi 9T' ],
     'Mi 9T Pro'                                                         => [ 'Xiaomi', 'Mi 9T Pro' ],
-    'Mi9 Pro 5G'                                                        => [ 'Xiaomi', 'Mi 9 Pro' ],
+    'Mi 10'                                                             => [ 'Xiaomi', 'Mi 10' ],
+    'Mi Note 10'                                                        => [ 'Xiaomi', 'Mi Note 10' ],
     'Mi Note 10 Lite'                                                   => [ 'Xiaomi', 'Mi Note 10 Lite' ],
     
     '(Xiaomi|Xiaomi Mi|MI) Note!!' => [
@@ -17029,6 +17159,8 @@ DeviceModels::$ANDROID_MODELS = [
         '(Xiaomi )?Redmi[ \-]Note 8$!'                                  => [ 'Xiaomi', 'Redmi Note 8' ],
         '(Xiaomi )?Redmi[ \-]Note 8 Pro!'                               => [ 'Xiaomi', 'Redmi Note 8 Pro' ],
         '(Xiaomi )?Redmi[ \-]Note 8T!'                                  => [ 'Xiaomi', 'Redmi Note 8T' ],
+        '(Xiaomi )?Redmi[ \-]Note 9S!'                                  => [ 'Xiaomi', 'Redmi Note 9S' ],
+        '(Xiaomi )?Redmi[ \-]Note 9 Pro!'                               => [ 'Xiaomi', 'Redmi Note 9 Pro' ],
     ],
 
     '(Xiaomi |HM)?20!!' => [
@@ -17051,17 +17183,31 @@ DeviceModels::$ANDROID_MODELS = [
         '(Xiaomi |HM)?20160(51)!'                                       => [ 'Xiaomi', 'Redmi Note 4' ],
     ],
 
+    '2107113SG'                                                         => [ 'Xiaomi', 'Mi 11T Pro' ],
+    '21081111RG'                                                        => [ 'Xiaomi', 'Mi 11T' ],
+
     'M2002J9G'                                                          => [ 'Xiaomi', 'Mi 10 Lite' ],
+    'M2003J15SC'                                                        => [ 'Xiaomi', 'Redmi Note 9' ],
+    'M2004J19C'                                                         => [ 'Xiaomi', 'Redmi 9' ],
+    'M2006C3LG'                                                         => [ 'Xiaomi', 'Redmi 9A' ],
+    'M2006C3MG'                                                         => [ 'Xiaomi', 'Redmi 9C' ],
     'M2007J17G'                                                         => [ 'Xiaomi', 'Mi 10T Lite' ],
     'M2007J20CG'                                                        => [ 'Xiaomi', 'Poco X3' ],
+    'M2007J22G'                                                         => [ 'Xiaomi', 'Redmi Note 9T' ],
+    'M2007J3SG'                                                         => [ 'Xiaomi', 'Mi 10T Pro' ],
+    'M2007J3SY'                                                         => [ 'Xiaomi', 'Mi 10T' ],
+    'M2010J19CG'                                                        => [ 'Xiaomi', 'Poco M3' ],
     'M2010J19SY'                                                        => [ 'Xiaomi', 'Redmi 9T' ],
+    'M2011K2G'                                                          => [ 'Xiaomi', 'Mi 11' ],
     'M2012K11AG'                                                        => [ 'Xiaomi', 'Poco F3' ],
     'M2012K11G'                                                         => [ 'Xiaomi', 'Mi 11i' ],
     'M2101K6G'                                                          => [ 'Xiaomi', 'Redmi Note 10 Pro' ],
     'M2101K7AG'                                                         => [ 'Xiaomi', 'Redmi Note 10' ],
     'M2101K7BNY'                                                        => [ 'Xiaomi', 'Redmi Note 10s' ],
+    'M2101K9AG'                                                         => [ 'Xiaomi', 'Mi 11 Lite' ],
     'M2101K9G'                                                          => [ 'Xiaomi', 'Mi 11 Lite' ],
     'M2102J20SG'                                                        => [ 'Xiaomi', 'Poco X3 Pro' ],
+    'M2103K19G'                                                         => [ 'Xiaomi', 'Redmi Note 10' ],
 
     '(Xiaomi |HM)?21!!' => [
         '(Xiaomi |HM)?21091(19)!'                                       => [ 'Xiaomi', 'Mi 11 Lite' ],
@@ -17074,6 +17220,7 @@ DeviceModels::$ANDROID_MODELS = [
     'Xiaomi MCT1!'                                                      => [ 'Xiaomi', 'Mi 6' ],
     'Xiaomi MAT136!'                                                    => [ 'Xiaomi', 'Redmi 4X' ],
     'Xiaomi MBT6A5!'                                                    => [ 'Xiaomi', 'Redmi Note 4X' ],
+    'Xiaomi 11T Pro'                                                    => [ 'Xiaomi', '11T Pro' ],
 
     'aqua'                                                              => [ 'Xiaomi', 'Mi 4s' ],
     'capricorn'                                                         => [ 'Xiaomi', 'Mi 5s' ],
@@ -17676,6 +17823,7 @@ DeviceModels::$ANDROID_MODELS = [
         'NX569H'                                    => [ 'ZTE', 'Nubia Z17 Mini' ],
         'NX513J'                                    => [ 'ZTE', 'Nubia My Prague' ],
         'NX601J'                                    => [ 'ZTE', 'Nubia X6' ],
+        'NX669J'                                    => [ 'ZTE', 'Nubia Red Magic 6' ],
     ],
 
     'ZTE K813'                                  => [ 'ZTE', 'K813' ],
@@ -18985,7 +19133,16 @@ DeviceModels::$ANDROID_MODELS = [
 
     'Z4 mini'                                   => [ 'Q-Mobile', 'Noir Quatro Z4 mini' ],
 
+    'RMX1993'                                   => [ 'Realme', 'X2' ],
+    'RMX2002'                                   => [ 'Realme', '6i' ],
+    'RMX2170'                                   => [ 'Realme', '7 Pro' ],
+    'RMX2202'                                   => [ 'Realme', 'GT' ],
+    'RMX3081'                                   => [ 'Realme', '8 Pro' ],
+    'RMX3085'                                   => [ 'Realme', '8' ],
+    'RMX3241'                                   => [ 'Realme', '8 5G' ],
     'RMX3242'                                   => [ 'Realme', 'Narzo 30' ],
+    'RMX3301'                                   => [ 'Realme', 'GT 2 Pro' ],
+    'RMX3311'                                   => [ 'Realme', 'GT 2' ],
     'RMX3363'                                   => [ 'Realme', 'GT Master' ],
 
     'Soshphone 4G'                              => [ 'SoshPhone', '4G' ],
