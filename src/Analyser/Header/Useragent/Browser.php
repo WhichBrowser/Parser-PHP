@@ -1984,10 +1984,18 @@ trait Browser
 
     private function detectMobileBrowsers($ua)
     {
-        if (!preg_match('/(Ninesky|Skyfire|Dolphin|QQ|360|QHBrowser|Mercury|iBrowser|Puffin|MiniB|MxNitro|Sogou|Xiino|Palmscape|WebPro|Vision|MiuiBrowser)/ui', $ua)) {
+        if (!preg_match('/(Huawei|Ninesky|Skyfire|Dolphin|QQ|360|QHBrowser|Mercury|iBrowser|Puffin|MiniB|MxNitro|Sogou|Xiino|Palmscape|WebPro|Vision|MiuiBrowser)/ui', $ua)) {
             return;
         }
 
+        /* Huawei Browser */
+
+        if (preg_match('/HuaweiBrowser\/([0-9.]*)/u', $ua, $match)) {
+            $this->data->browser->name = 'Huawei Browser';
+            $this->data->browser->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->browser->type = Constants\BrowserType::BROWSER;
+        }
+        
         /* Xiaomi MIUI Browser */
 
         if (preg_match('/MiuiBrowser\/([0-9.]*)/u', $ua, $match)) {
