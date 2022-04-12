@@ -122,7 +122,7 @@ trait Camouflage
     {
         if ($this->data->isBrowser('Chrome')) {
             if (preg_match('/(?:Chrome|CrMo|CriOS)\//u', $ua)
-                && !preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9]{1,3}\.[0-9]\.[0-9]{3,4}\.[0-9]+)/u', $ua)
+                && !preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9]{1,3}\.[0-9]\.[0-9]+\.[0-9]+)/u', $ua)
             ) {
                 $this->data->features[] = 'wrongVersion';
                 $this->data->camouflage = true;
