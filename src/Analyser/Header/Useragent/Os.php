@@ -269,9 +269,9 @@ trait Os
 
                     if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Linux\/[0-9.+]+ Android\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                         $candidates[] = $match[1];
-                    } else if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Android(_OS)?\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                    } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Android(_OS)?\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                         $candidates[] = $match[1];
-                    } else if (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
+                    } elseif (preg_match('/^(?U)([^\/]+)(?U)(?:(?:_CMCC_TD|_CMCC|_TD|_TDLTE|_LTE)?\/[^\/]*)? Release\/[0-9.]+/u', $this->removeKnownPrefixes($ua), $match)) {
                         $candidates[] = $match[1];
                     }
                 } elseif (preg_match('/Mozilla\//ui', $ua)) {
@@ -402,9 +402,9 @@ trait Os
 
 
             if (preg_match('/; Android ([0-9\.]+);/u', $ua, $match)) {
-                $this->data->os->family = new Family([ 
-                    'name' => 'Android', 
-                    'version' => new Version([ 'value' => $match[1], 'details' => 3 ]) 
+                $this->data->os->family = new Family([
+                    'name' => 'Android',
+                    'version' => new Version([ 'value' => $match[1], 'details' => 3 ])
                 ]);
             }
         }
@@ -1885,7 +1885,7 @@ trait Os
 
             if (preg_match('/SunOS 5\.([123456](?:\.[0-9\.]*)?) /u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => '2.' . $match[1] ]);
-            } else if (preg_match('/SunOS 5\.([0-9\.]*)/u', $ua, $match)) {
+            } elseif (preg_match('/SunOS 5\.([0-9\.]*)/u', $ua, $match)) {
                 $this->data->os->version = new Version([ 'value' => $match[1] ]);
             }
 
