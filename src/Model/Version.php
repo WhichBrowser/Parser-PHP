@@ -91,7 +91,7 @@ class Version extends Base
 
     public function getParts()
     {
-        $parts = explode('.', $this->value);
+        $parts = !is_null($this->value) ? explode('.', $this->value) : [];
 
         return (object) [
             'major' => !empty($parts[0]) ? intval($parts[0]) : 0,

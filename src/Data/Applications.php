@@ -78,6 +78,10 @@ class Applications
     }
     public static function identifyBot($ua)
     {
+        if (is_null($ua)) {
+            return;
+        }
+
         require_once __DIR__ . '/../../data/regexes/applications-bots.php';
 
         if (preg_match(self::$BOTS_REGEX, $ua)) {
