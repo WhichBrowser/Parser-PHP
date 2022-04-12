@@ -277,7 +277,7 @@ trait Os
                 } elseif (preg_match('/Mozilla\//ui', $ua)) {
                     /* Old Android useragent strings */
 
-                    if (preg_match('/Linux; (?:arm; |arm_64; )?(?:U; )?Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^)\/;]+)\)/u', $ua, $match)) {
+                    if (preg_match('/Linux; (?:arm; |arm_64; )?(?:U; )?Android [^;]+; (?:[a-zA-Z][a-zA-Z](?:[-_][a-zA-Z][a-zA-Z])?; )?(?:[^;]+; ?)?([^\/;]+)\) /u', $ua, $match)) {
                         $candidates[] = $match[1];
                     } elseif (preg_match('/\(([^;]+);U;Android\/[^;]+;[0-9]+\*[0-9]+;CTC\/2.0\)/u', $ua, $match)) {
                         $candidates[] = $match[1];
