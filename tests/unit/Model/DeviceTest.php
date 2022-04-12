@@ -266,14 +266,14 @@ class DeviceTest extends TestCase
 
         $device->setIdentification([
             'manufacturer'  =>  'Sony',
-            'model'         =>  'Playstation 4',
+            'model'         =>  'PlayStation 4',
             'type'          =>  Constants\DeviceType::GAMING,
             'subtype'       =>  Constants\DeviceSubType::CONSOLE
         ]);
 
         $this->assertEquals([
             'manufacturer'  =>  'Sony',
-            'model'         =>  'Playstation 4',
+            'model'         =>  'PlayStation 4',
             'type'          =>  Constants\DeviceType::GAMING,
             'subtype'       =>  Constants\DeviceSubType::CONSOLE
         ], $device->toArray());
