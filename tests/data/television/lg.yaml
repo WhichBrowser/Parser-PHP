@@ -322,3 +322,27 @@
     headers: 'User-Agent: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ Hybridcast/1.0(;00E091;webOSTV3_0;2;2;)0'
     readable: 'a LG webOS TV'
     result: { engine: { name: Webkit, version: '537.1' }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager'
+    readable: 'a LG webOS TV'
+    result: { browser: { family: { name: Chrome, version: 79 }, type: browser }, engine: { name: Blink }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 WebAppManager'
+    readable: 'a LG webOS TV'
+    result: { browser: { family: { name: Chrome, version: 68 }, type: browser }, engine: { name: Blink }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36 WebAppManager'
+    readable: 'a LG webOS TV'
+    result: { browser: { family: { name: Chrome, version: 53 }, type: browser }, engine: { name: Blink }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 WebAppManager'
+    readable: 'Qt 5.2.1 on a LG webOS TV'
+    result: { browser: { using: { name: Qt, version: 5.2.1 }, family: { name: Chrome, version: 38 }, type: browser }, engine: { name: Blink }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen WebAppManager Safari/538.2'
+    readable: 'a LG webOS TV'
+    result: { engine: { name: Webkit, version: '538.2' }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
+    readable: 'a LG webOS TV'
+    result: { engine: { name: Webkit, version: '537.41' }, os: { name: webOS }, device: { type: television, manufacturer: LG, series: 'webOS TV' } }

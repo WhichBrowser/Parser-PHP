@@ -1529,7 +1529,7 @@ trait Os
     {
         if (preg_match('/(?:web|hpw)OS\/(?:HP webOS )?([0-9.]*)/u', $ua, $match)) {
             $this->data->os->name = 'webOS';
-            $this->data->os->version = new Version([ 'value' => $match[1], 'details' => 2 ]);
+            $this->data->os->version = new Version([ 'value' => $match[1] ]);
             $this->data->device->type = preg_match('/Tablet/iu', $ua) ? Constants\DeviceType::TABLET : Constants\DeviceType::MOBILE;
             $this->data->device->generic = false;
         }
