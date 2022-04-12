@@ -1,0 +1,8 @@
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; HarmonyOS; DVC-AN20; HMSCore 6.4.0.312) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.105 HuaweiBrowser/12.0.1.302 Mobile Safari/537.36'
+    readable: 'Huawei Browser 12.0 on a Huawei Enjoy 20 Pro running Harmony OS'
+    result: { browser: { name: 'Huawei Browser', family: { name: Chrome, version: 92 }, version: '12.0', type: browser }, engine: { name: Blink }, os: { name: 'Harmony OS', family: { name: Android, version: '10' } }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Enjoy 20 Pro' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; HarmonyOS; HLK-AL00; HMSCore 6.3.0.327; GMSCore 21.33.14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.105 HuaweiBrowser/12.0.0.303 Mobile Safari/537.36'
+    readable: 'Huawei Browser 12.0 on a Huawei Honor 9X running Harmony OS'
+    result: { browser: { name: 'Huawei Browser', family: { name: Chrome, version: 92 }, version: '12.0', type: browser }, engine: { name: Blink }, os: { name: 'Harmony OS', family: { name: Android, version: '10' } }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'Honor 9X' } }

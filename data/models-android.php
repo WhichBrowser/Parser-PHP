@@ -6292,7 +6292,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?CRR-(L09|CL00|CL20|TL00|UL00|UL20)!'             => [ 'Huawei', 'Mate S' ],
     ],
 
-    '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!' => [
+    '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!' => [
         '(HW-|HUAWEI )?TIT-(AL00|CL00|CL10|L01|TL00|U02)!'              => [ 'Huawei', 'Enjoy 5' ],
         '(HW-|HUAWEI )?TAG-(AL00|CL00|L13|TL00)!'                       => [ 'Huawei', 'Enjoy 5S' ],
         '(HW-|HUAWEI )?NCE-(AL00|AL10|TL10)!'                           => [ 'Huawei', 'Enjoy 6' ],
@@ -6304,6 +6304,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?POT-(AL00a|LX1|LX1AF|LX1T|LX2J|LX3)!'            => [ 'Huawei', 'Enjoy 9S' ],
         '(HW-|HUAWEI )?MRD-(AL00|LX1|LX1F|LX1N|LX2|LX3)!'               => [ 'Huawei', 'Enjoy 9e' ],
         '(HW-|HUAWEI )?JKM-(AL00|AL00a|AL00b|LX1|LX2|LX3|TL00)!'        => [ 'Huawei', 'Enjoy 9 Plus' ],
+        '(HW-|HUAWEI )?DVC-(AN20)!'                                     => [ 'Huawei', 'Enjoy 20 Pro' ],
     ],
 
     '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|NTH|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!' => [

@@ -366,3 +366,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(9) play) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36'
     readable: 'Chrome 100 on a Motorola Moto G9 Play running Android 11'
     result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '11' }, device: { type: mobile, subtype: smart, manufacturer: Motorola, model: 'Moto G9 Play' } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; ELS-NX9; HMSCore 6.4.0.312) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.105 HuaweiBrowser/12.0.1.302 Mobile Safari/537.36'
+    readable: 'Huawei Browser 12.0 on a Huawei P40 Pro running Android 10'
+    result: { browser: { name: 'Huawei Browser', family: { name: Chrome, version: 92 }, version: '12.0', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart, manufacturer: Huawei, model: 'P40 Pro' } }

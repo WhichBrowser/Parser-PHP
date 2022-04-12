@@ -310,6 +310,8 @@ trait Os
                     $candidates[$c] = preg_replace('/^[a-zA-Z][a-zA-Z][-_][a-zA-Z][a-zA-Z]\s+/u', '', $candidates[$c]);
                     $candidates[$c] = preg_replace('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', '\\1', $candidates[$c]);
                     $candidates[$c] = preg_replace('/^sprd-/u', '', $candidates[$c]);
+                    $candidates[$c] = preg_replace('/^HarmonyOS; /u', '', $candidates[$c]);
+                    $candidates[$c] = preg_replace('/; GMSCore.*/u', '', $candidates[$c]);
                     $candidates[$c] = preg_replace('/; HMSCore.*/u', '', $candidates[$c]);
                 }
 
@@ -390,6 +392,23 @@ trait Os
                 $this->data->device = $device;
             }
         }
+
+
+        /* Harmony OS */
+
+        if (preg_match('/HarmonyOS/u', $ua)) {
+            $this->data->os->name = 'Harmony OS';
+            $this->data->os->version = new Version();
+
+
+            if (preg_match('/; Android ([0-9\.]+);/u', $ua, $match)) {
+                $this->data->os->family = new Family([ 
+                    'name' => 'Android', 
+                    'version' => new Version([ 'value' => $match[1], 'details' => 3 ]) 
+                ]);
+            }
+        }
+
 
         /* Aliyun OS */
 

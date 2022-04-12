@@ -15,7 +15,7 @@ DeviceModels::$ANDROID_INDEX = array (
     7 => '(Hisense )?(LED[0-9]{2,2}(G|K|L|EC|XT)[0-9]{2,3})!',
     8 => '[SX06][0-9]{2,2}HT!!',
     9 => '(Huawei )?[MSTX](1|2|7|8|10)\\-[A-Z0-9][0-9]{2,2}!!',
-    10 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    10 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     11 => 'G[0-9]{3,3}!!',
     12 => 'Y[0-9]{3,3}!!',
     13 => '[0-9AS][0-9]{2,2}HW!!',
@@ -1030,7 +1030,7 @@ DeviceModels::$ANDROID_INDEX = array (
     13 => 'AT1G*',
     14 => 'AT7E',
     15 => 'ATP515CKIT',
-    16 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    16 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     17 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|NTH|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!',
     18 => 'aTab9.7 IPS',
     19 => 'AT735',
@@ -1877,7 +1877,7 @@ DeviceModels::$ANDROID_INDEX = array (
     0 => 'Dream',
     1 => '(GIO-)?(GiONEE[- ])?Dream D1!',
     2 => 'Droid Incredible',
-    3 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    3 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     4 => 'DroniX-0.5',
     5 => 'Droid',
     6 => 'DROID',
@@ -1924,6 +1924,10 @@ DeviceModels::$ANDROID_INDEX = array (
   array (
     0 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|NTH|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!',
     1 => '(HW-|HUAWEI )?(AMN|ART|CRO|LUA|CUN|DUB|SCC|SCU|CAM|LDN|LYO|MYA)!!',
+  ),
+  '@DV' => 
+  array (
+    0 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
   ),
   '@DW' => 
   array (
@@ -2300,7 +2304,7 @@ DeviceModels::$ANDROID_INDEX = array (
     25 => 'Flylife!!',
     26 => 'Fly Flylife Web 7.85 Slim',
     27 => 'Flyer',
-    28 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    28 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     29 => 'Flair E1',
     30 => 'Flair E2',
     31 => 'FlairE3',
@@ -2962,7 +2966,7 @@ DeviceModels::$ANDROID_INDEX = array (
     7 => '(Huawei )?[MSTX](1|2|7|8|10)\\-[A-Z0-9][0-9]{2,2}!!',
     8 => 'HUAWEI GEM-703L',
     9 => '(HUAWEI )?(ALP|BLA|CRR|EVR|HMA|LIO|LON|LYA|MATE|MHA|MT1|MT2|MT7|M200|NXT|SNE|TAS|Z100)!!',
-    10 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    10 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     11 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|NTH|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!',
     12 => '(HW-|HUAWEI )?(BLL|CHC|TAG|KII)!!',
     13 => '(HW-|HUAWEI )?(ALE|ANA|ANE|CLT|D2|DAV|ELE|ELS|EML|EVA|FIG|G6|G7|GRA|JNY|MAR|M100|P2|P6|P7|PRA|RIO|SC|Sophia|STK|VIE|VKY|VNS|VOG|VTR|WAS)!!',
@@ -2992,7 +2996,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@HW' => 
   array (
-    0 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    0 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     1 => '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BKK|BND|CHE|CHM|COL|COR|DUA|DUK|DLI|EDI|FRD|HLK|HN3|H30|H60|HOL|HRY|JAT|JMM|JSN|LRA|KIW|LLD|NEM|NMO|NTH|OXF|PE|PCT|PLK|RNE|SCL|TNY|KNT|CAM|STF|HDN|YAL)!!',
     2 => '(HW-|HUAWEI )?(BLL|CHC|TAG|KII)!!',
     3 => '(HW-|HUAWEI )?(ALE|ANA|ANE|CLT|D2|DAV|ELE|ELS|EML|EVA|FIG|G6|G7|GRA|JNY|MAR|M100|P2|P6|P7|PRA|RIO|SC|Sophia|STK|VIE|VKY|VNS|VOG|VTR|WAS)!!',
@@ -3271,7 +3275,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@JK' => 
   array (
-    0 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    0 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
   ),
   '@JM' => 
   array (
@@ -4388,7 +4392,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@MR' => 
   array (
-    0 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    0 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
   ),
   '@MS' => 
   array (
@@ -4657,7 +4661,7 @@ DeviceModels::$ANDROID_INDEX = array (
   ),
   '@NC' => 
   array (
-    0 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    0 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
   ),
   '@NE' => 
   array (
@@ -5767,7 +5771,7 @@ DeviceModels::$ANDROID_INDEX = array (
   '@PO' => 
   array (
     0 => '(Highscreen|Alpha|Bay|Boost|Cosmo|Explosion|Power|Prime|Zera)!!',
-    1 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    1 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     2 => 'PocketBook A7',
     3 => 'PocketBook A10',
     4 => 'PocketBook A10 3G',
@@ -6617,7 +6621,7 @@ DeviceModels::$ANDROID_INDEX = array (
     0 => 'Slider SL101',
     1 => 'SL930',
     2 => '(HP|Slate)!!',
-    3 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    3 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     4 => 'Slidepad!!',
     5 => 'SLIDE',
   ),
@@ -6969,7 +6973,7 @@ DeviceModels::$ANDROID_INDEX = array (
     6 => 'TA10CA3',
     7 => '(tablet )?fnac!!',
     8 => '(HUAWEI )?(ALP|BLA|CRR|EVR|HMA|LIO|LON|LYA|MATE|MHA|MT1|MT2|MT7|M200|NXT|SNE|TAS|Z100)!!',
-    9 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    9 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     10 => '(HW-|HUAWEI )?(BLL|CHC|TAG|KII)!!',
     11 => 'TA-FONE!!',
     12 => 'TAB1011',
@@ -7152,7 +7156,7 @@ DeviceModels::$ANDROID_INDEX = array (
     0 => 'Tilapia',
     1 => 'Titan TV S320',
     2 => 'TIQ-1049',
-    3 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    3 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     4 => '(Karbonn|Titanium)!!',
     5 => 'TI320-DU',
     6 => 'TI320-DU TV',
@@ -7275,7 +7279,7 @@ DeviceModels::$ANDROID_INDEX = array (
     15 => 'Trekker-X4',
     16 => 'TR10CS1',
     17 => 'TripNiCE Pyramid',
-    18 => '(HW-|HUAWEI )?(ATU|DRA|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
+    18 => '(HW-|HUAWEI )?(ATU|DRA|DVC|FLA|JKM|TIT|TAG||MRD|NCE|POT|TRT|SLA)!!',
     19 => 'TR10RS1',
     20 => '(KAZAM|Thunder|Tornado|Trooper)!!',
     21 => 'Triumph',
