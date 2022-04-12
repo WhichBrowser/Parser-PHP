@@ -310,6 +310,7 @@ trait Os
                     $candidates[$c] = preg_replace('/^[a-zA-Z][a-zA-Z][-_][a-zA-Z][a-zA-Z]\s+/u', '', $candidates[$c]);
                     $candidates[$c] = preg_replace('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', '\\1', $candidates[$c]);
                     $candidates[$c] = preg_replace('/^sprd-/u', '', $candidates[$c]);
+                    $candidates[$c] = preg_replace('/; HMSCore.*/u', '', $candidates[$c]);
                 }
 
                 $candidates = array_unique($candidates);
