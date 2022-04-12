@@ -18,3 +18,7 @@
     headers: 'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Xbox)'
     result: { browser: { name: 'Internet Explorer', version: '9.0', type: browser }, engine: { name: Trident, version: '5.0' }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox 360' } }
     readable: 'Internet Explorer 9.0 on a Microsoft Xbox 360'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox Series X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 Edge/20.02'
+    result: { browser: { name: Edge, version: '20', type: browser }, engine: { name: EdgeHTML, version: '20.02' }, device: { type: gaming, subtype: console, manufacturer: Microsoft, model: 'Xbox Series X' } }
+    readable: 'Edge 20 on a Microsoft Xbox Series X'

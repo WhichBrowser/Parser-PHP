@@ -19,10 +19,6 @@ trait Gaming
         $this->detectSega($ua);
     }
 
-
-
-
-
     /* Nintendo Wii and DS */
 
     private function detectNintendo($ua)
@@ -214,20 +210,7 @@ trait Gaming
 
     private function detectXbox($ua)
     {
-        /* Xbox 360 */
-
-        if (preg_match('/Xbox\)$/u', $ua, $match)) {
-            $this->data->os->reset();
-            $this->data->device->setIdentification([
-                'manufacturer'  =>  'Microsoft',
-                'model'         =>  'Xbox 360',
-                'type'          =>  Constants\DeviceType::GAMING,
-                'subtype'       =>  Constants\DeviceSubType::CONSOLE
-            ]);
-        }
-
         /* Xbox One */
-
         if (preg_match('/Xbox One\)/u', $ua, $match)) {
             if ($this->data->isOs('Windows Phone', '=', '10')) {
                 $this->data->os->name = 'Windows';
@@ -241,6 +224,26 @@ trait Gaming
             $this->data->device->setIdentification([
                 'manufacturer'  =>  'Microsoft',
                 'model'         =>  'Xbox One',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+
+        /* Xbox Series X */
+        } elseif (preg_match('/Xbox Series X\)/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Microsoft',
+                'model'         =>  'Xbox Series X',
+                'type'          =>  Constants\DeviceType::GAMING,
+                'subtype'       =>  Constants\DeviceSubType::CONSOLE
+            ]);
+        
+        /* Xbox 360 */
+        } elseif (preg_match('/Xbox\)$/u', $ua, $match)) {
+            $this->data->os->reset();
+            $this->data->device->setIdentification([
+                'manufacturer'  =>  'Microsoft',
+                'model'         =>  'Xbox 360',
                 'type'          =>  Constants\DeviceType::GAMING,
                 'subtype'       =>  Constants\DeviceSubType::CONSOLE
             ]);
