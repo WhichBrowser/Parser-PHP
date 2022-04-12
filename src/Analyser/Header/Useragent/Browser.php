@@ -132,24 +132,35 @@ trait Browser
             $this->data->browser->type = Constants\BrowserType::BROWSER;
             $this->data->browser->stock = false;
 
+            $reduced = false;
             $version = '';
+
             if (preg_match('/(?:Chrome|CrMo|CriOS)\/([0-9.]*)/u', $ua, $match)) {
                 $version = $match[1];
             }
             if (preg_match('/Browser\/Chrome([0-9.]*)/u', $ua, $match)) {
                 $version = $match[1];
             }
+
+            if (preg_match('/Chrome\/(95|96|97|98|99|[1-9][0-9][0-9])\.0\.0\.0 /u', $ua)) {
+                $reduced = true;
+            }
+
             $this->data->browser->version = new Version([ 'value' => $version ]);
 
             if (isset($this->data->os->name) && $this->data->os->name == 'Android') {
-                $channel = Data\Chrome::getChannel('mobile', $this->data->browser->version->value);
-
-                if ($channel == 'stable') {
+                if ($reduced) {
                     $this->data->browser->version->details = 1;
-                } elseif ($channel == 'beta') {
-                    $this->data->browser->channel = 'Beta';
                 } else {
-                    $this->data->browser->channel = 'Dev';
+                    $channel = Data\Chrome::getChannel('mobile', $this->data->browser->version->value);
+
+                    if ($channel == 'stable') {
+                        $this->data->browser->version->details = 1;
+                    } elseif ($channel == 'beta') {
+                        $this->data->browser->channel = 'Beta';
+                    } else {
+                        $this->data->browser->channel = 'Dev';
+                    }
                 }
 
 
@@ -274,18 +285,22 @@ trait Browser
                 $this->data->device->identified |= Constants\Id::PATTERN;
                 $this->data->device->type = Constants\DeviceType::DESKTOP;
             } else {
-                $channel = Data\Chrome::getChannel('desktop', $version);
-
-                if ($channel == 'stable') {
-                    if (explode('.', $version)[1] == '0') {
-                        $this->data->browser->version->details = 1;
-                    } else {
-                        $this->data->browser->version->details = 2;
-                    }
-                } elseif ($channel == 'beta') {
-                    $this->data->browser->channel = 'Beta';
+                if ($reduced) {
+                    $this->data->browser->version->details = 1;
                 } else {
-                    $this->data->browser->channel = 'Dev';
+                    $channel = Data\Chrome::getChannel('desktop', $version);
+
+                    if ($channel == 'stable') {
+                        if (explode('.', $version)[1] == '0') {
+                            $this->data->browser->version->details = 1;
+                        } else {
+                            $this->data->browser->version->details = 2;
+                        }
+                    } elseif ($channel == 'beta') {
+                        $this->data->browser->channel = 'Beta';
+                    } else {
+                        $this->data->browser->channel = 'Dev';
+                    }
                 }
             }
 

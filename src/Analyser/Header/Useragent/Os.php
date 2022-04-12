@@ -307,6 +307,13 @@ trait Os
                         continue;
                     }
 
+                    /* Ignore "K" as a device, as it is a dummy value used by Chrome UA reduction */
+
+                    if ($candidates[$c] == 'K') {
+                        unset($candidates[$c]);
+                        continue;
+                    }
+
                     $candidates[$c] = preg_replace('/^[a-zA-Z][a-zA-Z][-_][a-zA-Z][a-zA-Z]\s+/u', '', $candidates[$c]);
                     $candidates[$c] = preg_replace('/(.*) - [0-9\.]+ - (?:with Google Apps - )?API [0-9]+ - [0-9]+x[0-9]+/', '\\1', $candidates[$c]);
                     $candidates[$c] = preg_replace('/^sprd-/u', '', $candidates[$c]);

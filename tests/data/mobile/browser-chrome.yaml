@@ -290,3 +290,15 @@
     headers: 'User-Agent: m2 note/4.5 Linux/3.10.65 Android/5.1 Release/08.17.2015 Browser/Chrome40.0.2214.114 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     result: { browser: { name: Chrome, version: '40', type: browser }, os: { name: Android, version: '5.1' }, device: { type: mobile, subtype: smart, manufacturer: Meizu, model: 'M2 Note' } }
     readable: 'Chrome 40 on a Meizu M2 Note running Android 5.1'
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Mobile Safari/537.36'
+    readable: 'Chrome 100 on Android 10'
+    result: { browser: { name: Chrome, version: '100', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.0.0 Mobile Safari/537.36'
+    readable: 'Chrome 96 on Android 10'
+    result: { browser: { name: Chrome, version: '96', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.0.0 Mobile Safari/537.36'
+    readable: 'Chrome 97 on Android 10'
+    result: { browser: { name: Chrome, version: '97', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart } }
