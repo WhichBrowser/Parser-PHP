@@ -260,7 +260,7 @@ trait Os
                     if (preg_match('/;\+? ?(?:\*\*)?([^;]*[^;\s]);?\s+(?:BUILD|Build|build)/u', $ua, $match)) {
                         $candidates[] = $match[1];
                     }
-                } elseif (preg_match('/\(Linux; Android [0-9\.]+; ([^\/]+)\) AppleWebKit/u', $ua, $match)) {
+                } elseif (preg_match('/\(Linux; Android [0-9\.]+; ([^\/]+)(; wv)?\) AppleWebKit/u', $ua, $match)) {
                     /* New style minimal Android useragent string */
 
                     $candidates[] = $match[1];
@@ -307,9 +307,9 @@ trait Os
                         continue;
                     }
 
-                    /* Ignore "K" as a device, as it is a dummy value used by Chrome UA reduction */
+                    /* Ignore "K" or "Unspecified Device" as a device, as it is a dummy value used by Chrome UA reduction */
 
-                    if ($candidates[$c] == 'K') {
+                    if ($candidates[$c] == 'K' || $candidates[$c] == 'Unspecified Device') {
                         unset($candidates[$c]);
                         continue;
                     }

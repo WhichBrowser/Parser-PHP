@@ -142,7 +142,7 @@ trait Browser
                 $version = $match[1];
             }
 
-            if (preg_match('/Chrome\/(95|96|97|98|99|[1-9][0-9][0-9])\.0\.0\.0 /u', $ua)) {
+            if (preg_match('/Chrome\/([789][0-9]|[1-9][0-9][0-9])\.0\.0\.0 /u', $ua)) {
                 $reduced = true;
             }
 

@@ -302,3 +302,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.0.0 Mobile Safari/537.36'
     readable: 'Chrome 97 on Android 10'
     result: { browser: { name: Chrome, version: '97', type: browser }, engine: { name: Blink }, os: { name: Android, version: '10' }, device: { type: mobile, subtype: smart } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Linux; Android 9; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.0.0 Mobile Safari/537.36'
+    readable: 'Chrome 90 on Android 9'
+    result: { browser: { name: Chrome, version: '90', type: browser }, engine: { name: Blink }, os: { name: Android, version: '9' }, device: { type: mobile, subtype: smart } }
