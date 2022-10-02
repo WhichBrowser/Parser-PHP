@@ -4,6 +4,8 @@ namespace WhichBrowser\Analyser\Header;
 
 class Baidu
 {
+    private $data;
+
     public function __construct($header, &$data)
     {
         $this->data =& $data;
