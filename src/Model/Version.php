@@ -53,7 +53,7 @@ class Version extends Base
                 $compare = $arguments[1];
             }
 
-            if (!is_null($compare)) {
+            if (!is_null($compare) && !is_null($this->value)) {
                 $min = min(substr_count($this->value, '.'), substr_count($compare, '.')) + 1;
 
                 $v1 = $this->toValue($this->value, $min);

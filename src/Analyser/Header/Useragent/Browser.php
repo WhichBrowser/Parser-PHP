@@ -722,6 +722,7 @@ trait Browser
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = null;
 
             if (preg_match('/Firefox\/([0-9ab.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
@@ -783,6 +784,7 @@ trait Browser
             $this->data->browser->name = 'Firefox';
             $this->data->browser->channel = str_replace('GranParadiso', 'Gran Paradiso', $match[1]);
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = null;
 
             if (preg_match('/' . $match[1] . '\/([0-9ab.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
@@ -793,6 +795,7 @@ trait Browser
             $this->data->browser->stock = false;
             $this->data->browser->name = 'Firefox Mobile';
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = null;
 
             if (preg_match('/Fennec\/([0-9ab.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
@@ -805,6 +808,7 @@ trait Browser
             $this->data->browser->stock = false;
             $this->data->browser->name = $match[1];
             $this->data->browser->type = Constants\BrowserType::BROWSER;
+            $this->data->browser->version = null;
 
             if (preg_match('/' . $match[1] . '\/([0-9ab.]*)/u', $ua, $match)) {
                 $this->data->browser->version = new Version([ 'value' => $match[1] ]);
