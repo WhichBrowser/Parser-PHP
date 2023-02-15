@@ -7,6 +7,8 @@ use WhichBrowser\Constants;
 
 class UCBrowserOld
 {
+    protected $data;
+
     public function __construct($header, &$data)
     {
         $this->data =& $data;
