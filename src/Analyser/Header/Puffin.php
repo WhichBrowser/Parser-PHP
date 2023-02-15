@@ -6,6 +6,8 @@ use WhichBrowser\Data;
 
 class Puffin
 {
+    protected $data;
+
     public function __construct($header, &$data)
     {
         $this->data =& $data;

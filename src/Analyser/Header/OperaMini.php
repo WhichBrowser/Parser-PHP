@@ -7,6 +7,8 @@ use WhichBrowser\Constants;
 
 class OperaMini
 {
+    protected $data;
+
     public function __construct($header, &$data)
     {
         $this->data =& $data;

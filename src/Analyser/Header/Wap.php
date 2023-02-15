@@ -7,6 +7,8 @@ use WhichBrowser\Data;
 
 class Wap
 {
+    protected $data;
+
     public function __construct($header, &$data)
     {
         $this->data =& $data;
