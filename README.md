@@ -2,30 +2,6 @@
 
 This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
-
-WhichBrowser/Parser-PHP
-=======================
-
-The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 7.0 or higher, including PHP 8 (with 8.2)
-
-![Build](https://github.com/WhichBrowser/Parser-PHP/workflows/Build/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
-[![License](https://poser.pugx.org/whichbrowser/parser/license)](https://packagist.org/packages/whichbrowser/parser)
-[![Latest Stable Version](https://poser.pugx.org/whichbrowser/parser/v/stable)](https://packagist.org/packages/whichbrowser/parser)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/whichbrowserlib.svg?style=social)](https://twitter.com/whichbrowserlib)
-
-Also available:
-
-- [WhichBrowser/Parser-JavaScript](https://github.com/WhichBrowser/Parser-JavaScript)<br>
-  A JavaScript version of WhichBrowser for use with Node.js on the server
-
-- [WhichBrowser/Server](https://github.com/WhichBrowser/Server)<br>
-  A server written in PHP that provides a JavaScript API for use in the browser
-
----
-
-
 About WhichBrowser
 ------------------
 
@@ -66,11 +42,11 @@ How to install it
 
 You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/parser`.
 
-    composer require whichbrowser/parser
+    composer require nadar/parser
 
 You can easily update WhichBrowser by running a simple command.
 
-    composer update whichbrowser/parser
+    composer update nadar/parser
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
