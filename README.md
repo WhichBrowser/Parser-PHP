@@ -1,4 +1,4 @@
-<img src="https://api.whichbrowser.net/whichbrowser.svg" width="400">
+> **This fork is required because the project seems to be abandoned, but we there are some php 8.2 fixes required**
 
 This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
@@ -6,7 +6,7 @@ This is an extremely complicated and almost completely useless browser sniffing 
 WhichBrowser/Parser-PHP
 =======================
 
-The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 7.0 or higher, including PHP 8.
+The PHP version of WhichBrowser for use on a server. Fully compatible with PHP 7.0 or higher, including PHP 8 (with 8.2)
 
 ![Build](https://github.com/WhichBrowser/Parser-PHP/workflows/Build/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/WhichBrowser/Parser-PHP/badge.svg?branch=master&service=github)](https://coveralls.io/github/WhichBrowser/Parser-PHP?branch=master)
