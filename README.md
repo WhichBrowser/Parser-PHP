@@ -1,4 +1,4 @@
-> **This fork is required because the project seems to be abandoned, but we there are some php 8.2 fixes required. See => https://github.com/WhichBrowser/Parser-PHP/pull/673**
+> **This fork is required because the project seems to be abandoned, but there are some php 8.2 fixes required. See => https://github.com/WhichBrowser/Parser-PHP/pull/673**
 
 This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
