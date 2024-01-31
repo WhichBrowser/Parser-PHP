@@ -6,6 +6,7 @@ use WhichBrowser\Model\Primitive\NameVersion;
 
 class Os extends NameVersion
 {
+    public $build;
     /**
      * @var \WhichBrowser\Model\Family      $family     To which family does this operating system belong
      */
