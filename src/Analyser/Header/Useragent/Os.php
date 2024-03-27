@@ -589,7 +589,8 @@ trait Os
             $this->data->device->type = Constants\DeviceType::DESKTOP;
         }
     }
-
+   
+    // updated for php 8.2x
     private function determineAndroidVersionBasedOnBuild($ua)
     {
         if ($this->data->isOs('Android')) {
@@ -599,14 +600,14 @@ trait Os
                     if (!isset($this->data->os->version) || $this->data->os->version == null || $this->data->os->version->value == null || $version->toFloat() < $this->data->os->version->toFloat()) {
                         $this->data->os->version = $version;
                     }
-
+    
                     /* Special case for Android L */
                     if ($version->toFloat() == 5) {
                         $this->data->os->version = $version;
                     }
                 }
-
-                $this->data->os->build = $match[1];
+    
+                $this->data->os->setBuild($match[1]);
             }
         }
     }
