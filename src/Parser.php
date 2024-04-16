@@ -25,6 +25,28 @@ class Parser extends Main
     }
 
     /**
+     * Create a new Parser instance from a user agent string
+     *
+     * @param  string   $agent     Required, a string containing the raw User-Agent
+     * @param  array    $options   Optional, an array with configuration options
+     */
+    public static function fromUserAgent($agent, array $options = [])
+    {
+        return new static($agent, $options);
+    }
+
+    /**
+     * Create a new Parser instance from a user agent string
+     *
+     * @param  array    $headers    Required, an array with all of the headers
+     * @param  array    $options    Optional, an array with configuration options
+     */
+    public static function fromHeaders(array $headers, array $options = [])
+    {
+        return new static($headers, $options);
+    }
+
+    /**
      * Analyse the provided headers or User-Agent string
      *
      * @param  array|string   $headers   An array with all of the headers or a string with just the User-Agent header
