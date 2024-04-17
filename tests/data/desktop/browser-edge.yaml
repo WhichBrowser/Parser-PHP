@@ -38,3 +38,7 @@
     headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3782.0 Safari/537.36 Edg/76.0.152.0'
     readable: 'Edge 76 on macOS Mojave 10.14'
     result: { browser: { name: Edge, family: { name: Chrome, version: 76 }, version: '76', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS, version: { value: '10.14', nickname: Mojave } }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
+-
+    headers: 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0'
+    readable: 'Edge 123 on macOS'
+    result: { browser: { name: Edge, family: { name: Chrome, version: 123 }, version: '123', type: browser }, engine: { name: Blink }, os: { name: 'OS X', alias: macOS }, device: { type: desktop, manufacturer: Apple, model: Macintosh } }
